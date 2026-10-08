@@ -1,7 +1,7 @@
 {
   "week": "2026-W41",
-  "spent": 1720.06,
-  "deployed": 103875.0,
+  "spent": 2595.06,
+  "deployed": 104750.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 13.17,
@@ -10,7 +10,9 @@
     "TSM": 500.0,
     "IBP": 550.0,
     "UNH": 375.0,
-    "NOC": 325.0
+    "NOC": 325.0,
+    "PPG": 375.0,
+    "HUBB": 500.0
   },
   "deployed_by_ticker": {
     "AVGO": 8250.0,
@@ -27,9 +29,10 @@
     "GS": 9041.67,
     "IBM": 6740.74,
     "AMGN": 5402.78,
-    "HUBB": 1250.0,
+    "HUBB": 1750.0,
     "IBP": 550.0,
-    "NOC": 325.0
+    "NOC": 325.0,
+    "PPG": 375.0
   },
   "orders": [
     {
@@ -2111,12 +2114,54 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "PPG",
+      "notional": 375.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.584681,
+      "price": 104.61,
+      "date": "2026-10-08",
+      "time_et": "12:40",
+      "ts": 1791477637,
+      "why": "Fresh congress disclosure on PPG not yet held, diversifies into materials sector, small size given PPG signal mix is on probation [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "Lloyd Doggett disclosed PPG buy $1k-15k on 2026-10-05 (transaction 2026-09-11)",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "HUBB",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.038632,
+      "price": 481.4,
+      "date": "2026-10-08",
+      "time_et": "12:40",
+      "ts": 1791477637,
+      "why": "Congress buy pressure score 3.0 (highest tier) plus positive momentum confirms the name, re-entering after cooldown cleared [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "April McClain Delaney multiple disclosed buys on HUBB; HUBB +1.22% 1d, +3.05% 5d, +5.77% 1m, 79.9% of day range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 1720.06,
-  "deployed_today": 16625.0,
-  "orders_today": 17,
+  "spent_today": 2595.06,
+  "deployed_today": 17500.0,
+  "orders_today": 19,
   "sells_today": 13,
   "sold_today": [
     "PG",
@@ -2149,8 +2194,8 @@
     "AMGN": 1791476471,
     "HUBB": 1791473364
   },
-  "last_publish_ts": 1791476719,
-  "last_check_ts": 1791477548,
+  "last_publish_ts": 1791477637,
+  "last_check_ts": 1791477637,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -2187,30 +2232,54 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "PPG": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "HUBB": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
-  "last_bar_ts": 1791477300,
-  "last_decision_ts": 1791476719,
+  "last_bar_ts": 1791477600,
+  "last_decision_ts": 1791477637,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "828e7324": 372.8026,
-    "58467bc8": 479.8583,
+    "31353eed": 104.8506,
     "d5f43569": 183.0506,
-    "6eb612c2": 467.3089,
-    "f8f53905": 148.1995,
     "553caf8b": 86.6052,
+    "cf615d7e": 482.8442,
+    "58467bc8": 479.8583,
+    "f8f53905": 148.1995,
+    "6eb612c2": 467.3089,
+    "828e7324": 372.8026,
     "fc07486c": 288.5,
     "8c5bd817": 70.578,
     "31ed9de0": 70.5725,
     "14fec8d3": 287.0484,
+    "13014849": 362.0,
     "1f4be284": 178.0,
     "dfe1231f": 466.0,
-    "13014849": 362.0,
+    "d2c55044": 360.7527,
     "c46a4abe": 452.2043,
     "e758ce8e": 452.0,
     "1d9ee213": 464.2323,
-    "d2c55044": 360.7527,
+    "92c761e1": 101.5,
+    "f0740615": 101.4717,
+    "3dc49228": 466.958,
+    "0eee1362": 466.0,
     "3548d96a": 176.6564
   }
 }

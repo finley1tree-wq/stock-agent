@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-08T12:25-04:00",
- "note": "Only 2 positions held vs min_positions=8, cash_idle_pct 95.9% - this is the critical priority right now. Past lessons repeatedly confirm congress-disclosure breadth entries across sectors is the fastest path to min_positions and has graded positively in multiple checks today (avg +0.12 to +0.77%). A",
+ "asOf": "2026-10-08T12:40-04:00",
+ "note": "Below min_positions (4 of 8) with 93% cash idle - this is the dominant problem per counterfactual_learning and past_lessons, which consistently show breadth entries backed by congress disclosures outperform sitting idle. ACN addresses a flagged biggest_miss, GS/PPG/HUBB have concrete congress disclo",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,34 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "828e7324",
-   "ticker": "UNH",
+   "id": "31353eed",
+   "ticker": "PPG",
    "kind": "take_profit",
-   "price": 372.8026,
+   "price": 104.8506,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 371.84,
-   "pct_away": 0.26,
+   "last": 104.57,
+   "pct_away": 0.27,
    "good_until": "2026-10-13",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "58467bc8",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 479.8583,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 478.4,
-   "pct_away": 0.3,
-   "good_until": "2026-10-13",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 182.4,
-   "pct_away": 0.36,
+   "last": 182.46,
+   "pct_away": 0.32,
    "good_until": "2026-10-13",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -229,17 +212,52 @@
    ]
   },
   {
-   "id": "6eb612c2",
-   "ticker": "TSM",
+   "id": "553caf8b",
+   "ticker": "KO",
+   "kind": "buy_limit",
+   "price": 86.6052,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 86.89,
+   "pct_away": -0.33,
+   "good_until": "2026-10-08",
+   "why": "wanted it, but not at the high \u2014 resting at $86.61. Defensive consumer staples diversification with congress pressure, low volatility [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "cf615d7e",
+   "ticker": "HUBB",
    "kind": "take_profit",
-   "price": 467.3089,
+   "price": 482.8442,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 465.11,
-   "pct_away": 0.47,
+   "last": 481.21,
+   "pct_away": 0.34,
    "good_until": "2026-10-13",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "58467bc8",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 479.8583,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 478.18,
+   "pct_away": 0.35,
+   "good_until": "2026-10-13",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +271,8 @@
    "usd": 375.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 148.9,
-   "pct_away": -0.47,
+   "last": 148.8,
+   "pct_away": -0.4,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $148.20. Congress pressure name not currently held, cooldown cleared, fresh breadth entry to hit min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -264,21 +282,37 @@
    ]
   },
   {
-   "id": "553caf8b",
-   "ticker": "KO",
-   "kind": "buy_limit",
-   "price": 86.6052,
-   "usd": 500.0,
-   "pct_of_position": null,
+   "id": "6eb612c2",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 467.3089,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 87.08,
-   "pct_away": -0.55,
-   "good_until": "2026-10-08",
-   "why": "wanted it, but not at the high \u2014 resting at $86.61. Defensive consumer staples diversification with congress pressure, low volatility [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "last": 464.46,
+   "pct_away": 0.61,
+   "good_until": "2026-10-13",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
-    "congress",
-    "news",
-    "patience"
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "828e7324",
+   "ticker": "UNH",
+   "kind": "take_profit",
+   "price": 372.8026,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 370.23,
+   "pct_away": 0.69,
+   "good_until": "2026-10-13",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -289,8 +323,8 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 290.3,
-   "pct_away": -0.62,
+   "last": 290.92,
+   "pct_away": -0.83,
    "good_until": "2026-10-08",
    "why": "Wait for pullback rather than pay the high of day",
    "signals": [
@@ -306,8 +340,8 @@
    "usd": 125.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 71.12,
-   "pct_away": -0.76,
+   "last": 71.19,
+   "pct_away": -0.86,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $70.58. small market add complementing existing resting limit order [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -324,8 +358,8 @@
    "usd": 750.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 71.12,
-   "pct_away": -0.77,
+   "last": 71.19,
+   "pct_away": -0.87,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $70.57. Two independent congress disclosures back NFLX, strong 1d momentum [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -342,14 +376,30 @@
    "usd": 375.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 290.3,
-   "pct_away": -1.12,
+   "last": 290.92,
+   "pct_away": -1.33,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $287.05. Two independent congress disclosures back HD, place as limit below current high to respect max_entry_range_pct [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
     "congress",
     "news",
     "patience"
+   ]
+  },
+  {
+   "id": "13014849",
+   "ticker": "UNH",
+   "kind": "stop_loss",
+   "price": 362.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 370.23,
+   "pct_away": -2.22,
+   "good_until": "2026-10-08",
+   "why": "Cap downside on new UNH position",
+   "signals": [
+    "risk_management"
    ]
   },
   {
@@ -360,8 +410,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 182.4,
-   "pct_away": -2.41,
+   "last": 182.46,
+   "pct_away": -2.44,
    "good_until": "2026-10-08",
    "why": "Cap downside on new IBP position per standard risk management",
    "signals": [
@@ -376,8 +426,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 478.4,
-   "pct_away": -2.59,
+   "last": 478.18,
+   "pct_away": -2.55,
    "good_until": "2026-10-08",
    "why": "Cap downside on new NOC position",
    "signals": [
@@ -385,19 +435,20 @@
    ]
   },
   {
-   "id": "13014849",
+   "id": "d2c55044",
    "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 362.0,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "kind": "buy_limit",
+   "price": 360.7527,
+   "usd": 500.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 371.84,
-   "pct_away": -2.65,
-   "good_until": "2026-10-08",
-   "why": "Cap downside on new UNH position",
+   "last": 370.23,
+   "pct_away": -2.56,
+   "good_until": "2026-10-13",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
-    "risk_management"
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -408,8 +459,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 465.11,
-   "pct_away": -2.77,
+   "last": 464.46,
+   "pct_away": -2.64,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -425,8 +476,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 465.11,
-   "pct_away": -2.82,
+   "last": 464.46,
+   "pct_away": -2.68,
    "good_until": "2026-10-08",
    "why": "Standard protective stop ~3% below entry",
    "signals": [
@@ -441,7 +492,40 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 478.4,
+   "last": 478.18,
+   "pct_away": -2.92,
+   "good_until": "2026-10-13",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "92c761e1",
+   "ticker": "PPG",
+   "kind": "stop_loss",
+   "price": 101.5,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 104.57,
+   "pct_away": -2.94,
+   "good_until": "2026-10-08",
+   "why": "Standard protective stop on new PPG position",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "f0740615",
+   "ticker": "PPG",
+   "kind": "buy_limit",
+   "price": 101.4717,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 104.57,
    "pct_away": -2.96,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -451,20 +535,36 @@
    ]
   },
   {
-   "id": "d2c55044",
-   "ticker": "UNH",
+   "id": "3dc49228",
+   "ticker": "HUBB",
    "kind": "buy_limit",
-   "price": 360.7527,
+   "price": 466.958,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 371.84,
-   "pct_away": -2.98,
+   "last": 481.21,
+   "pct_away": -2.96,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
+   ]
+  },
+  {
+   "id": "0eee1362",
+   "ticker": "HUBB",
+   "kind": "stop_loss",
+   "price": 466.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 481.21,
+   "pct_away": -3.16,
+   "good_until": "2026-10-08",
+   "why": "Standard protective stop on new HUBB position",
+   "signals": [
+    "risk_management"
    ]
   },
   {
@@ -475,8 +575,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 182.4,
-   "pct_away": -3.15,
+   "last": 182.46,
+   "pct_away": -3.18,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -485,7 +585,7 @@
    ]
   }
  ],
- "last_reasoning": "Only 2 positions held vs min_positions=8, cash_idle_pct 95.9% - this is the critical priority right now. Past lessons repeatedly confirm congress-disclosure breadth entries across sectors is the fastest path to min_positions and has graded positively in multiple checks today (avg +0.12 to +0.77%). A",
+ "last_reasoning": "Below min_positions (4 of 8) with 93% cash idle - this is the dominant problem per counterfactual_learning and past_lessons, which consistently show breadth entries backed by congress disclosures outperform sitting idle. ACN addresses a flagged biggest_miss, GS/PPG/HUBB have concrete congress disclo",
  "next_check_minutes": 15,
  "allowed": [
   "AAPL",
@@ -548,7 +648,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 388,
+  "decisions_graded": 387,
   "decisions_with_buys_graded": 180,
   "independent_days_graded": 14,
   "avg_regret_pct": -0.03,
@@ -635,9 +735,9 @@
    },
    {
     "ticker": "AMD",
-    "fwd_pct": 6.85,
+    "fwd_pct": 6.83,
     "sector": "widely_held",
-    "m1m_then": 17.3,
+    "m1m_then": 17.4,
     "congress": 0,
     "insider": 0
    }
@@ -673,9 +773,9 @@
     "n": 2
    }
   },
-  "idle_checks": 210,
+  "idle_checks": 209,
   "blocked_checks": 0,
-  "idle_share": 0.53,
+  "idle_share": 0.52,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "weak",
   "how_many_days_before_this_means_anything": 30,
@@ -2209,5 +2309,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-08T12:25-04:00"
+ "signalsAsOf": "2026-10-08T12:40-04:00"
 }

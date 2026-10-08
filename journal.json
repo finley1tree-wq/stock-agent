@@ -55850,7 +55850,7 @@
     "code_version": "d6093a8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.21
+    "ret_now": -0.35
   },
   {
     "symbol": "MSFT",
@@ -55938,7 +55938,7 @@
     "code_version": "5cde47b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": 0.23
   },
   {
     "symbol": "GS",
@@ -56096,7 +56096,8 @@
     "hour_et": 12,
     "code_version": "68dd506",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.43
   },
   {
     "symbol": "NOC",
@@ -56124,6 +56125,65 @@
     "momentum_1m_at_entry": -7.21,
     "hour_et": 12,
     "code_version": "68dd506",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.05
+  },
+  {
+    "symbol": "PPG",
+    "notional": 375.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.584681,
+    "price": 104.61,
+    "date": "2026-10-08",
+    "time_et": "12:40",
+    "ts": 1791477637,
+    "why": "Fresh congress disclosure on PPG not yet held, diversifies into materials sector, small size given PPG signal mix is on probation [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "Lloyd Doggett disclosed PPG buy $1k-15k on 2026-10-05 (transaction 2026-09-11)",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 104.57,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -2.42,
+    "hour_et": 12,
+    "code_version": "d3a08ae",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "HUBB",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.038632,
+    "price": 481.4,
+    "date": "2026-10-08",
+    "time_et": "12:40",
+    "ts": 1791477637,
+    "why": "Congress buy pressure score 3.0 (highest tier) plus positive momentum confirms the name, re-entering after cooldown cleared [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "April McClain Delaney multiple disclosed buys on HUBB; HUBB +1.22% 1d, +3.05% 5d, +5.77% 1m, 79.9% of day range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 481.21,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 5.77,
+    "hour_et": 12,
+    "code_version": "d3a08ae",
     "ret_1w": null,
     "ret_1m": null
   }

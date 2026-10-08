@@ -1,119 +1,6 @@
 {
  "orders": [
   {
-   "id": "fb520ac2",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 517.2064,
-   "status": "cancelled",
-   "created": "2026-10-01 10:45",
-   "created_ts": 1790865958,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $515.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:16",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "53ab92db",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 500.3842,
-   "status": "cancelled",
-   "created": "2026-10-01 10:45",
-   "created_ts": 1790865958,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $515.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 11:16",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "aa070216",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 342.514,
-   "status": "cancelled",
-   "created": "2026-10-01 10:45",
-   "created_ts": 1790865958,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $341.51",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:15",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "9e14b4e0",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 331.2647,
-   "status": "cancelled",
-   "created": "2026-10-01 10:45",
-   "created_ts": 1790865958,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $341.51",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 12:15",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "a12f1bb3",
-   "ticker": "LEN",
-   "kind": "take_profit",
-   "price": 80.0856,
-   "status": "filled",
-   "created": "2026-10-01 10:45",
-   "created_ts": 1790865958,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $79.78",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:49"
-  },
-  {
-   "id": "940baa82",
-   "ticker": "LEN",
-   "kind": "buy_limit",
-   "price": 77.3866,
-   "status": "cancelled",
-   "created": "2026-10-01 10:45",
-   "created_ts": 1790865958,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $79.78",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 11:49",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "7c854131",
    "ticker": "NOC",
    "kind": "take_profit",
@@ -7399,7 +7286,107 @@
    ],
    "good_until": "2026-10-13",
    "usd": 500.0
+  },
+  {
+   "id": "92c761e1",
+   "ticker": "PPG",
+   "kind": "stop_loss",
+   "price": 101.5,
+   "status": "working",
+   "created": "2026-10-08 12:40",
+   "created_ts": 1791477637,
+   "why": "Standard protective stop on new PPG position",
+   "evidence": "PPG current price 104.57, day_low 103.3",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0eee1362",
+   "ticker": "HUBB",
+   "kind": "stop_loss",
+   "price": 466.0,
+   "status": "working",
+   "created": "2026-10-08 12:40",
+   "created_ts": 1791477637,
+   "why": "Standard protective stop on new HUBB position",
+   "evidence": "HUBB current price 481.21, day_low 470.71",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "31353eed",
+   "ticker": "PPG",
+   "kind": "take_profit",
+   "price": 104.8506,
+   "status": "working",
+   "created": "2026-10-08 12:40",
+   "created_ts": 1791477637,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $104.61",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f0740615",
+   "ticker": "PPG",
+   "kind": "buy_limit",
+   "price": 101.4717,
+   "status": "working",
+   "created": "2026-10-08 12:40",
+   "created_ts": 1791477637,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $104.61",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "usd": 500.0
+  },
+  {
+   "id": "cf615d7e",
+   "ticker": "HUBB",
+   "kind": "take_profit",
+   "price": 482.8442,
+   "status": "working",
+   "created": "2026-10-08 12:40",
+   "created_ts": 1791477637,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $481.4",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3dc49228",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 466.958,
+   "status": "working",
+   "created": "2026-10-08 12:40",
+   "created_ts": 1791477637,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $481.4",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-08 12:25"
+ "updated": "2026-10-08 12:40"
 }

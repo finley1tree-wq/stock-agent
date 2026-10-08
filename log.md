@@ -23171,3 +23171,27 @@ lesson: Breadth entries using congress disclosures plus protective stops get the
 ~ WORKING buy_limit $500.00 NOC @ $464.23 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25433.36 (+1.73% on $25000.00 in) · cash $23683.89 · realised +433.89
 Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $23279.94 this week
+
+## 2026-10-08 12:40 ET (Thursday) — week 2026-W41 — budget left $23279.94 (today $16625.00 put to work, 17 buys, 13 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain: Below min_positions (4 of 8) with 93% cash idle - this is the dominant problem per counterfactual_learning and past_lessons, which consistently show breadth entries backed by congress disclosures outperform sitting idle. ACN addresses a flagged biggest_miss, GS/PPG/HUBB have concrete congress disclosures with cooldowns cleared or clearing shortly; all sized $1500-2200 within probation constraints and protected by stops.
+lesson: Keep filling toward min_positions with congress-disclosure-backed names sized $1500-2500 each rather than letting cash sit idle; always attach a stop_loss immediately since auto_bracket may lag on manually triggered buys.
+  (dropped ACN: not in allowed list)
+  (dropped GS: sold 23 min ago, cooling off)
+- BUY $375.00 PPG [filled] ['congress', 'news'] — Fresh congress disclosure on PPG not yet held, diversifies into materials sector, small size given PPG signal mix is on probation [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Lloyd Doggett disclosed PPG buy $1k-15k on 2026-10-05 (transaction 2026-09-11)
+- BUY $500.00 HUBB [filled] ['congress', 'momentum'] — Congress buy pressure score 3.0 (highest tier) plus positive momentum confirms the name, re-entering after cooldown cleared [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: April McClain Delaney multiple disclosed buys on HUBB; HUBB +1.22% 1d, +3.05% 5d, +5.77% 1m, 79.9% of day range
+  (dropped trigger ACN stop_loss: not held)
+  (dropped trigger GS stop_loss: not held)
+~ WORKING stop_loss 100% PPG @ $101.50 until 2026-10-08 — Standard protective stop on new PPG position
+~ WORKING stop_loss 100% HUBB @ $466.00 until 2026-10-08 — Standard protective stop on new HUBB position
+~ WORKING take_profit 100% PPG @ $104.85 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PPG @ $101.47 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HUBB @ $482.84 until 2026-10-13 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HUBB @ $466.96 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25430.72 (+1.72% on $25000.00 in) · cash $22808.89 · realised +433.89
+Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $22404.94 this week
