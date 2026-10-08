@@ -1,17 +1,3 @@
-  (cancelled 2 standing order(s) on TSM: position closed)
-- SELL 100% TSM [take_profit @ $470.58] -> $3007.08 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-10-08 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-08 10:35 ET (Thursday) — week 2026-W41 — budget left $24395.91 (today $10375.00 put to work, 5 buys, 4 sells) — SIM (pretend money) via sim
-  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
-  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
-  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
-brain: Only 1 position held vs min_positions 8, cash_idle_pct 97.6% - a clear decision to fix now. Congress-disclosure signal has been the best performing bucket per counterfactual learning (avg_pct 0.32 across 172 buys) and past_lessons repeatedly confirm anchoring on congress pressure names at 09:xx-10:xx hours. Building a 7-name ladder (plus existing UNH=8) using the highest congress_net_buy_pressure scores (CHRW, HUBB, LTH-excluded cooldown-free, ESE, FWONK, PG, NFLX, AVGO) sized $2000-3000 each, all with protective stops since max_hold_minutes=30 applies.
-lesson: When below min_positions with near-zero deployment, use congress_net_buy_pressure ranking plus who_disclosed_it names to fill out the book fast in one check rather than trickling in one name at a time.
-  (dropped PG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped HUBB: culled strategy (signals congress: -93 over 32 trips, t -1.39))
   (dropped CHRW: culled strategy (signals congress: -93 over 32 trips, t -1.39))
   (dropped ESE: culled strategy (signals congress: -93 over 32 trips, t -1.39))
   (dropped FWONK: culled strategy (signals congress: -93 over 32 trips, t -1.39))
@@ -398,3 +384,17 @@ Decision: nothing at this check. 4 standing order(s) working.
 - SELL 100% GOOGL [time stop] -> $497.28 (-0.54%) — held 90 min, the 90-minute limit: out regardless
 - SELL 100% AMZN [time stop] -> $370.41 (-1.22%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-08 14:26 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 14:31 ET (Thursday) — week 2026-W41 — budget left $25000.00 (today $19750.00 put to work, 24 buys, 24 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff) so no new buys are allowed this check. Book is currently flat (all positions closed today, several still in cooldown: HUBB/GOOGL/AMZN). With only 2 checks left today and entries blocked, there is nothing actionable besides waiting - no open positions to protect or sell. I'll check back in 30 minutes near close to see if anything changes (e.g. cooldowns expiring won't matter since entries are blocked anyway for the rest of the session).
+lesson: When no_new_entries_this_check is true, don't try to force buys - confirm the flag first, then just monitor since no standing buy orders will fill either (entries are blocked session-wide, not just market orders).
+portfolio: equity $25419.27 (+1.68% on $25000.00 in) · cash $25419.27 · realised +419.27
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
