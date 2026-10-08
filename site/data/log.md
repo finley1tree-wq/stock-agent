@@ -1,5 +1,3 @@
-  (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
-  (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
   (no price for AXIA — excluded this check)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past 14:00 cutoff, 15:45 now, market closes 16:00, checks_left_today is 0) so new buys will be dropped. No open positions to sell or protect. Nothing actionable; session is effectively over.
@@ -398,3 +396,5 @@ Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $22784.46 this week
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [take_profit @ $372.80] -> $375.90 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 13:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% TSM [time stop] -> $490.19 (-1.96%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-08 13:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders

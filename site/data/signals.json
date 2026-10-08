@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-08T13:01-04:00",
+ "asOf": "2026-10-08T13:03-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "bdd00778",
-   "ticker": "AMZN",
-   "kind": "take_profit",
-   "price": 258.8834,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 257.88,
-   "pct_away": 0.39,
-   "good_until": "2026-10-13",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "b02f7267",
    "ticker": "GOOGL",
    "kind": "take_profit",
@@ -202,10 +185,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 348.3,
-   "pct_away": 0.43,
+   "last": 348.89,
+   "pct_away": 0.26,
    "good_until": "2026-10-13",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "bdd00778",
+   "ticker": "AMZN",
+   "kind": "take_profit",
+   "price": 258.8834,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 257.91,
+   "pct_away": 0.38,
+   "good_until": "2026-10-13",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +219,8 @@
    "usd": 125.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 71.24,
-   "pct_away": -0.93,
+   "last": 71.22,
+   "pct_away": -0.9,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $70.58. small market add complementing existing resting limit order [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -237,47 +237,14 @@
    "usd": 750.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 71.24,
-   "pct_away": -0.94,
+   "last": 71.22,
+   "pct_away": -0.91,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $70.57. Two independent congress disclosures back NFLX, strong 1d momentum [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
     "congress",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "c46a4abe",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 452.2043,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 457.05,
-   "pct_away": -1.06,
-   "good_until": "2026-10-13",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e758ce8e",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 452.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 457.05,
-   "pct_away": -1.1,
-   "good_until": "2026-10-08",
-   "why": "Standard protective stop ~3% below entry",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -288,10 +255,28 @@
    "usd": 375.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 149.92,
-   "pct_away": -1.15,
+   "last": 149.83,
+   "pct_away": -1.09,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $148.20. Congress pressure name not currently held, cooldown cleared, fresh breadth entry to hit min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "553caf8b",
+   "ticker": "KO",
+   "kind": "buy_limit",
+   "price": 86.6052,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 87.81,
+   "pct_away": -1.37,
+   "good_until": "2026-10-08",
+   "why": "wanted it, but not at the high \u2014 resting at $86.61. Defensive consumer staples diversification with congress pressure, low volatility [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
     "congress",
     "news",
@@ -306,31 +291,13 @@
    "usd": 1500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 292.36,
-   "pct_away": -1.32,
+   "last": 292.54,
+   "pct_away": -1.38,
    "good_until": "2026-10-08",
    "why": "Wait for pullback rather than pay the high of day",
    "signals": [
     "congress",
     "news"
-   ]
-  },
-  {
-   "id": "553caf8b",
-   "ticker": "KO",
-   "kind": "buy_limit",
-   "price": 86.6052,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 87.79,
-   "pct_away": -1.35,
-   "good_until": "2026-10-08",
-   "why": "wanted it, but not at the high \u2014 resting at $86.61. Defensive consumer staples diversification with congress pressure, low volatility [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
    ]
   },
   {
@@ -341,8 +308,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 475.23,
-   "pct_away": 1.6,
+   "last": 474.92,
+   "pct_away": 1.67,
    "good_until": "2026-10-13",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -358,8 +325,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 475.23,
-   "pct_away": -1.74,
+   "last": 474.92,
+   "pct_away": -1.68,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -375,8 +342,8 @@
    "usd": 375.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 292.36,
-   "pct_away": -1.82,
+   "last": 292.54,
+   "pct_away": -1.88,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $287.05. Two independent congress disclosures back HD, place as limit below current high to respect max_entry_range_pct [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -393,29 +360,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 475.23,
-   "pct_away": -1.94,
+   "last": 474.92,
+   "pct_away": -1.88,
    "good_until": "2026-10-08",
    "why": "Standard protective stop on new HUBB position",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "6eb612c2",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 467.3089,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 457.05,
-   "pct_away": 2.24,
-   "good_until": "2026-10-13",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -426,24 +376,7 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 257.88,
-   "pct_away": -2.84,
-   "good_until": "2026-10-13",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "df3661f6",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 338.3651,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 348.3,
+   "last": 257.91,
    "pct_away": -2.85,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -460,12 +393,29 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 257.88,
-   "pct_away": -2.86,
+   "last": 257.91,
+   "pct_away": -2.87,
    "good_until": "2026-10-08",
    "why": "Cap downside on new AMZN position",
    "signals": [
     "risk_management"
+   ]
+  },
+  {
+   "id": "df3661f6",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 338.3651,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 348.89,
+   "pct_away": -3.02,
+   "good_until": "2026-10-13",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -476,8 +426,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 348.3,
-   "pct_away": -2.96,
+   "last": 348.89,
+   "pct_away": -3.12,
    "good_until": "2026-10-08",
    "why": "Cap downside on new GOOGL position",
    "signals": [
