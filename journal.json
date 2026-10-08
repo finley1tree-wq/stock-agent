@@ -55283,7 +55283,10 @@
     "hour_et": 9,
     "code_version": "5798d95",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.23,
+    "ret_now": 0.23,
+    "ret_src": "realised"
   },
   {
     "symbol": "PG",
@@ -55312,7 +55315,10 @@
     "hour_et": 9,
     "code_version": "5798d95",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.17,
+    "ret_now": 0.17,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -55341,7 +55347,8 @@
     "hour_et": 9,
     "code_version": "5798d95",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.35
   },
   {
     "symbol": "PG",
@@ -55366,7 +55373,8 @@
     "evidence": "average cost $147.33",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "f9c51f1"
+    "code_version": "f9c51f1",
+    "hold_minutes": 2
   },
   {
     "symbol": "HD",
@@ -55391,6 +55399,36 @@
     "evidence": "average cost $285.06",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "c3cd614"
+    "code_version": "c3cd614",
+    "hold_minutes": 12
+  },
+  {
+    "symbol": "GS",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.847374,
+    "price": 885.09,
+    "date": "2026-10-08",
+    "time_et": "10:03",
+    "ts": 1791468223,
+    "why": "Congress buy pressure plus 10h SURVIVOR-hour pattern that graded best in past_lessons_with_outcome [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Michael A. Rulli (House) bought GS $1,001-$15,000 disclosed 2026-10-02; congress_net_buy_pressure GS=2.0",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 884.91,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -13.99,
+    "hour_et": 10,
+    "code_version": "2a5f403",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

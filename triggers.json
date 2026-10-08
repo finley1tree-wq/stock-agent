@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "90727724",
-   "ticker": "RTX",
-   "kind": "stop_loss",
-   "price": 184.4331,
-   "status": "cancelled",
-   "created": "2026-10-01 10:03",
-   "created_ts": 1790863417,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $185.44",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:17",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "c4bcef0c",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 179.8768,
-   "status": "cancelled",
-   "created": "2026-10-01 10:03",
-   "created_ts": 1790863417,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $185.44",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 10:20",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "861a24f0",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 363.618,
-   "status": "filled",
-   "created": "2026-10-01 10:04",
-   "created_ts": 1790863471,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $363.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:05"
-  },
-  {
    "id": "a9fe50b0",
    "ticker": "NOC",
    "kind": "stop_loss",
@@ -7421,7 +7365,57 @@
    ],
    "good_until": "2026-10-13",
    "usd": 500.0
+  },
+  {
+   "id": "33ce50e5",
+   "ticker": "GS",
+   "kind": "stop_loss",
+   "price": 865.0,
+   "status": "working",
+   "created": "2026-10-08 10:03",
+   "created_ts": 1791468223,
+   "why": "protective stop ~2.3% below entry",
+   "evidence": "GS price 884.91, ATR 2.2%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1b714475",
+   "ticker": "GS",
+   "kind": "take_profit",
+   "price": 887.2673,
+   "status": "working",
+   "created": "2026-10-08 10:03",
+   "created_ts": 1791468223,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $885.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c47b3c3b",
+   "ticker": "GS",
+   "kind": "buy_limit",
+   "price": 858.5373,
+   "status": "working",
+   "created": "2026-10-08 10:03",
+   "created_ts": 1791468223,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $885.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-08 09:47"
+ "updated": "2026-10-08 10:03"
 }

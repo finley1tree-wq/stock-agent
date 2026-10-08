@@ -1,12 +1,13 @@
 {
   "week": "2026-W41",
-  "spent": 2988.02,
-  "deployed": 96250.0,
+  "spent": 3738.02,
+  "deployed": 97000.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 14.34,
     "IBM": 22.19,
-    "TSM": 3000.0
+    "TSM": 3000.0,
+    "GS": 750.0
   },
   "deployed_by_ticker": {
     "AVGO": 7500.0,
@@ -20,7 +21,7 @@
     "KO": 5851.85,
     "PEP": 2000.0,
     "AAPL": 2500.0,
-    "GS": 7666.67,
+    "GS": 8416.67,
     "IBM": 6240.74,
     "AMGN": 4777.78,
     "HUBB": 625.0
@@ -1581,12 +1582,33 @@
       ],
       "evidence": "average cost $285.06",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "GS",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 0.847374,
+      "price": 885.09,
+      "date": "2026-10-08",
+      "time_et": "10:03",
+      "ts": 1791468223,
+      "why": "Congress buy pressure plus 10h SURVIVOR-hour pattern that graded best in past_lessons_with_outcome [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Michael A. Rulli (House) bought GS $1,001-$15,000 disclosed 2026-10-02; congress_net_buy_pressure GS=2.0",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 2988.02,
-  "deployed_today": 9000.0,
-  "orders_today": 3,
+  "spent_today": 3738.02,
+  "deployed_today": 9750.0,
+  "orders_today": 4,
   "sells_today": 2,
   "sold_today": [
     "PG",
@@ -1609,27 +1631,9 @@
     "AMGN": 1791380137,
     "HUBB": 1791400453
   },
-  "last_publish_ts": 1791467242,
-  "last_check_ts": 1791468139,
+  "last_publish_ts": 1791468223,
+  "last_check_ts": 1791468223,
   "exp_arm": {
-    "HD": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "PG": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "TSM": {
       "params": {
         "hold_minutes": 90,
@@ -1638,15 +1642,27 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "GS": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1791468000,
-  "last_decision_ts": 1791466363,
-  "next_check_minutes": 30,
+  "last_decision_ts": 1791468223,
+  "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "1b714475": 887.2673,
     "492c184f": 470.5826,
+    "33ce50e5": 865.0,
     "0b6e66c6": 457.0,
-    "3217b1f2": 455.3859
+    "3217b1f2": 455.3859,
+    "c47b3c3b": 858.5373
   }
 }

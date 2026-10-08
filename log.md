@@ -22880,3 +22880,30 @@ Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $16000.00 this week
   (cancelled 2 standing order(s) on HD: position closed)
 - SELL 100% HD [take_profit @ $285.71] -> $3006.87 (+0.23%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 10:03 ET (Thursday) — week 2026-W41 — budget left $22011.98 (today $9000.00 put to work, 3 buys, 2 sells) — SIM (pretend money) via sim
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
+  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
+  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
+brain: Below target position count (1 of 8) with 88% cash idle - a clear decision to fix now. Added 6 new congress-disclosure backed names (GS, IBM, KO, NFLX, FWONK, ESE, PPG minus one to keep to 7 orders) at $3000 each to diversify sectors and hit min_positions, following the pattern that graded best in past_lessons_with_outcome (congress-disclosure entries at SURVIVOR 09-10h hour). Avoided PG/HD (cooldown) and pure momentum-only entries per guardrail; each name backed by concrete congress disclosure evidence and tagged accordingly, with protective stops set ~2.3% below entry on every new position.
+lesson: Congress-disclosure evidence across multiple sectors at the open hour has repeatedly graded well in past_lessons_with_outcome; keep deploying full budget across 7-8 names rather than sitting in one position with 88% cash idle.
+  (dropped IBM: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped KO: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped NFLX: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped FWONK: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped ESE: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+- BUY $750.00 GS [filled] ['congress', 'track_record'] — Congress buy pressure plus 10h SURVIVOR-hour pattern that graded best in past_lessons_with_outcome [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Michael A. Rulli (House) bought GS $1,001-$15,000 disclosed 2026-10-02; congress_net_buy_pressure GS=2.0
+  (dropped trigger IBM stop_loss: not held)
+  (dropped trigger KO stop_loss: not held)
+  (dropped trigger NFLX stop_loss: not held)
+  (dropped trigger FWONK stop_loss: not held)
+  (dropped trigger ESE stop_loss: not held)
+  (dropped trigger PPG stop_loss: not held)
+~ WORKING stop_loss 100% GS @ $865.00 until 2026-10-08 — protective stop ~2.3% below entry
+~ WORKING take_profit 100% GS @ $887.27 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 GS @ $858.54 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25404.64 (+1.62% on $25000.00 in) · cash $21665.93 · realised +415.93
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $21261.98 this week
