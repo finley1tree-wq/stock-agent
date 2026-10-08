@@ -23043,3 +23043,32 @@ Decision: nothing at this check. 18 standing order(s) working.
   (cancelled 2 standing order(s) on HUBB: position closed)
 - SELL 100% HUBB [take_profit @ $477.12] -> $626.82 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-10-08 11:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 11:33 ET (Thursday) — week 2026-W41 — budget left $23776.43 (today $13000.00 put to work, 9 buys, 7 sells) — SIM (pretend money) via sim
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
+  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
+  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
+brain: Only 2 of 8 min_positions held with 95% cash idle - a clear, graded loss per counterfactual data. Adding 5 names with concrete evidence: IBM/KO congress pressure, NFLX double congress disclosure plus momentum, TSM massive insider cluster (30 buys including CEO), PEP defensive diversifier. Sized at $2000 each (within $1-3k band), all protected with stops; avoiding culled PPG/LTH/CHRW/FWONK and cooling-off AVGO/UNH/HUBB.
+lesson: Hitting min_positions requires deploying across several evidence-backed names in one check rather than trickling - breadth beats waiting for a perfect entry.
+  (dropped PEP: not in allowed list)
+- BUY $500.00 IBM [filled] ['congress', 'track_record'] — Congress buy signal in widely_held name, not in cooldown, fresh entry to build toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Lloyd Doggett disclosed IBM buy 2026-09-10 (disclosed 2026-10-05); congress_net_buy_pressure IBM=1.0
+- BUY $500.00 KO [filled] ['congress', 'news'] — Defensive staples name with congress pressure signal, complements working buy_limit order already resting [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure KO=1.0, price 86.88 near day high 83.9% of range but low ATR defensive name
+- BUY $500.00 NFLX [filled] ['congress', 'news'] — Strong congress pressure (score 2.0) plus positive 1d momentum, adding to existing position at market since range is mid (76.7%) but momentum supports [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Two independent congress disclosures: Cleo Fields buy disclosed 2026-10-01, Byron Donalds buy disclosed 2026-09-15; NFLX +2.01% today
+- BUY $500.00 TSM [filled] ['insider', 'track_record'] — Massive cluster of insider buying at TSM including C-suite, strongest insider signal in the dataset [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 30+ TSM insider buys filed 2026-10-08 including CEO Wei Che-Chia; insider_net_buy_pressure TSM=30.0 (highest of any ticker)
+  (dropped trigger PEP stop_loss: not held)
+~ WORKING stop_loss 100% TSM @ $452.00 until 2026-10-08 — Standard protective stop ~3% below entry
+~ WORKING stop_loss 100% NFLX @ $69.00 until 2026-10-08 — Protective stop below recent day low
+~ WORKING stop_loss 100% KO @ $85.30 until 2026-10-08 — Protective stop ~1.8% below entry
+~ WORKING stop_loss 100% IBM @ $215.50 until 2026-10-08 — Protective stop ~1.8% below entry
+~ WORKING take_profit 100% IBM @ $220.16 until 2026-10-13 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $212.96 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% KO @ $87.04 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 KO @ $84.29 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NFLX @ $71.28 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NFLX @ $68.98 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $467.31 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $452.20 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25426.71 (+1.71% on $25000.00 in) · cash $22180.39 · realised +430.39
+Done: 0 sell(s), 4 buy(s); 21 order(s) working; budget left $21776.43 this week

@@ -1,32 +1,3 @@
-brain: Flat book at min_positions=0, full_deployment active requiring concentration in max 6-8 names with real size. Past lessons consistently show congress-disclosure-backed buys at the 09:xx SURVIVOR hour outperform (counterfactual avg +0.33% for congress signal, vs -0.11% for momentum and -0.53% for autopilot). Built an 8-name ladder weighted toward congress-disclosed buys (GS, NFLX, PG, IBM, AMGN, TSM, HD, KO) entered at low-to-mid day range, avoiding names already extended, sized $2000-4500 each to deploy the full $25k budget per full_deployment instructions.
-lesson: Congress-disclosure names bought at low/mid day-range during the 09:xx SURVIVOR hour have been the consistently best-performing counterfactual signal bucket; keep anchoring the morning ladder on this rather than momentum-only chases.
-  (dropped PG: 100% up today's range — resting a limit at $148.59 instead of chasing)
-- BUY $4166.67 GS [filled] ['congress', 'track_record'] — Congress buy pressure plus low position in day range gives good entry; track_record shows congress signal at +0.33% avg counterfactual | evidence: Rep. Michael A. Rulli disclosed buy of GS ($1,001-$15,000, filed 2026-10-02); GS is only 10.9% of today's range at $875.03, down -2.47% 1d - cheap entry vs elevated congress interest
-- BUY $4166.67 NFLX [filled] ['congress'] — Repeated congressional buying in NFLX from two members, reasonable entry level | evidence: Rep. Cleo Fields disclosed NFLX buy (filed 2026-10-01); also Rep. Byron Donalds bought NFLX (filed 2026-09-15); NFLX at 77.6% of day range, +0.5% 1d
-- BUY $3240.74 IBM [filled] ['congress'] — Congress buy signal with reasonable entry low in range | evidence: Rep. Lloyd Doggett bought IBM (filed 2026-10-05, transaction 2026-09-10); IBM up +0.27% today at 34.6% of day range
-- BUY $2777.78 AMGN [filled] ['congress'] — Congress buy disclosure, defensive healthcare name | evidence: Rep. David J. Taylor bought AMGN (filed 2026-10-01); AMGN at 67.3% of day range
-- BUY $2777.78 TSM [filled] ['congress', 'momentum'] — Congress pressure plus favorable pullback entry | evidence: congress_net_buy_pressure shows TSM at 1.0; TSM down -1.91% today to 61.9% of day range, +7.77% 1m momentum
-- BUY $2314.81 HD [filled] ['congress'] — Multiple congress buy disclosures, low in day range entry | evidence: Rep. Lloyd Doggett and Rep. David J. Taylor both disclosed HD buys in Sept filings; HD at 28.8% of day range, down -0.75% today
-- BUY $1851.85 KO [filled] ['congress'] — Defensive staple with congress pressure, fills out 8-position target | evidence: congress_net_buy_pressure shows KO at 1.0 (Doggett-linked cluster); KO at 46.1% of day range, +0.42% today, low ATR 1.3%
-~ WORKING stop_loss 100% GS @ $850.00 until 2026-10-07 — Cap downside on volatile financial name
-~ WORKING stop_loss 100% NFLX @ $67.00 until 2026-10-07 — Protection since bought near 77.6% of day range
-~ WORKING stop_loss 100% TSM @ $460.00 until 2026-10-07 — Protect against continued slide
-~ WORKING buy_limit $3703.70 PG @ $148.59 until 2026-10-07 — wanted it, but not at the high — resting at $148.59. Multiple congress buy disclosures on defensive staple name, low ATR 1.5%
-~ WORKING take_profit 100% GS @ $877.36 until 2026-10-12 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 GS @ $848.95 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NFLX @ $69.24 until 2026-10-12 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 NFLX @ $66.98 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% IBM @ $222.53 until 2026-10-12 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% IBM @ $220.39 until 2026-10-12 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 IBM @ $215.26 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMGN @ $406.48 until 2026-10-12 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% AMGN @ $402.65 until 2026-10-12 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 AMGN @ $393.23 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $474.29 until 2026-10-12 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $458.98 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HD @ $285.27 until 2026-10-12 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% HD @ $282.93 until 2026-10-12 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 HD @ $276.06 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% KO @ $86.68 until 2026-10-12 — close 100% at +0.1% over the average cost
 ~ WORKING stop_loss 100% KO @ $86.23 until 2026-10-12 — close it all at -0.4% under the average cost
 ~ WORKING buy_limit $500.00 KO @ $83.95 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +369,32 @@ Decision: nothing at this check. 18 standing order(s) working.
   (cancelled 2 standing order(s) on HUBB: position closed)
 - SELL 100% HUBB [take_profit @ $477.12] -> $626.82 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-10-08 11:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 11:33 ET (Thursday) — week 2026-W41 — budget left $23776.43 (today $13000.00 put to work, 9 buys, 7 sells) — SIM (pretend money) via sim
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
+  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
+  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
+brain: Only 2 of 8 min_positions held with 95% cash idle - a clear, graded loss per counterfactual data. Adding 5 names with concrete evidence: IBM/KO congress pressure, NFLX double congress disclosure plus momentum, TSM massive insider cluster (30 buys including CEO), PEP defensive diversifier. Sized at $2000 each (within $1-3k band), all protected with stops; avoiding culled PPG/LTH/CHRW/FWONK and cooling-off AVGO/UNH/HUBB.
+lesson: Hitting min_positions requires deploying across several evidence-backed names in one check rather than trickling - breadth beats waiting for a perfect entry.
+  (dropped PEP: not in allowed list)
+- BUY $500.00 IBM [filled] ['congress', 'track_record'] — Congress buy signal in widely_held name, not in cooldown, fresh entry to build toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Lloyd Doggett disclosed IBM buy 2026-09-10 (disclosed 2026-10-05); congress_net_buy_pressure IBM=1.0
+- BUY $500.00 KO [filled] ['congress', 'news'] — Defensive staples name with congress pressure signal, complements working buy_limit order already resting [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure KO=1.0, price 86.88 near day high 83.9% of range but low ATR defensive name
+- BUY $500.00 NFLX [filled] ['congress', 'news'] — Strong congress pressure (score 2.0) plus positive 1d momentum, adding to existing position at market since range is mid (76.7%) but momentum supports [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Two independent congress disclosures: Cleo Fields buy disclosed 2026-10-01, Byron Donalds buy disclosed 2026-09-15; NFLX +2.01% today
+- BUY $500.00 TSM [filled] ['insider', 'track_record'] — Massive cluster of insider buying at TSM including C-suite, strongest insider signal in the dataset [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 30+ TSM insider buys filed 2026-10-08 including CEO Wei Che-Chia; insider_net_buy_pressure TSM=30.0 (highest of any ticker)
+  (dropped trigger PEP stop_loss: not held)
+~ WORKING stop_loss 100% TSM @ $452.00 until 2026-10-08 — Standard protective stop ~3% below entry
+~ WORKING stop_loss 100% NFLX @ $69.00 until 2026-10-08 — Protective stop below recent day low
+~ WORKING stop_loss 100% KO @ $85.30 until 2026-10-08 — Protective stop ~1.8% below entry
+~ WORKING stop_loss 100% IBM @ $215.50 until 2026-10-08 — Protective stop ~1.8% below entry
+~ WORKING take_profit 100% IBM @ $220.16 until 2026-10-13 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $212.96 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% KO @ $87.04 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 KO @ $84.29 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NFLX @ $71.28 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NFLX @ $68.98 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $467.31 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $452.20 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25426.71 (+1.71% on $25000.00 in) · cash $22180.39 · realised +430.39
+Done: 0 sell(s), 4 buy(s); 21 order(s) working; budget left $21776.43 this week

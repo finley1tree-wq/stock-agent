@@ -55490,7 +55490,9 @@
     "code_version": "ac90028",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.24,
+    "ret_final": 0.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -55546,7 +55548,9 @@
     "code_version": "eeba284",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": 0.3,
+    "ret_final": 0.3,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMGN",
@@ -55576,7 +55580,7 @@
     "code_version": "12e8fdf",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": -0.29
   },
   {
     "symbol": "HUBB",
@@ -55606,7 +55610,9 @@
     "code_version": "a7a591f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.24
+    "ret_now": 0.29,
+    "ret_final": 0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "GS",
@@ -55636,7 +55642,7 @@
     "code_version": "a7a591f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.18
+    "ret_now": -0.19
   },
   {
     "symbol": "AVGO",
@@ -55661,7 +55667,8 @@
     "evidence": "average cost $371.13",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "56c3aa1"
+    "code_version": "56c3aa1",
+    "hold_minutes": 44
   },
   {
     "symbol": "UNH",
@@ -55686,7 +55693,8 @@
     "evidence": "average cost $370.57",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "784c2ed"
+    "code_version": "784c2ed",
+    "hold_minutes": 60
   },
   {
     "symbol": "HUBB",
@@ -55711,6 +55719,123 @@
     "evidence": "average cost $475.73",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "067a376"
+    "code_version": "067a376",
+    "hold_minutes": 18
+  },
+  {
+    "symbol": "IBM",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.277345,
+    "price": 219.55,
+    "date": "2026-10-08",
+    "time_et": "11:33",
+    "ts": 1791473584,
+    "why": "Congress buy signal in widely_held name, not in cooldown, fresh entry to build toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Rep. Lloyd Doggett disclosed IBM buy 2026-09-10 (disclosed 2026-10-05); congress_net_buy_pressure IBM=1.0",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 219.51,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -8.52,
+    "hour_et": 11,
+    "code_version": "d6093a8",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "KO",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.753914,
+    "price": 86.9,
+    "date": "2026-10-08",
+    "time_et": "11:33",
+    "ts": 1791473584,
+    "why": "Defensive staples name with congress pressure signal, complements working buy_limit order already resting [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "congress_net_buy_pressure KO=1.0, price 86.88 near day high 83.9% of range but low ATR defensive name",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 86.88,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -0.76,
+    "hour_et": 11,
+    "code_version": "d6093a8",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NFLX",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 7.030943,
+    "price": 71.11,
+    "date": "2026-10-08",
+    "time_et": "11:33",
+    "ts": 1791473584,
+    "why": "Strong congress pressure (score 2.0) plus positive 1d momentum, adding to existing position at market since range is mid (76.7%) but momentum supports [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "Two independent congress disclosures: Cleo Fields buy disclosed 2026-10-01, Byron Donalds buy disclosed 2026-09-15; NFLX +2.01% today",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 71.1,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -6.48,
+    "hour_et": 11,
+    "code_version": "d6093a8",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TSM",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.072517,
+    "price": 466.19,
+    "date": "2026-10-08",
+    "time_et": "11:33",
+    "ts": 1791473584,
+    "why": "Massive cluster of insider buying at TSM including C-suite, strongest insider signal in the dataset [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "insider",
+      "track_record"
+    ],
+    "evidence": "30+ TSM insider buys filed 2026-10-08 including CEO Wei Che-Chia; insider_net_buy_pressure TSM=30.0 (highest of any ticker)",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 466.1,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 7.06,
+    "hour_et": 11,
+    "code_version": "d6093a8",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
