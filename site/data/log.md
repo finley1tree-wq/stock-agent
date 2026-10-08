@@ -1,6 +1,3 @@
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
   (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
   (NXH excluded: too thinly traded ($4.9M a day) — Neighborhood Intelligence, Inc.)
   (no price for AXIA — excluded this check)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 18 standing order(s) working.
   (cancelled 2 standing order(s) on AVGO: position closed)
 - SELL 100% AVGO [take_profit @ $372.24] -> $752.23 (+0.30%) — close 100% at +0.3% over the average cost
 ## 2026-10-08 11:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $371.45] -> $626.47 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-08 11:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
