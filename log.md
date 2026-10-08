@@ -23301,3 +23301,18 @@ lesson: With only ~15 min left before no_new_entries_after_et, rely on resting b
 portfolio: equity $25419.28 (+1.68% on $25000.00 in) · cash $24057.98 · realised +432.98
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 9 resting buy order(s): past the entry cutoff)
+
+## 2026-10-08 14:00 ET (Thursday) — week 2026-W41 — budget left $23654.04 (today $19750.00 put to work, 24 buys, 21 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff), so new buys would be dropped - I weighed adding more congress/insider names like TSM or ACN but entries are blocked. Existing GOOGL/AMZN/HUBB positions already carry take_profit and stop_loss brackets within their 90-minute experiment hold window, so nothing to adjust - letting the standing orders work is correct per the auto_bracket signal's strong track record (0.19% avg, 89% hit rate).
+lesson: When no_new_entries_this_check is true, don't propose buys even with good evidence - check that flag first before building an order list.
+portfolio: equity $25417.77 (+1.67% on $25000.00 in) · cash $24057.98 · realised +432.98
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
