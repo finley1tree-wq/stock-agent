@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-08T11:23-04:00",
+ "asOf": "2026-10-08T11:29-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "134fc27a",
-   "ticker": "HUBB",
-   "kind": "take_profit",
-   "price": 477.1191,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 476.4,
-   "pct_away": 0.15,
-   "good_until": "2026-10-13",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "553caf8b",
    "ticker": "KO",
    "kind": "buy_limit",
@@ -202,8 +185,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 86.82,
-   "pct_away": -0.25,
+   "last": 86.81,
+   "pct_away": -0.24,
    "good_until": "2026-10-08",
    "why": "wanted it, but not at the high \u2014 resting at $86.61. Defensive consumer staples diversification with congress pressure, low volatility [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -230,6 +213,23 @@
    ]
   },
   {
+   "id": "f7135abf",
+   "ticker": "GS",
+   "kind": "take_profit",
+   "price": 885.092,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 881.27,
+   "pct_away": 0.43,
+   "good_until": "2026-10-13",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "7915741e",
    "ticker": "GS",
    "kind": "stop_loss",
@@ -237,7 +237,7 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 881.23,
+   "last": 881.27,
    "pct_away": -0.43,
    "good_until": "2026-10-13",
    "why": "close it all at -0.6% under the average cost",
@@ -247,20 +247,39 @@
    ]
   },
   {
-   "id": "f7135abf",
-   "ticker": "GS",
-   "kind": "take_profit",
-   "price": 885.092,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "8c5bd817",
+   "ticker": "NFLX",
+   "kind": "buy_limit",
+   "price": 70.578,
+   "usd": 125.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 881.23,
-   "pct_away": 0.44,
-   "good_until": "2026-10-13",
-   "why": "close 100% at +0.2% over the average cost",
+   "last": 71.04,
+   "pct_away": -0.65,
+   "good_until": "2026-10-08",
+   "why": "wanted it, but not at the high \u2014 resting at $70.58. small market add complementing existing resting limit order [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "congress",
+    "news",
+    "patience"
+   ]
+  },
+  {
+   "id": "31ed9de0",
+   "ticker": "NFLX",
+   "kind": "buy_limit",
+   "price": 70.5725,
+   "usd": 750.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 71.04,
+   "pct_away": -0.66,
+   "good_until": "2026-10-08",
+   "why": "wanted it, but not at the high \u2014 resting at $70.57. Two independent congress disclosures back NFLX, strong 1d momentum [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
    ]
   },
   {
@@ -281,58 +300,6 @@
    ]
   },
   {
-   "id": "31ed9de0",
-   "ticker": "NFLX",
-   "kind": "buy_limit",
-   "price": 70.5725,
-   "usd": 750.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 71.18,
-   "pct_away": -0.85,
-   "good_until": "2026-10-08",
-   "why": "wanted it, but not at the high \u2014 resting at $70.57. Two independent congress disclosures back NFLX, strong 1d momentum [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "8c5bd817",
-   "ticker": "NFLX",
-   "kind": "buy_limit",
-   "price": 70.578,
-   "usd": 125.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 71.18,
-   "pct_away": -0.85,
-   "good_until": "2026-10-08",
-   "why": "wanted it, but not at the high \u2014 resting at $70.58. small market add complementing existing resting limit order [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "e317cebd",
-   "ticker": "HUBB",
-   "kind": "stop_loss",
-   "price": 466.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 476.4,
-   "pct_away": -2.18,
-   "good_until": "2026-10-08",
-   "why": "Protect new HUBB position from adverse move",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
    "id": "01b7aa6f",
    "ticker": "GS",
    "kind": "buy_limit",
@@ -340,8 +307,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 881.23,
-   "pct_away": -2.81,
+   "last": 881.27,
+   "pct_away": -2.82,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -359,23 +326,6 @@
    "trail_pct": null,
    "last": 402.52,
    "pct_away": -2.94,
-   "good_until": "2026-10-13",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d3b26461",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 461.4581,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 476.4,
-   "pct_away": -3.14,
    "good_until": "2026-10-13",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

@@ -1,6 +1,3 @@
-  (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
-  (NXH excluded: too thinly traded ($4.9M a day) — Neighborhood Intelligence, Inc.)
-  (no price for AXIA — excluded this check)
 brain: Flat book at min_positions=0, full_deployment active requiring concentration in max 6-8 names with real size. Past lessons consistently show congress-disclosure-backed buys at the 09:xx SURVIVOR hour outperform (counterfactual avg +0.33% for congress signal, vs -0.11% for momentum and -0.53% for autopilot). Built an 8-name ladder weighted toward congress-disclosed buys (GS, NFLX, PG, IBM, AMGN, TSM, HD, KO) entered at low-to-mid day range, avoiding names already extended, sized $2000-4500 each to deploy the full $25k budget per full_deployment instructions.
 lesson: Congress-disclosure names bought at low/mid day-range during the 09:xx SURVIVOR hour have been the consistently best-performing counterfactual signal bucket; keep anchoring the morning ladder on this rather than momentum-only chases.
   (dropped PG: 100% up today's range — resting a limit at $148.59 instead of chasing)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 18 standing order(s) working.
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [take_profit @ $371.45] -> $626.47 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 11:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on HUBB: position closed)
+- SELL 100% HUBB [take_profit @ $477.12] -> $626.82 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-10-08 11:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders

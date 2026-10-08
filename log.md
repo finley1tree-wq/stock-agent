@@ -23040,3 +23040,6 @@ Decision: nothing at this check. 18 standing order(s) working.
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [take_profit @ $371.45] -> $626.47 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 11:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on HUBB: position closed)
+- SELL 100% HUBB [take_profit @ $477.12] -> $626.82 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-10-08 11:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
