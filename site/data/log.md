@@ -1,40 +1,3 @@
-~ WORKING take_profit 100% KO @ $86.68 until 2026-10-12 — close 100% at +0.1% over the average cost
-~ WORKING stop_loss 100% KO @ $86.23 until 2026-10-12 — close it all at -0.4% under the average cost
-~ WORKING buy_limit $500.00 KO @ $83.95 until 2026-10-12 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25391.30 (+1.57% on $25000.00 in) · cash $4099.26 · realised +395.56
-Done: 0 sell(s), 7 buy(s); 22 order(s) working; budget left $3703.70 this week
-  (cancelled 2 standing order(s) on AMGN: position closed)
-- SELL 100% AMGN [take_profit @ $406.52] -> $2785.55 (+0.28%) — close 100% at +0.3% over the average cost
-## 2026-10-07 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $3703.70 PG [buy_limit @ $148.59] — wanted it, but not at the high — resting at $148.59. Multiple congress buy disclosures on defensive staple name, low ATR 1.5%
-## 2026-10-07 09:36 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on HD: position closed)
-- SELL 100% HD [take_profit @ $285.27] -> $2320.27 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-10-07 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on TSM: position closed)
-- SELL 100% TSM [take_profit @ $474.29] -> $2784.25 (+0.23%) — close 100% at +0.2% over the average cost
-## 2026-10-07 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on IBM: position closed)
-- SELL 100% IBM [stop_loss @ $220.28] -> $3216.77 (-0.74%) — close it all at -0.7% under the average cost
-## 2026-10-07 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on KO: position closed)
-- SELL 100% KO [take_profit @ $86.68] -> $1854.68 (+0.15%) — close 100% at +0.1% over the average cost
-## 2026-10-07 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on PG: position closed)
-- SELL 100% PG [take_profit @ $148.94] -> $3712.65 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-10-07 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on GS: position closed)
-- SELL 100% GS [take_profit @ $877.36] -> $4176.94 (+0.25%) — close 100% at +0.2% over the average cost
-## 2026-10-07 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-07 10:03 ET (Wednesday) — week 2026-W41 — budget left $20851.11 (today $25000.00 put to work, 8 buys, 7 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
-  (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
-  (NXH excluded: too thinly traded ($4.9M a day) — Neighborhood Intelligence, Inc.)
-  (no price for AXIA — excluded this check)
 brain: Only 1 position held (NFLX) against min_positions of 8, with 83% cash idle - this is the priority to fix. Most names I'd want (TSM, KO, PG, HD, IBM, GS) are in cooldown from today's earlier sells, so I'm placing buy_limit orders below current market that will activate once cooldown clears and price dips, avoiding chasing high-range prints. UNH and AVGO have no cooldown restriction and decent congress/momentum signals with low day-range entries, so those get resting limits too. Lesson history strongly favors congress-disclosure-backed buys entered low/mid day range during the morning SURVIVOR hour over momentum-only chases.
 lesson: When most of the target buy list is in rebuy cooldown from a prior sell sweep, use buy_limit triggers below market rather than waiting idle - they activate automatically once cooldown and price align without requiring another check.
   (dropped GS: sold 17 min ago, cooling off)
@@ -398,3 +361,40 @@ lesson: Hitting min_positions requires deploying across several evidence-backed 
 ~ WORKING buy_limit $500.00 TSM @ $452.20 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25426.71 (+1.71% on $25000.00 in) · cash $22180.39 · realised +430.39
 Done: 0 sell(s), 4 buy(s); 21 order(s) working; budget left $21776.43 this week
+
+## 2026-10-08 11:43 ET (Thursday) — week 2026-W41 — budget left $21776.43 (today $15000.00 put to work, 13 buys, 7 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain: Still below min_positions (6 of 8) with 87% cash idle - past lessons and counterfactual data both show idle cash costs more than acting on congress-disclosure evidence. HUBB is in cooldown for 31 more minutes so I'm using PPG and FWONK which have real congress buy pressure (Doggett/Delaney) and aren't blocked. Skipping HUBB for now since it's still cooling off - replacing with just PPG+FWONK at $2k-3k size, keeping names fresh rather than re-trickling.
+lesson: Check cooling_off_minutes_left before proposing a buy - HUBB was still blocked for 31 minutes so that order would have been dropped; always cross-reference the cooldown list first.
+  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped HUBB: sold 15 min ago, cooling off)
+  (dropped FWONK: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+portfolio: equity $25426.45 (+1.71% on $25000.00 in) · cash $22180.39 · realised +430.39
+Decision: nothing at this check. 21 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-08 11:59 ET (Thursday) — week 2026-W41 — budget left $21776.43 (today $15000.00 put to work, 13 buys, 7 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain: Below min_positions (6 of 8) with 87% idle cash - past_lessons strongly and repeatedly confirm breadth across congress-disclosure names is the fastest path to target count and has graded positively most checks today. PG and MSFT have fresh congress disclosures and aren't currently held or in cooldown; HD has two disclosures but is near day-high so I'm using a resting buy_limit instead of chasing.
+lesson: When HD/congress names are high in day range, use buy_limit to wait for pullback rather than market-buying at the high - this avoids the entry-range guardrail converting the order anyway.
+  (dropped PG: 87% up today's range — resting a limit at $148.20 instead of chasing)
+  (dropped HD: 96% up today's range — resting a limit at $287.05 instead of chasing)
+- BUY $375.00 MSFT [filled] ['congress', 'news'] — Congress pressure plus reasonable entry point, diversifies into tech/software away from TSM/IBM concentration [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Cleo Fields disclosed MSFT buy 2026-10-01; MSFT +0.1% today, mid-range at 35.3%
+~ WORKING buy_limit $1500.00 HD @ $288.50 until 2026-10-08 — Wait for pullback rather than pay the high of day
+~ WORKING buy_limit $375.00 PG @ $148.20 until 2026-10-08 — wanted it, but not at the high — resting at $148.20. Congress pressure name not currently held, cooldown cleared, fresh breadth entry to hit min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING buy_limit $375.00 HD @ $287.05 until 2026-10-08 — wanted it, but not at the high — resting at $287.05. Two independent congress disclosures back HD, place as limit below current high to respect max_entry_range_pct [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% MSFT @ $531.69 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $527.13 until 2026-10-13 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $514.48 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25423.36 (+1.69% on $25000.00 in) · cash $21805.39 · realised +430.39
+Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $21401.43 this week

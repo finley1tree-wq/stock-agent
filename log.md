@@ -23088,3 +23088,24 @@ lesson: Check cooling_off_minutes_left before proposing a buy - HUBB was still b
 portfolio: equity $25426.45 (+1.71% on $25000.00 in) · cash $22180.39 · realised +430.39
 Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-08 11:59 ET (Thursday) — week 2026-W41 — budget left $21776.43 (today $15000.00 put to work, 13 buys, 7 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain: Below min_positions (6 of 8) with 87% idle cash - past_lessons strongly and repeatedly confirm breadth across congress-disclosure names is the fastest path to target count and has graded positively most checks today. PG and MSFT have fresh congress disclosures and aren't currently held or in cooldown; HD has two disclosures but is near day-high so I'm using a resting buy_limit instead of chasing.
+lesson: When HD/congress names are high in day range, use buy_limit to wait for pullback rather than market-buying at the high - this avoids the entry-range guardrail converting the order anyway.
+  (dropped PG: 87% up today's range — resting a limit at $148.20 instead of chasing)
+  (dropped HD: 96% up today's range — resting a limit at $287.05 instead of chasing)
+- BUY $375.00 MSFT [filled] ['congress', 'news'] — Congress pressure plus reasonable entry point, diversifies into tech/software away from TSM/IBM concentration [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Cleo Fields disclosed MSFT buy 2026-10-01; MSFT +0.1% today, mid-range at 35.3%
+~ WORKING buy_limit $1500.00 HD @ $288.50 until 2026-10-08 — Wait for pullback rather than pay the high of day
+~ WORKING buy_limit $375.00 PG @ $148.20 until 2026-10-08 — wanted it, but not at the high — resting at $148.20. Congress pressure name not currently held, cooldown cleared, fresh breadth entry to hit min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING buy_limit $375.00 HD @ $287.05 until 2026-10-08 — wanted it, but not at the high — resting at $287.05. Two independent congress disclosures back HD, place as limit below current high to respect max_entry_range_pct [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% MSFT @ $531.69 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $527.13 until 2026-10-13 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $514.48 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25423.36 (+1.69% on $25000.00 in) · cash $21805.39 · realised +430.39
+Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $21401.43 this week

@@ -1,118 +1,6 @@
 {
  "orders": [
   {
-   "id": "90fe1452",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 126.5954,
-   "status": "cancelled",
-   "created": "2026-10-01 10:29",
-   "created_ts": 1790864996,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $126.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:52",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "7df5c73d",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 125.0022,
-   "status": "cancelled",
-   "created": "2026-10-01 10:29",
-   "created_ts": 1790864996,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $126.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:43",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "3b420483",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 122.3558,
-   "status": "cancelled",
-   "created": "2026-10-01 10:29",
-   "created_ts": 1790864996,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $126.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 10:52",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "1393b0f6",
-   "ticker": "SKWD",
-   "kind": "stop_loss",
-   "price": 53.286,
-   "status": "cancelled",
-   "created": "2026-10-01 10:33",
-   "created_ts": 1790865229,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $53.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:44",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "adb9dd42",
-   "ticker": "KO",
-   "kind": "stop_loss",
-   "price": 86.302,
-   "status": "filled",
-   "created": "2026-10-01 10:38",
-   "created_ts": 1790865490,
-   "why": "close it all at -0.4% under the average cost",
-   "evidence": "average cost $86.26",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:41"
-  },
-  {
-   "id": "3b5cc5ce",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 126.278,
-   "status": "filled",
-   "created": "2026-10-01 10:43",
-   "created_ts": 1790865791,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $126.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 10:52"
-  },
-  {
    "id": "d59ea3ec",
    "ticker": "NEM",
    "kind": "stop_loss",
@@ -7392,7 +7280,111 @@
    ],
    "good_until": "2026-10-13",
    "usd": 500.0
+  },
+  {
+   "id": "fc07486c",
+   "ticker": "HD",
+   "kind": "buy_limit",
+   "price": 288.5,
+   "status": "working",
+   "created": "2026-10-08 11:59",
+   "created_ts": 1791475168,
+   "why": "Wait for pullback rather than pay the high of day",
+   "evidence": "HD at 96.4% of day range ($290.22), too high to chase per max_entry_range_pct=85; resting limit below current price",
+   "signals": [
+    "congress",
+    "news"
+   ],
+   "good_until": "2026-10-08",
+   "usd": 1500.0
+  },
+  {
+   "id": "f8f53905",
+   "ticker": "PG",
+   "kind": "buy_limit",
+   "price": 148.1995,
+   "status": "working",
+   "created": "2026-10-08 11:59",
+   "created_ts": 1791475168,
+   "why": "wanted it, but not at the high \u2014 resting at $148.20. Congress pressure name not currently held, cooldown cleared, fresh breadth entry to hit min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "David J. Taylor (Rep) and Lloyd Doggett both disclosed PG buys; PG +0.7% today at 86.6% of day range, sector consumer staples diversifies vs KO",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-08",
+   "usd": 375.0
+  },
+  {
+   "id": "14fec8d3",
+   "ticker": "HD",
+   "kind": "buy_limit",
+   "price": 287.0484,
+   "status": "working",
+   "created": "2026-10-08 11:59",
+   "created_ts": 1791475168,
+   "why": "wanted it, but not at the high \u2014 resting at $287.05. Two independent congress disclosures back HD, place as limit below current high to respect max_entry_range_pct [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "Lloyd Doggett and David J. Taylor both disclosed HD buys; HD +1.56% today, 96.4% of range - but using buy_limit to avoid chasing high",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-08",
+   "usd": 375.0
+  },
+  {
+   "id": "c5a0e862",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 531.6948,
+   "status": "working",
+   "created": "2026-10-08 11:59",
+   "created_ts": 1791475168,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $530.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "34881f77",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 527.1334,
+   "status": "working",
+   "created": "2026-10-08 11:59",
+   "created_ts": 1791475168,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $530.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d118577f",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 514.4783,
+   "status": "working",
+   "created": "2026-10-08 11:59",
+   "created_ts": 1791475168,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $530.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-08 11:43"
+ "updated": "2026-10-08 11:59"
 }
