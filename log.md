@@ -23318,3 +23318,17 @@ Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% HUBB [time stop] -> $493.61 (-1.28%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-08 14:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 14:16 ET (Thursday) — week 2026-W41 — budget left $24147.65 (today $19750.00 put to work, 24 buys, 22 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past the 14:00 ET entry cutoff), so no new buys can be placed - they would be dropped. Existing GOOGL and AMZN positions already have stop_loss and take_profit working orders in place (GOOGL stop 338/tp 349.80; AMZN stop 250.50/tp 258.88), which is sufficient protection given the 90-minute hold experiment windows. Nothing to add or sell right now; will check back soon to monitor the two open positions as they approach their hold-minute limits.
+lesson: When no_new_entries_this_check is true, don't propose buys even with good evidence - rely on existing protective orders and just monitor until the clock or stops resolve open positions.
+portfolio: equity $25418.81 (+1.68% on $25000.00 in) · cash $24551.59 · realised +426.59
+Decision: nothing at this check. 4 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
