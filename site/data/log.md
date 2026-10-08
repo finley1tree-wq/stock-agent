@@ -1,6 +1,3 @@
-brain: Only 1 position held (NFLX) against min_positions of 8, with 83% cash idle - this is the priority to fix. Most names I'd want (TSM, KO, PG, HD, IBM, GS) are in cooldown from today's earlier sells, so I'm placing buy_limit orders below current market that will activate once cooldown clears and price dips, avoiding chasing high-range prints. UNH and AVGO have no cooldown restriction and decent congress/momentum signals with low day-range entries, so those get resting limits too. Lesson history strongly favors congress-disclosure-backed buys entered low/mid day range during the morning SURVIVOR hour over momentum-only chases.
-lesson: When most of the target buy list is in rebuy cooldown from a prior sell sweep, use buy_limit triggers below market rather than waiting idle - they activate automatically once cooldown and price align without requiring another check.
-  (dropped GS: sold 17 min ago, cooling off)
   (dropped trigger IBM buy_limit: culled strategy (signals congress: -79 over 31 trips, t -1.19))
   (dropped trigger KO buy_limit: culled strategy (signals congress: -79 over 31 trips, t -1.19))
   (dropped trigger PG buy_limit: culled strategy (signals congress: -79 over 31 trips, t -1.19))
@@ -398,3 +395,6 @@ lesson: When HD/congress names are high in day range, use buy_limit to wait for 
 ~ WORKING buy_limit $500.00 MSFT @ $514.48 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25423.36 (+1.69% on $25000.00 in) · cash $21805.39 · realised +430.39
 Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $21401.43 this week
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [take_profit @ $87.04] -> $500.80 (+0.16%) — close 100% at +0.2% over the average cost
+## 2026-10-08 12:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
