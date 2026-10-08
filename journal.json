@@ -55255,5 +55255,92 @@
     "hour_et": 15,
     "code_version": "ef9fc9b",
     "hold_minutes": 209
+  },
+  {
+    "symbol": "HD",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 10.524211,
+    "price": 285.06,
+    "date": "2026-10-08",
+    "time_et": "09:32",
+    "ts": 1791466363,
+    "why": "Two separate congress buy disclosures on HD recently, reasonable entry point mid-range",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Lloyd Doggett (filed 2026-10-05) and David J. Taylor (filed 2026-10-01) both disclosed HD buys; price 285.00, 57.7% of day range, not extended",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 285.0,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -8.2,
+    "hour_et": 9,
+    "code_version": "5798d95",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "PG",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 20.362526,
+    "price": 147.33,
+    "date": "2026-10-08",
+    "time_et": "09:32",
+    "ts": 1791466363,
+    "why": "Congress buy pressure plus favorable low-range entry, staple defensive name",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "David J. Taylor disclosed PG buy 2026-09-17; PG at 147.3, only 33.3% of day range, +2.33% 5d",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 147.3,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 3.27,
+    "hour_et": 9,
+    "code_version": "5798d95",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TSM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.390132,
+    "price": 469.47,
+    "date": "2026-10-08",
+    "time_et": "09:32",
+    "ts": 1791466363,
+    "why": "Overwhelming insider buying cluster at TSM, strongest insider signal in the entire dataset",
+    "signals": [
+      "congress",
+      "insider"
+    ],
+    "evidence": "30+ TSM insiders including CEO Wei Che-Chia bought shares at $79.39 on 2026-10-07 (filed 2026-10-08), insider_net_buy_pressure=30.0, highest in dataset",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 469.38,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 7.81,
+    "hour_et": 9,
+    "code_version": "5798d95",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

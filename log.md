@@ -22841,3 +22841,36 @@ portfolio: equity $25403.95 (+1.62% on $25000.00 in) · cash $25403.95 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-07 16:00 ET — published the session's closing state
+
+## 2026-10-08 09:32 ET (Thursday) — week 2026-W41 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
+  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
+  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
+brain: Flat book at 09:32 SURVIVOR hour with full $25k budget available - priors and past lessons strongly favor congress-disclosure-backed names bought low/mid in day range during this exact hour. Building 8 positions (min_positions) each ~$3000, concentrated on congress pressure (HD, PG, GS, IBM, NFLX, AMGN, KO) plus the standout TSM insider cluster (30 insiders including CEO buying), all with protective stops per the risk_management/auto_bracket signal bucket that has the best realized hit rate (0.88) in track_record.
+lesson: Opening-hour congress+insider evidence stacked across multiple names, sized at $3000 each with immediate stops, matches the pattern that graded best in past_lessons_with_outcome; avoid momentum-only entries per guardrails.allow_momentum_only_entries=false.
+  (dropped GS: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped IBM: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped NFLX: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped AMGN: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped KO: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+- BUY $3000.00 HD [filled] ['congress', 'track_record'] — Two separate congress buy disclosures on HD recently, reasonable entry point mid-range | evidence: Lloyd Doggett (filed 2026-10-05) and David J. Taylor (filed 2026-10-01) both disclosed HD buys; price 285.00, 57.7% of day range, not extended
+- BUY $3000.00 PG [filled] ['congress', 'momentum'] — Congress buy pressure plus favorable low-range entry, staple defensive name | evidence: David J. Taylor disclosed PG buy 2026-09-17; PG at 147.3, only 33.3% of day range, +2.33% 5d
+- BUY $3000.00 TSM [filled] ['insider', 'congress'] — Overwhelming insider buying cluster at TSM, strongest insider signal in the entire dataset | evidence: 30+ TSM insiders including CEO Wei Che-Chia bought shares at $79.39 on 2026-10-07 (filed 2026-10-08), insider_net_buy_pressure=30.0, highest in dataset
+  (dropped trigger GS stop_loss: not held)
+  (dropped trigger IBM stop_loss: not held)
+  (dropped trigger NFLX stop_loss: not held)
+  (dropped trigger AMGN stop_loss: not held)
+  (dropped trigger KO stop_loss: not held)
+~ WORKING stop_loss 100% HD @ $278.00 until 2026-10-08 — Protect HD position per auto-bracket risk management, ~2.5% below entry
+~ WORKING stop_loss 100% PG @ $143.80 until 2026-10-08 — Protect PG position, ~2.4% below entry
+~ WORKING stop_loss 100% TSM @ $457.00 until 2026-10-08 — Protect TSM position, ~2.6% below entry
+~ WORKING take_profit 100% HD @ $285.71 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 HD @ $276.51 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PG @ $147.58 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PG @ $142.91 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $470.58 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $455.39 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25402.15 (+1.61% on $25000.00 in) · cash $16403.95 · realised +403.95
+Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $16000.00 this week

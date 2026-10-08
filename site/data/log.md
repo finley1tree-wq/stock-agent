@@ -1,36 +1,3 @@
-## 2026-10-06 11:29 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (NXRT excluded: too thinly traded ($9.5M a day) — NexPoint Residential Trust, Inc.)
-brain: Book is flat (0 positions) after today's 11 cooldown-driven sells, and 8 diversified congress-backed buy_limits are already resting below market across KO, PG, HD, GS, AVGO, NFLX, IBM, UNH - all placed at sensible discounts (0.5-1.9% below last) rather than chasing names sitting 60-97% of today's range. 11:29 ET is a PROBATION hour per strategy_stages, and journal lessons from this exact pattern (whole book cycles out simultaneously) repeatedly show that forcing fresh market buys into high-range prints underperforms letting the resting ladder fill. AMGN is in cooldown for 26 more minutes so it's excluded from new orders; no new money needed now since the existing 8 limits cover min_positions once cooldowns clear and fills trigger.
-lesson: When the whole book exits simultaneously on cooldown and a full ladder of congress-backed buy_limits is already resting below market in a PROBATION hour, do nothing new at the check - let the limits do the work rather than chasing high-range prints.
-portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-06 11:39 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-brain: Whole book already churned out on 45-min cooldowns this morning (11 sells today) and 11:xx hour is PROBATION. I have a full diversified ladder of 8 congress-backed buy_limits already resting below market (IBM, UNH, GS, KO, AVGO, NFLX, HD, PG) covering most of the allowed names I'd want to re-enter. Forcing fresh market buys now would mean chasing names like AAPL(77%), AMZN(98%), GOOGL(93%) that are high in day range, which the guardrails would just convert to limits anyway - the resting ladder already does this better and cheaper. Letting those limits fill as prices dip is the better move per past lessons about not chasing in PROBATION hours.
-lesson: When the whole book exits simultaneously on cooldown and a full diversified ladder of congress-backed buy_limits already rests below market in a PROBATION hour, don't force fresh market buys into high-range names - let the limits work and recheck frequently for fills/cooldown expiry.
-portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-06 11:55 ET (Tuesday) — week 2026-W41 — budget left $25000.00 (today $31500.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
-  (AEF excluded: too thinly traded ($1.1M a day) — abrdn Emerging Markets ex-China Fund, Inc.)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
 brain: Flat book, 11am hour is PROBATION (cut to 1/4 size) and already spent full weekly budget today ($31.5k vs $25k budget) via rapid rotation with near-zero net edge (realized_per_dollar 0.02%). Eight diversified buy_limits already rest below market on congress-backed names (UNH, IBM, GS, KO, NFLX, AVGO, HD, PG) per past lesson that this beats chasing fresh market entries at high-range prints in a PROBATION hour. No new market buys now - let the ladder fill at better levels; this matches the pattern that graded positively in recent checks.
 lesson: In PROBATION hours with a full ladder of congress-backed buy_limits already resting below market, do nothing new rather than force fresh market buys at high-range prints - the ladder has consistently graded positive in the journal.
 portfolio: equity $25394.47 (+1.58% on $25000.00 in) · cash $25394.47 · realised +394.47
@@ -398,3 +365,36 @@ portfolio: equity $25403.95 (+1.62% on $25000.00 in) · cash $25403.95 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-07 16:00 ET — published the session's closing state
+
+## 2026-10-08 09:32 ET (Thursday) — week 2026-W41 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
+  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
+  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
+brain: Flat book at 09:32 SURVIVOR hour with full $25k budget available - priors and past lessons strongly favor congress-disclosure-backed names bought low/mid in day range during this exact hour. Building 8 positions (min_positions) each ~$3000, concentrated on congress pressure (HD, PG, GS, IBM, NFLX, AMGN, KO) plus the standout TSM insider cluster (30 insiders including CEO buying), all with protective stops per the risk_management/auto_bracket signal bucket that has the best realized hit rate (0.88) in track_record.
+lesson: Opening-hour congress+insider evidence stacked across multiple names, sized at $3000 each with immediate stops, matches the pattern that graded best in past_lessons_with_outcome; avoid momentum-only entries per guardrails.allow_momentum_only_entries=false.
+  (dropped GS: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped IBM: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped NFLX: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped AMGN: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped KO: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+- BUY $3000.00 HD [filled] ['congress', 'track_record'] — Two separate congress buy disclosures on HD recently, reasonable entry point mid-range | evidence: Lloyd Doggett (filed 2026-10-05) and David J. Taylor (filed 2026-10-01) both disclosed HD buys; price 285.00, 57.7% of day range, not extended
+- BUY $3000.00 PG [filled] ['congress', 'momentum'] — Congress buy pressure plus favorable low-range entry, staple defensive name | evidence: David J. Taylor disclosed PG buy 2026-09-17; PG at 147.3, only 33.3% of day range, +2.33% 5d
+- BUY $3000.00 TSM [filled] ['insider', 'congress'] — Overwhelming insider buying cluster at TSM, strongest insider signal in the entire dataset | evidence: 30+ TSM insiders including CEO Wei Che-Chia bought shares at $79.39 on 2026-10-07 (filed 2026-10-08), insider_net_buy_pressure=30.0, highest in dataset
+  (dropped trigger GS stop_loss: not held)
+  (dropped trigger IBM stop_loss: not held)
+  (dropped trigger NFLX stop_loss: not held)
+  (dropped trigger AMGN stop_loss: not held)
+  (dropped trigger KO stop_loss: not held)
+~ WORKING stop_loss 100% HD @ $278.00 until 2026-10-08 — Protect HD position per auto-bracket risk management, ~2.5% below entry
+~ WORKING stop_loss 100% PG @ $143.80 until 2026-10-08 — Protect PG position, ~2.4% below entry
+~ WORKING stop_loss 100% TSM @ $457.00 until 2026-10-08 — Protect TSM position, ~2.6% below entry
+~ WORKING take_profit 100% HD @ $285.71 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 HD @ $276.51 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PG @ $147.58 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PG @ $142.91 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $470.58 until 2026-10-13 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $455.39 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25402.15 (+1.61% on $25000.00 in) · cash $16403.95 · realised +403.95
+Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $16000.00 this week

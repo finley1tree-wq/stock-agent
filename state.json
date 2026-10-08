@@ -1,21 +1,23 @@
 {
   "week": "2026-W41",
-  "spent": 0.0,
-  "deployed": 87250.0,
+  "spent": 9000.0,
+  "deployed": 96250.0,
   "by_ticker": {
     "ACN": 29.57,
-    "HD": 3.59,
+    "HD": 3003.59,
     "NFLX": 14.34,
-    "IBM": 22.19
+    "IBM": 22.19,
+    "PG": 3000.0,
+    "TSM": 3000.0
   },
   "deployed_by_ticker": {
     "AVGO": 7500.0,
-    "PG": 9703.7,
+    "PG": 12703.7,
     "ACN": 5000.0,
     "MSFT": 2500.0,
     "NFLX": 12666.67,
-    "TSM": 8277.78,
-    "HD": 6814.81,
+    "TSM": 11277.78,
+    "HD": 9814.81,
     "UNH": 5125.0,
     "KO": 5851.85,
     "PEP": 2000.0,
@@ -1476,12 +1478,75 @@
       ],
       "evidence": "average cost $220.32",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "HD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.524211,
+      "price": 285.06,
+      "date": "2026-10-08",
+      "time_et": "09:32",
+      "ts": 1791466363,
+      "why": "Two separate congress buy disclosures on HD recently, reasonable entry point mid-range",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Lloyd Doggett (filed 2026-10-05) and David J. Taylor (filed 2026-10-01) both disclosed HD buys; price 285.00, 57.7% of day range, not extended",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "PG",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 20.362526,
+      "price": 147.33,
+      "date": "2026-10-08",
+      "time_et": "09:32",
+      "ts": 1791466363,
+      "why": "Congress buy pressure plus favorable low-range entry, staple defensive name",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "David J. Taylor disclosed PG buy 2026-09-17; PG at 147.3, only 33.3% of day range, +2.33% 5d",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "TSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.390132,
+      "price": 469.47,
+      "date": "2026-10-08",
+      "time_et": "09:32",
+      "ts": 1791466363,
+      "why": "Overwhelming insider buying cluster at TSM, strongest insider signal in the entire dataset",
+      "signals": [
+        "insider",
+        "congress"
+      ],
+      "evidence": "30+ TSM insiders including CEO Wei Che-Chia bought shares at $79.39 on 2026-10-07 (filed 2026-10-08), insider_net_buy_pressure=30.0, highest in dataset",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-08",
-  "spent_today": 0.0,
-  "deployed_today": 0.0,
-  "orders_today": 0,
+  "spent_today": 9000.0,
+  "deployed_today": 9000.0,
+  "orders_today": 3,
   "sells_today": 0,
   "sold_today": [],
   "sold_ts": {
@@ -1501,10 +1566,10 @@
     "AMGN": 1791380137,
     "HUBB": 1791400453
   },
-  "last_publish_ts": 1791466236,
-  "last_check_ts": 1791466236,
+  "last_publish_ts": 1791466363,
+  "last_check_ts": 1791466363,
   "exp_arm": {
-    "NFLX": {
+    "HD": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -1513,28 +1578,38 @@
         "ratchet": "on"
       }
     },
-    "HUBB": {
+    "PG": {
       "params": {
         "hold_minutes": 90,
-        "ratchet": "on"
+        "ratchet": "off"
       },
       "tags": {
-        "ratchet": "on"
+        "ratchet": "off"
       }
     },
-    "IBM": {
+    "TSM": {
       "params": {
         "hold_minutes": 90,
-        "ratchet": "on"
+        "ratchet": "off"
       },
       "tags": {
-        "ratchet": "on"
+        "ratchet": "off"
       }
     }
   },
-  "last_bar_ts": 1791402300,
-  "last_decision_ts": 1791402313,
+  "last_bar_ts": 1791466200,
+  "last_decision_ts": 1791466363,
   "next_check_minutes": 30,
   "autopiloted": false,
-  "book_px": {}
+  "book_px": {
+    "15f95751": 147.5805,
+    "92c31767": 285.7099,
+    "492c184f": 470.5826,
+    "12180cad": 143.8,
+    "6b31a657": 278.0,
+    "0b6e66c6": 457.0,
+    "92f34eb0": 276.5082,
+    "2768a7bf": 142.9101,
+    "3217b1f2": 455.3859
+  }
 }
