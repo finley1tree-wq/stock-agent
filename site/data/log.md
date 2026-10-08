@@ -1,25 +1,3 @@
-~ WORKING stop_loss 100% HD @ $278.00 until 2026-10-08 — Protect HD position per auto-bracket risk management, ~2.5% below entry
-~ WORKING stop_loss 100% PG @ $143.80 until 2026-10-08 — Protect PG position, ~2.4% below entry
-~ WORKING stop_loss 100% TSM @ $457.00 until 2026-10-08 — Protect TSM position, ~2.6% below entry
-~ WORKING take_profit 100% HD @ $285.71 until 2026-10-13 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 HD @ $276.51 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PG @ $147.58 until 2026-10-13 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 PG @ $142.91 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $470.58 until 2026-10-13 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $455.39 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25402.15 (+1.61% on $25000.00 in) · cash $16403.95 · realised +403.95
-Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $16000.00 this week
-  (cancelled 2 standing order(s) on PG: position closed)
-- SELL 100% PG [take_profit @ $147.58] -> $3005.11 (+0.17%) — close 100% at +0.2% over the average cost
-## 2026-10-08 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on HD: position closed)
-- SELL 100% HD [take_profit @ $285.71] -> $3006.87 (+0.23%) — close 100% at +0.2% over the average cost
-## 2026-10-08 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-08 10:03 ET (Thursday) — week 2026-W41 — budget left $22011.98 (today $9000.00 put to work, 3 buys, 2 sells) — SIM (pretend money) via sim
-  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
   (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
   (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
 brain: Below target position count (1 of 8) with 88% cash idle - a clear decision to fix now. Added 6 new congress-disclosure backed names (GS, IBM, KO, NFLX, FWONK, ESE, PPG minus one to keep to 7 orders) at $3000 each to diversify sectors and hit min_positions, following the pattern that graded best in past_lessons_with_outcome (congress-disclosure entries at SURVIVOR 09-10h hour). Avoided PG/HD (cooldown) and pure momentum-only entries per guardrail; each name backed by concrete congress disclosure evidence and tagged accordingly, with protective stops set ~2.3% below entry on every new position.
@@ -398,3 +376,25 @@ Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $22775.55 this week
   (cancelled 2 standing order(s) on NFLX: position closed)
 - SELL 100% NFLX [take_profit @ $71.11] -> $375.88 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-08 13:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-08 13:28 ET (Thursday) — week 2026-W41 — budget left $23652.67 (today $19250.00 put to work, 23 buys, 20 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+brain: Still well below min_positions (3 held vs 8 target) with 94.6% cash idle - the clearest action signal per guardrails. Adding IBM, AMGN, GS on congress disclosures and TSM on an extremely strong insider cluster (30 net buy pressure, the top in the dataset) to build breadth toward min_positions, sized at ~$2000 each (above min_order_usd, within normal range). All entries have concrete evidence (named disclosures/filings) and are not momentum-only. Protective stops placed on each new position given the 30-min auto-exit rule and to limit downside.
+lesson: Breadth entries backed by specific named congress/insider filings (not just pressure scores) continue to be the fastest path to min_positions; keep sizing at ~$2000/position and always pair with an explicit stop_loss trigger rather than relying solely on auto_bracket.
+  (dropped AMGN: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped GS: sold 12 min ago, cooling off)
+  (dropped TSM: sold 25 min ago, cooling off)
+- BUY $500.00 IBM [filled] ['congress', 'news'] — Congress buy pressure plus positive momentum in a name cooled off from earlier sell, cooldown clear [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Lloyd Doggett disclosed IBM buy ($1,001-$15,000) on 2026-09-10, filed 2026-10-05; IBM +0.69% today, 70% of day range, not overextended
+  (dropped trigger AMGN stop_loss: not held)
+  (dropped trigger GS stop_loss: not held)
+  (dropped trigger TSM stop_loss: not held)
+~ WORKING stop_loss 100% IBM @ $217.00 until 2026-10-08 — Protective stop on new IBM position
+~ WORKING take_profit 100% IBM @ $222.69 until 2026-10-13 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $215.42 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25413.25 (+1.65% on $25000.00 in) · cash $23556.61 · realised +431.61
+Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $23152.67 this week

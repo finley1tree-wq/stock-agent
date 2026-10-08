@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "b3305547",
-   "ticker": "PLD",
-   "kind": "take_profit",
-   "price": 128.1355,
-   "status": "cancelled",
-   "created": "2026-10-01 11:02",
-   "created_ts": 1790866940,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $127.89",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:15",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "3d9fe756",
-   "ticker": "PLD",
-   "kind": "stop_loss",
-   "price": 127.2761,
-   "status": "cancelled",
-   "created": "2026-10-01 11:02",
-   "created_ts": 1790866940,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $127.89",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:12",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "ce8d54f1",
-   "ticker": "PLD",
-   "kind": "buy_limit",
-   "price": 124.0533,
-   "status": "cancelled",
-   "created": "2026-10-01 11:02",
-   "created_ts": 1790866940,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $127.89",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 11:15",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "93cde703",
    "ticker": "UNH",
    "kind": "take_profit",
@@ -7399,7 +7342,57 @@
    "usd": 500.0,
    "closed": "2026-10-08 13:20",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "862135b5",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 217.0,
+   "status": "working",
+   "created": "2026-10-08 13:28",
+   "created_ts": 1791480494,
+   "why": "Protective stop on new IBM position",
+   "evidence": "IBM day low 217.81, placing stop just below to cap downside",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ff1096ce",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 222.6907,
+   "status": "working",
+   "created": "2026-10-08 13:28",
+   "created_ts": 1791480494,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $222.08",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ac7fcc47",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 215.4176,
+   "status": "working",
+   "created": "2026-10-08 13:28",
+   "created_ts": 1791480494,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $222.08",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-13",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-08 13:20"
+ "updated": "2026-10-08 13:28"
 }
