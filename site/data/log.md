@@ -1,6 +1,3 @@
-- BUY $3000.00 TSM [filled] ['insider', 'congress'] — Overwhelming insider buying cluster at TSM, strongest insider signal in the entire dataset | evidence: 30+ TSM insiders including CEO Wei Che-Chia bought shares at $79.39 on 2026-10-07 (filed 2026-10-08), insider_net_buy_pressure=30.0, highest in dataset
-  (dropped trigger GS stop_loss: not held)
-  (dropped trigger IBM stop_loss: not held)
   (dropped trigger NFLX stop_loss: not held)
   (dropped trigger AMGN stop_loss: not held)
   (dropped trigger KO stop_loss: not held)
@@ -398,3 +395,6 @@ lesson: Past lessons show breadth entries across sectors at mid-day get mixed re
 ~ WORKING buy_limit $500.00 NFLX @ $68.81 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25416.85 (+1.67% on $25000.00 in) · cash $23179.49 · realised +429.49
 Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $22775.55 this week
+  (cancelled 2 standing order(s) on GS: position closed)
+- SELL 100% GS [take_profit @ $883.16] -> $501.24 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-10-08 13:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
