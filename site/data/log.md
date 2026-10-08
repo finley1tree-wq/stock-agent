@@ -1,12 +1,3 @@
-  (IRIX excluded: too thinly traded ($0.0M a day) — IRIDEX Corporation)
-  (LWAY excluded: too thinly traded ($3.2M a day) — Lifeway Foods, Inc.)
-  (NXH excluded: too thinly traded ($4.9M a day) — Neighborhood Intelligence, Inc.)
-  (no price for AXIA — excluded this check)
-brain: Only 1 position held (NFLX) against min_positions of 8, with 83% cash idle - need to deploy urgently. Many prior buys (AVGO, TSM, UNH, KO, PG, GS, IBM, AMGN, HD) are in rebuy cooldown, so picking fresh congress-backed names from the allowed list not yet bought today: HUBB, PPG, ACN, FWONK, CHRW all show congress buy pressure from April McClain Delaney/Lloyd Doggett/David Taylor disclosures, several at low/mid day-range which past_lessons flag as the best-performing bucket. Skipping AMGN since still in cooldown.
-lesson: When most of the regular rotation is in rebuy cooldown, pivot to other congress-pressure names in the allowed universe not yet traded today rather than sitting idle, since idle cash is itself graded as a loss.
-  (dropped PPG: culled strategy (signals congress: -79 over 31 trips, t -1.19))
-  (dropped ACN: not in allowed list)
-  (dropped FWONK: culled strategy (signals congress: -79 over 31 trips, t -1.19))
   (dropped AMGN: sold 44 min ago, cooling off)
   (dropped CHRW: culled strategy (signals congress: -79 over 31 trips, t -1.19))
 - BUY $625.00 HUBB [filled] ['congress', 'momentum'] — Congress pressure name at reasonable entry point, not chasing [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: April McClain Delaney disclosed buy of HUBB, congress_net_buy_pressure 3.0, price 474.12 at 28% of day range
@@ -398,3 +389,12 @@ lesson: Congress-disclosure breadth entries at mid-range (50-70% of day range) r
 ~ WORKING buy_limit $500.00 IBP @ $176.66 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25425.56 (+1.70% on $25000.00 in) · cash $21756.18 · realised +431.18
 Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $21352.23 this week
+  (cancelled 2 standing order(s) on GS: position closed)
+- SELL 100% GS [take_profit @ $885.09] -> $626.54 (+0.25%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $220.16] -> $501.38 (+0.28%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on NFLX: position closed)
+- SELL 100% NFLX [take_profit @ $71.28] -> $501.17 (+0.23%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $531.69] -> $375.93 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-10-08 12:17 ET — tick — 4 sell(s), 0 buy(s) from standing orders

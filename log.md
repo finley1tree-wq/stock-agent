@@ -23132,3 +23132,12 @@ lesson: Congress-disclosure breadth entries at mid-range (50-70% of day range) r
 ~ WORKING buy_limit $500.00 IBP @ $176.66 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25425.56 (+1.70% on $25000.00 in) · cash $21756.18 · realised +431.18
 Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $21352.23 this week
+  (cancelled 2 standing order(s) on GS: position closed)
+- SELL 100% GS [take_profit @ $885.09] -> $626.54 (+0.25%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $220.16] -> $501.38 (+0.28%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on NFLX: position closed)
+- SELL 100% NFLX [take_profit @ $71.28] -> $501.17 (+0.23%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $531.69] -> $375.93 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-10-08 12:17 ET — tick — 4 sell(s), 0 buy(s) from standing orders

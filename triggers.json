@@ -6981,7 +6981,7 @@
    "ticker": "GS",
    "kind": "take_profit",
    "price": 885.092,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-08 11:06",
    "created_ts": 1791471998,
    "why": "close 100% at +0.2% over the average cost",
@@ -6991,14 +6991,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-08 12:17"
   },
   {
    "id": "7915741e",
    "ticker": "GS",
    "kind": "stop_loss",
    "price": 877.4812,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-08 11:06",
    "created_ts": 1791471998,
    "why": "close it all at -0.6% under the average cost",
@@ -7008,14 +7009,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-08 12:17",
+   "cancel_reason": "position closed"
   },
   {
    "id": "01b7aa6f",
    "ticker": "GS",
    "kind": "buy_limit",
    "price": 856.4324,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-08 11:06",
    "created_ts": 1791471998,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7025,7 +7028,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-08 12:17",
+   "cancel_reason": "position closed"
   },
   {
    "id": "e758ce8e",
@@ -7048,7 +7053,7 @@
    "ticker": "NFLX",
    "kind": "stop_loss",
    "price": 69.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-08 11:33",
    "created_ts": 1791473584,
    "why": "Protective stop below recent day low",
@@ -7057,7 +7062,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-08 12:17",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0f54fbbd",
@@ -7082,7 +7089,7 @@
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 215.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-08 11:33",
    "created_ts": 1791473584,
    "why": "Protective stop ~1.8% below entry",
@@ -7091,14 +7098,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-08 12:17",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ec497900",
    "ticker": "IBM",
    "kind": "take_profit",
    "price": 220.1603,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-08 11:33",
    "created_ts": 1791473584,
    "why": "close 100% at +0.3% over the average cost",
@@ -7108,14 +7117,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-08 12:17"
   },
   {
    "id": "dfa4a5ee",
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 212.9635,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-08 11:33",
    "created_ts": 1791473584,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7125,7 +7135,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-08 12:17",
+   "cancel_reason": "position closed"
   },
   {
    "id": "47963c3a",
@@ -7169,7 +7181,7 @@
    "ticker": "NFLX",
    "kind": "take_profit",
    "price": 71.2807,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-08 11:33",
    "created_ts": 1791473584,
    "why": "close 100% at +0.2% over the average cost",
@@ -7179,14 +7191,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-08 12:17"
   },
   {
    "id": "d3b1a378",
    "ticker": "NFLX",
    "kind": "buy_limit",
    "price": 68.9767,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-08 11:33",
    "created_ts": 1791473584,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7196,7 +7209,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-08 12:17",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6eb612c2",
@@ -7290,7 +7305,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 531.6948,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-08 11:59",
    "created_ts": 1791475168,
    "why": "close 100% at +0.2% over the average cost",
@@ -7300,14 +7315,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-08 12:17"
   },
   {
    "id": "34881f77",
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 527.1334,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-08 11:59",
    "created_ts": 1791475168,
    "why": "close it all at -0.6% under the average cost",
@@ -7317,14 +7333,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-08 12:17",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d118577f",
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 514.4783,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-08 11:59",
    "created_ts": 1791475168,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7334,7 +7352,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-13",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-08 12:17",
+   "cancel_reason": "position closed"
   },
   {
    "id": "1f4be284",
@@ -7387,5 +7407,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-08 12:15"
+ "updated": "2026-10-08 12:17"
 }
