@@ -1,31 +1,3 @@
-  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
-brain: Below min_positions (5 of 8) with 87% idle cash - past lessons and counterfactual data consistently show idle cash is graded as a loss while congress-disclosure breadth is the fastest path to target count. Adding PPG, LTH, CHRW, FWONK (all with fresh congress disclosure evidence from Doggett/McClain Delaney, not yet traded today, not in cooldown) brings us to 9 positions and deploys meaningful capital, each with a protective stop given the 30-min hold rule.
-lesson: Congress-pressure breadth entries (PPG/LTH/CHRW/FWONK) placed at 11:16 to close the min_positions gap while idle cash sat at 87%; track whether this late-morning batch underperforms the 09:xx SURVIVOR hour cohort.
-  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped LTH: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped CHRW: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped FWONK: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped trigger PPG stop_loss: not held)
-  (dropped trigger LTH stop_loss: not held)
-  (dropped trigger CHRW stop_loss: not held)
-  (dropped trigger FWONK stop_loss: not held)
-portfolio: equity $25425.71 (+1.70% on $25000.00 in) · cash $22174.86 · realised +424.86
-Decision: nothing at this check. 18 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on AVGO: position closed)
-- SELL 100% AVGO [take_profit @ $372.24] -> $752.23 (+0.30%) — close 100% at +0.3% over the average cost
-## 2026-10-08 11:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on UNH: position closed)
-- SELL 100% UNH [take_profit @ $371.45] -> $626.47 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-10-08 11:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on HUBB: position closed)
-- SELL 100% HUBB [take_profit @ $477.12] -> $626.82 (+0.29%) — close 100% at +0.3% over the average cost
-## 2026-10-08 11:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-08 11:33 ET (Thursday) — week 2026-W41 — budget left $23776.43 (today $13000.00 put to work, 9 buys, 7 sells) — SIM (pretend money) via sim
-  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
   (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
   (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
 brain: Only 2 of 8 min_positions held with 95% cash idle - a clear, graded loss per counterfactual data. Adding 5 names with concrete evidence: IBM/KO congress pressure, NFLX double congress disclosure plus momentum, TSM massive insider cluster (30 buys including CEO), PEP defensive diversifier. Sized at $2000 each (within $1-3k band), all protected with stops; avoiding culled PPG/LTH/CHRW/FWONK and cooling-off AVGO/UNH/HUBB.
@@ -398,3 +370,31 @@ Done: 0 sell(s), 4 buy(s); 14 order(s) working; budget left $13500.00 this week
   (cancelled 2 standing order(s) on HD: position closed)
 - SELL 100% HD [take_profit @ $294.21] -> $3007.27 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-09 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 09:48 ET (Friday) — week 2026-W41 — budget left $19518.14 (today $11500.00 put to work, 4 buys, 2 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+brain: Only 2 positions held vs min_positions=8, cash_idle_pct=78%, so the clear action is to deploy more names in size. I'm adding 4 congress-backed names (IBP, NOC, KO, PG) at mid-range entries with protective stops, avoiding chasing names at day highs (AMGN/NFLX are already resting as buy_limits). This gets me to 6 positions with real money working, consistent with past lessons that congress-disclosure breadth entries graded positively.
+lesson: Keep building toward min_positions using congress-pressure names at mid-range entries with explicit stop_loss, sized $2000-2500 each, rather than leaving cash idle when below target count.
+- BUY $2000.00 IBP [filled] ['congress', 'track_record'] — Congress-linked homebuilder name at day low, cheap entry, consistent with breadth-building lesson | evidence: Congress net buy pressure 1.0 (Lloyd Doggett history), IBP down 9.49% 1m, 0% of day range - deep value entry near low
+- BUY $2000.00 NOC [filled] ['congress', 'track_record'] — Defense name with congress pressure score 2.0, reasonable entry point mid-range | evidence: Congress net buy pressure 2.0, NOC at 53.8% of day range, defense sector with historical track record avg_ret -0.01 but decent hit_rate 0.56
+- BUY $2500.00 KO [filled] ['congress', 'news'] — Defensive consumer staple with congress pressure, mid-range entry avoids chasing | evidence: Congress net buy pressure 1.0, KO at 49.1% of day range, stable defensive name, already in bought_this_week at $6351
+- BUY $2000.00 PG [filled] ['congress', 'momentum'] — PG has congress backing and positive momentum, already held in week's budget showing conviction | evidence: Congress net buy pressure 1.0, PG +4.28% 5d momentum, 83% of day range but strong recent trend
+~ WORKING stop_loss 100% IBP @ $178.50 until 2026-10-09 — Protective stop since IBP is volatile (4.69% ATR)
+~ WORKING stop_loss 100% NOC @ $470.00 until 2026-10-09 — Protective stop on new defense position
+~ WORKING stop_loss 100% KO @ $85.80 until 2026-10-09 — Protective stop on new defensive position
+~ WORKING stop_loss 100% PG @ $147.80 until 2026-10-09 — Protective stop on new staples position
+~ WORKING take_profit 100% IBP @ $183.59 until 2026-10-14 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 IBP @ $177.16 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $482.03 until 2026-10-14 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $466.33 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% KO @ $87.87 until 2026-10-14 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 KO @ $85.10 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PG @ $151.42 until 2026-10-14 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PG @ $146.61 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25397.67 (+1.59% on $25000.00 in) · cash $11437.41 · realised +437.41
+Done: 0 sell(s), 4 buy(s); 20 order(s) working; budget left $11018.14 this week

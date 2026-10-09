@@ -1,7 +1,7 @@
 {
   "week": "2026-W41",
-  "spent": 5481.86,
-  "deployed": 118500.0,
+  "spent": 13981.86,
+  "deployed": 127000.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 12.29,
@@ -11,26 +11,30 @@
     "HUBB": 6.39,
     "GOOGL": 2.72,
     "AMZN": 4.59,
-    "GS": 3500.0
+    "GS": 3500.0,
+    "IBP": 2000.0,
+    "NOC": 2000.0,
+    "KO": 2500.0,
+    "PG": 2000.0
   },
   "deployed_by_ticker": {
     "AVGO": 8250.0,
-    "PG": 12703.7,
+    "PG": 14703.7,
     "ACN": 5000.0,
     "MSFT": 2875.0,
     "NFLX": 13541.67,
     "TSM": 13777.78,
     "HD": 12814.81,
     "UNH": 6125.0,
-    "KO": 6351.85,
+    "KO": 8851.85,
     "PEP": 2000.0,
     "AAPL": 2500.0,
     "GS": 13041.67,
     "IBM": 10240.74,
     "AMGN": 5402.78,
     "HUBB": 1750.0,
-    "IBP": 550.0,
-    "NOC": 325.0,
+    "IBP": 2550.0,
+    "NOC": 2325.0,
     "PPG": 375.0,
     "GOOGL": 500.0,
     "AMZN": 375.0
@@ -2615,12 +2619,96 @@
       ],
       "evidence": "average cost $293.5",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "IBP",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.950322,
+      "price": 182.64,
+      "date": "2026-10-09",
+      "time_et": "09:48",
+      "ts": 1791553718,
+      "why": "Congress-linked homebuilder name at day low, cheap entry, consistent with breadth-building lesson",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Congress net buy pressure 1.0 (Lloyd Doggett history), IBP down 9.49% 1m, 0% of day range - deep value entry near low",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "NOC",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.160147,
+      "price": 480.75,
+      "date": "2026-10-09",
+      "time_et": "09:48",
+      "ts": 1791553718,
+      "why": "Defense name with congress pressure score 2.0, reasonable entry point mid-range",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Congress net buy pressure 2.0, NOC at 53.8% of day range, defense sector with historical track record avg_ret -0.01 but decent hit_rate 0.56",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "KO",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 28.497322,
+      "price": 87.73,
+      "date": "2026-10-09",
+      "time_et": "09:48",
+      "ts": 1791553718,
+      "why": "Defensive consumer staple with congress pressure, mid-range entry avoids chasing",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "Congress net buy pressure 1.0, KO at 49.1% of day range, stable defensive name, already in bought_this_week at $6351",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "PG",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.232745,
+      "price": 151.14,
+      "date": "2026-10-09",
+      "time_et": "09:48",
+      "ts": 1791553718,
+      "why": "PG has congress backing and positive momentum, already held in week's budget showing conviction",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "Congress net buy pressure 1.0, PG +4.28% 5d momentum, 83% of day range but strong recent trend",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 5481.86,
-  "deployed_today": 11500.0,
-  "orders_today": 4,
+  "spent_today": 13981.86,
+  "deployed_today": 20000.0,
+  "orders_today": 8,
   "sells_today": 2,
   "sold_today": [
     "IBM",
@@ -2648,28 +2736,10 @@
     "GOOGL": 1791483976,
     "AMZN": 1791483976
   },
-  "last_publish_ts": 1791553637,
-  "last_check_ts": 1791553637,
+  "last_publish_ts": 1791553718,
+  "last_check_ts": 1791553718,
   "exp_arm": {
     "GS": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "IBM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "HD": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -2686,20 +2756,68 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "IBP": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "NOC": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "KO": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "PG": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1791553500,
-  "last_decision_ts": 1791552751,
+  "last_decision_ts": 1791553718,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "bb411dc6": 87.8669,
+    "1ad629c9": 151.4166,
+    "40367996": 482.0288,
+    "9d609ca1": 183.5897,
     "dc2e30c5": 886.8527,
-    "ca935182": 406.6234,
     "75dad4b8": 452.0,
+    "ca935182": 406.6234,
     "baaa4ec2": 70.914,
     "fb17f10b": 463.4634,
     "c473628d": 448.4116,
     "29b337d4": 865.0,
-    "d0b8212a": 858.256
+    "13a40c7b": 85.8,
+    "8347beb2": 147.8,
+    "b00f1046": 470.0,
+    "9b597cef": 178.5,
+    "d0b8212a": 858.256,
+    "7fb07e60": 177.1608,
+    "0899f69b": 466.3275,
+    "3c32ff3b": 85.0981,
+    "b533872a": 146.6058
   }
 }

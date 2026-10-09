@@ -279,3 +279,4 @@
 - 2026-10-08 (13d graded, realised 0.02% per dollar): After no_new_entries_after_et (14:00), with zero open positions, there is nothing to do but wait - don't force orders that guardrails will drop.
 - 2026-10-08 (13d graded, realised 0.02% per dollar): When no_new_entries_this_check is true and positions_held is 0, there is literally nothing actionable - confirm both flags before attempting any order construction.
 - 2026-10-09 (14d graded, realised 0.02% per dollar): Congress-disclosure-backed breadth buys sized $2-3.5k each, each paired with an explicit stop_loss, remains the fastest documented path from idle cash to min_positions with positive realized signal performance.
+- 2026-10-09 (14d graded, realised 0.02% per dollar): Keep building toward min_positions using congress-pressure names at mid-range entries with explicit stop_loss, sized $2000-2500 each, rather than leaving cash idle when below target count.

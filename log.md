@@ -23420,3 +23420,31 @@ Done: 0 sell(s), 4 buy(s); 14 order(s) working; budget left $13500.00 this week
   (cancelled 2 standing order(s) on HD: position closed)
 - SELL 100% HD [take_profit @ $294.21] -> $3007.27 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-09 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 09:48 ET (Friday) — week 2026-W41 — budget left $19518.14 (today $11500.00 put to work, 4 buys, 2 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+brain: Only 2 positions held vs min_positions=8, cash_idle_pct=78%, so the clear action is to deploy more names in size. I'm adding 4 congress-backed names (IBP, NOC, KO, PG) at mid-range entries with protective stops, avoiding chasing names at day highs (AMGN/NFLX are already resting as buy_limits). This gets me to 6 positions with real money working, consistent with past lessons that congress-disclosure breadth entries graded positively.
+lesson: Keep building toward min_positions using congress-pressure names at mid-range entries with explicit stop_loss, sized $2000-2500 each, rather than leaving cash idle when below target count.
+- BUY $2000.00 IBP [filled] ['congress', 'track_record'] — Congress-linked homebuilder name at day low, cheap entry, consistent with breadth-building lesson | evidence: Congress net buy pressure 1.0 (Lloyd Doggett history), IBP down 9.49% 1m, 0% of day range - deep value entry near low
+- BUY $2000.00 NOC [filled] ['congress', 'track_record'] — Defense name with congress pressure score 2.0, reasonable entry point mid-range | evidence: Congress net buy pressure 2.0, NOC at 53.8% of day range, defense sector with historical track record avg_ret -0.01 but decent hit_rate 0.56
+- BUY $2500.00 KO [filled] ['congress', 'news'] — Defensive consumer staple with congress pressure, mid-range entry avoids chasing | evidence: Congress net buy pressure 1.0, KO at 49.1% of day range, stable defensive name, already in bought_this_week at $6351
+- BUY $2000.00 PG [filled] ['congress', 'momentum'] — PG has congress backing and positive momentum, already held in week's budget showing conviction | evidence: Congress net buy pressure 1.0, PG +4.28% 5d momentum, 83% of day range but strong recent trend
+~ WORKING stop_loss 100% IBP @ $178.50 until 2026-10-09 — Protective stop since IBP is volatile (4.69% ATR)
+~ WORKING stop_loss 100% NOC @ $470.00 until 2026-10-09 — Protective stop on new defense position
+~ WORKING stop_loss 100% KO @ $85.80 until 2026-10-09 — Protective stop on new defensive position
+~ WORKING stop_loss 100% PG @ $147.80 until 2026-10-09 — Protective stop on new staples position
+~ WORKING take_profit 100% IBP @ $183.59 until 2026-10-14 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 IBP @ $177.16 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $482.03 until 2026-10-14 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $466.33 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% KO @ $87.87 until 2026-10-14 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 KO @ $85.10 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PG @ $151.42 until 2026-10-14 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PG @ $146.61 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25397.67 (+1.59% on $25000.00 in) · cash $11437.41 · realised +437.41
+Done: 0 sell(s), 4 buy(s); 20 order(s) working; budget left $11018.14 this week

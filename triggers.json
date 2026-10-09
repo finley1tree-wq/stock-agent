@@ -1,227 +1,6 @@
 {
  "orders": [
   {
-   "id": "47e33108",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 205.0,
-   "status": "cancelled",
-   "created": "2026-10-01 11:32",
-   "created_ts": 1790868760,
-   "why": "bound downside on momentum-extended earnings pop",
-   "evidence": "ACN +18% today, ATR 4.58%, protect large intraday gain from reversal",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:02",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "50c59e53",
-   "ticker": "ACN",
-   "kind": "take_profit",
-   "price": 218.0019,
-   "status": "cancelled",
-   "created": "2026-10-01 11:32",
-   "created_ts": 1790868760,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $216.9",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:02",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "c2816ff0",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 210.393,
-   "status": "cancelled",
-   "created": "2026-10-01 11:32",
-   "created_ts": 1790868760,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $216.9",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 12:02",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "11b2e084",
-   "ticker": "XENE",
-   "kind": "take_profit",
-   "price": 39.1383,
-   "status": "filled",
-   "created": "2026-10-01 11:32",
-   "created_ts": 1790868760,
-   "why": "close 100% at +0.8% over the average cost",
-   "evidence": "average cost $38.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:47"
-  },
-  {
-   "id": "7d4efc4f",
-   "ticker": "XENE",
-   "kind": "buy_limit",
-   "price": 37.6457,
-   "status": "cancelled",
-   "created": "2026-10-01 11:32",
-   "created_ts": 1790868760,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $38.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 11:47",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "69f6641e",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 219.5,
-   "status": "cancelled",
-   "created": "2026-10-01 11:48",
-   "created_ts": 1790869714,
-   "why": "bound downside on earnings-spillover trade",
-   "evidence": "protect new entry, ~2.4% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:18",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "16d992f0",
-   "ticker": "AMD",
-   "kind": "stop_loss",
-   "price": 592.0,
-   "status": "cancelled",
-   "created": "2026-10-01 11:48",
-   "created_ts": 1790869714,
-   "why": "bound downside on momentum entry",
-   "evidence": "protect new entry, ~3% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:56",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "93e11e5a",
-   "ticker": "NLR",
-   "kind": "stop_loss",
-   "price": 98.8,
-   "status": "cancelled",
-   "created": "2026-10-01 11:48",
-   "created_ts": 1790869714,
-   "why": "bound downside on nuclear theme entry",
-   "evidence": "protect new entry, ~3% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:07",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "fc1e95cd",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 225.7083,
-   "status": "filled",
-   "created": "2026-10-01 11:48",
-   "created_ts": 1790869714,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $224.93",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:18"
-  },
-  {
-   "id": "21d74d52",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 218.1821,
-   "status": "cancelled",
-   "created": "2026-10-01 11:48",
-   "created_ts": 1790869714,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $224.93",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 12:18",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "82757e96",
-   "ticker": "AMD",
-   "kind": "take_profit",
-   "price": 613.0697,
-   "status": "filled",
-   "created": "2026-10-01 11:48",
-   "created_ts": 1790869714,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $610.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:56"
-  },
-  {
-   "id": "fbec059c",
-   "ticker": "AMD",
-   "kind": "buy_limit",
-   "price": 591.9134,
-   "status": "cancelled",
-   "created": "2026-10-01 11:48",
-   "created_ts": 1790869714,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $610.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 11:56",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "8a7c899d",
    "ticker": "NLR",
    "kind": "take_profit",
@@ -7414,7 +7193,207 @@
    ],
    "good_until": "2026-10-14",
    "usd": 500.0
+  },
+  {
+   "id": "9b597cef",
+   "ticker": "IBP",
+   "kind": "stop_loss",
+   "price": 178.5,
+   "status": "working",
+   "created": "2026-10-09 09:48",
+   "created_ts": 1791553718,
+   "why": "Protective stop since IBP is volatile (4.69% ATR)",
+   "evidence": "IBP at $182.57, 2.2% stop below entry consistent with other positions",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b00f1046",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 470.0,
+   "status": "working",
+   "created": "2026-10-09 09:48",
+   "created_ts": 1791553718,
+   "why": "Protective stop on new defense position",
+   "evidence": "NOC at $480.56, ~2.2% stop below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "13a40c7b",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 85.8,
+   "status": "working",
+   "created": "2026-10-09 09:48",
+   "created_ts": 1791553718,
+   "why": "Protective stop on new defensive position",
+   "evidence": "KO at $87.71, ~2.2% stop below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8347beb2",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 147.8,
+   "status": "working",
+   "created": "2026-10-09 09:48",
+   "created_ts": 1791553718,
+   "why": "Protective stop on new staples position",
+   "evidence": "PG at $151.11, ~2.2% stop below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9d609ca1",
+   "ticker": "IBP",
+   "kind": "take_profit",
+   "price": 183.5897,
+   "status": "working",
+   "created": "2026-10-09 09:48",
+   "created_ts": 1791553718,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $182.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7fb07e60",
+   "ticker": "IBP",
+   "kind": "buy_limit",
+   "price": 177.1608,
+   "status": "working",
+   "created": "2026-10-09 09:48",
+   "created_ts": 1791553718,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $182.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
+  },
+  {
+   "id": "40367996",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 482.0288,
+   "status": "working",
+   "created": "2026-10-09 09:48",
+   "created_ts": 1791553718,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $480.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0899f69b",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 466.3275,
+   "status": "working",
+   "created": "2026-10-09 09:48",
+   "created_ts": 1791553718,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $480.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
+  },
+  {
+   "id": "bb411dc6",
+   "ticker": "KO",
+   "kind": "take_profit",
+   "price": 87.8669,
+   "status": "working",
+   "created": "2026-10-09 09:48",
+   "created_ts": 1791553718,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $87.73",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3c32ff3b",
+   "ticker": "KO",
+   "kind": "buy_limit",
+   "price": 85.0981,
+   "status": "working",
+   "created": "2026-10-09 09:48",
+   "created_ts": 1791553718,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $87.73",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
+  },
+  {
+   "id": "1ad629c9",
+   "ticker": "PG",
+   "kind": "take_profit",
+   "price": 151.4166,
+   "status": "working",
+   "created": "2026-10-09 09:48",
+   "created_ts": 1791553718,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $151.14",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b533872a",
+   "ticker": "PG",
+   "kind": "buy_limit",
+   "price": 146.6058,
+   "status": "working",
+   "created": "2026-10-09 09:48",
+   "created_ts": 1791553718,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $151.14",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-09 09:47"
+ "updated": "2026-10-09 09:48"
 }

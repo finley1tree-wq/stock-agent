@@ -56670,7 +56670,8 @@
     "hour_et": 9,
     "code_version": "86003e3",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.32
   },
   {
     "symbol": "IBM",
@@ -56699,7 +56700,10 @@
     "hour_et": 9,
     "code_version": "86003e3",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.36,
+    "ret_now": 0.36,
+    "ret_src": "realised"
   },
   {
     "symbol": "HD",
@@ -56728,7 +56732,10 @@
     "hour_et": 9,
     "code_version": "86003e3",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.24,
+    "ret_now": 0.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -56757,7 +56764,8 @@
     "hour_et": 9,
     "code_version": "86003e3",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -1.24
   },
   {
     "symbol": "IBM",
@@ -56782,7 +56790,8 @@
     "evidence": "average cost $224.97",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "7378f36"
+    "code_version": "7378f36",
+    "hold_minutes": 2
   },
   {
     "symbol": "HD",
@@ -56807,6 +56816,123 @@
     "evidence": "average cost $293.5",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "579aaed"
+    "code_version": "579aaed",
+    "hold_minutes": 12
+  },
+  {
+    "symbol": "IBP",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 10.950322,
+    "price": 182.64,
+    "date": "2026-10-09",
+    "time_et": "09:48",
+    "ts": 1791553718,
+    "why": "Congress-linked homebuilder name at day low, cheap entry, consistent with breadth-building lesson",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Congress net buy pressure 1.0 (Lloyd Doggett history), IBP down 9.49% 1m, 0% of day range - deep value entry near low",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 182.57,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -9.49,
+    "hour_et": 9,
+    "code_version": "70024d4",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NOC",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.160147,
+    "price": 480.75,
+    "date": "2026-10-09",
+    "time_et": "09:48",
+    "ts": 1791553718,
+    "why": "Defense name with congress pressure score 2.0, reasonable entry point mid-range",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Congress net buy pressure 2.0, NOC at 53.8% of day range, defense sector with historical track record avg_ret -0.01 but decent hit_rate 0.56",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 480.56,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -7.4,
+    "hour_et": 9,
+    "code_version": "70024d4",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "KO",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 28.497322,
+    "price": 87.73,
+    "date": "2026-10-09",
+    "time_et": "09:48",
+    "ts": 1791553718,
+    "why": "Defensive consumer staple with congress pressure, mid-range entry avoids chasing",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "Congress net buy pressure 1.0, KO at 49.1% of day range, stable defensive name, already in bought_this_week at $6351",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 87.71,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -0.14,
+    "hour_et": 9,
+    "code_version": "70024d4",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "PG",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 13.232745,
+    "price": 151.14,
+    "date": "2026-10-09",
+    "time_et": "09:48",
+    "ts": 1791553718,
+    "why": "PG has congress backing and positive momentum, already held in week's budget showing conviction",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "Congress net buy pressure 1.0, PG +4.28% 5d momentum, 83% of day range but strong recent trend",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 151.11,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 5.69,
+    "hour_et": 9,
+    "code_version": "70024d4",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
