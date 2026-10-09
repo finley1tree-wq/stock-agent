@@ -1,16 +1,16 @@
 {
   "week": "2026-W41",
-  "spent": 3332.18,
+  "spent": 2085.53,
   "deployed": 138675.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 11.52,
-    "IBM": 633.57,
+    "IBM": 9.01,
     "TSM": 53.71,
     "HUBB": 506.39,
     "GOOGL": 0.21,
     "AMZN": 4.59,
-    "AVGO": 625.0,
+    "AVGO": 2.91,
     "UNH": 550.0,
     "HD": 550.0,
     "NOC": 500.0
@@ -3361,13 +3361,53 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "IBM",
+      "side": "sell",
+      "qty": 2.75336,
+      "status": "filled",
+      "price": 226.83,
+      "proceeds": 624.56,
+      "realized_pnl": -0.44,
+      "realized_pct": -0.07,
+      "date": "2026-10-09",
+      "time_et": "12:22",
+      "ts": 1791562977,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.05% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "AVGO",
+      "side": "sell",
+      "qty": 1.715135,
+      "status": "filled",
+      "price": 362.71,
+      "proceeds": 622.09,
+      "realized_pnl": -2.91,
+      "realized_pct": -0.47,
+      "date": "2026-10-09",
+      "time_et": "12:22",
+      "ts": 1791562977,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.45% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 3332.18,
+  "spent_today": 2085.53,
   "deployed_today": 31675.0,
   "orders_today": 24,
-  "sells_today": 17,
+  "sells_today": 19,
   "sold_today": [
     "IBM",
     "HD",
@@ -3380,12 +3420,13 @@
     "AMGN",
     "NFLX",
     "NEM",
-    "GOOGL"
+    "GOOGL",
+    "AVGO"
   ],
   "sold_ts": {
     "MSFT": 1791476257,
     "TSM": 1791562425,
-    "AVGO": 1791472902,
+    "AVGO": 1791562978,
     "NFLX": 1791558948,
     "UNH": 1791478877,
     "PEP": 1791208891,
@@ -3395,7 +3436,7 @@
     "ACN": 1791297612,
     "HD": 1791553638,
     "GS": 1791561916,
-    "IBM": 1791552940,
+    "IBM": 1791562978,
     "AMGN": 1791561647,
     "HUBB": 1791483034,
     "NOC": 1791558948,
@@ -3405,8 +3446,8 @@
     "AMZN": 1791483976,
     "NEM": 1791559124
   },
-  "last_publish_ts": 1791562689,
-  "last_check_ts": 1791562891,
+  "last_publish_ts": 1791562977,
+  "last_check_ts": 1791562977,
   "exp_arm": {
     "IBM": {
       "params": {
@@ -3468,27 +3509,21 @@
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "2e40baef": 291.8607,
     "12b07f13": 377.2922,
-    "da7f5f2f": 227.6265,
+    "2e40baef": 291.8607,
     "d3a0ba3b": 471.7197,
     "f5723b1c": 483.0716,
-    "173bc5eb": 365.5442,
     "120ea7cd": 476.6911,
     "0de3cfc7": 530.2091,
     "3d0bcb21": 258.5245,
     "67fff679": 408.1475,
     "ca935182": 406.6234,
-    "fe89880e": 357.0,
-    "10f01f3c": 222.4,
-    "8ee160aa": 368.0,
     "f3b19970": 470.0,
+    "8ee160aa": 368.0,
     "17574725": 461.0119,
-    "c6526395": 353.468,
-    "f5439626": 283.0,
     "446c8a98": 467.3363,
-    "b9d51acf": 220.19,
-    "61f18bb9": 365.0207,
-    "6eaaad8d": 282.3961
+    "f5439626": 283.0,
+    "6eaaad8d": 282.3961,
+    "61f18bb9": 365.0207
   }
 }

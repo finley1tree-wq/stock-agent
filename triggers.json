@@ -6598,7 +6598,7 @@
    "ticker": "IBM",
    "kind": "stop_loss",
    "price": 222.4,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 10:52",
    "created_ts": 1791557542,
    "why": "Protective stop for new IBM position",
@@ -6607,14 +6607,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 12:22",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "fe89880e",
    "ticker": "AVGO",
    "kind": "stop_loss",
    "price": 357.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 10:52",
    "created_ts": 1791557542,
    "why": "Protective stop for new AVGO position",
@@ -6623,7 +6625,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 12:22",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "0ae7bd5d",
@@ -6684,7 +6688,7 @@
    "ticker": "IBM",
    "kind": "take_profit",
    "price": 227.6265,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 10:52",
    "created_ts": 1791557542,
    "why": "close 100% at +0.3% over the average cost",
@@ -6694,14 +6698,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 12:22",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "b9d51acf",
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 220.19,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 10:52",
    "created_ts": 1791557542,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6711,14 +6717,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-09 12:22",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "173bc5eb",
    "ticker": "AVGO",
    "kind": "take_profit",
    "price": 365.5442,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 10:52",
    "created_ts": 1791557542,
    "why": "close 100% at +0.3% over the average cost",
@@ -6728,14 +6736,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 12:22",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "c6526395",
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 353.468,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 10:52",
    "created_ts": 1791557542,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6745,7 +6755,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-09 12:22",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "83ebda98",

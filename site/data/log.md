@@ -1,6 +1,3 @@
-## 2026-10-08 14:16 ET (Thursday) — week 2026-W41 — budget left $24147.65 (today $19750.00 put to work, 24 buys, 22 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
   (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
   (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
   (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
@@ -398,3 +395,6 @@ lesson: Congress-disclosure-backed buys sized ~$2000-2200 with explicit stop_los
 ~ WORKING buy_limit $500.00 NOC @ $467.34 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25434.07 (+1.74% on $25000.00 in) · cash $22087.09 · realised +437.09
 Done: 0 sell(s), 1 buy(s); 22 order(s) working; budget left $21667.82 this week
+- SELL 100% IBM [time stop] -> $624.56 (-0.07%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% AVGO [time stop] -> $622.09 (-0.47%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-09 12:22 ET — tick — 2 sell(s), 0 buy(s) from standing orders
