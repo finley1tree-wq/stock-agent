@@ -23592,3 +23592,23 @@ portfolio: equity $25421.62 (+1.69% on $25000.00 in) · cash $22174.82 · realis
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $21755.55 this week
 - BUY $3500.00 NFLX [buy_limit @ $70.91] — wanted it, but not at the high — resting at $70.91. Congress buy pressure (score 2.0) and strong 5d momentum, entering near high but trend is clear
 ## 2026-10-09 11:09 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-10-09 11:14 ET (Friday) — week 2026-W41 — budget left $18255.55 (today $27250.00 put to work, 16 buys, 9 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain: Only 6 positions vs min_positions 8, cash_idle_pct 73% is high. TSM cooled off from an earlier stop but is now at 4.5% of day range (much better entry than when it was stopped out at the high), and UNH is low in its range with positive 1d momentum - both avoid chasing per guardrails. Adding these two brings me to 8 positions with real size while respecting the max_entry_range_pct guardrail.
+lesson: When a name gets stopped out intraday at a high entry, re-evaluate it after cooldown if it has since pulled back to a much lower point in its day range rather than avoiding it outright.
+- BUY $550.00 UNH [filled] ['momentum', 'news'] — Below min_positions with 73% cash idle; UNH is cheap in its range and not chased [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: UNH +1.42% today, 22% of day range (low in range, room to run), 1m momentum -3.1% basing after selloff
+- BUY $575.00 TSM [filled] ['insider', 'congress', 'momentum'] — Re-entering TSM at a much better level than the earlier stop-out; low in range gives better risk/reward [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: TSM at 4.5% of day range (near day low), congress net buy pressure 1.0, cooled off from prior stop-out but setup intact at better entry now near low of day
+~ WORKING stop_loss 100% UNH @ $368.00 until 2026-10-09 — Protective stop for new UNH position
+~ WORKING stop_loss 100% TSM @ $443.00 until 2026-10-09 — Protective stop for new TSM position, tighter given prior stop-out today
+~ WORKING take_profit 100% UNH @ $377.29 until 2026-10-14 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 UNH @ $365.02 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $453.82 until 2026-10-14 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $439.01 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25422.70 (+1.69% on $25000.00 in) · cash $17549.82 · realised +424.82
+Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $17130.55 this week

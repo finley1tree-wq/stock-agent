@@ -1,122 +1,6 @@
 {
  "orders": [
   {
-   "id": "f465356e",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 455.116,
-   "status": "cancelled",
-   "created": "2026-10-01 12:37",
-   "created_ts": 1790872633,
-   "why": "wanted it, but not at the high \u2014 resting at $455.12. Strong congress signal plus positive earnings-adjacent coverage, electrical infrastructure play uncorrelated with current defense/gold/HLI book [probation at 25% size (no hour or signal l",
-   "evidence": "congress_net_buy_pressure HUBB=3.0 (April McClain Delaney buys disclosed 9/9); 'Hubbell up 1.42% today, 3 Reasons We're Fans of Hubbell (HUBB)' StockStory 9/30; HUBB at 100% of day range shows strengt",
-   "signals": [
-    "congress",
-    "news",
-    "track_record",
-    "patience"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 500.0,
-   "closed": "2026-10-01 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "978b4408",
-   "ticker": "XENE",
-   "kind": "buy_limit",
-   "price": 39.092,
-   "status": "cancelled",
-   "created": "2026-10-01 12:37",
-   "created_ts": 1790872633,
-   "why": "wanted it, but not at the high \u2014 resting at $39.09. Dual-insider buy (CEO+CFO same day) is a stronger signal per past lesson, biotech catalyst with NDA filing news [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "evidence": "CFO Kelly bought 15000 sh at $37.32 and CEO Mortimer bought 30000 sh at $37.38 same filing date 2026-09-30; stock +7.06% today, 'Xenon Files Azetukalner NDA' headline",
-   "signals": [
-    "insider",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 500.0,
-   "closed": "2026-10-01 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "71abcc5e",
-   "ticker": "GPI",
-   "kind": "buy_limit",
-   "price": 242.2977,
-   "status": "cancelled",
-   "created": "2026-10-01 12:37",
-   "created_ts": 1790872633,
-   "why": "wanted it, but not at the high \u2014 resting at $242.30. Large insider buy from a 10% holder is meaningful size, auto retail diversification away from current holdings [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "evidence": "Conifer Management LLC (10% holder) bought 273712 shares at $242.15 on 2026-09-28; 'Group 1 Automotive (GPI) Stock Still Looks Undervalued On A 46% Slump' Simply Wall St; GPI +2.97% today near day hig",
-   "signals": [
-    "insider",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 500.0,
-   "closed": "2026-10-01 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "7e3c7ce6",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 150.3703,
-   "status": "filled",
-   "created": "2026-10-01 12:37",
-   "created_ts": 1790872633,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $149.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 13:16"
-  },
-  {
-   "id": "600c32d5",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 145.4418,
-   "status": "cancelled",
-   "created": "2026-10-01 12:37",
-   "created_ts": 1790872633,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $149.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 13:16",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "c31beb8b",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 212.0,
-   "status": "cancelled",
-   "created": "2026-10-01 12:48",
-   "created_ts": 1790873282,
-   "why": "bound downside after a large one-day move",
-   "evidence": "ACN up 18% today, protect against pure reversal risk",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 14:19",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "0cda2af4",
    "ticker": "ACN",
    "kind": "take_profit",
@@ -7389,7 +7273,107 @@
    ],
    "good_until": "2026-10-14",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "8ee160aa",
+   "ticker": "UNH",
+   "kind": "stop_loss",
+   "price": 368.0,
+   "status": "working",
+   "created": "2026-10-09 11:14",
+   "created_ts": 1791558881,
+   "why": "Protective stop for new UNH position",
+   "evidence": "UNH ATR 2.36%, protect ~2.2% below entry at 376.23",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "87956578",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 443.0,
+   "status": "working",
+   "created": "2026-10-09 11:14",
+   "created_ts": 1791558881,
+   "why": "Protective stop for new TSM position, tighter given prior stop-out today",
+   "evidence": "TSM ATR 2.45%, entry near day low 452.5",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "12b07f13",
+   "ticker": "UNH",
+   "kind": "take_profit",
+   "price": 377.2922,
+   "status": "working",
+   "created": "2026-10-09 11:14",
+   "created_ts": 1791558881,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $376.31",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "61f18bb9",
+   "ticker": "UNH",
+   "kind": "buy_limit",
+   "price": 365.0207,
+   "status": "working",
+   "created": "2026-10-09 11:14",
+   "created_ts": 1791558881,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $376.31",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
+  },
+  {
+   "id": "903be7e4",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 453.821,
+   "status": "working",
+   "created": "2026-10-09 11:14",
+   "created_ts": 1791558881,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $452.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2187c51f",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 439.0123,
+   "status": "working",
+   "created": "2026-10-09 11:14",
+   "created_ts": 1791558881,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $452.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-09 11:10"
+ "updated": "2026-10-09 11:14"
 }

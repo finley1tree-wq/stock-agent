@@ -1,19 +1,20 @@
 {
   "week": "2026-W41",
-  "spent": 6744.45,
-  "deployed": 134250.0,
+  "spent": 7869.45,
+  "deployed": 135375.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 3512.29,
     "IBM": 633.57,
     "AMGN": 0.88,
-    "TSM": 55.27,
+    "TSM": 630.27,
     "HUBB": 6.39,
     "GOOGL": 1002.72,
     "AMZN": 4.59,
     "AVGO": 625.0,
     "NEM": 500.0,
-    "NOC": 500.0
+    "NOC": 500.0,
+    "UNH": 550.0
   },
   "deployed_by_ticker": {
     "AVGO": 8875.0,
@@ -21,9 +22,9 @@
     "ACN": 5000.0,
     "MSFT": 2875.0,
     "NFLX": 17041.67,
-    "TSM": 13777.78,
+    "TSM": 14352.78,
     "HD": 12814.81,
-    "UNH": 6125.0,
+    "UNH": 6675.0,
     "KO": 8851.85,
     "PEP": 2000.0,
     "AAPL": 2500.0,
@@ -3022,12 +3023,55 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "UNH",
+      "notional": 550.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.461579,
+      "price": 376.31,
+      "date": "2026-10-09",
+      "time_et": "11:14",
+      "ts": 1791558881,
+      "why": "Below min_positions with 73% cash idle; UNH is cheap in its range and not chased [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "UNH +1.42% today, 22% of day range (low in range, room to run), 1m momentum -3.1% basing after selloff",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "TSM",
+      "notional": 575.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.270464,
+      "price": 452.59,
+      "date": "2026-10-09",
+      "time_et": "11:14",
+      "ts": 1791558881,
+      "why": "Re-entering TSM at a much better level than the earlier stop-out; low in range gives better risk/reward [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "insider",
+        "congress",
+        "momentum"
+      ],
+      "evidence": "TSM at 4.5% of day range (near day low), congress net buy pressure 1.0, cooled off from prior stop-out but setup intact at better entry now near low of day",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 6744.45,
-  "deployed_today": 27250.0,
-  "orders_today": 16,
+  "spent_today": 7869.45,
+  "deployed_today": 28375.0,
+  "orders_today": 18,
   "sells_today": 9,
   "sold_today": [
     "IBM",
@@ -3062,8 +3106,8 @@
     "GOOGL": 1791483976,
     "AMZN": 1791483976
   },
-  "last_publish_ts": 1791558659,
-  "last_check_ts": 1791558793,
+  "last_publish_ts": 1791558881,
+  "last_check_ts": 1791558881,
   "exp_arm": {
     "GOOGL": {
       "params": {
@@ -3118,35 +3162,59 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "UNH": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "TSM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1791558600,
-  "last_decision_ts": 1791557907,
+  "last_decision_ts": 1791558881,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "10bece3a": 483.8488,
     "ee2ebe35": 70.97,
     "3ee40b71": 71.0795,
-    "10bece3a": 483.8488,
     "83ebda98": 118.3764,
+    "12b07f13": 377.2922,
+    "903be7e4": 453.821,
     "173bc5eb": 365.5442,
-    "0de3cfc7": 530.2091,
-    "ab6a81c3": 475.297,
     "3d0bcb21": 258.5245,
-    "67fff679": 408.1475,
+    "0de3cfc7": 530.2091,
     "da7f5f2f": 227.6265,
+    "67fff679": 408.1475,
     "9a7756f1": 353.9265,
+    "ab6a81c3": 475.297,
     "ca935182": 406.6234,
     "10f01f3c": 222.4,
     "fe89880e": 357.0,
-    "1c9aa12b": 472.7,
+    "87956578": 443.0,
     "cbb389f2": 344.0,
+    "8ee160aa": 368.0,
     "0ae7bd5d": 115.5,
-    "b9d51acf": 220.19,
+    "1c9aa12b": 472.7,
     "94d89119": 341.9638,
+    "b9d51acf": 220.19,
     "c6526395": 353.468,
-    "28de3dbb": 468.0929,
+    "61f18bb9": 365.0207,
+    "2187c51f": 439.0123,
+    "03ea9cb2": 68.7827,
     "6efac833": 114.4406,
-    "03ea9cb2": 68.7827
+    "28de3dbb": 468.0929
   }
 }

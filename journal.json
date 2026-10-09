@@ -57108,7 +57108,7 @@
     "code_version": "bd21d99",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24
+    "ret_now": -0.42
   },
   {
     "symbol": "AMGN",
@@ -57199,7 +57199,7 @@
     "code_version": "984fa62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.22
+    "ret_now": -0.26
   },
   {
     "symbol": "AVGO",
@@ -57229,7 +57229,7 @@
     "code_version": "984fa62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": -0.01
   },
   {
     "symbol": "NEM",
@@ -57259,7 +57259,7 @@
     "code_version": "984fa62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": 0.17
   },
   {
     "symbol": "NOC",
@@ -57289,7 +57289,7 @@
     "code_version": "984fa62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": 0.28
   },
   {
     "symbol": "AMGN",
@@ -57345,7 +57345,8 @@
     "hour_et": 10,
     "code_version": "c67a57a",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.18
   },
   {
     "symbol": "NFLX",
@@ -57376,6 +57377,66 @@
     "momentum_1m_at_entry": -6.67,
     "hour_et": 11,
     "code_version": "18d7f34",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.04
+  },
+  {
+    "symbol": "UNH",
+    "notional": 550.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.461579,
+    "price": 376.31,
+    "date": "2026-10-09",
+    "time_et": "11:14",
+    "ts": 1791558881,
+    "why": "Below min_positions with 73% cash idle; UNH is cheap in its range and not chased [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "UNH +1.42% today, 22% of day range (low in range, room to run), 1m momentum -3.1% basing after selloff",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 376.23,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -3.1,
+    "hour_et": 11,
+    "code_version": "b147810",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TSM",
+    "notional": 575.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.270464,
+    "price": 452.59,
+    "date": "2026-10-09",
+    "time_et": "11:14",
+    "ts": 1791558881,
+    "why": "Re-entering TSM at a much better level than the earlier stop-out; low in range gives better risk/reward [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "TSM at 4.5% of day range (near day low), congress net buy pressure 1.0, cooled off from prior stop-out but setup intact at better entry now near low of day",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 452.5,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 5.72,
+    "hour_et": 11,
+    "code_version": "b147810",
     "ret_1w": null,
     "ret_1m": null
   }
