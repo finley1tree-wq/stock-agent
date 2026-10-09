@@ -1,6 +1,3 @@
-- BUY $500.00 TSM [filled] ['insider', 'track_record'] — Massive cluster of insider buying at TSM including C-suite, strongest insider signal in the dataset [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 30+ TSM insider buys filed 2026-10-08 including CEO Wei Che-Chia; insider_net_buy_pressure TSM=30.0 (highest of any ticker)
-  (dropped trigger PEP stop_loss: not held)
-~ WORKING stop_loss 100% TSM @ $452.00 until 2026-10-08 — Standard protective stop ~3% below entry
 ~ WORKING stop_loss 100% NFLX @ $69.00 until 2026-10-08 — Protective stop below recent day low
 ~ WORKING stop_loss 100% KO @ $85.30 until 2026-10-08 — Protective stop ~1.8% below entry
 ~ WORKING stop_loss 100% IBM @ $215.50 until 2026-10-08 — Protective stop ~1.8% below entry
@@ -398,3 +395,6 @@ Done: 0 sell(s), 4 buy(s); 20 order(s) working; budget left $11018.14 this week
   (cancelled 2 standing order(s) on KO: position closed)
 - SELL 100% KO [take_profit @ $87.87] -> $2503.97 (+0.16%) — close 100% at +0.2% over the average cost
 ## 2026-10-09 09:52 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [take_profit @ $151.42] -> $2003.66 (+0.18%) — close 100% at +0.2% over the average cost
+## 2026-10-09 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders

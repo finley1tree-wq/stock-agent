@@ -7253,7 +7253,7 @@
    "ticker": "PG",
    "kind": "stop_loss",
    "price": 147.8,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 09:48",
    "created_ts": 1791553718,
    "why": "Protective stop on new staples position",
@@ -7262,7 +7262,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 10:00",
+   "cancel_reason": "position closed"
   },
   {
    "id": "9d609ca1",
@@ -7380,7 +7382,7 @@
    "ticker": "PG",
    "kind": "take_profit",
    "price": 151.4166,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-09 09:48",
    "created_ts": 1791553718,
    "why": "close 100% at +0.2% over the average cost",
@@ -7390,14 +7392,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 10:00"
   },
   {
    "id": "b533872a",
    "ticker": "PG",
    "kind": "buy_limit",
    "price": 146.6058,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 09:48",
    "created_ts": 1791553718,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7407,8 +7410,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-09 10:00",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-09 09:52"
+ "updated": "2026-10-09 10:00"
 }

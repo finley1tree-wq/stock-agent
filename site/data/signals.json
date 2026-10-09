@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-09T09:52-04:00",
- "note": "tick: 2 standing order(s) filled",
+ "asOf": "2026-10-09T10:00-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,20 +178,21 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "1ad629c9",
-   "ticker": "PG",
-   "kind": "take_profit",
-   "price": 151.4166,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "baaa4ec2",
+   "ticker": "NFLX",
+   "kind": "buy_limit",
+   "price": 70.914,
+   "usd": 3500.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 151.15,
-   "pct_away": 0.18,
-   "good_until": "2026-10-14",
-   "why": "close 100% at +0.2% over the average cost",
+   "last": 71.3,
+   "pct_away": -0.54,
+   "good_until": "2026-10-09",
+   "why": "wanted it, but not at the high \u2014 resting at $70.91. Congress buy pressure (score 2.0) and strong 5d momentum, entering near high but trend is clear",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "congress",
+    "momentum",
+    "patience"
    ]
   },
   {
@@ -202,8 +203,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 884.99,
-   "pct_away": 0.21,
+   "last": 881.8,
+   "pct_away": 0.57,
    "good_until": "2026-10-14",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -219,8 +220,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 455.07,
-   "pct_away": -0.67,
+   "last": 455.7,
+   "pct_away": -0.81,
    "good_until": "2026-10-09",
    "why": "Protective stop ~2.2% below entry",
    "signals": [
@@ -235,28 +236,10 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 410.66,
-   "pct_away": -0.98,
+   "last": 410.99,
+   "pct_away": -1.06,
    "good_until": "2026-10-09",
    "why": "wanted it, but not at the high \u2014 resting at $406.62. Congress buy pressure (score 1.0) with positive momentum, AMGN at day high but strong fundamentals",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "baaa4ec2",
-   "ticker": "NFLX",
-   "kind": "buy_limit",
-   "price": 70.914,
-   "usd": 3500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 71.89,
-   "pct_away": -1.36,
-   "good_until": "2026-10-09",
-   "why": "wanted it, but not at the high \u2014 resting at $70.91. Congress buy pressure (score 2.0) and strong 5d momentum, entering near high but trend is clear",
    "signals": [
     "congress",
     "momentum",
@@ -271,8 +254,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 455.07,
-   "pct_away": -1.46,
+   "last": 455.7,
+   "pct_away": -1.6,
    "good_until": "2026-10-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -288,29 +271,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 455.07,
-   "pct_away": 1.84,
+   "last": 455.7,
+   "pct_away": 1.7,
    "good_until": "2026-10-14",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "8347beb2",
-   "ticker": "PG",
-   "kind": "stop_loss",
-   "price": 147.8,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 151.15,
-   "pct_away": -2.22,
-   "good_until": "2026-10-09",
-   "why": "Protective stop on new staples position",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -321,29 +288,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 884.99,
-   "pct_away": -2.26,
+   "last": 881.8,
+   "pct_away": -1.91,
    "good_until": "2026-10-09",
    "why": "Protective stop ~2.2% below entry",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "b533872a",
-   "ticker": "PG",
-   "kind": "buy_limit",
-   "price": 146.6058,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 151.15,
-   "pct_away": -3.01,
-   "good_until": "2026-10-14",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -354,8 +304,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 884.99,
-   "pct_away": -3.02,
+   "last": 881.8,
+   "pct_away": -2.67,
    "good_until": "2026-10-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
