@@ -1,17 +1,3 @@
-  (dropped AMGN: 86% up today's range — resting a limit at $408.83 instead of chasing)
-- BUY $500.00 GOOGL [filled] ['congress', 'momentum'] — Congress buy pressure plus solid momentum, mid-range entry [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Cleo Fields disclosed GOOGL buy 2026-09-14 (filed 2026-10-01); GOOGL +1.32% today, 72% of day range
-  (dropped trigger IBM stop_loss: not held)
-  (dropped trigger AMGN stop_loss: not held)
-  (dropped trigger NOC stop_loss: not held)
-~ WORKING stop_loss 100% GOOGL @ $344.00 until 2026-10-09 — Protective stop ~2.5% below entry
-~ WORKING buy_limit $500.00 AMGN @ $408.83 until 2026-10-09 — wanted it, but not at the high — resting at $408.83. Named congress buyer plus clean uptrend, adding to existing resting limits at a market entry since momentum is solid [probation at 25% size (no hour or signal lens has proven itself yet)]
-~ WORKING take_profit 100% GOOGL @ $353.93 until 2026-10-14 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $342.38 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25402.23 (+1.61% on $25000.00 in) · cash $21415.26 · realised +415.26
-Done: 0 sell(s), 1 buy(s); 10 order(s) working; budget left $20995.99 this week
-
-## 2026-10-09 10:36 ET (Friday) — week 2026-W41 — budget left $20995.99 (today $20500.00 put to work, 9 buys, 7 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
   (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
   (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
@@ -395,6 +381,20 @@ Decision: nothing at this check.
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0 with all today's prior positions already closed/sold - there is nothing to buy (would be dropped) and nothing to protect (no open positions). With only ~45 minutes left to the 16:00 close and max_hold_minutes of 30, opening anything now would be closed out near the bell anyway, and guardrails would reject new entries regardless.
 lesson: Past the no_new_entries_after_et cutoff with zero holdings, there is genuinely nothing actionable - don't force orders that will just be dropped by guardrails.
+portfolio: equity $25435.03 (+1.74% on $25000.00 in) · cash $25435.03 · realised +435.03
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-09 15:42 ET (Friday) — week 2026-W41 — budget left $25000.00 (today $33925.00 put to work, 29 buys, 28 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: It's 15:42 ET, no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0 - nothing to protect and no legal buys to place. Market closes at 16:00 and checks_left_today is 0, so there is genuinely nothing actionable this check.
+lesson: Past the no_new_entries cutoff with zero holdings and zero checks left today, there is nothing to do - don't force orders that guardrails will drop.
 portfolio: equity $25435.03 (+1.74% on $25000.00 in) · cash $25435.03 · realised +435.03
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
