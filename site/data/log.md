@@ -1,6 +1,3 @@
-  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
-  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
-brain: Only 2 of 8 min_positions held with 95% cash idle - a clear, graded loss per counterfactual data. Adding 5 names with concrete evidence: IBM/KO congress pressure, NFLX double congress disclosure plus momentum, TSM massive insider cluster (30 buys including CEO), PEP defensive diversifier. Sized at $2000 each (within $1-3k band), all protected with stops; avoiding culled PPG/LTH/CHRW/FWONK and cooling-off AVGO/UNH/HUBB.
 lesson: Hitting min_positions requires deploying across several evidence-backed names in one check rather than trickling - breadth beats waiting for a perfect entry.
   (dropped PEP: not in allowed list)
 - BUY $500.00 IBM [filled] ['congress', 'track_record'] — Congress buy signal in widely_held name, not in cooldown, fresh entry to build toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Lloyd Doggett disclosed IBM buy 2026-09-10 (disclosed 2026-10-05); congress_net_buy_pressure IBM=1.0
@@ -398,3 +395,6 @@ lesson: Keep building toward min_positions using congress-pressure names at mid-
 ~ WORKING buy_limit $500.00 PG @ $146.61 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25397.67 (+1.59% on $25000.00 in) · cash $11437.41 · realised +437.41
 Done: 0 sell(s), 4 buy(s); 20 order(s) working; budget left $11018.14 this week
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $482.03] -> $2005.31 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-10-09 09:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
