@@ -1,18 +1,3 @@
-portfolio: equity $25416.97 (+1.67% on $25000.00 in) · cash $13919.27 · realised +419.27
-Done: 0 sell(s), 4 buy(s); 14 order(s) working; budget left $13500.00 this week
-  (cancelled 2 standing order(s) on IBM: position closed)
-- SELL 100% IBM [take_profit @ $225.79] -> $3010.87 (+0.36%) — close 100% at +0.3% over the average cost
-## 2026-10-09 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on HD: position closed)
-- SELL 100% HD [take_profit @ $294.21] -> $3007.27 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-10-09 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-09 09:48 ET (Friday) — week 2026-W41 — budget left $19518.14 (today $11500.00 put to work, 4 buys, 2 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
   (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
 brain: Only 2 positions held vs min_positions=8, cash_idle_pct=78%, so the clear action is to deploy more names in size. I'm adding 4 congress-backed names (IBP, NOC, KO, PG) at mid-range entries with protective stops, avoiding chasing names at day highs (AMGN/NFLX are already resting as buy_limits). This gets me to 6 positions with real money working, consistent with past lessons that congress-disclosure breadth entries graded positively.
 lesson: Keep building toward min_positions using congress-pressure names at mid-range entries with explicit stop_loss, sized $2000-2500 each, rather than leaving cash idle when below target count.
@@ -398,3 +383,18 @@ Decision: nothing at this check. 27 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% HUBB [time stop] -> $500.27 (+0.05%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-09 13:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 13:40 ET (Friday) — week 2026-W41 — budget left $22267.56 (today $33925.00 put to work, 29 buys, 22 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain: It's 13:40 ET and no_new_entries_after_et is 14:00 - we're 20 minutes from the entry cutoff, so new buys at market now would mostly just get dropped/chased near the deadline, and the guardrail flag isn't yet true but will be shortly. I already have 6 positions with auto-bracket take-profits and stop-losses working (NOC, NFLX, IBP, PPG, CCJ, LMT), plus resting buy_limit triggers on MSFT, AMZN, AVGO, TSM, AMGN that will fill if prices pull back to the levels I want rather than chasing at current highs. Rather than force 2 more market buys into names already near day-range highs (AMGN 98%, AAPL 93%) which would violate the "don't chase" guidance, I'll let the existing buy_limit triggers do the work and reassess at the next check before the cutoff.
+lesson: With entries cutting off at 14:00, use the last pre-cutoff checks to tighten/add buy_limits at good levels rather than chasing names already high in their day range just to hit min_positions.
+portfolio: equity $25429.33 (+1.72% on $25000.00 in) · cash $22686.83 · realised +436.83
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% NOC [time stop] -> $498.65 (-0.27%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-09 13:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
