@@ -23833,3 +23833,17 @@ Decision: nothing at this check. 24 standing order(s) working.
   (cancelled 10 resting buy order(s): past the entry cutoff)
 - SELL 100% NFLX [time stop] -> $497.96 (-0.41%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-09 14:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 14:10 ET (Friday) — week 2026-W41 — budget left $23640.73 (today $33925.00 put to work, 29 buys, 25 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff) so no buys are allowed regardless of idle cash. The 3 existing positions (IBP, PPG, LMT) already have take_profit and stop_loss brackets working from auto_bracket; I'm tightening LMT's stop slightly since its ratchet experiment is active and it's modestly green, to lock in gains if it reverses before the 90-min hold clock closes it. No new capital can be deployed this check per the entry cutoff rule.
+lesson: After the 14:00 no-new-entries cutoff, the only legal moves are sells/triggers on existing positions - stop trying to force buys and instead focus on protecting/ratcheting what's already open.
+~ WORKING stop_loss 100% LMT @ $501.50 until 2026-10-09 — protect against giveback since ratchet arm is active on LMT
+portfolio: equity $25435.31 (+1.74% on $25000.00 in) · cash $24060.00 · realised +435.00
+Decision: nothing at this check. 7 standing order(s) working.
