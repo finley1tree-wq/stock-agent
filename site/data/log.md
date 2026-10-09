@@ -1,4 +1,3 @@
-  (dropped HUBB: culled strategy (signals congress: -93 over 32 trips, t -1.39))
   (dropped NFLX: 93% up today's range — resting a limit at $70.58 instead of chasing)
 - BUY $625.00 AMGN [filled] ['congress', 'news'] — congress buy pressure + pullback gives a mid-range entry in a widely_held name [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. David J. Taylor disclosed AMGN buy 2026-09-22 (disclosed 10-01); AMGN at 22.3% of day range, down -2.52% today - oversold entry
   (dropped trigger AMGN stop_loss: level 2455 is 6.10x the quote 402.69, outside 0.5-1.5x)
@@ -398,3 +397,4 @@ lesson: When no_new_entries_this_check is true and positions_held is 0, there is
 portfolio: equity $25419.27 (+1.68% on $25000.00 in) · cash $25419.27 · realised +419.27
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-10-08 16:00 ET — published the session's closing state
