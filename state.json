@@ -1,13 +1,13 @@
 {
   "week": "2026-W41",
-  "spent": 5458.55,
+  "spent": 3504.01,
   "deployed": 127000.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 12.29,
     "IBM": 8.57,
     "AMGN": 2.31,
-    "TSM": 2009.81,
+    "TSM": 55.27,
     "HUBB": 6.39,
     "GOOGL": 2.72,
     "AMZN": 4.59,
@@ -2783,24 +2783,45 @@
       ],
       "evidence": "average cost $151.14",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 4.326359,
+      "status": "filled",
+      "price": 451.77,
+      "proceeds": 1954.54,
+      "realized_pnl": -45.46,
+      "realized_pct": -2.27,
+      "date": "2026-10-09",
+      "time_et": "10:12",
+      "ts": 1791555000,
+      "why": "Protective stop ~2.2% below entry",
+      "signals": [
+        "risk_management",
+        "standing_order"
+      ],
+      "evidence": "TSM ATR 2.3%, protect against reversal",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 5458.55,
+  "spent_today": 3504.01,
   "deployed_today": 20000.0,
   "orders_today": 8,
-  "sells_today": 6,
+  "sells_today": 7,
   "sold_today": [
     "IBM",
     "HD",
     "NOC",
     "IBP",
     "KO",
-    "PG"
+    "PG",
+    "TSM"
   ],
   "sold_ts": {
     "MSFT": 1791476257,
-    "TSM": 1791479009,
+    "TSM": 1791555147,
     "AVGO": 1791472902,
     "NFLX": 1791480025,
     "UNH": 1791478877,
@@ -2820,8 +2841,8 @@
     "GOOGL": 1791483976,
     "AMZN": 1791483976
   },
-  "last_publish_ts": 1791554656,
-  "last_check_ts": 1791555099,
+  "last_publish_ts": 1791555146,
+  "last_check_ts": 1791555193,
   "exp_arm": {
     "GS": {
       "params": {
@@ -2883,14 +2904,11 @@
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "baaa4ec2": 70.914,
-    "75dad4b8": 452.0,
-    "67fff679": 408.1475,
     "dc2e30c5": 886.8527,
+    "baaa4ec2": 70.914,
+    "67fff679": 408.1475,
     "ca935182": 406.6234,
-    "c473628d": 448.4116,
     "29b337d4": 865.0,
-    "fb17f10b": 463.4634,
     "d0b8212a": 858.256
   }
 }

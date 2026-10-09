@@ -1,6 +1,3 @@
-lesson: Check cooling_off_minutes_left before proposing a buy - HUBB was still blocked for 31 minutes so that order would have been dropped; always cross-reference the cooldown list first.
-  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped HUBB: sold 15 min ago, cooling off)
   (dropped FWONK: culled strategy (signals congress: -93 over 32 trips, t -1.39))
 portfolio: equity $25426.45 (+1.71% on $25000.00 in) · cash $22180.39 · realised +430.39
 Decision: nothing at this check. 21 standing order(s) working.
@@ -398,3 +395,6 @@ lesson: Congress-disclosure-backed breadth buys sized $2k each with explicit sto
 ~ WORKING buy_limit $500.00 AMGN @ $408.15 until 2026-10-09 — wanted it, but not at the high — resting at $408.15. congress pressure plus momentum, though near day high (94.6%) - will use limit-like sizing to avoid overpaying [probation at 25% size (no hour or signal lens has proven itself yet)]
 portfolio: equity $25409.99 (+1.64% on $25000.00 in) · cash $19960.72 · realised +460.72
 Decision: nothing at this check. 9 standing order(s) working.
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [stop_loss @ $451.77] -> $1954.54 (-2.27%) — Protective stop ~2.2% below entry
+## 2026-10-09 10:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders
