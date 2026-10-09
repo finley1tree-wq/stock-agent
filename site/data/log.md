@@ -1,5 +1,3 @@
-  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
-  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
   (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
   (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
   (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
@@ -398,3 +396,5 @@ lesson: Congress-disclosure-backed buys sized $1.5-2.5k with explicit stop_loss 
 ~ WORKING buy_limit $500.00 AMGN @ $398.38 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25421.88 (+1.69% on $25000.00 in) · cash $19753.73 · realised +428.73
 Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $19334.47 this week
+- SELL 100% GOOGL [time stop] -> $1002.51 (+0.25%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-09 11:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
