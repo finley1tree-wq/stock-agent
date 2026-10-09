@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "1f584080",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 481.2056,
-   "status": "cancelled",
-   "created": "2026-10-01 12:27",
-   "created_ts": 1790872024,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $484.51",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:57",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "2b74ca87",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 469.9747,
-   "status": "cancelled",
-   "created": "2026-10-01 12:27",
-   "created_ts": 1790872024,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $484.51",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 12:57",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "8cf84672",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 127.234,
-   "status": "cancelled",
-   "created": "2026-10-01 12:29",
-   "created_ts": 1790872188,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $127.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:40",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "7468e9d3",
    "ticker": "CHRW",
    "kind": "stop_loss",
@@ -6575,7 +6518,7 @@
    "ticker": "NFLX",
    "kind": "buy_limit",
    "price": 70.914,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-09 09:32",
    "created_ts": 1791552751,
    "why": "wanted it, but not at the high \u2014 resting at $70.91. Congress buy pressure (score 2.0) and strong 5d momentum, entering near high but trend is clear",
@@ -6586,7 +6529,8 @@
     "patience"
    ],
    "good_until": "2026-10-09",
-   "usd": 3500.0
+   "usd": 3500.0,
+   "closed": "2026-10-09 11:09"
   },
   {
    "id": "dc2e30c5",
@@ -7393,7 +7337,58 @@
    ],
    "good_until": "2026-10-14",
    "usd": 500.0
+  },
+  {
+   "id": "3ee40b71",
+   "ticker": "NFLX",
+   "kind": "take_profit",
+   "price": 71.0795,
+   "status": "working",
+   "created": "2026-10-09 11:09",
+   "created_ts": 1791558574,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $70.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "80b6b5d8",
+   "ticker": "NFLX",
+   "kind": "stop_loss",
+   "price": 70.4867,
+   "status": "working",
+   "created": "2026-10-09 11:09",
+   "created_ts": 1791558574,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $70.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "03ea9cb2",
+   "ticker": "NFLX",
+   "kind": "buy_limit",
+   "price": 68.7827,
+   "status": "working",
+   "created": "2026-10-09 11:09",
+   "created_ts": 1791558574,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $70.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-09 10:58"
+ "updated": "2026-10-09 11:09"
 }

@@ -1,5 +1,3 @@
-~ WORKING buy_limit $500.00 PPG @ $101.47 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HUBB @ $482.84 until 2026-10-13 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 HUBB @ $466.96 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25430.72 (+1.72% on $25000.00 in) · cash $22808.89 · realised +433.89
 Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $22404.94 this week
@@ -398,3 +396,5 @@ lesson: Congress-disclosure breadth buys sized ~$2k with explicit stops keep clo
 ~ WORKING buy_limit $500.00 GOOGL @ $341.96 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25421.62 (+1.69% on $25000.00 in) · cash $22174.82 · realised +424.82
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $21755.55 this week
+- BUY $3500.00 NFLX [buy_limit @ $70.91] — wanted it, but not at the high — resting at $70.91. Congress buy pressure (score 2.0) and strong 5d momentum, entering near high but trend is clear
+## 2026-10-09 11:09 ET — tick — 0 sell(s), 1 buy(s) from standing orders
