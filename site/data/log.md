@@ -1,39 +1,3 @@
-  (dropped NFLX: 93% up today's range — resting a limit at $70.58 instead of chasing)
-- BUY $625.00 AMGN [filled] ['congress', 'news'] — congress buy pressure + pullback gives a mid-range entry in a widely_held name [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. David J. Taylor disclosed AMGN buy 2026-09-22 (disclosed 10-01); AMGN at 22.3% of day range, down -2.52% today - oversold entry
-  (dropped trigger AMGN stop_loss: level 2455 is 6.10x the quote 402.69, outside 0.5-1.5x)
-  (dropped trigger IBM stop_loss: not held)
-  (dropped trigger GOOGL stop_loss: not held)
-~ WORKING buy_limit $125.00 NFLX @ $70.58 until 2026-10-08 — wanted it, but not at the high — resting at $70.58. small market add complementing existing resting limit order [probation at 25% size (no hour or signal lens has proven itself yet)]
-~ WORKING take_profit 100% AMGN @ $403.97 until 2026-10-13 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% AMGN @ $399.76 until 2026-10-13 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 AMGN @ $390.69 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25422.59 (+1.69% on $25000.00 in) · cash $23424.86 · realised +424.86
-Done: 0 sell(s), 1 buy(s); 11 order(s) working; budget left $23020.91 this week
-
-## 2026-10-08 11:06 ET (Thursday) — week 2026-W41 — budget left $23020.91 (today $11750.00 put to work, 7 buys, 4 sells) — SIM (pretend money) via sim
-  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
-  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
-  (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
-brain: Only 3 positions held (UNH/AVGO/AMGN) vs min_positions=8, with 92% cash idle - this is the priority to fix per owner instructions and repeated past lessons. TSM cooldown expires in 7 minutes so I'm pre-staging the buy for right after; GS/HUBB/KO/IBM add congress-backed diversification across sectors (consumer staples, tech, industrials, financials) to avoid concentration risk while filling toward min_positions. Note TSM and GS were sold today so technically still in cooldown for a few more minutes - if blocked by guardrails they'll simply not fill and I'll retry next check.
-lesson: Past lessons consistently show congress-disclosure evidence spread across multiple sectors at the open/mid-morning hours is the fastest path to min_positions - prioritize breadth over waiting for perfect cooldown timing.
-  (dropped TSM: sold 38 min ago, cooling off)
-  (dropped IBM: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped KO: 92% up today's range — resting a limit at $86.61 instead of chasing)
-- BUY $625.00 HUBB [filled] ['congress', 'track_record'] — Congress pressure name not yet re-bought today, adds sector diversification vs UNH/AVGO/AMGN [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: April McClain Delaney disclosed multiple buys in HUBB (congress_net_buy_pressure=3.0), currently 79.1% of day range, 1m momentum +4.52%
-- BUY $625.00 GS [filled] ['congress', 'insider'] — Re-enter GS on fresh congress pressure once cooldown clears, financial sector diversification [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Michael A. Rulli (Rep, bought GS $1-15k disclosed 2026-10-02) and Gilbert Ray Cisneros also bought GS; was sold today at +0.25% profit, cooldown should be clearing soon
-  (dropped trigger KO stop_loss: not held)
-  (dropped trigger IBM stop_loss: not held)
-~ WORKING stop_loss 100% HUBB @ $466.00 until 2026-10-08 — Protect new HUBB position from adverse move
-~ WORKING buy_limit $500.00 KO @ $86.61 until 2026-10-08 — wanted it, but not at the high — resting at $86.61. Defensive consumer staples diversification with congress pressure, low volatility [probation at 25% size (no hour or signal lens has proven itself yet)]
-~ WORKING take_profit 100% HUBB @ $477.12 until 2026-10-13 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 HUBB @ $461.46 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GS @ $885.09 until 2026-10-13 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% GS @ $877.48 until 2026-10-13 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 GS @ $856.43 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25420.92 (+1.68% on $25000.00 in) · cash $22174.86 · realised +424.86
-Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $21770.91 this week
 
 ## 2026-10-08 11:16 ET (Thursday) — week 2026-W41 — budget left $21770.91 (today $13000.00 put to work, 9 buys, 4 sells) — SIM (pretend money) via sim
   (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
@@ -398,3 +362,39 @@ portfolio: equity $25419.27 (+1.68% on $25000.00 in) · cash $25419.27 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-08 16:00 ET — published the session's closing state
+
+## 2026-10-09 09:32 ET (Friday) — week 2026-W41 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+brain: Book is flat at 100% cash idle with below_target_position_count=true; the clearest, repeatedly-confirmed pattern in past_lessons and counterfactual data is to deploy breadth across congress-disclosure-backed names in size ($2-3.5k each) rather than sit idle, since idle_universe_avg_pct is negative and congress-signal buys in counterfactual_learning averaged +0.32% per decision (best performing signal bucket). I picked 7 names with concrete named congressional/insider filings (Rulli-GS, Taylor-AMGN/HD, Fields-NFLX, Doggett-IBM/PPG/HD, insider pressure on TSM) at reasonable entry points in the day range, sized for real impact on the $25k account, each with an explicit protective stop since auto_bracket may lag manual buys.
+lesson: Congress-disclosure-backed breadth buys sized $2-3.5k each, each paired with an explicit stop_loss, remains the fastest documented path from idle cash to min_positions with positive realized signal performance.
+  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped AMGN: 100% up today's range — resting a limit at $406.62 instead of chasing)
+  (dropped NFLX: 94% up today's range — resting a limit at $70.91 instead of chasing)
+- BUY $3500.00 GS [filled] ['congress', 'track_record'] — Congress buy pressure (score 2.0) plus GS momentum flat -1.99% 5d, good entry mid-range | evidence: Rep. Michael A. Rulli bought GS ($1,001-$15,000, disclosed 2026-10-02); GS at 39.9% of day range, not chasing
+- BUY $3000.00 IBM [filled] ['congress', 'track_record'] — Congress buy pressure (score 1.0), reasonable mid-range entry, defensive tech name | evidence: Rep. Lloyd Doggett bought IBM ($1,001-$15,000, disclosed 2026-10-05); IBM at 46.8% of day range
+- BUY $3000.00 HD [filled] ['congress', 'track_record'] — Multiple congress buy signals (score pressure from two members), cheap entry low in range | evidence: Rep. Lloyd Doggett and Rep. David J. Taylor both bought HD recently (disclosed 2026-10-05 and 2026-10-01); HD at 25.1% of day range, low in range
+- BUY $2000.00 TSM [filled] ['insider', 'track_record'] — Strong insider buy pressure signal plus low-in-range entry gives favorable risk/reward | evidence: TSM has insider_net_buy_pressure of 7.0, the highest in the list; TSM at 16.7% of day range, low entry
+  (dropped trigger AMGN stop_loss: not held)
+  (dropped trigger NFLX stop_loss: not held)
+  (dropped trigger PPG stop_loss: not held)
+~ WORKING stop_loss 100% GS @ $865.00 until 2026-10-09 — Protective stop ~2.2% below entry
+~ WORKING stop_loss 100% IBM @ $220.00 until 2026-10-09 — Protective stop ~2.2% below entry
+~ WORKING stop_loss 100% HD @ $287.00 until 2026-10-09 — Protective stop ~2.2% below entry
+~ WORKING stop_loss 100% TSM @ $452.00 until 2026-10-09 — Protective stop ~2.2% below entry
+~ WORKING buy_limit $3000.00 AMGN @ $406.62 until 2026-10-09 — wanted it, but not at the high — resting at $406.62. Congress buy pressure (score 1.0) with positive momentum, AMGN at day high but strong fundamentals
+~ WORKING buy_limit $3500.00 NFLX @ $70.91 until 2026-10-09 — wanted it, but not at the high — resting at $70.91. Congress buy pressure (score 2.0) and strong 5d momentum, entering near high but trend is clear
+~ WORKING take_profit 100% GS @ $886.85 until 2026-10-14 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 GS @ $858.26 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% IBM @ $225.58 until 2026-10-14 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $218.22 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% HD @ $294.21 until 2026-10-14 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 HD @ $284.69 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $463.46 until 2026-10-14 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $448.41 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25416.97 (+1.67% on $25000.00 in) · cash $13919.27 · realised +419.27
+Done: 0 sell(s), 4 buy(s); 14 order(s) working; budget left $13500.00 this week

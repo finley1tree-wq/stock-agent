@@ -1,265 +1,6 @@
 {
  "orders": [
   {
-   "id": "93cde703",
-   "ticker": "UNH",
-   "kind": "take_profit",
-   "price": 364.9684,
-   "status": "filled",
-   "created": "2026-10-01 11:02",
-   "created_ts": 1790866940,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $364.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:31"
-  },
-  {
-   "id": "77ed9e44",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 362.1426,
-   "status": "cancelled",
-   "created": "2026-10-01 11:02",
-   "created_ts": 1790866940,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $364.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:27",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "c1999cad",
-   "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 353.2352,
-   "status": "cancelled",
-   "created": "2026-10-01 11:02",
-   "created_ts": 1790866940,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $364.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 12:31",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "e29f6617",
-   "ticker": "AMZN",
-   "kind": "stop_loss",
-   "price": 246.84,
-   "status": "filled",
-   "created": "2026-10-01 11:05",
-   "created_ts": 1790867126,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $246.54",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:10"
-  },
-  {
-   "id": "97352c5e",
-   "ticker": "PLD",
-   "kind": "stop_loss",
-   "price": 127.98,
-   "status": "filled",
-   "created": "2026-10-01 11:12",
-   "created_ts": 1790867550,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $127.89",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:15"
-  },
-  {
-   "id": "0c45a449",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 725.672,
-   "status": "cancelled",
-   "created": "2026-10-01 11:15",
-   "created_ts": 1790867718,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $724.67",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:20",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "015ab17e",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 446.5,
-   "status": "cancelled",
-   "created": "2026-10-01 11:17",
-   "created_ts": 1790867858,
-   "why": "bound downside on new TSM entry",
-   "evidence": "TSM ATR 2.15%, day_low 453.46",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:31",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "85edfe00",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 82.0,
-   "status": "cancelled",
-   "created": "2026-10-01 11:17",
-   "created_ts": 1790867858,
-   "why": "bound downside on new CCJ entry",
-   "evidence": "CCJ ATR 3.7%, day_low 84.665",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:47",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "c57eebef",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 456.2779,
-   "status": "filled",
-   "created": "2026-10-01 11:17",
-   "created_ts": 1790867858,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $455.19",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:31"
-  },
-  {
-   "id": "f8496407",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 441.5343,
-   "status": "cancelled",
-   "created": "2026-10-01 11:17",
-   "created_ts": 1790867858,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $455.19",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 12:31",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "19629a14",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 85.0791,
-   "status": "cancelled",
-   "created": "2026-10-01 11:17",
-   "created_ts": 1790867858,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $84.73",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:47",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "d9467e0b",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 82.1881,
-   "status": "cancelled",
-   "created": "2026-10-01 11:17",
-   "created_ts": 1790867858,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $84.73",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 11:18",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "92f03a84",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 82.0911,
-   "status": "cancelled",
-   "created": "2026-10-01 11:18",
-   "created_ts": 1790867917,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $84.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 11:47",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "78f3e3ce",
-   "ticker": "XENE",
-   "kind": "stop_loss",
-   "price": 37.04,
-   "status": "cancelled",
-   "created": "2026-10-01 11:32",
-   "created_ts": 1790868760,
-   "why": "bound downside ~4.5% below entry on volatile biotech name",
-   "evidence": "ATR 7.6%, protect against pharma volatility post insider-buy entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 11:47",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "47e33108",
    "ticker": "ACN",
    "kind": "stop_loss",
@@ -7427,7 +7168,243 @@
    "usd": 500.0,
    "closed": "2026-10-08 13:32",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "29b337d4",
+   "ticker": "GS",
+   "kind": "stop_loss",
+   "price": 865.0,
+   "status": "working",
+   "created": "2026-10-09 09:32",
+   "created_ts": 1791552751,
+   "why": "Protective stop ~2.2% below entry",
+   "evidence": "GS ATR 2.09%, protect against reversal",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e6905e99",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 220.0,
+   "status": "working",
+   "created": "2026-10-09 09:32",
+   "created_ts": 1791552751,
+   "why": "Protective stop ~2.2% below entry",
+   "evidence": "IBM ATR 2.4%, protect against reversal",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6d6d4416",
+   "ticker": "HD",
+   "kind": "stop_loss",
+   "price": 287.0,
+   "status": "working",
+   "created": "2026-10-09 09:32",
+   "created_ts": 1791552751,
+   "why": "Protective stop ~2.2% below entry",
+   "evidence": "HD ATR 2.2%, protect against reversal",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "75dad4b8",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 452.0,
+   "status": "working",
+   "created": "2026-10-09 09:32",
+   "created_ts": 1791552751,
+   "why": "Protective stop ~2.2% below entry",
+   "evidence": "TSM ATR 2.3%, protect against reversal",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ca935182",
+   "ticker": "AMGN",
+   "kind": "buy_limit",
+   "price": 406.6234,
+   "status": "working",
+   "created": "2026-10-09 09:32",
+   "created_ts": 1791552751,
+   "why": "wanted it, but not at the high \u2014 resting at $406.62. Congress buy pressure (score 1.0) with positive momentum, AMGN at day high but strong fundamentals",
+   "evidence": "Rep. David J. Taylor bought AMGN ($1,001-$15,000, disclosed 2026-10-01); AMGN +0.32% 1d, +6.87% 1m",
+   "signals": [
+    "congress",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-10-09",
+   "usd": 3000.0
+  },
+  {
+   "id": "baaa4ec2",
+   "ticker": "NFLX",
+   "kind": "buy_limit",
+   "price": 70.914,
+   "status": "working",
+   "created": "2026-10-09 09:32",
+   "created_ts": 1791552751,
+   "why": "wanted it, but not at the high \u2014 resting at $70.91. Congress buy pressure (score 2.0) and strong 5d momentum, entering near high but trend is clear",
+   "evidence": "Rep. Cleo Fields bought NFLX ($1,001-$15,000, disclosed 2026-10-01); NFLX +6.38% 5d, 94.4% of day range",
+   "signals": [
+    "congress",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-10-09",
+   "usd": 3500.0
+  },
+  {
+   "id": "dc2e30c5",
+   "ticker": "GS",
+   "kind": "take_profit",
+   "price": 886.8527,
+   "status": "working",
+   "created": "2026-10-09 09:32",
+   "created_ts": 1791552751,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $884.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d0b8212a",
+   "ticker": "GS",
+   "kind": "buy_limit",
+   "price": 858.256,
+   "status": "working",
+   "created": "2026-10-09 09:32",
+   "created_ts": 1791552751,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $884.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
+  },
+  {
+   "id": "ef291299",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 225.5774,
+   "status": "working",
+   "created": "2026-10-09 09:32",
+   "created_ts": 1791552751,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $224.97",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0fffcc6f",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 218.2209,
+   "status": "working",
+   "created": "2026-10-09 09:32",
+   "created_ts": 1791552751,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $224.97",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
+  },
+  {
+   "id": "43a4d06f",
+   "ticker": "HD",
+   "kind": "take_profit",
+   "price": 294.2103,
+   "status": "working",
+   "created": "2026-10-09 09:32",
+   "created_ts": 1791552751,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $293.5",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "266baf51",
+   "ticker": "HD",
+   "kind": "buy_limit",
+   "price": 284.695,
+   "status": "working",
+   "created": "2026-10-09 09:32",
+   "created_ts": 1791552751,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $293.5",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
+  },
+  {
+   "id": "fb17f10b",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 463.4634,
+   "status": "working",
+   "created": "2026-10-09 09:32",
+   "created_ts": 1791552751,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $462.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c473628d",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 448.4116,
+   "status": "working",
+   "created": "2026-10-09 09:32",
+   "created_ts": 1791552751,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $462.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-08 15:33"
+ "updated": "2026-10-09 09:32"
 }
