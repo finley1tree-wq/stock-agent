@@ -23564,3 +23564,29 @@ lesson: Congress-disclosure-backed breadth buys sized $2-2.5k with explicit stop
 ~ WORKING buy_limit $500.00 NOC @ $468.09 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25421.23 (+1.68% on $25000.00 in) · cash $22173.39 · realised +423.39
 Done: 0 sell(s), 4 buy(s); 22 order(s) working; budget left $21754.12 this week
+  (cancelled 2 standing order(s) on AMGN: position closed)
+- SELL 100% AMGN [take_profit @ $410.00] -> $501.43 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-10-09 10:58 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 10:58 ET (Friday) — week 2026-W41 — budget left $22255.55 (today $23250.00 put to work, 14 buys, 9 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain: Below target position count (5 of 8) with 89% cash idle - adding 4 more names backed by concrete congress disclosures (HUBB/IBP top pressure score 3.0 via April McClain Delaney filings, GOOGL via Cleo Fields filing) plus AMZN momentum, each sized ~$2000 with protective stops to stay within the 'congress-backed breadth buys with stop_loss' approach that past lessons/counterfactual data show works (congress signal chosen avg +0.32%, congress sector hit_rate 0.64). Avoiding GS/AMGN due to active cooldown.
+lesson: Congress-disclosure breadth buys sized ~$2k with explicit stops keep closing min_positions gap faster than waiting; watch IBP/HUBB low day-range entries as better risk/reward than chasing AMZN near its high.
+  (dropped IBP: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped HUBB: 90% up today's range — resting a limit at $475.30 instead of chasing)
+  (dropped AMZN: 100% up today's range — resting a limit at $258.52 instead of chasing)
+- BUY $500.00 GOOGL [filled] ['congress', 'momentum'] — Add to existing small GOOGL position with congress backing and positive momentum, still mid-range (48.5%) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Cleo Fields disclosed GOOG buy 2026-09-14; GOOGL +1.08% today, +5.85% 1m momentum
+  (re-pinned 1 order(s) to the new average cost)
+  (dropped trigger HUBB stop_loss: not held)
+  (dropped trigger IBP stop_loss: not held)
+  (dropped trigger AMZN stop_loss: not held)
+~ WORKING buy_limit $500.00 HUBB @ $475.30 until 2026-10-09 — wanted it, but not at the high — resting at $475.30. Top congress-pressure name with corroborating buy filings; adding breadth toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING buy_limit $500.00 AMZN @ $258.52 until 2026-10-09 — wanted it, but not at the high — resting at $258.52. Strong short-term momentum; keep size moderate given high range position [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING buy_limit $500.00 GOOGL @ $341.96 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25421.62 (+1.69% on $25000.00 in) · cash $22174.82 · realised +424.82
+Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $21755.55 this week

@@ -57108,7 +57108,7 @@
     "code_version": "bd21d99",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.4
+    "ret_now": -0.24
   },
   {
     "symbol": "AMGN",
@@ -57141,7 +57141,9 @@
     "code_version": "fc83242",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.29,
+    "ret_final": 0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "GS",
@@ -57196,7 +57198,8 @@
     "hour_et": 10,
     "code_version": "984fa62",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.22
   },
   {
     "symbol": "AVGO",
@@ -57225,7 +57228,8 @@
     "hour_et": 10,
     "code_version": "984fa62",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.13
   },
   {
     "symbol": "NEM",
@@ -57254,7 +57258,8 @@
     "hour_et": 10,
     "code_version": "984fa62",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.09
   },
   {
     "symbol": "NOC",
@@ -57282,6 +57287,63 @@
     "momentum_1m_at_entry": -7.05,
     "hour_et": 10,
     "code_version": "984fa62",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.03
+  },
+  {
+    "symbol": "AMGN",
+    "side": "sell",
+    "qty": 1.222987,
+    "status": "filled",
+    "price": 410.0,
+    "proceeds": 501.43,
+    "realized_pnl": 1.43,
+    "realized_pct": 0.29,
+    "date": "2026-10-09",
+    "time_et": "10:58",
+    "ts": 1791557700,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "momentum",
+      "patience",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $408.83",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "c67a57a",
+    "hold_minutes": 10
+  },
+  {
+    "symbol": "GOOGL",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.419969,
+    "price": 352.12,
+    "date": "2026-10-09",
+    "time_et": "10:58",
+    "ts": 1791557907,
+    "why": "Add to existing small GOOGL position with congress backing and positive momentum, still mid-range (48.5%) [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "Cleo Fields disclosed GOOG buy 2026-09-14; GOOGL +1.08% today, +5.85% 1m momentum",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 352.05,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 5.85,
+    "hour_et": 10,
+    "code_version": "c67a57a",
     "ret_1w": null,
     "ret_1m": null
   }

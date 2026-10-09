@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "b4c352be",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 111.8022,
-   "status": "cancelled",
-   "created": "2026-10-01 12:21",
-   "created_ts": 1790871665,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $115.26",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 13:31",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "e34202d3",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 364.46,
-   "status": "cancelled",
-   "created": "2026-10-01 12:27",
-   "created_ts": 1790872024,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $364.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:31",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "2c7fa4dc",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 485.8327,
-   "status": "cancelled",
-   "created": "2026-10-01 12:27",
-   "created_ts": 1790872024,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $484.51",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:57",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "1f584080",
    "ticker": "NOC",
    "kind": "stop_loss",
@@ -7089,7 +7032,7 @@
    "ticker": "GOOGL",
    "kind": "buy_limit",
    "price": 342.3809,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 10:20",
    "created_ts": 1791555611,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7099,7 +7042,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-09 10:58",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "4a87631e",
@@ -7127,7 +7072,7 @@
    "ticker": "AMGN",
    "kind": "take_profit",
    "price": 410.0033,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-09 10:48",
    "created_ts": 1791557282,
    "why": "close 100% at +0.3% over the average cost",
@@ -7137,14 +7082,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 10:58"
   },
   {
    "id": "19fa9ff1",
    "ticker": "AMGN",
    "kind": "stop_loss",
    "price": 405.8905,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 10:48",
    "created_ts": 1791557282,
    "why": "close it all at -0.7% under the average cost",
@@ -7154,14 +7100,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 10:58",
+   "cancel_reason": "position closed"
   },
   {
    "id": "58498679",
    "ticker": "AMGN",
    "kind": "buy_limit",
    "price": 396.5651,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 10:48",
    "created_ts": 1791557282,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7171,7 +7119,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-09 10:58",
+   "cancel_reason": "position closed"
   },
   {
    "id": "10f01f3c",
@@ -7390,7 +7340,60 @@
    ],
    "good_until": "2026-10-14",
    "usd": 500.0
+  },
+  {
+   "id": "ab6a81c3",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 475.297,
+   "status": "working",
+   "created": "2026-10-09 10:58",
+   "created_ts": 1791557907,
+   "why": "wanted it, but not at the high \u2014 resting at $475.30. Top congress-pressure name with corroborating buy filings; adding breadth toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "Rep. April McClain Delaney disclosed buys in HUBB (congress_net_buy_pressure score 3.0, highest on list); already held small position, below min_hold so new tranche added at mid-range (pct_of_day_rang",
+   "signals": [
+    "congress",
+    "track_record",
+    "patience"
+   ],
+   "good_until": "2026-10-09",
+   "usd": 500.0
+  },
+  {
+   "id": "3d0bcb21",
+   "ticker": "AMZN",
+   "kind": "buy_limit",
+   "price": 258.5245,
+   "status": "working",
+   "created": "2026-10-09 10:58",
+   "created_ts": 1791557907,
+   "why": "wanted it, but not at the high \u2014 resting at $258.52. Strong short-term momentum; keep size moderate given high range position [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "AMZN +2.57% today, +3.6% 5d; day_high 260.59 vs price 260.58 so very high in range but strong trend",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-09",
+   "usd": 500.0
+  },
+  {
+   "id": "94d89119",
+   "ticker": "GOOGL",
+   "kind": "buy_limit",
+   "price": 341.9638,
+   "status": "working",
+   "created": "2026-10-09 10:58",
+   "created_ts": 1791557907,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $352.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-09 10:52"
+ "updated": "2026-10-09 10:58"
 }
