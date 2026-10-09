@@ -1,27 +1,3 @@
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past the 14:00 ET entry cutoff), so no new buys can be placed - they would be dropped. Existing GOOGL and AMZN positions already have stop_loss and take_profit working orders in place (GOOGL stop 338/tp 349.80; AMZN stop 250.50/tp 258.88), which is sufficient protection given the 90-minute hold experiment windows. Nothing to add or sell right now; will check back soon to monitor the two open positions as they approach their hold-minute limits.
-lesson: When no_new_entries_this_check is true, don't propose buys even with good evidence - rely on existing protective orders and just monitor until the clock or stops resolve open positions.
-portfolio: equity $25418.81 (+1.68% on $25000.00 in) · cash $24551.59 · realised +426.59
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% GOOGL [time stop] -> $497.28 (-0.54%) — held 90 min, the 90-minute limit: out regardless
-- SELL 100% AMZN [time stop] -> $370.41 (-1.22%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-08 14:26 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-08 14:31 ET (Thursday) — week 2026-W41 — budget left $25000.00 (today $19750.00 put to work, 24 buys, 24 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
-  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past 14:00 cutoff) so no new buys are allowed this check. Book is currently flat (all positions closed today, several still in cooldown: HUBB/GOOGL/AMZN). With only 2 checks left today and entries blocked, there is nothing actionable besides waiting - no open positions to protect or sell. I'll check back in 30 minutes near close to see if anything changes (e.g. cooldowns expiring won't matter since entries are blocked anyway for the rest of the session).
-lesson: When no_new_entries_this_check is true, don't try to force buys - confirm the flag first, then just monitor since no standing buy orders will fill either (entries are blocked session-wide, not just market orders).
-portfolio: equity $25419.27 (+1.68% on $25000.00 in) · cash $25419.27 · realised +419.27
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-10-08 15:02 ET (Thursday) — week 2026-W41 — budget left $25000.00 (today $19750.00 put to work, 24 buys, 24 sells) — SIM (pretend money) via sim
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
@@ -398,3 +374,27 @@ Done: 0 sell(s), 1 buy(s); 22 order(s) working; budget left $21667.82 this week
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [take_profit @ $377.29] -> $551.44 (+0.26%) — close 100% at +0.3% over the average cost
 ## 2026-10-09 12:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 12:33 ET (Friday) — week 2026-W41 — budget left $23465.91 (today $31675.00 put to work, 24 buys, 20 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain: Only 3/8 min_positions filled with 93.9% cash idle - must deploy toward target. Adding 5 congress-backed names (GOOGL, NFLX, IBP, KO, GS) each with named filings and reasonable day-range entries to reach 8 positions, sized $2000 each per account size guidance. Protective stops attached to every new position per risk_management best-performing signal bucket (0.19% avg, 88% hit rate).
+lesson: Congress-disclosure-backed buys sized $2000 each with explicit stop_loss remain the fastest path to min_positions; keep prioritizing named filings over bare pressure scores when idle cash is high.
+  (dropped GOOGL: sold 43 min ago, cooling off)
+  (dropped IBP: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped KO: sold 18 min ago, cooling off)
+  (dropped GS: sold 28 min ago, cooling off)
+- BUY $500.00 NFLX [filled] ['congress', 'momentum'] — low in day range entry with two congress filings backing it [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Cleo Fields and Rep. Byron Donalds both disclosed NFLX buys; +5.55% 5d momentum, only 26% of day range
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger IBP stop_loss: not held)
+  (dropped trigger KO stop_loss: not held)
+  (dropped trigger GS stop_loss: not held)
+~ WORKING stop_loss 100% NFLX @ $68.70 until 2026-10-09 — protective stop ~3% below entry
+~ WORKING take_profit 100% NFLX @ $70.97 until 2026-10-14 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NFLX @ $68.68 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25434.48 (+1.74% on $25000.00 in) · cash $23385.18 · realised +435.18
+Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $22965.91 this week

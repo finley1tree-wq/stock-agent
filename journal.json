@@ -57201,7 +57201,9 @@
     "code_version": "984fa62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": -0.07,
+    "ret_final": -0.07,
+    "ret_src": "realised"
   },
   {
     "symbol": "AVGO",
@@ -57231,7 +57233,9 @@
     "code_version": "984fa62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.32
+    "ret_now": -0.47,
+    "ret_final": -0.47,
+    "ret_src": "realised"
   },
   {
     "symbol": "NEM",
@@ -57419,7 +57423,9 @@
     "code_version": "b147810",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.14
+    "ret_now": 0.26,
+    "ret_final": 0.26,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -57741,7 +57747,7 @@
     "code_version": "4ec8193",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.47
+    "ret_now": -0.28
   },
   {
     "symbol": "GS",
@@ -57849,7 +57855,8 @@
     "hour_et": 12,
     "code_version": "f62aade",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.07
   },
   {
     "symbol": "IBM",
@@ -57873,7 +57880,8 @@
     "evidence": "bought 90 min ago, -0.05% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "ab01c27"
+    "code_version": "ab01c27",
+    "hold_minutes": 90
   },
   {
     "symbol": "AVGO",
@@ -57897,7 +57905,8 @@
     "evidence": "bought 90 min ago, -0.45% unrealised",
     "trigger": "time_stop",
     "hour_et": 12,
-    "code_version": "ab01c27"
+    "code_version": "ab01c27",
+    "hold_minutes": 90
   },
   {
     "symbol": "UNH",
@@ -57922,6 +57931,36 @@
     "evidence": "average cost $376.31",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "63f1672"
+    "code_version": "63f1672",
+    "hold_minutes": 65
+  },
+  {
+    "symbol": "NFLX",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 7.061732,
+    "price": 70.8,
+    "date": "2026-10-09",
+    "time_et": "12:33",
+    "ts": 1791563590,
+    "why": "low in day range entry with two congress filings backing it [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "Rep. Cleo Fields and Rep. Byron Donalds both disclosed NFLX buys; +5.55% 5d momentum, only 26% of day range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 70.79,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -6.87,
+    "hour_et": 12,
+    "code_version": "c711a28",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

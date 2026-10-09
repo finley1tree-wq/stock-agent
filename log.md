@@ -23725,3 +23725,27 @@ Done: 0 sell(s), 1 buy(s); 22 order(s) working; budget left $21667.82 this week
   (cancelled 2 standing order(s) on UNH: position closed)
 - SELL 100% UNH [take_profit @ $377.29] -> $551.44 (+0.26%) — close 100% at +0.3% over the average cost
 ## 2026-10-09 12:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 12:33 ET (Friday) — week 2026-W41 — budget left $23465.91 (today $31675.00 put to work, 24 buys, 20 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain: Only 3/8 min_positions filled with 93.9% cash idle - must deploy toward target. Adding 5 congress-backed names (GOOGL, NFLX, IBP, KO, GS) each with named filings and reasonable day-range entries to reach 8 positions, sized $2000 each per account size guidance. Protective stops attached to every new position per risk_management best-performing signal bucket (0.19% avg, 88% hit rate).
+lesson: Congress-disclosure-backed buys sized $2000 each with explicit stop_loss remain the fastest path to min_positions; keep prioritizing named filings over bare pressure scores when idle cash is high.
+  (dropped GOOGL: sold 43 min ago, cooling off)
+  (dropped IBP: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped KO: sold 18 min ago, cooling off)
+  (dropped GS: sold 28 min ago, cooling off)
+- BUY $500.00 NFLX [filled] ['congress', 'momentum'] — low in day range entry with two congress filings backing it [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Cleo Fields and Rep. Byron Donalds both disclosed NFLX buys; +5.55% 5d momentum, only 26% of day range
+  (dropped trigger GOOGL stop_loss: not held)
+  (dropped trigger IBP stop_loss: not held)
+  (dropped trigger KO stop_loss: not held)
+  (dropped trigger GS stop_loss: not held)
+~ WORKING stop_loss 100% NFLX @ $68.70 until 2026-10-09 — protective stop ~3% below entry
+~ WORKING take_profit 100% NFLX @ $70.97 until 2026-10-14 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 NFLX @ $68.68 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25434.48 (+1.74% on $25000.00 in) · cash $23385.18 · realised +435.18
+Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $22965.91 this week

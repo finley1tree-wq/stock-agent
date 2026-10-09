@@ -1,60 +1,6 @@
 {
  "orders": [
   {
-   "id": "99e0cd71",
-   "ticker": "XENE",
-   "kind": "stop_loss",
-   "price": 39.522,
-   "status": "filled",
-   "created": "2026-10-01 13:41",
-   "created_ts": 1790876483,
-   "why": "close it all at -2.1% under the average cost",
-   "evidence": "average cost $39.42",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 13:45"
-  },
-  {
-   "id": "4409d2df",
-   "ticker": "HUBB",
-   "kind": "stop_loss",
-   "price": 466.4,
-   "status": "cancelled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "protective stop",
-   "evidence": "ATR 2.479%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "40d9c879",
-   "ticker": "LTH",
-   "kind": "stop_loss",
-   "price": 40.2,
-   "status": "cancelled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "protective stop",
-   "evidence": "ATR 3.552%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:37",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "79bb2972",
    "ticker": "AVGO",
    "kind": "stop_loss",
@@ -7389,7 +7335,57 @@
    ],
    "good_until": "2026-10-14",
    "usd": 500.0
+  },
+  {
+   "id": "6b00e791",
+   "ticker": "NFLX",
+   "kind": "stop_loss",
+   "price": 68.7,
+   "status": "working",
+   "created": "2026-10-09 12:33",
+   "created_ts": 1791563590,
+   "why": "protective stop ~3% below entry",
+   "evidence": "NFLX ATR 2.16%, protect against reversal",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "90ef3f19",
+   "ticker": "NFLX",
+   "kind": "take_profit",
+   "price": 70.9692,
+   "status": "working",
+   "created": "2026-10-09 12:33",
+   "created_ts": 1791563590,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $70.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "cea0e51d",
+   "ticker": "NFLX",
+   "kind": "buy_limit",
+   "price": 68.676,
+   "status": "working",
+   "created": "2026-10-09 12:33",
+   "created_ts": 1791563590,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $70.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-09 12:23"
+ "updated": "2026-10-09 12:33"
 }
