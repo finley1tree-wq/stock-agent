@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "7468e9d3",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 145.4,
-   "status": "cancelled",
-   "created": "2026-10-01 12:37",
-   "created_ts": 1790872633,
-   "why": "protective stop per standard bracket",
-   "evidence": "CHRW atr_pct 2.583, bound downside near 3% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 13:16",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "f465356e",
    "ticker": "HUBB",
    "kind": "buy_limit",
@@ -7360,7 +7342,7 @@
    "ticker": "NFLX",
    "kind": "stop_loss",
    "price": 70.4867,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 11:09",
    "created_ts": 1791558574,
    "why": "close it all at -0.6% under the average cost",
@@ -7370,7 +7352,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 11:10",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "03ea9cb2",
@@ -7388,7 +7372,24 @@
    ],
    "good_until": "2026-10-14",
    "usd": 500.0
+  },
+  {
+   "id": "ee2ebe35",
+   "ticker": "NFLX",
+   "kind": "stop_loss",
+   "price": 70.97,
+   "status": "working",
+   "created": "2026-10-09 11:10",
+   "created_ts": 1791558659,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $70.91",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-09 11:09"
+ "updated": "2026-10-09 11:10"
 }

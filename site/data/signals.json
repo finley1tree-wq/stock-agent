@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-09T11:09-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-09T11:11-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "ee2ebe35",
+   "ticker": "NFLX",
+   "kind": "stop_loss",
+   "price": 70.97,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 71.01,
+   "pct_away": -0.06,
+   "good_until": "2026-10-14",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "3ee40b71",
    "ticker": "NFLX",
    "kind": "take_profit",
@@ -185,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 70.94,
-   "pct_away": 0.2,
+   "last": 71.01,
+   "pct_away": 0.1,
    "good_until": "2026-10-14",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -195,15 +212,15 @@
    ]
   },
   {
-   "id": "173bc5eb",
-   "ticker": "AVGO",
+   "id": "10bece3a",
+   "ticker": "NOC",
    "kind": "take_profit",
-   "price": 365.5442,
+   "price": 483.8488,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 364.45,
-   "pct_away": 0.3,
+   "last": 482.8,
+   "pct_away": 0.22,
    "good_until": "2026-10-14",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -219,8 +236,25 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 118.0,
-   "pct_away": 0.32,
+   "last": 118.09,
+   "pct_away": 0.24,
+   "good_until": "2026-10-14",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "173bc5eb",
+   "ticker": "AVGO",
+   "kind": "take_profit",
+   "price": 365.5442,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 364.29,
+   "pct_away": 0.34,
    "good_until": "2026-10-14",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -236,7 +270,7 @@
    "usd": 625.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 532.06,
+   "last": 532.08,
    "pct_away": -0.35,
    "good_until": "2026-10-09",
    "why": "wanted it, but not at the high \u2014 resting at $530.21. Congress-backed name with strong recent momentum, mid position size [probation at 25% size (no hour or signal lens has proven itself yet)]",
@@ -247,23 +281,6 @@
    ]
   },
   {
-   "id": "10bece3a",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 483.8488,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 481.92,
-   "pct_away": 0.4,
-   "good_until": "2026-10-14",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "ab6a81c3",
    "ticker": "HUBB",
    "kind": "buy_limit",
@@ -271,8 +288,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 477.26,
-   "pct_away": -0.41,
+   "last": 477.38,
+   "pct_away": -0.44,
    "good_until": "2026-10-09",
    "why": "wanted it, but not at the high \u2014 resting at $475.30. Top congress-pressure name with corroborating buy filings; adding breadth toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -289,31 +306,14 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.58,
-   "pct_away": -0.41,
+   "last": 259.73,
+   "pct_away": -0.46,
    "good_until": "2026-10-09",
    "why": "wanted it, but not at the high \u2014 resting at $258.52. Strong short-term momentum; keep size moderate given high range position [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
     "momentum",
     "news",
     "patience"
-   ]
-  },
-  {
-   "id": "80b6b5d8",
-   "ticker": "NFLX",
-   "kind": "stop_loss",
-   "price": 70.4867,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 70.94,
-   "pct_away": -0.64,
-   "good_until": "2026-10-14",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -324,8 +324,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 410.88,
-   "pct_away": -0.67,
+   "last": 410.68,
+   "pct_away": -0.62,
    "good_until": "2026-10-09",
    "why": "wanted it, but not at the high \u2014 resting at $408.15. congress pressure plus momentum, though near day high (94.6%) - will use limit-like sizing to avoid overpaying [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -342,8 +342,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 226.09,
-   "pct_away": 0.68,
+   "last": 226.14,
+   "pct_away": 0.66,
    "good_until": "2026-10-14",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -359,8 +359,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 351.23,
-   "pct_away": 0.77,
+   "last": 351.37,
+   "pct_away": 0.73,
    "good_until": "2026-10-14",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -376,8 +376,8 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 410.88,
-   "pct_away": -1.04,
+   "last": 410.68,
+   "pct_away": -0.99,
    "good_until": "2026-10-09",
    "why": "wanted it, but not at the high \u2014 resting at $406.62. Congress buy pressure (score 1.0) with positive momentum, AMGN at day high but strong fundamentals",
    "signals": [
@@ -394,26 +394,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 226.09,
-   "pct_away": -1.63,
+   "last": 226.14,
+   "pct_away": -1.65,
    "good_until": "2026-10-09",
    "why": "Protective stop for new IBM position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "1c9aa12b",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 472.7,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 481.92,
-   "pct_away": -1.91,
-   "good_until": "2026-10-09",
-   "why": "Protective stop for new NOC position",
    "signals": [
     "risk_management"
    ]
@@ -426,10 +410,26 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 364.45,
-   "pct_away": -2.04,
+   "last": 364.29,
+   "pct_away": -2.0,
    "good_until": "2026-10-09",
    "why": "Protective stop for new AVGO position",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "1c9aa12b",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 472.7,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 482.8,
+   "pct_away": -2.09,
+   "good_until": "2026-10-09",
+   "why": "Protective stop for new NOC position",
    "signals": [
     "risk_management"
    ]
@@ -442,8 +442,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 351.23,
-   "pct_away": -2.06,
+   "last": 351.37,
+   "pct_away": -2.1,
    "good_until": "2026-10-09",
    "why": "Protective stop ~2.5% below entry",
    "signals": [
@@ -458,8 +458,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 118.0,
-   "pct_away": -2.12,
+   "last": 118.09,
+   "pct_away": -2.19,
    "good_until": "2026-10-09",
    "why": "Protective stop for new NEM position",
    "signals": [
@@ -474,8 +474,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 226.09,
-   "pct_away": -2.61,
+   "last": 226.14,
+   "pct_away": -2.63,
    "good_until": "2026-10-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -491,25 +491,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 351.23,
-   "pct_away": -2.64,
-   "good_until": "2026-10-14",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "28de3dbb",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 468.0929,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 481.92,
-   "pct_away": -2.87,
+   "last": 351.37,
+   "pct_away": -2.68,
    "good_until": "2026-10-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -525,8 +508,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 364.45,
-   "pct_away": -3.01,
+   "last": 364.29,
+   "pct_away": -2.97,
+   "good_until": "2026-10-14",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "28de3dbb",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 468.0929,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 482.8,
+   "pct_away": -3.05,
    "good_until": "2026-10-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -542,8 +542,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 118.0,
-   "pct_away": -3.02,
+   "last": 118.09,
+   "pct_away": -3.09,
    "good_until": "2026-10-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -559,8 +559,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 70.94,
-   "pct_away": -3.04,
+   "last": 71.01,
+   "pct_away": -3.14,
    "good_until": "2026-10-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
