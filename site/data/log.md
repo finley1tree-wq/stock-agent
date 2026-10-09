@@ -1,5 +1,3 @@
-- BUY $2000.00 NOC [filled] ['congress', 'track_record'] — Defense name with congress pressure score 2.0, reasonable entry point mid-range | evidence: Congress net buy pressure 2.0, NOC at 53.8% of day range, defense sector with historical track record avg_ret -0.01 but decent hit_rate 0.56
-- BUY $2500.00 KO [filled] ['congress', 'news'] — Defensive consumer staple with congress pressure, mid-range entry avoids chasing | evidence: Congress net buy pressure 1.0, KO at 49.1% of day range, stable defensive name, already in bought_this_week at $6351
 - BUY $2000.00 PG [filled] ['congress', 'momentum'] — PG has congress backing and positive momentum, already held in week's budget showing conviction | evidence: Congress net buy pressure 1.0, PG +4.28% 5d momentum, 83% of day range but strong recent trend
 ~ WORKING stop_loss 100% IBP @ $178.50 until 2026-10-09 — Protective stop since IBP is volatile (4.69% ATR)
 ~ WORKING stop_loss 100% NOC @ $470.00 until 2026-10-09 — Protective stop on new defense position
@@ -398,3 +396,5 @@ Decision: nothing at this check. 24 standing order(s) working.
 - SELL 100% CCJ [take_profit @ $88.03] -> $376.56 (+0.42%) — close 100% at +0.4% over the average cost
 ## 2026-10-09 13:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 10 resting buy order(s): past the entry cutoff)
+- SELL 100% NFLX [time stop] -> $497.96 (-0.41%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-09 14:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders

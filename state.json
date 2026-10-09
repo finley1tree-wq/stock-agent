@@ -1,10 +1,10 @@
 {
   "week": "2026-W41",
-  "spent": 1857.23,
+  "spent": 1359.27,
   "deployed": 140925.0,
   "by_ticker": {
     "ACN": 29.57,
-    "NFLX": 511.52,
+    "NFLX": 13.56,
     "IBM": 9.01,
     "TSM": 53.71,
     "HUBB": 6.12,
@@ -3612,13 +3612,33 @@
       ],
       "evidence": "average cost $87.67",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NFLX",
+      "side": "sell",
+      "qty": 7.061732,
+      "status": "filled",
+      "price": 70.52,
+      "proceeds": 497.96,
+      "realized_pnl": -2.04,
+      "realized_pct": -0.41,
+      "date": "2026-10-09",
+      "time_et": "14:03",
+      "ts": 1791569011,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.39% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 1857.23,
+  "spent_today": 1359.27,
   "deployed_today": 33925.0,
   "orders_today": 29,
-  "sells_today": 24,
+  "sells_today": 25,
   "sold_today": [
     "IBM",
     "HD",
@@ -3641,7 +3661,7 @@
     "MSFT": 1791476257,
     "TSM": 1791562425,
     "AVGO": 1791562978,
-    "NFLX": 1791558948,
+    "NFLX": 1791569011,
     "UNH": 1791563018,
     "PEP": 1791208891,
     "KO": 1791562512,
@@ -3661,8 +3681,8 @@
     "NEM": 1791559124,
     "CCJ": 1791568194
   },
-  "last_publish_ts": 1791568837,
-  "last_check_ts": 1791568925,
+  "last_publish_ts": 1791569011,
+  "last_check_ts": 1791569011,
   "exp_arm": {
     "HUBB": {
       "params": {
@@ -3736,9 +3756,7 @@
     "331d73ad": 184.8005,
     "939d5209": 510.0547,
     "b46b13be": 105.2236,
-    "90ef3f19": 70.9692,
     "d4550ec7": 498.0,
-    "6b00e791": 68.7,
     "524425c5": 102.0,
     "e32c2a23": 177.0
   }

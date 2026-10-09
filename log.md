@@ -23831,3 +23831,5 @@ Decision: nothing at this check. 24 standing order(s) working.
 - SELL 100% CCJ [take_profit @ $88.03] -> $376.56 (+0.42%) — close 100% at +0.4% over the average cost
 ## 2026-10-09 13:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 10 resting buy order(s): past the entry cutoff)
+- SELL 100% NFLX [time stop] -> $497.96 (-0.41%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-09 14:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders

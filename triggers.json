@@ -7109,7 +7109,7 @@
    "ticker": "NFLX",
    "kind": "stop_loss",
    "price": 68.7,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 12:33",
    "created_ts": 1791563590,
    "why": "protective stop ~3% below entry",
@@ -7118,14 +7118,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 14:03",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "90ef3f19",
    "ticker": "NFLX",
    "kind": "take_profit",
    "price": 70.9692,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 12:33",
    "created_ts": 1791563590,
    "why": "close 100% at +0.2% over the average cost",
@@ -7135,7 +7137,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 14:03",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "cea0e51d",
