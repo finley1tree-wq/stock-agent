@@ -23686,3 +23686,6 @@ lesson: With 8/8 positions filled and stops/take-profits already auto_bracketed,
 portfolio: equity $25425.84 (+1.70% on $25000.00 in) · cash $20883.20 · realised +433.20
 Decision: nothing at this check. 28 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on GS: position closed)
+- SELL 100% GS [take_profit @ $889.06] -> $626.48 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-09 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders

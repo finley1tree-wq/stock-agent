@@ -1,19 +1,3 @@
-  (dropped AMGN: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped GS: sold 12 min ago, cooling off)
-  (dropped TSM: sold 25 min ago, cooling off)
-- BUY $500.00 IBM [filled] ['congress', 'news'] — Congress buy pressure plus positive momentum in a name cooled off from earlier sell, cooldown clear [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Lloyd Doggett disclosed IBM buy ($1,001-$15,000) on 2026-09-10, filed 2026-10-05; IBM +0.69% today, 70% of day range, not overextended
-  (dropped trigger AMGN stop_loss: not held)
-  (dropped trigger GS stop_loss: not held)
-  (dropped trigger TSM stop_loss: not held)
-~ WORKING stop_loss 100% IBM @ $217.00 until 2026-10-08 — Protective stop on new IBM position
-~ WORKING take_profit 100% IBM @ $222.69 until 2026-10-13 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $215.42 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25413.25 (+1.65% on $25000.00 in) · cash $23556.61 · realised +431.61
-Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $23152.67 this week
-  (cancelled 2 standing order(s) on IBM: position closed)
-- SELL 100% IBM [take_profit @ $222.69] -> $501.37 (+0.27%) — close 100% at +0.3% over the average cost
-## 2026-10-08 13:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
 ## 2026-10-08 13:44 ET (Thursday) — week 2026-W41 — budget left $23654.04 (today $19750.00 put to work, 24 buys, 21 sells) — SIM (pretend money) via sim
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
   (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
@@ -398,3 +382,19 @@ Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $19334.47 this week
 ## 2026-10-09 12:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $500.00 HUBB [buy_limit @ $475.27] — wanted it, but not at the high — resting at $475.30. Top congress-pressure name with corroborating buy filings; adding breadth toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-09 12:02 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-10-09 12:02 ET (Friday) — week 2026-W41 — budget left $20463.94 (today $31175.00 put to work, 23 buys, 14 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain: Already at min_positions (8) with full set of protective stops and take-profits in place (auto_bracket) plus patience buy_limits resting on AMGN/MSFT/AMZN. Hour-12 is PROBATION in strategy_stages, and I've already churned 23 orders/14 sells today with mixed results (sold_today list shows many round trips). No fresh evidence for a 9th name beyond what's already working; existing resting buy_limits (AMGN $3000@406.62, MSFT $625@530.21, AMZN $500@258.52) will pick up dips if they come. Best move is to let the standing orders work and check back soon rather than force a new entry at current elevated prices (TSM, AVGO near day lows already bought; HD/GS/KO near highs of range).
+lesson: With 8/8 positions filled and stops/take-profits already auto_bracketed, forcing new buys at hour-12 (PROBATION stage) adds no value - let resting buy_limits do the work of catching dips instead of chasing at market.
+portfolio: equity $25425.84 (+1.70% on $25000.00 in) · cash $20883.20 · realised +433.20
+Decision: nothing at this check. 28 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on GS: position closed)
+- SELL 100% GS [take_profit @ $889.06] -> $626.48 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-09 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
