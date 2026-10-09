@@ -7129,7 +7129,7 @@
    "ticker": "IBP",
    "kind": "stop_loss",
    "price": 177.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 13:04",
    "created_ts": 1791565461,
    "why": "protective stop",
@@ -7138,14 +7138,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 14:34",
+   "cancel_reason": "position closed"
   },
   {
    "id": "524425c5",
    "ticker": "PPG",
    "kind": "stop_loss",
    "price": 102.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 13:04",
    "created_ts": 1791565461,
    "why": "protective stop",
@@ -7154,7 +7156,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 14:34",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "232efd0e",
@@ -7179,7 +7183,7 @@
    "ticker": "LMT",
    "kind": "stop_loss",
    "price": 498.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 13:04",
    "created_ts": 1791565461,
    "why": "protective stop",
@@ -7188,14 +7192,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 14:34",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "331d73ad",
    "ticker": "IBP",
    "kind": "take_profit",
    "price": 184.8005,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-09 13:04",
    "created_ts": 1791565461,
    "why": "close 100% at +0.5% over the average cost",
@@ -7205,7 +7211,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 14:34"
   },
   {
    "id": "a36773da",
@@ -7231,7 +7238,7 @@
    "ticker": "PPG",
    "kind": "take_profit",
    "price": 105.2236,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 13:04",
    "created_ts": 1791565461,
    "why": "close 100% at +0.2% over the average cost",
@@ -7241,7 +7248,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 14:34",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "e2fa380a",
@@ -7304,7 +7313,7 @@
    "ticker": "LMT",
    "kind": "take_profit",
    "price": 510.0547,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 13:04",
    "created_ts": 1791565461,
    "why": "close 100% at +0.2% over the average cost",
@@ -7314,7 +7323,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 14:34",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "9cc70c63",
@@ -7340,7 +7351,7 @@
    "ticker": "LMT",
    "kind": "stop_loss",
    "price": 501.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 14:10",
    "created_ts": 1791569432,
    "why": "protect against giveback since ratchet arm is active on LMT",
@@ -7349,14 +7360,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 14:34",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "1bcfc0f6",
    "ticker": "LMT",
    "kind": "stop_loss",
    "price": 503.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 14:26",
    "created_ts": 1791570363,
    "why": "tighten protective stop on LMT given ratchet experiment and small loss so far",
@@ -7365,14 +7378,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 14:34",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "9996e5bf",
    "ticker": "PPG",
    "kind": "stop_loss",
    "price": 103.2,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 14:26",
    "created_ts": 1791570363,
    "why": "tighten stop slightly to limit downside into close",
@@ -7381,14 +7396,16 @@
     "risk_management"
    ],
    "good_until": "2026-10-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 14:34",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "4abf2c14",
    "ticker": "IBP",
    "kind": "stop_loss",
    "price": 180.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 14:26",
    "created_ts": 1791570363,
    "why": "keep protective stop active, no change needed to level but reaffirm",
@@ -7397,8 +7414,10 @@
     "risk_management"
    ],
    "good_until": "2026-10-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 14:34",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-09 14:26"
+ "updated": "2026-10-09 14:34"
 }

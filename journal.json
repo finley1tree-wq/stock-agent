@@ -58222,5 +58222,78 @@
     "hour_et": 14,
     "code_version": "bbd7095",
     "hold_minutes": 90
+  },
+  {
+    "symbol": "IBP",
+    "side": "sell",
+    "qty": 2.719556,
+    "status": "filled",
+    "price": 184.8,
+    "proceeds": 502.58,
+    "realized_pnl": 2.58,
+    "realized_pct": 0.52,
+    "date": "2026-10-09",
+    "time_et": "14:34",
+    "ts": 1791570600,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "risk_management",
+      "standing_order",
+      "track_record"
+    ],
+    "evidence": "average cost $183.85",
+    "trigger": "take_profit",
+    "hour_et": 14,
+    "code_version": "bca39f4"
+  },
+  {
+    "symbol": "PPG",
+    "side": "sell",
+    "qty": 4.762722,
+    "status": "filled",
+    "price": 104.74,
+    "proceeds": 498.84,
+    "realized_pnl": -1.16,
+    "realized_pct": -0.23,
+    "date": "2026-10-09",
+    "time_et": "14:34",
+    "ts": 1791570878,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "time_stop",
+      "track_record"
+    ],
+    "evidence": "bought 90 min ago, -0.19% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14,
+    "code_version": "bca39f4"
+  },
+  {
+    "symbol": "LMT",
+    "side": "sell",
+    "qty": 0.736835,
+    "status": "filled",
+    "price": 507.06,
+    "proceeds": 373.62,
+    "realized_pnl": -1.38,
+    "realized_pct": -0.37,
+    "date": "2026-10-09",
+    "time_et": "14:34",
+    "ts": 1791570878,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "intraday_limit",
+      "momentum",
+      "time_stop",
+      "track_record"
+    ],
+    "evidence": "bought 90 min ago, -0.33% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14,
+    "code_version": "bca39f4"
   }
 ]

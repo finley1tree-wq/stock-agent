@@ -1,8 +1,3 @@
-  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-brain: Only 2 positions held vs min 8, 78% cash idle - need to deploy aggressively. Using congress-disclosure evidence (Doggett on IBM/PPG, Taylor on AMGN) which backtested well (congress signal avg_ret +0.03%, hit rate 0.64, and counterfactual shows congress-chosen avg +0.32% - best non-trivial signal). Adding resting buy_limits on CHRW/HUBB/ESE (highest congress pressure scores 3.0, 3.0, 2.0) at better levels since they're mid-to-high in day range, to get toward min_positions without chasing. Protecting new buys with stop_loss per risk_management signal which has best track record (0.19% avg, 88% hit rate).
 lesson: Congress-disclosure-backed breadth buys sized $2k each with explicit stop_loss keep working per track record; use buy_limit resting orders for names high in day range (CHRW, HUBB) rather than chasing at market.
   (dropped IBM: sold 29 min ago, cooling off)
   (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
@@ -398,3 +393,8 @@ lesson: When no_new_entries_this_check is true, focus entirely on protecting/tig
 ~ WORKING stop_loss 100% IBP @ $180.00 until 2026-10-09 — keep protective stop active, no change needed to level but reaffirm
 portfolio: equity $25434.40 (+1.74% on $25000.00 in) · cash $24060.00 · realised +435.00
 Decision: nothing at this check. 10 standing order(s) working.
+  (cancelled 2 standing order(s) on IBP: position closed)
+- SELL 100% IBP [take_profit @ $184.80] -> $502.58 (+0.52%) — close 100% at +0.5% over the average cost
+- SELL 100% PPG [time stop] -> $498.84 (-0.23%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% LMT [time stop] -> $373.62 (-0.37%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-09 14:34 ET — tick — 3 sell(s), 0 buy(s) from standing orders

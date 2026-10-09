@@ -23863,3 +23863,8 @@ lesson: When no_new_entries_this_check is true, focus entirely on protecting/tig
 ~ WORKING stop_loss 100% IBP @ $180.00 until 2026-10-09 — keep protective stop active, no change needed to level but reaffirm
 portfolio: equity $25434.40 (+1.74% on $25000.00 in) · cash $24060.00 · realised +435.00
 Decision: nothing at this check. 10 standing order(s) working.
+  (cancelled 2 standing order(s) on IBP: position closed)
+- SELL 100% IBP [take_profit @ $184.80] -> $502.58 (+0.52%) — close 100% at +0.5% over the average cost
+- SELL 100% PPG [time stop] -> $498.84 (-0.23%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% LMT [time stop] -> $373.62 (-0.37%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-09 14:34 ET — tick — 3 sell(s), 0 buy(s) from standing orders
