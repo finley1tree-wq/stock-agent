@@ -1,6 +1,3 @@
-- BUY $375.00 AMZN [filled] ['momentum', 'track_record'] — Diversify into widely-held sector with positive momentum and moderate day-range entry, adds to min_positions count [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: AMZN 1m momentum +2.32%, currently at 38.2% of day range; widely_held sector hit_rate 0.58 in track record
-  (dropped trigger IBM stop_loss: not held)
-  (dropped trigger AMGN stop_loss: not held)
 ~ WORKING stop_loss 100% GOOGL @ $338.00 until 2026-10-08 — Cap downside on new GOOGL position
 ~ WORKING stop_loss 100% AMZN @ $250.50 until 2026-10-08 — Cap downside on new AMZN position
 ~ WORKING take_profit 100% GOOGL @ $349.80 until 2026-10-13 — close 100% at +0.3% over the average cost
@@ -398,3 +395,6 @@ Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $17130.55 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $483.98] -> $501.46 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-10-09 11:15 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [take_profit @ $118.38] -> $501.69 (+0.34%) — close 100% at +0.3% over the average cost
+## 2026-10-09 11:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders

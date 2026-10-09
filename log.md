@@ -23617,3 +23617,6 @@ Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $17130.55 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $483.98] -> $501.46 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-10-09 11:15 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NEM: position closed)
+- SELL 100% NEM [take_profit @ $118.38] -> $501.69 (+0.34%) — close 100% at +0.3% over the average cost
+## 2026-10-09 11:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders

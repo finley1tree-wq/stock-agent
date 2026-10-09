@@ -1,6 +1,6 @@
 {
   "week": "2026-W41",
-  "spent": 3867.22,
+  "spent": 3365.53,
   "deployed": 135375.0,
   "by_ticker": {
     "ACN": 29.57,
@@ -12,7 +12,6 @@
     "GOOGL": 1002.72,
     "AMZN": 4.59,
     "AVGO": 625.0,
-    "NEM": 500.0,
     "UNH": 550.0
   },
   "deployed_by_ticker": {
@@ -3107,13 +3106,34 @@
       ],
       "evidence": "average cost $482.57",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NEM",
+      "side": "sell",
+      "qty": 4.238108,
+      "status": "filled",
+      "price": 118.38,
+      "proceeds": 501.69,
+      "realized_pnl": 1.69,
+      "realized_pct": 0.34,
+      "date": "2026-10-09",
+      "time_et": "11:18",
+      "ts": 1791558900,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $117.98",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 3867.22,
+  "spent_today": 3365.53,
   "deployed_today": 28375.0,
   "orders_today": 18,
-  "sells_today": 11,
+  "sells_today": 12,
   "sold_today": [
     "IBM",
     "HD",
@@ -3124,7 +3144,8 @@
     "TSM",
     "GS",
     "AMGN",
-    "NFLX"
+    "NFLX",
+    "NEM"
   ],
   "sold_ts": {
     "MSFT": 1791476257,
@@ -3146,10 +3167,11 @@
     "PPG": 1791478369,
     "IBP": 1791553949,
     "GOOGL": 1791483976,
-    "AMZN": 1791483976
+    "AMZN": 1791483976,
+    "NEM": 1791559124
   },
-  "last_publish_ts": 1791558946,
-  "last_check_ts": 1791559081,
+  "last_publish_ts": 1791559123,
+  "last_check_ts": 1791559169,
   "exp_arm": {
     "GOOGL": {
       "params": {
@@ -3229,28 +3251,25 @@
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "83ebda98": 118.3764,
     "12b07f13": 377.2922,
     "903be7e4": 453.821,
-    "0de3cfc7": 530.2091,
     "173bc5eb": 365.5442,
-    "3d0bcb21": 258.5245,
+    "0de3cfc7": 530.2091,
     "da7f5f2f": 227.6265,
+    "3d0bcb21": 258.5245,
     "67fff679": 408.1475,
-    "ab6a81c3": 475.297,
     "9a7756f1": 353.9265,
+    "ab6a81c3": 475.297,
     "ca935182": 406.6234,
     "10f01f3c": 222.4,
     "fe89880e": 357.0,
     "cbb389f2": 344.0,
     "87956578": 443.0,
-    "0ae7bd5d": 115.5,
     "8ee160aa": 368.0,
     "94d89119": 341.9638,
     "b9d51acf": 220.19,
     "c6526395": 353.468,
     "2187c51f": 439.0123,
-    "61f18bb9": 365.0207,
-    "6efac833": 114.4406
+    "61f18bb9": 365.0207
   }
 }
