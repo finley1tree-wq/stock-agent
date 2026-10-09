@@ -1,6 +1,3 @@
-  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
   (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past the 14:00 ET entry cutoff), so no new buys can be placed - they would be dropped. Existing GOOGL and AMZN positions already have stop_loss and take_profit working orders in place (GOOGL stop 338/tp 349.80; AMZN stop 250.50/tp 258.88), which is sufficient protection given the 90-minute hold experiment windows. Nothing to add or sell right now; will check back soon to monitor the two open positions as they approach their hold-minute limits.
@@ -398,3 +395,6 @@ Done: 0 sell(s), 1 buy(s); 22 order(s) working; budget left $21667.82 this week
 - SELL 100% IBM [time stop] -> $624.56 (-0.07%) — held 90 min, the 90-minute limit: out regardless
 - SELL 100% AVGO [time stop] -> $622.09 (-0.47%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-09 12:22 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $377.29] -> $551.44 (+0.26%) — close 100% at +0.3% over the average cost
+## 2026-10-09 12:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -23722,3 +23722,6 @@ Done: 0 sell(s), 1 buy(s); 22 order(s) working; budget left $21667.82 this week
 - SELL 100% IBM [time stop] -> $624.56 (-0.07%) — held 90 min, the 90-minute limit: out regardless
 - SELL 100% AVGO [time stop] -> $622.09 (-0.47%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-09 12:22 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on UNH: position closed)
+- SELL 100% UNH [take_profit @ $377.29] -> $551.44 (+0.26%) — close 100% at +0.3% over the average cost
+## 2026-10-09 12:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
