@@ -23812,3 +23812,16 @@ Decision: nothing at this check. 27 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% HUBB [time stop] -> $500.27 (+0.05%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-09 13:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 13:40 ET (Friday) — week 2026-W41 — budget left $22267.56 (today $33925.00 put to work, 29 buys, 22 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain: It's 13:40 ET and no_new_entries_after_et is 14:00 - we're 20 minutes from the entry cutoff, so new buys at market now would mostly just get dropped/chased near the deadline, and the guardrail flag isn't yet true but will be shortly. I already have 6 positions with auto-bracket take-profits and stop-losses working (NOC, NFLX, IBP, PPG, CCJ, LMT), plus resting buy_limit triggers on MSFT, AMZN, AVGO, TSM, AMGN that will fill if prices pull back to the levels I want rather than chasing at current highs. Rather than force 2 more market buys into names already near day-range highs (AMGN 98%, AAPL 93%) which would violate the "don't chase" guidance, I'll let the existing buy_limit triggers do the work and reassess at the next check before the cutoff.
+lesson: With entries cutting off at 14:00, use the last pre-cutoff checks to tighten/add buy_limits at good levels rather than chasing names already high in their day range just to hit min_positions.
+portfolio: equity $25429.33 (+1.72% on $25000.00 in) · cash $22686.83 · realised +436.83
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
