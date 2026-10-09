@@ -1,6 +1,3 @@
-  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
   (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
 brain: It is 13:44 ET and no_new_entries_after_et is 14:00 - only 16 minutes of new-entry window remain and my last several buys (GOOGL, AMZN, HUBB) are only 48-63 min old. Hour-14 strategy is CULLED and hour-13 is PROBATION, so fresh entries right now are low-quality; standing limit orders already working (NFLX, PG, KO, HD, HUBB, GOOGL, AMZN adds) cover the breadth gap if prices come in. I'll let the existing buy_limits do the work rather than chase at current prices (several names like HD, KO are high in day range), and check back quickly in case something fills or the entry window needs final action before 14:00.
 lesson: With only ~15 min left before no_new_entries_after_et, rely on resting buy_limits already placed rather than forcing new market orders into high-of-range prices; check back fast to react to fills.
@@ -398,3 +395,6 @@ Decision: nothing at this check. 28 standing order(s) working.
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $453.82] -> $576.56 (+0.27%) — close 100% at +0.3% over the average cost
 ## 2026-10-09 12:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [take_profit @ $88.09] -> $500.84 (+0.17%) — close 100% at +0.2% over the average cost
+## 2026-10-09 12:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -23692,3 +23692,6 @@ Decision: nothing at this check. 28 standing order(s) working.
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [take_profit @ $453.82] -> $576.56 (+0.27%) — close 100% at +0.3% over the average cost
 ## 2026-10-09 12:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [take_profit @ $88.09] -> $500.84 (+0.17%) — close 100% at +0.2% over the average cost
+## 2026-10-09 12:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders

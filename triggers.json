@@ -7187,7 +7187,7 @@
    "ticker": "KO",
    "kind": "stop_loss",
    "price": 86.17,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 11:46",
    "created_ts": 1791560760,
    "why": "Protective stop ~2% below entry",
@@ -7196,7 +7196,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 12:15",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ec63121a",
@@ -7258,7 +7260,7 @@
    "ticker": "KO",
    "kind": "take_profit",
    "price": 88.0881,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-09 11:46",
    "created_ts": 1791560760,
    "why": "close 100% at +0.2% over the average cost",
@@ -7268,14 +7270,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 12:15"
   },
   {
    "id": "891e7318",
    "ticker": "KO",
    "kind": "buy_limit",
    "price": 85.3115,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 11:46",
    "created_ts": 1791560760,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7285,7 +7288,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-09 12:15",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ffa86128",
@@ -7376,5 +7381,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-09 12:13"
+ "updated": "2026-10-09 12:15"
 }
