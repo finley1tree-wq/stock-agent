@@ -23526,3 +23526,5 @@ lesson: Congress-disclosure-backed buys sized ~$2500 with explicit stop_loss rem
 ~ WORKING buy_limit $625.00 AMGN @ $408.96 until 2026-10-09 — wanted it, but not at the high — resting at $408.96. Congress-backed name with positive momentum, adding to existing resting limits at market since we're below min_positions [probation at 25% size (no hour or signal lens has proven itself y
 portfolio: equity $25403.22 (+1.61% on $25000.00 in) · cash $21415.26 · realised +415.26
 Decision: nothing at this check. 11 standing order(s) working.
+- BUY $500.00 AMGN [buy_limit @ $408.83] — wanted it, but not at the high — resting at $408.83. Named congress buyer plus clean uptrend, adding to existing resting limits at a market entry since momentum is solid [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-09 10:48 ET — tick — 0 sell(s), 1 buy(s) from standing orders

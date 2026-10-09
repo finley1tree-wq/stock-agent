@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "0edaafce",
-   "ticker": "KO",
-   "kind": "take_profit",
-   "price": 86.291,
-   "status": "cancelled",
-   "created": "2026-10-01 12:04",
-   "created_ts": 1790870693,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $86.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:20",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "4c47d71e",
-   "ticker": "KO",
-   "kind": "stop_loss",
-   "price": 85.8317,
-   "status": "cancelled",
-   "created": "2026-10-01 12:04",
-   "created_ts": 1790870693,
-   "why": "close it all at -0.4% under the average cost",
-   "evidence": "average cost $86.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:18",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "f7e0c635",
-   "ticker": "KO",
-   "kind": "buy_limit",
-   "price": 83.5752,
-   "status": "cancelled",
-   "created": "2026-10-01 12:04",
-   "created_ts": 1790870693,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $86.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 12:20",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "7de2fca3",
    "ticker": "HLI",
    "kind": "take_profit",
@@ -7346,7 +7289,7 @@
    "ticker": "AMGN",
    "kind": "buy_limit",
    "price": 408.835,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-09 10:20",
    "created_ts": 1791555611,
    "why": "wanted it, but not at the high \u2014 resting at $408.83. Named congress buyer plus clean uptrend, adding to existing resting limits at a market entry since momentum is solid [probation at 25% size (no hour or signal lens has proven itself yet)]",
@@ -7357,7 +7300,8 @@
     "patience"
    ],
    "good_until": "2026-10-09",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-09 10:48"
   },
   {
    "id": "9a7756f1",
@@ -7398,7 +7342,7 @@
    "ticker": "AMGN",
    "kind": "buy_limit",
    "price": 408.956,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 10:36",
    "created_ts": 1791556591,
    "why": "wanted it, but not at the high \u2014 resting at $408.96. Congress-backed name with positive momentum, adding to existing resting limits at market since we're below min_positions [probation at 25% size (no hour or signal lens has proven itself y",
@@ -7410,8 +7354,61 @@
     "patience"
    ],
    "good_until": "2026-10-09",
-   "usd": 625.0
+   "usd": 625.0,
+   "closed": "2026-10-09 10:48",
+   "cancel_reason": "another standing order on the same ticker filled first"
+  },
+  {
+   "id": "a82e7aa9",
+   "ticker": "AMGN",
+   "kind": "take_profit",
+   "price": 410.0033,
+   "status": "working",
+   "created": "2026-10-09 10:48",
+   "created_ts": 1791557282,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $408.83",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "19fa9ff1",
+   "ticker": "AMGN",
+   "kind": "stop_loss",
+   "price": 405.8905,
+   "status": "working",
+   "created": "2026-10-09 10:48",
+   "created_ts": 1791557282,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $408.83",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "58498679",
+   "ticker": "AMGN",
+   "kind": "buy_limit",
+   "price": 396.5651,
+   "status": "working",
+   "created": "2026-10-09 10:48",
+   "created_ts": 1791557282,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $408.83",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-09 10:36"
+ "updated": "2026-10-09 10:48"
 }

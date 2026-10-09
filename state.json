@@ -1,12 +1,12 @@
 {
   "week": "2026-W41",
-  "spent": 4004.01,
-  "deployed": 127500.0,
+  "spent": 4504.01,
+  "deployed": 128000.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 12.29,
     "IBM": 8.57,
-    "AMGN": 2.31,
+    "AMGN": 502.31,
     "TSM": 55.27,
     "HUBB": 6.39,
     "GOOGL": 502.72,
@@ -27,7 +27,7 @@
     "AAPL": 2500.0,
     "GS": 13041.67,
     "IBM": 10240.74,
-    "AMGN": 5402.78,
+    "AMGN": 5902.78,
     "HUBB": 1750.0,
     "IBP": 2550.0,
     "NOC": 2325.0,
@@ -2824,12 +2824,36 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "AMGN",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.222987,
+      "price": 408.83,
+      "date": "2026-10-09",
+      "time_et": "10:48",
+      "ts": 1791557100,
+      "why": "wanted it, but not at the high \u2014 resting at $408.83. Named congress buyer plus clean uptrend, adding to existing resting limits at a market entry since momentum is solid [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "momentum",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "Rep. David J. Taylor disclosed AMGN buy 2026-09-22 (filed 2026-10-01); AMGN +1.0% today, 85.7% of day range, 5d +2.1%",
+      "trigger": "buy_limit",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 4004.01,
-  "deployed_today": 20500.0,
-  "orders_today": 9,
+  "spent_today": 4504.01,
+  "deployed_today": 21000.0,
+  "orders_today": 10,
   "sells_today": 7,
   "sold_today": [
     "IBM",
@@ -2862,8 +2886,8 @@
     "GOOGL": 1791483976,
     "AMZN": 1791483976
   },
-  "last_publish_ts": 1791556591,
-  "last_check_ts": 1791557188,
+  "last_publish_ts": 1791557282,
+  "last_check_ts": 1791557282,
   "exp_arm": {
     "GS": {
       "params": {
@@ -2882,6 +2906,15 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "AMGN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1791557100,
@@ -2889,16 +2922,17 @@
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "67fff679": 408.1475,
+    "a82e7aa9": 410.0033,
     "dc2e30c5": 886.8527,
     "baaa4ec2": 70.914,
-    "4a87631e": 408.956,
-    "e754a48f": 408.835,
-    "9a7756f1": 353.9265,
-    "67fff679": 408.1475,
     "ca935182": 406.6234,
-    "29b337d4": 865.0,
+    "19fa9ff1": 405.8905,
+    "9a7756f1": 353.9265,
     "cbb389f2": 344.0,
+    "29b337d4": 865.0,
     "3a38ad46": 342.3809,
-    "d0b8212a": 858.256
+    "d0b8212a": 858.256,
+    "58498679": 396.5651
   }
 }
