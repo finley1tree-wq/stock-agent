@@ -23830,3 +23830,4 @@ Decision: nothing at this check. 24 standing order(s) working.
   (cancelled 2 standing order(s) on CCJ: position closed)
 - SELL 100% CCJ [take_profit @ $88.03] -> $376.56 (+0.42%) — close 100% at +0.4% over the average cost
 ## 2026-10-09 13:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 10 resting buy order(s): past the entry cutoff)
