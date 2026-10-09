@@ -1,6 +1,3 @@
-## 2026-10-08 13:44 ET (Thursday) — week 2026-W41 — budget left $23654.04 (today $19750.00 put to work, 24 buys, 21 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
   (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
   (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
   (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 28 standing order(s) working.
   (cancelled 2 standing order(s) on GS: position closed)
 - SELL 100% GS [take_profit @ $889.06] -> $626.48 (+0.24%) — close 100% at +0.2% over the average cost
 ## 2026-10-09 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $453.82] -> $576.56 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-10-09 12:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders
