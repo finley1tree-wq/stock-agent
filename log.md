@@ -23612,3 +23612,8 @@ lesson: When a name gets stopped out intraday at a high entry, re-evaluate it af
 ~ WORKING buy_limit $500.00 TSM @ $439.01 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25422.70 (+1.69% on $25000.00 in) · cash $17549.82 · realised +424.82
 Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $17130.55 this week
+  (cancelled 2 standing order(s) on NFLX: position closed)
+- SELL 100% NFLX [stop_loss @ $70.93] -> $3500.77 (+0.02%) — close it all at -0.6% under the average cost
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $483.98] -> $501.46 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-10-09 11:15 ET — tick — 2 sell(s), 0 buy(s) from standing orders

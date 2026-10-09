@@ -6986,7 +6986,7 @@
    "ticker": "NOC",
    "kind": "stop_loss",
    "price": 472.7,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 10:52",
    "created_ts": 1791557542,
    "why": "Protective stop for new NOC position",
@@ -6995,7 +6995,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 11:15",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0de3cfc7",
@@ -7122,7 +7124,7 @@
    "ticker": "NOC",
    "kind": "take_profit",
    "price": 483.8488,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-09 10:52",
    "created_ts": 1791557542,
    "why": "close 100% at +0.3% over the average cost",
@@ -7132,14 +7134,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 11:15"
   },
   {
    "id": "28de3dbb",
    "ticker": "NOC",
    "kind": "buy_limit",
    "price": 468.0929,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 10:52",
    "created_ts": 1791557542,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7149,7 +7152,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-09 11:15",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ab6a81c3",
@@ -7209,7 +7214,7 @@
    "ticker": "NFLX",
    "kind": "take_profit",
    "price": 71.0795,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 11:09",
    "created_ts": 1791558574,
    "why": "close 100% at +0.2% over the average cost",
@@ -7219,7 +7224,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 11:15",
+   "cancel_reason": "position closed"
   },
   {
    "id": "80b6b5d8",
@@ -7245,7 +7252,7 @@
    "ticker": "NFLX",
    "kind": "buy_limit",
    "price": 68.7827,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 11:09",
    "created_ts": 1791558574,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7255,14 +7262,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-09 11:15",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ee2ebe35",
    "ticker": "NFLX",
    "kind": "stop_loss",
    "price": 70.97,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-09 11:10",
    "created_ts": 1791558659,
    "why": "close it all at -0.6% under the average cost",
@@ -7272,7 +7281,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 11:15"
   },
   {
    "id": "8ee160aa",
@@ -7375,5 +7385,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-09 11:14"
+ "updated": "2026-10-09 11:15"
 }

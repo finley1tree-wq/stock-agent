@@ -1,8 +1,3 @@
-brain: Only 3 of 8 min_positions held with 94.6% cash idle - the biggest problem right now. Adding IBM (congress+cooldown cleared), AMGN (congress, low in day range), GOOGL (congress+deep pullback to day low), and AMZN (momentum, diversification) brings me to 7 names with concrete evidence each, sized $1500-2000 per the owner's instruction for real size. Past lessons repeatedly confirm breadth-first congress-backed entries are the fastest path to min_positions and have graded positively multiple times today; attaching protective stops immediately per the risk_management signal which has the best track record (0.19% avg, 88% hit rate).
-lesson: Below min_positions with high idle cash is the clearest action signal - deploy multiple congress/news-backed names at once in real size rather than trickling single small buys.
-  (dropped IBM: sold 39 min ago, cooling off)
-  (dropped AMGN: sold 36 min ago, cooling off)
-- BUY $500.00 GOOGL [filled] ['congress', 'momentum'] — Congress buy pressure plus deep pullback within day range gives good entry on a widely-held name not yet in book [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Cleo Fields disclosed GOOGL(GOOG) buy 2026-09-14, disclosed 2026-10-01; GOOGL at 7.2% of day range (near day low), 1m momentum +5.48%
 - BUY $375.00 AMZN [filled] ['momentum', 'track_record'] — Diversify into widely-held sector with positive momentum and moderate day-range entry, adds to min_positions count [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: AMZN 1m momentum +2.32%, currently at 38.2% of day range; widely_held sector hit_rate 0.58 in track record
   (dropped trigger IBM stop_loss: not held)
   (dropped trigger AMGN stop_loss: not held)
@@ -398,3 +393,8 @@ lesson: When a name gets stopped out intraday at a high entry, re-evaluate it af
 ~ WORKING buy_limit $500.00 TSM @ $439.01 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25422.70 (+1.69% on $25000.00 in) · cash $17549.82 · realised +424.82
 Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $17130.55 this week
+  (cancelled 2 standing order(s) on NFLX: position closed)
+- SELL 100% NFLX [stop_loss @ $70.93] -> $3500.77 (+0.02%) — close it all at -0.6% under the average cost
+  (cancelled 2 standing order(s) on NOC: position closed)
+- SELL 100% NOC [take_profit @ $483.98] -> $501.46 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-10-09 11:15 ET — tick — 2 sell(s), 0 buy(s) from standing orders
