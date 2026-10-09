@@ -1,8 +1,3 @@
-lesson: Hitting min_positions requires deploying across several evidence-backed names in one check rather than trickling - breadth beats waiting for a perfect entry.
-  (dropped PEP: not in allowed list)
-- BUY $500.00 IBM [filled] ['congress', 'track_record'] — Congress buy signal in widely_held name, not in cooldown, fresh entry to build toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Lloyd Doggett disclosed IBM buy 2026-09-10 (disclosed 2026-10-05); congress_net_buy_pressure IBM=1.0
-- BUY $500.00 KO [filled] ['congress', 'news'] — Defensive staples name with congress pressure signal, complements working buy_limit order already resting [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure KO=1.0, price 86.88 near day high 83.9% of range but low ATR defensive name
-- BUY $500.00 NFLX [filled] ['congress', 'news'] — Strong congress pressure (score 2.0) plus positive 1d momentum, adding to existing position at market since range is mid (76.7%) but momentum supports [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Two independent congress disclosures: Cleo Fields buy disclosed 2026-10-01, Byron Donalds buy disclosed 2026-09-15; NFLX +2.01% today
 - BUY $500.00 TSM [filled] ['insider', 'track_record'] — Massive cluster of insider buying at TSM including C-suite, strongest insider signal in the dataset [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 30+ TSM insider buys filed 2026-10-08 including CEO Wei Che-Chia; insider_net_buy_pressure TSM=30.0 (highest of any ticker)
   (dropped trigger PEP stop_loss: not held)
 ~ WORKING stop_loss 100% TSM @ $452.00 until 2026-10-08 — Standard protective stop ~3% below entry
@@ -398,3 +393,8 @@ Done: 0 sell(s), 4 buy(s); 20 order(s) working; budget left $11018.14 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $482.03] -> $2005.31 (+0.27%) — close 100% at +0.3% over the average cost
 ## 2026-10-09 09:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBP: position closed)
+- SELL 100% IBP [take_profit @ $183.59] -> $2010.37 (+0.52%) — close 100% at +0.5% over the average cost
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [take_profit @ $87.87] -> $2503.97 (+0.16%) — close 100% at +0.2% over the average cost
+## 2026-10-09 09:52 ET — tick — 2 sell(s), 0 buy(s) from standing orders

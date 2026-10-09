@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-09T09:51-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-09T09:52-04:00",
+ "note": "tick: 2 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "bb411dc6",
-   "ticker": "KO",
-   "kind": "take_profit",
-   "price": 87.8669,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 87.84,
-   "pct_away": 0.03,
-   "good_until": "2026-10-14",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "1ad629c9",
    "ticker": "PG",
    "kind": "take_profit",
@@ -202,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 151.26,
-   "pct_away": 0.1,
+   "last": 151.15,
+   "pct_away": 0.18,
    "good_until": "2026-10-14",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -219,27 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 885.28,
-   "pct_away": 0.18,
+   "last": 884.99,
+   "pct_away": 0.21,
    "good_until": "2026-10-14",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9d609ca1",
-   "ticker": "IBP",
-   "kind": "take_profit",
-   "price": 183.5897,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 183.03,
-   "pct_away": 0.31,
-   "good_until": "2026-10-14",
-   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 454.68,
-   "pct_away": -0.59,
+   "last": 455.07,
+   "pct_away": -0.67,
    "good_until": "2026-10-09",
    "why": "Protective stop ~2.2% below entry",
    "signals": [
@@ -269,10 +235,28 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 410.62,
-   "pct_away": -0.97,
+   "last": 410.66,
+   "pct_away": -0.98,
    "good_until": "2026-10-09",
    "why": "wanted it, but not at the high \u2014 resting at $406.62. Congress buy pressure (score 1.0) with positive momentum, AMGN at day high but strong fundamentals",
+   "signals": [
+    "congress",
+    "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "baaa4ec2",
+   "ticker": "NFLX",
+   "kind": "buy_limit",
+   "price": 70.914,
+   "usd": 3500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 71.89,
+   "pct_away": -1.36,
+   "good_until": "2026-10-09",
+   "why": "wanted it, but not at the high \u2014 resting at $70.91. Congress buy pressure (score 2.0) and strong 5d momentum, entering near high but trend is clear",
    "signals": [
     "congress",
     "momentum",
@@ -287,31 +271,13 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 454.68,
-   "pct_away": -1.38,
+   "last": 455.07,
+   "pct_away": -1.46,
    "good_until": "2026-10-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "baaa4ec2",
-   "ticker": "NFLX",
-   "kind": "buy_limit",
-   "price": 70.914,
-   "usd": 3500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 71.95,
-   "pct_away": -1.44,
-   "good_until": "2026-10-09",
-   "why": "wanted it, but not at the high \u2014 resting at $70.91. Congress buy pressure (score 2.0) and strong 5d momentum, entering near high but trend is clear",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
    ]
   },
   {
@@ -322,29 +288,13 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 454.68,
-   "pct_away": 1.93,
+   "last": 455.07,
+   "pct_away": 1.84,
    "good_until": "2026-10-14",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
-   ]
-  },
-  {
-   "id": "29b337d4",
-   "ticker": "GS",
-   "kind": "stop_loss",
-   "price": 865.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 885.28,
-   "pct_away": -2.29,
-   "good_until": "2026-10-09",
-   "why": "Protective stop ~2.2% below entry",
-   "signals": [
-    "risk_management"
    ]
   },
   {
@@ -355,8 +305,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 151.26,
-   "pct_away": -2.29,
+   "last": 151.15,
+   "pct_away": -2.22,
    "good_until": "2026-10-09",
    "why": "Protective stop on new staples position",
    "signals": [
@@ -364,52 +314,19 @@
    ]
   },
   {
-   "id": "13a40c7b",
-   "ticker": "KO",
-   "kind": "stop_loss",
-   "price": 85.8,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 87.84,
-   "pct_away": -2.32,
-   "good_until": "2026-10-09",
-   "why": "Protective stop on new defensive position",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "9b597cef",
-   "ticker": "IBP",
-   "kind": "stop_loss",
-   "price": 178.5,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 183.03,
-   "pct_away": -2.48,
-   "good_until": "2026-10-09",
-   "why": "Protective stop since IBP is volatile (4.69% ATR)",
-   "signals": [
-    "risk_management"
-   ]
-  },
-  {
-   "id": "d0b8212a",
+   "id": "29b337d4",
    "ticker": "GS",
-   "kind": "buy_limit",
-   "price": 858.256,
-   "usd": 500.0,
-   "pct_of_position": null,
+   "kind": "stop_loss",
+   "price": 865.0,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 885.28,
-   "pct_away": -3.05,
-   "good_until": "2026-10-14",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "last": 884.99,
+   "pct_away": -2.26,
+   "good_until": "2026-10-09",
+   "why": "Protective stop ~2.2% below entry",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "risk_management"
    ]
   },
   {
@@ -420,8 +337,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 151.26,
-   "pct_away": -3.08,
+   "last": 151.15,
+   "pct_away": -3.01,
    "good_until": "2026-10-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -430,32 +347,15 @@
    ]
   },
   {
-   "id": "3c32ff3b",
-   "ticker": "KO",
+   "id": "d0b8212a",
+   "ticker": "GS",
    "kind": "buy_limit",
-   "price": 85.0981,
+   "price": 858.256,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 87.84,
-   "pct_away": -3.12,
-   "good_until": "2026-10-14",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "7fb07e60",
-   "ticker": "IBP",
-   "kind": "buy_limit",
-   "price": 177.1608,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 183.03,
-   "pct_away": -3.21,
+   "last": 884.99,
+   "pct_away": -3.02,
    "good_until": "2026-10-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

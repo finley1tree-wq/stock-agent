@@ -23451,3 +23451,8 @@ Done: 0 sell(s), 4 buy(s); 20 order(s) working; budget left $11018.14 this week
   (cancelled 2 standing order(s) on NOC: position closed)
 - SELL 100% NOC [take_profit @ $482.03] -> $2005.31 (+0.27%) — close 100% at +0.3% over the average cost
 ## 2026-10-09 09:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBP: position closed)
+- SELL 100% IBP [take_profit @ $183.59] -> $2010.37 (+0.52%) — close 100% at +0.5% over the average cost
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [take_profit @ $87.87] -> $2503.97 (+0.16%) — close 100% at +0.2% over the average cost
+## 2026-10-09 09:52 ET — tick — 2 sell(s), 0 buy(s) from standing orders

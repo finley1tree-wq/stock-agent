@@ -1,6 +1,6 @@
 {
   "week": "2026-W41",
-  "spent": 11976.55,
+  "spent": 7462.21,
   "deployed": 127000.0,
   "by_ticker": {
     "ACN": 29.57,
@@ -12,8 +12,6 @@
     "GOOGL": 2.72,
     "AMZN": 4.59,
     "GS": 3500.0,
-    "IBP": 2000.0,
-    "KO": 2500.0,
     "PG": 2000.0
   },
   "deployed_by_ticker": {
@@ -2723,17 +2721,61 @@
       ],
       "evidence": "average cost $480.75",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "IBP",
+      "side": "sell",
+      "qty": 10.950322,
+      "status": "filled",
+      "price": 183.59,
+      "proceeds": 2010.37,
+      "realized_pnl": 10.37,
+      "realized_pct": 0.52,
+      "date": "2026-10-09",
+      "time_et": "09:52",
+      "ts": 1791553800,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $182.64",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "KO",
+      "side": "sell",
+      "qty": 28.497322,
+      "status": "filled",
+      "price": 87.87,
+      "proceeds": 2503.97,
+      "realized_pnl": 3.97,
+      "realized_pct": 0.16,
+      "date": "2026-10-09",
+      "time_et": "09:52",
+      "ts": 1791553800,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $87.73",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 11976.55,
+  "spent_today": 7462.21,
   "deployed_today": 20000.0,
   "orders_today": 8,
-  "sells_today": 3,
+  "sells_today": 5,
   "sold_today": [
     "IBM",
     "HD",
-    "NOC"
+    "NOC",
+    "IBP",
+    "KO"
   ],
   "sold_ts": {
     "MSFT": 1791476257,
@@ -2742,7 +2784,7 @@
     "NFLX": 1791480025,
     "UNH": 1791478877,
     "PEP": 1791208891,
-    "KO": 1791475409,
+    "KO": 1791553950,
     "AAPL": 1791209185,
     "PG": 1791466754,
     "ACN": 1791297612,
@@ -2753,12 +2795,12 @@
     "HUBB": 1791483034,
     "NOC": 1791553908,
     "PPG": 1791478369,
-    "IBP": 1791478501,
+    "IBP": 1791553949,
     "GOOGL": 1791483976,
     "AMZN": 1791483976
   },
-  "last_publish_ts": 1791553907,
-  "last_check_ts": 1791553907,
+  "last_publish_ts": 1791553948,
+  "last_check_ts": 1791553995,
   "exp_arm": {
     "GS": {
       "params": {
@@ -2820,22 +2862,16 @@
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "bb411dc6": 87.8669,
     "1ad629c9": 151.4166,
     "dc2e30c5": 886.8527,
-    "9d609ca1": 183.5897,
     "75dad4b8": 452.0,
     "ca935182": 406.6234,
-    "c473628d": 448.4116,
     "baaa4ec2": 70.914,
+    "c473628d": 448.4116,
     "fb17f10b": 463.4634,
-    "29b337d4": 865.0,
     "8347beb2": 147.8,
-    "13a40c7b": 85.8,
-    "9b597cef": 178.5,
-    "d0b8212a": 858.256,
+    "29b337d4": 865.0,
     "b533872a": 146.6058,
-    "3c32ff3b": 85.0981,
-    "7fb07e60": 177.1608
+    "d0b8212a": 858.256
   }
 }
