@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "a91759ef",
-   "ticker": "LMT",
-   "kind": "buy_limit",
-   "price": 493.5748,
-   "status": "cancelled",
-   "created": "2026-10-01 12:04",
-   "created_ts": 1790870693,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $508.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 12:34",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "0edaafce",
    "ticker": "KO",
    "kind": "take_profit",
@@ -7411,7 +7392,26 @@
    ],
    "good_until": "2026-10-14",
    "usd": 500.0
+  },
+  {
+   "id": "4a87631e",
+   "ticker": "AMGN",
+   "kind": "buy_limit",
+   "price": 408.956,
+   "status": "working",
+   "created": "2026-10-09 10:36",
+   "created_ts": 1791556591,
+   "why": "wanted it, but not at the high \u2014 resting at $408.96. Congress-backed name with positive momentum, adding to existing resting limits at market since we're below min_positions [probation at 25% size (no hour or signal lens has proven itself y",
+   "evidence": "Rep. David J. Taylor disclosed buy of AMGN on 2026-09-22 (filed 10-01); AMGN +1.05% today, 85.9% of day range but clean uptrend +7.65% 1m",
+   "signals": [
+    "congress",
+    "momentum",
+    "track_record",
+    "patience"
+   ],
+   "good_until": "2026-10-09",
+   "usd": 625.0
   }
  ],
- "updated": "2026-10-09 10:20"
+ "updated": "2026-10-09 10:36"
 }

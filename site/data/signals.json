@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-09T10:20-04:00",
- "note": "Only 1 of 8 min_positions is held with 86% cash idle - this is the clearest action signal per past lessons. Adding IBM (Doggett filing), AMGN (Taylor filing), NOC (mid-range defense entry), and GOOGL (Fields filing) in $2-2.5k sizes each with explicit stop_loss protection, consistent with the track ",
+ "asOf": "2026-10-09T10:37-04:00",
+ "note": "Below min_positions (2 of 8) with 84% cash idle - the clearest action signal per owner instructions. Adding congress-disclosure-backed names (AMGN, PPG, HUBB) with concrete filing evidence, sized $2500 each per past_lessons guidance, each with explicit protective stop_loss since track record shows r",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "9a7756f1",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 353.9265,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 352.9,
-   "pct_away": 0.29,
-   "good_until": "2026-10-14",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "dc2e30c5",
    "ticker": "GS",
    "kind": "take_profit",
@@ -202,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 881.53,
-   "pct_away": 0.6,
+   "last": 882.41,
+   "pct_away": 0.5,
    "good_until": "2026-10-14",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -219,13 +202,32 @@
    "usd": 3500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 71.36,
-   "pct_away": -0.62,
+   "last": 71.34,
+   "pct_away": -0.6,
    "good_until": "2026-10-09",
    "why": "wanted it, but not at the high \u2014 resting at $70.91. Congress buy pressure (score 2.0) and strong 5d momentum, entering near high but trend is clear",
    "signals": [
     "congress",
     "momentum",
+    "patience"
+   ]
+  },
+  {
+   "id": "4a87631e",
+   "ticker": "AMGN",
+   "kind": "buy_limit",
+   "price": 408.956,
+   "usd": 625.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 411.71,
+   "pct_away": -0.67,
+   "good_until": "2026-10-09",
+   "why": "wanted it, but not at the high \u2014 resting at $408.96. Congress-backed name with positive momentum, adding to existing resting limits at market since we're below min_positions [probation at 25% size (no hour or signal lens has proven itself y",
+   "signals": [
+    "congress",
+    "momentum",
+    "track_record",
     "patience"
    ]
   },
@@ -237,14 +239,31 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 411.51,
-   "pct_away": -0.65,
+   "last": 411.71,
+   "pct_away": -0.7,
    "good_until": "2026-10-09",
    "why": "wanted it, but not at the high \u2014 resting at $408.83. Named congress buyer plus clean uptrend, adding to existing resting limits at a market entry since momentum is solid [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
     "congress",
     "momentum",
     "patience"
+   ]
+  },
+  {
+   "id": "9a7756f1",
+   "ticker": "GOOGL",
+   "kind": "take_profit",
+   "price": 353.9265,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 351.14,
+   "pct_away": 0.79,
+   "good_until": "2026-10-14",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -255,8 +274,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 411.51,
-   "pct_away": -0.82,
+   "last": 411.71,
+   "pct_away": -0.87,
    "good_until": "2026-10-09",
    "why": "wanted it, but not at the high \u2014 resting at $408.15. congress pressure plus momentum, though near day high (94.6%) - will use limit-like sizing to avoid overpaying [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -273,8 +292,8 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 411.51,
-   "pct_away": -1.19,
+   "last": 411.71,
+   "pct_away": -1.24,
    "good_until": "2026-10-09",
    "why": "wanted it, but not at the high \u2014 resting at $406.62. Congress buy pressure (score 1.0) with positive momentum, AMGN at day high but strong fundamentals",
    "signals": [
@@ -291,8 +310,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 881.53,
-   "pct_away": -1.88,
+   "last": 882.41,
+   "pct_away": -1.97,
    "good_until": "2026-10-09",
    "why": "Protective stop ~2.2% below entry",
    "signals": [
@@ -307,29 +326,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 352.9,
-   "pct_away": -2.52,
+   "last": 351.14,
+   "pct_away": -2.03,
    "good_until": "2026-10-09",
    "why": "Protective stop ~2.5% below entry",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "d0b8212a",
-   "ticker": "GS",
-   "kind": "buy_limit",
-   "price": 858.256,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 881.53,
-   "pct_away": -2.64,
-   "good_until": "2026-10-14",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -340,8 +342,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 352.9,
-   "pct_away": -2.98,
+   "last": 351.14,
+   "pct_away": -2.49,
+   "good_until": "2026-10-14",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d0b8212a",
+   "ticker": "GS",
+   "kind": "buy_limit",
+   "price": 858.256,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 882.41,
+   "pct_away": -2.74,
    "good_until": "2026-10-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -350,7 +369,7 @@
    ]
   }
  ],
- "last_reasoning": "Only 1 of 8 min_positions is held with 86% cash idle - this is the clearest action signal per past lessons. Adding IBM (Doggett filing), AMGN (Taylor filing), NOC (mid-range defense entry), and GOOGL (Fields filing) in $2-2.5k sizes each with explicit stop_loss protection, consistent with the track ",
+ "last_reasoning": "Below min_positions (2 of 8) with 84% cash idle - the clearest action signal per owner instructions. Adding congress-disclosure-backed names (AMGN, PPG, HUBB) with concrete filing evidence, sized $2500 each per past_lessons guidance, each with explicit protective stop_loss since track record shows r",
  "next_check_minutes": 15,
  "allowed": [
   "AAPL",
@@ -417,12 +436,12 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 396,
-  "decisions_with_buys_graded": 188,
+  "decisions_graded": 395,
+  "decisions_with_buys_graded": 187,
   "independent_days_graded": 14,
-  "avg_regret_pct": -0.03,
-  "chosen_avg_pct": -0.12,
-  "skipped_avg_pct": -0.14,
+  "avg_regret_pct": -0.02,
+  "chosen_avg_pct": -0.13,
+  "skipped_avg_pct": -0.15,
   "idle_universe_avg_pct": -0.41,
   "picking_beats_random": true,
   "avg_fraction_of_universe_bought": 0.03,
@@ -449,12 +468,12 @@
     "avg_pct": 0.25
    },
    "momentum": {
-    "n": 363,
-    "avg_pct": -0.21
+    "n": 361,
+    "avg_pct": -0.22
    },
    "news": {
-    "n": 323,
-    "avg_pct": 0.15
+    "n": 321,
+    "avg_pct": 0.14
    },
    "risk_management": {
     "n": 4,
@@ -542,9 +561,9 @@
     "n": 3
    }
   },
-  "idle_checks": 209,
+  "idle_checks": 210,
   "blocked_checks": 0,
-  "idle_share": 0.52,
+  "idle_share": 0.53,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "weak",
   "how_many_days_before_this_means_anything": 30,
@@ -2078,5 +2097,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-09T10:20-04:00"
+ "signalsAsOf": "2026-10-09T10:37-04:00"
 }

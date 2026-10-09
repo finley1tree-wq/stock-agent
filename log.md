@@ -23507,3 +23507,22 @@ lesson: Congress-disclosure-backed breadth buys sized $2-2.5k each, paired with 
 ~ WORKING buy_limit $500.00 GOOGL @ $342.38 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25402.23 (+1.61% on $25000.00 in) · cash $21415.26 · realised +415.26
 Done: 0 sell(s), 1 buy(s); 10 order(s) working; budget left $20995.99 this week
+
+## 2026-10-09 10:36 ET (Friday) — week 2026-W41 — budget left $20995.99 (today $20500.00 put to work, 9 buys, 7 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+brain: Below min_positions (2 of 8) with 84% cash idle - the clearest action signal per owner instructions. Adding congress-disclosure-backed names (AMGN, PPG, HUBB) with concrete filing evidence, sized $2500 each per past_lessons guidance, each with explicit protective stop_loss since track record shows risk_management/stop-backed entries have 0.19% avg return and 88% hit rate vs weaker unprotected signals.
+lesson: Congress-disclosure-backed buys sized ~$2500 with explicit stop_loss remain the fastest documented path to min_positions; keep deploying when cash_idle_pct is high and below target count rather than waiting for a perfect signal.
+  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped HUBB: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped AMGN: 86% up today's range — resting a limit at $408.96 instead of chasing)
+  (dropped trigger AMGN stop_loss: not held)
+  (dropped trigger PPG stop_loss: not held)
+  (dropped trigger HUBB stop_loss: not held)
+~ WORKING buy_limit $625.00 AMGN @ $408.96 until 2026-10-09 — wanted it, but not at the high — resting at $408.96. Congress-backed name with positive momentum, adding to existing resting limits at market since we're below min_positions [probation at 25% size (no hour or signal lens has proven itself y
+portfolio: equity $25403.22 (+1.61% on $25000.00 in) · cash $21415.26 · realised +415.26
+Decision: nothing at this check. 11 standing order(s) working.
