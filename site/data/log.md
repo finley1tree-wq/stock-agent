@@ -1,19 +1,3 @@
-Done: 0 sell(s), 4 buy(s); 20 order(s) working; budget left $11018.14 this week
-  (cancelled 2 standing order(s) on NOC: position closed)
-- SELL 100% NOC [take_profit @ $482.03] -> $2005.31 (+0.27%) — close 100% at +0.3% over the average cost
-## 2026-10-09 09:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on IBP: position closed)
-- SELL 100% IBP [take_profit @ $183.59] -> $2010.37 (+0.52%) — close 100% at +0.5% over the average cost
-  (cancelled 2 standing order(s) on KO: position closed)
-- SELL 100% KO [take_profit @ $87.87] -> $2503.97 (+0.16%) — close 100% at +0.2% over the average cost
-## 2026-10-09 09:52 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on PG: position closed)
-- SELL 100% PG [take_profit @ $151.42] -> $2003.66 (+0.18%) — close 100% at +0.2% over the average cost
-## 2026-10-09 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-09 10:04 ET (Friday) — week 2026-W41 — budget left $19541.45 (today $20000.00 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
   (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
@@ -398,3 +382,19 @@ lesson: After the 14:00 no-new-entries cutoff, the only legal moves are sells/tr
 ~ WORKING stop_loss 100% LMT @ $501.50 until 2026-10-09 — protect against giveback since ratchet arm is active on LMT
 portfolio: equity $25435.31 (+1.74% on $25000.00 in) · cash $24060.00 · realised +435.00
 Decision: nothing at this check. 7 standing order(s) working.
+
+## 2026-10-09 14:26 ET (Friday) — week 2026-W41 — budget left $23640.73 (today $33925.00 put to work, 29 buys, 25 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: No new entries allowed this check (past 14:00 cutoff per guardrails), so I cannot add new positions despite being below min_positions - that's the rule, not a choice to sit out. All three current positions already have take-profit and stop-loss orders working from auto_bracket; I'm tightening the LMT and PPG stops slightly given minor red P/L and limited time left in the session (Friday, close at 16:00) rather than letting them ride the full distance. No sells since none of the three positions have hit a profit/loss level warranting an early exit beyond the existing brackets.
+lesson: When no_new_entries_this_check is true, focus entirely on protecting/tightening existing stops rather than trying to force buys that will just get dropped.
+~ WORKING stop_loss 100% LMT @ $503.00 until 2026-10-09 — tighten protective stop on LMT given ratchet experiment and small loss so far
+~ WORKING stop_loss 100% PPG @ $103.20 until 2026-10-09 — tighten stop slightly to limit downside into close
+~ WORKING stop_loss 100% IBP @ $180.00 until 2026-10-09 — keep protective stop active, no change needed to level but reaffirm
+portfolio: equity $25434.40 (+1.74% on $25000.00 in) · cash $24060.00 · realised +435.00
+Decision: nothing at this check. 10 standing order(s) working.

@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "184d0d0d",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 466.1325,
-   "status": "filled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $465.1",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:37"
-  },
-  {
-   "id": "ee018856",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 451.147,
-   "status": "cancelled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $465.1",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 09:37",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "c396b773",
-   "ticker": "CHRW",
-   "kind": "stop_loss",
-   "price": 152.65,
-   "status": "cancelled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "protect new CHRW position",
-   "evidence": "ATR 2.522%, protective stop ~2% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:42",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "fe5e58ef",
    "ticker": "ACN",
    "kind": "stop_loss",
@@ -7405,7 +7350,55 @@
    ],
    "good_until": "2026-10-09",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "1bcfc0f6",
+   "ticker": "LMT",
+   "kind": "stop_loss",
+   "price": 503.0,
+   "status": "working",
+   "created": "2026-10-09 14:26",
+   "created_ts": 1791570363,
+   "why": "tighten protective stop on LMT given ratchet experiment and small loss so far",
+   "evidence": "LMT at 507.56, -0.06% 1d, ratchet arm active per experiment settings",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9996e5bf",
+   "ticker": "PPG",
+   "kind": "stop_loss",
+   "price": 103.2,
+   "status": "working",
+   "created": "2026-10-09 14:26",
+   "created_ts": 1791570363,
+   "why": "tighten stop slightly to limit downside into close",
+   "evidence": "PPG at 104.71, -0.71% 1d, already -0.26% unrealized",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4abf2c14",
+   "ticker": "IBP",
+   "kind": "stop_loss",
+   "price": 180.0,
+   "status": "working",
+   "created": "2026-10-09 14:26",
+   "created_ts": 1791570363,
+   "why": "keep protective stop active, no change needed to level but reaffirm",
+   "evidence": "IBP at 184.48, down -1.78% 1d, 31.8% of day range",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-09 14:10"
+ "updated": "2026-10-09 14:26"
 }
