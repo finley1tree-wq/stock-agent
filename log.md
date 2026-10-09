@@ -23417,3 +23417,6 @@ Done: 0 sell(s), 4 buy(s); 14 order(s) working; budget left $13500.00 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [take_profit @ $225.79] -> $3010.87 (+0.36%) — close 100% at +0.3% over the average cost
 ## 2026-10-09 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on HD: position closed)
+- SELL 100% HD [take_profit @ $294.21] -> $3007.27 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-09 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders

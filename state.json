@@ -1,6 +1,6 @@
 {
   "week": "2026-W41",
-  "spent": 8489.13,
+  "spent": 5481.86,
   "deployed": 118500.0,
   "by_ticker": {
     "ACN": 29.57,
@@ -11,8 +11,7 @@
     "HUBB": 6.39,
     "GOOGL": 2.72,
     "AMZN": 4.59,
-    "GS": 3500.0,
-    "HD": 3000.0
+    "GS": 3500.0
   },
   "deployed_by_ticker": {
     "AVGO": 8250.0,
@@ -2595,15 +2594,37 @@
       ],
       "evidence": "average cost $224.97",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "HD",
+      "side": "sell",
+      "qty": 10.221511,
+      "status": "filled",
+      "price": 294.21,
+      "proceeds": 3007.27,
+      "realized_pnl": 7.27,
+      "realized_pct": 0.24,
+      "date": "2026-10-09",
+      "time_et": "09:47",
+      "ts": 1791553500,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $293.5",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 8489.13,
+  "spent_today": 5481.86,
   "deployed_today": 11500.0,
   "orders_today": 4,
-  "sells_today": 1,
+  "sells_today": 2,
   "sold_today": [
-    "IBM"
+    "IBM",
+    "HD"
   ],
   "sold_ts": {
     "MSFT": 1791476257,
@@ -2616,7 +2637,7 @@
     "AAPL": 1791209185,
     "PG": 1791466754,
     "ACN": 1791297612,
-    "HD": 1791467242,
+    "HD": 1791553638,
     "GS": 1791479802,
     "IBM": 1791552940,
     "AMGN": 1791476471,
@@ -2627,8 +2648,8 @@
     "GOOGL": 1791483976,
     "AMZN": 1791483976
   },
-  "last_publish_ts": 1791552939,
-  "last_check_ts": 1791553556,
+  "last_publish_ts": 1791553637,
+  "last_check_ts": 1791553637,
   "exp_arm": {
     "GS": {
       "params": {
@@ -2674,14 +2695,11 @@
   "book_px": {
     "dc2e30c5": 886.8527,
     "ca935182": 406.6234,
-    "43a4d06f": 294.2103,
-    "fb17f10b": 463.4634,
-    "baaa4ec2": 70.914,
     "75dad4b8": 452.0,
-    "6d6d4416": 287.0,
-    "29b337d4": 865.0,
+    "baaa4ec2": 70.914,
+    "fb17f10b": 463.4634,
     "c473628d": 448.4116,
-    "266baf51": 284.695,
+    "29b337d4": 865.0,
     "d0b8212a": 858.256
   }
 }

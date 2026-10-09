@@ -1,6 +1,3 @@
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
-  (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
   (VRA excluded: too thinly traded ($1.6M a day) — Vera Bradley, Inc.)
 brain: Below min_positions (5 of 8) with 87% idle cash - past lessons and counterfactual data consistently show idle cash is graded as a loss while congress-disclosure breadth is the fastest path to target count. Adding PPG, LTH, CHRW, FWONK (all with fresh congress disclosure evidence from Doggett/McClain Delaney, not yet traded today, not in cooldown) brings us to 9 positions and deploys meaningful capital, each with a protective stop given the 30-min hold rule.
 lesson: Congress-pressure breadth entries (PPG/LTH/CHRW/FWONK) placed at 11:16 to close the min_positions gap while idle cash sat at 87%; track whether this late-morning batch underperforms the 09:xx SURVIVOR hour cohort.
@@ -398,3 +395,6 @@ Done: 0 sell(s), 4 buy(s); 14 order(s) working; budget left $13500.00 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [take_profit @ $225.79] -> $3010.87 (+0.36%) — close 100% at +0.3% over the average cost
 ## 2026-10-09 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on HD: position closed)
+- SELL 100% HD [take_profit @ $294.21] -> $3007.27 (+0.24%) — close 100% at +0.2% over the average cost
+## 2026-10-09 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
