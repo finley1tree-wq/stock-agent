@@ -23810,3 +23810,5 @@ lesson: With 7/8 positions filled and strong resting buy_limits already covering
 portfolio: equity $25431.23 (+1.72% on $25000.00 in) · cash $22186.56 · realised +436.56
 Decision: nothing at this check. 27 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% HUBB [time stop] -> $500.27 (+0.05%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-09 13:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders

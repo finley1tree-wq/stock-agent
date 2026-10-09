@@ -1,18 +1,3 @@
-  (dropped trigger PPG stop_loss: not held)
-~ WORKING stop_loss 100% GS @ $865.00 until 2026-10-09 — Protective stop ~2.2% below entry
-~ WORKING stop_loss 100% IBM @ $220.00 until 2026-10-09 — Protective stop ~2.2% below entry
-~ WORKING stop_loss 100% HD @ $287.00 until 2026-10-09 — Protective stop ~2.2% below entry
-~ WORKING stop_loss 100% TSM @ $452.00 until 2026-10-09 — Protective stop ~2.2% below entry
-~ WORKING buy_limit $3000.00 AMGN @ $406.62 until 2026-10-09 — wanted it, but not at the high — resting at $406.62. Congress buy pressure (score 1.0) with positive momentum, AMGN at day high but strong fundamentals
-~ WORKING buy_limit $3500.00 NFLX @ $70.91 until 2026-10-09 — wanted it, but not at the high — resting at $70.91. Congress buy pressure (score 2.0) and strong 5d momentum, entering near high but trend is clear
-~ WORKING take_profit 100% GS @ $886.85 until 2026-10-14 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 GS @ $858.26 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% IBM @ $225.58 until 2026-10-14 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $218.22 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% HD @ $294.21 until 2026-10-14 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 HD @ $284.69 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $463.46 until 2026-10-14 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $448.41 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25416.97 (+1.67% on $25000.00 in) · cash $13919.27 · realised +419.27
 Done: 0 sell(s), 4 buy(s); 14 order(s) working; budget left $13500.00 this week
   (cancelled 2 standing order(s) on IBM: position closed)
@@ -398,3 +383,18 @@ lesson: With under 50 minutes to the 14:00 entry cutoff and only 3/8 positions f
 ~ WORKING buy_limit $500.00 LMT @ $493.66 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25434.41 (+1.74% on $25000.00 in) · cash $22186.56 · realised +436.56
 Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $21767.29 this week
+
+## 2026-10-09 13:20 ET (Friday) — week 2026-W41 — budget left $21767.29 (today $33925.00 put to work, 29 buys, 21 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain: Past the 14:00 ET no-new-entries cutoff (now 13:20... wait, it's 13:20, cutoff is 14:00, so entries are still allowed for ~40 more minutes). I have 7 positions already (HUBB, NOC, NFLX, IBP, PPG, CCJ, LMT), one short of min_positions=8. All current positions are protected with auto_bracket stop_loss/take_profit. Given the time pressure before 14:00 cutoff, I should add one more name to reach 8, but all good congress-backed names (AVGO, TSM, MSFT, AMGN) are in cooldown or have working buy_limit orders resting below market already covering re-entry. Rather than chase at market (most names like HD are in cooldown, AMD/NVDA near day lows without clear evidence), I'll let the existing resting buy_limits (AVGO, MSFT, TSM, AMGN, NFLX averaging) do the work since they're already placed at good levels with congress/insider backing. No new market buy adds clear incremental value right now without chasing.
+lesson: With 7/8 positions filled and strong resting buy_limits already covering the best remaining congress/insider-backed names (AVGO, TSM, MSFT, AMGN) at favorable levels, let those triggers work rather than chasing at market near the entry cutoff.
+portfolio: equity $25431.23 (+1.72% on $25000.00 in) · cash $22186.56 · realised +436.56
+Decision: nothing at this check. 27 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% HUBB [time stop] -> $500.27 (+0.05%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-09 13:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders

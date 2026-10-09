@@ -1,13 +1,13 @@
 {
   "week": "2026-W41",
-  "spent": 3232.71,
+  "spent": 2732.44,
   "deployed": 140925.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 511.52,
     "IBM": 9.01,
     "TSM": 53.71,
-    "HUBB": 506.39,
+    "HUBB": 6.12,
     "GOOGL": 0.21,
     "AMZN": 4.59,
     "AVGO": 2.91,
@@ -3552,13 +3552,33 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "HUBB",
+      "side": "sell",
+      "qty": 1.052034,
+      "status": "filled",
+      "price": 475.53,
+      "proceeds": 500.27,
+      "realized_pnl": 0.27,
+      "realized_pct": 0.05,
+      "date": "2026-10-09",
+      "time_et": "13:31",
+      "ts": 1791567115,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, +0.09% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 3232.71,
+  "spent_today": 2732.44,
   "deployed_today": 33925.0,
   "orders_today": 29,
-  "sells_today": 21,
+  "sells_today": 22,
   "sold_today": [
     "IBM",
     "HD",
@@ -3573,7 +3593,8 @@
     "NEM",
     "GOOGL",
     "AVGO",
-    "UNH"
+    "UNH",
+    "HUBB"
   ],
   "sold_ts": {
     "MSFT": 1791476257,
@@ -3590,7 +3611,7 @@
     "GS": 1791561916,
     "IBM": 1791562978,
     "AMGN": 1791561647,
-    "HUBB": 1791483034,
+    "HUBB": 1791567117,
     "NOC": 1791558948,
     "PPG": 1791478369,
     "IBP": 1791553949,
@@ -3598,8 +3619,8 @@
     "AMZN": 1791483976,
     "NEM": 1791559124
   },
-  "last_publish_ts": 1791565461,
-  "last_check_ts": 1791567029,
+  "last_publish_ts": 1791567115,
+  "last_check_ts": 1791567115,
   "exp_arm": {
     "HUBB": {
       "params": {
@@ -3670,31 +3691,28 @@
   "next_check_minutes": 20,
   "autopiloted": false,
   "book_px": {
+    "b46b13be": 105.2236,
     "f5723b1c": 483.0716,
     "939d5209": 510.0547,
-    "b46b13be": 105.2236,
-    "120ea7cd": 476.6911,
     "6600900f": 88.0294,
-    "90ef3f19": 70.9692,
+    "3d0bcb21": 258.5245,
     "331d73ad": 184.8005,
-    "d3a0ba3b": 471.7197,
     "bf9ca164": 360.0,
     "0de3cfc7": 530.2091,
-    "3d0bcb21": 258.5245,
+    "90ef3f19": 70.9692,
     "cd2947ba": 445.0,
-    "67fff679": 408.1475,
     "d4550ec7": 498.0,
-    "ca935182": 406.6234,
+    "67fff679": 408.1475,
     "f3b19970": 470.0,
+    "ca935182": 406.6234,
     "6b00e791": 68.7,
     "cea0e51d": 68.676,
     "524425c5": 102.0,
-    "17574725": 461.0119,
-    "a36773da": 178.3345,
-    "e2fa380a": 101.8306,
-    "bd32908e": 85.0399,
     "9cc70c63": 493.6621,
+    "a36773da": 178.3345,
     "446c8a98": 467.3363,
+    "bd32908e": 85.0399,
+    "e2fa380a": 101.8306,
     "232efd0e": 84.5,
     "e32c2a23": 177.0
   }
