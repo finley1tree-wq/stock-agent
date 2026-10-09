@@ -23695,3 +23695,27 @@ Decision: nothing at this check. 28 standing order(s) working.
   (cancelled 2 standing order(s) on KO: position closed)
 - SELL 100% KO [take_profit @ $88.09] -> $500.84 (+0.17%) — close 100% at +0.2% over the average cost
 ## 2026-10-09 12:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 12:18 ET (Friday) — week 2026-W41 — budget left $22167.82 (today $31175.00 put to work, 23 buys, 17 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain: We're at 5/8 min_positions with 88.7% cash idle - need more breadth. Adding GS, AMGN, PPG, NOC, IBP backed by concrete congress disclosures (Doggett/Taylor/Rulli filings) and reasonable day-range entries, each sized ~$2000-2200 with protective stops, consistent with past lessons that congress-backed breadth buys at mid-range entries have been the fastest documented path to min_positions with positive realized performance.
+lesson: Congress-disclosure-backed buys sized ~$2000-2200 with explicit stop_loss keep closing the min_positions gap efficiently and track record shows congress signal at +0.03% avg/65% hit rate - keep prioritizing named filings over bare pressure scores when below target count.
+  (dropped GS: sold 13 min ago, cooling off)
+  (dropped AMGN: sold 18 min ago, cooling off)
+  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped IBP: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+- BUY $500.00 NOC [filled] ['congress', 'track_record'] — Defense name at reasonable mid-range entry, diversifies sector away from widely_held tech names already concentrated [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure shows prior NOC congress activity; defense sector avg_ret_pct -0.00 hit_rate 0.57 per track record, NOC at 50.9% of day range
+  (dropped trigger GS stop_loss: not held)
+  (dropped trigger AMGN stop_loss: not held)
+  (dropped trigger PPG stop_loss: not held)
+  (dropped trigger IBP stop_loss: not held)
+~ WORKING stop_loss 100% NOC @ $470.00 until 2026-10-09 — Protective stop below day low
+~ WORKING take_profit 100% NOC @ $483.07 until 2026-10-14 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $467.34 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25434.07 (+1.74% on $25000.00 in) · cash $22087.09 · realised +437.09
+Done: 0 sell(s), 1 buy(s); 22 order(s) working; budget left $21667.82 this week

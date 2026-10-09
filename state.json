@@ -1,7 +1,7 @@
 {
   "week": "2026-W41",
-  "spent": 2832.18,
-  "deployed": 138175.0,
+  "spent": 3332.18,
+  "deployed": 138675.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 11.52,
@@ -12,7 +12,8 @@
     "AMZN": 4.59,
     "AVGO": 625.0,
     "UNH": 550.0,
-    "HD": 550.0
+    "HD": 550.0,
+    "NOC": 500.0
   },
   "deployed_by_ticker": {
     "AVGO": 8875.0,
@@ -31,7 +32,7 @@
     "AMGN": 6527.78,
     "HUBB": 2250.0,
     "IBP": 2550.0,
-    "NOC": 2825.0,
+    "NOC": 3325.0,
     "PPG": 375.0,
     "GOOGL": 1500.0,
     "AMZN": 375.0,
@@ -3339,12 +3340,33 @@
       ],
       "evidence": "average cost $87.95",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NOC",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.037791,
+      "price": 481.79,
+      "date": "2026-10-09",
+      "time_et": "12:18",
+      "ts": 1791562689,
+      "why": "Defense name at reasonable mid-range entry, diversifies sector away from widely_held tech names already concentrated [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "congress_net_buy_pressure shows prior NOC congress activity; defense sector avg_ret_pct -0.00 hit_rate 0.57 per track record, NOC at 50.9% of day range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 2832.18,
-  "deployed_today": 31175.0,
-  "orders_today": 23,
+  "spent_today": 3332.18,
+  "deployed_today": 31675.0,
+  "orders_today": 24,
   "sells_today": 17,
   "sold_today": [
     "IBM",
@@ -3383,8 +3405,8 @@
     "AMZN": 1791483976,
     "NEM": 1791559124
   },
-  "last_publish_ts": 1791562511,
-  "last_check_ts": 1791562596,
+  "last_publish_ts": 1791562689,
+  "last_check_ts": 1791562689,
   "exp_arm": {
     "IBM": {
       "params": {
@@ -3413,15 +3435,6 @@
         "ratchet": "on"
       }
     },
-    "TSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "HD": {
       "params": {
         "hold_minutes": 90,
@@ -3429,24 +3442,6 @@
       },
       "tags": {
         "ratchet": "off"
-      }
-    },
-    "GS": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "KO": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
       }
     },
     "HUBB": {
@@ -3457,10 +3452,19 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "NOC": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1791562500,
-  "last_decision_ts": 1791561732,
+  "last_decision_ts": 1791562689,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
@@ -3468,8 +3472,9 @@
     "12b07f13": 377.2922,
     "da7f5f2f": 227.6265,
     "d3a0ba3b": 471.7197,
-    "120ea7cd": 476.6911,
+    "f5723b1c": 483.0716,
     "173bc5eb": 365.5442,
+    "120ea7cd": 476.6911,
     "0de3cfc7": 530.2091,
     "3d0bcb21": 258.5245,
     "67fff679": 408.1475,
@@ -3477,9 +3482,11 @@
     "fe89880e": 357.0,
     "10f01f3c": 222.4,
     "8ee160aa": 368.0,
-    "c6526395": 353.468,
+    "f3b19970": 470.0,
     "17574725": 461.0119,
+    "c6526395": 353.468,
     "f5439626": 283.0,
+    "446c8a98": 467.3363,
     "b9d51acf": 220.19,
     "61f18bb9": 365.0207,
     "6eaaad8d": 282.3961
