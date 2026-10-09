@@ -1,7 +1,7 @@
 {
   "week": "2026-W41",
-  "spent": 3504.01,
-  "deployed": 127000.0,
+  "spent": 4004.01,
+  "deployed": 127500.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 12.29,
@@ -9,7 +9,7 @@
     "AMGN": 2.31,
     "TSM": 55.27,
     "HUBB": 6.39,
-    "GOOGL": 2.72,
+    "GOOGL": 502.72,
     "AMZN": 4.59,
     "GS": 3500.0
   },
@@ -32,7 +32,7 @@
     "IBP": 2550.0,
     "NOC": 2325.0,
     "PPG": 375.0,
-    "GOOGL": 500.0,
+    "GOOGL": 1000.0,
     "AMZN": 375.0
   },
   "orders": [
@@ -2803,12 +2803,33 @@
       ],
       "evidence": "TSM ATR 2.3%, protect against reversal",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "GOOGL",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.416549,
+      "price": 352.97,
+      "date": "2026-10-09",
+      "time_et": "10:20",
+      "ts": 1791555611,
+      "why": "Congress buy pressure plus solid momentum, mid-range entry [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "Rep. Cleo Fields disclosed GOOGL buy 2026-09-14 (filed 2026-10-01); GOOGL +1.32% today, 72% of day range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 3504.01,
-  "deployed_today": 20000.0,
-  "orders_today": 8,
+  "spent_today": 4004.01,
+  "deployed_today": 20500.0,
+  "orders_today": 9,
   "sells_today": 7,
   "sold_today": [
     "IBM",
@@ -2841,8 +2862,8 @@
     "GOOGL": 1791483976,
     "AMZN": 1791483976
   },
-  "last_publish_ts": 1791555146,
-  "last_check_ts": 1791555524,
+  "last_publish_ts": 1791555611,
+  "last_check_ts": 1791555611,
   "exp_arm": {
     "GS": {
       "params": {
@@ -2853,62 +2874,30 @@
         "ratchet": "on"
       }
     },
-    "TSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "IBP": {
+    "GOOGL": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
       },
       "tags": {
         "ratchet": "on"
-      }
-    },
-    "NOC": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "KO": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "PG": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
       }
     }
   },
-  "last_bar_ts": 1791555300,
-  "last_decision_ts": 1791554656,
+  "last_bar_ts": 1791555600,
+  "last_decision_ts": 1791555611,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "9a7756f1": 353.9265,
     "dc2e30c5": 886.8527,
     "baaa4ec2": 70.914,
+    "e754a48f": 408.835,
     "67fff679": 408.1475,
     "ca935182": 406.6234,
     "29b337d4": 865.0,
-    "d0b8212a": 858.256
+    "cbb389f2": 344.0,
+    "d0b8212a": 858.256,
+    "3a38ad46": 342.3809
   }
 }

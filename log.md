@@ -23484,3 +23484,26 @@ Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [stop_loss @ $451.77] -> $1954.54 (-2.27%) — Protective stop ~2.2% below entry
 ## 2026-10-09 10:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 10:20 ET (Friday) — week 2026-W41 — budget left $21495.99 (today $20000.00 put to work, 8 buys, 7 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+brain: Only 1 of 8 min_positions is held with 86% cash idle - this is the clearest action signal per past lessons. Adding IBM (Doggett filing), AMGN (Taylor filing), NOC (mid-range defense entry), and GOOGL (Fields filing) in $2-2.5k sizes each with explicit stop_loss protection, consistent with the track record showing congress-backed breadth entries at $2-3.5k sized positions have been the fastest documented path to min_positions. Still below min_positions of 8 after this so will continue deploying at next check.
+lesson: Congress-disclosure-backed breadth buys sized $2-2.5k each, paired with explicit stop_loss, keep working per track record evidence_strength=weak but consistent direction; prioritize named filings over bare pressure scores and avoid chasing names above 85% of day range.
+  (dropped IBM: sold 45 min ago, cooling off)
+  (dropped NOC: sold 29 min ago, cooling off)
+  (dropped AMGN: 86% up today's range — resting a limit at $408.83 instead of chasing)
+- BUY $500.00 GOOGL [filled] ['congress', 'momentum'] — Congress buy pressure plus solid momentum, mid-range entry [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Cleo Fields disclosed GOOGL buy 2026-09-14 (filed 2026-10-01); GOOGL +1.32% today, 72% of day range
+  (dropped trigger IBM stop_loss: not held)
+  (dropped trigger AMGN stop_loss: not held)
+  (dropped trigger NOC stop_loss: not held)
+~ WORKING stop_loss 100% GOOGL @ $344.00 until 2026-10-09 — Protective stop ~2.5% below entry
+~ WORKING buy_limit $500.00 AMGN @ $408.83 until 2026-10-09 — wanted it, but not at the high — resting at $408.83. Named congress buyer plus clean uptrend, adding to existing resting limits at a market entry since momentum is solid [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% GOOGL @ $353.93 until 2026-10-14 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 GOOGL @ $342.38 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25402.23 (+1.61% on $25000.00 in) · cash $21415.26 · realised +415.26
+Done: 0 sell(s), 1 buy(s); 10 order(s) working; budget left $20995.99 this week
