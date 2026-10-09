@@ -23671,3 +23671,18 @@ Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $19334.47 this week
   (cancelled 2 standing order(s) on AMGN: position closed)
 - SELL 100% AMGN [take_profit @ $411.99] -> $626.96 (+0.31%) — close 100% at +0.3% over the average cost
 ## 2026-10-09 12:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $500.00 HUBB [buy_limit @ $475.27] — wanted it, but not at the high — resting at $475.30. Top congress-pressure name with corroborating buy filings; adding breadth toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-09 12:02 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-10-09 12:02 ET (Friday) — week 2026-W41 — budget left $20463.94 (today $31175.00 put to work, 23 buys, 14 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain: Already at min_positions (8) with full set of protective stops and take-profits in place (auto_bracket) plus patience buy_limits resting on AMGN/MSFT/AMZN. Hour-12 is PROBATION in strategy_stages, and I've already churned 23 orders/14 sells today with mixed results (sold_today list shows many round trips). No fresh evidence for a 9th name beyond what's already working; existing resting buy_limits (AMGN $3000@406.62, MSFT $625@530.21, AMZN $500@258.52) will pick up dips if they come. Best move is to let the standing orders work and check back soon rather than force a new entry at current elevated prices (TSM, AVGO near day lows already bought; HD/GS/KO near highs of range).
+lesson: With 8/8 positions filled and stops/take-profits already auto_bracketed, forcing new buys at hour-12 (PROBATION stage) adds no value - let resting buy_limits do the work of catching dips instead of chasing at market.
+portfolio: equity $25425.84 (+1.70% on $25000.00 in) · cash $20883.20 · realised +433.20
+Decision: nothing at this check. 28 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

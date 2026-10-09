@@ -1,5 +1,3 @@
-brain: Still well below min_positions (3 held vs 8 target) with 94.6% cash idle - the clearest action signal per guardrails. Adding IBM, AMGN, GS on congress disclosures and TSM on an extremely strong insider cluster (30 net buy pressure, the top in the dataset) to build breadth toward min_positions, sized at ~$2000 each (above min_order_usd, within normal range). All entries have concrete evidence (named disclosures/filings) and are not momentum-only. Protective stops placed on each new position given the 30-min auto-exit rule and to limit downside.
-lesson: Breadth entries backed by specific named congress/insider filings (not just pressure scores) continue to be the fastest path to min_positions; keep sizing at ~$2000/position and always pair with an explicit stop_loss trigger rather than relying solely on auto_bracket.
   (dropped AMGN: culled strategy (signals congress: -93 over 32 trips, t -1.39))
   (dropped GS: sold 12 min ago, cooling off)
   (dropped TSM: sold 25 min ago, cooling off)
@@ -398,3 +396,5 @@ Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $19334.47 this week
   (cancelled 2 standing order(s) on AMGN: position closed)
 - SELL 100% AMGN [take_profit @ $411.99] -> $626.96 (+0.31%) — close 100% at +0.3% over the average cost
 ## 2026-10-09 12:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $500.00 HUBB [buy_limit @ $475.27] — wanted it, but not at the high — resting at $475.30. Top congress-pressure name with corroborating buy filings; adding breadth toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]
+## 2026-10-09 12:02 ET — tick — 0 sell(s), 1 buy(s) from standing orders

@@ -1,66 +1,6 @@
 {
  "orders": [
   {
-   "id": "a45212b9",
-   "ticker": "GPI",
-   "kind": "buy_limit",
-   "price": 242.553,
-   "status": "cancelled",
-   "created": "2026-10-01 13:20",
-   "created_ts": 1790875245,
-   "why": "wanted it, but not at the high \u2014 resting at $242.55. Large 10%-holder insider purchase is a strong signal per insider_net_buy_pressure, auto retail name diversifies away from current defense/gold/tech book [probation at 25% size (no hour or",
-   "evidence": "Conifer Management LLC (10% holder) bought 273,712 shares at $242.15 on 2026-09-28, filed 2026-09-30 - large insider buy; stock +3.53% today",
-   "signals": [
-    "insider",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 500.0,
-   "closed": "2026-10-01 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "c4640612",
-   "ticker": "SKWD",
-   "kind": "buy_limit",
-   "price": 53.667,
-   "status": "cancelled",
-   "created": "2026-10-01 13:20",
-   "created_ts": 1790875245,
-   "why": "wanted it, but not at the high \u2014 resting at $53.67. Insurance sector diversification with congress backing, fills toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "evidence": "SKWD congress_net_buy_pressure score 2.0, +3.32% today at 96.5% of day range, insurance claims-payments deal headline",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 375.0,
-   "closed": "2026-10-01 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "2f3a8dee",
-   "ticker": "LTH",
-   "kind": "buy_limit",
-   "price": 40.1653,
-   "status": "cancelled",
-   "created": "2026-10-01 13:20",
-   "created_ts": 1790875245,
-   "why": "wanted it, but not at the high \u2014 resting at $40.17. Top congress score ticker, diversifies into leisure sector [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "evidence": "LTH has congress_net_buy_pressure score 3.0 (top tier, April McClain Delaney), +1.94% today, leisure sector growth per Zacks headline",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 375.0,
-   "closed": "2026-10-01 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "7eef1ea3",
    "ticker": "TSM",
    "kind": "buy_limit",
@@ -6943,7 +6883,7 @@
    "ticker": "HUBB",
    "kind": "buy_limit",
    "price": 475.297,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-09 10:58",
    "created_ts": 1791557907,
    "why": "wanted it, but not at the high \u2014 resting at $475.30. Top congress-pressure name with corroborating buy filings; adding breadth toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
@@ -6954,7 +6894,8 @@
     "patience"
    ],
    "good_until": "2026-10-09",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-09 12:02"
   },
   {
    "id": "3d0bcb21",
@@ -7372,7 +7313,58 @@
    "usd": 500.0,
    "closed": "2026-10-09 12:00",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "120ea7cd",
+   "ticker": "HUBB",
+   "kind": "take_profit",
+   "price": 476.6911,
+   "status": "working",
+   "created": "2026-10-09 12:02",
+   "created_ts": 1791561730,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $475.27",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d3a0ba3b",
+   "ticker": "HUBB",
+   "kind": "stop_loss",
+   "price": 471.7197,
+   "status": "working",
+   "created": "2026-10-09 12:02",
+   "created_ts": 1791561730,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $475.27",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "17574725",
+   "ticker": "HUBB",
+   "kind": "buy_limit",
+   "price": 461.0119,
+   "status": "working",
+   "created": "2026-10-09 12:02",
+   "created_ts": 1791561730,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $475.27",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-09 12:00"
+ "updated": "2026-10-09 12:02"
 }

@@ -1,13 +1,13 @@
 {
   "week": "2026-W41",
-  "spent": 4036.06,
-  "deployed": 137675.0,
+  "spent": 4536.06,
+  "deployed": 138175.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 11.52,
     "IBM": 633.57,
     "TSM": 630.27,
-    "HUBB": 6.39,
+    "HUBB": 506.39,
     "GOOGL": 0.21,
     "AMZN": 4.59,
     "AVGO": 625.0,
@@ -31,7 +31,7 @@
     "GS": 13666.67,
     "IBM": 10865.74,
     "AMGN": 6527.78,
-    "HUBB": 1750.0,
+    "HUBB": 2250.0,
     "IBP": 2550.0,
     "NOC": 2825.0,
     "PPG": 375.0,
@@ -3254,12 +3254,36 @@
       ],
       "evidence": "average cost $410.7",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "HUBB",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.052034,
+      "price": 475.27,
+      "date": "2026-10-09",
+      "time_et": "12:02",
+      "ts": 1791561600,
+      "why": "wanted it, but not at the high \u2014 resting at $475.30. Top congress-pressure name with corroborating buy filings; adding breadth toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "track_record",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "Rep. April McClain Delaney disclosed buys in HUBB (congress_net_buy_pressure score 3.0, highest on list); already held small position, below min_hold so new tranche added at mid-range (pct_of_day_rang",
+      "trigger": "buy_limit",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 4036.06,
-  "deployed_today": 30675.0,
-  "orders_today": 22,
+  "spent_today": 4536.06,
+  "deployed_today": 31175.0,
+  "orders_today": 23,
   "sells_today": 14,
   "sold_today": [
     "IBM",
@@ -3298,18 +3322,9 @@
     "AMZN": 1791483976,
     "NEM": 1791559124
   },
-  "last_publish_ts": 1791561646,
-  "last_check_ts": 1791561646,
+  "last_publish_ts": 1791561730,
+  "last_check_ts": 1791561732,
   "exp_arm": {
-    "GOOGL": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "IBM": {
       "params": {
         "hold_minutes": 90,
@@ -3373,7 +3388,7 @@
         "ratchet": "on"
       }
     },
-    "AMGN": {
+    "HUBB": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -3384,20 +3399,21 @@
     }
   },
   "last_bar_ts": 1791561600,
-  "last_decision_ts": 1791560760,
+  "last_decision_ts": 1791561732,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "ab6a81c3": 475.297,
     "d38b99f1": 889.0621,
     "9866df18": 88.0881,
     "2e40baef": 291.8607,
+    "120ea7cd": 476.6911,
     "da7f5f2f": 227.6265,
     "12b07f13": 377.2922,
     "903be7e4": 453.821,
+    "d3a0ba3b": 471.7197,
     "0de3cfc7": 530.2091,
-    "173bc5eb": 365.5442,
     "67fff679": 408.1475,
+    "173bc5eb": 365.5442,
     "3d0bcb21": 258.5245,
     "ca935182": 406.6234,
     "fe89880e": 357.0,
@@ -3409,8 +3425,9 @@
     "c6526395": 353.468,
     "2187c51f": 439.0123,
     "61f18bb9": 365.0207,
-    "b9d51acf": 220.19,
     "f5439626": 283.0,
+    "b9d51acf": 220.19,
+    "17574725": 461.0119,
     "6eaaad8d": 282.3961,
     "891e7318": 85.3115,
     "35624c33": 860.3512

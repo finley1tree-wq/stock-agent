@@ -57108,7 +57108,9 @@
     "code_version": "bd21d99",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": 0.25,
+    "ret_final": 0.25,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMGN",
@@ -57199,7 +57201,7 @@
     "code_version": "984fa62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.29
+    "ret_now": -0.17
   },
   {
     "symbol": "AVGO",
@@ -57229,7 +57231,7 @@
     "code_version": "984fa62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.26
+    "ret_now": -0.56
   },
   {
     "symbol": "NEM",
@@ -57350,7 +57352,9 @@
     "code_version": "c67a57a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.21
+    "ret_now": 0.25,
+    "ret_final": 0.25,
+    "ret_src": "realised"
   },
   {
     "symbol": "NFLX",
@@ -57415,7 +57419,7 @@
     "code_version": "b147810",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.31
+    "ret_now": -0.22
   },
   {
     "symbol": "TSM",
@@ -57446,7 +57450,7 @@
     "code_version": "b147810",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.1
+    "ret_now": -0.4
   },
   {
     "symbol": "NFLX",
@@ -57555,7 +57559,7 @@
     "code_version": "99b5af1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.17
+    "ret_now": 0.03
   },
   {
     "symbol": "GS",
@@ -57584,7 +57588,8 @@
     "hour_et": 11,
     "code_version": "94a9047",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.18
   },
   {
     "symbol": "KO",
@@ -57613,7 +57618,8 @@
     "hour_et": 11,
     "code_version": "94a9047",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.05
   },
   {
     "symbol": "AMGN",
@@ -57642,7 +57648,10 @@
     "hour_et": 11,
     "code_version": "94a9047",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.31,
+    "ret_now": 0.31,
+    "ret_src": "realised"
   },
   {
     "symbol": "GOOGL",
@@ -57666,7 +57675,8 @@
     "evidence": "bought 90 min ago, +0.27% unrealised",
     "trigger": "time_stop",
     "hour_et": 11,
-    "code_version": "a224702"
+    "code_version": "a224702",
+    "hold_minutes": 52
   },
   {
     "symbol": "AMGN",
@@ -57691,6 +57701,40 @@
     "evidence": "average cost $410.7",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "d920312"
+    "code_version": "d920312",
+    "hold_minutes": 14
+  },
+  {
+    "symbol": "HUBB",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.052034,
+    "price": 475.27,
+    "date": "2026-10-09",
+    "time_et": "12:02",
+    "ts": 1791561600,
+    "why": "wanted it, but not at the high \u2014 resting at $475.30. Top congress-pressure name with corroborating buy filings; adding breadth toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "patience",
+      "standing_order",
+      "track_record"
+    ],
+    "evidence": "Rep. April McClain Delaney disclosed buys in HUBB (congress_net_buy_pressure score 3.0, highest on list); already held small position, below min_hold so new tranche added at mid-range (pct_of_day_rang",
+    "trigger": "buy_limit",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 475.27,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 5.05,
+    "hour_et": 12,
+    "code_version": "4ec8193",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.0
   }
 ]
