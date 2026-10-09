@@ -56671,7 +56671,9 @@
     "code_version": "86003e3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.25
+    "ret_now": 0.23,
+    "ret_final": 0.23,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBM",
@@ -57106,7 +57108,7 @@
     "code_version": "bd21d99",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.5
+    "ret_now": -0.4
   },
   {
     "symbol": "AMGN",
@@ -57137,6 +57139,149 @@
     "momentum_1m_at_entry": 6.85,
     "hour_et": 10,
     "code_version": "fc83242",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.12
+  },
+  {
+    "symbol": "GS",
+    "side": "sell",
+    "qty": 3.95571,
+    "status": "filled",
+    "price": 886.85,
+    "proceeds": 3508.13,
+    "realized_pnl": 8.13,
+    "realized_pct": 0.23,
+    "date": "2026-10-09",
+    "time_et": "10:52",
+    "ts": 1791557400,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "congress",
+      "risk_management",
+      "standing_order",
+      "track_record"
+    ],
+    "evidence": "average cost $884.8",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "984fa62",
+    "hold_minutes": 77
+  },
+  {
+    "symbol": "IBM",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.75336,
+    "price": 227.0,
+    "date": "2026-10-09",
+    "time_et": "10:52",
+    "ts": 1791557542,
+    "why": "Named congress filing plus decent track_record signal bucket (avg_ret 0.09%, hit 0.73) [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Lloyd Doggett (D) disclosed IBM buy $1,001-$15,000 filed 2026-10-05; congress_net_buy_pressure IBM=1.0",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 226.95,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -3.02,
+    "hour_et": 10,
+    "code_version": "984fa62",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AVGO",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.715135,
+    "price": 364.4,
+    "date": "2026-10-09",
+    "time_et": "10:52",
+    "ts": 1791557542,
+    "why": "Congress pressure plus momentum, entry not chasing (48% of day range) [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress_net_buy_pressure AVGO=1.0, 1d +1.16%, 1m +0.97%, mid-range (48% of day range)",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 364.33,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 0.97,
+    "hour_et": 10,
+    "code_version": "984fa62",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NEM",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.238108,
+    "price": 117.98,
+    "date": "2026-10-09",
+    "time_et": "10:52",
+    "ts": 1791557542,
+    "why": "Gold momentum plus historically strong sector performance in backtest priors [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "NEM 1d +2.06%, 5d +2.05%, gold sector backtest shows strong 2y/5y sector_performance (114-148% avg_total_return)",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 117.93,
+    "sector": "gold",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -6.51,
+    "hour_et": 10,
+    "code_version": "984fa62",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NOC",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.036113,
+    "price": 482.57,
+    "date": "2026-10-09",
+    "time_et": "10:52",
+    "ts": 1791557542,
+    "why": "Defense sector diversifier with strong historical backtest sector performance [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "NOC 1d -0.43% but 84.7% of day range, defense sector 2y backtest avg_total_return 137.93%",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 482.38,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -7.05,
+    "hour_et": 10,
+    "code_version": "984fa62",
     "ret_1w": null,
     "ret_1m": null
   }

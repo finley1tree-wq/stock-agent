@@ -1,247 +1,6 @@
 {
  "orders": [
   {
-   "id": "7de2fca3",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 127.545,
-   "status": "filled",
-   "created": "2026-10-01 12:04",
-   "created_ts": 1790870693,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $127.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:40"
-  },
-  {
-   "id": "70a3bbd1",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 125.9525,
-   "status": "cancelled",
-   "created": "2026-10-01 12:04",
-   "created_ts": 1790870693,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $127.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:29",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "2c4f7519",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 123.2773,
-   "status": "cancelled",
-   "created": "2026-10-01 12:04",
-   "created_ts": 1790870693,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $127.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 12:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "6ac615a4",
-   "ticker": "KO",
-   "kind": "stop_loss",
-   "price": 86.208,
-   "status": "filled",
-   "created": "2026-10-01 12:18",
-   "created_ts": 1790871494,
-   "why": "close it all at -0.4% under the average cost",
-   "evidence": "average cost $86.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:20"
-  },
-  {
-   "id": "88310455",
-   "ticker": "RTX",
-   "kind": "stop_loss",
-   "price": 181.5,
-   "status": "cancelled",
-   "created": "2026-10-01 12:21",
-   "created_ts": 1790871665,
-   "why": "bound downside per standard bracket",
-   "evidence": "RTX ATR 1.975%, protect new defense position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 13:51",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "b39e95b9",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 258.9,
-   "status": "cancelled",
-   "created": "2026-10-01 12:21",
-   "created_ts": 1790871665,
-   "why": "bound downside per standard bracket",
-   "evidence": "CRWD ATR 4.897%, protect new momentum position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 13:23",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "5d4af5c6",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 112.9,
-   "status": "cancelled",
-   "created": "2026-10-01 12:21",
-   "created_ts": 1790871665,
-   "why": "bound downside per standard bracket",
-   "evidence": "NEM ATR 3.344%, protect new gold position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 13:31",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "6263c0ee",
-   "ticker": "SKWD",
-   "kind": "buy_limit",
-   "price": 53.4993,
-   "status": "cancelled",
-   "created": "2026-10-01 12:21",
-   "created_ts": 1790871665,
-   "why": "wanted it, but not at the high \u2014 resting at $53.50. Insurance sector diversification backed by congressional buy pressure, fills out min_positions with uncorrelated name [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "evidence": "Congress net buy pressure score 2.0 on SKWD; Zacks headline 'Zacks Analyst Blog Highlights...Skyward Specialty'; +2.42% today",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 500.0,
-   "closed": "2026-10-01 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "2f7be572",
-   "ticker": "RTX",
-   "kind": "take_profit",
-   "price": 185.7158,
-   "status": "cancelled",
-   "created": "2026-10-01 12:21",
-   "created_ts": 1790871665,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $185.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 13:51",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "961505c1",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 179.7507,
-   "status": "cancelled",
-   "created": "2026-10-01 12:21",
-   "created_ts": 1790871665,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $185.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 13:51",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "e7dea3f2",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 265.6849,
-   "status": "filled",
-   "created": "2026-10-01 12:21",
-   "created_ts": 1790871665,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $264.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 13:23"
-  },
-  {
-   "id": "8637ac13",
-   "ticker": "CRWD",
-   "kind": "buy_limit",
-   "price": 256.3225,
-   "status": "cancelled",
-   "created": "2026-10-01 12:21",
-   "created_ts": 1790871665,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $264.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 13:23",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "031db909",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 115.6876,
-   "status": "filled",
-   "created": "2026-10-01 12:21",
-   "created_ts": 1790871665,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $115.26",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 13:31"
-  },
-  {
    "id": "b4c352be",
    "ticker": "NEM",
    "kind": "buy_limit",
@@ -6784,7 +6543,7 @@
    "ticker": "GS",
    "kind": "stop_loss",
    "price": 865.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 09:32",
    "created_ts": 1791552751,
    "why": "Protective stop ~2.2% below entry",
@@ -6793,7 +6552,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 10:52",
+   "cancel_reason": "position closed"
   },
   {
    "id": "e6905e99",
@@ -6889,7 +6650,7 @@
    "ticker": "GS",
    "kind": "take_profit",
    "price": 886.8527,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-09 09:32",
    "created_ts": 1791552751,
    "why": "close 100% at +0.2% over the average cost",
@@ -6899,14 +6660,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-09 10:52"
   },
   {
    "id": "d0b8212a",
    "ticker": "GS",
    "kind": "buy_limit",
    "price": 858.256,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-09 09:32",
    "created_ts": 1791552751,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6916,7 +6678,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-14",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-09 10:52",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ef291299",
@@ -7408,7 +7172,225 @@
    ],
    "good_until": "2026-10-14",
    "usd": 500.0
+  },
+  {
+   "id": "10f01f3c",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 222.4,
+   "status": "working",
+   "created": "2026-10-09 10:52",
+   "created_ts": 1791557542,
+   "why": "Protective stop for new IBM position",
+   "evidence": "IBM ATR 2.48%, protect ~2% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "fe89880e",
+   "ticker": "AVGO",
+   "kind": "stop_loss",
+   "price": 357.0,
+   "status": "working",
+   "created": "2026-10-09 10:52",
+   "created_ts": 1791557542,
+   "why": "Protective stop for new AVGO position",
+   "evidence": "AVGO ATR 2.83%, protect ~2% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0ae7bd5d",
+   "ticker": "NEM",
+   "kind": "stop_loss",
+   "price": 115.5,
+   "status": "working",
+   "created": "2026-10-09 10:52",
+   "created_ts": 1791557542,
+   "why": "Protective stop for new NEM position",
+   "evidence": "NEM ATR 3.03%, protect ~2% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1c9aa12b",
+   "ticker": "NOC",
+   "kind": "stop_loss",
+   "price": 472.7,
+   "status": "working",
+   "created": "2026-10-09 10:52",
+   "created_ts": 1791557542,
+   "why": "Protective stop for new NOC position",
+   "evidence": "NOC ATR 2.39%, protect ~2% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0de3cfc7",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 530.2091,
+   "status": "working",
+   "created": "2026-10-09 10:52",
+   "created_ts": 1791557542,
+   "why": "wanted it, but not at the high \u2014 resting at $530.21. Congress-backed name with strong recent momentum, mid position size [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "Cleo Fields disclosed MSFT buy 2026-09-10 filed 2026-10-01; MSFT +1.98% today near day high 92.8% range but strong 1m momentum +8.22%",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-09",
+   "usd": 625.0
+  },
+  {
+   "id": "da7f5f2f",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 227.6265,
+   "status": "working",
+   "created": "2026-10-09 10:52",
+   "created_ts": 1791557542,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $227",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b9d51acf",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 220.19,
+   "status": "working",
+   "created": "2026-10-09 10:52",
+   "created_ts": 1791557542,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $227",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
+  },
+  {
+   "id": "173bc5eb",
+   "ticker": "AVGO",
+   "kind": "take_profit",
+   "price": 365.5442,
+   "status": "working",
+   "created": "2026-10-09 10:52",
+   "created_ts": 1791557542,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $364.4",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c6526395",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 353.468,
+   "status": "working",
+   "created": "2026-10-09 10:52",
+   "created_ts": 1791557542,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $364.4",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
+  },
+  {
+   "id": "83ebda98",
+   "ticker": "NEM",
+   "kind": "take_profit",
+   "price": 118.3764,
+   "status": "working",
+   "created": "2026-10-09 10:52",
+   "created_ts": 1791557542,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $117.98",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6efac833",
+   "ticker": "NEM",
+   "kind": "buy_limit",
+   "price": 114.4406,
+   "status": "working",
+   "created": "2026-10-09 10:52",
+   "created_ts": 1791557542,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $117.98",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
+  },
+  {
+   "id": "10bece3a",
+   "ticker": "NOC",
+   "kind": "take_profit",
+   "price": 483.8488,
+   "status": "working",
+   "created": "2026-10-09 10:52",
+   "created_ts": 1791557542,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $482.57",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "28de3dbb",
+   "ticker": "NOC",
+   "kind": "buy_limit",
+   "price": 468.0929,
+   "status": "working",
+   "created": "2026-10-09 10:52",
+   "created_ts": 1791557542,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $482.57",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-09 10:48"
+ "updated": "2026-10-09 10:52"
 }

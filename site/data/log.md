@@ -1,39 +1,3 @@
-~ WORKING take_profit 100% IBP @ $183.05 until 2026-10-13 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 IBP @ $176.66 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25425.56 (+1.70% on $25000.00 in) · cash $21756.18 · realised +431.18
-Done: 0 sell(s), 1 buy(s); 27 order(s) working; budget left $21352.23 this week
-  (cancelled 2 standing order(s) on GS: position closed)
-- SELL 100% GS [take_profit @ $885.09] -> $626.54 (+0.25%) — close 100% at +0.2% over the average cost
-  (cancelled 2 standing order(s) on IBM: position closed)
-- SELL 100% IBM [take_profit @ $220.16] -> $501.38 (+0.28%) — close 100% at +0.3% over the average cost
-  (cancelled 2 standing order(s) on NFLX: position closed)
-- SELL 100% NFLX [take_profit @ $71.28] -> $501.17 (+0.23%) — close 100% at +0.2% over the average cost
-  (cancelled 2 standing order(s) on MSFT: position closed)
-- SELL 100% MSFT [take_profit @ $531.69] -> $375.93 (+0.25%) — close 100% at +0.2% over the average cost
-## 2026-10-08 12:17 ET — tick — 4 sell(s), 0 buy(s) from standing orders
-- SELL 100% AMGN [time stop] -> $622.69 (-0.37%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-08 12:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-08 12:25 ET (Thursday) — week 2026-W41 — budget left $23979.94 (today $15925.00 put to work, 15 buys, 13 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
-  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-brain: Only 2 positions held vs min_positions=8, cash_idle_pct 95.9% - this is the critical priority right now. Past lessons repeatedly confirm congress-disclosure breadth entries across sectors is the fastest path to min_positions and has graded positively in multiple checks today (avg +0.12 to +0.77%). Adding 6 new names via congress/insider evidence plus one momentum+defense name to diversify sectors, all mid-range entries (not chasing highs), each with protective stops.
-lesson: Breadth entries using congress disclosures plus protective stops get the book to min_positions fast and have graded positively across multiple checks today - continue this pattern when below target count.
-  (dropped IBM: sold 8 min ago, cooling off)
-  (dropped AMGN: sold 5 min ago, cooling off)
-  (dropped GS: sold 8 min ago, cooling off)
-  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-- BUY $375.00 UNH [filled] ['congress', 'news'] — Diversify into widely_held sector at 42% of day range, reasonable entry point [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure UNH via Kevin Hern sell noted but widely_held sector avg_ret 0.0 hit_rate 0.57
-- BUY $325.00 NOC [filled] ['momentum', 'track_record'] — Defense sector diversification with positive daily momentum, mid-range entry [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NOC +1.04% today, 75% of day range, defense sector hit_rate 0.55 in track_record
-  (dropped trigger IBM stop_loss: not held)
-  (dropped trigger AMGN stop_loss: not held)
-  (dropped trigger GS stop_loss: not held)
-  (dropped trigger PPG stop_loss: not held)
-~ WORKING stop_loss 100% UNH @ $362.00 until 2026-10-08 — Cap downside on new UNH position
 ~ WORKING stop_loss 100% NOC @ $466.00 until 2026-10-08 — Cap downside on new NOC position
 ~ WORKING take_profit 100% UNH @ $372.80 until 2026-10-13 — close 100% at +0.2% over the average cost
 ~ WORKING buy_limit $500.00 UNH @ $360.75 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +362,39 @@ portfolio: equity $25403.22 (+1.61% on $25000.00 in) · cash $21415.26 · realis
 Decision: nothing at this check. 11 standing order(s) working.
 - BUY $500.00 AMGN [buy_limit @ $408.83] — wanted it, but not at the high — resting at $408.83. Named congress buyer plus clean uptrend, adding to existing resting limits at a market entry since momentum is solid [probation at 25% size (no hour or signal lens has proven itself yet)]
 ## 2026-10-09 10:48 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GS: position closed)
+- SELL 100% GS [take_profit @ $886.85] -> $3508.13 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-10-09 10:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 10:52 ET (Friday) — week 2026-W41 — budget left $24004.12 (today $21000.00 put to work, 10 buys, 8 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain: Only 2 of 8 min_positions held with 96% cash idle - deploy toward breadth per persistent track record evidence (congress-backed breadth buys at $2-3k each with stops have been the consistent winning pattern across today's checks). Picked names with concrete congress filings (IBM/Doggett, MSFT/Fields), momentum not yet extended (AVGO, UNH low-in-range, NOC), and NEM for gold sector diversification backed by strong historical sector performance. Avoided chasing names above 85% of day range per guardrail.
+lesson: Congress-disclosure-backed breadth buys sized $2-2.5k with explicit stops keep closing the min_positions gap; prioritize named filings and mid-range entries over bare pressure scores.
+  (dropped UNH: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped MSFT: 93% up today's range — resting a limit at $530.21 instead of chasing)
+- BUY $625.00 IBM [filled] ['congress', 'track_record'] — Named congress filing plus decent track_record signal bucket (avg_ret 0.09%, hit 0.73) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Lloyd Doggett (D) disclosed IBM buy $1,001-$15,000 filed 2026-10-05; congress_net_buy_pressure IBM=1.0
+- BUY $625.00 AVGO [filled] ['congress', 'momentum'] — Congress pressure plus momentum, entry not chasing (48% of day range) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure AVGO=1.0, 1d +1.16%, 1m +0.97%, mid-range (48% of day range)
+- BUY $500.00 NEM [filled] ['momentum', 'track_record'] — Gold momentum plus historically strong sector performance in backtest priors [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NEM 1d +2.06%, 5d +2.05%, gold sector backtest shows strong 2y/5y sector_performance (114-148% avg_total_return)
+- BUY $500.00 NOC [filled] ['momentum', 'news'] — Defense sector diversifier with strong historical backtest sector performance [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NOC 1d -0.43% but 84.7% of day range, defense sector 2y backtest avg_total_return 137.93%
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger UNH stop_loss: not held)
+~ WORKING stop_loss 100% IBM @ $222.40 until 2026-10-09 — Protective stop for new IBM position
+~ WORKING stop_loss 100% AVGO @ $357.00 until 2026-10-09 — Protective stop for new AVGO position
+~ WORKING stop_loss 100% NEM @ $115.50 until 2026-10-09 — Protective stop for new NEM position
+~ WORKING stop_loss 100% NOC @ $472.70 until 2026-10-09 — Protective stop for new NOC position
+~ WORKING buy_limit $625.00 MSFT @ $530.21 until 2026-10-09 — wanted it, but not at the high — resting at $530.21. Congress-backed name with strong recent momentum, mid position size [probation at 25% size (no hour or signal lens has proven itself yet)]
+~ WORKING take_profit 100% IBM @ $227.63 until 2026-10-14 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 IBM @ $220.19 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $365.54 until 2026-10-14 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $353.47 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEM @ $118.38 until 2026-10-14 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NEM @ $114.44 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NOC @ $483.85 until 2026-10-14 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 NOC @ $468.09 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25421.23 (+1.68% on $25000.00 in) · cash $22173.39 · realised +423.39
+Done: 0 sell(s), 4 buy(s); 22 order(s) working; budget left $21754.12 this week

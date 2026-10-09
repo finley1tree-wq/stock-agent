@@ -1,20 +1,22 @@
 {
   "week": "2026-W41",
-  "spent": 4504.01,
-  "deployed": 128000.0,
+  "spent": 3245.88,
+  "deployed": 130250.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 12.29,
-    "IBM": 8.57,
+    "IBM": 633.57,
     "AMGN": 502.31,
     "TSM": 55.27,
     "HUBB": 6.39,
     "GOOGL": 502.72,
     "AMZN": 4.59,
-    "GS": 3500.0
+    "AVGO": 625.0,
+    "NEM": 500.0,
+    "NOC": 500.0
   },
   "deployed_by_ticker": {
-    "AVGO": 8250.0,
+    "AVGO": 8875.0,
     "PG": 14703.7,
     "ACN": 5000.0,
     "MSFT": 2875.0,
@@ -26,14 +28,15 @@
     "PEP": 2000.0,
     "AAPL": 2500.0,
     "GS": 13041.67,
-    "IBM": 10240.74,
+    "IBM": 10865.74,
     "AMGN": 5902.78,
     "HUBB": 1750.0,
     "IBP": 2550.0,
-    "NOC": 2325.0,
+    "NOC": 2825.0,
     "PPG": 375.0,
     "GOOGL": 1000.0,
-    "AMZN": 375.0
+    "AMZN": 375.0,
+    "NEM": 500.0
   },
   "orders": [
     {
@@ -2848,13 +2851,118 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "GS",
+      "side": "sell",
+      "qty": 3.95571,
+      "status": "filled",
+      "price": 886.85,
+      "proceeds": 3508.13,
+      "realized_pnl": 8.13,
+      "realized_pct": 0.23,
+      "date": "2026-10-09",
+      "time_et": "10:52",
+      "ts": 1791557400,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $884.8",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "IBM",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.75336,
+      "price": 227.0,
+      "date": "2026-10-09",
+      "time_et": "10:52",
+      "ts": 1791557542,
+      "why": "Named congress filing plus decent track_record signal bucket (avg_ret 0.09%, hit 0.73) [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Lloyd Doggett (D) disclosed IBM buy $1,001-$15,000 filed 2026-10-05; congress_net_buy_pressure IBM=1.0",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "AVGO",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.715135,
+      "price": 364.4,
+      "date": "2026-10-09",
+      "time_et": "10:52",
+      "ts": 1791557542,
+      "why": "Congress pressure plus momentum, entry not chasing (48% of day range) [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "congress_net_buy_pressure AVGO=1.0, 1d +1.16%, 1m +0.97%, mid-range (48% of day range)",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "NEM",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.238108,
+      "price": 117.98,
+      "date": "2026-10-09",
+      "time_et": "10:52",
+      "ts": 1791557542,
+      "why": "Gold momentum plus historically strong sector performance in backtest priors [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "NEM 1d +2.06%, 5d +2.05%, gold sector backtest shows strong 2y/5y sector_performance (114-148% avg_total_return)",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "NOC",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.036113,
+      "price": 482.57,
+      "date": "2026-10-09",
+      "time_et": "10:52",
+      "ts": 1791557542,
+      "why": "Defense sector diversifier with strong historical backtest sector performance [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "NOC 1d -0.43% but 84.7% of day range, defense sector 2y backtest avg_total_return 137.93%",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 4504.01,
-  "deployed_today": 21000.0,
-  "orders_today": 10,
-  "sells_today": 7,
+  "spent_today": 3245.88,
+  "deployed_today": 23250.0,
+  "orders_today": 14,
+  "sells_today": 8,
   "sold_today": [
     "IBM",
     "HD",
@@ -2862,7 +2970,8 @@
     "IBP",
     "KO",
     "PG",
-    "TSM"
+    "TSM",
+    "GS"
   ],
   "sold_ts": {
     "MSFT": 1791476257,
@@ -2876,7 +2985,7 @@
     "PG": 1791554416,
     "ACN": 1791297612,
     "HD": 1791553638,
-    "GS": 1791479802,
+    "GS": 1791557540,
     "IBM": 1791552940,
     "AMGN": 1791476471,
     "HUBB": 1791483034,
@@ -2886,18 +2995,9 @@
     "GOOGL": 1791483976,
     "AMZN": 1791483976
   },
-  "last_publish_ts": 1791557282,
-  "last_check_ts": 1791557457,
+  "last_publish_ts": 1791557542,
+  "last_check_ts": 1791557542,
   "exp_arm": {
-    "GS": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "GOOGL": {
       "params": {
         "hold_minutes": 90,
@@ -2915,24 +3015,70 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "IBM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "AVGO": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "NEM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "NOC": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1791557400,
-  "last_decision_ts": 1791556591,
-  "next_check_minutes": 15,
+  "last_decision_ts": 1791557542,
+  "next_check_minutes": 6,
   "autopiloted": false,
   "book_px": {
-    "67fff679": 408.1475,
     "a82e7aa9": 410.0033,
-    "dc2e30c5": 886.8527,
+    "67fff679": 408.1475,
+    "da7f5f2f": 227.6265,
+    "10bece3a": 483.8488,
+    "173bc5eb": 365.5442,
     "baaa4ec2": 70.914,
+    "83ebda98": 118.3764,
+    "0de3cfc7": 530.2091,
     "ca935182": 406.6234,
-    "19fa9ff1": 405.8905,
     "9a7756f1": 353.9265,
+    "19fa9ff1": 405.8905,
+    "10f01f3c": 222.4,
+    "fe89880e": 357.0,
+    "1c9aa12b": 472.7,
+    "0ae7bd5d": 115.5,
     "cbb389f2": 344.0,
-    "29b337d4": 865.0,
     "3a38ad46": 342.3809,
-    "d0b8212a": 858.256,
+    "6efac833": 114.4406,
+    "28de3dbb": 468.0929,
+    "b9d51acf": 220.19,
+    "c6526395": 353.468,
     "58498679": 396.5651
   }
 }
