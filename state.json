@@ -1,7 +1,7 @@
 {
   "week": "2026-W41",
-  "spent": 3365.53,
-  "deployed": 135375.0,
+  "spent": 3915.53,
+  "deployed": 135925.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 11.52,
@@ -12,7 +12,8 @@
     "GOOGL": 1002.72,
     "AMZN": 4.59,
     "AVGO": 625.0,
-    "UNH": 550.0
+    "UNH": 550.0,
+    "HD": 550.0
   },
   "deployed_by_ticker": {
     "AVGO": 8875.0,
@@ -21,7 +22,7 @@
     "MSFT": 2875.0,
     "NFLX": 17041.67,
     "TSM": 14352.78,
-    "HD": 12814.81,
+    "HD": 13364.81,
     "UNH": 6675.0,
     "KO": 8851.85,
     "PEP": 2000.0,
@@ -3127,12 +3128,33 @@
       ],
       "evidence": "average cost $117.98",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "HD",
+      "notional": 550.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.889202,
+      "price": 291.13,
+      "date": "2026-10-09",
+      "time_et": "11:29",
+      "ts": 1791559795,
+      "why": "Two separate congress buy disclosures on HD recently, cheap entry at low end of day range [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Rep. Lloyd Doggett bought HD (disclosed 2026-10-05); Rep. David J. Taylor also bought HD (disclosed 2026-10-01); HD at 15.1% of day range, well off highs",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 3365.53,
-  "deployed_today": 28375.0,
-  "orders_today": 18,
+  "spent_today": 3915.53,
+  "deployed_today": 28925.0,
+  "orders_today": 19,
   "sells_today": 12,
   "sold_today": [
     "IBM",
@@ -3170,8 +3192,8 @@
     "AMZN": 1791483976,
     "NEM": 1791559124
   },
-  "last_publish_ts": 1791559123,
-  "last_check_ts": 1791559714,
+  "last_publish_ts": 1791559795,
+  "last_check_ts": 1791559795,
   "exp_arm": {
     "GOOGL": {
       "params": {
@@ -3200,33 +3222,6 @@
         "ratchet": "off"
       }
     },
-    "NEM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "NOC": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "NFLX": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "UNH": {
       "params": {
         "hold_minutes": 90,
@@ -3244,32 +3239,44 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "HD": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1791559500,
-  "last_decision_ts": 1791558881,
+  "last_decision_ts": 1791559795,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
+    "2e40baef": 291.8607,
+    "ab6a81c3": 475.297,
     "12b07f13": 377.2922,
     "903be7e4": 453.821,
-    "173bc5eb": 365.5442,
-    "0de3cfc7": 530.2091,
     "da7f5f2f": 227.6265,
+    "173bc5eb": 365.5442,
     "3d0bcb21": 258.5245,
+    "0de3cfc7": 530.2091,
     "67fff679": 408.1475,
     "9a7756f1": 353.9265,
-    "ab6a81c3": 475.297,
     "ca935182": 406.6234,
-    "10f01f3c": 222.4,
     "fe89880e": 357.0,
-    "cbb389f2": 344.0,
+    "10f01f3c": 222.4,
     "87956578": 443.0,
+    "cbb389f2": 344.0,
     "8ee160aa": 368.0,
     "94d89119": 341.9638,
     "b9d51acf": 220.19,
     "c6526395": 353.468,
+    "f5439626": 283.0,
     "2187c51f": 439.0123,
-    "61f18bb9": 365.0207
+    "61f18bb9": 365.0207,
+    "6eaaad8d": 282.3961
   }
 }

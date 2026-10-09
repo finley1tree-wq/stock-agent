@@ -57108,7 +57108,7 @@
     "code_version": "bd21d99",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.42
+    "ret_now": -0.52
   },
   {
     "symbol": "AMGN",
@@ -57199,7 +57199,7 @@
     "code_version": "984fa62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.26
+    "ret_now": -0.24
   },
   {
     "symbol": "AVGO",
@@ -57229,7 +57229,7 @@
     "code_version": "984fa62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": -0.25
   },
   {
     "symbol": "NEM",
@@ -57259,7 +57259,9 @@
     "code_version": "984fa62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17
+    "ret_now": 0.34,
+    "ret_final": 0.34,
+    "ret_src": "realised"
   },
   {
     "symbol": "NOC",
@@ -57289,7 +57291,9 @@
     "code_version": "984fa62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.28
+    "ret_now": 0.29,
+    "ret_final": 0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMGN",
@@ -57346,7 +57350,7 @@
     "code_version": "c67a57a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.18
+    "ret_now": -0.28
   },
   {
     "symbol": "NFLX",
@@ -57379,7 +57383,9 @@
     "code_version": "18d7f34",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": 0.02,
+    "ret_final": 0.02,
+    "ret_src": "realised"
   },
   {
     "symbol": "UNH",
@@ -57408,7 +57414,8 @@
     "hour_et": 11,
     "code_version": "b147810",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.04
   },
   {
     "symbol": "TSM",
@@ -57438,7 +57445,8 @@
     "hour_et": 11,
     "code_version": "b147810",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.2
   },
   {
     "symbol": "NFLX",
@@ -57464,7 +57472,8 @@
     "evidence": "average cost $70.91",
     "trigger": "stop_loss",
     "hour_et": 11,
-    "code_version": "ba2d239"
+    "code_version": "ba2d239",
+    "hold_minutes": 10
   },
   {
     "symbol": "NOC",
@@ -57489,7 +57498,8 @@
     "evidence": "average cost $482.57",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "ba2d239"
+    "code_version": "ba2d239",
+    "hold_minutes": 22
   },
   {
     "symbol": "NEM",
@@ -57514,6 +57524,36 @@
     "evidence": "average cost $117.98",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "154a616"
+    "code_version": "154a616",
+    "hold_minutes": 22
+  },
+  {
+    "symbol": "HD",
+    "notional": 550.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.889202,
+    "price": 291.13,
+    "date": "2026-10-09",
+    "time_et": "11:29",
+    "ts": 1791559795,
+    "why": "Two separate congress buy disclosures on HD recently, cheap entry at low end of day range [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Rep. Lloyd Doggett bought HD (disclosed 2026-10-05); Rep. David J. Taylor also bought HD (disclosed 2026-10-01); HD at 15.1% of day range, well off highs",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 291.07,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -4.78,
+    "hour_et": 11,
+    "code_version": "99b5af1",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

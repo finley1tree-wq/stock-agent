@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "0cda2af4",
-   "ticker": "ACN",
-   "kind": "take_profit",
-   "price": 225.0,
-   "status": "cancelled",
-   "created": "2026-10-01 12:48",
-   "created_ts": 1790873282,
-   "why": "take partial profit near day high",
-   "evidence": "ACN day_high 227.58, lock in gains on part of position if momentum continues",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-01",
-   "pct_of_position": 50.0,
-   "closed": "2026-10-01 14:19",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "ffd3fd0b",
-   "ticker": "ACN",
-   "kind": "take_profit",
-   "price": 217.8109,
-   "status": "cancelled",
-   "created": "2026-10-01 12:48",
-   "created_ts": 1790873282,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $216.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 14:19",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "a3eefb67",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 210.2087,
-   "status": "cancelled",
-   "created": "2026-10-01 12:48",
-   "created_ts": 1790873282,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $216.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "a02ac431",
    "ticker": "SKWD",
    "kind": "buy_limit",
@@ -7388,7 +7332,57 @@
    ],
    "good_until": "2026-10-14",
    "usd": 500.0
+  },
+  {
+   "id": "f5439626",
+   "ticker": "HD",
+   "kind": "stop_loss",
+   "price": 283.0,
+   "status": "working",
+   "created": "2026-10-09 11:29",
+   "created_ts": 1791559795,
+   "why": "Protective stop ~2.8% below entry",
+   "evidence": "HD ATR 2.26%, protect against reversal",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2e40baef",
+   "ticker": "HD",
+   "kind": "take_profit",
+   "price": 291.8607,
+   "status": "working",
+   "created": "2026-10-09 11:29",
+   "created_ts": 1791559795,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $291.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6eaaad8d",
+   "ticker": "HD",
+   "kind": "buy_limit",
+   "price": 282.3961,
+   "status": "working",
+   "created": "2026-10-09 11:29",
+   "created_ts": 1791559795,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $291.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-09 11:18"
+ "updated": "2026-10-09 11:29"
 }

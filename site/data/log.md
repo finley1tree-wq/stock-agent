@@ -1,23 +1,3 @@
-~ WORKING stop_loss 100% GOOGL @ $338.00 until 2026-10-08 — Cap downside on new GOOGL position
-~ WORKING stop_loss 100% AMZN @ $250.50 until 2026-10-08 — Cap downside on new AMZN position
-~ WORKING take_profit 100% GOOGL @ $349.80 until 2026-10-13 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 GOOGL @ $338.37 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMZN @ $258.88 until 2026-10-13 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 AMZN @ $250.56 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25425.34 (+1.70% on $25000.00 in) · cash $23188.41 · realised +438.41
-Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $22784.46 this week
-  (cancelled 2 standing order(s) on UNH: position closed)
-- SELL 100% UNH [take_profit @ $372.80] -> $375.90 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-10-08 13:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- SELL 100% TSM [time stop] -> $490.19 (-1.96%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-08 13:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-08 13:12 ET (Thursday) — week 2026-W41 — budget left $23650.55 (today $18375.00 put to work, 21 buys, 18 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
-  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
   (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
 brain: Still well below min_positions (3 of 8) with 94.6% idle cash - this is the clearest action signal per counterfactual data showing idle_universe_avg_pct -0.41% as cost of sitting out. Adding ACN (congress+momentum), GS (fresh congress disclosure, decent track record), NFLX (two independent congress buys, already have resting limits working), and PEP (staples diversification, avoid over-concentration in widely_held tech which already holds HUBB/GOOGL/AMZN) to build toward min_positions with real position sizes ($1500-2500 each) rather than trickling.
 lesson: Past lessons show breadth entries across sectors at mid-day get mixed results (some positive, some negative) - stay disciplined on stop placement and avoid concentrating purely in widely_held tech names that already dominate the book.
@@ -398,3 +378,23 @@ Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $17130.55 this week
   (cancelled 2 standing order(s) on NEM: position closed)
 - SELL 100% NEM [take_profit @ $118.38] -> $501.69 (+0.34%) — close 100% at +0.3% over the average cost
 ## 2026-10-09 11:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 11:29 ET (Friday) — week 2026-W41 — budget left $21634.47 (today $28375.00 put to work, 18 buys, 12 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain: Still well below min_positions (5 of 8) with 86.5% cash idle - the fix per guardrails is more names in size, not waiting. Adding HD (double congress disclosure, low in day range), PPG (fresh Doggett filing), and ACN (counterfactual flagged as a past biggest-miss with congress backing and strong momentum) gets me to 8 positions with real size while respecting the 14:00 entry cutoff and per-ticker stops.
+lesson: When below min_positions with high idle cash, deploy into named congress-disclosure tickers at reasonable day-range levels rather than waiting for a cleaner signal - the counterfactual data shows idle_universe underperformed chosen picks this period.
+  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped ACN: not in allowed list)
+- BUY $550.00 HD [filled] ['congress', 'track_record'] — Two separate congress buy disclosures on HD recently, cheap entry at low end of day range [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Lloyd Doggett bought HD (disclosed 2026-10-05); Rep. David J. Taylor also bought HD (disclosed 2026-10-01); HD at 15.1% of day range, well off highs
+  (dropped trigger PPG stop_loss: not held)
+  (dropped trigger ACN stop_loss: not held)
+~ WORKING stop_loss 100% HD @ $283.00 until 2026-10-09 — Protective stop ~2.8% below entry
+~ WORKING take_profit 100% HD @ $291.86 until 2026-10-14 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 HD @ $282.40 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25419.51 (+1.68% on $25000.00 in) · cash $21503.73 · realised +428.73
+Done: 0 sell(s), 1 buy(s); 23 order(s) working; budget left $21084.47 this week
