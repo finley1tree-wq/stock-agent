@@ -1,6 +1,3 @@
-
-## 2026-10-08 15:02 ET (Thursday) — week 2026-W41 — budget left $25000.00 (today $19750.00 put to work, 24 buys, 24 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
   (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
   (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
   (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
@@ -398,3 +395,6 @@ lesson: Congress-disclosure-backed buys sized $2000 each with explicit stop_loss
 ~ WORKING buy_limit $500.00 NFLX @ $68.68 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25434.48 (+1.74% on $25000.00 in) · cash $23385.18 · realised +435.18
 Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $22965.91 this week
+  (cancelled 2 standing order(s) on HD: position closed)
+- SELL 100% HD [take_profit @ $291.86] -> $551.38 (+0.25%) — close 100% at +0.3% over the average cost
+## 2026-10-09 12:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
