@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "8a7c899d",
-   "ticker": "NLR",
-   "kind": "take_profit",
-   "price": 102.3346,
-   "status": "filled",
-   "created": "2026-10-01 11:48",
-   "created_ts": 1790869714,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $102",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 12:07"
-  },
-  {
    "id": "0d761dd2",
    "ticker": "NLR",
    "kind": "buy_limit",
@@ -7413,7 +7395,25 @@
    "usd": 500.0,
    "closed": "2026-10-09 10:00",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "67fff679",
+   "ticker": "AMGN",
+   "kind": "buy_limit",
+   "price": 408.1475,
+   "status": "working",
+   "created": "2026-10-09 10:04",
+   "created_ts": 1791554656,
+   "why": "wanted it, but not at the high \u2014 resting at $408.15. congress pressure plus momentum, though near day high (94.6%) - will use limit-like sizing to avoid overpaying [probation at 25% size (no hour or signal lens has proven itself yet)]",
+   "evidence": "Rep. David J. Taylor disclosed buy 2026-09-22 (disclosed 2026-10-01); AMGN +0.9% today, +7.49% 1m",
+   "signals": [
+    "congress",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-10-09",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-09 10:00"
+ "updated": "2026-10-09 10:04"
 }

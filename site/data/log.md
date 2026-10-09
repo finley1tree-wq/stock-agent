@@ -1,25 +1,3 @@
-~ WORKING stop_loss 100% NFLX @ $69.00 until 2026-10-08 — Protective stop below recent day low
-~ WORKING stop_loss 100% KO @ $85.30 until 2026-10-08 — Protective stop ~1.8% below entry
-~ WORKING stop_loss 100% IBM @ $215.50 until 2026-10-08 — Protective stop ~1.8% below entry
-~ WORKING take_profit 100% IBM @ $220.16 until 2026-10-13 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $212.96 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% KO @ $87.04 until 2026-10-13 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 KO @ $84.29 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NFLX @ $71.28 until 2026-10-13 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 NFLX @ $68.98 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $467.31 until 2026-10-13 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 TSM @ $452.20 until 2026-10-13 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25426.71 (+1.71% on $25000.00 in) · cash $22180.39 · realised +430.39
-Done: 0 sell(s), 4 buy(s); 21 order(s) working; budget left $21776.43 this week
-
-## 2026-10-08 11:43 ET (Thursday) — week 2026-W41 — budget left $21776.43 (today $15000.00 put to work, 13 buys, 7 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
-  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-brain: Still below min_positions (6 of 8) with 87% cash idle - past lessons and counterfactual data both show idle cash costs more than acting on congress-disclosure evidence. HUBB is in cooldown for 31 more minutes so I'm using PPG and FWONK which have real congress buy pressure (Doggett/Delaney) and aren't blocked. Skipping HUBB for now since it's still cooling off - replacing with just PPG+FWONK at $2k-3k size, keeping names fresh rather than re-trickling.
 lesson: Check cooling_off_minutes_left before proposing a buy - HUBB was still blocked for 31 minutes so that order would have been dropped; always cross-reference the cooldown list first.
   (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
   (dropped HUBB: sold 15 min ago, cooling off)
@@ -398,3 +376,25 @@ Done: 0 sell(s), 4 buy(s); 20 order(s) working; budget left $11018.14 this week
   (cancelled 2 standing order(s) on PG: position closed)
 - SELL 100% PG [take_profit @ $151.42] -> $2003.66 (+0.18%) — close 100% at +0.2% over the average cost
 ## 2026-10-09 10:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 10:04 ET (Friday) — week 2026-W41 — budget left $19541.45 (today $20000.00 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
+  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
+brain: Only 2 positions held vs min 8, 78% cash idle - need to deploy aggressively. Using congress-disclosure evidence (Doggett on IBM/PPG, Taylor on AMGN) which backtested well (congress signal avg_ret +0.03%, hit rate 0.64, and counterfactual shows congress-chosen avg +0.32% - best non-trivial signal). Adding resting buy_limits on CHRW/HUBB/ESE (highest congress pressure scores 3.0, 3.0, 2.0) at better levels since they're mid-to-high in day range, to get toward min_positions without chasing. Protecting new buys with stop_loss per risk_management signal which has best track record (0.19% avg, 88% hit rate).
+lesson: Congress-disclosure-backed breadth buys sized $2k each with explicit stop_loss keep working per track record; use buy_limit resting orders for names high in day range (CHRW, HUBB) rather than chasing at market.
+  (dropped IBM: sold 29 min ago, cooling off)
+  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped AMGN: 95% up today's range — resting a limit at $408.15 instead of chasing)
+  (dropped trigger HUBB buy_limit: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped trigger CHRW buy_limit: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped trigger ESE buy_limit: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped trigger IBM stop_loss: not held)
+  (dropped trigger AMGN stop_loss: not held)
+  (dropped trigger PPG stop_loss: not held)
+~ WORKING buy_limit $500.00 AMGN @ $408.15 until 2026-10-09 — wanted it, but not at the high — resting at $408.15. congress pressure plus momentum, though near day high (94.6%) - will use limit-like sizing to avoid overpaying [probation at 25% size (no hour or signal lens has proven itself yet)]
+portfolio: equity $25409.99 (+1.64% on $25000.00 in) · cash $19960.72 · realised +460.72
+Decision: nothing at this check. 9 standing order(s) working.
