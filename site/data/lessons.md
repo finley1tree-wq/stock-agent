@@ -298,3 +298,4 @@
 - 2026-10-09 (14d graded, realised 0.02% per dollar): After the 14:00 no-new-entries cutoff, the only legal moves are sells/triggers on existing positions - stop trying to force buys and instead focus on protecting/ratcheting what's already open.
 - 2026-10-09 (14d graded, realised 0.02% per dollar): When no_new_entries_this_check is true, focus entirely on protecting/tightening existing stops rather than trying to force buys that will just get dropped.
 - 2026-10-09 (14d graded, realised 0.02% per dollar): Past 14:00 no_new_entries cutoff with zero holdings means truly nothing to do - don't force orders that guardrails will drop.
+- 2026-10-09 (14d graded, realised 0.02% per dollar): Past the no_new_entries_after_et cutoff with zero holdings, there is genuinely nothing actionable - don't force orders that will just be dropped by guardrails.
