@@ -1,6 +1,3 @@
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
 brain: Still well below min_positions (3 held vs 8 target) with 94.6% cash idle - the clearest action signal per guardrails. Adding IBM, AMGN, GS on congress disclosures and TSM on an extremely strong insider cluster (30 net buy pressure, the top in the dataset) to build breadth toward min_positions, sized at ~$2000 each (above min_order_usd, within normal range). All entries have concrete evidence (named disclosures/filings) and are not momentum-only. Protective stops placed on each new position given the 30-min auto-exit rule and to limit downside.
 lesson: Breadth entries backed by specific named congress/insider filings (not just pressure scores) continue to be the fastest path to min_positions; keep sizing at ~$2000/position and always pair with an explicit stop_loss trigger rather than relying solely on auto_bracket.
   (dropped AMGN: culled strategy (signals congress: -93 over 32 trips, t -1.39))
@@ -398,3 +395,6 @@ portfolio: equity $25421.88 (+1.69% on $25000.00 in) · cash $19753.73 · realis
 Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $19334.47 this week
 - SELL 100% GOOGL [time stop] -> $1002.51 (+0.25%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-09 11:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AMGN: position closed)
+- SELL 100% AMGN [take_profit @ $411.99] -> $626.96 (+0.31%) — close 100% at +0.3% over the average cost
+## 2026-10-09 12:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders

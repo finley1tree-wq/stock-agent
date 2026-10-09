@@ -23668,3 +23668,6 @@ portfolio: equity $25421.88 (+1.69% on $25000.00 in) · cash $19753.73 · realis
 Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $19334.47 this week
 - SELL 100% GOOGL [time stop] -> $1002.51 (+0.25%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-09 11:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on AMGN: position closed)
+- SELL 100% AMGN [take_profit @ $411.99] -> $626.96 (+0.31%) — close 100% at +0.3% over the average cost
+## 2026-10-09 12:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
