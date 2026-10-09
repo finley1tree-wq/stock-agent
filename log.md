@@ -23868,3 +23868,17 @@ Decision: nothing at this check. 10 standing order(s) working.
 - SELL 100% PPG [time stop] -> $498.84 (-0.23%) — held 90 min, the 90-minute limit: out regardless
 - SELL 100% LMT [time stop] -> $373.62 (-0.37%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-09 14:34 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 14:41 ET (Friday) — week 2026-W41 — budget left $25000.00 (today $33925.00 put to work, 29 buys, 28 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0, so there is nothing to protect or sell. All prior positions were already closed today (sold_today lists 18 names, all within cooldown). No legal action remains except waiting for the next window; will reassess at next check for any remaining sell/trigger needs, though with zero holdings none exist now.
+lesson: Past 14:00 no_new_entries cutoff with zero holdings means truly nothing to do - don't force orders that guardrails will drop.
+portfolio: equity $25435.03 (+1.74% on $25000.00 in) · cash $25435.03 · realised +435.03
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)

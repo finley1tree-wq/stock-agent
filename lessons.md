@@ -297,3 +297,4 @@
 - 2026-10-09 (14d graded, realised 0.02% per dollar): With entries cutting off at 14:00, use the last pre-cutoff checks to tighten/add buy_limits at good levels rather than chasing names already high in their day range just to hit min_positions.
 - 2026-10-09 (14d graded, realised 0.02% per dollar): After the 14:00 no-new-entries cutoff, the only legal moves are sells/triggers on existing positions - stop trying to force buys and instead focus on protecting/ratcheting what's already open.
 - 2026-10-09 (14d graded, realised 0.02% per dollar): When no_new_entries_this_check is true, focus entirely on protecting/tightening existing stops rather than trying to force buys that will just get dropped.
+- 2026-10-09 (14d graded, realised 0.02% per dollar): Past 14:00 no_new_entries cutoff with zero holdings means truly nothing to do - don't force orders that guardrails will drop.
