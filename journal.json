@@ -57108,7 +57108,7 @@
     "code_version": "bd21d99",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.52
+    "ret_now": -0.03
   },
   {
     "symbol": "AMGN",
@@ -57199,7 +57199,7 @@
     "code_version": "984fa62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24
+    "ret_now": -0.29
   },
   {
     "symbol": "AVGO",
@@ -57229,7 +57229,7 @@
     "code_version": "984fa62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.25
+    "ret_now": -0.26
   },
   {
     "symbol": "NEM",
@@ -57350,7 +57350,7 @@
     "code_version": "c67a57a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.28
+    "ret_now": 0.21
   },
   {
     "symbol": "NFLX",
@@ -57415,7 +57415,7 @@
     "code_version": "b147810",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": -0.31
   },
   {
     "symbol": "TSM",
@@ -57446,7 +57446,7 @@
     "code_version": "b147810",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.2
+    "ret_now": -0.1
   },
   {
     "symbol": "NFLX",
@@ -57553,6 +57553,94 @@
     "momentum_1m_at_entry": -4.78,
     "hour_et": 11,
     "code_version": "99b5af1",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.17
+  },
+  {
+    "symbol": "GS",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.704656,
+    "price": 886.96,
+    "date": "2026-10-09",
+    "time_et": "11:46",
+    "ts": 1791560760,
+    "why": "Named congress buy filing plus track_record signal (congress bucket 0.03 avg_ret, 0.65 hit rate historically); GS at 73% of day range, not chasing a high [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Rep. Michael A. Rulli disclosed buy of GS ($1,001-$15,000) on 2026-09-03, disclosed 2026-10-02; congress_net_buy_pressure GS=2.0",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 886.78,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -13.04,
+    "hour_et": 11,
+    "code_version": "94a9047",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "KO",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.685204,
+    "price": 87.95,
+    "date": "2026-10-09",
+    "time_et": "11:46",
+    "ts": 1791560760,
+    "why": "Re-enter KO after earlier profitable round-trip today; low ATR defensive name at 67.8% of day range, good for breadth [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "news"
+    ],
+    "evidence": "KO +0.19% today, congress_net_buy_pressure 1.0, sold earlier today at +0.3% profit per track_record sells.last",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 87.93,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 0.12,
+    "hour_et": 11,
+    "code_version": "94a9047",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AMGN",
+    "notional": 625.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.521784,
+    "price": 410.7,
+    "date": "2026-10-09",
+    "time_et": "11:46",
+    "ts": 1791560760,
+    "why": "Named insider/congress filing plus positive momentum; adds breadth toward min_positions, working buy_limit at 406.62 also resting for better entry [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "momentum"
+    ],
+    "evidence": "Rep. David J. Taylor disclosed AMGN buy 2026-09-22, disclosed 2026-10-01; AMGN +0.78% today at 73.7% of range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 410.62,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 7.36,
+    "hour_et": 11,
+    "code_version": "94a9047",
     "ret_1w": null,
     "ret_1m": null
   }

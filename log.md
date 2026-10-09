@@ -23640,3 +23640,29 @@ lesson: When below min_positions with high idle cash, deploy into named congress
 ~ WORKING buy_limit $500.00 HD @ $282.40 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25419.51 (+1.68% on $25000.00 in) · cash $21503.73 · realised +428.73
 Done: 0 sell(s), 1 buy(s); 23 order(s) working; budget left $21084.47 this week
+
+## 2026-10-09 11:46 ET (Friday) — week 2026-W41 — budget left $21084.47 (today $28925.00 put to work, 19 buys, 12 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain: Below min_positions (6/8) with 84% cash idle - need breadth. Added GS, KO, AMGN, PPG all backed by concrete named congressional filings (Rulli/GS, Taylor/AMGN, Doggett/PPG) plus KO's same-day prior profitable round trip, sized $1.5-2.5k each with explicit stop_losses per the risk_management/standing_order signals that have the best realized track record (0.18-0.19 avg_ret, 0.86-0.89 hit rate). Kept PPG smaller since congress-only signal mix is CULLED per strategy_stages, respecting the probation-size guidance without fully excluding a name with real filing evidence.
+lesson: Congress-disclosure-backed buys sized $1.5-2.5k with explicit stop_loss keep closing the min_positions gap efficiently; size down (not zero) when the signal mix is flagged CULLED/PROBATION rather than skipping the idea entirely.
+  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+- BUY $625.00 GS [filled] ['congress', 'track_record'] — Named congress buy filing plus track_record signal (congress bucket 0.03 avg_ret, 0.65 hit rate historically); GS at 73% of day range, not chasing a high [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Michael A. Rulli disclosed buy of GS ($1,001-$15,000) on 2026-09-03, disclosed 2026-10-02; congress_net_buy_pressure GS=2.0
+- BUY $500.00 KO [filled] ['congress', 'news'] — Re-enter KO after earlier profitable round-trip today; low ATR defensive name at 67.8% of day range, good for breadth [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: KO +0.19% today, congress_net_buy_pressure 1.0, sold earlier today at +0.3% profit per track_record sells.last
+- BUY $625.00 AMGN [filled] ['congress', 'momentum'] — Named insider/congress filing plus positive momentum; adds breadth toward min_positions, working buy_limit at 406.62 also resting for better entry [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. David J. Taylor disclosed AMGN buy 2026-09-22, disclosed 2026-10-01; AMGN +0.78% today at 73.7% of range
+  (dropped trigger PPG stop_loss: not held)
+~ WORKING stop_loss 100% GS @ $869.00 until 2026-10-09 — Protective stop ~2% below entry
+~ WORKING stop_loss 100% KO @ $86.17 until 2026-10-09 — Protective stop ~2% below entry
+~ WORKING stop_loss 100% AMGN @ $402.40 until 2026-10-09 — Protective stop ~2% below entry
+~ WORKING take_profit 100% GS @ $889.06 until 2026-10-14 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 GS @ $860.35 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% KO @ $88.09 until 2026-10-14 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 KO @ $85.31 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMGN @ $411.87 until 2026-10-14 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AMGN @ $398.38 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25421.88 (+1.69% on $25000.00 in) · cash $19753.73 · realised +428.73
+Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $19334.47 this week

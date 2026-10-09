@@ -1,177 +1,6 @@
 {
  "orders": [
   {
-   "id": "a02ac431",
-   "ticker": "SKWD",
-   "kind": "buy_limit",
-   "price": 53.5872,
-   "status": "cancelled",
-   "created": "2026-10-01 13:04",
-   "created_ts": 1790874253,
-   "why": "wanted it, but not at the high \u2014 resting at $53.59. insurance diversification name already flagged by desk with congress pressure [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "evidence": "Congress net buy pressure score 2.0; headline 'Skyward Specialty Insurance Group (SKWD) Claims Payments Deal'; currently 92.7% of day range but within max_entry_range_pct(85) limit is breached so trea",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 525.0,
-   "closed": "2026-10-01 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "ae833759",
-   "ticker": "CCJ",
-   "kind": "take_profit",
-   "price": 85.7854,
-   "status": "filled",
-   "created": "2026-10-01 13:04",
-   "created_ts": 1790874253,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $85.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 13:24"
-  },
-  {
-   "id": "32243896",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 84.5407,
-   "status": "cancelled",
-   "created": "2026-10-01 13:04",
-   "created_ts": 1790874253,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $85.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 13:20",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "27a8288f",
-   "ticker": "CCJ",
-   "kind": "buy_limit",
-   "price": 82.8671,
-   "status": "cancelled",
-   "created": "2026-10-01 13:04",
-   "created_ts": 1790874253,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $85.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 13:24",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "fc27084f",
-   "ticker": "XENE",
-   "kind": "take_profit",
-   "price": 39.7484,
-   "status": "cancelled",
-   "created": "2026-10-01 13:04",
-   "created_ts": 1790874253,
-   "why": "close 100% at +0.8% over the average cost",
-   "evidence": "average cost $39.42",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 13:45",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "6d337d0d",
-   "ticker": "XENE",
-   "kind": "stop_loss",
-   "price": 38.5989,
-   "status": "cancelled",
-   "created": "2026-10-01 13:04",
-   "created_ts": 1790874253,
-   "why": "close it all at -2.1% under the average cost",
-   "evidence": "average cost $39.42",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 13:41",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "25783076",
-   "ticker": "XENE",
-   "kind": "buy_limit",
-   "price": 38.2374,
-   "status": "cancelled",
-   "created": "2026-10-01 13:04",
-   "created_ts": 1790874253,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $39.42",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 500.0,
-   "closed": "2026-10-01 13:45",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "95531e54",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 85.55,
-   "status": "cancelled",
-   "created": "2026-10-01 13:20",
-   "created_ts": 1790875242,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $85.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-01 13:24",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "5ee06536",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 150.0,
-   "status": "cancelled",
-   "created": "2026-10-01 13:20",
-   "created_ts": 1790875245,
-   "why": "cooldown active 41min, resting limit slightly below market to catch cooldown expiry at a decent price",
-   "evidence": "CHRW cooling off 41min, top congress score 3.0 from Rep. April McClain Delaney",
-   "signals": [
-    "congress",
-    "news"
-   ],
-   "good_until": "2026-10-01",
-   "usd": 2000.0,
-   "closed": "2026-10-01 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "a45212b9",
    "ticker": "GPI",
    "kind": "buy_limit",
@@ -7382,7 +7211,157 @@
    ],
    "good_until": "2026-10-14",
    "usd": 500.0
+  },
+  {
+   "id": "aae5bca3",
+   "ticker": "GS",
+   "kind": "stop_loss",
+   "price": 869.0,
+   "status": "working",
+   "created": "2026-10-09 11:46",
+   "created_ts": 1791560760,
+   "why": "Protective stop ~2% below entry",
+   "evidence": "GS ATR 2.1%, protect against reversal",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "649ab9d6",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 86.17,
+   "status": "working",
+   "created": "2026-10-09 11:46",
+   "created_ts": 1791560760,
+   "why": "Protective stop ~2% below entry",
+   "evidence": "KO ATR 1.4%, protect against reversal",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ec63121a",
+   "ticker": "AMGN",
+   "kind": "stop_loss",
+   "price": 402.4,
+   "status": "working",
+   "created": "2026-10-09 11:46",
+   "created_ts": 1791560760,
+   "why": "Protective stop ~2% below entry",
+   "evidence": "AMGN ATR 2.6%, protect against reversal",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d38b99f1",
+   "ticker": "GS",
+   "kind": "take_profit",
+   "price": 889.0621,
+   "status": "working",
+   "created": "2026-10-09 11:46",
+   "created_ts": 1791560760,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $886.96",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "35624c33",
+   "ticker": "GS",
+   "kind": "buy_limit",
+   "price": 860.3512,
+   "status": "working",
+   "created": "2026-10-09 11:46",
+   "created_ts": 1791560760,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $886.96",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
+  },
+  {
+   "id": "9866df18",
+   "ticker": "KO",
+   "kind": "take_profit",
+   "price": 88.0881,
+   "status": "working",
+   "created": "2026-10-09 11:46",
+   "created_ts": 1791560760,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $87.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "891e7318",
+   "ticker": "KO",
+   "kind": "buy_limit",
+   "price": 85.3115,
+   "status": "working",
+   "created": "2026-10-09 11:46",
+   "created_ts": 1791560760,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $87.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
+  },
+  {
+   "id": "ffa86128",
+   "ticker": "AMGN",
+   "kind": "take_profit",
+   "price": 411.8746,
+   "status": "working",
+   "created": "2026-10-09 11:46",
+   "created_ts": 1791560760,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $410.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "817e6799",
+   "ticker": "AMGN",
+   "kind": "buy_limit",
+   "price": 398.379,
+   "status": "working",
+   "created": "2026-10-09 11:46",
+   "created_ts": 1791560760,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $410.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-09 11:29"
+ "updated": "2026-10-09 11:46"
 }

@@ -1,19 +1,21 @@
 {
   "week": "2026-W41",
-  "spent": 3915.53,
-  "deployed": 135925.0,
+  "spent": 5665.53,
+  "deployed": 137675.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 11.52,
     "IBM": 633.57,
-    "AMGN": 0.88,
+    "AMGN": 625.88,
     "TSM": 630.27,
     "HUBB": 6.39,
     "GOOGL": 1002.72,
     "AMZN": 4.59,
     "AVGO": 625.0,
     "UNH": 550.0,
-    "HD": 550.0
+    "HD": 550.0,
+    "GS": 625.0,
+    "KO": 500.0
   },
   "deployed_by_ticker": {
     "AVGO": 8875.0,
@@ -24,12 +26,12 @@
     "TSM": 14352.78,
     "HD": 13364.81,
     "UNH": 6675.0,
-    "KO": 8851.85,
+    "KO": 9351.85,
     "PEP": 2000.0,
     "AAPL": 2500.0,
-    "GS": 13041.67,
+    "GS": 13666.67,
     "IBM": 10865.74,
-    "AMGN": 5902.78,
+    "AMGN": 6527.78,
     "HUBB": 1750.0,
     "IBP": 2550.0,
     "NOC": 2825.0,
@@ -3149,12 +3151,75 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "GS",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 0.704656,
+      "price": 886.96,
+      "date": "2026-10-09",
+      "time_et": "11:46",
+      "ts": 1791560760,
+      "why": "Named congress buy filing plus track_record signal (congress bucket 0.03 avg_ret, 0.65 hit rate historically); GS at 73% of day range, not chasing a high [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Rep. Michael A. Rulli disclosed buy of GS ($1,001-$15,000) on 2026-09-03, disclosed 2026-10-02; congress_net_buy_pressure GS=2.0",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "KO",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.685204,
+      "price": 87.95,
+      "date": "2026-10-09",
+      "time_et": "11:46",
+      "ts": 1791560760,
+      "why": "Re-enter KO after earlier profitable round-trip today; low ATR defensive name at 67.8% of day range, good for breadth [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "news"
+      ],
+      "evidence": "KO +0.19% today, congress_net_buy_pressure 1.0, sold earlier today at +0.3% profit per track_record sells.last",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "AMGN",
+      "notional": 625.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.521784,
+      "price": 410.7,
+      "date": "2026-10-09",
+      "time_et": "11:46",
+      "ts": 1791560760,
+      "why": "Named insider/congress filing plus positive momentum; adds breadth toward min_positions, working buy_limit at 406.62 also resting for better entry [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "momentum"
+      ],
+      "evidence": "Rep. David J. Taylor disclosed AMGN buy 2026-09-22, disclosed 2026-10-01; AMGN +0.78% today at 73.7% of range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 3915.53,
-  "deployed_today": 28925.0,
-  "orders_today": 19,
+  "spent_today": 5665.53,
+  "deployed_today": 30675.0,
+  "orders_today": 22,
   "sells_today": 12,
   "sold_today": [
     "IBM",
@@ -3192,8 +3257,8 @@
     "AMZN": 1791483976,
     "NEM": 1791559124
   },
-  "last_publish_ts": 1791559795,
-  "last_check_ts": 1791560673,
+  "last_publish_ts": 1791560760,
+  "last_check_ts": 1791560760,
   "exp_arm": {
     "GOOGL": {
       "params": {
@@ -3248,35 +3313,71 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "GS": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "KO": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "AMGN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
-  "last_bar_ts": 1791560400,
-  "last_decision_ts": 1791559795,
+  "last_bar_ts": 1791560700,
+  "last_decision_ts": 1791560760,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "2e40baef": 291.8607,
+    "9866df18": 88.0881,
     "ab6a81c3": 475.297,
-    "12b07f13": 377.2922,
-    "903be7e4": 453.821,
-    "da7f5f2f": 227.6265,
-    "173bc5eb": 365.5442,
-    "3d0bcb21": 258.5245,
-    "0de3cfc7": 530.2091,
-    "67fff679": 408.1475,
+    "d38b99f1": 889.0621,
+    "ffa86128": 411.8746,
     "9a7756f1": 353.9265,
+    "903be7e4": 453.821,
+    "2e40baef": 291.8607,
+    "da7f5f2f": 227.6265,
+    "12b07f13": 377.2922,
+    "67fff679": 408.1475,
+    "173bc5eb": 365.5442,
+    "0de3cfc7": 530.2091,
+    "3d0bcb21": 258.5245,
     "ca935182": 406.6234,
-    "fe89880e": 357.0,
     "10f01f3c": 222.4,
-    "87956578": 443.0,
-    "cbb389f2": 344.0,
+    "fe89880e": 357.0,
     "8ee160aa": 368.0,
-    "94d89119": 341.9638,
+    "87956578": 443.0,
+    "649ab9d6": 86.17,
+    "ec63121a": 402.4,
+    "aae5bca3": 869.0,
+    "cbb389f2": 344.0,
+    "f5439626": 283.0,
+    "61f18bb9": 365.0207,
     "b9d51acf": 220.19,
     "c6526395": 353.468,
-    "f5439626": 283.0,
+    "6eaaad8d": 282.3961,
     "2187c51f": 439.0123,
-    "61f18bb9": 365.0207,
-    "6eaaad8d": 282.3961
+    "35624c33": 860.3512,
+    "891e7318": 85.3115,
+    "817e6799": 398.379,
+    "94d89119": 341.9638
   }
 }
