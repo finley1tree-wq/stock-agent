@@ -23769,3 +23769,31 @@ lesson: Many good congress-backed names are stuck in rebuy cooldown after same-d
 ~ WORKING buy_limit $2000.00 TSM @ $445.00 until 2026-10-09 — re-enter TSM low in day range after cooldown expires
 portfolio: equity $25434.57 (+1.74% on $25000.00 in) · cash $23936.56 · realised +436.56
 Decision: nothing at this check. 15 standing order(s) working.
+
+## 2026-10-09 13:04 ET (Friday) — week 2026-W41 — budget left $23517.29 (today $32175.00 put to work, 25 buys, 21 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain: Only 3/8 min_positions held with 94% cash idle - below_target_position_count is true and entries close at 14:00, so I must act now. Adding IBP and PPG on named congress filings (Lloyd Doggett disclosed PPG buy 10/5; congress pressure score shows IBP=3.0), plus LMT for defense diversification and CCJ for nuclear exposure with evidence from biggest_misses showing CCJ was undervalued previously. Sizing moderate ($1.5-2k) given PROBATION stage on most hour/signal buckets, with protective stops on every new position per risk_management best practice (602 trades, 88% hit rate).
+lesson: With under 50 minutes to the 14:00 entry cutoff and only 3/8 positions filled, prioritize deploying into named-filing-backed names (IBP, PPG) and sector diversifiers (LMT, CCJ) now rather than waiting, since idle cash has consistently underperformed per counterfactual data.
+- BUY $500.00 IBP [filled] ['congress', 'track_record'] — Low-in-range entry on congress-backed homebuilder name, avoids chasing [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Lloyd Doggett bought PPG & congress net buy pressure shows IBP at 1.0; IBP at 20.2% of day range (low), ATR 4.66%
+- BUY $500.00 PPG [filled] ['congress', 'track_record'] — Named congress filing, mid-range entry, not chasing [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Lloyd Doggett (Rep) bought PPG $1,001-$15,000 disclosed 2026-10-05; PPG at 40.1% of day range
+- BUY $375.00 CCJ [filled] ['momentum', 'news'] — Nuclear exposure with evidence of past missed upside, moderate size given momentum-only concern mitigated by prior miss data [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CCJ at 58.1% of day range, ATR 3.7%, 5d momentum +2.88%, biggest_misses shows CCJ fwd_pct +7.01% after being passed over last time
+- BUY $375.00 LMT [filled] ['momentum', 'track_record'] — Defense sector diversification alongside NOC, moderate size low-vol name [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: LMT defense sector track record avg_ret 0.0% hit_rate 0.57 over 100 trades; LMT at 70.9% of day range, ATR 1.99% low volatility
+~ WORKING stop_loss 100% IBP @ $177.00 until 2026-10-09 — protective stop
+~ WORKING stop_loss 100% PPG @ $102.00 until 2026-10-09 — protective stop
+~ WORKING stop_loss 100% CCJ @ $84.50 until 2026-10-09 — protective stop
+~ WORKING stop_loss 100% LMT @ $498.00 until 2026-10-09 — protective stop
+~ WORKING take_profit 100% IBP @ $184.80 until 2026-10-14 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 IBP @ $178.33 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PPG @ $105.22 until 2026-10-14 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 PPG @ $101.83 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CCJ @ $88.03 until 2026-10-14 — close 100% at +0.4% over the average cost
+~ WORKING buy_limit $500.00 CCJ @ $85.04 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LMT @ $510.05 until 2026-10-14 — close 100% at +0.2% over the average cost
+~ WORKING buy_limit $500.00 LMT @ $493.66 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25434.41 (+1.74% on $25000.00 in) · cash $22186.56 · realised +436.56
+Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $21767.29 this week

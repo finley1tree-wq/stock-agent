@@ -1,227 +1,6 @@
 {
  "orders": [
   {
-   "id": "41eb7af2",
-   "ticker": "CRWD",
-   "kind": "stop_loss",
-   "price": 264.8,
-   "status": "cancelled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "protective stop",
-   "evidence": "ATR 4.085%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "aea3727f",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 455.7,
-   "status": "cancelled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "protective stop",
-   "evidence": "ATR 2.003%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:37",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "452d4bed",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 155.4147,
-   "status": "filled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "wanted it, but not at the high \u2014 resting at $155.41. Strongest congress pressure score in list plus positive momentum, full size entry",
-   "evidence": "Rep. April McClain Delaney disclosed buys in CHRW (congress_net_buy_pressure score 3.0, top-ranked); CHRW +1.88% today, +6.07% 5d, at day high (pct_of_day_range 100)",
-   "signals": [
-    "congress",
-    "track_record",
-    "patience"
-   ],
-   "good_until": "2026-10-02",
-   "usd": 3000.0,
-   "closed": "2026-10-02 09:41"
-  },
-  {
-   "id": "7b26b747",
-   "ticker": "HUBB",
-   "kind": "take_profit",
-   "price": 477.4293,
-   "status": "filled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $476.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:40"
-  },
-  {
-   "id": "e8af9dd1",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 461.8364,
-   "status": "cancelled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $476.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "bee5d774",
-   "ticker": "LTH",
-   "kind": "take_profit",
-   "price": 41.1716,
-   "status": "filled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $41.01",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:37"
-  },
-  {
-   "id": "dbd67af4",
-   "ticker": "LTH",
-   "kind": "buy_limit",
-   "price": 39.7797,
-   "status": "cancelled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $41.01",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 09:37",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "012d9068",
-   "ticker": "AVGO",
-   "kind": "take_profit",
-   "price": 349.1748,
-   "status": "filled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $348.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:36"
-  },
-  {
-   "id": "d980254c",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 337.6764,
-   "status": "cancelled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $348.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "232923a4",
-   "ticker": "PG",
-   "kind": "take_profit",
-   "price": 144.1876,
-   "status": "filled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $143.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:36"
-  },
-  {
-   "id": "6e781679",
-   "ticker": "PG",
-   "kind": "buy_limit",
-   "price": 139.6218,
-   "status": "cancelled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $143.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "557b5071",
-   "ticker": "CRWD",
-   "kind": "take_profit",
-   "price": 271.4943,
-   "status": "filled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $270.27",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:35"
-  },
-  {
    "id": "d6062a71",
    "ticker": "CRWD",
    "kind": "buy_limit",
@@ -7388,7 +7167,207 @@
    ],
    "good_until": "2026-10-09",
    "usd": 2000.0
+  },
+  {
+   "id": "e32c2a23",
+   "ticker": "IBP",
+   "kind": "stop_loss",
+   "price": 177.0,
+   "status": "working",
+   "created": "2026-10-09 13:04",
+   "created_ts": 1791565461,
+   "why": "protective stop",
+   "evidence": "IBP ATR 4.66%, protect ~3.7% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "524425c5",
+   "ticker": "PPG",
+   "kind": "stop_loss",
+   "price": 102.0,
+   "status": "working",
+   "created": "2026-10-09 13:04",
+   "created_ts": 1791565461,
+   "why": "protective stop",
+   "evidence": "PPG ATR 2.09%, protect ~2.8% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "232efd0e",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 84.5,
+   "status": "working",
+   "created": "2026-10-09 13:04",
+   "created_ts": 1791565461,
+   "why": "protective stop",
+   "evidence": "CCJ ATR 3.7%, protect ~3.6% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d4550ec7",
+   "ticker": "LMT",
+   "kind": "stop_loss",
+   "price": 498.0,
+   "status": "working",
+   "created": "2026-10-09 13:04",
+   "created_ts": 1791565461,
+   "why": "protective stop",
+   "evidence": "LMT ATR 1.99%, protect ~2.1% below entry",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "331d73ad",
+   "ticker": "IBP",
+   "kind": "take_profit",
+   "price": 184.8005,
+   "status": "working",
+   "created": "2026-10-09 13:04",
+   "created_ts": 1791565461,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $183.85",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a36773da",
+   "ticker": "IBP",
+   "kind": "buy_limit",
+   "price": 178.3345,
+   "status": "working",
+   "created": "2026-10-09 13:04",
+   "created_ts": 1791565461,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $183.85",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
+  },
+  {
+   "id": "b46b13be",
+   "ticker": "PPG",
+   "kind": "take_profit",
+   "price": 105.2236,
+   "status": "working",
+   "created": "2026-10-09 13:04",
+   "created_ts": 1791565461,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $104.98",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e2fa380a",
+   "ticker": "PPG",
+   "kind": "buy_limit",
+   "price": 101.8306,
+   "status": "working",
+   "created": "2026-10-09 13:04",
+   "created_ts": 1791565461,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $104.98",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
+  },
+  {
+   "id": "6600900f",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 88.0294,
+   "status": "working",
+   "created": "2026-10-09 13:04",
+   "created_ts": 1791565461,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $87.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "bd32908e",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 85.0399,
+   "status": "working",
+   "created": "2026-10-09 13:04",
+   "created_ts": 1791565461,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $87.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
+  },
+  {
+   "id": "939d5209",
+   "ticker": "LMT",
+   "kind": "take_profit",
+   "price": 510.0547,
+   "status": "working",
+   "created": "2026-10-09 13:04",
+   "created_ts": 1791565461,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $508.93",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9cc70c63",
+   "ticker": "LMT",
+   "kind": "buy_limit",
+   "price": 493.6621,
+   "status": "working",
+   "created": "2026-10-09 13:04",
+   "created_ts": 1791565461,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $508.93",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-14",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-09 12:48"
+ "updated": "2026-10-09 13:04"
 }

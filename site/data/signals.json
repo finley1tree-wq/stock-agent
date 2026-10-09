@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-09T12:49-04:00",
- "note": "Only 3 of min 8 positions held and cash_idle_pct is 94%. Many strong congress-backed names (GS, AVGO, TSM, IBM, HD, KO) are in cooldown from being sold today, so I'll deploy new capital into fresh congress-pressure names available now (ACN, PPG) plus buy_limit triggers to re-enter the cooling-off na",
+ "asOf": "2026-10-09T13:04-04:00",
+ "note": "Only 3/8 min_positions held with 94% cash idle - below_target_position_count is true and entries close at 14:00, so I must act now. Adding IBP and PPG on named congress filings (Lloyd Doggett disclosed PPG buy 10/5; congress pressure score shows IBP=3.0), plus LMT for defense diversification and CCJ",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "90ef3f19",
-   "ticker": "NFLX",
-   "kind": "take_profit",
-   "price": 70.9692,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 70.76,
-   "pct_away": 0.3,
-   "good_until": "2026-10-14",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "f5723b1c",
    "ticker": "NOC",
    "kind": "take_profit",
@@ -202,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 481.52,
-   "pct_away": 0.32,
+   "last": 482.37,
+   "pct_away": 0.15,
    "good_until": "2026-10-14",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -212,17 +195,34 @@
    ]
   },
   {
-   "id": "d3a0ba3b",
-   "ticker": "HUBB",
-   "kind": "stop_loss",
-   "price": 471.7197,
+   "id": "939d5209",
+   "ticker": "LMT",
+   "kind": "take_profit",
+   "price": 510.0547,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 473.94,
-   "pct_away": -0.47,
+   "last": 508.73,
+   "pct_away": 0.26,
    "good_until": "2026-10-14",
-   "why": "close it all at -0.7% under the average cost",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b46b13be",
+   "ticker": "PPG",
+   "kind": "take_profit",
+   "price": 105.2236,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 104.94,
+   "pct_away": 0.27,
+   "good_until": "2026-10-14",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,10 +236,78 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 473.94,
-   "pct_away": 0.58,
+   "last": 474.62,
+   "pct_away": 0.44,
    "good_until": "2026-10-14",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6600900f",
+   "ticker": "CCJ",
+   "kind": "take_profit",
+   "price": 88.0294,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 87.63,
+   "pct_away": 0.46,
+   "good_until": "2026-10-14",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "90ef3f19",
+   "ticker": "NFLX",
+   "kind": "take_profit",
+   "price": 70.9692,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 70.61,
+   "pct_away": 0.51,
+   "good_until": "2026-10-14",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "331d73ad",
+   "ticker": "IBP",
+   "kind": "take_profit",
+   "price": 184.8005,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 183.78,
+   "pct_away": 0.56,
+   "good_until": "2026-10-14",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d3a0ba3b",
+   "ticker": "HUBB",
+   "kind": "stop_loss",
+   "price": 471.7197,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 474.62,
+   "pct_away": -0.61,
+   "good_until": "2026-10-14",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +321,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 362.99,
-   "pct_away": -0.82,
+   "last": 362.68,
+   "pct_away": -0.74,
    "good_until": "2026-10-09",
    "why": "re-enter AVGO on a dip after cooldown, congress-backed name",
    "signals": [
@@ -270,8 +338,8 @@
    "usd": 625.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 534.99,
-   "pct_away": -0.89,
+   "last": 534.7,
+   "pct_away": -0.84,
    "good_until": "2026-10-09",
    "why": "wanted it, but not at the high \u2014 resting at $530.21. Congress-backed name with strong recent momentum, mid position size [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -288,8 +356,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 261.45,
-   "pct_away": -1.12,
+   "last": 260.8,
+   "pct_away": -0.87,
    "good_until": "2026-10-09",
    "why": "wanted it, but not at the high \u2014 resting at $258.52. Strong short-term momentum; keep size moderate given high range position [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
@@ -306,8 +374,8 @@
    "usd": 2000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 450.65,
-   "pct_away": -1.25,
+   "last": 450.33,
+   "pct_away": -1.18,
    "good_until": "2026-10-09",
    "why": "re-enter TSM low in day range after cooldown expires",
    "signals": [
@@ -323,14 +391,30 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 414.83,
-   "pct_away": -1.61,
+   "last": 415.8,
+   "pct_away": -1.84,
    "good_until": "2026-10-09",
    "why": "wanted it, but not at the high \u2014 resting at $408.15. congress pressure plus momentum, though near day high (94.6%) - will use limit-like sizing to avoid overpaying [probation at 25% size (no hour or signal lens has proven itself yet)]",
    "signals": [
     "congress",
     "momentum",
     "patience"
+   ]
+  },
+  {
+   "id": "d4550ec7",
+   "ticker": "LMT",
+   "kind": "stop_loss",
+   "price": 498.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 508.73,
+   "pct_away": -2.11,
+   "good_until": "2026-10-09",
+   "why": "protective stop",
+   "signals": [
+    "risk_management"
    ]
   },
   {
@@ -341,8 +425,8 @@
    "usd": 3000.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 414.83,
-   "pct_away": -1.98,
+   "last": 415.8,
+   "pct_away": -2.21,
    "good_until": "2026-10-09",
    "why": "wanted it, but not at the high \u2014 resting at $406.62. Congress buy pressure (score 1.0) with positive momentum, AMGN at day high but strong fundamentals",
    "signals": [
@@ -359,10 +443,59 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 481.52,
-   "pct_away": -2.39,
+   "last": 482.37,
+   "pct_away": -2.56,
    "good_until": "2026-10-09",
    "why": "Protective stop below day low",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "6b00e791",
+   "ticker": "NFLX",
+   "kind": "stop_loss",
+   "price": 68.7,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 70.61,
+   "pct_away": -2.7,
+   "good_until": "2026-10-09",
+   "why": "protective stop ~3% below entry",
+   "signals": [
+    "risk_management"
+   ]
+  },
+  {
+   "id": "cea0e51d",
+   "ticker": "NFLX",
+   "kind": "buy_limit",
+   "price": 68.676,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 70.61,
+   "pct_away": -2.74,
+   "good_until": "2026-10-14",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "524425c5",
+   "ticker": "PPG",
+   "kind": "stop_loss",
+   "price": 102.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 104.94,
+   "pct_away": -2.8,
+   "good_until": "2026-10-09",
+   "why": "protective stop",
    "signals": [
     "risk_management"
    ]
@@ -375,8 +508,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 473.94,
-   "pct_away": -2.73,
+   "last": 474.62,
+   "pct_away": -2.87,
    "good_until": "2026-10-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -385,19 +518,71 @@
    ]
   },
   {
-   "id": "6b00e791",
-   "ticker": "NFLX",
-   "kind": "stop_loss",
-   "price": 68.7,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "a36773da",
+   "ticker": "IBP",
+   "kind": "buy_limit",
+   "price": 178.3345,
+   "usd": 500.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 70.76,
-   "pct_away": -2.91,
-   "good_until": "2026-10-09",
-   "why": "protective stop ~3% below entry",
+   "last": 183.78,
+   "pct_away": -2.96,
+   "good_until": "2026-10-14",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
-    "risk_management"
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e2fa380a",
+   "ticker": "PPG",
+   "kind": "buy_limit",
+   "price": 101.8306,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 104.94,
+   "pct_away": -2.96,
+   "good_until": "2026-10-14",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "bd32908e",
+   "ticker": "CCJ",
+   "kind": "buy_limit",
+   "price": 85.0399,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 87.63,
+   "pct_away": -2.96,
+   "good_until": "2026-10-14",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9cc70c63",
+   "ticker": "LMT",
+   "kind": "buy_limit",
+   "price": 493.6621,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 508.73,
+   "pct_away": -2.96,
+   "good_until": "2026-10-14",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
    ]
   },
   {
@@ -408,8 +593,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 481.52,
-   "pct_away": -2.95,
+   "last": 482.37,
+   "pct_away": -3.12,
    "good_until": "2026-10-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -418,24 +603,39 @@
    ]
   },
   {
-   "id": "cea0e51d",
-   "ticker": "NFLX",
-   "kind": "buy_limit",
-   "price": 68.676,
-   "usd": 500.0,
-   "pct_of_position": null,
+   "id": "232efd0e",
+   "ticker": "CCJ",
+   "kind": "stop_loss",
+   "price": 84.5,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 70.76,
-   "pct_away": -2.95,
-   "good_until": "2026-10-14",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "last": 87.63,
+   "pct_away": -3.57,
+   "good_until": "2026-10-09",
+   "why": "protective stop",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "risk_management"
+   ]
+  },
+  {
+   "id": "e32c2a23",
+   "ticker": "IBP",
+   "kind": "stop_loss",
+   "price": 177.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 183.78,
+   "pct_away": -3.69,
+   "good_until": "2026-10-09",
+   "why": "protective stop",
+   "signals": [
+    "risk_management"
    ]
   }
  ],
- "last_reasoning": "Only 3 of min 8 positions held and cash_idle_pct is 94%. Many strong congress-backed names (GS, AVGO, TSM, IBM, HD, KO) are in cooldown from being sold today, so I'll deploy new capital into fresh congress-pressure names available now (ACN, PPG) plus buy_limit triggers to re-enter the cooling-off na",
+ "last_reasoning": "Only 3/8 min_positions held with 94% cash idle - below_target_position_count is true and entries close at 14:00, so I must act now. Adding IBP and PPG on named congress filings (Lloyd Doggett disclosed PPG buy 10/5; congress pressure score shows IBP=3.0), plus LMT for defense diversification and CCJ",
  "next_check_minutes": 15,
  "allowed": [
   "AAPL",
@@ -486,27 +686,27 @@
    "AGMB excluded: too thinly traded ($1.3M a day) \u2014 AgomAb Therapeutics NV",
    "AVR excluded: too thinly traded ($6.8M a day) \u2014 Anteris Technologies Global Corp.",
    "BBD excluded: share price $3.50 is below $5: the spread eats the trade \u2014 Banco Bradesco S.A.",
-   "CINT excluded: too thinly traded ($0.3M a day) \u2014 CI&T Inc.",
    "ECF excluded: too thinly traded ($0.3M a day) \u2014 Ellsworth Growth and Income Fund Ltd.",
+   "FEAM excluded: too thinly traded ($3.3M a day) \u2014 5E Advanced Materials, Inc.",
    "GF excluded: too thinly traded ($0.3M a day) \u2014 The New Germany Fund, Inc.",
    "GGR excluded: too thinly traded ($0.1M a day) \u2014 Gogoro Inc.",
    "GOAI excluded: too thinly traded ($0.7M a day) \u2014 Eva Live, Inc.",
    "GRX excluded: too thinly traded ($0.2M a day) \u2014 The Gabelli Healthcare & Wellness Trust",
-   "IMMR excluded: too thinly traded ($3.7M a day) \u2014 Immersion Corporation",
    "INM excluded: too thinly traded ($1.2M a day) \u2014 InMed Pharmaceuticals Inc.",
+   "N.A. excluded: no security information",
    "NRXS excluded: too thinly traded ($0.7M a day) \u2014 NeurAxis, Inc."
   ]
  },
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 386,
+  "decisions_graded": 385,
   "decisions_with_buys_graded": 178,
   "independent_days_graded": 14,
   "avg_regret_pct": 0.01,
   "chosen_avg_pct": -0.17,
   "skipped_avg_pct": -0.17,
-  "idle_universe_avg_pct": -0.41,
+  "idle_universe_avg_pct": -0.42,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.03,
   "checks_that_bought_everything": 0,
@@ -625,7 +825,7 @@
     "n": 3
    }
   },
-  "idle_checks": 212,
+  "idle_checks": 211,
   "blocked_checks": 0,
   "idle_share": 0.53,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1537,612 +1737,614 @@
  },
  "insider_trades": [
   {
-   "filing_date": "2026-10-09",
-   "price": 1.67,
+   "who": "Degnan Chris",
+   "role": "CFO",
+   "ticker": "URGN",
+   "type": "sell",
+   "shares": 2202.0,
+   "price": 36.69,
+   "transaction_date": "2026-10-08",
+   "filing_date": "2026-10-09"
+  },
+  {
+   "who": "Weibel Paul Wesley III",
    "role": "CEO",
-   "shares": 18181.0,
+   "ticker": "FEAM",
+   "type": "buy",
+   "shares": 7176.0,
+   "price": 3.48,
+   "transaction_date": "2026-10-08",
+   "filing_date": "2026-10-09"
+  },
+  {
+   "who": "Aksia LLC",
+   "role": "Sub-Advisor to Issuer",
+   "ticker": "N.A.",
+   "type": "buy",
+   "shares": 82053.0,
+   "price": 11.09,
+   "transaction_date": "2026-01-02",
+   "filing_date": "2026-10-09"
+  },
+  {
+   "who": "Ben-Noon Dagi Shahar",
+   "role": "CEO",
    "ticker": "QTEX",
+   "type": "buy",
+   "shares": 18181.0,
+   "price": 1.67,
    "transaction_date": "2026-10-09",
-   "type": "buy",
-   "who": "Ben-Noon Dagi Shahar"
+   "filing_date": "2026-10-09"
   },
   {
-   "filing_date": "2026-10-09",
-   "price": 22.34,
+   "who": "Flanigan Micheal Neil",
    "role": "Dir",
-   "shares": 5000.0,
    "ticker": "AVBC",
-   "transaction_date": "2026-09-18",
    "type": "sell",
-   "who": "Flanigan Micheal Neil"
-  },
-  {
-   "filing_date": "2026-10-09",
-   "price": 14.1,
-   "role": "10%",
-   "shares": 25204.0,
-   "ticker": "ECAT",
-   "transaction_date": "2026-10-07",
-   "type": "sell",
-   "who": "Saba Capital Management, L.P."
-  },
-  {
-   "filing_date": "2026-10-09",
-   "price": 20.73,
-   "role": "10%",
-   "shares": 3609.0,
-   "ticker": "PDX",
-   "transaction_date": "2026-10-07",
-   "type": "sell",
-   "who": "Saba Capital Management, L.P."
-  },
-  {
-   "filing_date": "2026-10-09",
-   "price": 9.43,
-   "role": "10%",
-   "shares": 2955.0,
-   "ticker": "GRX",
-   "transaction_date": "2026-10-07",
-   "type": "buy",
-   "who": "Saba Capital Management, L.P."
-  },
-  {
-   "filing_date": "2026-10-09",
-   "price": 17.37,
-   "role": "Dir",
-   "shares": 1845000.0,
-   "ticker": "BBD",
-   "transaction_date": "2026-09-01",
-   "type": "buy",
-   "who": "Alvarez Rubens Aguiar"
-  },
-  {
-   "filing_date": "2026-10-09",
-   "price": 11.97,
-   "role": "10%",
-   "shares": 17548.0,
-   "ticker": "ECF",
-   "transaction_date": "2026-10-07",
-   "type": "buy",
-   "who": "Saba Capital Management, L.P."
-  },
-  {
-   "filing_date": "2026-10-09",
-   "price": 10.36,
-   "role": "10%",
-   "shares": 1223.0,
-   "ticker": "GF",
-   "transaction_date": "2026-10-07",
-   "type": "buy",
-   "who": "Saba Capital Management, L.P."
-  },
-  {
-   "filing_date": "2026-10-09",
-   "price": 11.5,
-   "role": "Dir",
-   "shares": 837000.0,
-   "ticker": "AXIA",
-   "transaction_date": "2026-10-07",
-   "type": "sell",
-   "who": "Batista De Lima Filho Pedro"
-  },
-  {
-   "filing_date": "2026-10-09",
-   "price": 8.47,
-   "role": "10%",
-   "shares": 215000.0,
-   "ticker": "PRTA",
-   "transaction_date": "2026-10-07",
-   "type": "buy",
-   "who": "Scully William P"
-  },
-  {
-   "filing_date": "2026-10-09",
-   "price": 1.13,
-   "role": "CEO",
-   "shares": 11836.0,
-   "ticker": "UXIN",
-   "transaction_date": "2026-10-08",
-   "type": "buy",
-   "who": "Dai Kun"
-  },
-  {
-   "filing_date": "2026-10-09",
-   "price": 8.9,
-   "role": "Dir",
    "shares": 5000.0,
+   "price": 22.34,
+   "transaction_date": "2026-09-18",
+   "filing_date": "2026-10-09"
+  },
+  {
+   "who": "Saba Capital Management, L.P.",
+   "role": "10%",
+   "ticker": "ECAT",
+   "type": "sell",
+   "shares": 25204.0,
+   "price": 14.1,
+   "transaction_date": "2026-10-07",
+   "filing_date": "2026-10-09"
+  },
+  {
+   "who": "Saba Capital Management, L.P.",
+   "role": "10%",
+   "ticker": "PDX",
+   "type": "sell",
+   "shares": 3609.0,
+   "price": 20.73,
+   "transaction_date": "2026-10-07",
+   "filing_date": "2026-10-09"
+  },
+  {
+   "who": "Saba Capital Management, L.P.",
+   "role": "10%",
+   "ticker": "GRX",
+   "type": "buy",
+   "shares": 2955.0,
+   "price": 9.43,
+   "transaction_date": "2026-10-07",
+   "filing_date": "2026-10-09"
+  },
+  {
+   "who": "Alvarez Rubens Aguiar",
+   "role": "Dir",
+   "ticker": "BBD",
+   "type": "buy",
+   "shares": 1845000.0,
+   "price": 17.37,
+   "transaction_date": "2026-09-01",
+   "filing_date": "2026-10-09"
+  },
+  {
+   "who": "Saba Capital Management, L.P.",
+   "role": "10%",
+   "ticker": "ECF",
+   "type": "buy",
+   "shares": 17548.0,
+   "price": 11.97,
+   "transaction_date": "2026-10-07",
+   "filing_date": "2026-10-09"
+  },
+  {
+   "who": "Saba Capital Management, L.P.",
+   "role": "10%",
+   "ticker": "GF",
+   "type": "buy",
+   "shares": 1223.0,
+   "price": 10.36,
+   "transaction_date": "2026-10-07",
+   "filing_date": "2026-10-09"
+  },
+  {
+   "who": "Batista De Lima Filho Pedro",
+   "role": "Dir",
+   "ticker": "AXIA",
+   "type": "sell",
+   "shares": 837000.0,
+   "price": 11.5,
+   "transaction_date": "2026-10-07",
+   "filing_date": "2026-10-09"
+  },
+  {
+   "who": "Scully William P",
+   "role": "10%",
+   "ticker": "PRTA",
+   "type": "buy",
+   "shares": 215000.0,
+   "price": 8.47,
+   "transaction_date": "2026-10-07",
+   "filing_date": "2026-10-09"
+  },
+  {
+   "who": "Dai Kun",
+   "role": "CEO",
+   "ticker": "UXIN",
+   "type": "buy",
+   "shares": 11836.0,
+   "price": 1.13,
+   "transaction_date": "2026-10-08",
+   "filing_date": "2026-10-09"
+  },
+  {
+   "who": "Epstein David R",
+   "role": "Dir",
    "ticker": "AGMB",
-   "transaction_date": "2026-10-08",
    "type": "buy",
-   "who": "Epstein David R"
+   "shares": 5000.0,
+   "price": 8.9,
+   "transaction_date": "2026-10-08",
+   "filing_date": "2026-10-09"
   },
   {
-   "filing_date": "2026-10-09",
-   "price": 2.48,
+   "who": "Yin Chung-Yao",
    "role": "Dir",
-   "shares": 14158991.0,
    "ticker": "GGR",
-   "transaction_date": "2026-10-07",
    "type": "buy",
-   "who": "Yin Chung-Yao"
+   "shares": 14158991.0,
+   "price": 2.48,
+   "transaction_date": "2026-10-07",
+   "filing_date": "2026-10-09"
   },
   {
-   "filing_date": "2026-10-09",
-   "price": 94.06,
+   "who": "Wang Yanjun",
    "role": "CCO, GC",
-   "shares": 2000.0,
    "ticker": "SE",
-   "transaction_date": "2026-10-07",
    "type": "sell",
-   "who": "Wang Yanjun"
+   "shares": 2000.0,
+   "price": 94.06,
+   "transaction_date": "2026-10-07",
+   "filing_date": "2026-10-09"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 113.49,
+   "who": "Japan Post Holdings Co., Ltd.",
    "role": "10%",
-   "shares": 13050.0,
    "ticker": "AFL",
-   "transaction_date": "2026-10-06",
    "type": "sell",
-   "who": "Japan Post Holdings Co., Ltd."
+   "shares": 13050.0,
+   "price": 113.49,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 274.72,
+   "who": "Kurtz George",
    "role": "Pres, CEO",
-   "shares": 20000.0,
    "ticker": "CRWD",
-   "transaction_date": "2026-10-06",
    "type": "sell",
-   "who": "Kurtz George"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 110.18,
-   "role": "Pres, CEO",
-   "shares": 60000.0,
-   "ticker": "HALO",
-   "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Torley Helen"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 165.0,
-   "role": "EVP, CFO",
    "shares": 20000.0,
+   "price": 274.72,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Torley Helen",
+   "role": "Pres, CEO",
+   "ticker": "HALO",
+   "type": "sell",
+   "shares": 60000.0,
+   "price": 110.18,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Moldovan Kristopher E.",
+   "role": "EVP, CFO",
    "ticker": "VST",
-   "transaction_date": "2026-10-07",
    "type": "sell",
-   "who": "Moldovan Kristopher E."
+   "shares": 20000.0,
+   "price": 165.0,
+   "transaction_date": "2026-10-07",
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 212.09,
+   "who": "Ullal Jayshree",
    "role": "CEO, Chairperson",
+   "ticker": "ANET",
+   "type": "sell",
    "shares": 460374.0,
-   "ticker": "ANET",
+   "price": 212.09,
    "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Ullal Jayshree"
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 215.0,
+   "who": "Breithaupt Chantelle Yvette",
    "role": "SVP, CFO",
-   "shares": 1224.0,
    "ticker": "ANET",
-   "transaction_date": "2026-10-06",
    "type": "sell",
-   "who": "Breithaupt Chantelle Yvette"
+   "shares": 1224.0,
+   "price": 215.0,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 7.18,
+   "who": "L1 Capital Pty Ltd",
    "role": "10%",
-   "shares": 272695.0,
    "ticker": "AVR",
-   "transaction_date": "2026-10-06",
    "type": "buy",
-   "who": "L1 Capital Pty Ltd"
+   "shares": 272695.0,
+   "price": 7.18,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 37.41,
+   "who": "Hata Yujiro S",
    "role": "Pres, CEO",
-   "shares": 26338.0,
    "ticker": "IDYA",
-   "transaction_date": "2026-10-06",
    "type": "sell",
-   "who": "Hata Yujiro S"
+   "shares": 26338.0,
+   "price": 37.41,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 26.6,
+   "who": "Rubinstein Julie",
    "role": "Pres, COO",
+   "ticker": "ADPT",
+   "type": "sell",
    "shares": 35643.0,
-   "ticker": "ADPT",
+   "price": 26.6,
    "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Rubinstein Julie"
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 30.0,
+   "who": "Bobulsky Susan",
    "role": "Chief Commercial Officer, MRD",
-   "shares": 6444.0,
    "ticker": "ADPT",
-   "transaction_date": "2026-10-06",
    "type": "sell",
-   "who": "Bobulsky Susan"
+   "shares": 6444.0,
+   "price": 30.0,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 11.9,
+   "who": "Chang Fred Faching",
    "role": "Dir, 10%",
-   "shares": 7164.0,
    "ticker": "NEGG",
-   "transaction_date": "2026-10-06",
    "type": "sell",
-   "who": "Chang Fred Faching"
+   "shares": 7164.0,
+   "price": 11.9,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 332.01,
+   "who": "Newstead Jennifer",
    "role": "SVP, GC, Government Affairs",
-   "shares": 2399.0,
    "ticker": "AAPL",
-   "transaction_date": "2026-10-06",
    "type": "sell",
-   "who": "Newstead Jennifer"
+   "shares": 2399.0,
+   "price": 332.01,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 1.33,
+   "who": "Adar1 Capital Management, LLC",
    "role": "10%",
-   "shares": 10903.0,
    "ticker": "INM",
-   "transaction_date": "2026-10-06",
    "type": "buy",
-   "who": "Adar1 Capital Management, LLC"
+   "shares": 10903.0,
+   "price": 1.33,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 24.19,
+   "who": "Wilder Ben Simon",
    "role": "COO",
+   "ticker": "ARQQ",
+   "type": "sell",
    "shares": 218.0,
-   "ticker": "ARQQ",
+   "price": 24.19,
    "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Wilder Ben Simon"
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 24.19,
+   "who": "Nilan Nicholas William",
    "role": "GM-US",
+   "ticker": "ARQQ",
+   "type": "sell",
    "shares": 493.0,
-   "ticker": "ARQQ",
+   "price": 24.19,
    "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Nilan Nicholas William"
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 24.19,
+   "who": "Ritchie Garth",
    "role": "Dir",
+   "ticker": "ARQQ",
+   "type": "sell",
    "shares": 118.0,
-   "ticker": "ARQQ",
+   "price": 24.19,
    "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Ritchie Garth"
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 24.19,
+   "who": "Willcocks Patrick",
    "role": "GC",
+   "ticker": "ARQQ",
+   "type": "sell",
    "shares": 555.0,
-   "ticker": "ARQQ",
+   "price": 24.19,
    "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Willcocks Patrick"
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 24.19,
+   "who": "Feenan Paul",
    "role": "Chief Revenue Officer",
+   "ticker": "ARQQ",
+   "type": "sell",
    "shares": 504.0,
-   "ticker": "ARQQ",
-   "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Feenan Paul"
-  },
-  {
-   "filing_date": "2026-10-08",
    "price": 24.19,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Leaver Andrew",
    "role": "CEO",
-   "shares": 2398.0,
    "ticker": "ARQQ",
-   "transaction_date": "2026-10-06",
    "type": "sell",
-   "who": "Leaver Andrew"
+   "shares": 2398.0,
+   "price": 24.19,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 333.42,
+   "who": "Dageville Benoit",
    "role": "Dir",
-   "shares": 50000.0,
    "ticker": "SNOW",
-   "transaction_date": "2026-10-07",
    "type": "sell",
-   "who": "Dageville Benoit"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 41.44,
-   "role": "Dir",
    "shares": 50000.0,
-   "ticker": "LIF",
-   "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Haro Alex"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 7.14,
-   "role": "Pres, CEO",
-   "shares": 41000.0,
-   "ticker": "IMMR",
+   "price": 333.42,
    "transaction_date": "2026-10-07",
-   "type": "buy",
-   "who": "Singer Eric"
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 88.6,
-   "role": "CFO",
-   "shares": 3.0,
-   "ticker": "CRWV",
-   "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Agrawal Nitin"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 52.19,
-   "role": "Member of 10% owner group",
-   "shares": 1307500.0,
-   "ticker": "CBL",
-   "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Canyon Capital Advisors LLC"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 16.96,
-   "role": "Add'l Rep. Persons-see Ex.99-1, 10%",
-   "shares": 480000.0,
-   "ticker": "TALO",
-   "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Control Empresarial De Capitales S.A. De C.V."
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 8.0,
-   "role": "COO",
-   "shares": 4849.0,
-   "ticker": "GDYN",
-   "transaction_date": "2026-10-08",
-   "type": "sell",
-   "who": "Gryzlov Yury"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 3.13,
-   "role": "Dir, 10%",
-   "shares": 15745.0,
-   "ticker": "CINT",
-   "transaction_date": "2026-10-06",
-   "type": "buy",
-   "who": "Martins Fernando Matt Borges"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 10.02,
-   "role": "Pres, CEO",
-   "shares": 35790.0,
-   "ticker": "BFLY",
-   "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Devivo Joseph"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 9.18,
-   "role": "CEO, 10%",
-   "shares": 3000.0,
-   "ticker": "STRR",
-   "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Eberwein Jeffrey E."
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 4.84,
-   "role": "CEO",
-   "shares": 268.0,
-   "ticker": "NRXS",
-   "transaction_date": "2026-10-08",
-   "type": "buy",
-   "who": "Carrico Brian Allen"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 4.84,
-   "role": "CRO, CCO, CPO",
-   "shares": 328.0,
-   "ticker": "NRXS",
-   "transaction_date": "2026-10-08",
-   "type": "buy",
-   "who": "Carrico Thomas Joeseph"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 4.84,
-   "role": "CFO",
-   "shares": 1937.0,
-   "ticker": "NRXS",
-   "transaction_date": "2026-10-08",
-   "type": "buy",
-   "who": "Henrichs Timothy Robert"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 60.04,
-   "role": "GC, Secretary",
-   "shares": 1990.0,
-   "ticker": "CRSP",
-   "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Kasinger James R."
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 226.34,
-   "role": "COB, CEO",
-   "shares": 4991.0,
-   "ticker": "RMD",
-   "transaction_date": "2026-10-07",
-   "type": "sell",
-   "who": "Farrell Michael J."
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 18.1,
-   "role": "Pres, CEO",
-   "shares": 48199.0,
-   "ticker": "RLAY",
-   "transaction_date": "2026-10-07",
-   "type": "sell",
-   "who": "Patel Sanjiv"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 18.59,
-   "role": "CFO",
-   "shares": 17717.0,
-   "ticker": "RLAY",
-   "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Catinazzo Thomas"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 548.95,
-   "role": "CHAIRPERSON, CEO",
-   "shares": 9500.0,
-   "ticker": "UTHR",
-   "transaction_date": "2026-10-07",
-   "type": "sell",
-   "who": "Rothblatt Martine A"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 85.65,
-   "role": "CVP, TAVR",
-   "shares": 619.0,
-   "ticker": "EW",
-   "transaction_date": "2026-10-08",
-   "type": "sell",
-   "who": "Lippis Daniel J."
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 3.09,
-   "role": "See Remarks",
-   "shares": 60757.0,
-   "ticker": "ABEV",
-   "transaction_date": "2026-09-03",
-   "type": "sell",
-   "who": "Crippa Prado Carla Smith De Vasconcellos"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 363.85,
+   "who": "Haro Alex",
    "role": "Dir",
-   "shares": 595.0,
-   "ticker": "MDB",
-   "transaction_date": "2026-10-06",
+   "ticker": "LIF",
    "type": "sell",
-   "who": "Hazard Charles M Jr"
+   "shares": 50000.0,
+   "price": 41.44,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 18.5,
-   "role": "EVP, Chf. Product,Tech Ofc.",
-   "shares": 2500.0,
-   "ticker": "FCEL",
-   "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Achanta Shankar"
+   "who": "Singer Eric",
+   "role": "Pres, CEO",
+   "ticker": "IMMR",
+   "type": "buy",
+   "shares": 41000.0,
+   "price": 7.14,
+   "transaction_date": "2026-10-07",
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 20.02,
-   "role": "CEO",
-   "shares": 219249.0,
-   "ticker": "SAIL",
-   "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "McClain Mark D."
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 19.95,
-   "role": "Chief Accounting Officer",
-   "shares": 7087.0,
-   "ticker": "SAIL",
-   "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Rezvan Mitra"
-  },
-  {
-   "filing_date": "2026-10-08",
-   "price": 19.94,
+   "who": "Agrawal Nitin",
    "role": "CFO",
-   "shares": 81361.0,
-   "ticker": "SAIL",
-   "transaction_date": "2026-10-06",
+   "ticker": "CRWV",
    "type": "sell",
-   "who": "Carolan Brian"
+   "shares": 3.0,
+   "price": 88.6,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
+   "who": "Canyon Capital Advisors LLC",
+   "role": "Member of 10% owner group",
+   "ticker": "CBL",
+   "type": "sell",
+   "shares": 1307500.0,
+   "price": 52.19,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Control Empresarial De Capitales S.A. De C.V.",
+   "role": "Add'l Rep. Persons-see Ex.99-1, 10%",
+   "ticker": "TALO",
+   "type": "sell",
+   "shares": 480000.0,
+   "price": 16.96,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Gryzlov Yury",
+   "role": "COO",
+   "ticker": "GDYN",
+   "type": "sell",
+   "shares": 4849.0,
+   "price": 8.0,
+   "transaction_date": "2026-10-08",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Martins Fernando Matt Borges",
+   "role": "Dir, 10%",
+   "ticker": "CINT",
+   "type": "buy",
+   "shares": 15745.0,
+   "price": 3.13,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Devivo Joseph",
+   "role": "Pres, CEO",
+   "ticker": "BFLY",
+   "type": "sell",
+   "shares": 35790.0,
+   "price": 10.02,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Eberwein Jeffrey E.",
+   "role": "CEO, 10%",
+   "ticker": "STRR",
+   "type": "sell",
+   "shares": 3000.0,
+   "price": 9.18,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Carrico Brian Allen",
+   "role": "CEO",
+   "ticker": "NRXS",
+   "type": "buy",
+   "shares": 268.0,
+   "price": 4.84,
+   "transaction_date": "2026-10-08",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Carrico Thomas Joeseph",
+   "role": "CRO, CCO, CPO",
+   "ticker": "NRXS",
+   "type": "buy",
+   "shares": 328.0,
+   "price": 4.84,
+   "transaction_date": "2026-10-08",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Henrichs Timothy Robert",
+   "role": "CFO",
+   "ticker": "NRXS",
+   "type": "buy",
+   "shares": 1937.0,
+   "price": 4.84,
+   "transaction_date": "2026-10-08",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Kasinger James R.",
+   "role": "GC, Secretary",
+   "ticker": "CRSP",
+   "type": "sell",
+   "shares": 1990.0,
+   "price": 60.04,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Farrell Michael J.",
+   "role": "COB, CEO",
+   "ticker": "RMD",
+   "type": "sell",
+   "shares": 4991.0,
+   "price": 226.34,
+   "transaction_date": "2026-10-07",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Patel Sanjiv",
+   "role": "Pres, CEO",
+   "ticker": "RLAY",
+   "type": "sell",
+   "shares": 48199.0,
+   "price": 18.1,
+   "transaction_date": "2026-10-07",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Catinazzo Thomas",
+   "role": "CFO",
+   "ticker": "RLAY",
+   "type": "sell",
+   "shares": 17717.0,
+   "price": 18.59,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Rothblatt Martine A",
+   "role": "CHAIRPERSON, CEO",
+   "ticker": "UTHR",
+   "type": "sell",
+   "shares": 9500.0,
+   "price": 548.95,
+   "transaction_date": "2026-10-07",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Lippis Daniel J.",
+   "role": "CVP, TAVR",
+   "ticker": "EW",
+   "type": "sell",
+   "shares": 619.0,
+   "price": 85.65,
+   "transaction_date": "2026-10-08",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Crippa Prado Carla Smith De Vasconcellos",
+   "role": "See Remarks",
+   "ticker": "ABEV",
+   "type": "sell",
+   "shares": 60757.0,
+   "price": 3.09,
+   "transaction_date": "2026-09-03",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Hazard Charles M Jr",
+   "role": "Dir",
+   "ticker": "MDB",
+   "type": "sell",
+   "shares": 595.0,
+   "price": 363.85,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "Achanta Shankar",
+   "role": "EVP, Chf. Product,Tech Ofc.",
+   "ticker": "FCEL",
+   "type": "sell",
+   "shares": 2500.0,
+   "price": 18.5,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
+  },
+  {
+   "who": "McClain Mark D.",
+   "role": "CEO",
+   "ticker": "SAIL",
+   "type": "sell",
+   "shares": 219249.0,
    "price": 20.02,
-   "role": "Pres",
-   "shares": 80665.0,
-   "ticker": "SAIL",
    "transaction_date": "2026-10-06",
-   "type": "sell",
-   "who": "Mills Matt"
+   "filing_date": "2026-10-08"
   },
   {
-   "filing_date": "2026-10-08",
-   "price": 19.7,
-   "role": "CTO",
-   "shares": 4960.0,
-   "ticker": "EVER",
-   "transaction_date": "2026-10-06",
+   "who": "Rezvan Mitra",
+   "role": "Chief Accounting Officer",
+   "ticker": "SAIL",
    "type": "sell",
-   "who": "Brainard David"
+   "shares": 7087.0,
+   "price": 19.95,
+   "transaction_date": "2026-10-06",
+   "filing_date": "2026-10-08"
   }
  ],
  "insider_pressure": {
   "NRXS": 3.0,
-  "GRX": 2.0,
   "GF": 2.0,
   "GOAI": 2.0,
+  "FEAM": 1.0,
+  "N.A.": 1.0,
   "QTEX": 1.0,
+  "GRX": 1.0,
   "BBD": 1.0,
   "ECF": 1.0,
   "PRTA": 1.0,
@@ -2155,11 +2357,9 @@
   "CINT": 1.0,
   "CRBG": 1.0,
   "PHK": 1.0,
-  "PDI": 1.0,
-  "WVVI": 1.0,
-  "CET": 1.0
+  "PDI": 1.0
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-09T12:49-04:00"
+ "signalsAsOf": "2026-10-09T13:04-04:00"
 }

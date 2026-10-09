@@ -1,7 +1,7 @@
 {
   "week": "2026-W41",
-  "spent": 1482.71,
-  "deployed": 139175.0,
+  "spent": 3232.71,
+  "deployed": 140925.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 511.52,
@@ -11,7 +11,11 @@
     "GOOGL": 0.21,
     "AMZN": 4.59,
     "AVGO": 2.91,
-    "NOC": 500.0
+    "NOC": 500.0,
+    "IBP": 500.0,
+    "PPG": 500.0,
+    "CCJ": 375.0,
+    "LMT": 375.0
   },
   "deployed_by_ticker": {
     "AVGO": 8875.0,
@@ -29,12 +33,14 @@
     "IBM": 10865.74,
     "AMGN": 6527.78,
     "HUBB": 2250.0,
-    "IBP": 2550.0,
+    "IBP": 3050.0,
     "NOC": 3325.0,
-    "PPG": 375.0,
+    "PPG": 875.0,
     "GOOGL": 1500.0,
     "AMZN": 375.0,
-    "NEM": 500.0
+    "NEM": 500.0,
+    "CCJ": 375.0,
+    "LMT": 375.0
   },
   "orders": [
     {
@@ -3462,12 +3468,96 @@
       ],
       "evidence": "average cost $291.13",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "IBP",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.719556,
+      "price": 183.85,
+      "date": "2026-10-09",
+      "time_et": "13:04",
+      "ts": 1791565461,
+      "why": "Low-in-range entry on congress-backed homebuilder name, avoids chasing [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Lloyd Doggett bought PPG & congress net buy pressure shows IBP at 1.0; IBP at 20.2% of day range (low), ATR 4.66%",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "PPG",
+      "notional": 500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.762722,
+      "price": 104.98,
+      "date": "2026-10-09",
+      "time_et": "13:04",
+      "ts": 1791565461,
+      "why": "Named congress filing, mid-range entry, not chasing [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Lloyd Doggett (Rep) bought PPG $1,001-$15,000 disclosed 2026-10-05; PPG at 40.1% of day range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "CCJ",
+      "notional": 375.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.277645,
+      "price": 87.67,
+      "date": "2026-10-09",
+      "time_et": "13:04",
+      "ts": 1791565461,
+      "why": "Nuclear exposure with evidence of past missed upside, moderate size given momentum-only concern mitigated by prior miss data [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "news"
+      ],
+      "evidence": "CCJ at 58.1% of day range, ATR 3.7%, 5d momentum +2.88%, biggest_misses shows CCJ fwd_pct +7.01% after being passed over last time",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "LMT",
+      "notional": 375.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 0.736835,
+      "price": 508.93,
+      "date": "2026-10-09",
+      "time_et": "13:04",
+      "ts": 1791565461,
+      "why": "Defense sector diversification alongside NOC, moderate size low-vol name [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "track_record"
+      ],
+      "evidence": "LMT defense sector track record avg_ret 0.0% hit_rate 0.57 over 100 trades; LMT at 70.9% of day range, ATR 1.99% low volatility",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 1482.71,
-  "deployed_today": 32175.0,
-  "orders_today": 25,
+  "spent_today": 3232.71,
+  "deployed_today": 33925.0,
+  "orders_today": 29,
   "sells_today": 21,
   "sold_today": [
     "IBM",
@@ -3508,18 +3598,9 @@
     "AMZN": 1791483976,
     "NEM": 1791559124
   },
-  "last_publish_ts": 1791564527,
-  "last_check_ts": 1791565375,
+  "last_publish_ts": 1791565461,
+  "last_check_ts": 1791565461,
   "exp_arm": {
-    "HD": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "HUBB": {
       "params": {
         "hold_minutes": 90,
@@ -3546,27 +3627,75 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "IBP": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "PPG": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "CCJ": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "LMT": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1791565200,
-  "last_decision_ts": 1791564527,
+  "last_decision_ts": 1791565461,
   "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "90ef3f19": 70.9692,
     "f5723b1c": 483.0716,
-    "d3a0ba3b": 471.7197,
+    "939d5209": 510.0547,
+    "b46b13be": 105.2236,
     "120ea7cd": 476.6911,
+    "6600900f": 88.0294,
+    "90ef3f19": 70.9692,
+    "331d73ad": 184.8005,
+    "d3a0ba3b": 471.7197,
     "bf9ca164": 360.0,
     "0de3cfc7": 530.2091,
     "3d0bcb21": 258.5245,
     "cd2947ba": 445.0,
     "67fff679": 408.1475,
+    "d4550ec7": 498.0,
     "ca935182": 406.6234,
     "f3b19970": 470.0,
-    "17574725": 461.0119,
     "6b00e791": 68.7,
+    "cea0e51d": 68.676,
+    "524425c5": 102.0,
+    "17574725": 461.0119,
+    "a36773da": 178.3345,
+    "e2fa380a": 101.8306,
+    "bd32908e": 85.0399,
+    "9cc70c63": 493.6621,
     "446c8a98": 467.3363,
-    "cea0e51d": 68.676
+    "232efd0e": 84.5,
+    "e32c2a23": 177.0
   }
 }

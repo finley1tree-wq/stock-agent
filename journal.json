@@ -57749,7 +57749,7 @@
     "code_version": "4ec8193",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.28
+    "ret_now": -0.14
   },
   {
     "symbol": "GS",
@@ -57858,7 +57858,7 @@
     "code_version": "f62aade",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02
+    "ret_now": 0.16
   },
   {
     "symbol": "IBM",
@@ -57964,7 +57964,7 @@
     "code_version": "c711a28",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": -0.25
   },
   {
     "symbol": "HD",
@@ -57991,5 +57991,121 @@
     "hour_et": 12,
     "code_version": "93d1e38",
     "hold_minutes": 70
+  },
+  {
+    "symbol": "IBP",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.719556,
+    "price": 183.85,
+    "date": "2026-10-09",
+    "time_et": "13:04",
+    "ts": 1791565461,
+    "why": "Low-in-range entry on congress-backed homebuilder name, avoids chasing [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Lloyd Doggett bought PPG & congress net buy pressure shows IBP at 1.0; IBP at 20.2% of day range (low), ATR 4.66%",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 183.78,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -8.89,
+    "hour_et": 13,
+    "code_version": "ab5b4b0",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "PPG",
+    "notional": 500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.762722,
+    "price": 104.98,
+    "date": "2026-10-09",
+    "time_et": "13:04",
+    "ts": 1791565461,
+    "why": "Named congress filing, mid-range entry, not chasing [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Lloyd Doggett (Rep) bought PPG $1,001-$15,000 disclosed 2026-10-05; PPG at 40.1% of day range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 104.94,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -0.1,
+    "hour_et": 13,
+    "code_version": "ab5b4b0",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CCJ",
+    "notional": 375.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.277645,
+    "price": 87.67,
+    "date": "2026-10-09",
+    "time_et": "13:04",
+    "ts": 1791565461,
+    "why": "Nuclear exposure with evidence of past missed upside, moderate size given momentum-only concern mitigated by prior miss data [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "news"
+    ],
+    "evidence": "CCJ at 58.1% of day range, ATR 3.7%, 5d momentum +2.88%, biggest_misses shows CCJ fwd_pct +7.01% after being passed over last time",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 87.63,
+    "sector": "nuclear",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -10.05,
+    "hour_et": 13,
+    "code_version": "ab5b4b0",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "LMT",
+    "notional": 375.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.736835,
+    "price": 508.93,
+    "date": "2026-10-09",
+    "time_et": "13:04",
+    "ts": 1791565461,
+    "why": "Defense sector diversification alongside NOC, moderate size low-vol name [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "momentum",
+      "track_record"
+    ],
+    "evidence": "LMT defense sector track record avg_ret 0.0% hit_rate 0.57 over 100 trades; LMT at 70.9% of day range, ATR 1.99% low volatility",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 508.73,
+    "sector": "defense",
+    "congress_buying": false,
+    "momentum_1m_at_entry": -4.03,
+    "hour_et": 13,
+    "code_version": "ab5b4b0",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
