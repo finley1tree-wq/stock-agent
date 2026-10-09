@@ -1,17 +1,3 @@
-lesson: Congress-disclosure-backed breadth buys sized $2k each with explicit stop_loss keep working per track record; use buy_limit resting orders for names high in day range (CHRW, HUBB) rather than chasing at market.
-  (dropped IBM: sold 29 min ago, cooling off)
-  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped AMGN: 95% up today's range — resting a limit at $408.15 instead of chasing)
-  (dropped trigger HUBB buy_limit: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped trigger CHRW buy_limit: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped trigger ESE buy_limit: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped trigger IBM stop_loss: not held)
-  (dropped trigger AMGN stop_loss: not held)
-  (dropped trigger PPG stop_loss: not held)
-~ WORKING buy_limit $500.00 AMGN @ $408.15 until 2026-10-09 — wanted it, but not at the high — resting at $408.15. congress pressure plus momentum, though near day high (94.6%) - will use limit-like sizing to avoid overpaying [probation at 25% size (no hour or signal lens has proven itself yet)]
-portfolio: equity $25409.99 (+1.64% on $25000.00 in) · cash $19960.72 · realised +460.72
-Decision: nothing at this check. 9 standing order(s) working.
-  (cancelled 2 standing order(s) on TSM: position closed)
 - SELL 100% TSM [stop_loss @ $451.77] -> $1954.54 (-2.27%) — Protective stop ~2.2% below entry
 ## 2026-10-09 10:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
@@ -398,3 +384,17 @@ Decision: nothing at this check. 10 standing order(s) working.
 - SELL 100% PPG [time stop] -> $498.84 (-0.23%) — held 90 min, the 90-minute limit: out regardless
 - SELL 100% LMT [time stop] -> $373.62 (-0.37%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-09 14:34 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 14:41 ET (Friday) — week 2026-W41 — budget left $25000.00 (today $33925.00 put to work, 29 buys, 28 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0, so there is nothing to protect or sell. All prior positions were already closed today (sold_today lists 18 names, all within cooldown). No legal action remains except waiting for the next window; will reassess at next check for any remaining sell/trigger needs, though with zero holdings none exist now.
+lesson: Past 14:00 no_new_entries cutoff with zero holdings means truly nothing to do - don't force orders that guardrails will drop.
+portfolio: equity $25435.03 (+1.74% on $25000.00 in) · cash $25435.03 · realised +435.03
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
