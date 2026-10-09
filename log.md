@@ -23896,3 +23896,17 @@ lesson: Past the no_new_entries_after_et cutoff with zero holdings, there is gen
 portfolio: equity $25435.03 (+1.74% on $25000.00 in) · cash $25435.03 · realised +435.03
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-09 15:42 ET (Friday) — week 2026-W41 — budget left $25000.00 (today $33925.00 put to work, 29 buys, 28 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain: It's 15:42 ET, no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0 - nothing to protect and no legal buys to place. Market closes at 16:00 and checks_left_today is 0, so there is genuinely nothing actionable this check.
+lesson: Past the no_new_entries cutoff with zero holdings and zero checks left today, there is nothing to do - don't force orders that guardrails will drop.
+portfolio: equity $25435.03 (+1.74% on $25000.00 in) · cash $25435.03 · realised +435.03
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
