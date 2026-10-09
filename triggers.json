@@ -1,42 +1,6 @@
 {
  "orders": [
   {
-   "id": "79bb2972",
-   "ticker": "AVGO",
-   "kind": "stop_loss",
-   "price": 341.1,
-   "status": "cancelled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "protective stop",
-   "evidence": "ATR 2.73%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "304ae1e6",
-   "ticker": "PG",
-   "kind": "stop_loss",
-   "price": 141.0,
-   "status": "cancelled",
-   "created": "2026-10-02 09:32",
-   "created_ts": 1790947953,
-   "why": "protective stop",
-   "evidence": "ATR 1.55%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "41eb7af2",
    "ticker": "CRWD",
    "kind": "stop_loss",
@@ -7390,7 +7354,41 @@
    ],
    "good_until": "2026-10-14",
    "usd": 500.0
+  },
+  {
+   "id": "bf9ca164",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 360.0,
+   "status": "working",
+   "created": "2026-10-09 12:48",
+   "created_ts": 1791564527,
+   "why": "re-enter AVGO on a dip after cooldown, congress-backed name",
+   "evidence": "Rep disclosed buy pressure score 1.0 on AVGO; cooling off ends in 19min, resting limit below current 362.99 to get a better entry",
+   "signals": [
+    "congress",
+    "track_record"
+   ],
+   "good_until": "2026-10-09",
+   "usd": 2000.0
+  },
+  {
+   "id": "cd2947ba",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 445.0,
+   "status": "working",
+   "created": "2026-10-09 12:48",
+   "created_ts": 1791564527,
+   "why": "re-enter TSM low in day range after cooldown expires",
+   "evidence": "TSM congress pressure score 1.0, currently at 6% of day range (near low) at 450.65, cooldown 10min left",
+   "signals": [
+    "congress",
+    "insider"
+   ],
+   "good_until": "2026-10-09",
+   "usd": 2000.0
   }
  ],
- "updated": "2026-10-09 12:45"
+ "updated": "2026-10-09 12:48"
 }

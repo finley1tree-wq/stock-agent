@@ -23752,3 +23752,20 @@ Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $22965.91 this week
   (cancelled 2 standing order(s) on HD: position closed)
 - SELL 100% HD [take_profit @ $291.86] -> $551.38 (+0.25%) — close 100% at +0.3% over the average cost
 ## 2026-10-09 12:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-09 12:48 ET (Friday) — week 2026-W41 — budget left $23517.29 (today $32175.00 put to work, 25 buys, 21 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain: Only 3 of min 8 positions held and cash_idle_pct is 94%. Many strong congress-backed names (GS, AVGO, TSM, IBM, HD, KO) are in cooldown from being sold today, so I'll deploy new capital into fresh congress-pressure names available now (ACN, PPG) plus buy_limit triggers to re-enter the cooling-off names at better levels once cooldown ends, consistent with the lesson pattern that's been realizing positive returns this session.
+lesson: Many good congress-backed names are stuck in rebuy cooldown after same-day sells; use buy_limit triggers below current price timed for when cooldown expires rather than market orders, to both respect the cooldown and get a better entry.
+  (dropped GS: sold 44 min ago, cooling off)
+  (dropped trigger IBM buy_limit: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped trigger HD buy_limit: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+~ WORKING buy_limit $2000.00 AVGO @ $360.00 until 2026-10-09 — re-enter AVGO on a dip after cooldown, congress-backed name
+~ WORKING buy_limit $2000.00 TSM @ $445.00 until 2026-10-09 — re-enter TSM low in day range after cooldown expires
+portfolio: equity $25434.57 (+1.74% on $25000.00 in) · cash $23936.56 · realised +436.56
+Decision: nothing at this check. 15 standing order(s) working.
