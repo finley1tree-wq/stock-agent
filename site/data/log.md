@@ -1,6 +1,3 @@
-
-## 2026-10-08 11:16 ET (Thursday) — week 2026-W41 — budget left $21770.91 (today $13000.00 put to work, 9 buys, 4 sells) — SIM (pretend money) via sim
-  (COE excluded: too thinly traded ($0.4M a day) — 51Talk Online Education Group)
   (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
   (TXTM excluded: too thinly traded ($0.1M a day) — ProText Mobility, Inc.)
   (UXIN excluded: too thinly traded ($0.3M a day) — Uxin Limited)
@@ -398,3 +395,6 @@ lesson: Congress-disclosure-backed breadth buys sized $2-3.5k each, each paired 
 ~ WORKING buy_limit $500.00 TSM @ $448.41 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25416.97 (+1.67% on $25000.00 in) · cash $13919.27 · realised +419.27
 Done: 0 sell(s), 4 buy(s); 14 order(s) working; budget left $13500.00 this week
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [take_profit @ $225.79] -> $3010.87 (+0.36%) — close 100% at +0.3% over the average cost
+## 2026-10-09 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders

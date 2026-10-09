@@ -1,11 +1,11 @@
 {
   "week": "2026-W41",
-  "spent": 11500.0,
+  "spent": 8489.13,
   "deployed": 118500.0,
   "by_ticker": {
     "ACN": 29.57,
     "NFLX": 12.29,
-    "IBM": 3019.44,
+    "IBM": 8.57,
     "AMGN": 2.31,
     "TSM": 2009.81,
     "HUBB": 6.39,
@@ -2574,14 +2574,37 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "IBM",
+      "side": "sell",
+      "qty": 13.334816,
+      "status": "filled",
+      "price": 225.79,
+      "proceeds": 3010.87,
+      "realized_pnl": 10.87,
+      "realized_pct": 0.36,
+      "date": "2026-10-09",
+      "time_et": "09:35",
+      "ts": 1791552900,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $224.97",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-09",
-  "spent_today": 11500.0,
+  "spent_today": 8489.13,
   "deployed_today": 11500.0,
   "orders_today": 4,
-  "sells_today": 0,
-  "sold_today": [],
+  "sells_today": 1,
+  "sold_today": [
+    "IBM"
+  ],
   "sold_ts": {
     "MSFT": 1791476257,
     "TSM": 1791479009,
@@ -2595,7 +2618,7 @@
     "ACN": 1791297612,
     "HD": 1791467242,
     "GS": 1791479802,
-    "IBM": 1791480751,
+    "IBM": 1791552940,
     "AMGN": 1791476471,
     "HUBB": 1791483034,
     "NOC": 1791477855,
@@ -2604,8 +2627,8 @@
     "GOOGL": 1791483976,
     "AMZN": 1791483976
   },
-  "last_publish_ts": 1791552751,
-  "last_check_ts": 1791552903,
+  "last_publish_ts": 1791552939,
+  "last_check_ts": 1791552985,
   "exp_arm": {
     "GS": {
       "params": {
@@ -2650,18 +2673,15 @@
   "autopiloted": false,
   "book_px": {
     "dc2e30c5": 886.8527,
+    "ca935182": 406.6234,
     "43a4d06f": 294.2103,
     "fb17f10b": 463.4634,
-    "ef291299": 225.5774,
-    "ca935182": 406.6234,
     "baaa4ec2": 70.914,
-    "e6905e99": 220.0,
-    "6d6d4416": 287.0,
     "75dad4b8": 452.0,
+    "6d6d4416": 287.0,
     "29b337d4": 865.0,
-    "d0b8212a": 858.256,
-    "0fffcc6f": 218.2209,
+    "c473628d": 448.4116,
     "266baf51": 284.695,
-    "c473628d": 448.4116
+    "d0b8212a": 858.256
   }
 }
