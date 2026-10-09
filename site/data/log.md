@@ -1,6 +1,3 @@
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-brain: Only 2 positions held vs min_positions=8, cash_idle_pct=78%, so the clear action is to deploy more names in size. I'm adding 4 congress-backed names (IBP, NOC, KO, PG) at mid-range entries with protective stops, avoiding chasing names at day highs (AMGN/NFLX are already resting as buy_limits). This gets me to 6 positions with real money working, consistent with past lessons that congress-disclosure breadth entries graded positively.
-lesson: Keep building toward min_positions using congress-pressure names at mid-range entries with explicit stop_loss, sized $2000-2500 each, rather than leaving cash idle when below target count.
 - BUY $2000.00 IBP [filled] ['congress', 'track_record'] — Congress-linked homebuilder name at day low, cheap entry, consistent with breadth-building lesson | evidence: Congress net buy pressure 1.0 (Lloyd Doggett history), IBP down 9.49% 1m, 0% of day range - deep value entry near low
 - BUY $2000.00 NOC [filled] ['congress', 'track_record'] — Defense name with congress pressure score 2.0, reasonable entry point mid-range | evidence: Congress net buy pressure 2.0, NOC at 53.8% of day range, defense sector with historical track record avg_ret -0.01 but decent hit_rate 0.56
 - BUY $2500.00 KO [filled] ['congress', 'news'] — Defensive consumer staple with congress pressure, mid-range entry avoids chasing | evidence: Congress net buy pressure 1.0, KO at 49.1% of day range, stable defensive name, already in bought_this_week at $6351
@@ -398,3 +395,6 @@ Decision: nothing at this check. 24 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% NOC [time stop] -> $498.65 (-0.27%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-09 13:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CCJ: position closed)
+- SELL 100% CCJ [take_profit @ $88.03] -> $376.56 (+0.42%) — close 100% at +0.4% over the average cost
+## 2026-10-09 13:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
