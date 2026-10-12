@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 2286.57,
+  "spent": 1536.32,
   "deployed": 38550.0,
   "by_ticker": {
     "TSM": 770.89,
@@ -8,8 +8,7 @@
     "AVGO": 17.39,
     "CVX": 776.4,
     "AMGN": 1.58,
-    "SNOW": 5.38,
-    "META": 750.0
+    "SNOW": 5.38
   },
   "deployed_by_ticker": {
     "TSM": 4300.0,
@@ -1084,13 +1083,34 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 1.005215,
+      "status": "filled",
+      "price": 746.36,
+      "proceeds": 750.25,
+      "realized_pnl": 0.25,
+      "realized_pct": 0.03,
+      "date": "2026-10-12",
+      "time_et": "12:50",
+      "ts": 1791823800,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $746.11",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 2286.57,
+  "spent_today": 1536.32,
   "deployed_today": 38550.0,
   "orders_today": 27,
-  "sells_today": 22,
+  "sells_today": 23,
   "sold_today": [
     "ACN",
     "IBM",
@@ -1110,7 +1130,7 @@
     "IBM": 1791813178,
     "KO": 1791821194,
     "AMGN": 1791822444,
-    "META": 1791819326,
+    "META": 1791823855,
     "SNOW": 1791823627,
     "CVX": 1791818733,
     "MSFT": 1791815796,
@@ -1119,8 +1139,8 @@
     "TSM": 1791820881,
     "AVGO": 1791818733
   },
-  "last_publish_ts": 1791823675,
-  "last_check_ts": 1791823809,
+  "last_publish_ts": 1791823855,
+  "last_check_ts": 1791823901,
   "exp_arm": {
     "CVX": {
       "params": {
@@ -1156,13 +1176,10 @@
   "autopiloted": true,
   "book_px": {
     "e3ac6ff4": 215.148,
-    "0cecb6b0": 747.106,
-    "94dab6ac": 748.5945,
     "7318acd4": 215.468,
-    "cb40b966": 449.1684,
     "ecb838be": 444.8995,
+    "cb40b966": 449.1684,
     "eafbd0ac": 434.5115,
-    "9653b4b7": 208.5597,
-    "de7f2031": 723.7267
+    "9653b4b7": 208.5597
   }
 }
