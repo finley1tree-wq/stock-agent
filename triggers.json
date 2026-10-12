@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "d26c5fbe",
-   "ticker": "PG",
-   "kind": "buy_limit",
-   "price": 141.1156,
-   "status": "cancelled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $145.48",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-10",
-   "usd": 500.0,
-   "closed": "2026-10-05 10:38",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "2afc9465",
-   "ticker": "ACN",
-   "kind": "take_profit",
-   "price": 199.9356,
-   "status": "cancelled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "close 100% at +0.6% over the average cost",
-   "evidence": "average cost $198.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-10",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-05 11:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "69ed8db9",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 192.8748,
-   "status": "cancelled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $198.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-10",
-   "usd": 500.0,
-   "closed": "2026-10-05 11:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "ec4617c0",
    "ticker": "MSFT",
    "kind": "take_profit",
@@ -7417,7 +7360,58 @@
    ],
    "good_until": "2026-10-17",
    "usd": 500.0
+  },
+  {
+   "id": "b6d94217",
+   "ticker": "SNOW",
+   "kind": "take_profit",
+   "price": 360.1248,
+   "status": "working",
+   "created": "2026-10-12 13:33",
+   "created_ts": 1791826433,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $358.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "32ad1cab",
+   "ticker": "SNOW",
+   "kind": "stop_loss",
+   "price": 354.9245,
+   "status": "working",
+   "created": "2026-10-12 13:33",
+   "created_ts": 1791826433,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $358.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6f886b4d",
+   "ticker": "SNOW",
+   "kind": "buy_limit",
+   "price": 347.8808,
+   "status": "working",
+   "created": "2026-10-12 13:33",
+   "created_ts": 1791826433,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $358.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-12 13:30"
+ "updated": "2026-10-12 13:33"
 }
