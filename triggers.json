@@ -1,114 +1,6 @@
 {
  "orders": [
   {
-   "id": "fe5e58ef",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 203.5,
-   "status": "cancelled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "protect new ACN position",
-   "evidence": "ATR 4.632%, protective stop",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:47",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ef1da414",
-   "ticker": "HLI",
-   "kind": "stop_loss",
-   "price": 127.2,
-   "status": "cancelled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "protect new HLI position",
-   "evidence": "ATR 3.143%, protective stop",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:46",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "8bf7d742",
-   "ticker": "FWONK",
-   "kind": "stop_loss",
-   "price": 90.0,
-   "status": "cancelled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "protect new FWONK position",
-   "evidence": "ATR 2.456%, protective stop",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 11:09",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "eed8944d",
-   "ticker": "SKWD",
-   "kind": "stop_loss",
-   "price": 53.85,
-   "status": "cancelled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "protect new SKWD position",
-   "evidence": "ATR 2.355%, protective stop",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:41",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "a89623be",
-   "ticker": "TTD",
-   "kind": "stop_loss",
-   "price": 11.55,
-   "status": "cancelled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "protect new TTD position",
-   "evidence": "ATR 4.187%, protective stop",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:47",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "87b26327",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 460.0,
-   "status": "cancelled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "protect new NOC position",
-   "evidence": "ATR 2.463%, protective stop",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:42",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "2b9173f0",
    "ticker": "IBM",
    "kind": "stop_loss",
@@ -7417,7 +7309,111 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-09 14:34",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "8f38cf49",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 439.0,
+   "status": "working",
+   "created": "2026-10-12 09:32",
+   "created_ts": 1791811965,
+   "why": "Protective stop ~2.6% below entry",
+   "evidence": "TSM ATR 2.392%, entry ~450.88",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-12",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c5c98860",
+   "ticker": "CVX",
+   "kind": "buy_limit",
+   "price": 215.2153,
+   "status": "working",
+   "created": "2026-10-12 09:32",
+   "created_ts": 1791811965,
+   "why": "wanted it, but not at the high \u2014 resting at $215.22. Named congress buy pressure plus strong 1d/5d momentum confirms the thesis; auto_bracket stop protects downside",
+   "evidence": "Rep. Maria Elvira Salazar filed a CVX buy disclosed 2026-10-07; CVX +1.85% today, 96.7% of day range, congress_net_buy_pressure 1.0",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-12",
+   "usd": 2800.0
+  },
+  {
+   "id": "5f82d40e",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 213.08,
+   "status": "working",
+   "created": "2026-10-12 09:32",
+   "created_ts": 1791811965,
+   "why": "wanted it, but not at the high \u2014 resting at $213.08. Named congress pressure plus strong recent momentum; counterfactual data flags ACN as a repeated miss when skipped",
+   "evidence": "Rep. Lloyd Doggett disclosed HD buy; ACN has congress_net_buy_pressure 1.0 and +10.39% 5d / +17.09% 1m momentum, counterfactual biggest_miss showed ACN +22.91% fwd when skipped",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-12",
+   "usd": 2200.0
+  },
+  {
+   "id": "5dc93571",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 228.2792,
+   "status": "working",
+   "created": "2026-10-12 09:32",
+   "created_ts": 1791811965,
+   "why": "wanted it, but not at the high \u2014 resting at $228.28. Counterfactual data flags IBM as a recently missed name; current momentum turning positive after a 1m pullback",
+   "evidence": "IBM +0.83% 1d, +3.36% 5d, 88.4% of day range; counterfactual biggest_miss showed IBM +6.26% fwd when skipped with -6.5% 1m momentum then",
+   "signals": [
+    "track_record",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-12",
+   "usd": 2800.0
+  },
+  {
+   "id": "1f25fbf3",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 452.1651,
+   "status": "working",
+   "created": "2026-10-12 09:32",
+   "created_ts": 1791811965,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $450.97",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "74503529",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 437.4409,
+   "status": "working",
+   "created": "2026-10-12 09:32",
+   "created_ts": 1791811965,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $450.97",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-09 15:42"
+ "updated": "2026-10-12 09:32"
 }

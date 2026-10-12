@@ -1,36 +1,3 @@
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
-  (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
-brain: Below min_positions (2 of 8) with 84% cash idle - the clearest action signal per owner instructions. Adding congress-disclosure-backed names (AMGN, PPG, HUBB) with concrete filing evidence, sized $2500 each per past_lessons guidance, each with explicit protective stop_loss since track record shows risk_management/stop-backed entries have 0.19% avg return and 88% hit rate vs weaker unprotected signals.
-lesson: Congress-disclosure-backed buys sized ~$2500 with explicit stop_loss remain the fastest documented path to min_positions; keep deploying when cash_idle_pct is high and below target count rather than waiting for a perfect signal.
-  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped HUBB: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped AMGN: 86% up today's range — resting a limit at $408.96 instead of chasing)
-  (dropped trigger AMGN stop_loss: not held)
-  (dropped trigger PPG stop_loss: not held)
-  (dropped trigger HUBB stop_loss: not held)
-~ WORKING buy_limit $625.00 AMGN @ $408.96 until 2026-10-09 — wanted it, but not at the high — resting at $408.96. Congress-backed name with positive momentum, adding to existing resting limits at market since we're below min_positions [probation at 25% size (no hour or signal lens has proven itself y
-portfolio: equity $25403.22 (+1.61% on $25000.00 in) · cash $21415.26 · realised +415.26
-Decision: nothing at this check. 11 standing order(s) working.
-- BUY $500.00 AMGN [buy_limit @ $408.83] — wanted it, but not at the high — resting at $408.83. Named congress buyer plus clean uptrend, adding to existing resting limits at a market entry since momentum is solid [probation at 25% size (no hour or signal lens has proven itself yet)]
-## 2026-10-09 10:48 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-  (cancelled 2 standing order(s) on GS: position closed)
-- SELL 100% GS [take_profit @ $886.85] -> $3508.13 (+0.23%) — close 100% at +0.2% over the average cost
-## 2026-10-09 10:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-09 10:52 ET (Friday) — week 2026-W41 — budget left $24004.12 (today $21000.00 put to work, 10 buys, 8 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain: Only 2 of 8 min_positions held with 96% cash idle - deploy toward breadth per persistent track record evidence (congress-backed breadth buys at $2-3k each with stops have been the consistent winning pattern across today's checks). Picked names with concrete congress filings (IBM/Doggett, MSFT/Fields), momentum not yet extended (AVGO, UNH low-in-range, NOC), and NEM for gold sector diversification backed by strong historical sector performance. Avoided chasing names above 85% of day range per guardrail.
-lesson: Congress-disclosure-backed breadth buys sized $2-2.5k with explicit stops keep closing the min_positions gap; prioritize named filings and mid-range entries over bare pressure scores.
-  (dropped UNH: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped MSFT: 93% up today's range — resting a limit at $530.21 instead of chasing)
-- BUY $625.00 IBM [filled] ['congress', 'track_record'] — Named congress filing plus decent track_record signal bucket (avg_ret 0.09%, hit 0.73) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Lloyd Doggett (D) disclosed IBM buy $1,001-$15,000 filed 2026-10-05; congress_net_buy_pressure IBM=1.0
-- BUY $625.00 AVGO [filled] ['congress', 'momentum'] — Congress pressure plus momentum, entry not chasing (48% of day range) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure AVGO=1.0, 1d +1.16%, 1m +0.97%, mid-range (48% of day range)
 - BUY $500.00 NEM [filled] ['momentum', 'track_record'] — Gold momentum plus historically strong sector performance in backtest priors [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NEM 1d +2.06%, 5d +2.05%, gold sector backtest shows strong 2y/5y sector_performance (114-148% avg_total_return)
 - BUY $500.00 NOC [filled] ['momentum', 'news'] — Defense sector diversifier with strong historical backtest sector performance [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NOC 1d -0.43% but 84.7% of day range, defense sector 2y backtest avg_total_return 137.93%
   (dropped trigger MSFT stop_loss: not held)
@@ -398,3 +365,36 @@ Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-09 16:00 ET — published the session's closing state
 ## 2026-10-12 00:00 ET — published the session's closing state
+
+## 2026-10-12 09:32 ET (Monday) — week 2026-W42 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain: Flat book at 9:32am (SURVIVOR hour) with 100% idle cash - deploying to 8 names using named congress disclosures (Salazar/CVX, Allen/TSM+AVGO, Doggett-adjacent ACN pressure, Taylor/AMGN, Hern/KO) plus two track-record/counterfactual-flagged names (PG, IBM) that counterfactual data shows get missed. Sized ~$2.2-2.8k each, all low-to-mid day range except ACN/CVX which are evidence-backed by fresh filings, with ATR-based protective stops on every position.
+lesson: Hour-09 is a SURVIVOR stage with full-size entries warranted; lean on named congress disclosures (not bare pressure scores) sized $2-3k each to hit min_positions fast while idle cash is 100%.
+  (dropped AVGO: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped AMGN: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped PG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped KO: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+  (dropped CVX: 97% up today's range — resting a limit at $215.22 instead of chasing)
+  (dropped ACN: 95% up today's range — resting a limit at $213.08 instead of chasing)
+  (dropped IBM: 88% up today's range — resting a limit at $228.28 instead of chasing)
+- BUY $2800.00 TSM [filled] ['congress', 'track_record'] — Low-in-range entry on a name with a named congress buy and decent disclosure track record | evidence: Rep. Rick W. Allen disclosed TSM buy 2026-09-22 (leaderboard avg_excess 2.76%, best AMD +13.2%); TSM pulled back -7.19% 1m, now 32.9% of day range (not chasing)
+  (dropped trigger CVX stop_loss: not held)
+  (dropped trigger ACN stop_loss: not held)
+  (dropped trigger AVGO stop_loss: not held)
+  (dropped trigger AMGN stop_loss: not held)
+  (dropped trigger PG stop_loss: not held)
+  (dropped trigger KO stop_loss: not held)
+  (dropped trigger IBM stop_loss: not held)
+~ WORKING stop_loss 100% TSM @ $439.00 until 2026-10-12 — Protective stop ~2.6% below entry
+~ WORKING buy_limit $2800.00 CVX @ $215.22 until 2026-10-12 — wanted it, but not at the high — resting at $215.22. Named congress buy pressure plus strong 1d/5d momentum confirms the thesis; auto_bracket stop protects downside
+~ WORKING buy_limit $2200.00 ACN @ $213.08 until 2026-10-12 — wanted it, but not at the high — resting at $213.08. Named congress pressure plus strong recent momentum; counterfactual data flags ACN as a repeated miss when skipped
+~ WORKING buy_limit $2800.00 IBM @ $228.28 until 2026-10-12 — wanted it, but not at the high — resting at $228.28. Counterfactual data flags IBM as a recently missed name; current momentum turning positive after a 1m pullback
+~ WORKING take_profit 100% TSM @ $452.17 until 2026-10-17 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 TSM @ $437.44 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25434.47 (+1.74% on $25000.00 in) · cash $22635.03 · realised +435.03
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $22200.00 this week

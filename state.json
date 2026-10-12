@@ -1,17 +1,66 @@
 {
   "week": "2026-W42",
-  "spent": 0.0,
-  "deployed": 0.0,
-  "by_ticker": {},
-  "deployed_by_ticker": {},
-  "orders": [],
+  "spent": 2800.0,
+  "deployed": 2800.0,
+  "by_ticker": {
+    "TSM": 2800.0
+  },
+  "deployed_by_ticker": {
+    "TSM": 2800.0
+  },
+  "orders": [
+    {
+      "symbol": "TSM",
+      "notional": 2800.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.208836,
+      "price": 450.97,
+      "date": "2026-10-12",
+      "time_et": "09:32",
+      "ts": 1791811965,
+      "why": "Low-in-range entry on a name with a named congress buy and decent disclosure track record",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Rep. Rick W. Allen disclosed TSM buy 2026-09-22 (leaderboard avg_excess 2.76%, best AMD +13.2%); TSM pulled back -7.19% 1m, now 32.9% of day range (not chasing)",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    }
+  ],
   "day": "2026-10-12",
-  "spent_today": 0.0,
-  "deployed_today": 0.0,
-  "orders_today": 0,
+  "spent_today": 2800.0,
+  "deployed_today": 2800.0,
+  "orders_today": 1,
   "sells_today": 0,
   "sold_today": [],
   "sold_ts": {},
-  "last_publish_ts": 1791811829,
-  "last_check_ts": 1791811829
+  "last_publish_ts": 1791811965,
+  "last_check_ts": 1791811965,
+  "exp_arm": {
+    "TSM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    }
+  },
+  "last_bar_ts": 1791811800,
+  "last_decision_ts": 1791811965,
+  "next_check_minutes": 6,
+  "autopiloted": false,
+  "book_px": {
+    "1f25fbf3": 452.1651,
+    "c5c98860": 215.2153,
+    "5dc93571": 228.2792,
+    "5f82d40e": 213.08,
+    "8f38cf49": 439.0,
+    "74503529": 437.4409
+  }
 }
