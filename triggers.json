@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "66b4b298",
-   "ticker": "HD",
-   "kind": "buy_limit",
-   "price": 274.1705,
-   "status": "cancelled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $282.65",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-10",
-   "usd": 500.0,
-   "closed": "2026-10-05 11:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "814bf98e",
    "ticker": "AMD",
    "kind": "buy_limit",
@@ -7102,7 +7083,7 @@
    "ticker": "NEOG",
    "kind": "stop_loss",
    "price": 11.6439,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 12:58",
    "created_ts": 1791824321,
    "why": "close it all at -1.8% under the average cost",
@@ -7112,7 +7093,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 14:12",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "a0a6b22d",
@@ -7419,7 +7402,24 @@
    "usd": 500.0,
    "closed": "2026-10-12 14:00",
    "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
+  },
+  {
+   "id": "4a51b814",
+   "ticker": "NEOG",
+   "kind": "stop_loss",
+   "price": 11.89,
+   "status": "working",
+   "created": "2026-10-12 14:12",
+   "created_ts": 1791828755,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $11.86",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-12 14:11"
+ "updated": "2026-10-12 14:13"
 }
