@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 5561.26,
-  "deployed": 30300.0,
+  "spent": 6311.26,
+  "deployed": 31050.0,
   "by_ticker": {
     "TSM": 2800.0,
     "IBM": 19.61,
@@ -9,14 +9,15 @@
     "NEOG": 750.0,
     "META": 0.13,
     "CVX": 27.99,
-    "KO": 0.23
+    "KO": 0.23,
+    "AMGN": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 2800.0,
     "IBM": 2800.0,
     "ACN": 5100.0,
     "MSFT": 2900.0,
-    "AMGN": 2500.0,
+    "AMGN": 3250.0,
     "KO": 2750.0,
     "AVGO": 2000.0,
     "SNOW": 750.0,
@@ -615,12 +616,34 @@
       ],
       "evidence": "average cost $213.08",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "AMGN",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.804259,
+      "price": 415.68,
+      "date": "2026-10-12",
+      "time_et": "10:57",
+      "ts": 1791817037,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): David J. Taylor; +10.1% over the month; 61% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 5561.26,
-  "deployed_today": 30300.0,
-  "orders_today": 16,
+  "spent_today": 6311.26,
+  "deployed_today": 31050.0,
+  "orders_today": 17,
   "sells_today": 11,
   "sold_today": [
     "ACN",
@@ -644,8 +667,8 @@
     "MSFT": 1791815796,
     "PG": 1791816497
   },
-  "last_publish_ts": 1791816949,
-  "last_check_ts": 1791816949,
+  "last_publish_ts": 1791817037,
+  "last_check_ts": 1791817037,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -674,31 +697,24 @@
         "ratchet": "off"
       }
     },
-    "ACN": {
+    "AMGN": {
       "params": {
         "hold_minutes": 90,
-        "ratchet": "on"
+        "ratchet": "off"
       },
       "tags": {
-        "ratchet": "on"
-      }
-    },
-    "KO": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
+        "ratchet": "off"
       }
     }
   },
   "last_bar_ts": 1791816900,
-  "last_decision_ts": 1791816859,
-  "next_check_minutes": null,
+  "last_decision_ts": 1791817037,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "411afac3": 416.7649,
     "ac6a6536": 12.0362,
+    "f5495c14": 412.9698,
     "1f25fbf3": 452.1651,
     "7c3996f1": 360.3071,
     "d4e1f8ca": 351.0,
@@ -706,6 +722,7 @@
     "dd050fa1": 11.7347,
     "88f765c9": 348.4143,
     "74503529": 437.4409,
+    "c135fcb6": 403.2096,
     "abd80721": 11.5915
   }
 }

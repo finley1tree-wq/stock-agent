@@ -24320,3 +24320,20 @@ Decision: nothing at this check. 15 standing order(s) working.
   (cancelled 2 standing order(s) on ACN: position closed)
 - SELL 100% ACN [stop_loss @ $213.20] -> $2201.27 (+0.06%) — close it all at -1.3% under the average cost
 ## 2026-10-12 10:55 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-12 10:57 ET (Monday) — week 2026-W42 — budget left $19438.74 (today $30300.00 put to work, 16 buys, 11 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxYDG8cQ2czJFsnbrFBF'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $19,439 idle, so opened 1: AMGN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 AMGN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer): David J. Taylor; +10.1% over the month; 61% of today's range
+~ WORKING take_profit 100% AMGN @ $416.76 until 2026-10-17 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AMGN @ $412.97 until 2026-10-17 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 AMGN @ $403.21 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25392.44 (+1.57% on $25000.00 in) · cash $19123.78 · realised +423.78
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $18688.74 this week
