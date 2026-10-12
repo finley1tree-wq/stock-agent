@@ -23979,3 +23979,4 @@ Done: 0 sell(s), 1 buy(s); 13 order(s) working; budget left $16500.00 this week
   (dropped ACN: sold 6 min ago, cooling off)
   (dropped ACN: sold 6 min ago, cooling off)
   (dropped ACN: sold 7 min ago, cooling off)
+  (dropped ACN: sold 8 min ago, cooling off)
