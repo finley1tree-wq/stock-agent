@@ -59164,7 +59164,7 @@
     "code_version": "a535744",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": 0.12
   },
   {
     "symbol": "NEOG",
@@ -59311,7 +59311,9 @@
     "code_version": "4a5aeaf",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.21
+    "ret_now": 0.33,
+    "ret_final": 0.33,
+    "ret_src": "realised"
   },
   {
     "symbol": "CVX",
@@ -59364,5 +59366,32 @@
     "hour_et": 11,
     "code_version": "5f1cf5f",
     "hold_minutes": 90
+  },
+  {
+    "symbol": "META",
+    "side": "sell",
+    "qty": 1.005646,
+    "status": "filled",
+    "price": 748.27,
+    "proceeds": 752.5,
+    "realized_pnl": 2.5,
+    "realized_pct": 0.33,
+    "date": "2026-10-12",
+    "time_et": "11:35",
+    "ts": 1791819000,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $745.79",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "e444c8e",
+    "hold_minutes": 6
   }
 ]
