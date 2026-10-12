@@ -1,13 +1,12 @@
 {
   "week": "2026-W42",
-  "spent": 12204.83,
+  "spent": 10201.78,
   "deployed": 17900.0,
   "by_ticker": {
     "TSM": 2800.0,
     "IBM": 19.61,
     "MSFT": 2900.0,
     "AMGN": 2500.0,
-    "KO": 2000.0,
     "AVGO": 2000.0
   },
   "deployed_by_ticker": {
@@ -215,23 +214,46 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "KO",
+      "side": "sell",
+      "qty": 22.545947,
+      "status": "filled",
+      "price": 88.84,
+      "proceeds": 2003.05,
+      "realized_pnl": 3.05,
+      "realized_pct": 0.15,
+      "date": "2026-10-12",
+      "time_et": "10:02",
+      "ts": 1791813600,
+      "why": "close 100% at +0.1% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $88.71",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 12204.83,
+  "spent_today": 10201.78,
   "deployed_today": 17900.0,
   "orders_today": 7,
-  "sells_today": 2,
+  "sells_today": 3,
   "sold_today": [
     "ACN",
-    "IBM"
+    "IBM",
+    "KO"
   ],
   "sold_ts": {
     "ACN": 1791812549,
-    "IBM": 1791813178
+    "IBM": 1791813178,
+    "KO": 1791813767
   },
-  "last_publish_ts": 1791813311,
-  "last_check_ts": 1791813677,
+  "last_publish_ts": 1791813766,
+  "last_check_ts": 1791813766,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -284,23 +306,20 @@
   "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
-    "91492cb0": 88.8431,
-    "1f25fbf3": 452.1651,
     "9d01af1f": 540.4177,
-    "5d85235d": 416.2436,
     "2cc692e2": 215.4408,
-    "7c3996f1": 360.3071,
+    "1f25fbf3": 452.1651,
     "c5c98860": 215.2153,
-    "94ae5bbe": 535.6954,
+    "7c3996f1": 360.3071,
     "5f82d40e": 213.08,
+    "5d85235d": 416.2436,
+    "94ae5bbe": 535.6954,
     "357d942c": 406.0,
-    "ebd564d3": 86.7,
     "d4e1f8ca": 351.0,
     "8f38cf49": 439.0,
-    "bcc4809c": 522.8979,
     "4a4f715b": 402.7052,
-    "fcc75237": 86.0487,
     "88f765c9": 348.4143,
-    "74503529": 437.4409
+    "74503529": 437.4409,
+    "bcc4809c": 522.8979
   }
 }

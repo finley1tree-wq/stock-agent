@@ -1,6 +1,3 @@
-~ WORKING buy_limit $500.00 TSM @ $439.01 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25422.70 (+1.69% on $25000.00 in) · cash $17549.82 · realised +424.82
-Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $17130.55 this week
   (cancelled 2 standing order(s) on NFLX: position closed)
 - SELL 100% NFLX [stop_loss @ $70.93] -> $3500.77 (+0.02%) — close it all at -0.6% under the average cost
   (cancelled 2 standing order(s) on NOC: position closed)
@@ -398,3 +395,6 @@ lesson: At hour-09 SURVIVOR stage, deploy multiple named-congress-backed positio
 ~ WORKING buy_limit $500.00 AVGO @ $348.41 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25430.73 (+1.72% on $25000.00 in) · cash $13230.20 · realised +430.20
 Done: 0 sell(s), 3 buy(s); 18 order(s) working; budget left $12795.17 this week
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [take_profit @ $88.84] -> $2003.05 (+0.15%) — close 100% at +0.1% over the average cost
+## 2026-10-12 10:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
