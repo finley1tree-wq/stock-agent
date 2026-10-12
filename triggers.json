@@ -6916,7 +6916,7 @@
    "ticker": "NEOG",
    "kind": "take_profit",
    "price": 12.0362,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-12 10:05",
    "created_ts": 1791813936,
    "why": "close 100% at +0.7% over the average cost",
@@ -6926,14 +6926,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 10:59"
   },
   {
    "id": "dd050fa1",
    "ticker": "NEOG",
    "kind": "stop_loss",
    "price": 11.7347,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 10:05",
    "created_ts": 1791813936,
    "why": "close it all at -1.8% under the average cost",
@@ -6943,14 +6944,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 10:59",
+   "cancel_reason": "position closed"
   },
   {
    "id": "abd80721",
    "ticker": "NEOG",
    "kind": "buy_limit",
    "price": 11.5915,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 10:05",
    "created_ts": 1791813936,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6960,7 +6963,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-12 10:59",
+   "cancel_reason": "position closed"
   },
   {
    "id": "1e058b3e",
@@ -7408,5 +7413,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-12 10:57"
+ "updated": "2026-10-12 11:00"
 }

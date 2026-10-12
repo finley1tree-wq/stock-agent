@@ -1,12 +1,11 @@
 {
   "week": "2026-W42",
-  "spent": 6311.26,
+  "spent": 5555.53,
   "deployed": 31050.0,
   "by_ticker": {
     "TSM": 2800.0,
     "IBM": 19.61,
     "AVGO": 2000.0,
-    "NEOG": 750.0,
     "META": 0.13,
     "CVX": 27.99,
     "KO": 0.23,
@@ -638,13 +637,34 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "NEOG",
+      "side": "sell",
+      "qty": 62.787762,
+      "status": "filled",
+      "price": 12.04,
+      "proceeds": 755.73,
+      "realized_pnl": 5.73,
+      "realized_pct": 0.76,
+      "date": "2026-10-12",
+      "time_et": "10:59",
+      "ts": 1791816900,
+      "why": "close 100% at +0.7% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $11.95",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 6311.26,
+  "spent_today": 5555.53,
   "deployed_today": 31050.0,
   "orders_today": 17,
-  "sells_today": 11,
+  "sells_today": 12,
   "sold_today": [
     "ACN",
     "IBM",
@@ -654,7 +674,8 @@
     "SNOW",
     "CVX",
     "MSFT",
-    "PG"
+    "PG",
+    "NEOG"
   ],
   "sold_ts": {
     "ACN": 1791816949,
@@ -665,10 +686,11 @@
     "SNOW": 1791815491,
     "CVX": 1791815537,
     "MSFT": 1791815796,
-    "PG": 1791816497
+    "PG": 1791816497,
+    "NEOG": 1791817166
   },
-  "last_publish_ts": 1791817037,
-  "last_check_ts": 1791817125,
+  "last_publish_ts": 1791817166,
+  "last_check_ts": 1791817214,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -707,22 +729,19 @@
       }
     }
   },
-  "last_bar_ts": 1791816900,
-  "last_decision_ts": 1791817037,
-  "next_check_minutes": 6,
+  "last_bar_ts": 1791817200,
+  "last_decision_ts": 1791817214,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "411afac3": 416.7649,
-    "ac6a6536": 12.0362,
     "f5495c14": 412.9698,
     "1f25fbf3": 452.1651,
     "7c3996f1": 360.3071,
     "d4e1f8ca": 351.0,
     "8f38cf49": 439.0,
-    "dd050fa1": 11.7347,
     "88f765c9": 348.4143,
     "74503529": 437.4409,
-    "c135fcb6": 403.2096,
-    "abd80721": 11.5915
+    "c135fcb6": 403.2096
   }
 }

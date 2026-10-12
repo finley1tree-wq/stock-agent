@@ -1,6 +1,3 @@
-~ WORKING stop_loss 100% TSM @ $439.00 until 2026-10-12 — Protective stop ~2.6% below entry
-~ WORKING buy_limit $2800.00 CVX @ $215.22 until 2026-10-12 — wanted it, but not at the high — resting at $215.22. Named congress buy pressure plus strong 1d/5d momentum confirms the thesis; auto_bracket stop protects downside
-~ WORKING buy_limit $2200.00 ACN @ $213.08 until 2026-10-12 — wanted it, but not at the high — resting at $213.08. Named congress pressure plus strong recent momentum; counterfactual data flags ACN as a repeated miss when skipped
 ~ WORKING buy_limit $2800.00 IBM @ $228.28 until 2026-10-12 — wanted it, but not at the high — resting at $228.28. Counterfactual data flags IBM as a recently missed name; current momentum turning positive after a 1m pullback
 ~ WORKING take_profit 100% TSM @ $452.17 until 2026-10-17 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 TSM @ $437.44 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 AMGN @ $403.21 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25392.44 (+1.57% on $25000.00 in) · cash $19123.78 · realised +423.78
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $18688.74 this week
+  (cancelled 2 standing order(s) on NEOG: position closed)
+- SELL 100% NEOG [take_profit @ $12.04] -> $755.73 (+0.76%) — close 100% at +0.7% over the average cost
+## 2026-10-12 10:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
