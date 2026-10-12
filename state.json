@@ -1,13 +1,13 @@
 {
   "week": "2026-W42",
-  "spent": 3783.47,
+  "spent": 3035.05,
   "deployed": 37800.0,
   "by_ticker": {
     "TSM": 20.89,
     "IBM": 19.61,
     "AVGO": 17.39,
     "CVX": 776.4,
-    "AMGN": 750.0,
+    "AMGN": 1.58,
     "SNOW": 750.0,
     "ACN": 750.0,
     "META": 750.0
@@ -1002,13 +1002,33 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "AMGN",
+      "side": "sell",
+      "qty": 1.804259,
+      "status": "filled",
+      "price": 414.81,
+      "proceeds": 748.42,
+      "realized_pnl": -1.58,
+      "realized_pct": -0.21,
+      "date": "2026-10-12",
+      "time_et": "12:27",
+      "ts": 1791822444,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.19% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 3783.47,
+  "spent_today": 3035.05,
   "deployed_today": 37800.0,
   "orders_today": 26,
-  "sells_today": 19,
+  "sells_today": 20,
   "sold_today": [
     "ACN",
     "IBM",
@@ -1027,7 +1047,7 @@
     "ACN": 1791816949,
     "IBM": 1791813178,
     "KO": 1791821194,
-    "AMGN": 1791814244,
+    "AMGN": 1791822444,
     "META": 1791819326,
     "SNOW": 1791815491,
     "CVX": 1791818733,
@@ -1037,8 +1057,8 @@
     "TSM": 1791820881,
     "AVGO": 1791818733
   },
-  "last_publish_ts": 1791822175,
-  "last_check_ts": 1791822353,
+  "last_publish_ts": 1791822444,
+  "last_check_ts": 1791822444,
   "exp_arm": {
     "AMGN": {
       "params": {
@@ -1093,18 +1113,15 @@
   "book_px": {
     "7318acd4": 215.468,
     "ea022309": 357.9332,
-    "94dab6ac": 748.5945,
-    "f5495c14": 412.9698,
-    "296d3b06": 213.864,
-    "411afac3": 416.7649,
     "0be635b0": 214.9233,
+    "94dab6ac": 748.5945,
+    "296d3b06": 213.864,
     "61d58b2f": 739.8949,
     "7194757c": 363.1227,
     "1e237f63": 211.0639,
     "1fd57899": 350.7908,
-    "c135fcb6": 403.2096,
-    "9653b4b7": 208.5597,
     "de7f2031": 723.7267,
-    "48305fad": 207.4054
+    "48305fad": 207.4054,
+    "9653b4b7": 208.5597
   }
 }
