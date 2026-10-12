@@ -1,18 +1,9 @@
 {
-  "cash": 23153.83764953983,
+  "cash": 23148.457738437944,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W42",
   "positions": {
-    "SNOW": {
-      "qty": 2.0738723621816004,
-      "avg_cost": 361.642314,
-      "opened": "2026-10-12",
-      "last_buy": "2026-10-12",
-      "tranches": 1,
-      "last_buy_ts": 1791818255,
-      "opened_ts": 1791818255
-    },
     "CVX": {
       "qty": 3.48816127829,
       "avg_cost": 215.012994,
@@ -30,6 +21,15 @@
       "tranches": 1,
       "last_buy_ts": 1791822182,
       "opened_ts": 1791822182
+    },
+    "TSM": {
+      "qty": 1.674295605756266,
+      "avg_cost": 447.949572,
+      "opened": "2026-10-12",
+      "last_buy": "2026-10-12",
+      "tranches": 1,
+      "last_buy_ts": 1791823639,
+      "opened_ts": 1791823639
     }
   },
   "fills": [
@@ -24041,7 +24041,29 @@
       "realized_pct": 0.51,
       "type": "sell",
       "date": "2026-10-12 12:44"
+    },
+    {
+      "symbol": "SNOW",
+      "side": "sell",
+      "qty": 2.073872,
+      "status": "filled",
+      "price": 359.05,
+      "proceeds": 744.62,
+      "realized_pnl": -5.38,
+      "realized_pct": -0.72,
+      "type": "sell",
+      "date": "2026-10-12 12:47"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.674296,
+      "price": 447.95,
+      "type": "buy",
+      "date": "2026-10-12 12:47"
     }
   ],
-  "realized_pnl": 403.83764953985684
+  "realized_pnl": 398.45773843797184
 }

@@ -59249,7 +59249,9 @@
     "code_version": "18a7ff4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.58
+    "ret_now": -0.72,
+    "ret_final": -0.72,
+    "ret_src": "realised"
   },
   {
     "symbol": "CVX",
@@ -59425,7 +59427,9 @@
     "code_version": "4a7f97d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.38
+    "ret_now": 0.51,
+    "ret_final": 0.51,
+    "ret_src": "realised"
   },
   {
     "symbol": "KO",
@@ -59609,7 +59613,7 @@
     "code_version": "fd2dd04",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.11
   },
   {
     "symbol": "NEOG",
@@ -59667,7 +59671,7 @@
     "code_version": "15e5541",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02
+    "ret_now": 0.15
   },
   {
     "symbol": "AMGN",
@@ -59719,6 +59723,63 @@
     "evidence": "average cost $213.82",
     "trigger": "take_profit",
     "hour_et": 12,
-    "code_version": "e20db37"
+    "code_version": "e20db37",
+    "hold_minutes": 58
+  },
+  {
+    "symbol": "SNOW",
+    "side": "sell",
+    "qty": 2.073872,
+    "status": "filled",
+    "price": 359.05,
+    "proceeds": 744.62,
+    "realized_pnl": -5.38,
+    "realized_pct": -0.72,
+    "date": "2026-10-12",
+    "time_et": "12:47",
+    "ts": 1791823626,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.70% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 12,
+    "code_version": "aeb4976",
+    "hold_minutes": 89
+  },
+  {
+    "symbol": "TSM",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.674296,
+    "price": 447.95,
+    "date": "2026-10-12",
+    "time_et": "12:47",
+    "ts": 1791823629,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer): Rick W. Allen; +3.4% over the month; 20% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 447.86,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 3.37,
+    "hour_et": 12,
+    "code_version": "aeb4976",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

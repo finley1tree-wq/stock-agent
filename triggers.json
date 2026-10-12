@@ -1,60 +1,6 @@
 {
  "orders": [
   {
-   "id": "4ee4d929",
-   "ticker": "AAPL",
-   "kind": "stop_loss",
-   "price": 332.72,
-   "status": "filled",
-   "created": "2026-10-02 12:02",
-   "created_ts": 1790956933,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $332.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 12:05"
-  },
-  {
-   "id": "1c749079",
-   "ticker": "O",
-   "kind": "stop_loss",
-   "price": 53.95,
-   "status": "filled",
-   "created": "2026-10-02 12:19",
-   "created_ts": 1790957996,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $53.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 12:20"
-  },
-  {
-   "id": "8c0090e7",
-   "ticker": "AVGO",
-   "kind": "stop_loss",
-   "price": 351.0,
-   "status": "cancelled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "Protect against adverse move per auto_bracket rules",
-   "evidence": "ATR 2.666%, protective stop ~1.9% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-05 09:45",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "af28c21c",
    "ticker": "PG",
    "kind": "stop_loss",
@@ -6817,7 +6763,7 @@
    "ticker": "SNOW",
    "kind": "take_profit",
    "price": 363.1227,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 11:17",
    "created_ts": 1791818245,
    "why": "close 100% at +0.4% over the average cost",
@@ -6827,14 +6773,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 12:47",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "ea022309",
    "ticker": "SNOW",
    "kind": "stop_loss",
    "price": 357.9332,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 11:17",
    "created_ts": 1791818245,
    "why": "close it all at -1.0% under the average cost",
@@ -6844,14 +6792,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 12:47",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "1fd57899",
    "ticker": "SNOW",
    "kind": "buy_limit",
    "price": 350.7908,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 11:17",
    "created_ts": 1791818245,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6861,7 +6811,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-12 12:47",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "f1f54a1c",
@@ -7414,7 +7366,58 @@
    ],
    "good_until": "2026-10-17",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "cb40b966",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 449.1684,
+   "status": "working",
+   "created": "2026-10-12 12:47",
+   "created_ts": 1791823629,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $447.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ecb838be",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 444.8995,
+   "status": "working",
+   "created": "2026-10-12 12:47",
+   "created_ts": 1791823629,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $447.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "eafbd0ac",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 434.5115,
+   "status": "working",
+   "created": "2026-10-12 12:47",
+   "created_ts": 1791823629,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $447.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-12 12:44"
+ "updated": "2026-10-12 12:47"
 }

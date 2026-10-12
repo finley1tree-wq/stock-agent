@@ -1,18 +1,18 @@
 {
   "week": "2026-W42",
-  "spent": 2281.19,
-  "deployed": 37800.0,
+  "spent": 2286.57,
+  "deployed": 38550.0,
   "by_ticker": {
-    "TSM": 20.89,
+    "TSM": 770.89,
     "IBM": 19.61,
     "AVGO": 17.39,
     "CVX": 776.4,
     "AMGN": 1.58,
-    "SNOW": 750.0,
+    "SNOW": 5.38,
     "META": 750.0
   },
   "deployed_by_ticker": {
-    "TSM": 3550.0,
+    "TSM": 4300.0,
     "IBM": 2800.0,
     "ACN": 5850.0,
     "MSFT": 2900.0,
@@ -1042,13 +1042,55 @@
       ],
       "evidence": "average cost $213.82",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "SNOW",
+      "side": "sell",
+      "qty": 2.073872,
+      "status": "filled",
+      "price": 359.05,
+      "proceeds": 744.62,
+      "realized_pnl": -5.38,
+      "realized_pct": -0.72,
+      "date": "2026-10-12",
+      "time_et": "12:47",
+      "ts": 1791823626,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.70% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.674296,
+      "price": 447.95,
+      "date": "2026-10-12",
+      "time_et": "12:47",
+      "ts": 1791823629,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): Rick W. Allen; +3.4% over the month; 20% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 2281.19,
-  "deployed_today": 37800.0,
-  "orders_today": 26,
-  "sells_today": 21,
+  "spent_today": 2286.57,
+  "deployed_today": 38550.0,
+  "orders_today": 27,
+  "sells_today": 22,
   "sold_today": [
     "ACN",
     "IBM",
@@ -1069,7 +1111,7 @@
     "KO": 1791821194,
     "AMGN": 1791822444,
     "META": 1791819326,
-    "SNOW": 1791815491,
+    "SNOW": 1791823627,
     "CVX": 1791818733,
     "MSFT": 1791815796,
     "PG": 1791816497,
@@ -1077,36 +1119,9 @@
     "TSM": 1791820881,
     "AVGO": 1791818733
   },
-  "last_publish_ts": 1791823491,
-  "last_check_ts": 1791823537,
+  "last_publish_ts": 1791823629,
+  "last_check_ts": 1791823629,
   "exp_arm": {
-    "AMGN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "SNOW": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "ACN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "CVX": {
       "params": {
         "hold_minutes": 90,
@@ -1124,21 +1139,30 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "TSM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1791823500,
-  "last_decision_ts": 1791823436,
-  "next_check_minutes": null,
+  "last_decision_ts": 1791823629,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "e3ac6ff4": 215.148,
     "7318acd4": 215.468,
-    "ea022309": 357.9332,
     "94dab6ac": 748.5945,
+    "cb40b966": 449.1684,
+    "ecb838be": 444.8995,
     "61d58b2f": 739.8949,
-    "7194757c": 363.1227,
-    "1fd57899": 350.7908,
-    "de7f2031": 723.7267,
-    "9653b4b7": 208.5597
+    "eafbd0ac": 434.5115,
+    "9653b4b7": 208.5597,
+    "de7f2031": 723.7267
   }
 }

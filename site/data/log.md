@@ -1,22 +1,3 @@
-
-## 2026-10-12 11:29 ET (Monday) — week 2026-W42 — budget left $22707.50 (today $33300.00 put to work, 20 buys, 15 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxafXqdQFJV6v2MjVpth'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25392.44 (+1.57% on $25000.00 in) · cash $23142.53 · realised +392.53
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-12 11:32 ET (Monday) — week 2026-W42 — budget left $22707.50 (today $33300.00 put to work, 20 buys, 15 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
   (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
   (LCU excluded: not ordinary shares (ecnquote))
@@ -398,3 +379,22 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on ACN: position closed)
 - SELL 100% ACN [take_profit @ $214.92] -> $753.86 (+0.51%) — close 100% at +0.5% over the average cost
 ## 2026-10-12 12:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- SELL 100% SNOW [time stop] -> $744.62 (-0.72%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-12 12:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-12 12:47 ET (Monday) — week 2026-W42 — budget left $23463.43 (today $37800.00 put to work, 26 buys, 22 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxgbT2VQ46uKXhax4udJ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,463 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 TSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer): Rick W. Allen; +3.4% over the month; 20% of today's range
+~ WORKING take_profit 100% TSM @ $449.17 until 2026-10-17 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $444.90 until 2026-10-17 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $434.51 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25399.94 (+1.60% on $25000.00 in) · cash $23148.46 · realised +398.46
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22713.43 this week
