@@ -1,6 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on PG: position closed)
-- SELL 100% PG [stop_loss @ $152.63] -> $750.03 (+0.00%) — close it all at -0.5% under the average cost
 ## 2026-10-12 10:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-10-12 10:48 ET (Monday) — week 2026-W42 — budget left $17237.70 (today $29550.00 put to work, 15 buys, 9 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25397.65 (+1.59% on $25000.00 in) · cash $20895.03 · realised +395.03
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [stop_loss @ $448.08] -> $750.28 (+0.04%) — close it all at -0.7% under the average cost
+## 2026-10-12 12:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders

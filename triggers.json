@@ -7319,7 +7319,7 @@
    "ticker": "TSM",
    "kind": "take_profit",
    "price": 449.1283,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 11:53",
    "created_ts": 1791820388,
    "why": "close 100% at +0.3% over the average cost",
@@ -7329,7 +7329,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 12:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "2419e539",
@@ -7355,7 +7357,7 @@
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 434.4727,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 11:53",
    "created_ts": 1791820388,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7365,14 +7367,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-12 12:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "607a4af7",
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 448.3,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-12 11:56",
    "created_ts": 1791820617,
    "why": "close it all at -0.7% under the average cost",
@@ -7382,7 +7386,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 12:01"
   },
   {
    "id": "20f155c1",
@@ -7402,5 +7407,5 @@
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-12 12:00"
+ "updated": "2026-10-12 12:02"
 }
