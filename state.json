@@ -1,12 +1,12 @@
 {
   "week": "2026-W42",
-  "spent": 3785.76,
-  "deployed": 42300.0,
+  "spent": 4535.76,
+  "deployed": 43050.0,
   "by_ticker": {
     "TSM": 770.89,
     "IBM": 19.61,
     "AVGO": 17.39,
-    "CVX": 26.3,
+    "CVX": 776.3,
     "AMGN": 751.58,
     "SNOW": 755.38,
     "NEOG": 750.0,
@@ -23,7 +23,7 @@
     "SNOW": 2250.0,
     "NEOG": 2250.0,
     "META": 3000.0,
-    "CVX": 7950.0,
+    "CVX": 8700.0,
     "PG": 750.0
   },
   "orders": [
@@ -1258,12 +1258,34 @@
       ],
       "evidence": "average cost $747.22",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CVX",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.482815,
+      "price": 215.34,
+      "date": "2026-10-12",
+      "time_et": "13:45",
+      "ts": 1791827142,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +0.6% over the month; 53% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 3785.76,
-  "deployed_today": 42300.0,
-  "orders_today": 32,
+  "spent_today": 4535.76,
+  "deployed_today": 43050.0,
+  "orders_today": 33,
   "sells_today": 25,
   "sold_today": [
     "ACN",
@@ -1293,8 +1315,8 @@
     "TSM": 1791820881,
     "AVGO": 1791818733
   },
-  "last_publish_ts": 1791826887,
-  "last_check_ts": 1791827058,
+  "last_publish_ts": 1791827142,
+  "last_check_ts": 1791827142,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -1341,7 +1363,7 @@
         "ratchet": "off"
       }
     },
-    "META": {
+    "CVX": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -1351,15 +1373,17 @@
       }
     }
   },
-  "last_bar_ts": 1791826800,
-  "last_decision_ts": 1791826968,
-  "next_check_minutes": null,
+  "last_bar_ts": 1791827100,
+  "last_decision_ts": 1791827142,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "06226cae": 215.7987,
     "da9f2ce8": 416.8451,
-    "b6d94217": 360.1248,
     "ecb838be": 444.8995,
+    "b6d94217": 360.1248,
     "f5c3e2b8": 216.4928,
+    "65ec0dfe": 214.1944,
     "cb40b966": 449.1684,
     "3d7275a1": 413.0492,
     "a8c7c838": 11.9465,
@@ -1369,7 +1393,8 @@
     "eafbd0ac": 434.5115,
     "a0a6b22d": 11.5042,
     "27857275": 403.2872,
-    "a35fb982": 208.9283,
-    "6f886b4d": 347.8808
+    "6f886b4d": 347.8808,
+    "8c69297a": 208.8798,
+    "a35fb982": 208.9283
   }
 }
