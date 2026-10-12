@@ -1,122 +1,6 @@
 {
  "orders": [
   {
-   "id": "811e5765",
-   "ticker": "PLD",
-   "kind": "take_profit",
-   "price": 129.4865,
-   "status": "cancelled",
-   "created": "2026-10-02 10:25",
-   "created_ts": 1790951145,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $129.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 11:55",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "31afc90d",
-   "ticker": "PLD",
-   "kind": "buy_limit",
-   "price": 125.3725,
-   "status": "cancelled",
-   "created": "2026-10-02 10:25",
-   "created_ts": 1790951145,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $129.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 11:55",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "cc41423f",
-   "ticker": "CCJ",
-   "kind": "trailing_stop",
-   "price": 85.015,
-   "status": "cancelled",
-   "created": "2026-10-02 10:41",
-   "created_ts": 1790952067,
-   "why": "Lock in gains if CCJ runs, protect against reversal with trailing stop since ratchet arm has 100% win rate in experiment data",
-   "evidence": "CCJ flat at 86.46 near avg cost 86.40, ratchet experiment shows trailing stops beneficial (ratchet on arm net +74.96, win_rate 1.0)",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "trail_pct": 2.0,
-   "high_water": 86.75,
-   "hw_bar_t": 1790952300,
-   "hw_before_bar": 86.46,
-   "closed": "2026-10-02 10:48",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "6b1fc06c",
-   "ticker": "FWONK",
-   "kind": "stop_loss",
-   "price": 89.5,
-   "status": "cancelled",
-   "created": "2026-10-02 10:41",
-   "created_ts": 1790952067,
-   "why": "Tighten protective stop on weakest current position given negative 1-month momentum",
-   "evidence": "FWONK down -0.64% unrealized, already has stop at 90.0 but tightening given -0.24% day move and low momentum (-6.18% 1m)",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 11:09",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "5e16e2ad",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 116.3647,
-   "status": "cancelled",
-   "created": "2026-10-02 10:41",
-   "created_ts": 1790952067,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $115.96",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 11:40",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "4848d50a",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 112.4812,
-   "status": "cancelled",
-   "created": "2026-10-02 10:41",
-   "created_ts": 1790952067,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $115.96",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 11:40",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "49629f0b",
    "ticker": "HD",
    "kind": "buy_limit",
@@ -7422,7 +7306,109 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-12 11:35",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "0be635b0",
+   "ticker": "ACN",
+   "kind": "take_profit",
+   "price": 214.9233,
+   "status": "working",
+   "created": "2026-10-12 11:41",
+   "created_ts": 1791819680,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $213.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1e237f63",
+   "ticker": "ACN",
+   "kind": "stop_loss",
+   "price": 211.0639,
+   "status": "working",
+   "created": "2026-10-12 11:41",
+   "created_ts": 1791819680,
+   "why": "close it all at -1.3% under the average cost",
+   "evidence": "average cost $213.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "48305fad",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 207.4054,
+   "status": "working",
+   "created": "2026-10-12 11:41",
+   "created_ts": 1791819680,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $213.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
+  },
+  {
+   "id": "e08dce85",
+   "ticker": "KO",
+   "kind": "take_profit",
+   "price": 89.1762,
+   "status": "working",
+   "created": "2026-10-12 11:41",
+   "created_ts": 1791819680,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $89.04",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9d291798",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 88.6999,
+   "status": "working",
+   "created": "2026-10-12 11:41",
+   "created_ts": 1791819680,
+   "why": "close it all at -0.4% under the average cost",
+   "evidence": "average cost $89.04",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "21cba0ad",
+   "ticker": "KO",
+   "kind": "buy_limit",
+   "price": 86.3688,
+   "status": "working",
+   "created": "2026-10-12 11:41",
+   "created_ts": 1791819680,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $89.04",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-12 11:38"
+ "updated": "2026-10-12 11:41"
 }

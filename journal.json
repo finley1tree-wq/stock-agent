@@ -59164,7 +59164,7 @@
     "code_version": "a535744",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": -0.05
   },
   {
     "symbol": "NEOG",
@@ -59247,7 +59247,7 @@
     "code_version": "18a7ff4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.28
+    "ret_now": -0.04
   },
   {
     "symbol": "CVX",
@@ -59393,5 +59393,65 @@
     "hour_et": 11,
     "code_version": "e444c8e",
     "hold_minutes": 6
+  },
+  {
+    "symbol": "ACN",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.507578,
+    "price": 213.82,
+    "date": "2026-10-12",
+    "time_et": "11:41",
+    "ts": 1791819680,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +16.2% over the month; 57% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 213.78,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 16.25,
+    "hour_et": 11,
+    "code_version": "4a7f97d",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "KO",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 8.423388,
+    "price": 89.04,
+    "date": "2026-10-12",
+    "time_et": "11:41",
+    "ts": 1791819680,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer): Kevin Hern; +0.8% over the month; 67% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 89.02,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 0.83,
+    "hour_et": 11,
+    "code_version": "4a7f97d",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
