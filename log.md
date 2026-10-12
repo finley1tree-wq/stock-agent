@@ -24590,3 +24590,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25393.64 (+1.57% on $25000.00 in) · cash $22395.03 · realised +395.03
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-12 11:47 ET (Monday) — week 2026-W42 — budget left $21960.00 (today $34800.00 put to work, 22 buys, 16 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfxc2XvneRDyJYxGHRQsr'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,960 idle, so opened 1: NEOG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 NEOG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4, incl. CEO); +1.4% over the month; 38% of today's range
+~ WORKING take_profit 100% NEOG @ $12.04 until 2026-10-17 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% NEOG @ $11.73 until 2026-10-17 — close it all at -1.8% under the average cost
+~ WORKING buy_limit $500.00 NEOG @ $11.59 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25392.60 (+1.57% on $25000.00 in) · cash $21645.03 · realised +395.03
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21210.00 this week

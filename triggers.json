@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "49629f0b",
-   "ticker": "HD",
-   "kind": "buy_limit",
-   "price": 276.5858,
-   "status": "cancelled",
-   "created": "2026-10-02 10:41",
-   "created_ts": 1790952067,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $285.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 11:40",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "8ce4841e",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 338.0,
-   "status": "cancelled",
-   "created": "2026-10-02 10:56",
-   "created_ts": 1790953012,
-   "why": "Protect new GOOGL position",
-   "evidence": "ATR 2.66% on GOOGL, protective stop below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 12:26",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "34871ba3",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 349.5,
-   "status": "cancelled",
-   "created": "2026-10-02 10:56",
-   "created_ts": 1790953012,
-   "why": "Lock in gain on GOOGL",
-   "evidence": "take profit level ~1.4% above entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 12:26",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "4844d4bb",
    "ticker": "VNQ",
    "kind": "stop_loss",
@@ -7408,7 +7353,58 @@
    ],
    "good_until": "2026-10-17",
    "usd": 500.0
+  },
+  {
+   "id": "55d6eb1c",
+   "ticker": "NEOG",
+   "kind": "take_profit",
+   "price": 12.036,
+   "status": "working",
+   "created": "2026-10-12 11:47",
+   "created_ts": 1791820036,
+   "why": "close 100% at +0.7% over the average cost",
+   "evidence": "average cost $11.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "200728ff",
+   "ticker": "NEOG",
+   "kind": "stop_loss",
+   "price": 11.7349,
+   "status": "working",
+   "created": "2026-10-12 11:47",
+   "created_ts": 1791820036,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $11.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "468e5597",
+   "ticker": "NEOG",
+   "kind": "buy_limit",
+   "price": 11.5915,
+   "status": "working",
+   "created": "2026-10-12 11:47",
+   "created_ts": 1791820036,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $11.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-12 11:44"
+ "updated": "2026-10-12 11:47"
 }
