@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "88bcea81",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 366.322,
-   "status": "cancelled",
-   "created": "2026-10-02 10:01",
-   "created_ts": 1790949688,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $365.8",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 10:06",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "94f3b18f",
    "ticker": "UNH",
    "kind": "buy_limit",
@@ -7115,7 +7096,7 @@
    "ticker": "SNOW",
    "kind": "stop_loss",
    "price": 356.6978,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 10:05",
    "created_ts": 1791813936,
    "why": "close it all at -1.0% under the average cost",
@@ -7125,7 +7106,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 10:30",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "4f93542e",
@@ -7392,7 +7375,24 @@
    ],
    "good_until": "2026-10-17",
    "usd": 500.0
+  },
+  {
+   "id": "5e80622c",
+   "ticker": "SNOW",
+   "kind": "stop_loss",
+   "price": 360.85,
+   "status": "working",
+   "created": "2026-10-12 10:30",
+   "created_ts": 1791815449,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $360.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-12 10:29"
+ "updated": "2026-10-12 10:30"
 }

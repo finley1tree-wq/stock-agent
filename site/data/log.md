@@ -1,17 +1,3 @@
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain: Only 3 of min 8 positions held and cash_idle_pct is 94%. Many strong congress-backed names (GS, AVGO, TSM, IBM, HD, KO) are in cooldown from being sold today, so I'll deploy new capital into fresh congress-pressure names available now (ACN, PPG) plus buy_limit triggers to re-enter the cooling-off names at better levels once cooldown ends, consistent with the lesson pattern that's been realizing positive returns this session.
-lesson: Many good congress-backed names are stuck in rebuy cooldown after same-day sells; use buy_limit triggers below current price timed for when cooldown expires rather than market orders, to both respect the cooldown and get a better entry.
-  (dropped GS: sold 44 min ago, cooling off)
-  (dropped trigger IBM buy_limit: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped trigger HD buy_limit: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-~ WORKING buy_limit $2000.00 AVGO @ $360.00 until 2026-10-09 — re-enter AVGO on a dip after cooldown, congress-backed name
-~ WORKING buy_limit $2000.00 TSM @ $445.00 until 2026-10-09 — re-enter TSM low in day range after cooldown expires
-portfolio: equity $25434.57 (+1.74% on $25000.00 in) · cash $23936.56 · realised +436.56
-Decision: nothing at this check. 15 standing order(s) working.
-
-## 2026-10-09 13:04 ET (Friday) — week 2026-W41 — budget left $23517.29 (today $32175.00 put to work, 25 buys, 21 sells) — SIM (pretend money) via sim
   (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
   (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
   (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
@@ -398,3 +384,17 @@ Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - BUY $2200.00 ACN [buy_limit @ $213.08] — wanted it, but not at the high — resting at $213.08. Named congress pressure plus strong recent momentum; counterfactual data flags ACN as a repeated miss when skipped
 ## 2026-10-12 10:29 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-10-12 10:29 ET (Monday) — week 2026-W42 — budget left $7155.36 (today $28800.00 put to work, 14 buys, 5 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxW5jiLjMEbn7DTHyjSW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25391.19 (+1.56% on $25000.00 in) · cash $7590.40 · realised +440.40
+Decision: nothing at this check. 20 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
