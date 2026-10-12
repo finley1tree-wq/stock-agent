@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-10-12 11:35 ET
+# Pretend portfolio — 2026-10-12 11:38 ET
 
-**Equity $25393.15** on $25000.00 put in → **+1.57%**  
-Cash $23895.03 · Unrealised -1.88 · Realised +395.03
+**Equity $25392.76** on $25000.00 put in → **+1.57%**  
+Cash $23895.03 · Unrealised -2.27 · Realised +395.03
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| AMGN | 3.0% | $750.72 | $415.68 | $416.08 | +0.10% | 0d |
-| SNOW | 2.9% | $747.40 | $361.64 | $360.39 | -0.35% | 0d |
+| AMGN | 3.0% | $749.99 | $415.68 | $415.68 | -0.00% | 0d |
+| SNOW | 2.9% | $747.73 | $361.64 | $360.55 | -0.30% | 0d |
 
 ## Last fills
 
