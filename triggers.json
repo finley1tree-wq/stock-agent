@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "55fe37ff",
-   "ticker": "O",
-   "kind": "buy_limit",
-   "price": 52.3218,
-   "status": "cancelled",
-   "created": "2026-10-02 11:23",
-   "created_ts": 1790954596,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $53.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 12:20",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "4ee4d929",
    "ticker": "AAPL",
    "kind": "stop_loss",
@@ -7313,7 +7294,7 @@
    "ticker": "CVX",
    "kind": "stop_loss",
    "price": 213.864,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 12:10",
    "created_ts": 1791821458,
    "why": "close it all at -0.5% under the average cost",
@@ -7323,7 +7304,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 12:42",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "9653b4b7",
@@ -7409,7 +7392,24 @@
    ],
    "good_until": "2026-10-17",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "e3ac6ff4",
+   "ticker": "CVX",
+   "kind": "stop_loss",
+   "price": 215.148,
+   "status": "working",
+   "created": "2026-10-12 12:42",
+   "created_ts": 1791823347,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $215.01",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-12 12:40"
+ "updated": "2026-10-12 12:42"
 }
