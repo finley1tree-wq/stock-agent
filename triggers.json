@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "dee64444",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 470.0,
-   "status": "cancelled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "Protect capital on TSM position",
-   "evidence": "ATR 2.021%, day low 477.21",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-05 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "c7823794",
-   "ticker": "HD",
-   "kind": "stop_loss",
-   "price": 276.5,
-   "status": "cancelled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "Protect capital on HD position",
-   "evidence": "ATR 2.223%, day low 281.76",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-05 11:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "8eed9421",
-   "ticker": "AAPL",
-   "kind": "buy_limit",
-   "price": 333.5915,
-   "status": "filled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "wanted it, but not at the high \u2014 resting at $333.59. Congress buy-pressure name with positive monthly momentum, sized moderately given high range position",
-   "evidence": "Cleo Fields disclosed AAPL buy 2026-09-08; AAPL +0.42% today at 97.7% of day range showing strength, +2.1% 1m",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-10-05",
-   "usd": 2500.0,
-   "closed": "2026-10-05 10:00"
-  },
-  {
    "id": "470eb4f1",
    "ticker": "AVGO",
    "kind": "take_profit",
@@ -7425,7 +7370,58 @@
    ],
    "good_until": "2026-10-17",
    "usd": 500.0
+  },
+  {
+   "id": "da9f2ce8",
+   "ticker": "AMGN",
+   "kind": "take_profit",
+   "price": 416.8451,
+   "status": "working",
+   "created": "2026-10-12 13:12",
+   "created_ts": 1791825174,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $415.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3d7275a1",
+   "ticker": "AMGN",
+   "kind": "stop_loss",
+   "price": 413.0492,
+   "status": "working",
+   "created": "2026-10-12 13:12",
+   "created_ts": 1791825174,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $415.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "27857275",
+   "ticker": "AMGN",
+   "kind": "buy_limit",
+   "price": 403.2872,
+   "status": "working",
+   "created": "2026-10-12 13:12",
+   "created_ts": 1791825174,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $415.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-12 13:10"
+ "updated": "2026-10-12 13:12"
 }

@@ -1,13 +1,13 @@
 {
   "week": "2026-W42",
-  "spent": 1536.22,
-  "deployed": 39300.0,
+  "spent": 2286.22,
+  "deployed": 40050.0,
   "by_ticker": {
     "TSM": 770.89,
     "IBM": 19.61,
     "AVGO": 17.39,
     "CVX": 26.3,
-    "AMGN": 1.58,
+    "AMGN": 751.58,
     "SNOW": 5.38,
     "NEOG": 750.0
   },
@@ -16,7 +16,7 @@
     "IBM": 2800.0,
     "ACN": 5850.0,
     "MSFT": 2900.0,
-    "AMGN": 3250.0,
+    "AMGN": 4000.0,
     "KO": 3500.0,
     "AVGO": 2000.0,
     "SNOW": 1500.0,
@@ -1148,12 +1148,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "AMGN",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.803912,
+      "price": 415.76,
+      "date": "2026-10-12",
+      "time_et": "13:12",
+      "ts": 1791825174,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): David J. Taylor; +10.2% over the month; 63% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 1536.22,
-  "deployed_today": 39300.0,
-  "orders_today": 28,
+  "spent_today": 2286.22,
+  "deployed_today": 40050.0,
+  "orders_today": 29,
   "sells_today": 24,
   "sold_today": [
     "ACN",
@@ -1183,8 +1205,8 @@
     "TSM": 1791820881,
     "AVGO": 1791818733
   },
-  "last_publish_ts": 1791824321,
-  "last_check_ts": 1791825097,
+  "last_publish_ts": 1791825174,
+  "last_check_ts": 1791825174,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -1203,18 +1225,30 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "AMGN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1791825000,
-  "last_decision_ts": 1791825012,
-  "next_check_minutes": null,
+  "last_decision_ts": 1791825174,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "cb40b966": 449.1684,
+    "da9f2ce8": 416.8451,
     "ecb838be": 444.8995,
+    "cb40b966": 449.1684,
+    "3d7275a1": 413.0492,
     "a8c7c838": 11.9465,
     "956cd491": 11.6439,
     "eafbd0ac": 434.5115,
-    "a0a6b22d": 11.5042
+    "a0a6b22d": 11.5042,
+    "27857275": 403.2872
   }
 }
