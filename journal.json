@@ -59971,7 +59971,9 @@
     "code_version": "8e6926d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": 0.07,
+    "ret_final": 0.07,
+    "ret_src": "realised"
   },
   {
     "symbol": "META",
@@ -60062,7 +60064,7 @@
     "code_version": "7ea693e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": -0.07
   },
   {
     "symbol": "NEOG",
@@ -60169,5 +60171,31 @@
     "hour_et": 15,
     "code_version": "9936798",
     "hold_minutes": 90
+  },
+  {
+    "symbol": "SNOW",
+    "side": "sell",
+    "qty": 2.091224,
+    "status": "filled",
+    "price": 358.91,
+    "proceeds": 750.56,
+    "realized_pnl": 0.56,
+    "realized_pct": 0.07,
+    "date": "2026-10-12",
+    "time_et": "15:03",
+    "ts": 1791831786,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, +0.09% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 15,
+    "code_version": "e6406d2",
+    "hold_minutes": 89
   }
 ]
