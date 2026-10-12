@@ -58586,7 +58586,7 @@
     "code_version": "78d816f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.85
+    "ret_now": -0.77
   },
   {
     "symbol": "KO",
@@ -59162,7 +59162,7 @@
     "code_version": "a535744",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17
+    "ret_now": 0.02
   },
   {
     "symbol": "NEOG",
@@ -59215,5 +59215,65 @@
     "hour_et": 11,
     "code_version": "9b53d95",
     "hold_minutes": 93
+  },
+  {
+    "symbol": "SNOW",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.073872,
+    "price": 361.64,
+    "date": "2026-10-12",
+    "time_et": "11:17",
+    "ts": 1791818245,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Maria Elvira Salazar), $15,001 - $50,000; +9.9% over the month; 27% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 361.57,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 9.9,
+    "hour_et": 11,
+    "code_version": "18a7ff4",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CVX",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.495315,
+    "price": 214.57,
+    "date": "2026-10-12",
+    "time_et": "11:17",
+    "ts": 1791818245,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +0.2% over the month; 27% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 214.53,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 0.22,
+    "hour_et": 11,
+    "code_version": "18a7ff4",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

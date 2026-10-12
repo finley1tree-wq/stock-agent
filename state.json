@@ -1,15 +1,16 @@
 {
   "week": "2026-W42",
-  "spent": 2776.7,
-  "deployed": 31050.0,
+  "spent": 4276.7,
+  "deployed": 32550.0,
   "by_ticker": {
     "TSM": 21.17,
     "IBM": 19.61,
     "AVGO": 2000.0,
     "META": 0.13,
-    "CVX": 27.99,
+    "CVX": 777.99,
     "KO": 0.23,
-    "AMGN": 750.0
+    "AMGN": 750.0,
+    "SNOW": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 2800.0,
@@ -19,10 +20,10 @@
     "AMGN": 3250.0,
     "KO": 2750.0,
     "AVGO": 2000.0,
-    "SNOW": 750.0,
+    "SNOW": 1500.0,
     "NEOG": 750.0,
     "META": 750.0,
-    "CVX": 6450.0,
+    "CVX": 7200.0,
     "PG": 750.0
   },
   "orders": [
@@ -678,12 +679,56 @@
       ],
       "evidence": "bought 90 min ago, -0.74% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "SNOW",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.073872,
+      "price": 361.64,
+      "date": "2026-10-12",
+      "time_et": "11:17",
+      "ts": 1791818245,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Maria Elvira Salazar), $15,001 - $50,000; +9.9% over the month; 27% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "CVX",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.495315,
+      "price": 214.57,
+      "date": "2026-10-12",
+      "time_et": "11:17",
+      "ts": 1791818245,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +0.2% over the month; 27% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 2776.7,
-  "deployed_today": 31050.0,
-  "orders_today": 17,
+  "spent_today": 4276.7,
+  "deployed_today": 32550.0,
+  "orders_today": 19,
   "sells_today": 13,
   "sold_today": [
     "ACN",
@@ -711,18 +756,9 @@
     "NEOG": 1791817166,
     "TSM": 1791817558
   },
-  "last_publish_ts": 1791817558,
-  "last_check_ts": 1791818156,
+  "last_publish_ts": 1791818245,
+  "last_check_ts": 1791818245,
   "exp_arm": {
-    "TSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "AVGO": {
       "params": {
         "hold_minutes": 90,
@@ -730,15 +766,6 @@
       },
       "tags": {
         "ratchet": "on"
-      }
-    },
-    "NEOG": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
       }
     },
     "AMGN": {
@@ -749,18 +776,42 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "SNOW": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "CVX": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1791818100,
-  "last_decision_ts": 1791818072,
-  "next_check_minutes": null,
+  "last_decision_ts": 1791818245,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "f1f54a1c": 215.027,
     "411afac3": 416.7649,
+    "7194757c": 363.1227,
+    "c4d5f2ab": 213.4242,
     "f5495c14": 412.9698,
+    "ea022309": 357.9332,
     "7c3996f1": 360.3071,
     "d4e1f8ca": 351.0,
     "88f765c9": 348.4143,
+    "1fd57899": 350.7908,
+    "541bd60b": 208.1329,
     "c135fcb6": 403.2096
   }
 }

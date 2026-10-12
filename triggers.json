@@ -1,114 +1,6 @@
 {
  "orders": [
   {
-   "id": "5431f15c",
-   "ticker": "RTX",
-   "kind": "stop_loss",
-   "price": 181.0,
-   "status": "cancelled",
-   "created": "2026-10-02 10:25",
-   "created_ts": 1790951145,
-   "why": "ATR-based protective stop for new RTX position",
-   "evidence": "RTX ATR 1.93%, protect new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 10:41",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "43944dd9",
-   "ticker": "RTX",
-   "kind": "take_profit",
-   "price": 187.3,
-   "status": "cancelled",
-   "created": "2026-10-02 10:25",
-   "created_ts": 1790951145,
-   "why": "lock in gain if RTX pops",
-   "evidence": "take profit near +1.5% over entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 10:41",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "abb60af8",
-   "ticker": "AMZN",
-   "kind": "stop_loss",
-   "price": 247.5,
-   "status": "cancelled",
-   "created": "2026-10-02 10:25",
-   "created_ts": 1790951145,
-   "why": "ATR-based protective stop for new AMZN position",
-   "evidence": "AMZN ATR 2.13%, protect new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 11:55",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "f53378d1",
-   "ticker": "AMZN",
-   "kind": "take_profit",
-   "price": 257.5,
-   "status": "cancelled",
-   "created": "2026-10-02 10:25",
-   "created_ts": 1790951145,
-   "why": "lock in gain if AMZN pops",
-   "evidence": "take profit near +2% over entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 11:55",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "4cf9bac4",
-   "ticker": "PLD",
-   "kind": "stop_loss",
-   "price": 126.9,
-   "status": "cancelled",
-   "created": "2026-10-02 10:25",
-   "created_ts": 1790951145,
-   "why": "ATR-based protective stop for new PLD position",
-   "evidence": "PLD ATR 1.65%, protect new position",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 11:55",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "0f01fab4",
-   "ticker": "PLD",
-   "kind": "take_profit",
-   "price": 131.2,
-   "status": "cancelled",
-   "created": "2026-10-02 10:25",
-   "created_ts": 1790951145,
-   "why": "lock in gain if PLD pops",
-   "evidence": "take profit near +1.5% over entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 11:55",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "15cdfb8a",
    "ticker": "O",
    "kind": "buy_limit",
@@ -7417,7 +7309,109 @@
    ],
    "good_until": "2026-10-17",
    "usd": 500.0
+  },
+  {
+   "id": "7194757c",
+   "ticker": "SNOW",
+   "kind": "take_profit",
+   "price": 363.1227,
+   "status": "working",
+   "created": "2026-10-12 11:17",
+   "created_ts": 1791818245,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $361.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ea022309",
+   "ticker": "SNOW",
+   "kind": "stop_loss",
+   "price": 357.9332,
+   "status": "working",
+   "created": "2026-10-12 11:17",
+   "created_ts": 1791818245,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $361.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1fd57899",
+   "ticker": "SNOW",
+   "kind": "buy_limit",
+   "price": 350.7908,
+   "status": "working",
+   "created": "2026-10-12 11:17",
+   "created_ts": 1791818245,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $361.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
+  },
+  {
+   "id": "f1f54a1c",
+   "ticker": "CVX",
+   "kind": "take_profit",
+   "price": 215.027,
+   "status": "working",
+   "created": "2026-10-12 11:17",
+   "created_ts": 1791818245,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $214.57",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c4d5f2ab",
+   "ticker": "CVX",
+   "kind": "stop_loss",
+   "price": 213.4242,
+   "status": "working",
+   "created": "2026-10-12 11:17",
+   "created_ts": 1791818245,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $214.57",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "541bd60b",
+   "ticker": "CVX",
+   "kind": "buy_limit",
+   "price": 208.1329,
+   "status": "working",
+   "created": "2026-10-12 11:17",
+   "created_ts": 1791818245,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $214.57",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-12 11:14"
+ "updated": "2026-10-12 11:17"
 }
