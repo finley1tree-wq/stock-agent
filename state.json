@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 8512.3,
+  "spent": 5561.26,
   "deployed": 30300.0,
   "by_ticker": {
     "TSM": 2800.0,
@@ -9,8 +9,7 @@
     "NEOG": 750.0,
     "META": 0.13,
     "CVX": 27.99,
-    "ACN": 2200.0,
-    "KO": 750.0
+    "KO": 0.23
   },
   "deployed_by_ticker": {
     "TSM": 2800.0,
@@ -574,13 +573,55 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "KO",
+      "side": "sell",
+      "qty": 8.426228,
+      "status": "filled",
+      "price": 88.98,
+      "proceeds": 749.77,
+      "realized_pnl": -0.23,
+      "realized_pct": -0.03,
+      "date": "2026-10-12",
+      "time_et": "10:55",
+      "ts": 1791816900,
+      "why": "close it all at -0.4% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $89.01",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ACN",
+      "side": "sell",
+      "qty": 10.324761,
+      "status": "filled",
+      "price": 213.2,
+      "proceeds": 2201.27,
+      "realized_pnl": 1.27,
+      "realized_pct": 0.06,
+      "date": "2026-10-12",
+      "time_et": "10:55",
+      "ts": 1791816900,
+      "why": "close it all at -1.3% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $213.08",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 8512.3,
+  "spent_today": 5561.26,
   "deployed_today": 30300.0,
   "orders_today": 16,
-  "sells_today": 9,
+  "sells_today": 11,
   "sold_today": [
     "ACN",
     "IBM",
@@ -593,9 +634,9 @@
     "PG"
   ],
   "sold_ts": {
-    "ACN": 1791812549,
+    "ACN": 1791816949,
     "IBM": 1791813178,
-    "KO": 1791813767,
+    "KO": 1791816949,
     "AMGN": 1791814244,
     "META": 1791815134,
     "SNOW": 1791815491,
@@ -603,8 +644,8 @@
     "MSFT": 1791815796,
     "PG": 1791816497
   },
-  "last_publish_ts": 1791816811,
-  "last_check_ts": 1791816859,
+  "last_publish_ts": 1791816949,
+  "last_check_ts": 1791816949,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -652,25 +693,19 @@
       }
     }
   },
-  "last_bar_ts": 1791816600,
+  "last_bar_ts": 1791816900,
   "last_decision_ts": 1791816859,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "dc03f63a": 89.052,
-    "3ab3275e": 213.434,
-    "e7886213": 89.1462,
-    "eccc27e7": 214.1816,
     "ac6a6536": 12.0362,
     "1f25fbf3": 452.1651,
     "7c3996f1": 360.3071,
     "d4e1f8ca": 351.0,
     "8f38cf49": 439.0,
     "dd050fa1": 11.7347,
-    "74503529": 437.4409,
     "88f765c9": 348.4143,
-    "c5a28f25": 86.3397,
-    "abd80721": 11.5915,
-    "6757cf0c": 206.6876
+    "74503529": 437.4409,
+    "abd80721": 11.5915
   }
 }

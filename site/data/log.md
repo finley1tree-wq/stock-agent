@@ -1,22 +1,3 @@
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: It's 15:42 ET, no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0 - nothing to protect and no legal buys to place. Market closes at 16:00 and checks_left_today is 0, so there is genuinely nothing actionable this check.
-lesson: Past the no_new_entries cutoff with zero holdings and zero checks left today, there is nothing to do - don't force orders that guardrails will drop.
-portfolio: equity $25435.03 (+1.74% on $25000.00 in) · cash $25435.03 · realised +435.03
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-## 2026-10-09 16:00 ET — published the session's closing state
-## 2026-10-12 00:00 ET — published the session's closing state
-
-## 2026-10-12 09:32 ET (Monday) — week 2026-W42 — budget left $25000.00 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
 brain: Flat book at 9:32am (SURVIVOR hour) with 100% idle cash - deploying to 8 names using named congress disclosures (Salazar/CVX, Allen/TSM+AVGO, Doggett-adjacent ACN pressure, Taylor/AMGN, Hern/KO) plus two track-record/counterfactual-flagged names (PG, IBM) that counterfactual data shows get missed. Sized ~$2.2-2.8k each, all low-to-mid day range except ACN/CVX which are evidence-backed by fresh filings, with ATR-based protective stops on every position.
 lesson: Hour-09 is a SURVIVOR stage with full-size entries warranted; lean on named congress disclosures (not bare pressure scores) sized $2-3k each to hit min_positions fast while idle cash is 100%.
   (dropped AVGO: culled strategy (signals congress: -93 over 32 trips, t -1.39))
@@ -398,3 +379,22 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25393.20 (+1.57% on $25000.00 in) · cash $16922.74 · realised +422.74
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-12 10:54 ET (Monday) — week 2026-W42 — budget left $16487.70 (today $30300.00 put to work, 16 buys, 9 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxXzExopR8DJqFoumoSY'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25395.79 (+1.58% on $25000.00 in) · cash $16922.74 · realised +422.74
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [stop_loss @ $88.98] -> $749.77 (-0.03%) — close it all at -0.4% under the average cost
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [stop_loss @ $213.20] -> $2201.27 (+0.06%) — close it all at -1.3% under the average cost
+## 2026-10-12 10:55 ET — tick — 2 sell(s), 0 buy(s) from standing orders
