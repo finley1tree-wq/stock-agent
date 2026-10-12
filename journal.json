@@ -58333,7 +58333,7 @@
     "code_version": "5a49589",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16
+    "ret_now": 0.11
   },
   {
     "symbol": "IBM",
@@ -58366,7 +58366,9 @@
     "code_version": "27ed6a0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.21
+    "ret_now": -0.7,
+    "ret_final": -0.7,
+    "ret_src": "realised"
   },
   {
     "symbol": "ACN",
@@ -58396,7 +58398,10 @@
     "hour_et": 9,
     "code_version": "b30de8b",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.51,
+    "ret_now": 0.51,
+    "ret_src": "realised"
   },
   {
     "symbol": "ACN",
@@ -58422,7 +58427,8 @@
     "evidence": "average cost $215.05",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "83d472d"
+    "code_version": "83d472d",
+    "hold_minutes": 0
   },
   {
     "symbol": "MSFT",
@@ -58454,7 +58460,8 @@
     "hour_et": 9,
     "code_version": "88937a9",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.02
   },
   {
     "symbol": "IBM",
@@ -58480,6 +58487,94 @@
     "evidence": "average cost $228.28",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "3f2df45"
+    "code_version": "3f2df45",
+    "hold_minutes": 15
+  },
+  {
+    "symbol": "AMGN",
+    "notional": 2500.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.021731,
+    "price": 415.16,
+    "date": "2026-10-12",
+    "time_et": "09:55",
+    "ts": 1791813311,
+    "why": "Named congress filing backs entry at hour-09 SURVIVOR stage, AMGN flat day (0.05% 1d) with room, sized for full_deployment conviction",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "David J. Taylor disclosed AMGN buy $1,001-$15,000, disclosed 2026-10-01; congress signal tracks +0.04% avg/65% hit rate",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 415.08,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 10.0,
+    "hour_et": 9,
+    "code_version": "78d816f",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "KO",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 22.545947,
+    "price": 88.71,
+    "date": "2026-10-12",
+    "time_et": "09:55",
+    "ts": 1791813311,
+    "why": "Named congress buy, low ATR defensive consumer staple, diversifies sector away from tech",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Rep. Kevin Hern disclosed KO buy, disclosed 2026-09-25; congress buy pressure flagged on KO",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 88.69,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 0.46,
+    "hour_et": 9,
+    "code_version": "78d816f",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AVGO",
+    "notional": 2000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.568055,
+    "price": 359.19,
+    "date": "2026-10-12",
+    "time_et": "09:55",
+    "ts": 1791813311,
+    "why": "Rick W. Allen has a positive track record on disclosure leaderboard; AVGO congress pressure +1.0",
+    "signals": [
+      "congress",
+      "track_record"
+    ],
+    "evidence": "Rep. Rick W. Allen (leaderboard +2.76% avg_excess, 62% beat rate) disclosed AVGO buy, disclosed 2026-09-22",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 359.12,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": -0.79,
+    "hour_et": 9,
+    "code_version": "78d816f",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

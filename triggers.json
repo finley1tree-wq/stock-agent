@@ -1,173 +1,6 @@
 {
  "orders": [
   {
-   "id": "5c6b62c9",
-   "ticker": "TTD",
-   "kind": "take_profit",
-   "price": 12.096,
-   "status": "filled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $12.04",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:47"
-  },
-  {
-   "id": "3e882c08",
-   "ticker": "TTD",
-   "kind": "buy_limit",
-   "price": 11.6788,
-   "status": "cancelled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $12.04",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 09:47",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "04a88e11",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 472.7972,
-   "status": "filled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $471.51",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:42"
-  },
-  {
-   "id": "49547908",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 457.3647,
-   "status": "cancelled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $471.51",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 09:42",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "53b98607",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 223.2677,
-   "status": "filled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $222.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:40"
-  },
-  {
-   "id": "0f2ee9fe",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 215.8444,
-   "status": "cancelled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $222.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "cda7f512",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 150.9514,
-   "status": "cancelled",
-   "created": "2026-10-02 09:41",
-   "created_ts": 1790948512,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $155.62",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 09:42",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "c9e6ec4a",
-   "ticker": "CCJ",
-   "kind": "stop_loss",
-   "price": 84.3,
-   "status": "cancelled",
-   "created": "2026-10-02 09:49",
-   "created_ts": 1790948969,
-   "why": "protect new position with ATR-based stop",
-   "evidence": "CCJ atr_pct 3.448, entry near 86.37",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 10:48",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "22b18b1a",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 343.0905,
-   "status": "filled",
-   "created": "2026-10-02 09:49",
-   "created_ts": 1790948969,
-   "why": "wanted it, but not at the high \u2014 resting at $343.09. Strong daily momentum in widely held mega-cap",
-   "evidence": "GOOGL +1.87% today, 96.7% of day range - high but widely_held sector hit_rate 0.56",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-10-02",
-   "usd": 2500.0,
-   "closed": "2026-10-02 09:55"
-  },
-  {
    "id": "46e34796",
    "ticker": "CCJ",
    "kind": "take_profit",
@@ -7410,7 +7243,157 @@
    ],
    "good_until": "2026-10-17",
    "usd": 500.0
+  },
+  {
+   "id": "357d942c",
+   "ticker": "AMGN",
+   "kind": "stop_loss",
+   "price": 406.0,
+   "status": "working",
+   "created": "2026-10-12 09:55",
+   "created_ts": 1791813311,
+   "why": "Protective stop ~2.2% below entry",
+   "evidence": "AMGN ATR 2.35%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-12",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ebd564d3",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 86.7,
+   "status": "working",
+   "created": "2026-10-12 09:55",
+   "created_ts": 1791813311,
+   "why": "Protective stop ~2.2% below entry",
+   "evidence": "KO ATR 1.35%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-12",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d4e1f8ca",
+   "ticker": "AVGO",
+   "kind": "stop_loss",
+   "price": 351.0,
+   "status": "working",
+   "created": "2026-10-12 09:55",
+   "created_ts": 1791813311,
+   "why": "Protective stop ~2.3% below entry",
+   "evidence": "AVGO ATR 2.8%",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-12",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5d85235d",
+   "ticker": "AMGN",
+   "kind": "take_profit",
+   "price": 416.2436,
+   "status": "working",
+   "created": "2026-10-12 09:55",
+   "created_ts": 1791813311,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $415.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4a4f715b",
+   "ticker": "AMGN",
+   "kind": "buy_limit",
+   "price": 402.7052,
+   "status": "working",
+   "created": "2026-10-12 09:55",
+   "created_ts": 1791813311,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $415.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
+  },
+  {
+   "id": "91492cb0",
+   "ticker": "KO",
+   "kind": "take_profit",
+   "price": 88.8431,
+   "status": "working",
+   "created": "2026-10-12 09:55",
+   "created_ts": 1791813311,
+   "why": "close 100% at +0.1% over the average cost",
+   "evidence": "average cost $88.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "fcc75237",
+   "ticker": "KO",
+   "kind": "buy_limit",
+   "price": 86.0487,
+   "status": "working",
+   "created": "2026-10-12 09:55",
+   "created_ts": 1791813311,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $88.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
+  },
+  {
+   "id": "7c3996f1",
+   "ticker": "AVGO",
+   "kind": "take_profit",
+   "price": 360.3071,
+   "status": "working",
+   "created": "2026-10-12 09:55",
+   "created_ts": 1791813311,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $359.19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "88f765c9",
+   "ticker": "AVGO",
+   "kind": "buy_limit",
+   "price": 348.4143,
+   "status": "working",
+   "created": "2026-10-12 09:55",
+   "created_ts": 1791813311,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $359.19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-12 09:52"
+ "updated": "2026-10-12 09:55"
 }

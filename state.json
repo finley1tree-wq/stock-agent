@@ -1,17 +1,23 @@
 {
   "week": "2026-W42",
-  "spent": 5704.83,
-  "deployed": 11400.0,
+  "spent": 12204.83,
+  "deployed": 17900.0,
   "by_ticker": {
     "TSM": 2800.0,
     "IBM": 19.61,
-    "MSFT": 2900.0
+    "MSFT": 2900.0,
+    "AMGN": 2500.0,
+    "KO": 2000.0,
+    "AVGO": 2000.0
   },
   "deployed_by_ticker": {
     "TSM": 2800.0,
     "IBM": 2800.0,
     "ACN": 2900.0,
-    "MSFT": 2900.0
+    "MSFT": 2900.0,
+    "AMGN": 2500.0,
+    "KO": 2000.0,
+    "AVGO": 2000.0
   },
   "orders": [
     {
@@ -146,12 +152,75 @@
       ],
       "evidence": "average cost $228.28",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "AMGN",
+      "notional": 2500.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.021731,
+      "price": 415.16,
+      "date": "2026-10-12",
+      "time_et": "09:55",
+      "ts": 1791813311,
+      "why": "Named congress filing backs entry at hour-09 SURVIVOR stage, AMGN flat day (0.05% 1d) with room, sized for full_deployment conviction",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "David J. Taylor disclosed AMGN buy $1,001-$15,000, disclosed 2026-10-01; congress signal tracks +0.04% avg/65% hit rate",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "KO",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 22.545947,
+      "price": 88.71,
+      "date": "2026-10-12",
+      "time_et": "09:55",
+      "ts": 1791813311,
+      "why": "Named congress buy, low ATR defensive consumer staple, diversifies sector away from tech",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Rep. Kevin Hern disclosed KO buy, disclosed 2026-09-25; congress buy pressure flagged on KO",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "AVGO",
+      "notional": 2000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.568055,
+      "price": 359.19,
+      "date": "2026-10-12",
+      "time_et": "09:55",
+      "ts": 1791813311,
+      "why": "Rick W. Allen has a positive track record on disclosure leaderboard; AVGO congress pressure +1.0",
+      "signals": [
+        "congress",
+        "track_record"
+      ],
+      "evidence": "Rep. Rick W. Allen (leaderboard +2.76% avg_excess, 62% beat rate) disclosed AVGO buy, disclosed 2026-09-22",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 5704.83,
-  "deployed_today": 11400.0,
-  "orders_today": 4,
+  "spent_today": 12204.83,
+  "deployed_today": 17900.0,
+  "orders_today": 7,
   "sells_today": 2,
   "sold_today": [
     "ACN",
@@ -161,8 +230,8 @@
     "ACN": 1791812549,
     "IBM": 1791813178
   },
-  "last_publish_ts": 1791813177,
-  "last_check_ts": 1791813223,
+  "last_publish_ts": 1791813311,
+  "last_check_ts": 1791813311,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -173,15 +242,6 @@
         "ratchet": "off"
       }
     },
-    "IBM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "MSFT": {
       "params": {
         "hold_minutes": 90,
@@ -190,21 +250,57 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "AMGN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "KO": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "AVGO": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
-  "last_bar_ts": 1791813000,
-  "last_decision_ts": 1791812396,
-  "next_check_minutes": 15,
+  "last_bar_ts": 1791813300,
+  "last_decision_ts": 1791813311,
+  "next_check_minutes": 10,
   "autopiloted": false,
   "book_px": {
+    "91492cb0": 88.8431,
     "1f25fbf3": 452.1651,
-    "5f82d40e": 213.08,
     "9d01af1f": 540.4177,
+    "5d85235d": 416.2436,
     "2cc692e2": 215.4408,
-    "94ae5bbe": 535.6954,
+    "7c3996f1": 360.3071,
     "c5c98860": 215.2153,
+    "94ae5bbe": 535.6954,
+    "5f82d40e": 213.08,
+    "357d942c": 406.0,
+    "ebd564d3": 86.7,
+    "d4e1f8ca": 351.0,
     "8f38cf49": 439.0,
     "bcc4809c": 522.8979,
+    "4a4f715b": 402.7052,
+    "fcc75237": 86.0487,
+    "88f765c9": 348.4143,
     "74503529": 437.4409
   }
 }

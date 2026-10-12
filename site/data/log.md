@@ -1,29 +1,3 @@
-  (dropped trigger IBP stop_loss: not held)
-  (dropped trigger AMZN stop_loss: not held)
-~ WORKING buy_limit $500.00 HUBB @ $475.30 until 2026-10-09 — wanted it, but not at the high — resting at $475.30. Top congress-pressure name with corroborating buy filings; adding breadth toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]
-~ WORKING buy_limit $500.00 AMZN @ $258.52 until 2026-10-09 — wanted it, but not at the high — resting at $258.52. Strong short-term momentum; keep size moderate given high range position [probation at 25% size (no hour or signal lens has proven itself yet)]
-~ WORKING buy_limit $500.00 GOOGL @ $341.96 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25421.62 (+1.69% on $25000.00 in) · cash $22174.82 · realised +424.82
-Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $21755.55 this week
-- BUY $3500.00 NFLX [buy_limit @ $70.91] — wanted it, but not at the high — resting at $70.91. Congress buy pressure (score 2.0) and strong 5d momentum, entering near high but trend is clear
-## 2026-10-09 11:09 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-
-## 2026-10-09 11:14 ET (Friday) — week 2026-W41 — budget left $18255.55 (today $27250.00 put to work, 16 buys, 9 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain: Only 6 positions vs min_positions 8, cash_idle_pct 73% is high. TSM cooled off from an earlier stop but is now at 4.5% of day range (much better entry than when it was stopped out at the high), and UNH is low in its range with positive 1d momentum - both avoid chasing per guardrails. Adding these two brings me to 8 positions with real size while respecting the max_entry_range_pct guardrail.
-lesson: When a name gets stopped out intraday at a high entry, re-evaluate it after cooldown if it has since pulled back to a much lower point in its day range rather than avoiding it outright.
-- BUY $550.00 UNH [filled] ['momentum', 'news'] — Below min_positions with 73% cash idle; UNH is cheap in its range and not chased [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: UNH +1.42% today, 22% of day range (low in range, room to run), 1m momentum -3.1% basing after selloff
-- BUY $575.00 TSM [filled] ['insider', 'congress', 'momentum'] — Re-entering TSM at a much better level than the earlier stop-out; low in range gives better risk/reward [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: TSM at 4.5% of day range (near day low), congress net buy pressure 1.0, cooled off from prior stop-out but setup intact at better entry now near low of day
-~ WORKING stop_loss 100% UNH @ $368.00 until 2026-10-09 — Protective stop for new UNH position
-~ WORKING stop_loss 100% TSM @ $443.00 until 2026-10-09 — Protective stop for new TSM position, tighter given prior stop-out today
-~ WORKING take_profit 100% UNH @ $377.29 until 2026-10-14 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 UNH @ $365.02 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $453.82 until 2026-10-14 — close 100% at +0.3% over the average cost
 ~ WORKING buy_limit $500.00 TSM @ $439.01 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25422.70 (+1.69% on $25000.00 in) · cash $17549.82 · realised +424.82
 Done: 0 sell(s), 2 buy(s); 29 order(s) working; budget left $17130.55 this week
@@ -398,3 +372,29 @@ Done: 0 sell(s), 1 buy(s); 13 order(s) working; budget left $16500.00 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [stop_loss @ $226.68] -> $2780.39 (-0.70%) — close it all at -0.7% under the average cost
 ## 2026-10-12 09:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-12 09:55 ET (Monday) — week 2026-W42 — budget left $19295.17 (today $11400.00 put to work, 4 buys, 2 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain: Below min_positions (2 of 8) with 77% idle cash and hour-09 flagged SURVIVOR - the strategy stage rewards full-size entries now. Adding named congress-disclosure-backed names (AMGN, KO, AVGO, PEP) diversifies away from tech concentration (TSM/MSFT) into staples/semis with concrete filings, each with protective stops per auto_bracket pattern that has the best realized track record (0.19% avg, 89% hit rate).
+lesson: At hour-09 SURVIVOR stage, deploy multiple named-congress-backed positions in one check rather than trickling in, since idle cash sat at 77% while min_positions requirement was unmet.
+  (dropped PEP: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+- BUY $2500.00 AMGN [filled] ['congress', 'track_record'] — Named congress filing backs entry at hour-09 SURVIVOR stage, AMGN flat day (0.05% 1d) with room, sized for full_deployment conviction | evidence: David J. Taylor disclosed AMGN buy $1,001-$15,000, disclosed 2026-10-01; congress signal tracks +0.04% avg/65% hit rate
+- BUY $2000.00 KO [filled] ['congress', 'track_record'] — Named congress buy, low ATR defensive consumer staple, diversifies sector away from tech | evidence: Rep. Kevin Hern disclosed KO buy, disclosed 2026-09-25; congress buy pressure flagged on KO
+- BUY $2000.00 AVGO [filled] ['congress', 'track_record'] — Rick W. Allen has a positive track record on disclosure leaderboard; AVGO congress pressure +1.0 | evidence: Rep. Rick W. Allen (leaderboard +2.76% avg_excess, 62% beat rate) disclosed AVGO buy, disclosed 2026-09-22
+  (dropped trigger PEP stop_loss: not held)
+~ WORKING stop_loss 100% AMGN @ $406.00 until 2026-10-12 — Protective stop ~2.2% below entry
+~ WORKING stop_loss 100% KO @ $86.70 until 2026-10-12 — Protective stop ~2.2% below entry
+~ WORKING stop_loss 100% AVGO @ $351.00 until 2026-10-12 — Protective stop ~2.3% below entry
+~ WORKING take_profit 100% AMGN @ $416.24 until 2026-10-17 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AMGN @ $402.71 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% KO @ $88.84 until 2026-10-17 — close 100% at +0.1% over the average cost
+~ WORKING buy_limit $500.00 KO @ $86.05 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $360.31 until 2026-10-17 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $348.41 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25430.73 (+1.72% on $25000.00 in) · cash $13230.20 · realised +430.20
+Done: 0 sell(s), 3 buy(s); 18 order(s) working; budget left $12795.17 this week

@@ -23983,3 +23983,29 @@ Done: 0 sell(s), 1 buy(s); 13 order(s) working; budget left $16500.00 this week
   (cancelled 2 standing order(s) on IBM: position closed)
 - SELL 100% IBM [stop_loss @ $226.68] -> $2780.39 (-0.70%) — close it all at -0.7% under the average cost
 ## 2026-10-12 09:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-12 09:55 ET (Monday) — week 2026-W42 — budget left $19295.17 (today $11400.00 put to work, 4 buys, 2 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain: Below min_positions (2 of 8) with 77% idle cash and hour-09 flagged SURVIVOR - the strategy stage rewards full-size entries now. Adding named congress-disclosure-backed names (AMGN, KO, AVGO, PEP) diversifies away from tech concentration (TSM/MSFT) into staples/semis with concrete filings, each with protective stops per auto_bracket pattern that has the best realized track record (0.19% avg, 89% hit rate).
+lesson: At hour-09 SURVIVOR stage, deploy multiple named-congress-backed positions in one check rather than trickling in, since idle cash sat at 77% while min_positions requirement was unmet.
+  (dropped PEP: culled strategy (signals congress: -93 over 32 trips, t -1.39))
+- BUY $2500.00 AMGN [filled] ['congress', 'track_record'] — Named congress filing backs entry at hour-09 SURVIVOR stage, AMGN flat day (0.05% 1d) with room, sized for full_deployment conviction | evidence: David J. Taylor disclosed AMGN buy $1,001-$15,000, disclosed 2026-10-01; congress signal tracks +0.04% avg/65% hit rate
+- BUY $2000.00 KO [filled] ['congress', 'track_record'] — Named congress buy, low ATR defensive consumer staple, diversifies sector away from tech | evidence: Rep. Kevin Hern disclosed KO buy, disclosed 2026-09-25; congress buy pressure flagged on KO
+- BUY $2000.00 AVGO [filled] ['congress', 'track_record'] — Rick W. Allen has a positive track record on disclosure leaderboard; AVGO congress pressure +1.0 | evidence: Rep. Rick W. Allen (leaderboard +2.76% avg_excess, 62% beat rate) disclosed AVGO buy, disclosed 2026-09-22
+  (dropped trigger PEP stop_loss: not held)
+~ WORKING stop_loss 100% AMGN @ $406.00 until 2026-10-12 — Protective stop ~2.2% below entry
+~ WORKING stop_loss 100% KO @ $86.70 until 2026-10-12 — Protective stop ~2.2% below entry
+~ WORKING stop_loss 100% AVGO @ $351.00 until 2026-10-12 — Protective stop ~2.3% below entry
+~ WORKING take_profit 100% AMGN @ $416.24 until 2026-10-17 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AMGN @ $402.71 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% KO @ $88.84 until 2026-10-17 — close 100% at +0.1% over the average cost
+~ WORKING buy_limit $500.00 KO @ $86.05 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $360.31 until 2026-10-17 — close 100% at +0.3% over the average cost
+~ WORKING buy_limit $500.00 AVGO @ $348.41 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25430.73 (+1.72% on $25000.00 in) · cash $13230.20 · realised +430.20
+Done: 0 sell(s), 3 buy(s); 18 order(s) working; budget left $12795.17 this week
