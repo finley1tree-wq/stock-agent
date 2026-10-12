@@ -1,34 +1,3 @@
-  (dropped trigger GS stop_loss: not held)
-  (dropped trigger AMGN stop_loss: not held)
-  (dropped trigger PPG stop_loss: not held)
-  (dropped trigger IBP stop_loss: not held)
-~ WORKING stop_loss 100% NOC @ $470.00 until 2026-10-09 — Protective stop below day low
-~ WORKING take_profit 100% NOC @ $483.07 until 2026-10-14 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 NOC @ $467.34 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25434.07 (+1.74% on $25000.00 in) · cash $22087.09 · realised +437.09
-Done: 0 sell(s), 1 buy(s); 22 order(s) working; budget left $21667.82 this week
-- SELL 100% IBM [time stop] -> $624.56 (-0.07%) — held 90 min, the 90-minute limit: out regardless
-- SELL 100% AVGO [time stop] -> $622.09 (-0.47%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-09 12:22 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on UNH: position closed)
-- SELL 100% UNH [take_profit @ $377.29] -> $551.44 (+0.26%) — close 100% at +0.3% over the average cost
-## 2026-10-09 12:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-09 12:33 ET (Friday) — week 2026-W41 — budget left $23465.91 (today $31675.00 put to work, 24 buys, 20 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain: Only 3/8 min_positions filled with 93.9% cash idle - must deploy toward target. Adding 5 congress-backed names (GOOGL, NFLX, IBP, KO, GS) each with named filings and reasonable day-range entries to reach 8 positions, sized $2000 each per account size guidance. Protective stops attached to every new position per risk_management best-performing signal bucket (0.19% avg, 88% hit rate).
-lesson: Congress-disclosure-backed buys sized $2000 each with explicit stop_loss remain the fastest path to min_positions; keep prioritizing named filings over bare pressure scores when idle cash is high.
-  (dropped GOOGL: sold 43 min ago, cooling off)
-  (dropped IBP: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped KO: sold 18 min ago, cooling off)
-  (dropped GS: sold 28 min ago, cooling off)
-- BUY $500.00 NFLX [filled] ['congress', 'momentum'] — low in day range entry with two congress filings backing it [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Cleo Fields and Rep. Byron Donalds both disclosed NFLX buys; +5.55% 5d momentum, only 26% of day range
-  (dropped trigger GOOGL stop_loss: not held)
   (dropped trigger IBP stop_loss: not held)
   (dropped trigger KO stop_loss: not held)
   (dropped trigger GS stop_loss: not held)
@@ -398,3 +367,34 @@ Decision: nothing at this check. 21 standing order(s) working.
   (dropped ACN: sold 36 min ago, cooling off)
   (dropped ACN: sold 37 min ago, cooling off)
   (dropped ACN: sold 38 min ago, cooling off)
+
+## 2026-10-12 10:20 ET (Monday) — week 2026-W42 — budget left $8605.49 (today $26600.00 put to work, 13 buys, 4 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxVQ5myowhtocNvoUjbV'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25408.55 (+1.63% on $25000.00 in) · cash $9040.52 · realised +440.52
+Decision: nothing at this check. 21 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-12 10:23 ET (Monday) — week 2026-W42 — budget left $8605.49 (today $26600.00 put to work, 13 buys, 4 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxVdLj1BFwNr8YGwLwV2'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25401.68 (+1.61% on $25000.00 in) · cash $9040.52 · realised +440.52
+Decision: nothing at this check. 21 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [stop_loss @ $742.92] -> $749.87 (-0.02%) — close it all at -0.8% under the average cost
+## 2026-10-12 10:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders

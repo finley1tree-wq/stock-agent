@@ -58333,7 +58333,7 @@
     "code_version": "5a49589",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.59
+    "ret_now": -0.68
   },
   {
     "symbol": "IBM",
@@ -58461,7 +58461,7 @@
     "code_version": "88937a9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02
+    "ret_now": 0.0
   },
   {
     "symbol": "IBM",
@@ -58582,7 +58582,7 @@
     "code_version": "78d816f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.65
+    "ret_now": -0.77
   },
   {
     "symbol": "KO",
@@ -58639,7 +58639,7 @@
     "code_version": "4443ade",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.2
+    "ret_now": -0.06
   },
   {
     "symbol": "NEOG",
@@ -58670,7 +58670,7 @@
     "code_version": "4443ade",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": 0.08
   },
   {
     "symbol": "META",
@@ -58701,7 +58701,9 @@
     "code_version": "4443ade",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17
+    "ret_now": -0.02,
+    "ret_final": -0.02,
+    "ret_src": "realised"
   },
   {
     "symbol": "CVX",
@@ -58732,7 +58734,7 @@
     "code_version": "4443ade",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24
+    "ret_now": -0.43
   },
   {
     "symbol": "CVX",
@@ -58766,7 +58768,7 @@
     "code_version": "cb46268",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": -0.33
   },
   {
     "symbol": "CVX",
@@ -58799,7 +58801,7 @@
     "code_version": "cb46268",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": -0.23
   },
   {
     "symbol": "AMGN",
@@ -58826,5 +58828,32 @@
     "hour_et": 10,
     "code_version": "64965b7",
     "hold_minutes": 14
+  },
+  {
+    "symbol": "META",
+    "side": "sell",
+    "qty": 1.009355,
+    "status": "filled",
+    "price": 742.92,
+    "proceeds": 749.87,
+    "realized_pnl": -0.13,
+    "realized_pct": -0.02,
+    "date": "2026-10-12",
+    "time_et": "10:25",
+    "ts": 1791815100,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $743.05",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "7e9cc1e",
+    "hold_minutes": 19
   }
 ]
