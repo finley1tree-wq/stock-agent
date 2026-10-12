@@ -1,19 +1,3 @@
-  (dropped trigger IBP stop_loss: not held)
-  (dropped trigger KO stop_loss: not held)
-  (dropped trigger GS stop_loss: not held)
-~ WORKING stop_loss 100% NFLX @ $68.70 until 2026-10-09 — protective stop ~3% below entry
-~ WORKING take_profit 100% NFLX @ $70.97 until 2026-10-14 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 NFLX @ $68.68 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25434.48 (+1.74% on $25000.00 in) · cash $23385.18 · realised +435.18
-Done: 0 sell(s), 1 buy(s); 16 order(s) working; budget left $22965.91 this week
-  (cancelled 2 standing order(s) on HD: position closed)
-- SELL 100% HD [take_profit @ $291.86] -> $551.38 (+0.25%) — close 100% at +0.3% over the average cost
-## 2026-10-09 12:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-09 12:48 ET (Friday) — week 2026-W41 — budget left $23517.29 (today $32175.00 put to work, 25 buys, 21 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
   (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
@@ -398,3 +382,19 @@ Decision: nothing at this check. 21 standing order(s) working.
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [stop_loss @ $742.92] -> $749.87 (-0.02%) — close it all at -0.8% under the average cost
 ## 2026-10-12 10:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-12 10:26 ET (Monday) — week 2026-W42 — budget left $9355.36 (today $26600.00 put to work, 13 buys, 5 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxVrY6EoqzPXktJX8RBG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25385.42 (+1.54% on $25000.00 in) · cash $9790.40 · realised +440.40
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- BUY $2200.00 ACN [buy_limit @ $213.08] — wanted it, but not at the high — resting at $213.08. Named congress pressure plus strong recent momentum; counterfactual data flags ACN as a repeated miss when skipped
+## 2026-10-12 10:29 ET — tick — 0 sell(s), 1 buy(s) from standing orders

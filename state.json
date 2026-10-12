@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 15644.64,
-  "deployed": 26600.0,
+  "spent": 17844.64,
+  "deployed": 28800.0,
   "by_ticker": {
     "TSM": 2800.0,
     "IBM": 19.61,
@@ -10,12 +10,13 @@
     "SNOW": 750.0,
     "NEOG": 750.0,
     "META": 0.13,
-    "CVX": 6450.0
+    "CVX": 6450.0,
+    "ACN": 2200.0
   },
   "deployed_by_ticker": {
     "TSM": 2800.0,
     "IBM": 2800.0,
-    "ACN": 2900.0,
+    "ACN": 5100.0,
     "MSFT": 2900.0,
     "AMGN": 2500.0,
     "KO": 2000.0,
@@ -421,12 +422,36 @@
       ],
       "evidence": "average cost $743.05",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ACN",
+      "notional": 2200.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.324761,
+      "price": 213.08,
+      "date": "2026-10-12",
+      "time_et": "10:29",
+      "ts": 1791815100,
+      "why": "wanted it, but not at the high \u2014 resting at $213.08. Named congress pressure plus strong recent momentum; counterfactual data flags ACN as a repeated miss when skipped",
+      "signals": [
+        "congress",
+        "news",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "Rep. Lloyd Doggett disclosed HD buy; ACN has congress_net_buy_pressure 1.0 and +10.39% 5d / +17.09% 1m momentum, counterfactual biggest_miss showed ACN +22.91% fwd when skipped",
+      "trigger": "buy_limit",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 15644.64,
-  "deployed_today": 26600.0,
-  "orders_today": 13,
+  "spent_today": 17844.64,
+  "deployed_today": 28800.0,
+  "orders_today": 14,
   "sells_today": 5,
   "sold_today": [
     "ACN",
@@ -442,8 +467,8 @@
     "AMGN": 1791814244,
     "META": 1791815134
   },
-  "last_publish_ts": 1791815133,
-  "last_check_ts": 1791815270,
+  "last_publish_ts": 1791815356,
+  "last_check_ts": 1791815359,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -461,15 +486,6 @@
       },
       "tags": {
         "ratchet": "off"
-      }
-    },
-    "AMGN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
       }
     },
     "AVGO": {
@@ -499,7 +515,7 @@
         "ratchet": "off"
       }
     },
-    "META": {
+    "CVX": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -508,7 +524,7 @@
         "ratchet": "on"
       }
     },
-    "CVX": {
+    "ACN": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -519,27 +535,29 @@
     }
   },
   "last_bar_ts": 1791815100,
-  "last_decision_ts": 1791815181,
+  "last_decision_ts": 1791815359,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "5f82d40e": 213.08,
     "2daf8d80": 214.5447,
     "9d01af1f": 540.4177,
-    "94ae5bbe": 535.6954,
     "3c5426d0": 361.8367,
-    "2fb2992e": 216.1473,
-    "b2eacebe": 356.6978,
+    "eccc27e7": 214.1816,
+    "94ae5bbe": 535.6954,
     "ac6a6536": 12.0362,
+    "2fb2992e": 216.1473,
     "1f25fbf3": 452.1651,
+    "b2eacebe": 356.6978,
     "7c3996f1": 360.3071,
+    "31229234": 210.3249,
     "d4e1f8ca": 351.0,
     "dd050fa1": 11.7347,
     "8f38cf49": 439.0,
     "88f765c9": 348.4143,
     "74503529": 437.4409,
-    "4f93542e": 349.5589,
+    "6757cf0c": 206.6876,
+    "bcc4809c": 522.8979,
     "abd80721": 11.5915,
-    "bcc4809c": 522.8979
+    "4f93542e": 349.5589
   }
 }

@@ -58333,7 +58333,7 @@
     "code_version": "5a49589",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.68
+    "ret_now": -0.57
   },
   {
     "symbol": "IBM",
@@ -58461,7 +58461,7 @@
     "code_version": "88937a9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": 0.03
   },
   {
     "symbol": "IBM",
@@ -58582,7 +58582,7 @@
     "code_version": "78d816f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.77
+    "ret_now": -0.84
   },
   {
     "symbol": "KO",
@@ -58639,7 +58639,7 @@
     "code_version": "4443ade",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06
+    "ret_now": 0.09
   },
   {
     "symbol": "NEOG",
@@ -58670,7 +58670,7 @@
     "code_version": "4443ade",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.17
   },
   {
     "symbol": "META",
@@ -58734,7 +58734,7 @@
     "code_version": "4443ade",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.43
+    "ret_now": -0.4
   },
   {
     "symbol": "CVX",
@@ -58768,7 +58768,7 @@
     "code_version": "cb46268",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.33
+    "ret_now": -0.31
   },
   {
     "symbol": "CVX",
@@ -58801,7 +58801,7 @@
     "code_version": "cb46268",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.23
+    "ret_now": -0.2
   },
   {
     "symbol": "AMGN",
@@ -58855,5 +58855,38 @@
     "hour_et": 10,
     "code_version": "7e9cc1e",
     "hold_minutes": 19
+  },
+  {
+    "symbol": "ACN",
+    "notional": 2200.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 10.324761,
+    "price": 213.08,
+    "date": "2026-10-12",
+    "time_et": "10:29",
+    "ts": 1791815100,
+    "why": "wanted it, but not at the high \u2014 resting at $213.08. Named congress pressure plus strong recent momentum; counterfactual data flags ACN as a repeated miss when skipped",
+    "signals": [
+      "congress",
+      "news",
+      "patience",
+      "standing_order"
+    ],
+    "evidence": "Rep. Lloyd Doggett disclosed HD buy; ACN has congress_net_buy_pressure 1.0 and +10.39% 5d / +17.09% 1m momentum, counterfactual biggest_miss showed ACN +22.91% fwd when skipped",
+    "trigger": "buy_limit",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 213.08,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 15.87,
+    "hour_et": 10,
+    "code_version": "29f47fe",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.0
   }
 ]
