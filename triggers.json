@@ -6559,7 +6559,7 @@
    "ticker": "AVGO",
    "kind": "stop_loss",
    "price": 351.0,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 09:55",
    "created_ts": 1791813311,
    "why": "Protective stop ~2.3% below entry",
@@ -6568,7 +6568,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-12",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 11:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "5d85235d",
@@ -6649,7 +6651,7 @@
    "ticker": "AVGO",
    "kind": "take_profit",
    "price": 360.3071,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 09:55",
    "created_ts": 1791813311,
    "why": "close 100% at +0.3% over the average cost",
@@ -6659,14 +6661,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 11:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "88f765c9",
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 348.4143,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 09:55",
    "created_ts": 1791813311,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6676,7 +6680,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-12 11:25",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "3c5426d0",
@@ -7291,7 +7297,7 @@
    "ticker": "CVX",
    "kind": "take_profit",
    "price": 215.027,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-12 11:17",
    "created_ts": 1791818245,
    "why": "close 100% at +0.2% over the average cost",
@@ -7301,7 +7307,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 11:25"
   },
   {
    "id": "c4d5f2ab",
@@ -7327,7 +7334,7 @@
    "ticker": "CVX",
    "kind": "buy_limit",
    "price": 208.1329,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 11:17",
    "created_ts": 1791818245,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7337,14 +7344,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-12 11:25",
+   "cancel_reason": "position closed"
   },
   {
    "id": "43c49ee7",
    "ticker": "CVX",
    "kind": "stop_loss",
    "price": 214.786,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 11:21",
    "created_ts": 1791818519,
    "why": "close it all at -0.5% under the average cost",
@@ -7354,7 +7363,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 11:25",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6ece3387",
@@ -7408,5 +7419,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-12 11:23"
+ "updated": "2026-10-12 11:26"
 }

@@ -1,7 +1,3 @@
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
   (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
   (LCU excluded: not ordinary shares (ecnquote))
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxUxJ2T156dkWcLiBxbL'}
@@ -398,3 +394,7 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 META @ $723.42 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25393.52 (+1.57% on $25000.00 in) · cash $20408.34 · realised +408.34
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $19973.30 this week
+  (cancelled 2 standing order(s) on CVX: position closed)
+- SELL 100% CVX [take_profit @ $215.03] -> $751.59 (+0.21%) — close 100% at +0.2% over the average cost
+- SELL 100% AVGO [time stop] -> $1982.61 (-0.87%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-12 11:25 ET — tick — 2 sell(s), 0 buy(s) from standing orders

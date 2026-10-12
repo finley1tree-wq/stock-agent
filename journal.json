@@ -58586,7 +58586,9 @@
     "code_version": "78d816f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.82
+    "ret_now": -0.87,
+    "ret_final": -0.87,
+    "ret_src": "realised"
   },
   {
     "symbol": "KO",
@@ -59162,7 +59164,7 @@
     "code_version": "a535744",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.01
   },
   {
     "symbol": "NEOG",
@@ -59245,7 +59247,7 @@
     "code_version": "18a7ff4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": -0.09
   },
   {
     "symbol": "CVX",
@@ -59276,7 +59278,9 @@
     "code_version": "18a7ff4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": 0.21,
+    "ret_final": 0.21,
+    "ret_src": "realised"
   },
   {
     "symbol": "META",
@@ -59306,6 +59310,59 @@
     "hour_et": 11,
     "code_version": "4a5aeaf",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.09
+  },
+  {
+    "symbol": "CVX",
+    "side": "sell",
+    "qty": 3.495315,
+    "status": "filled",
+    "price": 215.03,
+    "proceeds": 751.59,
+    "realized_pnl": 1.59,
+    "realized_pct": 0.21,
+    "date": "2026-10-12",
+    "time_et": "11:25",
+    "ts": 1791818400,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $214.57",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "5f1cf5f",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "AVGO",
+    "side": "sell",
+    "qty": 5.568055,
+    "status": "filled",
+    "price": 356.07,
+    "proceeds": 1982.61,
+    "realized_pnl": -17.39,
+    "realized_pct": -0.87,
+    "date": "2026-10-12",
+    "time_et": "11:25",
+    "ts": 1791818731,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "congress",
+      "intraday_limit",
+      "time_stop",
+      "track_record"
+    ],
+    "evidence": "bought 90 min ago, -0.85% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "code_version": "5f1cf5f",
+    "hold_minutes": 90
   }
 ]
