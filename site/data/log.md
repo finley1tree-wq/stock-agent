@@ -1,6 +1,3 @@
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
   (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
 brain: Below target position count (5 of 8) with 89% cash idle - adding 4 more names backed by concrete congress disclosures (HUBB/IBP top pressure score 3.0 via April McClain Delaney filings, GOOGL via Cleo Fields filing) plus AMZN momentum, each sized ~$2000 with protective stops to stay within the 'congress-backed breadth buys with stop_loss' approach that past lessons/counterfactual data show works (congress signal chosen avg +0.32%, congress sector hit_rate 0.64). Avoiding GS/AMGN due to active cooldown.
@@ -398,3 +395,6 @@ lesson: At hour-09 SURVIVOR stage with high idle cash, deploy multiple $2.5-3k p
 ~ WORKING buy_limit $500.00 ACN @ $208.60 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25432.55 (+1.73% on $25000.00 in) · cash $16935.03 · realised +435.03
 Done: 0 sell(s), 1 buy(s); 13 order(s) working; budget left $16500.00 this week
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $216.15] -> $2914.78 (+0.51%) — close 100% at +0.5% over the average cost
+## 2026-10-12 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders

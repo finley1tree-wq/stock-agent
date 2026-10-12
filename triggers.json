@@ -7323,7 +7323,7 @@
    "ticker": "ACN",
    "kind": "stop_loss",
    "price": 209.5,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 09:39",
    "created_ts": 1791812396,
    "why": "Protective stop given elevated ATR",
@@ -7332,7 +7332,9 @@
     "risk_management"
    ],
    "good_until": "2026-10-12",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 09:42",
+   "cancel_reason": "position closed"
   },
   {
    "id": "2cc692e2",
@@ -7376,7 +7378,7 @@
    "ticker": "ACN",
    "kind": "take_profit",
    "price": 216.1489,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-12 09:39",
    "created_ts": 1791812396,
    "why": "close 100% at +0.5% over the average cost",
@@ -7386,14 +7388,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 09:42"
   },
   {
    "id": "319d4b7c",
    "ticker": "ACN",
    "kind": "buy_limit",
    "price": 208.5985,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 09:39",
    "created_ts": 1791812396,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7403,8 +7406,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-12 09:42",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-12 09:39"
+ "updated": "2026-10-12 09:42"
 }
