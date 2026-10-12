@@ -59613,7 +59613,9 @@
     "code_version": "fd2dd04",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.01,
+    "ret_final": 0.01,
+    "ret_src": "realised"
   },
   {
     "symbol": "NEOG",
@@ -59783,7 +59785,7 @@
     "code_version": "aeb4976",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": -0.16
   },
   {
     "symbol": "META",
@@ -59811,5 +59813,62 @@
     "hour_et": 12,
     "code_version": "cb50188",
     "hold_minutes": 27
+  },
+  {
+    "symbol": "CVX",
+    "side": "sell",
+    "qty": 3.488161,
+    "status": "filled",
+    "price": 215.04,
+    "proceeds": 750.1,
+    "realized_pnl": 0.1,
+    "realized_pct": 0.01,
+    "date": "2026-10-12",
+    "time_et": "12:58",
+    "ts": 1791824100,
+    "why": "close it all at -0.5% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $215.01",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "2168a78",
+    "hold_minutes": 44
+  },
+  {
+    "symbol": "NEOG",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 63.26444,
+    "price": 11.86,
+    "date": "2026-10-12",
+    "time_et": "12:58",
+    "ts": 1791824321,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4, incl. CEO); +0.6% over the month; 10% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 11.85,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 0.55,
+    "hour_et": 12,
+    "code_version": "2168a78",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

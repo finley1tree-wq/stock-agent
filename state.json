@@ -1,14 +1,15 @@
 {
   "week": "2026-W42",
-  "spent": 1536.32,
-  "deployed": 38550.0,
+  "spent": 1536.22,
+  "deployed": 39300.0,
   "by_ticker": {
     "TSM": 770.89,
     "IBM": 19.61,
     "AVGO": 17.39,
-    "CVX": 776.4,
+    "CVX": 26.3,
     "AMGN": 1.58,
-    "SNOW": 5.38
+    "SNOW": 5.38,
+    "NEOG": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 4300.0,
@@ -19,7 +20,7 @@
     "KO": 3500.0,
     "AVGO": 2000.0,
     "SNOW": 1500.0,
-    "NEOG": 1500.0,
+    "NEOG": 2250.0,
     "META": 2250.0,
     "CVX": 7950.0,
     "PG": 750.0
@@ -1104,13 +1105,56 @@
       ],
       "evidence": "average cost $746.11",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CVX",
+      "side": "sell",
+      "qty": 3.488161,
+      "status": "filled",
+      "price": 215.04,
+      "proceeds": 750.1,
+      "realized_pnl": 0.1,
+      "realized_pct": 0.01,
+      "date": "2026-10-12",
+      "time_et": "12:58",
+      "ts": 1791824100,
+      "why": "close it all at -0.5% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $215.01",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NEOG",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 63.26444,
+      "price": 11.86,
+      "date": "2026-10-12",
+      "time_et": "12:58",
+      "ts": 1791824321,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4, incl. CEO); +0.6% over the month; 10% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 1536.32,
-  "deployed_today": 38550.0,
-  "orders_today": 27,
-  "sells_today": 23,
+  "spent_today": 1536.22,
+  "deployed_today": 39300.0,
+  "orders_today": 28,
+  "sells_today": 24,
   "sold_today": [
     "ACN",
     "IBM",
@@ -1132,34 +1176,16 @@
     "AMGN": 1791822444,
     "META": 1791823855,
     "SNOW": 1791823627,
-    "CVX": 1791818733,
+    "CVX": 1791824320,
     "MSFT": 1791815796,
     "PG": 1791816497,
     "NEOG": 1791821503,
     "TSM": 1791820881,
     "AVGO": 1791818733
   },
-  "last_publish_ts": 1791823855,
-  "last_check_ts": 1791824244,
+  "last_publish_ts": 1791824321,
+  "last_check_ts": 1791824321,
   "exp_arm": {
-    "CVX": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "META": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "TSM": {
       "params": {
         "hold_minutes": 90,
@@ -1168,18 +1194,27 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "NEOG": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1791824100,
-  "last_decision_ts": 1791824154,
-  "next_check_minutes": null,
+  "last_decision_ts": 1791824321,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "e3ac6ff4": 215.148,
-    "7318acd4": 215.468,
-    "ecb838be": 444.8995,
     "cb40b966": 449.1684,
+    "ecb838be": 444.8995,
+    "a8c7c838": 11.9465,
+    "956cd491": 11.6439,
     "eafbd0ac": 434.5115,
-    "9653b4b7": 208.5597
+    "a0a6b22d": 11.5042
   }
 }

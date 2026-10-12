@@ -1,60 +1,6 @@
 {
  "orders": [
   {
-   "id": "34d84417",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 193.0,
-   "status": "cancelled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "Protect capital given higher ATR",
-   "evidence": "ATR 4.969%, wider stop given volatility",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-05 11:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "3cf98c57",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 517.0,
-   "status": "cancelled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "Protect capital below recent support",
-   "evidence": "ATR 2.26%, day low 521.53",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-05 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "385065c7",
-   "ticker": "NFLX",
-   "kind": "stop_loss",
-   "price": 65.5,
-   "status": "cancelled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "Protect capital on NFLX position",
-   "evidence": "ATR 2.622%, day low 66.955",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-05 09:48",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "dee64444",
    "ticker": "TSM",
    "kind": "stop_loss",
@@ -7214,7 +7160,7 @@
    "ticker": "CVX",
    "kind": "take_profit",
    "price": 215.468,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 12:10",
    "created_ts": 1791821458,
    "why": "close 100% at +0.2% over the average cost",
@@ -7224,7 +7170,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 12:58",
+   "cancel_reason": "position closed"
   },
   {
    "id": "296d3b06",
@@ -7250,7 +7198,7 @@
    "ticker": "CVX",
    "kind": "buy_limit",
    "price": 208.5597,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 12:10",
    "created_ts": 1791821458,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7260,7 +7208,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-12 12:58",
+   "cancel_reason": "position closed"
   },
   {
    "id": "94dab6ac",
@@ -7343,7 +7293,7 @@
    "ticker": "CVX",
    "kind": "stop_loss",
    "price": 215.148,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-12 12:42",
    "created_ts": 1791823347,
    "why": "close it all at -0.5% under the average cost",
@@ -7353,7 +7303,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 12:58"
   },
   {
    "id": "cb40b966",
@@ -7423,7 +7374,58 @@
    "good_until": "2026-10-17",
    "pct_of_position": 100.0,
    "closed": "2026-10-12 12:50"
+  },
+  {
+   "id": "a8c7c838",
+   "ticker": "NEOG",
+   "kind": "take_profit",
+   "price": 11.9465,
+   "status": "working",
+   "created": "2026-10-12 12:58",
+   "created_ts": 1791824321,
+   "why": "close 100% at +0.7% over the average cost",
+   "evidence": "average cost $11.86",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "956cd491",
+   "ticker": "NEOG",
+   "kind": "stop_loss",
+   "price": 11.6439,
+   "status": "working",
+   "created": "2026-10-12 12:58",
+   "created_ts": 1791824321,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $11.86",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a0a6b22d",
+   "ticker": "NEOG",
+   "kind": "buy_limit",
+   "price": 11.5042,
+   "status": "working",
+   "created": "2026-10-12 12:58",
+   "created_ts": 1791824321,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $11.86",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-12 12:55"
+ "updated": "2026-10-12 12:58"
 }
