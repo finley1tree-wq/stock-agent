@@ -24225,3 +24225,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 PG @ $148.04 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25381.26 (+1.53% on $25000.00 in) · cash $16922.70 · realised +422.70
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $16487.67 this week
+
+## 2026-10-12 10:39 ET (Monday) — week 2026-W42 — budget left $16487.67 (today $29550.00 put to work, 15 buys, 8 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxWrEQEAHTExA6JBFQPr'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25375.54 (+1.50% on $25000.00 in) · cash $16922.70 · realised +422.70
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
