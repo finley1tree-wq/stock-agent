@@ -1,6 +1,3 @@
-- BUY $750.00 AMGN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer): David J. Taylor; +10.1% over the month; 61% of today's range
-~ WORKING take_profit 100% AMGN @ $416.76 until 2026-10-17 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% AMGN @ $412.97 until 2026-10-17 — close it all at -0.7% under the average cost
 ~ WORKING buy_limit $500.00 AMGN @ $403.21 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25392.44 (+1.57% on $25000.00 in) · cash $19123.78 · realised +423.78
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $18688.74 this week
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 CVX @ $208.56 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25395.99 (+1.58% on $25000.00 in) · cash $21646.48 · realised +396.48
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21211.45 this week
+  (cancelled 2 standing order(s) on NEOG: position closed)
+- SELL 100% NEOG [take_profit @ $12.04] -> $755.08 (+0.68%) — close 100% at +0.7% over the average cost
+## 2026-10-12 12:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders

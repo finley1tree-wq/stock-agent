@@ -24731,3 +24731,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 CVX @ $208.56 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25395.99 (+1.58% on $25000.00 in) · cash $21646.48 · realised +396.48
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21211.45 this week
+  (cancelled 2 standing order(s) on NEOG: position closed)
+- SELL 100% NEOG [take_profit @ $12.04] -> $755.08 (+0.68%) — close 100% at +0.7% over the average cost
+## 2026-10-12 12:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders

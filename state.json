@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3788.55,
+  "spent": 3033.47,
   "deployed": 37050.0,
   "by_ticker": {
     "TSM": 20.89,
@@ -9,8 +9,7 @@
     "CVX": 776.4,
     "AMGN": 750.0,
     "SNOW": 750.0,
-    "ACN": 750.0,
-    "NEOG": 750.0
+    "ACN": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 3550.0,
@@ -959,13 +958,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "NEOG",
+      "side": "sell",
+      "qty": 62.735283,
+      "status": "filled",
+      "price": 12.04,
+      "proceeds": 755.08,
+      "realized_pnl": 5.08,
+      "realized_pct": 0.68,
+      "date": "2026-10-12",
+      "time_et": "12:11",
+      "ts": 1791821400,
+      "why": "close 100% at +0.7% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $11.95",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 3788.55,
+  "spent_today": 3033.47,
   "deployed_today": 37050.0,
   "orders_today": 25,
-  "sells_today": 18,
+  "sells_today": 19,
   "sold_today": [
     "ACN",
     "IBM",
@@ -990,12 +1010,12 @@
     "CVX": 1791818733,
     "MSFT": 1791815796,
     "PG": 1791816497,
-    "NEOG": 1791817166,
+    "NEOG": 1791821503,
     "TSM": 1791820881,
     "AVGO": 1791818733
   },
-  "last_publish_ts": 1791821458,
-  "last_check_ts": 1791821458,
+  "last_publish_ts": 1791821502,
+  "last_check_ts": 1791821548,
   "exp_arm": {
     "AMGN": {
       "params": {
@@ -1048,20 +1068,17 @@
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "55d6eb1c": 12.036,
     "7318acd4": 215.468,
-    "20f155c1": 11.992,
     "f5495c14": 412.9698,
-    "0be635b0": 214.9233,
-    "411afac3": 416.7649,
     "296d3b06": 213.864,
     "ea022309": 357.9332,
+    "0be635b0": 214.9233,
+    "411afac3": 416.7649,
     "7194757c": 363.1227,
     "1e237f63": 211.0639,
     "1fd57899": 350.7908,
     "c135fcb6": 403.2096,
-    "9653b4b7": 208.5597,
     "48305fad": 207.4054,
-    "468e5597": 11.5915
+    "9653b4b7": 208.5597
   }
 }
