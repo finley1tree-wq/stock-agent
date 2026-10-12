@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "af28c21c",
-   "ticker": "PG",
-   "kind": "stop_loss",
-   "price": 142.5,
-   "status": "cancelled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "Protect capital on defensive name",
-   "evidence": "ATR 1.45%, tight stop for low-vol staple",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-05",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-05 10:38",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "34d84417",
    "ticker": "ACN",
    "kind": "stop_loss",
@@ -7302,7 +7284,7 @@
    "ticker": "META",
    "kind": "stop_loss",
    "price": 739.8949,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 12:22",
    "created_ts": 1791822175,
    "why": "close it all at -0.8% under the average cost",
@@ -7312,7 +7294,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 12:47",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "de7f2031",
@@ -7417,6 +7401,23 @@
    ],
    "good_until": "2026-10-17",
    "usd": 500.0
+  },
+  {
+   "id": "0cecb6b0",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 747.106,
+   "status": "working",
+   "created": "2026-10-12 12:47",
+   "created_ts": 1791823675,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $746.11",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
   }
  ],
  "updated": "2026-10-12 12:47"
