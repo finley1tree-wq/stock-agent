@@ -1,53 +1,5 @@
   (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
   (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past 14:00 cutoff) so no buys are allowed regardless of idle cash. The 3 existing positions (IBP, PPG, LMT) already have take_profit and stop_loss brackets working from auto_bracket; I'm tightening LMT's stop slightly since its ratchet experiment is active and it's modestly green, to lock in gains if it reverses before the 90-min hold clock closes it. No new capital can be deployed this check per the entry cutoff rule.
-lesson: After the 14:00 no-new-entries cutoff, the only legal moves are sells/triggers on existing positions - stop trying to force buys and instead focus on protecting/ratcheting what's already open.
-~ WORKING stop_loss 100% LMT @ $501.50 until 2026-10-09 — protect against giveback since ratchet arm is active on LMT
-portfolio: equity $25435.31 (+1.74% on $25000.00 in) · cash $24060.00 · realised +435.00
-Decision: nothing at this check. 7 standing order(s) working.
-
-## 2026-10-09 14:26 ET (Friday) — week 2026-W41 — budget left $23640.73 (today $33925.00 put to work, 29 buys, 25 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: No new entries allowed this check (past 14:00 cutoff per guardrails), so I cannot add new positions despite being below min_positions - that's the rule, not a choice to sit out. All three current positions already have take-profit and stop-loss orders working from auto_bracket; I'm tightening the LMT and PPG stops slightly given minor red P/L and limited time left in the session (Friday, close at 16:00) rather than letting them ride the full distance. No sells since none of the three positions have hit a profit/loss level warranting an early exit beyond the existing brackets.
-lesson: When no_new_entries_this_check is true, focus entirely on protecting/tightening existing stops rather than trying to force buys that will just get dropped.
-~ WORKING stop_loss 100% LMT @ $503.00 until 2026-10-09 — tighten protective stop on LMT given ratchet experiment and small loss so far
-~ WORKING stop_loss 100% PPG @ $103.20 until 2026-10-09 — tighten stop slightly to limit downside into close
-~ WORKING stop_loss 100% IBP @ $180.00 until 2026-10-09 — keep protective stop active, no change needed to level but reaffirm
-portfolio: equity $25434.40 (+1.74% on $25000.00 in) · cash $24060.00 · realised +435.00
-Decision: nothing at this check. 10 standing order(s) working.
-  (cancelled 2 standing order(s) on IBP: position closed)
-- SELL 100% IBP [take_profit @ $184.80] -> $502.58 (+0.52%) — close 100% at +0.5% over the average cost
-- SELL 100% PPG [time stop] -> $498.84 (-0.23%) — held 90 min, the 90-minute limit: out regardless
-- SELL 100% LMT [time stop] -> $373.62 (-0.37%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-09 14:34 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-09 14:41 ET (Friday) — week 2026-W41 — budget left $25000.00 (today $33925.00 put to work, 29 buys, 28 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0, so there is nothing to protect or sell. All prior positions were already closed today (sold_today lists 18 names, all within cooldown). No legal action remains except waiting for the next window; will reassess at next check for any remaining sell/trigger needs, though with zero holdings none exist now.
-lesson: Past 14:00 no_new_entries cutoff with zero holdings means truly nothing to do - don't force orders that guardrails will drop.
-portfolio: equity $25435.03 (+1.74% on $25000.00 in) · cash $25435.03 · realised +435.03
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-09 15:12 ET (Friday) — week 2026-W41 — budget left $25000.00 (today $33925.00 put to work, 29 buys, 28 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
   (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0 with all today's prior positions already closed/sold - there is nothing to buy (would be dropped) and nothing to protect (no open positions). With only ~45 minutes left to the 16:00 close and max_hold_minutes of 30, opening anything now would be closed out near the bell anyway, and guardrails would reject new entries regardless.
@@ -398,3 +350,51 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25375.54 (+1.50% on $25000.00 in) · cash $16922.70 · realised +422.70
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-12 10:42 ET (Monday) — week 2026-W42 — budget left $16487.67 (today $29550.00 put to work, 15 buys, 8 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxX5dnXEVd6AbyFsdCQD'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25387.11 (+1.55% on $25000.00 in) · cash $16922.70 · realised +422.70
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-12 10:45 ET (Monday) — week 2026-W42 — budget left $16487.67 (today $29550.00 put to work, 15 buys, 8 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxXJgMuDMxyTDuZGxabi'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25380.66 (+1.52% on $25000.00 in) · cash $16922.70 · realised +422.70
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [stop_loss @ $152.63] -> $750.03 (+0.00%) — close it all at -0.5% under the average cost
+## 2026-10-12 10:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-12 10:48 ET (Monday) — week 2026-W42 — budget left $17237.70 (today $29550.00 put to work, 15 buys, 9 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxXXjEA8PMqwWPsxHeUy'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $17,238 idle, so opened 1: KO. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 KO [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer): Kevin Hern; +0.8% over the month; 63% of today's range
+~ WORKING take_profit 100% KO @ $89.15 until 2026-10-17 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% KO @ $88.67 until 2026-10-17 — close it all at -0.4% under the average cost
+~ WORKING buy_limit $500.00 KO @ $86.34 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25384.15 (+1.54% on $25000.00 in) · cash $16922.74 · realised +422.74
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $16487.70 this week

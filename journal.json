@@ -58333,7 +58333,7 @@
     "code_version": "5a49589",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.65
+    "ret_now": -0.6
   },
   {
     "symbol": "IBM",
@@ -58584,7 +58584,7 @@
     "code_version": "78d816f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.74
+    "ret_now": -0.67
   },
   {
     "symbol": "KO",
@@ -58674,7 +58674,7 @@
     "code_version": "4443ade",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.17
+    "ret_now": -0.08
   },
   {
     "symbol": "META",
@@ -58897,7 +58897,7 @@
     "code_version": "29f47fe",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.33
+    "ret_now": -0.29
   },
   {
     "symbol": "SNOW",
@@ -59009,6 +59009,65 @@
     "code_version": "a76e1fe",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.0,
+    "ret_final": 0.0,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "PG",
+    "side": "sell",
+    "qty": 4.914149,
+    "status": "filled",
+    "price": 152.63,
+    "proceeds": 750.03,
+    "realized_pnl": 0.03,
+    "realized_pct": 0.0,
+    "date": "2026-10-12",
+    "time_et": "10:48",
+    "ts": 1791816300,
+    "why": "close it all at -0.5% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $152.62",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "323628e",
+    "hold_minutes": 7
+  },
+  {
+    "symbol": "KO",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 8.426228,
+    "price": 89.01,
+    "date": "2026-10-12",
+    "time_et": "10:48",
+    "ts": 1791816499,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer): Kevin Hern; +0.8% over the month; 63% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 88.99,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 0.79,
+    "hour_et": 10,
+    "code_version": "323628e",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
