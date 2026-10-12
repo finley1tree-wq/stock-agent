@@ -58332,7 +58332,8 @@
     "hour_et": 9,
     "code_version": "5a49589",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.16
   },
   {
     "symbol": "IBM",
@@ -58363,6 +58364,37 @@
     "momentum_1m_at_entry": -6.2,
     "hour_et": 9,
     "code_version": "27ed6a0",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.21
+  },
+  {
+    "symbol": "ACN",
+    "notional": 2900.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 13.485048,
+    "price": 215.05,
+    "date": "2026-10-12",
+    "time_et": "09:39",
+    "ts": 1791812396,
+    "why": "Strong named filing pressure plus momentum; desk flagged this as a repeated miss, taking it now at market since still within max_entry_range_pct",
+    "signals": [
+      "congress",
+      "momentum",
+      "news"
+    ],
+    "evidence": "Rep. Lloyd Doggett disclosed a PPG-adjacent buy pattern; ACN +2.84% 1d, +10.23% 5d, +16.91% 1m with congress_net_buy_pressure of 1.0; counterfactual biggest_misses flags ACN as repeated missed opportu",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 215.01,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 16.91,
+    "hour_et": 9,
+    "code_version": "b30de8b",
     "ret_1w": null,
     "ret_1m": null
   }

@@ -1,99 +1,6 @@
 {
  "orders": [
   {
-   "id": "81295eee",
-   "ticker": "CHRW",
-   "kind": "take_profit",
-   "price": 156.2663,
-   "status": "filled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $155.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:42"
-  },
-  {
-   "id": "4d8aa556",
-   "ticker": "CHRW",
-   "kind": "buy_limit",
-   "price": 151.1551,
-   "status": "cancelled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $155.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 09:41",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "a442404f",
-   "ticker": "HLI",
-   "kind": "take_profit",
-   "price": 130.263,
-   "status": "filled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $129.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:46"
-  },
-  {
-   "id": "d43769c6",
-   "ticker": "HLI",
-   "kind": "buy_limit",
-   "price": 125.9157,
-   "status": "cancelled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $129.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 09:46",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "7e3a3af6",
-   "ticker": "FWONK",
-   "kind": "take_profit",
-   "price": 92.2202,
-   "status": "cancelled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $91.97",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 11:09",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "b50b6e17",
    "ticker": "FWONK",
    "kind": "buy_limit",
@@ -7410,7 +7317,94 @@
    ],
    "good_until": "2026-10-17",
    "usd": 500.0
+  },
+  {
+   "id": "46157777",
+   "ticker": "ACN",
+   "kind": "stop_loss",
+   "price": 209.5,
+   "status": "working",
+   "created": "2026-10-12 09:39",
+   "created_ts": 1791812396,
+   "why": "Protective stop given elevated ATR",
+   "evidence": "ACN ATR 4.6%, high volatility name needs wider stop",
+   "signals": [
+    "risk_management"
+   ],
+   "good_until": "2026-10-12",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2cc692e2",
+   "ticker": "CVX",
+   "kind": "buy_limit",
+   "price": 215.4408,
+   "status": "working",
+   "created": "2026-10-12 09:39",
+   "created_ts": 1791812396,
+   "why": "wanted it, but not at the high \u2014 resting at $215.44. Named congress buy pressure plus strong 1d/5d momentum, hour-09 is SURVIVOR stage so full size warranted",
+   "evidence": "Rep. Maria Elvira Salazar disclosed a CVX buy ($1,001-$15,000) on 2026-09-02, filing disclosed 2026-10-07; CVX +1.95% today, 87.9% of day range",
+   "signals": [
+    "congress",
+    "news",
+    "momentum",
+    "patience"
+   ],
+   "good_until": "2026-10-12",
+   "usd": 2900.0
+  },
+  {
+   "id": "47fbe8f0",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 539.2261,
+   "status": "working",
+   "created": "2026-10-12 09:39",
+   "created_ts": 1791812396,
+   "why": "wanted it, but not at the high \u2014 resting at $539.23. Widely-held mega-cap with strong momentum breakout, diversifies sector exposure beyond TSM/IBM",
+   "evidence": "MSFT +1.24% 1d, +3.14% 5d, +9.29% 1m, 93.4% of day range - strong breakout confirmed by price action",
+   "signals": [
+    "momentum",
+    "news",
+    "patience"
+   ],
+   "good_until": "2026-10-12",
+   "usd": 2900.0
+  },
+  {
+   "id": "3a98c181",
+   "ticker": "ACN",
+   "kind": "take_profit",
+   "price": 216.1489,
+   "status": "working",
+   "created": "2026-10-12 09:39",
+   "created_ts": 1791812396,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $215.05",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "319d4b7c",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 208.5985,
+   "status": "working",
+   "created": "2026-10-12 09:39",
+   "created_ts": 1791812396,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $215.05",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-12 09:38"
+ "updated": "2026-10-12 09:39"
 }

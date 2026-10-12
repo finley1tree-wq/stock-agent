@@ -1,14 +1,16 @@
 {
   "week": "2026-W42",
-  "spent": 5600.0,
-  "deployed": 5600.0,
+  "spent": 8500.0,
+  "deployed": 8500.0,
   "by_ticker": {
     "TSM": 2800.0,
-    "IBM": 2800.0
+    "IBM": 2800.0,
+    "ACN": 2900.0
   },
   "deployed_by_ticker": {
     "TSM": 2800.0,
-    "IBM": 2800.0
+    "IBM": 2800.0,
+    "ACN": 2900.0
   },
   "orders": [
     {
@@ -55,17 +57,39 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "ACN",
+      "notional": 2900.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.485048,
+      "price": 215.05,
+      "date": "2026-10-12",
+      "time_et": "09:39",
+      "ts": 1791812396,
+      "why": "Strong named filing pressure plus momentum; desk flagged this as a repeated miss, taking it now at market since still within max_entry_range_pct",
+      "signals": [
+        "congress",
+        "news",
+        "momentum"
+      ],
+      "evidence": "Rep. Lloyd Doggett disclosed a PPG-adjacent buy pattern; ACN +2.84% 1d, +10.23% 5d, +16.91% 1m with congress_net_buy_pressure of 1.0; counterfactual biggest_misses flags ACN as repeated missed opportu",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 5600.0,
-  "deployed_today": 5600.0,
-  "orders_today": 2,
+  "spent_today": 8500.0,
+  "deployed_today": 8500.0,
+  "orders_today": 3,
   "sells_today": 0,
   "sold_today": [],
   "sold_ts": {},
-  "last_publish_ts": 1791812312,
-  "last_check_ts": 1791812312,
+  "last_publish_ts": 1791812396,
+  "last_check_ts": 1791812396,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -84,20 +108,34 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "ACN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1791812100,
-  "last_decision_ts": 1791811965,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1791812396,
+  "next_check_minutes": 15,
   "autopiloted": false,
   "book_px": {
-    "f5a11a7d": 228.8758,
     "1f25fbf3": 452.1651,
+    "2cc692e2": 215.4408,
     "c5c98860": 215.2153,
     "a7f9faaf": 226.7939,
+    "47fbe8f0": 539.2261,
+    "f5a11a7d": 228.8758,
+    "3a98c181": 216.1489,
     "5f82d40e": 213.08,
+    "46157777": 209.5,
     "8f38cf49": 439.0,
-    "74503529": 437.4409,
-    "3c4e5eda": 221.4316
+    "3c4e5eda": 221.4316,
+    "319d4b7c": 208.5985,
+    "74503529": 437.4409
   }
 }

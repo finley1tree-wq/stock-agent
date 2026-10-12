@@ -1,26 +1,3 @@
-  (dropped trigger MSFT stop_loss: not held)
-  (dropped trigger UNH stop_loss: not held)
-~ WORKING stop_loss 100% IBM @ $222.40 until 2026-10-09 — Protective stop for new IBM position
-~ WORKING stop_loss 100% AVGO @ $357.00 until 2026-10-09 — Protective stop for new AVGO position
-~ WORKING stop_loss 100% NEM @ $115.50 until 2026-10-09 — Protective stop for new NEM position
-~ WORKING stop_loss 100% NOC @ $472.70 until 2026-10-09 — Protective stop for new NOC position
-~ WORKING buy_limit $625.00 MSFT @ $530.21 until 2026-10-09 — wanted it, but not at the high — resting at $530.21. Congress-backed name with strong recent momentum, mid position size [probation at 25% size (no hour or signal lens has proven itself yet)]
-~ WORKING take_profit 100% IBM @ $227.63 until 2026-10-14 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 IBM @ $220.19 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AVGO @ $365.54 until 2026-10-14 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 AVGO @ $353.47 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NEM @ $118.38 until 2026-10-14 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 NEM @ $114.44 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NOC @ $483.85 until 2026-10-14 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 NOC @ $468.09 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25421.23 (+1.68% on $25000.00 in) · cash $22173.39 · realised +423.39
-Done: 0 sell(s), 4 buy(s); 22 order(s) working; budget left $21754.12 this week
-  (cancelled 2 standing order(s) on AMGN: position closed)
-- SELL 100% AMGN [take_profit @ $410.00] -> $501.43 (+0.29%) — close 100% at +0.3% over the average cost
-## 2026-10-09 10:58 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-09 10:58 ET (Friday) — week 2026-W41 — budget left $22255.55 (today $23250.00 put to work, 14 buys, 9 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
   (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
   (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
@@ -398,3 +375,26 @@ portfolio: equity $25434.47 (+1.74% on $25000.00 in) · cash $22635.03 · realis
 Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $22200.00 this week
 - BUY $2800.00 IBM [buy_limit @ $228.28] — wanted it, but not at the high — resting at $228.28. Counterfactual data flags IBM as a recently missed name; current momentum turning positive after a 1m pullback
 ## 2026-10-12 09:38 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+
+## 2026-10-12 09:39 ET (Monday) — week 2026-W42 — budget left $19400.00 (today $5600.00 put to work, 2 buys, 0 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain: Only 2/8 min_positions filled with 77.6% cash idle - need to deploy aggressively now while hour-09 SURVIVOR stage is active (full size warranted) before PROBATION hours kick in. Adding CVX and ACN (both named congress filings, resting buy_limits already placed but taking some at market since momentum supports it) plus MSFT for diversification away from tech-adjacent TSM/IBM concentration. Protective stops placed on all new positions per risk_management signal which has the best track record (0.19% avg, 88% hit rate).
+lesson: At hour-09 SURVIVOR stage with high idle cash, deploy multiple $2.5-3k positions immediately backed by named congress filings and momentum rather than waiting for resting limits to fill, since full_deployment mode rewards concentrated conviction early in the SURVIVOR window.
+  (dropped CVX: 88% up today's range — resting a limit at $215.44 instead of chasing)
+  (dropped MSFT: 93% up today's range — resting a limit at $539.23 instead of chasing)
+- BUY $2900.00 ACN [filled] ['congress', 'news', 'momentum'] — Strong named filing pressure plus momentum; desk flagged this as a repeated miss, taking it now at market since still within max_entry_range_pct | evidence: Rep. Lloyd Doggett disclosed a PPG-adjacent buy pattern; ACN +2.84% 1d, +10.23% 5d, +16.91% 1m with congress_net_buy_pressure of 1.0; counterfactual biggest_misses flags ACN as repeated missed opportu
+  (dropped trigger CVX stop_loss: not held)
+  (dropped trigger MSFT stop_loss: not held)
+  (dropped trigger MSFT take_profit: not held)
+~ WORKING stop_loss 100% ACN @ $209.50 until 2026-10-12 — Protective stop given elevated ATR
+~ WORKING buy_limit $2900.00 CVX @ $215.44 until 2026-10-12 — wanted it, but not at the high — resting at $215.44. Named congress buy pressure plus strong 1d/5d momentum, hour-09 is SURVIVOR stage so full size warranted
+~ WORKING buy_limit $2900.00 MSFT @ $539.23 until 2026-10-12 — wanted it, but not at the high — resting at $539.23. Widely-held mega-cap with strong momentum breakout, diversifies sector exposure beyond TSM/IBM
+~ WORKING take_profit 100% ACN @ $216.15 until 2026-10-17 — close 100% at +0.5% over the average cost
+~ WORKING buy_limit $500.00 ACN @ $208.60 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25432.55 (+1.73% on $25000.00 in) · cash $16935.03 · realised +435.03
+Done: 0 sell(s), 1 buy(s); 13 order(s) working; budget left $16500.00 this week
