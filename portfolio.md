@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-10-12 15:12 ET
+# Pretend portfolio — 2026-10-12 15:14 ET
 
-**Equity $25398.72** on $25000.00 put in → **+1.59%**  
-Cash $24648.90 · Unrealised -0.18 · Realised +398.90
+**Equity $25398.61** on $25000.00 put in → **+1.59%**  
+Cash $24648.90 · Unrealised -0.29 · Realised +398.90
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| CVX | 3.0% | $749.82 | $215.34 | $215.29 | -0.02% | 0d |
+| CVX | 3.0% | $749.71 | $215.34 | $215.26 | -0.04% | 0d |
 
 ## Last fills
 
