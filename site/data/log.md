@@ -1,4 +1,3 @@
-  (CET excluded: too thinly traded ($1.6M a day) — Central Securities Corporation)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
   (GOAI excluded: too thinly traded ($0.7M a day) — Eva Live, Inc.)
@@ -398,3 +397,4 @@ portfolio: equity $25435.03 (+1.74% on $25000.00 in) · cash $25435.03 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-09 16:00 ET — published the session's closing state
+## 2026-10-12 00:00 ET — published the session's closing state
