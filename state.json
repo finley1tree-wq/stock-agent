@@ -1,12 +1,12 @@
 {
   "week": "2026-W42",
-  "spent": 786.1,
+  "spent": 36.26,
   "deployed": 43050.0,
   "by_ticker": {
     "TSM": 23.53,
     "IBM": 19.61,
     "AVGO": 17.39,
-    "CVX": 776.3,
+    "CVX": 26.46,
     "AMGN": 1.47,
     "SNOW": 4.82,
     "ACN": 4.16
@@ -1381,13 +1381,33 @@
       ],
       "evidence": "bought 90 min ago, +0.09% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "CVX",
+      "side": "sell",
+      "qty": 3.482815,
+      "status": "filled",
+      "price": 215.3,
+      "proceeds": 749.84,
+      "realized_pnl": -0.16,
+      "realized_pct": -0.02,
+      "date": "2026-10-12",
+      "time_et": "15:16",
+      "ts": 1791832564,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, +0.00% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 786.1,
+  "spent_today": 36.26,
   "deployed_today": 43050.0,
   "orders_today": 33,
-  "sells_today": 30,
+  "sells_today": 31,
   "sold_today": [
     "ACN",
     "IBM",
@@ -1409,15 +1429,15 @@
     "AMGN": 1791830477,
     "META": 1791826887,
     "SNOW": 1791831823,
-    "CVX": 1791824320,
+    "CVX": 1791832565,
     "MSFT": 1791815796,
     "PG": 1791816497,
     "NEOG": 1791828923,
     "TSM": 1791829053,
     "AVGO": 1791818733
   },
-  "last_publish_ts": 1791831786,
-  "last_check_ts": 1791832447,
+  "last_publish_ts": 1791832564,
+  "last_check_ts": 1791832567,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -1474,12 +1494,9 @@
       }
     }
   },
-  "last_bar_ts": 1791832200,
-  "last_decision_ts": 1791832447,
+  "last_bar_ts": 1791832500,
+  "last_decision_ts": 1791832567,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "06226cae": 215.7987,
-    "65ec0dfe": 214.1944
-  }
+  "book_px": {}
 }
