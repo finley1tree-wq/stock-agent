@@ -1,9 +1,9 @@
 {
   "week": "2026-W42",
-  "spent": 3790.0,
-  "deployed": 35550.0,
+  "spent": 4540.0,
+  "deployed": 36300.0,
   "by_ticker": {
-    "TSM": 21.17,
+    "TSM": 771.17,
     "IBM": 19.61,
     "AVGO": 17.39,
     "CVX": 26.4,
@@ -14,7 +14,7 @@
     "NEOG": 750.0
   },
   "deployed_by_ticker": {
-    "TSM": 2800.0,
+    "TSM": 3550.0,
     "IBM": 2800.0,
     "ACN": 5850.0,
     "MSFT": 2900.0,
@@ -874,12 +874,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "TSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.674445,
+      "price": 447.91,
+      "date": "2026-10-12",
+      "time_et": "11:53",
+      "ts": 1791820388,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): Rick W. Allen; +3.4% over the month; 19% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 3790.0,
-  "deployed_today": 35550.0,
-  "orders_today": 23,
+  "spent_today": 4540.0,
+  "deployed_today": 36300.0,
+  "orders_today": 24,
   "sells_today": 16,
   "sold_today": [
     "ACN",
@@ -909,8 +931,8 @@
     "TSM": 1791817558,
     "AVGO": 1791818733
   },
-  "last_publish_ts": 1791820036,
-  "last_check_ts": 1791820301,
+  "last_publish_ts": 1791820388,
+  "last_check_ts": 1791820388,
   "exp_arm": {
     "AMGN": {
       "params": {
@@ -956,27 +978,39 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "TSM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1791820200,
-  "last_decision_ts": 1791820210,
-  "next_check_minutes": null,
+  "last_decision_ts": 1791820388,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "e08dce85": 89.1762,
+    "411afac3": 416.7649,
+    "727cae46": 449.1283,
     "7194757c": 363.1227,
     "9d291798": 88.6999,
-    "411afac3": 416.7649,
-    "f5495c14": 412.9698,
     "0be635b0": 214.9233,
     "55d6eb1c": 12.036,
+    "f5495c14": 412.9698,
+    "2419e539": 444.8597,
     "ea022309": 357.9332,
     "1e237f63": 211.0639,
     "200728ff": 11.7349,
-    "48305fad": 207.4054,
+    "4a7252b3": 434.4727,
     "c135fcb6": 403.2096,
+    "48305fad": 207.4054,
+    "1fd57899": 350.7908,
     "21cba0ad": 86.3688,
-    "468e5597": 11.5915,
-    "1fd57899": 350.7908
+    "468e5597": 11.5915
   }
 }
