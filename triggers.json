@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "ded011e5",
-   "ticker": "AMZN",
-   "kind": "buy_limit",
-   "price": 245.119,
-   "status": "cancelled",
-   "created": "2026-10-02 10:25",
-   "created_ts": 1790951145,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $252.7",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 11:55",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "811e5765",
    "ticker": "PLD",
    "kind": "take_profit",
@@ -7389,7 +7370,7 @@
    "ticker": "META",
    "kind": "stop_loss",
    "price": 739.5701,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 11:23",
    "created_ts": 1791818603,
    "why": "close it all at -0.8% under the average cost",
@@ -7399,7 +7380,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 11:31",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "b46da7fc",
@@ -7417,7 +7400,24 @@
    ],
    "good_until": "2026-10-17",
    "usd": 500.0
+  },
+  {
+   "id": "668d9322",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 746.672,
+   "status": "working",
+   "created": "2026-10-12 11:31",
+   "created_ts": 1791819093,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $745.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-12 11:29"
+ "updated": "2026-10-12 11:32"
 }

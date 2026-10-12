@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-12T11:25-04:00",
- "note": "tick: 2 standing order(s) filled",
+ "asOf": "2026-10-12T11:31-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "668d9322",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 746.672,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 747.26,
+   "pct_away": -0.08,
+   "good_until": "2026-10-17",
+   "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "411afac3",
    "ticker": "AMGN",
    "kind": "take_profit",
@@ -185,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 415.8,
-   "pct_away": 0.23,
+   "last": 416.36,
+   "pct_away": 0.1,
    "good_until": "2026-10-17",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -202,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 746.34,
-   "pct_away": 0.26,
+   "last": 747.26,
+   "pct_away": 0.14,
    "good_until": "2026-10-17",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -219,44 +236,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 361.25,
-   "pct_away": 0.52,
+   "last": 360.77,
+   "pct_away": 0.65,
    "good_until": "2026-10-17",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f5495c14",
-   "ticker": "AMGN",
-   "kind": "stop_loss",
-   "price": 412.9698,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 415.8,
-   "pct_away": -0.68,
-   "good_until": "2026-10-17",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0407a427",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 739.5701,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 746.34,
-   "pct_away": -0.91,
-   "good_until": "2026-10-17",
-   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,10 +253,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 361.25,
-   "pct_away": -0.92,
+   "last": 360.77,
+   "pct_away": -0.79,
    "good_until": "2026-10-17",
    "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f5495c14",
+   "ticker": "AMGN",
+   "kind": "stop_loss",
+   "price": 412.9698,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 416.36,
+   "pct_away": -0.81,
+   "good_until": "2026-10-17",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -287,8 +287,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 361.25,
-   "pct_away": -2.9,
+   "last": 360.77,
+   "pct_away": -2.77,
    "good_until": "2026-10-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -304,8 +304,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 415.8,
-   "pct_away": -3.03,
+   "last": 416.36,
+   "pct_away": -3.16,
    "good_until": "2026-10-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -321,8 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 746.34,
-   "pct_away": -3.07,
+   "last": 747.26,
+   "pct_away": -3.19,
    "good_until": "2026-10-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
