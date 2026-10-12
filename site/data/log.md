@@ -1,9 +1,3 @@
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
 brain: Only 3/8 min_positions held with 94% cash idle - below_target_position_count is true and entries close at 14:00, so I must act now. Adding IBP and PPG on named congress filings (Lloyd Doggett disclosed PPG buy 10/5; congress pressure score shows IBP=3.0), plus LMT for defense diversification and CCJ for nuclear exposure with evidence from biggest_misses showing CCJ was undervalued previously. Sizing moderate ($1.5-2k) given PROBATION stage on most hour/signal buckets, with protective stops on every new position per risk_management best practice (602 trades, 88% hit rate).
 lesson: With under 50 minutes to the 14:00 entry cutoff and only 3/8 positions filled, prioritize deploying into named-filing-backed names (IBP, PPG) and sector diversifiers (LMT, CCJ) now rather than waiting, since idle cash has consistently underperformed per counterfactual data.
 - BUY $500.00 IBP [filled] ['congress', 'track_record'] — Low-in-range entry on congress-backed homebuilder name, avoids chasing [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Lloyd Doggett bought PPG & congress net buy pressure shows IBP at 1.0; IBP at 20.2% of day range (low), ATR 4.66%
@@ -398,3 +392,9 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25391.19 (+1.56% on $25000.00 in) · cash $7590.40 · realised +440.40
 Decision: nothing at this check. 20 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on SNOW: position closed)
+- SELL 100% SNOW [take_profit @ $361.84] -> $753.05 (+0.41%) — close 100% at +0.4% over the average cost
+## 2026-10-12 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 1 standing order(s) on CVX: position closed)
+- SELL 100% CVX [stop_loss @ $214.44] -> $6422.01 (-0.43%) — close it all at -0.5% under the average cost
+## 2026-10-12 10:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders

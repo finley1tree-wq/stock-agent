@@ -58333,7 +58333,7 @@
     "code_version": "5a49589",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.57
+    "ret_now": -0.67
   },
   {
     "symbol": "IBM",
@@ -58461,7 +58461,7 @@
     "code_version": "88937a9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": 0.14
   },
   {
     "symbol": "IBM",
@@ -58582,7 +58582,7 @@
     "code_version": "78d816f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.84
+    "ret_now": -0.88
   },
   {
     "symbol": "KO",
@@ -58639,7 +58639,9 @@
     "code_version": "4443ade",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": 0.41,
+    "ret_final": 0.41,
+    "ret_src": "realised"
   },
   {
     "symbol": "NEOG",
@@ -58670,7 +58672,7 @@
     "code_version": "4443ade",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17
+    "ret_now": 0.0
   },
   {
     "symbol": "META",
@@ -58734,7 +58736,9 @@
     "code_version": "4443ade",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.4
+    "ret_now": -0.43,
+    "ret_final": -0.43,
+    "ret_src": "realised"
   },
   {
     "symbol": "CVX",
@@ -58768,7 +58772,9 @@
     "code_version": "cb46268",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.31
+    "ret_now": -0.43,
+    "ret_final": -0.43,
+    "ret_src": "realised"
   },
   {
     "symbol": "CVX",
@@ -58801,7 +58807,9 @@
     "code_version": "cb46268",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.2
+    "ret_now": -0.43,
+    "ret_final": -0.43,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMGN",
@@ -58887,6 +58895,60 @@
     "code_version": "29f47fe",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": 0.06
+  },
+  {
+    "symbol": "SNOW",
+    "side": "sell",
+    "qty": 2.081182,
+    "status": "filled",
+    "price": 361.84,
+    "proceeds": 753.05,
+    "realized_pnl": 3.05,
+    "realized_pct": 0.41,
+    "date": "2026-10-12",
+    "time_et": "10:31",
+    "ts": 1791815400,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $360.37",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "7654ca2",
+    "hold_minutes": 24
+  },
+  {
+    "symbol": "CVX",
+    "side": "sell",
+    "qty": 29.948164,
+    "status": "filled",
+    "price": 214.44,
+    "proceeds": 6422.01,
+    "realized_pnl": -27.99,
+    "realized_pct": -0.43,
+    "date": "2026-10-12",
+    "time_et": "10:32",
+    "ts": 1791815400,
+    "why": "close it all at -0.5% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $215.69",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "7654ca2",
+    "hold_minutes": 24
   }
 ]
