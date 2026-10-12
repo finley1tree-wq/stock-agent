@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-12T13:13-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,464 idle, so opened 1: AMGN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-10-12T13:31-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,714 idle, so opened 1: ACN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -185,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 415.68,
-   "pct_away": 0.28,
+   "last": 415.8,
+   "pct_away": 0.25,
    "good_until": "2026-10-17",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -202,10 +202,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 446.94,
-   "pct_away": -0.46,
+   "last": 446.55,
+   "pct_away": -0.37,
    "good_until": "2026-10-17",
    "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f5c3e2b8",
+   "ticker": "ACN",
+   "kind": "take_profit",
+   "price": 216.4928,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 215.35,
+   "pct_away": 0.53,
+   "good_until": "2026-10-17",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 446.94,
-   "pct_away": 0.5,
+   "last": 446.55,
+   "pct_away": 0.59,
    "good_until": "2026-10-17",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -236,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 415.68,
-   "pct_away": -0.63,
+   "last": 415.8,
+   "pct_away": -0.66,
    "good_until": "2026-10-17",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -253,10 +270,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 11.84,
-   "pct_away": 0.9,
+   "last": 11.81,
+   "pct_away": 1.16,
    "good_until": "2026-10-17",
    "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e96040f7",
+   "ticker": "ACN",
+   "kind": "stop_loss",
+   "price": 212.6352,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 215.35,
+   "pct_away": -1.26,
+   "good_until": "2026-10-17",
+   "why": "close it all at -1.3% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,27 +304,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 11.84,
-   "pct_away": -1.66,
+   "last": 11.81,
+   "pct_away": -1.41,
    "good_until": "2026-10-17",
    "why": "close it all at -1.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "eafbd0ac",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 434.5115,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 446.94,
-   "pct_away": -2.78,
-   "good_until": "2026-10-17",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -304,8 +321,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 11.84,
-   "pct_away": -2.84,
+   "last": 11.81,
+   "pct_away": -2.59,
+   "good_until": "2026-10-17",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "eafbd0ac",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 434.5115,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 446.55,
+   "pct_away": -2.7,
+   "good_until": "2026-10-17",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a35fb982",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 208.9283,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 215.35,
+   "pct_away": -2.98,
    "good_until": "2026-10-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -321,8 +372,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 415.68,
-   "pct_away": -2.98,
+   "last": 415.8,
+   "pct_away": -3.01,
    "good_until": "2026-10-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -331,7 +382,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,464 idle, so opened 1: AMGN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,714 idle, so opened 1: ACN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -400,13 +451,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 332,
-  "decisions_with_buys_graded": 130,
-  "independent_days_graded": 12,
+  "decisions_graded": 326,
+  "decisions_with_buys_graded": 127,
+  "independent_days_graded": 11,
   "avg_regret_pct": 0.0,
   "chosen_avg_pct": -0.12,
-  "skipped_avg_pct": -0.12,
-  "idle_universe_avg_pct": -0.4,
+  "skipped_avg_pct": -0.11,
+  "idle_universe_avg_pct": -0.41,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.03,
   "checks_that_bought_everything": 0,
@@ -416,7 +467,7 @@
     "avg_pct": -0.8
    },
    "congress": {
-    "n": 169,
+    "n": 166,
     "avg_pct": 0.34
    },
    "dip_entry": {
@@ -432,12 +483,12 @@
     "avg_pct": 0.16
    },
    "momentum": {
-    "n": 182,
-    "avg_pct": -0.25
+    "n": 174,
+    "avg_pct": -0.22
    },
    "news": {
-    "n": 141,
-    "avg_pct": 0.46
+    "n": 132,
+    "avg_pct": 0.54
    },
    "standing_order": {
     "n": 1,
@@ -506,28 +557,28 @@
   ],
   "sectors_most_often_missed": {
    "off-watchlist": {
-    "n": 38
+    "n": 37
    },
    "widely_held": {
-    "n": 33
-   },
-   "nuclear": {
-    "n": 8
+    "n": 29
    },
    "defense": {
     "n": 8
+   },
+   "nuclear": {
+    "n": 7
    },
    "real_estate": {
     "n": 2
    }
   },
-  "idle_checks": 253,
+  "idle_checks": 255,
   "blocked_checks": 0,
-  "idle_share": 0.63,
+  "idle_share": 0.64,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "weak",
   "how_many_days_before_this_means_anything": 30,
-  "warning": "only 12 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
+  "warning": "only 11 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
  },
  "disclosure_leaderboard": [
   {
@@ -2057,5 +2108,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-12T13:13-04:00"
+ "signalsAsOf": "2026-10-12T13:31-04:00"
 }
