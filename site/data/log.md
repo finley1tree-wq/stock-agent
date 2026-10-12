@@ -1,11 +1,3 @@
-brain: Below target position count (5 of 8) with 89% cash idle - adding 4 more names backed by concrete congress disclosures (HUBB/IBP top pressure score 3.0 via April McClain Delaney filings, GOOGL via Cleo Fields filing) plus AMZN momentum, each sized ~$2000 with protective stops to stay within the 'congress-backed breadth buys with stop_loss' approach that past lessons/counterfactual data show works (congress signal chosen avg +0.32%, congress sector hit_rate 0.64). Avoiding GS/AMGN due to active cooldown.
-lesson: Congress-disclosure breadth buys sized ~$2k with explicit stops keep closing min_positions gap faster than waiting; watch IBP/HUBB low day-range entries as better risk/reward than chasing AMZN near its high.
-  (dropped IBP: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped HUBB: 90% up today's range — resting a limit at $475.30 instead of chasing)
-  (dropped AMZN: 100% up today's range — resting a limit at $258.52 instead of chasing)
-- BUY $500.00 GOOGL [filled] ['congress', 'momentum'] — Add to existing small GOOGL position with congress backing and positive momentum, still mid-range (48.5%) [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Cleo Fields disclosed GOOG buy 2026-09-14; GOOGL +1.08% today, +5.85% 1m momentum
-  (re-pinned 1 order(s) to the new average cost)
-  (dropped trigger HUBB stop_loss: not held)
   (dropped trigger IBP stop_loss: not held)
   (dropped trigger AMZN stop_loss: not held)
 ~ WORKING buy_limit $500.00 HUBB @ $475.30 until 2026-10-09 — wanted it, but not at the high — resting at $475.30. Top congress-pressure name with corroborating buy filings; adding breadth toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]
@@ -398,3 +390,11 @@ Done: 0 sell(s), 1 buy(s); 13 order(s) working; budget left $16500.00 this week
 ## 2026-10-12 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 - BUY $2900.00 MSFT [buy_limit @ $539.07] — wanted it, but not at the high — resting at $539.23. Widely-held mega-cap with strong momentum breakout, diversifies sector exposure beyond TSM/IBM
 ## 2026-10-12 09:45 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+  (dropped ACN: sold 5 min ago, cooling off)
+  (dropped ACN: sold 6 min ago, cooling off)
+  (dropped ACN: sold 6 min ago, cooling off)
+  (dropped ACN: sold 7 min ago, cooling off)
+  (dropped ACN: sold 8 min ago, cooling off)
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $226.68] -> $2780.39 (-0.70%) — close it all at -0.7% under the average cost
+## 2026-10-12 09:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders

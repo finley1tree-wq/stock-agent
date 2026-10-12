@@ -23980,3 +23980,6 @@ Done: 0 sell(s), 1 buy(s); 13 order(s) working; budget left $16500.00 this week
   (dropped ACN: sold 6 min ago, cooling off)
   (dropped ACN: sold 7 min ago, cooling off)
   (dropped ACN: sold 8 min ago, cooling off)
+  (cancelled 2 standing order(s) on IBM: position closed)
+- SELL 100% IBM [stop_loss @ $226.68] -> $2780.39 (-0.70%) — close it all at -0.7% under the average cost
+## 2026-10-12 09:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders

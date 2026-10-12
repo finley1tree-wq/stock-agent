@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-12T09:45-04:00",
+ "asOf": "2026-10-12T09:52-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -185,13 +185,31 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 451.64,
-   "pct_away": 0.12,
+   "last": 451.09,
+   "pct_away": 0.24,
    "good_until": "2026-10-17",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
+   ]
+  },
+  {
+   "id": "5f82d40e",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 213.08,
+   "usd": 2200.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 213.81,
+   "pct_away": -0.34,
+   "good_until": "2026-10-12",
+   "why": "wanted it, but not at the high \u2014 resting at $213.08. Named congress pressure plus strong recent momentum; counterfactual data flags ACN as a repeated miss when skipped",
+   "signals": [
+    "congress",
+    "news",
+    "patience"
    ]
   },
   {
@@ -202,8 +220,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 539.09,
-   "pct_away": 0.25,
+   "last": 538.43,
+   "pct_away": 0.37,
    "good_until": "2026-10-17",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -219,8 +237,8 @@
    "usd": 2900.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 216.24,
-   "pct_away": -0.37,
+   "last": 216.41,
+   "pct_away": -0.45,
    "good_until": "2026-10-12",
    "why": "wanted it, but not at the high \u2014 resting at $215.44. Named congress buy pressure plus strong 1d/5d momentum, hour-09 is SURVIVOR stage so full size warranted",
    "signals": [
@@ -231,17 +249,17 @@
    ]
   },
   {
-   "id": "f5a11a7d",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 228.8758,
+   "id": "94ae5bbe",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 535.6954,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 227.93,
-   "pct_away": 0.41,
+   "last": 538.43,
+   "pct_away": -0.51,
    "good_until": "2026-10-17",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -255,62 +273,10 @@
    "usd": 2800.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 216.24,
-   "pct_away": -0.47,
+   "last": 216.41,
+   "pct_away": -0.55,
    "good_until": "2026-10-12",
    "why": "wanted it, but not at the high \u2014 resting at $215.22. Named congress buy pressure plus strong 1d/5d momentum confirms the thesis; auto_bracket stop protects downside",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "a7f9faaf",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 226.7939,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 227.93,
-   "pct_away": -0.5,
-   "good_until": "2026-10-17",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "94ae5bbe",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 535.6954,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 539.09,
-   "pct_away": -0.63,
-   "good_until": "2026-10-17",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "5f82d40e",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 213.08,
-   "usd": 2200.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 215.91,
-   "pct_away": -1.31,
-   "good_until": "2026-10-12",
-   "why": "wanted it, but not at the high \u2014 resting at $213.08. Named congress pressure plus strong recent momentum; counterfactual data flags ACN as a repeated miss when skipped",
    "signals": [
     "congress",
     "news",
@@ -325,29 +291,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 451.64,
-   "pct_away": -2.8,
+   "last": 451.09,
+   "pct_away": -2.68,
    "good_until": "2026-10-12",
    "why": "Protective stop ~2.6% below entry",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "3c4e5eda",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 221.4316,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 227.93,
-   "pct_away": -2.85,
-   "good_until": "2026-10-17",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -358,8 +307,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 539.09,
-   "pct_away": -3.0,
+   "last": 538.43,
+   "pct_away": -2.88,
    "good_until": "2026-10-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -375,8 +324,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 451.64,
-   "pct_away": -3.14,
+   "last": 451.09,
+   "pct_away": -3.03,
    "good_until": "2026-10-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
