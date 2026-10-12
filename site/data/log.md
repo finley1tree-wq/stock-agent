@@ -2,20 +2,6 @@
   (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
   (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain: no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0 with all today's prior positions already closed/sold - there is nothing to buy (would be dropped) and nothing to protect (no open positions). With only ~45 minutes left to the 16:00 close and max_hold_minutes of 30, opening anything now would be closed out near the bell anyway, and guardrails would reject new entries regardless.
-lesson: Past the no_new_entries_after_et cutoff with zero holdings, there is genuinely nothing actionable - don't force orders that will just be dropped by guardrails.
-portfolio: equity $25435.03 (+1.74% on $25000.00 in) · cash $25435.03 · realised +435.03
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-09 15:42 ET (Friday) — week 2026-W41 — budget left $25000.00 (today $33925.00 put to work, 29 buys, 28 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (GGR excluded: too thinly traded ($0.1M a day) — Gogoro Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain: It's 15:42 ET, no_new_entries_this_check is true (past 14:00 cutoff) and positions_held is 0 - nothing to protect and no legal buys to place. Market closes at 16:00 and checks_left_today is 0, so there is genuinely nothing actionable this check.
 lesson: Past the no_new_entries cutoff with zero holdings and zero checks left today, there is nothing to do - don't force orders that guardrails will drop.
 portfolio: equity $25435.03 (+1.74% on $25000.00 in) · cash $25435.03 · realised +435.03
@@ -398,3 +384,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 KO @ $86.34 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25384.15 (+1.54% on $25000.00 in) · cash $16922.74 · realised +422.74
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $16487.70 this week
+
+## 2026-10-12 10:51 ET (Monday) — week 2026-W42 — budget left $16487.70 (today $30300.00 put to work, 16 buys, 9 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxXm1aGqtVjcFTF2rtpN'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25393.20 (+1.57% on $25000.00 in) · cash $16922.74 · realised +422.74
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
