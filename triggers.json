@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "52bf4897",
-   "ticker": "HD",
-   "kind": "stop_loss",
-   "price": 279.0,
-   "status": "cancelled",
-   "created": "2026-10-02 10:10",
-   "created_ts": 1790950208,
-   "why": "ATR-based protective stop for new HD position",
-   "evidence": "HD atr_pct 2.288, day_low 284.22",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 11:40",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "8c90cb0b",
    "ticker": "AAPL",
    "kind": "buy_limit",
@@ -7373,7 +7355,7 @@
    "ticker": "PG",
    "kind": "stop_loss",
    "price": 151.9286,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 10:37",
    "created_ts": 1791815843,
    "why": "close it all at -0.5% under the average cost",
@@ -7383,7 +7365,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 10:41",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "f2f66977",
@@ -7401,7 +7385,24 @@
    ],
    "good_until": "2026-10-17",
    "usd": 500.0
+  },
+  {
+   "id": "20675a1f",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 152.704,
+   "status": "working",
+   "created": "2026-10-12 10:41",
+   "created_ts": 1791816094,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $152.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-12 10:39"
+ "updated": "2026-10-12 10:42"
 }
