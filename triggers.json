@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "d3b12850",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 501.3057,
-   "status": "cancelled",
-   "created": "2026-10-02 09:59",
-   "created_ts": 1790949579,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $516.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 10:02",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "7669a572",
    "ticker": "GLD",
    "kind": "take_profit",
@@ -7291,7 +7272,7 @@
    "ticker": "META",
    "kind": "stop_loss",
    "price": 736.8975,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 10:05",
    "created_ts": 1791813936,
    "why": "close it all at -0.8% under the average cost",
@@ -7301,7 +7282,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 10:20",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "6e17d4ee",
@@ -7391,7 +7374,24 @@
    "usd": 500.0,
    "closed": "2026-10-12 10:07",
    "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "8bff9b6d",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 743.818,
+   "status": "working",
+   "created": "2026-10-12 10:20",
+   "created_ts": 1791814816,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $743.05",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-12 10:17"
+ "updated": "2026-10-12 10:20"
 }

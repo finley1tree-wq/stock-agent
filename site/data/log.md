@@ -1,51 +1,3 @@
-~ WORKING take_profit 100% AMGN @ $411.87 until 2026-10-14 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 AMGN @ $398.38 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25421.88 (+1.69% on $25000.00 in) · cash $19753.73 · realised +428.73
-Done: 0 sell(s), 3 buy(s); 32 order(s) working; budget left $19334.47 this week
-- SELL 100% GOOGL [time stop] -> $1002.51 (+0.25%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-09 11:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on AMGN: position closed)
-- SELL 100% AMGN [take_profit @ $411.99] -> $626.96 (+0.31%) — close 100% at +0.3% over the average cost
-## 2026-10-09 12:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-- BUY $500.00 HUBB [buy_limit @ $475.27] — wanted it, but not at the high — resting at $475.30. Top congress-pressure name with corroborating buy filings; adding breadth toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]
-## 2026-10-09 12:02 ET — tick — 0 sell(s), 1 buy(s) from standing orders
-
-## 2026-10-09 12:02 ET (Friday) — week 2026-W41 — budget left $20463.94 (today $31175.00 put to work, 23 buys, 14 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain: Already at min_positions (8) with full set of protective stops and take-profits in place (auto_bracket) plus patience buy_limits resting on AMGN/MSFT/AMZN. Hour-12 is PROBATION in strategy_stages, and I've already churned 23 orders/14 sells today with mixed results (sold_today list shows many round trips). No fresh evidence for a 9th name beyond what's already working; existing resting buy_limits (AMGN $3000@406.62, MSFT $625@530.21, AMZN $500@258.52) will pick up dips if they come. Best move is to let the standing orders work and check back soon rather than force a new entry at current elevated prices (TSM, AVGO near day lows already bought; HD/GS/KO near highs of range).
-lesson: With 8/8 positions filled and stops/take-profits already auto_bracketed, forcing new buys at hour-12 (PROBATION stage) adds no value - let resting buy_limits do the work of catching dips instead of chasing at market.
-portfolio: equity $25425.84 (+1.70% on $25000.00 in) · cash $20883.20 · realised +433.20
-Decision: nothing at this check. 28 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on GS: position closed)
-- SELL 100% GS [take_profit @ $889.06] -> $626.48 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-10-09 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on TSM: position closed)
-- SELL 100% TSM [take_profit @ $453.82] -> $576.56 (+0.27%) — close 100% at +0.3% over the average cost
-## 2026-10-09 12:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on KO: position closed)
-- SELL 100% KO [take_profit @ $88.09] -> $500.84 (+0.17%) — close 100% at +0.2% over the average cost
-## 2026-10-09 12:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-09 12:18 ET (Friday) — week 2026-W41 — budget left $22167.82 (today $31175.00 put to work, 23 buys, 17 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain: We're at 5/8 min_positions with 88.7% cash idle - need more breadth. Adding GS, AMGN, PPG, NOC, IBP backed by concrete congress disclosures (Doggett/Taylor/Rulli filings) and reasonable day-range entries, each sized ~$2000-2200 with protective stops, consistent with past lessons that congress-backed breadth buys at mid-range entries have been the fastest documented path to min_positions with positive realized performance.
-lesson: Congress-disclosure-backed buys sized ~$2000-2200 with explicit stop_loss keep closing the min_positions gap efficiently and track record shows congress signal at +0.03% avg/65% hit rate - keep prioritizing named filings over bare pressure scores when below target count.
-  (dropped GS: sold 13 min ago, cooling off)
-  (dropped AMGN: sold 18 min ago, cooling off)
-  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped IBP: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-- BUY $500.00 NOC [filled] ['congress', 'track_record'] — Defense name at reasonable mid-range entry, diversifies sector away from widely_held tech names already concentrated [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress_net_buy_pressure shows prior NOC congress activity; defense sector avg_ret_pct -0.00 hit_rate 0.57 per track record, NOC at 50.9% of day range
   (dropped trigger GS stop_loss: not held)
   (dropped trigger AMGN stop_loss: not held)
   (dropped trigger PPG stop_loss: not held)
@@ -398,3 +350,51 @@ Decision: nothing at this check. 24 standing order(s) working.
   (cancelled 2 standing order(s) on AMGN: position closed)
 - SELL 100% AMGN [take_profit @ $416.37] -> $2507.27 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-10-12 10:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-12 10:11 ET (Monday) — week 2026-W42 — budget left $8605.49 (today $26600.00 put to work, 13 buys, 4 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxUiusKi6yxKBhz7wnow'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25406.21 (+1.62% on $25000.00 in) · cash $9040.52 · realised +440.52
+Decision: nothing at this check. 21 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-12 10:14 ET (Monday) — week 2026-W42 — budget left $8605.49 (today $26600.00 put to work, 13 buys, 4 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxUxJ2T156dkWcLiBxbL'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25389.01 (+1.56% on $25000.00 in) · cash $9040.52 · realised +440.52
+Decision: nothing at this check. 21 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (dropped ACN: sold 35 min ago, cooling off)
+
+## 2026-10-12 10:17 ET (Monday) — week 2026-W42 — budget left $8605.49 (today $26600.00 put to work, 13 buys, 4 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+  (dropped ACN: sold 35 min ago, cooling off)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxVBQC8ZzuSWFe1PUje6'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25402.47 (+1.61% on $25000.00 in) · cash $9040.52 · realised +440.52
+Decision: nothing at this check. 21 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (dropped ACN: sold 36 min ago, cooling off)
+  (dropped ACN: sold 36 min ago, cooling off)
+  (dropped ACN: sold 37 min ago, cooling off)
+  (dropped ACN: sold 38 min ago, cooling off)
