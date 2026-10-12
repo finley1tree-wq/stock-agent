@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "2b9173f0",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 217.5,
-   "status": "cancelled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "protect new IBM position",
-   "evidence": "ATR 3.025%, protective stop",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "f881f583",
-   "ticker": "ACN",
-   "kind": "take_profit",
-   "price": 208.7475,
-   "status": "filled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $207.68",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 09:47"
-  },
-  {
-   "id": "7d253bc2",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 201.4496,
-   "status": "cancelled",
-   "created": "2026-10-02 09:39",
-   "created_ts": 1790948360,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $207.68",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 09:47",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "81295eee",
    "ticker": "CHRW",
    "kind": "take_profit",
@@ -7367,7 +7312,7 @@
    "ticker": "IBM",
    "kind": "buy_limit",
    "price": 228.2792,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-12 09:32",
    "created_ts": 1791811965,
    "why": "wanted it, but not at the high \u2014 resting at $228.28. Counterfactual data flags IBM as a recently missed name; current momentum turning positive after a 1m pullback",
@@ -7378,7 +7323,8 @@
     "patience"
    ],
    "good_until": "2026-10-12",
-   "usd": 2800.0
+   "usd": 2800.0,
+   "closed": "2026-10-12 09:38"
   },
   {
    "id": "1f25fbf3",
@@ -7413,7 +7359,58 @@
    ],
    "good_until": "2026-10-17",
    "usd": 500.0
+  },
+  {
+   "id": "f5a11a7d",
+   "ticker": "IBM",
+   "kind": "take_profit",
+   "price": 228.8758,
+   "status": "working",
+   "created": "2026-10-12 09:38",
+   "created_ts": 1791812312,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $228.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a7f9faaf",
+   "ticker": "IBM",
+   "kind": "stop_loss",
+   "price": 226.7939,
+   "status": "working",
+   "created": "2026-10-12 09:38",
+   "created_ts": 1791812312,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $228.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3c4e5eda",
+   "ticker": "IBM",
+   "kind": "buy_limit",
+   "price": 221.4316,
+   "status": "working",
+   "created": "2026-10-12 09:38",
+   "created_ts": 1791812312,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $228.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-12 09:32"
+ "updated": "2026-10-12 09:38"
 }

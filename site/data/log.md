@@ -1,5 +1,3 @@
-- BUY $500.00 NEM [filled] ['momentum', 'track_record'] — Gold momentum plus historically strong sector performance in backtest priors [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NEM 1d +2.06%, 5d +2.05%, gold sector backtest shows strong 2y/5y sector_performance (114-148% avg_total_return)
-- BUY $500.00 NOC [filled] ['momentum', 'news'] — Defense sector diversifier with strong historical backtest sector performance [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: NOC 1d -0.43% but 84.7% of day range, defense sector 2y backtest avg_total_return 137.93%
   (dropped trigger MSFT stop_loss: not held)
   (dropped trigger UNH stop_loss: not held)
 ~ WORKING stop_loss 100% IBM @ $222.40 until 2026-10-09 — Protective stop for new IBM position
@@ -398,3 +396,5 @@ lesson: Hour-09 is a SURVIVOR stage with full-size entries warranted; lean on na
 ~ WORKING buy_limit $500.00 TSM @ $437.44 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25434.47 (+1.74% on $25000.00 in) · cash $22635.03 · realised +435.03
 Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $22200.00 this week
+- BUY $2800.00 IBM [buy_limit @ $228.28] — wanted it, but not at the high — resting at $228.28. Counterfactual data flags IBM as a recently missed name; current momentum turning positive after a 1m pullback
+## 2026-10-12 09:38 ET — tick — 0 sell(s), 1 buy(s) from standing orders

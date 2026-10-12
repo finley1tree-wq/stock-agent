@@ -23945,3 +23945,5 @@ lesson: Hour-09 is a SURVIVOR stage with full-size entries warranted; lean on na
 ~ WORKING buy_limit $500.00 TSM @ $437.44 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25434.47 (+1.74% on $25000.00 in) · cash $22635.03 · realised +435.03
 Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $22200.00 this week
+- BUY $2800.00 IBM [buy_limit @ $228.28] — wanted it, but not at the high — resting at $228.28. Counterfactual data flags IBM as a recently missed name; current momentum turning positive after a 1m pullback
+## 2026-10-12 09:38 ET — tick — 0 sell(s), 1 buy(s) from standing orders
