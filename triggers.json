@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "b753961f",
-   "ticker": "NFLX",
-   "kind": "buy_limit",
-   "price": 65.0773,
-   "status": "cancelled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $67.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-10",
-   "usd": 500.0,
-   "closed": "2026-10-05 09:43",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "694ac83d",
    "ticker": "TSM",
    "kind": "take_profit",
@@ -7379,7 +7360,7 @@
    "ticker": "META",
    "kind": "stop_loss",
    "price": 740.9882,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 13:36",
    "created_ts": 1791826612,
    "why": "close it all at -0.8% under the average cost",
@@ -7389,7 +7370,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 13:39",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "04f85cb8",
@@ -7407,7 +7390,24 @@
    ],
    "good_until": "2026-10-17",
    "usd": 500.0
+  },
+  {
+   "id": "1fc6706f",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 748.048,
+   "status": "working",
+   "created": "2026-10-12 13:39",
+   "created_ts": 1791826746,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $747.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-12 13:36"
+ "updated": "2026-10-12 13:39"
 }
