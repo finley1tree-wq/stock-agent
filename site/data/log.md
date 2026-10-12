@@ -1,51 +1,3 @@
-brain: Only 3/8 min_positions held with 94% cash idle - below_target_position_count is true and entries close at 14:00, so I must act now. Adding IBP and PPG on named congress filings (Lloyd Doggett disclosed PPG buy 10/5; congress pressure score shows IBP=3.0), plus LMT for defense diversification and CCJ for nuclear exposure with evidence from biggest_misses showing CCJ was undervalued previously. Sizing moderate ($1.5-2k) given PROBATION stage on most hour/signal buckets, with protective stops on every new position per risk_management best practice (602 trades, 88% hit rate).
-lesson: With under 50 minutes to the 14:00 entry cutoff and only 3/8 positions filled, prioritize deploying into named-filing-backed names (IBP, PPG) and sector diversifiers (LMT, CCJ) now rather than waiting, since idle cash has consistently underperformed per counterfactual data.
-- BUY $500.00 IBP [filled] ['congress', 'track_record'] — Low-in-range entry on congress-backed homebuilder name, avoids chasing [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Lloyd Doggett bought PPG & congress net buy pressure shows IBP at 1.0; IBP at 20.2% of day range (low), ATR 4.66%
-- BUY $500.00 PPG [filled] ['congress', 'track_record'] — Named congress filing, mid-range entry, not chasing [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Lloyd Doggett (Rep) bought PPG $1,001-$15,000 disclosed 2026-10-05; PPG at 40.1% of day range
-- BUY $375.00 CCJ [filled] ['momentum', 'news'] — Nuclear exposure with evidence of past missed upside, moderate size given momentum-only concern mitigated by prior miss data [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: CCJ at 58.1% of day range, ATR 3.7%, 5d momentum +2.88%, biggest_misses shows CCJ fwd_pct +7.01% after being passed over last time
-- BUY $375.00 LMT [filled] ['momentum', 'track_record'] — Defense sector diversification alongside NOC, moderate size low-vol name [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: LMT defense sector track record avg_ret 0.0% hit_rate 0.57 over 100 trades; LMT at 70.9% of day range, ATR 1.99% low volatility
-~ WORKING stop_loss 100% IBP @ $177.00 until 2026-10-09 — protective stop
-~ WORKING stop_loss 100% PPG @ $102.00 until 2026-10-09 — protective stop
-~ WORKING stop_loss 100% CCJ @ $84.50 until 2026-10-09 — protective stop
-~ WORKING stop_loss 100% LMT @ $498.00 until 2026-10-09 — protective stop
-~ WORKING take_profit 100% IBP @ $184.80 until 2026-10-14 — close 100% at +0.5% over the average cost
-~ WORKING buy_limit $500.00 IBP @ $178.33 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PPG @ $105.22 until 2026-10-14 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 PPG @ $101.83 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CCJ @ $88.03 until 2026-10-14 — close 100% at +0.4% over the average cost
-~ WORKING buy_limit $500.00 CCJ @ $85.04 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% LMT @ $510.05 until 2026-10-14 — close 100% at +0.2% over the average cost
-~ WORKING buy_limit $500.00 LMT @ $493.66 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25434.41 (+1.74% on $25000.00 in) · cash $22186.56 · realised +436.56
-Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $21767.29 this week
-
-## 2026-10-09 13:20 ET (Friday) — week 2026-W41 — budget left $21767.29 (today $33925.00 put to work, 29 buys, 21 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain: Past the 14:00 ET no-new-entries cutoff (now 13:20... wait, it's 13:20, cutoff is 14:00, so entries are still allowed for ~40 more minutes). I have 7 positions already (HUBB, NOC, NFLX, IBP, PPG, CCJ, LMT), one short of min_positions=8. All current positions are protected with auto_bracket stop_loss/take_profit. Given the time pressure before 14:00 cutoff, I should add one more name to reach 8, but all good congress-backed names (AVGO, TSM, MSFT, AMGN) are in cooldown or have working buy_limit orders resting below market already covering re-entry. Rather than chase at market (most names like HD are in cooldown, AMD/NVDA near day lows without clear evidence), I'll let the existing resting buy_limits (AVGO, MSFT, TSM, AMGN, NFLX averaging) do the work since they're already placed at good levels with congress/insider backing. No new market buy adds clear incremental value right now without chasing.
-lesson: With 7/8 positions filled and strong resting buy_limits already covering the best remaining congress/insider-backed names (AVGO, TSM, MSFT, AMGN) at favorable levels, let those triggers work rather than chasing at market near the entry cutoff.
-portfolio: equity $25431.23 (+1.72% on $25000.00 in) · cash $22186.56 · realised +436.56
-Decision: nothing at this check. 27 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% HUBB [time stop] -> $500.27 (+0.05%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-09 13:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-09 13:40 ET (Friday) — week 2026-W41 — budget left $22267.56 (today $33925.00 put to work, 29 buys, 22 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain: It's 13:40 ET and no_new_entries_after_et is 14:00 - we're 20 minutes from the entry cutoff, so new buys at market now would mostly just get dropped/chased near the deadline, and the guardrail flag isn't yet true but will be shortly. I already have 6 positions with auto-bracket take-profits and stop-losses working (NOC, NFLX, IBP, PPG, CCJ, LMT), plus resting buy_limit triggers on MSFT, AMZN, AVGO, TSM, AMGN that will fill if prices pull back to the levels I want rather than chasing at current highs. Rather than force 2 more market buys into names already near day-range highs (AMGN 98%, AAPL 93%) which would violate the "don't chase" guidance, I'll let the existing buy_limit triggers do the work and reassess at the next check before the cutoff.
-lesson: With entries cutting off at 14:00, use the last pre-cutoff checks to tighten/add buy_limits at good levels rather than chasing names already high in their day range just to hit min_positions.
-portfolio: equity $25429.33 (+1.72% on $25000.00 in) · cash $22686.83 · realised +436.83
-Decision: nothing at this check. 24 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% NOC [time stop] -> $498.65 (-0.27%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-09 13:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on CCJ: position closed)
@@ -398,3 +350,51 @@ Decision: nothing at this check. 20 standing order(s) working.
   (cancelled 1 standing order(s) on CVX: position closed)
 - SELL 100% CVX [stop_loss @ $214.44] -> $6422.01 (-0.43%) — close it all at -0.5% under the average cost
 ## 2026-10-12 10:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-12 10:32 ET (Monday) — week 2026-W42 — budget left $14330.42 (today $28800.00 put to work, 14 buys, 7 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxWJr5vtVkLHSVMmCjw7'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25383.17 (+1.53% on $25000.00 in) · cash $14765.45 · realised +415.45
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-12 10:35 ET (Monday) — week 2026-W42 — budget left $14330.42 (today $28800.00 put to work, 14 buys, 7 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxWaN8NiY9wQEaRhwxfw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25385.91 (+1.54% on $25000.00 in) · cash $14765.45 · realised +415.45
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $540.42] -> $2907.25 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-10-12 10:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-12 10:37 ET (Monday) — week 2026-W42 — budget left $17237.67 (today $28800.00 put to work, 14 buys, 8 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxWjV93pEwahZJCzTego'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $17,238 idle, so opened 1: PG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 PG [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +5.0% over the month; 85% of today's range
+~ WORKING take_profit 100% PG @ $152.90 until 2026-10-17 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% PG @ $151.93 until 2026-10-17 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 PG @ $148.04 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25381.26 (+1.53% on $25000.00 in) · cash $16922.70 · realised +422.70
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $16487.67 this week

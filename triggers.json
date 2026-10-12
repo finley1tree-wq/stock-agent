@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "94f3b18f",
-   "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 354.826,
-   "status": "cancelled",
-   "created": "2026-10-02 10:01",
-   "created_ts": 1790949688,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $365.8",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 10:06",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "a143eafc",
-   "ticker": "LMT",
-   "kind": "stop_loss",
-   "price": 492.0,
-   "status": "cancelled",
-   "created": "2026-10-02 10:10",
-   "created_ts": 1790950208,
-   "why": "ATR-based protective stop for new LMT position",
-   "evidence": "LMT atr_pct 2.211, day_low 498.55",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 10:17",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "985c7823",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 112.5,
-   "status": "cancelled",
-   "created": "2026-10-02 10:10",
-   "created_ts": 1790950208,
-   "why": "ATR-based protective stop for new NEM position",
-   "evidence": "NEM atr_pct 3.137, day_low 115.515",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 11:40",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "52bf4897",
    "ticker": "HD",
    "kind": "stop_loss",
@@ -6868,7 +6813,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 540.4177,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-12 09:45",
    "created_ts": 1791812728,
    "why": "close 100% at +0.2% over the average cost",
@@ -6878,14 +6823,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 10:36"
   },
   {
    "id": "94ae5bbe",
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 535.6954,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 09:45",
    "created_ts": 1791812728,
    "why": "close it all at -0.6% under the average cost",
@@ -6895,14 +6841,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 10:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "bcc4809c",
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 522.8979,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 09:45",
    "created_ts": 1791812728,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6912,7 +6860,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-12 10:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "357d942c",
@@ -7400,7 +7350,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-12 10:31",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "6691e430",
+   "ticker": "PG",
+   "kind": "take_profit",
+   "price": 152.8962,
+   "status": "working",
+   "created": "2026-10-12 10:37",
+   "created_ts": 1791815843,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $152.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a8204073",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 151.9286,
+   "status": "working",
+   "created": "2026-10-12 10:37",
+   "created_ts": 1791815843,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $152.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f2f66977",
+   "ticker": "PG",
+   "kind": "buy_limit",
+   "price": 148.0414,
+   "status": "working",
+   "created": "2026-10-12 10:37",
+   "created_ts": 1791815843,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $152.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-12 10:35"
+ "updated": "2026-10-12 10:37"
 }
