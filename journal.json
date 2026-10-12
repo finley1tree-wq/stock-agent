@@ -59905,7 +59905,9 @@
     "code_version": "b516b51",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.01,
+    "ret_final": 0.01,
+    "ret_src": "realised"
   },
   {
     "symbol": "ACN",
@@ -59936,7 +59938,7 @@
     "code_version": "bb6c8b5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.39
+    "ret_now": -0.38
   },
   {
     "symbol": "SNOW",
@@ -59967,7 +59969,7 @@
     "code_version": "8e6926d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24
+    "ret_now": -0.16
   },
   {
     "symbol": "META",
@@ -60058,7 +60060,7 @@
     "code_version": "7ea693e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": -0.05
   },
   {
     "symbol": "NEOG",
@@ -60112,5 +60114,32 @@
     "hour_et": 14,
     "code_version": "b46e072",
     "hold_minutes": 90
+  },
+  {
+    "symbol": "AMGN",
+    "side": "sell",
+    "qty": 1.803912,
+    "status": "filled",
+    "price": 415.82,
+    "proceeds": 750.11,
+    "realized_pnl": 0.11,
+    "realized_pct": 0.01,
+    "date": "2026-10-12",
+    "time_et": "14:41",
+    "ts": 1791830400,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $415.76",
+    "trigger": "stop_loss",
+    "hour_et": 14,
+    "code_version": "1a06542",
+    "hold_minutes": 87
   }
 ]

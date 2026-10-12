@@ -7107,7 +7107,7 @@
    "ticker": "AMGN",
    "kind": "take_profit",
    "price": 416.8451,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 13:12",
    "created_ts": 1791825174,
    "why": "close 100% at +0.3% over the average cost",
@@ -7117,7 +7117,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 14:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3d7275a1",
@@ -7415,7 +7417,7 @@
    "ticker": "AMGN",
    "kind": "stop_loss",
    "price": 416.114,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-12 14:37",
    "created_ts": 1791830272,
    "why": "close it all at -0.7% under the average cost",
@@ -7425,8 +7427,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-12 14:41"
   }
  ],
- "updated": "2026-10-12 14:39"
+ "updated": "2026-10-12 14:42"
 }

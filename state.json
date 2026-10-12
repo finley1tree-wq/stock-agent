@@ -1,13 +1,13 @@
 {
   "week": "2026-W42",
-  "spent": 3032.61,
+  "spent": 2282.5,
   "deployed": 43050.0,
   "by_ticker": {
     "TSM": 23.53,
     "IBM": 19.61,
     "AVGO": 17.39,
     "CVX": 776.3,
-    "AMGN": 751.58,
+    "AMGN": 1.47,
     "SNOW": 755.38,
     "ACN": 750.0
   },
@@ -1320,13 +1320,34 @@
       ],
       "evidence": "bought 90 min ago, -0.33% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMGN",
+      "side": "sell",
+      "qty": 1.803912,
+      "status": "filled",
+      "price": 415.82,
+      "proceeds": 750.11,
+      "realized_pnl": 0.11,
+      "realized_pct": 0.01,
+      "date": "2026-10-12",
+      "time_et": "14:41",
+      "ts": 1791830400,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $415.76",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 3032.61,
+  "spent_today": 2282.5,
   "deployed_today": 43050.0,
   "orders_today": 33,
-  "sells_today": 27,
+  "sells_today": 28,
   "sold_today": [
     "ACN",
     "IBM",
@@ -1345,7 +1366,7 @@
     "ACN": 1791823492,
     "IBM": 1791813178,
     "KO": 1791821194,
-    "AMGN": 1791822444,
+    "AMGN": 1791830477,
     "META": 1791826887,
     "SNOW": 1791823627,
     "CVX": 1791824320,
@@ -1355,8 +1376,8 @@
     "TSM": 1791829053,
     "AVGO": 1791818733
   },
-  "last_publish_ts": 1791830272,
-  "last_check_ts": 1791830395,
+  "last_publish_ts": 1791830475,
+  "last_check_ts": 1791830525,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -1413,18 +1434,16 @@
       }
     }
   },
-  "last_bar_ts": 1791830100,
-  "last_decision_ts": 1791830395,
+  "last_bar_ts": 1791830400,
+  "last_decision_ts": 1791830525,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "f5ee4e7c": 416.114,
-    "da9f2ce8": 416.8451,
-    "06226cae": 215.7987,
-    "65ec0dfe": 214.1944,
     "b6d94217": 360.1248,
     "32ad1cab": 354.9245,
     "e96040f7": 212.6352,
-    "f5c3e2b8": 216.4928
+    "f5c3e2b8": 216.4928,
+    "06226cae": 215.7987,
+    "65ec0dfe": 214.1944
   }
 }
