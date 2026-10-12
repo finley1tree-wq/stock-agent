@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-12T09:42-04:00",
+ "asOf": "2026-10-12T09:45-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,6 +178,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "1f25fbf3",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 452.1651,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 451.64,
+   "pct_away": 0.12,
+   "good_until": "2026-10-17",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9d01af1f",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 540.4177,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 539.09,
+   "pct_away": 0.25,
+   "good_until": "2026-10-17",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "2cc692e2",
    "ticker": "CVX",
    "kind": "buy_limit",
@@ -185,50 +219,14 @@
    "usd": 2900.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 215.9,
-   "pct_away": -0.21,
+   "last": 216.24,
+   "pct_away": -0.37,
    "good_until": "2026-10-12",
    "why": "wanted it, but not at the high \u2014 resting at $215.44. Named congress buy pressure plus strong 1d/5d momentum, hour-09 is SURVIVOR stage so full size warranted",
    "signals": [
     "congress",
     "news",
     "momentum",
-    "patience"
-   ]
-  },
-  {
-   "id": "47fbe8f0",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 539.2261,
-   "usd": 2900.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 540.87,
-   "pct_away": -0.3,
-   "good_until": "2026-10-12",
-   "why": "wanted it, but not at the high \u2014 resting at $539.23. Widely-held mega-cap with strong momentum breakout, diversifies sector exposure beyond TSM/IBM",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ]
-  },
-  {
-   "id": "c5c98860",
-   "ticker": "CVX",
-   "kind": "buy_limit",
-   "price": 215.2153,
-   "usd": 2800.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 215.9,
-   "pct_away": -0.32,
-   "good_until": "2026-10-12",
-   "why": "wanted it, but not at the high \u2014 resting at $215.22. Named congress buy pressure plus strong 1d/5d momentum confirms the thesis; auto_bracket stop protects downside",
-   "signals": [
-    "congress",
-    "news",
     "patience"
    ]
   },
@@ -240,8 +238,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 228.12,
-   "pct_away": 0.33,
+   "last": 227.93,
+   "pct_away": 0.41,
    "good_until": "2026-10-17",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -250,20 +248,21 @@
    ]
   },
   {
-   "id": "1f25fbf3",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 452.1651,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "c5c98860",
+   "ticker": "CVX",
+   "kind": "buy_limit",
+   "price": 215.2153,
+   "usd": 2800.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 450.41,
-   "pct_away": 0.39,
-   "good_until": "2026-10-17",
-   "why": "close 100% at +0.3% over the average cost",
+   "last": 216.24,
+   "pct_away": -0.47,
+   "good_until": "2026-10-12",
+   "why": "wanted it, but not at the high \u2014 resting at $215.22. Named congress buy pressure plus strong 1d/5d momentum confirms the thesis; auto_bracket stop protects downside",
    "signals": [
-    "risk_management",
-    "auto_bracket"
+    "congress",
+    "news",
+    "patience"
    ]
   },
   {
@@ -274,10 +273,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 228.12,
-   "pct_away": -0.58,
+   "last": 227.93,
+   "pct_away": -0.5,
    "good_until": "2026-10-17",
    "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "94ae5bbe",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 535.6954,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 539.09,
+   "pct_away": -0.63,
+   "good_until": "2026-10-17",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -291,8 +307,8 @@
    "usd": 2200.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 216.17,
-   "pct_away": -1.43,
+   "last": 215.91,
+   "pct_away": -1.31,
    "good_until": "2026-10-12",
    "why": "wanted it, but not at the high \u2014 resting at $213.08. Named congress pressure plus strong recent momentum; counterfactual data flags ACN as a repeated miss when skipped",
    "signals": [
@@ -309,29 +325,12 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 450.41,
-   "pct_away": -2.53,
+   "last": 451.64,
+   "pct_away": -2.8,
    "good_until": "2026-10-12",
    "why": "Protective stop ~2.6% below entry",
    "signals": [
     "risk_management"
-   ]
-  },
-  {
-   "id": "74503529",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 437.4409,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 450.41,
-   "pct_away": -2.88,
-   "good_until": "2026-10-17",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
    ]
   },
   {
@@ -342,8 +341,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 228.12,
-   "pct_away": -2.93,
+   "last": 227.93,
+   "pct_away": -2.85,
+   "good_until": "2026-10-17",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "bcc4809c",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 522.8979,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 539.09,
+   "pct_away": -3.0,
+   "good_until": "2026-10-17",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "74503529",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 437.4409,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 451.64,
+   "pct_away": -3.14,
    "good_until": "2026-10-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

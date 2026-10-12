@@ -23973,3 +23973,5 @@ Done: 0 sell(s), 1 buy(s); 13 order(s) working; budget left $16500.00 this week
   (cancelled 2 standing order(s) on ACN: position closed)
 - SELL 100% ACN [take_profit @ $216.15] -> $2914.78 (+0.51%) — close 100% at +0.5% over the average cost
 ## 2026-10-12 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+- BUY $2900.00 MSFT [buy_limit @ $539.07] — wanted it, but not at the high — resting at $539.23. Widely-held mega-cap with strong momentum breakout, diversifies sector exposure beyond TSM/IBM
+## 2026-10-12 09:45 ET — tick — 0 sell(s), 1 buy(s) from standing orders
