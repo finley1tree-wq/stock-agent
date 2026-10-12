@@ -24893,3 +24893,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25398.69 (+1.59% on $25000.00 in) · cash $22399.98 · realised +399.98
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $214.92] -> $753.86 (+0.51%) — close 100% at +0.5% over the average cost
+## 2026-10-12 12:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
