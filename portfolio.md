@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-10-12 13:01 ET
+# Pretend portfolio — 2026-10-12 13:04 ET
 
-**Equity $25399.77** on $25000.00 put in → **+1.60%**  
-Cash $23898.80 · Unrealised +0.97 · Realised +398.80
+**Equity $25395.06** on $25000.00 put in → **+1.58%**  
+Cash $23898.80 · Unrealised -3.74 · Realised +398.80
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| NEOG | 3.0% | $752.85 | $11.86 | $11.90 | +0.38% | 0d |
-| TSM | 2.9% | $748.13 | $447.95 | $446.83 | -0.25% | 0d |
+| TSM | 2.9% | $748.48 | $447.95 | $447.04 | -0.20% | 0d |
+| NEOG | 2.9% | $747.79 | $11.86 | $11.82 | -0.30% | 0d |
 
 ## Last fills
 
