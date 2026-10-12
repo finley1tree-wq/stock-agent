@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 13201.78,
-  "deployed": 20900.0,
+  "spent": 18901.78,
+  "deployed": 26600.0,
   "by_ticker": {
     "TSM": 2800.0,
     "IBM": 19.61,
@@ -11,7 +11,7 @@
     "SNOW": 750.0,
     "NEOG": 750.0,
     "META": 750.0,
-    "CVX": 750.0
+    "CVX": 6450.0
   },
   "deployed_by_ticker": {
     "TSM": 2800.0,
@@ -24,7 +24,7 @@
     "SNOW": 750.0,
     "NEOG": 750.0,
     "META": 750.0,
-    "CVX": 750.0
+    "CVX": 6450.0
   },
   "orders": [
     {
@@ -331,12 +331,61 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "CVX",
+      "notional": 2900.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.460774,
+      "price": 215.44,
+      "date": "2026-10-12",
+      "time_et": "10:06",
+      "ts": 1791813900,
+      "why": "wanted it, but not at the high \u2014 resting at $215.44. Named congress buy pressure plus strong 1d/5d momentum, hour-09 is SURVIVOR stage so full size warranted",
+      "signals": [
+        "congress",
+        "news",
+        "momentum",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "Rep. Maria Elvira Salazar disclosed a CVX buy ($1,001-$15,000) on 2026-09-02, filing disclosed 2026-10-07; CVX +1.95% today, 87.9% of day range",
+      "trigger": "buy_limit",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "CVX",
+      "notional": 2800.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.010227,
+      "price": 215.22,
+      "date": "2026-10-12",
+      "time_et": "10:07",
+      "ts": 1791813900,
+      "why": "wanted it, but not at the high \u2014 resting at $215.22. Named congress buy pressure plus strong 1d/5d momentum confirms the thesis; auto_bracket stop protects downside",
+      "signals": [
+        "congress",
+        "news",
+        "patience",
+        "standing_order"
+      ],
+      "evidence": "Rep. Maria Elvira Salazar filed a CVX buy disclosed 2026-10-07; CVX +1.85% today, 96.7% of day range, congress_net_buy_pressure 1.0",
+      "trigger": "buy_limit",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-12",
-  "spent_today": 13201.78,
-  "deployed_today": 20900.0,
-  "orders_today": 11,
+  "spent_today": 18901.78,
+  "deployed_today": 26600.0,
+  "orders_today": 13,
   "sells_today": 3,
   "sold_today": [
     "ACN",
@@ -348,8 +397,8 @@
     "IBM": 1791813178,
     "KO": 1791813767
   },
-  "last_publish_ts": 1791813936,
-  "last_check_ts": 1791813936,
+  "last_publish_ts": 1791814024,
+  "last_check_ts": 1791814024,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -429,32 +478,29 @@
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "2cc692e2": 215.4408,
-    "9d01af1f": 540.4177,
-    "c5c98860": 215.2153,
-    "2fb2992e": 216.1473,
-    "1e058b3e": 745.5095,
     "5d85235d": 416.2436,
-    "3c5426d0": 361.8367,
-    "1f25fbf3": 452.1651,
+    "9d01af1f": 540.4177,
+    "1e058b3e": 745.5095,
     "2daf8d80": 214.5447,
-    "7c3996f1": 360.3071,
-    "5f82d40e": 213.08,
-    "94ae5bbe": 535.6954,
+    "2fb2992e": 216.1473,
     "ac6a6536": 12.0362,
+    "3c5426d0": 361.8367,
+    "94ae5bbe": 535.6954,
+    "1f25fbf3": 452.1651,
+    "5f82d40e": 213.08,
     "2177c185": 736.8975,
     "b2eacebe": 356.6978,
+    "7c3996f1": 360.3071,
+    "d4e1f8ca": 351.0,
     "dd050fa1": 11.7347,
     "357d942c": 406.0,
-    "d4e1f8ca": 351.0,
     "8f38cf49": 439.0,
-    "74503529": 437.4409,
     "88f765c9": 348.4143,
-    "4a4f715b": 402.7052,
-    "abd80721": 11.5915,
+    "74503529": 437.4409,
     "4f93542e": 349.5589,
+    "bcc4809c": 522.8979,
     "6e17d4ee": 720.7585,
-    "04033042": 209.2193,
-    "bcc4809c": 522.8979
+    "4a4f715b": 402.7052,
+    "abd80721": 11.5915
   }
 }

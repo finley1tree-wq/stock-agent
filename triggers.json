@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "de55168d",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 518.1227,
-   "status": "filled",
-   "created": "2026-10-02 09:59",
-   "created_ts": 1790949579,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $516.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 10:02"
-  },
-  {
    "id": "d3b12850",
    "ticker": "MSFT",
    "kind": "buy_limit",
@@ -6739,7 +6721,7 @@
    "ticker": "CVX",
    "kind": "buy_limit",
    "price": 215.2153,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-12 09:32",
    "created_ts": 1791811965,
    "why": "wanted it, but not at the high \u2014 resting at $215.22. Named congress buy pressure plus strong 1d/5d momentum confirms the thesis; auto_bracket stop protects downside",
@@ -6750,7 +6732,8 @@
     "patience"
    ],
    "good_until": "2026-10-12",
-   "usd": 2800.0
+   "usd": 2800.0,
+   "closed": "2026-10-12 10:07"
   },
   {
    "id": "5f82d40e",
@@ -6902,7 +6885,7 @@
    "ticker": "CVX",
    "kind": "buy_limit",
    "price": 215.4408,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-12 09:39",
    "created_ts": 1791812396,
    "why": "wanted it, but not at the high \u2014 resting at $215.44. Named congress buy pressure plus strong 1d/5d momentum, hour-09 is SURVIVOR stage so full size warranted",
@@ -6914,7 +6897,8 @@
     "patience"
    ],
    "good_until": "2026-10-12",
-   "usd": 2900.0
+   "usd": 2900.0,
+   "closed": "2026-10-12 10:06"
   },
   {
    "id": "47fbe8f0",
@@ -7370,7 +7354,7 @@
    "ticker": "CVX",
    "kind": "buy_limit",
    "price": 209.2193,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-12 10:05",
    "created_ts": 1791813936,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7380,8 +7364,29 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-17",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-12 10:06",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "d206681e",
+   "ticker": "CVX",
+   "kind": "buy_limit",
+   "price": 209.0253,
+   "status": "cancelled",
+   "created": "2026-10-12 10:06",
+   "created_ts": 1791813977,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $215.49",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0,
+   "closed": "2026-10-12 10:07",
+   "cancel_reason": "level or size no longer matches"
   }
  ],
- "updated": "2026-10-12 10:05"
+ "updated": "2026-10-12 10:07"
 }

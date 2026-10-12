@@ -24041,3 +24041,7 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 CVX @ $209.22 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25422.29 (+1.69% on $25000.00 in) · cash $12233.26 · realised +433.26
 Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $11798.22 this week
+- BUY $2900.00 CVX [buy_limit @ $215.44] — wanted it, but not at the high — resting at $215.44. Named congress buy pressure plus strong 1d/5d momentum, hour-09 is SURVIVOR stage so full size warranted
+## 2026-10-12 10:06 ET — tick — 0 sell(s), 1 buy(s) from standing orders
+- BUY $2800.00 CVX [buy_limit @ $215.22] — wanted it, but not at the high — resting at $215.22. Named congress buy pressure plus strong 1d/5d momentum confirms the thesis; auto_bracket stop protects downside
+## 2026-10-12 10:07 ET — tick — 0 sell(s), 1 buy(s) from standing orders
