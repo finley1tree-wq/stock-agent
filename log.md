@@ -24106,3 +24106,5 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25402.47 (+1.61% on $25000.00 in) · cash $9040.52 · realised +440.52
 Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (dropped ACN: sold 36 min ago, cooling off)
+  (dropped ACN: sold 36 min ago, cooling off)
