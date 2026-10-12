@@ -24012,3 +24012,32 @@ Done: 0 sell(s), 3 buy(s); 18 order(s) working; budget left $12795.17 this week
   (cancelled 2 standing order(s) on KO: position closed)
 - SELL 100% KO [take_profit @ $88.84] -> $2003.05 (+0.15%) — close 100% at +0.1% over the average cost
 ## 2026-10-12 10:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-12 10:05 ET (Monday) — week 2026-W42 — budget left $14798.22 (today $17900.00 put to work, 7 buys, 3 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxUGexB1q7FHD1FGeAZN'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $14,798 idle, so opened 4: SNOW, NEOG, META, CVX. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 SNOW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Maria Elvira Salazar), $15,001 - $50,000; +9.5% over the month; 2% of today's range
+- BUY $750.00 NEOG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4, incl. CEO); +1.4% over the month; 34% of today's range
+- BUY $750.00 META [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +14.6% over the month; 74% of today's range
+- BUY $750.00 CVX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +0.7% over the month; 57% of today's range
+~ WORKING take_profit 100% SNOW @ $361.84 until 2026-10-17 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% SNOW @ $356.70 until 2026-10-17 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 SNOW @ $349.56 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEOG @ $12.04 until 2026-10-17 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% NEOG @ $11.73 until 2026-10-17 — close it all at -1.8% under the average cost
+~ WORKING buy_limit $500.00 NEOG @ $11.59 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% META @ $745.51 until 2026-10-17 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% META @ $736.90 until 2026-10-17 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 META @ $720.76 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CVX @ $216.15 until 2026-10-17 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% CVX @ $214.54 until 2026-10-17 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 CVX @ $209.22 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25422.29 (+1.69% on $25000.00 in) · cash $12233.26 · realised +433.26
+Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $11798.22 this week

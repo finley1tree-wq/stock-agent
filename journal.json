@@ -58333,7 +58333,7 @@
     "code_version": "5a49589",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": -0.22
   },
   {
     "symbol": "IBM",
@@ -58461,7 +58461,7 @@
     "code_version": "88937a9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02
+    "ret_now": 0.13
   },
   {
     "symbol": "IBM",
@@ -58517,7 +58517,8 @@
     "hour_et": 9,
     "code_version": "78d816f",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.11
   },
   {
     "symbol": "KO",
@@ -58546,7 +58547,10 @@
     "hour_et": 9,
     "code_version": "78d816f",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.15,
+    "ret_now": 0.15,
+    "ret_src": "realised"
   },
   {
     "symbol": "AVGO",
@@ -58575,7 +58579,8 @@
     "hour_et": 9,
     "code_version": "78d816f",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.19
   },
   {
     "symbol": "KO",
@@ -58600,6 +58605,127 @@
     "evidence": "average cost $88.71",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "695551d"
+    "code_version": "695551d",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "SNOW",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.081182,
+    "price": 360.37,
+    "date": "2026-10-12",
+    "time_et": "10:05",
+    "ts": 1791813936,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Maria Elvira Salazar), $15,001 - $50,000; +9.5% over the month; 2% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 360.3,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 9.52,
+    "hour_et": 10,
+    "code_version": "4443ade",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NEOG",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 62.787762,
+    "price": 11.95,
+    "date": "2026-10-12",
+    "time_et": "10:05",
+    "ts": 1791813936,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4, incl. CEO); +1.4% over the month; 34% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 11.94,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 1.36,
+    "hour_et": 10,
+    "code_version": "4443ade",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "META",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.009355,
+    "price": 743.05,
+    "date": "2026-10-12",
+    "time_et": "10:05",
+    "ts": 1791813936,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +14.6% over the month; 74% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 742.9,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 14.64,
+    "hour_et": 10,
+    "code_version": "4443ade",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CVX",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.477162,
+    "price": 215.69,
+    "date": "2026-10-12",
+    "time_et": "10:05",
+    "ts": 1791813936,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +0.7% over the month; 57% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 215.65,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 0.74,
+    "hour_et": 10,
+    "code_version": "4443ade",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

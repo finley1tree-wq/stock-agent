@@ -1,32 +1,3 @@
-  (cancelled 2 standing order(s) on NFLX: position closed)
-- SELL 100% NFLX [stop_loss @ $70.93] -> $3500.77 (+0.02%) — close it all at -0.6% under the average cost
-  (cancelled 2 standing order(s) on NOC: position closed)
-- SELL 100% NOC [take_profit @ $483.98] -> $501.46 (+0.29%) — close 100% at +0.3% over the average cost
-## 2026-10-09 11:15 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on NEM: position closed)
-- SELL 100% NEM [take_profit @ $118.38] -> $501.69 (+0.34%) — close 100% at +0.3% over the average cost
-## 2026-10-09 11:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-09 11:29 ET (Friday) — week 2026-W41 — budget left $21634.47 (today $28375.00 put to work, 18 buys, 12 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain: Still well below min_positions (5 of 8) with 86.5% cash idle - the fix per guardrails is more names in size, not waiting. Adding HD (double congress disclosure, low in day range), PPG (fresh Doggett filing), and ACN (counterfactual flagged as a past biggest-miss with congress backing and strong momentum) gets me to 8 positions with real size while respecting the 14:00 entry cutoff and per-ticker stops.
-lesson: When below min_positions with high idle cash, deploy into named congress-disclosure tickers at reasonable day-range levels rather than waiting for a cleaner signal - the counterfactual data shows idle_universe underperformed chosen picks this period.
-  (dropped PPG: culled strategy (signals congress: -93 over 32 trips, t -1.39))
-  (dropped ACN: not in allowed list)
-- BUY $550.00 HD [filled] ['congress', 'track_record'] — Two separate congress buy disclosures on HD recently, cheap entry at low end of day range [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: Rep. Lloyd Doggett bought HD (disclosed 2026-10-05); Rep. David J. Taylor also bought HD (disclosed 2026-10-01); HD at 15.1% of day range, well off highs
-  (dropped trigger PPG stop_loss: not held)
-  (dropped trigger ACN stop_loss: not held)
-~ WORKING stop_loss 100% HD @ $283.00 until 2026-10-09 — Protective stop ~2.8% below entry
-~ WORKING take_profit 100% HD @ $291.86 until 2026-10-14 — close 100% at +0.3% over the average cost
-~ WORKING buy_limit $500.00 HD @ $282.40 until 2026-10-14 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25419.51 (+1.68% on $25000.00 in) · cash $21503.73 · realised +428.73
-Done: 0 sell(s), 1 buy(s); 23 order(s) working; budget left $21084.47 this week
-
 ## 2026-10-09 11:46 ET (Friday) — week 2026-W41 — budget left $21084.47 (today $28925.00 put to work, 19 buys, 12 sells) — SIM (pretend money) via sim
   (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
   (AVR excluded: too thinly traded ($6.8M a day) — Anteris Technologies Global Corp.)
@@ -398,3 +369,32 @@ Done: 0 sell(s), 3 buy(s); 18 order(s) working; budget left $12795.17 this week
   (cancelled 2 standing order(s) on KO: position closed)
 - SELL 100% KO [take_profit @ $88.84] -> $2003.05 (+0.15%) — close 100% at +0.1% over the average cost
 ## 2026-10-12 10:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-12 10:05 ET (Monday) — week 2026-W42 — budget left $14798.22 (today $17900.00 put to work, 7 buys, 3 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
+  (LCU excluded: not ordinary shares (ecnquote))
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxUGexB1q7FHD1FGeAZN'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $14,798 idle, so opened 4: SNOW, NEOG, META, CVX. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 SNOW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Maria Elvira Salazar), $15,001 - $50,000; +9.5% over the month; 2% of today's range
+- BUY $750.00 NEOG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4, incl. CEO); +1.4% over the month; 34% of today's range
+- BUY $750.00 META [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +14.6% over the month; 74% of today's range
+- BUY $750.00 CVX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +0.7% over the month; 57% of today's range
+~ WORKING take_profit 100% SNOW @ $361.84 until 2026-10-17 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% SNOW @ $356.70 until 2026-10-17 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 SNOW @ $349.56 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NEOG @ $12.04 until 2026-10-17 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% NEOG @ $11.73 until 2026-10-17 — close it all at -1.8% under the average cost
+~ WORKING buy_limit $500.00 NEOG @ $11.59 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% META @ $745.51 until 2026-10-17 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% META @ $736.90 until 2026-10-17 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 META @ $720.76 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CVX @ $216.15 until 2026-10-17 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% CVX @ $214.54 until 2026-10-17 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 CVX @ $209.22 until 2026-10-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25422.29 (+1.69% on $25000.00 in) · cash $12233.26 · realised +433.26
+Done: 0 sell(s), 4 buy(s); 27 order(s) working; budget left $11798.22 this week
