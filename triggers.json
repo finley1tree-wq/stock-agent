@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "8605d5d1",
-   "ticker": "RTX",
-   "kind": "take_profit",
-   "price": 185.0852,
-   "status": "filled",
-   "created": "2026-10-02 10:25",
-   "created_ts": 1790951145,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $184.69",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 10:41"
-  },
-  {
-   "id": "b0eaf0d7",
-   "ticker": "RTX",
-   "kind": "buy_limit",
-   "price": 179.1493,
-   "status": "cancelled",
-   "created": "2026-10-02 10:25",
-   "created_ts": 1790951145,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $184.69",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 500.0,
-   "closed": "2026-10-02 10:41",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "9d40d2e0",
-   "ticker": "AMZN",
-   "kind": "take_profit",
-   "price": 253.2964,
-   "status": "cancelled",
-   "created": "2026-10-02 10:25",
-   "created_ts": 1790951145,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $252.7",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-02 11:55",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "ded011e5",
    "ticker": "AMZN",
    "kind": "buy_limit",
@@ -7411,7 +7355,58 @@
    ],
    "good_until": "2026-10-17",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "6ece3387",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 748.2735,
+   "status": "working",
+   "created": "2026-10-12 11:23",
+   "created_ts": 1791818603,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $745.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0407a427",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 739.5701,
+   "status": "working",
+   "created": "2026-10-12 11:23",
+   "created_ts": 1791818603,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $745.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b46da7fc",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 723.4163,
+   "status": "working",
+   "created": "2026-10-12 11:23",
+   "created_ts": 1791818603,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $745.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-12 11:21"
+ "updated": "2026-10-12 11:23"
 }
