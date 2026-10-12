@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "ec4617c0",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 528.3027,
-   "status": "filled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $526.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-10",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-05 09:36"
-  },
-  {
-   "id": "62c8628f",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 511.1706,
-   "status": "cancelled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $526.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-10",
-   "usd": 500.0,
-   "closed": "2026-10-05 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "bd017fd5",
-   "ticker": "NFLX",
-   "kind": "take_profit",
-   "price": 67.2852,
-   "status": "filled",
-   "created": "2026-10-05 09:32",
-   "created_ts": 1791207155,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $67.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-10",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-05 09:48"
-  },
-  {
    "id": "b753961f",
    "ticker": "NFLX",
    "kind": "buy_limit",
@@ -7411,7 +7356,58 @@
    ],
    "good_until": "2026-10-17",
    "usd": 500.0
+  },
+  {
+   "id": "2f5fbebe",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 749.7082,
+   "status": "working",
+   "created": "2026-10-12 13:36",
+   "created_ts": 1791826612,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $747.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "06192e29",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 740.9882,
+   "status": "working",
+   "created": "2026-10-12 13:36",
+   "created_ts": 1791826612,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $747.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "04f85cb8",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 724.8034,
+   "status": "working",
+   "created": "2026-10-12 13:36",
+   "created_ts": 1791826612,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $747.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-17",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-12 13:33"
+ "updated": "2026-10-12 13:36"
 }
