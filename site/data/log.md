@@ -1,20 +1,3 @@
-## 2026-10-13 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on PG: position closed)
-- SELL 100% PG [stop_loss @ $153.04] -> $2984.99 (-0.50%) — close it all at -0.5% under the average cost
-## 2026-10-13 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-13 09:37 ET (Tuesday) — week 2026-W42 — budget left $18992.76 (today $24000.00 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzKya5q19XfWh5pZeL5d'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,993 idle, so opened 2: KO, ACN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 KO [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer): Kevin Hern; +1.0% over the month; 3% of today's range
-- BUY $3000.00 ACN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +11.1% over the month; 50% of today's range
 ~ WORKING take_profit 100% KO @ $90.40 until 2026-10-18 — close 100% at +0.1% over the average cost
 ~ WORKING stop_loss 100% KO @ $89.92 until 2026-10-18 — close it all at -0.4% under the average cost
 ~ WORKING buy_limit $500.00 KO @ $87.55 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +381,20 @@ Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21198.45 this week
   (cancelled 2 standing order(s) on KO: position closed)
 - SELL 100% KO [take_profit @ $90.16] -> $751.15 (+0.15%) — close 100% at +0.2% over the average cost
 ## 2026-10-13 10:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-13 10:48 ET (Tuesday) — week 2026-W42 — budget left $21949.60 (today $36000.00 put to work, 18 buys, 14 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzRMc9nYKGzT5bNDjYBh'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25377.27 (+1.51% on $25000.00 in) · cash $22384.60 · realised +384.60
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on AMGN: position closed)
+- SELL 100% AMGN [stop_loss @ $417.55] -> $750.18 (+0.02%) — close it all at -0.6% under the average cost
+## 2026-10-13 10:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
