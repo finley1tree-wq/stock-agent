@@ -1,36 +1,3 @@
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfzaa8ih5VyZg3L4Xx7wX'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $21,178 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 TSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +6.2% over the month; 85% of today's range
-~ WORKING take_profit 100% TSM @ $445.14 until 2026-10-18 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% TSM @ $440.86 until 2026-10-18 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 TSM @ $430.60 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25359.26 (+1.44% on $25000.00 in) · cash $20863.08 · realised +363.08
-Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20428.09 this week
-
-## 2026-10-13 12:52 ET (Tuesday) — week 2026-W42 — budget left $20428.09 (today $44250.00 put to work, 29 buys, 23 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzaoZ7m6rpJptsRpz2GM'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25356.13 (+1.42% on $25000.00 in) · cash $20863.08 · realised +363.08
-Decision: nothing at this check. 18 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-13 12:55 ET (Tuesday) — week 2026-W42 — budget left $20428.09 (today $44250.00 put to work, 29 buys, 23 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
   (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
   (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
@@ -398,3 +365,36 @@ Decision: nothing at this check. 10 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% ACN [time stop] -> $752.26 (+0.30%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-13 14:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-13 14:04 ET (Tuesday) — week 2026-W42 — budget left $21922.95 (today $48000.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (IIPR excluded: too thinly traded ($18.5M a day) — Innovative Industrial Properties, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzgLB2AEy55kuX1JPrmk'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25356.20 (+1.42% on $25000.00 in) · cash $22357.94 · realised +357.94
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 14:08 ET (Tuesday) — week 2026-W42 — budget left $21922.95 (today $48000.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (IIPR excluded: too thinly traded ($18.5M a day) — Innovative Industrial Properties, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzgZfLN81rdqrUS1ATsE'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25358.45 (+1.43% on $25000.00 in) · cash $22357.94 · realised +357.94
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on PG: position closed)
+- SELL 100% PG [take_profit @ $153.41] -> $751.39 (+0.19%) — close 100% at +0.2% over the average cost
+## 2026-10-13 14:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders

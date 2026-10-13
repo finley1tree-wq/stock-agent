@@ -61797,7 +61797,7 @@
     "code_version": "c673632",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.12
+    "ret_now": -0.1
   },
   {
     "symbol": "PG",
@@ -61914,7 +61914,7 @@
     "code_version": "0c7a2b9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": 0.29
   },
   {
     "symbol": "AVGO",
@@ -62085,7 +62085,9 @@
     "code_version": "52ef89a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.19,
+    "ret_final": 0.19,
+    "ret_src": "realised"
   },
   {
     "symbol": "KO",
@@ -62116,7 +62118,7 @@
     "code_version": "1c269c3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": 0.07
   },
   {
     "symbol": "ACN",
@@ -62143,5 +62145,32 @@
     "hour_et": 14,
     "code_version": "6aa3f5d",
     "hold_minutes": 90
+  },
+  {
+    "symbol": "PG",
+    "side": "sell",
+    "qty": 4.897779,
+    "status": "filled",
+    "price": 153.41,
+    "proceeds": 751.39,
+    "realized_pnl": 1.39,
+    "realized_pct": 0.19,
+    "date": "2026-10-13",
+    "time_et": "14:11",
+    "ts": 1791915000,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $153.13",
+    "trigger": "take_profit",
+    "hour_et": 14,
+    "code_version": "8f3320c",
+    "hold_minutes": 24
   }
 ]
