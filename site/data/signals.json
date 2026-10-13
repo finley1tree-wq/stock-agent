@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-13T10:21-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,954 idle, so opened 4: SNOW, CVX, AMGN, TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps ",
+ "asOf": "2026-10-13T10:25-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,954 idle, so opened 1: PG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "89125563",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 443.3158,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 442.95,
+   "pct_away": 0.08,
+   "good_until": "2026-10-18",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "913e1783",
+   "ticker": "PG",
+   "kind": "take_profit",
+   "price": 152.715,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 152.4,
+   "pct_away": 0.21,
+   "good_until": "2026-10-18",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "a58d1f43",
    "ticker": "CVX",
    "kind": "take_profit",
@@ -202,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 417.37,
-   "pct_away": 0.27,
+   "last": 416.83,
+   "pct_away": 0.4,
    "good_until": "2026-10-18",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -212,17 +246,34 @@
    ]
   },
   {
-   "id": "89125563",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 443.3158,
+   "id": "2b1dfe02",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 151.7182,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 442.01,
-   "pct_away": 0.3,
+   "last": 152.4,
+   "pct_away": -0.45,
    "good_until": "2026-10-18",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8609cc3d",
+   "ticker": "AMGN",
+   "kind": "stop_loss",
+   "price": 414.8242,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 416.83,
+   "pct_away": -0.48,
+   "good_until": "2026-10-18",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,8 +287,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 362.5,
-   "pct_away": 0.43,
+   "last": 362.3,
+   "pct_away": 0.49,
    "good_until": "2026-10-18",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -263,23 +314,6 @@
    ]
   },
   {
-   "id": "8609cc3d",
-   "ticker": "AMGN",
-   "kind": "stop_loss",
-   "price": 414.8242,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 417.37,
-   "pct_away": -0.61,
-   "good_until": "2026-10-18",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "06c0b7a3",
    "ticker": "TSM",
    "kind": "stop_loss",
@@ -287,8 +321,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 442.01,
-   "pct_away": -0.67,
+   "last": 442.95,
+   "pct_away": -0.88,
    "good_until": "2026-10-18",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -304,10 +338,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 362.5,
-   "pct_away": -1.01,
+   "last": 362.3,
+   "pct_away": -0.96,
    "good_until": "2026-10-18",
    "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0901e374",
+   "ticker": "AMGN",
+   "kind": "buy_limit",
+   "price": 404.9265,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 416.83,
+   "pct_away": -2.86,
+   "good_until": "2026-10-18",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -321,8 +372,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 362.5,
-   "pct_away": -2.98,
+   "last": 362.3,
+   "pct_away": -2.93,
    "good_until": "2026-10-18",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -348,14 +399,14 @@
    ]
   },
   {
-   "id": "0901e374",
-   "ticker": "AMGN",
+   "id": "0ae5bba6",
+   "ticker": "PG",
    "kind": "buy_limit",
-   "price": 404.9265,
+   "price": 147.8571,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 417.37,
+   "last": 152.4,
    "pct_away": -2.98,
    "good_until": "2026-10-18",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -372,8 +423,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 442.01,
-   "pct_away": -2.98,
+   "last": 442.95,
+   "pct_away": -3.19,
    "good_until": "2026-10-18",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -382,7 +433,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,954 idle, so opened 4: SNOW, CVX, AMGN, TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps ",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,954 idle, so opened 1: PG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -450,13 +501,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 382,
+  "decisions_graded": 381,
   "decisions_with_buys_graded": 122,
   "independent_days_graded": 12,
   "avg_regret_pct": 0.02,
   "chosen_avg_pct": 0.09,
   "skipped_avg_pct": 0.11,
-  "idle_universe_avg_pct": -0.07,
+  "idle_universe_avg_pct": -0.06,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.02,
   "checks_that_bought_everything": 0,
@@ -571,9 +622,9 @@
     "n": 3
    }
   },
-  "idle_checks": 274,
+  "idle_checks": 273,
   "blocked_checks": 0,
-  "idle_share": 0.69,
+  "idle_share": 0.68,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "weak",
   "how_many_days_before_this_means_anything": 30,
@@ -2107,5 +2158,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-13T10:21-04:00"
+ "signalsAsOf": "2026-10-13T10:25-04:00"
 }

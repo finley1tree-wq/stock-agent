@@ -26378,3 +26378,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 TSM @ $428.84 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25388.04 (+1.55% on $25000.00 in) · cash $22388.64 · realised +388.64
 Done: 0 sell(s), 4 buy(s); 12 order(s) working; budget left $21953.64 this week
+
+## 2026-10-13 10:24 ET (Tuesday) — week 2026-W42 — budget left $21953.64 (today $33000.00 put to work, 14 buys, 10 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzPYuLUZUYUCFdDrwh9m'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,954 idle, so opened 1: PG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 PG [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +4.3% over the month; 7% of today's range
+~ WORKING take_profit 100% PG @ $152.72 until 2026-10-18 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% PG @ $151.72 until 2026-10-18 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 PG @ $147.86 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25388.10 (+1.55% on $25000.00 in) · cash $21638.64 · realised +388.64
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21203.64 this week

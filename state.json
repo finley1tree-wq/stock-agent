@@ -1,14 +1,14 @@
 {
   "week": "2026-W42",
-  "spent": 3046.36,
-  "deployed": 76050.0,
+  "spent": 3796.36,
+  "deployed": 76800.0,
   "by_ticker": {
     "TSM": 765.17,
     "IBM": 19.61,
     "AVGO": 7.82,
     "CVX": 776.1,
     "NEOG": 50.85,
-    "PG": 15.01,
+    "PG": 765.01,
     "KO": 12.65,
     "SNOW": 750.0,
     "AMGN": 750.0
@@ -25,7 +25,7 @@
     "NEOG": 5250.0,
     "META": 6000.0,
     "CVX": 12450.0,
-    "PG": 3750.0
+    "PG": 4500.0
   },
   "orders": [
     {
@@ -1921,12 +1921,34 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "PG",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.920276,
+      "price": 152.43,
+      "date": "2026-10-13",
+      "time_et": "10:24",
+      "ts": 1791901493,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +4.3% over the month; 7% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 3010.1,
-  "deployed_today": 33000.0,
-  "orders_today": 14,
+  "spent_today": 3760.1,
+  "deployed_today": 33750.0,
+  "orders_today": 15,
   "sells_today": 10,
   "sold_today": [
     "SNOW",
@@ -1954,8 +1976,8 @@
     "TSM": 1791898589,
     "AVGO": 1791898630
   },
-  "last_publish_ts": 1791901311,
-  "last_check_ts": 1791901406,
+  "last_publish_ts": 1791901493,
+  "last_check_ts": 1791901493,
   "exp_arm": {
     "SNOW": {
       "params": {
@@ -1992,24 +2014,36 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "PG": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1791901200,
-  "last_decision_ts": 1791901311,
+  "last_decision_ts": 1791901493,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "89125563": 443.3158,
+    "913e1783": 152.715,
     "a58d1f43": 217.661,
     "6fa9b5df": 418.502,
-    "89125563": 443.3158,
+    "2b1dfe02": 151.7182,
+    "8609cc3d": 414.8242,
     "6ed960c8": 364.0638,
     "dd9ef0ce": 216.1165,
-    "8609cc3d": 414.8242,
     "06c0b7a3": 439.0539,
     "b0abe915": 358.8355,
+    "0901e374": 404.9265,
     "5bbacce1": 351.6929,
     "0ec88d66": 210.7034,
-    "0901e374": 404.9265,
+    "0ae5bba6": 147.8571,
     "53946ad8": 428.837
   }
 }

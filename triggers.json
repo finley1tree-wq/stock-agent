@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "4b2cc6e1",
-   "ticker": "KO",
-   "kind": "take_profit",
-   "price": 86.7399,
-   "status": "cancelled",
-   "created": "2026-10-06 09:36",
-   "created_ts": 1791293798,
-   "why": "close 100% at +0.1% over the average cost",
-   "evidence": "average cost $86.61",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-06 09:55",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "351b53d0",
-   "ticker": "KO",
-   "kind": "stop_loss",
-   "price": 86.306,
-   "status": "cancelled",
-   "created": "2026-10-06 09:36",
-   "created_ts": 1791293798,
-   "why": "close it all at -0.4% under the average cost",
-   "evidence": "average cost $86.61",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-06 09:50",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "5a32e355",
-   "ticker": "KO",
-   "kind": "buy_limit",
-   "price": 84.0117,
-   "status": "cancelled",
-   "created": "2026-10-06 09:36",
-   "created_ts": 1791293798,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $86.61",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-11",
-   "usd": 500.0,
-   "closed": "2026-10-06 09:55",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "5caf0547",
    "ticker": "UNH",
    "kind": "stop_loss",
@@ -7430,7 +7373,58 @@
    ],
    "good_until": "2026-10-18",
    "usd": 500.0
+  },
+  {
+   "id": "913e1783",
+   "ticker": "PG",
+   "kind": "take_profit",
+   "price": 152.715,
+   "status": "working",
+   "created": "2026-10-13 10:24",
+   "created_ts": 1791901493,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $152.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2b1dfe02",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 151.7182,
+   "status": "working",
+   "created": "2026-10-13 10:24",
+   "created_ts": 1791901493,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $152.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0ae5bba6",
+   "ticker": "PG",
+   "kind": "buy_limit",
+   "price": 147.8571,
+   "status": "working",
+   "created": "2026-10-13 10:24",
+   "created_ts": 1791901493,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $152.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-13 10:21"
+ "updated": "2026-10-13 10:24"
 }
