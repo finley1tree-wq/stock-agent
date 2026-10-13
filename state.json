@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3808.75,
+  "spent": 3058.97,
   "deployed": 83550.0,
   "by_ticker": {
     "TSM": 15.59,
@@ -13,7 +13,7 @@
     "SNOW": 758.1,
     "ACN": 9.76,
     "META": 750.0,
-    "AMGN": 750.0
+    "AMGN": 0.22
   },
   "deployed_by_ticker": {
     "TSM": 8050.0,
@@ -2331,13 +2331,34 @@
       ],
       "evidence": "bought 90 min ago, -0.04% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "AMGN",
+      "side": "sell",
+      "qty": 1.802394,
+      "status": "filled",
+      "price": 415.99,
+      "proceeds": 749.78,
+      "realized_pnl": -0.22,
+      "realized_pct": -0.03,
+      "date": "2026-10-13",
+      "time_et": "12:00",
+      "ts": 1791907200,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $416.11",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 3772.49,
+  "spent_today": 3022.71,
   "deployed_today": 40500.0,
   "orders_today": 24,
-  "sells_today": 19,
+  "sells_today": 20,
   "sold_today": [
     "SNOW",
     "AMGN",
@@ -2354,7 +2375,7 @@
     "ACN": 1791906445,
     "IBM": 1791813178,
     "KO": 1791902908,
-    "AMGN": 1791903043,
+    "AMGN": 1791907246,
     "META": 1791898771,
     "SNOW": 1791901893,
     "CVX": 1791905373,
@@ -2364,8 +2385,8 @@
     "TSM": 1791906720,
     "AVGO": 1791898630
   },
-  "last_publish_ts": 1791907066,
-  "last_check_ts": 1791907159,
+  "last_publish_ts": 1791907238,
+  "last_check_ts": 1791907238,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -2431,13 +2452,11 @@
       }
     }
   },
-  "last_bar_ts": 1791906900,
-  "last_decision_ts": 1791907066,
+  "last_bar_ts": 1791907200,
+  "last_decision_ts": 1791907238,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "d2bc5b10": 416.458,
-    "820d479b": 417.1586,
     "e0647506": 90.3963,
     "0d8f1096": 759.4696,
     "21d0bcfa": 89.9197,
@@ -2449,7 +2468,6 @@
     "a33bcdbe": 742.9036,
     "81782e37": 344.7671,
     "53e7ac82": 87.5522,
-    "e00a7f9c": 347.9099,
-    "5622b403": 403.6267
+    "e00a7f9c": 347.9099
   }
 }

@@ -61167,7 +61167,7 @@
     "code_version": "c687b19",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.18
+    "ret_now": -0.13
   },
   {
     "symbol": "KO",
@@ -61252,7 +61252,7 @@
     "code_version": "42ede1c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05
+    "ret_now": 0.1
   },
   {
     "symbol": "CVX",
@@ -61434,7 +61434,9 @@
     "code_version": "e6b338d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16
+    "ret_now": -0.03,
+    "ret_final": -0.03,
+    "ret_src": "realised"
   },
   {
     "symbol": "KO",
@@ -61465,7 +61467,7 @@
     "code_version": "e6b338d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": -0.03
   },
   {
     "symbol": "ACN",
@@ -61519,5 +61521,32 @@
     "hour_et": 11,
     "code_version": "a5151e2",
     "hold_minutes": 90
+  },
+  {
+    "symbol": "AMGN",
+    "side": "sell",
+    "qty": 1.802394,
+    "status": "filled",
+    "price": 415.99,
+    "proceeds": 749.78,
+    "realized_pnl": -0.22,
+    "realized_pct": -0.03,
+    "date": "2026-10-13",
+    "time_et": "12:00",
+    "ts": 1791907200,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $416.11",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "76dd7f7",
+    "hold_minutes": 23
   }
 ]
