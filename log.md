@@ -27415,3 +27415,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25353.24 (+1.41% on $25000.00 in) · cash $20863.37 · realised +363.37
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on AMGN: position closed)
+- SELL 100% AMGN [stop_loss @ $412.68] -> $744.87 (-0.68%) — close it all at -0.6% under the average cost
+## 2026-10-13 13:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
