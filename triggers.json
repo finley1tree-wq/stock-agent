@@ -1,114 +1,6 @@
 {
  "orders": [
   {
-   "id": "0fdee79d",
-   "ticker": "GS",
-   "kind": "stop_loss",
-   "price": 877.0,
-   "status": "cancelled",
-   "created": "2026-10-06 09:32",
-   "created_ts": 1791293564,
-   "why": "Protective stop ~2.4% below entry",
-   "evidence": "ATR 2.226%, entry 899.04",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-06 09:47",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "79e3adb7",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 471.0,
-   "status": "cancelled",
-   "created": "2026-10-06 09:32",
-   "created_ts": 1791293564,
-   "why": "Protective stop ~2.5% below entry",
-   "evidence": "ATR 2.078%, entry 483.12",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-06 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "65c4c014",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 188.5,
-   "status": "cancelled",
-   "created": "2026-10-06 09:32",
-   "created_ts": 1791293564,
-   "why": "Protective stop ~3.2% below entry given high ATR",
-   "evidence": "ATR 5.053% is wide, entry 194.76",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-06 10:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "b388dc66",
-   "ticker": "HD",
-   "kind": "stop_loss",
-   "price": 276.5,
-   "status": "cancelled",
-   "created": "2026-10-06 09:32",
-   "created_ts": 1791293564,
-   "why": "Protective stop ~2.5% below entry",
-   "evidence": "ATR 2.178%, entry 283.65",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-06 09:42",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "b44c5dc2",
-   "ticker": "PG",
-   "kind": "buy_limit",
-   "price": 147.8882,
-   "status": "filled",
-   "created": "2026-10-06 09:32",
-   "created_ts": 1791293564,
-   "why": "wanted it, but not at the high \u2014 resting at $147.89. Congress pressure plus +1.75% today momentum confirming",
-   "evidence": "David J. Taylor and Lloyd Doggett disclosed PG buys; congress_net_buy_pressure=2.0",
-   "signals": [
-    "congress",
-    "patience"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 3500.0,
-   "closed": "2026-10-06 09:47"
-  },
-  {
-   "id": "0917c935",
-   "ticker": "KO",
-   "kind": "buy_limit",
-   "price": 86.606,
-   "status": "filled",
-   "created": "2026-10-06 09:32",
-   "created_ts": 1791293564,
-   "why": "wanted it, but not at the high \u2014 resting at $86.61. Repeating a pattern the journal flagged as working: congress staple bought early",
-   "evidence": "congress_net_buy_pressure KO=1.0; past_lessons_with_outcome notes KO/PEP staples bought low day-range at 09:xx outperformed (+1.57% that check)",
-   "signals": [
-    "congress",
-    "patience"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 2000.0,
-   "closed": "2026-10-06 09:36"
-  },
-  {
    "id": "7a844cab",
    "ticker": "AVGO",
    "kind": "take_profit",
@@ -7198,7 +7090,7 @@
    "ticker": "PG",
    "kind": "take_profit",
    "price": 154.0869,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 09:32",
    "created_ts": 1791898358,
    "why": "close 100% at +0.2% over the average cost",
@@ -7208,14 +7100,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-13 09:37",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f86b1766",
    "ticker": "PG",
    "kind": "stop_loss",
    "price": 153.1179,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-13 09:32",
    "created_ts": 1791898358,
    "why": "close it all at -0.5% under the average cost",
@@ -7225,14 +7119,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-13 09:37"
   },
   {
    "id": "3d5208bc",
    "ticker": "PG",
    "kind": "buy_limit",
    "price": 149.1957,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 09:32",
    "created_ts": 1791898358,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7242,7 +7137,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-13 09:37",
+   "cancel_reason": "position closed"
   },
   {
    "id": "44911b1f",
@@ -7305,7 +7202,7 @@
    "ticker": "AVGO",
    "kind": "take_profit",
    "price": 350.0732,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-13 09:32",
    "created_ts": 1791898358,
    "why": "close 100% at +0.3% over the average cost",
@@ -7315,14 +7212,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-13 09:37"
   },
   {
    "id": "fa836425",
    "ticker": "AVGO",
    "kind": "stop_loss",
    "price": 346.1788,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 09:32",
    "created_ts": 1791898358,
    "why": "close it all at -0.8% under the average cost",
@@ -7332,14 +7230,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-13 09:37",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7aa1f165",
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 338.4912,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 09:32",
    "created_ts": 1791898358,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7349,7 +7249,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-13 09:37",
+   "cancel_reason": "position closed"
   },
   {
    "id": "44d8b9d4",
@@ -7424,7 +7326,109 @@
    "good_until": "2026-10-18",
    "pct_of_position": 100.0,
    "closed": "2026-10-13 09:36"
+  },
+  {
+   "id": "f34391e1",
+   "ticker": "KO",
+   "kind": "take_profit",
+   "price": 90.3954,
+   "status": "working",
+   "created": "2026-10-13 09:37",
+   "created_ts": 1791898678,
+   "why": "close 100% at +0.1% over the average cost",
+   "evidence": "average cost $90.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "49ac7b18",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 89.9224,
+   "status": "working",
+   "created": "2026-10-13 09:37",
+   "created_ts": 1791898678,
+   "why": "close it all at -0.4% under the average cost",
+   "evidence": "average cost $90.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c9774ac6",
+   "ticker": "KO",
+   "kind": "buy_limit",
+   "price": 87.5522,
+   "status": "working",
+   "created": "2026-10-13 09:37",
+   "created_ts": 1791898678,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $90.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "usd": 500.0
+  },
+  {
+   "id": "6156596e",
+   "ticker": "ACN",
+   "kind": "take_profit",
+   "price": 217.8395,
+   "status": "working",
+   "created": "2026-10-13 09:37",
+   "created_ts": 1791898678,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $216.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e389a192",
+   "ticker": "ACN",
+   "kind": "stop_loss",
+   "price": 214.0592,
+   "status": "working",
+   "created": "2026-10-13 09:37",
+   "created_ts": 1791898678,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $216.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ed0991d4",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 210.2572,
+   "status": "working",
+   "created": "2026-10-13 09:37",
+   "created_ts": 1791898678,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $216.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-13 09:36"
+ "updated": "2026-10-13 09:37"
 }
