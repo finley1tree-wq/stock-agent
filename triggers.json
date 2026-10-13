@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "7b9c7120",
-   "ticker": "GS",
-   "kind": "buy_limit",
-   "price": 848.9537,
-   "status": "cancelled",
-   "created": "2026-10-07 09:32",
-   "created_ts": 1791379971,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $875.21",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-12",
-   "usd": 500.0,
-   "closed": "2026-10-07 09:47",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "6d24be62",
    "ticker": "NFLX",
    "kind": "take_profit",
@@ -7356,7 +7337,7 @@
    "ticker": "AMGN",
    "kind": "stop_loss",
    "price": 413.4843,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 11:36",
    "created_ts": 1791905777,
    "why": "close it all at -0.6% under the average cost",
@@ -7366,7 +7347,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-13 11:57",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5622b403",
@@ -7435,7 +7418,24 @@
    ],
    "good_until": "2026-10-18",
    "usd": 500.0
+  },
+  {
+   "id": "d2bc5b10",
+   "ticker": "AMGN",
+   "kind": "stop_loss",
+   "price": 416.458,
+   "status": "working",
+   "created": "2026-10-13 11:57",
+   "created_ts": 1791907066,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $416.11",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-13 11:54"
+ "updated": "2026-10-13 11:57"
 }
