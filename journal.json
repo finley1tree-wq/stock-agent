@@ -61473,7 +61473,9 @@
     "code_version": "e6b338d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": -0.14,
+    "ret_final": -0.14,
+    "ret_src": "realised"
   },
   {
     "symbol": "ACN",
@@ -61643,7 +61645,7 @@
     "code_version": "071e6bb",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.12
+    "ret_now": -0.24
   },
   {
     "symbol": "META",
@@ -61701,7 +61703,7 @@
     "code_version": "176e874",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.15
+    "ret_now": -0.12
   },
   {
     "symbol": "AMGN",
@@ -61732,7 +61734,7 @@
     "code_version": "3cd597d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.12
+    "ret_now": -0.21
   },
   {
     "symbol": "SNOW",
@@ -61789,7 +61791,7 @@
     "code_version": "c673632",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.15
+    "ret_now": -0.16
   },
   {
     "symbol": "PG",
@@ -61847,6 +61849,32 @@
     "code_version": "8078186",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02
+    "ret_now": 0.09
+  },
+  {
+    "symbol": "KO",
+    "side": "sell",
+    "qty": 8.309508,
+    "status": "filled",
+    "price": 90.13,
+    "proceeds": 748.95,
+    "realized_pnl": -1.05,
+    "realized_pct": -0.14,
+    "date": "2026-10-13",
+    "time_et": "13:06",
+    "ts": 1791911179,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.12% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 13,
+    "code_version": "5192dc0",
+    "hold_minutes": 90
   }
 ]
