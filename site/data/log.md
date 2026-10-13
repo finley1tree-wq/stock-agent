@@ -1,5 +1,3 @@
-portfolio: equity $25372.11 (+1.49% on $25000.00 in) · cash $20884.89 · realised +384.89
-Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 2 standing order(s) on CVX: position closed)
 - SELL 100% CVX [take_profit @ $218.34] -> $751.53 (+0.20%) — close 100% at +0.2% over the average cost
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 AMGN @ $403.05 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25359.61 (+1.44% on $25000.00 in) · cash $20868.42 · realised +368.42
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20433.43 this week
+- SELL 100% SNOW [time stop] -> $744.66 (-0.71%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-13 12:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders

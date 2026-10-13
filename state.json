@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 4566.57,
+  "spent": 3821.91,
   "deployed": 86550.0,
   "by_ticker": {
     "TSM": 15.59,
@@ -10,7 +10,7 @@
     "NEOG": 50.85,
     "PG": 763.49,
     "KO": 761.5,
-    "SNOW": 758.1,
+    "SNOW": 13.44,
     "ACN": 759.76,
     "META": 6.65,
     "AMGN": 750.22
@@ -2481,13 +2481,33 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "SNOW",
+      "side": "sell",
+      "qty": 2.091049,
+      "status": "filled",
+      "price": 356.12,
+      "proceeds": 744.66,
+      "realized_pnl": -5.34,
+      "realized_pct": -0.71,
+      "date": "2026-10-13",
+      "time_et": "12:47",
+      "ts": 1791910077,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.69% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 4530.31,
+  "spent_today": 3785.65,
   "deployed_today": 43500.0,
   "orders_today": 28,
-  "sells_today": 22,
+  "sells_today": 23,
   "sold_today": [
     "SNOW",
     "AMGN",
@@ -2506,7 +2526,7 @@
     "KO": 1791902908,
     "AMGN": 1791907246,
     "META": 1791908630,
-    "SNOW": 1791901893,
+    "SNOW": 1791910078,
     "CVX": 1791905373,
     "MSFT": 1791815796,
     "PG": 1791905227,
@@ -2514,8 +2534,8 @@
     "TSM": 1791906720,
     "AVGO": 1791908116
   },
-  "last_publish_ts": 1791909965,
-  "last_check_ts": 1791909965,
+  "last_publish_ts": 1791910077,
+  "last_check_ts": 1791910077,
   "exp_arm": {
     "SNOW": {
       "params": {
@@ -2578,18 +2598,15 @@
   "autopiloted": true,
   "book_px": {
     "fc48dc8f": 152.964,
-    "0562c2a8": 354.9362,
     "e0647506": 90.3963,
     "09057718": 217.0399,
     "4a437aaf": 416.5754,
     "21d0bcfa": 89.9197,
     "3349c4ae": 218.6216,
-    "7860f4ca": 214.9471,
     "55690e80": 151.9685,
     "2d9b457c": 412.8856,
+    "7860f4ca": 214.9471,
     "a0a0953a": 211.1063,
-    "8727e84f": 360.1621,
-    "e00a7f9c": 347.9099,
     "09c3c23f": 211.6249,
     "064b0ca1": 207.4345,
     "53e7ac82": 87.5522,
