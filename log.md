@@ -26511,3 +26511,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 AVGO @ $344.77 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25379.63 (+1.52% on $25000.00 in) · cash $21633.45 · realised +383.45
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21198.45 this week
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [take_profit @ $90.16] -> $751.15 (+0.15%) — close 100% at +0.2% over the average cost
+## 2026-10-13 10:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-13 10:48 ET (Tuesday) — week 2026-W42 — budget left $21949.60 (today $36000.00 put to work, 18 buys, 14 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzRMc9nYKGzT5bNDjYBh'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25377.27 (+1.51% on $25000.00 in) · cash $22384.60 · realised +384.60
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
