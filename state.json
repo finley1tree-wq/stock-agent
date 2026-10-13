@@ -1,29 +1,32 @@
 {
   "week": "2026-W42",
-  "spent": 36.26,
-  "deployed": 43050.0,
+  "spent": 24036.26,
+  "deployed": 67050.0,
   "by_ticker": {
-    "TSM": 23.53,
+    "TSM": 3023.53,
     "IBM": 19.61,
-    "AVGO": 17.39,
-    "CVX": 26.46,
-    "AMGN": 1.47,
-    "SNOW": 4.82,
-    "ACN": 4.16
+    "AVGO": 3017.39,
+    "CVX": 3026.46,
+    "AMGN": 3001.47,
+    "SNOW": 3004.82,
+    "ACN": 4.16,
+    "META": 3000.0,
+    "NEOG": 3000.0,
+    "PG": 3000.0
   },
   "deployed_by_ticker": {
-    "TSM": 4300.0,
+    "TSM": 7300.0,
     "IBM": 2800.0,
     "ACN": 6600.0,
     "MSFT": 2900.0,
-    "AMGN": 4000.0,
+    "AMGN": 7000.0,
     "KO": 3500.0,
-    "AVGO": 2000.0,
-    "SNOW": 2250.0,
-    "NEOG": 2250.0,
-    "META": 3000.0,
-    "CVX": 8700.0,
-    "PG": 750.0
+    "AVGO": 5000.0,
+    "SNOW": 5250.0,
+    "NEOG": 5250.0,
+    "META": 6000.0,
+    "CVX": 11700.0,
+    "PG": 3750.0
   },
   "orders": [
     {
@@ -1401,12 +1404,188 @@
       ],
       "evidence": "bought 90 min ago, +0.00% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "SNOW",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.394157,
+      "price": 357.39,
+      "date": "2026-10-13",
+      "time_et": "09:32",
+      "ts": 1791898358,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Maria Elvira Salazar), $15,001 - $50,000; +7.5% over the month; 62% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "CVX",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.843811,
+      "price": 216.7,
+      "date": "2026-10-13",
+      "time_et": "09:32",
+      "ts": 1791898358,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +2.1% over the month; 49% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "META",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.051327,
+      "price": 740.5,
+      "date": "2026-10-13",
+      "time_et": "09:32",
+      "ts": 1791898358,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +11.2% over the month; 70% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "NEOG",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 249.272871,
+      "price": 12.04,
+      "date": "2026-10-13",
+      "time_et": "09:32",
+      "ts": 1791898358,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4, incl. CEO); +0.7% over the month; 73% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "PG",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 19.504488,
+      "price": 153.81,
+      "date": "2026-10-13",
+      "time_et": "09:32",
+      "ts": 1791898358,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +5.2% over the month; 16% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "AMGN",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.198848,
+      "price": 416.73,
+      "date": "2026-10-13",
+      "time_et": "09:32",
+      "ts": 1791898358,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): David J. Taylor; +9.2% over the month; 28% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "AVGO",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.596979,
+      "price": 348.96,
+      "date": "2026-10-13",
+      "time_et": "09:32",
+      "ts": 1791898358,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): Rick W. Allen; +1.2% over the month; 22% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "TSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.842322,
+      "price": 438.45,
+      "date": "2026-10-13",
+      "time_et": "09:32",
+      "ts": 1791898358,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +4.9% over the month; 37% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 0.0,
-  "deployed_today": 0.0,
-  "orders_today": 0,
+  "spent_today": 24000.0,
+  "deployed_today": 24000.0,
+  "orders_today": 8,
   "sells_today": 0,
   "sold_today": [],
   "sold_ts": {
@@ -1423,45 +1602,9 @@
     "TSM": 1791829053,
     "AVGO": 1791818733
   },
-  "last_publish_ts": 1791898232,
-  "last_check_ts": 1791898232,
+  "last_publish_ts": 1791898358,
+  "last_check_ts": 1791898358,
   "exp_arm": {
-    "TSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "NEOG": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "AMGN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "ACN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "SNOW": {
       "params": {
         "hold_minutes": 90,
@@ -1479,11 +1622,90 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "META": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "NEOG": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "PG": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "AMGN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "AVGO": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "TSM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
-  "last_bar_ts": 1791834900,
-  "last_decision_ts": 1791835097,
-  "next_check_minutes": null,
+  "last_bar_ts": 1791898200,
+  "last_decision_ts": 1791898358,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "8569f9ae": 154.0869,
+    "cf2535cc": 217.1399,
+    "44911b1f": 417.7718,
+    "44d8b9d4": 439.6689,
+    "6cbc458f": 742.84,
+    "3369a010": 350.0732,
+    "45b39636": 358.816,
+    "f86b1766": 153.1179,
+    "f004872e": 215.6035,
+    "9bd9f72f": 414.1296,
+    "54d34cf3": 435.4072,
+    "1c72e9a1": 12.1213,
+    "0cd1e553": 734.65,
+    "fa836425": 346.1788,
+    "2169427d": 353.8197,
+    "ce637a2a": 11.8369,
+    "3da1b521": 11.6788,
+    "aa95b9f1": 346.6683,
+    "b2603af7": 210.199,
+    "4fea52a4": 718.285,
+    "3d5208bc": 149.1957,
+    "b507bc03": 404.2281,
+    "7aa1f165": 338.4912,
+    "cd12249b": 425.2965
+  }
 }
