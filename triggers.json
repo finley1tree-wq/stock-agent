@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "c197b4ca",
-   "ticker": "NFLX",
-   "kind": "stop_loss",
-   "price": 65.75,
-   "status": "cancelled",
-   "created": "2026-10-06 09:32",
-   "created_ts": 1791293564,
-   "why": "Protective stop at ~2.5% below entry",
-   "evidence": "ATR 2.559%, entry 67.44",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-06",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-06 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "0fdee79d",
    "ticker": "GS",
    "kind": "stop_loss",
@@ -7069,7 +7051,7 @@
    "ticker": "CVX",
    "kind": "stop_loss",
    "price": 215.6035,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 09:32",
    "created_ts": 1791898358,
    "why": "close it all at -0.5% under the average cost",
@@ -7079,7 +7061,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-13 09:34",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "b2603af7",
@@ -7403,7 +7387,24 @@
    ],
    "good_until": "2026-10-18",
    "usd": 500.0
+  },
+  {
+   "id": "72f1e5c7",
+   "ticker": "CVX",
+   "kind": "stop_loss",
+   "price": 216.838,
+   "status": "working",
+   "created": "2026-10-13 09:34",
+   "created_ts": 1791898448,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $216.7",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-13 09:32"
+ "updated": "2026-10-13 09:34"
 }
