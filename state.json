@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 4550.22,
-  "deployed": 81300.0,
+  "spent": 5300.22,
+  "deployed": 82050.0,
   "by_ticker": {
     "TSM": 765.17,
     "IBM": 19.61,
@@ -11,7 +11,8 @@
     "PG": 763.61,
     "KO": 11.5,
     "SNOW": 758.1,
-    "ACN": 750.0
+    "ACN": 750.0,
+    "META": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 8050.0,
@@ -23,7 +24,7 @@
     "AVGO": 5750.0,
     "SNOW": 6750.0,
     "NEOG": 5250.0,
-    "META": 6000.0,
+    "META": 6750.0,
     "CVX": 13200.0,
     "PG": 5250.0
   },
@@ -2180,12 +2181,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "META",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 0.979262,
+      "price": 765.88,
+      "date": "2026-10-13",
+      "time_et": "11:21",
+      "ts": 1791904870,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +15.0% over the month; 85% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 4513.96,
-  "deployed_today": 38250.0,
-  "orders_today": 21,
+  "spent_today": 5263.96,
+  "deployed_today": 39000.0,
+  "orders_today": 22,
   "sells_today": 15,
   "sold_today": [
     "SNOW",
@@ -2213,8 +2236,8 @@
     "TSM": 1791898589,
     "AVGO": 1791898630
   },
-  "last_publish_ts": 1791904675,
-  "last_check_ts": 1791904781,
+  "last_publish_ts": 1791904870,
+  "last_check_ts": 1791904870,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -2269,22 +2292,33 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "META": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
-  "last_bar_ts": 1791904500,
-  "last_decision_ts": 1791904675,
+  "last_bar_ts": 1791904800,
+  "last_decision_ts": 1791904870,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "de1a80dc": 152.954,
     "822b461e": 218.3389,
-    "89125563": 443.3158,
     "84cefef9": 352.6079,
-    "8727e84f": 360.1621,
-    "2451258b": 151.9586,
+    "0a3c968f": 768.4457,
     "60c01ed0": 214.4236,
+    "89125563": 443.3158,
+    "8727e84f": 360.1621,
     "710a5ffa": 216.77,
     "06c0b7a3": 439.0539,
+    "2451258b": 151.9586,
+    "0d8f1096": 759.4696,
     "4b77b903": 356.5603,
     "0562c2a8": 354.9362,
     "17673df8": 218.2257,
@@ -2292,6 +2326,7 @@
     "81782e37": 344.7671,
     "53946ad8": 428.837,
     "e00a7f9c": 347.9099,
+    "a33bcdbe": 742.9036,
     "79c01b43": 211.3533,
     "4b0e1703": 148.0899
   }
