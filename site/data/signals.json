@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-13T14:19-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-13T14:31-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "d77ca66c",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 90.162,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 90.19,
+   "pct_away": -0.03,
+   "good_until": "2026-10-18",
+   "why": "close it all at -0.4% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "8a0d48f2",
    "ticker": "KO",
    "kind": "take_profit",
@@ -185,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 90.11,
-   "pct_away": 0.16,
+   "last": 90.19,
+   "pct_away": 0.07,
    "good_until": "2026-10-18",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -202,27 +219,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 764.06,
-   "pct_away": 0.22,
+   "last": 764.43,
+   "pct_away": 0.17,
    "good_until": "2026-10-18",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "139c37a9",
-   "ticker": "KO",
-   "kind": "stop_loss",
-   "price": 89.7802,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 90.11,
-   "pct_away": -0.37,
-   "good_until": "2026-10-18",
-   "why": "close it all at -0.4% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 764.06,
-   "pct_away": -0.96,
+   "last": 764.43,
+   "pct_away": -1.01,
    "good_until": "2026-10-18",
    "why": "close it all at -0.8% under the average cost",
    "signals": [
