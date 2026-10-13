@@ -61797,7 +61797,9 @@
     "code_version": "c673632",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.18
+    "ret_now": -0.21,
+    "ret_final": -0.21,
+    "ret_src": "realised"
   },
   {
     "symbol": "PG",
@@ -61914,7 +61916,7 @@
     "code_version": "0c7a2b9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.23
+    "ret_now": 0.04
   },
   {
     "symbol": "AVGO",
@@ -62172,5 +62174,31 @@
     "hour_et": 14,
     "code_version": "8f3320c",
     "hold_minutes": 24
+  },
+  {
+    "symbol": "TSM",
+    "side": "sell",
+    "qty": 1.689498,
+    "status": "filled",
+    "price": 442.99,
+    "proceeds": 748.43,
+    "realized_pnl": -1.57,
+    "realized_pct": -0.21,
+    "date": "2026-10-13",
+    "time_et": "14:19",
+    "ts": 1791915556,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.19% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14,
+    "code_version": "16cdc8c",
+    "hold_minutes": 89
   }
 ]

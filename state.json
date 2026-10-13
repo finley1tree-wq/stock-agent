@@ -1,9 +1,9 @@
 {
   "week": "2026-W42",
-  "spent": 2325.66,
+  "spent": 1577.23,
   "deployed": 91050.0,
   "by_ticker": {
-    "TSM": 765.59,
+    "TSM": 17.16,
     "IBM": 19.61,
     "AVGO": 8.82,
     "CVX": 25.94,
@@ -2798,13 +2798,33 @@
       ],
       "evidence": "average cost $153.13",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 1.689498,
+      "status": "filled",
+      "price": 442.99,
+      "proceeds": 748.43,
+      "realized_pnl": -1.57,
+      "realized_pct": -0.21,
+      "date": "2026-10-13",
+      "time_et": "14:19",
+      "ts": 1791915556,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.19% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 2289.4,
+  "spent_today": 1540.97,
   "deployed_today": 48000.0,
   "orders_today": 34,
-  "sells_today": 31,
+  "sells_today": 32,
   "sold_today": [
     "SNOW",
     "AMGN",
@@ -2828,11 +2848,11 @@
     "MSFT": 1791815796,
     "PG": 1791915066,
     "NEOG": 1791899653,
-    "TSM": 1791906720,
+    "TSM": 1791915557,
     "AVGO": 1791912311
   },
-  "last_publish_ts": 1791915066,
-  "last_check_ts": 1791915519,
+  "last_publish_ts": 1791915556,
+  "last_check_ts": 1791915605,
   "exp_arm": {
     "ACN": {
       "params": {
@@ -2880,16 +2900,14 @@
       }
     }
   },
-  "last_bar_ts": 1791915300,
-  "last_decision_ts": 1791915434,
+  "last_bar_ts": 1791915600,
+  "last_decision_ts": 1791915605,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "e88d6530": 765.7142,
     "8a0d48f2": 90.2561,
-    "2be8a3cf": 445.1408,
+    "e88d6530": 765.7142,
     "139c37a9": 89.7802,
-    "fa83d817": 440.8614,
     "8cf8f8a9": 756.7395
   }
 }
