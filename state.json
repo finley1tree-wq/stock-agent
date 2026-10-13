@@ -1,11 +1,11 @@
 {
   "week": "2026-W42",
-  "spent": 3820.52,
-  "deployed": 87300.0,
+  "spent": 4570.52,
+  "deployed": 88050.0,
   "by_ticker": {
     "TSM": 765.59,
     "IBM": 19.61,
-    "AVGO": 8.77,
+    "AVGO": 758.77,
     "CVX": 773.06,
     "NEOG": 50.85,
     "PG": 12.1,
@@ -22,7 +22,7 @@
     "MSFT": 2900.0,
     "AMGN": 9250.0,
     "KO": 8000.0,
-    "AVGO": 5750.0,
+    "AVGO": 6500.0,
     "SNOW": 6750.0,
     "NEOG": 5250.0,
     "META": 6750.0,
@@ -2544,12 +2544,34 @@
       ],
       "evidence": "average cost $152.68",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "AVGO",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.110292,
+      "price": 355.4,
+      "date": "2026-10-13",
+      "time_et": "13:01",
+      "ts": 1791910871,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): Rick W. Allen; +3.1% over the month; 79% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 3784.26,
-  "deployed_today": 44250.0,
-  "orders_today": 29,
+  "spent_today": 4534.26,
+  "deployed_today": 45000.0,
+  "orders_today": 30,
   "sells_today": 24,
   "sold_today": [
     "SNOW",
@@ -2577,19 +2599,10 @@
     "TSM": 1791906720,
     "AVGO": 1791908116
   },
-  "last_publish_ts": 1791910693,
-  "last_check_ts": 1791910787,
+  "last_publish_ts": 1791910871,
+  "last_check_ts": 1791910871,
   "exp_arm": {
     "KO": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "PG": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "off"
@@ -2633,27 +2646,39 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "AVGO": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
-  "last_bar_ts": 1791910500,
-  "last_decision_ts": 1791910695,
-  "next_check_minutes": null,
+  "last_bar_ts": 1791910800,
+  "last_decision_ts": 1791910871,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "e0647506": 90.3963,
-    "09057718": 217.0399,
     "21d0bcfa": 89.9197,
-    "2be8a3cf": 445.1408,
-    "4a437aaf": 416.5754,
     "3349c4ae": 218.6216,
+    "fa7795bd": 356.5337,
+    "09057718": 217.0399,
+    "2be8a3cf": 445.1408,
     "2d9b457c": 412.8856,
-    "7860f4ca": 214.9471,
+    "4a437aaf": 416.5754,
     "fa83d817": 440.8614,
+    "7860f4ca": 214.9471,
+    "1842ec3b": 352.5675,
     "a0a0953a": 211.1063,
-    "09c3c23f": 211.6249,
     "49e32168": 403.0544,
+    "9e6c56f6": 430.6024,
     "064b0ca1": 207.4345,
+    "09c3c23f": 211.6249,
     "53e7ac82": 87.5522,
-    "9e6c56f6": 430.6024
+    "d096655f": 344.738
   }
 }
