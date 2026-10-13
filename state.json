@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 12007.24,
+  "spent": 8997.75,
   "deployed": 73050.0,
   "by_ticker": {
     "TSM": 15.17,
@@ -8,7 +8,6 @@
     "AVGO": 7.82,
     "CVX": 26.1,
     "ACN": 3004.16,
-    "META": 3000.0,
     "NEOG": 3000.0,
     "PG": 15.01,
     "KO": 3000.0
@@ -1749,27 +1748,49 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 4.051327,
+      "status": "filled",
+      "price": 742.84,
+      "proceeds": 3009.49,
+      "realized_pnl": 9.49,
+      "realized_pct": 0.32,
+      "date": "2026-10-13",
+      "time_et": "09:39",
+      "ts": 1791898500,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $740.5",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 11970.98,
+  "spent_today": 8961.49,
   "deployed_today": 30000.0,
   "orders_today": 10,
-  "sells_today": 6,
+  "sells_today": 7,
   "sold_today": [
     "SNOW",
     "AMGN",
     "CVX",
     "TSM",
     "AVGO",
-    "PG"
+    "PG",
+    "META"
   ],
   "sold_ts": {
     "ACN": 1791831662,
     "IBM": 1791813178,
     "KO": 1791821194,
     "AMGN": 1791898544,
-    "META": 1791826887,
+    "META": 1791898771,
     "SNOW": 1791898543,
     "CVX": 1791898589,
     "MSFT": 1791815796,
@@ -1778,8 +1799,8 @@
     "TSM": 1791898589,
     "AVGO": 1791898630
   },
-  "last_publish_ts": 1791898678,
-  "last_check_ts": 1791898678,
+  "last_publish_ts": 1791898770,
+  "last_check_ts": 1791898770,
   "exp_arm": {
     "META": {
       "params": {
@@ -1823,17 +1844,14 @@
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "6cbc458f": 742.84,
-    "f34391e1": 90.3954,
     "49ac7b18": 89.9224,
+    "f34391e1": 90.3954,
     "6156596e": 217.8395,
     "1c72e9a1": 12.1213,
-    "0cd1e553": 734.65,
-    "e389a192": 214.0592,
     "ce637a2a": 11.8369,
+    "e389a192": 214.0592,
     "3da1b521": 11.6788,
     "c9774ac6": 87.5522,
-    "ed0991d4": 210.2572,
-    "4fea52a4": 718.285
+    "ed0991d4": 210.2572
   }
 }

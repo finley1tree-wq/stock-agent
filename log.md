@@ -26139,3 +26139,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 ACN @ $210.26 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25427.61 (+1.71% on $25000.00 in) · cash $13427.76 · realised +427.76
 Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $12992.76 this week
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [take_profit @ $742.84] -> $3009.49 (+0.32%) — close 100% at +0.3% over the average cost
+## 2026-10-13 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
