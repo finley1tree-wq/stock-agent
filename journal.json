@@ -60954,7 +60954,7 @@
     "code_version": "7add2ae",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.13
+    "ret_now": -0.17
   },
   {
     "symbol": "PG",
@@ -61078,7 +61078,7 @@
     "code_version": "c44c43c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.8
+    "ret_now": -0.76
   },
   {
     "symbol": "SNOW",
@@ -61163,7 +61163,7 @@
     "code_version": "c687b19",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.48
+    "ret_now": -0.57
   },
   {
     "symbol": "KO",
@@ -61248,7 +61248,7 @@
     "code_version": "42ede1c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.12
+    "ret_now": -0.15
   },
   {
     "symbol": "CVX",
@@ -61279,7 +61279,7 @@
     "code_version": "42ede1c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.15
   },
   {
     "symbol": "PG",
@@ -61310,7 +61310,9 @@
     "code_version": "42ede1c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15
+    "ret_now": 0.02,
+    "ret_final": 0.02,
+    "ret_src": "realised"
   },
   {
     "symbol": "META",
@@ -61341,6 +61343,33 @@
     "code_version": "abe2e0c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02
+    "ret_now": -0.09
+  },
+  {
+    "symbol": "PG",
+    "side": "sell",
+    "qty": 4.91254,
+    "status": "filled",
+    "price": 152.7,
+    "proceeds": 750.12,
+    "realized_pnl": 0.12,
+    "realized_pct": 0.02,
+    "date": "2026-10-13",
+    "time_et": "11:27",
+    "ts": 1791905100,
+    "why": "close it all at -0.5% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $152.67",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "912673e",
+    "hold_minutes": 7
   }
 ]
