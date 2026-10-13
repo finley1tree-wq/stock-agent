@@ -61254,7 +61254,7 @@
     "code_version": "42ede1c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05
+    "ret_now": 0.01
   },
   {
     "symbol": "CVX",
@@ -61351,7 +61351,9 @@
     "code_version": "abe2e0c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.63
+    "ret_now": -0.89,
+    "ret_final": -0.89,
+    "ret_src": "realised"
   },
   {
     "symbol": "PG",
@@ -61469,7 +61471,7 @@
     "code_version": "e6b338d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": -0.11
   },
   {
     "symbol": "ACN",
@@ -61580,7 +61582,7 @@
     "code_version": "ab7f754",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": -0.04
   },
   {
     "symbol": "AVGO",
@@ -61637,6 +61639,33 @@
     "code_version": "071e6bb",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": -0.13
+  },
+  {
+    "symbol": "META",
+    "side": "sell",
+    "qty": 0.979262,
+    "status": "filled",
+    "price": 759.09,
+    "proceeds": 743.35,
+    "realized_pnl": -6.65,
+    "realized_pct": -0.89,
+    "date": "2026-10-13",
+    "time_et": "12:23",
+    "ts": 1791908400,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $765.88",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "55c5a08",
+    "hold_minutes": 58
   }
 ]

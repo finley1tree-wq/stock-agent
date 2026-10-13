@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3809.92,
+  "spent": 3066.57,
   "deployed": 85050.0,
   "by_ticker": {
     "TSM": 15.59,
@@ -12,7 +12,7 @@
     "KO": 761.5,
     "SNOW": 758.1,
     "ACN": 9.76,
-    "META": 750.0,
+    "META": 6.65,
     "AMGN": 0.22
   },
   "deployed_by_ticker": {
@@ -2416,13 +2416,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 0.979262,
+      "status": "filled",
+      "price": 759.09,
+      "proceeds": 743.35,
+      "realized_pnl": -6.65,
+      "realized_pct": -0.89,
+      "date": "2026-10-13",
+      "time_et": "12:23",
+      "ts": 1791908400,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $765.88",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 3773.66,
+  "spent_today": 3030.31,
   "deployed_today": 42000.0,
   "orders_today": 26,
-  "sells_today": 21,
+  "sells_today": 22,
   "sold_today": [
     "SNOW",
     "AMGN",
@@ -2440,7 +2461,7 @@
     "IBM": 1791813178,
     "KO": 1791902908,
     "AMGN": 1791907246,
-    "META": 1791898771,
+    "META": 1791908630,
     "SNOW": 1791901893,
     "CVX": 1791905373,
     "MSFT": 1791815796,
@@ -2449,8 +2470,8 @@
     "TSM": 1791906720,
     "AVGO": 1791908116
   },
-  "last_publish_ts": 1791908110,
-  "last_check_ts": 1791908566,
+  "last_publish_ts": 1791908629,
+  "last_check_ts": 1791908678,
   "exp_arm": {
     "SNOW": {
       "params": {
@@ -2499,21 +2520,18 @@
     }
   },
   "last_bar_ts": 1791908400,
-  "last_decision_ts": 1791908473,
+  "last_decision_ts": 1791908678,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "e0647506": 90.3963,
-    "fc48dc8f": 152.964,
-    "3349c4ae": 218.6216,
-    "0d8f1096": 759.4696,
-    "8727e84f": 360.1621,
     "21d0bcfa": 89.9197,
-    "55690e80": 151.9685,
+    "fc48dc8f": 152.964,
+    "e0647506": 90.3963,
+    "3349c4ae": 218.6216,
     "09057718": 217.0399,
-    "0a3c968f": 768.4457,
+    "55690e80": 151.9685,
+    "8727e84f": 360.1621,
     "0562c2a8": 354.9362,
-    "a33bcdbe": 742.9036,
     "09c3c23f": 211.6249,
     "53e7ac82": 87.5522,
     "a128547e": 148.0996,
