@@ -61254,7 +61254,7 @@
     "code_version": "42ede1c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.28
+    "ret_now": -0.1
   },
   {
     "symbol": "CVX",
@@ -61471,7 +61471,7 @@
     "code_version": "e6b338d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.12
+    "ret_now": -0.17
   },
   {
     "symbol": "ACN",
@@ -61582,7 +61582,7 @@
     "code_version": "ab7f754",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": -0.03
   },
   {
     "symbol": "AVGO",
@@ -61639,7 +61639,7 @@
     "code_version": "071e6bb",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.22
+    "ret_now": -0.32
   },
   {
     "symbol": "META",
@@ -61667,5 +61667,35 @@
     "hour_et": 12,
     "code_version": "55c5a08",
     "hold_minutes": 58
+  },
+  {
+    "symbol": "ACN",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.507086,
+    "price": 213.85,
+    "date": "2026-10-13",
+    "time_et": "12:33",
+    "ts": 1791909213,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +9.7% over the month; 6% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 213.81,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 9.65,
+    "hour_et": 12,
+    "code_version": "176e874",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
