@@ -1,76 +1,3 @@
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25398.74 (+1.59% on $25000.00 in) · cash $25398.74 · realised +398.74
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-## 2026-10-12 16:00 ET — published the session's closing state
-
-## 2026-10-13 09:32 ET (Tuesday) — week 2026-W42 — budget left $24963.74 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzKdGcY8kR3S6d9UrP1J'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,964 idle, so opened 8: SNOW, CVX, META, NEOG, PG, AMGN, AVGO, TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 SNOW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Maria Elvira Salazar), $15,001 - $50,000; +7.5% over the month; 62% of today's range
-- BUY $3000.00 CVX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +2.1% over the month; 49% of today's range
-- BUY $3000.00 META [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +11.2% over the month; 70% of today's range
-- BUY $3000.00 NEOG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4, incl. CEO); +0.7% over the month; 73% of today's range
-- BUY $3000.00 PG [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +5.2% over the month; 16% of today's range
-- BUY $3000.00 AMGN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer): David J. Taylor; +9.2% over the month; 28% of today's range
-- BUY $3000.00 AVGO [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer): Rick W. Allen; +1.2% over the month; 22% of today's range
-- BUY $3000.00 TSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +4.9% over the month; 37% of today's range
-~ WORKING take_profit 100% SNOW @ $358.82 until 2026-10-18 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% SNOW @ $353.82 until 2026-10-18 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 SNOW @ $346.67 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CVX @ $217.14 until 2026-10-18 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% CVX @ $215.60 until 2026-10-18 — close it all at -0.5% under the average cost
-~ WORKING buy_limit $500.00 CVX @ $210.20 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% META @ $742.84 until 2026-10-18 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% META @ $734.65 until 2026-10-18 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 META @ $718.28 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NEOG @ $12.12 until 2026-10-18 — close 100% at +0.7% over the average cost
-~ WORKING stop_loss 100% NEOG @ $11.84 until 2026-10-18 — close it all at -1.7% under the average cost
-~ WORKING buy_limit $500.00 NEOG @ $11.68 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PG @ $154.09 until 2026-10-18 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% PG @ $153.12 until 2026-10-18 — close it all at -0.5% under the average cost
-~ WORKING buy_limit $500.00 PG @ $149.20 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMGN @ $417.77 until 2026-10-18 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% AMGN @ $414.13 until 2026-10-18 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 AMGN @ $404.23 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AVGO @ $350.07 until 2026-10-18 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% AVGO @ $346.18 until 2026-10-18 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 AVGO @ $338.49 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% TSM @ $439.67 until 2026-10-18 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% TSM @ $435.41 until 2026-10-18 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 TSM @ $425.30 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25393.30 (+1.57% on $25000.00 in) · cash $1398.74 · realised +398.74
-Done: 0 sell(s), 8 buy(s); 24 order(s) working; budget left $963.74 this week
-
-## 2026-10-13 09:34 ET (Tuesday) — week 2026-W42 — budget left $963.74 (today $24000.00 put to work, 8 buys, 0 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzKkDHKbsnqc7fCUBMEM'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25399.22 (+1.60% on $25000.00 in) · cash $1398.74 · realised +398.74
-Decision: nothing at this check. 24 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on SNOW: position closed)
-- SELL 100% SNOW [take_profit @ $359.17] -> $3014.89 (+0.50%) — close 100% at +0.4% over the average cost
-  (cancelled 2 standing order(s) on AMGN: position closed)
-- SELL 100% AMGN [take_profit @ $418.24] -> $3010.85 (+0.36%) — close 100% at +0.2% over the average cost
-## 2026-10-13 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on CVX: position closed)
-- SELL 100% CVX [stop_loss @ $216.73] -> $3000.36 (+0.01%) — close it all at -0.5% under the average cost
-  (cancelled 2 standing order(s) on TSM: position closed)
-- SELL 100% TSM [take_profit @ $439.67] -> $3008.36 (+0.28%) — close 100% at +0.3% over the average cost
 ## 2026-10-13 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on AVGO: position closed)
 - SELL 100% AVGO [take_profit @ $350.07] -> $3009.57 (+0.32%) — close 100% at +0.3% over the average cost
@@ -398,3 +325,76 @@ Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20455.15 this week
   (cancelled 2 standing order(s) on PG: position closed)
 - SELL 100% PG [take_profit @ $152.72] -> $751.40 (+0.19%) — close 100% at +0.2% over the average cost
 ## 2026-10-13 10:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-13 10:33 ET (Tuesday) — week 2026-W42 — budget left $21948.45 (today $35250.00 put to work, 17 buys, 13 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzQHPeyvVvALqvCKUDxQ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25382.58 (+1.53% on $25000.00 in) · cash $22383.45 · realised +383.45
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 10:35 ET (Tuesday) — week 2026-W42 — budget left $21948.45 (today $35250.00 put to work, 17 buys, 13 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzQRy96usELrpPariWMW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25381.16 (+1.52% on $25000.00 in) · cash $22383.45 · realised +383.45
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 10:39 ET (Tuesday) — week 2026-W42 — budget left $21948.45 (today $35250.00 put to work, 17 buys, 13 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzQfwvKeBgSWQ7ikhr11'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25380.41 (+1.52% on $25000.00 in) · cash $22383.45 · realised +383.45
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 10:42 ET (Tuesday) — week 2026-W42 — budget left $21948.45 (today $35250.00 put to work, 17 buys, 13 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzQtsciM49oSNZmq1CmK'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25378.57 (+1.51% on $25000.00 in) · cash $22383.45 · realised +383.45
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 10:45 ET (Tuesday) — week 2026-W42 — budget left $21948.45 (today $35250.00 put to work, 17 buys, 13 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzR8Lg1VtZroNNz6qYrc'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,948 idle, so opened 1: AVGO. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 AVGO [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer): Rick W. Allen; +3.1% over the month; 84% of today's range
+~ WORKING take_profit 100% AVGO @ $356.56 until 2026-10-18 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AVGO @ $352.61 until 2026-10-18 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 AVGO @ $344.77 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25379.63 (+1.52% on $25000.00 in) · cash $21633.45 · realised +383.45
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21198.45 this week
