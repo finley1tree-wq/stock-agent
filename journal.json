@@ -61916,7 +61916,9 @@
     "code_version": "0c7a2b9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": -0.05,
+    "ret_final": -0.05,
+    "ret_src": "realised"
   },
   {
     "symbol": "AVGO",
@@ -62120,7 +62122,7 @@
     "code_version": "1c269c3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": 0.16
   },
   {
     "symbol": "ACN",
@@ -62199,6 +62201,32 @@
     "trigger": "time_stop",
     "hour_et": 14,
     "code_version": "16cdc8c",
+    "hold_minutes": 89
+  },
+  {
+    "symbol": "META",
+    "side": "sell",
+    "qty": 0.982765,
+    "status": "filled",
+    "price": 762.8,
+    "proceeds": 749.65,
+    "realized_pnl": -0.35,
+    "realized_pct": -0.05,
+    "date": "2026-10-13",
+    "time_et": "14:39",
+    "ts": 1791916796,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.03% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14,
+    "code_version": "1e3aad4",
     "hold_minutes": 89
   }
 ]

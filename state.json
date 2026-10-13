@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 1577.23,
+  "spent": 827.58,
   "deployed": 91050.0,
   "by_ticker": {
     "TSM": 17.16,
@@ -12,7 +12,7 @@
     "KO": 762.55,
     "SNOW": 13.12,
     "ACN": 7.5,
-    "META": 756.65,
+    "META": 7.0,
     "AMGN": 5.35
   },
   "deployed_by_ticker": {
@@ -2818,13 +2818,33 @@
       ],
       "evidence": "bought 90 min ago, -0.19% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 0.982765,
+      "status": "filled",
+      "price": 762.8,
+      "proceeds": 749.65,
+      "realized_pnl": -0.35,
+      "realized_pct": -0.05,
+      "date": "2026-10-13",
+      "time_et": "14:39",
+      "ts": 1791916796,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.03% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 1540.97,
+  "spent_today": 791.32,
   "deployed_today": 48000.0,
   "orders_today": 34,
-  "sells_today": 32,
+  "sells_today": 33,
   "sold_today": [
     "SNOW",
     "AMGN",
@@ -2842,7 +2862,7 @@
     "IBM": 1791813178,
     "KO": 1791911180,
     "AMGN": 1791913420,
-    "META": 1791908630,
+    "META": 1791916797,
     "SNOW": 1791913549,
     "CVX": 1791913503,
     "MSFT": 1791815796,
@@ -2851,8 +2871,8 @@
     "TSM": 1791915557,
     "AVGO": 1791912311
   },
-  "last_publish_ts": 1791916280,
-  "last_check_ts": 1791916757,
+  "last_publish_ts": 1791916796,
+  "last_check_ts": 1791916844,
   "exp_arm": {
     "ACN": {
       "params": {
@@ -2900,14 +2920,12 @@
       }
     }
   },
-  "last_bar_ts": 1791916500,
-  "last_decision_ts": 1791916667,
+  "last_bar_ts": 1791916800,
+  "last_decision_ts": 1791916844,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "d77ca66c": 90.162,
     "8a0d48f2": 90.2561,
-    "e88d6530": 765.7142,
-    "8cf8f8a9": 756.7395
+    "d77ca66c": 90.162
   }
 }
