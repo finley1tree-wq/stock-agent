@@ -61167,7 +61167,9 @@
     "code_version": "c687b19",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05
+    "ret_now": -0.13,
+    "ret_final": -0.13,
+    "ret_src": "realised"
   },
   {
     "symbol": "KO",
@@ -61252,7 +61254,7 @@
     "code_version": "42ede1c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": 0.08
   },
   {
     "symbol": "CVX",
@@ -61349,7 +61351,7 @@
     "code_version": "abe2e0c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.52
+    "ret_now": -0.56
   },
   {
     "symbol": "PG",
@@ -61467,7 +61469,7 @@
     "code_version": "e6b338d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": 0.01
   },
   {
     "symbol": "ACN",
@@ -61576,6 +61578,63 @@
     "momentum_1m_at_entry": 4.46,
     "hour_et": 12,
     "code_version": "ab7f754",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.02
+  },
+  {
+    "symbol": "AVGO",
+    "side": "sell",
+    "qty": 2.110114,
+    "status": "filled",
+    "price": 354.98,
+    "proceeds": 749.05,
+    "realized_pnl": -0.95,
+    "realized_pct": -0.13,
+    "date": "2026-10-13",
+    "time_et": "12:15",
+    "ts": 1791908110,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.11% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 12,
+    "code_version": "071e6bb",
+    "hold_minutes": 89
+  },
+  {
+    "symbol": "CVX",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.437629,
+    "price": 218.17,
+    "date": "2026-10-13",
+    "time_et": "12:15",
+    "ts": 1791908110,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +2.8% over the month; 77% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 218.13,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 2.81,
+    "hour_et": 12,
+    "code_version": "071e6bb",
     "ret_1w": null,
     "ret_1m": null
   }

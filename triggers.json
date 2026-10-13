@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "eeef7ec5",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 220.3932,
-   "status": "filled",
-   "created": "2026-10-07 09:32",
-   "created_ts": 1791379971,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $221.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-12",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-07 09:38"
-  },
-  {
-   "id": "8921e3c9",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 215.2624,
-   "status": "cancelled",
-   "created": "2026-10-07 09:32",
-   "created_ts": 1791379971,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $221.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-12",
-   "usd": 500.0,
-   "closed": "2026-10-07 09:38",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "71241f5b",
-   "ticker": "AMGN",
-   "kind": "take_profit",
-   "price": 406.4846,
-   "status": "filled",
-   "created": "2026-10-07 09:32",
-   "created_ts": 1791379971,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $405.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-12",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-07 09:35"
-  },
-  {
    "id": "8bfc2575",
    "ticker": "AMGN",
    "kind": "stop_loss",
@@ -6961,7 +6906,7 @@
    "ticker": "AVGO",
    "kind": "take_profit",
    "price": 356.5603,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 10:45",
    "created_ts": 1791902731,
    "why": "close 100% at +0.3% over the average cost",
@@ -6971,14 +6916,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-13 12:15",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "84cefef9",
    "ticker": "AVGO",
    "kind": "stop_loss",
    "price": 352.6079,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 10:45",
    "created_ts": 1791902731,
    "why": "close it all at -0.8% under the average cost",
@@ -6988,14 +6935,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-13 12:15",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "81782e37",
    "ticker": "AVGO",
    "kind": "buy_limit",
    "price": 344.7671,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 10:45",
    "created_ts": 1791902731,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7005,7 +6954,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-13 12:15",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "e3361578",
@@ -7434,7 +7385,58 @@
    ],
    "good_until": "2026-10-18",
    "usd": 500.0
+  },
+  {
+   "id": "3349c4ae",
+   "ticker": "CVX",
+   "kind": "take_profit",
+   "price": 218.6216,
+   "status": "working",
+   "created": "2026-10-13 12:15",
+   "created_ts": 1791908110,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $218.17",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "09057718",
+   "ticker": "CVX",
+   "kind": "stop_loss",
+   "price": 217.0399,
+   "status": "working",
+   "created": "2026-10-13 12:15",
+   "created_ts": 1791908110,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $218.17",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "09c3c23f",
+   "ticker": "CVX",
+   "kind": "buy_limit",
+   "price": 211.6249,
+   "status": "working",
+   "created": "2026-10-13 12:15",
+   "created_ts": 1791908110,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $218.17",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-13 12:12"
+ "updated": "2026-10-13 12:15"
 }
