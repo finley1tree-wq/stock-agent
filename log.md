@@ -26102,3 +26102,13 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25399.22 (+1.60% on $25000.00 in) · cash $1398.74 · realised +398.74
 Decision: nothing at this check. 24 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on SNOW: position closed)
+- SELL 100% SNOW [take_profit @ $359.17] -> $3014.89 (+0.50%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on AMGN: position closed)
+- SELL 100% AMGN [take_profit @ $418.24] -> $3010.85 (+0.36%) — close 100% at +0.2% over the average cost
+## 2026-10-13 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CVX: position closed)
+- SELL 100% CVX [stop_loss @ $216.73] -> $3000.36 (+0.01%) — close it all at -0.5% under the average cost
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [take_profit @ $439.67] -> $3008.36 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-10-13 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders

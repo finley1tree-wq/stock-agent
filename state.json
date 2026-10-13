@@ -1,14 +1,12 @@
 {
   "week": "2026-W42",
-  "spent": 24036.26,
+  "spent": 12001.8,
   "deployed": 67050.0,
   "by_ticker": {
-    "TSM": 3023.53,
+    "TSM": 15.17,
     "IBM": 19.61,
     "AVGO": 3017.39,
-    "CVX": 3026.46,
-    "AMGN": 3001.47,
-    "SNOW": 3004.82,
+    "CVX": 26.1,
     "ACN": 4.16,
     "META": 3000.0,
     "NEOG": 3000.0,
@@ -1580,30 +1578,119 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "SNOW",
+      "side": "sell",
+      "qty": 8.394157,
+      "status": "filled",
+      "price": 359.17,
+      "proceeds": 3014.89,
+      "realized_pnl": 14.89,
+      "realized_pct": 0.5,
+      "date": "2026-10-13",
+      "time_et": "09:35",
+      "ts": 1791898500,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $357.39",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "AMGN",
+      "side": "sell",
+      "qty": 7.198848,
+      "status": "filled",
+      "price": 418.24,
+      "proceeds": 3010.85,
+      "realized_pnl": 10.85,
+      "realized_pct": 0.36,
+      "date": "2026-10-13",
+      "time_et": "09:35",
+      "ts": 1791898500,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $416.73",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "CVX",
+      "side": "sell",
+      "qty": 13.843811,
+      "status": "filled",
+      "price": 216.73,
+      "proceeds": 3000.36,
+      "realized_pnl": 0.36,
+      "realized_pct": 0.01,
+      "date": "2026-10-13",
+      "time_et": "09:36",
+      "ts": 1791898500,
+      "why": "close it all at -0.5% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $216.7",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 6.842322,
+      "status": "filled",
+      "price": 439.67,
+      "proceeds": 3008.36,
+      "realized_pnl": 8.36,
+      "realized_pct": 0.28,
+      "date": "2026-10-13",
+      "time_et": "09:36",
+      "ts": 1791898500,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $438.45",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 24000.0,
+  "spent_today": 11965.54,
   "deployed_today": 24000.0,
   "orders_today": 8,
-  "sells_today": 0,
-  "sold_today": [],
+  "sells_today": 4,
+  "sold_today": [
+    "SNOW",
+    "AMGN",
+    "CVX",
+    "TSM"
+  ],
   "sold_ts": {
     "ACN": 1791831662,
     "IBM": 1791813178,
     "KO": 1791821194,
-    "AMGN": 1791830477,
+    "AMGN": 1791898544,
     "META": 1791826887,
-    "SNOW": 1791831823,
-    "CVX": 1791832565,
+    "SNOW": 1791898543,
+    "CVX": 1791898589,
     "MSFT": 1791815796,
     "PG": 1791816497,
     "NEOG": 1791828923,
-    "TSM": 1791829053,
+    "TSM": 1791898589,
     "AVGO": 1791818733
   },
-  "last_publish_ts": 1791898448,
-  "last_check_ts": 1791898497,
+  "last_publish_ts": 1791898589,
+  "last_check_ts": 1791898589,
   "exp_arm": {
     "SNOW": {
       "params": {
@@ -1678,34 +1765,22 @@
       }
     }
   },
-  "last_bar_ts": 1791898200,
+  "last_bar_ts": 1791898500,
   "last_decision_ts": 1791898497,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "72f1e5c7": 216.838,
-    "cf2535cc": 217.1399,
-    "6cbc458f": 742.84,
-    "44911b1f": 417.7718,
-    "8569f9ae": 154.0869,
     "3369a010": 350.0732,
-    "44d8b9d4": 439.6689,
     "f86b1766": 153.1179,
-    "45b39636": 358.816,
-    "54d34cf3": 435.4072,
-    "9bd9f72f": 414.1296,
-    "2169427d": 353.8197,
-    "fa836425": 346.1788,
+    "8569f9ae": 154.0869,
+    "6cbc458f": 742.84,
     "0cd1e553": 734.65,
     "1c72e9a1": 12.1213,
+    "fa836425": 346.1788,
     "ce637a2a": 11.8369,
-    "3da1b521": 11.6788,
-    "aa95b9f1": 346.6683,
-    "cd12249b": 425.2965,
     "3d5208bc": 149.1957,
-    "7aa1f165": 338.4912,
-    "b507bc03": 404.2281,
-    "b2603af7": 210.199,
-    "4fea52a4": 718.285
+    "4fea52a4": 718.285,
+    "3da1b521": 11.6788,
+    "7aa1f165": 338.4912
   }
 }
