@@ -1,171 +1,6 @@
 {
  "orders": [
   {
-   "id": "38033f9b",
-   "ticker": "PG",
-   "kind": "stop_loss",
-   "price": 147.968,
-   "status": "filled",
-   "created": "2026-10-06 09:47",
-   "created_ts": 1791294430,
-   "why": "close it all at -0.4% under the average cost",
-   "evidence": "average cost $147.89",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-06 09:50"
-  },
-  {
-   "id": "c491d288",
-   "ticker": "PG",
-   "kind": "buy_limit",
-   "price": 143.4533,
-   "status": "cancelled",
-   "created": "2026-10-06 09:47",
-   "created_ts": 1791294430,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $147.89",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-11",
-   "usd": 500.0,
-   "closed": "2026-10-06 09:50",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "310ac31b",
-   "ticker": "KO",
-   "kind": "stop_loss",
-   "price": 86.658,
-   "status": "filled",
-   "created": "2026-10-06 09:50",
-   "created_ts": 1791294611,
-   "why": "close it all at -0.4% under the average cost",
-   "evidence": "average cost $86.61",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-06 09:55"
-  },
-  {
-   "id": "1c2e2497",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 373.0,
-   "status": "cancelled",
-   "created": "2026-10-06 10:11",
-   "created_ts": 1791295897,
-   "why": "re-enter AVGO once cooldown clears at better level than current top-of-range print",
-   "evidence": "AVGO +3.92% 1d, 99.4% of day range but cooling off 14min, rest limit below market to avoid chasing",
-   "signals": [
-    "momentum",
-    "news"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 2500.0,
-   "closed": "2026-10-06 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "1f45a35f",
-   "ticker": "NFLX",
-   "kind": "buy_limit",
-   "price": 67.3,
-   "status": "cancelled",
-   "created": "2026-10-06 10:11",
-   "created_ts": 1791295897,
-   "why": "congress pressure plus pullback entry below current 67.76",
-   "evidence": "Rep. Cleo Fields disclosed NFLX buy 2026-10-01; Rep. Byron Donalds also disclosed buy 2026-09-15",
-   "signals": [
-    "congress",
-    "news"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 2000.0,
-   "closed": "2026-10-06 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "9e27739e",
-   "ticker": "UNH",
-   "kind": "buy_limit",
-   "price": 373.5,
-   "status": "cancelled",
-   "created": "2026-10-06 10:11",
-   "created_ts": 1791295897,
-   "why": "low in range, wait for dip entry rather than chase",
-   "evidence": "UNH at 5.0% of day range (low), congress net buy pressure present historically",
-   "signals": [
-    "congress"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 2000.0,
-   "closed": "2026-10-06 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "fe52a0fb",
-   "ticker": "HD",
-   "kind": "buy_limit",
-   "price": 281.0,
-   "status": "cancelled",
-   "created": "2026-10-06 10:11",
-   "created_ts": 1791295897,
-   "why": "congress-backed name, rest below current price to avoid chasing high-range print",
-   "evidence": "Rep. David J. Taylor disclosed HD buy 2026-10-01, +1.43% today but 88% of range",
-   "signals": [
-    "congress"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 2000.0,
-   "closed": "2026-10-06 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "eda07d58",
-   "ticker": "GS",
-   "kind": "buy_limit",
-   "price": 895.0,
-   "status": "cancelled",
-   "created": "2026-10-06 10:11",
-   "created_ts": 1791295897,
-   "why": "congress-backed, GS at 97% of range so resting limit below market",
-   "evidence": "Rep. Michael A. Rulli disclosed GS buy 2026-10-02, also Rep. Gilbert Ray Cisneros disclosed buy",
-   "signals": [
-    "congress"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 2000.0,
-   "closed": "2026-10-06 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "660c085c",
-   "ticker": "PG",
-   "kind": "buy_limit",
-   "price": 146.0,
-   "status": "cancelled",
-   "created": "2026-10-06 10:11",
-   "created_ts": 1791295897,
-   "why": "congress pressure, PG at 32% of range already reasonable, slight limit below for better entry",
-   "evidence": "Rep. David J. Taylor and Rep. Lloyd Doggett both disclosed PG buys",
-   "signals": [
-    "congress"
-   ],
-   "good_until": "2026-10-06",
-   "usd": 2000.0,
-   "closed": "2026-10-06 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "b674ef79",
    "ticker": "KO",
    "kind": "buy_limit",
@@ -7436,7 +7271,160 @@
    "good_until": "2026-10-18",
    "pct_of_position": 100.0,
    "closed": "2026-10-13 10:50"
+  },
+  {
+   "id": "8727e84f",
+   "ticker": "SNOW",
+   "kind": "take_profit",
+   "price": 360.1621,
+   "status": "working",
+   "created": "2026-10-13 11:17",
+   "created_ts": 1791904675,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $358.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0562c2a8",
+   "ticker": "SNOW",
+   "kind": "stop_loss",
+   "price": 354.9362,
+   "status": "working",
+   "created": "2026-10-13 11:17",
+   "created_ts": 1791904675,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $358.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e00a7f9c",
+   "ticker": "SNOW",
+   "kind": "buy_limit",
+   "price": 347.9099,
+   "status": "working",
+   "created": "2026-10-13 11:17",
+   "created_ts": 1791904675,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $358.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "usd": 500.0
+  },
+  {
+   "id": "822b461e",
+   "ticker": "CVX",
+   "kind": "take_profit",
+   "price": 218.3389,
+   "status": "working",
+   "created": "2026-10-13 11:17",
+   "created_ts": 1791904675,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $217.89",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "710a5ffa",
+   "ticker": "CVX",
+   "kind": "stop_loss",
+   "price": 216.77,
+   "status": "working",
+   "created": "2026-10-13 11:17",
+   "created_ts": 1791904675,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $217.89",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "79c01b43",
+   "ticker": "CVX",
+   "kind": "buy_limit",
+   "price": 211.3533,
+   "status": "working",
+   "created": "2026-10-13 11:17",
+   "created_ts": 1791904675,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $217.89",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "usd": 500.0
+  },
+  {
+   "id": "de1a80dc",
+   "ticker": "PG",
+   "kind": "take_profit",
+   "price": 152.954,
+   "status": "working",
+   "created": "2026-10-13 11:17",
+   "created_ts": 1791904675,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $152.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2451258b",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 151.9586,
+   "status": "working",
+   "created": "2026-10-13 11:17",
+   "created_ts": 1791904675,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $152.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4b0e1703",
+   "ticker": "PG",
+   "kind": "buy_limit",
+   "price": 148.0899,
+   "status": "working",
+   "created": "2026-10-13 11:17",
+   "created_ts": 1791904675,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $152.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-13 11:15"
+ "updated": "2026-10-13 11:17"
 }
