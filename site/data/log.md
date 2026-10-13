@@ -1,6 +1,3 @@
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxsXnaQKcnstu2pGqVfe'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +395,6 @@ Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 2 standing order(s) on KO: position closed)
 - SELL 100% KO [stop_loss @ $89.88] -> $2987.35 (-0.42%) — close it all at -0.4% under the average cost
 ## 2026-10-13 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $217.84] -> $3014.89 (+0.50%) — close 100% at +0.5% over the average cost
+## 2026-10-13 09:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders

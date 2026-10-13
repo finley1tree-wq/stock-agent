@@ -7393,7 +7393,7 @@
    "ticker": "ACN",
    "kind": "take_profit",
    "price": 217.8395,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-13 09:37",
    "created_ts": 1791898678,
    "why": "close 100% at +0.5% over the average cost",
@@ -7403,14 +7403,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-13 09:43"
   },
   {
    "id": "e389a192",
    "ticker": "ACN",
    "kind": "stop_loss",
    "price": 214.0592,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 09:37",
    "created_ts": 1791898678,
    "why": "close it all at -1.2% under the average cost",
@@ -7420,14 +7421,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-13 09:43",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ed0991d4",
    "ticker": "ACN",
    "kind": "buy_limit",
    "price": 210.2572,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 09:37",
    "created_ts": 1791898678,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7437,8 +7440,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-13 09:43",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-13 09:42"
+ "updated": "2026-10-13 09:43"
 }

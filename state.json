@@ -1,13 +1,12 @@
 {
   "week": "2026-W42",
-  "spent": 6010.4,
+  "spent": 2995.51,
   "deployed": 73050.0,
   "by_ticker": {
     "TSM": 15.17,
     "IBM": 19.61,
     "AVGO": 7.82,
     "CVX": 26.1,
-    "ACN": 3004.16,
     "NEOG": 3000.0,
     "PG": 15.01,
     "KO": 12.65
@@ -1790,13 +1789,34 @@
       ],
       "evidence": "average cost $90.26",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ACN",
+      "side": "sell",
+      "qty": 13.839978,
+      "status": "filled",
+      "price": 217.84,
+      "proceeds": 3014.89,
+      "realized_pnl": 14.89,
+      "realized_pct": 0.5,
+      "date": "2026-10-13",
+      "time_et": "09:43",
+      "ts": 1791898800,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $216.76",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 5974.14,
+  "spent_today": 2959.25,
   "deployed_today": 30000.0,
   "orders_today": 10,
-  "sells_today": 8,
+  "sells_today": 9,
   "sold_today": [
     "SNOW",
     "AMGN",
@@ -1805,10 +1825,11 @@
     "AVGO",
     "PG",
     "META",
-    "KO"
+    "KO",
+    "ACN"
   ],
   "sold_ts": {
-    "ACN": 1791831662,
+    "ACN": 1791898990,
     "IBM": 1791813178,
     "KO": 1791898948,
     "AMGN": 1791898544,
@@ -1821,8 +1842,8 @@
     "TSM": 1791898589,
     "AVGO": 1791898630
   },
-  "last_publish_ts": 1791898947,
-  "last_check_ts": 1791898947,
+  "last_publish_ts": 1791898990,
+  "last_check_ts": 1791899038,
   "exp_arm": {
     "META": {
       "params": {
@@ -1862,15 +1883,12 @@
     }
   },
   "last_bar_ts": 1791898800,
-  "last_decision_ts": 1791898861,
+  "last_decision_ts": 1791899038,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "6156596e": 217.8395,
     "ce637a2a": 11.8369,
     "1c72e9a1": 12.1213,
-    "e389a192": 214.0592,
-    "3da1b521": 11.6788,
-    "ed0991d4": 210.2572
+    "3da1b521": 11.6788
   }
 }

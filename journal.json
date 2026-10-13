@@ -60354,7 +60354,7 @@
     "code_version": "3d824cd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.0
+    "ret_now": -0.5
   },
   {
     "symbol": "PG",
@@ -60679,7 +60679,9 @@
     "code_version": "35e7b10",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.2
+    "ret_now": -0.42,
+    "ret_final": -0.42,
+    "ret_src": "realised"
   },
   {
     "symbol": "ACN",
@@ -60710,7 +60712,9 @@
     "code_version": "35e7b10",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": 0.5,
+    "ret_final": 0.5,
+    "ret_src": "realised"
   },
   {
     "symbol": "META",
@@ -60763,6 +60767,34 @@
     "evidence": "average cost $90.26",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "f45248a"
+    "code_version": "f45248a",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "ACN",
+    "side": "sell",
+    "qty": 13.839978,
+    "status": "filled",
+    "price": 217.84,
+    "proceeds": 3014.89,
+    "realized_pnl": 14.89,
+    "realized_pct": 0.5,
+    "date": "2026-10-13",
+    "time_et": "09:43",
+    "ts": 1791898800,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $216.76",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "c33d57d",
+    "hold_minutes": 2
   }
 ]
