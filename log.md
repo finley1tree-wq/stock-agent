@@ -26218,3 +26218,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25393.37 (+1.57% on $25000.00 in) · cash $22439.49 · realised +439.49
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on NEOG: position closed)
+- SELL 100% NEOG [stop_loss @ $11.83] -> $2949.15 (-1.70%) — close it all at -1.7% under the average cost
+## 2026-10-13 09:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
