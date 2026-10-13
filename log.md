@@ -26412,3 +26412,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 KO @ $87.32 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25386.27 (+1.55% on $25000.00 in) · cash $20888.64 · realised +388.64
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20453.64 this week
+  (cancelled 2 standing order(s) on CVX: position closed)
+- SELL 100% CVX [take_profit @ $217.66] -> $751.51 (+0.20%) — close 100% at +0.2% over the average cost
+## 2026-10-13 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
