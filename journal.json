@@ -60954,7 +60954,7 @@
     "code_version": "7add2ae",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.1
+    "ret_now": -0.11
   },
   {
     "symbol": "PG",
@@ -61078,7 +61078,9 @@
     "code_version": "c44c43c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.88
+    "ret_now": -1.3,
+    "ret_final": -1.3,
+    "ret_src": "realised"
   },
   {
     "symbol": "SNOW",
@@ -61163,7 +61165,7 @@
     "code_version": "c687b19",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.51
+    "ret_now": -0.41
   },
   {
     "symbol": "KO",
@@ -61248,7 +61250,7 @@
     "code_version": "42ede1c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.41
+    "ret_now": -0.38
   },
   {
     "symbol": "CVX",
@@ -61345,7 +61347,7 @@
     "code_version": "abe2e0c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.56
+    "ret_now": -0.54
   },
   {
     "symbol": "PG",
@@ -61430,7 +61432,7 @@
     "code_version": "e6b338d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": 0.02
   },
   {
     "symbol": "KO",
@@ -61462,5 +61464,32 @@
     "ret_1w": null,
     "ret_1m": null,
     "ret_now": 0.08
+  },
+  {
+    "symbol": "ACN",
+    "side": "sell",
+    "qty": 3.453938,
+    "status": "filled",
+    "price": 214.32,
+    "proceeds": 740.24,
+    "realized_pnl": -9.76,
+    "realized_pct": -1.3,
+    "date": "2026-10-13",
+    "time_et": "11:47",
+    "ts": 1791906300,
+    "why": "close it all at -1.3% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $217.14",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "a85fea4",
+    "hold_minutes": 74
   }
 ]

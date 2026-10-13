@@ -26824,3 +26824,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25367.78 (+1.47% on $25000.00 in) · cash $20136.43 · realised +386.43
 Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [stop_loss @ $214.32] -> $740.24 (-1.30%) — close it all at -1.3% under the average cost
+## 2026-10-13 11:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-13 11:48 ET (Tuesday) — week 2026-W42 — budget left $20441.67 (today $40500.00 put to work, 24 buys, 18 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzVuMMA6TKAsV47BvV6F'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25365.70 (+1.46% on $25000.00 in) · cash $20876.66 · realised +376.66
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
