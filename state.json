@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 4544.85,
+  "spent": 3051.55,
   "deployed": 78300.0,
   "by_ticker": {
     "TSM": 765.17,
@@ -8,9 +8,9 @@
     "AVGO": 7.82,
     "CVX": 24.59,
     "NEOG": 50.85,
-    "PG": 765.01,
+    "PG": 13.61,
     "KO": 762.65,
-    "SNOW": 750.0,
+    "SNOW": 8.1,
     "AMGN": 750.0,
     "ACN": 750.0
   },
@@ -2009,13 +2009,55 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "SNOW",
+      "side": "sell",
+      "qty": 2.068552,
+      "status": "filled",
+      "price": 358.66,
+      "proceeds": 741.9,
+      "realized_pnl": -8.1,
+      "realized_pct": -1.08,
+      "date": "2026-10-13",
+      "time_et": "10:31",
+      "ts": 1791901800,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $362.57",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "PG",
+      "side": "sell",
+      "qty": 4.920276,
+      "status": "filled",
+      "price": 152.72,
+      "proceeds": 751.4,
+      "realized_pnl": 1.4,
+      "realized_pct": 0.19,
+      "date": "2026-10-13",
+      "time_et": "10:32",
+      "ts": 1791901800,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $152.43",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 4508.59,
+  "spent_today": 3015.29,
   "deployed_today": 35250.0,
   "orders_today": 17,
-  "sells_today": 11,
+  "sells_today": 13,
   "sold_today": [
     "SNOW",
     "AMGN",
@@ -2034,16 +2076,16 @@
     "KO": 1791898948,
     "AMGN": 1791898544,
     "META": 1791898771,
-    "SNOW": 1791898543,
+    "SNOW": 1791901893,
     "CVX": 1791901717,
     "MSFT": 1791815796,
-    "PG": 1791898676,
+    "PG": 1791901939,
     "NEOG": 1791899653,
     "TSM": 1791898589,
     "AVGO": 1791898630
   },
-  "last_publish_ts": 1791901850,
-  "last_check_ts": 1791901850,
+  "last_publish_ts": 1791901938,
+  "last_check_ts": 1791901938,
   "exp_arm": {
     "SNOW": {
       "params": {
@@ -2105,23 +2147,17 @@
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "913e1783": 152.715,
-    "89125563": 443.3158,
     "f20b5119": 90.1559,
     "e5d7756c": 89.6797,
-    "b0abe915": 358.8355,
-    "8609cc3d": 414.8242,
+    "89125563": 443.3158,
     "6fa9b5df": 418.502,
-    "17673df8": 218.2257,
-    "2b1dfe02": 151.7182,
+    "8609cc3d": 414.8242,
     "06c0b7a3": 439.0539,
-    "6ed960c8": 364.0638,
+    "17673df8": 218.2257,
     "60c01ed0": 214.4236,
-    "5bbacce1": 351.6929,
+    "4c63feb1": 210.6258,
     "0901e374": 404.9265,
     "f9b564a9": 87.3194,
-    "4c63feb1": 210.6258,
-    "53946ad8": 428.837,
-    "0ae5bba6": 147.8571
+    "53946ad8": 428.837
   }
 }

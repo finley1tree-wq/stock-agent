@@ -26432,3 +26432,9 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 ACN @ $210.63 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25383.63 (+1.53% on $25000.00 in) · cash $20890.15 · realised +390.15
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20455.15 this week
+  (cancelled 2 standing order(s) on SNOW: position closed)
+- SELL 100% SNOW [stop_loss @ $358.66] -> $741.90 (-1.08%) — close it all at -1.0% under the average cost
+## 2026-10-13 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [take_profit @ $152.72] -> $751.40 (+0.19%) — close 100% at +0.2% over the average cost
+## 2026-10-13 10:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
