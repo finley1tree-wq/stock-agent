@@ -1,28 +1,30 @@
 {
   "week": "2026-W42",
-  "spent": 46.36,
-  "deployed": 73050.0,
+  "spent": 3046.36,
+  "deployed": 76050.0,
   "by_ticker": {
-    "TSM": 15.17,
+    "TSM": 765.17,
     "IBM": 19.61,
     "AVGO": 7.82,
-    "CVX": 26.1,
+    "CVX": 776.1,
     "NEOG": 50.85,
     "PG": 15.01,
-    "KO": 12.65
+    "KO": 12.65,
+    "SNOW": 750.0,
+    "AMGN": 750.0
   },
   "deployed_by_ticker": {
-    "TSM": 7300.0,
+    "TSM": 8050.0,
     "IBM": 2800.0,
     "ACN": 9600.0,
     "MSFT": 2900.0,
-    "AMGN": 7000.0,
+    "AMGN": 7750.0,
     "KO": 6500.0,
     "AVGO": 5000.0,
-    "SNOW": 5250.0,
+    "SNOW": 6000.0,
     "NEOG": 5250.0,
     "META": 6000.0,
-    "CVX": 11700.0,
+    "CVX": 12450.0,
     "PG": 3750.0
   },
   "orders": [
@@ -1831,12 +1833,100 @@
       ],
       "evidence": "average cost $12.04",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "SNOW",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.068552,
+      "price": 362.57,
+      "date": "2026-10-13",
+      "time_et": "10:21",
+      "ts": 1791901311,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Maria Elvira Salazar), $15,001 - $50,000; +9.1% over the month; 60% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "CVX",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.452666,
+      "price": 217.22,
+      "date": "2026-10-13",
+      "time_et": "10:21",
+      "ts": 1791901311,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +2.4% over the month; 83% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "AMGN",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.796607,
+      "price": 417.45,
+      "date": "2026-10-13",
+      "time_et": "10:21",
+      "ts": 1791901311,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): David J. Taylor; +9.4% over the month; 54% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "TSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.696455,
+      "price": 442.1,
+      "date": "2026-10-13",
+      "time_et": "10:21",
+      "ts": 1791901311,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +5.7% over the month; 74% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 10.1,
-  "deployed_today": 30000.0,
-  "orders_today": 10,
+  "spent_today": 3010.1,
+  "deployed_today": 33000.0,
+  "orders_today": 14,
   "sells_today": 10,
   "sold_today": [
     "SNOW",
@@ -1864,10 +1954,10 @@
     "TSM": 1791898589,
     "AVGO": 1791898630
   },
-  "last_publish_ts": 1791899653,
-  "last_check_ts": 1791901138,
+  "last_publish_ts": 1791901311,
+  "last_check_ts": 1791901311,
   "exp_arm": {
-    "META": {
+    "SNOW": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "off"
@@ -1876,7 +1966,16 @@
         "ratchet": "off"
       }
     },
-    "NEOG": {
+    "CVX": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "AMGN": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -1885,28 +1984,32 @@
         "ratchet": "on"
       }
     },
-    "KO": {
+    "TSM": {
       "params": {
         "hold_minutes": 90,
-        "ratchet": "on"
+        "ratchet": "off"
       },
       "tags": {
-        "ratchet": "on"
-      }
-    },
-    "ACN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
+        "ratchet": "off"
       }
     }
   },
-  "last_bar_ts": 1791900900,
-  "last_decision_ts": 1791901138,
-  "next_check_minutes": null,
+  "last_bar_ts": 1791901200,
+  "last_decision_ts": 1791901311,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "a58d1f43": 217.661,
+    "6fa9b5df": 418.502,
+    "89125563": 443.3158,
+    "6ed960c8": 364.0638,
+    "dd9ef0ce": 216.1165,
+    "8609cc3d": 414.8242,
+    "06c0b7a3": 439.0539,
+    "b0abe915": 358.8355,
+    "5bbacce1": 351.6929,
+    "0ec88d66": 210.7034,
+    "0901e374": 404.9265,
+    "53946ad8": 428.837
+  }
 }

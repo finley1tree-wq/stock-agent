@@ -1,160 +1,3 @@
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxtEZuYQKCYm872euX8C'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25398.74 (+1.59% on $25000.00 in) · cash $25398.74 · realised +398.74
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-12 15:21 ET (Monday) — week 2026-W42 — budget left $24963.74 (today $43050.00 put to work, 33 buys, 31 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxtPRqcszwmvbjJ2BeE2'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25398.74 (+1.59% on $25000.00 in) · cash $25398.74 · realised +398.74
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-12 15:23 ET (Monday) — week 2026-W42 — budget left $24963.74 (today $43050.00 put to work, 33 buys, 31 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
-  (no price for AMD — excluded this check)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxtYBBp4BQbS1fY8YFVi'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25398.74 (+1.59% on $25000.00 in) · cash $25398.74 · realised +398.74
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-12 15:26 ET (Monday) — week 2026-W42 — budget left $24963.74 (today $43050.00 put to work, 33 buys, 31 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxtoKdV7T31FTKnw691u'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25398.74 (+1.59% on $25000.00 in) · cash $25398.74 · realised +398.74
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-12 15:30 ET (Monday) — week 2026-W42 — budget left $24963.74 (today $43050.00 put to work, 33 buys, 31 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfxu4FwtmEHR2cn5CJ3V6'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25398.74 (+1.59% on $25000.00 in) · cash $25398.74 · realised +398.74
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-12 15:33 ET (Monday) — week 2026-W42 — budget left $24963.74 (today $43050.00 put to work, 33 buys, 31 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxuJhywn3dRaNQitP3rA'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25398.74 (+1.59% on $25000.00 in) · cash $25398.74 · realised +398.74
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-12 15:35 ET (Monday) — week 2026-W42 — budget left $24963.74 (today $43050.00 put to work, 33 buys, 31 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxuUFtM3d3iBipCMtgqz'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25398.74 (+1.59% on $25000.00 in) · cash $25398.74 · realised +398.74
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-12 15:37 ET (Monday) — week 2026-W42 — budget left $24963.74 (today $43050.00 put to work, 33 buys, 31 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxudP1U8dnKwNtf24Rk7'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25398.74 (+1.59% on $25000.00 in) · cash $25398.74 · realised +398.74
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-12 15:40 ET (Monday) — week 2026-W42 — budget left $24963.74 (today $43050.00 put to work, 33 buys, 31 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfxut8HbqMJBoMH3hCJ49'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25398.74 (+1.59% on $25000.00 in) · cash $25398.74 · realised +398.74
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-12 15:44 ET (Monday) — week 2026-W42 — budget left $24963.74 (today $43050.00 put to work, 33 buys, 31 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfxv9BSn3jyMLjQs9fHKp'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25398.74 (+1.59% on $25000.00 in) · cash $25398.74 · realised +398.74
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-12 15:47 ET (Monday) — week 2026-W42 — budget left $24963.74 (today $43050.00 put to work, 33 buys, 31 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfxvPoVbEDMq9jokKcYMU'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25398.74 (+1.59% on $25000.00 in) · cash $25398.74 · realised +398.74
 Decision: nothing at this check.
@@ -398,3 +241,160 @@ Decision: nothing at this check. 3 standing order(s) working.
   (cancelled 2 standing order(s) on NEOG: position closed)
 - SELL 100% NEOG [stop_loss @ $11.83] -> $2949.15 (-1.70%) — close it all at -1.7% under the average cost
 ## 2026-10-13 09:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-13 09:55 ET (Tuesday) — week 2026-W42 — budget left $24953.64 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzMKn7JEE6n8AUMwW8rw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25388.64 (+1.55% on $25000.00 in) · cash $25388.64 · realised +388.64
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 09:58 ET (Tuesday) — week 2026-W42 — budget left $24953.64 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (no price for PLTR — excluded this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzMYg2oQXBps189qAnma'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25388.64 (+1.55% on $25000.00 in) · cash $25388.64 · realised +388.64
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 10:01 ET (Tuesday) — week 2026-W42 — budget left $24953.64 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzMoRkDujSDHueu6hb1C'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25388.64 (+1.55% on $25000.00 in) · cash $25388.64 · realised +388.64
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 10:04 ET (Tuesday) — week 2026-W42 — budget left $24953.64 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzN2J3zLPBrMahb48prk'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25388.64 (+1.55% on $25000.00 in) · cash $25388.64 · realised +388.64
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 10:07 ET (Tuesday) — week 2026-W42 — budget left $24953.64 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzNF3TGf69YxHzdiUc3A'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25388.64 (+1.55% on $25000.00 in) · cash $25388.64 · realised +388.64
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 10:10 ET (Tuesday) — week 2026-W42 — budget left $24953.64 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzNTaok6tEitjahy9UZx'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25388.64 (+1.55% on $25000.00 in) · cash $25388.64 · realised +388.64
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 10:13 ET (Tuesday) — week 2026-W42 — budget left $24953.64 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzNfysecnJJpBKWeAd4d'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25388.64 (+1.55% on $25000.00 in) · cash $25388.64 · realised +388.64
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 10:16 ET (Tuesday) — week 2026-W42 — budget left $24953.64 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzNtkDErMJySs4JBc8AU'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25388.64 (+1.55% on $25000.00 in) · cash $25388.64 · realised +388.64
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 10:18 ET (Tuesday) — week 2026-W42 — budget left $24953.64 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (no price for JNJ — excluded this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzP6sZLcEMu13JFtnB3M'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25388.64 (+1.55% on $25000.00 in) · cash $25388.64 · realised +388.64
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 10:21 ET (Tuesday) — week 2026-W42 — budget left $24953.64 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzPKTfXMegNzmYdjg4DA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,954 idle, so opened 4: SNOW, CVX, AMGN, TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 SNOW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Maria Elvira Salazar), $15,001 - $50,000; +9.1% over the month; 60% of today's range
+- BUY $750.00 CVX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +2.4% over the month; 83% of today's range
+- BUY $750.00 AMGN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer): David J. Taylor; +9.4% over the month; 54% of today's range
+- BUY $750.00 TSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +5.7% over the month; 74% of today's range
+~ WORKING take_profit 100% SNOW @ $364.06 until 2026-10-18 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% SNOW @ $358.84 until 2026-10-18 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 SNOW @ $351.69 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CVX @ $217.66 until 2026-10-18 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% CVX @ $216.12 until 2026-10-18 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 CVX @ $210.70 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMGN @ $418.50 until 2026-10-18 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AMGN @ $414.82 until 2026-10-18 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 AMGN @ $404.93 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TSM @ $443.32 until 2026-10-18 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $439.05 until 2026-10-18 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $428.84 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25388.04 (+1.55% on $25000.00 in) · cash $22388.64 · realised +388.64
+Done: 0 sell(s), 4 buy(s); 12 order(s) working; budget left $21953.64 this week
