@@ -1,20 +1,3 @@
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzaKde5g3QqU7UtCAviz'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $21,183 idle, so opened 1: AMGN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 AMGN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer): David J. Taylor; +8.9% over the month; 29% of today's range
-~ WORKING take_profit 100% AMGN @ $416.58 until 2026-10-18 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% AMGN @ $412.89 until 2026-10-18 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 AMGN @ $403.05 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25359.61 (+1.44% on $25000.00 in) · cash $20868.42 · realised +368.42
-Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20433.43 this week
-- SELL 100% SNOW [time stop] -> $744.66 (-0.71%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-13 12:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-13 12:49 ET (Tuesday) — week 2026-W42 — budget left $21178.09 (today $43500.00 put to work, 28 buys, 23 sells) — SIM (pretend money) via sim
   (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
   (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
@@ -398,3 +381,20 @@ portfolio: equity $25353.52 (+1.41% on $25000.00 in) · cash $21605.68 · realis
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 5 resting buy order(s): past the entry cutoff)
+
+## 2026-10-13 14:02 ET (Tuesday) — week 2026-W42 — budget left $21170.69 (today $48000.00 put to work, 34 buys, 29 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (IIPR excluded: too thinly traded ($18.5M a day) — Innovative Industrial Properties, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfzg8AwctsXu9C5DSsFKv'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25354.90 (+1.42% on $25000.00 in) · cash $21605.68 · realised +355.68
+Decision: nothing at this check. 10 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% ACN [time stop] -> $752.26 (+0.30%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-13 14:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders

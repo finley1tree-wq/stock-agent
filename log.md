@@ -27529,3 +27529,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25354.90 (+1.42% on $25000.00 in) · cash $21605.68 · realised +355.68
 Decision: nothing at this check. 10 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% ACN [time stop] -> $752.26 (+0.30%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-13 14:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
