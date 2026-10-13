@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "51e5d633",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 220.3883,
-   "status": "cancelled",
-   "created": "2026-10-06 12:50",
-   "created_ts": 1791305444,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $222",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-06 12:59",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "a27705f6",
    "ticker": "IBM",
    "kind": "buy_limit",
@@ -7342,7 +7323,7 @@
    "ticker": "PG",
    "kind": "stop_loss",
    "price": 151.9586,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 11:17",
    "created_ts": 1791904675,
    "why": "close it all at -0.5% under the average cost",
@@ -7352,7 +7333,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-13 11:22",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "4b0e1703",
@@ -7421,7 +7404,24 @@
    ],
    "good_until": "2026-10-18",
    "usd": 500.0
+  },
+  {
+   "id": "fac554f8",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 152.772,
+   "status": "working",
+   "created": "2026-10-13 11:22",
+   "created_ts": 1791904966,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $152.67",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-13 11:21"
+ "updated": "2026-10-13 11:22"
 }
