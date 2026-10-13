@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "7cc5521a",
-   "ticker": "HUBB",
-   "kind": "stop_loss",
-   "price": 465.0,
-   "status": "cancelled",
-   "created": "2026-10-07 10:19",
-   "created_ts": 1791382768,
-   "why": "Standard protective stop per risk_management rules",
-   "evidence": "ATR 2.591% on HUBB, protect against downside",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-07 15:14",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "24f5f2cf",
-   "ticker": "HUBB",
-   "kind": "take_profit",
-   "price": 475.6713,
-   "status": "filled",
-   "created": "2026-10-07 10:19",
-   "created_ts": 1791382768,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $474.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-12",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-07 15:14"
-  },
-  {
-   "id": "ccb62ca3",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 460.0807,
-   "status": "cancelled",
-   "created": "2026-10-07 10:19",
-   "created_ts": 1791382768,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $474.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-12",
-   "usd": 500.0,
-   "closed": "2026-10-07 15:14",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "89843fbe",
    "ticker": "IBM",
    "kind": "stop_loss",
@@ -7039,7 +6984,7 @@
    "ticker": "CVX",
    "kind": "take_profit",
    "price": 218.6216,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 12:15",
    "created_ts": 1791908110,
    "why": "close 100% at +0.2% over the average cost",
@@ -7049,14 +6994,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-13 13:45",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "09057718",
    "ticker": "CVX",
    "kind": "stop_loss",
    "price": 217.0399,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 12:15",
    "created_ts": 1791908110,
    "why": "close it all at -0.5% under the average cost",
@@ -7066,14 +7013,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-13 13:45",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "09c3c23f",
    "ticker": "CVX",
    "kind": "buy_limit",
    "price": 211.6249,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 12:15",
    "created_ts": 1791908110,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7083,7 +7032,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-13 13:45",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "7860f4ca",
@@ -7374,7 +7325,7 @@
    "ticker": "SNOW",
    "kind": "take_profit",
    "price": 356.5046,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 13:34",
    "created_ts": 1791912843,
    "why": "close 100% at +0.4% over the average cost",
@@ -7384,7 +7335,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-13 13:45",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7e5fba67",
@@ -7410,7 +7363,7 @@
    "ticker": "SNOW",
    "kind": "buy_limit",
    "price": 344.3597,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-13 13:34",
    "created_ts": 1791912843,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7420,14 +7373,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-13 13:45",
+   "cancel_reason": "position closed"
   },
   {
    "id": "4fa3e173",
    "ticker": "SNOW",
    "kind": "stop_loss",
    "price": 355.52,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-13 13:41",
    "created_ts": 1791913319,
    "why": "close it all at -1.0% under the average cost",
@@ -7437,8 +7392,60 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-18",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-13 13:45"
+  },
+  {
+   "id": "be5ef4d2",
+   "ticker": "PG",
+   "kind": "take_profit",
+   "price": 153.4148,
+   "status": "working",
+   "created": "2026-10-13 13:45",
+   "created_ts": 1791913550,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $153.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "912d20a4",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 152.4179,
+   "status": "working",
+   "created": "2026-10-13 13:45",
+   "created_ts": 1791913550,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $153.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "936ca87f",
+   "ticker": "PG",
+   "kind": "buy_limit",
+   "price": 148.5361,
+   "status": "working",
+   "created": "2026-10-13 13:45",
+   "created_ts": 1791913550,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $153.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-13 13:43"
+ "updated": "2026-10-13 13:45"
 }

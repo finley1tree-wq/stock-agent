@@ -61645,7 +61645,9 @@
     "code_version": "071e6bb",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.35
+    "ret_now": -0.38,
+    "ret_final": -0.38,
+    "ret_src": "realised"
   },
   {
     "symbol": "META",
@@ -61703,7 +61705,7 @@
     "code_version": "176e874",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.2
+    "ret_now": -0.07
   },
   {
     "symbol": "AMGN",
@@ -61734,7 +61736,9 @@
     "code_version": "3cd597d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.6
+    "ret_now": -0.68,
+    "ret_final": -0.68,
+    "ret_src": "realised"
   },
   {
     "symbol": "SNOW",
@@ -61791,7 +61795,7 @@
     "code_version": "c673632",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.15
+    "ret_now": -0.21
   },
   {
     "symbol": "PG",
@@ -61908,7 +61912,7 @@
     "code_version": "0c7a2b9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.16
+    "ret_now": 0.01
   },
   {
     "symbol": "AVGO",
@@ -61966,7 +61970,9 @@
     "code_version": "cde2df8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.22
+    "ret_now": 0.04,
+    "ret_final": 0.04,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMGN",
@@ -61992,6 +61998,90 @@
     "evidence": "average cost $415.52",
     "trigger": "stop_loss",
     "hour_et": 13,
-    "code_version": "5bd8585"
+    "code_version": "5bd8585",
+    "hold_minutes": 53
+  },
+  {
+    "symbol": "CVX",
+    "side": "sell",
+    "qty": 3.437629,
+    "status": "filled",
+    "price": 217.34,
+    "proceeds": 747.12,
+    "realized_pnl": -2.88,
+    "realized_pct": -0.38,
+    "date": "2026-10-13",
+    "time_et": "13:45",
+    "ts": 1791913502,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.36% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 13,
+    "code_version": "52ef89a",
+    "hold_minutes": 89
+  },
+  {
+    "symbol": "SNOW",
+    "side": "sell",
+    "qty": 2.112611,
+    "status": "filled",
+    "price": 355.16,
+    "proceeds": 750.32,
+    "realized_pnl": 0.32,
+    "realized_pct": 0.04,
+    "date": "2026-10-13",
+    "time_et": "13:45",
+    "ts": 1791913500,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $355.01",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "52ef89a",
+    "hold_minutes": 10
+  },
+  {
+    "symbol": "PG",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.897779,
+    "price": 153.13,
+    "date": "2026-10-13",
+    "time_et": "13:45",
+    "ts": 1791913550,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +4.8% over the month; 35% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 153.1,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 4.77,
+    "hour_et": 13,
+    "code_version": "52ef89a",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
