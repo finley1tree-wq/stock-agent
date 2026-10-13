@@ -27748,3 +27748,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25358.52 (+1.43% on $25000.00 in) · cash $24607.42 · realised +357.42
 Decision: nothing at this check. 2 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on KO: position closed)
+- SELL 100% KO [take_profit @ $90.26] -> $751.15 (+0.15%) — close 100% at +0.2% over the average cost
+## 2026-10-13 14:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders

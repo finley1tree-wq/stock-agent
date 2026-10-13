@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 827.58,
+  "spent": 76.43,
   "deployed": 91050.0,
   "by_ticker": {
     "TSM": 17.16,
@@ -9,7 +9,7 @@
     "CVX": 25.94,
     "NEOG": 50.85,
     "PG": 10.71,
-    "KO": 762.55,
+    "KO": 11.4,
     "SNOW": 13.12,
     "ACN": 7.5,
     "META": 7.0,
@@ -2838,13 +2838,34 @@
       ],
       "evidence": "bought 90 min ago, -0.03% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "KO",
+      "side": "sell",
+      "qty": 8.32242,
+      "status": "filled",
+      "price": 90.26,
+      "proceeds": 751.15,
+      "realized_pnl": 1.15,
+      "realized_pct": 0.15,
+      "date": "2026-10-13",
+      "time_et": "14:44",
+      "ts": 1791916800,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $90.12",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 791.32,
+  "spent_today": 40.17,
   "deployed_today": 48000.0,
   "orders_today": 34,
-  "sells_today": 33,
+  "sells_today": 34,
   "sold_today": [
     "SNOW",
     "AMGN",
@@ -2860,7 +2881,7 @@
   "sold_ts": {
     "ACN": 1791914619,
     "IBM": 1791813178,
-    "KO": 1791911180,
+    "KO": 1791917067,
     "AMGN": 1791913420,
     "META": 1791916797,
     "SNOW": 1791913549,
@@ -2871,8 +2892,8 @@
     "TSM": 1791915557,
     "AVGO": 1791912311
   },
-  "last_publish_ts": 1791916796,
-  "last_check_ts": 1791917022,
+  "last_publish_ts": 1791917066,
+  "last_check_ts": 1791917066,
   "exp_arm": {
     "ACN": {
       "params": {
@@ -2924,8 +2945,5 @@
   "last_decision_ts": 1791917022,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "8a0d48f2": 90.2561,
-    "d77ca66c": 90.162
-  }
+  "book_px": {}
 }
