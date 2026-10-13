@@ -27255,3 +27255,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 META @ $740.26 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25357.32 (+1.43% on $25000.00 in) · cash $20863.43 · realised +363.43
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20428.43 this week
+
+## 2026-10-13 13:12 ET (Tuesday) — week 2026-W42 — budget left $20428.43 (today $45750.00 put to work, 31 buys, 25 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (FINS excluded: too thinly traded ($0.5M a day) — Angel Oak Financial Strategies Income Term Trust)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzcNj8oDMz74hv4SMYgr'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25357.24 (+1.43% on $25000.00 in) · cash $20863.43 · realised +363.43
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
