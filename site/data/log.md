@@ -1,4 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25399.85 (+1.60% on $25000.00 in) · cash $23152.51 · realised +402.51
 Decision: nothing at this check. 6 standing order(s) working.
@@ -398,3 +397,4 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25398.74 (+1.59% on $25000.00 in) · cash $25398.74 · realised +398.74
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-10-12 16:00 ET — published the session's closing state
