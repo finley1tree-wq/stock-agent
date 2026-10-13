@@ -26761,3 +26761,24 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25371.10 (+1.48% on $25000.00 in) · cash $21636.43 · realised +386.43
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 11:36 ET (Tuesday) — week 2026-W42 — budget left $21201.43 (today $39000.00 put to work, 22 buys, 17 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzUzqRddu37hNb9HM2eN'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $21,201 idle, so opened 2: AMGN, KO. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 AMGN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer): David J. Taylor; +9.1% over the month; 33% of today's range
+- BUY $750.00 KO [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer): Kevin Hern; +1.0% over the month; 64% of today's range
+~ WORKING take_profit 100% AMGN @ $417.16 until 2026-10-18 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AMGN @ $413.48 until 2026-10-18 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 AMGN @ $403.63 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% KO @ $90.40 until 2026-10-18 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% KO @ $89.92 until 2026-10-18 — close it all at -0.4% under the average cost
+~ WORKING buy_limit $500.00 KO @ $87.55 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25369.99 (+1.48% on $25000.00 in) · cash $20136.43 · realised +386.43
+Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $19701.43 this week

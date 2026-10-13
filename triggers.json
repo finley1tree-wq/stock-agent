@@ -1,115 +1,6 @@
 {
  "orders": [
   {
-   "id": "a27705f6",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 215.34,
-   "status": "cancelled",
-   "created": "2026-10-06 12:50",
-   "created_ts": 1791305444,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $222",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-11",
-   "usd": 500.0,
-   "closed": "2026-10-06 12:59",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "fa6dd920",
-   "ticker": "GS",
-   "kind": "stop_loss",
-   "price": 850.0,
-   "status": "cancelled",
-   "created": "2026-10-07 09:32",
-   "created_ts": 1791379971,
-   "why": "Cap downside on volatile financial name",
-   "evidence": "GS down -2.47% today, ATR 2.2%, protect against further drop",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-07 09:47",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "1803c2a2",
-   "ticker": "NFLX",
-   "kind": "stop_loss",
-   "price": 67.0,
-   "status": "cancelled",
-   "created": "2026-10-07 09:32",
-   "created_ts": 1791379971,
-   "why": "Protection since bought near 77.6% of day range",
-   "evidence": "NFLX ATR 2.48%, protect entry near day high",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-07 11:04",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "bfa233ce",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 460.0,
-   "status": "cancelled",
-   "created": "2026-10-07 09:32",
-   "created_ts": 1791379971,
-   "why": "Protect against continued slide",
-   "evidence": "TSM down -1.91% today, ATR 2.1%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-07 09:37",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "436f7322",
-   "ticker": "PG",
-   "kind": "buy_limit",
-   "price": 148.586,
-   "status": "filled",
-   "created": "2026-10-07 09:32",
-   "created_ts": 1791379971,
-   "why": "wanted it, but not at the high \u2014 resting at $148.59. Multiple congress buy disclosures on defensive staple name, low ATR 1.5%",
-   "evidence": "Rep. David J. Taylor and Rep. Lloyd Doggett both disclosed PG buys; congress_net_buy_pressure shows PG at 2.0",
-   "signals": [
-    "congress",
-    "patience"
-   ],
-   "good_until": "2026-10-07",
-   "usd": 3703.7,
-   "closed": "2026-10-07 09:36"
-  },
-  {
-   "id": "9eeed24a",
-   "ticker": "GS",
-   "kind": "take_profit",
-   "price": 877.363,
-   "status": "filled",
-   "created": "2026-10-07 09:32",
-   "created_ts": 1791379971,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $875.21",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-12",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-07 09:47"
-  },
-  {
    "id": "7b9c7120",
    "ticker": "GS",
    "kind": "buy_limit",
@@ -7431,7 +7322,109 @@
    "good_until": "2026-10-18",
    "pct_of_position": 100.0,
    "closed": "2026-10-13 11:27"
+  },
+  {
+   "id": "820d479b",
+   "ticker": "AMGN",
+   "kind": "take_profit",
+   "price": 417.1586,
+   "status": "working",
+   "created": "2026-10-13 11:36",
+   "created_ts": 1791905777,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $416.11",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1dc80889",
+   "ticker": "AMGN",
+   "kind": "stop_loss",
+   "price": 413.4843,
+   "status": "working",
+   "created": "2026-10-13 11:36",
+   "created_ts": 1791905777,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $416.11",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5622b403",
+   "ticker": "AMGN",
+   "kind": "buy_limit",
+   "price": 403.6267,
+   "status": "working",
+   "created": "2026-10-13 11:36",
+   "created_ts": 1791905777,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $416.11",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "usd": 500.0
+  },
+  {
+   "id": "e0647506",
+   "ticker": "KO",
+   "kind": "take_profit",
+   "price": 90.3963,
+   "status": "working",
+   "created": "2026-10-13 11:36",
+   "created_ts": 1791905777,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $90.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "21d0bcfa",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 89.9197,
+   "status": "working",
+   "created": "2026-10-13 11:36",
+   "created_ts": 1791905777,
+   "why": "close it all at -0.4% under the average cost",
+   "evidence": "average cost $90.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "53e7ac82",
+   "ticker": "KO",
+   "kind": "buy_limit",
+   "price": 87.5522,
+   "status": "working",
+   "created": "2026-10-13 11:36",
+   "created_ts": 1791905777,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $90.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-18",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-13 11:33"
+ "updated": "2026-10-13 11:36"
 }

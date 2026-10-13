@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 3798.57,
-  "deployed": 82050.0,
+  "spent": 5298.57,
+  "deployed": 83550.0,
   "by_ticker": {
     "TSM": 765.17,
     "IBM": 19.61,
@@ -9,18 +9,19 @@
     "CVX": 23.06,
     "NEOG": 50.85,
     "PG": 13.49,
-    "KO": 11.5,
+    "KO": 761.5,
     "SNOW": 758.1,
     "ACN": 750.0,
-    "META": 750.0
+    "META": 750.0,
+    "AMGN": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 8050.0,
     "IBM": 2800.0,
     "ACN": 10350.0,
     "MSFT": 2900.0,
-    "AMGN": 7750.0,
-    "KO": 7250.0,
+    "AMGN": 8500.0,
+    "KO": 8000.0,
     "AVGO": 5750.0,
     "SNOW": 6750.0,
     "NEOG": 5250.0,
@@ -2245,12 +2246,56 @@
       ],
       "evidence": "average cost $217.89",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "AMGN",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.802394,
+      "price": 416.11,
+      "date": "2026-10-13",
+      "time_et": "11:36",
+      "ts": 1791905777,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): David J. Taylor; +9.1% over the month; 33% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "KO",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.309508,
+      "price": 90.26,
+      "date": "2026-10-13",
+      "time_et": "11:36",
+      "ts": 1791905777,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): Kevin Hern; +1.0% over the month; 64% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 3762.31,
-  "deployed_today": 39000.0,
-  "orders_today": 22,
+  "spent_today": 5262.31,
+  "deployed_today": 40500.0,
+  "orders_today": 24,
   "sells_today": 17,
   "sold_today": [
     "SNOW",
@@ -2278,8 +2323,8 @@
     "TSM": 1791898589,
     "AVGO": 1791898630
   },
-  "last_publish_ts": 1791905372,
-  "last_check_ts": 1791905690,
+  "last_publish_ts": 1791905777,
+  "last_check_ts": 1791905777,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -2317,25 +2362,25 @@
         "ratchet": "off"
       }
     },
-    "CVX": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "PG": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "META": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "AMGN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "KO": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "off"
@@ -2345,25 +2390,31 @@
       }
     }
   },
-  "last_bar_ts": 1791905400,
-  "last_decision_ts": 1791905603,
-  "next_check_minutes": null,
+  "last_bar_ts": 1791905700,
+  "last_decision_ts": 1791905777,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "84cefef9": 352.6079,
-    "89125563": 443.3158,
+    "e0647506": 90.3963,
+    "820d479b": 417.1586,
+    "21d0bcfa": 89.9197,
     "06c0b7a3": 439.0539,
-    "60c01ed0": 214.4236,
     "0a3c968f": 768.4457,
+    "89125563": 443.3158,
+    "1dc80889": 413.4843,
+    "60c01ed0": 214.4236,
+    "0562c2a8": 354.9362,
     "0d8f1096": 759.4696,
     "8727e84f": 360.1621,
-    "0562c2a8": 354.9362,
     "4b77b903": 356.5603,
     "17673df8": 218.2257,
-    "4c63feb1": 210.6258,
     "81782e37": 344.7671,
+    "4c63feb1": 210.6258,
     "e00a7f9c": 347.9099,
+    "53946ad8": 428.837,
     "a33bcdbe": 742.9036,
-    "53946ad8": 428.837
+    "5622b403": 403.6267,
+    "53e7ac82": 87.5522
   }
 }
