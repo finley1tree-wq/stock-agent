@@ -1,33 +1,3 @@
-~ WORKING take_profit 100% ACN @ $218.23 until 2026-10-18 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% ACN @ $214.42 until 2026-10-18 — close it all at -1.3% under the average cost
-~ WORKING buy_limit $500.00 ACN @ $210.63 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25383.63 (+1.53% on $25000.00 in) · cash $20890.15 · realised +390.15
-Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20455.15 this week
-  (cancelled 2 standing order(s) on SNOW: position closed)
-- SELL 100% SNOW [stop_loss @ $358.66] -> $741.90 (-1.08%) — close it all at -1.0% under the average cost
-## 2026-10-13 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on PG: position closed)
-- SELL 100% PG [take_profit @ $152.72] -> $751.40 (+0.19%) — close 100% at +0.2% over the average cost
-## 2026-10-13 10:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-13 10:33 ET (Tuesday) — week 2026-W42 — budget left $21948.45 (today $35250.00 put to work, 17 buys, 13 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzQHPeyvVvALqvCKUDxQ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25382.58 (+1.53% on $25000.00 in) · cash $22383.45 · realised +383.45
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-13 10:35 ET (Tuesday) — week 2026-W42 — budget left $21948.45 (today $35250.00 put to work, 17 buys, 13 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
@@ -398,3 +368,33 @@ Decision: nothing at this check. 21 standing order(s) working.
   (cancelled 2 standing order(s) on ACN: position closed)
 - SELL 100% ACN [stop_loss @ $214.32] -> $740.24 (-1.30%) — close it all at -1.3% under the average cost
 ## 2026-10-13 11:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-13 11:48 ET (Tuesday) — week 2026-W42 — budget left $20441.67 (today $40500.00 put to work, 24 buys, 18 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzVuMMA6TKAsV47BvV6F'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25365.70 (+1.46% on $25000.00 in) · cash $20876.66 · realised +376.66
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-13 11:51 ET (Tuesday) — week 2026-W42 — budget left $20441.67 (today $40500.00 put to work, 24 buys, 18 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzW8ouC9NKUbDqAnDqrT'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25368.27 (+1.47% on $25000.00 in) · cash $20876.66 · realised +376.66
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% TSM [time stop] -> $749.58 (-0.06%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-13 11:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders

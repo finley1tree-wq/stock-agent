@@ -1,9 +1,9 @@
 {
   "week": "2026-W42",
-  "spent": 4558.33,
+  "spent": 3808.75,
   "deployed": 83550.0,
   "by_ticker": {
-    "TSM": 765.17,
+    "TSM": 15.59,
     "IBM": 19.61,
     "AVGO": 757.82,
     "CVX": 23.06,
@@ -2311,13 +2311,33 @@
       ],
       "evidence": "average cost $217.14",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 1.696455,
+      "status": "filled",
+      "price": 441.85,
+      "proceeds": 749.58,
+      "realized_pnl": -0.42,
+      "realized_pct": -0.06,
+      "date": "2026-10-13",
+      "time_et": "11:51",
+      "ts": 1791906719,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.04% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-13",
-  "spent_today": 4522.07,
+  "spent_today": 3772.49,
   "deployed_today": 40500.0,
   "orders_today": 24,
-  "sells_today": 18,
+  "sells_today": 19,
   "sold_today": [
     "SNOW",
     "AMGN",
@@ -2341,11 +2361,11 @@
     "MSFT": 1791815796,
     "PG": 1791905227,
     "NEOG": 1791899653,
-    "TSM": 1791898589,
+    "TSM": 1791906720,
     "AVGO": 1791898630
   },
-  "last_publish_ts": 1791906444,
-  "last_check_ts": 1791906674,
+  "last_publish_ts": 1791906719,
+  "last_check_ts": 1791906765,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -2417,21 +2437,18 @@
   "autopiloted": true,
   "book_px": {
     "e0647506": 90.3963,
-    "0d8f1096": 759.4696,
     "820d479b": 417.1586,
+    "0d8f1096": 759.4696,
     "84cefef9": 352.6079,
     "21d0bcfa": 89.9197,
-    "89125563": 443.3158,
-    "06c0b7a3": 439.0539,
-    "0562c2a8": 354.9362,
     "1dc80889": 413.4843,
-    "4b77b903": 356.5603,
     "8727e84f": 360.1621,
+    "4b77b903": 356.5603,
+    "0562c2a8": 354.9362,
     "0a3c968f": 768.4457,
     "a33bcdbe": 742.9036,
     "81782e37": 344.7671,
     "e00a7f9c": 347.9099,
-    "53946ad8": 428.837,
     "5622b403": 403.6267,
     "53e7ac82": 87.5522
   }
