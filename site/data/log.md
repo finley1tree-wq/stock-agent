@@ -1,20 +1,3 @@
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfxw3vc3QsScfP3fWfaXy'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25398.74 (+1.59% on $25000.00 in) · cash $25398.74 · realised +398.74
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-12 15:58 ET (Monday) — week 2026-W42 — budget left $24963.74 (today $43050.00 put to work, 33 buys, 31 sells) — SIM (pretend money) via sim
-  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
   (FEAM excluded: too thinly traded ($3.3M a day) — 5E Advanced Materials, Inc.)
   (LCU excluded: not ordinary shares (ecnquote))
@@ -398,3 +381,20 @@ Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20453.64 this week
   (cancelled 2 standing order(s) on CVX: position closed)
 - SELL 100% CVX [take_profit @ $217.66] -> $751.51 (+0.20%) — close 100% at +0.2% over the average cost
 ## 2026-10-13 10:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-13 10:30 ET (Tuesday) — week 2026-W42 — budget left $21205.15 (today $34500.00 put to work, 16 buys, 11 sells) — SIM (pretend money) via sim
+  (AHRT excluded: too thinly traded ($5.1M a day) — AH REALTY TRUST INC)
+  (ALP excluded: too thinly traded ($0.5M a day) — Alpha Compute Corp)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzQ1EKCt9t221ktwSser'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $21,205 idle, so opened 1: ACN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ACN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +11.3% over the month; 49% of today's range
+~ WORKING take_profit 100% ACN @ $218.23 until 2026-10-18 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% ACN @ $214.42 until 2026-10-18 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 ACN @ $210.63 until 2026-10-18 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25383.63 (+1.53% on $25000.00 in) · cash $20890.15 · realised +390.15
+Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20455.15 this week
