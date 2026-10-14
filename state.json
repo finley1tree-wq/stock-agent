@@ -1,18 +1,18 @@
 {
   "week": "2026-W42",
-  "spent": 3087.26,
-  "deployed": 123300.0,
+  "spent": 4587.26,
+  "deployed": 124800.0,
   "by_ticker": {
     "TSM": 766.63,
     "IBM": 19.61,
     "AVGO": 784.61,
-    "CVX": 26.81,
+    "CVX": 776.81,
     "NEOG": 50.85,
     "PG": 754.91,
     "KO": 754.08,
     "SNOW": 12.4,
     "META": 33.57,
-    "AMGN": 4.79,
+    "AMGN": 754.79,
     "ACN": 2.78
   },
   "deployed_by_ticker": {
@@ -20,13 +20,13 @@
     "IBM": 2800.0,
     "ACN": 14850.0,
     "MSFT": 2900.0,
-    "AMGN": 12250.0,
+    "AMGN": 13000.0,
     "KO": 12500.0,
     "AVGO": 10250.0,
     "SNOW": 11250.0,
     "NEOG": 5250.0,
     "META": 11250.0,
-    "CVX": 16950.0,
+    "CVX": 17700.0,
     "PG": 10500.0
   },
   "orders": [
@@ -3463,12 +3463,56 @@
       ],
       "evidence": "average cost $745.44",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CVX",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.412908,
+      "price": 219.75,
+      "date": "2026-10-14",
+      "time_et": "10:42",
+      "ts": 1791988947,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +0.9% over the month; 53% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "AMGN",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.764934,
+      "price": 424.94,
+      "date": "2026-10-14",
+      "time_et": "10:42",
+      "ts": 1791988947,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): David J. Taylor; +13.1% over the month; 83% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 3010.83,
-  "deployed_today": 32250.0,
-  "orders_today": 16,
+  "spent_today": 4510.83,
+  "deployed_today": 33750.0,
+  "orders_today": 18,
   "sells_today": 12,
   "sold_today": [
     "SNOW",
@@ -3495,8 +3539,8 @@
     "TSM": 1791985218,
     "AVGO": 1791984979
   },
-  "last_publish_ts": 1791988813,
-  "last_check_ts": 1791988859,
+  "last_publish_ts": 1791988947,
+  "last_check_ts": 1791988947,
   "exp_arm": {
     "KO": {
       "params": {
@@ -3516,15 +3560,6 @@
         "ratchet": "on"
       }
     },
-    "ACN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "AVGO": {
       "params": {
         "hold_minutes": 90,
@@ -3532,15 +3567,6 @@
       },
       "tags": {
         "ratchet": "off"
-      }
-    },
-    "META": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
       }
     },
     "TSM": {
@@ -3551,24 +3577,48 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "CVX": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "AMGN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1791988800,
-  "last_decision_ts": 1791988773,
-  "next_check_minutes": null,
+  "last_decision_ts": 1791988947,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "f672856b": 90.8661,
+    "0690986e": 220.2005,
     "6291add6": 154.1861,
+    "eb6e5aa0": 426.0746,
     "ca5010bc": 90.3916,
     "56c03382": 155.1572,
-    "c8a943ff": 434.0145,
     "0559a663": 438.2362,
     "8591464e": 352.7904,
+    "8f8fb25e": 218.6249,
+    "c8a943ff": 434.0145,
+    "2ae10b86": 422.1014,
     "75f5ed07": 348.7291,
-    "ae95b07a": 423.9191,
-    "ca41e8b4": 341.0811,
     "30de320b": 150.2336,
-    "5e16a7a2": 88.0081
+    "ca41e8b4": 341.0811,
+    "ae95b07a": 423.9191,
+    "5e16a7a2": 88.0081,
+    "d630326a": 213.1575,
+    "fe516bc3": 412.1918
   }
 }

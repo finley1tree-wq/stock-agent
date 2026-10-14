@@ -1,117 +1,6 @@
 {
  "orders": [
   {
-   "id": "31353eed",
-   "ticker": "PPG",
-   "kind": "take_profit",
-   "price": 104.8506,
-   "status": "filled",
-   "created": "2026-10-08 12:40",
-   "created_ts": 1791477637,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $104.61",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-13",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 12:52"
-  },
-  {
-   "id": "f0740615",
-   "ticker": "PPG",
-   "kind": "buy_limit",
-   "price": 101.4717,
-   "status": "cancelled",
-   "created": "2026-10-08 12:40",
-   "created_ts": 1791477637,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $104.61",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-13",
-   "usd": 500.0,
-   "closed": "2026-10-08 12:52",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "cf615d7e",
-   "ticker": "HUBB",
-   "kind": "take_profit",
-   "price": 482.8442,
-   "status": "cancelled",
-   "created": "2026-10-08 12:40",
-   "created_ts": 1791477637,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $481.4",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-13",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 14:10",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "3dc49228",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 466.958,
-   "status": "cancelled",
-   "created": "2026-10-08 12:40",
-   "created_ts": 1791477637,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $481.4",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-13",
-   "usd": 500.0,
-   "closed": "2026-10-08 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "fbb274df",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 338.0,
-   "status": "cancelled",
-   "created": "2026-10-08 12:56",
-   "created_ts": 1791478580,
-   "why": "Cap downside on new GOOGL position",
-   "evidence": "GOOGL price 348.76, protective stop ~3.1% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 14:26",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "655d23d5",
-   "ticker": "AMZN",
-   "kind": "stop_loss",
-   "price": 250.5,
-   "status": "cancelled",
-   "created": "2026-10-08 12:56",
-   "created_ts": 1791478580,
-   "why": "Cap downside on new AMZN position",
-   "evidence": "AMZN price 258.26, protective stop ~3.0% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 14:26",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "b02f7267",
    "ticker": "GOOGL",
    "kind": "take_profit",
@@ -7458,7 +7347,109 @@
    "good_until": "2026-10-19",
    "pct_of_position": 100.0,
    "closed": "2026-10-14 10:40"
+  },
+  {
+   "id": "0690986e",
+   "ticker": "CVX",
+   "kind": "take_profit",
+   "price": 220.2005,
+   "status": "working",
+   "created": "2026-10-14 10:42",
+   "created_ts": 1791988947,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $219.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8f8fb25e",
+   "ticker": "CVX",
+   "kind": "stop_loss",
+   "price": 218.6249,
+   "status": "working",
+   "created": "2026-10-14 10:42",
+   "created_ts": 1791988947,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $219.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d630326a",
+   "ticker": "CVX",
+   "kind": "buy_limit",
+   "price": 213.1575,
+   "status": "working",
+   "created": "2026-10-14 10:42",
+   "created_ts": 1791988947,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $219.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
+  },
+  {
+   "id": "eb6e5aa0",
+   "ticker": "AMGN",
+   "kind": "take_profit",
+   "price": 426.0746,
+   "status": "working",
+   "created": "2026-10-14 10:42",
+   "created_ts": 1791988947,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $424.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2ae10b86",
+   "ticker": "AMGN",
+   "kind": "stop_loss",
+   "price": 422.1014,
+   "status": "working",
+   "created": "2026-10-14 10:42",
+   "created_ts": 1791988947,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $424.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "fe516bc3",
+   "ticker": "AMGN",
+   "kind": "buy_limit",
+   "price": 412.1918,
+   "status": "working",
+   "created": "2026-10-14 10:42",
+   "created_ts": 1791988947,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $424.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-14 10:40"
+ "updated": "2026-10-14 10:42"
 }
