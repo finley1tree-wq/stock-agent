@@ -28202,3 +28202,18 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25365.19 (+1.46% on $25000.00 in) · cash $1358.57 · realised +358.57
 Decision: nothing at this check. 24 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on SNOW: position closed)
+- SELL 100% SNOW [stop_loss @ $351.95] -> $2997.26 (-0.09%) — close it all at -1.0% under the average cost
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [take_profit @ $217.09] -> $3030.25 (+1.01%) — close 100% at +0.5% over the average cost
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [take_profit @ $91.17] -> $3007.32 (+0.24%) — close 100% at +0.1% over the average cost
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [take_profit @ $155.11] -> $3005.80 (+0.19%) — close 100% at +0.2% over the average cost
+## 2026-10-14 09:35 ET — tick — 4 sell(s), 0 buy(s) from standing orders
+  (trigger AMGN take_profit superseded at this check)
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [stop_loss @ $348.69] -> $2974.21 (-0.86%) — close it all at -0.8% under the average cost
+  (cancelled 1 standing order(s) on AMGN: position closed)
+- SELL 100% AMGN [stop_loss @ $417.37] -> $3000.56 (+0.02%) — close it all at -0.6% under the average cost
+## 2026-10-14 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
