@@ -29537,3 +29537,18 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25309.14 (+1.24% on $25000.00 in) · cash $22324.74 · realised +324.74
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-14 13:37 ET (Wednesday) — week 2026-W42 — budget left $21889.74 (today $49500.00 put to work, 39 buys, 35 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+  (cancelled 2 standing order(s) on BHE: position closed)
+- SELL 100% BHE [stop_loss @ $74.73] -> $741.54 (-1.13%) — close it all at -1.0% under the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2Y5agN75XY1CoLizytX'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25303.20 (+1.21% on $25000.00 in) · cash $23066.28 · realised +316.28
+Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $22631.28 this week

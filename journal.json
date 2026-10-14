@@ -64219,7 +64219,9 @@
     "code_version": "946156d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.66
+    "ret_now": -1.13,
+    "ret_final": -1.13,
+    "ret_src": "realised"
   },
   {
     "symbol": "AEIS",
@@ -64250,7 +64252,7 @@
     "code_version": "946156d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.68
+    "ret_now": -0.98
   },
   {
     "symbol": "TSM",
@@ -64281,7 +64283,7 @@
     "code_version": "3b919b7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.38
+    "ret_now": -0.5
   },
   {
     "symbol": "RARE",
@@ -64426,7 +64428,7 @@
     "code_version": "cf10879",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.15
+    "ret_now": -0.17
   },
   {
     "symbol": "MSFT",
@@ -64479,5 +64481,32 @@
     "hour_et": 13,
     "code_version": "b3469dd",
     "hold_minutes": 89
+  },
+  {
+    "symbol": "BHE",
+    "side": "sell",
+    "qty": 9.922537,
+    "status": "filled",
+    "price": 74.73,
+    "proceeds": 741.54,
+    "realized_pnl": -8.46,
+    "realized_pct": -1.13,
+    "date": "2026-10-14",
+    "time_et": "13:37",
+    "ts": 1791999473,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $75.59",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "1f82df1",
+    "hold_minutes": 27
   }
 ]

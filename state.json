@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3110.26,
+  "spent": 2368.72,
   "deployed": 140550.0,
   "by_ticker": {
     "TSM": 772.48,
@@ -14,7 +14,7 @@
     "META": 40.45,
     "AMGN": 0.8,
     "ACN": 2.09,
-    "BHE": 758.44,
+    "BHE": 16.9,
     "MSFT": 2.27,
     "ADI": 2.52,
     "AEIS": 760.54,
@@ -4463,13 +4463,34 @@
       ],
       "evidence": "bought 90 min ago, -0.32% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "BHE",
+      "side": "sell",
+      "qty": 9.922537,
+      "status": "filled",
+      "price": 74.73,
+      "proceeds": 741.54,
+      "realized_pnl": -8.46,
+      "realized_pct": -1.13,
+      "date": "2026-10-14",
+      "time_et": "13:37",
+      "ts": 1791999473,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $75.59",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 3033.83,
+  "spent_today": 2292.29,
   "deployed_today": 49500.0,
   "orders_today": 39,
-  "sells_today": 35,
+  "sells_today": 36,
   "sold_today": [
     "SNOW",
     "ACN",
@@ -4504,14 +4525,14 @@
     "AVGO": 1791991810,
     "IBRX": 1791998762,
     "AEIS": 1791995069,
-    "BHE": 1791995114,
+    "BHE": 1791999480,
     "WSM": 1791996330,
     "RARE": 1791998499,
     "GTES": 1791998931,
     "ADI": 1791999246
   },
-  "last_publish_ts": 1791999245,
-  "last_check_ts": 1791999387,
+  "last_publish_ts": 1791999473,
+  "last_check_ts": 1791999473,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -4569,20 +4590,17 @@
     }
   },
   "last_bar_ts": 1791999300,
-  "last_decision_ts": 1791999293,
+  "last_decision_ts": 1791999473,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "c5accc1b": 429.0454,
-    "442ae019": 74.8258,
+    "b391df75": 258.5029,
     "0517d12a": 243.0525,
     "0c92cec7": 240.5612,
-    "b391df75": 258.5029,
     "b704a9ec": 433.419,
-    "6546ba97": 75.8954,
     "bdb1e30e": 263.6229,
     "6c0107b7": 254.2952,
-    "b44fb8fa": 73.3223,
     "98febf3f": 419.2049,
     "73c4785c": 235.0698
   }
