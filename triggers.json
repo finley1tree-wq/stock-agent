@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "266baf51",
-   "ticker": "HD",
-   "kind": "buy_limit",
-   "price": 284.695,
-   "status": "cancelled",
-   "created": "2026-10-09 09:32",
-   "created_ts": 1791552751,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $293.5",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "usd": 500.0,
-   "closed": "2026-10-09 09:47",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "fb17f10b",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 463.4634,
-   "status": "cancelled",
-   "created": "2026-10-09 09:32",
-   "created_ts": 1791552751,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $462.28",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 10:12",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "c473628d",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 448.4116,
-   "status": "cancelled",
-   "created": "2026-10-09 09:32",
-   "created_ts": 1791552751,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $462.28",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "usd": 500.0,
-   "closed": "2026-10-09 10:12",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "9b597cef",
    "ticker": "IBP",
    "kind": "stop_loss",
@@ -7466,7 +7409,58 @@
    ],
    "good_until": "2026-10-19",
    "usd": 500.0
+  },
+  {
+   "id": "9a0e746e",
+   "ticker": "KO",
+   "kind": "take_profit",
+   "price": 91.6491,
+   "status": "working",
+   "created": "2026-10-14 11:48",
+   "created_ts": 1791992930,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $91.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9301ebe3",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 91.1632,
+   "status": "working",
+   "created": "2026-10-14 11:48",
+   "created_ts": 1791992930,
+   "why": "close it all at -0.4% under the average cost",
+   "evidence": "average cost $91.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7dac84bd",
+   "ticker": "KO",
+   "kind": "buy_limit",
+   "price": 88.7647,
+   "status": "working",
+   "created": "2026-10-14 11:48",
+   "created_ts": 1791992930,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $91.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-14 11:45"
+ "updated": "2026-10-14 11:48"
 }
