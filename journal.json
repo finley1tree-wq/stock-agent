@@ -63799,7 +63799,7 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.16
+    "ret_now": -0.34
   },
   {
     "symbol": "ADI",
@@ -63830,7 +63830,7 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.08
+    "ret_now": -0.26
   },
   {
     "symbol": "RARE",
@@ -64074,7 +64074,9 @@
     "code_version": "94cd5dc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.66
+    "ret_now": -1.0,
+    "ret_final": -1.0,
+    "ret_src": "realised"
   },
   {
     "symbol": "AEIS",
@@ -64244,7 +64246,7 @@
     "code_version": "946156d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.34
+    "ret_now": -0.84
   },
   {
     "symbol": "TSM",
@@ -64275,7 +64277,7 @@
     "code_version": "3b919b7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.17
+    "ret_now": -0.34
   },
   {
     "symbol": "RARE",
@@ -64363,5 +64365,32 @@
     "hour_et": 13,
     "code_version": "5795628",
     "hold_minutes": 1
+  },
+  {
+    "symbol": "GTES",
+    "side": "sell",
+    "qty": 28.973347,
+    "status": "filled",
+    "price": 25.63,
+    "proceeds": 742.47,
+    "realized_pnl": -7.53,
+    "realized_pct": -1.0,
+    "date": "2026-10-14",
+    "time_et": "13:28",
+    "ts": 1791998700,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $25.89",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "1cc677f",
+    "hold_minutes": 71
   }
 ]
