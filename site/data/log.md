@@ -1,8 +1,3 @@
-  (cancelled 2 standing order(s) on TSM: position closed)
-- SELL 100% TSM [stop_loss @ $439.18] -> $3000.53 (+0.02%) — close it all at -0.7% under the average cost
-## 2026-10-14 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-14 09:41 ET (Wednesday) — week 2026-W42 — budget left $21914.55 (today $27000.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
   (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
@@ -398,3 +393,8 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25344.91 (+1.38% on $25000.00 in) · cash $21597.51 · realised +347.51
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on KO: position closed)
+- SELL 100% KO [take_profit @ $90.87] -> $751.14 (+0.15%) — close 100% at +0.1% over the average cost
+  (cancelled 2 standing order(s) on CVX: position closed)
+- SELL 100% CVX [take_profit @ $220.20] -> $751.52 (+0.20%) — close 100% at +0.2% over the average cost
+## 2026-10-14 10:54 ET — tick — 2 sell(s), 0 buy(s) from standing orders
