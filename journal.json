@@ -63799,7 +63799,7 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.13
+    "ret_now": -0.21
   },
   {
     "symbol": "ADI",
@@ -63830,7 +63830,7 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": -0.04
   },
   {
     "symbol": "RARE",
@@ -63861,7 +63861,9 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.47
+    "ret_now": 0.58,
+    "ret_final": 0.58,
+    "ret_src": "realised"
   },
   {
     "symbol": "AEIS",
@@ -64072,7 +64074,7 @@
     "code_version": "94cd5dc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.54
+    "ret_now": -0.58
   },
   {
     "symbol": "AEIS",
@@ -64242,7 +64244,7 @@
     "code_version": "946156d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06
+    "ret_now": -0.3
   },
   {
     "symbol": "TSM",
@@ -64273,7 +64275,7 @@
     "code_version": "3b919b7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.0
+    "ret_now": -0.08
   },
   {
     "symbol": "RARE",
@@ -64299,6 +64301,37 @@
     "evidence": "average cost $14.87",
     "trigger": "take_profit",
     "hour_et": 13,
-    "code_version": "a692b30"
+    "code_version": "a692b30",
+    "hold_minutes": 75
+  },
+  {
+    "symbol": "IBRX",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 73.782595,
+    "price": 10.16,
+    "date": "2026-10-14",
+    "time_et": "13:23",
+    "ts": 1791998585,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +24.9% over the month; 81% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 10.16,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 24.87,
+    "hour_et": 13,
+    "code_version": "168fdaa",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

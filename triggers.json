@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "03ea9cb2",
-   "ticker": "NFLX",
-   "kind": "buy_limit",
-   "price": 68.7827,
-   "status": "cancelled",
-   "created": "2026-10-09 11:09",
-   "created_ts": 1791558574,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $70.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "usd": 500.0,
-   "closed": "2026-10-09 11:15",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ee2ebe35",
-   "ticker": "NFLX",
-   "kind": "stop_loss",
-   "price": 70.97,
-   "status": "filled",
-   "created": "2026-10-09 11:10",
-   "created_ts": 1791558659,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $70.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 11:15"
-  },
-  {
-   "id": "8ee160aa",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 368.0,
-   "status": "cancelled",
-   "created": "2026-10-09 11:14",
-   "created_ts": 1791558881,
-   "why": "Protective stop for new UNH position",
-   "evidence": "UNH ATR 2.36%, protect ~2.2% below entry at 376.23",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 12:23",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "87956578",
    "ticker": "TSM",
    "kind": "stop_loss",
@@ -7454,7 +7399,58 @@
    ],
    "good_until": "2026-10-19",
    "usd": 500.0
+  },
+  {
+   "id": "76a2e855",
+   "ticker": "IBRX",
+   "kind": "take_profit",
+   "price": 10.2404,
+   "status": "working",
+   "created": "2026-10-14 13:23",
+   "created_ts": 1791998585,
+   "why": "close 100% at +0.8% over the average cost",
+   "evidence": "average cost $10.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1a89f72b",
+   "ticker": "IBRX",
+   "kind": "stop_loss",
+   "price": 9.959,
+   "status": "working",
+   "created": "2026-10-14 13:23",
+   "created_ts": 1791998585,
+   "why": "close it all at -2.0% under the average cost",
+   "evidence": "average cost $10.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "03459861",
+   "ticker": "IBRX",
+   "kind": "buy_limit",
+   "price": 9.8552,
+   "status": "working",
+   "created": "2026-10-14 13:23",
+   "created_ts": 1791998585,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $10.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-14 13:21"
+ "updated": "2026-10-14 13:23"
 }
