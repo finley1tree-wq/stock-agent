@@ -63433,7 +63433,7 @@
     "code_version": "4301a57",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.6
+    "ret_now": -0.62
   },
   {
     "symbol": "AVGO",
@@ -63518,7 +63518,7 @@
     "code_version": "2132469",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.25
+    "ret_now": -0.18
   },
   {
     "symbol": "CVX",
@@ -63729,7 +63729,9 @@
     "code_version": "9477888",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.0,
+    "ret_final": 0.0,
+    "ret_src": "realised"
   },
   {
     "symbol": "BHE",
@@ -63759,7 +63761,8 @@
     "hour_et": 12,
     "code_version": "d9f10bc",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.26
   },
   {
     "symbol": "MSFT",
@@ -63789,7 +63792,8 @@
     "hour_et": 12,
     "code_version": "d9f10bc",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.03
   },
   {
     "symbol": "ADI",
@@ -63819,7 +63823,8 @@
     "hour_et": 12,
     "code_version": "d9f10bc",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.0
   },
   {
     "symbol": "RARE",
@@ -63849,7 +63854,8 @@
     "hour_et": 12,
     "code_version": "d9f10bc",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.07
   },
   {
     "symbol": "AEIS",
@@ -63879,7 +63885,8 @@
     "hour_et": 12,
     "code_version": "d9f10bc",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.17
   },
   {
     "symbol": "PG",
@@ -63905,6 +63912,37 @@
     "evidence": "average cost $155.26",
     "trigger": "stop_loss",
     "hour_et": 12,
-    "code_version": "d1cc41f"
+    "code_version": "d1cc41f",
+    "hold_minutes": 6
+  },
+  {
+    "symbol": "IBRX",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 76.413629,
+    "price": 9.82,
+    "date": "2026-10-14",
+    "time_et": "12:07",
+    "ts": 1791994049,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +20.5% over the month; 84% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 9.81,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 20.52,
+    "hour_et": 12,
+    "code_version": "b909d9d",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

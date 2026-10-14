@@ -1,20 +1,3 @@
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2KqkPUoF8yyJEq8bw5Y'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25348.53 (+1.39% on $25000.00 in) · cash $23852.17 · realised +352.17
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-14 11:00 ET (Wednesday) — week 2026-W42 — budget left $23417.17 (today $33750.00 put to work, 18 buys, 16 sells) — SIM (pretend money) via sim
-  (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
   (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2L58wR6WTiCJAFRyWYS'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +381,20 @@ Done: 0 sell(s), 5 buy(s); 24 order(s) working; budget left $18917.07 this week
   (cancelled 2 standing order(s) on PG: position closed)
 - SELL 100% PG [stop_loss @ $155.27] -> $750.03 (+0.00%) — close it all at -0.4% under the average cost
 ## 2026-10-14 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-14 12:07 ET (Wednesday) — week 2026-W42 — budget left $19667.10 (today $43500.00 put to work, 31 buys, 24 sells) — SIM (pretend money) via sim
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2RBtdU9BpJ2HaewsJvW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $19,667 idle, so opened 1: IBRX. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 IBRX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +20.5% over the month; 84% of today's range
+~ WORKING take_profit 100% IBRX @ $9.90 until 2026-10-19 — close 100% at +0.8% over the average cost
+~ WORKING stop_loss 100% IBRX @ $9.63 until 2026-10-19 — close it all at -2.0% under the average cost
+~ WORKING buy_limit $500.00 IBRX @ $9.53 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25340.25 (+1.36% on $25000.00 in) · cash $19352.11 · realised +352.11
+Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $18917.10 this week
