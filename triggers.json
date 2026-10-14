@@ -7252,7 +7252,7 @@
    "ticker": "AEIS",
    "kind": "take_profit",
    "price": 263.6229,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 13:10",
    "created_ts": 1791997850,
    "why": "close 100% at +0.6% over the average cost",
@@ -7262,14 +7262,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 13:39",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b391df75",
    "ticker": "AEIS",
    "kind": "stop_loss",
    "price": 258.5029,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-14 13:10",
    "created_ts": 1791997850,
    "why": "close it all at -1.4% under the average cost",
@@ -7279,14 +7281,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 13:39"
   },
   {
    "id": "6c0107b7",
    "ticker": "AEIS",
    "kind": "buy_limit",
    "price": 254.2952,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 13:10",
    "created_ts": 1791997850,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7296,7 +7299,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-14 13:39",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b704a9ec",
@@ -7476,5 +7481,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-14 13:37"
+ "updated": "2026-10-14 13:40"
 }

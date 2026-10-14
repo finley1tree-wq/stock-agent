@@ -1,6 +1,3 @@
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2SN7JbzAjL87ZogkwP7'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
@@ -398,3 +395,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25303.20 (+1.21% on $25000.00 in) · cash $23066.28 · realised +316.28
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $22631.28 this week
+  (cancelled 2 standing order(s) on AEIS: position closed)
+- SELL 100% AEIS [stop_loss @ $258.37] -> $739.15 (-1.45%) — close it all at -1.4% under the average cost
+## 2026-10-14 13:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders

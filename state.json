@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 2368.72,
+  "spent": 1629.57,
   "deployed": 140550.0,
   "by_ticker": {
     "TSM": 772.48,
@@ -17,7 +17,7 @@
     "BHE": 16.9,
     "MSFT": 2.27,
     "ADI": 2.52,
-    "AEIS": 760.54,
+    "AEIS": 21.39,
     "GTES": 7.53,
     "WSM": 750.0
   },
@@ -4484,13 +4484,34 @@
       ],
       "evidence": "average cost $75.59",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "AEIS",
+      "side": "sell",
+      "qty": 2.860796,
+      "status": "filled",
+      "price": 258.37,
+      "proceeds": 739.15,
+      "realized_pnl": -10.85,
+      "realized_pct": -1.45,
+      "date": "2026-10-14",
+      "time_et": "13:39",
+      "ts": 1791999300,
+      "why": "close it all at -1.4% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $262.16",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 2292.29,
+  "spent_today": 1553.14,
   "deployed_today": 49500.0,
   "orders_today": 39,
-  "sells_today": 36,
+  "sells_today": 37,
   "sold_today": [
     "SNOW",
     "ACN",
@@ -4524,15 +4545,15 @@
     "TSM": 1791995160,
     "AVGO": 1791991810,
     "IBRX": 1791998762,
-    "AEIS": 1791995069,
+    "AEIS": 1791999598,
     "BHE": 1791999480,
     "WSM": 1791996330,
     "RARE": 1791998499,
     "GTES": 1791998931,
     "ADI": 1791999246
   },
-  "last_publish_ts": 1791999473,
-  "last_check_ts": 1791999562,
+  "last_publish_ts": 1791999597,
+  "last_check_ts": 1791999645,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -4589,19 +4610,16 @@
       }
     }
   },
-  "last_bar_ts": 1791999300,
-  "last_decision_ts": 1791999473,
+  "last_bar_ts": 1791999600,
+  "last_decision_ts": 1791999645,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "c5accc1b": 429.0454,
-    "b391df75": 258.5029,
-    "0517d12a": 243.0525,
     "0c92cec7": 240.5612,
+    "c5accc1b": 429.0454,
     "b704a9ec": 433.419,
-    "bdb1e30e": 263.6229,
-    "6c0107b7": 254.2952,
-    "98febf3f": 419.2049,
-    "73c4785c": 235.0698
+    "0517d12a": 243.0525,
+    "73c4785c": 235.0698,
+    "98febf3f": 419.2049
   }
 }
