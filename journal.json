@@ -62287,7 +62287,9 @@
     "code_version": "7da31dd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.67
+    "ret_now": -0.83,
+    "ret_final": -0.83,
+    "ret_src": "realised"
   },
   {
     "symbol": "SNOW",
@@ -62351,7 +62353,7 @@
     "code_version": "7da31dd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": -0.23
   },
   {
     "symbol": "ACN",
@@ -62708,7 +62710,10 @@
     "hour_et": 9,
     "code_version": "92fa090",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.02,
+    "ret_now": 0.02,
+    "ret_src": "realised"
   },
   {
     "symbol": "META",
@@ -62734,6 +62739,34 @@
     "evidence": "average cost $754.38",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "a17597d"
+    "code_version": "a17597d",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "TSM",
+    "side": "sell",
+    "qty": 6.832191,
+    "status": "filled",
+    "price": 439.18,
+    "proceeds": 3000.53,
+    "realized_pnl": 0.53,
+    "realized_pct": 0.02,
+    "date": "2026-10-14",
+    "time_et": "09:40",
+    "ts": 1791985200,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $439.1",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "1d322ff",
+    "hold_minutes": 2
   }
 ]

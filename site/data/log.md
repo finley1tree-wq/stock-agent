@@ -1,6 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25358.57 (+1.43% on $25000.00 in) · cash $25358.57 · realised +358.57
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +395,6 @@ Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15938.97 this week
   (cancelled 2 standing order(s) on META: position closed)
 - SELL 100% META [stop_loss @ $748.11] -> $2975.05 (-0.83%) — close it all at -0.8% under the average cost
 ## 2026-10-14 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [stop_loss @ $439.18] -> $3000.53 (+0.02%) — close it all at -0.7% under the average cost
+## 2026-10-14 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

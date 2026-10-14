@@ -1,9 +1,9 @@
 {
   "week": "2026-W42",
-  "spent": 6085.98,
+  "spent": 3085.45,
   "deployed": 118050.0,
   "by_ticker": {
-    "TSM": 3017.16,
+    "TSM": 16.63,
     "IBM": 19.61,
     "AVGO": 34.61,
     "CVX": 3025.94,
@@ -3203,13 +3203,34 @@
       ],
       "evidence": "average cost $754.38",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 6.832191,
+      "status": "filled",
+      "price": 439.18,
+      "proceeds": 3000.53,
+      "realized_pnl": 0.53,
+      "realized_pct": 0.02,
+      "date": "2026-10-14",
+      "time_et": "09:40",
+      "ts": 1791985200,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $439.1",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 6009.55,
+  "spent_today": 3009.02,
   "deployed_today": 27000.0,
   "orders_today": 9,
-  "sells_today": 7,
+  "sells_today": 8,
   "sold_today": [
     "SNOW",
     "ACN",
@@ -3217,7 +3238,8 @@
     "PG",
     "AVGO",
     "AMGN",
-    "META"
+    "META",
+    "TSM"
   ],
   "sold_ts": {
     "ACN": 1791984933,
@@ -3230,11 +3252,11 @@
     "MSFT": 1791815796,
     "PG": 1791984934,
     "NEOG": 1791899653,
-    "TSM": 1791915557,
+    "TSM": 1791985218,
     "AVGO": 1791984979
   },
-  "last_publish_ts": 1791985129,
-  "last_check_ts": 1791985175,
+  "last_publish_ts": 1791985217,
+  "last_check_ts": 1791985265,
   "exp_arm": {
     "META": {
       "params": {
@@ -3264,16 +3286,13 @@
       }
     }
   },
-  "last_bar_ts": 1791984900,
-  "last_decision_ts": 1791985067,
-  "next_check_minutes": 6,
+  "last_bar_ts": 1791985200,
+  "last_decision_ts": 1791985265,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "48680a3e": 439.52,
-    "5d6871fa": 440.3075,
     "765030f9": 218.7045,
     "d0f0802b": 220.2807,
-    "234852d1": 213.2351,
-    "6d8c96f8": 425.927
+    "234852d1": 213.2351
   }
 }
