@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "ff1096ce",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 222.6907,
-   "status": "filled",
-   "created": "2026-10-08 13:28",
-   "created_ts": 1791480494,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $222.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-13",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 13:32"
-  },
-  {
-   "id": "ac7fcc47",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 215.4176,
-   "status": "cancelled",
-   "created": "2026-10-08 13:28",
-   "created_ts": 1791480494,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $222.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-13",
-   "usd": 500.0,
-   "closed": "2026-10-08 13:32",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "29b337d4",
-   "ticker": "GS",
-   "kind": "stop_loss",
-   "price": 865.0,
-   "status": "cancelled",
-   "created": "2026-10-09 09:32",
-   "created_ts": 1791552751,
-   "why": "Protective stop ~2.2% below entry",
-   "evidence": "GS ATR 2.09%, protect against reversal",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 10:52",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "e6905e99",
    "ticker": "IBM",
    "kind": "stop_loss",
@@ -7472,7 +7417,58 @@
    ],
    "good_until": "2026-10-19",
    "usd": 500.0
+  },
+  {
+   "id": "50a61746",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 745.1234,
+   "status": "working",
+   "created": "2026-10-14 11:25",
+   "created_ts": 1791991537,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $742.68",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2630f1a5",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 736.5752,
+   "status": "working",
+   "created": "2026-10-14 11:25",
+   "created_ts": 1791991537,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $742.68",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "38357c19",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 720.3996,
+   "status": "working",
+   "created": "2026-10-14 11:25",
+   "created_ts": 1791991537,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $742.68",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-14 11:22"
+ "updated": "2026-10-14 11:25"
 }

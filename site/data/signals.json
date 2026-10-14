@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-14T11:22-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,170 idle, so opened 1: ACN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-10-14T11:25-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,420 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -185,10 +185,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 349.42,
-   "pct_away": -0.2,
+   "last": 349.46,
+   "pct_away": -0.21,
    "good_until": "2026-10-19",
    "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "50a61746",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 745.1234,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 742.53,
+   "pct_away": 0.35,
+   "good_until": "2026-10-19",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,10 +219,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 217.32,
-   "pct_away": 0.51,
+   "last": 217.5,
+   "pct_away": 0.43,
    "good_until": "2026-10-19",
    "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "2630f1a5",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 736.5752,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 742.53,
+   "pct_away": -0.8,
+   "good_until": "2026-10-19",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 349.42,
-   "pct_away": 0.96,
+   "last": 349.46,
+   "pct_away": 0.95,
    "good_until": "2026-10-19",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -236,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 217.32,
-   "pct_away": -1.21,
+   "last": 217.5,
+   "pct_away": -1.29,
    "good_until": "2026-10-19",
    "why": "close it all at -1.2% under the average cost",
    "signals": [
@@ -253,8 +287,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 349.42,
-   "pct_away": -2.39,
+   "last": 349.46,
+   "pct_away": -2.4,
+   "good_until": "2026-10-19",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "38357c19",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 720.3996,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 742.53,
+   "pct_away": -2.98,
    "good_until": "2026-10-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -270,8 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 217.32,
-   "pct_away": -2.98,
+   "last": 217.5,
+   "pct_away": -3.06,
    "good_until": "2026-10-19",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -280,7 +331,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,170 idle, so opened 1: ACN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,420 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -347,9 +398,9 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 361,
+  "decisions_graded": 360,
   "decisions_with_buys_graded": 74,
-  "independent_days_graded": 8,
+  "independent_days_graded": 7,
   "avg_regret_pct": -0.08,
   "chosen_avg_pct": 0.19,
   "skipped_avg_pct": 0.11,
@@ -427,24 +478,24 @@
   ],
   "biggest_avoided": [
    {
-    "ticker": "CHRW",
-    "fwd_pct": -10.97
-   },
-   {
     "ticker": "OKLO",
     "fwd_pct": -7.15
    },
    {
     "ticker": "NLR",
     "fwd_pct": -5.3
+   },
+   {
+    "ticker": "AMD",
+    "fwd_pct": -4.91
    }
   ],
   "sectors_most_often_missed": {
-   "widely_held": {
-    "n": 20
-   },
    "off-watchlist": {
-    "n": 20
+    "n": 19
+   },
+   "widely_held": {
+    "n": 18
    },
    "defense": {
     "n": 9
@@ -456,13 +507,13 @@
     "n": 2
    }
   },
-  "idle_checks": 316,
+  "idle_checks": 315,
   "blocked_checks": 0,
   "idle_share": 0.79,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
-  "warning": "only 8 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
+  "warning": "only 7 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
  },
  "disclosure_leaderboard": [
   {
@@ -1992,5 +2043,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-14T11:22-04:00"
+ "signalsAsOf": "2026-10-14T11:25-04:00"
 }
