@@ -1,60 +1,6 @@
 {
  "orders": [
   {
-   "id": "13014849",
-   "ticker": "UNH",
-   "kind": "stop_loss",
-   "price": 362.0,
-   "status": "cancelled",
-   "created": "2026-10-08 12:25",
-   "created_ts": 1791476719,
-   "why": "Cap downside on new UNH position",
-   "evidence": "UNH price 371.84, ATR 2.2%, standard protective stop",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 13:01",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "dfe1231f",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 466.0,
-   "status": "cancelled",
-   "created": "2026-10-08 12:25",
-   "created_ts": 1791476719,
-   "why": "Cap downside on new NOC position",
-   "evidence": "NOC price 478.4, ATR 2.4%, standard protective stop",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 12:44",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "828e7324",
-   "ticker": "UNH",
-   "kind": "take_profit",
-   "price": 372.8026,
-   "status": "filled",
-   "created": "2026-10-08 12:25",
-   "created_ts": 1791476719,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $371.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-13",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 13:01"
-  },
-  {
    "id": "d2c55044",
    "ticker": "UNH",
    "kind": "buy_limit",
@@ -7449,7 +7395,58 @@
    ],
    "good_until": "2026-10-19",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "6eaffd1c",
+   "ticker": "META",
+   "kind": "take_profit",
+   "price": 747.8552,
+   "status": "working",
+   "created": "2026-10-14 10:24",
+   "created_ts": 1791987898,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $745.44",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "430dcf50",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 739.4019,
+   "status": "working",
+   "created": "2026-10-14 10:24",
+   "created_ts": 1791987898,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $745.44",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5276bda3",
+   "ticker": "META",
+   "kind": "buy_limit",
+   "price": 723.0768,
+   "status": "working",
+   "created": "2026-10-14 10:24",
+   "created_ts": 1791987898,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $745.44",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-14 10:22"
+ "updated": "2026-10-14 10:24"
 }
