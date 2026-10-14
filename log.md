@@ -28842,3 +28842,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25350.06 (+1.40% on $25000.00 in) · cash $23104.84 · realised +354.84
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on AVGO: position closed)
+- SELL 100% AVGO [stop_loss @ $348.43] -> $743.18 (-0.91%) — close it all at -0.8% under the average cost
+## 2026-10-14 11:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
