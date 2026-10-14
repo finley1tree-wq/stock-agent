@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "0eee1362",
-   "ticker": "HUBB",
-   "kind": "stop_loss",
-   "price": 466.0,
-   "status": "cancelled",
-   "created": "2026-10-08 12:40",
-   "created_ts": 1791477637,
-   "why": "Standard protective stop on new HUBB position",
-   "evidence": "HUBB current price 481.21, day_low 470.71",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 14:10",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "31353eed",
    "ticker": "PPG",
    "kind": "take_profit",
@@ -7211,7 +7193,7 @@
    "ticker": "ACN",
    "kind": "take_profit",
    "price": 217.5214,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 10:21",
    "created_ts": 1791987712,
    "why": "close 100% at +0.5% over the average cost",
@@ -7221,7 +7203,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 10:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b8a1f8da",
@@ -7247,7 +7231,7 @@
    "ticker": "ACN",
    "kind": "buy_limit",
    "price": 209.9565,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 10:21",
    "created_ts": 1791987712,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7257,7 +7241,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-14 10:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "8591464e",
@@ -7351,7 +7337,7 @@
    "ticker": "META",
    "kind": "stop_loss",
    "price": 739.4019,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 10:24",
    "created_ts": 1791987898,
    "why": "close it all at -0.8% under the average cost",
@@ -7361,7 +7347,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 10:35",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5276bda3",
@@ -7436,7 +7424,7 @@
    "ticker": "ACN",
    "kind": "stop_loss",
    "price": 216.888,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-14 10:30",
    "created_ts": 1791988258,
    "why": "close it all at -1.2% under the average cost",
@@ -7446,8 +7434,26 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 10:35"
+  },
+  {
+   "id": "39c41ad9",
+   "ticker": "META",
+   "kind": "stop_loss",
+   "price": 746.316,
+   "status": "working",
+   "created": "2026-10-14 10:35",
+   "created_ts": 1791988521,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $745.44",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-14 10:34"
+ "updated": "2026-10-14 10:36"
 }
