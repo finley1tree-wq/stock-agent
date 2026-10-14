@@ -1,18 +1,18 @@
 {
   "week": "2026-W42",
-  "spent": 1586.29,
-  "deployed": 127800.0,
+  "spent": 3086.29,
+  "deployed": 129300.0,
   "by_ticker": {
     "TSM": 766.85,
     "IBM": 19.61,
     "AVGO": 41.43,
-    "CVX": 25.29,
+    "CVX": 775.29,
     "NEOG": 50.85,
     "PG": 3.57,
     "KO": 2.94,
     "SNOW": 11.07,
     "META": 783.57,
-    "AMGN": 2.8,
+    "AMGN": 752.8,
     "ACN": 2.09
   },
   "deployed_by_ticker": {
@@ -20,13 +20,13 @@
     "IBM": 2800.0,
     "ACN": 15600.0,
     "MSFT": 2900.0,
-    "AMGN": 13000.0,
+    "AMGN": 13750.0,
     "KO": 12500.0,
     "AVGO": 10250.0,
     "SNOW": 12000.0,
     "NEOG": 5250.0,
     "META": 12000.0,
-    "CVX": 17700.0,
+    "CVX": 18450.0,
     "PG": 10500.0
   },
   "orders": [
@@ -3763,12 +3763,56 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "CVX",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.405159,
+      "price": 220.25,
+      "date": "2026-10-14",
+      "time_et": "11:42",
+      "ts": 1791992569,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +1.1% over the month; 69% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "AMGN",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.76481,
+      "price": 424.97,
+      "date": "2026-10-14",
+      "time_et": "11:42",
+      "ts": 1791992569,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): David J. Taylor; +13.1% over the month; 82% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 1509.86,
-  "deployed_today": 36750.0,
-  "orders_today": 22,
+  "spent_today": 3009.86,
+  "deployed_today": 38250.0,
+  "orders_today": 24,
   "sells_today": 20,
   "sold_today": [
     "SNOW",
@@ -3795,8 +3839,8 @@
     "TSM": 1791989443,
     "AVGO": 1791991810
   },
-  "last_publish_ts": 1791992233,
-  "last_check_ts": 1791992482,
+  "last_publish_ts": 1791992569,
+  "last_check_ts": 1791992569,
   "exp_arm": {
     "META": {
       "params": {
@@ -3815,18 +3859,42 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "CVX": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "AMGN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1791992400,
-  "last_decision_ts": 1791992375,
-  "next_check_minutes": null,
+  "last_decision_ts": 1791992569,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "459ae060": 435.5505,
+    "13175409": 220.7015,
+    "53946a95": 426.1089,
     "2630f1a5": 736.5752,
     "ad4942e8": 431.281,
+    "491d7892": 219.1201,
+    "459ae060": 435.5505,
+    "ec6ee2eb": 422.127,
     "50a61746": 745.1234,
     "38357c19": 720.3996,
-    "1239eee7": 421.3001
+    "1239eee7": 421.3001,
+    "b7e5ddff": 213.6425,
+    "10891ab4": 412.2209
   }
 }

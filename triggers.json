@@ -1,117 +1,6 @@
 {
  "orders": [
   {
-   "id": "baaa4ec2",
-   "ticker": "NFLX",
-   "kind": "buy_limit",
-   "price": 70.914,
-   "status": "filled",
-   "created": "2026-10-09 09:32",
-   "created_ts": 1791552751,
-   "why": "wanted it, but not at the high \u2014 resting at $70.91. Congress buy pressure (score 2.0) and strong 5d momentum, entering near high but trend is clear",
-   "evidence": "Rep. Cleo Fields bought NFLX ($1,001-$15,000, disclosed 2026-10-01); NFLX +6.38% 5d, 94.4% of day range",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-10-09",
-   "usd": 3500.0,
-   "closed": "2026-10-09 11:09"
-  },
-  {
-   "id": "dc2e30c5",
-   "ticker": "GS",
-   "kind": "take_profit",
-   "price": 886.8527,
-   "status": "filled",
-   "created": "2026-10-09 09:32",
-   "created_ts": 1791552751,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $884.8",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 10:52"
-  },
-  {
-   "id": "d0b8212a",
-   "ticker": "GS",
-   "kind": "buy_limit",
-   "price": 858.256,
-   "status": "cancelled",
-   "created": "2026-10-09 09:32",
-   "created_ts": 1791552751,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $884.8",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "usd": 500.0,
-   "closed": "2026-10-09 10:52",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ef291299",
-   "ticker": "IBM",
-   "kind": "take_profit",
-   "price": 225.5774,
-   "status": "filled",
-   "created": "2026-10-09 09:32",
-   "created_ts": 1791552751,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $224.97",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 09:35"
-  },
-  {
-   "id": "0fffcc6f",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 218.2209,
-   "status": "cancelled",
-   "created": "2026-10-09 09:32",
-   "created_ts": 1791552751,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $224.97",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "usd": 500.0,
-   "closed": "2026-10-09 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "43a4d06f",
-   "ticker": "HD",
-   "kind": "take_profit",
-   "price": 294.2103,
-   "status": "filled",
-   "created": "2026-10-09 09:32",
-   "created_ts": 1791552751,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $293.5",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 09:47"
-  },
-  {
    "id": "266baf51",
    "ticker": "HD",
    "kind": "buy_limit",
@@ -7475,7 +7364,109 @@
    ],
    "good_until": "2026-10-19",
    "usd": 500.0
+  },
+  {
+   "id": "13175409",
+   "ticker": "CVX",
+   "kind": "take_profit",
+   "price": 220.7015,
+   "status": "working",
+   "created": "2026-10-14 11:42",
+   "created_ts": 1791992569,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $220.25",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "491d7892",
+   "ticker": "CVX",
+   "kind": "stop_loss",
+   "price": 219.1201,
+   "status": "working",
+   "created": "2026-10-14 11:42",
+   "created_ts": 1791992569,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $220.25",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b7e5ddff",
+   "ticker": "CVX",
+   "kind": "buy_limit",
+   "price": 213.6425,
+   "status": "working",
+   "created": "2026-10-14 11:42",
+   "created_ts": 1791992569,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $220.25",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
+  },
+  {
+   "id": "53946a95",
+   "ticker": "AMGN",
+   "kind": "take_profit",
+   "price": 426.1089,
+   "status": "working",
+   "created": "2026-10-14 11:42",
+   "created_ts": 1791992569,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $424.97",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ec6ee2eb",
+   "ticker": "AMGN",
+   "kind": "stop_loss",
+   "price": 422.127,
+   "status": "working",
+   "created": "2026-10-14 11:42",
+   "created_ts": 1791992569,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $424.97",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "10891ab4",
+   "ticker": "AMGN",
+   "kind": "buy_limit",
+   "price": 412.2209,
+   "status": "working",
+   "created": "2026-10-14 11:42",
+   "created_ts": 1791992569,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $424.97",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-14 11:39"
+ "updated": "2026-10-14 11:42"
 }
