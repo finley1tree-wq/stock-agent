@@ -1,61 +1,4 @@
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2T3zddo8d7nVzsVFsPF'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25312.69 (+1.25% on $25000.00 in) · cash $21576.86 · realised +326.86
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-14 12:34 ET (Wednesday) — week 2026-W42 — budget left $21141.87 (today $45750.00 put to work, 34 buys, 29 sells) — SIM (pretend money) via sim
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2THALtjByAUThCNEW3g'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25317.36 (+1.27% on $25000.00 in) · cash $21576.86 · realised +326.86
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-14 12:37 ET (Wednesday) — week 2026-W42 — budget left $21141.87 (today $45750.00 put to work, 34 buys, 29 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2TWWdPvds9P9NYYE47t'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25319.81 (+1.28% on $25000.00 in) · cash $21576.86 · realised +326.86
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-14 12:40 ET (Wednesday) — week 2026-W42 — budget left $21141.87 (today $45750.00 put to work, 34 buys, 29 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2TjdKr31BDCeM5jD96u'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25319.50 (+1.28% on $25000.00 in) · cash $21576.86 · realised +326.86
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-14 12:43 ET (Wednesday) — week 2026-W42 — budget left $21141.87 (today $45750.00 put to work, 34 buys, 29 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
   (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
   (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
@@ -398,3 +341,60 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on WSM: position closed)
 - SELL 100% WSM [stop_loss @ $240.26] -> $743.57 (-0.86%) — close it all at -0.7% under the average cost
 ## 2026-10-14 13:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-14 13:50 ET (Wednesday) — week 2026-W42 — budget left $24114.00 (today $49500.00 put to work, 39 buys, 38 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2Z5QEBZF7tbt3hnJ3vZ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25294.81 (+1.18% on $25000.00 in) · cash $24549.01 · realised +299.01
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-14 13:53 ET (Wednesday) — week 2026-W42 — budget left $24114.00 (today $49500.00 put to work, 39 buys, 38 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2ZFSsxgpq8apEQ73k4c'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25294.60 (+1.18% on $25000.00 in) · cash $24549.01 · realised +299.01
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-14 13:56 ET (Wednesday) — week 2026-W42 — budget left $24114.00 (today $49500.00 put to work, 39 buys, 38 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2ZW8em8mh6tqwYMHkoM'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25294.36 (+1.18% on $25000.00 in) · cash $24549.01 · realised +299.01
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-14 13:59 ET (Wednesday) — week 2026-W42 — budget left $24114.00 (today $49500.00 put to work, 39 buys, 38 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2ZjPGwPAhP5qQVRftk5'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25294.26 (+1.18% on $25000.00 in) · cash $24549.01 · realised +299.01
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 resting buy order(s): past the entry cutoff)

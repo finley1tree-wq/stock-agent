@@ -7342,7 +7342,7 @@
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 419.2049,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 13:13",
    "created_ts": 1791998031,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7352,7 +7352,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-14 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "76a2e855",
