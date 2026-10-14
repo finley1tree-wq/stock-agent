@@ -63433,7 +63433,7 @@
     "code_version": "4301a57",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.48
+    "ret_now": -0.51
   },
   {
     "symbol": "AVGO",
@@ -63518,7 +63518,7 @@
     "code_version": "2132469",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": -0.06
   },
   {
     "symbol": "CVX",
@@ -63549,7 +63549,7 @@
     "code_version": "cedcb0c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.19
   },
   {
     "symbol": "AMGN",
@@ -63580,7 +63580,9 @@
     "code_version": "cedcb0c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16
+    "ret_now": 0.27,
+    "ret_final": 0.27,
+    "ret_src": "realised"
   },
   {
     "symbol": "KO",
@@ -63611,6 +63613,62 @@
     "code_version": "fc78d00",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": -0.02,
+    "ret_final": -0.02,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "AMGN",
+    "side": "sell",
+    "qty": 1.76481,
+    "status": "filled",
+    "price": 426.11,
+    "proceeds": 752.0,
+    "realized_pnl": 2.0,
+    "realized_pct": 0.27,
+    "date": "2026-10-14",
+    "time_et": "11:54",
+    "ts": 1791993000,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $424.97",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "d6ed26e",
+    "hold_minutes": 7
+  },
+  {
+    "symbol": "KO",
+    "side": "sell",
+    "qty": 8.195978,
+    "status": "filled",
+    "price": 91.49,
+    "proceeds": 749.84,
+    "realized_pnl": -0.16,
+    "realized_pct": -0.02,
+    "date": "2026-10-14",
+    "time_et": "11:55",
+    "ts": 1791993300,
+    "why": "close it all at -0.4% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $91.51",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "d6ed26e",
+    "hold_minutes": 6
   }
 ]

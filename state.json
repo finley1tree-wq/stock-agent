@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3836.29,
+  "spent": 2334.45,
   "deployed": 130050.0,
   "by_ticker": {
     "TSM": 766.85,
@@ -9,10 +9,10 @@
     "CVX": 775.29,
     "NEOG": 50.85,
     "PG": 3.57,
-    "KO": 752.94,
+    "KO": 3.1,
     "SNOW": 11.07,
     "META": 783.57,
-    "AMGN": 752.8,
+    "AMGN": 0.8,
     "ACN": 2.09
   },
   "deployed_by_ticker": {
@@ -3829,13 +3829,55 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "AMGN",
+      "side": "sell",
+      "qty": 1.76481,
+      "status": "filled",
+      "price": 426.11,
+      "proceeds": 752.0,
+      "realized_pnl": 2.0,
+      "realized_pct": 0.27,
+      "date": "2026-10-14",
+      "time_et": "11:54",
+      "ts": 1791993000,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $424.97",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "KO",
+      "side": "sell",
+      "qty": 8.195978,
+      "status": "filled",
+      "price": 91.49,
+      "proceeds": 749.84,
+      "realized_pnl": -0.16,
+      "realized_pct": -0.02,
+      "date": "2026-10-14",
+      "time_et": "11:55",
+      "ts": 1791993300,
+      "why": "close it all at -0.4% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $91.51",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 3759.86,
+  "spent_today": 2258.02,
   "deployed_today": 39000.0,
   "orders_today": 25,
-  "sells_today": 20,
+  "sells_today": 22,
   "sold_today": [
     "SNOW",
     "ACN",
@@ -3850,8 +3892,8 @@
   "sold_ts": {
     "ACN": 1791992108,
     "IBM": 1791813178,
-    "KO": 1791989675,
-    "AMGN": 1791989841,
+    "KO": 1791993314,
+    "AMGN": 1791993268,
     "META": 1791988814,
     "SNOW": 1791991237,
     "CVX": 1791989676,
@@ -3861,8 +3903,8 @@
     "TSM": 1791989443,
     "AVGO": 1791991810
   },
-  "last_publish_ts": 1791993116,
-  "last_check_ts": 1791993221,
+  "last_publish_ts": 1791993313,
+  "last_check_ts": 1791993316,
   "exp_arm": {
     "META": {
       "params": {
@@ -3910,25 +3952,19 @@
       }
     }
   },
-  "last_bar_ts": 1791993000,
-  "last_decision_ts": 1791993120,
+  "last_bar_ts": 1791993300,
+  "last_decision_ts": 1791993316,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "19dfabc5": 91.558,
-    "9a0e746e": 91.6491,
     "13175409": 220.7015,
-    "53946a95": 426.1089,
     "2630f1a5": 736.5752,
     "459ae060": 435.5505,
     "ad4942e8": 431.281,
     "491d7892": 219.1201,
-    "ec6ee2eb": 422.127,
     "50a61746": 745.1234,
     "38357c19": 720.3996,
     "1239eee7": 421.3001,
-    "b7e5ddff": 213.6425,
-    "7dac84bd": 88.7647,
-    "10891ab4": 412.2209
+    "b7e5ddff": 213.6425
   }
 }

@@ -7346,7 +7346,7 @@
    "ticker": "AMGN",
    "kind": "take_profit",
    "price": 426.1089,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-14 11:42",
    "created_ts": 1791992569,
    "why": "close 100% at +0.3% over the average cost",
@@ -7356,14 +7356,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 11:54"
   },
   {
    "id": "ec6ee2eb",
    "ticker": "AMGN",
    "kind": "stop_loss",
    "price": 422.127,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 11:42",
    "created_ts": 1791992569,
    "why": "close it all at -0.7% under the average cost",
@@ -7373,14 +7374,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 11:54",
+   "cancel_reason": "position closed"
   },
   {
    "id": "10891ab4",
    "ticker": "AMGN",
    "kind": "buy_limit",
    "price": 412.2209,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 11:42",
    "created_ts": 1791992569,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7390,14 +7393,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-14 11:54",
+   "cancel_reason": "position closed"
   },
   {
    "id": "9a0e746e",
    "ticker": "KO",
    "kind": "take_profit",
    "price": 91.6491,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 11:48",
    "created_ts": 1791992930,
    "why": "close 100% at +0.2% over the average cost",
@@ -7407,7 +7412,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 11:55",
+   "cancel_reason": "position closed"
   },
   {
    "id": "9301ebe3",
@@ -7433,7 +7440,7 @@
    "ticker": "KO",
    "kind": "buy_limit",
    "price": 88.7647,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 11:48",
    "created_ts": 1791992930,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7443,14 +7450,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-14 11:55",
+   "cancel_reason": "position closed"
   },
   {
    "id": "19dfabc5",
    "ticker": "KO",
    "kind": "stop_loss",
    "price": 91.558,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-14 11:51",
    "created_ts": 1791993116,
    "why": "close it all at -0.4% under the average cost",
@@ -7460,8 +7469,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 11:55"
   }
  ],
- "updated": "2026-10-14 11:52"
+ "updated": "2026-10-14 11:55"
 }
