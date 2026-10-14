@@ -6726,7 +6726,7 @@
    "ticker": "TSM",
    "kind": "take_profit",
    "price": 435.5505,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 11:37",
    "created_ts": 1791992233,
    "why": "close 100% at +0.3% over the average cost",
@@ -6736,14 +6736,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 12:26",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ad4942e8",
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 431.281,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-14 11:37",
    "created_ts": 1791992233,
    "why": "close it all at -0.7% under the average cost",
@@ -6753,14 +6755,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 12:26"
   },
   {
    "id": "1239eee7",
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 421.3001,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 11:37",
    "created_ts": 1791992233,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6770,7 +6773,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-14 12:26",
+   "cancel_reason": "position closed"
   },
   {
    "id": "13175409",
@@ -7039,7 +7044,7 @@
    "ticker": "BHE",
    "kind": "take_profit",
    "price": 76.311,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 12:04",
    "created_ts": 1791993861,
    "why": "close 100% at +0.4% over the average cost",
@@ -7049,14 +7054,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 12:25",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d86c7fd7",
    "ticker": "BHE",
    "kind": "stop_loss",
    "price": 75.2583,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-14 12:04",
    "created_ts": 1791993861,
    "why": "close it all at -1.0% under the average cost",
@@ -7066,14 +7073,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 12:25"
   },
   {
    "id": "a3194c4e",
    "ticker": "BHE",
    "kind": "buy_limit",
    "price": 73.7297,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 12:04",
    "created_ts": 1791993861,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7083,7 +7091,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-14 12:25",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3a7628e9",
@@ -7453,5 +7463,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-14 12:24"
+ "updated": "2026-10-14 12:26"
 }

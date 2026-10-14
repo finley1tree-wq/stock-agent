@@ -63520,7 +63520,9 @@
     "code_version": "2132469",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.57
+    "ret_now": -0.75,
+    "ret_final": -0.75,
+    "ret_src": "realised"
   },
   {
     "symbol": "CVX",
@@ -63764,7 +63766,9 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.78
+    "ret_now": -1.13,
+    "ret_final": -1.13,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -63795,7 +63799,7 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.18
+    "ret_now": -0.08
   },
   {
     "symbol": "ADI",
@@ -63826,7 +63830,7 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.44
+    "ret_now": -0.49
   },
   {
     "symbol": "RARE",
@@ -63857,7 +63861,7 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.87
+    "ret_now": -0.34
   },
   {
     "symbol": "AEIS",
@@ -63888,7 +63892,9 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.12
+    "ret_now": -1.41,
+    "ret_final": -1.41,
+    "ret_src": "realised"
   },
   {
     "symbol": "PG",
@@ -64006,7 +64012,7 @@
     "code_version": "62f0012",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": -0.14
   },
   {
     "symbol": "IBRX",
@@ -64064,7 +64070,7 @@
     "code_version": "94cd5dc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.35
+    "ret_now": -0.46
   },
   {
     "symbol": "AEIS",
@@ -64090,6 +64096,61 @@
     "evidence": "average cost $264.66",
     "trigger": "stop_loss",
     "hour_et": 12,
-    "code_version": "9871148"
+    "code_version": "9871148",
+    "hold_minutes": 15
+  },
+  {
+    "symbol": "BHE",
+    "side": "sell",
+    "qty": 9.867651,
+    "status": "filled",
+    "price": 75.15,
+    "proceeds": 741.56,
+    "realized_pnl": -8.44,
+    "realized_pct": -1.13,
+    "date": "2026-10-14",
+    "time_et": "12:25",
+    "ts": 1791994800,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $76.01",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "4bd69d9",
+    "hold_minutes": 15
+  },
+  {
+    "symbol": "TSM",
+    "side": "sell",
+    "qty": 1.72681,
+    "status": "filled",
+    "price": 431.07,
+    "proceeds": 744.37,
+    "realized_pnl": -5.63,
+    "realized_pct": -0.75,
+    "date": "2026-10-14",
+    "time_et": "12:26",
+    "ts": 1791995100,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $434.33",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "4bd69d9",
+    "hold_minutes": 47
   }
 ]

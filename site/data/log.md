@@ -1,9 +1,3 @@
-## 2026-10-14 11:16 ET (Wednesday) — week 2026-W42 — budget left $23418.51 (today $34500.00 put to work, 19 buys, 17 sells) — SIM (pretend money) via sim
-  (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
   (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2MLBXTrdXPvjhg2tw9T'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +392,9 @@ Decision: nothing at this check. 24 standing order(s) working.
   (cancelled 2 standing order(s) on AEIS: position closed)
 - SELL 100% AEIS [stop_loss @ $260.94] -> $739.46 (-1.41%) — close it all at -1.4% under the average cost
 ## 2026-10-14 12:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on BHE: position closed)
+- SELL 100% BHE [stop_loss @ $75.15] -> $741.56 (-1.13%) — close it all at -1.0% under the average cost
+## 2026-10-14 12:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [stop_loss @ $431.07] -> $744.37 (-0.75%) — close it all at -0.7% under the average cost
+## 2026-10-14 12:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
