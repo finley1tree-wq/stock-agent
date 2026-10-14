@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 1582.83,
-  "deployed": 124800.0,
+  "spent": 2332.83,
+  "deployed": 125550.0,
   "by_ticker": {
     "TSM": 16.85,
     "IBM": 19.61,
@@ -10,7 +10,7 @@
     "NEOG": 50.85,
     "PG": 754.91,
     "KO": 2.94,
-    "SNOW": 12.4,
+    "SNOW": 762.4,
     "META": 33.57,
     "AMGN": 2.8,
     "ACN": 2.78
@@ -23,7 +23,7 @@
     "AMGN": 13000.0,
     "KO": 12500.0,
     "AVGO": 10250.0,
-    "SNOW": 11250.0,
+    "SNOW": 12000.0,
     "NEOG": 5250.0,
     "META": 11250.0,
     "CVX": 17700.0,
@@ -3591,12 +3591,34 @@
       ],
       "evidence": "average cost $424.94",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "SNOW",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.184241,
+      "price": 343.37,
+      "date": "2026-10-14",
+      "time_et": "11:11",
+      "ts": 1791990673,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Maria Elvira Salazar), $15,001 - $50,000; +6.3% over the month; 0% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 1506.4,
-  "deployed_today": 33750.0,
-  "orders_today": 18,
+  "spent_today": 2256.4,
+  "deployed_today": 34500.0,
+  "orders_today": 19,
   "sells_today": 16,
   "sold_today": [
     "SNOW",
@@ -3623,18 +3645,9 @@
     "TSM": 1791989443,
     "AVGO": 1791984979
   },
-  "last_publish_ts": 1791989841,
-  "last_check_ts": 1791990594,
+  "last_publish_ts": 1791990673,
+  "last_check_ts": 1791990673,
   "exp_arm": {
-    "KO": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "PG": {
       "params": {
         "hold_minutes": 90,
@@ -3653,44 +3666,29 @@
         "ratchet": "off"
       }
     },
-    "TSM": {
+    "SNOW": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
       },
       "tags": {
         "ratchet": "on"
-      }
-    },
-    "CVX": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "AMGN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
       }
     }
   },
-  "last_bar_ts": 1791990300,
-  "last_decision_ts": 1791990498,
-  "next_check_minutes": null,
+  "last_bar_ts": 1791990600,
+  "last_decision_ts": 1791990673,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "6291add6": 154.1861,
     "56c03382": 155.1572,
-    "8591464e": 352.7904,
+    "2737e0f2": 154.982,
     "75f5ed07": 348.7291,
-    "30de320b": 150.2336,
-    "ca41e8b4": 341.0811
+    "99f98fb5": 344.9014,
+    "8591464e": 352.7904,
+    "e373878d": 339.538,
+    "ca41e8b4": 341.0811,
+    "e48da5b2": 333.0689,
+    "30de320b": 150.2336
   }
 }
