@@ -1,81 +1,6 @@
 {
  "orders": [
   {
-   "id": "d3b26461",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 461.4581,
-   "status": "cancelled",
-   "created": "2026-10-08 11:06",
-   "created_ts": 1791471998,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $475.73",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-13",
-   "usd": 500.0,
-   "closed": "2026-10-08 11:29",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "f7135abf",
-   "ticker": "GS",
-   "kind": "take_profit",
-   "price": 885.092,
-   "status": "filled",
-   "created": "2026-10-08 11:06",
-   "created_ts": 1791471998,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $882.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-13",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 12:17"
-  },
-  {
-   "id": "7915741e",
-   "ticker": "GS",
-   "kind": "stop_loss",
-   "price": 877.4812,
-   "status": "cancelled",
-   "created": "2026-10-08 11:06",
-   "created_ts": 1791471998,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $882.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-13",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 12:17",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "01b7aa6f",
-   "ticker": "GS",
-   "kind": "buy_limit",
-   "price": 856.4324,
-   "status": "cancelled",
-   "created": "2026-10-08 11:06",
-   "created_ts": 1791471998,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $882.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-13",
-   "usd": 500.0,
-   "closed": "2026-10-08 12:17",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "e758ce8e",
    "ticker": "TSM",
    "kind": "stop_loss",
@@ -7097,7 +7022,7 @@
    "ticker": "SNOW",
    "kind": "stop_loss",
    "price": 348.5817,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 09:32",
    "created_ts": 1791984760,
    "why": "close it all at -1.0% under the average cost",
@@ -7107,7 +7032,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 09:34",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "67db9f09",
@@ -7301,7 +7228,7 @@
    "ticker": "KO",
    "kind": "stop_loss",
    "price": 90.6144,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 09:32",
    "created_ts": 1791984760,
    "why": "close it all at -0.4% under the average cost",
@@ -7311,7 +7238,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 09:34",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "60a89b63",
@@ -7352,7 +7281,7 @@
    "ticker": "AMGN",
    "kind": "stop_loss",
    "price": 414.6277,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 09:32",
    "created_ts": 1791984760,
    "why": "close it all at -0.6% under the average cost",
@@ -7362,7 +7291,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 09:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "1ba7797f",
@@ -7403,7 +7334,7 @@
    "ticker": "PG",
    "kind": "stop_loss",
    "price": 154.1288,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 09:32",
    "created_ts": 1791984760,
    "why": "close it all at -0.4% under the average cost",
@@ -7413,7 +7344,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 09:34",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "bce9e7ee",
@@ -7431,7 +7364,75 @@
    ],
    "good_until": "2026-10-19",
    "usd": 500.0
+  },
+  {
+   "id": "4ba51b78",
+   "ticker": "AMGN",
+   "kind": "stop_loss",
+   "price": 417.842,
+   "status": "working",
+   "created": "2026-10-14 09:33",
+   "created_ts": 1791984837,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $417.29",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9c2819f1",
+   "ticker": "SNOW",
+   "kind": "stop_loss",
+   "price": 353.02,
+   "status": "working",
+   "created": "2026-10-14 09:34",
+   "created_ts": 1791984884,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $352.27",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6201567b",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 91.004,
+   "status": "working",
+   "created": "2026-10-14 09:34",
+   "created_ts": 1791984884,
+   "why": "close it all at -0.4% under the average cost",
+   "evidence": "average cost $90.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f28641a7",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 154.972,
+   "status": "working",
+   "created": "2026-10-14 09:34",
+   "created_ts": 1791984884,
+   "why": "close it all at -0.4% under the average cost",
+   "evidence": "average cost $154.81",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-14 09:32"
+ "updated": "2026-10-14 09:34"
 }
