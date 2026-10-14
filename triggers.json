@@ -1,60 +1,6 @@
 {
  "orders": [
   {
-   "id": "e758ce8e",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 452.0,
-   "status": "cancelled",
-   "created": "2026-10-08 11:33",
-   "created_ts": 1791473584,
-   "why": "Standard protective stop ~3% below entry",
-   "evidence": "TSM price 466.10, ATR 2.159%, protect against reversal",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 13:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "1013d698",
-   "ticker": "NFLX",
-   "kind": "stop_loss",
-   "price": 69.0,
-   "status": "cancelled",
-   "created": "2026-10-08 11:33",
-   "created_ts": 1791473584,
-   "why": "Protective stop below recent day low",
-   "evidence": "NFLX price 71.10, day low 69.72",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 12:17",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "0f54fbbd",
-   "ticker": "KO",
-   "kind": "stop_loss",
-   "price": 85.3,
-   "status": "cancelled",
-   "created": "2026-10-08 11:33",
-   "created_ts": 1791473584,
-   "why": "Protective stop ~1.8% below entry",
-   "evidence": "KO price 86.88, ATR 1.402%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 12:03",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "d394bb2c",
    "ticker": "IBM",
    "kind": "stop_loss",
@@ -7462,7 +7408,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-14 09:35",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "5d6871fa",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 440.3075,
+   "status": "working",
+   "created": "2026-10-14 09:37",
+   "created_ts": 1791985067,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $439.1",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d7e10f99",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 436.0834,
+   "status": "working",
+   "created": "2026-10-14 09:37",
+   "created_ts": 1791985067,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $439.1",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6d8c96f8",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 425.927,
+   "status": "working",
+   "created": "2026-10-14 09:37",
+   "created_ts": 1791985067,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $439.1",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-14 09:36"
+ "updated": "2026-10-14 09:37"
 }

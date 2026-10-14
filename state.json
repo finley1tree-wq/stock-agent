@@ -1,9 +1,9 @@
 {
   "week": "2026-W42",
-  "spent": 6061.03,
-  "deployed": 115050.0,
+  "spent": 9061.03,
+  "deployed": 118050.0,
   "by_ticker": {
-    "TSM": 17.16,
+    "TSM": 3017.16,
     "IBM": 19.61,
     "AVGO": 34.61,
     "CVX": 3025.94,
@@ -15,7 +15,7 @@
     "AMGN": 4.79
   },
   "deployed_by_ticker": {
-    "TSM": 8800.0,
+    "TSM": 11800.0,
     "IBM": 2800.0,
     "ACN": 14100.0,
     "MSFT": 2900.0,
@@ -3160,12 +3160,34 @@
       ],
       "evidence": "average cost $417.29",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.832191,
+      "price": 439.1,
+      "date": "2026-10-14",
+      "time_et": "09:37",
+      "ts": 1791985067,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +6.1% over the month; 76% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 5984.6,
-  "deployed_today": 24000.0,
-  "orders_today": 8,
+  "spent_today": 8984.6,
+  "deployed_today": 27000.0,
+  "orders_today": 9,
   "sells_today": 6,
   "sold_today": [
     "SNOW",
@@ -3189,19 +3211,10 @@
     "TSM": 1791915557,
     "AVGO": 1791984979
   },
-  "last_publish_ts": 1791984979,
-  "last_check_ts": 1791984979,
+  "last_publish_ts": 1791985067,
+  "last_check_ts": 1791985067,
   "exp_arm": {
     "META": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "SNOW": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -3219,43 +3232,7 @@
         "ratchet": "on"
       }
     },
-    "ACN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "AVGO": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "KO": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "AMGN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "PG": {
+    "TSM": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -3266,15 +3243,18 @@
     }
   },
   "last_bar_ts": 1791984900,
-  "last_decision_ts": 1791984886,
-  "next_check_minutes": null,
+  "last_decision_ts": 1791985067,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "d0f0802b": 220.2807,
     "7d756be4": 748.4807,
+    "d0f0802b": 220.2807,
+    "5d6871fa": 440.3075,
     "765030f9": 218.7045,
+    "d7e10f99": 436.0834,
     "c0b47985": 756.7412,
     "f40b6c9d": 731.7486,
-    "234852d1": 213.2351
+    "234852d1": 213.2351,
+    "6d8c96f8": 425.927
   }
 }

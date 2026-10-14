@@ -62287,7 +62287,7 @@
     "code_version": "7da31dd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.15
+    "ret_now": -0.67
   },
   {
     "symbol": "SNOW",
@@ -62318,7 +62318,9 @@
     "code_version": "7da31dd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": -0.09,
+    "ret_final": -0.09,
+    "ret_src": "realised"
   },
   {
     "symbol": "CVX",
@@ -62349,7 +62351,7 @@
     "code_version": "7da31dd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06
+    "ret_now": -0.01
   },
   {
     "symbol": "ACN",
@@ -62380,7 +62382,9 @@
     "code_version": "7da31dd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.52
+    "ret_now": 1.01,
+    "ret_final": 1.01,
+    "ret_src": "realised"
   },
   {
     "symbol": "AVGO",
@@ -62411,7 +62415,9 @@
     "code_version": "7da31dd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.3
+    "ret_now": -0.86,
+    "ret_final": -0.86,
+    "ret_src": "realised"
   },
   {
     "symbol": "KO",
@@ -62442,7 +62448,9 @@
     "code_version": "7da31dd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": 0.24,
+    "ret_final": 0.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMGN",
@@ -62473,7 +62481,9 @@
     "code_version": "7da31dd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": 0.02,
+    "ret_final": 0.02,
+    "ret_src": "realised"
   },
   {
     "symbol": "PG",
@@ -62504,7 +62514,9 @@
     "code_version": "7da31dd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": 0.19,
+    "ret_final": 0.19,
+    "ret_src": "realised"
   },
   {
     "symbol": "SNOW",
@@ -62530,7 +62542,8 @@
     "evidence": "average cost $352.27",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "591737a"
+    "code_version": "591737a",
+    "hold_minutes": 2
   },
   {
     "symbol": "ACN",
@@ -62556,7 +62569,8 @@
     "evidence": "average cost $214.92",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "591737a"
+    "code_version": "591737a",
+    "hold_minutes": 2
   },
   {
     "symbol": "KO",
@@ -62582,7 +62596,8 @@
     "evidence": "average cost $90.95",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "591737a"
+    "code_version": "591737a",
+    "hold_minutes": 2
   },
   {
     "symbol": "PG",
@@ -62608,7 +62623,8 @@
     "evidence": "average cost $154.81",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "591737a"
+    "code_version": "591737a",
+    "hold_minutes": 2
   },
   {
     "symbol": "AVGO",
@@ -62634,7 +62650,8 @@
     "evidence": "average cost $351.71",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "591737a"
+    "code_version": "591737a",
+    "hold_minutes": 2
   },
   {
     "symbol": "AMGN",
@@ -62660,6 +62677,37 @@
     "evidence": "average cost $417.29",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "591737a"
+    "code_version": "591737a",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "TSM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.832191,
+    "price": 439.1,
+    "date": "2026-10-14",
+    "time_et": "09:37",
+    "ts": 1791985067,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +6.1% over the month; 76% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 439.01,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 6.11,
+    "hour_et": 9,
+    "code_version": "92fa090",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
