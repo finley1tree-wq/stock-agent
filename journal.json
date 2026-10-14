@@ -64285,7 +64285,7 @@
     "code_version": "3b919b7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.49
+    "ret_now": -0.54
   },
   {
     "symbol": "RARE",
@@ -64430,7 +64430,9 @@
     "code_version": "cf10879",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.35
+    "ret_now": -0.86,
+    "ret_final": -0.86,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -64537,5 +64539,32 @@
     "hour_et": 13,
     "code_version": "b00211a",
     "hold_minutes": 24
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 3.094865,
+    "status": "filled",
+    "price": 240.26,
+    "proceeds": 743.57,
+    "realized_pnl": -6.43,
+    "realized_pct": -0.86,
+    "date": "2026-10-14",
+    "time_et": "13:50",
+    "ts": 1792000200,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $242.34",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "9e618b6",
+    "hold_minutes": 18
   }
 ]
