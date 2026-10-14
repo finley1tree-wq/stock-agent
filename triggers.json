@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "92c761e1",
-   "ticker": "PPG",
-   "kind": "stop_loss",
-   "price": 101.5,
-   "status": "cancelled",
-   "created": "2026-10-08 12:40",
-   "created_ts": 1791477637,
-   "why": "Standard protective stop on new PPG position",
-   "evidence": "PPG current price 104.57, day_low 103.3",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 12:52",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "0eee1362",
    "ticker": "HUBB",
    "kind": "stop_loss",
@@ -7246,7 +7228,7 @@
    "ticker": "ACN",
    "kind": "stop_loss",
    "price": 213.7747,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 10:21",
    "created_ts": 1791987712,
    "why": "close it all at -1.2% under the average cost",
@@ -7256,7 +7238,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 10:30",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "a0258c82",
@@ -7446,7 +7430,24 @@
    ],
    "good_until": "2026-10-19",
    "usd": 500.0
+  },
+  {
+   "id": "a5da8bb0",
+   "ticker": "ACN",
+   "kind": "stop_loss",
+   "price": 216.888,
+   "status": "working",
+   "created": "2026-10-14 10:30",
+   "created_ts": 1791988258,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $216.45",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-14 10:27"
+ "updated": "2026-10-14 10:31"
 }
