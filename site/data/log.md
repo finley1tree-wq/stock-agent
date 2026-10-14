@@ -1,34 +1,3 @@
-- SELL 100% META [stop_loss @ $735.86] -> $743.12 (-0.92%) — close it all at -0.8% under the average cost
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2RSchvipD5Fi1b1A12r'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $19,660 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +9.1% over the month; 68% of today's range
-~ WORKING take_profit 100% WSM @ $242.46 until 2026-10-19 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% WSM @ $239.98 until 2026-10-19 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 WSM @ $234.50 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25338.47 (+1.35% on $25000.00 in) · cash $19345.22 · realised +345.22
-Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 24 order(s) working; budget left $18910.22 this week
-  (cancelled 2 standing order(s) on IBRX: position closed)
-- SELL 100% IBRX [take_profit @ $9.90] -> $756.26 (+0.83%) — close 100% at +0.8% over the average cost
-## 2026-10-14 12:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-14 12:13 ET (Wednesday) — week 2026-W42 — budget left $19666.48 (today $45000.00 put to work, 33 buys, 26 sells) — SIM (pretend money) via sim
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2Rg1WV9fdzmzfYsDsb9'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $19,666 idle, so opened 1: GTES. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 GTES [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +1.4% over the month; 67% of today's range
-~ WORKING take_profit 100% GTES @ $25.99 until 2026-10-19 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% GTES @ $25.64 until 2026-10-19 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 GTES @ $25.11 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25326.95 (+1.31% on $25000.00 in) · cash $19351.48 · realised +351.48
-Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $18916.48 this week
-
 ## 2026-10-14 12:16 ET (Wednesday) — week 2026-W42 — budget left $18916.48 (today $45750.00 put to work, 34 buys, 26 sells) — SIM (pretend money) via sim
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
@@ -398,3 +367,34 @@ Decision: nothing at this check. 18 standing order(s) working.
   (cancelled 2 standing order(s) on GTES: position closed)
 - SELL 100% GTES [stop_loss @ $25.63] -> $742.47 (-1.00%) — close it all at -1.0% under the average cost
 ## 2026-10-14 13:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-14 13:28 ET (Wednesday) — week 2026-W42 — budget left $21144.53 (today $48750.00 put to work, 38 buys, 33 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2XPkXawa4DHbkeGF6Ht'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25312.92 (+1.25% on $25000.00 in) · cash $21579.53 · realised +329.53
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-14 13:31 ET (Wednesday) — week 2026-W42 — budget left $21144.53 (today $48750.00 put to work, 38 buys, 33 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2Xd4M1tHuwGF1FPJwNE'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $21,145 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +9.4% over the month; 79% of today's range
+~ WORKING take_profit 100% WSM @ $243.05 until 2026-10-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $240.56 until 2026-10-19 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $235.07 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25316.30 (+1.27% on $25000.00 in) · cash $20829.53 · realised +329.53
+Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20394.53 this week
