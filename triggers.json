@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "e6905e99",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 220.0,
-   "status": "cancelled",
-   "created": "2026-10-09 09:32",
-   "created_ts": 1791552751,
-   "why": "Protective stop ~2.2% below entry",
-   "evidence": "IBM ATR 2.4%, protect against reversal",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "6d6d4416",
    "ticker": "HD",
    "kind": "stop_loss",
@@ -7394,7 +7376,7 @@
    "ticker": "ACN",
    "kind": "stop_loss",
    "price": 214.6843,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 11:22",
    "created_ts": 1791991363,
    "why": "close it all at -1.2% under the average cost",
@@ -7404,7 +7386,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 11:30",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "f4eb78d7",
@@ -7473,7 +7457,24 @@
    ],
    "good_until": "2026-10-19",
    "usd": 500.0
+  },
+  {
+   "id": "c168f4c1",
+   "ticker": "ACN",
+   "kind": "stop_loss",
+   "price": 217.732,
+   "status": "working",
+   "created": "2026-10-14 11:30",
+   "created_ts": 1791991850,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $217.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-14 11:30"
+ "updated": "2026-10-14 11:31"
 }

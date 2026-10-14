@@ -28845,3 +28845,17 @@ Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 2 standing order(s) on AVGO: position closed)
 - SELL 100% AVGO [stop_loss @ $348.43] -> $743.18 (-0.91%) — close it all at -0.8% under the average cost
 ## 2026-10-14 11:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-14 11:31 ET (Wednesday) — week 2026-W42 — budget left $23413.02 (today $36000.00 put to work, 21 buys, 19 sells) — SIM (pretend money) via sim
+  (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2NT82hBo5JayG8prTau'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25348.46 (+1.39% on $25000.00 in) · cash $23848.01 · realised +348.01
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
