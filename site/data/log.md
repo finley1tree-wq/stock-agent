@@ -1,6 +1,3 @@
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzpGrVnxdykEazFwDPRc'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25358.57 (+1.43% on $25000.00 in) · cash $25358.57 · realised +358.57
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 META @ $723.08 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25349.99 (+1.40% on $25000.00 in) · cash $20848.67 · realised +348.67
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20413.68 this week
+  (cancelled 2 standing order(s) on SNOW: position closed)
+- SELL 100% SNOW [take_profit @ $351.82] -> $753.46 (+0.46%) — close 100% at +0.4% over the average cost
+## 2026-10-14 10:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
