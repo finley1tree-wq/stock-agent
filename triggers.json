@@ -7407,7 +7407,7 @@
    "ticker": "SNOW",
    "kind": "take_profit",
    "price": 344.9014,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 11:11",
    "created_ts": 1791990673,
    "why": "close 100% at +0.4% over the average cost",
@@ -7417,7 +7417,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 11:20",
+   "cancel_reason": "position closed"
   },
   {
    "id": "e373878d",
@@ -7443,7 +7445,7 @@
    "ticker": "SNOW",
    "kind": "buy_limit",
    "price": 333.0689,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 11:11",
    "created_ts": 1791990673,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7453,14 +7455,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-14 11:20",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0a45d518",
    "ticker": "SNOW",
    "kind": "stop_loss",
    "price": 344.15,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-14 11:17",
    "created_ts": 1791991058,
    "why": "close it all at -1.1% under the average cost",
@@ -7470,8 +7474,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 11:20"
   }
  ],
- "updated": "2026-10-14 11:19"
+ "updated": "2026-10-14 11:20"
 }

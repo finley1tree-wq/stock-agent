@@ -28791,3 +28791,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25351.38 (+1.41% on $25000.00 in) · cash $23853.51 · realised +353.51
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on SNOW: position closed)
+- SELL 100% SNOW [stop_loss @ $343.98] -> $751.33 (+0.18%) — close it all at -1.1% under the average cost
+## 2026-10-14 11:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 1581.49,
+  "spent": 830.16,
   "deployed": 125550.0,
   "by_ticker": {
     "TSM": 16.85,
@@ -10,7 +10,7 @@
     "NEOG": 50.85,
     "PG": 3.57,
     "KO": 2.94,
-    "SNOW": 762.4,
+    "SNOW": 11.07,
     "META": 33.57,
     "AMGN": 2.8,
     "ACN": 2.78
@@ -3634,13 +3634,34 @@
       ],
       "evidence": "average cost $154.88",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "SNOW",
+      "side": "sell",
+      "qty": 2.184241,
+      "status": "filled",
+      "price": 343.98,
+      "proceeds": 751.33,
+      "realized_pnl": 1.33,
+      "realized_pct": 0.18,
+      "date": "2026-10-14",
+      "time_et": "11:20",
+      "ts": 1791991200,
+      "why": "close it all at -1.1% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $343.37",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 1505.06,
+  "spent_today": 753.73,
   "deployed_today": 34500.0,
   "orders_today": 19,
-  "sells_today": 17,
+  "sells_today": 18,
   "sold_today": [
     "SNOW",
     "ACN",
@@ -3658,7 +3679,7 @@
     "KO": 1791989675,
     "AMGN": 1791989841,
     "META": 1791988814,
-    "SNOW": 1791987944,
+    "SNOW": 1791991237,
     "CVX": 1791989676,
     "MSFT": 1791815796,
     "PG": 1791990764,
@@ -3666,8 +3687,8 @@
     "TSM": 1791989443,
     "AVGO": 1791984979
   },
-  "last_publish_ts": 1791991058,
-  "last_check_ts": 1791991191,
+  "last_publish_ts": 1791991236,
+  "last_check_ts": 1791991282,
   "exp_arm": {
     "PG": {
       "params": {
@@ -3697,16 +3718,13 @@
       }
     }
   },
-  "last_bar_ts": 1791990900,
+  "last_bar_ts": 1791991200,
   "last_decision_ts": 1791991191,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "99f98fb5": 344.9014,
-    "0a45d518": 344.15,
     "75f5ed07": 348.7291,
     "8591464e": 352.7904,
-    "ca41e8b4": 341.0811,
-    "e48da5b2": 333.0689
+    "ca41e8b4": 341.0811
   }
 }
