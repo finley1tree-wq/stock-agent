@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "9d609ca1",
-   "ticker": "IBP",
-   "kind": "take_profit",
-   "price": 183.5897,
-   "status": "filled",
-   "created": "2026-10-09 09:48",
-   "created_ts": 1791553718,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $182.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 09:52"
-  },
-  {
    "id": "7fb07e60",
    "ticker": "IBP",
    "kind": "buy_limit",
@@ -7445,7 +7427,7 @@
    "ticker": "PG",
    "kind": "stop_loss",
    "price": 154.566,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 11:58",
    "created_ts": 1791993493,
    "why": "close it all at -0.4% under the average cost",
@@ -7455,7 +7437,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 12:02",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "1e454149",
@@ -7473,7 +7457,24 @@
    ],
    "good_until": "2026-10-19",
    "usd": 500.0
+  },
+  {
+   "id": "e18a7e71",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 155.35,
+   "status": "working",
+   "created": "2026-10-14 12:02",
+   "created_ts": 1791993765,
+   "why": "close it all at -0.4% under the average cost",
+   "evidence": "average cost $155.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-14 12:01"
+ "updated": "2026-10-14 12:02"
 }
