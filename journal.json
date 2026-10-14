@@ -64285,7 +64285,9 @@
     "code_version": "3b919b7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.56
+    "ret_now": -0.77,
+    "ret_final": -0.77,
+    "ret_src": "realised"
   },
   {
     "symbol": "RARE",
@@ -64566,5 +64568,32 @@
     "hour_et": 13,
     "code_version": "9e618b6",
     "hold_minutes": 18
+  },
+  {
+    "symbol": "TSM",
+    "side": "sell",
+    "qty": 1.735443,
+    "status": "filled",
+    "price": 428.83,
+    "proceeds": 744.21,
+    "realized_pnl": -5.79,
+    "realized_pct": -0.77,
+    "date": "2026-10-14",
+    "time_et": "14:11",
+    "ts": 1792001400,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $432.17",
+    "trigger": "stop_loss",
+    "hour_et": 14,
+    "code_version": "6d747ee",
+    "hold_minutes": 56
   }
 ]

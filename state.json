@@ -1,9 +1,9 @@
 {
   "week": "2026-W42",
-  "spent": 886.0,
+  "spent": 141.79,
   "deployed": 140550.0,
   "by_ticker": {
-    "TSM": 772.48,
+    "TSM": 28.27,
     "IBM": 19.61,
     "AVGO": 41.43,
     "CVX": 23.77,
@@ -4526,13 +4526,34 @@
       ],
       "evidence": "average cost $242.34",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 1.735443,
+      "status": "filled",
+      "price": 428.83,
+      "proceeds": 744.21,
+      "realized_pnl": -5.79,
+      "realized_pct": -0.77,
+      "date": "2026-10-14",
+      "time_et": "14:11",
+      "ts": 1792001400,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $432.17",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 809.57,
+  "spent_today": 65.36,
   "deployed_today": 49500.0,
   "orders_today": 39,
-  "sells_today": 38,
+  "sells_today": 39,
   "sold_today": [
     "SNOW",
     "ACN",
@@ -4563,7 +4584,7 @@
     "MSFT": 1791999246,
     "PG": 1791993960,
     "NEOG": 1791899653,
-    "TSM": 1791995160,
+    "TSM": 1792001467,
     "AVGO": 1791991810,
     "IBRX": 1791998762,
     "AEIS": 1791999598,
@@ -4573,8 +4594,8 @@
     "GTES": 1791998931,
     "ADI": 1791999246
   },
-  "last_publish_ts": 1792000818,
-  "last_check_ts": 1792001427,
+  "last_publish_ts": 1792001466,
+  "last_check_ts": 1792001514,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -4632,11 +4653,8 @@
     }
   },
   "last_bar_ts": 1792001400,
-  "last_decision_ts": 1792001325,
+  "last_decision_ts": 1792001514,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "c5accc1b": 429.0454,
-    "b704a9ec": 433.419
-  }
+  "book_px": {}
 }
