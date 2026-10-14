@@ -62860,7 +62860,7 @@
     "code_version": "c291c17",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01
+    "ret_now": 0.1
   },
   {
     "symbol": "PG",
@@ -62891,7 +62891,7 @@
     "code_version": "c291c17",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.35
+    "ret_now": -0.25
   },
   {
     "symbol": "ACN",
@@ -62955,7 +62955,7 @@
     "code_version": "c291c17",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": -0.16
   },
   {
     "symbol": "META",
@@ -63046,7 +63046,9 @@
     "code_version": "1847475",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": -0.03,
+    "ret_final": -0.03,
+    "ret_src": "realised"
   },
   {
     "symbol": "ACN",
@@ -63131,7 +63133,7 @@
     "code_version": "f651957",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.08
+    "ret_now": 0.01
   },
   {
     "symbol": "AMGN",
@@ -63162,6 +63164,33 @@
     "code_version": "f651957",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": 0.05
+  },
+  {
+    "symbol": "TSM",
+    "side": "sell",
+    "qty": 1.71614,
+    "status": "filled",
+    "price": 436.9,
+    "proceeds": 749.78,
+    "realized_pnl": -0.22,
+    "realized_pct": -0.03,
+    "date": "2026-10-14",
+    "time_et": "10:50",
+    "ts": 1791989400,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $437.03",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "6f6db54",
+    "hold_minutes": 22
   }
 ]

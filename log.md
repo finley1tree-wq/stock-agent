@@ -28620,3 +28620,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25345.40 (+1.38% on $25000.00 in) · cash $20847.73 · realised +347.73
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [stop_loss @ $436.90] -> $749.78 (-0.03%) — close it all at -0.7% under the average cost
+## 2026-10-14 10:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-14 10:51 ET (Wednesday) — week 2026-W42 — budget left $21162.52 (today $33750.00 put to work, 18 buys, 13 sells) — SIM (pretend money) via sim
+  (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2KPrf3UDYgnHXMnN8ie'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25344.91 (+1.38% on $25000.00 in) · cash $21597.51 · realised +347.51
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

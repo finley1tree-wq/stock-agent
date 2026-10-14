@@ -1,20 +1,3 @@
-  (cancelled 2 standing order(s) on KO: position closed)
-- SELL 100% KO [take_profit @ $91.17] -> $3007.32 (+0.24%) — close 100% at +0.1% over the average cost
-  (cancelled 2 standing order(s) on PG: position closed)
-- SELL 100% PG [take_profit @ $155.11] -> $3005.80 (+0.19%) — close 100% at +0.2% over the average cost
-## 2026-10-14 09:35 ET — tick — 4 sell(s), 0 buy(s) from standing orders
-  (trigger AMGN take_profit superseded at this check)
-  (cancelled 2 standing order(s) on AVGO: position closed)
-- SELL 100% AVGO [stop_loss @ $348.69] -> $2974.21 (-0.86%) — close it all at -0.8% under the average cost
-  (cancelled 1 standing order(s) on AMGN: position closed)
-- SELL 100% AMGN [stop_loss @ $417.37] -> $3000.56 (+0.02%) — close it all at -0.6% under the average cost
-## 2026-10-14 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-14 09:37 ET (Wednesday) — week 2026-W42 — budget left $18938.97 (today $24000.00 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
-  (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
   (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
   (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2DmhQ5cJqF7Jy47f2Gk'}
@@ -398,3 +381,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25343.13 (+1.37% on $25000.00 in) · cash $20847.73 · realised +347.73
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-14 10:48 ET (Wednesday) — week 2026-W42 — budget left $20412.74 (today $33750.00 put to work, 18 buys, 12 sells) — SIM (pretend money) via sim
+  (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2K9ixJ4DzUzBpYB9KLb'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25345.40 (+1.38% on $25000.00 in) · cash $20847.73 · realised +347.73
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on TSM: position closed)
+- SELL 100% TSM [stop_loss @ $436.90] -> $749.78 (-0.03%) — close it all at -0.7% under the average cost
+## 2026-10-14 10:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders

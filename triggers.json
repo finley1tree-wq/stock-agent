@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "df3661f6",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 338.3651,
-   "status": "cancelled",
-   "created": "2026-10-08 12:56",
-   "created_ts": 1791478580,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $348.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-13",
-   "usd": 500.0,
-   "closed": "2026-10-08 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "bdd00778",
    "ticker": "AMZN",
    "kind": "take_profit",
@@ -6978,7 +6959,7 @@
    "ticker": "KO",
    "kind": "stop_loss",
    "price": 90.3916,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 10:21",
    "created_ts": 1791987712,
    "why": "close it all at -0.4% under the average cost",
@@ -6988,7 +6969,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 10:50",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5e16a7a2",
@@ -7247,7 +7230,7 @@
    "ticker": "TSM",
    "kind": "take_profit",
    "price": 438.2362,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 10:27",
    "created_ts": 1791988071,
    "why": "close 100% at +0.3% over the average cost",
@@ -7257,7 +7240,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 10:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c8a943ff",
@@ -7283,7 +7268,7 @@
    "ticker": "TSM",
    "kind": "buy_limit",
    "price": 423.9191,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 10:27",
    "created_ts": 1791988071,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7293,7 +7278,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-14 10:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a5da8bb0",
@@ -7438,7 +7425,7 @@
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 437.414,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-14 10:46",
    "created_ts": 1791989164,
    "why": "close it all at -0.7% under the average cost",
@@ -7448,8 +7435,26 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 10:50"
+  },
+  {
+   "id": "390e5f8d",
+   "ticker": "KO",
+   "kind": "stop_loss",
+   "price": 90.772,
+   "status": "working",
+   "created": "2026-10-14 10:50",
+   "created_ts": 1791989442,
+   "why": "close it all at -0.4% under the average cost",
+   "evidence": "average cost $90.73",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-14 10:48"
+ "updated": "2026-10-14 10:51"
 }

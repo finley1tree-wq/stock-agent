@@ -1,9 +1,9 @@
 {
   "week": "2026-W42",
-  "spent": 4587.26,
+  "spent": 3837.48,
   "deployed": 124800.0,
   "by_ticker": {
-    "TSM": 766.63,
+    "TSM": 16.85,
     "IBM": 19.61,
     "AVGO": 784.61,
     "CVX": 776.81,
@@ -3507,13 +3507,34 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 1.71614,
+      "status": "filled",
+      "price": 436.9,
+      "proceeds": 749.78,
+      "realized_pnl": -0.22,
+      "realized_pct": -0.03,
+      "date": "2026-10-14",
+      "time_et": "10:50",
+      "ts": 1791989400,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $437.03",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 4510.83,
+  "spent_today": 3761.05,
   "deployed_today": 33750.0,
   "orders_today": 18,
-  "sells_today": 12,
+  "sells_today": 13,
   "sold_today": [
     "SNOW",
     "ACN",
@@ -3536,11 +3557,11 @@
     "MSFT": 1791815796,
     "PG": 1791984934,
     "NEOG": 1791899653,
-    "TSM": 1791985218,
+    "TSM": 1791989443,
     "AVGO": 1791984979
   },
-  "last_publish_ts": 1791989164,
-  "last_check_ts": 1791989393,
+  "last_publish_ts": 1791989442,
+  "last_check_ts": 1791989491,
   "exp_arm": {
     "KO": {
       "params": {
@@ -3597,28 +3618,25 @@
       }
     }
   },
-  "last_bar_ts": 1791989100,
-  "last_decision_ts": 1791989301,
+  "last_bar_ts": 1791989400,
+  "last_decision_ts": 1791989491,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "e39b1bda": 437.414,
-    "0559a663": 438.2362,
-    "6291add6": 154.1861,
+    "390e5f8d": 90.772,
     "f672856b": 90.8661,
-    "eb6e5aa0": 426.0746,
-    "ca5010bc": 90.3916,
+    "6291add6": 154.1861,
     "0690986e": 220.2005,
+    "eb6e5aa0": 426.0746,
+    "56c03382": 155.1572,
     "8591464e": 352.7904,
     "8f8fb25e": 218.6249,
-    "56c03382": 155.1572,
     "2ae10b86": 422.1014,
     "75f5ed07": 348.7291,
     "30de320b": 150.2336,
-    "d630326a": 213.1575,
-    "5e16a7a2": 88.0081,
-    "fe516bc3": 412.1918,
     "ca41e8b4": 341.0811,
-    "ae95b07a": 423.9191
+    "fe516bc3": 412.1918,
+    "d630326a": 213.1575,
+    "5e16a7a2": 88.0081
   }
 }
