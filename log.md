@@ -29080,3 +29080,22 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $500.00 IBRX @ $9.53 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25340.25 (+1.36% on $25000.00 in) · cash $19352.11 · realised +352.11
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $18917.10 this week
+
+## 2026-10-14 12:10 ET (Wednesday) — week 2026-W42 — budget left $18917.10 (today $44250.00 put to work, 32 buys, 24 sells) — SIM (pretend money) via sim
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [stop_loss @ $735.86] -> $743.12 (-0.92%) — close it all at -0.8% under the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2RSchvipD5Fi1b1A12r'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $19,660 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +9.1% over the month; 68% of today's range
+~ WORKING take_profit 100% WSM @ $242.46 until 2026-10-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $239.98 until 2026-10-19 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $234.50 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25338.47 (+1.35% on $25000.00 in) · cash $19345.22 · realised +345.22
+Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 24 order(s) working; budget left $18910.22 this week

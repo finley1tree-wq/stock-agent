@@ -1,18 +1,9 @@
 {
-  "cash": 19352.105750671344,
+  "cash": 19345.221945015604,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W42",
   "positions": {
-    "META": {
-      "qty": 1.009858227942307,
-      "avg_cost": 742.678506,
-      "opened": "2026-10-14",
-      "last_buy": "2026-10-14",
-      "tranches": 1,
-      "last_buy_ts": 1791991548,
-      "opened_ts": 1791991548
-    },
     "TSM": {
       "qty": 1.7268101280259793,
       "avg_cost": 434.326848,
@@ -75,6 +66,15 @@
       "tranches": 1,
       "last_buy_ts": 1791994060,
       "opened_ts": 1791994060
+    },
+    "WSM": {
+      "qty": 3.1024213529982174,
+      "avg_cost": 241.74666,
+      "opened": "2026-10-14",
+      "last_buy": "2026-10-14",
+      "tranches": 1,
+      "last_buy_ts": 1791994260,
+      "opened_ts": 1791994260
     }
   },
   "fills": [
@@ -25632,7 +25632,29 @@
       "price": 9.82,
       "type": "buy",
       "date": "2026-10-14 12:07"
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 1.009858,
+      "status": "filled",
+      "price": 735.86,
+      "proceeds": 743.12,
+      "realized_pnl": -6.88,
+      "realized_pct": -0.92,
+      "type": "sell",
+      "date": "2026-10-14 12:10"
+    },
+    {
+      "symbol": "WSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.102421,
+      "price": 241.75,
+      "type": "buy",
+      "date": "2026-10-14 12:11"
     }
   ],
-  "realized_pnl": 352.1057506713664
+  "realized_pnl": 345.2219450156255
 }

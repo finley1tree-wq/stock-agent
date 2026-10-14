@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "0ae7bd5d",
-   "ticker": "NEM",
-   "kind": "stop_loss",
-   "price": 115.5,
-   "status": "cancelled",
-   "created": "2026-10-09 10:52",
-   "created_ts": 1791557542,
-   "why": "Protective stop for new NEM position",
-   "evidence": "NEM ATR 3.03%, protect ~2% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 11:18",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "1c9aa12b",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 472.7,
-   "status": "cancelled",
-   "created": "2026-10-09 10:52",
-   "created_ts": 1791557542,
-   "why": "Protective stop for new NOC position",
-   "evidence": "NOC ATR 2.39%, protect ~2% below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 11:15",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "0de3cfc7",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 530.2091,
-   "status": "cancelled",
-   "created": "2026-10-09 10:52",
-   "created_ts": 1791557542,
-   "why": "wanted it, but not at the high \u2014 resting at $530.21. Congress-backed name with strong recent momentum, mid position size [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "evidence": "Cleo Fields disclosed MSFT buy 2026-09-10 filed 2026-10-01; MSFT +1.98% today near day high 92.8% range but strong 1m momentum +8.22%",
-   "signals": [
-    "congress",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-10-09",
-   "usd": 625.0,
-   "closed": "2026-10-09 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "da7f5f2f",
    "ticker": "IBM",
    "kind": "take_profit",
@@ -6765,7 +6709,7 @@
    "ticker": "META",
    "kind": "take_profit",
    "price": 745.1234,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 11:25",
    "created_ts": 1791991537,
    "why": "close 100% at +0.3% over the average cost",
@@ -6775,14 +6719,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 12:10",
+   "cancel_reason": "position closed"
   },
   {
    "id": "2630f1a5",
    "ticker": "META",
    "kind": "stop_loss",
    "price": 736.5752,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-14 11:25",
    "created_ts": 1791991537,
    "why": "close it all at -0.8% under the average cost",
@@ -6792,14 +6738,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 12:10"
   },
   {
    "id": "38357c19",
    "ticker": "META",
    "kind": "buy_limit",
    "price": 720.3996,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 11:25",
    "created_ts": 1791991537,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6809,7 +6756,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-14 12:10",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c168f4c1",
@@ -7447,7 +7396,58 @@
    ],
    "good_until": "2026-10-19",
    "usd": 500.0
+  },
+  {
+   "id": "60a4caa2",
+   "ticker": "WSM",
+   "kind": "take_profit",
+   "price": 242.4607,
+   "status": "working",
+   "created": "2026-10-14 12:10",
+   "created_ts": 1791994248,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $241.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "558b1318",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 239.9756,
+   "status": "working",
+   "created": "2026-10-14 12:10",
+   "created_ts": 1791994248,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $241.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "181ae33f",
+   "ticker": "WSM",
+   "kind": "buy_limit",
+   "price": 234.4975,
+   "status": "working",
+   "created": "2026-10-14 12:10",
+   "created_ts": 1791994248,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $241.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-14 12:07"
+ "updated": "2026-10-14 12:10"
 }
