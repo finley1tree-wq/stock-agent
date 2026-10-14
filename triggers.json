@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "b621a4b0",
-   "ticker": "GS",
-   "kind": "buy_limit",
-   "price": 854.5506,
-   "status": "cancelled",
-   "created": "2026-10-08 13:12",
-   "created_ts": 1791479522,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $880.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-13",
-   "usd": 500.0,
-   "closed": "2026-10-08 13:16",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "64515bed",
    "ticker": "NFLX",
    "kind": "take_profit",
@@ -7443,7 +7424,7 @@
    "ticker": "SNOW",
    "kind": "stop_loss",
    "price": 339.538,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 11:11",
    "created_ts": 1791990673,
    "why": "close it all at -1.1% under the average cost",
@@ -7453,7 +7434,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 11:17",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "e48da5b2",
@@ -7471,7 +7454,24 @@
    ],
    "good_until": "2026-10-19",
    "usd": 500.0
+  },
+  {
+   "id": "0a45d518",
+   "ticker": "SNOW",
+   "kind": "stop_loss",
+   "price": 344.15,
+   "status": "working",
+   "created": "2026-10-14 11:17",
+   "created_ts": 1791991058,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $343.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-14 11:16"
+ "updated": "2026-10-14 11:17"
 }
