@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "c6526395",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 353.468,
-   "status": "cancelled",
-   "created": "2026-10-09 10:52",
-   "created_ts": 1791557542,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $364.4",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "usd": 500.0,
-   "closed": "2026-10-09 12:22",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "83ebda98",
    "ticker": "NEM",
    "kind": "take_profit",
@@ -7382,7 +7363,7 @@
    "ticker": "WSM",
    "kind": "stop_loss",
    "price": 239.9756,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 12:10",
    "created_ts": 1791994248,
    "why": "close it all at -0.7% under the average cost",
@@ -7392,7 +7373,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 12:36",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "181ae33f",
@@ -7461,7 +7444,24 @@
    ],
    "good_until": "2026-10-19",
    "usd": 500.0
+  },
+  {
+   "id": "94273eab",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 241.966,
+   "status": "working",
+   "created": "2026-10-14 12:36",
+   "created_ts": 1791995793,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $241.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-14 12:34"
+ "updated": "2026-10-14 12:36"
 }
