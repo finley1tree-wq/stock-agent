@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 4605.47,
+  "spent": 3110.26,
   "deployed": 140550.0,
   "by_ticker": {
     "TSM": 772.48,
@@ -15,8 +15,8 @@
     "AMGN": 0.8,
     "ACN": 2.09,
     "BHE": 758.44,
-    "MSFT": 750.0,
-    "ADI": 750.0,
+    "MSFT": 2.27,
+    "ADI": 2.52,
     "AEIS": 760.54,
     "GTES": 7.53,
     "WSM": 750.0
@@ -4423,13 +4423,53 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 1.396915,
+      "status": "filled",
+      "price": 535.27,
+      "proceeds": 747.73,
+      "realized_pnl": -2.27,
+      "realized_pct": -0.3,
+      "date": "2026-10-14",
+      "time_et": "13:34",
+      "ts": 1791999245,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.28% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.84724,
+      "status": "filled",
+      "price": 404.65,
+      "proceeds": 747.48,
+      "realized_pnl": -2.52,
+      "realized_pct": -0.34,
+      "date": "2026-10-14",
+      "time_et": "13:34",
+      "ts": 1791999245,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.32% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 4529.04,
+  "spent_today": 3033.83,
   "deployed_today": 49500.0,
   "orders_today": 39,
-  "sells_today": 33,
+  "sells_today": 35,
   "sold_today": [
     "SNOW",
     "ACN",
@@ -4445,7 +4485,9 @@
     "BHE",
     "WSM",
     "RARE",
-    "GTES"
+    "GTES",
+    "MSFT",
+    "ADI"
   ],
   "sold_ts": {
     "ACN": 1791992108,
@@ -4455,7 +4497,7 @@
     "META": 1791994257,
     "SNOW": 1791991237,
     "CVX": 1791993409,
-    "MSFT": 1791815796,
+    "MSFT": 1791999246,
     "PG": 1791993960,
     "NEOG": 1791899653,
     "TSM": 1791995160,
@@ -4465,10 +4507,11 @@
     "BHE": 1791995114,
     "WSM": 1791996330,
     "RARE": 1791998499,
-    "GTES": 1791998931
+    "GTES": 1791998931,
+    "ADI": 1791999246
   },
-  "last_publish_ts": 1791999111,
-  "last_check_ts": 1791999206,
+  "last_publish_ts": 1791999245,
+  "last_check_ts": 1791999293,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -4526,27 +4569,21 @@
     }
   },
   "last_bar_ts": 1791999000,
-  "last_decision_ts": 1791999111,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1791999293,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "d846315d": 533.5873,
-    "0517d12a": 243.0525,
     "c5accc1b": 429.0454,
-    "ffacf774": 402.9162,
-    "3a7628e9": 538.2261,
-    "d26df520": 407.2483,
     "442ae019": 74.8258,
-    "b704a9ec": 433.419,
+    "0517d12a": 243.0525,
     "0c92cec7": 240.5612,
-    "6546ba97": 75.8954,
     "b391df75": 258.5029,
+    "b704a9ec": 433.419,
+    "6546ba97": 75.8954,
     "bdb1e30e": 263.6229,
     "6c0107b7": 254.2952,
-    "98febf3f": 419.2049,
     "b44fb8fa": 73.3223,
-    "b7597ee5": 393.8297,
-    "389513df": 520.793,
+    "98febf3f": 419.2049,
     "73c4785c": 235.0698
   }
 }

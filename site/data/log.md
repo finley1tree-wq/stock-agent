@@ -1,6 +1,3 @@
-## 2026-10-14 12:16 ET (Wednesday) — week 2026-W42 — budget left $18916.48 (today $45750.00 put to work, 34 buys, 26 sells) — SIM (pretend money) via sim
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
   (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
   (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $235.07 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25316.30 (+1.27% on $25000.00 in) · cash $20829.53 · realised +329.53
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20394.53 this week
+- SELL 100% MSFT [time stop] -> $747.73 (-0.30%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% ADI [time stop] -> $747.48 (-0.34%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-14 13:34 ET — tick — 2 sell(s), 0 buy(s) from standing orders

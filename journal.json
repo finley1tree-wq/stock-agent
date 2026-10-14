@@ -63799,7 +63799,9 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.26
+    "ret_now": -0.3,
+    "ret_final": -0.3,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -63830,7 +63832,9 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.29
+    "ret_now": -0.34,
+    "ret_final": -0.34,
+    "ret_src": "realised"
   },
   {
     "symbol": "RARE",
@@ -64215,7 +64219,7 @@
     "code_version": "946156d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24
+    "ret_now": -0.66
   },
   {
     "symbol": "AEIS",
@@ -64246,7 +64250,7 @@
     "code_version": "946156d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.39
+    "ret_now": -0.68
   },
   {
     "symbol": "TSM",
@@ -64277,7 +64281,7 @@
     "code_version": "3b919b7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.36
+    "ret_now": -0.38
   },
   {
     "symbol": "RARE",
@@ -64421,6 +64425,59 @@
     "hour_et": 13,
     "code_version": "cf10879",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.15
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": 1.396915,
+    "status": "filled",
+    "price": 535.27,
+    "proceeds": 747.73,
+    "realized_pnl": -2.27,
+    "realized_pct": -0.3,
+    "date": "2026-10-14",
+    "time_et": "13:34",
+    "ts": 1791999245,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.28% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 13,
+    "code_version": "b3469dd",
+    "hold_minutes": 89
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 1.84724,
+    "status": "filled",
+    "price": 404.65,
+    "proceeds": 747.48,
+    "realized_pnl": -2.52,
+    "realized_pct": -0.34,
+    "date": "2026-10-14",
+    "time_et": "13:34",
+    "ts": 1791999245,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.32% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 13,
+    "code_version": "b3469dd",
+    "hold_minutes": 89
   }
 ]
