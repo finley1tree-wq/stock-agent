@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "64515bed",
-   "ticker": "NFLX",
-   "kind": "take_profit",
-   "price": 71.111,
-   "status": "filled",
-   "created": "2026-10-08 13:12",
-   "created_ts": 1791479522,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $70.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-13",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 13:20"
-  },
-  {
-   "id": "86ad5d0a",
-   "ticker": "NFLX",
-   "kind": "buy_limit",
-   "price": 68.8118,
-   "status": "cancelled",
-   "created": "2026-10-08 13:12",
-   "created_ts": 1791479522,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $70.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-13",
-   "usd": 500.0,
-   "closed": "2026-10-08 13:20",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "862135b5",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 217.0,
-   "status": "cancelled",
-   "created": "2026-10-08 13:28",
-   "created_ts": 1791480494,
-   "why": "Protective stop on new IBM position",
-   "evidence": "IBM day low 217.81, placing stop just below to cap downside",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 13:32",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "ff1096ce",
    "ticker": "IBM",
    "kind": "take_profit",
@@ -7476,7 +7421,58 @@
    "good_until": "2026-10-19",
    "pct_of_position": 100.0,
    "closed": "2026-10-14 11:20"
+  },
+  {
+   "id": "280bcffe",
+   "ticker": "ACN",
+   "kind": "take_profit",
+   "price": 218.4294,
+   "status": "working",
+   "created": "2026-10-14 11:22",
+   "created_ts": 1791991363,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $217.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2dbc9ea7",
+   "ticker": "ACN",
+   "kind": "stop_loss",
+   "price": 214.6843,
+   "status": "working",
+   "created": "2026-10-14 11:22",
+   "created_ts": 1791991363,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $217.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f4eb78d7",
+   "ticker": "ACN",
+   "kind": "buy_limit",
+   "price": 210.8392,
+   "status": "working",
+   "created": "2026-10-14 11:22",
+   "created_ts": 1791991363,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $217.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-14 11:20"
+ "updated": "2026-10-14 11:22"
 }

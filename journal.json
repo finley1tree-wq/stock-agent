@@ -62959,7 +62959,7 @@
     "code_version": "c291c17",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.53
+    "ret_now": -0.61
   },
   {
     "symbol": "META",
@@ -63311,7 +63311,9 @@
     "code_version": "ff83ded",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.29
+    "ret_now": 0.18,
+    "ret_final": 0.18,
+    "ret_src": "realised"
   },
   {
     "symbol": "PG",
@@ -63364,6 +63366,37 @@
     "evidence": "average cost $343.37",
     "trigger": "stop_loss",
     "hour_et": 11,
-    "code_version": "77ef66e"
+    "code_version": "77ef66e",
+    "hold_minutes": 8
+  },
+  {
+    "symbol": "ACN",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.450442,
+    "price": 217.36,
+    "date": "2026-10-14",
+    "time_et": "11:22",
+    "ts": 1791991363,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +12.4% over the month; 71% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 217.32,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 12.37,
+    "hour_et": 11,
+    "code_version": "218d54f",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
