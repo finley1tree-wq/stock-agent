@@ -29449,3 +29449,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25320.18 (+1.28% on $25000.00 in) · cash $20077.17 · realised +327.17
 Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on RARE: position closed)
+- SELL 100% RARE [take_profit @ $14.95] -> $754.32 (+0.58%) — close 100% at +0.5% over the average cost
+## 2026-10-14 13:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders

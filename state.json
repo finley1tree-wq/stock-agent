@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 5357.82,
+  "spent": 4603.5,
   "deployed": 139050.0,
   "by_ticker": {
     "TSM": 772.48,
@@ -17,7 +17,6 @@
     "BHE": 758.44,
     "MSFT": 750.0,
     "ADI": 750.0,
-    "RARE": 750.0,
     "AEIS": 760.54,
     "GTES": 750.0
   },
@@ -4316,13 +4315,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "RARE",
+      "side": "sell",
+      "qty": 50.450883,
+      "status": "filled",
+      "price": 14.95,
+      "proceeds": 754.32,
+      "realized_pnl": 4.32,
+      "realized_pct": 0.58,
+      "date": "2026-10-14",
+      "time_et": "13:21",
+      "ts": 1791998400,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $14.87",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 5281.39,
+  "spent_today": 4527.07,
   "deployed_today": 48000.0,
   "orders_today": 37,
-  "sells_today": 30,
+  "sells_today": 31,
   "sold_today": [
     "SNOW",
     "ACN",
@@ -4336,7 +4356,8 @@
     "IBRX",
     "AEIS",
     "BHE",
-    "WSM"
+    "WSM",
+    "RARE"
   ],
   "sold_ts": {
     "ACN": 1791992108,
@@ -4354,10 +4375,11 @@
     "IBRX": 1791994430,
     "AEIS": 1791995069,
     "BHE": 1791995114,
-    "WSM": 1791996330
+    "WSM": 1791996330,
+    "RARE": 1791998499
   },
-  "last_publish_ts": 1791998031,
-  "last_check_ts": 1791998408,
+  "last_publish_ts": 1791998498,
+  "last_check_ts": 1791998498,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -4428,26 +4450,23 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "b704a9ec": 433.419,
-    "d95d586e": 14.9516,
     "24901002": 25.6389,
-    "3a7628e9": 538.2261,
     "d26df520": 407.2483,
+    "b704a9ec": 433.419,
     "d846315d": 533.5873,
-    "ffacf774": 402.9162,
-    "bdb1e30e": 263.6229,
-    "6546ba97": 75.8954,
-    "c5accc1b": 429.0454,
+    "3a7628e9": 538.2261,
     "442ae019": 74.8258,
+    "bdb1e30e": 263.6229,
+    "c5accc1b": 429.0454,
+    "ffacf774": 402.9162,
+    "6546ba97": 75.8954,
     "456b2bb6": 25.9905,
     "b391df75": 258.5029,
-    "f4626790": 14.6658,
     "fdc63599": 25.1133,
     "b44fb8fa": 73.3223,
     "389513df": 520.793,
-    "b7597ee5": 393.8297,
-    "6c0107b7": 254.2952,
     "98febf3f": 419.2049,
-    "800fc4bb": 14.4239
+    "6c0107b7": 254.2952,
+    "b7597ee5": 393.8297
   }
 }

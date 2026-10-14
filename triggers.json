@@ -7013,7 +7013,7 @@
    "ticker": "RARE",
    "kind": "take_profit",
    "price": 14.9516,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-14 12:04",
    "created_ts": 1791993861,
    "why": "close 100% at +0.5% over the average cost",
@@ -7023,14 +7023,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 13:21"
   },
   {
    "id": "f4626790",
    "ticker": "RARE",
    "kind": "stop_loss",
    "price": 14.6658,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 12:04",
    "created_ts": 1791993861,
    "why": "close it all at -1.4% under the average cost",
@@ -7040,14 +7041,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 13:21",
+   "cancel_reason": "position closed"
   },
   {
    "id": "800fc4bb",
    "ticker": "RARE",
    "kind": "buy_limit",
    "price": 14.4239,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 12:04",
    "created_ts": 1791993861,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7057,7 +7060,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-14 13:21",
+   "cancel_reason": "position closed"
   },
   {
    "id": "55ecbd45",
@@ -7451,5 +7456,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-14 13:20"
+ "updated": "2026-10-14 13:21"
 }
