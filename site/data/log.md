@@ -1,6 +1,3 @@
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2FZkqraLUduUKbwqi9F'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 SNOW @ $333.07 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25349.04 (+1.40% on $25000.00 in) · cash $23102.17 · realised +352.17
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22667.17 this week
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [take_profit @ $155.16] -> $751.34 (+0.18%) — close 100% at +0.2% over the average cost
+## 2026-10-14 11:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders

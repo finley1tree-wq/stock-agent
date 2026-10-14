@@ -28746,3 +28746,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 SNOW @ $333.07 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25349.04 (+1.40% on $25000.00 in) · cash $23102.17 · realised +352.17
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22667.17 this week
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [take_profit @ $155.16] -> $751.34 (+0.18%) — close 100% at +0.2% over the average cost
+## 2026-10-14 11:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders

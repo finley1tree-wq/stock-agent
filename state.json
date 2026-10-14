@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 2332.83,
+  "spent": 1581.49,
   "deployed": 125550.0,
   "by_ticker": {
     "TSM": 16.85,
@@ -8,7 +8,7 @@
     "AVGO": 784.61,
     "CVX": 25.29,
     "NEOG": 50.85,
-    "PG": 754.91,
+    "PG": 3.57,
     "KO": 2.94,
     "SNOW": 762.4,
     "META": 33.57,
@@ -3613,13 +3613,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "PG",
+      "side": "sell",
+      "qty": 4.842428,
+      "status": "filled",
+      "price": 155.16,
+      "proceeds": 751.34,
+      "realized_pnl": 1.34,
+      "realized_pct": 0.18,
+      "date": "2026-10-14",
+      "time_et": "11:12",
+      "ts": 1791990600,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $154.88",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 2256.4,
+  "spent_today": 1505.06,
   "deployed_today": 34500.0,
   "orders_today": 19,
-  "sells_today": 16,
+  "sells_today": 17,
   "sold_today": [
     "SNOW",
     "ACN",
@@ -3640,13 +3661,13 @@
     "SNOW": 1791987944,
     "CVX": 1791989676,
     "MSFT": 1791815796,
-    "PG": 1791984934,
+    "PG": 1791990764,
     "NEOG": 1791899653,
     "TSM": 1791989443,
     "AVGO": 1791984979
   },
-  "last_publish_ts": 1791990673,
-  "last_check_ts": 1791990673,
+  "last_publish_ts": 1791990764,
+  "last_check_ts": 1791990764,
   "exp_arm": {
     "PG": {
       "params": {
@@ -3681,14 +3702,11 @@
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "56c03382": 155.1572,
-    "2737e0f2": 154.982,
     "75f5ed07": 348.7291,
     "99f98fb5": 344.9014,
     "8591464e": 352.7904,
     "e373878d": 339.538,
     "ca41e8b4": 341.0811,
-    "e48da5b2": 333.0689,
-    "30de320b": 150.2336
+    "e48da5b2": 333.0689
   }
 }
