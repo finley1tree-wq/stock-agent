@@ -30263,3 +30263,4 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25293.22 (+1.17% on $25000.00 in) · cash $25293.22 · realised +293.22
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-10-14 16:00 ET — published the session's closing state
