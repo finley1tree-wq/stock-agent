@@ -62827,7 +62827,9 @@
     "code_version": "c291c17",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.4
+    "ret_now": 0.46,
+    "ret_final": 0.46,
+    "ret_src": "realised"
   },
   {
     "symbol": "KO",
@@ -62858,7 +62860,7 @@
     "code_version": "c291c17",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": 0.03
   },
   {
     "symbol": "PG",
@@ -62889,7 +62891,7 @@
     "code_version": "c291c17",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": -0.13
   },
   {
     "symbol": "ACN",
@@ -62920,7 +62922,7 @@
     "code_version": "c291c17",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": 0.01
   },
   {
     "symbol": "AVGO",
@@ -62951,7 +62953,7 @@
     "code_version": "c291c17",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.18
+    "ret_now": 0.05
   },
   {
     "symbol": "META",
@@ -62981,7 +62983,8 @@
     "hour_et": 10,
     "code_version": "b9374b5",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.07
   },
   {
     "symbol": "SNOW",
@@ -63007,6 +63010,37 @@
     "evidence": "average cost $350.21",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "b93cda4"
+    "code_version": "b93cda4",
+    "hold_minutes": 3
+  },
+  {
+    "symbol": "TSM",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.71614,
+    "price": 437.03,
+    "date": "2026-10-14",
+    "time_et": "10:27",
+    "ts": 1791988071,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +5.6% over the month; 27% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 436.94,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 5.6,
+    "hour_et": 10,
+    "code_version": "1847475",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

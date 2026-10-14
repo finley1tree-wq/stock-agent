@@ -28492,3 +28492,20 @@ Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20413.68 this week
   (cancelled 2 standing order(s) on SNOW: position closed)
 - SELL 100% SNOW [take_profit @ $351.82] -> $753.46 (+0.46%) — close 100% at +0.4% over the average cost
 ## 2026-10-14 10:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-14 10:27 ET (Wednesday) — week 2026-W42 — budget left $21167.14 (today $31500.00 put to work, 15 buys, 10 sells) — SIM (pretend money) via sim
+  (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2Hb6s8Zh4GkA2KbTG8d'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $21,167 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 TSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +5.6% over the month; 27% of today's range
+~ WORKING take_profit 100% TSM @ $438.24 until 2026-10-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $434.01 until 2026-10-19 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $423.92 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25350.40 (+1.40% on $25000.00 in) · cash $20852.12 · realised +352.12
+Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20417.14 this week

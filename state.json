@@ -1,9 +1,9 @@
 {
   "week": "2026-W42",
-  "spent": 3832.86,
-  "deployed": 122550.0,
+  "spent": 4582.86,
+  "deployed": 123300.0,
   "by_ticker": {
-    "TSM": 16.63,
+    "TSM": 766.63,
     "IBM": 19.61,
     "AVGO": 784.61,
     "CVX": 26.81,
@@ -16,7 +16,7 @@
     "ACN": 750.0
   },
   "deployed_by_ticker": {
-    "TSM": 11800.0,
+    "TSM": 12550.0,
     "IBM": 2800.0,
     "ACN": 14850.0,
     "MSFT": 2900.0,
@@ -3399,12 +3399,34 @@
       ],
       "evidence": "average cost $350.21",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.71614,
+      "price": 437.03,
+      "date": "2026-10-14",
+      "time_et": "10:27",
+      "ts": 1791988071,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +5.6% over the month; 27% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 3756.43,
-  "deployed_today": 31500.0,
-  "orders_today": 15,
+  "spent_today": 4506.43,
+  "deployed_today": 32250.0,
+  "orders_today": 16,
   "sells_today": 10,
   "sold_today": [
     "SNOW",
@@ -3431,18 +3453,9 @@
     "TSM": 1791985218,
     "AVGO": 1791984979
   },
-  "last_publish_ts": 1791987942,
-  "last_check_ts": 1791987990,
+  "last_publish_ts": 1791988071,
+  "last_check_ts": 1791988071,
   "exp_arm": {
-    "SNOW": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "KO": {
       "params": {
         "hold_minutes": 90,
@@ -3487,27 +3500,39 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "TSM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1791987900,
-  "last_decision_ts": 1791987898,
+  "last_decision_ts": 1791988071,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "f672856b": 90.8661,
-    "ca5010bc": 90.3916,
-    "56c03382": 155.1572,
-    "8591464e": 352.7904,
     "6291add6": 154.1861,
+    "8591464e": 352.7904,
+    "0559a663": 438.2362,
+    "56c03382": 155.1572,
+    "ca5010bc": 90.3916,
     "6eaffd1c": 747.8552,
     "b1d7efb3": 217.5214,
+    "c8a943ff": 434.0145,
     "430dcf50": 739.4019,
     "75f5ed07": 348.7291,
     "b8a1f8da": 213.7747,
     "30de320b": 150.2336,
-    "5e16a7a2": 88.0081,
     "5276bda3": 723.0768,
+    "ae95b07a": 423.9191,
     "a0258c82": 209.9565,
+    "5e16a7a2": 88.0081,
     "ca41e8b4": 341.0811
   }
 }
