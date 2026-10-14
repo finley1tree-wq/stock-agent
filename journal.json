@@ -62893,7 +62893,7 @@
     "code_version": "c291c17",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.23
+    "ret_now": -0.28
   },
   {
     "symbol": "ACN",
@@ -62957,7 +62957,7 @@
     "code_version": "c291c17",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.33
+    "ret_now": -0.17
   },
   {
     "symbol": "META",
@@ -63168,7 +63168,9 @@
     "code_version": "f651957",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": 0.27,
+    "ret_final": 0.27,
+    "ret_src": "realised"
   },
   {
     "symbol": "TSM",
@@ -63250,5 +63252,32 @@
     "hour_et": 10,
     "code_version": "d9db64f",
     "hold_minutes": 7
+  },
+  {
+    "symbol": "AMGN",
+    "side": "sell",
+    "qty": 1.764934,
+    "status": "filled",
+    "price": 426.07,
+    "proceeds": 751.99,
+    "realized_pnl": 1.99,
+    "realized_pct": 0.27,
+    "date": "2026-10-14",
+    "time_et": "10:57",
+    "ts": 1791989700,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $424.94",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "19a6846",
+    "hold_minutes": 12
   }
 ]
