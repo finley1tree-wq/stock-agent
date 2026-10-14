@@ -7127,7 +7127,7 @@
    "ticker": "PG",
    "kind": "take_profit",
    "price": 155.5379,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 11:58",
    "created_ts": 1791993493,
    "why": "close 100% at +0.2% over the average cost",
@@ -7137,7 +7137,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 12:05",
+   "cancel_reason": "position closed"
   },
   {
    "id": "06020c8e",
@@ -7163,7 +7165,7 @@
    "ticker": "PG",
    "kind": "buy_limit",
    "price": 150.6022,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 11:58",
    "created_ts": 1791993493,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7173,14 +7175,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-14 12:05",
+   "cancel_reason": "position closed"
   },
   {
    "id": "e18a7e71",
    "ticker": "PG",
    "kind": "stop_loss",
    "price": 155.35,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-14 12:02",
    "created_ts": 1791993765,
    "why": "close it all at -0.4% under the average cost",
@@ -7190,7 +7194,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 12:05"
   },
   {
    "id": "7df8b609",
@@ -7448,5 +7453,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-14 12:04"
+ "updated": "2026-10-14 12:05"
 }

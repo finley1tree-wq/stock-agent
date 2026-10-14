@@ -1,6 +1,3 @@
-## 2026-10-14 10:57 ET (Wednesday) — week 2026-W42 — budget left $23417.17 (today $33750.00 put to work, 18 buys, 16 sells) — SIM (pretend money) via sim
-  (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
   (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 AEIS @ $256.72 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25344.46 (+1.38% on $25000.00 in) · cash $19352.07 · realised +352.07
 Done: 0 sell(s), 5 buy(s); 24 order(s) working; budget left $18917.07 this week
+  (cancelled 2 standing order(s) on PG: position closed)
+- SELL 100% PG [stop_loss @ $155.27] -> $750.03 (+0.00%) — close it all at -0.4% under the average cost
+## 2026-10-14 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
