@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 3107.82,
-  "deployed": 136800.0,
+  "spent": 4607.82,
+  "deployed": 138300.0,
   "by_ticker": {
     "TSM": 22.48,
     "IBM": 19.61,
@@ -14,11 +14,11 @@
     "META": 40.45,
     "AMGN": 0.8,
     "ACN": 2.09,
-    "BHE": 8.44,
+    "BHE": 758.44,
     "MSFT": 750.0,
     "ADI": 750.0,
     "RARE": 750.0,
-    "AEIS": 10.54,
+    "AEIS": 760.54,
     "GTES": 750.0
   },
   "deployed_by_ticker": {
@@ -34,10 +34,10 @@
     "META": 12000.0,
     "CVX": 18450.0,
     "PG": 11250.0,
-    "BHE": 750.0,
+    "BHE": 1500.0,
     "ADI": 750.0,
     "RARE": 750.0,
-    "AEIS": 750.0,
+    "AEIS": 1500.0,
     "IBRX": 750.0,
     "WSM": 750.0,
     "GTES": 750.0
@@ -4250,12 +4250,56 @@
       ],
       "evidence": "average cost $241.75",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "BHE",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.922537,
+      "price": 75.59,
+      "date": "2026-10-14",
+      "time_et": "13:10",
+      "ts": 1791997850,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $15,001 - $50,000; +4.0% over the month; 17% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "AEIS",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.860796,
+      "price": 262.16,
+      "date": "2026-10-14",
+      "time_et": "13:10",
+      "ts": 1791997850,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +4.6% over the month; 22% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 3031.39,
-  "deployed_today": 45750.0,
-  "orders_today": 34,
+  "spent_today": 4531.39,
+  "deployed_today": 47250.0,
+  "orders_today": 36,
   "sells_today": 30,
   "sold_today": [
     "SNOW",
@@ -4290,27 +4334,9 @@
     "BHE": 1791995114,
     "WSM": 1791996330
   },
-  "last_publish_ts": 1791996329,
-  "last_check_ts": 1791997765,
+  "last_publish_ts": 1791997850,
+  "last_check_ts": 1791997850,
   "exp_arm": {
-    "TSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "BHE": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "MSFT": {
       "params": {
         "hold_minutes": 90,
@@ -4338,24 +4364,6 @@
         "ratchet": "off"
       }
     },
-    "AEIS": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "WSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "GTES": {
       "params": {
         "hold_minutes": 90,
@@ -4364,24 +4372,48 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "BHE": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "AEIS": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
-  "last_bar_ts": 1791997500,
-  "last_decision_ts": 1791997677,
-  "next_check_minutes": null,
+  "last_bar_ts": 1791997800,
+  "last_decision_ts": 1791997850,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "3a7628e9": 538.2261,
-    "ffacf774": 402.9162,
-    "24901002": 25.6389,
-    "d26df520": 407.2483,
-    "d846315d": 533.5873,
     "d95d586e": 14.9516,
+    "3a7628e9": 538.2261,
+    "d26df520": 407.2483,
+    "24901002": 25.6389,
+    "d846315d": 533.5873,
+    "6546ba97": 75.8954,
+    "bdb1e30e": 263.6229,
+    "ffacf774": 402.9162,
+    "442ae019": 74.8258,
     "456b2bb6": 25.9905,
+    "b391df75": 258.5029,
     "f4626790": 14.6658,
     "fdc63599": 25.1133,
-    "800fc4bb": 14.4239,
     "b7597ee5": 393.8297,
-    "389513df": 520.793
+    "389513df": 520.793,
+    "b44fb8fa": 73.3223,
+    "6c0107b7": 254.2952,
+    "800fc4bb": 14.4239
   }
 }

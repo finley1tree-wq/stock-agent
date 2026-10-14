@@ -63799,7 +63799,7 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.15
+    "ret_now": -0.09
   },
   {
     "symbol": "ADI",
@@ -63830,7 +63830,7 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": -0.09
   },
   {
     "symbol": "RARE",
@@ -63861,7 +63861,7 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": 0.27
   },
   {
     "symbol": "AEIS",
@@ -64181,5 +64181,65 @@
     "hour_et": 12,
     "code_version": "e405102",
     "hold_minutes": 29
+  },
+  {
+    "symbol": "BHE",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 9.922537,
+    "price": 75.59,
+    "date": "2026-10-14",
+    "time_et": "13:10",
+    "ts": 1791997850,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $15,001 - $50,000; +4.0% over the month; 17% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 75.51,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 3.97,
+    "hour_et": 13,
+    "code_version": "946156d",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "AEIS",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.860796,
+    "price": 262.16,
+    "date": "2026-10-14",
+    "time_et": "13:10",
+    "ts": 1791997850,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +4.6% over the month; 22% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 262.06,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 4.59,
+    "hour_et": 13,
+    "code_version": "946156d",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

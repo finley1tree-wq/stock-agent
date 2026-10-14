@@ -29383,3 +29383,24 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25323.33 (+1.29% on $25000.00 in) · cash $22327.17 · realised +327.17
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-14 13:10 ET (Wednesday) — week 2026-W42 — budget left $21892.18 (today $45750.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2W23zqWxacPqwpNr4Vp'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,892 idle, so opened 2: BHE, AEIS. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 BHE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $15,001 - $50,000; +4.0% over the month; 17% of today's range
+- BUY $750.00 AEIS [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +4.6% over the month; 22% of today's range
+~ WORKING take_profit 100% BHE @ $75.90 until 2026-10-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% BHE @ $74.83 until 2026-10-19 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 BHE @ $73.32 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AEIS @ $263.62 until 2026-10-19 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% AEIS @ $258.50 until 2026-10-19 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 AEIS @ $254.30 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25322.24 (+1.29% on $25000.00 in) · cash $20827.17 · realised +327.17
+Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $20392.18 this week

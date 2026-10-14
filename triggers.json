@@ -1,119 +1,6 @@
 {
  "orders": [
   {
-   "id": "83ebda98",
-   "ticker": "NEM",
-   "kind": "take_profit",
-   "price": 118.3764,
-   "status": "filled",
-   "created": "2026-10-09 10:52",
-   "created_ts": 1791557542,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $117.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 11:18"
-  },
-  {
-   "id": "6efac833",
-   "ticker": "NEM",
-   "kind": "buy_limit",
-   "price": 114.4406,
-   "status": "cancelled",
-   "created": "2026-10-09 10:52",
-   "created_ts": 1791557542,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $117.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "usd": 500.0,
-   "closed": "2026-10-09 11:18",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "10bece3a",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 483.8488,
-   "status": "filled",
-   "created": "2026-10-09 10:52",
-   "created_ts": 1791557542,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $482.57",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 11:15"
-  },
-  {
-   "id": "28de3dbb",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 468.0929,
-   "status": "cancelled",
-   "created": "2026-10-09 10:52",
-   "created_ts": 1791557542,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $482.57",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "usd": 500.0,
-   "closed": "2026-10-09 11:15",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ab6a81c3",
-   "ticker": "HUBB",
-   "kind": "buy_limit",
-   "price": 475.297,
-   "status": "filled",
-   "created": "2026-10-09 10:58",
-   "created_ts": 1791557907,
-   "why": "wanted it, but not at the high \u2014 resting at $475.30. Top congress-pressure name with corroborating buy filings; adding breadth toward min_positions [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "evidence": "Rep. April McClain Delaney disclosed buys in HUBB (congress_net_buy_pressure score 3.0, highest on list); already held small position, below min_hold so new tranche added at mid-range (pct_of_day_rang",
-   "signals": [
-    "congress",
-    "track_record",
-    "patience"
-   ],
-   "good_until": "2026-10-09",
-   "usd": 500.0,
-   "closed": "2026-10-09 12:02"
-  },
-  {
-   "id": "3d0bcb21",
-   "ticker": "AMZN",
-   "kind": "buy_limit",
-   "price": 258.5245,
-   "status": "cancelled",
-   "created": "2026-10-09 10:58",
-   "created_ts": 1791557907,
-   "why": "wanted it, but not at the high \u2014 resting at $258.52. Strong short-term momentum; keep size moderate given high range position [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "evidence": "AMZN +2.57% today, +3.6% 5d; day_high 260.59 vs price 260.58 so very high in range but strong trend",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-10-09",
-   "usd": 500.0,
-   "closed": "2026-10-09 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "94d89119",
    "ticker": "GOOGL",
    "kind": "buy_limit",
@@ -7466,7 +7353,109 @@
    "good_until": "2026-10-19",
    "pct_of_position": 100.0,
    "closed": "2026-10-14 12:45"
+  },
+  {
+   "id": "6546ba97",
+   "ticker": "BHE",
+   "kind": "take_profit",
+   "price": 75.8954,
+   "status": "working",
+   "created": "2026-10-14 13:10",
+   "created_ts": 1791997850,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $75.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "442ae019",
+   "ticker": "BHE",
+   "kind": "stop_loss",
+   "price": 74.8258,
+   "status": "working",
+   "created": "2026-10-14 13:10",
+   "created_ts": 1791997850,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $75.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b44fb8fa",
+   "ticker": "BHE",
+   "kind": "buy_limit",
+   "price": 73.3223,
+   "status": "working",
+   "created": "2026-10-14 13:10",
+   "created_ts": 1791997850,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $75.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
+  },
+  {
+   "id": "bdb1e30e",
+   "ticker": "AEIS",
+   "kind": "take_profit",
+   "price": 263.6229,
+   "status": "working",
+   "created": "2026-10-14 13:10",
+   "created_ts": 1791997850,
+   "why": "close 100% at +0.6% over the average cost",
+   "evidence": "average cost $262.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b391df75",
+   "ticker": "AEIS",
+   "kind": "stop_loss",
+   "price": 258.5029,
+   "status": "working",
+   "created": "2026-10-14 13:10",
+   "created_ts": 1791997850,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $262.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6c0107b7",
+   "ticker": "AEIS",
+   "kind": "buy_limit",
+   "price": 254.2952,
+   "status": "working",
+   "created": "2026-10-14 13:10",
+   "created_ts": 1791997850,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $262.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-14 13:07"
+ "updated": "2026-10-14 13:10"
 }
