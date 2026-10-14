@@ -1,20 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2QUh2KYqv4mf3JCf1sw'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,417 idle, so opened 1: PG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 PG [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +5.8% over the month; 70% of today's range
-~ WORKING take_profit 100% PG @ $155.54 until 2026-10-19 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% PG @ $154.57 until 2026-10-19 — close it all at -0.4% under the average cost
-~ WORKING buy_limit $500.00 PG @ $150.60 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25345.81 (+1.38% on $25000.00 in) · cash $23102.07 · realised +352.07
-Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22667.07 this week
-
-## 2026-10-14 12:01 ET (Wednesday) — week 2026-W42 — budget left $22667.07 (today $39750.00 put to work, 26 buys, 23 sells) — SIM (pretend money) via sim
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2QhhFpMzjVThJ4zYicD'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 AEIS @ $254.30 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25322.24 (+1.29% on $25000.00 in) · cash $20827.17 · realised +327.17
 Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $20392.18 this week
+
+## 2026-10-14 13:13 ET (Wednesday) — week 2026-W42 — budget left $20392.18 (today $47250.00 put to work, 36 buys, 30 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2WF9DiejDGXx98y6QDq'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $20,392 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 TSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros, Rick W. Allen), $1,001 - $15,000; +4.4% over the month; 18% of today's range
+~ WORKING take_profit 100% TSM @ $433.42 until 2026-10-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $429.05 until 2026-10-19 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $419.20 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25319.27 (+1.28% on $25000.00 in) · cash $20077.17 · realised +327.17
+Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19642.18 this week
