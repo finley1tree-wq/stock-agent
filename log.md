@@ -28993,3 +28993,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25347.20 (+1.39% on $25000.00 in) · cash $23100.55 · realised +350.55
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CVX: position closed)
+- SELL 100% CVX [take_profit @ $220.70] -> $751.52 (+0.20%) — close 100% at +0.2% over the average cost
+## 2026-10-14 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders

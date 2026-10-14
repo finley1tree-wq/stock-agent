@@ -1,12 +1,12 @@
 {
   "week": "2026-W42",
-  "spent": 2334.45,
+  "spent": 1582.93,
   "deployed": 130050.0,
   "by_ticker": {
     "TSM": 766.85,
     "IBM": 19.61,
     "AVGO": 41.43,
-    "CVX": 775.29,
+    "CVX": 23.77,
     "NEOG": 50.85,
     "PG": 3.57,
     "KO": 3.1,
@@ -3871,13 +3871,34 @@
       ],
       "evidence": "average cost $91.51",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CVX",
+      "side": "sell",
+      "qty": 3.405159,
+      "status": "filled",
+      "price": 220.7,
+      "proceeds": 751.52,
+      "realized_pnl": 1.52,
+      "realized_pct": 0.2,
+      "date": "2026-10-14",
+      "time_et": "11:56",
+      "ts": 1791993300,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $220.25",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 2258.02,
+  "spent_today": 1506.5,
   "deployed_today": 39000.0,
   "orders_today": 25,
-  "sells_today": 22,
+  "sells_today": 23,
   "sold_today": [
     "SNOW",
     "ACN",
@@ -3896,15 +3917,15 @@
     "AMGN": 1791993268,
     "META": 1791988814,
     "SNOW": 1791991237,
-    "CVX": 1791989676,
+    "CVX": 1791993409,
     "MSFT": 1791815796,
     "PG": 1791990764,
     "NEOG": 1791899653,
     "TSM": 1791989443,
     "AVGO": 1791991810
   },
-  "last_publish_ts": 1791993313,
-  "last_check_ts": 1791993316,
+  "last_publish_ts": 1791993408,
+  "last_check_ts": 1791993408,
   "exp_arm": {
     "META": {
       "params": {
@@ -3957,14 +3978,11 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "13175409": 220.7015,
     "2630f1a5": 736.5752,
     "459ae060": 435.5505,
     "ad4942e8": 431.281,
-    "491d7892": 219.1201,
     "50a61746": 745.1234,
     "38357c19": 720.3996,
-    "1239eee7": 421.3001,
-    "b7e5ddff": 213.6425
+    "1239eee7": 421.3001
   }
 }

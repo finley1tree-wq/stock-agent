@@ -1,20 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2JhZgU1dthdMQAXM3gU'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,913 idle, so opened 2: CVX, AMGN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 CVX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +0.9% over the month; 53% of today's range
-- BUY $750.00 AMGN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer): David J. Taylor; +13.1% over the month; 83% of today's range
-~ WORKING take_profit 100% CVX @ $220.20 until 2026-10-19 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% CVX @ $218.62 until 2026-10-19 — close it all at -0.5% under the average cost
-~ WORKING buy_limit $500.00 CVX @ $213.16 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMGN @ $426.07 until 2026-10-19 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% AMGN @ $422.10 until 2026-10-19 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 AMGN @ $412.19 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25343.92 (+1.38% on $25000.00 in) · cash $20847.73 · realised +347.73
-Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $20412.74 this week
-
-## 2026-10-14 10:45 ET (Wednesday) — week 2026-W42 — budget left $20412.74 (today $33750.00 put to work, 18 buys, 12 sells) — SIM (pretend money) via sim
-  (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
   (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
@@ -398,3 +381,20 @@ Decision: nothing at this check. 15 standing order(s) working.
   (cancelled 2 standing order(s) on KO: position closed)
 - SELL 100% KO [stop_loss @ $91.49] -> $749.84 (-0.02%) — close it all at -0.4% under the average cost
 ## 2026-10-14 11:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-14 11:55 ET (Wednesday) — week 2026-W42 — budget left $22665.55 (today $39000.00 put to work, 25 buys, 22 sells) — SIM (pretend money) via sim
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2QFnDzyBCLwjXWDHRhX'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25347.20 (+1.39% on $25000.00 in) · cash $23100.55 · realised +350.55
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CVX: position closed)
+- SELL 100% CVX [take_profit @ $220.70] -> $751.52 (+0.20%) — close 100% at +0.2% over the average cost
+## 2026-10-14 11:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
