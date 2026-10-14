@@ -1,6 +1,3 @@
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CfzmigEHNhouMf7Pz4ZHb'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25358.57 (+1.43% on $25000.00 in) · cash $25358.57 · realised +358.57
 Decision: nothing at this check.
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25352.08 (+1.41% on $25000.00 in) · cash $22349.54 · realised +349.54
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CVX: position closed)
+- SELL 100% CVX [stop_loss @ $219.77] -> $2999.13 (-0.03%) — close it all at -0.5% under the average cost
+## 2026-10-14 09:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders

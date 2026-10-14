@@ -1,12 +1,12 @@
 {
   "week": "2026-W42",
-  "spent": 3085.45,
+  "spent": 86.32,
   "deployed": 118050.0,
   "by_ticker": {
     "TSM": 16.63,
     "IBM": 19.61,
     "AVGO": 34.61,
-    "CVX": 3025.94,
+    "CVX": 26.81,
     "NEOG": 50.85,
     "PG": 4.91,
     "KO": 4.08,
@@ -3224,13 +3224,34 @@
       ],
       "evidence": "average cost $439.1",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CVX",
+      "side": "sell",
+      "qty": 13.646663,
+      "status": "filled",
+      "price": 219.77,
+      "proceeds": 2999.13,
+      "realized_pnl": -0.87,
+      "realized_pct": -0.03,
+      "date": "2026-10-14",
+      "time_et": "09:55",
+      "ts": 1791986100,
+      "why": "close it all at -0.5% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $219.83",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 3009.02,
+  "spent_today": 9.89,
   "deployed_today": 27000.0,
   "orders_today": 9,
-  "sells_today": 8,
+  "sells_today": 9,
   "sold_today": [
     "SNOW",
     "ACN",
@@ -3239,7 +3260,8 @@
     "AVGO",
     "AMGN",
     "META",
-    "TSM"
+    "TSM",
+    "CVX"
   ],
   "sold_ts": {
     "ACN": 1791984933,
@@ -3248,15 +3270,15 @@
     "AMGN": 1791984979,
     "META": 1791985130,
     "SNOW": 1791984933,
-    "CVX": 1791913503,
+    "CVX": 1791986144,
     "MSFT": 1791815796,
     "PG": 1791984934,
     "NEOG": 1791899653,
     "TSM": 1791985218,
     "AVGO": 1791984979
   },
-  "last_publish_ts": 1791986008,
-  "last_check_ts": 1791986054,
+  "last_publish_ts": 1791986144,
+  "last_check_ts": 1791986146,
   "exp_arm": {
     "META": {
       "params": {
@@ -3286,13 +3308,9 @@
       }
     }
   },
-  "last_bar_ts": 1791985800,
-  "last_decision_ts": 1791985970,
+  "last_bar_ts": 1791986100,
+  "last_decision_ts": 1791986146,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "d0f0802b": 220.2807,
-    "f0232f09": 220.034,
-    "234852d1": 213.2351
-  }
+  "book_px": {}
 }
