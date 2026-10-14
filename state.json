@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 9061.03,
+  "spent": 6085.98,
   "deployed": 118050.0,
   "by_ticker": {
     "TSM": 3017.16,
@@ -11,7 +11,7 @@
     "PG": 4.91,
     "KO": 4.08,
     "SNOW": 15.86,
-    "META": 3007.0,
+    "META": 31.95,
     "AMGN": 4.79
   },
   "deployed_by_ticker": {
@@ -3182,27 +3182,49 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "META",
+      "side": "sell",
+      "qty": 3.976771,
+      "status": "filled",
+      "price": 748.11,
+      "proceeds": 2975.05,
+      "realized_pnl": -24.95,
+      "realized_pct": -0.83,
+      "date": "2026-10-14",
+      "time_et": "09:38",
+      "ts": 1791984900,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $754.38",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 8984.6,
+  "spent_today": 6009.55,
   "deployed_today": 27000.0,
   "orders_today": 9,
-  "sells_today": 6,
+  "sells_today": 7,
   "sold_today": [
     "SNOW",
     "ACN",
     "KO",
     "PG",
     "AVGO",
-    "AMGN"
+    "AMGN",
+    "META"
   ],
   "sold_ts": {
     "ACN": 1791984933,
     "IBM": 1791813178,
     "KO": 1791984933,
     "AMGN": 1791984979,
-    "META": 1791916797,
+    "META": 1791985130,
     "SNOW": 1791984933,
     "CVX": 1791913503,
     "MSFT": 1791815796,
@@ -3211,8 +3233,8 @@
     "TSM": 1791915557,
     "AVGO": 1791984979
   },
-  "last_publish_ts": 1791985067,
-  "last_check_ts": 1791985067,
+  "last_publish_ts": 1791985129,
+  "last_check_ts": 1791985175,
   "exp_arm": {
     "META": {
       "params": {
@@ -3247,13 +3269,10 @@
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "7d756be4": 748.4807,
-    "d0f0802b": 220.2807,
+    "48680a3e": 439.52,
     "5d6871fa": 440.3075,
     "765030f9": 218.7045,
-    "d7e10f99": 436.0834,
-    "c0b47985": 756.7412,
-    "f40b6c9d": 731.7486,
+    "d0f0802b": 220.2807,
     "234852d1": 213.2351,
     "6d8c96f8": 425.927
   }

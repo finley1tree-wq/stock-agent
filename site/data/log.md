@@ -1,6 +1,3 @@
-  (no price for AMD — excluded this check)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cfzkb4oVdrjBNiJm19jPU'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25358.57 (+1.43% on $25000.00 in) · cash $25358.57 · realised +358.57
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 TSM @ $425.93 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25351.67 (+1.41% on $25000.00 in) · cash $16373.96 · realised +373.96
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15938.97 this week
+  (cancelled 2 standing order(s) on META: position closed)
+- SELL 100% META [stop_loss @ $748.11] -> $2975.05 (-0.83%) — close it all at -0.8% under the average cost
+## 2026-10-14 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders

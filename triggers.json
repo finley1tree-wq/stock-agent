@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "d394bb2c",
-   "ticker": "IBM",
-   "kind": "stop_loss",
-   "price": 215.5,
-   "status": "cancelled",
-   "created": "2026-10-08 11:33",
-   "created_ts": 1791473584,
-   "why": "Protective stop ~1.8% below entry",
-   "evidence": "IBM price 219.51, ATR 2.509%",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-08 12:17",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "ec497900",
    "ticker": "IBM",
    "kind": "take_profit",
@@ -6900,7 +6882,7 @@
    "ticker": "META",
    "kind": "take_profit",
    "price": 756.7412,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 09:32",
    "created_ts": 1791984760,
    "why": "close 100% at +0.3% over the average cost",
@@ -6910,14 +6892,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 09:38",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7d756be4",
    "ticker": "META",
    "kind": "stop_loss",
    "price": 748.4807,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-14 09:32",
    "created_ts": 1791984760,
    "why": "close it all at -0.8% under the average cost",
@@ -6927,14 +6911,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 09:38"
   },
   {
    "id": "f40b6c9d",
    "ticker": "META",
    "kind": "buy_limit",
    "price": 731.7486,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 09:32",
    "created_ts": 1791984760,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6944,7 +6929,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-14 09:38",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6811f3cf",
@@ -7431,7 +7418,7 @@
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 436.0834,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-14 09:37",
    "created_ts": 1791985067,
    "why": "close it all at -0.7% under the average cost",
@@ -7441,7 +7428,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-19",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-14 09:38",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "6d8c96f8",
@@ -7459,7 +7448,24 @@
    ],
    "good_until": "2026-10-19",
    "usd": 500.0
+  },
+  {
+   "id": "48680a3e",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 439.52,
+   "status": "working",
+   "created": "2026-10-14 09:38",
+   "created_ts": 1791985129,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $439.1",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-14 09:37"
+ "updated": "2026-10-14 09:38"
 }
