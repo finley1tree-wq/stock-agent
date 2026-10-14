@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3858.13,
+  "spent": 3107.82,
   "deployed": 136800.0,
   "by_ticker": {
     "TSM": 22.48,
@@ -19,7 +19,6 @@
     "ADI": 750.0,
     "RARE": 750.0,
     "AEIS": 10.54,
-    "WSM": 750.0,
     "GTES": 750.0
   },
   "deployed_by_ticker": {
@@ -4230,13 +4229,34 @@
       ],
       "evidence": "average cost $434.33",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 3.102421,
+      "status": "filled",
+      "price": 241.84,
+      "proceeds": 750.31,
+      "realized_pnl": 0.31,
+      "realized_pct": 0.04,
+      "date": "2026-10-14",
+      "time_et": "12:45",
+      "ts": 1791996000,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $241.75",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 3781.7,
+  "spent_today": 3031.39,
   "deployed_today": 45750.0,
   "orders_today": 34,
-  "sells_today": 29,
+  "sells_today": 30,
   "sold_today": [
     "SNOW",
     "ACN",
@@ -4249,7 +4269,8 @@
     "CVX",
     "IBRX",
     "AEIS",
-    "BHE"
+    "BHE",
+    "WSM"
   ],
   "sold_ts": {
     "ACN": 1791992108,
@@ -4266,10 +4287,11 @@
     "AVGO": 1791991810,
     "IBRX": 1791994430,
     "AEIS": 1791995069,
-    "BHE": 1791995114
+    "BHE": 1791995114,
+    "WSM": 1791996330
   },
-  "last_publish_ts": 1791995793,
-  "last_check_ts": 1791996233,
+  "last_publish_ts": 1791996329,
+  "last_check_ts": 1791996329,
   "exp_arm": {
     "TSM": {
       "params": {
@@ -4344,25 +4366,22 @@
       }
     }
   },
-  "last_bar_ts": 1791996000,
+  "last_bar_ts": 1791996300,
   "last_decision_ts": 1791996233,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "94273eab": 241.966,
-    "60a4caa2": 242.4607,
-    "ffacf774": 402.9162,
     "3a7628e9": 538.2261,
-    "d846315d": 533.5873,
+    "ffacf774": 402.9162,
     "24901002": 25.6389,
+    "d26df520": 407.2483,
+    "d846315d": 533.5873,
+    "d95d586e": 14.9516,
     "456b2bb6": 25.9905,
     "f4626790": 14.6658,
-    "d26df520": 407.2483,
-    "d95d586e": 14.9516,
-    "b7597ee5": 393.8297,
-    "800fc4bb": 14.4239,
     "fdc63599": 25.1133,
-    "389513df": 520.793,
-    "181ae33f": 234.4975
+    "800fc4bb": 14.4239,
+    "b7597ee5": 393.8297,
+    "389513df": 520.793
   }
 }
