@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-10-14 10:57 ET
+# Pretend portfolio — 2026-10-14 11:00 ET
 
-**Equity $25348.53** on $25000.00 put in → **+1.39%**  
-Cash $23852.17 · Unrealised -3.64 · Realised +352.17
+**Equity $25349.31** on $25000.00 put in → **+1.40%**  
+Cash $23852.17 · Unrealised -2.86 · Realised +352.17
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| AVGO | 3.0% | $748.59 | $351.63 | $350.97 | -0.19% | 0d |
-| PG | 2.9% | $747.77 | $154.88 | $154.42 | -0.30% | 0d |
+| AVGO | 3.0% | $749.42 | $351.63 | $351.36 | -0.08% | 0d |
+| PG | 2.9% | $747.72 | $154.88 | $154.41 | -0.30% | 0d |
 
 ## Last fills
 
