@@ -28439,3 +28439,36 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25348.67 (+1.39% on $25000.00 in) · cash $25348.67 · realised +348.67
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-14 10:21 ET (Wednesday) — week 2026-W42 — budget left $24913.68 (today $27000.00 put to work, 9 buys, 9 sells) — SIM (pretend money) via sim
+  (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2H8ethqW7YXAgN5vqCQ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,914 idle, so opened 5: SNOW, KO, PG, ACN, AVGO. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 SNOW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Maria Elvira Salazar), $15,001 - $50,000; +8.4% over the month; 4% of today's range
+- BUY $750.00 KO [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer): Kevin Hern; +2.2% over the month; 22% of today's range
+- BUY $750.00 PG [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +5.6% over the month; 41% of today's range
+- BUY $750.00 ACN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +11.9% over the month; 54% of today's range
+- BUY $750.00 AVGO [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer): Rick W. Allen; +3.6% over the month; 59% of today's range
+~ WORKING take_profit 100% SNOW @ $351.69 until 2026-10-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% SNOW @ $346.51 until 2026-10-19 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 SNOW @ $339.70 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% KO @ $90.87 until 2026-10-19 — close 100% at +0.1% over the average cost
+~ WORKING stop_loss 100% KO @ $90.39 until 2026-10-19 — close it all at -0.4% under the average cost
+~ WORKING buy_limit $500.00 KO @ $88.01 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PG @ $155.16 until 2026-10-19 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% PG @ $154.19 until 2026-10-19 — close it all at -0.4% under the average cost
+~ WORKING buy_limit $500.00 PG @ $150.23 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ACN @ $217.52 until 2026-10-19 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% ACN @ $213.77 until 2026-10-19 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 ACN @ $209.96 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AVGO @ $352.79 until 2026-10-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% AVGO @ $348.73 until 2026-10-19 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 AVGO @ $341.08 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25347.92 (+1.39% on $25000.00 in) · cash $21598.67 · realised +348.67
+Done: 0 sell(s), 5 buy(s); 15 order(s) working; budget left $21163.68 this week

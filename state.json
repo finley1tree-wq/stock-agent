@@ -1,32 +1,33 @@
 {
   "week": "2026-W42",
-  "spent": 86.32,
-  "deployed": 118050.0,
+  "spent": 3836.32,
+  "deployed": 121800.0,
   "by_ticker": {
     "TSM": 16.63,
     "IBM": 19.61,
-    "AVGO": 34.61,
+    "AVGO": 784.61,
     "CVX": 26.81,
     "NEOG": 50.85,
-    "PG": 4.91,
-    "KO": 4.08,
-    "SNOW": 15.86,
+    "PG": 754.91,
+    "KO": 754.08,
+    "SNOW": 765.86,
     "META": 31.95,
-    "AMGN": 4.79
+    "AMGN": 4.79,
+    "ACN": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 11800.0,
     "IBM": 2800.0,
-    "ACN": 14100.0,
+    "ACN": 14850.0,
     "MSFT": 2900.0,
     "AMGN": 12250.0,
-    "KO": 11750.0,
-    "AVGO": 9500.0,
-    "SNOW": 10500.0,
+    "KO": 12500.0,
+    "AVGO": 10250.0,
+    "SNOW": 11250.0,
     "NEOG": 5250.0,
     "META": 10500.0,
     "CVX": 16950.0,
-    "PG": 9750.0
+    "PG": 10500.0
   },
   "orders": [
     {
@@ -3245,12 +3246,122 @@
       ],
       "evidence": "average cost $219.83",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "SNOW",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.141572,
+      "price": 350.21,
+      "date": "2026-10-14",
+      "time_et": "10:21",
+      "ts": 1791987712,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Maria Elvira Salazar), $15,001 - $50,000; +8.4% over the month; 4% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "KO",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.266454,
+      "price": 90.73,
+      "date": "2026-10-14",
+      "time_et": "10:21",
+      "ts": 1791987712,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): Kevin Hern; +2.2% over the month; 22% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "PG",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.842428,
+      "price": 154.88,
+      "date": "2026-10-14",
+      "time_et": "10:21",
+      "ts": 1791987712,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +5.6% over the month; 41% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "ACN",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.464951,
+      "price": 216.45,
+      "date": "2026-10-14",
+      "time_et": "10:21",
+      "ts": 1791987712,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +11.9% over the month; 54% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "AVGO",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.132922,
+      "price": 351.63,
+      "date": "2026-10-14",
+      "time_et": "10:21",
+      "ts": 1791987712,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): Rick W. Allen; +3.6% over the month; 59% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 9.89,
-  "deployed_today": 27000.0,
-  "orders_today": 9,
+  "spent_today": 3759.89,
+  "deployed_today": 30750.0,
+  "orders_today": 14,
   "sells_today": 9,
   "sold_today": [
     "SNOW",
@@ -3277,10 +3388,10 @@
     "TSM": 1791985218,
     "AVGO": 1791984979
   },
-  "last_publish_ts": 1791986144,
-  "last_check_ts": 1791987536,
+  "last_publish_ts": 1791987712,
+  "last_check_ts": 1791987712,
   "exp_arm": {
-    "META": {
+    "SNOW": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -3289,7 +3400,7 @@
         "ratchet": "on"
       }
     },
-    "CVX": {
+    "KO": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -3298,19 +3409,53 @@
         "ratchet": "on"
       }
     },
-    "TSM": {
+    "PG": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
       },
       "tags": {
         "ratchet": "on"
+      }
+    },
+    "ACN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "AVGO": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
       }
     }
   },
-  "last_bar_ts": 1791987300,
-  "last_decision_ts": 1791987536,
-  "next_check_minutes": null,
+  "last_bar_ts": 1791987600,
+  "last_decision_ts": 1791987712,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "f672856b": 90.8661,
+    "56c03382": 155.1572,
+    "ca5010bc": 90.3916,
+    "8591464e": 352.7904,
+    "6291add6": 154.1861,
+    "e41df665": 351.6914,
+    "b1d7efb3": 217.5214,
+    "75f5ed07": 348.7291,
+    "87fa0344": 346.5083,
+    "b8a1f8da": 213.7747,
+    "2973f11d": 339.7037,
+    "5e16a7a2": 88.0081,
+    "30de320b": 150.2336,
+    "a0258c82": 209.9565,
+    "ca41e8b4": 341.0811
+  }
 }
