@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 2332.93,
-  "deployed": 130800.0,
+  "spent": 6082.93,
+  "deployed": 134550.0,
   "by_ticker": {
     "TSM": 766.85,
     "IBM": 19.61,
@@ -13,13 +13,18 @@
     "SNOW": 11.07,
     "META": 783.57,
     "AMGN": 0.8,
-    "ACN": 2.09
+    "ACN": 2.09,
+    "BHE": 750.0,
+    "MSFT": 750.0,
+    "ADI": 750.0,
+    "RARE": 750.0,
+    "AEIS": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 13300.0,
     "IBM": 2800.0,
     "ACN": 15600.0,
-    "MSFT": 2900.0,
+    "MSFT": 3650.0,
     "AMGN": 13750.0,
     "KO": 13250.0,
     "AVGO": 10250.0,
@@ -27,7 +32,11 @@
     "NEOG": 5250.0,
     "META": 12000.0,
     "CVX": 18450.0,
-    "PG": 11250.0
+    "PG": 11250.0,
+    "BHE": 750.0,
+    "ADI": 750.0,
+    "RARE": 750.0,
+    "AEIS": 750.0
   },
   "orders": [
     {
@@ -3914,12 +3923,122 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "BHE",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.867651,
+      "price": 76.01,
+      "date": "2026-10-14",
+      "time_et": "12:04",
+      "ts": 1791993861,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $15,001 - $50,000; +4.5% over the month; 13% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.396915,
+      "price": 536.9,
+      "date": "2026-10-14",
+      "time_et": "12:04",
+      "ts": 1791993861,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +8.0% over the month; 2% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "ADI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.84724,
+      "price": 406.01,
+      "date": "2026-10-14",
+      "time_et": "12:04",
+      "ts": 1791993861,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +12.3% over the month; 28% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "RARE",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 50.450883,
+      "price": 14.87,
+      "date": "2026-10-14",
+      "time_et": "12:04",
+      "ts": 1791993861,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +13.7% over the month; 37% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "AEIS",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.833869,
+      "price": 264.66,
+      "date": "2026-10-14",
+      "time_et": "12:04",
+      "ts": 1791993861,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +5.6% over the month; 23% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 2256.5,
-  "deployed_today": 39750.0,
-  "orders_today": 26,
+  "spent_today": 6006.5,
+  "deployed_today": 43500.0,
+  "orders_today": 31,
   "sells_today": 23,
   "sold_today": [
     "SNOW",
@@ -3946,8 +4065,8 @@
     "TSM": 1791989443,
     "AVGO": 1791991810
   },
-  "last_publish_ts": 1791993765,
-  "last_check_ts": 1791993765,
+  "last_publish_ts": 1791993861,
+  "last_check_ts": 1791993861,
   "exp_arm": {
     "META": {
       "params": {
@@ -3975,21 +4094,81 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "BHE": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "MSFT": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "ADI": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "RARE": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "AEIS": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1791993600,
-  "last_decision_ts": 1791993666,
-  "next_check_minutes": null,
+  "last_decision_ts": 1791993861,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "e18a7e71": 155.35,
     "90c1adb6": 155.5379,
     "2630f1a5": 736.5752,
+    "3a7628e9": 538.2261,
+    "d26df520": 407.2483,
     "ad4942e8": 431.281,
+    "7df8b609": 76.311,
     "459ae060": 435.5505,
+    "55ecbd45": 266.0971,
+    "d846315d": 533.5873,
+    "d95d586e": 14.9516,
+    "ffacf774": 402.9162,
+    "d86c7fd7": 75.2583,
     "50a61746": 745.1234,
+    "f4626790": 14.6658,
+    "b67cb570": 261.0659,
     "38357c19": 720.3996,
     "1239eee7": 421.3001,
+    "a3194c4e": 73.7297,
+    "800fc4bb": 14.4239,
+    "6b2e88ff": 256.7202,
+    "389513df": 520.793,
+    "b7597ee5": 393.8297,
     "1e454149": 150.6022
   }
 }

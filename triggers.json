@@ -1,289 +1,6 @@
 {
  "orders": [
   {
-   "id": "7fb07e60",
-   "ticker": "IBP",
-   "kind": "buy_limit",
-   "price": 177.1608,
-   "status": "cancelled",
-   "created": "2026-10-09 09:48",
-   "created_ts": 1791553718,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $182.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "usd": 500.0,
-   "closed": "2026-10-09 09:52",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "40367996",
-   "ticker": "NOC",
-   "kind": "take_profit",
-   "price": 482.0288,
-   "status": "filled",
-   "created": "2026-10-09 09:48",
-   "created_ts": 1791553718,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $480.75",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 09:51"
-  },
-  {
-   "id": "0899f69b",
-   "ticker": "NOC",
-   "kind": "buy_limit",
-   "price": 466.3275,
-   "status": "cancelled",
-   "created": "2026-10-09 09:48",
-   "created_ts": 1791553718,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $480.75",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "usd": 500.0,
-   "closed": "2026-10-09 09:51",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "bb411dc6",
-   "ticker": "KO",
-   "kind": "take_profit",
-   "price": 87.8669,
-   "status": "filled",
-   "created": "2026-10-09 09:48",
-   "created_ts": 1791553718,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $87.73",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 09:52"
-  },
-  {
-   "id": "3c32ff3b",
-   "ticker": "KO",
-   "kind": "buy_limit",
-   "price": 85.0981,
-   "status": "cancelled",
-   "created": "2026-10-09 09:48",
-   "created_ts": 1791553718,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $87.73",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "usd": 500.0,
-   "closed": "2026-10-09 09:52",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "1ad629c9",
-   "ticker": "PG",
-   "kind": "take_profit",
-   "price": 151.4166,
-   "status": "filled",
-   "created": "2026-10-09 09:48",
-   "created_ts": 1791553718,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $151.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 10:00"
-  },
-  {
-   "id": "b533872a",
-   "ticker": "PG",
-   "kind": "buy_limit",
-   "price": 146.6058,
-   "status": "cancelled",
-   "created": "2026-10-09 09:48",
-   "created_ts": 1791553718,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $151.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "usd": 500.0,
-   "closed": "2026-10-09 10:00",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "67fff679",
-   "ticker": "AMGN",
-   "kind": "buy_limit",
-   "price": 408.1475,
-   "status": "cancelled",
-   "created": "2026-10-09 10:04",
-   "created_ts": 1791554656,
-   "why": "wanted it, but not at the high \u2014 resting at $408.15. congress pressure plus momentum, though near day high (94.6%) - will use limit-like sizing to avoid overpaying [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "evidence": "Rep. David J. Taylor disclosed buy 2026-09-22 (disclosed 2026-10-01); AMGN +0.9% today, +7.49% 1m",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-10-09",
-   "usd": 500.0,
-   "closed": "2026-10-09 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "cbb389f2",
-   "ticker": "GOOGL",
-   "kind": "stop_loss",
-   "price": 344.0,
-   "status": "cancelled",
-   "created": "2026-10-09 10:20",
-   "created_ts": 1791555611,
-   "why": "Protective stop ~2.5% below entry",
-   "evidence": "GOOGL ATR 2.44%, protect against reversal",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 11:50",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "e754a48f",
-   "ticker": "AMGN",
-   "kind": "buy_limit",
-   "price": 408.835,
-   "status": "filled",
-   "created": "2026-10-09 10:20",
-   "created_ts": 1791555611,
-   "why": "wanted it, but not at the high \u2014 resting at $408.83. Named congress buyer plus clean uptrend, adding to existing resting limits at a market entry since momentum is solid [probation at 25% size (no hour or signal lens has proven itself yet)]",
-   "evidence": "Rep. David J. Taylor disclosed AMGN buy 2026-09-22 (filed 2026-10-01); AMGN +1.0% today, 85.7% of day range, 5d +2.1%",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-10-09",
-   "usd": 500.0,
-   "closed": "2026-10-09 10:48"
-  },
-  {
-   "id": "9a7756f1",
-   "ticker": "GOOGL",
-   "kind": "take_profit",
-   "price": 353.9265,
-   "status": "cancelled",
-   "created": "2026-10-09 10:20",
-   "created_ts": 1791555611,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $352.97",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 11:50",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "3a38ad46",
-   "ticker": "GOOGL",
-   "kind": "buy_limit",
-   "price": 342.3809,
-   "status": "cancelled",
-   "created": "2026-10-09 10:20",
-   "created_ts": 1791555611,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $352.97",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "usd": 500.0,
-   "closed": "2026-10-09 10:58",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "4a87631e",
-   "ticker": "AMGN",
-   "kind": "buy_limit",
-   "price": 408.956,
-   "status": "cancelled",
-   "created": "2026-10-09 10:36",
-   "created_ts": 1791556591,
-   "why": "wanted it, but not at the high \u2014 resting at $408.96. Congress-backed name with positive momentum, adding to existing resting limits at market since we're below min_positions [probation at 25% size (no hour or signal lens has proven itself y",
-   "evidence": "Rep. David J. Taylor disclosed buy of AMGN on 2026-09-22 (filed 10-01); AMGN +1.05% today, 85.9% of day range but clean uptrend +7.65% 1m",
-   "signals": [
-    "congress",
-    "momentum",
-    "track_record",
-    "patience"
-   ],
-   "good_until": "2026-10-09",
-   "usd": 625.0,
-   "closed": "2026-10-09 10:48",
-   "cancel_reason": "another standing order on the same ticker filled first"
-  },
-  {
-   "id": "a82e7aa9",
-   "ticker": "AMGN",
-   "kind": "take_profit",
-   "price": 410.0033,
-   "status": "filled",
-   "created": "2026-10-09 10:48",
-   "created_ts": 1791557282,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $408.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 10:58"
-  },
-  {
-   "id": "19fa9ff1",
-   "ticker": "AMGN",
-   "kind": "stop_loss",
-   "price": 405.8905,
-   "status": "cancelled",
-   "created": "2026-10-09 10:48",
-   "created_ts": 1791557282,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $408.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 10:58",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "58498679",
    "ticker": "AMGN",
    "kind": "buy_limit",
@@ -7474,7 +7191,262 @@
    ],
    "good_until": "2026-10-19",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "7df8b609",
+   "ticker": "BHE",
+   "kind": "take_profit",
+   "price": 76.311,
+   "status": "working",
+   "created": "2026-10-14 12:04",
+   "created_ts": 1791993861,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $76.01",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d86c7fd7",
+   "ticker": "BHE",
+   "kind": "stop_loss",
+   "price": 75.2583,
+   "status": "working",
+   "created": "2026-10-14 12:04",
+   "created_ts": 1791993861,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $76.01",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a3194c4e",
+   "ticker": "BHE",
+   "kind": "buy_limit",
+   "price": 73.7297,
+   "status": "working",
+   "created": "2026-10-14 12:04",
+   "created_ts": 1791993861,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $76.01",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
+  },
+  {
+   "id": "3a7628e9",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 538.2261,
+   "status": "working",
+   "created": "2026-10-14 12:04",
+   "created_ts": 1791993861,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $536.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d846315d",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 533.5873,
+   "status": "working",
+   "created": "2026-10-14 12:04",
+   "created_ts": 1791993861,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $536.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "389513df",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 520.793,
+   "status": "working",
+   "created": "2026-10-14 12:04",
+   "created_ts": 1791993861,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $536.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
+  },
+  {
+   "id": "d26df520",
+   "ticker": "ADI",
+   "kind": "take_profit",
+   "price": 407.2483,
+   "status": "working",
+   "created": "2026-10-14 12:04",
+   "created_ts": 1791993861,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $406.01",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ffacf774",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 402.9162,
+   "status": "working",
+   "created": "2026-10-14 12:04",
+   "created_ts": 1791993861,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $406.01",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b7597ee5",
+   "ticker": "ADI",
+   "kind": "buy_limit",
+   "price": 393.8297,
+   "status": "working",
+   "created": "2026-10-14 12:04",
+   "created_ts": 1791993861,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $406.01",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
+  },
+  {
+   "id": "d95d586e",
+   "ticker": "RARE",
+   "kind": "take_profit",
+   "price": 14.9516,
+   "status": "working",
+   "created": "2026-10-14 12:04",
+   "created_ts": 1791993861,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $14.87",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f4626790",
+   "ticker": "RARE",
+   "kind": "stop_loss",
+   "price": 14.6658,
+   "status": "working",
+   "created": "2026-10-14 12:04",
+   "created_ts": 1791993861,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $14.87",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "800fc4bb",
+   "ticker": "RARE",
+   "kind": "buy_limit",
+   "price": 14.4239,
+   "status": "working",
+   "created": "2026-10-14 12:04",
+   "created_ts": 1791993861,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $14.87",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
+  },
+  {
+   "id": "55ecbd45",
+   "ticker": "AEIS",
+   "kind": "take_profit",
+   "price": 266.0971,
+   "status": "working",
+   "created": "2026-10-14 12:04",
+   "created_ts": 1791993861,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $264.66",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b67cb570",
+   "ticker": "AEIS",
+   "kind": "stop_loss",
+   "price": 261.0659,
+   "status": "working",
+   "created": "2026-10-14 12:04",
+   "created_ts": 1791993861,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $264.66",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6b2e88ff",
+   "ticker": "AEIS",
+   "kind": "buy_limit",
+   "price": 256.7202,
+   "status": "working",
+   "created": "2026-10-14 12:04",
+   "created_ts": 1791993861,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $264.66",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-14 12:02"
+ "updated": "2026-10-14 12:04"
 }
