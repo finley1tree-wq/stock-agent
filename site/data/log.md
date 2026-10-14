@@ -1,23 +1,3 @@
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-14 11:05 ET (Wednesday) — week 2026-W42 — budget left $23417.17 (today $33750.00 put to work, 18 buys, 16 sells) — SIM (pretend money) via sim
-  (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2LTVyZYRsHg5SyhU1KA'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25349.57 (+1.40% on $25000.00 in) · cash $23852.17 · realised +352.17
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-14 11:08 ET (Wednesday) — week 2026-W42 — budget left $23417.17 (today $33750.00 put to work, 18 buys, 16 sells) — SIM (pretend money) via sim
-  (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
   (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
   (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
@@ -398,3 +378,23 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $234.50 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25338.47 (+1.35% on $25000.00 in) · cash $19345.22 · realised +345.22
 Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 24 order(s) working; budget left $18910.22 this week
+  (cancelled 2 standing order(s) on IBRX: position closed)
+- SELL 100% IBRX [take_profit @ $9.90] -> $756.26 (+0.83%) — close 100% at +0.8% over the average cost
+## 2026-10-14 12:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-14 12:13 ET (Wednesday) — week 2026-W42 — budget left $19666.48 (today $45000.00 put to work, 33 buys, 26 sells) — SIM (pretend money) via sim
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2Rg1WV9fdzmzfYsDsb9'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $19,666 idle, so opened 1: GTES. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 GTES [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +1.4% over the month; 67% of today's range
+~ WORKING take_profit 100% GTES @ $25.99 until 2026-10-19 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% GTES @ $25.64 until 2026-10-19 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 GTES @ $25.11 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25326.95 (+1.31% on $25000.00 in) · cash $19351.48 · realised +351.48
+Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $18916.48 this week

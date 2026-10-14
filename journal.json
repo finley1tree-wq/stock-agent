@@ -63520,7 +63520,7 @@
     "code_version": "2132469",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.23
+    "ret_now": -0.46
   },
   {
     "symbol": "CVX",
@@ -63764,7 +63764,7 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.2
+    "ret_now": -0.66
   },
   {
     "symbol": "MSFT",
@@ -63795,7 +63795,7 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": -0.2
   },
   {
     "symbol": "ADI",
@@ -63826,7 +63826,7 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": -0.36
   },
   {
     "symbol": "RARE",
@@ -63857,7 +63857,7 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.34
+    "ret_now": -0.87
   },
   {
     "symbol": "AEIS",
@@ -63888,7 +63888,7 @@
     "code_version": "d9f10bc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": -0.45
   },
   {
     "symbol": "PG",
@@ -63946,7 +63946,9 @@
     "code_version": "b909d9d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": 0.83,
+    "ret_final": 0.83,
+    "ret_src": "realised"
   },
   {
     "symbol": "META",
@@ -64002,6 +64004,64 @@
     "momentum_1m_at_entry": 9.11,
     "hour_et": 12,
     "code_version": "62f0012",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.11
+  },
+  {
+    "symbol": "IBRX",
+    "side": "sell",
+    "qty": 76.413629,
+    "status": "filled",
+    "price": 9.9,
+    "proceeds": 756.26,
+    "realized_pnl": 6.26,
+    "realized_pct": 0.83,
+    "date": "2026-10-14",
+    "time_et": "12:13",
+    "ts": 1791994200,
+    "why": "close 100% at +0.8% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $9.82",
+    "trigger": "take_profit",
+    "hour_et": 12,
+    "code_version": "94cd5dc",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "GTES",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 28.973347,
+    "price": 25.89,
+    "date": "2026-10-14",
+    "time_et": "12:13",
+    "ts": 1791994431,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +1.4% over the month; 67% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 25.86,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 1.43,
+    "hour_et": 12,
+    "code_version": "94cd5dc",
     "ret_1w": null,
     "ret_1m": null
   }
