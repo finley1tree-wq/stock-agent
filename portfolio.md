@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-10-14 11:12 ET
+# Pretend portfolio — 2026-10-14 11:14 ET
 
-**Equity $25348.95** on $25000.00 put in → **+1.40%**  
-Cash $23853.51 · Unrealised -4.56 · Realised +353.51
+**Equity $25350.32** on $25000.00 put in → **+1.40%**  
+Cash $23853.51 · Unrealised -3.19 · Realised +353.51
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| SNOW | 3.0% | $749.44 | $343.37 | $343.11 | -0.08% | 0d |
-| AVGO | 2.9% | $746.01 | $351.63 | $349.76 | -0.53% | 0d |
+| SNOW | 3.0% | $750.46 | $343.37 | $343.58 | +0.06% | 0d |
+| AVGO | 2.9% | $746.35 | $351.63 | $349.92 | -0.49% | 0d |
 
 ## Last fills
 
