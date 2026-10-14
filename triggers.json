@@ -1,60 +1,6 @@
 {
  "orders": [
   {
-   "id": "b00f1046",
-   "ticker": "NOC",
-   "kind": "stop_loss",
-   "price": 470.0,
-   "status": "cancelled",
-   "created": "2026-10-09 09:48",
-   "created_ts": 1791553718,
-   "why": "Protective stop on new defense position",
-   "evidence": "NOC at $480.56, ~2.2% stop below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 09:51",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "13a40c7b",
-   "ticker": "KO",
-   "kind": "stop_loss",
-   "price": 85.8,
-   "status": "cancelled",
-   "created": "2026-10-09 09:48",
-   "created_ts": 1791553718,
-   "why": "Protective stop on new defensive position",
-   "evidence": "KO at $87.71, ~2.2% stop below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 09:52",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "8347beb2",
-   "ticker": "PG",
-   "kind": "stop_loss",
-   "price": 147.8,
-   "status": "cancelled",
-   "created": "2026-10-09 09:48",
-   "created_ts": 1791553718,
-   "why": "Protective stop on new staples position",
-   "evidence": "PG at $151.11, ~2.2% stop below entry",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 10:00",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "9d609ca1",
    "ticker": "IBP",
    "kind": "take_profit",
@@ -7476,7 +7422,58 @@
    "good_until": "2026-10-19",
    "pct_of_position": 100.0,
    "closed": "2026-10-14 11:55"
+  },
+  {
+   "id": "90c1adb6",
+   "ticker": "PG",
+   "kind": "take_profit",
+   "price": 155.5379,
+   "status": "working",
+   "created": "2026-10-14 11:58",
+   "created_ts": 1791993493,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $155.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "06020c8e",
+   "ticker": "PG",
+   "kind": "stop_loss",
+   "price": 154.566,
+   "status": "working",
+   "created": "2026-10-14 11:58",
+   "created_ts": 1791993493,
+   "why": "close it all at -0.4% under the average cost",
+   "evidence": "average cost $155.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1e454149",
+   "ticker": "PG",
+   "kind": "buy_limit",
+   "price": 150.6022,
+   "status": "working",
+   "created": "2026-10-14 11:58",
+   "created_ts": 1791993493,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $155.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-14 11:56"
+ "updated": "2026-10-14 11:58"
 }
