@@ -1,48 +1,3 @@
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2LgAUA8BSLoXS8SGRij'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25349.07 (+1.40% on $25000.00 in) · cash $23852.17 · realised +352.17
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-14 11:11 ET (Wednesday) — week 2026-W42 — budget left $23417.17 (today $33750.00 put to work, 18 buys, 16 sells) — SIM (pretend money) via sim
-  (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2LttFiDQg1t1jPUg6uZ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,417 idle, so opened 1: SNOW. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 SNOW [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Maria Elvira Salazar), $15,001 - $50,000; +6.3% over the month; 0% of today's range
-~ WORKING take_profit 100% SNOW @ $344.90 until 2026-10-19 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% SNOW @ $339.54 until 2026-10-19 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 SNOW @ $333.07 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25349.04 (+1.40% on $25000.00 in) · cash $23102.17 · realised +352.17
-Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22667.17 this week
-  (cancelled 2 standing order(s) on PG: position closed)
-- SELL 100% PG [take_profit @ $155.16] -> $751.34 (+0.18%) — close 100% at +0.2% over the average cost
-## 2026-10-14 11:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-14 11:14 ET (Wednesday) — week 2026-W42 — budget left $23418.51 (today $34500.00 put to work, 19 buys, 17 sells) — SIM (pretend money) via sim
-  (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2M7eZZL2dp3LW8d5vyR'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25350.32 (+1.40% on $25000.00 in) · cash $23853.51 · realised +353.51
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-14 11:16 ET (Wednesday) — week 2026-W42 — budget left $23418.51 (today $34500.00 put to work, 19 buys, 17 sells) — SIM (pretend money) via sim
   (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
@@ -398,3 +353,48 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $500.00 GTES @ $25.11 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25326.95 (+1.31% on $25000.00 in) · cash $19351.48 · realised +351.48
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $18916.48 this week
+
+## 2026-10-14 12:16 ET (Wednesday) — week 2026-W42 — budget left $18916.48 (today $45750.00 put to work, 34 buys, 26 sells) — SIM (pretend money) via sim
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2RuBUP97MhsLVj9Tned'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25324.76 (+1.30% on $25000.00 in) · cash $19351.48 · realised +351.48
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-14 12:19 ET (Wednesday) — week 2026-W42 — budget left $18916.48 (today $45750.00 put to work, 34 buys, 26 sells) — SIM (pretend money) via sim
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2S87iX1dQtVKk8aPzhC'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25328.11 (+1.31% on $25000.00 in) · cash $19351.48 · realised +351.48
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-14 12:22 ET (Wednesday) — week 2026-W42 — budget left $18916.48 (today $45750.00 put to work, 34 buys, 26 sells) — SIM (pretend money) via sim
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2SN7JbzAjL87ZogkwP7'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25316.23 (+1.26% on $25000.00 in) · cash $19351.48 · realised +351.48
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on AEIS: position closed)
+- SELL 100% AEIS [stop_loss @ $260.94] -> $739.46 (-1.41%) — close it all at -1.4% under the average cost
+## 2026-10-14 12:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders

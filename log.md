@@ -29161,3 +29161,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25316.23 (+1.26% on $25000.00 in) · cash $19351.48 · realised +351.48
 Decision: nothing at this check. 24 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on AEIS: position closed)
+- SELL 100% AEIS [stop_loss @ $260.94] -> $739.46 (-1.41%) — close it all at -1.4% under the average cost
+## 2026-10-14 12:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders
