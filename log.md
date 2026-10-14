@@ -30248,3 +30248,18 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25293.22 (+1.17% on $25000.00 in) · cash $25293.22 · realised +293.22
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-14 15:57 ET (Wednesday) — week 2026-W42 — budget left $24858.21 (today $49500.00 put to work, 39 buys, 39 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2iiJ7udmBUXz63qAvmy'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25293.22 (+1.17% on $25000.00 in) · cash $25293.22 · realised +293.22
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
