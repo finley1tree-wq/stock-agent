@@ -1,9 +1,9 @@
 {
   "week": "2026-W42",
-  "spent": 836.29,
-  "deployed": 127050.0,
+  "spent": 1586.29,
+  "deployed": 127800.0,
   "by_ticker": {
-    "TSM": 16.85,
+    "TSM": 766.85,
     "IBM": 19.61,
     "AVGO": 41.43,
     "CVX": 25.29,
@@ -16,7 +16,7 @@
     "ACN": 2.09
   },
   "deployed_by_ticker": {
-    "TSM": 12550.0,
+    "TSM": 13300.0,
     "IBM": 2800.0,
     "ACN": 15600.0,
     "MSFT": 2900.0,
@@ -3741,12 +3741,34 @@
       ],
       "evidence": "average cost $217.36",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.72681,
+      "price": 434.33,
+      "date": "2026-10-14",
+      "time_et": "11:37",
+      "ts": 1791992233,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +5.0% over the month; 3% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-14",
-  "spent_today": 759.86,
-  "deployed_today": 36000.0,
-  "orders_today": 21,
+  "spent_today": 1509.86,
+  "deployed_today": 36750.0,
+  "orders_today": 22,
   "sells_today": 20,
   "sold_today": [
     "SNOW",
@@ -3773,28 +3795,19 @@
     "TSM": 1791989443,
     "AVGO": 1791991810
   },
-  "last_publish_ts": 1791992107,
-  "last_check_ts": 1791992153,
+  "last_publish_ts": 1791992233,
+  "last_check_ts": 1791992233,
   "exp_arm": {
-    "AVGO": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "ACN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "META": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "TSM": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -3805,12 +3818,15 @@
     }
   },
   "last_bar_ts": 1791992100,
-  "last_decision_ts": 1791992066,
-  "next_check_minutes": null,
+  "last_decision_ts": 1791992233,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "50a61746": 745.1234,
+    "459ae060": 435.5505,
     "2630f1a5": 736.5752,
-    "38357c19": 720.3996
+    "ad4942e8": 431.281,
+    "50a61746": 745.1234,
+    "38357c19": 720.3996,
+    "1239eee7": 421.3001
   }
 }

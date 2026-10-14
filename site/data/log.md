@@ -1,20 +1,3 @@
-  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2HNB9yngiaXRn7GJoL4'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $21,164 idle, so opened 1: META. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 META [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Maria Elvira Salazar), $1,001 - $15,000; +11.2% over the month; 5% of today's range
-~ WORKING take_profit 100% META @ $747.86 until 2026-10-19 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% META @ $739.40 until 2026-10-19 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 META @ $723.08 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25349.99 (+1.40% on $25000.00 in) · cash $20848.67 · realised +348.67
-Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20413.68 this week
-  (cancelled 2 standing order(s) on SNOW: position closed)
-- SELL 100% SNOW [take_profit @ $351.82] -> $753.46 (+0.46%) — close 100% at +0.4% over the average cost
-## 2026-10-14 10:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
 ## 2026-10-14 10:27 ET (Wednesday) — week 2026-W42 — budget left $21167.14 (today $31500.00 put to work, 15 buys, 10 sells) — SIM (pretend money) via sim
   (AVO excluded: too thinly traded ($10.1M a day) — Mission Produce, Inc.)
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
@@ -398,3 +381,20 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on ACN: position closed)
 - SELL 100% ACN [stop_loss @ $217.56] -> $750.69 (+0.09%) — close it all at -1.2% under the average cost
 ## 2026-10-14 11:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-14 11:37 ET (Wednesday) — week 2026-W42 — budget left $24163.71 (today $36000.00 put to work, 21 buys, 20 sells) — SIM (pretend money) via sim
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CINT excluded: too thinly traded ($0.3M a day) — CI&T Inc.)
+  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2NtTioxqZwSEXtCxLBx'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,164 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 TSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +5.0% over the month; 3% of today's range
+~ WORKING take_profit 100% TSM @ $435.55 until 2026-10-19 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% TSM @ $431.28 until 2026-10-19 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 TSM @ $421.30 until 2026-10-19 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25345.80 (+1.38% on $25000.00 in) · cash $23848.70 · realised +348.70
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $23413.71 this week

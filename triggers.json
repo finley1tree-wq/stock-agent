@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "6d6d4416",
-   "ticker": "HD",
-   "kind": "stop_loss",
-   "price": 287.0,
-   "status": "cancelled",
-   "created": "2026-10-09 09:32",
-   "created_ts": 1791552751,
-   "why": "Protective stop ~2.2% below entry",
-   "evidence": "HD ATR 2.2%, protect against reversal",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 09:47",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "75dad4b8",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 452.0,
-   "status": "filled",
-   "created": "2026-10-09 09:32",
-   "created_ts": 1791552751,
-   "why": "Protective stop ~2.2% below entry",
-   "evidence": "TSM ATR 2.3%, protect against reversal",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-09 10:12"
-  },
-  {
-   "id": "ca935182",
-   "ticker": "AMGN",
-   "kind": "buy_limit",
-   "price": 406.6234,
-   "status": "cancelled",
-   "created": "2026-10-09 09:32",
-   "created_ts": 1791552751,
-   "why": "wanted it, but not at the high \u2014 resting at $406.62. Congress buy pressure (score 1.0) with positive momentum, AMGN at day high but strong fundamentals",
-   "evidence": "Rep. David J. Taylor bought AMGN ($1,001-$15,000, disclosed 2026-10-01); AMGN +0.32% 1d, +6.87% 1m",
-   "signals": [
-    "congress",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-10-09",
-   "usd": 3000.0,
-   "closed": "2026-10-09 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "baaa4ec2",
    "ticker": "NFLX",
    "kind": "buy_limit",
@@ -7479,7 +7424,58 @@
    "good_until": "2026-10-19",
    "pct_of_position": 100.0,
    "closed": "2026-10-14 11:35"
+  },
+  {
+   "id": "459ae060",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 435.5505,
+   "status": "working",
+   "created": "2026-10-14 11:37",
+   "created_ts": 1791992233,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $434.33",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ad4942e8",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 431.281,
+   "status": "working",
+   "created": "2026-10-14 11:37",
+   "created_ts": 1791992233,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $434.33",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1239eee7",
+   "ticker": "TSM",
+   "kind": "buy_limit",
+   "price": 421.3001,
+   "status": "working",
+   "created": "2026-10-14 11:37",
+   "created_ts": 1791992233,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $434.33",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-19",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-14 11:35"
+ "updated": "2026-10-14 11:37"
 }
