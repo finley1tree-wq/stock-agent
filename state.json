@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 182.33,
-  "deployed": 166800.0,
+  "spent": 932.33,
+  "deployed": 167550.0,
   "by_ticker": {
     "TSM": 28.27,
     "IBM": 19.61,
@@ -18,7 +18,7 @@
     "AEIS": 21.39,
     "GTES": 20.68,
     "IBRX": 75.56,
-    "ADI": 2.08,
+    "ADI": 752.08,
     "NXPI": 1.6,
     "WSM": 5.82
   },
@@ -36,7 +36,7 @@
     "CVX": 18450.0,
     "PG": 11250.0,
     "BHE": 1500.0,
-    "ADI": 4500.0,
+    "ADI": 5250.0,
     "RARE": 4500.0,
     "AEIS": 1500.0,
     "IBRX": 5250.0,
@@ -5151,12 +5151,34 @@
       ],
       "evidence": "average cost $249.76",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ADI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.864788,
+      "price": 402.19,
+      "date": "2026-10-15",
+      "time_et": "11:11",
+      "ts": 1792077080,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +11.1% over the month; 51% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 40.54,
-  "deployed_today": 26250.0,
-  "orders_today": 14,
+  "spent_today": 790.54,
+  "deployed_today": 27000.0,
+  "orders_today": 15,
   "sells_today": 14,
   "sold_today": [
     "MSFT",
@@ -5189,28 +5211,10 @@
     "ADI": 1792074306,
     "NXPI": 1792074935
   },
-  "last_publish_ts": 1792076006,
-  "last_check_ts": 1792076910,
+  "last_publish_ts": 1792077080,
+  "last_check_ts": 1792077080,
   "exp_arm": {
-    "RARE": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "WSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "GTES": {
+    "ADI": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "off"
@@ -5220,9 +5224,13 @@
       }
     }
   },
-  "last_bar_ts": 1792076700,
-  "last_decision_ts": 1792076910,
-  "next_check_minutes": null,
+  "last_bar_ts": 1792077000,
+  "last_decision_ts": 1792077080,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "ca6df32c": 403.4609,
+    "94385213": 399.0167,
+    "8fb31b66": 390.1243
+  }
 }
