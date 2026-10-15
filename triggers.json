@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "f5495c14",
-   "ticker": "AMGN",
-   "kind": "stop_loss",
-   "price": 412.9698,
-   "status": "cancelled",
-   "created": "2026-10-12 10:57",
-   "created_ts": 1791817037,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $415.68",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 12:27",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "c135fcb6",
-   "ticker": "AMGN",
-   "kind": "buy_limit",
-   "price": 403.2096,
-   "status": "cancelled",
-   "created": "2026-10-12 10:57",
-   "created_ts": 1791817037,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $415.68",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "usd": 500.0,
-   "closed": "2026-10-12 12:27",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "7194757c",
-   "ticker": "SNOW",
-   "kind": "take_profit",
-   "price": 363.1227,
-   "status": "cancelled",
-   "created": "2026-10-12 11:17",
-   "created_ts": 1791818245,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $361.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 12:47",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "ea022309",
    "ticker": "SNOW",
    "kind": "stop_loss",
@@ -7472,7 +7415,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-15 13:09",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "0a4b9b17",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 540.4563,
+   "status": "working",
+   "created": "2026-10-15 13:22",
+   "created_ts": 1792084936,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $539.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "39ed29fd",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 536.0619,
+   "status": "working",
+   "created": "2026-10-15 13:22",
+   "created_ts": 1792084936,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $539.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d3c51f63",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 523.024,
+   "status": "working",
+   "created": "2026-10-15 13:22",
+   "created_ts": 1792084936,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $539.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-15 13:19"
+ "updated": "2026-10-15 13:22"
 }

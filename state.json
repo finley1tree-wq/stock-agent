@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 3915.17,
-  "deployed": 177300.0,
+  "spent": 4665.17,
+  "deployed": 178050.0,
   "by_ticker": {
     "TSM": 778.27,
     "IBM": 19.61,
@@ -20,13 +20,14 @@
     "IBRX": 819.78,
     "WSM": 5.71,
     "ADI": 750.0,
-    "RARE": 750.0
+    "RARE": 750.0,
+    "MSFT": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 14800.0,
     "IBM": 2800.0,
     "ACN": 15600.0,
-    "MSFT": 8150.0,
+    "MSFT": 8900.0,
     "AMGN": 13750.0,
     "KO": 13250.0,
     "AVGO": 10250.0,
@@ -5648,12 +5649,34 @@
       ],
       "evidence": "average cost $248.43",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.390955,
+      "price": 539.2,
+      "date": "2026-10-15",
+      "time_et": "13:22",
+      "ts": 1792084936,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +9.9% over the month; 85% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 3773.38,
-  "deployed_today": 36750.0,
-  "orders_today": 28,
+  "spent_today": 4523.38,
+  "deployed_today": 37500.0,
+  "orders_today": 29,
   "sells_today": 23,
   "sold_today": [
     "MSFT",
@@ -5686,8 +5709,8 @@
     "ADI": 1792077389,
     "NXPI": 1792084182
   },
-  "last_publish_ts": 1792084456,
-  "last_check_ts": 1792084851,
+  "last_publish_ts": 1792084936,
+  "last_check_ts": 1792084936,
   "exp_arm": {
     "IBRX": {
       "params": {
@@ -5725,15 +5748,6 @@
         "ratchet": "off"
       }
     },
-    "WSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "RARE": {
       "params": {
         "hold_minutes": 90,
@@ -5743,35 +5757,38 @@
         "ratchet": "off"
       }
     },
-    "NXPI": {
+    "MSFT": {
       "params": {
         "hold_minutes": 90,
-        "ratchet": "on"
+        "ratchet": "off"
       },
       "tags": {
-        "ratchet": "on"
+        "ratchet": "off"
       }
     }
   },
   "last_bar_ts": 1792084800,
-  "last_decision_ts": 1792084758,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792084936,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "5e179bce": 420.0784,
+    "0a4b9b17": 540.4563,
     "139afebd": 25.939,
     "93d9ee71": 397.7249,
+    "39ed29fd": 536.0619,
     "cdc1e6df": 402.1709,
-    "19a933ab": 14.9919,
-    "01aa1b37": 415.1798,
     "99830952": 15.2691,
+    "01aa1b37": 415.1798,
+    "19a933ab": 14.9919,
     "3224e6f3": 25.5925,
     "699d2b77": 10.2425,
     "ab366198": 9.9538,
     "ae6b5537": 9.8552,
-    "0837bb37": 14.7343,
     "a1e6ea04": 388.873,
-    "706ca01d": 406.1196,
-    "22aaa368": 25.0648
+    "0837bb37": 14.7343,
+    "d3c51f63": 523.024,
+    "22aaa368": 25.0648,
+    "706ca01d": 406.1196
   }
 }
