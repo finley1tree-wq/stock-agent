@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "46157777",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 209.5,
-   "status": "cancelled",
-   "created": "2026-10-12 09:39",
-   "created_ts": 1791812396,
-   "why": "Protective stop given elevated ATR",
-   "evidence": "ACN ATR 4.6%, high volatility name needs wider stop",
-   "signals": [
-    "risk_management"
-   ],
-   "good_until": "2026-10-12",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 09:42",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "2cc692e2",
-   "ticker": "CVX",
-   "kind": "buy_limit",
-   "price": 215.4408,
-   "status": "filled",
-   "created": "2026-10-12 09:39",
-   "created_ts": 1791812396,
-   "why": "wanted it, but not at the high \u2014 resting at $215.44. Named congress buy pressure plus strong 1d/5d momentum, hour-09 is SURVIVOR stage so full size warranted",
-   "evidence": "Rep. Maria Elvira Salazar disclosed a CVX buy ($1,001-$15,000) on 2026-09-02, filing disclosed 2026-10-07; CVX +1.95% today, 87.9% of day range",
-   "signals": [
-    "congress",
-    "news",
-    "momentum",
-    "patience"
-   ],
-   "good_until": "2026-10-12",
-   "usd": 2900.0,
-   "closed": "2026-10-12 10:06"
-  },
-  {
-   "id": "47fbe8f0",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 539.2261,
-   "status": "filled",
-   "created": "2026-10-12 09:39",
-   "created_ts": 1791812396,
-   "why": "wanted it, but not at the high \u2014 resting at $539.23. Widely-held mega-cap with strong momentum breakout, diversifies sector exposure beyond TSM/IBM",
-   "evidence": "MSFT +1.24% 1d, +3.14% 5d, +9.29% 1m, 93.4% of day range - strong breakout confirmed by price action",
-   "signals": [
-    "momentum",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-10-12",
-   "usd": 2900.0,
-   "closed": "2026-10-12 09:45"
-  },
-  {
    "id": "3a98c181",
    "ticker": "ACN",
    "kind": "take_profit",
@@ -7491,7 +7434,58 @@
    ],
    "good_until": "2026-10-20",
    "usd": 500.0
+  },
+  {
+   "id": "b1312a1b",
+   "ticker": "IBRX",
+   "kind": "take_profit",
+   "price": 10.1426,
+   "status": "working",
+   "created": "2026-10-15 11:14",
+   "created_ts": 1792077255,
+   "why": "close 100% at +0.8% over the average cost",
+   "evidence": "average cost $10.06",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "790e47dd",
+   "ticker": "IBRX",
+   "kind": "stop_loss",
+   "price": 9.8535,
+   "status": "working",
+   "created": "2026-10-15 11:14",
+   "created_ts": 1792077255,
+   "why": "close it all at -2.1% under the average cost",
+   "evidence": "average cost $10.06",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b6810fd9",
+   "ticker": "IBRX",
+   "kind": "buy_limit",
+   "price": 9.7582,
+   "status": "working",
+   "created": "2026-10-15 11:14",
+   "created_ts": 1792077255,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $10.06",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-15 11:11"
+ "updated": "2026-10-15 11:14"
 }
