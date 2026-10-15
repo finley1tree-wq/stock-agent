@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3171.52,
+  "spent": 2422.0,
   "deployed": 173550.0,
   "by_ticker": {
     "TSM": 28.27,
@@ -18,7 +18,7 @@
     "AEIS": 21.39,
     "GTES": 20.06,
     "IBRX": 819.78,
-    "NXPI": 751.6,
+    "NXPI": 2.08,
     "WSM": 7.9,
     "MSFT": 750.0,
     "ADI": 750.0
@@ -5455,13 +5455,34 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 3.297269,
+      "status": "filled",
+      "price": 227.32,
+      "proceeds": 749.52,
+      "realized_pnl": -0.48,
+      "realized_pct": -0.06,
+      "date": "2026-10-15",
+      "time_et": "12:05",
+      "ts": 1792080300,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $227.46",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 3029.73,
+  "spent_today": 2280.21,
   "deployed_today": 33000.0,
   "orders_today": 23,
-  "sells_today": 19,
+  "sells_today": 20,
   "sold_today": [
     "MSFT",
     "NXPI",
@@ -5491,10 +5512,10 @@
     "RARE": 1792080256,
     "GTES": 1792078703,
     "ADI": 1792077389,
-    "NXPI": 1792074935
+    "NXPI": 1792080319
   },
-  "last_publish_ts": 1792080257,
-  "last_check_ts": 1792080257,
+  "last_publish_ts": 1792080364,
+  "last_check_ts": 1792080364,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -5533,22 +5554,19 @@
       }
     }
   },
-  "last_bar_ts": 1792080000,
+  "last_bar_ts": 1792080300,
   "last_decision_ts": 1792080257,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "de8eeac5": 227.826,
+    "a8fa183e": 538.564,
     "922d9195": 539.3631,
-    "a5859450": 228.3016,
     "cdc1e6df": 402.1709,
-    "bc911d81": 535.0043,
     "93d9ee71": 397.7249,
     "699d2b77": 10.2425,
     "ab366198": 9.9538,
     "a1e6ea04": 388.873,
     "ae6b5537": 9.8552,
-    "c03adbf5": 521.9764,
-    "7edbbea7": 220.6362
+    "c03adbf5": 521.9764
   }
 }

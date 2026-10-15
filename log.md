@@ -31133,3 +31133,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 ADI @ $388.87 until 2026-10-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25264.63 (+1.06% on $25000.00 in) · cash $22263.49 · realised +263.49
 Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $21828.48 this week
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $227.32] -> $749.52 (-0.06%) — close it all at -0.9% under the average cost
+## 2026-10-15 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders

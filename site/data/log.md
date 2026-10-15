@@ -1,6 +1,3 @@
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25257.11 (+1.03% on $25000.00 in) · cash $24508.49 · realised +258.49
-Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 2 standing order(s) on WSM: position closed)
 - SELL 100% WSM [stop_loss @ $247.82] -> $744.18 (-0.78%) — close it all at -0.7% under the average cost
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 ADI @ $388.87 until 2026-10-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25264.63 (+1.06% on $25000.00 in) · cash $22263.49 · realised +263.49
 Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $21828.48 this week
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $227.32] -> $749.52 (-0.06%) — close it all at -0.9% under the average cost
+## 2026-10-15 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
