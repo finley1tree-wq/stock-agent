@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 2424.18,
+  "spent": 1673.56,
   "deployed": 170550.0,
   "by_ticker": {
     "TSM": 28.27,
@@ -16,7 +16,7 @@
     "ACN": 2.09,
     "BHE": 16.9,
     "AEIS": 21.39,
-    "GTES": 770.68,
+    "GTES": 20.06,
     "IBRX": 69.78,
     "NXPI": 1.6,
     "WSM": 5.82,
@@ -5304,13 +5304,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "GTES",
+      "side": "sell",
+      "qty": 29.063256,
+      "status": "filled",
+      "price": 25.83,
+      "proceeds": 750.62,
+      "realized_pnl": 0.62,
+      "realized_pct": 0.08,
+      "date": "2026-10-15",
+      "time_et": "11:38",
+      "ts": 1792078500,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $25.81",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 2282.39,
+  "spent_today": 1531.77,
   "deployed_today": 30000.0,
   "orders_today": 19,
-  "sells_today": 16,
+  "sells_today": 17,
   "sold_today": [
     "MSFT",
     "NXPI",
@@ -5338,12 +5359,12 @@
     "BHE": 1791999480,
     "WSM": 1792076007,
     "RARE": 1792075105,
-    "GTES": 1792075477,
+    "GTES": 1792078703,
     "ADI": 1792077389,
     "NXPI": 1792074935
   },
-  "last_publish_ts": 1792078362,
-  "last_check_ts": 1792078665,
+  "last_publish_ts": 1792078702,
+  "last_check_ts": 1792078748,
   "exp_arm": {
     "RARE": {
       "params": {
@@ -5378,14 +5399,11 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "8e6f4662": 25.84,
-    "6976e88f": 25.9091,
-    "bc911d81": 535.0043,
-    "922d9195": 539.3631,
     "1c22936b": 15.2192,
     "0277d4b6": 14.942,
-    "c03adbf5": 521.9764,
     "79aecf1e": 14.6858,
-    "210c13b1": 25.0357
+    "922d9195": 539.3631,
+    "bc911d81": 535.0043,
+    "c03adbf5": 521.9764
   }
 }
