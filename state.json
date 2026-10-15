@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 1683.69,
-  "deployed": 166050.0,
+  "spent": 2433.69,
+  "deployed": 166800.0,
   "by_ticker": {
     "TSM": 28.27,
     "IBM": 19.61,
@@ -16,7 +16,7 @@
     "ACN": 2.09,
     "BHE": 16.9,
     "AEIS": 21.39,
-    "GTES": 23.72,
+    "GTES": 773.72,
     "IBRX": 75.56,
     "ADI": 2.08,
     "NXPI": 1.6,
@@ -42,7 +42,7 @@
     "AEIS": 1500.0,
     "IBRX": 5250.0,
     "WSM": 5250.0,
-    "GTES": 3750.0,
+    "GTES": 4500.0,
     "NXPI": 3750.0
   },
   "orders": [
@@ -5067,12 +5067,34 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "GTES",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 29.370864,
+      "price": 25.54,
+      "date": "2026-10-15",
+      "time_et": "10:37",
+      "ts": 1792075022,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +0.2% over the month; 17% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 1541.9,
-  "deployed_today": 25500.0,
-  "orders_today": 13,
+  "spent_today": 2291.9,
+  "deployed_today": 26250.0,
+  "orders_today": 14,
   "sells_today": 11,
   "sold_today": [
     "MSFT",
@@ -5105,8 +5127,8 @@
     "ADI": 1792074306,
     "NXPI": 1792074935
   },
-  "last_publish_ts": 1792074878,
-  "last_check_ts": 1792074878,
+  "last_publish_ts": 1792075022,
+  "last_check_ts": 1792075022,
   "exp_arm": {
     "RARE": {
       "params": {
@@ -5125,18 +5147,30 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "GTES": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
-  "last_bar_ts": 1792074600,
-  "last_decision_ts": 1792074878,
+  "last_bar_ts": 1792074900,
+  "last_decision_ts": 1792075022,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "0b922a52": 250.4868,
     "4be7f9fe": 15.1592,
+    "4dfcccd8": 25.6391,
     "5b6b1ef7": 247.9467,
+    "7ef0d963": 25.2925,
     "1df60fd8": 14.882,
-    "34bf895a": 14.6276,
-    "ba8dd9b4": 242.2672
+    "c3ac52ff": 24.7738,
+    "ba8dd9b4": 242.2672,
+    "34bf895a": 14.6276
   }
 }

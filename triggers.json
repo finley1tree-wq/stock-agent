@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "5dc93571",
-   "ticker": "IBM",
-   "kind": "buy_limit",
-   "price": 228.2792,
-   "status": "filled",
-   "created": "2026-10-12 09:32",
-   "created_ts": 1791811965,
-   "why": "wanted it, but not at the high \u2014 resting at $228.28. Counterfactual data flags IBM as a recently missed name; current momentum turning positive after a 1m pullback",
-   "evidence": "IBM +0.83% 1d, +3.36% 5d, 88.4% of day range; counterfactual biggest_miss showed IBM +6.26% fwd when skipped with -6.5% 1m momentum then",
-   "signals": [
-    "track_record",
-    "news",
-    "patience"
-   ],
-   "good_until": "2026-10-12",
-   "usd": 2800.0,
-   "closed": "2026-10-12 09:38"
-  },
-  {
-   "id": "1f25fbf3",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 452.1651,
-   "status": "cancelled",
-   "created": "2026-10-12 09:32",
-   "created_ts": 1791811965,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $450.97",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 11:05",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "74503529",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 437.4409,
-   "status": "cancelled",
-   "created": "2026-10-12 09:32",
-   "created_ts": 1791811965,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $450.97",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "usd": 500.0,
-   "closed": "2026-10-12 11:05",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "f5a11a7d",
    "ticker": "IBM",
    "kind": "take_profit",
@@ -7487,7 +7430,58 @@
    ],
    "good_until": "2026-10-20",
    "usd": 500.0
+  },
+  {
+   "id": "4dfcccd8",
+   "ticker": "GTES",
+   "kind": "take_profit",
+   "price": 25.6391,
+   "status": "working",
+   "created": "2026-10-15 10:37",
+   "created_ts": 1792075022,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $25.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7ef0d963",
+   "ticker": "GTES",
+   "kind": "stop_loss",
+   "price": 25.2925,
+   "status": "working",
+   "created": "2026-10-15 10:37",
+   "created_ts": 1792075022,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $25.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c3ac52ff",
+   "ticker": "GTES",
+   "kind": "buy_limit",
+   "price": 24.7738,
+   "status": "working",
+   "created": "2026-10-15 10:37",
+   "created_ts": 1792075022,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $25.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-15 10:34"
+ "updated": "2026-10-15 10:37"
 }
