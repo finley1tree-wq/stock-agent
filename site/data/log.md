@@ -1,6 +1,3 @@
-## 2026-10-14 16:00 ET — published the session's closing state
-
-## 2026-10-15 09:32 ET (Thursday) — week 2026-W42 — budget left $24858.21 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 GTES @ $24.77 until 2026-10-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25252.35 (+1.01% on $25000.00 in) · cash $23001.31 · realised +251.31
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22566.31 this week
+  (cancelled 2 standing order(s) on RARE: position closed)
+- SELL 100% RARE [take_profit @ $15.16] -> $754.14 (+0.55%) — close 100% at +0.5% over the average cost
+## 2026-10-15 10:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
