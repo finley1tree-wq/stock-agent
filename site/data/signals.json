@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-15T09:46-04:00",
+ "asOf": "2026-10-15T09:48-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -178,17 +178,34 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "fbaf4585",
-   "ticker": "GTES",
+   "id": "9088fdbd",
+   "ticker": "WSM",
    "kind": "take_profit",
-   "price": 25.7472,
+   "price": 247.0245,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 25.74,
-   "pct_away": 0.03,
+   "last": 246.97,
+   "pct_away": 0.02,
    "good_until": "2026-10-20",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "59cbab7c",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 246.71,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 246.97,
+   "pct_away": -0.11,
+   "good_until": "2026-10-20",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,10 +219,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 25.74,
-   "pct_away": -0.14,
+   "last": 25.43,
+   "pct_away": 1.08,
    "good_until": "2026-10-20",
    "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "fbaf4585",
+   "ticker": "GTES",
+   "kind": "take_profit",
+   "price": 25.7472,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 25.43,
+   "pct_away": 1.25,
+   "good_until": "2026-10-20",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,44 +253,10 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 25.74,
-   "pct_away": -3.34,
+   "last": 25.43,
+   "pct_away": -2.16,
    "good_until": "2026-10-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9088fdbd",
-   "ticker": "WSM",
-   "kind": "take_profit",
-   "price": 247.0245,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-10-20",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "327b48a4",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 244.5588,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-10-20",
-   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,8 +270,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": null,
-   "pct_away": null,
+   "last": 246.97,
+   "pct_away": -3.26,
    "good_until": "2026-10-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
