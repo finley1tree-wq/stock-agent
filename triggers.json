@@ -7315,7 +7315,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 535.0919,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-15 09:32",
    "created_ts": 1792071162,
    "why": "close 100% at +0.2% over the average cost",
@@ -7325,14 +7325,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 09:36"
   },
   {
    "id": "3b59c145",
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 530.8529,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 09:32",
    "created_ts": 1792071162,
    "why": "close it all at -0.6% under the average cost",
@@ -7342,14 +7343,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 09:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "281e57fc",
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 517.8636,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 09:32",
    "created_ts": 1792071162,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7359,14 +7362,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-15 09:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "abc5440e",
    "ticker": "NXPI",
    "kind": "take_profit",
    "price": 224.0883,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-15 09:32",
    "created_ts": 1792071162,
    "why": "close 100% at +0.4% over the average cost",
@@ -7376,14 +7381,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 09:36"
   },
   {
    "id": "4d9251d1",
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 221.2571,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 09:32",
    "created_ts": 1792071162,
    "why": "close it all at -0.9% under the average cost",
@@ -7393,14 +7399,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 09:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d52d963c",
    "ticker": "NXPI",
    "kind": "buy_limit",
    "price": 216.5816,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 09:32",
    "created_ts": 1792071162,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7410,14 +7418,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-15 09:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "85c1cd0e",
    "ticker": "ADI",
    "kind": "take_profit",
    "price": 402.0987,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-15 09:32",
    "created_ts": 1792071162,
    "why": "close 100% at +0.3% over the average cost",
@@ -7427,14 +7437,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 09:36"
   },
   {
    "id": "5f9cbd0a",
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 397.8293,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 09:32",
    "created_ts": 1792071162,
    "why": "close it all at -0.8% under the average cost",
@@ -7444,14 +7455,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 09:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f2eca14b",
    "ticker": "ADI",
    "kind": "buy_limit",
    "price": 388.8536,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 09:32",
    "created_ts": 1792071162,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7461,8 +7474,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-15 09:36",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-15 09:35"
+ "updated": "2026-10-15 09:36"
 }

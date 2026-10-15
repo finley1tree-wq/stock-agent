@@ -30315,3 +30315,10 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25258.24 (+1.03% on $25000.00 in) · cash $7293.22 · realised +293.22
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $535.09] -> $3006.83 (+0.23%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [take_profit @ $224.09] -> $3010.87 (+0.36%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [take_profit @ $402.10] -> $3009.12 (+0.30%) — close 100% at +0.3% over the average cost
+## 2026-10-15 09:36 ET — tick — 3 sell(s), 0 buy(s) from standing orders
