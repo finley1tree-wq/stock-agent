@@ -30574,3 +30574,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 NXPI @ $219.34 until 2026-10-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25267.47 (+1.07% on $25000.00 in) · cash $22268.44 · realised +268.44
 Done: 0 sell(s), 4 buy(s); 12 order(s) working; budget left $21833.43 this week
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [stop_loss @ $398.16] -> $747.92 (-0.28%) — close it all at -0.8% under the average cost
+## 2026-10-15 10:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-15 10:25 ET (Thursday) — week 2026-W42 — budget left $22581.35 (today $24000.00 put to work, 11 buys, 8 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg4BFAFXaWTsDTyD2Gwah'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25255.47 (+1.02% on $25000.00 in) · cash $23016.36 · realised +266.36
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

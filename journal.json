@@ -65044,7 +65044,8 @@
     "hour_et": 10,
     "code_version": "b92b9a5",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -1.67
   },
   {
     "symbol": "MSFT",
@@ -65074,7 +65075,8 @@
     "hour_et": 10,
     "code_version": "b92b9a5",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.22
   },
   {
     "symbol": "ADI",
@@ -65104,7 +65106,10 @@
     "hour_et": 10,
     "code_version": "b92b9a5",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.28,
+    "ret_now": -0.28,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -65134,6 +65139,34 @@
     "hour_et": 10,
     "code_version": "b92b9a5",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.1
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 1.878429,
+    "status": "filled",
+    "price": 398.16,
+    "proceeds": 747.92,
+    "realized_pnl": -2.08,
+    "realized_pct": -0.28,
+    "date": "2026-10-15",
+    "time_et": "10:25",
+    "ts": 1792074300,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $399.27",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "c560a53",
+    "hold_minutes": 2
   }
 ]

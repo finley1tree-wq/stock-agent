@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-15T10:23-04:00",
- "note": "tick: watching",
+ "asOf": "2026-10-15T10:25-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,57 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "70bd022d",
-   "ticker": "ADI",
-   "kind": "stop_loss",
-   "price": 399.714,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 400.01,
-   "pct_away": -0.07,
-   "good_until": "2026-10-20",
-   "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "333628af",
-   "ticker": "ADI",
-   "kind": "take_profit",
-   "price": 400.5397,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 400.01,
-   "pct_away": 0.13,
-   "good_until": "2026-10-20",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3fc63bbb",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 226.9566,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 226.43,
-   "pct_away": 0.23,
-   "good_until": "2026-10-20",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "da347cbf",
    "ticker": "MSFT",
    "kind": "take_profit",
@@ -236,61 +185,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 532.88,
-   "pct_away": 0.27,
+   "last": 534.18,
+   "pct_away": 0.03,
    "good_until": "2026-10-20",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0b2cd293",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 529.9768,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 532.88,
-   "pct_away": -0.54,
-   "good_until": "2026-10-20",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f9745a82",
-   "ticker": "IBRX",
-   "kind": "take_profit",
-   "price": 10.2826,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 10.19,
-   "pct_away": 0.91,
-   "good_until": "2026-10-20",
-   "why": "close 100% at +0.8% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "10fdd25f",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 224.0261,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 226.43,
-   "pct_away": -1.06,
-   "good_until": "2026-10-20",
-   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -304,10 +202,61 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 10.19,
-   "pct_away": -1.93,
+   "last": 10.05,
+   "pct_away": -0.56,
    "good_until": "2026-10-20",
    "why": "close it all at -2.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "10fdd25f",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 224.0261,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 225.3,
+   "pct_away": -0.57,
+   "good_until": "2026-10-20",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3fc63bbb",
+   "ticker": "NXPI",
+   "kind": "take_profit",
+   "price": 226.9566,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 225.3,
+   "pct_away": 0.74,
+   "good_until": "2026-10-20",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0b2cd293",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 529.9768,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 534.18,
+   "pct_away": -0.79,
+   "good_until": "2026-10-20",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -321,8 +270,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 10.19,
-   "pct_away": -2.9,
+   "last": 10.05,
+   "pct_away": -1.55,
+   "good_until": "2026-10-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f9745a82",
+   "ticker": "IBRX",
+   "kind": "take_profit",
+   "price": 10.2826,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 10.05,
+   "pct_away": 2.31,
+   "good_until": "2026-10-20",
+   "why": "close 100% at +0.8% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "454f2c96",
+   "ticker": "NXPI",
+   "kind": "buy_limit",
+   "price": 219.3364,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 225.3,
+   "pct_away": -2.65,
    "good_until": "2026-10-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -338,42 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 532.88,
-   "pct_away": -2.96,
-   "good_until": "2026-10-20",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "454f2c96",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 219.3364,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 226.43,
-   "pct_away": -3.13,
-   "good_until": "2026-10-20",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "bcdbc059",
-   "ticker": "ADI",
-   "kind": "buy_limit",
-   "price": 387.2919,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 400.01,
-   "pct_away": -3.18,
+   "last": 534.18,
+   "pct_away": -3.2,
    "good_until": "2026-10-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
