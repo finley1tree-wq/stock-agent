@@ -31586,3 +31586,8 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25262.09 (+1.05% on $25000.00 in) · cash $21520.29 · realised +270.29
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on GTES: position closed)
+- SELL 100% GTES [take_profit @ $25.94] -> $753.00 (+0.40%) — close 100% at +0.4% over the average cost
+- SELL 100% IBRX [time stop] -> $742.62 (-0.98%) — held 90 min, the 90-minute limit: out regardless
+- SELL 100% ADI [time stop] -> $749.44 (-0.07%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-15 13:34 ET — tick — 3 sell(s), 0 buy(s) from standing orders

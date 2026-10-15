@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3914.72,
+  "spent": 1669.66,
   "deployed": 178050.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -16,10 +16,10 @@
     "ACN": 2.09,
     "BHE": 16.9,
     "AEIS": 21.39,
-    "GTES": 770.06,
-    "IBRX": 819.78,
+    "GTES": 17.06,
+    "IBRX": 77.16,
     "WSM": 5.71,
-    "ADI": 750.0,
+    "ADI": 0.56,
     "RARE": 750.0,
     "MSFT": 750.0
   },
@@ -5692,13 +5692,74 @@
       ],
       "evidence": "average cost $418.68",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "GTES",
+      "side": "sell",
+      "qty": 29.029475,
+      "status": "filled",
+      "price": 25.94,
+      "proceeds": 753.0,
+      "realized_pnl": 3.0,
+      "realized_pct": 0.4,
+      "date": "2026-10-15",
+      "time_et": "13:34",
+      "ts": 1792085400,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $25.84",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "IBRX",
+      "side": "sell",
+      "qty": 73.782595,
+      "status": "filled",
+      "price": 10.06,
+      "proceeds": 742.62,
+      "realized_pnl": -7.38,
+      "realized_pct": -0.98,
+      "date": "2026-10-15",
+      "time_et": "13:34",
+      "ts": 1792085675,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.93% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.87079,
+      "status": "filled",
+      "price": 400.6,
+      "proceeds": 749.44,
+      "realized_pnl": -0.56,
+      "realized_pct": -0.07,
+      "date": "2026-10-15",
+      "time_et": "13:34",
+      "ts": 1792085675,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.05% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 3772.93,
+  "spent_today": 1527.87,
   "deployed_today": 37500.0,
   "orders_today": 29,
-  "sells_today": 24,
+  "sells_today": 27,
   "sold_today": [
     "MSFT",
     "NXPI",
@@ -5722,17 +5783,17 @@
     "NEOG": 1791899653,
     "TSM": 1792085469,
     "AVGO": 1791991810,
-    "IBRX": 1792077389,
+    "IBRX": 1792085675,
     "AEIS": 1791999598,
     "BHE": 1791999480,
     "WSM": 1792084457,
     "RARE": 1792080256,
-    "GTES": 1792078703,
-    "ADI": 1792077389,
+    "GTES": 1792085675,
+    "ADI": 1792085676,
     "NXPI": 1792084182
   },
-  "last_publish_ts": 1792085468,
-  "last_check_ts": 1792085625,
+  "last_publish_ts": 1792085675,
+  "last_check_ts": 1792085721,
   "exp_arm": {
     "IBRX": {
       "params": {
@@ -5789,25 +5850,16 @@
       }
     }
   },
-  "last_bar_ts": 1792085400,
+  "last_bar_ts": 1792085700,
   "last_decision_ts": 1792085625,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "139afebd": 25.939,
     "0a4b9b17": 540.4563,
-    "cdc1e6df": 402.1709,
     "39ed29fd": 536.0619,
     "19a933ab": 14.9919,
-    "93d9ee71": 397.7249,
-    "ab366198": 9.9538,
     "99830952": 15.2691,
-    "3224e6f3": 25.5925,
-    "699d2b77": 10.2425,
-    "ae6b5537": 9.8552,
     "0837bb37": 14.7343,
-    "a1e6ea04": 388.873,
-    "d3c51f63": 523.024,
-    "22aaa368": 25.0648
+    "d3c51f63": 523.024
   }
 }

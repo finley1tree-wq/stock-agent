@@ -66190,5 +66190,81 @@
     "hour_et": 13,
     "code_version": "04145d6",
     "hold_minutes": 79
+  },
+  {
+    "symbol": "GTES",
+    "side": "sell",
+    "qty": 29.029475,
+    "status": "filled",
+    "price": 25.94,
+    "proceeds": 753.0,
+    "realized_pnl": 3.0,
+    "realized_pct": 0.4,
+    "date": "2026-10-15",
+    "time_et": "13:34",
+    "ts": 1792085400,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $25.84",
+    "trigger": "take_profit",
+    "hour_et": 13,
+    "code_version": "535d067"
+  },
+  {
+    "symbol": "IBRX",
+    "side": "sell",
+    "qty": 73.782595,
+    "status": "filled",
+    "price": 10.06,
+    "proceeds": 742.62,
+    "realized_pnl": -7.38,
+    "realized_pct": -0.98,
+    "date": "2026-10-15",
+    "time_et": "13:34",
+    "ts": 1792085675,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.93% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 13,
+    "code_version": "535d067"
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 1.87079,
+    "status": "filled",
+    "price": 400.6,
+    "proceeds": 749.44,
+    "realized_pnl": -0.56,
+    "realized_pct": -0.07,
+    "date": "2026-10-15",
+    "time_et": "13:34",
+    "ts": 1792085675,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.05% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 13,
+    "code_version": "535d067"
   }
 ]

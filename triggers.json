@@ -6978,7 +6978,7 @@
    "ticker": "IBRX",
    "kind": "take_profit",
    "price": 10.2425,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 12:04",
    "created_ts": 1792080257,
    "why": "close 100% at +0.8% over the average cost",
@@ -6988,14 +6988,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 13:34",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "ab366198",
    "ticker": "IBRX",
    "kind": "stop_loss",
    "price": 9.9538,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 12:04",
    "created_ts": 1792080257,
    "why": "close it all at -2.0% under the average cost",
@@ -7005,14 +7007,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 13:34",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "ae6b5537",
    "ticker": "IBRX",
    "kind": "buy_limit",
    "price": 9.8552,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 12:04",
    "created_ts": 1792080257,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7022,14 +7026,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-15 13:34",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "cdc1e6df",
    "ticker": "ADI",
    "kind": "take_profit",
    "price": 402.1709,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 12:04",
    "created_ts": 1792080257,
    "why": "close 100% at +0.3% over the average cost",
@@ -7039,14 +7045,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 13:34",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "93d9ee71",
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 397.7249,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 12:04",
    "created_ts": 1792080257,
    "why": "close it all at -0.8% under the average cost",
@@ -7056,14 +7064,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 13:34",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "a1e6ea04",
    "ticker": "ADI",
    "kind": "buy_limit",
    "price": 388.873,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 12:04",
    "created_ts": 1792080257,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7073,7 +7083,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-15 13:34",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "a8fa183e",
@@ -7156,7 +7168,7 @@
    "ticker": "GTES",
    "kind": "take_profit",
    "price": 25.939,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-15 12:25",
    "created_ts": 1792081541,
    "why": "close 100% at +0.4% over the average cost",
@@ -7166,14 +7178,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 13:34"
   },
   {
    "id": "3224e6f3",
    "ticker": "GTES",
    "kind": "stop_loss",
    "price": 25.5925,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 12:25",
    "created_ts": 1792081541,
    "why": "close it all at -1.0% under the average cost",
@@ -7183,14 +7196,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 13:34",
+   "cancel_reason": "position closed"
   },
   {
    "id": "22aaa368",
    "ticker": "GTES",
    "kind": "buy_limit",
    "price": 25.0648,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 12:25",
    "created_ts": 1792081541,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7200,7 +7215,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-15 13:34",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6eaede3a",
@@ -7473,5 +7490,5 @@
    "closed": "2026-10-15 13:31"
   }
  ],
- "updated": "2026-10-15 13:33"
+ "updated": "2026-10-15 13:34"
 }
