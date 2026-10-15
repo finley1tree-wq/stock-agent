@@ -1,20 +1,3 @@
-- SELL 100% NXPI [stop_loss @ $225.64] -> $748.40 (-0.21%) — close it all at -0.9% under the average cost
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg4ByidcZzGr1f23mowYU'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,066 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +14.4% over the month; 80% of today's range
-~ WORKING take_profit 100% WSM @ $250.49 until 2026-10-20 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% WSM @ $247.95 until 2026-10-20 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 WSM @ $242.27 until 2026-10-20 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25250.22 (+1.00% on $25000.00 in) · cash $23751.31 · realised +251.31
-Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 6 order(s) working; budget left $23316.31 this week
-
-## 2026-10-15 10:37 ET (Thursday) — week 2026-W42 — budget left $23316.31 (today $25500.00 put to work, 13 buys, 11 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
   (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg4C9QsZH3NHcYV2iqPyd'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 NXPI @ $220.64 until 2026-10-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25256.31 (+1.03% on $25000.00 in) · cash $22261.45 · realised +261.45
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21826.44 this week
+
+## 2026-10-15 11:49 ET (Thursday) — week 2026-W42 — budget left $21826.44 (today $31500.00 put to work, 21 buys, 17 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg4Hd9Rz6YqTq5oDLTUhW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25255.17 (+1.02% on $25000.00 in) · cash $22261.45 · realised +261.45
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $248.95] -> $747.92 (-0.28%) — close it all at -0.7% under the average cost
+## 2026-10-15 11:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
