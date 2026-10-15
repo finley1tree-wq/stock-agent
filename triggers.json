@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "411afac3",
-   "ticker": "AMGN",
-   "kind": "take_profit",
-   "price": 416.7649,
-   "status": "cancelled",
-   "created": "2026-10-12 10:57",
-   "created_ts": 1791817037,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $415.68",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 12:27",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "f5495c14",
    "ticker": "AMGN",
    "kind": "stop_loss",
@@ -7417,7 +7398,7 @@
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 224.3044,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 12:52",
    "created_ts": 1792083138,
    "why": "close it all at -0.9% under the average cost",
@@ -7427,7 +7408,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 13:06",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "b0dd0b27",
@@ -7462,7 +7445,24 @@
    ],
    "good_until": "2026-10-20",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "71c210fd",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 226.674,
+   "status": "working",
+   "created": "2026-10-15 13:06",
+   "created_ts": 1792083971,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $226.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-15 13:04"
+ "updated": "2026-10-15 13:06"
 }
