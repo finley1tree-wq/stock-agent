@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 141.79,
-  "deployed": 140550.0,
+  "spent": 18141.79,
+  "deployed": 158550.0,
   "by_ticker": {
     "TSM": 28.27,
     "IBM": 19.61,
@@ -15,17 +15,20 @@
     "AMGN": 0.8,
     "ACN": 2.09,
     "BHE": 16.9,
-    "MSFT": 2.27,
-    "ADI": 2.52,
+    "MSFT": 3002.27,
+    "ADI": 3002.52,
     "AEIS": 21.39,
-    "GTES": 7.53,
-    "WSM": 6.43
+    "GTES": 3007.53,
+    "WSM": 6.43,
+    "IBRX": 3000.0,
+    "RARE": 3000.0,
+    "NXPI": 3000.0
   },
   "deployed_by_ticker": {
     "TSM": 14050.0,
     "IBM": 2800.0,
     "ACN": 15600.0,
-    "MSFT": 3650.0,
+    "MSFT": 6650.0,
     "AMGN": 13750.0,
     "KO": 13250.0,
     "AVGO": 10250.0,
@@ -35,12 +38,13 @@
     "CVX": 18450.0,
     "PG": 11250.0,
     "BHE": 1500.0,
-    "ADI": 750.0,
-    "RARE": 750.0,
+    "ADI": 3750.0,
+    "RARE": 3750.0,
     "AEIS": 1500.0,
-    "IBRX": 1500.0,
+    "IBRX": 4500.0,
     "WSM": 1500.0,
-    "GTES": 750.0
+    "GTES": 3750.0,
+    "NXPI": 3000.0
   },
   "orders": [
     {
@@ -4547,12 +4551,144 @@
       ],
       "evidence": "average cost $432.17",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "IBRX",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 295.420859,
+      "price": 10.16,
+      "date": "2026-10-15",
+      "time_et": "09:32",
+      "ts": 1792071162,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +28.3% over the month; 32% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "GTES",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 116.97904,
+      "price": 25.65,
+      "date": "2026-10-15",
+      "time_et": "09:32",
+      "ts": 1792071162,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +0.7% over the month; 0% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "RARE",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 201.53229,
+      "price": 14.89,
+      "date": "2026-10-15",
+      "time_et": "09:32",
+      "ts": 1792071162,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +15.5% over the month; 36% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.619274,
+      "price": 533.88,
+      "date": "2026-10-15",
+      "time_et": "09:32",
+      "ts": 1792071162,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +8.9% over the month; 69% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.436088,
+      "price": 223.28,
+      "date": "2026-10-15",
+      "time_et": "09:32",
+      "ts": 1792071162,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +1.9% over the month; 69% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "ADI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.483533,
+      "price": 400.88,
+      "date": "2026-10-15",
+      "time_et": "09:32",
+      "ts": 1792071162,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +10.7% over the month; 84% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 0.0,
-  "deployed_today": 0.0,
-  "orders_today": 0,
+  "spent_today": 18000.0,
+  "deployed_today": 18000.0,
+  "orders_today": 6,
   "sells_today": 0,
   "sold_today": [],
   "sold_ts": {
@@ -4576,10 +4712,46 @@
     "GTES": 1791998931,
     "ADI": 1791999246
   },
-  "last_publish_ts": 1792071031,
-  "last_check_ts": 1792071031,
+  "last_publish_ts": 1792071162,
+  "last_check_ts": 1792071162,
   "exp_arm": {
+    "IBRX": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "GTES": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "RARE": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
     "MSFT": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "NXPI": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "off"
@@ -4591,42 +4763,6 @@
     "ADI": {
       "params": {
         "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "BHE": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "AEIS": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "TSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "WSM": {
-      "params": {
-        "hold_minutes": 90,
         "ratchet": "on"
       },
       "tags": {
@@ -4634,9 +4770,28 @@
       }
     }
   },
-  "last_bar_ts": 1792007700,
-  "last_decision_ts": 1792007838,
-  "next_check_minutes": null,
+  "last_bar_ts": 1792071000,
+  "last_decision_ts": 1792071162,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "ee7b8636": 535.0919,
+    "85c1cd0e": 402.0987,
+    "abc5440e": 224.0883,
+    "fbaf4585": 25.7472,
+    "3b59c145": 530.8529,
+    "a1d0d69a": 14.9671,
+    "5f9cbd0a": 397.8293,
+    "878f793b": 25.4068,
+    "4d9251d1": 221.2571,
+    "7bf13643": 10.2417,
+    "655903f9": 14.697,
+    "c5f9da82": 9.9557,
+    "aa37a924": 24.8805,
+    "fa8c49a4": 9.8552,
+    "65fd1e4d": 14.4433,
+    "d52d963c": 216.5816,
+    "281e57fc": 517.8636,
+    "f2eca14b": 388.8536
+  }
 }
