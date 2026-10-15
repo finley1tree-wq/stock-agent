@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 924.18,
-  "deployed": 169050.0,
+  "spent": 1674.18,
+  "deployed": 169800.0,
   "by_ticker": {
     "TSM": 28.27,
     "IBM": 19.61,
@@ -20,13 +20,14 @@
     "IBRX": 69.78,
     "NXPI": 1.6,
     "WSM": 5.82,
-    "RARE": 750.0
+    "RARE": 750.0,
+    "MSFT": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 14050.0,
     "IBM": 2800.0,
     "ACN": 15600.0,
-    "MSFT": 7400.0,
+    "MSFT": 8150.0,
     "AMGN": 13750.0,
     "KO": 13250.0,
     "AVGO": 10250.0,
@@ -5259,12 +5260,34 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.393747,
+      "price": 538.12,
+      "date": "2026-10-15",
+      "time_et": "11:29",
+      "ts": 1792078140,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +9.7% over the month; 84% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 782.39,
-  "deployed_today": 28500.0,
-  "orders_today": 17,
+  "spent_today": 1532.39,
+  "deployed_today": 29250.0,
+  "orders_today": 18,
   "sells_today": 16,
   "sold_today": [
     "MSFT",
@@ -5297,8 +5320,8 @@
     "ADI": 1792077389,
     "NXPI": 1792074935
   },
-  "last_publish_ts": 1792077970,
-  "last_check_ts": 1792078057,
+  "last_publish_ts": 1792078140,
+  "last_check_ts": 1792078140,
   "exp_arm": {
     "RARE": {
       "params": {
@@ -5308,15 +5331,27 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "MSFT": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1792077900,
-  "last_decision_ts": 1792077970,
+  "last_decision_ts": 1792078140,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "922d9195": 539.3631,
     "1c22936b": 15.2192,
+    "bc911d81": 535.0043,
     "0277d4b6": 14.942,
+    "c03adbf5": 521.9764,
     "79aecf1e": 14.6858
   }
 }
