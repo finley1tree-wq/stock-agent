@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-10-15 13:34 ET
+# Pretend portfolio — 2026-10-15 13:37 ET
 
-**Equity $25261.29** on $25000.00 put in → **+1.05%**  
-Cash $23765.34 · Unrealised -4.05 · Realised +265.34
+**Equity $25262.02** on $25000.00 put in → **+1.05%**  
+Cash $23765.34 · Unrealised -3.32 · Realised +265.34
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| MSFT | 3.0% | $750.20 | $539.20 | $539.34 | +0.03% | 0d |
-| RARE | 3.0% | $745.75 | $15.19 | $15.10 | -0.57% | 0d |
+| MSFT | 3.0% | $750.43 | $539.20 | $539.51 | +0.06% | 0d |
+| RARE | 3.0% | $746.24 | $15.19 | $15.11 | -0.50% | 0d |
 
 ## Last fills
 
