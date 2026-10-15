@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "4a4f715b",
-   "ticker": "AMGN",
-   "kind": "buy_limit",
-   "price": 402.7052,
-   "status": "cancelled",
-   "created": "2026-10-12 09:55",
-   "created_ts": 1791813311,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $415.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "usd": 500.0,
-   "closed": "2026-10-12 10:10",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "91492cb0",
    "ticker": "KO",
    "kind": "take_profit",
@@ -7455,7 +7436,7 @@
    "ticker": "GTES",
    "kind": "stop_loss",
    "price": 25.5625,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 11:31",
    "created_ts": 1792078315,
    "why": "close it all at -1.0% under the average cost",
@@ -7465,7 +7446,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 11:32",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "210c13b1",
@@ -7483,7 +7466,24 @@
    ],
    "good_until": "2026-10-20",
    "usd": 500.0
+  },
+  {
+   "id": "8e6f4662",
+   "ticker": "GTES",
+   "kind": "stop_loss",
+   "price": 25.84,
+   "status": "working",
+   "created": "2026-10-15 11:32",
+   "created_ts": 1792078362,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $25.81",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-15 11:31"
+ "updated": "2026-10-15 11:32"
 }
