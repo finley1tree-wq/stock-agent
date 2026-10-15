@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 1669.66,
+  "spent": 917.91,
   "deployed": 178050.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -20,8 +20,7 @@
     "IBRX": 77.16,
     "WSM": 5.71,
     "ADI": 0.56,
-    "RARE": 750.0,
-    "MSFT": 750.0
+    "RARE": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 14800.0,
@@ -5753,13 +5752,34 @@
       ],
       "evidence": "bought 90 min ago, -0.05% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 1.390955,
+      "status": "filled",
+      "price": 540.46,
+      "proceeds": 751.75,
+      "realized_pnl": 1.75,
+      "realized_pct": 0.23,
+      "date": "2026-10-15",
+      "time_et": "13:46",
+      "ts": 1792086300,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $539.2",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 1527.87,
+  "spent_today": 776.12,
   "deployed_today": 37500.0,
   "orders_today": 29,
-  "sells_today": 27,
+  "sells_today": 28,
   "sold_today": [
     "MSFT",
     "NXPI",
@@ -5778,7 +5798,7 @@
     "META": 1791994257,
     "SNOW": 1791991237,
     "CVX": 1791993409,
-    "MSFT": 1792080629,
+    "MSFT": 1792086400,
     "PG": 1791993960,
     "NEOG": 1791899653,
     "TSM": 1792085469,
@@ -5792,8 +5812,8 @@
     "ADI": 1792085676,
     "NXPI": 1792084182
   },
-  "last_publish_ts": 1792085675,
-  "last_check_ts": 1792086311,
+  "last_publish_ts": 1792086400,
+  "last_check_ts": 1792086400,
   "exp_arm": {
     "IBRX": {
       "params": {
@@ -5855,11 +5875,8 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "0a4b9b17": 540.4563,
-    "39ed29fd": 536.0619,
     "19a933ab": 14.9919,
     "99830952": 15.2691,
-    "0837bb37": 14.7343,
-    "d3c51f63": 523.024
+    "0837bb37": 14.7343
   }
 }
