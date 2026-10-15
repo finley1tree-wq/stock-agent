@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 174.18,
-  "deployed": 168300.0,
+  "spent": 924.18,
+  "deployed": 169050.0,
   "by_ticker": {
     "TSM": 28.27,
     "IBM": 19.61,
@@ -19,7 +19,8 @@
     "GTES": 20.68,
     "IBRX": 69.78,
     "NXPI": 1.6,
-    "WSM": 5.82
+    "WSM": 5.82,
+    "RARE": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 14050.0,
@@ -36,7 +37,7 @@
     "PG": 11250.0,
     "BHE": 1500.0,
     "ADI": 5250.0,
-    "RARE": 4500.0,
+    "RARE": 5250.0,
     "AEIS": 1500.0,
     "IBRX": 6000.0,
     "WSM": 5250.0,
@@ -5236,12 +5237,34 @@
       ],
       "evidence": "average cost $10.06",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RARE",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 49.55057,
+      "price": 15.14,
+      "date": "2026-10-15",
+      "time_et": "11:26",
+      "ts": 1792077970,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +17.5% over the month; 71% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 32.39,
-  "deployed_today": 27750.0,
-  "orders_today": 16,
+  "spent_today": 782.39,
+  "deployed_today": 28500.0,
+  "orders_today": 17,
   "sells_today": 16,
   "sold_today": [
     "MSFT",
@@ -5274,19 +5297,10 @@
     "ADI": 1792077389,
     "NXPI": 1792074935
   },
-  "last_publish_ts": 1792077388,
-  "last_check_ts": 1792077798,
+  "last_publish_ts": 1792077970,
+  "last_check_ts": 1792077970,
   "exp_arm": {
-    "ADI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "IBRX": {
+    "RARE": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "off"
@@ -5296,9 +5310,13 @@
       }
     }
   },
-  "last_bar_ts": 1792077600,
-  "last_decision_ts": 1792077798,
-  "next_check_minutes": null,
+  "last_bar_ts": 1792077900,
+  "last_decision_ts": 1792077970,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "1c22936b": 15.2192,
+    "0277d4b6": 14.942,
+    "79aecf1e": 14.6858
+  }
 }
