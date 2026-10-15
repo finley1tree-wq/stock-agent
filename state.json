@@ -1,9 +1,9 @@
 {
   "week": "2026-W42",
-  "spent": 2422.0,
-  "deployed": 173550.0,
+  "spent": 2420.15,
+  "deployed": 174300.0,
   "by_ticker": {
-    "TSM": 28.27,
+    "TSM": 778.27,
     "IBM": 19.61,
     "AVGO": 41.43,
     "CVX": 23.77,
@@ -20,11 +20,10 @@
     "IBRX": 819.78,
     "NXPI": 2.08,
     "WSM": 7.9,
-    "MSFT": 750.0,
     "ADI": 750.0
   },
   "deployed_by_ticker": {
-    "TSM": 14050.0,
+    "TSM": 14800.0,
     "IBM": 2800.0,
     "ACN": 15600.0,
     "MSFT": 8150.0,
@@ -5476,13 +5475,56 @@
       ],
       "evidence": "average cost $227.46",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 1.393747,
+      "status": "filled",
+      "price": 539.45,
+      "proceeds": 751.85,
+      "realized_pnl": 1.85,
+      "realized_pct": 0.25,
+      "date": "2026-10-15",
+      "time_et": "12:10",
+      "ts": 1792080600,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $538.12",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "TSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.791328,
+      "price": 418.68,
+      "date": "2026-10-15",
+      "time_et": "12:10",
+      "ts": 1792080631,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros, Rick W. Allen; +0.2% over the month; 84% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 2280.21,
-  "deployed_today": 33000.0,
-  "orders_today": 23,
-  "sells_today": 20,
+  "spent_today": 2278.36,
+  "deployed_today": 33750.0,
+  "orders_today": 24,
+  "sells_today": 21,
   "sold_today": [
     "MSFT",
     "NXPI",
@@ -5500,7 +5542,7 @@
     "META": 1791994257,
     "SNOW": 1791991237,
     "CVX": 1791993409,
-    "MSFT": 1792074394,
+    "MSFT": 1792080629,
     "PG": 1791993960,
     "NEOG": 1791899653,
     "TSM": 1792001467,
@@ -5514,27 +5556,9 @@
     "ADI": 1792077389,
     "NXPI": 1792080319
   },
-  "last_publish_ts": 1792080364,
-  "last_check_ts": 1792080545,
+  "last_publish_ts": 1792080631,
+  "last_check_ts": 1792080631,
   "exp_arm": {
-    "MSFT": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "NXPI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "IBRX": {
       "params": {
         "hold_minutes": 90,
@@ -5552,21 +5576,30 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "TSM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
-  "last_bar_ts": 1792080300,
-  "last_decision_ts": 1792080450,
-  "next_check_minutes": null,
+  "last_bar_ts": 1792080600,
+  "last_decision_ts": 1792080631,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "a8fa183e": 538.564,
-    "922d9195": 539.3631,
-    "cdc1e6df": 402.1709,
+    "5e179bce": 420.0784,
     "93d9ee71": 397.7249,
+    "cdc1e6df": 402.1709,
     "699d2b77": 10.2425,
+    "01aa1b37": 415.1798,
     "ab366198": 9.9538,
     "a1e6ea04": 388.873,
-    "ae6b5537": 9.8552,
-    "c03adbf5": 521.9764
+    "706ca01d": 406.1196,
+    "ae6b5537": 9.8552
   }
 }

@@ -65618,7 +65618,9 @@
     "code_version": "b00302f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": 0.25,
+    "ret_final": 0.25,
+    "ret_src": "realised"
   },
   {
     "symbol": "GTES",
@@ -65829,7 +65831,7 @@
     "code_version": "f02c0c6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.3
+    "ret_now": 0.0
   },
   {
     "symbol": "ADI",
@@ -65860,7 +65862,7 @@
     "code_version": "f02c0c6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": -0.24
   },
   {
     "symbol": "NXPI",
@@ -65888,5 +65890,62 @@
     "hour_et": 12,
     "code_version": "a0ff460",
     "hold_minutes": 18
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": 1.393747,
+    "status": "filled",
+    "price": 539.45,
+    "proceeds": 751.85,
+    "realized_pnl": 1.85,
+    "realized_pct": 0.25,
+    "date": "2026-10-15",
+    "time_et": "12:10",
+    "ts": 1792080600,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $538.12",
+    "trigger": "take_profit",
+    "hour_et": 12,
+    "code_version": "20379aa",
+    "hold_minutes": 41
+  },
+  {
+    "symbol": "TSM",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.791328,
+    "price": 418.68,
+    "date": "2026-10-15",
+    "time_et": "12:10",
+    "ts": 1792080631,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros, Rick W. Allen; +0.2% over the month; 84% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 418.6,
+    "sector": "widely_held",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 0.21,
+    "hour_et": 12,
+    "code_version": "20379aa",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
