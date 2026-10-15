@@ -65585,7 +65585,9 @@
     "code_version": "c12f9b9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": 0.55,
+    "ret_final": 0.55,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -65616,7 +65618,7 @@
     "code_version": "b00302f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": 0.11
   },
   {
     "symbol": "GTES",
@@ -65740,7 +65742,7 @@
     "code_version": "fd20ac2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.18
   },
   {
     "symbol": "WSM",
@@ -65768,5 +65770,92 @@
     "hour_et": 11,
     "code_version": "c22d183",
     "hold_minutes": 9
+  },
+  {
+    "symbol": "RARE",
+    "side": "sell",
+    "qty": 49.55057,
+    "status": "filled",
+    "price": 15.22,
+    "proceeds": 754.12,
+    "realized_pnl": 4.12,
+    "realized_pct": 0.55,
+    "date": "2026-10-15",
+    "time_et": "12:04",
+    "ts": 1792080000,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $15.14",
+    "trigger": "take_profit",
+    "hour_et": 12,
+    "code_version": "f02c0c6",
+    "hold_minutes": 33
+  },
+  {
+    "symbol": "IBRX",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 73.782595,
+    "price": 10.16,
+    "date": "2026-10-15",
+    "time_et": "12:04",
+    "ts": 1792080257,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +28.5% over the month; 46% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 10.16,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 28.51,
+    "hour_et": 12,
+    "code_version": "f02c0c6",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "ADI",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.87079,
+    "price": 400.9,
+    "date": "2026-10-15",
+    "time_et": "12:04",
+    "ts": 1792080257,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +10.7% over the month; 42% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 400.82,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 10.71,
+    "hour_et": 12,
+    "code_version": "f02c0c6",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

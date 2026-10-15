@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 2425.64,
-  "deployed": 172050.0,
+  "spent": 3171.52,
+  "deployed": 173550.0,
   "by_ticker": {
     "TSM": 28.27,
     "IBM": 19.61,
@@ -17,11 +17,11 @@
     "BHE": 16.9,
     "AEIS": 21.39,
     "GTES": 20.06,
-    "IBRX": 69.78,
+    "IBRX": 819.78,
     "NXPI": 751.6,
     "WSM": 7.9,
-    "RARE": 750.0,
-    "MSFT": 750.0
+    "MSFT": 750.0,
+    "ADI": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 14050.0,
@@ -37,10 +37,10 @@
     "CVX": 18450.0,
     "PG": 11250.0,
     "BHE": 1500.0,
-    "ADI": 5250.0,
+    "ADI": 6000.0,
     "RARE": 5250.0,
     "AEIS": 1500.0,
-    "IBRX": 6000.0,
+    "IBRX": 6750.0,
     "WSM": 6000.0,
     "GTES": 5250.0,
     "NXPI": 4500.0
@@ -5390,13 +5390,78 @@
       ],
       "evidence": "average cost $249.64",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "RARE",
+      "side": "sell",
+      "qty": 49.55057,
+      "status": "filled",
+      "price": 15.22,
+      "proceeds": 754.12,
+      "realized_pnl": 4.12,
+      "realized_pct": 0.55,
+      "date": "2026-10-15",
+      "time_et": "12:04",
+      "ts": 1792080000,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $15.14",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "IBRX",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 73.782595,
+      "price": 10.16,
+      "date": "2026-10-15",
+      "time_et": "12:04",
+      "ts": 1792080257,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +28.5% over the month; 46% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "ADI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.87079,
+      "price": 400.9,
+      "date": "2026-10-15",
+      "time_et": "12:04",
+      "ts": 1792080257,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +10.7% over the month; 42% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 2283.85,
-  "deployed_today": 31500.0,
-  "orders_today": 21,
-  "sells_today": 18,
+  "spent_today": 3029.73,
+  "deployed_today": 33000.0,
+  "orders_today": 23,
+  "sells_today": 19,
   "sold_today": [
     "MSFT",
     "NXPI",
@@ -5423,33 +5488,15 @@
     "AEIS": 1791999598,
     "BHE": 1791999480,
     "WSM": 1792079415,
-    "RARE": 1792075105,
+    "RARE": 1792080256,
     "GTES": 1792078703,
     "ADI": 1792077389,
     "NXPI": 1792074935
   },
-  "last_publish_ts": 1792080132,
-  "last_check_ts": 1792080178,
+  "last_publish_ts": 1792080257,
+  "last_check_ts": 1792080257,
   "exp_arm": {
-    "RARE": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "MSFT": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "WSM": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -5466,21 +5513,42 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "IBRX": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "ADI": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1792080000,
-  "last_decision_ts": 1792080083,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792080257,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "a5859450": 228.3016,
     "de8eeac5": 227.826,
     "922d9195": 539.3631,
-    "1c22936b": 15.2192,
+    "a5859450": 228.3016,
+    "cdc1e6df": 402.1709,
     "bc911d81": 535.0043,
-    "0277d4b6": 14.942,
+    "93d9ee71": 397.7249,
+    "699d2b77": 10.2425,
+    "ab366198": 9.9538,
+    "a1e6ea04": 388.873,
+    "ae6b5537": 9.8552,
     "c03adbf5": 521.9764,
-    "79aecf1e": 14.6858,
     "7edbbea7": 220.6362
   }
 }
