@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "ea022309",
-   "ticker": "SNOW",
-   "kind": "stop_loss",
-   "price": 357.9332,
-   "status": "cancelled",
-   "created": "2026-10-12 11:17",
-   "created_ts": 1791818245,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $361.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 12:47",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "1fd57899",
    "ticker": "SNOW",
    "kind": "buy_limit",
@@ -7135,7 +7116,7 @@
    "ticker": "TSM",
    "kind": "stop_loss",
    "price": 415.1798,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 12:10",
    "created_ts": 1792080631,
    "why": "close it all at -0.8% under the average cost",
@@ -7145,7 +7126,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 13:25",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "706ca01d",
@@ -7466,6 +7449,23 @@
    ],
    "good_until": "2026-10-20",
    "usd": 500.0
+  },
+  {
+   "id": "16c75f70",
+   "ticker": "TSM",
+   "kind": "stop_loss",
+   "price": 419.142,
+   "status": "working",
+   "created": "2026-10-15 13:25",
+   "created_ts": 1792085149,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $418.68",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "pct_of_position": 100.0
   }
  ],
  "updated": "2026-10-15 13:25"
