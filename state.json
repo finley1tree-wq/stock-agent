@@ -1,9 +1,9 @@
 {
   "week": "2026-W42",
-  "spent": 4665.17,
+  "spent": 3914.72,
   "deployed": 178050.0,
   "by_ticker": {
-    "TSM": 778.27,
+    "TSM": 27.82,
     "IBM": 19.61,
     "AVGO": 41.43,
     "CVX": 23.77,
@@ -5671,13 +5671,34 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "TSM",
+      "side": "sell",
+      "qty": 1.791328,
+      "status": "filled",
+      "price": 418.93,
+      "proceeds": 750.45,
+      "realized_pnl": 0.45,
+      "realized_pct": 0.06,
+      "date": "2026-10-15",
+      "time_et": "13:31",
+      "ts": 1792085400,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $418.68",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 4523.38,
+  "spent_today": 3772.93,
   "deployed_today": 37500.0,
   "orders_today": 29,
-  "sells_today": 23,
+  "sells_today": 24,
   "sold_today": [
     "MSFT",
     "NXPI",
@@ -5685,7 +5706,8 @@
     "IBRX",
     "RARE",
     "WSM",
-    "GTES"
+    "GTES",
+    "TSM"
   ],
   "sold_ts": {
     "ACN": 1791992108,
@@ -5698,7 +5720,7 @@
     "MSFT": 1792080629,
     "PG": 1791993960,
     "NEOG": 1791899653,
-    "TSM": 1792001467,
+    "TSM": 1792085469,
     "AVGO": 1791991810,
     "IBRX": 1792077389,
     "AEIS": 1791999598,
@@ -5709,8 +5731,8 @@
     "ADI": 1792077389,
     "NXPI": 1792084182
   },
-  "last_publish_ts": 1792085149,
-  "last_check_ts": 1792085382,
+  "last_publish_ts": 1792085468,
+  "last_check_ts": 1792085471,
   "exp_arm": {
     "IBRX": {
       "params": {
@@ -5767,28 +5789,25 @@
       }
     }
   },
-  "last_bar_ts": 1792085100,
-  "last_decision_ts": 1792085283,
+  "last_bar_ts": 1792085400,
+  "last_decision_ts": 1792085471,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "16c75f70": 419.142,
-    "5e179bce": 420.0784,
-    "0a4b9b17": 540.4563,
     "139afebd": 25.939,
+    "0a4b9b17": 540.4563,
     "cdc1e6df": 402.1709,
     "39ed29fd": 536.0619,
-    "93d9ee71": 397.7249,
     "19a933ab": 14.9919,
+    "93d9ee71": 397.7249,
+    "ab366198": 9.9538,
     "99830952": 15.2691,
     "3224e6f3": 25.5925,
-    "ab366198": 9.9538,
     "699d2b77": 10.2425,
     "ae6b5537": 9.8552,
     "0837bb37": 14.7343,
     "a1e6ea04": 388.873,
     "d3c51f63": 523.024,
-    "22aaa368": 25.0648,
-    "706ca01d": 406.1196
+    "22aaa368": 25.0648
   }
 }
