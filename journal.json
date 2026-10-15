@@ -65318,7 +65318,9 @@
     "code_version": "8aeb323",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": -0.78,
+    "ret_final": -0.78,
+    "ret_src": "realised"
   },
   {
     "symbol": "GTES",
@@ -65406,5 +65408,32 @@
     "hour_et": 10,
     "code_version": "1ef4e0c",
     "hold_minutes": 2
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 3.002884,
+    "status": "filled",
+    "price": 247.82,
+    "proceeds": 744.18,
+    "realized_pnl": -5.82,
+    "realized_pct": -0.78,
+    "date": "2026-10-15",
+    "time_et": "10:53",
+    "ts": 1792075800,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $249.76",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "7ff3492",
+    "hold_minutes": 15
   }
 ]
