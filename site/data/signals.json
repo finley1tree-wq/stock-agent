@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-15T11:40-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,326 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-10-15T11:46-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,576 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "0910c8ef",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 249.862,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 249.92,
+   "pct_away": -0.02,
+   "good_until": "2026-10-20",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "c2584b93",
    "ticker": "WSM",
    "kind": "take_profit",
@@ -185,27 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 249.54,
-   "pct_away": 0.33,
+   "last": 249.92,
+   "pct_away": 0.18,
    "good_until": "2026-10-20",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "bc911d81",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 535.0043,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 537.01,
-   "pct_away": -0.37,
-   "good_until": "2026-10-20",
-   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 537.01,
-   "pct_away": 0.44,
+   "last": 537.46,
+   "pct_away": 0.35,
    "good_until": "2026-10-20",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -229,34 +229,34 @@
    ]
   },
   {
-   "id": "1c22936b",
-   "ticker": "RARE",
+   "id": "a5859450",
+   "ticker": "NXPI",
    "kind": "take_profit",
-   "price": 15.2192,
+   "price": 228.3016,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 15.14,
-   "pct_away": 0.52,
+   "last": 227.37,
+   "pct_away": 0.41,
    "good_until": "2026-10-20",
-   "why": "close 100% at +0.5% over the average cost",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "84a48a20",
-   "ticker": "WSM",
+   "id": "bc911d81",
+   "ticker": "MSFT",
    "kind": "stop_loss",
-   "price": 247.8251,
+   "price": 535.0043,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 249.54,
-   "pct_away": -0.69,
+   "last": 537.46,
+   "pct_away": -0.46,
    "good_until": "2026-10-20",
-   "why": "close it all at -0.7% under the average cost",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,10 +270,61 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 15.14,
-   "pct_away": -1.31,
+   "last": 15.04,
+   "pct_away": -0.65,
    "good_until": "2026-10-20",
    "why": "close it all at -1.3% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8794e31c",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 225.3537,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 227.37,
+   "pct_away": -0.89,
+   "good_until": "2026-10-20",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1c22936b",
+   "ticker": "RARE",
+   "kind": "take_profit",
+   "price": 15.2192,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 15.04,
+   "pct_away": 1.19,
+   "good_until": "2026-10-20",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "79aecf1e",
+   "ticker": "RARE",
+   "kind": "buy_limit",
+   "price": 14.6858,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 15.04,
+   "pct_away": -2.36,
+   "good_until": "2026-10-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -287,8 +338,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 537.01,
-   "pct_away": -2.8,
+   "last": 537.46,
+   "pct_away": -2.88,
+   "good_until": "2026-10-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7edbbea7",
+   "ticker": "NXPI",
+   "kind": "buy_limit",
+   "price": 220.6362,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 227.37,
+   "pct_away": -2.96,
    "good_until": "2026-10-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -304,25 +372,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 249.54,
-   "pct_away": -2.96,
-   "good_until": "2026-10-20",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "79aecf1e",
-   "ticker": "RARE",
-   "kind": "buy_limit",
-   "price": 14.6858,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 15.14,
-   "pct_away": -3.0,
+   "last": 249.92,
+   "pct_away": -3.11,
    "good_until": "2026-10-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -331,7 +382,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,326 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,576 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -344,10 +395,10 @@
   "AVGO",
   "BHE",
   "CCJ",
-  "CRBG",
   "CYTK",
   "DIA",
   "GLD",
+  "GOLD",
   "GOOGL",
   "GTES",
   "HD",
@@ -384,22 +435,23 @@
   "insiders": "ok (openinsider)",
   "excluded_instruments": [
    "API excluded: too thinly traded ($0.8M a day) \u2014 Agora, Inc.",
+   "BBD excluded: share price $3.50 is below $5: the spread eats the trade \u2014 Banco Bradesco S.A.",
    "BORR excluded: share price $4.34 is below $5: the spread eats the trade \u2014 Borr Drilling Limited",
    "BPRE excluded: too thinly traded ($11.3M a day) \u2014 Bluerock Private Real Estate Fund",
+   "CRESY excluded: too thinly traded ($3.2M a day) \u2014 Cresud Sociedad An\u00f3nima, Comercial, Inmobiliaria, Financiera",
    "CRT excluded: too thinly traded ($0.3M a day) \u2014 Cross Timbers Royalty Trust",
    "DOLE excluded: too thinly traded ($13.9M a day) \u2014 Dole plc",
-   "ECF excluded: too thinly traded ($0.3M a day) \u2014 Ellsworth Growth and Income Fund Ltd.",
    "NEOV excluded: too thinly traded ($3.7M a day) \u2014 NeoVolta Inc.",
    "NUAI excluded: share price $3.33 is below $5: the spread eats the trade \u2014 New Era Energy & Digital, Inc.",
    "QTEX excluded: too thinly traded ($2.0M a day) \u2014 QTREX Quantum Ltd.",
    "UXIN excluded: too thinly traded ($0.3M a day) \u2014 Uxin Limited",
-   "ZONE excluded: too thinly traded ($1.0M a day) \u2014 Zone Frontier Inc."
+   "VMO excluded: too thinly traded ($2.5M a day) \u2014 Invesco Municipal Opportunity Trust"
   ]
  },
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 355,
+  "decisions_graded": 353,
   "decisions_with_buys_graded": 50,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.33,
@@ -497,7 +549,7 @@
     "n": 1
    }
   },
-  "idle_checks": 333,
+  "idle_checks": 332,
   "blocked_checks": 0,
   "idle_share": 0.83,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1410,6 +1462,46 @@
  "insider_trades": [
   {
    "filing_date": "2026-10-15",
+   "price": 11.18,
+   "role": "Dir",
+   "shares": 8295.0,
+   "ticker": "CRESY",
+   "transaction_date": "2026-10-15",
+   "type": "buy",
+   "who": "Elsztain Alejandro Gustavo"
+  },
+  {
+   "filing_date": "2026-10-15",
+   "price": 39.81,
+   "role": "10%",
+   "shares": 67882.0,
+   "ticker": "GOLD",
+   "transaction_date": "2026-10-13",
+   "type": "buy",
+   "who": "Tether Global Investments Fund, S.I.C.A.F., S.A."
+  },
+  {
+   "filing_date": "2026-10-15",
+   "price": 8.64,
+   "role": "Portfolio Manager",
+   "shares": 3000.0,
+   "ticker": "VMO",
+   "transaction_date": "2026-10-13",
+   "type": "buy",
+   "who": "Setcavage Rebecca"
+  },
+  {
+   "filing_date": "2026-10-15",
+   "price": 17.98,
+   "role": "Exec Officer",
+   "shares": 63861.0,
+   "ticker": "BBD",
+   "transaction_date": "2026-09-18",
+   "type": "buy",
+   "who": "De Oliveira Andre Luis Duarte"
+  },
+  {
+   "filing_date": "2026-10-15",
    "price": 1.5,
    "role": "Dir",
    "shares": 6666.0,
@@ -1967,49 +2059,13 @@
    "transaction_date": "2026-10-13",
    "type": "sell",
    "who": "Bidzos D James"
-  },
-  {
-   "filing_date": "2026-10-14",
-   "price": 105.75,
-   "role": "CEO",
-   "shares": 69000.0,
-   "ticker": "W",
-   "transaction_date": "2026-10-12",
-   "type": "sell",
-   "who": "Shah Niraj"
-  },
-  {
-   "filing_date": "2026-10-14",
-   "price": 163.31,
-   "role": "10%",
-   "shares": 30000.0,
-   "ticker": "HSY",
-   "transaction_date": "2026-10-12",
-   "type": "sell",
-   "who": "Hershey Trust Co Trustee In Trust For Milton Hershey School"
-  },
-  {
-   "filing_date": "2026-10-14",
-   "price": 108.8,
-   "role": "CEO",
-   "shares": 1500.0,
-   "ticker": "XMTR",
-   "transaction_date": "2026-10-12",
-   "type": "sell",
-   "who": "Sahni Sanjeev Singh"
-  },
-  {
-   "filing_date": "2026-10-14",
-   "price": 105.75,
-   "role": "Dir",
-   "shares": 69000.0,
-   "ticker": "W",
-   "transaction_date": "2026-10-12",
-   "type": "sell",
-   "who": "Conine Steven"
   }
  ],
  "insider_pressure": {
+  "CRESY": 1.0,
+  "GOLD": 1.0,
+  "VMO": 1.0,
+  "BBD": 1.0,
   "QTEX": 1.0,
   "BORR": 1.0,
   "NEOV": 1.0,
@@ -2025,13 +2081,9 @@
   "ECF": 1.0,
   "QVCG": 0.0,
   "AFL": -1.0,
-  "GSL": -1.0,
-  "SE": -1.0,
-  "PAYS": -1.0,
-  "DSP": -1.0,
-  "BETA": -1.0
+  "GSL": -1.0
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-15T11:40-04:00"
+ "signalsAsOf": "2026-10-15T11:46-04:00"
 }

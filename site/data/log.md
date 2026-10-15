@@ -1,34 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25252.29 (+1.01% on $25000.00 in) · cash $24502.92 · realised +252.92
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-15 10:31 ET (Thursday) — week 2026-W42 — budget left $24067.91 (today $24000.00 put to work, 11 buys, 10 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg4BgdybnHGyCibdpGwPr'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,068 idle, so opened 1: RARE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 RARE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +17.0% over the month; 58% of today's range
-~ WORKING take_profit 100% RARE @ $15.16 until 2026-10-20 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% RARE @ $14.88 until 2026-10-20 — close it all at -1.3% under the average cost
-~ WORKING buy_limit $500.00 RARE @ $14.63 until 2026-10-20 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25250.06 (+1.00% on $25000.00 in) · cash $23752.92 · realised +252.92
-Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $23317.91 this week
-
-## 2026-10-15 10:34 ET (Thursday) — week 2026-W42 — budget left $23317.91 (today $24750.00 put to work, 12 buys, 10 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (cancelled 2 standing order(s) on NXPI: position closed)
 - SELL 100% NXPI [stop_loss @ $225.64] -> $748.40 (-0.21%) — close it all at -0.9% under the average cost
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg4ByidcZzGr1f23mowYU'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +367,34 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $242.15 until 2026-10-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25259.80 (+1.04% on $25000.00 in) · cash $23011.45 · realised +261.45
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22576.44 this week
+
+## 2026-10-15 11:43 ET (Thursday) — week 2026-W42 — budget left $22576.44 (today $30750.00 put to work, 20 buys, 17 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg4HAmtTnB4kryFzyVHiz'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25257.14 (+1.03% on $25000.00 in) · cash $23011.45 · realised +261.45
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-15 11:46 ET (Thursday) — week 2026-W42 — budget left $22576.44 (today $30750.00 put to work, 20 buys, 17 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg4HQCRh1tdTSK76uHuaT'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,576 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +3.8% over the month; 81% of today's range
+~ WORKING take_profit 100% NXPI @ $228.30 until 2026-10-20 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $225.35 until 2026-10-20 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $220.64 until 2026-10-20 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25256.31 (+1.03% on $25000.00 in) · cash $22261.45 · realised +261.45
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21826.44 this week

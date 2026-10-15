@@ -31019,3 +31019,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25257.14 (+1.03% on $25000.00 in) · cash $23011.45 · realised +261.45
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-15 11:46 ET (Thursday) — week 2026-W42 — budget left $22576.44 (today $30750.00 put to work, 20 buys, 17 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg4HQCRh1tdTSK76uHuaT'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,576 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +3.8% over the month; 81% of today's range
+~ WORKING take_profit 100% NXPI @ $228.30 until 2026-10-20 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $225.35 until 2026-10-20 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $220.64 until 2026-10-20 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25256.31 (+1.03% on $25000.00 in) · cash $22261.45 · realised +261.45
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21826.44 this week
