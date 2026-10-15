@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-10-15 14:05 ET
+# Pretend portfolio — 2026-10-15 14:08 ET
 
-**Equity $25263.34** on $25000.00 put in → **+1.05%**  
-Cash $24517.09 · Unrealised -3.75 · Realised +267.09
+**Equity $25263.83** on $25000.00 put in → **+1.06%**  
+Cash $24517.09 · Unrealised -3.26 · Realised +267.09
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| RARE | 3.0% | $746.24 | $15.19 | $15.11 | -0.50% | 0d |
+| RARE | 3.0% | $746.74 | $15.19 | $15.12 | -0.44% | 0d |
 
 ## Last fills
 
