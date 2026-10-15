@@ -64658,7 +64658,9 @@
     "code_version": "d3f989e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.47
+    "ret_now": -0.54,
+    "ret_final": -0.54,
+    "ret_src": "realised"
   },
   {
     "symbol": "RARE",
@@ -64929,7 +64931,9 @@
     "code_version": "33d4fdd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": 0.29,
+    "ret_final": 0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "RARE",
@@ -64957,5 +64961,59 @@
     "hour_et": 9,
     "code_version": "9fe3468",
     "hold_minutes": 7
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 12.179354,
+    "status": "filled",
+    "price": 247.02,
+    "proceeds": 3008.6,
+    "realized_pnl": 8.6,
+    "realized_pct": 0.29,
+    "date": "2026-10-15",
+    "time_et": "09:49",
+    "ts": 1792071900,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $246.32",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "d7a2fae",
+    "hold_minutes": 6
+  },
+  {
+    "symbol": "GTES",
+    "side": "sell",
+    "qty": 116.97904,
+    "status": "filled",
+    "price": 25.51,
+    "proceeds": 2983.81,
+    "realized_pnl": -16.19,
+    "realized_pct": -0.54,
+    "date": "2026-10-15",
+    "time_et": "09:50",
+    "ts": 1792072204,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $25.65",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "d7a2fae",
+    "hold_minutes": 17
   }
 ]
