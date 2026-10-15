@@ -30373,3 +30373,17 @@ Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 2 standing order(s) on RARE: position closed)
 - SELL 100% RARE [take_profit @ $14.97] -> $3016.35 (+0.55%) — close 100% at +0.5% over the average cost
 ## 2026-10-15 09:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-15 09:46 ET (Thursday) — week 2026-W42 — budget left $18841.02 (today $21000.00 put to work, 7 buys, 5 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg48HPCrb7d3niavJkMrR'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25286.60 (+1.15% on $25000.00 in) · cash $19276.03 · realised +276.03
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

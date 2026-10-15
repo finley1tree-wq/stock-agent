@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "cea0e51d",
-   "ticker": "NFLX",
-   "kind": "buy_limit",
-   "price": 68.676,
-   "status": "cancelled",
-   "created": "2026-10-09 12:33",
-   "created_ts": 1791563590,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $70.8",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "usd": 500.0,
-   "closed": "2026-10-09 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "bf9ca164",
    "ticker": "AVGO",
    "kind": "buy_limit",
@@ -7179,7 +7160,7 @@
    "ticker": "GTES",
    "kind": "stop_loss",
    "price": 25.4068,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 09:32",
    "created_ts": 1792071162,
    "why": "close it all at -0.9% under the average cost",
@@ -7189,7 +7170,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 09:46",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "aa37a924",
@@ -7482,7 +7465,24 @@
    ],
    "good_until": "2026-10-20",
    "usd": 500.0
+  },
+  {
+   "id": "eb13f0fa",
+   "ticker": "GTES",
+   "kind": "stop_loss",
+   "price": 25.704,
+   "status": "working",
+   "created": "2026-10-15 09:46",
+   "created_ts": 1792071968,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $25.65",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-15 09:44"
+ "updated": "2026-10-15 09:46"
 }
