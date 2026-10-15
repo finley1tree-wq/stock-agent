@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 917.91,
+  "spent": 170.48,
   "deployed": 178050.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -20,7 +20,7 @@
     "IBRX": 77.16,
     "WSM": 5.71,
     "ADI": 0.56,
-    "RARE": 750.0
+    "RARE": 2.57
   },
   "deployed_by_ticker": {
     "TSM": 14800.0,
@@ -5773,13 +5773,33 @@
       ],
       "evidence": "average cost $539.2",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RARE",
+      "side": "sell",
+      "qty": 49.38736,
+      "status": "filled",
+      "price": 15.13,
+      "proceeds": 747.43,
+      "realized_pnl": -2.57,
+      "realized_pct": -0.34,
+      "date": "2026-10-15",
+      "time_et": "14:19",
+      "ts": 1792088363,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.30% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 776.12,
+  "spent_today": 28.69,
   "deployed_today": 37500.0,
   "orders_today": 29,
-  "sells_today": 28,
+  "sells_today": 29,
   "sold_today": [
     "MSFT",
     "NXPI",
@@ -5807,13 +5827,13 @@
     "AEIS": 1791999598,
     "BHE": 1791999480,
     "WSM": 1792084457,
-    "RARE": 1792080256,
+    "RARE": 1792088364,
     "GTES": 1792085675,
     "ADI": 1792085676,
     "NXPI": 1792084182
   },
-  "last_publish_ts": 1792087223,
-  "last_check_ts": 1792088325,
+  "last_publish_ts": 1792088363,
+  "last_check_ts": 1792088411,
   "exp_arm": {
     "IBRX": {
       "params": {
@@ -5870,12 +5890,9 @@
       }
     }
   },
-  "last_bar_ts": 1792088100,
-  "last_decision_ts": 1792088228,
+  "last_bar_ts": 1792088400,
+  "last_decision_ts": 1792088411,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "19a933ab": 14.9919,
-    "99830952": 15.2691
-  }
+  "book_px": {}
 }

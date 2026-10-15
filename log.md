@@ -31811,3 +31811,20 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25264.82 (+1.06% on $25000.00 in) · cash $24517.09 · realised +267.09
 Decision: nothing at this check. 2 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% RARE [time stop] -> $747.43 (-0.34%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-15 14:19 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-15 14:20 ET (Thursday) — week 2026-W42 — budget left $24829.52 (today $37500.00 put to work, 29 buys, 29 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg4V7PrCpvQEWxhdpW3RA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25264.52 (+1.06% on $25000.00 in) · cash $25264.52 · realised +264.52
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
