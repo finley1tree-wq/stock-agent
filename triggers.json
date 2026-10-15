@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "eccc27e7",
-   "ticker": "ACN",
-   "kind": "take_profit",
-   "price": 214.1816,
-   "status": "cancelled",
-   "created": "2026-10-12 10:29",
-   "created_ts": 1791815356,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $213.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 10:55",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "31229234",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 210.3249,
-   "status": "cancelled",
-   "created": "2026-10-12 10:29",
-   "created_ts": 1791815356,
-   "why": "close it all at -1.3% under the average cost",
-   "evidence": "average cost $213.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 10:53",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "6757cf0c",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 206.6876,
-   "status": "cancelled",
-   "created": "2026-10-12 10:29",
-   "created_ts": 1791815356,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $213.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "usd": 500.0,
-   "closed": "2026-10-12 10:55",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "5e80622c",
    "ticker": "SNOW",
    "kind": "stop_loss",
@@ -7483,7 +7426,58 @@
    ],
    "good_until": "2026-10-20",
    "usd": 500.0
+  },
+  {
+   "id": "139afebd",
+   "ticker": "GTES",
+   "kind": "take_profit",
+   "price": 25.939,
+   "status": "working",
+   "created": "2026-10-15 12:25",
+   "created_ts": 1792081541,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $25.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3224e6f3",
+   "ticker": "GTES",
+   "kind": "stop_loss",
+   "price": 25.5925,
+   "status": "working",
+   "created": "2026-10-15 12:25",
+   "created_ts": 1792081541,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $25.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "22aaa368",
+   "ticker": "GTES",
+   "kind": "buy_limit",
+   "price": 25.0648,
+   "status": "working",
+   "created": "2026-10-15 12:25",
+   "created_ts": 1792081541,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $25.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-15 12:22"
+ "updated": "2026-10-15 12:25"
 }

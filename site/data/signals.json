@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-15T12:10-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,330 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-10-15T12:25-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,580 idle, so opened 1: GTES. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "5e179bce",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 420.0784,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 418.6,
-   "pct_away": 0.35,
-   "good_until": "2026-10-20",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "93d9ee71",
    "ticker": "ADI",
    "kind": "stop_loss",
@@ -202,44 +185,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 399.86,
-   "pct_away": -0.53,
+   "last": 399.09,
+   "pct_away": -0.34,
    "good_until": "2026-10-20",
    "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "cdc1e6df",
-   "ticker": "ADI",
-   "kind": "take_profit",
-   "price": 402.1709,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 399.86,
-   "pct_away": 0.58,
-   "good_until": "2026-10-20",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "699d2b77",
-   "ticker": "IBRX",
-   "kind": "take_profit",
-   "price": 10.2425,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 10.16,
-   "pct_away": 0.81,
-   "good_until": "2026-10-20",
-   "why": "close 100% at +0.8% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,10 +202,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 418.6,
-   "pct_away": -0.82,
+   "last": 417.18,
+   "pct_away": -0.48,
    "good_until": "2026-10-20",
    "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "139afebd",
+   "ticker": "GTES",
+   "kind": "take_profit",
+   "price": 25.939,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 25.81,
+   "pct_away": 0.5,
+   "good_until": "2026-10-20",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,10 +236,95 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 10.16,
-   "pct_away": -2.03,
+   "last": 10.02,
+   "pct_away": -0.66,
    "good_until": "2026-10-20",
    "why": "close it all at -2.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "5e179bce",
+   "ticker": "TSM",
+   "kind": "take_profit",
+   "price": 420.0784,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 417.18,
+   "pct_away": 0.69,
+   "good_until": "2026-10-20",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "cdc1e6df",
+   "ticker": "ADI",
+   "kind": "take_profit",
+   "price": 402.1709,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 399.09,
+   "pct_away": 0.77,
+   "good_until": "2026-10-20",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3224e6f3",
+   "ticker": "GTES",
+   "kind": "stop_loss",
+   "price": 25.5925,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 25.81,
+   "pct_away": -0.84,
+   "good_until": "2026-10-20",
+   "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ae6b5537",
+   "ticker": "IBRX",
+   "kind": "buy_limit",
+   "price": 9.8552,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 10.02,
+   "pct_away": -1.64,
+   "good_until": "2026-10-20",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "699d2b77",
+   "ticker": "IBRX",
+   "kind": "take_profit",
+   "price": 10.2425,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 10.02,
+   "pct_away": 2.22,
+   "good_until": "2026-10-20",
+   "why": "close 100% at +0.8% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -287,8 +338,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 399.86,
-   "pct_away": -2.75,
+   "last": 399.09,
+   "pct_away": -2.56,
    "good_until": "2026-10-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -304,8 +355,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 418.6,
-   "pct_away": -2.98,
+   "last": 417.18,
+   "pct_away": -2.65,
    "good_until": "2026-10-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -314,15 +365,15 @@
    ]
   },
   {
-   "id": "ae6b5537",
-   "ticker": "IBRX",
+   "id": "22aaa368",
+   "ticker": "GTES",
    "kind": "buy_limit",
-   "price": 9.8552,
+   "price": 25.0648,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 10.16,
-   "pct_away": -3.0,
+   "last": 25.81,
+   "pct_away": -2.89,
    "good_until": "2026-10-20",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -331,7 +382,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,330 idle, so opened 1: TSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,580 idle, so opened 1: GTES. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -400,13 +451,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 345,
+  "decisions_graded": 340,
   "decisions_with_buys_graded": 48,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.35,
   "chosen_avg_pct": -0.5,
   "skipped_avg_pct": -0.15,
-  "idle_universe_avg_pct": -0.14,
+  "idle_universe_avg_pct": -0.15,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.01,
   "checks_that_bought_everything": 0,
@@ -498,7 +549,7 @@
     "n": 1
    }
   },
-  "idle_checks": 332,
+  "idle_checks": 331,
   "blocked_checks": 0,
   "idle_share": 0.83,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -2034,5 +2085,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-15T12:10-04:00"
+ "signalsAsOf": "2026-10-15T12:25-04:00"
 }
