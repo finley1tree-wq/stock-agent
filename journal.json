@@ -64625,7 +64625,9 @@
     "code_version": "d3f989e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.28
+    "ret_now": -2.01,
+    "ret_final": -2.01,
+    "ret_src": "realised"
   },
   {
     "symbol": "GTES",
@@ -64687,7 +64689,7 @@
     "code_version": "d3f989e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": -0.07
   },
   {
     "symbol": "MSFT",
@@ -64718,7 +64720,9 @@
     "code_version": "d3f989e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": 0.23,
+    "ret_final": 0.23,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -64749,7 +64753,9 @@
     "code_version": "d3f989e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.26
+    "ret_now": 0.36,
+    "ret_final": 0.36,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -64780,7 +64786,9 @@
     "code_version": "d3f989e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": 0.3,
+    "ret_final": 0.3,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -64806,7 +64814,8 @@
     "evidence": "average cost $533.88",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "f06fd8a"
+    "code_version": "f06fd8a",
+    "hold_minutes": 2
   },
   {
     "symbol": "NXPI",
@@ -64832,7 +64841,8 @@
     "evidence": "average cost $223.28",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "f06fd8a"
+    "code_version": "f06fd8a",
+    "hold_minutes": 2
   },
   {
     "symbol": "ADI",
@@ -64858,6 +64868,64 @@
     "evidence": "average cost $400.88",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "f06fd8a"
+    "code_version": "f06fd8a",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "IBRX",
+    "side": "sell",
+    "qty": 295.420859,
+    "status": "filled",
+    "price": 9.95,
+    "proceeds": 2939.64,
+    "realized_pnl": -60.36,
+    "realized_pct": -2.01,
+    "date": "2026-10-15",
+    "time_et": "09:37",
+    "ts": 1792071300,
+    "why": "close it all at -2.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $10.16",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "33d4fdd",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "WSM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 12.179354,
+    "price": 246.32,
+    "date": "2026-10-15",
+    "time_et": "09:38",
+    "ts": 1792071485,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +12.8% over the month; 46% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 246.22,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 12.84,
+    "hour_et": 9,
+    "code_version": "33d4fdd",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

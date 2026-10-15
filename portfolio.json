@@ -1,18 +1,9 @@
 {
-  "cash": 16320.034570270822,
+  "cash": 16259.678907190828,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W42",
   "positions": {
-    "IBRX": {
-      "qty": 295.4208585245264,
-      "avg_cost": 10.155004,
-      "opened": "2026-10-15",
-      "last_buy": "2026-10-15",
-      "tranches": 1,
-      "last_buy_ts": 1792071221,
-      "opened_ts": 1792071221
-    },
     "GTES": {
       "qty": 116.97903969566732,
       "avg_cost": 25.64562,
@@ -30,6 +21,15 @@
       "tranches": 1,
       "last_buy_ts": 1792071221,
       "opened_ts": 1792071221
+    },
+    "WSM": {
+      "qty": 12.179353747900564,
+      "avg_cost": 246.318488,
+      "opened": "2026-10-15",
+      "last_buy": "2026-10-15",
+      "tranches": 1,
+      "last_buy_ts": 1792071494,
+      "opened_ts": 1792071494
     }
   },
   "fills": [
@@ -25933,7 +25933,29 @@
       "realized_pct": 0.3,
       "type": "sell",
       "date": "2026-10-15 09:36"
+    },
+    {
+      "symbol": "IBRX",
+      "side": "sell",
+      "qty": 295.420859,
+      "status": "filled",
+      "price": 9.95,
+      "proceeds": 2939.64,
+      "realized_pnl": -60.36,
+      "realized_pct": -2.01,
+      "type": "sell",
+      "date": "2026-10-15 09:37"
+    },
+    {
+      "symbol": "WSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.179354,
+      "price": 246.32,
+      "type": "buy",
+      "date": "2026-10-15 09:38"
     }
   ],
-  "realized_pnl": 320.034570270842
+  "realized_pnl": 259.678907190847
 }

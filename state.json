@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 9114.97,
-  "deployed": 158550.0,
+  "spent": 9175.33,
+  "deployed": 161550.0,
   "by_ticker": {
     "TSM": 28.27,
     "IBM": 19.61,
@@ -17,8 +17,8 @@
     "BHE": 16.9,
     "AEIS": 21.39,
     "GTES": 3007.53,
-    "WSM": 6.43,
-    "IBRX": 3000.0,
+    "WSM": 3006.43,
+    "IBRX": 60.36,
     "RARE": 3000.0
   },
   "deployed_by_ticker": {
@@ -39,7 +39,7 @@
     "RARE": 3750.0,
     "AEIS": 1500.0,
     "IBRX": 4500.0,
-    "WSM": 1500.0,
+    "WSM": 4500.0,
     "GTES": 3750.0,
     "NXPI": 3000.0
   },
@@ -4743,17 +4743,61 @@
       ],
       "evidence": "average cost $400.88",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "IBRX",
+      "side": "sell",
+      "qty": 295.420859,
+      "status": "filled",
+      "price": 9.95,
+      "proceeds": 2939.64,
+      "realized_pnl": -60.36,
+      "realized_pct": -2.01,
+      "date": "2026-10-15",
+      "time_et": "09:37",
+      "ts": 1792071300,
+      "why": "close it all at -2.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $10.16",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "WSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.179354,
+      "price": 246.32,
+      "date": "2026-10-15",
+      "time_et": "09:38",
+      "ts": 1792071485,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +12.8% over the month; 46% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 8973.18,
-  "deployed_today": 18000.0,
-  "orders_today": 6,
-  "sells_today": 3,
+  "spent_today": 9033.54,
+  "deployed_today": 21000.0,
+  "orders_today": 7,
+  "sells_today": 4,
   "sold_today": [
     "MSFT",
     "NXPI",
-    "ADI"
+    "ADI",
+    "IBRX"
   ],
   "sold_ts": {
     "ACN": 1791992108,
@@ -4768,7 +4812,7 @@
     "NEOG": 1791899653,
     "TSM": 1792001467,
     "AVGO": 1791991810,
-    "IBRX": 1791998762,
+    "IBRX": 1792071436,
     "AEIS": 1791999598,
     "BHE": 1791999480,
     "WSM": 1792000248,
@@ -4777,18 +4821,9 @@
     "ADI": 1792071401,
     "NXPI": 1792071401
   },
-  "last_publish_ts": 1792071400,
-  "last_check_ts": 1792071400,
+  "last_publish_ts": 1792071485,
+  "last_check_ts": 1792071485,
   "exp_arm": {
-    "IBRX": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "GTES": {
       "params": {
         "hold_minutes": 90,
@@ -4807,25 +4842,7 @@
         "ratchet": "off"
       }
     },
-    "MSFT": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "NXPI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "ADI": {
+    "WSM": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -4836,18 +4853,18 @@
     }
   },
   "last_bar_ts": 1792071300,
-  "last_decision_ts": 1792071309,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792071485,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "9088fdbd": 247.0245,
     "fbaf4585": 25.7472,
-    "c5f9da82": 9.9557,
-    "878f793b": 25.4068,
     "a1d0d69a": 14.9671,
+    "327b48a4": 244.5588,
+    "878f793b": 25.4068,
     "655903f9": 14.697,
-    "fa8c49a4": 9.8552,
-    "7bf13643": 10.2417,
     "65fd1e4d": 14.4433,
-    "aa37a924": 24.8805
+    "aa37a924": 24.8805,
+    "8eca8d16": 238.9304
   }
 }
