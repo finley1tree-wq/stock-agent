@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "ac6a6536",
-   "ticker": "NEOG",
-   "kind": "take_profit",
-   "price": 12.0362,
-   "status": "filled",
-   "created": "2026-10-12 10:05",
-   "created_ts": 1791813936,
-   "why": "close 100% at +0.7% over the average cost",
-   "evidence": "average cost $11.95",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 10:59"
-  },
-  {
    "id": "dd050fa1",
    "ticker": "NEOG",
    "kind": "stop_loss",
@@ -7455,7 +7437,7 @@
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 225.3537,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 11:46",
    "created_ts": 1792079194,
    "why": "close it all at -0.9% under the average cost",
@@ -7465,7 +7447,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 12:02",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "7edbbea7",
@@ -7483,7 +7467,24 @@
    ],
    "good_until": "2026-10-20",
    "usd": 500.0
+  },
+  {
+   "id": "de8eeac5",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 227.826,
+   "status": "working",
+   "created": "2026-10-15 12:02",
+   "created_ts": 1792080132,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $227.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-15 12:01"
+ "updated": "2026-10-15 12:02"
 }
