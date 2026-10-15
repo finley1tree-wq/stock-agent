@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "9cc70c63",
-   "ticker": "LMT",
-   "kind": "buy_limit",
-   "price": 493.6621,
-   "status": "cancelled",
-   "created": "2026-10-09 13:04",
-   "created_ts": 1791565461,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $508.93",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-14",
-   "usd": 500.0,
-   "closed": "2026-10-09 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "45094c1e",
    "ticker": "LMT",
    "kind": "stop_loss",
@@ -7395,7 +7376,7 @@
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 396.0958,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-15 10:22",
    "created_ts": 1792074173,
    "why": "close it all at -0.8% under the average cost",
@@ -7405,7 +7386,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-20",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-15 10:23",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "bcdbc059",
@@ -7474,7 +7457,24 @@
    ],
    "good_until": "2026-10-20",
    "usd": 500.0
+  },
+  {
+   "id": "70bd022d",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 399.714,
+   "status": "working",
+   "created": "2026-10-15 10:23",
+   "created_ts": 1792074223,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $399.27",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-20",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-15 10:22"
+ "updated": "2026-10-15 10:23"
 }
