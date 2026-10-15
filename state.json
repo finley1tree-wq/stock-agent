@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 9175.33,
+  "spent": 6158.98,
   "deployed": 161550.0,
   "by_ticker": {
     "TSM": 28.27,
@@ -18,8 +18,7 @@
     "AEIS": 21.39,
     "GTES": 3007.53,
     "WSM": 3006.43,
-    "IBRX": 60.36,
-    "RARE": 3000.0
+    "IBRX": 60.36
   },
   "deployed_by_ticker": {
     "TSM": 14050.0,
@@ -4786,18 +4785,40 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "RARE",
+      "side": "sell",
+      "qty": 201.53229,
+      "status": "filled",
+      "price": 14.97,
+      "proceeds": 3016.35,
+      "realized_pnl": 16.35,
+      "realized_pct": 0.55,
+      "date": "2026-10-15",
+      "time_et": "09:44",
+      "ts": 1792071600,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $14.89",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 9033.54,
+  "spent_today": 6017.19,
   "deployed_today": 21000.0,
   "orders_today": 7,
-  "sells_today": 4,
+  "sells_today": 5,
   "sold_today": [
     "MSFT",
     "NXPI",
     "ADI",
-    "IBRX"
+    "IBRX",
+    "RARE"
   ],
   "sold_ts": {
     "ACN": 1791992108,
@@ -4816,13 +4837,13 @@
     "AEIS": 1791999598,
     "BHE": 1791999480,
     "WSM": 1792000248,
-    "RARE": 1791998499,
+    "RARE": 1792071891,
     "GTES": 1791998931,
     "ADI": 1792071401,
     "NXPI": 1792071401
   },
-  "last_publish_ts": 1792071485,
-  "last_check_ts": 1792071841,
+  "last_publish_ts": 1792071890,
+  "last_check_ts": 1792071936,
   "exp_arm": {
     "GTES": {
       "params": {
@@ -4852,19 +4873,16 @@
       }
     }
   },
-  "last_bar_ts": 1792071600,
+  "last_bar_ts": 1792071900,
   "last_decision_ts": 1792071841,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "9088fdbd": 247.0245,
-    "fbaf4585": 25.7472,
-    "a1d0d69a": 14.9671,
     "327b48a4": 244.5588,
+    "9088fdbd": 247.0245,
+    "8eca8d16": 238.9304,
+    "fbaf4585": 25.7472,
     "878f793b": 25.4068,
-    "655903f9": 14.697,
-    "65fd1e4d": 14.4433,
-    "aa37a924": 24.8805,
-    "8eca8d16": 238.9304
+    "aa37a924": 24.8805
   }
 }
