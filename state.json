@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 3920.15,
-  "deployed": 175800.0,
+  "spent": 4670.15,
+  "deployed": 176550.0,
   "by_ticker": {
     "TSM": 778.27,
     "IBM": 19.61,
@@ -20,7 +20,8 @@
     "IBRX": 819.78,
     "NXPI": 2.08,
     "WSM": 757.9,
-    "ADI": 750.0
+    "ADI": 750.0,
+    "RARE": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 14800.0,
@@ -37,7 +38,7 @@
     "PG": 11250.0,
     "BHE": 1500.0,
     "ADI": 6000.0,
-    "RARE": 5250.0,
+    "RARE": 6000.0,
     "AEIS": 1500.0,
     "IBRX": 6750.0,
     "WSM": 6750.0,
@@ -5562,12 +5563,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "RARE",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 49.38736,
+      "price": 15.19,
+      "date": "2026-10-15",
+      "time_et": "12:49",
+      "ts": 1792082966,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +17.9% over the month; 81% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 3778.36,
-  "deployed_today": 35250.0,
-  "orders_today": 26,
+  "spent_today": 4528.36,
+  "deployed_today": 36000.0,
+  "orders_today": 27,
   "sells_today": 21,
   "sold_today": [
     "MSFT",
@@ -5600,8 +5623,8 @@
     "ADI": 1792077389,
     "NXPI": 1792080319
   },
-  "last_publish_ts": 1792082256,
-  "last_check_ts": 1792082880,
+  "last_publish_ts": 1792082966,
+  "last_check_ts": 1792082966,
   "exp_arm": {
     "IBRX": {
       "params": {
@@ -5647,27 +5670,39 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "RARE": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1792082700,
-  "last_decision_ts": 1792082791,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792082966,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "6eaede3a": 249.1554,
-    "5e179bce": 420.0784,
     "93d9ee71": 397.7249,
-    "139afebd": 25.939,
-    "cdc1e6df": 402.1709,
-    "7ec91b92": 246.6165,
-    "01aa1b37": 415.1798,
+    "5e179bce": 420.0784,
+    "99830952": 15.2691,
     "3224e6f3": 25.5925,
+    "cdc1e6df": 402.1709,
+    "01aa1b37": 415.1798,
+    "139afebd": 25.939,
     "ab366198": 9.9538,
-    "699d2b77": 10.2425,
+    "7ec91b92": 246.6165,
+    "19a933ab": 14.9919,
     "ae6b5537": 9.8552,
+    "699d2b77": 10.2425,
     "a1e6ea04": 388.873,
     "22aaa368": 25.0648,
-    "bffe6b01": 240.9771,
-    "706ca01d": 406.1196
+    "706ca01d": 406.1196,
+    "0837bb37": 14.7343,
+    "bffe6b01": 240.9771
   }
 }
