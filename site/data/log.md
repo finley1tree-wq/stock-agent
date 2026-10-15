@@ -1,8 +1,3 @@
-portfolio: equity $25268.44 (+1.07% on $25000.00 in) · cash $25268.44 · realised +268.44
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-15 10:04 ET (Thursday) — week 2026-W42 — budget left $24833.43 (today $21000.00 put to work, 7 buys, 7 sells) — SIM (pretend money) via sim
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
@@ -398,3 +393,8 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 IBRX @ $9.76 until 2026-10-20 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25252.62 (+1.01% on $25000.00 in) · cash $23752.68 · realised +252.68
 Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $23317.67 this week
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [take_profit @ $403.46] -> $752.37 (+0.32%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on IBRX: position closed)
+- SELL 100% IBRX [take_profit @ $10.14] -> $755.78 (+0.77%) — close 100% at +0.8% over the average cost
+## 2026-10-15 11:16 ET — tick — 2 sell(s), 0 buy(s) from standing orders

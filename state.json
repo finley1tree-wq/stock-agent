@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 1682.33,
+  "spent": 174.18,
   "deployed": 168300.0,
   "by_ticker": {
     "TSM": 28.27,
@@ -17,8 +17,7 @@
     "BHE": 16.9,
     "AEIS": 21.39,
     "GTES": 20.68,
-    "IBRX": 825.56,
-    "ADI": 752.08,
+    "IBRX": 69.78,
     "NXPI": 1.6,
     "WSM": 5.82
   },
@@ -5195,13 +5194,55 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.864788,
+      "status": "filled",
+      "price": 403.46,
+      "proceeds": 752.37,
+      "realized_pnl": 2.37,
+      "realized_pct": 0.32,
+      "date": "2026-10-15",
+      "time_et": "11:16",
+      "ts": 1792077300,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $402.19",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "IBRX",
+      "side": "sell",
+      "qty": 74.515648,
+      "status": "filled",
+      "price": 10.14,
+      "proceeds": 755.78,
+      "realized_pnl": 5.78,
+      "realized_pct": 0.77,
+      "date": "2026-10-15",
+      "time_et": "11:16",
+      "ts": 1792077300,
+      "why": "close 100% at +0.8% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $10.06",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 1540.54,
+  "spent_today": 32.39,
   "deployed_today": 27750.0,
   "orders_today": 16,
-  "sells_today": 14,
+  "sells_today": 16,
   "sold_today": [
     "MSFT",
     "NXPI",
@@ -5224,17 +5265,17 @@
     "NEOG": 1791899653,
     "TSM": 1792001467,
     "AVGO": 1791991810,
-    "IBRX": 1792074393,
+    "IBRX": 1792077389,
     "AEIS": 1791999598,
     "BHE": 1791999480,
     "WSM": 1792076007,
     "RARE": 1792075105,
     "GTES": 1792075477,
-    "ADI": 1792074306,
+    "ADI": 1792077389,
     "NXPI": 1792074935
   },
-  "last_publish_ts": 1792077255,
-  "last_check_ts": 1792077349,
+  "last_publish_ts": 1792077388,
+  "last_check_ts": 1792077436,
   "exp_arm": {
     "ADI": {
       "params": {
@@ -5256,15 +5297,8 @@
     }
   },
   "last_bar_ts": 1792077300,
-  "last_decision_ts": 1792077255,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1792077436,
+  "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "ca6df32c": 403.4609,
-    "b1312a1b": 10.1426,
-    "94385213": 399.0167,
-    "790e47dd": 9.8535,
-    "b6810fd9": 9.7582,
-    "8fb31b66": 390.1243
-  }
+  "book_px": {}
 }

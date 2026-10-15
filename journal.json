@@ -65465,7 +65465,9 @@
     "code_version": "bc5e67c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06
+    "ret_now": 0.32,
+    "ret_final": 0.32,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBRX",
@@ -65495,6 +65497,63 @@
     "hour_et": 11,
     "code_version": "72b31bb",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.77,
+    "ret_now": 0.77,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 1.864788,
+    "status": "filled",
+    "price": 403.46,
+    "proceeds": 752.37,
+    "realized_pnl": 2.37,
+    "realized_pct": 0.32,
+    "date": "2026-10-15",
+    "time_et": "11:16",
+    "ts": 1792077300,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $402.19",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "21a2267",
+    "hold_minutes": 3
+  },
+  {
+    "symbol": "IBRX",
+    "side": "sell",
+    "qty": 74.515648,
+    "status": "filled",
+    "price": 10.14,
+    "proceeds": 755.78,
+    "realized_pnl": 5.78,
+    "realized_pct": 0.77,
+    "date": "2026-10-15",
+    "time_et": "11:16",
+    "ts": 1792077300,
+    "why": "close 100% at +0.8% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $10.06",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "21a2267",
+    "hold_minutes": 0
   }
 ]
