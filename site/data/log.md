@@ -1,22 +1,3 @@
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2haAL1ifGXSWnZebkq1'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25293.22 (+1.17% on $25000.00 in) · cash $25293.22 · realised +293.22
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-14 15:45 ET (Wednesday) — week 2026-W42 — budget left $24858.21 (today $49500.00 put to work, 39 buys, 39 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CTNT excluded: too thinly traded ($1.3M a day) — Cheetah Net Supply Chain Service Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (IMSR excluded: too thinly traded ($4.7M a day) — Terrestrial Energy Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg2hp14Hx1kVjz412dZLV'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +379,22 @@ Done: 0 sell(s), 4 buy(s); 12 order(s) working; budget left $21833.43 this week
   (cancelled 2 standing order(s) on ADI: position closed)
 - SELL 100% ADI [stop_loss @ $398.16] -> $747.92 (-0.28%) — close it all at -0.8% under the average cost
 ## 2026-10-15 10:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-15 10:25 ET (Thursday) — week 2026-W42 — budget left $22581.35 (today $24000.00 put to work, 11 buys, 8 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg4BFAFXaWTsDTyD2Gwah'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25255.47 (+1.02% on $25000.00 in) · cash $23016.36 · realised +266.36
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on IBRX: position closed)
+- SELL 100% IBRX [stop_loss @ $9.99] -> $734.80 (-2.03%) — close it all at -2.0% under the average cost
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $534.34] -> $751.76 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-10-15 10:26 ET — tick — 2 sell(s), 0 buy(s) from standing orders

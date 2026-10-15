@@ -65168,5 +65168,57 @@
     "hour_et": 10,
     "code_version": "c560a53",
     "hold_minutes": 2
+  },
+  {
+    "symbol": "IBRX",
+    "side": "sell",
+    "qty": 73.565452,
+    "status": "filled",
+    "price": 9.99,
+    "proceeds": 734.8,
+    "realized_pnl": -15.2,
+    "realized_pct": -2.03,
+    "date": "2026-10-15",
+    "time_et": "10:26",
+    "ts": 1792074300,
+    "why": "close it all at -2.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $10.2",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "6ca8fb1"
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": 1.406901,
+    "status": "filled",
+    "price": 534.34,
+    "proceeds": 751.76,
+    "realized_pnl": 1.76,
+    "realized_pct": 0.23,
+    "date": "2026-10-15",
+    "time_et": "10:26",
+    "ts": 1792074300,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $533.09",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "6ca8fb1"
   }
 ]

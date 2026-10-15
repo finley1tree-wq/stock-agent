@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 2418.65,
+  "spent": 932.09,
   "deployed": 164550.0,
   "by_ticker": {
     "TSM": 28.27,
@@ -17,8 +17,7 @@
     "BHE": 16.9,
     "AEIS": 21.39,
     "GTES": 23.72,
-    "IBRX": 810.36,
-    "MSFT": 750.0,
+    "IBRX": 75.56,
     "ADI": 2.08,
     "NXPI": 750.0
   },
@@ -4959,13 +4958,55 @@
       ],
       "evidence": "average cost $399.27",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "IBRX",
+      "side": "sell",
+      "qty": 73.565452,
+      "status": "filled",
+      "price": 9.99,
+      "proceeds": 734.8,
+      "realized_pnl": -15.2,
+      "realized_pct": -2.03,
+      "date": "2026-10-15",
+      "time_et": "10:26",
+      "ts": 1792074300,
+      "why": "close it all at -2.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $10.2",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 1.406901,
+      "status": "filled",
+      "price": 534.34,
+      "proceeds": 751.76,
+      "realized_pnl": 1.76,
+      "realized_pct": 0.23,
+      "date": "2026-10-15",
+      "time_et": "10:26",
+      "ts": 1792074300,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $533.09",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-15",
-  "spent_today": 2276.86,
+  "spent_today": 790.3,
   "deployed_today": 24000.0,
   "orders_today": 11,
-  "sells_today": 8,
+  "sells_today": 10,
   "sold_today": [
     "MSFT",
     "NXPI",
@@ -4983,12 +5024,12 @@
     "META": 1791994257,
     "SNOW": 1791991237,
     "CVX": 1791993409,
-    "MSFT": 1792071401,
+    "MSFT": 1792074394,
     "PG": 1791993960,
     "NEOG": 1791899653,
     "TSM": 1792001467,
     "AVGO": 1791991810,
-    "IBRX": 1792071436,
+    "IBRX": 1792074393,
     "AEIS": 1791999598,
     "BHE": 1791999480,
     "WSM": 1792072156,
@@ -4997,8 +5038,8 @@
     "ADI": 1792074306,
     "NXPI": 1792071401
   },
-  "last_publish_ts": 1792074305,
-  "last_check_ts": 1792074353,
+  "last_publish_ts": 1792074393,
+  "last_check_ts": 1792074439,
   "exp_arm": {
     "IBRX": {
       "params": {
@@ -5042,14 +5083,8 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "da347cbf": 534.3374,
-    "1536fc6c": 9.9934,
-    "10fdd25f": 224.0261,
     "3fc63bbb": 226.9566,
-    "0b2cd293": 529.9768,
-    "2eb1fe8b": 9.894,
-    "f9745a82": 10.2826,
-    "454f2c96": 219.3364,
-    "0b790fda": 517.0973
+    "10fdd25f": 224.0261,
+    "454f2c96": 219.3364
   }
 }

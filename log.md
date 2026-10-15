@@ -30591,3 +30591,8 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25255.47 (+1.02% on $25000.00 in) · cash $23016.36 · realised +266.36
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on IBRX: position closed)
+- SELL 100% IBRX [stop_loss @ $9.99] -> $734.80 (-2.03%) — close it all at -2.0% under the average cost
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $534.34] -> $751.76 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-10-15 10:26 ET — tick — 2 sell(s), 0 buy(s) from standing orders
