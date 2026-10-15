@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-10-15 10:40 ET
+# Pretend portfolio — 2026-10-15 10:41 ET
 
-**Equity $25256.29** on $25000.00 put in → **+1.03%**  
-Cash $23755.45 · Unrealised +0.84 · Realised +255.45
+**Equity $25256.57** on $25000.00 put in → **+1.03%**  
+Cash $23755.45 · Unrealised +1.12 · Realised +255.45
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| GTES | 3.0% | $750.72 | $25.54 | $25.56 | +0.10% | 0d |
-| WSM | 3.0% | $750.12 | $249.76 | $249.80 | +0.02% | 0d |
+| GTES | 3.0% | $751.60 | $25.54 | $25.59 | +0.21% | 0d |
+| WSM | 3.0% | $749.52 | $249.76 | $249.60 | -0.06% | 0d |
 
 ## Last fills
 
