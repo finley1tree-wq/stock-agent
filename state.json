@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 128.66,
-  "deployed": 199050.0,
+  "spent": 3128.66,
+  "deployed": 202050.0,
   "by_ticker": {
     "TSM": 27.82,
     "IBM": 19.61,
@@ -18,7 +18,8 @@
     "AEIS": 21.39,
     "IBRX": 78.67,
     "RARE": 45.37,
-    "MSFT": 17.89
+    "MSFT": 17.89,
+    "NXPI": 3000.0
   },
   "deployed_by_ticker": {
     "TSM": 14800.0,
@@ -40,7 +41,7 @@
     "IBRX": 9750.0,
     "WSM": 9750.0,
     "GTES": 9000.0,
-    "NXPI": 5250.0,
+    "NXPI": 8250.0,
     "YETI": 3000.0
   },
   "orders": [
@@ -6093,12 +6094,34 @@
       ],
       "evidence": "average cost $14.96",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.97508,
+      "price": 231.21,
+      "date": "2026-10-16",
+      "time_et": "09:49",
+      "ts": 1792158578,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +1.4% over the month; 81% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 0.0,
-  "deployed_today": 21000.0,
-  "orders_today": 7,
+  "spent_today": 3000.0,
+  "deployed_today": 24000.0,
+  "orders_today": 8,
   "sells_today": 7,
   "sold_today": [
     "YETI",
@@ -6132,67 +6155,26 @@
     "NXPI": 1792084182,
     "YETI": 1792157786
   },
-  "last_publish_ts": 1792158360,
-  "last_check_ts": 1792158408,
+  "last_publish_ts": 1792158578,
+  "last_check_ts": 1792158578,
   "exp_arm": {
-    "MSFT": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "IBRX": {
+    "NXPI": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
       },
       "tags": {
         "ratchet": "on"
-      }
-    },
-    "ADI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "RARE": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "GTES": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "WSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
       }
     }
   },
   "last_bar_ts": 1792158300,
-  "last_decision_ts": 1792158408,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792158578,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "ff33ebee": 232.0724,
+    "9ae717c8": 229.0574,
+    "b4f75c3d": 224.2737
+  }
 }
