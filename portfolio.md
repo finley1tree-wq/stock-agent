@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-10-16 14:21 ET
+# Pretend portfolio — 2026-10-16 14:24 ET
 
-**Equity $25243.53** on $25000.00 put in → **+0.97%**  
-Cash $23750.71 · Unrealised -7.18 · Realised +250.71
+**Equity $25245.13** on $25000.00 put in → **+0.98%**  
+Cash $23750.71 · Unrealised -5.58 · Realised +250.71
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| MSFT | 3.0% | $748.20 | $527.85 | $526.58 | -0.24% | 0d |
-| GTES | 2.9% | $744.62 | $25.90 | $25.71 | -0.72% | 0d |
+| MSFT | 3.0% | $748.94 | $527.85 | $527.10 | -0.14% | 0d |
+| GTES | 3.0% | $745.49 | $25.90 | $25.74 | -0.60% | 0d |
 
 ## Last fills
 
