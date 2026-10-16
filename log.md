@@ -33478,3 +33478,17 @@ Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% YETI [time stop] -> $745.72 (-0.57%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-16 12:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-16 12:56 ET (Friday) — week 2026-W42 — budget left $20339.80 (today $41250.00 put to work, 28 buys, 22 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (FLSC excluded: too thinly traded ($6.9M a day) — Frazier Life Sciences Acquisition Corp. II Class A Ordinary )
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6GYsgxnrskzdid9XoL6'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25264.87 (+1.06% on $25000.00 in) · cash $20774.80 · realised +274.80
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
