@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "9653b4b7",
-   "ticker": "CVX",
-   "kind": "buy_limit",
-   "price": 208.5597,
-   "status": "cancelled",
-   "created": "2026-10-12 12:10",
-   "created_ts": 1791821458,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $215.01",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "usd": 500.0,
-   "closed": "2026-10-12 12:58",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "94dab6ac",
    "ticker": "META",
    "kind": "take_profit",
@@ -7464,7 +7445,7 @@
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 229.0574,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-16 09:49",
    "created_ts": 1792158578,
    "why": "close it all at -0.9% under the average cost",
@@ -7474,7 +7455,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 09:51",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "b4f75c3d",
@@ -7492,7 +7475,24 @@
    ],
    "good_until": "2026-10-21",
    "usd": 500.0
+  },
+  {
+   "id": "e3f2772b",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 231.678,
+   "status": "working",
+   "created": "2026-10-16 09:51",
+   "created_ts": 1792158661,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $231.21",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-16 09:49"
+ "updated": "2026-10-16 09:51"
 }
