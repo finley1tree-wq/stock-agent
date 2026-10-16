@@ -67661,7 +67661,7 @@
     "code_version": "e0da59c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": 0.32
   },
   {
     "symbol": "RARE",
@@ -67692,7 +67692,7 @@
     "code_version": "8511201",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.27
+    "ret_now": -0.34
   },
   {
     "symbol": "NXPI",
@@ -67750,7 +67750,9 @@
     "code_version": "63758c7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.53
+    "ret_now": -0.76,
+    "ret_final": -0.76,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -67814,7 +67816,7 @@
     "code_version": "d947fab",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.32
+    "ret_now": -0.54
   },
   {
     "symbol": "YETI",
@@ -67871,7 +67873,7 @@
     "code_version": "e150dd7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.34
+    "ret_now": -0.45
   },
   {
     "symbol": "GTES",
@@ -67926,5 +67928,32 @@
     "hour_et": 13,
     "code_version": "8eebb2b",
     "hold_minutes": 20
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 2.984119,
+    "status": "filled",
+    "price": 249.41,
+    "proceeds": 744.28,
+    "realized_pnl": -5.72,
+    "realized_pct": -0.76,
+    "date": "2026-10-16",
+    "time_et": "13:19",
+    "ts": 1792170900,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $251.33",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "aa60082",
+    "hold_minutes": 36
   }
 ]
