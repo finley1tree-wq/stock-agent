@@ -32449,3 +32449,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25265.49 (+1.06% on $25000.00 in) · cash $19277.71 · realised +277.71
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on GTES: position closed)
+- SELL 100% GTES [take_profit @ $26.68] -> $3071.43 (+2.38%) — close 100% at +0.4% over the average cost
+## 2026-10-16 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
