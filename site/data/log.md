@@ -1,6 +1,3 @@
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6BNUGhnropuxLhBf6yN'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25275.80 (+1.10% on $25000.00 in) · cash $23034.30 · realised +284.30
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 NXPI @ $226.11 until 2026-10-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25259.16 (+1.04% on $25000.00 in) · cash $20024.80 · realised +274.80
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19589.80 this week
+  (cancelled 2 standing order(s) on GTES: position closed)
+- SELL 100% GTES [stop_loss @ $25.99] -> $742.41 (-1.01%) — close it all at -1.0% under the average cost
+## 2026-10-16 13:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
