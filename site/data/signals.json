@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-16T09:55-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,883 idle, so opened 1: CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-10-16T10:01-04:00",
+ "note": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "397f876d",
+   "ticker": "CRBG",
+   "kind": "stop_loss",
+   "price": 34.966,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 34.99,
+   "pct_away": -0.07,
+   "good_until": "2026-10-21",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "b22127c8",
    "ticker": "CRBG",
    "kind": "take_profit",
@@ -185,27 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 34.92,
-   "pct_away": 0.32,
+   "last": 34.99,
+   "pct_away": 0.12,
    "good_until": "2026-10-21",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "49468eea",
-   "ticker": "CRBG",
-   "kind": "stop_loss",
-   "price": 34.6761,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 34.92,
-   "pct_away": -0.7,
-   "good_until": "2026-10-21",
-   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +219,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 34.92,
-   "pct_away": -2.97,
+   "last": 34.99,
+   "pct_away": -3.17,
    "good_until": "2026-10-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -229,8 +229,8 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,883 idle, so opened 1: CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
- "next_check_minutes": 6,
+ "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)",
+ "next_check_minutes": null,
  "allowed": [
   "AAPL",
   "ADI",
@@ -297,7 +297,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 391,
+  "decisions_graded": 389,
   "decisions_with_buys_graded": 59,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.33,
@@ -379,7 +379,7 @@
   ],
   "sectors_most_often_missed": {
    "off-watchlist": {
-    "n": 15
+    "n": 13
    },
    "defense": {
     "n": 9
@@ -1927,5 +1927,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-16T09:55-04:00"
+ "signalsAsOf": "2026-10-16T10:01-04:00"
 }
