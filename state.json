@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 4667.79,
+  "spent": 3922.69,
   "deployed": 220050.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -18,7 +18,7 @@
     "AEIS": 21.39,
     "IBRX": 844.85,
     "RARE": 805.75,
-    "MSFT": 777.28,
+    "MSFT": 32.18,
     "WSM": 755.73,
     "GTES": 17.44,
     "ADI": 753.99,
@@ -6918,13 +6918,34 @@
       ],
       "evidence": "average cost $26.26",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 1.417031,
+      "status": "filled",
+      "price": 525.82,
+      "proceeds": 745.1,
+      "realized_pnl": -4.9,
+      "realized_pct": -0.65,
+      "date": "2026-10-16",
+      "time_et": "13:07",
+      "ts": 1792170300,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $529.28",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 4558.77,
+  "spent_today": 3813.67,
   "deployed_today": 42000.0,
   "orders_today": 29,
-  "sells_today": 23,
+  "sells_today": 24,
   "sold_today": [
     "YETI",
     "MSFT",
@@ -6944,7 +6965,7 @@
     "META": 1791994257,
     "SNOW": 1791991237,
     "CVX": 1791993409,
-    "MSFT": 1792166212,
+    "MSFT": 1792170422,
     "PG": 1791993960,
     "NEOG": 1791899653,
     "TSM": 1792085469,
@@ -6960,8 +6981,8 @@
     "YETI": 1792169666,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792170282,
-  "last_check_ts": 1792170331,
+  "last_publish_ts": 1792170421,
+  "last_check_ts": 1792170421,
   "exp_arm": {
     "GTES": {
       "params": {
@@ -7033,20 +7054,17 @@
   "autopiloted": true,
   "book_px": {
     "908aa09e": 249.538,
-    "abe5b7b0": 526.0831,
     "32f0f0ef": 401.6181,
     "f0c51259": 14.8015,
     "35e42daa": 230.8809,
-    "710e32f9": 530.5556,
-    "220dbf24": 406.226,
     "443ecd65": 233.9881,
+    "220dbf24": 406.226,
     "b76d0975": 252.0463,
-    "16745a56": 9.4731,
-    "f61ba64b": 14.5163,
     "e3220666": 9.1822,
-    "21161993": 243.7901,
-    "8fc74db2": 513.4016,
+    "f61ba64b": 14.5163,
+    "16745a56": 9.4731,
     "e173b25c": 9.1083,
+    "21161993": 243.7901,
     "cc939e5f": 392.7627,
     "93f58f70": 226.107,
     "ad7ea797": 14.2784

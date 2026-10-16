@@ -1,22 +1,5 @@
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25275.80 (+1.10% on $25000.00 in) · cash $23034.30 · realised +284.30
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on WSM: position closed)
-- SELL 100% WSM [stop_loss @ $251.82] -> $744.27 (-0.76%) — close it all at -0.7% under the average cost
-## 2026-10-16 11:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-16 11:51 ET (Friday) — week 2026-W42 — budget left $23343.56 (today $35250.00 put to work, 20 buys, 18 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CXM excluded: too thinly traded ($19.8M a day) — Sprinklr, Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6BbaTPCH844q8E25c4n'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25271.60 (+1.09% on $25000.00 in) · cash $23778.57 · realised +278.57
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
@@ -398,3 +381,20 @@ Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19589.80 this week
   (cancelled 2 standing order(s) on GTES: position closed)
 - SELL 100% GTES [stop_loss @ $25.99] -> $742.41 (-1.01%) — close it all at -1.0% under the average cost
 ## 2026-10-16 13:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-16 13:05 ET (Friday) — week 2026-W42 — budget left $20332.21 (today $42000.00 put to work, 29 buys, 23 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (FLSC excluded: too thinly traded ($6.9M a day) — Frazier Life Sciences Acquisition Corp. II Class A Ordinary )
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6HEE5PxCnrGaJgAz5iD'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25247.88 (+0.99% on $25000.00 in) · cash $20767.21 · realised +267.21
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $525.82] -> $745.10 (-0.65%) — close it all at -0.6% under the average cost
+## 2026-10-16 13:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
