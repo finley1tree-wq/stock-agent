@@ -33706,3 +33706,20 @@ Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 2 standing order(s) on ADI: position closed)
 - SELL 100% ADI [stop_loss @ $401.42] -> $743.53 (-0.86%) — close it all at -0.8% under the average cost
 ## 2026-10-16 13:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-16 13:40 ET (Friday) — week 2026-W42 — budget left $23321.36 (today $42000.00 put to work, 29 buys, 27 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (FLSC excluded: too thinly traded ($6.9M a day) — Frazier Life Sciences Acquisition Corp. II Class A Ordinary )
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6KtQpM7YpNYJmwNNvSA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,321 idle, so opened 1: YETI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 YETI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +3.0% over the month; 38% of today's range
+~ WORKING take_profit 100% YETI @ $42.60 until 2026-10-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% YETI @ $42.12 until 2026-10-21 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 YETI @ $41.19 until 2026-10-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25249.84 (+1.00% on $25000.00 in) · cash $23006.35 · realised +256.35
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22571.36 this week

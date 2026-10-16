@@ -67694,7 +67694,7 @@
     "code_version": "8511201",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.27
+    "ret_now": -0.2
   },
   {
     "symbol": "NXPI",
@@ -67818,7 +67818,9 @@
     "code_version": "d947fab",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.66
+    "ret_now": -0.86,
+    "ret_final": -0.86,
+    "ret_src": "realised"
   },
   {
     "symbol": "YETI",
@@ -67875,7 +67877,7 @@
     "code_version": "e150dd7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.38
+    "ret_now": -0.55
   },
   {
     "symbol": "GTES",
@@ -68009,6 +68011,37 @@
     "evidence": "average cost $404.91",
     "trigger": "stop_loss",
     "hour_et": 13,
-    "code_version": "78c0f51"
+    "code_version": "78c0f51",
+    "hold_minutes": 44
+  },
+  {
+    "symbol": "YETI",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 17.664942,
+    "price": 42.46,
+    "date": "2026-10-16",
+    "time_et": "13:40",
+    "ts": 1792172423,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +3.0% over the month; 38% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 42.44,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 2.97,
+    "hour_et": 13,
+    "code_version": "8157aa1",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

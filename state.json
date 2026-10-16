@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 1678.64,
-  "deployed": 220050.0,
+  "spent": 2428.64,
+  "deployed": 220800.0,
   "by_ticker": {
     "TSM": 27.82,
     "IBM": 19.61,
@@ -22,7 +22,7 @@
     "WSM": 11.45,
     "GTES": 17.44,
     "ADI": 10.46,
-    "YETI": 4.28,
+    "YETI": 754.28,
     "NXPI": 750.0
   },
   "deployed_by_ticker": {
@@ -46,7 +46,7 @@
     "WSM": 11250.0,
     "GTES": 10500.0,
     "NXPI": 10500.0,
-    "YETI": 4500.0,
+    "YETI": 5250.0,
     "CRBG": 3750.0
   },
   "orders": [
@@ -7002,12 +7002,34 @@
       ],
       "evidence": "average cost $404.91",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "YETI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 17.664942,
+      "price": 42.46,
+      "date": "2026-10-16",
+      "time_et": "13:40",
+      "ts": 1792172423,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +3.0% over the month; 38% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 1569.62,
-  "deployed_today": 42000.0,
-  "orders_today": 29,
+  "spent_today": 2319.62,
+  "deployed_today": 42750.0,
+  "orders_today": 30,
   "sells_today": 27,
   "sold_today": [
     "YETI",
@@ -7044,27 +7066,9 @@
     "YETI": 1792169666,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792172297,
-  "last_check_ts": 1792172343,
+  "last_publish_ts": 1792172423,
+  "last_check_ts": 1792172423,
   "exp_arm": {
-    "GTES": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "IBRX": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "RARE": {
       "params": {
         "hold_minutes": 90,
@@ -7072,33 +7076,6 @@
       },
       "tags": {
         "ratchet": "off"
-      }
-    },
-    "WSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "MSFT": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "ADI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
       }
     },
     "NXPI": {
@@ -7109,18 +7086,30 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "YETI": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
-  "last_bar_ts": 1792172100,
-  "last_decision_ts": 1792172257,
-  "next_check_minutes": null,
+  "last_bar_ts": 1792172400,
+  "last_decision_ts": 1792172423,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "35e42daa": 230.8809,
-    "443ecd65": 233.9881,
+    "212f6711": 42.5971,
+    "056a3f7d": 42.1169,
     "f0c51259": 14.8015,
+    "443ecd65": 233.9881,
     "f61ba64b": 14.5163,
     "93f58f70": 226.107,
-    "ad7ea797": 14.2784
+    "ad7ea797": 14.2784,
+    "8027db81": 41.1862
   }
 }
