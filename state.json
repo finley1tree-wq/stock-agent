@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3863.65,
+  "spent": 3111.17,
   "deployed": 209550.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -19,7 +19,6 @@
     "IBRX": 828.67,
     "RARE": 795.37,
     "MSFT": 22.52,
-    "YETI": 750.0,
     "WSM": 750.0,
     "GTES": 750.0
   },
@@ -6336,13 +6335,34 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "YETI",
+      "side": "sell",
+      "qty": 17.694126,
+      "status": "filled",
+      "price": 42.53,
+      "proceeds": 752.48,
+      "realized_pnl": 2.48,
+      "realized_pct": 0.33,
+      "date": "2026-10-16",
+      "time_et": "10:33",
+      "ts": 1792161000,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $42.39",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 3754.63,
+  "spent_today": 3002.15,
   "deployed_today": 31500.0,
   "orders_today": 15,
-  "sells_today": 10,
+  "sells_today": 11,
   "sold_today": [
     "YETI",
     "MSFT",
@@ -6375,11 +6395,11 @@
     "GTES": 1792158320,
     "ADI": 1792157916,
     "NXPI": 1792158913,
-    "YETI": 1792157786,
+    "YETI": 1792161236,
     "CRBG": 1792159454
   },
-  "last_publish_ts": 1792161148,
-  "last_check_ts": 1792161148,
+  "last_publish_ts": 1792161235,
+  "last_check_ts": 1792161235,
   "exp_arm": {
     "YETI": {
       "params": {
@@ -6432,20 +6452,17 @@
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "1f9fc6ab": 42.5273,
     "5b21b89e": 254.468,
     "c023fb44": 26.7426,
-    "8c4bad88": 251.9888,
     "e3ead268": 14.9207,
-    "b20cd7b2": 42.0466,
+    "8c4bad88": 251.9888,
     "9e4cd9c4": 26.3837,
+    "8797f5de": 9.6426,
     "5cbcf173": 14.638,
     "363f6be6": 9.3536,
-    "8797f5de": 9.6426,
     "600467a1": 9.2732,
-    "cd3d4569": 246.1472,
     "ed400039": 25.8408,
     "507192de": 14.3948,
-    "cd2fac49": 41.1183
+    "cd3d4569": 246.1472
   }
 }
