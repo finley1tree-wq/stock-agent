@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 1684.28,
+  "spent": 939.27,
   "deployed": 222300.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -18,7 +18,7 @@
     "AEIS": 21.39,
     "IBRX": 88.61,
     "RARE": 56.35,
-    "MSFT": 782.18,
+    "MSFT": 37.17,
     "WSM": 11.45,
     "GTES": 767.44,
     "ADI": 10.46,
@@ -7130,13 +7130,34 @@
       ],
       "evidence": "average cost $42.46",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 1.42087,
+      "status": "filled",
+      "price": 524.33,
+      "proceeds": 745.01,
+      "realized_pnl": -4.99,
+      "realized_pct": -0.67,
+      "date": "2026-10-16",
+      "time_et": "15:07",
+      "ts": 1792177500,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $527.85",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 1575.26,
+  "spent_today": 830.25,
   "deployed_today": 44250.0,
   "orders_today": 32,
-  "sells_today": 30,
+  "sells_today": 31,
   "sold_today": [
     "YETI",
     "MSFT",
@@ -7156,7 +7177,7 @@
     "META": 1791994257,
     "SNOW": 1791991237,
     "CVX": 1791993409,
-    "MSFT": 1792170422,
+    "MSFT": 1792177631,
     "PG": 1791993960,
     "NEOG": 1791899653,
     "TSM": 1792085469,
@@ -7172,8 +7193,8 @@
     "YETI": 1792174447,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792176250,
-  "last_check_ts": 1792177576,
+  "last_publish_ts": 1792177630,
+  "last_check_ts": 1792177676,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -7217,9 +7238,7 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "0557de20": 524.5932,
     "55631093": 25.6371,
-    "12a6c770": 529.1538,
     "9a14f2a7": 26.0052
   }
 }

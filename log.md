@@ -34183,3 +34183,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25242.91 (+0.97% on $25000.00 in) · cash $23750.71 · realised +250.71
 Decision: nothing at this check. 4 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $524.33] -> $745.01 (-0.67%) — close it all at -0.6% under the average cost
+## 2026-10-16 15:07 ET — tick — 1 sell(s), 0 buy(s) from standing orders
