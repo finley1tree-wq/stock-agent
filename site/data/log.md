@@ -1,6 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-15 15:06 ET (Thursday) — week 2026-W42 — budget left $24829.52 (today $37500.00 put to work, 29 buys, 29 sells) — SIM (pretend money) via sim
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on GTES: position closed)
 - SELL 100% GTES [take_profit @ $26.68] -> $3071.43 (+2.38%) — close 100% at +0.4% over the average cost
 ## 2026-10-16 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on RARE: position closed)
+- SELL 100% RARE [stop_loss @ $14.74] -> $2957.20 (-1.43%) — close it all at -1.3% under the average cost
+## 2026-10-16 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders

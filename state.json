@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3085.86,
+  "spent": 128.66,
   "deployed": 199050.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -17,7 +17,7 @@
     "BHE": 16.9,
     "AEIS": 21.39,
     "IBRX": 78.67,
-    "RARE": 3002.57,
+    "RARE": 45.37,
     "MSFT": 17.89
   },
   "deployed_by_ticker": {
@@ -6072,20 +6072,42 @@
       ],
       "evidence": "average cost $26.06",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RARE",
+      "side": "sell",
+      "qty": 200.588661,
+      "status": "filled",
+      "price": 14.74,
+      "proceeds": 2957.2,
+      "realized_pnl": -42.8,
+      "realized_pct": -1.43,
+      "date": "2026-10-16",
+      "time_et": "09:46",
+      "ts": 1792158300,
+      "why": "close it all at -1.3% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $14.96",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 2915.38,
+  "spent_today": 0.0,
   "deployed_today": 21000.0,
   "orders_today": 7,
-  "sells_today": 6,
+  "sells_today": 7,
   "sold_today": [
     "YETI",
     "MSFT",
     "ADI",
     "IBRX",
     "WSM",
-    "GTES"
+    "GTES",
+    "RARE"
   ],
   "sold_ts": {
     "ACN": 1791992108,
@@ -6104,14 +6126,14 @@
     "AEIS": 1791999598,
     "BHE": 1791999480,
     "WSM": 1792158049,
-    "RARE": 1792088364,
+    "RARE": 1792158361,
     "GTES": 1792158320,
     "ADI": 1792157916,
     "NXPI": 1792084182,
     "YETI": 1792157786
   },
-  "last_publish_ts": 1792158319,
-  "last_check_ts": 1792158319,
+  "last_publish_ts": 1792158360,
+  "last_check_ts": 1792158408,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -6169,12 +6191,8 @@
     }
   },
   "last_bar_ts": 1792158300,
-  "last_decision_ts": 1792158230,
+  "last_decision_ts": 1792158408,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "034a72b4": 15.039,
-    "3b67c50a": 14.7627,
-    "59ab0ff3": 14.5112
-  }
+  "book_px": {}
 }

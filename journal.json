@@ -66461,7 +66461,9 @@
     "code_version": "02a8eda",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.27
+    "ret_now": -1.43,
+    "ret_final": -1.43,
+    "ret_src": "realised"
   },
   {
     "symbol": "YETI",
@@ -66552,7 +66554,9 @@
     "code_version": "fd5f86e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": 2.38,
+    "ret_final": 2.38,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -66719,6 +66723,34 @@
     "evidence": "average cost $26.06",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "f078ff6"
+    "code_version": "f078ff6",
+    "hold_minutes": 7
+  },
+  {
+    "symbol": "RARE",
+    "side": "sell",
+    "qty": 200.588661,
+    "status": "filled",
+    "price": 14.74,
+    "proceeds": 2957.2,
+    "realized_pnl": -42.8,
+    "realized_pct": -1.43,
+    "date": "2026-10-16",
+    "time_et": "09:46",
+    "ts": 1792158300,
+    "why": "close it all at -1.3% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $14.96",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "e2ad0bc",
+    "hold_minutes": 12
   }
 ]
