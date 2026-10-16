@@ -66968,7 +66968,7 @@
     "code_version": "e6d49db",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.47
+    "ret_now": -0.73
   },
   {
     "symbol": "WSM",
@@ -66999,7 +66999,7 @@
     "code_version": "e6d49db",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.14
+    "ret_now": 0.2
   },
   {
     "symbol": "MSFT",
@@ -67090,7 +67090,7 @@
     "code_version": "d97e7fc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": 0.13
   },
   {
     "symbol": "YETI",
@@ -67181,7 +67181,9 @@
     "code_version": "3e9fd4f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.29
+    "ret_now": 0.06,
+    "ret_final": 0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "GTES",
@@ -67239,7 +67241,9 @@
     "code_version": "06e6106",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": 0.38,
+    "ret_final": 0.38,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -67292,6 +67296,34 @@
     "evidence": "average cost $34.94",
     "trigger": "stop_loss",
     "hour_et": 11,
-    "code_version": "efb96db"
+    "code_version": "efb96db",
+    "hold_minutes": 6
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 3.222299,
+    "status": "filled",
+    "price": 233.64,
+    "proceeds": 752.85,
+    "realized_pnl": 2.85,
+    "realized_pct": 0.38,
+    "date": "2026-10-16",
+    "time_et": "11:12",
+    "ts": 1792163400,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $232.75",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "3fab165",
+    "hold_minutes": 3
   }
 ]

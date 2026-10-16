@@ -1,6 +1,3 @@
-
-## 2026-10-16 10:01 ET (Friday) — week 2026-W42 — budget left $21882.60 (today $27000.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (CXM excluded: too thinly traded ($19.8M a day) — Sprinklr, Inc.)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 15 standing order(s) working.
   (cancelled 1 standing order(s) on CRBG: position closed)
 - SELL 100% CRBG [stop_loss @ $34.96] -> $750.44 (+0.06%) — close it all at -0.7% under the average cost
 ## 2026-10-16 11:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [take_profit @ $233.64] -> $752.85 (+0.38%) — close 100% at +0.4% over the average cost
+## 2026-10-16 11:12 ET — tick — 1 sell(s), 0 buy(s) from standing orders

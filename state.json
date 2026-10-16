@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3127.0,
+  "spent": 2374.15,
   "deployed": 211800.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -21,8 +21,7 @@
     "MSFT": 22.52,
     "WSM": 750.0,
     "GTES": 9.85,
-    "ADI": 6.42,
-    "NXPI": 750.0
+    "ADI": 6.42
   },
   "deployed_by_ticker": {
     "TSM": 14800.0,
@@ -6487,13 +6486,34 @@
       ],
       "evidence": "average cost $34.94",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 3.222299,
+      "status": "filled",
+      "price": 233.64,
+      "proceeds": 752.85,
+      "realized_pnl": 2.85,
+      "realized_pct": 0.38,
+      "date": "2026-10-16",
+      "time_et": "11:12",
+      "ts": 1792163400,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $232.75",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 3017.98,
+  "spent_today": 2265.13,
   "deployed_today": 33750.0,
   "orders_today": 18,
-  "sells_today": 14,
+  "sells_today": 15,
   "sold_today": [
     "YETI",
     "MSFT",
@@ -6525,12 +6545,12 @@
     "RARE": 1792158361,
     "GTES": 1792163214,
     "ADI": 1792163350,
-    "NXPI": 1792158913,
+    "NXPI": 1792163572,
     "YETI": 1792161236,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792163488,
-  "last_check_ts": 1792163488,
+  "last_publish_ts": 1792163572,
+  "last_check_ts": 1792163574,
   "exp_arm": {
     "IBRX": {
       "params": {
@@ -6588,21 +6608,18 @@
     }
   },
   "last_bar_ts": 1792163400,
-  "last_decision_ts": 1792163397,
+  "last_decision_ts": 1792163574,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "a0abf79a": 233.6368,
     "5b21b89e": 254.468,
     "e3ead268": 14.9207,
     "8c4bad88": 251.9888,
-    "0515f618": 230.5296,
+    "363f6be6": 9.3536,
     "5cbcf173": 14.638,
     "8797f5de": 9.6426,
-    "363f6be6": 9.3536,
     "600467a1": 9.2732,
     "507192de": 14.3948,
-    "cd3d4569": 246.1472,
-    "f666bbf6": 225.7675
+    "cd3d4569": 246.1472
   }
 }

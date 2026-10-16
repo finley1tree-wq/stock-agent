@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-16T11:11-04:00",
+ "asOf": "2026-10-16T11:12-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "a0abf79a",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 233.6368,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 233.4,
-   "pct_away": 0.1,
-   "good_until": "2026-10-21",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "5b21b89e",
    "ticker": "WSM",
    "kind": "take_profit",
@@ -202,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 254.09,
-   "pct_away": 0.15,
+   "last": 254.16,
+   "pct_away": 0.12,
    "good_until": "2026-10-21",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -219,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.84,
-   "pct_away": 0.54,
+   "last": 14.85,
+   "pct_away": 0.48,
    "good_until": "2026-10-21",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -236,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 254.09,
-   "pct_away": -0.83,
+   "last": 254.16,
+   "pct_away": -0.85,
    "good_until": "2026-10-21",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -246,17 +229,17 @@
    ]
   },
   {
-   "id": "0515f618",
-   "ticker": "NXPI",
+   "id": "363f6be6",
+   "ticker": "IBRX",
    "kind": "stop_loss",
-   "price": 230.5296,
+   "price": 9.3536,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 233.4,
-   "pct_away": -1.23,
+   "last": 9.48,
+   "pct_away": -1.33,
    "good_until": "2026-10-21",
-   "why": "close it all at -1.0% under the average cost",
+   "why": "close it all at -2.2% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.84,
-   "pct_away": -1.36,
+   "last": 14.85,
+   "pct_away": -1.43,
    "good_until": "2026-10-21",
    "why": "close it all at -1.4% under the average cost",
    "signals": [
@@ -287,27 +270,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 9.5,
-   "pct_away": 1.5,
+   "last": 9.48,
+   "pct_away": 1.72,
    "good_until": "2026-10-21",
    "why": "close 100% at +0.9% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "363f6be6",
-   "ticker": "IBRX",
-   "kind": "stop_loss",
-   "price": 9.3536,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 9.5,
-   "pct_away": -1.54,
-   "good_until": "2026-10-21",
-   "why": "close it all at -2.2% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -321,8 +287,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 9.5,
-   "pct_away": -2.39,
+   "last": 9.48,
+   "pct_away": -2.18,
    "good_until": "2026-10-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -338,8 +304,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 14.84,
-   "pct_away": -3.0,
+   "last": 14.85,
+   "pct_away": -3.07,
    "good_until": "2026-10-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -355,25 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 254.09,
-   "pct_away": -3.13,
-   "good_until": "2026-10-21",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f666bbf6",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 225.7675,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 233.4,
-   "pct_away": -3.27,
+   "last": 254.16,
+   "pct_away": -3.15,
    "good_until": "2026-10-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
