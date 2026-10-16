@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-16T10:24-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,891 idle, so opened 2: MSFT, YETI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
+ "asOf": "2026-10-16T10:26-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,391 idle, so opened 2: IBRX, WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "1f9fc6ab",
+   "ticker": "YETI",
+   "kind": "take_profit",
+   "price": 42.5273,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 42.4,
+   "pct_away": 0.3,
+   "good_until": "2026-10-21",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "1118b1cb",
    "ticker": "MSFT",
    "kind": "take_profit",
@@ -185,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 537.14,
-   "pct_away": 0.25,
+   "last": 536.82,
+   "pct_away": 0.31,
    "good_until": "2026-10-21",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -195,15 +212,15 @@
    ]
   },
   {
-   "id": "1f9fc6ab",
-   "ticker": "YETI",
+   "id": "5b21b89e",
+   "ticker": "WSM",
    "kind": "take_profit",
-   "price": 42.5273,
+   "price": 254.468,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 42.37,
-   "pct_away": 0.37,
+   "last": 253.66,
+   "pct_away": 0.32,
    "good_until": "2026-10-21",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -219,10 +236,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 537.14,
-   "pct_away": -0.55,
+   "last": 536.82,
+   "pct_away": -0.49,
    "good_until": "2026-10-21",
    "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8c4bad88",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 251.9888,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 253.66,
+   "pct_away": -0.66,
+   "good_until": "2026-10-21",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 42.37,
-   "pct_away": -0.76,
+   "last": 42.4,
+   "pct_away": -0.83,
    "good_until": "2026-10-21",
    "why": "close it all at -0.8% under the average cost",
    "signals": [
@@ -246,15 +280,49 @@
    ]
   },
   {
-   "id": "cd2fac49",
-   "ticker": "YETI",
+   "id": "8797f5de",
+   "ticker": "IBRX",
+   "kind": "take_profit",
+   "price": 9.6426,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 9.55,
+   "pct_away": 0.97,
+   "good_until": "2026-10-21",
+   "why": "close 100% at +0.9% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "363f6be6",
+   "ticker": "IBRX",
+   "kind": "stop_loss",
+   "price": 9.3536,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 9.55,
+   "pct_away": -2.06,
+   "good_until": "2026-10-21",
+   "why": "close it all at -2.2% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "600467a1",
+   "ticker": "IBRX",
    "kind": "buy_limit",
-   "price": 41.1183,
+   "price": 9.2732,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 42.37,
-   "pct_away": -2.95,
+   "last": 9.55,
+   "pct_away": -2.9,
    "good_until": "2026-10-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -270,8 +338,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 537.14,
-   "pct_away": -2.98,
+   "last": 536.82,
+   "pct_away": -2.92,
+   "good_until": "2026-10-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "cd3d4569",
+   "ticker": "WSM",
+   "kind": "buy_limit",
+   "price": 246.1472,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 253.66,
+   "pct_away": -2.96,
+   "good_until": "2026-10-21",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "cd2fac49",
+   "ticker": "YETI",
+   "kind": "buy_limit",
+   "price": 41.1183,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 42.4,
+   "pct_away": -3.02,
    "good_until": "2026-10-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -280,7 +382,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,891 idle, so opened 2: MSFT, YETI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop g",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,391 idle, so opened 2: IBRX, WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -348,7 +450,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 381,
+  "decisions_graded": 380,
   "decisions_with_buys_graded": 59,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.33,
@@ -442,9 +544,9 @@
     "n": 3
    }
   },
-  "idle_checks": 331,
+  "idle_checks": 330,
   "blocked_checks": 0,
-  "idle_share": 0.83,
+  "idle_share": 0.82,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -1978,5 +2080,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-16T10:24-04:00"
+ "signalsAsOf": "2026-10-16T10:26-04:00"
 }

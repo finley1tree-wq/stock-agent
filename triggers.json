@@ -1,120 +1,6 @@
 {
  "orders": [
   {
-   "id": "956cd491",
-   "ticker": "NEOG",
-   "kind": "stop_loss",
-   "price": 11.6439,
-   "status": "cancelled",
-   "created": "2026-10-12 12:58",
-   "created_ts": 1791824321,
-   "why": "close it all at -1.8% under the average cost",
-   "evidence": "average cost $11.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 14:12",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "a0a6b22d",
-   "ticker": "NEOG",
-   "kind": "buy_limit",
-   "price": 11.5042,
-   "status": "cancelled",
-   "created": "2026-10-12 12:58",
-   "created_ts": 1791824321,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $11.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "usd": 500.0,
-   "closed": "2026-10-12 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "da9f2ce8",
-   "ticker": "AMGN",
-   "kind": "take_profit",
-   "price": 416.8451,
-   "status": "cancelled",
-   "created": "2026-10-12 13:12",
-   "created_ts": 1791825174,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $415.76",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 14:41",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "3d7275a1",
-   "ticker": "AMGN",
-   "kind": "stop_loss",
-   "price": 413.0492,
-   "status": "cancelled",
-   "created": "2026-10-12 13:12",
-   "created_ts": 1791825174,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $415.76",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 14:37",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "27857275",
-   "ticker": "AMGN",
-   "kind": "buy_limit",
-   "price": 403.2872,
-   "status": "cancelled",
-   "created": "2026-10-12 13:12",
-   "created_ts": 1791825174,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $415.76",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "usd": 500.0,
-   "closed": "2026-10-12 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "f5c3e2b8",
-   "ticker": "ACN",
-   "kind": "take_profit",
-   "price": 216.4928,
-   "status": "cancelled",
-   "created": "2026-10-12 13:30",
-   "created_ts": 1791826256,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $215.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 15:01",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "e96040f7",
    "ticker": "ACN",
    "kind": "stop_loss",
@@ -7487,7 +7373,109 @@
    ],
    "good_until": "2026-10-21",
    "usd": 500.0
+  },
+  {
+   "id": "8797f5de",
+   "ticker": "IBRX",
+   "kind": "take_profit",
+   "price": 9.6426,
+   "status": "working",
+   "created": "2026-10-16 10:26",
+   "created_ts": 1792160809,
+   "why": "close 100% at +0.9% over the average cost",
+   "evidence": "average cost $9.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "363f6be6",
+   "ticker": "IBRX",
+   "kind": "stop_loss",
+   "price": 9.3536,
+   "status": "working",
+   "created": "2026-10-16 10:26",
+   "created_ts": 1792160809,
+   "why": "close it all at -2.2% under the average cost",
+   "evidence": "average cost $9.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "600467a1",
+   "ticker": "IBRX",
+   "kind": "buy_limit",
+   "price": 9.2732,
+   "status": "working",
+   "created": "2026-10-16 10:26",
+   "created_ts": 1792160809,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $9.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "usd": 500.0
+  },
+  {
+   "id": "5b21b89e",
+   "ticker": "WSM",
+   "kind": "take_profit",
+   "price": 254.468,
+   "status": "working",
+   "created": "2026-10-16 10:26",
+   "created_ts": 1792160809,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $253.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8c4bad88",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 251.9888,
+   "status": "working",
+   "created": "2026-10-16 10:26",
+   "created_ts": 1792160809,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $253.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "cd3d4569",
+   "ticker": "WSM",
+   "kind": "buy_limit",
+   "price": 246.1472,
+   "status": "working",
+   "created": "2026-10-16 10:26",
+   "created_ts": 1792160809,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $253.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-16 10:24"
+ "updated": "2026-10-16 10:26"
 }

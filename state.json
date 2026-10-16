@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 1609.02,
-  "deployed": 206550.0,
+  "spent": 3109.02,
+  "deployed": 208050.0,
   "by_ticker": {
     "TSM": 27.82,
     "IBM": 19.61,
@@ -16,10 +16,11 @@
     "ACN": 2.09,
     "BHE": 16.9,
     "AEIS": 21.39,
-    "IBRX": 78.67,
+    "IBRX": 828.67,
     "RARE": 45.37,
     "MSFT": 767.89,
-    "YETI": 750.0
+    "YETI": 750.0,
+    "WSM": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 14800.0,
@@ -38,8 +39,8 @@
     "ADI": 9000.0,
     "RARE": 9000.0,
     "AEIS": 1500.0,
-    "IBRX": 9750.0,
-    "WSM": 9750.0,
+    "IBRX": 10500.0,
+    "WSM": 10500.0,
     "GTES": 9000.0,
     "NXPI": 8250.0,
     "YETI": 3750.0,
@@ -6225,12 +6226,56 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "IBRX",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 78.492903,
+      "price": 9.56,
+      "date": "2026-10-16",
+      "time_et": "10:26",
+      "ts": 1792160809,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +12.9% over the month; 25% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "WSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.955531,
+      "price": 253.76,
+      "date": "2026-10-16",
+      "time_et": "10:26",
+      "ts": 1792160809,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +15.9% over the month; 50% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 1500.0,
-  "deployed_today": 28500.0,
-  "orders_today": 11,
+  "spent_today": 3000.0,
+  "deployed_today": 30000.0,
+  "orders_today": 13,
   "sells_today": 9,
   "sold_today": [
     "YETI",
@@ -6267,8 +6312,8 @@
     "YETI": 1792157786,
     "CRBG": 1792159454
   },
-  "last_publish_ts": 1792160640,
-  "last_check_ts": 1792160727,
+  "last_publish_ts": 1792160809,
+  "last_check_ts": 1792160809,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -6287,18 +6332,42 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "IBRX": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "WSM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1792160700,
-  "last_decision_ts": 1792160640,
+  "last_decision_ts": 1792160809,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "1118b1cb": 538.4696,
     "1f9fc6ab": 42.5273,
+    "1118b1cb": 538.4696,
+    "5b21b89e": 254.468,
     "83b6ebce": 534.1984,
+    "8c4bad88": 251.9888,
     "b20cd7b2": 42.0466,
-    "cd2fac49": 41.1183,
-    "686b5c1f": 521.1325
+    "8797f5de": 9.6426,
+    "363f6be6": 9.3536,
+    "600467a1": 9.2732,
+    "686b5c1f": 521.1325,
+    "cd3d4569": 246.1472,
+    "cd2fac49": 41.1183
   }
 }
