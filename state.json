@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 2428.64,
+  "spent": 1679.24,
   "deployed": 220800.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -17,7 +17,7 @@
     "BHE": 16.9,
     "AEIS": 21.39,
     "IBRX": 88.61,
-    "RARE": 805.75,
+    "RARE": 56.35,
     "MSFT": 32.18,
     "WSM": 11.45,
     "GTES": 17.44,
@@ -7024,13 +7024,33 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "RARE",
+      "side": "sell",
+      "qty": 50.965338,
+      "status": "filled",
+      "price": 14.7,
+      "proceeds": 749.4,
+      "realized_pnl": -0.6,
+      "realized_pct": -0.08,
+      "date": "2026-10-16",
+      "time_et": "13:41",
+      "ts": 1792172517,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.04% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 2319.62,
+  "spent_today": 1570.22,
   "deployed_today": 42750.0,
   "orders_today": 30,
-  "sells_today": 27,
+  "sells_today": 28,
   "sold_today": [
     "YETI",
     "MSFT",
@@ -7059,15 +7079,15 @@
     "AEIS": 1791999598,
     "BHE": 1791999480,
     "WSM": 1792171187,
-    "RARE": 1792164316,
+    "RARE": 1792172518,
     "GTES": 1792170283,
     "ADI": 1792172298,
     "NXPI": 1792167313,
     "YETI": 1792169666,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792172423,
-  "last_check_ts": 1792172423,
+  "last_publish_ts": 1792172517,
+  "last_check_ts": 1792172517,
   "exp_arm": {
     "RARE": {
       "params": {
@@ -7102,14 +7122,11 @@
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "35e42daa": 230.8809,
     "212f6711": 42.5971,
-    "056a3f7d": 42.1169,
-    "f0c51259": 14.8015,
     "443ecd65": 233.9881,
-    "f61ba64b": 14.5163,
+    "35e42daa": 230.8809,
+    "056a3f7d": 42.1169,
     "93f58f70": 226.107,
-    "ad7ea797": 14.2784,
     "8027db81": 41.1862
   }
 }
