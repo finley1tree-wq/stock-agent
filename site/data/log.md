@@ -1,20 +1,3 @@
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CXM excluded: too thinly traded ($19.8M a day) — Sprinklr, Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg67X7t9BUt7P7hXh6Jhu'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25315.09 (+1.26% on $25000.00 in) · cash $21573.83 · realised +323.83
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-16 11:01 ET (Friday) — week 2026-W42 — budget left $21138.83 (today $32250.00 put to work, 16 buys, 11 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CXM excluded: too thinly traded ($19.8M a day) — Sprinklr, Inc.)
   (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
   (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg67jqGcY2kZcdzhrKtPk'}
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 IBRX @ $9.11 until 2026-10-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25268.49 (+1.07% on $25000.00 in) · cash $22276.24 · realised +276.24
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21841.23 this week
+
+## 2026-10-16 12:12 ET (Friday) — week 2026-W42 — budget left $21841.23 (today $38250.00 put to work, 24 buys, 20 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CXM excluded: too thinly traded ($19.8M a day) — Sprinklr, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6D9ovWt1ibcNAg6j33k'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,841 idle, so opened 1: RARE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 RARE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +1.4% over the month; 14% of today's range
+~ WORKING take_profit 100% RARE @ $14.80 until 2026-10-21 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% RARE @ $14.52 until 2026-10-21 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 RARE @ $14.28 until 2026-10-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25271.32 (+1.09% on $25000.00 in) · cash $21526.24 · realised +276.24
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21091.23 this week

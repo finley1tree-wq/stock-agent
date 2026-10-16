@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "44d8b9d4",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 439.6689,
-   "status": "filled",
-   "created": "2026-10-13 09:32",
-   "created_ts": 1791898358,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $438.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-13 09:36"
-  },
-  {
-   "id": "54d34cf3",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 435.4072,
-   "status": "cancelled",
-   "created": "2026-10-13 09:32",
-   "created_ts": 1791898358,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $438.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-13 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "cd12249b",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 425.2965,
-   "status": "cancelled",
-   "created": "2026-10-13 09:32",
-   "created_ts": 1791898358,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $438.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "usd": 500.0,
-   "closed": "2026-10-13 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "72f1e5c7",
    "ticker": "CVX",
    "kind": "stop_loss",
@@ -7472,7 +7416,58 @@
    ],
    "good_until": "2026-10-21",
    "usd": 500.0
+  },
+  {
+   "id": "f0c51259",
+   "ticker": "RARE",
+   "kind": "take_profit",
+   "price": 14.8015,
+   "status": "working",
+   "created": "2026-10-16 12:12",
+   "created_ts": 1792167121,
+   "why": "close 100% at +0.6% over the average cost",
+   "evidence": "average cost $14.72",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f61ba64b",
+   "ticker": "RARE",
+   "kind": "stop_loss",
+   "price": 14.5163,
+   "status": "working",
+   "created": "2026-10-16 12:12",
+   "created_ts": 1792167121,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $14.72",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ad7ea797",
+   "ticker": "RARE",
+   "kind": "buy_limit",
+   "price": 14.2784,
+   "status": "working",
+   "created": "2026-10-16 12:12",
+   "created_ts": 1792167121,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $14.72",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-16 12:09"
+ "updated": "2026-10-16 12:12"
 }
