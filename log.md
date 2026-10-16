@@ -33016,3 +33016,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 YETI @ $41.46 until 2026-10-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25285.57 (+1.14% on $25000.00 in) · cash $22294.68 · realised +294.68
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21859.67 this week
+  (cancelled 2 standing order(s) on RARE: position closed)
+- SELL 100% RARE [stop_loss @ $14.63] -> $739.62 (-1.38%) — close it all at -1.4% under the average cost
+## 2026-10-16 11:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders

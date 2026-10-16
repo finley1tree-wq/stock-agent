@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3140.33,
+  "spent": 2400.71,
   "deployed": 213300.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -17,7 +17,7 @@
     "BHE": 16.9,
     "AEIS": 21.39,
     "IBRX": 94.85,
-    "RARE": 795.37,
+    "RARE": 55.75,
     "MSFT": 772.52,
     "WSM": 750.0,
     "GTES": 9.85,
@@ -6573,13 +6573,34 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "RARE",
+      "side": "sell",
+      "qty": 50.552941,
+      "status": "filled",
+      "price": 14.63,
+      "proceeds": 739.62,
+      "realized_pnl": -10.38,
+      "realized_pct": -1.38,
+      "date": "2026-10-16",
+      "time_et": "11:25",
+      "ts": 1792164000,
+      "why": "close it all at -1.4% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $14.84",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 3031.31,
+  "spent_today": 2291.69,
   "deployed_today": 35250.0,
   "orders_today": 20,
-  "sells_today": 16,
+  "sells_today": 17,
   "sold_today": [
     "YETI",
     "MSFT",
@@ -6608,15 +6629,15 @@
     "AEIS": 1791999598,
     "BHE": 1791999480,
     "WSM": 1792158049,
-    "RARE": 1792158361,
+    "RARE": 1792164316,
     "GTES": 1792163214,
     "ADI": 1792163350,
     "NXPI": 1792163572,
     "YETI": 1792161236,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792164272,
-  "last_check_ts": 1792164272,
+  "last_publish_ts": 1792164315,
+  "last_check_ts": 1792164361,
   "exp_arm": {
     "WSM": {
       "params": {
@@ -6655,20 +6676,17 @@
       }
     }
   },
-  "last_bar_ts": 1792164000,
+  "last_bar_ts": 1792164300,
   "last_decision_ts": 1792164272,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "5b21b89e": 254.468,
-    "5cbcf173": 14.638,
-    "2f3bceeb": 529.141,
     "3d235d09": 42.8772,
     "f6a00847": 533.5055,
-    "f970c143": 42.3968,
+    "2f3bceeb": 529.141,
     "8c4bad88": 251.9888,
-    "e3ead268": 14.9207,
-    "507192de": 14.3948,
+    "f970c143": 42.3968,
     "ccba0f94": 516.2922,
     "05a8b320": 41.4578,
     "cd3d4569": 246.1472
