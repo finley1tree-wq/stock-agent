@@ -1,8 +1,3 @@
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BBD excluded: share price $3.50 is below $5: the spread eats the trade — Banco Bradesco S.A.)
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
   (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg4XxxSd5BJPeV1iFZKer'}
@@ -398,3 +393,8 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $245.60 until 2026-10-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25273.18 (+1.09% on $25000.00 in) · cash $7275.32 · realised +275.32
 Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $6840.32 this week
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $537.83] -> $2982.11 (-0.60%) — close it all at -0.5% under the average cost
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [take_profit @ $399.89] -> $3009.51 (+0.32%) — close 100% at +0.3% over the average cost
+## 2026-10-16 09:38 ET — tick — 2 sell(s), 0 buy(s) from standing orders
