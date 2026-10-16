@@ -33476,3 +33476,5 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25261.42 (+1.05% on $25000.00 in) · cash $20029.09 · realised +279.09
 Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% YETI [time stop] -> $745.72 (-0.57%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-16 12:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders

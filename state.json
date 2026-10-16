@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 5405.92,
+  "spent": 4660.2,
   "deployed": 219300.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -22,7 +22,7 @@
     "WSM": 755.73,
     "GTES": 759.85,
     "ADI": 753.99,
-    "YETI": 750.0
+    "YETI": 4.28
   },
   "deployed_by_ticker": {
     "TSM": 14800.0,
@@ -6854,13 +6854,33 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "YETI",
+      "side": "sell",
+      "qty": 17.54916,
+      "status": "filled",
+      "price": 42.49,
+      "proceeds": 745.72,
+      "realized_pnl": -4.28,
+      "realized_pct": -0.57,
+      "date": "2026-10-16",
+      "time_et": "12:54",
+      "ts": 1792169664,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.53% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 5296.9,
+  "spent_today": 4551.18,
   "deployed_today": 41250.0,
   "orders_today": 28,
-  "sells_today": 21,
+  "sells_today": 22,
   "sold_today": [
     "YETI",
     "MSFT",
@@ -6893,11 +6913,11 @@
     "GTES": 1792163214,
     "ADI": 1792166693,
     "NXPI": 1792167313,
-    "YETI": 1792161236,
+    "YETI": 1792169666,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792169453,
-  "last_check_ts": 1792169628,
+  "last_publish_ts": 1792169664,
+  "last_check_ts": 1792169711,
   "exp_arm": {
     "YETI": {
       "params": {
@@ -6963,31 +6983,28 @@
       }
     }
   },
-  "last_bar_ts": 1792169400,
+  "last_bar_ts": 1792169700,
   "last_decision_ts": 1792169628,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "48a29520": 26.0034,
-    "220dbf24": 406.226,
-    "f970c143": 42.3968,
     "908aa09e": 249.538,
+    "220dbf24": 406.226,
     "abe5b7b0": 526.0831,
+    "f0c51259": 14.8015,
     "710e32f9": 530.5556,
     "b76d0975": 252.0463,
-    "3d235d09": 42.8772,
-    "f0c51259": 14.8015,
     "32f0f0ef": 401.6181,
-    "e3220666": 9.1822,
     "89e1bba9": 26.3627,
     "f61ba64b": 14.5163,
-    "e173b25c": 9.1083,
     "16745a56": 9.4731,
+    "e3220666": 9.1822,
     "fdb213f0": 25.4722,
-    "05a8b320": 41.4578,
+    "e173b25c": 9.1083,
     "21161993": 243.7901,
-    "ad7ea797": 14.2784,
     "8fc74db2": 513.4016,
-    "cc939e5f": 392.7627
+    "cc939e5f": 392.7627,
+    "ad7ea797": 14.2784
   }
 }
