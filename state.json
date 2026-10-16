@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 4660.2,
-  "deployed": 219300.0,
+  "spent": 5410.2,
+  "deployed": 220050.0,
   "by_ticker": {
     "TSM": 27.82,
     "IBM": 19.61,
@@ -22,7 +22,8 @@
     "WSM": 755.73,
     "GTES": 759.85,
     "ADI": 753.99,
-    "YETI": 4.28
+    "YETI": 4.28,
+    "NXPI": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 14800.0,
@@ -44,7 +45,7 @@
     "IBRX": 11250.0,
     "WSM": 11250.0,
     "GTES": 10500.0,
-    "NXPI": 9750.0,
+    "NXPI": 10500.0,
     "YETI": 4500.0,
     "CRBG": 3750.0
   },
@@ -6874,12 +6875,34 @@
       ],
       "evidence": "bought 90 min ago, -0.53% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.217459,
+      "price": 233.1,
+      "date": "2026-10-16",
+      "time_et": "13:02",
+      "ts": 1792170151,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +2.2% over the month; 72% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 4551.18,
-  "deployed_today": 41250.0,
-  "orders_today": 28,
+  "spent_today": 5301.18,
+  "deployed_today": 42000.0,
+  "orders_today": 29,
   "sells_today": 22,
   "sold_today": [
     "YETI",
@@ -6916,18 +6939,9 @@
     "YETI": 1792169666,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792169664,
-  "last_check_ts": 1792170061,
+  "last_publish_ts": 1792170151,
+  "last_check_ts": 1792170151,
   "exp_arm": {
-    "YETI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "GTES": {
       "params": {
         "hold_minutes": 90,
@@ -6981,30 +6995,42 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "NXPI": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1792170000,
-  "last_decision_ts": 1792169975,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792170151,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "48a29520": 26.0034,
-    "908aa09e": 249.538,
-    "220dbf24": 406.226,
     "abe5b7b0": 526.0831,
+    "443ecd65": 233.9881,
     "f0c51259": 14.8015,
-    "710e32f9": 530.5556,
+    "908aa09e": 249.538,
     "b76d0975": 252.0463,
+    "220dbf24": 406.226,
     "32f0f0ef": 401.6181,
+    "710e32f9": 530.5556,
+    "35e42daa": 230.8809,
     "89e1bba9": 26.3627,
-    "f61ba64b": 14.5163,
     "16745a56": 9.4731,
+    "f61ba64b": 14.5163,
     "e3220666": 9.1822,
     "fdb213f0": 25.4722,
     "e173b25c": 9.1083,
-    "21161993": 243.7901,
     "8fc74db2": 513.4016,
     "cc939e5f": 392.7627,
+    "21161993": 243.7901,
+    "93f58f70": 226.107,
     "ad7ea797": 14.2784
   }
 }

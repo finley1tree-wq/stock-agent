@@ -1,48 +1,3 @@
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CXM excluded: too thinly traded ($19.8M a day) — Sprinklr, Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6Ag6xBYbUGqZMt194Bx'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25278.83 (+1.12% on $25000.00 in) · cash $23034.30 · realised +284.30
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-16 11:42 ET (Friday) — week 2026-W42 — budget left $22599.29 (today $35250.00 put to work, 20 buys, 17 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CXM excluded: too thinly traded ($19.8M a day) — Sprinklr, Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6Auz8JwcNHarByqabJq'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25276.19 (+1.10% on $25000.00 in) · cash $23034.30 · realised +284.30
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-16 11:45 ET (Friday) — week 2026-W42 — budget left $22599.29 (today $35250.00 put to work, 20 buys, 17 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CXM excluded: too thinly traded ($19.8M a day) — Sprinklr, Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6B9bJW71ngyst2aDjtR'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25275.97 (+1.10% on $25000.00 in) · cash $23034.30 · realised +284.30
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-16 11:48 ET (Friday) — week 2026-W42 — budget left $22599.29 (today $35250.00 put to work, 20 buys, 17 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (CXM excluded: too thinly traded ($19.8M a day) — Sprinklr, Inc.)
   (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
   (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6BNUGhnropuxLhBf6yN'}
@@ -398,3 +353,48 @@ Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% YETI [time stop] -> $745.72 (-0.57%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-16 12:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-16 12:56 ET (Friday) — week 2026-W42 — budget left $20339.80 (today $41250.00 put to work, 28 buys, 22 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (FLSC excluded: too thinly traded ($6.9M a day) — Frazier Life Sciences Acquisition Corp. II Class A Ordinary )
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6GYsgxnrskzdid9XoL6'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25264.87 (+1.06% on $25000.00 in) · cash $20774.80 · realised +274.80
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-16 12:59 ET (Friday) — week 2026-W42 — budget left $20339.80 (today $41250.00 put to work, 28 buys, 22 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (FLSC excluded: too thinly traded ($6.9M a day) — Frazier Life Sciences Acquisition Corp. II Class A Ordinary )
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6GmtQEnoZxQjrNcTd6Q'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25261.84 (+1.05% on $25000.00 in) · cash $20774.80 · realised +274.80
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-16 13:02 ET (Friday) — week 2026-W42 — budget left $20339.80 (today $41250.00 put to work, 28 buys, 22 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (FLSC excluded: too thinly traded ($6.9M a day) — Frazier Life Sciences Acquisition Corp. II Class A Ordinary )
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6Gzo1QxTjP1c6boLSdb'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $20,340 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +2.2% over the month; 72% of today's range
+~ WORKING take_profit 100% NXPI @ $233.99 until 2026-10-21 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $230.88 until 2026-10-21 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $226.11 until 2026-10-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25259.16 (+1.04% on $25000.00 in) · cash $20024.80 · realised +274.80
+Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19589.80 this week
