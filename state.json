@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 3861.17,
-  "deployed": 210300.0,
+  "spent": 4611.17,
+  "deployed": 211050.0,
   "by_ticker": {
     "TSM": 27.82,
     "IBM": 19.61,
@@ -21,7 +21,8 @@
     "MSFT": 22.52,
     "WSM": 750.0,
     "GTES": 750.0,
-    "ADI": 750.0
+    "ADI": 750.0,
+    "CRBG": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 14800.0,
@@ -45,7 +46,7 @@
     "GTES": 9750.0,
     "NXPI": 8250.0,
     "YETI": 3750.0,
-    "CRBG": 3000.0
+    "CRBG": 3750.0
   },
   "orders": [
     {
@@ -6379,12 +6380,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "CRBG",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 21.462929,
+      "price": 34.94,
+      "date": "2026-10-16",
+      "time_et": "11:03",
+      "ts": 1792163039,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "insider net buying (Form 4); +0.1% over the month; 74% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 3752.15,
-  "deployed_today": 32250.0,
-  "orders_today": 16,
+  "spent_today": 4502.15,
+  "deployed_today": 33000.0,
+  "orders_today": 17,
   "sells_today": 11,
   "sold_today": [
     "YETI",
@@ -6421,8 +6444,8 @@
     "YETI": 1792161236,
     "CRBG": 1792159454
   },
-  "last_publish_ts": 1792162515,
-  "last_check_ts": 1792162955,
+  "last_publish_ts": 1792163039,
+  "last_check_ts": 1792163039,
   "exp_arm": {
     "IBRX": {
       "params": {
@@ -6468,27 +6491,39 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "CRBG": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1792162800,
-  "last_decision_ts": 1792162866,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792163039,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "9e4cd9c4": 26.3837,
-    "9006c30c": 409.715,
-    "5b21b89e": 254.468,
+    "323896d2": 35.0417,
     "e3ead268": 14.9207,
-    "8c4bad88": 251.9888,
+    "5b21b89e": 254.468,
     "ba529f30": 405.1083,
+    "8c4bad88": 251.9888,
+    "d4177077": 34.686,
+    "9006c30c": 409.715,
     "363f6be6": 9.3536,
     "c023fb44": 26.7426,
     "5cbcf173": 14.638,
     "8797f5de": 9.6426,
     "600467a1": 9.2732,
     "ed400039": 25.8408,
-    "cd3d4569": 246.1472,
     "34665213": 396.148,
+    "cd3d4569": 246.1472,
+    "ce880f8c": 33.8918,
     "507192de": 14.3948
   }
 }
