@@ -67361,7 +67361,9 @@
     "code_version": "50420da",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.43
+    "ret_now": -0.64,
+    "ret_final": -0.64,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBRX",
@@ -67419,7 +67421,7 @@
     "code_version": "c9ac4da",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.44
+    "ret_now": -0.68
   },
   {
     "symbol": "RARE",
@@ -67503,7 +67505,8 @@
     "hour_et": 11,
     "code_version": "87f9c37",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.04
   },
   {
     "symbol": "ADI",
@@ -67533,6 +67536,34 @@
     "hour_et": 11,
     "code_version": "87f9c37",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.08
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": 1.409095,
+    "status": "filled",
+    "price": 528.88,
+    "proceeds": 745.24,
+    "realized_pnl": -4.76,
+    "realized_pct": -0.64,
+    "date": "2026-10-16",
+    "time_et": "11:56",
+    "ts": 1792166100,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $532.26",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "6108820",
+    "hold_minutes": 36
   }
 ]

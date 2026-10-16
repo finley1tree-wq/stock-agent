@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3156.44,
+  "spent": 2411.2,
   "deployed": 214800.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -18,7 +18,7 @@
     "AEIS": 21.39,
     "IBRX": 94.85,
     "RARE": 55.75,
-    "MSFT": 772.52,
+    "MSFT": 27.28,
     "WSM": 5.73,
     "GTES": 759.85,
     "ADI": 756.42,
@@ -6659,13 +6659,34 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 1.409095,
+      "status": "filled",
+      "price": 528.88,
+      "proceeds": 745.24,
+      "realized_pnl": -4.76,
+      "realized_pct": -0.64,
+      "date": "2026-10-16",
+      "time_et": "11:56",
+      "ts": 1792166100,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $532.26",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 3047.42,
+  "spent_today": 2302.18,
   "deployed_today": 36750.0,
   "orders_today": 22,
-  "sells_today": 18,
+  "sells_today": 19,
   "sold_today": [
     "YETI",
     "MSFT",
@@ -6685,7 +6706,7 @@
     "META": 1791994257,
     "SNOW": 1791991237,
     "CVX": 1791993409,
-    "MSFT": 1792161146,
+    "MSFT": 1792166212,
     "PG": 1791993960,
     "NEOG": 1791899653,
     "TSM": 1792085469,
@@ -6701,8 +6722,8 @@
     "YETI": 1792161236,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792166075,
-  "last_check_ts": 1792166171,
+  "last_publish_ts": 1792166211,
+  "last_check_ts": 1792166259,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -6742,20 +6763,17 @@
     }
   },
   "last_bar_ts": 1792166100,
-  "last_decision_ts": 1792166075,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1792166259,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "2f3bceeb": 529.141,
     "f970c143": 42.3968,
     "c8278c01": 407.496,
     "89e1bba9": 26.3627,
-    "f6a00847": 533.5055,
+    "48a29520": 26.0034,
     "30ad4500": 402.8899,
     "3d235d09": 42.8772,
-    "48a29520": 26.0034,
     "05a8b320": 41.4578,
-    "ccba0f94": 516.2922,
     "fdb213f0": 25.4722,
     "1512ac2f": 393.9946
   }
