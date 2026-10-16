@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3161.2,
+  "spent": 2408.77,
   "deployed": 215550.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -21,7 +21,7 @@
     "MSFT": 27.28,
     "WSM": 5.73,
     "GTES": 759.85,
-    "ADI": 756.42,
+    "ADI": 3.99,
     "YETI": 750.0,
     "NXPI": 750.0
   },
@@ -6703,13 +6703,34 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.846466,
+      "status": "filled",
+      "price": 407.5,
+      "proceeds": 752.43,
+      "realized_pnl": 2.43,
+      "realized_pct": 0.32,
+      "date": "2026-10-16",
+      "time_et": "12:04",
+      "ts": 1792166400,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $406.18",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 3052.18,
+  "spent_today": 2299.75,
   "deployed_today": 37500.0,
   "orders_today": 23,
-  "sells_today": 19,
+  "sells_today": 20,
   "sold_today": [
     "YETI",
     "MSFT",
@@ -6740,13 +6761,13 @@
     "WSM": 1792165853,
     "RARE": 1792164316,
     "GTES": 1792163214,
-    "ADI": 1792163350,
+    "ADI": 1792166693,
     "NXPI": 1792163572,
     "YETI": 1792161236,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792166425,
-  "last_check_ts": 1792166599,
+  "last_publish_ts": 1792166692,
+  "last_check_ts": 1792166692,
   "exp_arm": {
     "YETI": {
       "params": {
@@ -6790,17 +6811,14 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "c8278c01": 407.496,
     "f970c143": 42.3968,
     "a0fc14ca": 234.1989,
-    "89e1bba9": 26.3627,
     "48a29520": 26.0034,
-    "ff312cee": 231.0912,
+    "89e1bba9": 26.3627,
     "3d235d09": 42.8772,
-    "30ad4500": 402.8899,
+    "ff312cee": 231.0912,
     "05a8b320": 41.4578,
     "fdb213f0": 25.4722,
-    "df13f2ea": 226.3107,
-    "1512ac2f": 393.9946
+    "df13f2ea": 226.3107
   }
 }
