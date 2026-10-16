@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 3905.92,
-  "deployed": 217800.0,
+  "spent": 4655.92,
+  "deployed": 218550.0,
   "by_ticker": {
     "TSM": 27.82,
     "IBM": 19.61,
@@ -18,7 +18,7 @@
     "AEIS": 21.39,
     "IBRX": 844.85,
     "RARE": 805.75,
-    "MSFT": 27.28,
+    "MSFT": 777.28,
     "WSM": 755.73,
     "GTES": 759.85,
     "ADI": 3.99,
@@ -28,7 +28,7 @@
     "TSM": 14800.0,
     "IBM": 2800.0,
     "ACN": 15600.0,
-    "MSFT": 13400.0,
+    "MSFT": 14150.0,
     "AMGN": 13750.0,
     "KO": 13250.0,
     "AVGO": 10250.0,
@@ -6810,12 +6810,34 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.417031,
+      "price": 529.28,
+      "date": "2026-10-16",
+      "time_et": "12:44",
+      "ts": 1792169077,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +6.3% over the month; 10% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 3796.9,
-  "deployed_today": 39750.0,
-  "orders_today": 26,
+  "spent_today": 4546.9,
+  "deployed_today": 40500.0,
+  "orders_today": 27,
   "sells_today": 21,
   "sold_today": [
     "YETI",
@@ -6852,8 +6874,8 @@
     "YETI": 1792161236,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792168721,
-  "last_check_ts": 1792168988,
+  "last_publish_ts": 1792169077,
+  "last_check_ts": 1792169077,
   "exp_arm": {
     "YETI": {
       "params": {
@@ -6899,27 +6921,39 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "MSFT": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1792168800,
-  "last_decision_ts": 1792168895,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792169077,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "710e32f9": 530.5556,
     "f970c143": 42.3968,
     "b76d0975": 252.0463,
     "48a29520": 26.0034,
+    "abe5b7b0": 526.0831,
     "908aa09e": 249.538,
-    "89e1bba9": 26.3627,
-    "3d235d09": 42.8772,
     "f0c51259": 14.8015,
+    "3d235d09": 42.8772,
+    "89e1bba9": 26.3627,
     "f61ba64b": 14.5163,
     "e3220666": 9.1822,
-    "e173b25c": 9.1083,
     "16745a56": 9.4731,
-    "05a8b320": 41.4578,
+    "e173b25c": 9.1083,
     "fdb213f0": 25.4722,
+    "05a8b320": 41.4578,
     "ad7ea797": 14.2784,
-    "21161993": 243.7901
+    "21161993": 243.7901,
+    "8fc74db2": 513.4016
   }
 }
