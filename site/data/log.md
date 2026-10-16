@@ -1,6 +1,3 @@
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,883 idle, so opened 1: CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 CRBG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: insider net buying (Form 4); +0.1% over the month; 73% of today's range
-~ WORKING take_profit 100% CRBG @ $35.03 until 2026-10-21 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% CRBG @ $34.68 until 2026-10-21 — close it all at -0.7% under the average cost
 ~ WORKING buy_limit $500.00 CRBG @ $33.88 until 2026-10-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25316.39 (+1.27% on $25000.00 in) · cash $22317.59 · realised +317.59
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 NXPI @ $225.77 until 2026-10-21 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25302.09 (+1.21% on $25000.00 in) · cash $20813.98 · realised +313.98
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20378.98 this week
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [stop_loss @ $404.91] -> $743.58 (-0.86%) — close it all at -0.8% under the average cost
+## 2026-10-16 11:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders

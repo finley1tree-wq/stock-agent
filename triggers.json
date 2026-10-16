@@ -7297,7 +7297,7 @@
    "ticker": "ADI",
    "kind": "take_profit",
    "price": 409.715,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-16 10:55",
    "created_ts": 1792162515,
    "why": "close 100% at +0.3% over the average cost",
@@ -7307,14 +7307,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 11:09",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ba529f30",
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 405.1083,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-16 10:55",
    "created_ts": 1792162515,
    "why": "close it all at -0.8% under the average cost",
@@ -7324,14 +7326,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 11:09"
   },
   {
    "id": "34665213",
    "ticker": "ADI",
    "kind": "buy_limit",
    "price": 396.148,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-16 10:55",
    "created_ts": 1792162515,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7341,7 +7344,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-16 11:09",
+   "cancel_reason": "position closed"
   },
   {
    "id": "323896d2",
@@ -7465,5 +7470,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-16 11:06"
+ "updated": "2026-10-16 11:09"
 }
