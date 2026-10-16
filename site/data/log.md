@@ -1,21 +1,3 @@
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (FLSC excluded: too thinly traded ($6.9M a day) — Frazier Life Sciences Acquisition Corp. II Class A Ordinary )
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6FfZZPH2sHRpLEn59DM'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $21,094 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +6.3% over the month; 10% of today's range
-~ WORKING take_profit 100% MSFT @ $530.56 until 2026-10-21 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% MSFT @ $526.08 until 2026-10-21 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 MSFT @ $513.40 until 2026-10-21 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25261.94 (+1.05% on $25000.00 in) · cash $20779.09 · realised +279.09
-Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20344.08 this week
-
-## 2026-10-16 12:47 ET (Friday) — week 2026-W42 — budget left $20344.08 (today $40500.00 put to work, 27 buys, 21 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
   (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
@@ -398,3 +380,21 @@ portfolio: equity $25247.70 (+0.99% on $25000.00 in) · cash $22255.75 · realis
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 4 resting buy order(s): past the entry cutoff)
+
+## 2026-10-16 14:00 ET (Friday) — week 2026-W42 — budget left $21820.76 (today $44250.00 put to work, 32 buys, 28 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (FLSC excluded: too thinly traded ($6.9M a day) — Frazier Life Sciences Acquisition Corp. II Class A Ordinary )
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6MTNo6Hg56pQn6JbpiV'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25246.96 (+0.99% on $25000.00 in) · cash $22255.75 · realised +255.75
+Decision: nothing at this check. 8 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $230.77] -> $742.48 (-1.00%) — close it all at -1.0% under the average cost
+## 2026-10-16 14:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders

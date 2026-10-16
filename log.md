@@ -33832,3 +33832,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25246.96 (+0.99% on $25000.00 in) · cash $22255.75 · realised +255.75
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $230.77] -> $742.48 (-1.00%) — close it all at -1.0% under the average cost
+## 2026-10-16 14:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders

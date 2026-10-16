@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3179.24,
+  "spent": 2436.76,
   "deployed": 222300.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -23,7 +23,7 @@
     "GTES": 767.44,
     "ADI": 10.46,
     "YETI": 754.28,
-    "NXPI": 750.0
+    "NXPI": 7.52
   },
   "deployed_by_ticker": {
     "TSM": 14800.0,
@@ -7088,13 +7088,34 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 3.217459,
+      "status": "filled",
+      "price": 230.77,
+      "proceeds": 742.48,
+      "realized_pnl": -7.52,
+      "realized_pct": -1.0,
+      "date": "2026-10-16",
+      "time_et": "14:02",
+      "ts": 1792173600,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $233.1",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 3070.22,
+  "spent_today": 2327.74,
   "deployed_today": 44250.0,
   "orders_today": 32,
-  "sells_today": 28,
+  "sells_today": 29,
   "sold_today": [
     "YETI",
     "MSFT",
@@ -7126,12 +7147,12 @@
     "RARE": 1792172518,
     "GTES": 1792170283,
     "ADI": 1792172298,
-    "NXPI": 1792167313,
+    "NXPI": 1792173747,
     "YETI": 1792169666,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792173607,
-  "last_check_ts": 1792173655,
+  "last_publish_ts": 1792173747,
+  "last_check_ts": 1792173747,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -7176,12 +7197,10 @@
   "autopiloted": true,
   "book_px": {
     "212f6711": 42.5971,
-    "12a6c770": 529.1538,
     "0557de20": 524.5932,
     "55631093": 25.6371,
-    "9a14f2a7": 26.0052,
+    "12a6c770": 529.1538,
     "056a3f7d": 42.1169,
-    "443ecd65": 233.9881,
-    "35e42daa": 230.8809
+    "9a14f2a7": 26.0052
   }
 }
