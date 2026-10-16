@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 1679.24,
-  "deployed": 220800.0,
+  "spent": 3179.24,
+  "deployed": 222300.0,
   "by_ticker": {
     "TSM": 27.82,
     "IBM": 19.61,
@@ -18,9 +18,9 @@
     "AEIS": 21.39,
     "IBRX": 88.61,
     "RARE": 56.35,
-    "MSFT": 32.18,
+    "MSFT": 782.18,
     "WSM": 11.45,
-    "GTES": 17.44,
+    "GTES": 767.44,
     "ADI": 10.46,
     "YETI": 754.28,
     "NXPI": 750.0
@@ -29,7 +29,7 @@
     "TSM": 14800.0,
     "IBM": 2800.0,
     "ACN": 15600.0,
-    "MSFT": 14150.0,
+    "MSFT": 14900.0,
     "AMGN": 13750.0,
     "KO": 13250.0,
     "AVGO": 10250.0,
@@ -44,7 +44,7 @@
     "AEIS": 1500.0,
     "IBRX": 11250.0,
     "WSM": 11250.0,
-    "GTES": 10500.0,
+    "GTES": 11250.0,
     "NXPI": 10500.0,
     "YETI": 5250.0,
     "CRBG": 3750.0
@@ -7044,12 +7044,56 @@
       ],
       "evidence": "bought 90 min ago, -0.04% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.42087,
+      "price": 527.85,
+      "date": "2026-10-16",
+      "time_et": "13:52",
+      "ts": 1792173127,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +6.0% over the month; 17% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "GTES",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 28.962147,
+      "price": 25.9,
+      "date": "2026-10-16",
+      "time_et": "13:52",
+      "ts": 1792173127,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +0.4% over the month; 15% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 1570.22,
-  "deployed_today": 42750.0,
-  "orders_today": 30,
+  "spent_today": 3070.22,
+  "deployed_today": 44250.0,
+  "orders_today": 32,
   "sells_today": 28,
   "sold_today": [
     "YETI",
@@ -7086,18 +7130,9 @@
     "YETI": 1792169666,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792172517,
-  "last_check_ts": 1792173041,
+  "last_publish_ts": 1792173127,
+  "last_check_ts": 1792173127,
   "exp_arm": {
-    "RARE": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "NXPI": {
       "params": {
         "hold_minutes": 90,
@@ -7115,18 +7150,42 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "MSFT": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "GTES": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1792173000,
-  "last_decision_ts": 1792172950,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792173127,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "12a6c770": 529.1538,
     "212f6711": 42.5971,
-    "443ecd65": 233.9881,
     "35e42daa": 230.8809,
+    "9a14f2a7": 26.0052,
+    "0557de20": 524.5932,
+    "443ecd65": 233.9881,
     "056a3f7d": 42.1169,
+    "55631093": 25.6371,
     "93f58f70": 226.107,
+    "b28a55ee": 25.123,
+    "c0874655": 512.0145,
     "8027db81": 41.1862
   }
 }

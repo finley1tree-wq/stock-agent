@@ -67879,7 +67879,7 @@
     "code_version": "e150dd7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.25
+    "ret_now": -0.43
   },
   {
     "symbol": "GTES",
@@ -68045,7 +68045,7 @@
     "code_version": "8157aa1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16
+    "ret_now": 0.09
   },
   {
     "symbol": "RARE",
@@ -68072,5 +68072,65 @@
     "hour_et": 13,
     "code_version": "0d4f26f",
     "hold_minutes": 89
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.42087,
+    "price": 527.85,
+    "date": "2026-10-16",
+    "time_et": "13:52",
+    "ts": 1792173127,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +6.0% over the month; 17% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 527.74,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 6.03,
+    "hour_et": 13,
+    "code_version": "e2caeab",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "GTES",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 28.962147,
+    "price": 25.9,
+    "date": "2026-10-16",
+    "time_et": "13:52",
+    "ts": 1792173127,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +0.4% over the month; 15% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 25.87,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 0.39,
+    "hour_et": 13,
+    "code_version": "e2caeab",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

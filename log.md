@@ -33767,3 +33767,24 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25254.49 (+1.02% on $25000.00 in) · cash $23755.75 · realised +255.75
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-16 13:52 ET (Friday) — week 2026-W42 — budget left $23320.76 (today $42750.00 put to work, 30 buys, 28 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (FLSC excluded: too thinly traded ($6.9M a day) — Frazier Life Sciences Acquisition Corp. II Class A Ordinary )
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6LnAJRxkd1e48jE5iEv'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,321 idle, so opened 2: MSFT, GTES. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +6.0% over the month; 17% of today's range
+- BUY $750.00 GTES [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +0.4% over the month; 15% of today's range
+~ WORKING take_profit 100% MSFT @ $529.15 until 2026-10-21 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $524.59 until 2026-10-21 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $512.01 until 2026-10-21 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GTES @ $26.01 until 2026-10-21 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% GTES @ $25.64 until 2026-10-21 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 GTES @ $25.12 until 2026-10-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25251.74 (+1.01% on $25000.00 in) · cash $22255.75 · realised +255.75
+Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $21820.76 this week
