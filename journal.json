@@ -66362,7 +66362,7 @@
     "code_version": "02a8eda",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": -0.25
   },
   {
     "symbol": "IBRX",
@@ -66393,7 +66393,7 @@
     "code_version": "02a8eda",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.4
+    "ret_now": 0.1
   },
   {
     "symbol": "ADI",
@@ -66424,7 +66424,7 @@
     "code_version": "02a8eda",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.26
+    "ret_now": 0.08
   },
   {
     "symbol": "RARE",
@@ -66455,7 +66455,7 @@
     "code_version": "02a8eda",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.27
   },
   {
     "symbol": "YETI",
@@ -66485,7 +66485,10 @@
     "hour_et": 9,
     "code_version": "e0f9f90",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.36,
+    "ret_now": 0.36,
+    "ret_src": "realised"
   },
   {
     "symbol": "YETI",
@@ -66511,6 +66514,67 @@
     "evidence": "average cost $42.5",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "a1bbb19"
+    "code_version": "a1bbb19",
+    "hold_minutes": 0
+  },
+  {
+    "symbol": "GTES",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 115.136496,
+    "price": 26.06,
+    "date": "2026-10-16",
+    "time_et": "09:37",
+    "ts": 1792157871,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +1.0% over the month; 0% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 26.03,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 1.01,
+    "hour_et": 9,
+    "code_version": "fd5f86e",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "WSM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 11.848283,
+    "price": 253.2,
+    "date": "2026-10-16",
+    "time_et": "09:37",
+    "ts": 1792157871,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +15.6% over the month; 69% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 253.1,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 15.61,
+    "hour_et": 9,
+    "code_version": "fd5f86e",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

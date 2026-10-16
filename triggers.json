@@ -1,119 +1,6 @@
 {
  "orders": [
   {
-   "id": "55d6eb1c",
-   "ticker": "NEOG",
-   "kind": "take_profit",
-   "price": 12.036,
-   "status": "filled",
-   "created": "2026-10-12 11:47",
-   "created_ts": 1791820036,
-   "why": "close 100% at +0.7% over the average cost",
-   "evidence": "average cost $11.95",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 12:11"
-  },
-  {
-   "id": "200728ff",
-   "ticker": "NEOG",
-   "kind": "stop_loss",
-   "price": 11.7349,
-   "status": "cancelled",
-   "created": "2026-10-12 11:47",
-   "created_ts": 1791820036,
-   "why": "close it all at -1.8% under the average cost",
-   "evidence": "average cost $11.95",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 12:00",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "468e5597",
-   "ticker": "NEOG",
-   "kind": "buy_limit",
-   "price": 11.5915,
-   "status": "cancelled",
-   "created": "2026-10-12 11:47",
-   "created_ts": 1791820036,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $11.95",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "usd": 500.0,
-   "closed": "2026-10-12 12:11",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "727cae46",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 449.1283,
-   "status": "cancelled",
-   "created": "2026-10-12 11:53",
-   "created_ts": 1791820388,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $447.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 12:01",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "2419e539",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 444.8597,
-   "status": "cancelled",
-   "created": "2026-10-12 11:53",
-   "created_ts": 1791820388,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $447.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 11:56",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "4a7252b3",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 434.4727,
-   "status": "cancelled",
-   "created": "2026-10-12 11:53",
-   "created_ts": 1791820388,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $447.91",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "usd": 500.0,
-   "closed": "2026-10-12 12:01",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "607a4af7",
    "ticker": "TSM",
    "kind": "stop_loss",
@@ -7478,7 +7365,109 @@
    "usd": 500.0,
    "closed": "2026-10-16 09:36",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "5241d55f",
+   "ticker": "GTES",
+   "kind": "take_profit",
+   "price": 26.1598,
+   "status": "working",
+   "created": "2026-10-16 09:37",
+   "created_ts": 1792157871,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $26.06",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7c2a6d48",
+   "ticker": "GTES",
+   "kind": "stop_loss",
+   "price": 25.8109,
+   "status": "working",
+   "created": "2026-10-16 09:37",
+   "created_ts": 1792157871,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $26.06",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d3fd4f69",
+   "ticker": "GTES",
+   "kind": "buy_limit",
+   "price": 25.2782,
+   "status": "working",
+   "created": "2026-10-16 09:37",
+   "created_ts": 1792157871,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $26.06",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "usd": 500.0
+  },
+  {
+   "id": "cfc50a2a",
+   "ticker": "WSM",
+   "kind": "take_profit",
+   "price": 253.8938,
+   "status": "working",
+   "created": "2026-10-16 09:37",
+   "created_ts": 1792157871,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $253.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f718e0cc",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 251.463,
+   "status": "working",
+   "created": "2026-10-16 09:37",
+   "created_ts": 1792157871,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $253.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2820188d",
+   "ticker": "WSM",
+   "kind": "buy_limit",
+   "price": 245.604,
+   "status": "working",
+   "created": "2026-10-16 09:37",
+   "created_ts": 1792157871,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $253.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-16 09:36"
+ "updated": "2026-10-16 09:37"
 }

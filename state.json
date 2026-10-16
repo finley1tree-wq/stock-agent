@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 12159.68,
-  "deployed": 193050.0,
+  "spent": 18159.68,
+  "deployed": 199050.0,
   "by_ticker": {
     "TSM": 27.82,
     "IBM": 19.61,
@@ -16,9 +16,9 @@
     "ACN": 2.09,
     "BHE": 16.9,
     "AEIS": 21.39,
-    "GTES": 17.06,
+    "GTES": 3017.06,
     "IBRX": 3077.16,
-    "WSM": 5.71,
+    "WSM": 3005.71,
     "ADI": 3000.56,
     "RARE": 3002.57,
     "MSFT": 3000.0
@@ -41,8 +41,8 @@
     "RARE": 9000.0,
     "AEIS": 1500.0,
     "IBRX": 9750.0,
-    "WSM": 6750.0,
-    "GTES": 6000.0,
+    "WSM": 9750.0,
+    "GTES": 9000.0,
     "NXPI": 5250.0,
     "YETI": 3000.0
   },
@@ -5926,12 +5926,56 @@
       ],
       "evidence": "average cost $42.5",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "GTES",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 115.136496,
+      "price": 26.06,
+      "date": "2026-10-16",
+      "time_et": "09:37",
+      "ts": 1792157871,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +1.0% over the month; 0% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "WSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.848283,
+      "price": 253.2,
+      "date": "2026-10-16",
+      "time_et": "09:37",
+      "ts": 1792157871,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +15.6% over the month; 69% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 11989.2,
-  "deployed_today": 15000.0,
-  "orders_today": 5,
+  "spent_today": 17989.2,
+  "deployed_today": 21000.0,
+  "orders_today": 7,
   "sells_today": 1,
   "sold_today": [
     "YETI"
@@ -5959,8 +6003,8 @@
     "NXPI": 1792084182,
     "YETI": 1792157786
   },
-  "last_publish_ts": 1792157786,
-  "last_check_ts": 1792157786,
+  "last_publish_ts": 1792157871,
+  "last_check_ts": 1792157871,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -5998,7 +6042,16 @@
         "ratchet": "off"
       }
     },
-    "YETI": {
+    "GTES": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "WSM": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "off"
@@ -6009,21 +6062,27 @@
     }
   },
   "last_bar_ts": 1792157700,
-  "last_decision_ts": 1792157693,
+  "last_decision_ts": 1792157871,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "59eb5ea1": 538.1004,
     "7b2e3acc": 399.8937,
-    "09127026": 542.2449,
-    "48f60c28": 395.4689,
+    "59eb5ea1": 538.1004,
+    "cfc50a2a": 253.8938,
     "034a72b4": 15.039,
-    "37f96b47": 9.7526,
-    "3b67c50a": 14.7627,
+    "09127026": 542.2449,
+    "5241d55f": 26.1598,
+    "f718e0cc": 251.463,
     "9b5e8769": 10.029,
-    "5012edbd": 9.6515,
-    "59ab0ff3": 14.5112,
+    "7c2a6d48": 25.8109,
+    "48f60c28": 395.4689,
+    "3b67c50a": 14.7627,
+    "37f96b47": 9.7526,
     "c0f0e8b5": 524.8282,
-    "67681340": 386.6711
+    "d3fd4f69": 25.2782,
+    "2820188d": 245.604,
+    "5012edbd": 9.6515,
+    "67681340": 386.6711,
+    "59ab0ff3": 14.5112
   }
 }
