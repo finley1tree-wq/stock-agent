@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "6cbc458f",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 742.84,
-   "status": "filled",
-   "created": "2026-10-13 09:32",
-   "created_ts": 1791898358,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $740.5",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-13 09:39"
-  },
-  {
-   "id": "0cd1e553",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 734.65,
-   "status": "cancelled",
-   "created": "2026-10-13 09:32",
-   "created_ts": 1791898358,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $740.5",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-13 09:39",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "4fea52a4",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 718.285,
-   "status": "cancelled",
-   "created": "2026-10-13 09:32",
-   "created_ts": 1791898358,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $740.5",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "usd": 500.0,
-   "closed": "2026-10-13 09:39",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "1c72e9a1",
    "ticker": "NEOG",
    "kind": "take_profit",
@@ -7477,7 +7421,58 @@
    ],
    "good_until": "2026-10-21",
    "usd": 500.0
+  },
+  {
+   "id": "3d235d09",
+   "ticker": "YETI",
+   "kind": "take_profit",
+   "price": 42.8772,
+   "status": "working",
+   "created": "2026-10-16 11:24",
+   "created_ts": 1792164272,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $42.74",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f970c143",
+   "ticker": "YETI",
+   "kind": "stop_loss",
+   "price": 42.3968,
+   "status": "working",
+   "created": "2026-10-16 11:24",
+   "created_ts": 1792164272,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $42.74",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "05a8b320",
+   "ticker": "YETI",
+   "kind": "buy_limit",
+   "price": 41.4578,
+   "status": "working",
+   "created": "2026-10-16 11:24",
+   "created_ts": 1792164272,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $42.74",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-16 11:22"
+ "updated": "2026-10-16 11:24"
 }

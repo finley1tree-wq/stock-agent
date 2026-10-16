@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 2390.33,
-  "deployed": 212550.0,
+  "spent": 3140.33,
+  "deployed": 213300.0,
   "by_ticker": {
     "TSM": 27.82,
     "IBM": 19.61,
@@ -21,7 +21,8 @@
     "MSFT": 772.52,
     "WSM": 750.0,
     "GTES": 9.85,
-    "ADI": 6.42
+    "ADI": 6.42,
+    "YETI": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 14800.0,
@@ -44,7 +45,7 @@
     "WSM": 10500.0,
     "GTES": 9750.0,
     "NXPI": 9000.0,
-    "YETI": 3750.0,
+    "YETI": 4500.0,
     "CRBG": 3750.0
   },
   "orders": [
@@ -6550,12 +6551,34 @@
       ],
       "evidence": "average cost $9.56",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "YETI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 17.54916,
+      "price": 42.74,
+      "date": "2026-10-16",
+      "time_et": "11:24",
+      "ts": 1792164272,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +3.6% over the month; 77% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 2281.31,
-  "deployed_today": 34500.0,
-  "orders_today": 19,
+  "spent_today": 3031.31,
+  "deployed_today": 35250.0,
+  "orders_today": 20,
   "sells_today": 16,
   "sold_today": [
     "YETI",
@@ -6592,18 +6615,9 @@
     "YETI": 1792161236,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792164140,
-  "last_check_ts": 1792164186,
+  "last_publish_ts": 1792164272,
+  "last_check_ts": 1792164272,
   "exp_arm": {
-    "IBRX": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "WSM": {
       "params": {
         "hold_minutes": 90,
@@ -6630,21 +6644,33 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "YETI": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1792164000,
-  "last_decision_ts": 1792164102,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792164272,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "5b21b89e": 254.468,
-    "2f3bceeb": 529.141,
-    "f6a00847": 533.5055,
     "5cbcf173": 14.638,
+    "2f3bceeb": 529.141,
+    "3d235d09": 42.8772,
+    "f6a00847": 533.5055,
+    "f970c143": 42.3968,
     "8c4bad88": 251.9888,
     "e3ead268": 14.9207,
     "507192de": 14.3948,
     "ccba0f94": 516.2922,
+    "05a8b320": 41.4578,
     "cd3d4569": 246.1472
   }
 }

@@ -66968,7 +66968,9 @@
     "code_version": "e6d49db",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.78
+    "ret_now": -2.16,
+    "ret_final": -2.16,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -66999,7 +67001,7 @@
     "code_version": "e6d49db",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": 0.14
   },
   {
     "symbol": "MSFT",
@@ -67090,7 +67092,7 @@
     "code_version": "d97e7fc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.61
+    "ret_now": -1.01
   },
   {
     "symbol": "YETI",
@@ -67355,7 +67357,7 @@
     "code_version": "50420da",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.17
+    "ret_now": -0.2
   },
   {
     "symbol": "IBRX",
@@ -67381,6 +67383,37 @@
     "evidence": "average cost $9.56",
     "trigger": "stop_loss",
     "hour_et": 11,
-    "code_version": "ac815cf"
+    "code_version": "ac815cf",
+    "hold_minutes": 53
+  },
+  {
+    "symbol": "YETI",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 17.54916,
+    "price": 42.74,
+    "date": "2026-10-16",
+    "time_et": "11:24",
+    "ts": 1792164272,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +3.6% over the month; 77% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 42.72,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 3.64,
+    "hour_et": 11,
+    "code_version": "c9ac4da",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
