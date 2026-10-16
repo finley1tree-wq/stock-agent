@@ -1,6 +1,3 @@
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg4ZurtQjQR3b6wogjf9Q'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% CRBG @ $34.97 until 2026-10-21 — close it all at -0.7% under the average cost
 portfolio: equity $25322.41 (+1.29% on $25000.00 in) · cash $22317.59 · realised +317.59
 Decision: nothing at this check. 3 standing order(s) working.
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [take_profit @ $35.03] -> $3008.38 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-10-16 10:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
