@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "3369a010",
-   "ticker": "AVGO",
-   "kind": "take_profit",
-   "price": 350.0732,
-   "status": "filled",
-   "created": "2026-10-13 09:32",
-   "created_ts": 1791898358,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $348.96",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-13 09:37"
-  },
-  {
-   "id": "fa836425",
-   "ticker": "AVGO",
-   "kind": "stop_loss",
-   "price": 346.1788,
-   "status": "cancelled",
-   "created": "2026-10-13 09:32",
-   "created_ts": 1791898358,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $348.96",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-13 09:37",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "7aa1f165",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 338.4912,
-   "status": "cancelled",
-   "created": "2026-10-13 09:32",
-   "created_ts": 1791898358,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $348.96",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "usd": 500.0,
-   "closed": "2026-10-13 09:37",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "44d8b9d4",
    "ticker": "TSM",
    "kind": "take_profit",
@@ -7477,7 +7421,58 @@
    ],
    "good_until": "2026-10-21",
    "usd": 500.0
+  },
+  {
+   "id": "16745a56",
+   "ticker": "IBRX",
+   "kind": "take_profit",
+   "price": 9.4731,
+   "status": "working",
+   "created": "2026-10-16 12:09",
+   "created_ts": 1792166950,
+   "why": "close 100% at +0.9% over the average cost",
+   "evidence": "average cost $9.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e3220666",
+   "ticker": "IBRX",
+   "kind": "stop_loss",
+   "price": 9.1822,
+   "status": "working",
+   "created": "2026-10-16 12:09",
+   "created_ts": 1792166950,
+   "why": "close it all at -2.2% under the average cost",
+   "evidence": "average cost $9.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e173b25c",
+   "ticker": "IBRX",
+   "kind": "buy_limit",
+   "price": 9.1083,
+   "status": "working",
+   "created": "2026-10-16 12:09",
+   "created_ts": 1792166950,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $9.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-16 12:06"
+ "updated": "2026-10-16 12:09"
 }
