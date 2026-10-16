@@ -66968,7 +66968,7 @@
     "code_version": "e6d49db",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.84
+    "ret_now": -1.26
   },
   {
     "symbol": "WSM",
@@ -66999,7 +66999,7 @@
     "code_version": "e6d49db",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06
+    "ret_now": 0.14
   },
   {
     "symbol": "MSFT",
@@ -67057,7 +67057,9 @@
     "code_version": "d97e7fc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.75
+    "ret_now": -1.31,
+    "ret_final": -1.31,
+    "ret_src": "realised"
   },
   {
     "symbol": "RARE",
@@ -67146,7 +67148,7 @@
     "code_version": "c448f57",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.4
+    "ret_now": -0.73
   },
   {
     "symbol": "CRBG",
@@ -67175,6 +67177,64 @@
     "momentum_1m_at_entry": 0.14,
     "hour_et": 11,
     "code_version": "3e9fd4f",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.23
+  },
+  {
+    "symbol": "GTES",
+    "side": "sell",
+    "qty": 28.156736,
+    "status": "filled",
+    "price": 26.29,
+    "proceeds": 740.15,
+    "realized_pnl": -9.85,
+    "realized_pct": -1.31,
+    "date": "2026-10-16",
+    "time_et": "11:06",
+    "ts": 1792163100,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $26.64",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "06e6106",
+    "hold_minutes": 32
+  },
+  {
+    "symbol": "NXPI",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.222299,
+    "price": 232.75,
+    "date": "2026-10-16",
+    "time_et": "11:06",
+    "ts": 1792163215,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +2.1% over the month; 69% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 232.66,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 2.07,
+    "hour_et": 11,
+    "code_version": "06e6106",
     "ret_1w": null,
     "ret_1m": null
   }

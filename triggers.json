@@ -1,80 +1,6 @@
 {
  "orders": [
   {
-   "id": "f5ee4e7c",
-   "ticker": "AMGN",
-   "kind": "stop_loss",
-   "price": 416.114,
-   "status": "filled",
-   "created": "2026-10-12 14:37",
-   "created_ts": 1791830272,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $415.76",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 14:41"
-  },
-  {
-   "id": "45b39636",
-   "ticker": "SNOW",
-   "kind": "take_profit",
-   "price": 358.816,
-   "status": "filled",
-   "created": "2026-10-13 09:32",
-   "created_ts": 1791898358,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $357.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-13 09:35"
-  },
-  {
-   "id": "2169427d",
-   "ticker": "SNOW",
-   "kind": "stop_loss",
-   "price": 353.8197,
-   "status": "cancelled",
-   "created": "2026-10-13 09:32",
-   "created_ts": 1791898358,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $357.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-13 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "aa95b9f1",
-   "ticker": "SNOW",
-   "kind": "buy_limit",
-   "price": 346.6683,
-   "status": "cancelled",
-   "created": "2026-10-13 09:32",
-   "created_ts": 1791898358,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $357.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "usd": 500.0,
-   "closed": "2026-10-13 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "cf2535cc",
    "ticker": "CVX",
    "kind": "take_profit",
@@ -7245,7 +7171,7 @@
    "ticker": "GTES",
    "kind": "take_profit",
    "price": 26.7426,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-16 10:32",
    "created_ts": 1792161148,
    "why": "close 100% at +0.4% over the average cost",
@@ -7255,14 +7181,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 11:06",
+   "cancel_reason": "position closed"
   },
   {
    "id": "9e4cd9c4",
    "ticker": "GTES",
    "kind": "stop_loss",
    "price": 26.3837,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-16 10:32",
    "created_ts": 1792161148,
    "why": "close it all at -1.0% under the average cost",
@@ -7272,14 +7200,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 11:06"
   },
   {
    "id": "ed400039",
    "ticker": "GTES",
    "kind": "buy_limit",
    "price": 25.8408,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-16 10:32",
    "created_ts": 1792161148,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7289,7 +7218,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-16 11:06",
+   "cancel_reason": "position closed"
   },
   {
    "id": "e3ead268",
@@ -7434,7 +7365,7 @@
    "ticker": "CRBG",
    "kind": "stop_loss",
    "price": 34.686,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-16 11:03",
    "created_ts": 1792163039,
    "why": "close it all at -0.7% under the average cost",
@@ -7444,7 +7375,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 11:06",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ce880f8c",
@@ -7462,7 +7395,75 @@
    ],
    "good_until": "2026-10-21",
    "usd": 500.0
+  },
+  {
+   "id": "11d3b3f5",
+   "ticker": "CRBG",
+   "kind": "stop_loss",
+   "price": 34.982,
+   "status": "working",
+   "created": "2026-10-16 11:06",
+   "created_ts": 1792163213,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $34.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a0abf79a",
+   "ticker": "NXPI",
+   "kind": "take_profit",
+   "price": 233.6368,
+   "status": "working",
+   "created": "2026-10-16 11:06",
+   "created_ts": 1792163215,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $232.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0515f618",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 230.5296,
+   "status": "working",
+   "created": "2026-10-16 11:06",
+   "created_ts": 1792163215,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $232.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f666bbf6",
+   "ticker": "NXPI",
+   "kind": "buy_limit",
+   "price": 225.7675,
+   "status": "working",
+   "created": "2026-10-16 11:06",
+   "created_ts": 1792163215,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $232.75",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-16 11:03"
+ "updated": "2026-10-16 11:06"
 }
