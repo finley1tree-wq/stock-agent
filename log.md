@@ -32831,3 +32831,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25314.50 (+1.26% on $25000.00 in) · cash $22323.83 · realised +323.83
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-16 10:55 ET (Friday) — week 2026-W42 — budget left $21888.83 (today $31500.00 put to work, 15 buys, 11 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (CXM excluded: too thinly traded ($19.8M a day) — Sprinklr, Inc.)
+  (DUOT excluded: too thinly traded ($8.8M a day) — Duos Technologies Group, Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg67HvB5QyJTEZ6kVC172'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,889 idle, so opened 1: ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +12.6% over the month; 85% of today's range
+~ WORKING take_profit 100% ADI @ $409.71 until 2026-10-21 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% ADI @ $405.11 until 2026-10-21 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $396.15 until 2026-10-21 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25309.75 (+1.24% on $25000.00 in) · cash $21573.83 · realised +323.83
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21138.83 this week
