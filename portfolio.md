@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-10-16 13:46 ET
+# Pretend portfolio — 2026-10-16 13:49 ET
 
-**Equity $25255.02** on $25000.00 put in → **+1.02%**  
-Cash $23755.75 · Unrealised -0.73 · Realised +255.75
+**Equity $25254.49** on $25000.00 put in → **+1.02%**  
+Cash $23755.75 · Unrealised -1.26 · Realised +255.75
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| YETI | 3.0% | $751.47 | $42.46 | $42.54 | +0.20% | 0d |
+| YETI | 3.0% | $750.94 | $42.46 | $42.51 | +0.12% | 0d |
 | NXPI | 3.0% | $747.80 | $233.10 | $232.42 | -0.29% | 0d |
 
 ## Last fills
