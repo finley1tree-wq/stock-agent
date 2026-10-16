@@ -33703,3 +33703,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25252.21 (+1.01% on $25000.00 in) · cash $23012.83 · realised +262.83
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [stop_loss @ $401.42] -> $743.53 (-0.86%) — close it all at -0.8% under the average cost
+## 2026-10-16 13:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
