@@ -66782,6 +66782,65 @@
     "code_version": "03d759f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": 0.38,
+    "ret_final": 0.38,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 12.97508,
+    "status": "filled",
+    "price": 232.08,
+    "proceeds": 3011.26,
+    "realized_pnl": 11.26,
+    "realized_pct": 0.38,
+    "date": "2026-10-16",
+    "time_et": "09:55",
+    "ts": 1792158900,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $231.21",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "300d15d",
+    "hold_minutes": 5
+  },
+  {
+    "symbol": "CRBG",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 85.876302,
+    "price": 34.93,
+    "date": "2026-10-16",
+    "time_et": "09:55",
+    "ts": 1792158914,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "insider net buying (Form 4); +0.1% over the month; 73% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 34.92,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 0.11,
+    "hour_et": 9,
+    "code_version": "300d15d",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

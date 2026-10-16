@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 3128.66,
-  "deployed": 202050.0,
+  "spent": 3117.4,
+  "deployed": 205050.0,
   "by_ticker": {
     "TSM": 27.82,
     "IBM": 19.61,
@@ -19,7 +19,7 @@
     "IBRX": 78.67,
     "RARE": 45.37,
     "MSFT": 17.89,
-    "NXPI": 3000.0
+    "CRBG": 3000.0
   },
   "deployed_by_ticker": {
     "TSM": 14800.0,
@@ -42,7 +42,8 @@
     "WSM": 9750.0,
     "GTES": 9000.0,
     "NXPI": 8250.0,
-    "YETI": 3000.0
+    "YETI": 3000.0,
+    "CRBG": 3000.0
   },
   "orders": [
     {
@@ -6116,13 +6117,56 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 12.97508,
+      "status": "filled",
+      "price": 232.08,
+      "proceeds": 3011.26,
+      "realized_pnl": 11.26,
+      "realized_pct": 0.38,
+      "date": "2026-10-16",
+      "time_et": "09:55",
+      "ts": 1792158900,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $231.21",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "CRBG",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 85.876302,
+      "price": 34.93,
+      "date": "2026-10-16",
+      "time_et": "09:55",
+      "ts": 1792158914,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "insider net buying (Form 4); +0.1% over the month; 73% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-16",
   "spent_today": 3000.0,
-  "deployed_today": 24000.0,
-  "orders_today": 8,
-  "sells_today": 7,
+  "deployed_today": 27000.0,
+  "orders_today": 9,
+  "sells_today": 8,
   "sold_today": [
     "YETI",
     "MSFT",
@@ -6130,7 +6174,8 @@
     "IBRX",
     "WSM",
     "GTES",
-    "RARE"
+    "RARE",
+    "NXPI"
   ],
   "sold_ts": {
     "ACN": 1791992108,
@@ -6152,13 +6197,13 @@
     "RARE": 1792158361,
     "GTES": 1792158320,
     "ADI": 1792157916,
-    "NXPI": 1792084182,
+    "NXPI": 1792158913,
     "YETI": 1792157786
   },
-  "last_publish_ts": 1792158661,
-  "last_check_ts": 1792158833,
+  "last_publish_ts": 1792158914,
+  "last_check_ts": 1792158914,
   "exp_arm": {
-    "NXPI": {
+    "CRBG": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -6168,13 +6213,13 @@
       }
     }
   },
-  "last_bar_ts": 1792158600,
-  "last_decision_ts": 1792158746,
-  "next_check_minutes": null,
+  "last_bar_ts": 1792158900,
+  "last_decision_ts": 1792158914,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "ff33ebee": 232.0724,
-    "e3f2772b": 231.678,
-    "b4f75c3d": 224.2737
+    "b22127c8": 35.0316,
+    "49468eea": 34.6761,
+    "44b98318": 33.8821
   }
 }
