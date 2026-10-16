@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 3155.92,
-  "deployed": 217050.0,
+  "spent": 3905.92,
+  "deployed": 217800.0,
   "by_ticker": {
     "TSM": 27.82,
     "IBM": 19.61,
@@ -19,7 +19,7 @@
     "IBRX": 844.85,
     "RARE": 805.75,
     "MSFT": 27.28,
-    "WSM": 5.73,
+    "WSM": 755.73,
     "GTES": 759.85,
     "ADI": 3.99,
     "YETI": 750.0
@@ -42,7 +42,7 @@
     "RARE": 10500.0,
     "AEIS": 1500.0,
     "IBRX": 11250.0,
-    "WSM": 10500.0,
+    "WSM": 11250.0,
     "GTES": 10500.0,
     "NXPI": 9750.0,
     "YETI": 4500.0,
@@ -6788,12 +6788,34 @@
       ],
       "evidence": "average cost $233.31",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "WSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.984119,
+      "price": 251.33,
+      "date": "2026-10-16",
+      "time_et": "12:38",
+      "ts": 1792168721,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +14.8% over the month; 6% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 3046.9,
-  "deployed_today": 39000.0,
-  "orders_today": 25,
+  "spent_today": 3796.9,
+  "deployed_today": 39750.0,
+  "orders_today": 26,
   "sells_today": 21,
   "sold_today": [
     "YETI",
@@ -6830,8 +6852,8 @@
     "YETI": 1792161236,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792167313,
-  "last_check_ts": 1792168638,
+  "last_publish_ts": 1792168721,
+  "last_check_ts": 1792168721,
   "exp_arm": {
     "YETI": {
       "params": {
@@ -6851,15 +6873,6 @@
         "ratchet": "on"
       }
     },
-    "NXPI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "IBRX": {
       "params": {
         "hold_minutes": 90,
@@ -6877,24 +6890,36 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "WSM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1792168500,
-  "last_decision_ts": 1792168544,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792168721,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "89e1bba9": 26.3627,
     "f970c143": 42.3968,
+    "b76d0975": 252.0463,
+    "48a29520": 26.0034,
+    "908aa09e": 249.538,
+    "89e1bba9": 26.3627,
     "3d235d09": 42.8772,
     "f0c51259": 14.8015,
-    "48a29520": 26.0034,
-    "16745a56": 9.4731,
     "f61ba64b": 14.5163,
     "e3220666": 9.1822,
-    "05a8b320": 41.4578,
-    "ad7ea797": 14.2784,
     "e173b25c": 9.1083,
-    "fdb213f0": 25.4722
+    "16745a56": 9.4731,
+    "05a8b320": 41.4578,
+    "fdb213f0": 25.4722,
+    "ad7ea797": 14.2784,
+    "21161993": 243.7901
   }
 }
