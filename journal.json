@@ -66902,7 +66902,9 @@
     "code_version": "cebb44a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.35
+    "ret_now": -0.62,
+    "ret_final": -0.62,
+    "ret_src": "realised"
   },
   {
     "symbol": "YETI",
@@ -66964,7 +66966,7 @@
     "code_version": "e6d49db",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.94
+    "ret_now": -0.73
   },
   {
     "symbol": "WSM",
@@ -66995,6 +66997,93 @@
     "code_version": "e6d49db",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.17
+    "ret_now": -0.13
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": 1.396005,
+    "status": "filled",
+    "price": 533.93,
+    "proceeds": 745.37,
+    "realized_pnl": -4.63,
+    "realized_pct": -0.62,
+    "date": "2026-10-16",
+    "time_et": "10:32",
+    "ts": 1792161000,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $537.25",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "d97e7fc",
+    "hold_minutes": 6
+  },
+  {
+    "symbol": "GTES",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 28.156736,
+    "price": 26.64,
+    "date": "2026-10-16",
+    "time_et": "10:32",
+    "ts": 1792161148,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +3.3% over the month; 79% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 26.61,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 3.28,
+    "hour_et": 10,
+    "code_version": "d97e7fc",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "RARE",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 50.552941,
+    "price": 14.84,
+    "date": "2026-10-16",
+    "time_et": "10:32",
+    "ts": 1792161148,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +2.3% over the month; 22% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 14.83,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 2.28,
+    "hour_et": 10,
+    "code_version": "d97e7fc",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

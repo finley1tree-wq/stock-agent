@@ -1,7 +1,7 @@
 {
   "week": "2026-W42",
-  "spent": 3109.02,
-  "deployed": 208050.0,
+  "spent": 3863.65,
+  "deployed": 209550.0,
   "by_ticker": {
     "TSM": 27.82,
     "IBM": 19.61,
@@ -17,10 +17,11 @@
     "BHE": 16.9,
     "AEIS": 21.39,
     "IBRX": 828.67,
-    "RARE": 45.37,
-    "MSFT": 767.89,
+    "RARE": 795.37,
+    "MSFT": 22.52,
     "YETI": 750.0,
-    "WSM": 750.0
+    "WSM": 750.0,
+    "GTES": 750.0
   },
   "deployed_by_ticker": {
     "TSM": 14800.0,
@@ -37,11 +38,11 @@
     "PG": 11250.0,
     "BHE": 1500.0,
     "ADI": 9000.0,
-    "RARE": 9000.0,
+    "RARE": 9750.0,
     "AEIS": 1500.0,
     "IBRX": 10500.0,
     "WSM": 10500.0,
-    "GTES": 9000.0,
+    "GTES": 9750.0,
     "NXPI": 8250.0,
     "YETI": 3750.0,
     "CRBG": 3000.0
@@ -6270,13 +6271,78 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 1.396005,
+      "status": "filled",
+      "price": 533.93,
+      "proceeds": 745.37,
+      "realized_pnl": -4.63,
+      "realized_pct": -0.62,
+      "date": "2026-10-16",
+      "time_et": "10:32",
+      "ts": 1792161000,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $537.25",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "GTES",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 28.156736,
+      "price": 26.64,
+      "date": "2026-10-16",
+      "time_et": "10:32",
+      "ts": 1792161148,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +3.3% over the month; 79% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "RARE",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 50.552941,
+      "price": 14.84,
+      "date": "2026-10-16",
+      "time_et": "10:32",
+      "ts": 1792161148,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +2.3% over the month; 22% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 3000.0,
-  "deployed_today": 30000.0,
-  "orders_today": 13,
-  "sells_today": 9,
+  "spent_today": 3754.63,
+  "deployed_today": 31500.0,
+  "orders_today": 15,
+  "sells_today": 10,
   "sold_today": [
     "YETI",
     "MSFT",
@@ -6296,7 +6362,7 @@
     "META": 1791994257,
     "SNOW": 1791991237,
     "CVX": 1791993409,
-    "MSFT": 1792157916,
+    "MSFT": 1792161146,
     "PG": 1791993960,
     "NEOG": 1791899653,
     "TSM": 1792085469,
@@ -6312,18 +6378,9 @@
     "YETI": 1792157786,
     "CRBG": 1792159454
   },
-  "last_publish_ts": 1792160809,
-  "last_check_ts": 1792161064,
+  "last_publish_ts": 1792161148,
+  "last_check_ts": 1792161148,
   "exp_arm": {
-    "MSFT": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "YETI": {
       "params": {
         "hold_minutes": 90,
@@ -6350,24 +6407,45 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "GTES": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "RARE": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1792161000,
-  "last_decision_ts": 1792160970,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792161148,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "1f9fc6ab": 42.5273,
-    "1118b1cb": 538.4696,
     "5b21b89e": 254.468,
-    "83b6ebce": 534.1984,
+    "c023fb44": 26.7426,
     "8c4bad88": 251.9888,
+    "e3ead268": 14.9207,
     "b20cd7b2": 42.0466,
-    "8797f5de": 9.6426,
+    "9e4cd9c4": 26.3837,
+    "5cbcf173": 14.638,
     "363f6be6": 9.3536,
+    "8797f5de": 9.6426,
     "600467a1": 9.2732,
-    "686b5c1f": 521.1325,
     "cd3d4569": 246.1472,
+    "ed400039": 25.8408,
+    "507192de": 14.3948,
     "cd2fac49": 41.1183
   }
 }

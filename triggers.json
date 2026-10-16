@@ -1,120 +1,6 @@
 {
  "orders": [
   {
-   "id": "e96040f7",
-   "ticker": "ACN",
-   "kind": "stop_loss",
-   "price": 212.6352,
-   "status": "cancelled",
-   "created": "2026-10-12 13:30",
-   "created_ts": 1791826256,
-   "why": "close it all at -1.3% under the average cost",
-   "evidence": "average cost $215.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 15:01",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "a35fb982",
-   "ticker": "ACN",
-   "kind": "buy_limit",
-   "price": 208.9283,
-   "status": "cancelled",
-   "created": "2026-10-12 13:30",
-   "created_ts": 1791826256,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $215.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "usd": 500.0,
-   "closed": "2026-10-12 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "b6d94217",
-   "ticker": "SNOW",
-   "kind": "take_profit",
-   "price": 360.1248,
-   "status": "cancelled",
-   "created": "2026-10-12 13:33",
-   "created_ts": 1791826433,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $358.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 15:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "32ad1cab",
-   "ticker": "SNOW",
-   "kind": "stop_loss",
-   "price": 354.9245,
-   "status": "cancelled",
-   "created": "2026-10-12 13:33",
-   "created_ts": 1791826433,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $358.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 15:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "6f886b4d",
-   "ticker": "SNOW",
-   "kind": "buy_limit",
-   "price": 347.8808,
-   "status": "cancelled",
-   "created": "2026-10-12 13:33",
-   "created_ts": 1791826433,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $358.64",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "usd": 500.0,
-   "closed": "2026-10-12 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "2f5fbebe",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 749.7082,
-   "status": "cancelled",
-   "created": "2026-10-12 13:36",
-   "created_ts": 1791826612,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $747.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-17",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-12 13:41",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "06192e29",
    "ticker": "META",
    "kind": "stop_loss",
@@ -7277,7 +7163,7 @@
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 538.4696,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-16 10:24",
    "created_ts": 1792160640,
    "why": "close 100% at +0.2% over the average cost",
@@ -7287,14 +7173,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 10:32",
+   "cancel_reason": "position closed"
   },
   {
    "id": "83b6ebce",
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 534.1984,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-16 10:24",
    "created_ts": 1792160640,
    "why": "close it all at -0.6% under the average cost",
@@ -7304,14 +7192,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 10:32"
   },
   {
    "id": "686b5c1f",
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 521.1325,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-16 10:24",
    "created_ts": 1792160640,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7321,7 +7210,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-16 10:32",
+   "cancel_reason": "position closed"
   },
   {
    "id": "1f9fc6ab",
@@ -7475,7 +7366,109 @@
    ],
    "good_until": "2026-10-21",
    "usd": 500.0
+  },
+  {
+   "id": "c023fb44",
+   "ticker": "GTES",
+   "kind": "take_profit",
+   "price": 26.7426,
+   "status": "working",
+   "created": "2026-10-16 10:32",
+   "created_ts": 1792161148,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $26.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9e4cd9c4",
+   "ticker": "GTES",
+   "kind": "stop_loss",
+   "price": 26.3837,
+   "status": "working",
+   "created": "2026-10-16 10:32",
+   "created_ts": 1792161148,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $26.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ed400039",
+   "ticker": "GTES",
+   "kind": "buy_limit",
+   "price": 25.8408,
+   "status": "working",
+   "created": "2026-10-16 10:32",
+   "created_ts": 1792161148,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $26.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "usd": 500.0
+  },
+  {
+   "id": "e3ead268",
+   "ticker": "RARE",
+   "kind": "take_profit",
+   "price": 14.9207,
+   "status": "working",
+   "created": "2026-10-16 10:32",
+   "created_ts": 1792161148,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $14.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5cbcf173",
+   "ticker": "RARE",
+   "kind": "stop_loss",
+   "price": 14.638,
+   "status": "working",
+   "created": "2026-10-16 10:32",
+   "created_ts": 1792161148,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $14.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "507192de",
+   "ticker": "RARE",
+   "kind": "buy_limit",
+   "price": 14.3948,
+   "status": "working",
+   "created": "2026-10-16 10:32",
+   "created_ts": 1792161148,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $14.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-21",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-16 10:29"
+ "updated": "2026-10-16 10:32"
 }
