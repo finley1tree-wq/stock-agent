@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 3124.15,
+  "spent": 2390.33,
   "deployed": 212550.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -16,7 +16,7 @@
     "ACN": 2.09,
     "BHE": 16.9,
     "AEIS": 21.39,
-    "IBRX": 828.67,
+    "IBRX": 94.85,
     "RARE": 795.37,
     "MSFT": 772.52,
     "WSM": 750.0,
@@ -6529,13 +6529,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "IBRX",
+      "side": "sell",
+      "qty": 78.492903,
+      "status": "filled",
+      "price": 9.35,
+      "proceeds": 733.82,
+      "realized_pnl": -16.18,
+      "realized_pct": -2.16,
+      "date": "2026-10-16",
+      "time_et": "11:22",
+      "ts": 1792164000,
+      "why": "close it all at -2.2% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $9.56",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 3015.13,
+  "spent_today": 2281.31,
   "deployed_today": 34500.0,
   "orders_today": 19,
-  "sells_today": 15,
+  "sells_today": 16,
   "sold_today": [
     "YETI",
     "MSFT",
@@ -6560,7 +6581,7 @@
     "NEOG": 1791899653,
     "TSM": 1792085469,
     "AVGO": 1791991810,
-    "IBRX": 1792158003,
+    "IBRX": 1792164141,
     "AEIS": 1791999598,
     "BHE": 1791999480,
     "WSM": 1792158049,
@@ -6571,8 +6592,8 @@
     "YETI": 1792161236,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792163924,
-  "last_check_ts": 1792164102,
+  "last_publish_ts": 1792164140,
+  "last_check_ts": 1792164186,
   "exp_arm": {
     "IBRX": {
       "params": {
@@ -6617,14 +6638,11 @@
   "autopiloted": true,
   "book_px": {
     "5b21b89e": 254.468,
-    "f6a00847": 533.5055,
     "2f3bceeb": 529.141,
-    "363f6be6": 9.3536,
+    "f6a00847": 533.5055,
+    "5cbcf173": 14.638,
     "8c4bad88": 251.9888,
     "e3ead268": 14.9207,
-    "5cbcf173": 14.638,
-    "600467a1": 9.2732,
-    "8797f5de": 9.6426,
     "507192de": 14.3948,
     "ccba0f94": 516.2922,
     "cd3d4569": 246.1472
