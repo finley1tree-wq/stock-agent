@@ -7149,7 +7149,7 @@
    "ticker": "IBRX",
    "kind": "take_profit",
    "price": 10.029,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-16 09:32",
    "created_ts": 1792157554,
    "why": "close 100% at +0.8% over the average cost",
@@ -7159,7 +7159,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "37f96b47",
@@ -7185,7 +7187,7 @@
    "ticker": "IBRX",
    "kind": "buy_limit",
    "price": 9.6515,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-16 09:32",
    "created_ts": 1792157554,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7195,7 +7197,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-16 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7b2e3acc",
@@ -7416,7 +7420,7 @@
    "ticker": "WSM",
    "kind": "take_profit",
    "price": 253.8938,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-16 09:37",
    "created_ts": 1792157871,
    "why": "close 100% at +0.3% over the average cost",
@@ -7426,14 +7430,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 09:40"
   },
   {
    "id": "f718e0cc",
    "ticker": "WSM",
    "kind": "stop_loss",
    "price": 251.463,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-16 09:37",
    "created_ts": 1792157871,
    "why": "close it all at -0.7% under the average cost",
@@ -7443,14 +7448,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "2820188d",
    "ticker": "WSM",
    "kind": "buy_limit",
    "price": 245.604,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-16 09:37",
    "created_ts": 1792157871,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7460,14 +7467,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-16 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "fe063d26",
    "ticker": "IBRX",
    "kind": "stop_loss",
    "price": 9.986,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-16 09:39",
    "created_ts": 1792157961,
    "why": "close it all at -2.0% under the average cost",
@@ -7477,8 +7486,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 09:40"
   }
  ],
- "updated": "2026-10-16 09:39"
+ "updated": "2026-10-16 09:40"
 }

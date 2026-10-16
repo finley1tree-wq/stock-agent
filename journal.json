@@ -66362,7 +66362,9 @@
     "code_version": "02a8eda",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.25
+    "ret_now": -0.6,
+    "ret_final": -0.6,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBRX",
@@ -66393,7 +66395,9 @@
     "code_version": "02a8eda",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": -0.05,
+    "ret_final": -0.05,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -66424,7 +66428,9 @@
     "code_version": "02a8eda",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.32,
+    "ret_final": 0.32,
+    "ret_src": "realised"
   },
   {
     "symbol": "RARE",
@@ -66455,7 +66461,7 @@
     "code_version": "02a8eda",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.27
+    "ret_now": -0.07
   },
   {
     "symbol": "YETI",
@@ -66545,7 +66551,8 @@
     "hour_et": 9,
     "code_version": "fd5f86e",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.0
   },
   {
     "symbol": "WSM",
@@ -66575,7 +66582,10 @@
     "hour_et": 9,
     "code_version": "fd5f86e",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.41,
+    "ret_now": 0.41,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -66601,7 +66611,8 @@
     "evidence": "average cost $541.06",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "a0a8077"
+    "code_version": "a0a8077",
+    "hold_minutes": 2
   },
   {
     "symbol": "ADI",
@@ -66627,6 +66638,61 @@
     "evidence": "average cost $398.63",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "a0a8077"
+    "code_version": "a0a8077",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "IBRX",
+    "side": "sell",
+    "qty": 301.659125,
+    "status": "filled",
+    "price": 9.94,
+    "proceeds": 2998.49,
+    "realized_pnl": -1.51,
+    "realized_pct": -0.05,
+    "date": "2026-10-16",
+    "time_et": "09:40",
+    "ts": 1792158000,
+    "why": "close it all at -2.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $9.95",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "8783843",
+    "hold_minutes": 7
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 11.848283,
+    "status": "filled",
+    "price": 254.24,
+    "proceeds": 3012.28,
+    "realized_pnl": 12.28,
+    "realized_pct": 0.41,
+    "date": "2026-10-16",
+    "time_et": "09:40",
+    "ts": 1792158000,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $253.2",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "8783843",
+    "hold_minutes": 2
   }
 ]

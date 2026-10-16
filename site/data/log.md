@@ -1,9 +1,3 @@
-  (CRT excluded: too thinly traded ($0.3M a day) — Cross Timbers Royalty Trust)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg4XxxSd5BJPeV1iFZKer'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25264.52 (+1.06% on $25000.00 in) · cash $25264.52 · realised +264.52
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +392,9 @@ Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $6840.32 this week
   (cancelled 2 standing order(s) on ADI: position closed)
 - SELL 100% ADI [take_profit @ $399.89] -> $3009.51 (+0.32%) — close 100% at +0.3% over the average cost
 ## 2026-10-16 09:38 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBRX: position closed)
+- SELL 100% IBRX [stop_loss @ $9.94] -> $2998.49 (-0.05%) — close it all at -2.0% under the average cost
+## 2026-10-16 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $254.24] -> $3012.28 (+0.41%) — close 100% at +0.3% over the average cost
+## 2026-10-16 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 12168.06,
+  "spent": 6157.29,
   "deployed": 199050.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -17,8 +17,7 @@
     "BHE": 16.9,
     "AEIS": 21.39,
     "GTES": 3017.06,
-    "IBRX": 3077.16,
-    "WSM": 3005.71,
+    "IBRX": 78.67,
     "RARE": 3002.57,
     "MSFT": 17.89
   },
@@ -6011,17 +6010,61 @@
       ],
       "evidence": "average cost $398.63",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "IBRX",
+      "side": "sell",
+      "qty": 301.659125,
+      "status": "filled",
+      "price": 9.94,
+      "proceeds": 2998.49,
+      "realized_pnl": -1.51,
+      "realized_pct": -0.05,
+      "date": "2026-10-16",
+      "time_et": "09:40",
+      "ts": 1792158000,
+      "why": "close it all at -2.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $9.95",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 11.848283,
+      "status": "filled",
+      "price": 254.24,
+      "proceeds": 3012.28,
+      "realized_pnl": 12.28,
+      "realized_pct": 0.41,
+      "date": "2026-10-16",
+      "time_et": "09:40",
+      "ts": 1792158000,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $253.2",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 11997.58,
+  "spent_today": 5986.81,
   "deployed_today": 21000.0,
   "orders_today": 7,
-  "sells_today": 3,
+  "sells_today": 5,
   "sold_today": [
     "YETI",
     "MSFT",
-    "ADI"
+    "ADI",
+    "IBRX",
+    "WSM"
   ],
   "sold_ts": {
     "ACN": 1791992108,
@@ -6036,18 +6079,18 @@
     "NEOG": 1791899653,
     "TSM": 1792085469,
     "AVGO": 1791991810,
-    "IBRX": 1792085675,
+    "IBRX": 1792158003,
     "AEIS": 1791999598,
     "BHE": 1791999480,
-    "WSM": 1792084457,
+    "WSM": 1792158049,
     "RARE": 1792088364,
     "GTES": 1792085675,
     "ADI": 1792157916,
     "NXPI": 1792084182,
     "YETI": 1792157786
   },
-  "last_publish_ts": 1792157961,
-  "last_check_ts": 1792157961,
+  "last_publish_ts": 1792158048,
+  "last_check_ts": 1792158051,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -6104,22 +6147,16 @@
       }
     }
   },
-  "last_bar_ts": 1792157700,
-  "last_decision_ts": 1792157871,
-  "next_check_minutes": 6,
+  "last_bar_ts": 1792158000,
+  "last_decision_ts": 1792158051,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "9b5e8769": 10.029,
-    "034a72b4": 15.039,
-    "fe063d26": 9.986,
-    "cfc50a2a": 253.8938,
     "5241d55f": 26.1598,
-    "f718e0cc": 251.463,
+    "034a72b4": 15.039,
     "7c2a6d48": 25.8109,
     "3b67c50a": 14.7627,
-    "d3fd4f69": 25.2782,
-    "2820188d": 245.604,
     "59ab0ff3": 14.5112,
-    "5012edbd": 9.6515
+    "d3fd4f69": 25.2782
   }
 }
