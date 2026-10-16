@@ -1,9 +1,28 @@
 {
-  "cash": 25325.977541239638,
+  "cash": 23825.977541239638,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W42",
-  "positions": {},
+  "positions": {
+    "MSFT": {
+      "qty": 1.3960048218229906,
+      "avg_cost": 537.247428,
+      "opened": "2026-10-16",
+      "last_buy": "2026-10-16",
+      "tranches": 1,
+      "last_buy_ts": 1792160647,
+      "opened_ts": 1792160647
+    },
+    "YETI": {
+      "qty": 17.694126031437794,
+      "avg_cost": 42.386948,
+      "opened": "2026-10-16",
+      "last_buy": "2026-10-16",
+      "tranches": 1,
+      "last_buy_ts": 1792160647,
+      "opened_ts": 1792160647
+    }
+  },
   "fills": [
     {
       "symbol": "AMAT",
@@ -26645,6 +26664,26 @@
       "realized_pct": 0.28,
       "type": "sell",
       "date": "2026-10-16 10:04"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.396005,
+      "price": 537.25,
+      "type": "buy",
+      "date": "2026-10-16 10:24"
+    },
+    {
+      "symbol": "YETI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 17.694126,
+      "price": 42.39,
+      "type": "buy",
+      "date": "2026-10-16 10:24"
     }
   ],
   "realized_pnl": 325.9775412396598
