@@ -34413,3 +34413,18 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25241.32 (+0.97% on $25000.00 in) · cash $25241.32 · realised +241.32
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-16 15:52 ET (Friday) — week 2026-W42 — budget left $24806.34 (today $44250.00 put to work, 32 buys, 32 sells) — SIM (pretend money) via sim
+  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
+  (FLSC excluded: too thinly traded ($6.9M a day) — Frazier Life Sciences Acquisition Corp. II Class A Ordinary )
+  (GABC excluded: too thinly traded ($7.2M a day) — German American Bancorp, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6VwGQ5vqfZXKqNx5xi5'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25241.32 (+0.97% on $25000.00 in) · cash $25241.32 · realised +241.32
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
