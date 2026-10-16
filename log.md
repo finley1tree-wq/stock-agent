@@ -33895,3 +33895,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25243.50 (+0.97% on $25000.00 in) · cash $22998.23 · realised +248.23
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on YETI: position closed)
+- SELL 100% YETI [take_profit @ $42.60] -> $752.48 (+0.33%) — close 100% at +0.3% over the average cost
+## 2026-10-16 14:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 2436.76,
+  "spent": 1684.28,
   "deployed": 222300.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -22,7 +22,7 @@
     "WSM": 11.45,
     "GTES": 767.44,
     "ADI": 10.46,
-    "YETI": 754.28,
+    "YETI": 1.8,
     "NXPI": 7.52
   },
   "deployed_by_ticker": {
@@ -7109,13 +7109,34 @@
       ],
       "evidence": "average cost $233.1",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "YETI",
+      "side": "sell",
+      "qty": 17.664942,
+      "status": "filled",
+      "price": 42.6,
+      "proceeds": 752.48,
+      "realized_pnl": 2.48,
+      "realized_pct": 0.33,
+      "date": "2026-10-16",
+      "time_et": "14:14",
+      "ts": 1792174200,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $42.46",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 2327.74,
+  "spent_today": 1575.26,
   "deployed_today": 44250.0,
   "orders_today": 32,
-  "sells_today": 29,
+  "sells_today": 30,
   "sold_today": [
     "YETI",
     "MSFT",
@@ -7148,11 +7169,11 @@
     "GTES": 1792170283,
     "ADI": 1792172298,
     "NXPI": 1792173747,
-    "YETI": 1792169666,
+    "YETI": 1792174447,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792173747,
-  "last_check_ts": 1792174354,
+  "last_publish_ts": 1792174446,
+  "last_check_ts": 1792174446,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -7196,11 +7217,9 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "212f6711": 42.5971,
-    "0557de20": 524.5932,
     "55631093": 25.6371,
     "12a6c770": 529.1538,
-    "056a3f7d": 42.1169,
+    "0557de20": 524.5932,
     "9a14f2a7": 26.0052
   }
 }

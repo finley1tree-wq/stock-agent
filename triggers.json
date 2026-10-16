@@ -7331,7 +7331,7 @@
    "ticker": "YETI",
    "kind": "take_profit",
    "price": 42.5971,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-16 13:40",
    "created_ts": 1792172423,
    "why": "close 100% at +0.3% over the average cost",
@@ -7341,14 +7341,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 14:14"
   },
   {
    "id": "056a3f7d",
    "ticker": "YETI",
    "kind": "stop_loss",
    "price": 42.1169,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-16 13:40",
    "created_ts": 1792172423,
    "why": "close it all at -0.8% under the average cost",
@@ -7358,7 +7359,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 14:14",
+   "cancel_reason": "position closed"
   },
   {
    "id": "8027db81",
@@ -7486,5 +7489,5 @@
    "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   }
  ],
- "updated": "2026-10-16 14:12"
+ "updated": "2026-10-16 14:14"
 }
