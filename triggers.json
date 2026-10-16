@@ -7353,7 +7353,7 @@
    "ticker": "CRBG",
    "kind": "take_profit",
    "price": 35.0417,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-16 11:03",
    "created_ts": 1792163039,
    "why": "close 100% at +0.3% over the average cost",
@@ -7363,7 +7363,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 11:11",
+   "cancel_reason": "another standing order on the same ticker filled first"
   },
   {
    "id": "d4177077",
@@ -7389,7 +7391,7 @@
    "ticker": "CRBG",
    "kind": "buy_limit",
    "price": 33.8918,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-16 11:03",
    "created_ts": 1792163039,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7399,14 +7401,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-16 11:11",
+   "cancel_reason": "position closed"
   },
   {
    "id": "11d3b3f5",
    "ticker": "CRBG",
    "kind": "stop_loss",
    "price": 34.982,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-16 11:06",
    "created_ts": 1792163213,
    "why": "close it all at -0.7% under the average cost",
@@ -7416,7 +7420,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-21",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-16 11:11"
   },
   {
    "id": "a0abf79a",
@@ -7470,5 +7475,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-16 11:09"
+ "updated": "2026-10-16 11:11"
 }
