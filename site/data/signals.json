@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-16T11:25-04:00",
+ "asOf": "2026-10-16T11:50-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,51 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "5b21b89e",
-   "ticker": "WSM",
-   "kind": "take_profit",
-   "price": 254.468,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 254.09,
-   "pct_away": 0.15,
-   "good_until": "2026-10-21",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3d235d09",
+   "id": "f970c143",
    "ticker": "YETI",
-   "kind": "take_profit",
-   "price": 42.8772,
+   "kind": "stop_loss",
+   "price": 42.3968,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 42.78,
-   "pct_away": 0.23,
+   "last": 42.49,
+   "pct_away": -0.22,
    "good_until": "2026-10-21",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f6a00847",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 533.5055,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 531.36,
-   "pct_away": 0.4,
-   "good_until": "2026-10-21",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 531.36,
-   "pct_away": -0.42,
+   "last": 530.61,
+   "pct_away": -0.28,
    "good_until": "2026-10-21",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -246,51 +212,34 @@
    ]
   },
   {
-   "id": "8c4bad88",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 251.9888,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 254.09,
-   "pct_away": -0.83,
-   "good_until": "2026-10-21",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f970c143",
-   "ticker": "YETI",
-   "kind": "stop_loss",
-   "price": 42.3968,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 42.78,
-   "pct_away": -0.9,
-   "good_until": "2026-10-21",
-   "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ccba0f94",
+   "id": "f6a00847",
    "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 516.2922,
-   "usd": 500.0,
-   "pct_of_position": null,
+   "kind": "take_profit",
+   "price": 533.5055,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 531.36,
-   "pct_away": -2.84,
+   "last": 530.61,
+   "pct_away": 0.55,
    "good_until": "2026-10-21",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3d235d09",
+   "ticker": "YETI",
+   "kind": "take_profit",
+   "price": 42.8772,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 42.49,
+   "pct_away": 0.91,
+   "good_until": "2026-10-21",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -304,8 +253,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 42.78,
-   "pct_away": -3.09,
+   "last": 42.49,
+   "pct_away": -2.43,
    "good_until": "2026-10-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -314,15 +263,15 @@
    ]
   },
   {
-   "id": "cd3d4569",
-   "ticker": "WSM",
+   "id": "ccba0f94",
+   "ticker": "MSFT",
    "kind": "buy_limit",
-   "price": 246.1472,
+   "price": 516.2922,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 254.09,
-   "pct_away": -3.13,
+   "last": 530.61,
+   "pct_away": -2.7,
    "good_until": "2026-10-21",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

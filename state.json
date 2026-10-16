@@ -1,6 +1,6 @@
 {
   "week": "2026-W42",
-  "spent": 2400.71,
+  "spent": 1656.44,
   "deployed": 213300.0,
   "by_ticker": {
     "TSM": 27.82,
@@ -19,7 +19,7 @@
     "IBRX": 94.85,
     "RARE": 55.75,
     "MSFT": 772.52,
-    "WSM": 750.0,
+    "WSM": 5.73,
     "GTES": 9.85,
     "ADI": 6.42,
     "YETI": 750.0
@@ -6594,13 +6594,34 @@
       ],
       "evidence": "average cost $14.84",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 2.955531,
+      "status": "filled",
+      "price": 251.82,
+      "proceeds": 744.27,
+      "realized_pnl": -5.73,
+      "realized_pct": -0.76,
+      "date": "2026-10-16",
+      "time_et": "11:50",
+      "ts": 1792165800,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $253.76",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-16",
-  "spent_today": 2291.69,
+  "spent_today": 1547.42,
   "deployed_today": 35250.0,
   "orders_today": 20,
-  "sells_today": 17,
+  "sells_today": 18,
   "sold_today": [
     "YETI",
     "MSFT",
@@ -6628,7 +6649,7 @@
     "IBRX": 1792164141,
     "AEIS": 1791999598,
     "BHE": 1791999480,
-    "WSM": 1792158049,
+    "WSM": 1792165853,
     "RARE": 1792164316,
     "GTES": 1792163214,
     "ADI": 1792163350,
@@ -6636,8 +6657,8 @@
     "YETI": 1792161236,
     "CRBG": 1792163489
   },
-  "last_publish_ts": 1792164315,
-  "last_check_ts": 1792165814,
+  "last_publish_ts": 1792165853,
+  "last_check_ts": 1792165901,
   "exp_arm": {
     "WSM": {
       "params": {
@@ -6677,18 +6698,15 @@
     }
   },
   "last_bar_ts": 1792165800,
-  "last_decision_ts": 1792165724,
+  "last_decision_ts": 1792165901,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "5b21b89e": 254.468,
-    "3d235d09": 42.8772,
-    "f6a00847": 533.5055,
-    "2f3bceeb": 529.141,
-    "8c4bad88": 251.9888,
     "f970c143": 42.3968,
-    "ccba0f94": 516.2922,
+    "2f3bceeb": 529.141,
+    "f6a00847": 533.5055,
+    "3d235d09": 42.8772,
     "05a8b320": 41.4578,
-    "cd3d4569": 246.1472
+    "ccba0f94": 516.2922
   }
 }
