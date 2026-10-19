@@ -68918,7 +68918,7 @@
     "code_version": "9e94e98",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": 0.28
   },
   {
     "symbol": "MSFT",
@@ -69150,7 +69150,7 @@
     "code_version": "03af90d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": -0.01
   },
   {
     "symbol": "MSFT",
@@ -69181,7 +69181,9 @@
     "code_version": "03af90d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.22
+    "ret_now": 0.24,
+    "ret_final": 0.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "GTES",
@@ -69212,7 +69214,7 @@
     "code_version": "03af90d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.08
+    "ret_now": 0.04
   },
   {
     "symbol": "IBRX",
@@ -69243,6 +69245,92 @@
     "code_version": "8ec557e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.23
+    "ret_now": 1.15,
+    "ret_final": 1.15,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": 1.404713,
+    "status": "filled",
+    "price": 535.19,
+    "proceeds": 751.79,
+    "realized_pnl": 1.79,
+    "realized_pct": 0.24,
+    "date": "2026-10-19",
+    "time_et": "11:44",
+    "ts": 1792423800,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $533.92",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "4d462aa",
+    "hold_minutes": 8
+  },
+  {
+    "symbol": "IBRX",
+    "side": "sell",
+    "qty": 87.66801,
+    "status": "filled",
+    "price": 8.65,
+    "proceeds": 758.65,
+    "realized_pnl": 8.65,
+    "realized_pct": 1.15,
+    "date": "2026-10-19",
+    "time_et": "11:44",
+    "ts": 1792424100,
+    "why": "close 100% at +1.1% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $8.56",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "4d462aa",
+    "hold_minutes": 6
+  },
+  {
+    "symbol": "NXPI",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.204394,
+    "price": 234.05,
+    "date": "2026-10-19",
+    "time_et": "11:45",
+    "ts": 1792424712,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +2.6% over the month; 79% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 233.96,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 2.62,
+    "hour_et": 11,
+    "code_version": "4d462aa",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

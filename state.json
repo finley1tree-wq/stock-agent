@@ -1,19 +1,18 @@
 {
   "week": "2026-W43",
-  "spent": 3783.13,
-  "deployed": 30000.0,
+  "spent": 3022.69,
+  "deployed": 30750.0,
   "by_ticker": {
     "RPM": 20.64,
     "GTES": 796.12,
     "ADI": 756.83,
-    "NXPI": 0.43,
-    "IBRX": 770.11,
-    "MSFT": 750.87,
+    "NXPI": 750.43,
+    "IBRX": 11.46,
     "WSM": 750.0
   },
   "deployed_by_ticker": {
     "WSM": 3750.0,
-    "NXPI": 3750.0,
+    "NXPI": 4500.0,
     "ADI": 4500.0,
     "RPM": 3750.0,
     "GTES": 4500.0,
@@ -733,13 +732,77 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 1.404713,
+      "status": "filled",
+      "price": 535.19,
+      "proceeds": 751.79,
+      "realized_pnl": 1.79,
+      "realized_pct": 0.24,
+      "date": "2026-10-19",
+      "time_et": "11:44",
+      "ts": 1792423800,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $533.92",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "IBRX",
+      "side": "sell",
+      "qty": 87.66801,
+      "status": "filled",
+      "price": 8.65,
+      "proceeds": 758.65,
+      "realized_pnl": 8.65,
+      "realized_pct": 1.15,
+      "date": "2026-10-19",
+      "time_et": "11:44",
+      "ts": 1792424100,
+      "why": "close 100% at +1.1% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $8.56",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.204394,
+      "price": 234.05,
+      "date": "2026-10-19",
+      "time_et": "11:45",
+      "ts": 1792424712,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +2.6% over the month; 79% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-19",
-  "spent_today": 3783.13,
-  "deployed_today": 30000.0,
-  "orders_today": 19,
-  "sells_today": 14,
+  "spent_today": 3022.69,
+  "deployed_today": 30750.0,
+  "orders_today": 20,
+  "sells_today": 16,
   "sold_today": [
     "NXPI",
     "ADI",
@@ -753,15 +816,15 @@
   "sold_ts": {
     "NXPI": 1792421424,
     "ADI": 1792420462,
-    "MSFT": 1792420546,
-    "IBRX": 1792421004,
+    "MSFT": 1792424665,
+    "IBRX": 1792424665,
     "GTES": 1792420424,
     "WSM": 1792417594,
     "RPM": 1792422231,
     "FUL": 1792421241
   },
-  "last_publish_ts": 1792423726,
-  "last_check_ts": 1792423902,
+  "last_publish_ts": 1792424712,
+  "last_check_ts": 1792424712,
   "exp_arm": {
     "WSM": {
       "params": {
@@ -781,15 +844,6 @@
         "ratchet": "off"
       }
     },
-    "MSFT": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "GTES": {
       "params": {
         "hold_minutes": 90,
@@ -799,7 +853,7 @@
         "ratchet": "off"
       }
     },
-    "IBRX": {
+    "NXPI": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -809,25 +863,22 @@
       }
     }
   },
-  "last_bar_ts": 1792423800,
-  "last_decision_ts": 1792423902,
-  "next_check_minutes": null,
+  "last_bar_ts": 1792424700,
+  "last_decision_ts": 1792424712,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "c95d75a6": 535.1907,
-    "7585e1b0": 534.514,
     "50b63a26": 251.427,
+    "2e20b620": 251.064,
     "c5e3fb54": 396.3044,
+    "1babce80": 234.9511,
     "9d3506b4": 26.2742,
-    "65d96546": 248.9174,
     "60cfe5b5": 391.4902,
     "42c92c24": 25.9093,
-    "e8dec756": 8.6537,
-    "5daefa13": 8.3257,
-    "b4cca97f": 8.3032,
+    "49ecb893": 231.7961,
     "75a661dd": 25.3849,
+    "8dcb4afa": 227.0285,
     "e52714e6": 383.0821,
-    "1efbd40c": 243.1887,
-    "3814f2d8": 517.9024
+    "1efbd40c": 243.1887
   }
 }

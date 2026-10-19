@@ -35154,3 +35154,25 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25209.76 (+0.84% on $25000.00 in) · cash $21458.22 · realised +208.22
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $535.19] -> $751.79 (+0.24%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on IBRX: position closed)
+- SELL 100% IBRX [take_profit @ $8.65] -> $758.65 (+1.15%) — close 100% at +1.1% over the average cost
+## 2026-10-19 11:44 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-19 11:45 ET (Monday) — week 2026-W43 — budget left $22727.31 (today $30000.00 put to work, 19 buys, 16 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBrXeWuYqbjfaU2ZjdYG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,727 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +2.6% over the month; 79% of today's range
+~ WORKING take_profit 100% NXPI @ $234.95 until 2026-10-24 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $231.80 until 2026-10-24 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $227.03 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25219.43 (+0.88% on $25000.00 in) · cash $22218.66 · realised +218.66
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21977.31 this week
