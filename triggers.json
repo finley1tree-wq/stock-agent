@@ -7246,7 +7246,7 @@
    "ticker": "GTES",
    "kind": "take_profit",
    "price": 26.2234,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-19 09:32",
    "created_ts": 1792416761,
    "why": "close 100% at +0.4% over the average cost",
@@ -7256,14 +7256,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-19 09:38",
+   "cancel_reason": "another standing order on the same ticker filled first"
   },
   {
    "id": "8bed7a1c",
    "ticker": "GTES",
    "kind": "stop_loss",
    "price": 25.8614,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-19 09:32",
    "created_ts": 1792416761,
    "why": "close it all at -1.0% under the average cost",
@@ -7273,14 +7275,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-19 09:38"
   },
   {
    "id": "206d8592",
    "ticker": "GTES",
    "kind": "buy_limit",
    "price": 25.3364,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-19 09:32",
    "created_ts": 1792416761,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7290,7 +7293,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-19 09:38",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3af2d392",
@@ -7480,5 +7485,5 @@
    "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-19 09:37"
+ "updated": "2026-10-19 09:38"
 }

@@ -1,21 +1,3 @@
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (FLSC excluded: too thinly traded ($6.9M a day) — Frazier Life Sciences Acquisition Corp. II Class A Ordinary )
-  (GABC excluded: too thinly traded ($7.2M a day) — German American Bancorp, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6RnAgLFYqqpWEWxVNNF'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25245.18 (+0.98% on $25000.00 in) · cash $23750.71 · realised +250.71
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-16 15:00 ET (Friday) — week 2026-W42 — budget left $23315.72 (today $44250.00 put to work, 32 buys, 30 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
   (FLSC excluded: too thinly traded ($6.9M a day) — Frazier Life Sciences Acquisition Corp. II Class A Ordinary )
   (GABC excluded: too thinly traded ($7.2M a day) — German American Bancorp, Inc.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
@@ -398,3 +380,21 @@ Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $4000.00 this week
   (cancelled 2 standing order(s) on IBRX: position closed)
 - SELL 100% IBRX [take_profit @ $9.56] -> $3029.06 (+0.97%) — close 100% at +0.9% over the average cost
 ## 2026-10-19 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-19 09:37 ET (Monday) — week 2026-W43 — budget left $16051.28 (today $21000.00 put to work, 7 buys, 4 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBgp3PMTo8N9DGakwExZ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25283.74 (+1.13% on $25000.00 in) · cash $16292.61 · realised +292.61
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (trigger GTES take_profit superseded at this check)
+  (cancelled 1 standing order(s) on GTES: position closed)
+- SELL 100% GTES [stop_loss @ $25.78] -> $2961.63 (-1.28%) — close it all at -1.0% under the average cost
+## 2026-10-19 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
