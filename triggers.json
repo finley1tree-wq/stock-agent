@@ -1,119 +1,6 @@
 {
  "orders": [
   {
-   "id": "e98b0632",
-   "ticker": "KO",
-   "kind": "stop_loss",
-   "price": 90.6144,
-   "status": "cancelled",
-   "created": "2026-10-14 09:32",
-   "created_ts": 1791984760,
-   "why": "close it all at -0.4% under the average cost",
-   "evidence": "average cost $90.95",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 09:34",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "60a89b63",
-   "ticker": "KO",
-   "kind": "buy_limit",
-   "price": 88.2215,
-   "status": "cancelled",
-   "created": "2026-10-14 09:32",
-   "created_ts": 1791984760,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $90.95",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "usd": 500.0,
-   "closed": "2026-10-14 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "9a23b09d",
-   "ticker": "AMGN",
-   "kind": "take_profit",
-   "price": 418.3541,
-   "status": "cancelled",
-   "created": "2026-10-14 09:32",
-   "created_ts": 1791984760,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $417.29",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 09:36",
-   "cancel_reason": "another standing order on the same ticker filled first"
-  },
-  {
-   "id": "e22bcad3",
-   "ticker": "AMGN",
-   "kind": "stop_loss",
-   "price": 414.6277,
-   "status": "cancelled",
-   "created": "2026-10-14 09:32",
-   "created_ts": 1791984760,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $417.29",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 09:33",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "1ba7797f",
-   "ticker": "AMGN",
-   "kind": "buy_limit",
-   "price": 404.7713,
-   "status": "cancelled",
-   "created": "2026-10-14 09:32",
-   "created_ts": 1791984760,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $417.29",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "usd": 500.0,
-   "closed": "2026-10-14 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "4cb40794",
-   "ticker": "PG",
-   "kind": "take_profit",
-   "price": 155.0825,
-   "status": "filled",
-   "created": "2026-10-14 09:32",
-   "created_ts": 1791984760,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $154.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 09:35"
-  },
-  {
    "id": "8b00f6b1",
    "ticker": "PG",
    "kind": "stop_loss",
@@ -7462,7 +7349,109 @@
    ],
    "good_until": "2026-10-24",
    "usd": 500.0
+  },
+  {
+   "id": "2def6675",
+   "ticker": "WSM",
+   "kind": "take_profit",
+   "price": 249.3184,
+   "status": "working",
+   "created": "2026-10-19 12:38",
+   "created_ts": 1792427891,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $248.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e882f75e",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 246.7703,
+   "status": "working",
+   "created": "2026-10-19 12:38",
+   "created_ts": 1792427891,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $248.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6813191c",
+   "ticker": "WSM",
+   "kind": "buy_limit",
+   "price": 241.1323,
+   "status": "working",
+   "created": "2026-10-19 12:38",
+   "created_ts": 1792427891,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $248.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "usd": 500.0
+  },
+  {
+   "id": "59a66e78",
+   "ticker": "NXPI",
+   "kind": "take_profit",
+   "price": 231.8507,
+   "status": "working",
+   "created": "2026-10-19 12:38",
+   "created_ts": 1792427891,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $230.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7faf02f6",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 228.6959,
+   "status": "working",
+   "created": "2026-10-19 12:38",
+   "created_ts": 1792427891,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $230.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6a280cd5",
+   "ticker": "NXPI",
+   "kind": "buy_limit",
+   "price": 224.0215,
+   "status": "working",
+   "created": "2026-10-19 12:38",
+   "created_ts": 1792427891,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $230.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-19 12:35"
+ "updated": "2026-10-19 12:38"
 }

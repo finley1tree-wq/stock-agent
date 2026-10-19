@@ -69423,7 +69423,7 @@
     "code_version": "fedf29b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05
+    "ret_now": -0.07
   },
   {
     "symbol": "FUL",
@@ -69454,7 +69454,7 @@
     "code_version": "fedf29b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.21
+    "ret_now": -0.27
   },
   {
     "symbol": "ADI",
@@ -69543,6 +69543,66 @@
     "code_version": "4c9e751",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": -0.03
+  },
+  {
+    "symbol": "WSM",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.017023,
+    "price": 248.59,
+    "date": "2026-10-19",
+    "time_et": "12:38",
+    "ts": 1792427891,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +10.8% over the month; 5% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 248.49,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 10.83,
+    "hour_et": 12,
+    "code_version": "4b568ed",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NXPI",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.247423,
+    "price": 230.95,
+    "date": "2026-10-19",
+    "time_et": "12:38",
+    "ts": 1792427891,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +1.3% over the month; 31% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 230.86,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 1.26,
+    "hour_et": 12,
+    "code_version": "4b568ed",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
