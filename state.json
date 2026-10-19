@@ -1,11 +1,11 @@
 {
   "week": "2026-W43",
-  "spent": 5293.36,
+  "spent": 4542.84,
   "deployed": 36000.0,
   "by_ticker": {
     "RPM": 770.64,
     "GTES": 53.35,
-    "ADI": 763.73,
+    "ADI": 13.21,
     "NXPI": 759.11,
     "IBRX": 761.46,
     "FUL": 750.0,
@@ -1035,13 +1035,34 @@
       ],
       "evidence": "bought 90 min ago, -0.86% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.907433,
+      "status": "filled",
+      "price": 393.47,
+      "proceeds": 750.52,
+      "realized_pnl": 0.52,
+      "realized_pct": 0.07,
+      "date": "2026-10-19",
+      "time_et": "13:07",
+      "ts": 1792429500,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $393.2",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-19",
-  "spent_today": 5293.36,
+  "spent_today": 4542.84,
   "deployed_today": 36000.0,
   "orders_today": 27,
-  "sells_today": 20,
+  "sells_today": 21,
   "sold_today": [
     "NXPI",
     "ADI",
@@ -1054,7 +1075,7 @@
   ],
   "sold_ts": {
     "NXPI": 1792425039,
-    "ADI": 1792425778,
+    "ADI": 1792429653,
     "MSFT": 1792424665,
     "IBRX": 1792424665,
     "GTES": 1792428674,
@@ -1062,8 +1083,8 @@
     "RPM": 1792422231,
     "FUL": 1792421241
   },
-  "last_publish_ts": 1792429499,
-  "last_check_ts": 1792429550,
+  "last_publish_ts": 1792429652,
+  "last_check_ts": 1792429652,
   "exp_arm": {
     "GTES": {
       "params": {
@@ -1143,26 +1164,23 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "2e00c827": 393.668,
-    "b6bee736": 394.5762,
-    "9235dfee": 51.422,
     "408fbfa9": 534.6595,
-    "4ffc4aac": 99.933,
+    "9235dfee": 51.422,
     "2def6675": 249.3184,
-    "59a66e78": 231.8507,
+    "4ffc4aac": 99.933,
     "bd1a10fb": 530.2163,
+    "59a66e78": 231.8507,
     "3b86e017": 98.9415,
-    "e882f75e": 246.7703,
     "06882578": 50.9257,
+    "e882f75e": 246.7703,
     "7faf02f6": 228.6959,
     "359b68b1": 8.7835,
     "e5bb00e9": 8.4562,
     "da1dc3ef": 8.4293,
     "6a280cd5": 224.0215,
-    "6813191c": 241.1323,
     "4edcb7d4": 96.6605,
-    "ab07f76f": 517.3883,
+    "6813191c": 241.1323,
     "d3a69cef": 49.7416,
-    "9febed5a": 381.404
+    "ab07f76f": 517.3883
   }
 }
