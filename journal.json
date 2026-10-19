@@ -69617,7 +69617,9 @@
     "code_version": "4b568ed",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.39
+    "ret_now": -0.49,
+    "ret_final": -0.49,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -69813,7 +69815,7 @@
     "code_version": "cf4ff22",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.23
+    "ret_now": 0.35
   },
   {
     "symbol": "MSFT",
@@ -69927,5 +69929,31 @@
     "hour_et": 14,
     "code_version": "8c5ad2f",
     "hold_minutes": 6
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 3.247423,
+    "status": "filled",
+    "price": 229.82,
+    "proceeds": 746.32,
+    "realized_pnl": -3.68,
+    "realized_pct": -0.49,
+    "date": "2026-10-19",
+    "time_et": "14:08",
+    "ts": 1792433289,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.45% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14,
+    "code_version": "4c27845",
+    "hold_minutes": 89
   }
 ]

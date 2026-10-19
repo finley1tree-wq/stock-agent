@@ -35882,3 +35882,21 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25175.99 (+0.70% on $25000.00 in) · cash $23678.22 · realised +178.22
 Decision: nothing at this check. 4 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% NXPI [time stop] -> $746.32 (-0.49%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-19 14:08 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-19 14:08 ET (Monday) — week 2026-W43 — budget left $24183.18 (today $37500.00 put to work, 29 buys, 28 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+  (MAGN excluded: too thinly traded ($4.6M a day) — Magnera Corporation)
+  (no price for LNBIX — excluded this check)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgC3SKgxvUx9LLn2g3gCW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25176.40 (+0.71% on $25000.00 in) · cash $24424.54 · realised +174.54
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
