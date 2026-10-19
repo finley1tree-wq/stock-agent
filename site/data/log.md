@@ -1,6 +1,3 @@
-  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
-  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBvoFZwEDYwLQMoHzMCe'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25193.56 (+0.77% on $25000.00 in) · cash $19955.22 · realised +205.22
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25174.09 (+0.70% on $25000.00 in) · cash $22925.58 · realised +175.58
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $22684.22 this week
   (cancelled 3 resting buy order(s): past the entry cutoff)
+  (cancelled 1 standing order(s) on ADI: position closed)
+- SELL 100% ADI [take_profit @ $392.88] -> $752.64 (+0.35%) — close 100% at +0.4% over the average cost
+## 2026-10-19 14:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders

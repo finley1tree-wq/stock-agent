@@ -69617,7 +69617,7 @@
     "code_version": "4b568ed",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.42
+    "ret_now": -0.28
   },
   {
     "symbol": "ADI",
@@ -69813,7 +69813,7 @@
     "code_version": "cf4ff22",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.31
   },
   {
     "symbol": "MSFT",
@@ -69871,7 +69871,9 @@
     "code_version": "703a438",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.27
+    "ret_now": 0.35,
+    "ret_final": 0.35,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBRX",
@@ -69898,5 +69900,32 @@
     "hour_et": 13,
     "code_version": "d968a27",
     "hold_minutes": 89
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 1.915717,
+    "status": "filled",
+    "price": 392.88,
+    "proceeds": 752.64,
+    "realized_pnl": 2.64,
+    "realized_pct": 0.35,
+    "date": "2026-10-19",
+    "time_et": "14:02",
+    "ts": 1792432800,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $391.5",
+    "trigger": "take_profit",
+    "hour_et": 14,
+    "code_version": "8c5ad2f",
+    "hold_minutes": 6
   }
 ]
