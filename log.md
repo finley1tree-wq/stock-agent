@@ -36220,3 +36220,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25176.40 (+0.71% on $25000.00 in) · cash $24424.54 · realised +174.54
 Decision: nothing at this check. 2 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% GTES [time stop] -> $750.81 (+0.11%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-19 15:08 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-19T14:38-04:00",
- "note": "tick: watching",
+ "asOf": "2026-10-19T15:08-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -176,42 +176,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "200257f8",
-   "ticker": "GTES",
-   "kind": "take_profit",
-   "price": 26.0242,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 25.95,
-   "pct_away": 0.29,
-   "good_until": "2026-10-24",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ba61f128",
-   "ticker": "GTES",
-   "kind": "stop_loss",
-   "price": 25.6595,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 25.95,
-   "pct_away": -1.12,
-   "good_until": "2026-10-24",
-   "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)",
  "congress_trades": [
