@@ -1,15 +1,17 @@
 {
   "week": "2026-W43",
-  "spent": 1.37,
-  "deployed": 21000.0,
+  "spent": 1501.37,
+  "deployed": 22500.0,
   "by_ticker": {
     "RPM": 22.79,
-    "GTES": 38.37
+    "GTES": 38.37,
+    "ADI": 750.0,
+    "NXPI": 750.0
   },
   "deployed_by_ticker": {
     "WSM": 3000.0,
-    "NXPI": 3000.0,
-    "ADI": 3000.0,
+    "NXPI": 3750.0,
+    "ADI": 3750.0,
     "RPM": 3000.0,
     "GTES": 3000.0,
     "IBRX": 3000.0,
@@ -316,12 +318,56 @@
       ],
       "evidence": "average cost $99.65",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ADI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.899316,
+      "price": 394.88,
+      "date": "2026-10-19",
+      "time_et": "10:21",
+      "ts": 1792419694,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +5.1% over the month; 11% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.239425,
+      "price": 231.52,
+      "date": "2026-10-19",
+      "time_et": "10:21",
+      "ts": 1792419694,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +1.5% over the month; 40% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-19",
-  "spent_today": 1.37,
-  "deployed_today": 21000.0,
-  "orders_today": 7,
+  "spent_today": 1501.37,
+  "deployed_today": 22500.0,
+  "orders_today": 9,
   "sells_today": 7,
   "sold_today": [
     "NXPI",
@@ -341,16 +387,16 @@
     "WSM": 1792417594,
     "RPM": 1792417993
   },
-  "last_publish_ts": 1792417992,
-  "last_check_ts": 1792419508,
+  "last_publish_ts": 1792419694,
+  "last_check_ts": 1792419694,
   "exp_arm": {
-    "WSM": {
+    "ADI": {
       "params": {
         "hold_minutes": 90,
-        "ratchet": "off"
+        "ratchet": "on"
       },
       "tags": {
-        "ratchet": "off"
+        "ratchet": "on"
       }
     },
     "NXPI": {
@@ -361,56 +407,18 @@
       "tags": {
         "ratchet": "on"
       }
-    },
-    "ADI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "RPM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "GTES": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "IBRX": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "MSFT": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
     }
   },
-  "last_bar_ts": 1792419300,
-  "last_decision_ts": 1792419508,
-  "next_check_minutes": null,
+  "last_bar_ts": 1792419600,
+  "last_decision_ts": 1792419694,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "17e7f1fe": 396.2384,
+    "0289b690": 232.4229,
+    "68a131e1": 391.4801,
+    "be87dd0c": 229.265,
+    "6dbba318": 224.5744,
+    "b773d6bc": 383.0336
+  }
 }
