@@ -1,10 +1,10 @@
 {
   "week": "2026-W43",
-  "spent": 6036.13,
+  "spent": 5293.36,
   "deployed": 36000.0,
   "by_ticker": {
     "RPM": 770.64,
-    "GTES": 796.12,
+    "GTES": 53.35,
     "ADI": 763.73,
     "NXPI": 759.11,
     "IBRX": 761.46,
@@ -1015,13 +1015,33 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "GTES",
+      "side": "sell",
+      "qty": 28.662997,
+      "status": "filled",
+      "price": 25.91,
+      "proceeds": 742.77,
+      "realized_pnl": -7.23,
+      "realized_pct": -0.96,
+      "date": "2026-10-19",
+      "time_et": "12:51",
+      "ts": 1792428673,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.86% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-19",
-  "spent_today": 6036.13,
+  "spent_today": 5293.36,
   "deployed_today": 36000.0,
   "orders_today": 27,
-  "sells_today": 19,
+  "sells_today": 20,
   "sold_today": [
     "NXPI",
     "ADI",
@@ -1037,13 +1057,13 @@
     "ADI": 1792425778,
     "MSFT": 1792424665,
     "IBRX": 1792424665,
-    "GTES": 1792420424,
+    "GTES": 1792428674,
     "WSM": 1792425039,
     "RPM": 1792422231,
     "FUL": 1792421241
   },
-  "last_publish_ts": 1792428626,
-  "last_check_ts": 1792428626,
+  "last_publish_ts": 1792428673,
+  "last_check_ts": 1792428719,
   "exp_arm": {
     "GTES": {
       "params": {
@@ -1123,7 +1143,6 @@
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "42c92c24": 25.9093,
     "9235dfee": 51.422,
     "408fbfa9": 534.6595,
     "2def6675": 249.3184,
@@ -1133,13 +1152,11 @@
     "bd1a10fb": 530.2163,
     "3b86e017": 98.9415,
     "e882f75e": 246.7703,
+    "8d54730e": 389.7595,
     "06882578": 50.9257,
     "7faf02f6": 228.6959,
-    "8d54730e": 389.7595,
-    "9d3506b4": 26.2742,
     "359b68b1": 8.7835,
     "e5bb00e9": 8.4562,
-    "75a661dd": 25.3849,
     "da1dc3ef": 8.4293,
     "6a280cd5": 224.0215,
     "9febed5a": 381.404,

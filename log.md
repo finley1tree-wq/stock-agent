@@ -35500,3 +35500,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $500.00 ADI @ $381.40 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25193.89 (+0.78% on $25000.00 in) · cash $19205.22 · realised +205.22
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $18963.87 this week
+- SELL 100% GTES [time stop] -> $742.77 (-0.96%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-19 12:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
