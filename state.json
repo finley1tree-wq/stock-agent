@@ -1,13 +1,13 @@
 {
   "week": "2026-W43",
-  "spent": 3033.13,
-  "deployed": 29250.0,
+  "spent": 3783.13,
+  "deployed": 30000.0,
   "by_ticker": {
     "RPM": 20.64,
     "GTES": 796.12,
     "ADI": 756.83,
     "NXPI": 0.43,
-    "IBRX": 20.11,
+    "IBRX": 770.11,
     "MSFT": 750.87,
     "WSM": 750.0
   },
@@ -17,7 +17,7 @@
     "ADI": 4500.0,
     "RPM": 3750.0,
     "GTES": 4500.0,
-    "IBRX": 3750.0,
+    "IBRX": 4500.0,
     "MSFT": 4500.0,
     "FUL": 750.0
   },
@@ -711,12 +711,34 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "IBRX",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 87.66801,
+      "price": 8.56,
+      "date": "2026-10-19",
+      "time_et": "11:28",
+      "ts": 1792423726,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +0.8% over the month; 17% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-19",
-  "spent_today": 3033.13,
-  "deployed_today": 29250.0,
-  "orders_today": 18,
+  "spent_today": 3783.13,
+  "deployed_today": 30000.0,
+  "orders_today": 19,
   "sells_today": 14,
   "sold_today": [
     "NXPI",
@@ -738,8 +760,8 @@
     "RPM": 1792422231,
     "FUL": 1792421241
   },
-  "last_publish_ts": 1792423285,
-  "last_check_ts": 1792423559,
+  "last_publish_ts": 1792423726,
+  "last_check_ts": 1792423726,
   "exp_arm": {
     "WSM": {
       "params": {
@@ -776,24 +798,36 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "IBRX": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1792423500,
-  "last_decision_ts": 1792423460,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792423726,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "c95d75a6": 535.1907,
+    "7585e1b0": 534.514,
     "50b63a26": 251.427,
     "c5e3fb54": 396.3044,
     "9d3506b4": 26.2742,
-    "a31d90c3": 530.7485,
     "65d96546": 248.9174,
     "60cfe5b5": 391.4902,
     "42c92c24": 25.9093,
+    "e8dec756": 8.6537,
+    "5daefa13": 8.3257,
+    "b4cca97f": 8.3032,
     "75a661dd": 25.3849,
-    "1efbd40c": 243.1887,
     "e52714e6": 383.0821,
+    "1efbd40c": 243.1887,
     "3814f2d8": 517.9024
   }
 }

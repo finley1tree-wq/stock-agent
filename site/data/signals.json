@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-19T11:21-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,217 idle, so opened 3: ADI, MSFT, GTES. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the l",
+ "asOf": "2026-10-19T11:28-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,967 idle, so opened 1: IBRX. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -185,10 +185,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 533.81,
-   "pct_away": 0.26,
+   "last": 534.98,
+   "pct_away": 0.04,
    "good_until": "2026-10-24",
    "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7585e1b0",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 534.514,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 534.98,
+   "pct_away": -0.09,
+   "good_until": "2026-10-24",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 250.67,
-   "pct_away": 0.3,
+   "last": 250.96,
+   "pct_away": 0.19,
    "good_until": "2026-10-24",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -219,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 394.85,
-   "pct_away": 0.37,
+   "last": 395.29,
+   "pct_away": 0.26,
    "good_until": "2026-10-24",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -236,27 +253,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 26.14,
-   "pct_away": 0.51,
+   "last": 26.16,
+   "pct_away": 0.44,
    "good_until": "2026-10-24",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a31d90c3",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 530.7485,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 533.81,
-   "pct_away": -0.57,
-   "good_until": "2026-10-24",
-   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 250.67,
-   "pct_away": -0.7,
+   "last": 250.96,
+   "pct_away": -0.81,
    "good_until": "2026-10-24",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -287,8 +287,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 394.85,
-   "pct_away": -0.85,
+   "last": 395.29,
+   "pct_away": -0.96,
    "good_until": "2026-10-24",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -304,10 +304,61 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 26.14,
-   "pct_away": -0.88,
+   "last": 26.16,
+   "pct_away": -0.96,
    "good_until": "2026-10-24",
    "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e8dec756",
+   "ticker": "IBRX",
+   "kind": "take_profit",
+   "price": 8.6537,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 8.55,
+   "pct_away": 1.21,
+   "good_until": "2026-10-24",
+   "why": "close 100% at +1.1% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "5daefa13",
+   "ticker": "IBRX",
+   "kind": "stop_loss",
+   "price": 8.3257,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 8.55,
+   "pct_away": -2.62,
+   "good_until": "2026-10-24",
+   "why": "close it all at -2.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b4cca97f",
+   "ticker": "IBRX",
+   "kind": "buy_limit",
+   "price": 8.3032,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 8.55,
+   "pct_away": -2.89,
+   "good_until": "2026-10-24",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -321,25 +372,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 26.14,
-   "pct_away": -2.89,
-   "good_until": "2026-10-24",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1efbd40c",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 243.1887,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 250.67,
-   "pct_away": -2.98,
+   "last": 26.16,
+   "pct_away": -2.96,
    "good_until": "2026-10-24",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -355,8 +389,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 394.85,
-   "pct_away": -2.98,
+   "last": 395.29,
+   "pct_away": -3.09,
+   "good_until": "2026-10-24",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1efbd40c",
+   "ticker": "WSM",
+   "kind": "buy_limit",
+   "price": 243.1887,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 250.96,
+   "pct_away": -3.1,
    "good_until": "2026-10-24",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -372,8 +423,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 533.81,
-   "pct_away": -2.98,
+   "last": 534.98,
+   "pct_away": -3.19,
    "good_until": "2026-10-24",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -382,7 +433,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,217 idle, so opened 3: ADI, MSFT, GTES. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the l",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,967 idle, so opened 1: IBRX. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -452,32 +503,32 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 361,
-  "decisions_with_buys_graded": 57,
+  "decisions_graded": 359,
+  "decisions_with_buys_graded": 56,
   "independent_days_graded": 3,
-  "avg_regret_pct": 0.08,
-  "chosen_avg_pct": 0.08,
-  "skipped_avg_pct": 0.16,
+  "avg_regret_pct": 0.13,
+  "chosen_avg_pct": 0.04,
+  "skipped_avg_pct": 0.17,
   "idle_universe_avg_pct": 0.2,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.01,
   "checks_that_bought_everything": 0,
   "by_signal_chosen": {
    "autopilot": {
-    "n": 81,
-    "avg_pct": -0.16
+    "n": 80,
+    "avg_pct": -0.19
    },
    "congress": {
-    "n": 79,
-    "avg_pct": -0.15
+    "n": 78,
+    "avg_pct": -0.18
    },
    "insider": {
     "n": 2,
     "avg_pct": -0.55
    },
    "momentum": {
-    "n": 81,
-    "avg_pct": -0.16
+    "n": 80,
+    "avg_pct": -0.19
    }
   },
   "biggest_misses": [
@@ -528,12 +579,12 @@
     "fwd_pct": -7.41
    },
    {
-    "ticker": "AMD",
-    "fwd_pct": -7.02
+    "ticker": "OKLO",
+    "fwd_pct": -6.87
    },
    {
-    "ticker": "OKLO",
-    "fwd_pct": -7.0
+    "ticker": "AMD",
+    "fwd_pct": -6.85
    }
   ],
   "sectors_most_often_missed": {
@@ -2089,5 +2140,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-19T11:21-04:00"
+ "signalsAsOf": "2026-10-19T11:28-04:00"
 }
