@@ -1,11 +1,11 @@
 {
   "week": "2026-W43",
-  "spent": 3029.23,
+  "spent": 2286.13,
   "deployed": 32250.0,
   "by_ticker": {
     "RPM": 770.64,
     "GTES": 796.12,
-    "ADI": 756.83,
+    "ADI": 13.73,
     "NXPI": 9.11,
     "IBRX": 11.46,
     "FUL": 750.0
@@ -882,13 +882,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.899076,
+      "status": "filled",
+      "price": 391.29,
+      "proceeds": 743.1,
+      "realized_pnl": -6.9,
+      "realized_pct": -0.92,
+      "date": "2026-10-19",
+      "time_et": "12:02",
+      "ts": 1792425600,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $394.93",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-19",
-  "spent_today": 3029.23,
+  "spent_today": 2286.13,
   "deployed_today": 32250.0,
   "orders_today": 22,
-  "sells_today": 18,
+  "sells_today": 19,
   "sold_today": [
     "NXPI",
     "ADI",
@@ -901,7 +922,7 @@
   ],
   "sold_ts": {
     "NXPI": 1792425039,
-    "ADI": 1792420462,
+    "ADI": 1792425778,
     "MSFT": 1792424665,
     "IBRX": 1792424665,
     "GTES": 1792420424,
@@ -909,8 +930,8 @@
     "RPM": 1792422231,
     "FUL": 1792421241
   },
-  "last_publish_ts": 1792425086,
-  "last_check_ts": 1792425690,
+  "last_publish_ts": 1792425773,
+  "last_check_ts": 1792425773,
   "exp_arm": {
     "ADI": {
       "params": {
@@ -950,21 +971,18 @@
     }
   },
   "last_bar_ts": 1792425600,
-  "last_decision_ts": 1792425597,
+  "last_decision_ts": 1792425773,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "4ffc4aac": 99.933,
-    "9235dfee": 51.422,
-    "60cfe5b5": 391.4902,
-    "9d3506b4": 26.2742,
+    "42c92c24": 25.9093,
     "06882578": 50.9257,
     "3b86e017": 98.9415,
-    "c5e3fb54": 396.3044,
-    "42c92c24": 25.9093,
-    "e52714e6": 383.0821,
+    "4ffc4aac": 99.933,
+    "9235dfee": 51.422,
+    "9d3506b4": 26.2742,
     "75a661dd": 25.3849,
-    "4edcb7d4": 96.6605,
-    "d3a69cef": 49.7416
+    "d3a69cef": 49.7416,
+    "4edcb7d4": 96.6605
   }
 }
