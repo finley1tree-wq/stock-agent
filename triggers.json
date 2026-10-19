@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "d7e10f99",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 436.0834,
-   "status": "cancelled",
-   "created": "2026-10-14 09:37",
-   "created_ts": 1791985067,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $439.1",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 09:38",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "6d8c96f8",
    "ticker": "TSM",
    "kind": "buy_limit",
@@ -7208,7 +7189,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 530.2163,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-19 12:29",
    "created_ts": 1792427368,
    "why": "close it all at -0.6% under the average cost",
@@ -7218,7 +7199,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-19 13:43",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ab07f76f",
@@ -7469,7 +7452,24 @@
    ],
    "good_until": "2026-10-24",
    "usd": 500.0
+  },
+  {
+   "id": "46edefcd",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 533.792,
+   "status": "working",
+   "created": "2026-10-19 13:43",
+   "created_ts": 1792431822,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $533.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-19 13:41"
+ "updated": "2026-10-19 13:44"
 }
