@@ -34843,3 +34843,14 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $243.19 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25208.35 (+0.83% on $25000.00 in) · cash $22225.40 · realised +225.40
 Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 12 order(s) working; budget left $21984.05 this week
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $532.74] -> $749.13 (-0.12%) — close it all at -0.6% under the average cost
+## 2026-10-19 10:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-19 10:35 ET (Monday) — week 2026-W43 — budget left $22733.18 (today $25500.00 put to work, 13 buys, 10 sells) — SIM (pretend money) via sim
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBmGqbQCUy6KfvBqAGhx'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25215.80 (+0.86% on $25000.00 in) · cash $22974.53 · realised +224.53
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

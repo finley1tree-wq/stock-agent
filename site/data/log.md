@@ -1,6 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-16 15:58 ET (Friday) — week 2026-W42 — budget left $24806.34 (today $44250.00 put to work, 32 buys, 32 sells) — SIM (pretend money) via sim
   (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $243.19 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25208.35 (+0.83% on $25000.00 in) · cash $22225.40 · realised +225.40
 Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 12 order(s) working; budget left $21984.05 this week
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $532.74] -> $749.13 (-0.12%) — close it all at -0.6% under the average cost
+## 2026-10-19 10:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
