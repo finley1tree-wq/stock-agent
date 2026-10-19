@@ -68279,7 +68279,9 @@
     "code_version": "3c7c24a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.21
+    "ret_now": 0.28,
+    "ret_final": 0.28,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -68376,7 +68378,7 @@
     "code_version": "3c7c24a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.34
+    "ret_now": -0.1
   },
   {
     "symbol": "GTES",
@@ -68611,5 +68613,32 @@
     "hour_et": 9,
     "code_version": "28e9aa4",
     "hold_minutes": 2
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 11.937425,
+    "status": "filled",
+    "price": 252.02,
+    "proceeds": 3008.51,
+    "realized_pnl": 8.51,
+    "realized_pct": 0.28,
+    "date": "2026-10-19",
+    "time_et": "09:46",
+    "ts": 1792417500,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $251.31",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "e4f2dc6",
+    "hold_minutes": 12
   }
 ]
