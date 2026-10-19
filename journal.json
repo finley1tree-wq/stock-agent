@@ -69218,7 +69218,7 @@
     "code_version": "03af90d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.57
+    "ret_now": -0.73
   },
   {
     "symbol": "IBRX",
@@ -69423,7 +69423,7 @@
     "code_version": "fedf29b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": -0.12
   },
   {
     "symbol": "FUL",
@@ -69482,5 +69482,65 @@
     "hour_et": 12,
     "code_version": "6253221",
     "hold_minutes": 38
+  },
+  {
+    "symbol": "IBRX",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 86.256499,
+    "price": 8.69,
+    "date": "2026-10-19",
+    "time_et": "12:29",
+    "ts": 1792427368,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +2.5% over the month; 28% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 8.69,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 2.54,
+    "hour_et": 12,
+    "code_version": "4c9e751",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.406109,
+    "price": 533.39,
+    "date": "2026-10-19",
+    "time_et": "12:29",
+    "ts": 1792427368,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +8.0% over the month; 68% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 533.28,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 8.0,
+    "hour_et": 12,
+    "code_version": "4c9e751",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
