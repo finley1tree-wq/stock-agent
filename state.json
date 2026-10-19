@@ -1,11 +1,11 @@
 {
   "week": "2026-W43",
-  "spent": 2303.7,
-  "deployed": 36750.0,
+  "spent": 3053.7,
+  "deployed": 37500.0,
   "by_ticker": {
     "RPM": 21.77,
     "GTES": 803.35,
-    "ADI": 13.21,
+    "ADI": 763.21,
     "NXPI": 759.11,
     "IBRX": 761.46,
     "FUL": 3.96,
@@ -14,7 +14,7 @@
   "deployed_by_ticker": {
     "WSM": 4500.0,
     "NXPI": 5250.0,
-    "ADI": 5250.0,
+    "ADI": 6000.0,
     "RPM": 4500.0,
     "GTES": 5250.0,
     "IBRX": 5250.0,
@@ -1159,12 +1159,34 @@
       ],
       "evidence": "average cost $533.39",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ADI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.915717,
+      "price": 391.5,
+      "date": "2026-10-19",
+      "time_et": "13:53",
+      "ts": 1792432394,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +4.2% over the month; 1% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-19",
-  "spent_today": 2303.7,
-  "deployed_today": 36750.0,
-  "orders_today": 28,
+  "spent_today": 3053.7,
+  "deployed_today": 37500.0,
+  "orders_today": 29,
   "sells_today": 25,
   "sold_today": [
     "NXPI",
@@ -1186,8 +1208,8 @@
     "RPM": 1792430492,
     "FUL": 1792430492
   },
-  "last_publish_ts": 1792431907,
-  "last_check_ts": 1792432312,
+  "last_publish_ts": 1792432394,
+  "last_check_ts": 1792432394,
   "exp_arm": {
     "IBRX": {
       "params": {
@@ -1196,15 +1218,6 @@
       },
       "tags": {
         "ratchet": "off"
-      }
-    },
-    "MSFT": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
       }
     },
     "NXPI": {
@@ -1224,21 +1237,33 @@
       "tags": {
         "ratchet": "off"
       }
+    },
+    "ADI": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
     }
   },
   "last_bar_ts": 1792432200,
-  "last_decision_ts": 1792432211,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792432394,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "7faf02f6": 228.6959,
+    "227ddb71": 392.8781,
     "200257f8": 26.0242,
     "ba61f128": 25.6595,
+    "3e65c9ec": 388.0587,
     "59a66e78": 231.8507,
     "e5bb00e9": 8.4562,
     "da1dc3ef": 8.4293,
     "6a280cd5": 224.0215,
     "359b68b1": 8.7835,
-    "3594a675": 25.1424
+    "3594a675": 25.1424,
+    "f60e1956": 379.755
   }
 }
