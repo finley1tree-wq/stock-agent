@@ -1,12 +1,12 @@
 {
   "week": "2026-W43",
-  "spent": 2284.85,
+  "spent": 1535.28,
   "deployed": 27000.0,
   "by_ticker": {
     "RPM": 772.79,
     "GTES": 46.12,
     "ADI": 6.83,
-    "NXPI": 750.0,
+    "NXPI": 0.43,
     "IBRX": 20.11,
     "MSFT": 0.87,
     "WSM": 750.0
@@ -603,13 +603,34 @@
       ],
       "evidence": "average cost $50.9",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 3.239425,
+      "status": "filled",
+      "price": 231.39,
+      "proceeds": 749.57,
+      "realized_pnl": -0.43,
+      "realized_pct": -0.06,
+      "date": "2026-10-19",
+      "time_et": "10:50",
+      "ts": 1792421400,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $231.52",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-19",
-  "spent_today": 2284.85,
+  "spent_today": 1535.28,
   "deployed_today": 27000.0,
   "orders_today": 15,
-  "sells_today": 12,
+  "sells_today": 13,
   "sold_today": [
     "NXPI",
     "ADI",
@@ -621,7 +642,7 @@
     "FUL"
   ],
   "sold_ts": {
-    "NXPI": 1792416933,
+    "NXPI": 1792421424,
     "ADI": 1792420462,
     "MSFT": 1792420546,
     "IBRX": 1792421004,
@@ -630,8 +651,8 @@
     "RPM": 1792417993,
     "FUL": 1792421241
   },
-  "last_publish_ts": 1792421241,
-  "last_check_ts": 1792421329,
+  "last_publish_ts": 1792421423,
+  "last_check_ts": 1792421426,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -679,19 +700,16 @@
       }
     }
   },
-  "last_bar_ts": 1792421100,
-  "last_decision_ts": 1792421244,
+  "last_bar_ts": 1792421400,
+  "last_decision_ts": 1792421426,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "34e50d3d": 231.832,
-    "0289b690": 232.4229,
     "da13faa0": 99.4235,
     "50b63a26": 251.427,
     "65d96546": 248.9174,
     "c06b7340": 98.4321,
     "1efbd40c": 243.1887,
-    "db6071e4": 96.1658,
-    "6dbba318": 224.5744
+    "db6071e4": 96.1658
   }
 }
