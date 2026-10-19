@@ -35483,3 +35483,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25194.82 (+0.78% on $25000.00 in) · cash $19955.22 · realised +205.22
 Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-19 12:50 ET (Monday) — week 2026-W43 — budget left $19713.87 (today $35250.00 put to work, 26 buys, 19 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBwWCeU3npnKTLUrbacf'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $19,714 idle, so opened 1: ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +4.6% over the month; 12% of today's range
+~ WORKING take_profit 100% ADI @ $394.58 until 2026-10-24 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% ADI @ $389.76 until 2026-10-24 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $381.40 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25193.89 (+0.78% on $25000.00 in) · cash $19205.22 · realised +205.22
+Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $18963.87 this week
