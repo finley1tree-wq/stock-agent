@@ -1,21 +1,3 @@
-- BUY $3000.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +1.3% over the month; 76% of today's range
-- BUY $3000.00 GTES [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +1.9% over the month; 0% of today's range
-~ WORKING take_profit 100% WSM @ $252.02 until 2026-10-24 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% WSM @ $249.53 until 2026-10-24 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 WSM @ $243.77 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NXPI @ $234.82 until 2026-10-24 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% NXPI @ $231.70 until 2026-10-24 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 NXPI @ $226.91 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% ADI @ $405.50 until 2026-10-24 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% ADI @ $400.82 until 2026-10-24 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 ADI @ $392.04 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% RPM @ $99.93 until 2026-10-24 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% RPM @ $98.94 until 2026-10-24 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 RPM @ $96.66 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GTES @ $26.22 until 2026-10-24 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% GTES @ $25.86 until 2026-10-24 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 GTES @ $25.34 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25234.13 (+0.94% on $25000.00 in) · cash $10241.32 · realised +241.32
 Done: 0 sell(s), 5 buy(s); 15 order(s) working; budget left $10000.00 this week
 
 ## 2026-10-19 09:34 ET (Monday) — week 2026-W43 — budget left $10000.00 (today $15000.00 put to work, 5 buys, 0 sells) — SIM (pretend money) via sim
@@ -398,3 +380,21 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 FUL @ $49.37 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25206.18 (+0.82% on $25000.00 in) · cash $21474.53 · realised +224.53
 Done: 0 sell(s), 2 buy(s); 15 order(s) working; budget left $21233.18 this week
+
+## 2026-10-19 10:42 ET (Monday) — week 2026-W43 — budget left $21233.18 (today $27000.00 put to work, 15 buys, 10 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBmjKZe8t7iL2KdEhogf'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25207.76 (+0.83% on $25000.00 in) · cash $21474.53 · realised +224.53
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on IBRX: position closed)
+- SELL 100% IBRX [stop_loss @ $8.35] -> $729.89 (-2.68%) — close it all at -2.7% under the average cost
+  (dropped IBRX: sold 0 min ago, cooling off)
+## 2026-10-19 10:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
