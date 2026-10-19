@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "4a437aaf",
-   "ticker": "AMGN",
-   "kind": "take_profit",
-   "price": 416.5754,
-   "status": "cancelled",
-   "created": "2026-10-13 12:46",
-   "created_ts": 1791909965,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $415.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-13 13:43",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "2d9b457c",
    "ticker": "AMGN",
    "kind": "stop_loss",
@@ -7386,7 +7367,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 530.2078,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-19 10:24",
    "created_ts": 1792419877,
    "why": "close it all at -0.6% under the average cost",
@@ -7396,7 +7377,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-19 10:30",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "725ba3b3",
@@ -7465,7 +7448,24 @@
    ],
    "good_until": "2026-10-24",
    "usd": 500.0
+  },
+  {
+   "id": "07411c76",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 533.846,
+   "status": "working",
+   "created": "2026-10-19 10:30",
+   "created_ts": 1792420201,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $533.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-19 10:27"
+ "updated": "2026-10-19 10:30"
 }
