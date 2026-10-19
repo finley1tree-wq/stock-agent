@@ -1,4 +1,3 @@
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
   (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
   (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBvoFZwEDYwLQMoHzMCe'}
@@ -398,3 +397,4 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25174.09 (+0.70% on $25000.00 in) · cash $22925.58 · realised +175.58
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $22684.22 this week
+  (cancelled 3 resting buy order(s): past the entry cutoff)
