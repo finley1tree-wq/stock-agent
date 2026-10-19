@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-19T10:50-04:00",
+ "asOf": "2026-10-19T11:03-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,17 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "da13faa0",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 99.4235,
+   "id": "65d96546",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 248.9174,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 99.18,
-   "pct_away": 0.25,
+   "last": 250.16,
+   "pct_away": -0.5,
    "good_until": "2026-10-24",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,44 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 250.34,
-   "pct_away": 0.43,
+   "last": 250.16,
+   "pct_away": 0.51,
    "good_until": "2026-10-24",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "65d96546",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 248.9174,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 250.34,
-   "pct_away": -0.57,
-   "good_until": "2026-10-24",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c06b7340",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 98.4321,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 99.18,
-   "pct_away": -0.75,
-   "good_until": "2026-10-24",
-   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,25 +219,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 250.34,
-   "pct_away": -2.86,
-   "good_until": "2026-10-24",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "db6071e4",
-   "ticker": "RPM",
-   "kind": "buy_limit",
-   "price": 96.1658,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 99.18,
-   "pct_away": -3.04,
+   "last": 250.16,
+   "pct_away": -2.79,
    "good_until": "2026-10-24",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

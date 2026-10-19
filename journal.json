@@ -68918,7 +68918,7 @@
     "code_version": "9e94e98",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.16
+    "ret_now": -0.27
   },
   {
     "symbol": "MSFT",
@@ -68976,7 +68976,9 @@
     "code_version": "0fa0fea",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.26
+    "ret_now": 0.29,
+    "ret_final": 0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "FUL",
@@ -69091,5 +69093,32 @@
     "hour_et": 10,
     "code_version": "58744af",
     "hold_minutes": 28
+  },
+  {
+    "symbol": "RPM",
+    "side": "sell",
+    "qty": 7.565087,
+    "status": "filled",
+    "price": 99.42,
+    "proceeds": 752.15,
+    "realized_pnl": 2.15,
+    "realized_pct": 0.29,
+    "date": "2026-10-19",
+    "time_et": "11:03",
+    "ts": 1792422000,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $99.14",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "c13c09e",
+    "hold_minutes": 20
   }
 ]
