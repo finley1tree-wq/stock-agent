@@ -1,120 +1,6 @@
 {
  "orders": [
   {
-   "id": "fa83d817",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 440.8614,
-   "status": "cancelled",
-   "created": "2026-10-13 12:49",
-   "created_ts": 1791910159,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $443.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-13 14:19",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "9e6c56f6",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 430.6024,
-   "status": "cancelled",
-   "created": "2026-10-13 12:49",
-   "created_ts": 1791910159,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $443.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "usd": 500.0,
-   "closed": "2026-10-13 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "fa7795bd",
-   "ticker": "AVGO",
-   "kind": "take_profit",
-   "price": 356.5337,
-   "status": "cancelled",
-   "created": "2026-10-13 13:01",
-   "created_ts": 1791910871,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $355.4",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-13 13:25",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "1842ec3b",
-   "ticker": "AVGO",
-   "kind": "stop_loss",
-   "price": 352.5675,
-   "status": "cancelled",
-   "created": "2026-10-13 13:01",
-   "created_ts": 1791910871,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $355.4",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-13 13:21",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "d096655f",
-   "ticker": "AVGO",
-   "kind": "buy_limit",
-   "price": 344.738,
-   "status": "cancelled",
-   "created": "2026-10-13 13:01",
-   "created_ts": 1791910871,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $355.4",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "usd": 500.0,
-   "closed": "2026-10-13 13:25",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "e88d6530",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 765.7142,
-   "status": "cancelled",
-   "created": "2026-10-13 13:10",
-   "created_ts": 1791911401,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $763.15",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-18",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-13 14:39",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "8cf8f8a9",
    "ticker": "META",
    "kind": "stop_loss",
@@ -7475,7 +7361,109 @@
    ],
    "good_until": "2026-10-24",
    "usd": 500.0
+  },
+  {
+   "id": "da13faa0",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 99.4235,
+   "status": "working",
+   "created": "2026-10-19 10:39",
+   "created_ts": 1792420749,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $99.14",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c06b7340",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 98.4321,
+   "status": "working",
+   "created": "2026-10-19 10:39",
+   "created_ts": 1792420749,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $99.14",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "db6071e4",
+   "ticker": "RPM",
+   "kind": "buy_limit",
+   "price": 96.1658,
+   "status": "working",
+   "created": "2026-10-19 10:39",
+   "created_ts": 1792420749,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $99.14",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "usd": 500.0
+  },
+  {
+   "id": "a9cb59cd",
+   "ticker": "FUL",
+   "kind": "take_profit",
+   "price": 51.0415,
+   "status": "working",
+   "created": "2026-10-19 10:39",
+   "created_ts": 1792420749,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $50.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4a024a28",
+   "ticker": "FUL",
+   "kind": "stop_loss",
+   "price": 50.5457,
+   "status": "working",
+   "created": "2026-10-19 10:39",
+   "created_ts": 1792420749,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $50.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "cc8cf44a",
+   "ticker": "FUL",
+   "kind": "buy_limit",
+   "price": 49.373,
+   "status": "working",
+   "created": "2026-10-19 10:39",
+   "created_ts": 1792420749,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $50.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-19 10:35"
+ "updated": "2026-10-19 10:39"
 }

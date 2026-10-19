@@ -1,24 +1,26 @@
 {
   "week": "2026-W43",
-  "spent": 2266.82,
-  "deployed": 25500.0,
+  "spent": 3766.82,
+  "deployed": 27000.0,
   "by_ticker": {
-    "RPM": 22.79,
+    "RPM": 772.79,
     "GTES": 46.12,
     "ADI": 6.83,
     "NXPI": 750.0,
     "IBRX": 750.0,
     "MSFT": 0.87,
-    "WSM": 750.0
+    "WSM": 750.0,
+    "FUL": 750.0
   },
   "deployed_by_ticker": {
     "WSM": 3750.0,
     "NXPI": 3750.0,
     "ADI": 3750.0,
-    "RPM": 3000.0,
+    "RPM": 3750.0,
     "GTES": 3750.0,
     "IBRX": 3750.0,
-    "MSFT": 3750.0
+    "MSFT": 3750.0,
+    "FUL": 750.0
   },
   "orders": [
     {
@@ -516,12 +518,56 @@
       ],
       "evidence": "average cost $533.36",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "RPM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.565087,
+      "price": 99.14,
+      "date": "2026-10-19",
+      "time_et": "10:39",
+      "ts": 1792420749,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +0.7% over the month; 30% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "FUL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 14.734672,
+      "price": 50.9,
+      "date": "2026-10-19",
+      "time_et": "10:39",
+      "ts": 1792420749,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +3.0% over the month; 37% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-19",
-  "spent_today": 2266.82,
-  "deployed_today": 25500.0,
-  "orders_today": 13,
+  "spent_today": 3766.82,
+  "deployed_today": 27000.0,
+  "orders_today": 15,
   "sells_today": 10,
   "sold_today": [
     "NXPI",
@@ -541,8 +587,8 @@
     "WSM": 1792417594,
     "RPM": 1792417993
   },
-  "last_publish_ts": 1792420546,
-  "last_check_ts": 1792420663,
+  "last_publish_ts": 1792420749,
+  "last_check_ts": 1792420749,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -562,7 +608,7 @@
         "ratchet": "off"
       }
     },
-    "MSFT": {
+    "WSM": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -571,7 +617,16 @@
         "ratchet": "on"
       }
     },
-    "WSM": {
+    "RPM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "off"
+      },
+      "tags": {
+        "ratchet": "off"
+      }
+    },
+    "FUL": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -582,18 +637,24 @@
     }
   },
   "last_bar_ts": 1792420500,
-  "last_decision_ts": 1792420548,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792420749,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "a9cb59cd": 51.0415,
+    "da13faa0": 99.4235,
     "50b63a26": 251.427,
-    "65d96546": 248.9174,
-    "0289b690": 232.4229,
     "be87dd0c": 229.265,
+    "65d96546": 248.9174,
+    "4a024a28": 50.5457,
+    "c06b7340": 98.4321,
+    "0289b690": 232.4229,
     "351f182b": 8.359,
     "0cfc330c": 8.3323,
-    "f264ef67": 8.6824,
     "6dbba318": 224.5744,
-    "1efbd40c": 243.1887
+    "f264ef67": 8.6824,
+    "1efbd40c": 243.1887,
+    "db6071e4": 96.1658,
+    "cc8cf44a": 49.373
   }
 }
