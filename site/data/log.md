@@ -1,4 +1,3 @@
-portfolio: equity $25243.35 (+0.97% on $25000.00 in) · cash $23750.71 · realised +250.71
 Decision: nothing at this check. 4 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +397,4 @@ portfolio: equity $25241.32 (+0.97% on $25000.00 in) · cash $25241.32 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-16 16:00 ET — published the session's closing state
+## 2026-10-19 00:04 ET — published the session's closing state
