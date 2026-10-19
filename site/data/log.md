@@ -1,112 +1,3 @@
-portfolio: equity $25247.71 (+0.99% on $25000.00 in) · cash $22262.76 · realised +262.76
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-19 09:52 ET (Monday) — week 2026-W43 — budget left $22021.42 (today $21000.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
-  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
-  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBhviMg3cwMy8AhXYarN'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25242.29 (+0.97% on $25000.00 in) · cash $22262.76 · realised +262.76
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on RPM: position closed)
-- SELL 100% RPM [stop_loss @ $98.89] -> $2977.21 (-0.76%) — close it all at -0.7% under the average cost
-## 2026-10-19 09:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-19 09:55 ET (Monday) — week 2026-W43 — budget left $24998.63 (today $21000.00 put to work, 7 buys, 7 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
-  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
-  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBi9xA1HFQ5QrLskr19Q'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25239.97 (+0.96% on $25000.00 in) · cash $25239.97 · realised +239.97
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-19 09:58 ET (Monday) — week 2026-W43 — budget left $24998.63 (today $21000.00 put to work, 7 buys, 7 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
-  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
-  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBiP3d2oYYkwz5qerM5U'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25239.97 (+0.96% on $25000.00 in) · cash $25239.97 · realised +239.97
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-19 10:01 ET (Monday) — week 2026-W43 — budget left $24998.63 (today $21000.00 put to work, 7 buys, 7 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
-  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
-  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBibySsVxAG614DCKUSk'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25239.97 (+0.96% on $25000.00 in) · cash $25239.97 · realised +239.97
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-19 10:04 ET (Monday) — week 2026-W43 — budget left $24998.63 (today $21000.00 put to work, 7 buys, 7 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
-  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
-  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBiqPTbwSzo6Y7kQsr3V'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25239.97 (+0.96% on $25000.00 in) · cash $25239.97 · realised +239.97
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-19 10:07 ET (Monday) — week 2026-W43 — budget left $24998.63 (today $21000.00 put to work, 7 buys, 7 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
-  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
-  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBj3wJcaFcqAcF7dwrQ2'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25239.97 (+0.96% on $25000.00 in) · cash $25239.97 · realised +239.97
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-19 10:09 ET (Monday) — week 2026-W43 — budget left $24998.63 (today $21000.00 put to work, 7 buys, 7 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
-  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
-  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
-  (no price for GOOGL — excluded this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBjFeZcsSUibm4evLmnw'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25239.97 (+0.96% on $25000.00 in) · cash $25239.97 · realised +239.97
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-19 10:12 ET (Monday) — week 2026-W43 — budget left $24998.63 (today $21000.00 put to work, 7 buys, 7 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
   (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
   (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
   (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
@@ -398,3 +289,112 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on RPM: position closed)
 - SELL 100% RPM [take_profit @ $99.42] -> $752.15 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-10-19 11:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-19 11:04 ET (Monday) — week 2026-W43 — budget left $24216.87 (today $27000.00 put to work, 15 buys, 14 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBoSZcEyZKJKYkYP1MxJ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25205.88 (+0.82% on $25000.00 in) · cash $24458.22 · realised +208.22
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-19 11:07 ET (Monday) — week 2026-W43 — budget left $24216.87 (today $27000.00 put to work, 15 buys, 14 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBogGCNhMeA4rSHjmhhJ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25205.01 (+0.82% on $25000.00 in) · cash $24458.22 · realised +208.22
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-19 11:10 ET (Monday) — week 2026-W43 — budget left $24216.87 (today $27000.00 put to work, 15 buys, 14 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBotvmgr1NDLdMrsDzng'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25204.68 (+0.82% on $25000.00 in) · cash $24458.22 · realised +208.22
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-19 11:13 ET (Monday) — week 2026-W43 — budget left $24216.87 (today $27000.00 put to work, 15 buys, 14 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBp7q5Fc71NvpMr1SKqv'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25206.63 (+0.83% on $25000.00 in) · cash $24458.22 · realised +208.22
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-19 11:15 ET (Monday) — week 2026-W43 — budget left $24216.87 (today $27000.00 put to work, 15 buys, 14 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBpGtm15S9ZUS7iewaTx'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25206.96 (+0.83% on $25000.00 in) · cash $24458.22 · realised +208.22
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-19 11:17 ET (Monday) — week 2026-W43 — budget left $24216.87 (today $27000.00 put to work, 15 buys, 14 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBpS7yFBUWvcRLJZ3ePT'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25207.50 (+0.83% on $25000.00 in) · cash $24458.22 · realised +208.22
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-19 11:21 ET (Monday) — week 2026-W43 — budget left $24216.87 (today $27000.00 put to work, 15 buys, 14 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBpiiXpfVcX8RonUkVQ2'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,217 idle, so opened 3: ADI, MSFT, GTES. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +5.1% over the month; 23% of today's range
+- BUY $750.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +8.1% over the month; 77% of today's range
+- BUY $750.00 GTES [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +2.0% over the month; 65% of today's range
+~ WORKING take_profit 100% ADI @ $396.30 until 2026-10-24 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% ADI @ $391.49 until 2026-10-24 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $383.08 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $535.19 until 2026-10-24 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $530.75 until 2026-10-24 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $517.90 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GTES @ $26.27 until 2026-10-24 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% GTES @ $25.91 until 2026-10-24 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 GTES @ $25.38 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25207.05 (+0.83% on $25000.00 in) · cash $22208.22 · realised +208.22
+Done: 0 sell(s), 3 buy(s); 12 order(s) working; budget left $21966.87 this week
