@@ -69425,7 +69425,7 @@
     "code_version": "fedf29b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": -0.05
   },
   {
     "symbol": "FUL",
@@ -69456,7 +69456,7 @@
     "code_version": "fedf29b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.08
+    "ret_now": -0.45
   },
   {
     "symbol": "ADI",
@@ -69514,7 +69514,7 @@
     "code_version": "4c9e751",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.58
+    "ret_now": -0.69
   },
   {
     "symbol": "MSFT",
@@ -69545,7 +69545,7 @@
     "code_version": "4c9e751",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.05
   },
   {
     "symbol": "WSM",
@@ -69576,7 +69576,9 @@
     "code_version": "4b568ed",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.43
+    "ret_now": -0.78,
+    "ret_final": -0.78,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -69607,7 +69609,7 @@
     "code_version": "4b568ed",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06
+    "ret_now": -0.05
   },
   {
     "symbol": "ADI",
@@ -69694,5 +69696,32 @@
     "hour_et": 13,
     "code_version": "14e38cf",
     "hold_minutes": 14
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 3.017023,
+    "status": "filled",
+    "price": 246.65,
+    "proceeds": 744.14,
+    "realized_pnl": -5.86,
+    "realized_pct": -0.78,
+    "date": "2026-10-19",
+    "time_et": "13:20",
+    "ts": 1792430100,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $248.59",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "64cb432",
+    "hold_minutes": 36
   }
 ]
