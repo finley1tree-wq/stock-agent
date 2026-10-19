@@ -68279,7 +68279,7 @@
     "code_version": "3c7c24a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": -0.11
   },
   {
     "symbol": "NXPI",
@@ -68310,7 +68310,9 @@
     "code_version": "3c7c24a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.47
+    "ret_now": 0.1,
+    "ret_final": 0.1,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -68341,7 +68343,9 @@
     "code_version": "3c7c24a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.38
+    "ret_now": 0.41,
+    "ret_final": 0.41,
+    "ret_src": "realised"
   },
   {
     "symbol": "RPM",
@@ -68372,7 +68376,7 @@
     "code_version": "3c7c24a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": 0.11
   },
   {
     "symbol": "GTES",
@@ -68433,7 +68437,10 @@
     "hour_et": 9,
     "code_version": "6f11771",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.97,
+    "ret_now": 0.97,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -68463,7 +68470,10 @@
     "hour_et": 9,
     "code_version": "6f11771",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.23,
+    "ret_now": 0.23,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -68489,7 +68499,8 @@
     "evidence": "average cost $233.93",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "5ffe125"
+    "code_version": "5ffe125",
+    "hold_minutes": 2
   },
   {
     "symbol": "ADI",
@@ -68515,6 +68526,61 @@
     "evidence": "average cost $404.16",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "5ffe125"
+    "code_version": "5ffe125",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": 5.650397,
+    "status": "filled",
+    "price": 532.18,
+    "proceeds": 3007.04,
+    "realized_pnl": 7.04,
+    "realized_pct": 0.23,
+    "date": "2026-10-19",
+    "time_et": "09:36",
+    "ts": 1792416900,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $530.94",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "540329f",
+    "hold_minutes": 0
+  },
+  {
+    "symbol": "IBRX",
+    "side": "sell",
+    "qty": 316.957077,
+    "status": "filled",
+    "price": 9.56,
+    "proceeds": 3029.06,
+    "realized_pnl": 29.06,
+    "realized_pct": 0.97,
+    "date": "2026-10-19",
+    "time_et": "09:37",
+    "ts": 1792416900,
+    "why": "close 100% at +0.9% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $9.47",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "540329f",
+    "hold_minutes": 0
   }
 ]

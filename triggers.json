@@ -7334,7 +7334,7 @@
    "ticker": "IBRX",
    "kind": "take_profit",
    "price": 9.5567,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-19 09:34",
    "created_ts": 1792416886,
    "why": "close 100% at +0.9% over the average cost",
@@ -7344,7 +7344,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-19 09:37"
   },
   {
    "id": "a734005a",
@@ -7370,7 +7371,7 @@
    "ticker": "IBRX",
    "kind": "buy_limit",
    "price": 9.1859,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-19 09:34",
    "created_ts": 1792416886,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7380,14 +7381,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-19 09:37",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6ba003da",
    "ticker": "MSFT",
    "kind": "take_profit",
    "price": 532.1824,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-19 09:34",
    "created_ts": 1792416886,
    "why": "close 100% at +0.2% over the average cost",
@@ -7397,7 +7400,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-19 09:36"
   },
   {
    "id": "eba74b28",
@@ -7423,7 +7427,7 @@
    "ticker": "MSFT",
    "kind": "buy_limit",
    "price": 515.0118,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-19 09:34",
    "created_ts": 1792416886,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7433,14 +7437,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-19 09:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "695cf2db",
    "ticker": "IBRX",
    "kind": "stop_loss",
    "price": 9.506,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-19 09:36",
    "created_ts": 1792416979,
    "why": "close it all at -2.3% under the average cost",
@@ -7450,14 +7456,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-19 09:37",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7a248b00",
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 531.408,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-19 09:36",
    "created_ts": 1792416979,
    "why": "close it all at -0.6% under the average cost",
@@ -7467,8 +7475,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-19 09:36",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-19 09:36"
+ "updated": "2026-10-19 09:37"
 }

@@ -34520,3 +34520,23 @@ Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $4000.00 this week
   (cancelled 2 standing order(s) on ADI: position closed)
 - SELL 100% ADI [take_profit @ $405.81] -> $3012.24 (+0.41%) — close 100% at +0.3% over the average cost
 ## 2026-10-19 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $532.18] -> $3007.04 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-10-19 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on IBRX: position closed)
+- SELL 100% IBRX [take_profit @ $9.56] -> $3029.06 (+0.97%) — close 100% at +0.9% over the average cost
+## 2026-10-19 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-19 09:37 ET (Monday) — week 2026-W43 — budget left $16051.28 (today $21000.00 put to work, 7 buys, 4 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBgp3PMTo8N9DGakwExZ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25283.74 (+1.13% on $25000.00 in) · cash $16292.61 · realised +292.61
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
