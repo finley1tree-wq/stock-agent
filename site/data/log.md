@@ -1,24 +1,3 @@
-## 2026-10-16 14:52 ET (Friday) — week 2026-W42 — budget left $23315.72 (today $44250.00 put to work, 32 buys, 30 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (FLSC excluded: too thinly traded ($6.9M a day) — Frazier Life Sciences Acquisition Corp. II Class A Ordinary )
-  (GABC excluded: too thinly traded ($7.2M a day) — German American Bancorp, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6RMYR5aAiLSvLs2SQy2'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25244.33 (+0.98% on $25000.00 in) · cash $23750.71 · realised +250.71
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-16 14:54 ET (Friday) — week 2026-W42 — budget left $23315.72 (today $44250.00 put to work, 32 buys, 30 sells) — SIM (pretend money) via sim
-  (BORR excluded: share price $4.34 is below $5: the spread eats the trade — Borr Drilling Limited)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (EDRY excluded: too thinly traded ($6.5M a day) — EuroDry Ltd.)
-  (FLSC excluded: too thinly traded ($6.9M a day) — Frazier Life Sciences Acquisition Corp. II Class A Ordinary )
   (GABC excluded: too thinly traded ($7.2M a day) — German American Bancorp, Inc.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6RZfzLeJszN4CMyMnNo'}
@@ -398,3 +377,24 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 GTES @ $25.34 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25234.13 (+0.94% on $25000.00 in) · cash $10241.32 · realised +241.32
 Done: 0 sell(s), 5 buy(s); 15 order(s) working; budget left $10000.00 this week
+
+## 2026-10-19 09:34 ET (Monday) — week 2026-W43 — budget left $10000.00 (today $15000.00 put to work, 5 buys, 0 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBgak1ip8VZPLbTteDYW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $10,000 idle, so opened 2: IBRX, MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 IBRX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +11.6% over the month; 54% of today's range
+- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +7.5% over the month; 63% of today's range
+~ WORKING take_profit 100% IBRX @ $9.56 until 2026-10-24 — close 100% at +0.9% over the average cost
+~ WORKING stop_loss 100% IBRX @ $9.25 until 2026-10-24 — close it all at -2.3% under the average cost
+~ WORKING buy_limit $500.00 IBRX @ $9.19 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $532.18 until 2026-10-24 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $527.83 until 2026-10-24 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $515.01 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25249.80 (+1.00% on $25000.00 in) · cash $4241.32 · realised +241.32
+Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $4000.00 this week

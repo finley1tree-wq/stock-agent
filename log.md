@@ -34494,3 +34494,24 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 GTES @ $25.34 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25234.13 (+0.94% on $25000.00 in) · cash $10241.32 · realised +241.32
 Done: 0 sell(s), 5 buy(s); 15 order(s) working; budget left $10000.00 this week
+
+## 2026-10-19 09:34 ET (Monday) — week 2026-W43 — budget left $10000.00 (today $15000.00 put to work, 5 buys, 0 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBgak1ip8VZPLbTteDYW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $10,000 idle, so opened 2: IBRX, MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 IBRX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +11.6% over the month; 54% of today's range
+- BUY $3000.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +7.5% over the month; 63% of today's range
+~ WORKING take_profit 100% IBRX @ $9.56 until 2026-10-24 — close 100% at +0.9% over the average cost
+~ WORKING stop_loss 100% IBRX @ $9.25 until 2026-10-24 — close it all at -2.3% under the average cost
+~ WORKING buy_limit $500.00 IBRX @ $9.19 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $532.18 until 2026-10-24 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $527.83 until 2026-10-24 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $515.01 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25249.80 (+1.00% on $25000.00 in) · cash $4241.32 · realised +241.32
+Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $4000.00 this week
