@@ -1,29 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBkPVUGno5GUvhiSWta7'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,499 idle, so opened 3: IBRX, MSFT, GTES. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 IBRX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +1.2% over the month; 9% of today's range
-- BUY $750.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +8.0% over the month; 79% of today's range
-- BUY $750.00 GTES [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +1.5% over the month; 37% of today's range
-~ WORKING take_profit 100% IBRX @ $8.68 until 2026-10-24 — close 100% at +1.1% over the average cost
-~ WORKING stop_loss 100% IBRX @ $8.36 until 2026-10-24 — close it all at -2.7% under the average cost
-~ WORKING buy_limit $500.00 IBRX @ $8.33 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% MSFT @ $534.62 until 2026-10-24 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% MSFT @ $530.21 until 2026-10-24 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 MSFT @ $517.36 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GTES @ $26.12 until 2026-10-24 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% GTES @ $25.76 until 2026-10-24 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 GTES @ $25.24 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25235.72 (+0.94% on $25000.00 in) · cash $21489.97 · realised +239.97
-Done: 0 sell(s), 3 buy(s); 15 order(s) working; budget left $21248.63 this week
-
-## 2026-10-19 10:27 ET (Monday) — week 2026-W43 — budget left $21248.63 (today $24750.00 put to work, 12 buys, 7 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
-  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
-  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBkdeBnQBtzd5LhpfVVC'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25232.29 (+0.93% on $25000.00 in) · cash $21489.97 · realised +239.97
@@ -398,3 +372,29 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 NXPI @ $227.03 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25219.43 (+0.88% on $25000.00 in) · cash $22218.66 · realised +218.66
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21977.31 this week
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $251.43] -> $752.14 (+0.29%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $231.34] -> $741.32 (-1.16%) — close it all at -1.0% under the average cost
+## 2026-10-19 11:50 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-19 11:51 ET (Monday) — week 2026-W43 — budget left $23470.77 (today $30750.00 put to work, 20 buys, 18 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
+  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GSBD excluded: too thinly traded ($7.6M a day) — Goldman Sachs BDC, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgBs1USiGabuiZBcGqfY8'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,471 idle, so opened 2: RPM, FUL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +1.3% over the month; 76% of today's range
+- BUY $750.00 FUL [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +3.7% over the month; 78% of today's range
+~ WORKING take_profit 100% RPM @ $99.93 until 2026-10-24 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% RPM @ $98.94 until 2026-10-24 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 RPM @ $96.66 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FUL @ $51.42 until 2026-10-24 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% FUL @ $50.93 until 2026-10-24 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 FUL @ $49.74 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25207.62 (+0.83% on $25000.00 in) · cash $22212.12 · realised +212.12
+Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $21970.77 this week

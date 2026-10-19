@@ -1,24 +1,24 @@
 {
   "week": "2026-W43",
-  "spent": 3022.69,
-  "deployed": 30750.0,
+  "spent": 3029.23,
+  "deployed": 32250.0,
   "by_ticker": {
-    "RPM": 20.64,
+    "RPM": 770.64,
     "GTES": 796.12,
     "ADI": 756.83,
-    "NXPI": 750.43,
+    "NXPI": 9.11,
     "IBRX": 11.46,
-    "WSM": 750.0
+    "FUL": 750.0
   },
   "deployed_by_ticker": {
     "WSM": 3750.0,
     "NXPI": 4500.0,
     "ADI": 4500.0,
-    "RPM": 3750.0,
+    "RPM": 4500.0,
     "GTES": 4500.0,
     "IBRX": 4500.0,
     "MSFT": 4500.0,
-    "FUL": 750.0
+    "FUL": 1500.0
   },
   "orders": [
     {
@@ -796,13 +796,99 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 2.991501,
+      "status": "filled",
+      "price": 251.43,
+      "proceeds": 752.14,
+      "realized_pnl": 2.14,
+      "realized_pct": 0.29,
+      "date": "2026-10-19",
+      "time_et": "11:50",
+      "ts": 1792424700,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $250.71",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 3.204394,
+      "status": "filled",
+      "price": 231.34,
+      "proceeds": 741.32,
+      "realized_pnl": -8.68,
+      "realized_pct": -1.16,
+      "date": "2026-10-19",
+      "time_et": "11:50",
+      "ts": 1792425000,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $234.05",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "RPM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.526354,
+      "price": 99.65,
+      "date": "2026-10-19",
+      "time_et": "11:51",
+      "ts": 1792425086,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +1.3% over the month; 76% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "FUL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 14.625441,
+      "price": 51.28,
+      "date": "2026-10-19",
+      "time_et": "11:51",
+      "ts": 1792425086,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +3.7% over the month; 78% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-19",
-  "spent_today": 3022.69,
-  "deployed_today": 30750.0,
-  "orders_today": 20,
-  "sells_today": 16,
+  "spent_today": 3029.23,
+  "deployed_today": 32250.0,
+  "orders_today": 22,
+  "sells_today": 18,
   "sold_today": [
     "NXPI",
     "ADI",
@@ -814,27 +900,18 @@
     "FUL"
   ],
   "sold_ts": {
-    "NXPI": 1792421424,
+    "NXPI": 1792425039,
     "ADI": 1792420462,
     "MSFT": 1792424665,
     "IBRX": 1792424665,
     "GTES": 1792420424,
-    "WSM": 1792417594,
+    "WSM": 1792425039,
     "RPM": 1792422231,
     "FUL": 1792421241
   },
-  "last_publish_ts": 1792424712,
-  "last_check_ts": 1792424712,
+  "last_publish_ts": 1792425086,
+  "last_check_ts": 1792425086,
   "exp_arm": {
-    "WSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "ADI": {
       "params": {
         "hold_minutes": 90,
@@ -853,7 +930,16 @@
         "ratchet": "off"
       }
     },
-    "NXPI": {
+    "RPM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "FUL": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -863,22 +949,22 @@
       }
     }
   },
-  "last_bar_ts": 1792424700,
-  "last_decision_ts": 1792424712,
+  "last_bar_ts": 1792425000,
+  "last_decision_ts": 1792425086,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "50b63a26": 251.427,
-    "2e20b620": 251.064,
-    "c5e3fb54": 396.3044,
-    "1babce80": 234.9511,
-    "9d3506b4": 26.2742,
+    "4ffc4aac": 99.933,
+    "9235dfee": 51.422,
     "60cfe5b5": 391.4902,
+    "9d3506b4": 26.2742,
+    "06882578": 50.9257,
+    "3b86e017": 98.9415,
+    "c5e3fb54": 396.3044,
     "42c92c24": 25.9093,
-    "49ecb893": 231.7961,
-    "75a661dd": 25.3849,
-    "8dcb4afa": 227.0285,
     "e52714e6": 383.0821,
-    "1efbd40c": 243.1887
+    "75a661dd": 25.3849,
+    "4edcb7d4": 96.6605,
+    "d3a69cef": 49.7416
   }
 }

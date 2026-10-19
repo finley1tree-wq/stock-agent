@@ -1,119 +1,6 @@
 {
  "orders": [
   {
-   "id": "543d9283",
-   "ticker": "SNOW",
-   "kind": "stop_loss",
-   "price": 348.5817,
-   "status": "cancelled",
-   "created": "2026-10-14 09:32",
-   "created_ts": 1791984760,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $352.27",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 09:34",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "67db9f09",
-   "ticker": "SNOW",
-   "kind": "buy_limit",
-   "price": 341.7019,
-   "status": "cancelled",
-   "created": "2026-10-14 09:32",
-   "created_ts": 1791984760,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $352.27",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "usd": 500.0,
-   "closed": "2026-10-14 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "d0f0802b",
-   "ticker": "CVX",
-   "kind": "take_profit",
-   "price": 220.2807,
-   "status": "cancelled",
-   "created": "2026-10-14 09:32",
-   "created_ts": 1791984760,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $219.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 09:55",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "765030f9",
-   "ticker": "CVX",
-   "kind": "stop_loss",
-   "price": 218.7045,
-   "status": "cancelled",
-   "created": "2026-10-14 09:32",
-   "created_ts": 1791984760,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $219.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 09:53",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "234852d1",
-   "ticker": "CVX",
-   "kind": "buy_limit",
-   "price": 213.2351,
-   "status": "cancelled",
-   "created": "2026-10-14 09:32",
-   "created_ts": 1791984760,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $219.83",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "usd": 500.0,
-   "closed": "2026-10-14 09:55",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "cc24a6ee",
-   "ticker": "ACN",
-   "kind": "take_profit",
-   "price": 215.9817,
-   "status": "filled",
-   "created": "2026-10-14 09:32",
-   "created_ts": 1791984760,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $214.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 09:35"
-  },
-  {
    "id": "603552af",
    "ticker": "ACN",
    "kind": "stop_loss",
@@ -6971,7 +6858,7 @@
    "ticker": "WSM",
    "kind": "take_profit",
    "price": 251.427,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-19 10:33",
    "created_ts": 1792420427,
    "why": "close 100% at +0.3% over the average cost",
@@ -6981,7 +6868,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-19 11:50"
   },
   {
    "id": "65d96546",
@@ -7007,7 +6895,7 @@
    "ticker": "WSM",
    "kind": "buy_limit",
    "price": 243.1887,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-19 10:33",
    "created_ts": 1792420427,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7017,7 +6905,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-19 11:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "da13faa0",
@@ -7406,7 +7296,7 @@
    "ticker": "WSM",
    "kind": "stop_loss",
    "price": 251.064,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-19 11:44",
    "created_ts": 1792424664,
    "why": "close it all at -0.7% under the average cost",
@@ -7416,14 +7306,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-19 11:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "1babce80",
    "ticker": "NXPI",
    "kind": "take_profit",
    "price": 234.9511,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-19 11:45",
    "created_ts": 1792424712,
    "why": "close 100% at +0.4% over the average cost",
@@ -7433,14 +7325,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-19 11:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "49ecb893",
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 231.7961,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-19 11:45",
    "created_ts": 1792424712,
    "why": "close it all at -1.0% under the average cost",
@@ -7450,14 +7344,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-19 11:50"
   },
   {
    "id": "8dcb4afa",
    "ticker": "NXPI",
    "kind": "buy_limit",
    "price": 227.0285,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-19 11:45",
    "created_ts": 1792424712,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7467,8 +7362,112 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
+   "usd": 500.0,
+   "closed": "2026-10-19 11:50",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "4ffc4aac",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 99.933,
+   "status": "working",
+   "created": "2026-10-19 11:51",
+   "created_ts": 1792425086,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $99.65",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3b86e017",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 98.9415,
+   "status": "working",
+   "created": "2026-10-19 11:51",
+   "created_ts": 1792425086,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $99.65",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4edcb7d4",
+   "ticker": "RPM",
+   "kind": "buy_limit",
+   "price": 96.6605,
+   "status": "working",
+   "created": "2026-10-19 11:51",
+   "created_ts": 1792425086,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $99.65",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "usd": 500.0
+  },
+  {
+   "id": "9235dfee",
+   "ticker": "FUL",
+   "kind": "take_profit",
+   "price": 51.422,
+   "status": "working",
+   "created": "2026-10-19 11:51",
+   "created_ts": 1792425086,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $51.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "06882578",
+   "ticker": "FUL",
+   "kind": "stop_loss",
+   "price": 50.9257,
+   "status": "working",
+   "created": "2026-10-19 11:51",
+   "created_ts": 1792425086,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $51.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d3a69cef",
+   "ticker": "FUL",
+   "kind": "buy_limit",
+   "price": 49.7416,
+   "status": "working",
+   "created": "2026-10-19 11:51",
+   "created_ts": 1792425086,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $51.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
    "usd": 500.0
   }
  ],
- "updated": "2026-10-19 11:45"
+ "updated": "2026-10-19 11:51"
 }
