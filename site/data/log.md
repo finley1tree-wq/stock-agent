@@ -1,8 +1,3 @@
-  (GABC excluded: too thinly traded ($7.2M a day) — German American Bancorp, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cg6RZfzLeJszN4CMyMnNo'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25243.87 (+0.98% on $25000.00 in) · cash $23750.71 · realised +250.71
 Decision: nothing at this check. 4 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
@@ -398,3 +393,8 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 MSFT @ $515.01 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25249.80 (+1.00% on $25000.00 in) · cash $4241.32 · realised +241.32
 Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $4000.00 this week
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $234.16] -> $3002.94 (+0.10%) — close it all at -1.0% under the average cost
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [take_profit @ $405.81] -> $3012.24 (+0.41%) — close 100% at +0.3% over the average cost
+## 2026-10-19 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders

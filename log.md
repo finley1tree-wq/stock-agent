@@ -34515,3 +34515,8 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 MSFT @ $515.01 until 2026-10-24 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25249.80 (+1.00% on $25000.00 in) · cash $4241.32 · realised +241.32
 Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $4000.00 this week
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $234.16] -> $3002.94 (+0.10%) — close it all at -1.0% under the average cost
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [take_profit @ $405.81] -> $3012.24 (+0.41%) — close 100% at +0.3% over the average cost
+## 2026-10-19 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders
