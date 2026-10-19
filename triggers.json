@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "9c2819f1",
-   "ticker": "SNOW",
-   "kind": "stop_loss",
-   "price": 353.02,
-   "status": "filled",
-   "created": "2026-10-14 09:34",
-   "created_ts": 1791984884,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $352.27",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 09:35"
-  },
-  {
    "id": "6201567b",
    "ticker": "KO",
    "kind": "stop_loss",
@@ -7424,7 +7406,7 @@
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 389.7595,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-19 12:50",
    "created_ts": 1792428626,
    "why": "close it all at -0.9% under the average cost",
@@ -7434,7 +7416,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-24",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-19 13:04",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "9febed5a",
@@ -7452,7 +7436,24 @@
    ],
    "good_until": "2026-10-24",
    "usd": 500.0
+  },
+  {
+   "id": "2e00c827",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 393.668,
+   "status": "working",
+   "created": "2026-10-19 13:04",
+   "created_ts": 1792429499,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $393.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-24",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-19 13:02"
+ "updated": "2026-10-19 13:05"
 }

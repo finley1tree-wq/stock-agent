@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-19T12:51-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-19T13:05-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "2e00c827",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 393.668,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 393.98,
+   "pct_away": -0.08,
+   "good_until": "2026-10-24",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b6bee736",
+   "ticker": "ADI",
+   "kind": "take_profit",
+   "price": 394.5762,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 393.98,
+   "pct_away": 0.15,
+   "good_until": "2026-10-24",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "9235dfee",
    "ticker": "FUL",
    "kind": "take_profit",
@@ -185,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 51.35,
-   "pct_away": 0.14,
+   "last": 51.34,
+   "pct_away": 0.16,
    "good_until": "2026-10-24",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -202,27 +236,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 533.74,
-   "pct_away": 0.17,
-   "good_until": "2026-10-24",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "2def6675",
-   "ticker": "WSM",
-   "kind": "take_profit",
-   "price": 249.3184,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 248.73,
+   "last": 533.36,
    "pct_away": 0.24,
    "good_until": "2026-10-24",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 99.65,
-   "pct_away": 0.28,
+   "last": 99.58,
+   "pct_away": 0.35,
    "good_until": "2026-10-24",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -246,15 +263,15 @@
    ]
   },
   {
-   "id": "b6bee736",
-   "ticker": "ADI",
+   "id": "2def6675",
+   "ticker": "WSM",
    "kind": "take_profit",
-   "price": 394.5762,
+   "price": 249.3184,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 392.94,
-   "pct_away": 0.42,
+   "last": 248.35,
+   "pct_away": 0.39,
    "good_until": "2026-10-24",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -270,8 +287,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 230.65,
-   "pct_away": 0.52,
+   "last": 230.58,
+   "pct_away": 0.55,
    "good_until": "2026-10-24",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -287,8 +304,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 533.74,
-   "pct_away": -0.66,
+   "last": 533.36,
+   "pct_away": -0.59,
    "good_until": "2026-10-24",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -304,8 +321,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 99.65,
-   "pct_away": -0.71,
+   "last": 99.58,
+   "pct_away": -0.64,
    "good_until": "2026-10-24",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -321,27 +338,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 248.73,
-   "pct_away": -0.79,
+   "last": 248.35,
+   "pct_away": -0.64,
    "good_until": "2026-10-24",
    "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8d54730e",
-   "ticker": "ADI",
-   "kind": "stop_loss",
-   "price": 389.7595,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 392.94,
-   "pct_away": -0.81,
-   "good_until": "2026-10-24",
-   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -355,8 +355,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 51.35,
-   "pct_away": -0.83,
+   "last": 51.34,
+   "pct_away": -0.81,
    "good_until": "2026-10-24",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -372,8 +372,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 230.65,
-   "pct_away": -0.85,
+   "last": 230.58,
+   "pct_away": -0.82,
    "good_until": "2026-10-24",
    "why": "close it all at -1.0% under the average cost",
    "signals": [
@@ -440,42 +440,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 230.65,
-   "pct_away": -2.87,
-   "good_until": "2026-10-24",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9febed5a",
-   "ticker": "ADI",
-   "kind": "buy_limit",
-   "price": 381.404,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 392.94,
-   "pct_away": -2.94,
-   "good_until": "2026-10-24",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4edcb7d4",
-   "ticker": "RPM",
-   "kind": "buy_limit",
-   "price": 96.6605,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 99.65,
-   "pct_away": -3.0,
+   "last": 230.58,
+   "pct_away": -2.84,
    "good_until": "2026-10-24",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -491,8 +457,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 248.73,
-   "pct_away": -3.05,
+   "last": 248.35,
+   "pct_away": -2.91,
+   "good_until": "2026-10-24",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "4edcb7d4",
+   "ticker": "RPM",
+   "kind": "buy_limit",
+   "price": 96.6605,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 99.58,
+   "pct_away": -2.93,
    "good_until": "2026-10-24",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -508,8 +491,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 533.74,
-   "pct_away": -3.06,
+   "last": 533.36,
+   "pct_away": -2.99,
    "good_until": "2026-10-24",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -525,8 +508,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 51.35,
-   "pct_away": -3.13,
+   "last": 51.34,
+   "pct_away": -3.11,
+   "good_until": "2026-10-24",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9febed5a",
+   "ticker": "ADI",
+   "kind": "buy_limit",
+   "price": 381.404,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 393.98,
+   "pct_away": -3.19,
    "good_until": "2026-10-24",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
