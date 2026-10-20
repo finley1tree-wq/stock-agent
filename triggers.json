@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "3a7628e9",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 538.2261,
-   "status": "cancelled",
-   "created": "2026-10-14 12:04",
-   "created_ts": 1791993861,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $536.9",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 13:34",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "d846315d",
    "ticker": "MSFT",
    "kind": "stop_loss",
@@ -7286,7 +7267,7 @@
    "ticker": "MSFT",
    "kind": "stop_loss",
    "price": 528.8963,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-20 13:01",
    "created_ts": 1792515703,
    "why": "close it all at -0.6% under the average cost",
@@ -7296,7 +7277,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-25",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-20 13:12",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "14ae5b1f",
@@ -7467,7 +7450,24 @@
    ],
    "good_until": "2026-10-25",
    "usd": 500.0
+  },
+  {
+   "id": "27cf662f",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 532.45,
+   "status": "working",
+   "created": "2026-10-20 13:12",
+   "created_ts": 1792516350,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $532.03",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-20 13:10"
+ "updated": "2026-10-20 13:12"
 }
