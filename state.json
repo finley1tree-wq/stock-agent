@@ -1,11 +1,11 @@
 {
   "week": "2026-W43",
-  "spent": 3080.91,
+  "spent": 2327.39,
   "deployed": 60000.0,
   "by_ticker": {
     "RPM": 795.07,
     "GTES": 52.54,
-    "NXPI": 762.79,
+    "NXPI": 9.27,
     "IBRX": 8.97,
     "FUL": 3.96,
     "RIG": 781.92,
@@ -1826,23 +1826,45 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 3.156366,
+      "status": "filled",
+      "price": 238.73,
+      "proceeds": 753.52,
+      "realized_pnl": 3.52,
+      "realized_pct": 0.47,
+      "date": "2026-10-20",
+      "time_et": "11:55",
+      "ts": 1792511700,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $237.62",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-20",
-  "spent_today": 3014.9,
+  "spent_today": 2261.38,
   "deployed_today": 22500.0,
   "orders_today": 15,
-  "sells_today": 11,
+  "sells_today": 12,
   "sold_today": [
     "ADI",
     "RIG",
     "WSM",
     "MSFT",
     "RPM",
-    "IBRX"
+    "IBRX",
+    "NXPI"
   ],
   "sold_ts": {
-    "NXPI": 1792433289,
+    "NXPI": 1792511736,
     "ADI": 1792511145,
     "MSFT": 1792503686,
     "IBRX": 1792510176,
@@ -1852,8 +1874,8 @@
     "FUL": 1792430492,
     "RIG": 1792508406
   },
-  "last_publish_ts": 1792511634,
-  "last_check_ts": 1792511682,
+  "last_publish_ts": 1792511735,
+  "last_check_ts": 1792511782,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -1892,14 +1914,12 @@
       }
     }
   },
-  "last_bar_ts": 1792511400,
+  "last_bar_ts": 1792511700,
   "last_decision_ts": 1792511682,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "49a8e6bc": 5.8246,
-    "5acd0f97": 237.92,
-    "cbe78f42": 238.5824,
     "cf98aad9": 532.8746,
     "bb39ca5b": 99.6284,
     "39ddc367": 528.4888,
@@ -1907,7 +1927,6 @@
     "3c1e2d81": 5.7385,
     "0b43cf43": 97.3492,
     "ebc40cca": 515.6714,
-    "6056b154": 230.4914,
     "466423eb": 5.626
   }
 }
