@@ -71044,7 +71044,9 @@
     "code_version": "19bd6d5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.23
+    "ret_now": 0.29,
+    "ret_final": 0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -71184,5 +71186,32 @@
     "hour_et": 14,
     "code_version": "5ea3d9e",
     "hold_minutes": 68
+  },
+  {
+    "symbol": "RPM",
+    "side": "sell",
+    "qty": 7.520314,
+    "status": "filled",
+    "price": 100.02,
+    "proceeds": 752.2,
+    "realized_pnl": 2.2,
+    "realized_pct": 0.29,
+    "date": "2026-10-20",
+    "time_et": "14:33",
+    "ts": 1792521000,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $99.73",
+    "trigger": "take_profit",
+    "hour_et": 14,
+    "code_version": "52d5af6",
+    "hold_minutes": 82
   }
 ]
