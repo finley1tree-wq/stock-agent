@@ -36560,3 +36560,20 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on WSM: position closed)
 - SELL 100% WSM [take_profit @ $255.28] -> $3027.98 (+0.93%) — close 100% at +0.3% over the average cost
 ## 2026-10-20 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $528.79] -> $2981.46 (-0.62%) — close it all at -0.6% under the average cost
+## 2026-10-20 09:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-20 09:42 ET (Tuesday) — week 2026-W43 — budget left $24932.62 (today $12000.00 put to work, 4 buys, 4 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDaxozmBb1HVvNskc2aE'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25173.98 (+0.70% on $25000.00 in) · cash $25173.98 · realised +173.98
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)

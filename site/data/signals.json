@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-20T09:40-04:00",
+ "asOf": "2026-10-20T09:41-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -176,59 +176,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "1fd4354a",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 529.0525,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 529.92,
-   "pct_away": -0.16,
-   "good_until": "2026-10-25",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "58458288",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 533.2878,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 529.92,
-   "pct_away": 0.64,
-   "good_until": "2026-10-25",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8c69ff9e",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 516.1176,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 529.92,
-   "pct_away": -2.6,
-   "good_until": "2026-10-25",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,957 idle, so opened 2: MSFT, WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "congress_trades": [

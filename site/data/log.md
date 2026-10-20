@@ -1,6 +1,3 @@
-  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
   (MAGN excluded: too thinly traded ($4.6M a day) — Magnera Corporation)
   (no price for LNBIX — excluded this check)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on WSM: position closed)
 - SELL 100% WSM [take_profit @ $255.28] -> $3027.98 (+0.93%) — close 100% at +0.3% over the average cost
 ## 2026-10-20 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [stop_loss @ $528.79] -> $2981.46 (-0.62%) — close it all at -0.6% under the average cost
+## 2026-10-20 09:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders

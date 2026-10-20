@@ -70106,7 +70106,9 @@
     "code_version": "1ec11ab",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": -0.62,
+    "ret_final": -0.62,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -70137,7 +70139,9 @@
     "code_version": "1ec11ab",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.48
+    "ret_now": 0.93,
+    "ret_final": 0.93,
+    "ret_src": "realised"
   },
   {
     "symbol": "RIG",
@@ -70190,6 +70194,34 @@
     "evidence": "average cost $252.92",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "98d4439"
+    "code_version": "98d4439",
+    "hold_minutes": 3
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": 5.638288,
+    "status": "filled",
+    "price": 528.79,
+    "proceeds": 2981.46,
+    "realized_pnl": -18.54,
+    "realized_pct": -0.62,
+    "date": "2026-10-20",
+    "time_et": "09:41",
+    "ts": 1792503600,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $532.08",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "d15090f",
+    "hold_minutes": 3
   }
 ]
