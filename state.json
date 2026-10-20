@@ -1,7 +1,7 @@
 {
   "week": "2026-W43",
-  "spent": 2330.39,
-  "deployed": 58500.0,
+  "spent": 3080.39,
+  "deployed": 59250.0,
   "by_ticker": {
     "RPM": 795.07,
     "GTES": 52.54,
@@ -10,12 +10,13 @@
     "FUL": 3.96,
     "RIG": 31.92,
     "MSFT": 768.54,
-    "WSM": 5.95
+    "WSM": 5.95,
+    "ADI": 750.0
   },
   "deployed_by_ticker": {
     "WSM": 8250.0,
     "NXPI": 6000.0,
-    "ADI": 9750.0,
+    "ADI": 10500.0,
     "RPM": 8250.0,
     "GTES": 5250.0,
     "IBRX": 6750.0,
@@ -1760,12 +1761,34 @@
       ],
       "evidence": "average cost $8.59",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "ADI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.878711,
+      "price": 399.21,
+      "date": "2026-10-20",
+      "time_et": "11:36",
+      "ts": 1792510614,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +4.2% over the month; 75% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-20",
-  "spent_today": 2264.38,
-  "deployed_today": 21000.0,
-  "orders_today": 13,
+  "spent_today": 3014.38,
+  "deployed_today": 21750.0,
+  "orders_today": 14,
   "sells_today": 10,
   "sold_today": [
     "ADI",
@@ -1786,8 +1809,8 @@
     "FUL": 1792430492,
     "RIG": 1792508406
   },
-  "last_publish_ts": 1792510176,
-  "last_check_ts": 1792510525,
+  "last_publish_ts": 1792510614,
+  "last_check_ts": 1792510614,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -1816,7 +1839,7 @@
         "ratchet": "on"
       }
     },
-    "IBRX": {
+    "ADI": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -1827,18 +1850,21 @@
     }
   },
   "last_bar_ts": 1792510500,
-  "last_decision_ts": 1792510433,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792510614,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "cf98aad9": 532.8746,
-    "95bdcfc6": 100.6531,
-    "39ddc367": 528.4888,
+    "291f6497": 400.6591,
     "bb39ca5b": 99.6284,
-    "cbe78f42": 238.5824,
+    "39ddc367": 528.4888,
+    "95bdcfc6": 100.6531,
     "a7d9f206": 235.2129,
+    "cbe78f42": 238.5824,
+    "331e8dc7": 395.5852,
     "6056b154": 230.4914,
     "0b43cf43": 97.3492,
-    "ebc40cca": 515.6714
+    "ebc40cca": 515.6714,
+    "4975501c": 387.2337
   }
 }
