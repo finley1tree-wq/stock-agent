@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-10-20 14:22 ET
+# Pretend portfolio — 2026-10-20 14:25 ET
 
-**Equity $25164.41** on $25000.00 put in → **+0.66%**  
-Cash $23667.77 · Unrealised -3.36 · Realised +167.77
+**Equity $25164.56** on $25000.00 put in → **+0.66%**  
+Cash $23667.77 · Unrealised -3.21 · Realised +167.77
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| RPM | 3.0% | $751.13 | $99.73 | $99.88 | +0.15% | 0d |
+| RPM | 3.0% | $751.28 | $99.73 | $99.90 | +0.17% | 0d |
 | RIG | 3.0% | $745.51 | $5.84 | $5.81 | -0.60% | 0d |
 
 ## Last fills
