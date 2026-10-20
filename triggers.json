@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "389513df",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 520.793,
-   "status": "cancelled",
-   "created": "2026-10-14 12:04",
-   "created_ts": 1791993861,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $536.9",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "usd": 500.0,
-   "closed": "2026-10-14 13:34",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "d26df520",
-   "ticker": "ADI",
-   "kind": "take_profit",
-   "price": 407.2483,
-   "status": "cancelled",
-   "created": "2026-10-14 12:04",
-   "created_ts": 1791993861,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $406.01",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 13:34",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "ffacf774",
-   "ticker": "ADI",
-   "kind": "stop_loss",
-   "price": 402.9162,
-   "status": "cancelled",
-   "created": "2026-10-14 12:04",
-   "created_ts": 1791993861,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $406.01",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 13:34",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "b7597ee5",
    "ticker": "ADI",
    "kind": "buy_limit",
@@ -7472,7 +7415,58 @@
    ],
    "good_until": "2026-10-25",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "fd54ef35",
+   "ticker": "RIG",
+   "kind": "take_profit",
+   "price": 5.8646,
+   "status": "working",
+   "created": "2026-10-20 13:33",
+   "created_ts": 1792517615,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $5.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a6c26478",
+   "ticker": "RIG",
+   "kind": "stop_loss",
+   "price": 5.7784,
+   "status": "working",
+   "created": "2026-10-20 13:33",
+   "created_ts": 1792517615,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $5.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0ca29e78",
+   "ticker": "RIG",
+   "kind": "buy_limit",
+   "price": 5.6648,
+   "status": "working",
+   "created": "2026-10-20 13:33",
+   "created_ts": 1792517615,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $5.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-20 13:30"
+ "updated": "2026-10-20 13:33"
 }

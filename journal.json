@@ -70912,7 +70912,7 @@
     "code_version": "bfdb81b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.04
   },
   {
     "symbol": "MSFT",
@@ -70976,7 +70976,7 @@
     "code_version": "bfdb81b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16
+    "ret_now": 0.24
   },
   {
     "symbol": "NXPI",
@@ -71007,7 +71007,7 @@
     "code_version": "bfdb81b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16
+    "ret_now": 0.25
   },
   {
     "symbol": "RPM",
@@ -71038,7 +71038,7 @@
     "code_version": "19bd6d5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": 0.05
   },
   {
     "symbol": "MSFT",
@@ -71066,5 +71066,35 @@
     "hour_et": 13,
     "code_version": "026cebe",
     "hold_minutes": 18
+  },
+  {
+    "symbol": "RIG",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 128.314821,
+    "price": 5.84,
+    "date": "2026-10-20",
+    "time_et": "13:33",
+    "ts": 1792517615,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +7.1% over the month; 32% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 5.84,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 7.06,
+    "hour_et": 13,
+    "code_version": "1121ae0",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
