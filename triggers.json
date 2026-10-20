@@ -1,118 +1,6 @@
 {
  "orders": [
   {
-   "id": "e41df665",
-   "ticker": "SNOW",
-   "kind": "take_profit",
-   "price": 351.6914,
-   "status": "filled",
-   "created": "2026-10-14 10:21",
-   "created_ts": 1791987712,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $350.21",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 10:25"
-  },
-  {
-   "id": "87fa0344",
-   "ticker": "SNOW",
-   "kind": "stop_loss",
-   "price": 346.5083,
-   "status": "cancelled",
-   "created": "2026-10-14 10:21",
-   "created_ts": 1791987712,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $350.21",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 10:22",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "2973f11d",
-   "ticker": "SNOW",
-   "kind": "buy_limit",
-   "price": 339.7037,
-   "status": "cancelled",
-   "created": "2026-10-14 10:21",
-   "created_ts": 1791987712,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $350.21",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "usd": 500.0,
-   "closed": "2026-10-14 10:25",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "f672856b",
-   "ticker": "KO",
-   "kind": "take_profit",
-   "price": 90.8661,
-   "status": "filled",
-   "created": "2026-10-14 10:21",
-   "created_ts": 1791987712,
-   "why": "close 100% at +0.1% over the average cost",
-   "evidence": "average cost $90.73",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 10:54"
-  },
-  {
-   "id": "ca5010bc",
-   "ticker": "KO",
-   "kind": "stop_loss",
-   "price": 90.3916,
-   "status": "cancelled",
-   "created": "2026-10-14 10:21",
-   "created_ts": 1791987712,
-   "why": "close it all at -0.4% under the average cost",
-   "evidence": "average cost $90.73",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 10:50",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "5e16a7a2",
-   "ticker": "KO",
-   "kind": "buy_limit",
-   "price": 88.0081,
-   "status": "cancelled",
-   "created": "2026-10-14 10:21",
-   "created_ts": 1791987712,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $90.73",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "usd": 500.0,
-   "closed": "2026-10-14 10:54",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "56c03382",
    "ticker": "PG",
    "kind": "take_profit",
@@ -7493,7 +7381,109 @@
    "usd": 500.0,
    "closed": "2026-10-19 14:00",
    "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
+  },
+  {
+   "id": "fdae4e0f",
+   "ticker": "ADI",
+   "kind": "take_profit",
+   "price": 391.6677,
+   "status": "working",
+   "created": "2026-10-20 09:32",
+   "created_ts": 1792503160,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $390.29",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "762a4cfe",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 386.8476,
+   "status": "working",
+   "created": "2026-10-20 09:32",
+   "created_ts": 1792503160,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $390.29",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c1623eab",
+   "ticker": "ADI",
+   "kind": "buy_limit",
+   "price": 378.5813,
+   "status": "working",
+   "created": "2026-10-20 09:32",
+   "created_ts": 1792503160,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $390.29",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "usd": 500.0
+  },
+  {
+   "id": "f326b12f",
+   "ticker": "RIG",
+   "kind": "take_profit",
+   "price": 5.9734,
+   "status": "working",
+   "created": "2026-10-20 09:32",
+   "created_ts": 1792503160,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $5.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "74262fce",
+   "ticker": "RIG",
+   "kind": "stop_loss",
+   "price": 5.8914,
+   "status": "working",
+   "created": "2026-10-20 09:32",
+   "created_ts": 1792503160,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $5.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9d2d894c",
+   "ticker": "RIG",
+   "kind": "buy_limit",
+   "price": 5.7715,
+   "status": "working",
+   "created": "2026-10-20 09:32",
+   "created_ts": 1792503160,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $5.95",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-19 15:57"
+ "updated": "2026-10-20 09:32"
 }
