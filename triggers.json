@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "ad4942e8",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 431.281,
-   "status": "filled",
-   "created": "2026-10-14 11:37",
-   "created_ts": 1791992233,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $434.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 12:26"
-  },
-  {
-   "id": "1239eee7",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 421.3001,
-   "status": "cancelled",
-   "created": "2026-10-14 11:37",
-   "created_ts": 1791992233,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $434.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "usd": 500.0,
-   "closed": "2026-10-14 12:26",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "13175409",
-   "ticker": "CVX",
-   "kind": "take_profit",
-   "price": 220.7015,
-   "status": "filled",
-   "created": "2026-10-14 11:42",
-   "created_ts": 1791992569,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $220.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 11:56"
-  },
-  {
    "id": "491d7892",
    "ticker": "CVX",
    "kind": "stop_loss",
@@ -7407,7 +7352,7 @@
    "ticker": "ADI",
    "kind": "take_profit",
    "price": 400.6591,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-20 11:36",
    "created_ts": 1792510614,
    "why": "close 100% at +0.4% over the average cost",
@@ -7417,7 +7362,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-25",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-20 11:45",
+   "cancel_reason": "position closed"
   },
   {
    "id": "331e8dc7",
@@ -7443,7 +7390,7 @@
    "ticker": "ADI",
    "kind": "buy_limit",
    "price": 387.2337,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-20 11:36",
    "created_ts": 1792510614,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7453,14 +7400,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-25",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-20 11:45",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a969b7c6",
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 399.654,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-20 11:42",
    "created_ts": 1792510964,
    "why": "close it all at -0.9% under the average cost",
@@ -7470,8 +7419,60 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-25",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-20 11:45"
+  },
+  {
+   "id": "49a8e6bc",
+   "ticker": "RIG",
+   "kind": "take_profit",
+   "price": 5.8246,
+   "status": "working",
+   "created": "2026-10-20 11:45",
+   "created_ts": 1792511147,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $5.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "3c1e2d81",
+   "ticker": "RIG",
+   "kind": "stop_loss",
+   "price": 5.7385,
+   "status": "working",
+   "created": "2026-10-20 11:45",
+   "created_ts": 1792511147,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $5.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "466423eb",
+   "ticker": "RIG",
+   "kind": "buy_limit",
+   "price": 5.626,
+   "status": "working",
+   "created": "2026-10-20 11:45",
+   "created_ts": 1792511147,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $5.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-20 11:42"
+ "updated": "2026-10-20 11:45"
 }

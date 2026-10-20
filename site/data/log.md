@@ -1,23 +1,3 @@
-portfolio: equity $25148.01 (+0.59% on $25000.00 in) · cash $22900.69 · realised +150.69
-Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22659.32 this week
-  (cancelled 2 standing order(s) on IBRX: position closed)
-- SELL 100% IBRX [take_profit @ $8.71] -> $757.27 (+0.97%) — close 100% at +1.0% over the average cost
-## 2026-10-20 10:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-20 10:29 ET (Tuesday) — week 2026-W43 — budget left $23416.59 (today $17250.00 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDeZQTykxH8MNUW2usZk'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,417 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +6.0% over the month; 68% of today's range
-~ WORKING take_profit 100% MSFT @ $532.87 until 2026-10-25 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% MSFT @ $528.49 until 2026-10-25 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 MSFT @ $515.67 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25150.48 (+0.60% on $25000.00 in) · cash $22907.96 · realised +157.96
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22666.59 this week
 
@@ -398,3 +378,23 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% ADI @ $399.65 until 2026-10-25 — close it all at -0.9% under the average cost
 portfolio: equity $25160.87 (+0.64% on $25000.00 in) · cash $22160.98 · realised +160.98
 Decision: nothing at this check. 12 standing order(s) working.
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [stop_loss @ $398.94] -> $749.48 (-0.07%) — close it all at -0.9% under the average cost
+## 2026-10-20 11:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-20 11:45 ET (Tuesday) — week 2026-W43 — budget left $22669.09 (today $21750.00 put to work, 14 buys, 11 sells) — SIM (pretend money) via sim
+  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDkPQm19eyNQYmf5kRrF'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,669 idle, so opened 1: RIG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 RIG [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +6.5% over the month; 21% of today's range
+~ WORKING take_profit 100% RIG @ $5.82 until 2026-10-25 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% RIG @ $5.74 until 2026-10-25 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 RIG @ $5.63 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25157.38 (+0.63% on $25000.00 in) · cash $22160.47 · realised +160.47
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21919.09 this week
