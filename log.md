@@ -37266,3 +37266,17 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on NXPI: position closed)
 - SELL 100% NXPI [take_profit @ $238.73] -> $753.52 (+0.47%) — close 100% at +0.4% over the average cost
 ## 2026-10-20 11:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-20 11:57 ET (Tuesday) — week 2026-W43 — budget left $22672.61 (today $22500.00 put to work, 15 buys, 12 sells) — SIM (pretend money) via sim
+  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDmJc86XYji4VCye7XD6'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25161.78 (+0.65% on $25000.00 in) · cash $22913.99 · realised +163.99
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
