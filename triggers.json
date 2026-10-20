@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "459ae060",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 435.5505,
-   "status": "cancelled",
-   "created": "2026-10-14 11:37",
-   "created_ts": 1791992233,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $434.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 12:26",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "ad4942e8",
    "ticker": "TSM",
    "kind": "stop_loss",
@@ -7443,7 +7424,7 @@
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 395.5852,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-20 11:36",
    "created_ts": 1792510614,
    "why": "close it all at -0.9% under the average cost",
@@ -7453,7 +7434,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-25",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-20 11:42",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "4975501c",
@@ -7471,7 +7454,24 @@
    ],
    "good_until": "2026-10-25",
    "usd": 500.0
+  },
+  {
+   "id": "a969b7c6",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 399.654,
+   "status": "working",
+   "created": "2026-10-20 11:42",
+   "created_ts": 1792510964,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $399.21",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-20 11:39"
+ "updated": "2026-10-20 11:42"
 }
