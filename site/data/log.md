@@ -1,6 +1,3 @@
-
-## 2026-10-19 14:55 ET (Monday) — week 2026-W43 — budget left $24183.18 (today $37500.00 put to work, 29 buys, 28 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
   (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
   (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $245.33 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25178.62 (+0.71% on $25000.00 in) · cash $16198.05 · realised +198.05
 Done: 0 sell(s), 2 buy(s); 9 order(s) working; budget left $15956.68 this week
+  (cancelled 2 standing order(s) on RIG: position closed)
+- SELL 100% RIG [stop_loss @ $5.89] -> $2966.50 (-1.12%) — close it all at -1.0% under the average cost
+## 2026-10-20 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders

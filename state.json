@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 9043.32,
+  "spent": 6076.82,
   "deployed": 49500.0,
   "by_ticker": {
     "RPM": 21.77,
@@ -9,7 +9,7 @@
     "IBRX": 23.54,
     "FUL": 3.96,
     "WSM": 3005.86,
-    "RIG": 3000.0,
+    "RIG": 33.5,
     "MSFT": 3000.0
   },
   "deployed_by_ticker": {
@@ -1373,15 +1373,37 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "RIG",
+      "side": "sell",
+      "qty": 503.778507,
+      "status": "filled",
+      "price": 5.89,
+      "proceeds": 2966.5,
+      "realized_pnl": -33.5,
+      "realized_pct": -1.12,
+      "date": "2026-10-20",
+      "time_et": "09:36",
+      "ts": 1792503300,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $5.95",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-20",
-  "spent_today": 8977.31,
+  "spent_today": 6010.81,
   "deployed_today": 12000.0,
   "orders_today": 4,
-  "sells_today": 1,
+  "sells_today": 2,
   "sold_today": [
-    "ADI"
+    "ADI",
+    "RIG"
   ],
   "sold_ts": {
     "NXPI": 1792433289,
@@ -1391,10 +1413,11 @@
     "GTES": 1792436890,
     "WSM": 1792430446,
     "RPM": 1792430492,
-    "FUL": 1792430492
+    "FUL": 1792430492,
+    "RIG": 1792503411
   },
-  "last_publish_ts": 1792503364,
-  "last_check_ts": 1792503364,
+  "last_publish_ts": 1792503410,
+  "last_check_ts": 1792503456,
   "exp_arm": {
     "RIG": {
       "params": {
@@ -1429,14 +1452,11 @@
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "58458288": 533.2878,
     "202e2644": 253.6509,
-    "74262fce": 5.8914,
+    "58458288": 533.2878,
     "1fd4354a": 529.0525,
     "9b264307": 251.0939,
-    "f326b12f": 5.9734,
-    "9d2d894c": 5.7715,
-    "2cc2ec00": 245.3324,
-    "8c69ff9e": 516.1176
+    "8c69ff9e": 516.1176,
+    "2cc2ec00": 245.3324
   }
 }
