@@ -1,7 +1,7 @@
 {
   "week": "2026-W43",
-  "spent": 1590.68,
-  "deployed": 54000.0,
+  "spent": 2340.68,
+  "deployed": 54750.0,
   "by_ticker": {
     "RPM": 45.07,
     "GTES": 52.54,
@@ -9,10 +9,11 @@
     "IBRX": 773.54,
     "FUL": 3.96,
     "RIG": 783.5,
-    "MSFT": 18.54
+    "MSFT": 18.54,
+    "WSM": 750.0
   },
   "deployed_by_ticker": {
-    "WSM": 7500.0,
+    "WSM": 8250.0,
     "NXPI": 5250.0,
     "ADI": 9000.0,
     "RPM": 7500.0,
@@ -1522,12 +1523,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "WSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.938848,
+      "price": 255.2,
+      "date": "2026-10-20",
+      "time_et": "10:26",
+      "ts": 1792506377,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +12.3% over the month; 68% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-20",
-  "spent_today": 1524.67,
-  "deployed_today": 16500.0,
-  "orders_today": 7,
+  "spent_today": 2274.67,
+  "deployed_today": 17250.0,
+  "orders_today": 8,
   "sells_today": 5,
   "sold_today": [
     "ADI",
@@ -1547,8 +1570,8 @@
     "FUL": 1792430492,
     "RIG": 1792503411
   },
-  "last_publish_ts": 1792506230,
-  "last_check_ts": 1792506230,
+  "last_publish_ts": 1792506377,
+  "last_check_ts": 1792506377,
   "exp_arm": {
     "IBRX": {
       "params": {
@@ -1567,18 +1590,30 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "WSM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
-  "last_bar_ts": 1792506000,
-  "last_decision_ts": 1792506230,
+  "last_bar_ts": 1792506300,
+  "last_decision_ts": 1792506377,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "980526d8": 5.8146,
+    "41e0903d": 255.9579,
+    "c9c19d32": 253.3039,
     "86559bb1": 5.7285,
+    "980526d8": 5.8146,
     "ada93800": 8.7086,
     "eee6d991": 8.3986,
     "40c4e755": 5.6163,
+    "cef6a11c": 247.544,
     "8b4cb2be": 8.3614
   }
 }

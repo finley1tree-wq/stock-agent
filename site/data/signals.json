@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-20T10:24-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,909 idle, so opened 2: IBRX, RIG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "asOf": "2026-10-20T10:26-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,409 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,17 +178,34 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "980526d8",
-   "ticker": "RIG",
+   "id": "41e0903d",
+   "ticker": "WSM",
    "kind": "take_profit",
-   "price": 5.8146,
+   "price": 255.9579,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 5.78,
-   "pct_away": 0.6,
+   "last": 255.1,
+   "pct_away": 0.34,
    "good_until": "2026-10-25",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c9c19d32",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 253.3039,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 255.1,
+   "pct_away": -0.7,
+   "good_until": "2026-10-25",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,10 +219,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 5.78,
-   "pct_away": -0.89,
+   "last": 5.77,
+   "pct_away": -0.72,
    "good_until": "2026-10-25",
    "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "980526d8",
+   "ticker": "RIG",
+   "kind": "take_profit",
+   "price": 5.8146,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 5.77,
+   "pct_away": 0.77,
+   "good_until": "2026-10-25",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +287,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 5.78,
-   "pct_away": -2.83,
+   "last": 5.77,
+   "pct_away": -2.66,
+   "good_until": "2026-10-25",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "cef6a11c",
+   "ticker": "WSM",
+   "kind": "buy_limit",
+   "price": 247.544,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 255.1,
+   "pct_away": -2.96,
    "good_until": "2026-10-25",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -280,7 +331,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,909 idle, so opened 2: IBRX, RIG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,409 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -348,13 +399,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 382,
+  "decisions_graded": 381,
   "decisions_with_buys_graded": 56,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.26,
   "chosen_avg_pct": -0.22,
   "skipped_avg_pct": 0.04,
-  "idle_universe_avg_pct": 0.08,
+  "idle_universe_avg_pct": 0.07,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.01,
   "checks_that_bought_everything": 0,
@@ -449,7 +500,7 @@
     "n": 1
    }
   },
-  "idle_checks": 337,
+  "idle_checks": 336,
   "blocked_checks": 0,
   "idle_share": 0.84,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1985,5 +2036,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-20T10:24-04:00"
+ "signalsAsOf": "2026-10-20T10:26-04:00"
 }
