@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 2327.39,
+  "spent": 1577.49,
   "deployed": 60000.0,
   "by_ticker": {
     "RPM": 795.07,
@@ -9,7 +9,7 @@
     "IBRX": 8.97,
     "FUL": 3.96,
     "RIG": 781.92,
-    "MSFT": 768.54,
+    "MSFT": 18.64,
     "WSM": 5.95,
     "ADI": 0.52
   },
@@ -1847,13 +1847,33 @@
       ],
       "evidence": "average cost $237.62",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 1.410792,
+      "status": "filled",
+      "price": 531.54,
+      "proceeds": 749.9,
+      "realized_pnl": -0.1,
+      "realized_pct": -0.01,
+      "date": "2026-10-20",
+      "time_et": "11:59",
+      "ts": 1792511956,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, +0.01% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-20",
-  "spent_today": 2261.38,
+  "spent_today": 1511.48,
   "deployed_today": 22500.0,
   "orders_today": 15,
-  "sells_today": 12,
+  "sells_today": 13,
   "sold_today": [
     "ADI",
     "RIG",
@@ -1866,7 +1886,7 @@
   "sold_ts": {
     "NXPI": 1792511736,
     "ADI": 1792511145,
-    "MSFT": 1792503686,
+    "MSFT": 1792511957,
     "IBRX": 1792510176,
     "GTES": 1792436890,
     "WSM": 1792509268,
@@ -1874,8 +1894,8 @@
     "FUL": 1792430492,
     "RIG": 1792508406
   },
-  "last_publish_ts": 1792511735,
-  "last_check_ts": 1792511869,
+  "last_publish_ts": 1792511956,
+  "last_check_ts": 1792511956,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -1920,13 +1940,10 @@
   "autopiloted": true,
   "book_px": {
     "49a8e6bc": 5.8246,
-    "cf98aad9": 532.8746,
     "bb39ca5b": 99.6284,
-    "39ddc367": 528.4888,
     "95bdcfc6": 100.6531,
     "3c1e2d81": 5.7385,
     "0b43cf43": 97.3492,
-    "ebc40cca": 515.6714,
     "466423eb": 5.626
   }
 }
