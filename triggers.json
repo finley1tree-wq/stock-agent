@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "eb6e5aa0",
-   "ticker": "AMGN",
-   "kind": "take_profit",
-   "price": 426.0746,
-   "status": "filled",
-   "created": "2026-10-14 10:42",
-   "created_ts": 1791988947,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $424.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 10:57"
-  },
-  {
-   "id": "2ae10b86",
-   "ticker": "AMGN",
-   "kind": "stop_loss",
-   "price": 422.1014,
-   "status": "cancelled",
-   "created": "2026-10-14 10:42",
-   "created_ts": 1791988947,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $424.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 10:57",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "fe516bc3",
-   "ticker": "AMGN",
-   "kind": "buy_limit",
-   "price": 412.1918,
-   "status": "cancelled",
-   "created": "2026-10-14 10:42",
-   "created_ts": 1791988947,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $424.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "usd": 500.0,
-   "closed": "2026-10-14 10:57",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "e39b1bda",
    "ticker": "TSM",
    "kind": "stop_loss",
@@ -7476,7 +7420,58 @@
    ],
    "good_until": "2026-10-25",
    "usd": 500.0
+  },
+  {
+   "id": "bae9f7e5",
+   "ticker": "ADI",
+   "kind": "take_profit",
+   "price": 400.6271,
+   "status": "working",
+   "created": "2026-10-20 10:35",
+   "created_ts": 1792506916,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $399.19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c6af85fb",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 395.6013,
+   "status": "working",
+   "created": "2026-10-20 10:35",
+   "created_ts": 1792506916,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $399.19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8a09bd2b",
+   "ticker": "ADI",
+   "kind": "buy_limit",
+   "price": 387.2143,
+   "status": "working",
+   "created": "2026-10-20 10:35",
+   "created_ts": 1792506916,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $399.19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-20 10:32"
+ "updated": "2026-10-20 10:35"
 }

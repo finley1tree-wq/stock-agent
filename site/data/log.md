@@ -1,34 +1,3 @@
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgCAtEGa3gEekF872Q8dU'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25175.36 (+0.70% on $25000.00 in) · cash $25175.36 · realised +175.36
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-19 15:48 ET (Monday) — week 2026-W43 — budget left $24933.99 (today $37500.00 put to work, 29 buys, 29 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
-  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
-  (MAGN excluded: too thinly traded ($4.6M a day) — Magnera Corporation)
-  (no price for LNBIX — excluded this check)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgCB7FpwN57erhiFsREK4'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25175.36 (+0.70% on $25000.00 in) · cash $25175.36 · realised +175.36
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-19 15:51 ET (Monday) — week 2026-W43 — budget left $24933.99 (today $37500.00 put to work, 29 buys, 29 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ELTP excluded: too thinly traded ($0.2M a day) — Elite Pharmaceuticals, Inc.)
-  (FNGR excluded: too thinly traded ($6.9M a day) — FingerMotion, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
-  (MAGN excluded: too thinly traded ($4.6M a day) — Magnera Corporation)
   (no price for LNBIX — excluded this check)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgCBKgPeEtkdrwLSHmLAQ'}
@@ -398,3 +367,34 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 MSFT @ $515.67 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25150.48 (+0.60% on $25000.00 in) · cash $22907.96 · realised +157.96
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22666.59 this week
+
+## 2026-10-20 10:32 ET (Tuesday) — week 2026-W43 — budget left $22666.59 (today $18000.00 put to work, 9 buys, 6 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDeny88EJVehwPK2ktFC'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25151.95 (+0.61% on $25000.00 in) · cash $22907.96 · realised +157.96
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-20 10:35 ET (Tuesday) — week 2026-W43 — budget left $22666.59 (today $18000.00 put to work, 9 buys, 6 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDf3h4PYsoqazEA7JtYV'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,667 idle, so opened 1: ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +4.2% over the month; 84% of today's range
+~ WORKING take_profit 100% ADI @ $400.63 until 2026-10-25 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% ADI @ $395.60 until 2026-10-25 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $387.21 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25152.12 (+0.61% on $25000.00 in) · cash $22157.96 · realised +157.96
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21916.59 this week

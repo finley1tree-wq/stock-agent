@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-20T10:29-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,417 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-10-20T10:35-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,667 idle, so opened 1: ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "c9c19d32",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 253.3039,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 253.37,
-   "pct_away": -0.03,
-   "good_until": "2026-10-25",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "cf98aad9",
    "ticker": "MSFT",
    "kind": "take_profit",
@@ -202,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 531.51,
-   "pct_away": 0.26,
+   "last": 531.72,
+   "pct_away": 0.22,
    "good_until": "2026-10-25",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -212,17 +195,34 @@
    ]
   },
   {
-   "id": "39ddc367",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 528.4888,
+   "id": "bae9f7e5",
+   "ticker": "ADI",
+   "kind": "take_profit",
+   "price": 400.6271,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 531.51,
-   "pct_away": -0.57,
+   "last": 399.11,
+   "pct_away": 0.38,
    "good_until": "2026-10-25",
-   "why": "close it all at -0.6% under the average cost",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c9c19d32",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 253.3039,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 254.32,
+   "pct_away": -0.4,
+   "good_until": "2026-10-25",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 5.77,
-   "pct_away": -0.72,
+   "last": 5.76,
+   "pct_away": -0.55,
    "good_until": "2026-10-25",
    "why": "close it all at -1.1% under the average cost",
    "signals": [
@@ -246,17 +246,17 @@
    ]
   },
   {
-   "id": "980526d8",
-   "ticker": "RIG",
-   "kind": "take_profit",
-   "price": 5.8146,
+   "id": "39ddc367",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 528.4888,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 5.77,
-   "pct_away": 0.77,
+   "last": 531.72,
+   "pct_away": -0.61,
    "good_until": "2026-10-25",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 253.37,
-   "pct_away": 1.02,
+   "last": 254.32,
+   "pct_away": 0.64,
    "good_until": "2026-10-25",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -280,17 +280,34 @@
    ]
   },
   {
-   "id": "cef6a11c",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 247.544,
-   "usd": 500.0,
-   "pct_of_position": null,
+   "id": "c6af85fb",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 395.6013,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 253.37,
-   "pct_away": -2.3,
+   "last": 399.11,
+   "pct_away": -0.88,
    "good_until": "2026-10-25",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "980526d8",
+   "ticker": "RIG",
+   "kind": "take_profit",
+   "price": 5.8146,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 5.76,
+   "pct_away": 0.95,
+   "good_until": "2026-10-25",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -304,8 +321,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 5.77,
+   "last": 5.76,
+   "pct_away": -2.49,
+   "good_until": "2026-10-25",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "cef6a11c",
+   "ticker": "WSM",
+   "kind": "buy_limit",
+   "price": 247.544,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 254.32,
    "pct_away": -2.66,
+   "good_until": "2026-10-25",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8a09bd2b",
+   "ticker": "ADI",
+   "kind": "buy_limit",
+   "price": 387.2143,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 399.11,
+   "pct_away": -2.98,
    "good_until": "2026-10-25",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -321,8 +372,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 531.51,
-   "pct_away": -2.98,
+   "last": 531.72,
+   "pct_away": -3.02,
    "good_until": "2026-10-25",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -331,7 +382,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,417 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,667 idle, so opened 1: ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -399,7 +450,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 380,
+  "decisions_graded": 378,
   "decisions_with_buys_graded": 56,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.26,
@@ -445,14 +496,6 @@
     "insider": 0
    },
    {
-    "ticker": "CRBG",
-    "fwd_pct": 5.58,
-    "sector": "off-watchlist",
-    "m1m_then": -5.9,
-    "congress": 0,
-    "insider": 1.0
-   },
-   {
     "ticker": "TNDM",
     "fwd_pct": 5.45,
     "sector": "off-watchlist",
@@ -461,12 +504,20 @@
     "insider": 0
    },
    {
-    "ticker": "OKLO",
-    "fwd_pct": 5.39,
-    "sector": "nuclear",
-    "m1m_then": -21.8,
-    "congress": 0,
+    "ticker": "ALKS",
+    "fwd_pct": 5.21,
+    "sector": "off-watchlist",
+    "m1m_then": -15.0,
+    "congress": 1.0,
     "insider": 0
+   },
+   {
+    "ticker": "CRBG",
+    "fwd_pct": 5.07,
+    "sector": "off-watchlist",
+    "m1m_then": -5.4,
+    "congress": 0,
+    "insider": 1.0
    }
   ],
   "biggest_avoided": [
@@ -500,9 +551,9 @@
     "n": 1
    }
   },
-  "idle_checks": 335,
+  "idle_checks": 334,
   "blocked_checks": 0,
-  "idle_share": 0.84,
+  "idle_share": 0.83,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -2036,5 +2087,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-20T10:29-04:00"
+ "signalsAsOf": "2026-10-20T10:35-04:00"
 }
