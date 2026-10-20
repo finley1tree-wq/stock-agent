@@ -1,9 +1,9 @@
 {
   "week": "2026-W43",
-  "spent": 67.38,
-  "deployed": 49500.0,
+  "spent": 3067.38,
+  "deployed": 52500.0,
   "by_ticker": {
-    "RPM": 21.77,
+    "RPM": 3021.77,
     "GTES": 52.54,
     "NXPI": 12.79,
     "IBRX": 23.54,
@@ -15,7 +15,7 @@
     "WSM": 7500.0,
     "NXPI": 5250.0,
     "ADI": 9000.0,
-    "RPM": 4500.0,
+    "RPM": 7500.0,
     "GTES": 5250.0,
     "IBRX": 5250.0,
     "MSFT": 8250.0,
@@ -1435,12 +1435,34 @@
       ],
       "evidence": "average cost $532.08",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "RPM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 29.96104,
+      "price": 100.13,
+      "date": "2026-10-20",
+      "time_et": "09:45",
+      "ts": 1792503902,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +1.1% over the month; 81% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-20",
-  "spent_today": 1.37,
-  "deployed_today": 12000.0,
-  "orders_today": 4,
+  "spent_today": 3001.37,
+  "deployed_today": 15000.0,
+  "orders_today": 5,
   "sells_today": 4,
   "sold_today": [
     "ADI",
@@ -1459,28 +1481,10 @@
     "FUL": 1792430492,
     "RIG": 1792503411
   },
-  "last_publish_ts": 1792503685,
-  "last_check_ts": 1792503733,
+  "last_publish_ts": 1792503902,
+  "last_check_ts": 1792503902,
   "exp_arm": {
-    "RIG": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "MSFT": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
-    "WSM": {
+    "RPM": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "off"
@@ -1490,9 +1494,13 @@
       }
     }
   },
-  "last_bar_ts": 1792503600,
-  "last_decision_ts": 1792503733,
-  "next_check_minutes": null,
+  "last_bar_ts": 1792503900,
+  "last_decision_ts": 1792503902,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "9b2d7dc1": 100.4214,
+    "8b3932bd": 99.4021,
+    "509783dd": 97.1261
+  }
 }

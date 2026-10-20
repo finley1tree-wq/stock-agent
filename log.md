@@ -36577,3 +36577,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25173.98 (+0.70% on $25000.00 in) · cash $25173.98 · realised +173.98
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-20 09:45 ET (Tuesday) — week 2026-W43 — budget left $24932.62 (today $12000.00 put to work, 4 buys, 4 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDbB83nptPo6uvoNKHC1'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,933 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +1.1% over the month; 81% of today's range
+~ WORKING take_profit 100% RPM @ $100.42 until 2026-10-25 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% RPM @ $99.40 until 2026-10-25 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 RPM @ $97.13 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25172.78 (+0.69% on $25000.00 in) · cash $22173.98 · realised +173.98
+Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $21932.62 this week
