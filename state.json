@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 6076.82,
+  "spent": 3048.84,
   "deployed": 49500.0,
   "by_ticker": {
     "RPM": 21.77,
@@ -8,7 +8,6 @@
     "NXPI": 12.79,
     "IBRX": 23.54,
     "FUL": 3.96,
-    "WSM": 3005.86,
     "RIG": 33.5,
     "MSFT": 3000.0
   },
@@ -1394,16 +1393,38 @@
       ],
       "evidence": "average cost $5.95",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 11.861405,
+      "status": "filled",
+      "price": 255.28,
+      "proceeds": 3027.98,
+      "realized_pnl": 27.98,
+      "realized_pct": 0.93,
+      "date": "2026-10-20",
+      "time_et": "09:40",
+      "ts": 1792503600,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $252.92",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-20",
-  "spent_today": 6010.81,
+  "spent_today": 2982.83,
   "deployed_today": 12000.0,
   "orders_today": 4,
-  "sells_today": 2,
+  "sells_today": 3,
   "sold_today": [
     "ADI",
-    "RIG"
+    "RIG",
+    "WSM"
   ],
   "sold_ts": {
     "NXPI": 1792433289,
@@ -1411,13 +1432,13 @@
     "MSFT": 1792431908,
     "IBRX": 1792432753,
     "GTES": 1792436890,
-    "WSM": 1792430446,
+    "WSM": 1792503638,
     "RPM": 1792430492,
     "FUL": 1792430492,
     "RIG": 1792503411
   },
-  "last_publish_ts": 1792503410,
-  "last_check_ts": 1792503541,
+  "last_publish_ts": 1792503638,
+  "last_check_ts": 1792503638,
   "exp_arm": {
     "RIG": {
       "params": {
@@ -1447,16 +1468,13 @@
       }
     }
   },
-  "last_bar_ts": 1792503300,
+  "last_bar_ts": 1792503600,
   "last_decision_ts": 1792503541,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "202e2644": 253.6509,
-    "58458288": 533.2878,
     "1fd4354a": 529.0525,
-    "9b264307": 251.0939,
-    "8c69ff9e": 516.1176,
-    "2cc2ec00": 245.3324
+    "58458288": 533.2878,
+    "8c69ff9e": 516.1176
   }
 }

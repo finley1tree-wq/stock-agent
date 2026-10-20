@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-20T09:36-04:00",
+ "asOf": "2026-10-20T09:40-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,17 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "202e2644",
-   "ticker": "WSM",
-   "kind": "take_profit",
-   "price": 253.6509,
+   "id": "1fd4354a",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 529.0525,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 252.82,
-   "pct_away": 0.33,
+   "last": 529.92,
+   "pct_away": -0.16,
    "good_until": "2026-10-25",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,44 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 531.36,
-   "pct_away": 0.36,
+   "last": 529.92,
+   "pct_away": 0.64,
    "good_until": "2026-10-25",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1fd4354a",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 529.0525,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 531.36,
-   "pct_away": -0.43,
-   "good_until": "2026-10-25",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9b264307",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 251.0939,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 252.82,
-   "pct_away": -0.68,
-   "good_until": "2026-10-25",
-   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,25 +219,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 531.36,
-   "pct_away": -2.87,
-   "good_until": "2026-10-25",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "2cc2ec00",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 245.3324,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 252.82,
-   "pct_away": -2.96,
+   "last": 529.92,
+   "pct_away": -2.6,
    "good_until": "2026-10-25",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

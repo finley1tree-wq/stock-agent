@@ -36557,3 +36557,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25176.43 (+0.71% on $25000.00 in) · cash $19164.55 · realised +164.55
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $255.28] -> $3027.98 (+0.93%) — close 100% at +0.3% over the average cost
+## 2026-10-20 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
