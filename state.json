@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 3078.57,
+  "spent": 2325.84,
   "deployed": 64500.0,
   "by_ticker": {
     "RPM": 800.91,
@@ -10,8 +10,7 @@
     "FUL": 3.96,
     "RIG": 779.39,
     "MSFT": 16.84,
-    "WSM": 755.95,
-    "ADI": 750.52
+    "WSM": 755.95
   },
   "deployed_by_ticker": {
     "WSM": 9000.0,
@@ -2083,13 +2082,34 @@
       ],
       "evidence": "average cost $237.89",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.881823,
+      "status": "filled",
+      "price": 400.0,
+      "proceeds": 752.73,
+      "realized_pnl": 2.73,
+      "realized_pct": 0.36,
+      "date": "2026-10-20",
+      "time_et": "13:51",
+      "ts": 1792518600,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $398.55",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-20",
-  "spent_today": 3012.56,
+  "spent_today": 2259.83,
   "deployed_today": 27000.0,
   "orders_today": 21,
-  "sells_today": 17,
+  "sells_today": 18,
   "sold_today": [
     "ADI",
     "RIG",
@@ -2101,7 +2121,7 @@
   ],
   "sold_ts": {
     "NXPI": 1792517758,
-    "ADI": 1792511145,
+    "ADI": 1792518689,
     "MSFT": 1792516845,
     "IBRX": 1792510176,
     "GTES": 1792436890,
@@ -2110,8 +2130,8 @@
     "FUL": 1792430492,
     "RIG": 1792514849
   },
-  "last_publish_ts": 1792517757,
-  "last_check_ts": 1792518607,
+  "last_publish_ts": 1792518688,
+  "last_check_ts": 1792518691,
   "exp_arm": {
     "WSM": {
       "params": {
@@ -2160,21 +2180,18 @@
     }
   },
   "last_bar_ts": 1792518600,
-  "last_decision_ts": 1792518515,
+  "last_decision_ts": 1792518691,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "6239cbeb": 400.0007,
     "32bd1c1a": 100.0222,
     "2035f7bd": 253.927,
-    "fd54ef35": 5.8646,
+    "a6c26478": 5.7784,
     "8c82f5b6": 251.2738,
     "6ee9e901": 98.998,
-    "808000b3": 394.9272,
-    "a6c26478": 5.7784,
-    "db4d479d": 245.5749,
+    "fd54ef35": 5.8646,
     "0ca29e78": 5.6648,
-    "a7c570b5": 96.7381,
-    "31372cae": 386.5935
+    "db4d479d": 245.5749,
+    "a7c570b5": 96.7381
   }
 }
