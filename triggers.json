@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "e39b1bda",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 437.414,
-   "status": "filled",
-   "created": "2026-10-14 10:46",
-   "created_ts": 1791989164,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $437.03",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 10:50"
-  },
-  {
    "id": "390e5f8d",
    "ticker": "KO",
    "kind": "stop_loss",
@@ -7443,7 +7425,7 @@
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 395.6013,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-20 10:35",
    "created_ts": 1792506916,
    "why": "close it all at -0.9% under the average cost",
@@ -7453,7 +7435,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-25",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-20 10:46",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "8a09bd2b",
@@ -7471,7 +7455,24 @@
    ],
    "good_until": "2026-10-25",
    "usd": 500.0
+  },
+  {
+   "id": "33dcff85",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 399.718,
+   "status": "working",
+   "created": "2026-10-20 10:46",
+   "created_ts": 1792507595,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $399.19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-20 10:43"
+ "updated": "2026-10-20 10:46"
 }
