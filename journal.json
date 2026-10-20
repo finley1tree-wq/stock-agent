@@ -70912,7 +70912,7 @@
     "code_version": "bfdb81b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": 0.03
   },
   {
     "symbol": "MSFT",
@@ -70976,7 +70976,7 @@
     "code_version": "bfdb81b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.24
+    "ret_now": 0.15
   },
   {
     "symbol": "NXPI",
@@ -71007,7 +71007,9 @@
     "code_version": "bfdb81b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.25
+    "ret_now": 0.06,
+    "ret_final": 0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "RPM",
@@ -71095,6 +71097,34 @@
     "hour_et": 13,
     "code_version": "1121ae0",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.0
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 3.152782,
+    "status": "filled",
+    "price": 238.02,
+    "proceeds": 750.43,
+    "realized_pnl": 0.43,
+    "realized_pct": 0.06,
+    "date": "2026-10-20",
+    "time_et": "13:35",
+    "ts": 1792517700,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $237.89",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "b03f993",
+    "hold_minutes": 33
   }
 ]
