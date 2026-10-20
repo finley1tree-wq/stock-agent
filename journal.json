@@ -70012,7 +70012,10 @@
     "hour_et": 9,
     "code_version": "ce2f1e1",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.76,
+    "ret_now": 0.76,
+    "ret_src": "realised"
   },
   {
     "symbol": "RIG",
@@ -70041,6 +70044,94 @@
     "momentum_1m_at_entry": 9.27,
     "hour_et": 9,
     "code_version": "ce2f1e1",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.5
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 7.686631,
+    "status": "filled",
+    "price": 393.24,
+    "proceeds": 3022.69,
+    "realized_pnl": 22.69,
+    "realized_pct": 0.76,
+    "date": "2026-10-20",
+    "time_et": "09:35",
+    "ts": 1792503300,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $390.29",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "1ec11ab",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "MSFT",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 5.638288,
+    "price": 532.08,
+    "date": "2026-10-20",
+    "time_et": "09:36",
+    "ts": 1792503364,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +6.0% over the month; 23% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 531.97,
+    "sector": "widely_held",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 6.05,
+    "hour_et": 9,
+    "code_version": "1ec11ab",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "WSM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 11.861405,
+    "price": 252.92,
+    "date": "2026-10-20",
+    "time_et": "09:36",
+    "ts": 1792503364,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +11.3% over the month; 75% of today's range",
+    "experiments": {
+      "ratchet": "off"
+    },
+    "hold_minutes": 90,
+    "entry_price": 252.82,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 11.3,
+    "hour_et": 9,
+    "code_version": "1ec11ab",
     "ret_1w": null,
     "ret_1m": null
   }
