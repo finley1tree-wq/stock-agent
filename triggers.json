@@ -1,120 +1,6 @@
 {
  "orders": [
   {
-   "id": "3d54313b",
-   "ticker": "SNOW",
-   "kind": "stop_loss",
-   "price": 350.702,
-   "status": "cancelled",
-   "created": "2026-10-14 10:22",
-   "created_ts": 1791987759,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $350.21",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 10:25",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "6eaffd1c",
-   "ticker": "META",
-   "kind": "take_profit",
-   "price": 747.8552,
-   "status": "cancelled",
-   "created": "2026-10-14 10:24",
-   "created_ts": 1791987898,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $745.44",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 10:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "430dcf50",
-   "ticker": "META",
-   "kind": "stop_loss",
-   "price": 739.4019,
-   "status": "cancelled",
-   "created": "2026-10-14 10:24",
-   "created_ts": 1791987898,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $745.44",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 10:35",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "5276bda3",
-   "ticker": "META",
-   "kind": "buy_limit",
-   "price": 723.0768,
-   "status": "cancelled",
-   "created": "2026-10-14 10:24",
-   "created_ts": 1791987898,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $745.44",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "usd": 500.0,
-   "closed": "2026-10-14 10:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "0559a663",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 438.2362,
-   "status": "cancelled",
-   "created": "2026-10-14 10:27",
-   "created_ts": 1791988071,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $437.03",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 10:50",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "c8a943ff",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 434.0145,
-   "status": "cancelled",
-   "created": "2026-10-14 10:27",
-   "created_ts": 1791988071,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $437.03",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 10:46",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "ae95b07a",
    "ticker": "TSM",
    "kind": "buy_limit",
@@ -7492,7 +7378,109 @@
    "usd": 500.0,
    "closed": "2026-10-20 10:04",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "ada93800",
+   "ticker": "IBRX",
+   "kind": "take_profit",
+   "price": 8.7086,
+   "status": "working",
+   "created": "2026-10-20 10:23",
+   "created_ts": 1792506230,
+   "why": "close 100% at +1.0% over the average cost",
+   "evidence": "average cost $8.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "eee6d991",
+   "ticker": "IBRX",
+   "kind": "stop_loss",
+   "price": 8.3986,
+   "status": "working",
+   "created": "2026-10-20 10:23",
+   "created_ts": 1792506230,
+   "why": "close it all at -2.6% under the average cost",
+   "evidence": "average cost $8.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8b4cb2be",
+   "ticker": "IBRX",
+   "kind": "buy_limit",
+   "price": 8.3614,
+   "status": "working",
+   "created": "2026-10-20 10:23",
+   "created_ts": 1792506230,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $8.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "usd": 500.0
+  },
+  {
+   "id": "980526d8",
+   "ticker": "RIG",
+   "kind": "take_profit",
+   "price": 5.8146,
+   "status": "working",
+   "created": "2026-10-20 10:23",
+   "created_ts": 1792506230,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $5.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "86559bb1",
+   "ticker": "RIG",
+   "kind": "stop_loss",
+   "price": 5.7285,
+   "status": "working",
+   "created": "2026-10-20 10:23",
+   "created_ts": 1792506230,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $5.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "40c4e755",
+   "ticker": "RIG",
+   "kind": "buy_limit",
+   "price": 5.6163,
+   "status": "working",
+   "created": "2026-10-20 10:23",
+   "created_ts": 1792506230,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $5.79",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-25",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-20 10:20"
+ "updated": "2026-10-20 10:23"
 }
