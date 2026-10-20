@@ -70379,7 +70379,9 @@
     "code_version": "fccd335",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.6
+    "ret_now": -0.79,
+    "ret_final": -0.79,
+    "ret_src": "realised"
   },
   {
     "symbol": "IBRX",
@@ -70437,7 +70439,7 @@
     "code_version": "cdeb28c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.32
+    "ret_now": -0.17
   },
   {
     "symbol": "ADI",
@@ -70555,7 +70557,7 @@
     "code_version": "9877536",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.1
+    "ret_now": 0.02
   },
   {
     "symbol": "NXPI",
@@ -70585,7 +70587,8 @@
     "hour_et": 11,
     "code_version": "157c796",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.02
   },
   {
     "symbol": "WSM",
@@ -70611,6 +70614,37 @@
     "evidence": "average cost $255.2",
     "trigger": "stop_loss",
     "hour_et": 11,
-    "code_version": "1cdf923"
+    "code_version": "1cdf923",
+    "hold_minutes": 43
+  },
+  {
+    "symbol": "IBRX",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 87.260045,
+    "price": 8.59,
+    "date": "2026-10-20",
+    "time_et": "11:16",
+    "ts": 1792509398,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +1.7% over the month; 75% of today's range",
+    "experiments": {
+      "ratchet": "on"
+    },
+    "hold_minutes": 90,
+    "entry_price": 8.59,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 1.66,
+    "hour_et": 11,
+    "code_version": "0f4e570",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

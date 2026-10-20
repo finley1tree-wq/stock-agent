@@ -37051,3 +37051,20 @@ Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21918.26 this week
   (cancelled 2 standing order(s) on WSM: position closed)
 - SELL 100% WSM [stop_loss @ $253.18] -> $744.05 (-0.79%) — close it all at -0.7% under the average cost
 ## 2026-10-20 11:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-20 11:16 ET (Tuesday) — week 2026-W43 — budget left $22662.31 (today $20250.00 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
+  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
+  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDiAXjc65pE1oT3ZQXC6'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,662 idle, so opened 1: IBRX. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 IBRX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +1.7% over the month; 75% of today's range
+~ WORKING take_profit 100% IBRX @ $8.68 until 2026-10-25 — close 100% at +1.0% over the average cost
+~ WORKING stop_loss 100% IBRX @ $8.37 until 2026-10-25 — close it all at -2.6% under the average cost
+~ WORKING buy_limit $500.00 IBRX @ $8.33 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25151.49 (+0.61% on $25000.00 in) · cash $22153.68 · realised +153.68
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21912.31 this week

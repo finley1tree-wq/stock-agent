@@ -1,12 +1,12 @@
 {
   "week": "2026-W43",
-  "spent": 2337.69,
-  "deployed": 57750.0,
+  "spent": 3087.69,
+  "deployed": 58500.0,
   "by_ticker": {
     "RPM": 795.07,
     "GTES": 52.54,
     "NXPI": 762.79,
-    "IBRX": 16.27,
+    "IBRX": 766.27,
     "FUL": 3.96,
     "RIG": 31.92,
     "MSFT": 768.54,
@@ -18,7 +18,7 @@
     "ADI": 9750.0,
     "RPM": 8250.0,
     "GTES": 5250.0,
-    "IBRX": 6000.0,
+    "IBRX": 6750.0,
     "MSFT": 9000.0,
     "FUL": 1500.0,
     "RIG": 3750.0
@@ -1717,12 +1717,34 @@
       ],
       "evidence": "average cost $255.2",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "IBRX",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 87.260045,
+      "price": 8.59,
+      "date": "2026-10-20",
+      "time_et": "11:16",
+      "ts": 1792509398,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +1.7% over the month; 75% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-20",
-  "spent_today": 2271.68,
-  "deployed_today": 20250.0,
-  "orders_today": 12,
+  "spent_today": 3021.68,
+  "deployed_today": 21000.0,
+  "orders_today": 13,
   "sells_today": 9,
   "sold_today": [
     "ADI",
@@ -1743,18 +1765,9 @@
     "FUL": 1792430492,
     "RIG": 1792508406
   },
-  "last_publish_ts": 1792509267,
-  "last_check_ts": 1792509313,
+  "last_publish_ts": 1792509398,
+  "last_check_ts": 1792509398,
   "exp_arm": {
-    "WSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "MSFT": {
       "params": {
         "hold_minutes": 90,
@@ -1781,21 +1794,33 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "IBRX": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1792509300,
-  "last_decision_ts": 1792509208,
+  "last_decision_ts": 1792509398,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "39ddc367": 528.4888,
     "95bdcfc6": 100.6531,
+    "39ddc367": 528.4888,
     "cf98aad9": 532.8746,
     "cbe78f42": 238.5824,
     "bb39ca5b": 99.6284,
     "a7d9f206": 235.2129,
+    "559c6da4": 8.6787,
+    "738f7797": 8.3683,
     "ebc40cca": 515.6714,
+    "0b43cf43": 97.3492,
     "6056b154": 230.4914,
-    "0b43cf43": 97.3492
+    "c90ddde9": 8.3323
   }
 }
