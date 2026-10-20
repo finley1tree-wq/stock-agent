@@ -36969,3 +36969,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25158.19 (+0.63% on $25000.00 in) · cash $22908.05 · realised +158.05
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on RIG: position closed)
+- SELL 100% RIG [stop_loss @ $5.80] -> $751.58 (+0.21%) — close it all at -1.1% under the average cost
+## 2026-10-20 11:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
