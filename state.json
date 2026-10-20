@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 3081.74,
+  "spent": 2337.69,
   "deployed": 57750.0,
   "by_ticker": {
     "RPM": 795.07,
@@ -10,7 +10,7 @@
     "FUL": 3.96,
     "RIG": 31.92,
     "MSFT": 768.54,
-    "WSM": 750.0
+    "WSM": 5.95
   },
   "deployed_by_ticker": {
     "WSM": 8250.0,
@@ -1696,13 +1696,34 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 2.938848,
+      "status": "filled",
+      "price": 253.18,
+      "proceeds": 744.05,
+      "realized_pnl": -5.95,
+      "realized_pct": -0.79,
+      "date": "2026-10-20",
+      "time_et": "11:14",
+      "ts": 1792509000,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $255.2",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-20",
-  "spent_today": 3015.73,
+  "spent_today": 2271.68,
   "deployed_today": 20250.0,
   "orders_today": 12,
-  "sells_today": 8,
+  "sells_today": 9,
   "sold_today": [
     "ADI",
     "RIG",
@@ -1717,13 +1738,13 @@
     "MSFT": 1792503686,
     "IBRX": 1792506563,
     "GTES": 1792436890,
-    "WSM": 1792503638,
+    "WSM": 1792509268,
     "RPM": 1792505041,
     "FUL": 1792430492,
     "RIG": 1792508406
   },
-  "last_publish_ts": 1792509208,
-  "last_check_ts": 1792509208,
+  "last_publish_ts": 1792509267,
+  "last_check_ts": 1792509313,
   "exp_arm": {
     "WSM": {
       "params": {
@@ -1762,22 +1783,19 @@
       }
     }
   },
-  "last_bar_ts": 1792509000,
+  "last_bar_ts": 1792509300,
   "last_decision_ts": 1792509208,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "c9c19d32": 253.3039,
     "39ddc367": 528.4888,
     "95bdcfc6": 100.6531,
-    "cbe78f42": 238.5824,
     "cf98aad9": 532.8746,
+    "cbe78f42": 238.5824,
     "bb39ca5b": 99.6284,
-    "41e0903d": 255.9579,
     "a7d9f206": 235.2129,
-    "cef6a11c": 247.544,
     "ebc40cca": 515.6714,
-    "0b43cf43": 97.3492,
-    "6056b154": 230.4914
+    "6056b154": 230.4914,
+    "0b43cf43": 97.3492
   }
 }

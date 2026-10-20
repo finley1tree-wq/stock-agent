@@ -1,6 +1,3 @@
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-20 09:59 ET (Tuesday) — week 2026-W43 — budget left $21932.62 (today $15000.00 put to work, 5 buys, 4 sells) — SIM (pretend money) via sim
   (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
   (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 NXPI @ $230.49 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25150.98 (+0.60% on $25000.00 in) · cash $22159.63 · realised +159.63
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21918.26 this week
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $253.18] -> $744.05 (-0.79%) — close it all at -0.7% under the average cost
+## 2026-10-20 11:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders
