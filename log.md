@@ -37618,3 +37618,32 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 portfolio: equity $25160.58 (+0.64% on $25000.00 in) · cash $25160.58 · realised +160.58
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-20 13:01 ET (Tuesday) — week 2026-W43 — budget left $24919.20 (today $22500.00 put to work, 15 buys, 15 sells) — SIM (pretend money) via sim
+  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDrBBCYJXVDXE5aknzeB'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,919 idle, so opened 4: WSM, MSFT, ADI, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +11.4% over the month; 32% of today's range
+- BUY $750.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +6.0% over the month; 72% of today's range
+- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +4.0% over the month; 70% of today's range
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +2.3% over the month; 84% of today's range
+~ WORKING take_profit 100% WSM @ $253.93 until 2026-10-25 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $251.27 until 2026-10-25 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $245.57 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $533.29 until 2026-10-25 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $528.90 until 2026-10-25 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $516.07 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ADI @ $400.00 until 2026-10-25 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% ADI @ $394.93 until 2026-10-25 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $386.59 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NXPI @ $238.85 until 2026-10-25 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $235.48 until 2026-10-25 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $230.75 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25159.68 (+0.64% on $25000.00 in) · cash $22160.58 · realised +160.58
+Done: 0 sell(s), 4 buy(s); 12 order(s) working; budget left $21919.20 this week

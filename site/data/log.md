@@ -1,118 +1,3 @@
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDjGCLKpenWjyCLmBByK'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25156.61 (+0.63% on $25000.00 in) · cash $22910.98 · realised +160.98
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-20 11:33 ET (Tuesday) — week 2026-W43 — budget left $22669.61 (today $21000.00 put to work, 13 buys, 10 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDjUbSUTirSqvJx7Fv3H'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25155.00 (+0.62% on $25000.00 in) · cash $22910.98 · realised +160.98
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-20 11:36 ET (Tuesday) — week 2026-W43 — budget left $22669.61 (today $21000.00 put to work, 13 buys, 10 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDji58DtXZzDZQcAcmN4'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,670 idle, so opened 1: ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +4.2% over the month; 75% of today's range
-~ WORKING take_profit 100% ADI @ $400.66 until 2026-10-25 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% ADI @ $395.59 until 2026-10-25 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 ADI @ $387.23 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25155.34 (+0.62% on $25000.00 in) · cash $22160.98 · realised +160.98
-Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21919.61 this week
-
-## 2026-10-20 11:39 ET (Tuesday) — week 2026-W43 — budget left $21919.61 (today $21750.00 put to work, 14 buys, 10 sells) — SIM (pretend money) via sim
-  (ACOG excluded: too thinly traded ($1.1M a day) — Alpha Cognition Inc. Common Stock)
-  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDjwH3Ryn9mxu9MyeToL'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25152.86 (+0.61% on $25000.00 in) · cash $22160.98 · realised +160.98
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-20 11:42 ET (Tuesday) — week 2026-W43 — budget left $21919.61 (today $21750.00 put to work, 14 buys, 10 sells) — SIM (pretend money) via sim
-  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDk9qn233pGtmeSueXX9'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-  (re-pinned 1 order(s) to the new average cost)
-~ WORKING stop_loss 100% ADI @ $399.65 until 2026-10-25 — close it all at -0.9% under the average cost
-portfolio: equity $25160.87 (+0.64% on $25000.00 in) · cash $22160.98 · realised +160.98
-Decision: nothing at this check. 12 standing order(s) working.
-  (cancelled 2 standing order(s) on ADI: position closed)
-- SELL 100% ADI [stop_loss @ $398.94] -> $749.48 (-0.07%) — close it all at -0.9% under the average cost
-## 2026-10-20 11:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-20 11:45 ET (Tuesday) — week 2026-W43 — budget left $22669.09 (today $21750.00 put to work, 14 buys, 11 sells) — SIM (pretend money) via sim
-  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDkPQm19eyNQYmf5kRrF'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,669 idle, so opened 1: RIG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 RIG [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +6.5% over the month; 21% of today's range
-~ WORKING take_profit 100% RIG @ $5.82 until 2026-10-25 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% RIG @ $5.74 until 2026-10-25 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 RIG @ $5.63 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25157.38 (+0.63% on $25000.00 in) · cash $22160.47 · realised +160.47
-Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21919.09 this week
-
-## 2026-10-20 11:48 ET (Tuesday) — week 2026-W43 — budget left $21919.09 (today $22500.00 put to work, 15 buys, 11 sells) — SIM (pretend money) via sim
-  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDkccKu1Hvf5mLnge8UL'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25159.66 (+0.64% on $25000.00 in) · cash $22160.47 · realised +160.47
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-20 11:51 ET (Tuesday) — week 2026-W43 — budget left $21919.09 (today $22500.00 put to work, 15 buys, 11 sells) — SIM (pretend money) via sim
-  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDkqsMdmga5Has36hP1n'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25158.40 (+0.63% on $25000.00 in) · cash $22160.47 · realised +160.47
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +283,118 @@ Decision: nothing at this check. 3 standing order(s) working.
   (cancelled 2 standing order(s) on RIG: position closed)
 - SELL 100% RIG [take_profit @ $5.82] -> $752.53 (+0.34%) — close 100% at +0.4% over the average cost
 ## 2026-10-20 12:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-20 12:47 ET (Tuesday) — week 2026-W43 — budget left $24919.20 (today $22500.00 put to work, 15 buys, 15 sells) — SIM (pretend money) via sim
+  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDq6Bcr2ynSy8fP5dbjG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,919 idle, so opened 3: WSM, MSFT, ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped MSFT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped ADI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25160.58 (+0.64% on $25000.00 in) · cash $25160.58 · realised +160.58
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-20 12:50 ET (Tuesday) — week 2026-W43 — budget left $24919.20 (today $22500.00 put to work, 15 buys, 15 sells) — SIM (pretend money) via sim
+  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDqJRKBwm1dNWAk18FRv'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,919 idle, so opened 3: WSM, MSFT, ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped MSFT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped ADI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25160.58 (+0.64% on $25000.00 in) · cash $25160.58 · realised +160.58
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-20 12:52 ET (Tuesday) — week 2026-W43 — budget left $24919.20 (today $22500.00 put to work, 15 buys, 15 sells) — SIM (pretend money) via sim
+  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDqT682ZzjkWguVHx2xH'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,919 idle, so opened 3: WSM, MSFT, ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped MSFT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped ADI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25160.58 (+0.64% on $25000.00 in) · cash $25160.58 · realised +160.58
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-20 12:55 ET (Tuesday) — week 2026-W43 — budget left $24919.20 (today $22500.00 put to work, 15 buys, 15 sells) — SIM (pretend money) via sim
+  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDqim2X511YMSBbjxWsD'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,919 idle, so opened 3: WSM, MSFT, ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped MSFT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped ADI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25160.58 (+0.64% on $25000.00 in) · cash $25160.58 · realised +160.58
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-20 12:58 ET (Tuesday) — week 2026-W43 — budget left $24919.20 (today $22500.00 put to work, 15 buys, 15 sells) — SIM (pretend money) via sim
+  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDqxaac1RwSEAxnnctxW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,919 idle, so opened 4: WSM, ADI, MSFT, IBRX. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped ADI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped MSFT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped IBRX: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25160.58 (+0.64% on $25000.00 in) · cash $25160.58 · realised +160.58
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-20 13:01 ET (Tuesday) — week 2026-W43 — budget left $24919.20 (today $22500.00 put to work, 15 buys, 15 sells) — SIM (pretend money) via sim
+  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDrBBCYJXVDXE5aknzeB'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,919 idle, so opened 4: WSM, MSFT, ADI, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +11.4% over the month; 32% of today's range
+- BUY $750.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +6.0% over the month; 72% of today's range
+- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +4.0% over the month; 70% of today's range
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +2.3% over the month; 84% of today's range
+~ WORKING take_profit 100% WSM @ $253.93 until 2026-10-25 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $251.27 until 2026-10-25 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $245.57 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% MSFT @ $533.29 until 2026-10-25 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $528.90 until 2026-10-25 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $516.07 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ADI @ $400.00 until 2026-10-25 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% ADI @ $394.93 until 2026-10-25 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $386.59 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NXPI @ $238.85 until 2026-10-25 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $235.48 until 2026-10-25 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $230.75 until 2026-10-25 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25159.68 (+0.64% on $25000.00 in) · cash $22160.58 · realised +160.58
+Done: 0 sell(s), 4 buy(s); 12 order(s) working; budget left $21919.20 this week
