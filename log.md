@@ -38448,3 +38448,18 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25166.12 (+0.66% on $25000.00 in) · cash $25166.12 · realised +166.12
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-20 15:44 ET (Tuesday) — week 2026-W43 — budget left $24924.75 (today $27000.00 put to work, 21 buys, 21 sells) — SIM (pretend money) via sim
+  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgE4azuV8i1FMTiE1mW4P'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25166.12 (+0.66% on $25000.00 in) · cash $25166.12 · realised +166.12
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
