@@ -1,15 +1,15 @@
 {
   "week": "2026-W43",
-  "spent": 2340.68,
-  "deployed": 54750.0,
+  "spent": 2333.41,
+  "deployed": 55500.0,
   "by_ticker": {
     "RPM": 45.07,
     "GTES": 52.54,
     "NXPI": 12.79,
-    "IBRX": 773.54,
+    "IBRX": 16.27,
     "FUL": 3.96,
     "RIG": 783.5,
-    "MSFT": 18.54,
+    "MSFT": 768.54,
     "WSM": 750.0
   },
   "deployed_by_ticker": {
@@ -19,7 +19,7 @@
     "RPM": 7500.0,
     "GTES": 5250.0,
     "IBRX": 6000.0,
-    "MSFT": 8250.0,
+    "MSFT": 9000.0,
     "FUL": 1500.0,
     "RIG": 3750.0
   },
@@ -1545,43 +1545,78 @@
         "ratchet": "on"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "IBRX",
+      "side": "sell",
+      "qty": 86.956522,
+      "status": "filled",
+      "price": 8.71,
+      "proceeds": 757.27,
+      "realized_pnl": 7.27,
+      "realized_pct": 0.97,
+      "date": "2026-10-20",
+      "time_et": "10:29",
+      "ts": 1792506300,
+      "why": "close 100% at +1.0% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $8.62",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.410792,
+      "price": 531.62,
+      "date": "2026-10-20",
+      "time_et": "10:29",
+      "ts": 1792506565,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +6.0% over the month; 68% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-20",
-  "spent_today": 2274.67,
-  "deployed_today": 17250.0,
-  "orders_today": 8,
-  "sells_today": 5,
+  "spent_today": 2267.4,
+  "deployed_today": 18000.0,
+  "orders_today": 9,
+  "sells_today": 6,
   "sold_today": [
     "ADI",
     "RIG",
     "WSM",
     "MSFT",
-    "RPM"
+    "RPM",
+    "IBRX"
   ],
   "sold_ts": {
     "NXPI": 1792433289,
     "ADI": 1792503316,
     "MSFT": 1792503686,
-    "IBRX": 1792432753,
+    "IBRX": 1792506563,
     "GTES": 1792436890,
     "WSM": 1792503638,
     "RPM": 1792505041,
     "FUL": 1792430492,
     "RIG": 1792503411
   },
-  "last_publish_ts": 1792506377,
-  "last_check_ts": 1792506479,
+  "last_publish_ts": 1792506565,
+  "last_check_ts": 1792506565,
   "exp_arm": {
-    "IBRX": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
     "RIG": {
       "params": {
         "hold_minutes": 90,
@@ -1599,21 +1634,30 @@
       "tags": {
         "ratchet": "on"
       }
+    },
+    "MSFT": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
     }
   },
   "last_bar_ts": 1792506300,
-  "last_decision_ts": 1792506377,
+  "last_decision_ts": 1792506565,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "41e0903d": 255.9579,
     "c9c19d32": 253.3039,
+    "cf98aad9": 532.8746,
+    "39ddc367": 528.4888,
     "86559bb1": 5.7285,
     "980526d8": 5.8146,
-    "ada93800": 8.7086,
-    "eee6d991": 8.3986,
-    "40c4e755": 5.6163,
+    "41e0903d": 255.9579,
     "cef6a11c": 247.544,
-    "8b4cb2be": 8.3614
+    "40c4e755": 5.6163,
+    "ebc40cca": 515.6714
   }
 }

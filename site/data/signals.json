@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-20T10:26-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,409 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-10-20T10:29-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,417 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "41e0903d",
-   "ticker": "WSM",
-   "kind": "take_profit",
-   "price": 255.9579,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 255.1,
-   "pct_away": 0.34,
-   "good_until": "2026-10-25",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "c9c19d32",
    "ticker": "WSM",
    "kind": "stop_loss",
@@ -202,10 +185,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 255.1,
-   "pct_away": -0.7,
+   "last": 253.37,
+   "pct_away": -0.03,
    "good_until": "2026-10-25",
    "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "cf98aad9",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 532.8746,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 531.51,
+   "pct_away": 0.26,
+   "good_until": "2026-10-25",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "39ddc367",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 528.4888,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 531.51,
+   "pct_away": -0.57,
+   "good_until": "2026-10-25",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -246,34 +263,34 @@
    ]
   },
   {
-   "id": "ada93800",
-   "ticker": "IBRX",
+   "id": "41e0903d",
+   "ticker": "WSM",
    "kind": "take_profit",
-   "price": 8.7086,
+   "price": 255.9579,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 8.62,
-   "pct_away": 1.03,
+   "last": 253.37,
+   "pct_away": 1.02,
    "good_until": "2026-10-25",
-   "why": "close 100% at +1.0% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "eee6d991",
-   "ticker": "IBRX",
-   "kind": "stop_loss",
-   "price": 8.3986,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "cef6a11c",
+   "ticker": "WSM",
+   "kind": "buy_limit",
+   "price": 247.544,
+   "usd": 500.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 8.62,
-   "pct_away": -2.57,
+   "last": 253.37,
+   "pct_away": -2.3,
    "good_until": "2026-10-25",
-   "why": "close it all at -2.6% under the average cost",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -297,32 +314,15 @@
    ]
   },
   {
-   "id": "cef6a11c",
-   "ticker": "WSM",
+   "id": "ebc40cca",
+   "ticker": "MSFT",
    "kind": "buy_limit",
-   "price": 247.544,
+   "price": 515.6714,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 255.1,
-   "pct_away": -2.96,
-   "good_until": "2026-10-25",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8b4cb2be",
-   "ticker": "IBRX",
-   "kind": "buy_limit",
-   "price": 8.3614,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 8.62,
-   "pct_away": -3.0,
+   "last": 531.51,
+   "pct_away": -2.98,
    "good_until": "2026-10-25",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -331,7 +331,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,409 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,417 idle, so opened 1: MSFT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -399,7 +399,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 381,
+  "decisions_graded": 380,
   "decisions_with_buys_graded": 56,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.26,
@@ -437,20 +437,20 @@
     "insider": 0
    },
    {
-    "ticker": "CRBG",
-    "fwd_pct": 6.06,
-    "sector": "off-watchlist",
-    "m1m_then": -6.3,
-    "congress": 0,
-    "insider": 1.0
-   },
-   {
     "ticker": "NOC",
     "fwd_pct": 5.8,
     "sector": "defense",
     "m1m_then": -3.5,
     "congress": 0,
     "insider": 0
+   },
+   {
+    "ticker": "CRBG",
+    "fwd_pct": 5.58,
+    "sector": "off-watchlist",
+    "m1m_then": -5.9,
+    "congress": 0,
+    "insider": 1.0
    },
    {
     "ticker": "TNDM",
@@ -500,7 +500,7 @@
     "n": 1
    }
   },
-  "idle_checks": 336,
+  "idle_checks": 335,
   "blocked_checks": 0,
   "idle_share": 0.84,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -2036,5 +2036,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-20T10:26-04:00"
+ "signalsAsOf": "2026-10-20T10:29-04:00"
 }
