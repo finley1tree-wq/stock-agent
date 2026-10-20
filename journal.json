@@ -70559,7 +70559,9 @@
     "code_version": "9877536",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.66
+    "ret_now": -0.78,
+    "ret_final": -0.78,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -70770,7 +70772,7 @@
     "code_version": "52f4439",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": -0.17
   },
   {
     "symbol": "NXPI",
@@ -70824,5 +70826,32 @@
     "hour_et": 11,
     "code_version": "126c4b5",
     "hold_minutes": 89
+  },
+  {
+    "symbol": "RPM",
+    "side": "sell",
+    "qty": 7.473087,
+    "status": "filled",
+    "price": 99.58,
+    "proceeds": 744.16,
+    "realized_pnl": -5.84,
+    "realized_pct": -0.78,
+    "date": "2026-10-20",
+    "time_et": "12:21",
+    "ts": 1792513200,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $100.36",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "125e1b8",
+    "hold_minutes": 72
   }
 ]
