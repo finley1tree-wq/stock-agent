@@ -70772,7 +70772,9 @@
     "code_version": "52f4439",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": 0.34,
+    "ret_final": 0.34,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -70853,5 +70855,32 @@
     "hour_et": 12,
     "code_version": "125e1b8",
     "hold_minutes": 72
+  },
+  {
+    "symbol": "RIG",
+    "side": "sell",
+    "qty": 129.198966,
+    "status": "filled",
+    "price": 5.82,
+    "proceeds": 752.53,
+    "realized_pnl": 2.53,
+    "realized_pct": 0.34,
+    "date": "2026-10-20",
+    "time_et": "12:47",
+    "ts": 1792514700,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $5.8",
+    "trigger": "take_profit",
+    "hour_et": 12,
+    "code_version": "344f12d",
+    "hold_minutes": 59
   }
 ]
