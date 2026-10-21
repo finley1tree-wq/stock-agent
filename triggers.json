@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "ba8dd9b4",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 242.2672,
-   "status": "cancelled",
-   "created": "2026-10-15 10:34",
-   "created_ts": 1792074878,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $249.76",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-20",
-   "usd": 500.0,
-   "closed": "2026-10-15 10:53",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "4dfcccd8",
    "ticker": "GTES",
    "kind": "take_profit",
@@ -7400,7 +7381,7 @@
    "ticker": "CRBG",
    "kind": "stop_loss",
    "price": 35.094,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-21 11:38",
    "created_ts": 1792597106,
    "why": "close it all at -0.7% under the average cost",
@@ -7410,7 +7391,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-21 11:49",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "9d8585cb",
@@ -7479,7 +7462,24 @@
    ],
    "good_until": "2026-10-26",
    "usd": 500.0
+  },
+  {
+   "id": "4d8e9342",
+   "ticker": "CRBG",
+   "kind": "stop_loss",
+   "price": 35.376,
+   "status": "working",
+   "created": "2026-10-21 11:49",
+   "created_ts": 1792597768,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $35.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-26",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-21 11:47"
+ "updated": "2026-10-21 11:50"
 }
