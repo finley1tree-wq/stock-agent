@@ -1,7 +1,7 @@
 {
   "week": "2026-W43",
-  "spent": 4.86,
-  "deployed": 88500.0,
+  "spent": 754.86,
+  "deployed": 89250.0,
   "by_ticker": {
     "RPM": 48.71,
     "GTES": 52.54,
@@ -9,7 +9,8 @@
     "IBRX": 8.97,
     "FUL": 3.96,
     "RIG": 18.23,
-    "MSFT": 2.56
+    "MSFT": 2.56,
+    "CACI": 750.0
   },
   "deployed_by_ticker": {
     "WSM": 12000.0,
@@ -23,7 +24,8 @@
     "RIG": 8250.0,
     "CRBG": 3000.0,
     "AYI": 3000.0,
-    "FITB": 3000.0
+    "FITB": 3000.0,
+    "CACI": 750.0
   },
   "orders": [
     {
@@ -2511,12 +2513,34 @@
       ],
       "evidence": "average cost $35.36",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CACI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.220414,
+      "price": 614.55,
+      "date": "2026-10-21",
+      "time_et": "10:04",
+      "ts": 1792591476,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +0.2% over the month; 72% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 0.0,
-  "deployed_today": 24000.0,
-  "orders_today": 8,
+  "spent_today": 750.0,
+  "deployed_today": 24750.0,
+  "orders_today": 9,
   "sells_today": 8,
   "sold_today": [
     "NXPI",
@@ -2542,49 +2566,26 @@
     "FITB": 1792590245,
     "CRBG": 1792590466
   },
-  "last_publish_ts": 1792590465,
-  "last_check_ts": 1792591300,
+  "last_publish_ts": 1792591476,
+  "last_check_ts": 1792591476,
   "exp_arm": {
-    "WSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "CRBG": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
-      }
-    },
-    "FITB": {
+    "CACI": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
       },
       "tags": {
         "ratchet": "on"
-      }
-    },
-    "RIG": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "off"
-      },
-      "tags": {
-        "ratchet": "off"
       }
     }
   },
   "last_bar_ts": 1792591200,
-  "last_decision_ts": 1792591300,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792591476,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "bc6c5782": 616.5227,
+    "917a9686": 609.6213,
+    "3ee65752": 596.1135
+  }
 }

@@ -38743,3 +38743,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25236.50 (+0.95% on $25000.00 in) · cash $25236.50 · realised +236.50
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-21 10:04 ET (Wednesday) — week 2026-W43 — budget left $24995.14 (today $24000.00 put to work, 8 buys, 8 sells) — SIM (pretend money) via sim
+  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFWUfQaqFf3jDAY2eyhw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,995 idle, so opened 1: CACI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 CACI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +0.2% over the month; 72% of today's range
+~ WORKING take_profit 100% CACI @ $616.52 until 2026-10-26 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CACI @ $609.62 until 2026-10-26 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CACI @ $596.11 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25236.20 (+0.94% on $25000.00 in) · cash $24486.50 · realised +236.50
+Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $24245.14 this week
