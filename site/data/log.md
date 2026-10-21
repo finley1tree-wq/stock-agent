@@ -1,5 +1,3 @@
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-10-21 13:14 ET (Wednesday) — week 2026-W43 — budget left $21988.60 (today $37500.00 put to work, 26 buys, 22 sells) — SIM (pretend money) via sim
   (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
@@ -398,3 +396,5 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25225.89 (+0.90% on $25000.00 in) · cash $22981.41 · realised +231.41
 Decision: nothing at this check. 6 standing order(s) working.
+- SELL 100% FITB [time stop] -> $747.84 (-0.29%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-21 14:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders

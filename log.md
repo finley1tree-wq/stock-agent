@@ -40189,3 +40189,20 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25225.89 (+0.90% on $25000.00 in) · cash $22981.41 · realised +231.41
 Decision: nothing at this check. 6 standing order(s) working.
+- SELL 100% FITB [time stop] -> $747.84 (-0.29%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-21 14:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-21 14:32 ET (Wednesday) — week 2026-W43 — budget left $23487.89 (today $38250.00 put to work, 27 buys, 25 sells) — SIM (pretend money) via sim
+  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFrwXVRJPx7fREVKZUPP'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25225.30 (+0.90% on $25000.00 in) · cash $23729.25 · realised +229.25
+Decision: nothing at this check. 4 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
