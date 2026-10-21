@@ -1,11 +1,11 @@
 {
   "week": "2026-W43",
-  "spent": 4501.39,
+  "spent": 3748.39,
   "deployed": 95250.0,
   "by_ticker": {
     "RPM": 48.71,
     "GTES": 52.54,
-    "NXPI": 761.76,
+    "NXPI": 8.76,
     "IBRX": 8.97,
     "FUL": 3.96,
     "RIG": 768.23,
@@ -2777,13 +2777,34 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 3.141684,
+      "status": "filled",
+      "price": 239.68,
+      "proceeds": 753.0,
+      "realized_pnl": 3.0,
+      "realized_pct": 0.4,
+      "date": "2026-10-21",
+      "time_et": "10:50",
+      "ts": 1792593900,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $238.73",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 4496.53,
+  "spent_today": 3743.53,
   "deployed_today": 30750.0,
   "orders_today": 17,
-  "sells_today": 11,
+  "sells_today": 12,
   "sold_today": [
     "NXPI",
     "MSFT",
@@ -2795,7 +2816,7 @@
     "CRBG"
   ],
   "sold_ts": {
-    "NXPI": 1792589703,
+    "NXPI": 1792594228,
     "ADI": 1792592781,
     "MSFT": 1792593134,
     "IBRX": 1792510176,
@@ -2808,8 +2829,8 @@
     "FITB": 1792590245,
     "CRBG": 1792590466
   },
-  "last_publish_ts": 1792593866,
-  "last_check_ts": 1792594145,
+  "last_publish_ts": 1792594228,
+  "last_check_ts": 1792594231,
   "exp_arm": {
     "CACI": {
       "params": {
@@ -2866,28 +2887,25 @@
       }
     }
   },
-  "last_bar_ts": 1792593900,
-  "last_decision_ts": 1792594051,
+  "last_bar_ts": 1792594200,
+  "last_decision_ts": 1792594231,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "46642f65": 53.1498,
     "e07d6734": 253.4754,
-    "742fc676": 239.6801,
+    "46642f65": 53.1498,
     "a3a35ca0": 35.5883,
     "b8dc5910": 5.975,
     "917a9686": 609.6213,
     "bc6c5782": 616.5227,
-    "5d0d5650": 35.2441,
     "80b88285": 52.7299,
+    "5d0d5650": 35.2441,
     "87085d61": 250.9403,
     "290ede72": 5.8876,
-    "e4cfacb7": 236.3522,
     "3ee65752": 596.1135,
-    "a714e6d1": 34.4253,
     "1188e786": 5.7715,
-    "14d90573": 245.1675,
+    "a714e6d1": 34.4253,
     "a220d035": 51.4391,
-    "f7b4cf94": 231.5681
+    "14d90573": 245.1675
   }
 }
