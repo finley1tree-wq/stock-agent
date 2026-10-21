@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-10-21 14:42 ET
+# Pretend portfolio — 2026-10-21 14:45 ET
 
-**Equity $25225.72** on $25000.00 put in → **+0.90%**  
-Cash $23729.25 · Unrealised -3.53 · Realised +229.25
+**Equity $25223.38** on $25000.00 put in → **+0.89%**  
+Cash $23729.25 · Unrealised -5.87 · Realised +229.25
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| CRBG | 3.0% | $749.28 | $35.52 | $35.49 | -0.10% | 0d |
-| EL | 3.0% | $747.18 | $104.36 | $103.97 | -0.38% | 0d |
+| CRBG | 3.0% | $747.80 | $35.52 | $35.42 | -0.29% | 0d |
+| EL | 3.0% | $746.32 | $104.36 | $103.85 | -0.49% | 0d |
 
 ## Last fills
 
