@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 6027.86,
+  "spent": 3012.85,
   "deployed": 88500.0,
   "by_ticker": {
     "RPM": 48.71,
@@ -8,7 +8,7 @@
     "NXPI": 11.76,
     "IBRX": 8.97,
     "FUL": 3.96,
-    "RIG": 3033.24,
+    "RIG": 18.23,
     "MSFT": 2.56,
     "CRBG": 3000.0
   },
@@ -2470,20 +2470,42 @@
       ],
       "evidence": "average cost $52.78",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RIG",
+      "side": "sell",
+      "qty": 512.382404,
+      "status": "filled",
+      "price": 5.88,
+      "proceeds": 3015.01,
+      "realized_pnl": 15.01,
+      "realized_pct": 0.5,
+      "date": "2026-10-21",
+      "time_et": "09:46",
+      "ts": 1792590300,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $5.86",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 5952.61,
+  "spent_today": 2937.6,
   "deployed_today": 24000.0,
   "orders_today": 8,
-  "sells_today": 6,
+  "sells_today": 7,
   "sold_today": [
     "NXPI",
     "MSFT",
     "ADI",
     "AYI",
     "WSM",
-    "FITB"
+    "FITB",
+    "RIG"
   ],
   "sold_ts": {
     "NXPI": 1792589703,
@@ -2494,12 +2516,12 @@
     "WSM": 1792590013,
     "RPM": 1792521186,
     "FUL": 1792430492,
-    "RIG": 1792523016,
+    "RIG": 1792590370,
     "AYI": 1792589877,
     "FITB": 1792590245
   },
-  "last_publish_ts": 1792590240,
-  "last_check_ts": 1792590328,
+  "last_publish_ts": 1792590369,
+  "last_check_ts": 1792590418,
   "exp_arm": {
     "WSM": {
       "params": {
@@ -2539,15 +2561,12 @@
     }
   },
   "last_bar_ts": 1792590300,
-  "last_decision_ts": 1792590240,
+  "last_decision_ts": 1792590418,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "8182df28": 5.7993,
-    "4997341e": 35.1139,
     "d76395d6": 35.4583,
-    "e4e1489b": 5.8843,
-    "f5a0c22e": 5.6842,
+    "4997341e": 35.1139,
     "59de2d9c": 34.2992
   }
 }

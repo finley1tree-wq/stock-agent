@@ -1,6 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-20 15:06 ET (Tuesday) — week 2026-W43 — budget left $24924.75 (today $27000.00 put to work, 21 buys, 21 sells) — SIM (pretend money) via sim
   (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
   (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
   (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
@@ -398,3 +395,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25187.58 (+0.75% on $25000.00 in) · cash $19213.50 · realised +213.50
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 6 order(s) working; budget left $18972.14 this week
+  (cancelled 2 standing order(s) on RIG: position closed)
+- SELL 100% RIG [take_profit @ $5.88] -> $3015.01 (+0.50%) — close 100% at +0.4% over the average cost
+## 2026-10-21 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
