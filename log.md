@@ -39263,3 +39263,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 CRBG @ $34.28 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25234.56 (+0.94% on $25000.00 in) · cash $22983.54 · realised +233.54
 Done: 0 sell(s), 2 buy(s); 9 order(s) working; budget left $22742.18 this week
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $531.76] -> $751.74 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-10-21 11:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders

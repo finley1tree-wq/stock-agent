@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 2257.82,
+  "spent": 1506.08,
   "deployed": 98250.0,
   "by_ticker": {
     "RPM": 48.71,
@@ -9,7 +9,6 @@
     "IBRX": 8.97,
     "FUL": 3.96,
     "RIG": 17.98,
-    "MSFT": 750.82,
     "CACI": 1.65,
     "FITB": 4.63,
     "CRBG": 755.66,
@@ -3011,13 +3010,34 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 1.413691,
+      "status": "filled",
+      "price": 531.76,
+      "proceeds": 751.74,
+      "realized_pnl": 1.74,
+      "realized_pct": 0.23,
+      "date": "2026-10-21",
+      "time_et": "11:39",
+      "ts": 1792596900,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $530.53",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 2252.96,
+  "spent_today": 1501.22,
   "deployed_today": 33750.0,
   "orders_today": 21,
-  "sells_today": 18,
+  "sells_today": 19,
   "sold_today": [
     "NXPI",
     "MSFT",
@@ -3032,7 +3052,7 @@
   "sold_ts": {
     "NXPI": 1792594228,
     "ADI": 1792596017,
-    "MSFT": 1792593134,
+    "MSFT": 1792597155,
     "IBRX": 1792510176,
     "GTES": 1792436890,
     "WSM": 1792594330,
@@ -3044,8 +3064,8 @@
     "CRBG": 1792594284,
     "CACI": 1792596874
   },
-  "last_publish_ts": 1792597106,
-  "last_check_ts": 1792597106,
+  "last_publish_ts": 1792597154,
+  "last_check_ts": 1792597201,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -3075,19 +3095,16 @@
       }
     }
   },
-  "last_bar_ts": 1792596900,
+  "last_bar_ts": 1792597200,
   "last_decision_ts": 1792597106,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "f26babea": 531.7555,
-    "89dbfce8": 530.926,
     "ec96265a": 35.4386,
     "512ae315": 253.8339,
-    "944f37b1": 35.094,
     "87b59d87": 251.3003,
+    "944f37b1": 35.094,
     "c1bc662e": 245.5167,
-    "9d8585cb": 34.2798,
-    "959414c2": 514.6141
+    "9d8585cb": 34.2798
   }
 }

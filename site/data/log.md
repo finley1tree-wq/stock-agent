@@ -1,6 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFY5dX5T9yhv9fBxxLq1'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,995 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +8.6% over the month; 54% of today's range
 ~ WORKING take_profit 100% WSM @ $253.48 until 2026-10-26 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% WSM @ $250.94 until 2026-10-26 — close it all at -0.7% under the average cost
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 CRBG @ $34.28 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25234.56 (+0.94% on $25000.00 in) · cash $22983.54 · realised +233.54
 Done: 0 sell(s), 2 buy(s); 9 order(s) working; budget left $22742.18 this week
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $531.76] -> $751.74 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-10-21 11:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
