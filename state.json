@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 2251.9,
+  "spent": 1501.65,
   "deployed": 95250.0,
   "by_ticker": {
     "RPM": 48.71,
@@ -8,7 +8,7 @@
     "NXPI": 8.76,
     "IBRX": 8.97,
     "FUL": 3.96,
-    "RIG": 768.23,
+    "RIG": 17.98,
     "MSFT": 0.82,
     "CACI": 750.0,
     "FITB": 750.0,
@@ -2839,13 +2839,34 @@
       ],
       "evidence": "average cost $252.75",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RIG",
+      "side": "sell",
+      "qty": 125.944627,
+      "status": "filled",
+      "price": 5.96,
+      "proceeds": 750.25,
+      "realized_pnl": 0.25,
+      "realized_pct": 0.03,
+      "date": "2026-10-21",
+      "time_et": "11:00",
+      "ts": 1792594800,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $5.95",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 2247.04,
+  "spent_today": 1496.79,
   "deployed_today": 30750.0,
   "orders_today": 17,
-  "sells_today": 14,
+  "sells_today": 15,
   "sold_today": [
     "NXPI",
     "MSFT",
@@ -2865,13 +2886,13 @@
     "WSM": 1792594330,
     "RPM": 1792521186,
     "FUL": 1792430492,
-    "RIG": 1792590370,
+    "RIG": 1792594822,
     "AYI": 1792593818,
     "FITB": 1792590245,
     "CRBG": 1792594284
   },
-  "last_publish_ts": 1792594513,
-  "last_check_ts": 1792594779,
+  "last_publish_ts": 1792594821,
+  "last_check_ts": 1792594867,
   "exp_arm": {
     "CACI": {
       "params": {
@@ -2928,19 +2949,16 @@
       }
     }
   },
-  "last_bar_ts": 1792594500,
+  "last_bar_ts": 1792594800,
   "last_decision_ts": 1792594779,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "b8dc5910": 5.975,
-    "f0a41cd9": 5.962,
-    "46642f65": 53.1498,
     "917a9686": 609.6213,
+    "46642f65": 53.1498,
     "80b88285": 52.7299,
     "bc6c5782": 616.5227,
     "3ee65752": 596.1135,
-    "a220d035": 51.4391,
-    "1188e786": 5.7715
+    "a220d035": 51.4391
   }
 }
