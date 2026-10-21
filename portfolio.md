@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-10-21 11:26 ET
+# Pretend portfolio — 2026-10-21 11:29 ET
 
-**Equity $25234.30** on $25000.00 put in → **+0.94%**  
-Cash $23735.19 · Unrealised -0.89 · Realised +235.19
+**Equity $25236.32** on $25000.00 put in → **+0.95%**  
+Cash $23735.19 · Unrealised +1.13 · Realised +235.19
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| MSFT | 3.0% | $750.26 | $530.53 | $530.71 | +0.03% | 0d |
-| CACI | 3.0% | $748.85 | $614.55 | $613.60 | -0.15% | 0d |
+| MSFT | 3.0% | $750.90 | $530.53 | $531.16 | +0.12% | 0d |
+| CACI | 3.0% | $750.24 | $614.55 | $614.74 | +0.03% | 0d |
 
 ## Last fills
 
