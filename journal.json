@@ -72270,7 +72270,7 @@
     "code_version": "a0363b9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": 0.24
   },
   {
     "symbol": "ADI",
@@ -72351,5 +72351,65 @@
     "hour_et": 11,
     "code_version": "52c39f5",
     "hold_minutes": 89
+  },
+  {
+    "symbol": "WSM",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.963124,
+    "price": 253.11,
+    "date": "2026-10-21",
+    "time_et": "11:38",
+    "ts": 1792597106,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +8.7% over the month; 62% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 253.01,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 8.73,
+    "hour_et": 11,
+    "code_version": "995aa70",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CRBG",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 21.21993,
+    "price": 35.34,
+    "date": "2026-10-21",
+    "time_et": "11:38",
+    "ts": 1792597106,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4); +4.4% over the month; 44% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 35.33,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 4.39,
+    "hour_et": 11,
+    "code_version": "995aa70",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
