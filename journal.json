@@ -71751,7 +71751,7 @@
     "code_version": "61a49eb",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.27
+    "ret_now": -0.46
   },
   {
     "symbol": "MSFT",
@@ -71782,7 +71782,9 @@
     "code_version": "91d9fc3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": 0.23,
+    "ret_final": 0.23,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -71846,7 +71848,7 @@
     "code_version": "91d9fc3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16
+    "ret_now": 0.31
   },
   {
     "symbol": "WSM",
@@ -71877,7 +71879,7 @@
     "code_version": "482174c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.28
+    "ret_now": -0.13
   },
   {
     "symbol": "ADI",
@@ -71934,7 +71936,8 @@
     "hour_et": 10,
     "code_version": "471f240",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.04
   },
   {
     "symbol": "AYI",
@@ -71964,7 +71967,8 @@
     "hour_et": 10,
     "code_version": "471f240",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.24
   },
   {
     "symbol": "MSFT",
@@ -71990,6 +71994,37 @@
     "evidence": "average cost $528.51",
     "trigger": "take_profit",
     "hour_et": 10,
-    "code_version": "5dc6c99"
+    "code_version": "5dc6c99",
+    "hold_minutes": 7
+  },
+  {
+    "symbol": "CRBG",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 21.130218,
+    "price": 35.49,
+    "date": "2026-10-21",
+    "time_et": "10:34",
+    "ts": 1792593264,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4); +4.8% over the month; 77% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 35.48,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 4.85,
+    "hour_et": 10,
+    "code_version": "1e7632f",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
