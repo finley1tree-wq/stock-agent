@@ -1,117 +1,6 @@
 {
  "orders": [
   {
-   "id": "b391df75",
-   "ticker": "AEIS",
-   "kind": "stop_loss",
-   "price": 258.5029,
-   "status": "filled",
-   "created": "2026-10-14 13:10",
-   "created_ts": 1791997850,
-   "why": "close it all at -1.4% under the average cost",
-   "evidence": "average cost $262.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 13:39"
-  },
-  {
-   "id": "6c0107b7",
-   "ticker": "AEIS",
-   "kind": "buy_limit",
-   "price": 254.2952,
-   "status": "cancelled",
-   "created": "2026-10-14 13:10",
-   "created_ts": 1791997850,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $262.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "usd": 500.0,
-   "closed": "2026-10-14 13:39",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "b704a9ec",
-   "ticker": "TSM",
-   "kind": "take_profit",
-   "price": 433.419,
-   "status": "cancelled",
-   "created": "2026-10-14 13:13",
-   "created_ts": 1791998031,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $432.17",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 14:11",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "c5accc1b",
-   "ticker": "TSM",
-   "kind": "stop_loss",
-   "price": 429.0454,
-   "status": "filled",
-   "created": "2026-10-14 13:13",
-   "created_ts": 1791998031,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $432.17",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 14:11"
-  },
-  {
-   "id": "98febf3f",
-   "ticker": "TSM",
-   "kind": "buy_limit",
-   "price": 419.2049,
-   "status": "cancelled",
-   "created": "2026-10-14 13:13",
-   "created_ts": 1791998031,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $432.17",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "usd": 500.0,
-   "closed": "2026-10-14 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "76a2e855",
-   "ticker": "IBRX",
-   "kind": "take_profit",
-   "price": 10.2404,
-   "status": "filled",
-   "created": "2026-10-14 13:23",
-   "created_ts": 1791998585,
-   "why": "close 100% at +0.8% over the average cost",
-   "evidence": "average cost $10.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-19",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-14 13:26"
-  },
-  {
    "id": "1a89f72b",
    "ticker": "IBRX",
    "kind": "stop_loss",
@@ -7376,7 +7265,7 @@
    "ticker": "AYI",
    "kind": "take_profit",
    "price": 313.4697,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-21 09:32",
    "created_ts": 1792589548,
    "why": "close 100% at +0.3% over the average cost",
@@ -7386,14 +7275,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-21 09:37"
   },
   {
    "id": "2cbac53b",
    "ticker": "AYI",
    "kind": "stop_loss",
    "price": 310.4592,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-21 09:32",
    "created_ts": 1792589548,
    "why": "close it all at -0.7% under the average cost",
@@ -7403,14 +7293,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-26",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-21 09:37",
+   "cancel_reason": "position closed"
   },
   {
    "id": "cef2ae40",
    "ticker": "AYI",
    "kind": "buy_limit",
    "price": 303.2317,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-21 09:32",
    "created_ts": 1792589548,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7420,7 +7312,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-26",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-21 09:37",
+   "cancel_reason": "position closed"
   },
   {
    "id": "69132be8",
@@ -7477,7 +7371,109 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-21 09:34",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "33f80277",
+   "ticker": "FITB",
+   "kind": "take_profit",
+   "price": 52.8998,
+   "status": "working",
+   "created": "2026-10-21 09:37",
+   "created_ts": 1792589878,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $52.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ead3b3e8",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 52.4797,
+   "status": "working",
+   "created": "2026-10-21 09:37",
+   "created_ts": 1792589878,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $52.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6af34498",
+   "ticker": "FITB",
+   "kind": "buy_limit",
+   "price": 51.1966,
+   "status": "working",
+   "created": "2026-10-21 09:37",
+   "created_ts": 1792589878,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $52.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-26",
+   "usd": 500.0
+  },
+  {
+   "id": "e4e1489b",
+   "ticker": "RIG",
+   "kind": "take_profit",
+   "price": 5.8843,
+   "status": "working",
+   "created": "2026-10-21 09:37",
+   "created_ts": 1792589878,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $5.86",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8182df28",
+   "ticker": "RIG",
+   "kind": "stop_loss",
+   "price": 5.7993,
+   "status": "working",
+   "created": "2026-10-21 09:37",
+   "created_ts": 1792589878,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $5.86",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f5a0c22e",
+   "ticker": "RIG",
+   "kind": "buy_limit",
+   "price": 5.6842,
+   "status": "working",
+   "created": "2026-10-21 09:37",
+   "created_ts": 1792589878,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $5.86",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-26",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-21 09:34"
+ "updated": "2026-10-21 09:37"
 }

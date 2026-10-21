@@ -1,18 +1,18 @@
 {
   "week": "2026-W43",
-  "spent": 9052.39,
-  "deployed": 82500.0,
+  "spent": 12043.03,
+  "deployed": 88500.0,
   "by_ticker": {
     "RPM": 48.71,
     "GTES": 52.54,
     "NXPI": 11.76,
     "IBRX": 8.97,
     "FUL": 3.96,
-    "RIG": 33.24,
+    "RIG": 3033.24,
     "MSFT": 2.56,
     "WSM": 3003.71,
     "CRBG": 3000.0,
-    "AYI": 3000.0
+    "FITB": 3000.0
   },
   "deployed_by_ticker": {
     "WSM": 12000.0,
@@ -23,9 +23,10 @@
     "IBRX": 6750.0,
     "MSFT": 12750.0,
     "FUL": 1500.0,
-    "RIG": 5250.0,
+    "RIG": 8250.0,
     "CRBG": 3000.0,
-    "AYI": 3000.0
+    "AYI": 3000.0,
+    "FITB": 3000.0
   },
   "orders": [
     {
@@ -2364,17 +2365,83 @@
       ],
       "evidence": "average cost $397.88",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "AYI",
+      "side": "sell",
+      "qty": 9.596469,
+      "status": "filled",
+      "price": 313.59,
+      "proceeds": 3009.36,
+      "realized_pnl": 9.36,
+      "realized_pct": 0.31,
+      "date": "2026-10-21",
+      "time_et": "09:37",
+      "ts": 1792589700,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $312.61",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "FITB",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 56.838523,
+      "price": 52.78,
+      "date": "2026-10-21",
+      "time_et": "09:37",
+      "ts": 1792589878,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +0.0% over the month; 15% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "RIG",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 512.382404,
+      "price": 5.86,
+      "date": "2026-10-21",
+      "time_et": "09:37",
+      "ts": 1792589878,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +6.6% over the month; 52% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 8977.14,
-  "deployed_today": 18000.0,
-  "orders_today": 6,
-  "sells_today": 3,
+  "spent_today": 11967.78,
+  "deployed_today": 24000.0,
+  "orders_today": 8,
+  "sells_today": 4,
   "sold_today": [
     "NXPI",
     "MSFT",
-    "ADI"
+    "ADI",
+    "AYI"
   ],
   "sold_ts": {
     "NXPI": 1792589703,
@@ -2385,20 +2452,12 @@
     "WSM": 1792520063,
     "RPM": 1792521186,
     "FUL": 1792430492,
-    "RIG": 1792523016
+    "RIG": 1792523016,
+    "AYI": 1792589877
   },
-  "last_publish_ts": 1792589695,
-  "last_check_ts": 1792589788,
+  "last_publish_ts": 1792589878,
+  "last_check_ts": 1792589878,
   "exp_arm": {
-    "MSFT": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
-      }
-    },
     "WSM": {
       "params": {
         "hold_minutes": 90,
@@ -2406,15 +2465,6 @@
       },
       "tags": {
         "ratchet": "off"
-      }
-    },
-    "ADI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
       }
     },
     "CRBG": {
@@ -2426,7 +2476,7 @@
         "ratchet": "off"
       }
     },
-    "NXPI": {
+    "FITB": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -2435,7 +2485,7 @@
         "ratchet": "on"
       }
     },
-    "AYI": {
+    "RIG": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "off"
@@ -2446,18 +2496,21 @@
     }
   },
   "last_bar_ts": 1792589700,
-  "last_decision_ts": 1792589695,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792589878,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "09fd22f2": 253.3299,
     "4997341e": 35.1139,
-    "d2d424cb": 313.4697,
-    "2cbac53b": 310.4592,
-    "d76395d6": 35.4583,
+    "09fd22f2": 253.3299,
+    "33f80277": 52.8998,
+    "ead3b3e8": 52.4797,
+    "e4e1489b": 5.8843,
     "6beb1607": 250.8441,
+    "8182df28": 5.7993,
+    "d76395d6": 35.4583,
     "59de2d9c": 34.2992,
-    "cef2ae40": 303.2317,
+    "f5a0c22e": 5.6842,
+    "6af34498": 51.1966,
     "900d4aec": 245.0414
   }
 }

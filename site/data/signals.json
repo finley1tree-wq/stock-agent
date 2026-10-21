@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-21T09:35-04:00",
- "note": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)",
+ "asOf": "2026-10-21T09:38-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,957 idle, so opened 2: FITB, RIG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "09fd22f2",
-   "ticker": "WSM",
-   "kind": "take_profit",
-   "price": 253.3299,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 253.05,
-   "pct_away": 0.11,
-   "good_until": "2026-10-26",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "4997341e",
    "ticker": "CRBG",
    "kind": "stop_loss",
@@ -202,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 35.19,
-   "pct_away": -0.22,
+   "last": 35.15,
+   "pct_away": -0.1,
    "good_until": "2026-10-26",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -212,15 +195,15 @@
    ]
   },
   {
-   "id": "d2d424cb",
-   "ticker": "AYI",
+   "id": "09fd22f2",
+   "ticker": "WSM",
    "kind": "take_profit",
-   "price": 313.4697,
+   "price": 253.3299,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 312.49,
-   "pct_away": 0.31,
+   "last": 252.84,
+   "pct_away": 0.19,
    "good_until": "2026-10-26",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -229,34 +212,51 @@
    ]
   },
   {
-   "id": "2cbac53b",
-   "ticker": "AYI",
+   "id": "33f80277",
+   "ticker": "FITB",
+   "kind": "take_profit",
+   "price": 52.8998,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 52.76,
+   "pct_away": 0.26,
+   "good_until": "2026-10-26",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ead3b3e8",
+   "ticker": "FITB",
    "kind": "stop_loss",
-   "price": 310.4592,
+   "price": 52.4797,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 312.49,
-   "pct_away": -0.65,
+   "last": 52.76,
+   "pct_away": -0.53,
    "good_until": "2026-10-26",
-   "why": "close it all at -0.7% under the average cost",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "d76395d6",
-   "ticker": "CRBG",
+   "id": "e4e1489b",
+   "ticker": "RIG",
    "kind": "take_profit",
-   "price": 35.4583,
+   "price": 5.8843,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 35.19,
-   "pct_away": 0.76,
+   "last": 5.85,
+   "pct_away": 0.59,
    "good_until": "2026-10-26",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,10 +270,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 253.05,
-   "pct_away": -0.87,
+   "last": 252.84,
+   "pct_away": -0.79,
    "good_until": "2026-10-26",
    "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8182df28",
+   "ticker": "RIG",
+   "kind": "stop_loss",
+   "price": 5.7993,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 5.85,
+   "pct_away": -0.87,
+   "good_until": "2026-10-26",
+   "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d76395d6",
+   "ticker": "CRBG",
+   "kind": "take_profit",
+   "price": 35.4583,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 35.15,
+   "pct_away": 0.88,
+   "good_until": "2026-10-26",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -287,8 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 35.19,
-   "pct_away": -2.53,
+   "last": 35.15,
+   "pct_away": -2.42,
    "good_until": "2026-10-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -297,14 +331,31 @@
    ]
   },
   {
-   "id": "cef2ae40",
-   "ticker": "AYI",
+   "id": "f5a0c22e",
+   "ticker": "RIG",
    "kind": "buy_limit",
-   "price": 303.2317,
+   "price": 5.6842,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 312.49,
+   "last": 5.85,
+   "pct_away": -2.83,
+   "good_until": "2026-10-26",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6af34498",
+   "ticker": "FITB",
+   "kind": "buy_limit",
+   "price": 51.1966,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 52.76,
    "pct_away": -2.96,
    "good_until": "2026-10-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -321,8 +372,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 253.05,
-   "pct_away": -3.16,
+   "last": 252.84,
+   "pct_away": -3.08,
    "good_until": "2026-10-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -331,8 +382,8 @@
    ]
   }
  ],
- "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)",
- "next_check_minutes": null,
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $18,957 idle, so opened 2: FITB, RIG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "next_check_minutes": 6,
  "allowed": [
   "AAPL",
   "ADI",
@@ -400,7 +451,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 398,
+  "decisions_graded": 397,
   "decisions_with_buys_graded": 53,
   "independent_days_graded": 4,
   "avg_regret_pct": 0.16,
@@ -501,9 +552,9 @@
     "n": 1
    }
   },
-  "idle_checks": 343,
+  "idle_checks": 342,
   "blocked_checks": 0,
-  "idle_share": 0.86,
+  "idle_share": 0.85,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -2037,5 +2088,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-21T09:35-04:00"
+ "signalsAsOf": "2026-10-21T09:38-04:00"
 }
