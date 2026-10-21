@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-21T09:46-04:00",
+ "asOf": "2026-10-21T09:47-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -176,59 +176,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "d76395d6",
-   "ticker": "CRBG",
-   "kind": "take_profit",
-   "price": 35.4583,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 35.34,
-   "pct_away": 0.33,
-   "good_until": "2026-10-26",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4997341e",
-   "ticker": "CRBG",
-   "kind": "stop_loss",
-   "price": 35.1139,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 35.34,
-   "pct_away": -0.64,
-   "good_until": "2026-10-26",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "59de2d9c",
-   "ticker": "CRBG",
-   "kind": "buy_limit",
-   "price": 34.2992,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 35.34,
-   "pct_away": -2.95,
-   "good_until": "2026-10-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)",
  "congress_trades": [
