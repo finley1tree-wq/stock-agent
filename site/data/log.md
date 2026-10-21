@@ -1,6 +1,3 @@
-## 2026-10-20 15:55 ET (Tuesday) — week 2026-W43 — budget left $24924.75 (today $27000.00 put to work, 21 buys, 21 sells) — SIM (pretend money) via sim
-  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
   (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
   (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
   (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 AYI @ $305.85 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25234.54 (+0.94% on $25000.00 in) · cash $20737.69 · realised +237.69
 Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $20496.32 this week
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $529.73] -> $751.74 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-10-21 10:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,12 +1,12 @@
 {
- "generated_at": "2026-10-21T10:31-04:00",
+ "generated_at": "2026-10-21T10:32-04:00",
  "settings": {
   "min_trips": 30,
   "survive_t": 2.0,
   "cull_t": -1.0,
   "probation_size": 0.25
  },
- "trips": 1268,
+ "trips": 1269,
  "lenses": {
   "hour": {
    "09": {
@@ -27,11 +27,11 @@
     }
    },
    "10": {
-    "n": 264,
-    "net": -66.8,
-    "mean": -0.253,
-    "t": -0.47,
-    "win_rate": 0.576,
+    "n": 265,
+    "net": -65.06,
+    "mean": -0.246,
+    "t": -0.45,
+    "win_rate": 0.577,
     "stage": "PROBATION",
     "weeks": {
      "2026-W37": 6.89,
@@ -40,7 +40,7 @@
      "2026-W40": -101.6,
      "2026-W41": 17.31,
      "2026-W42": -103.3,
-     "2026-W43": -25.55
+     "2026-W43": -23.81
     }
    },
    "11": {
@@ -171,11 +171,11 @@
     }
    },
    "congress+momentum": {
-    "n": 471,
-    "net": -3.99,
-    "mean": -0.008,
+    "n": 472,
+    "net": -2.25,
+    "mean": -0.005,
     "t": -0.01,
-    "win_rate": 0.58,
+    "win_rate": 0.581,
     "stage": "PROBATION",
     "weeks": {
      "2026-W37": 55.74,
@@ -184,7 +184,7 @@
      "2026-W40": -101.08,
      "2026-W41": 48.05,
      "2026-W42": -143.68,
-     "2026-W43": -19.15
+     "2026-W43": -17.41
     }
    },
    "congress+momentum+news": {
@@ -475,20 +475,20 @@
      "win_rate": 0.634
     },
     "off": {
-     "n": 149,
-     "net": 4.81,
-     "mean_pct": -0.1108,
-     "win_rate": 0.597
+     "n": 150,
+     "net": 6.55,
+     "mean_pct": -0.1085,
+     "win_rate": 0.6
     }
    },
-   "winner": null,
-   "why": null,
-   "decided_on": null,
-   "t": -1.13,
+   "winner": "on",
+   "why": "better on average after 150 trades each (t 1.10, not proven)",
+   "decided_on": "2026-10-21",
+   "t": -1.1,
    "name": "ratchet",
    "param": "ratchet",
    "note": "",
-   "status": "running"
+   "status": "decided"
   },
   {
    "settings": {
@@ -523,7 +523,7 @@
    "name": "hold_long",
    "param": "hold_minutes",
    "note": "",
-   "status": "queued"
+   "status": "running"
   }
  ]
 }
