@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-10-21 11:02 ET
+# Pretend portfolio — 2026-10-21 11:05 ET
 
-**Equity $25235.18** on $25000.00 put in → **+0.94%**  
-Cash $23739.72 · Unrealised -4.54 · Realised +239.72
+**Equity $25236.39** on $25000.00 put in → **+0.95%**  
+Cash $23739.72 · Unrealised -3.33 · Realised +239.72
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| FITB | 3.0% | $749.70 | $53.03 | $53.01 | -0.04% | 0d |
-| CACI | 3.0% | $745.76 | $614.55 | $611.07 | -0.57% | 0d |
+| FITB | 3.0% | $749.98 | $53.03 | $53.03 | -0.00% | 0d |
+| CACI | 3.0% | $746.69 | $614.55 | $611.83 | -0.44% | 0d |
 
 ## Last fills
 
