@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "2eb1fe8b",
-   "ticker": "IBRX",
-   "kind": "buy_limit",
-   "price": 9.894,
-   "status": "cancelled",
-   "created": "2026-10-15 10:22",
-   "created_ts": 1792074173,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $10.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-20",
-   "usd": 500.0,
-   "closed": "2026-10-15 10:26",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "da347cbf",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 534.3374,
-   "status": "filled",
-   "created": "2026-10-15 10:22",
-   "created_ts": 1792074173,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $533.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-15 10:26"
-  },
-  {
-   "id": "0b2cd293",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 529.9768,
-   "status": "cancelled",
-   "created": "2026-10-15 10:22",
-   "created_ts": 1792074173,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $533.09",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-15 10:26",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "0b790fda",
    "ticker": "MSFT",
    "kind": "buy_limit",
@@ -7483,7 +7427,58 @@
    "good_until": "2026-10-26",
    "pct_of_position": 100.0,
    "closed": "2026-10-21 11:00"
+  },
+  {
+   "id": "17ef44b4",
+   "ticker": "ADI",
+   "kind": "take_profit",
+   "price": 403.3629,
+   "status": "working",
+   "created": "2026-10-21 11:11",
+   "created_ts": 1792595484,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $401.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0da6f164",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 398.3828,
+   "status": "working",
+   "created": "2026-10-21 11:11",
+   "created_ts": 1792595484,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $401.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-26",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9304be13",
+   "ticker": "ADI",
+   "kind": "buy_limit",
+   "price": 389.8818,
+   "status": "working",
+   "created": "2026-10-21 11:11",
+   "created_ts": 1792595484,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $401.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-26",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-21 11:08"
+ "updated": "2026-10-21 11:11"
 }
