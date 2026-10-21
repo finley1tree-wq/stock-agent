@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 3748.39,
+  "spent": 2251.9,
   "deployed": 95250.0,
   "by_ticker": {
     "RPM": 48.71,
@@ -11,9 +11,8 @@
     "RIG": 768.23,
     "MSFT": 0.82,
     "CACI": 750.0,
-    "WSM": 750.0,
     "FITB": 750.0,
-    "CRBG": 750.0
+    "CRBG": 5.66
   },
   "deployed_by_ticker": {
     "WSM": 12750.0,
@@ -2798,13 +2797,55 @@
       ],
       "evidence": "average cost $238.73",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CRBG",
+      "side": "sell",
+      "qty": 21.130218,
+      "status": "filled",
+      "price": 35.23,
+      "proceeds": 744.34,
+      "realized_pnl": -5.66,
+      "realized_pct": -0.75,
+      "date": "2026-10-21",
+      "time_et": "10:51",
+      "ts": 1792594200,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $35.49",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 2.967347,
+      "status": "filled",
+      "price": 253.48,
+      "proceeds": 752.15,
+      "realized_pnl": 2.15,
+      "realized_pct": 0.29,
+      "date": "2026-10-21",
+      "time_et": "10:52",
+      "ts": 1792594200,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $252.75",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 3743.53,
+  "spent_today": 2247.04,
   "deployed_today": 30750.0,
   "orders_today": 17,
-  "sells_today": 12,
+  "sells_today": 14,
   "sold_today": [
     "NXPI",
     "MSFT",
@@ -2821,16 +2862,16 @@
     "MSFT": 1792593134,
     "IBRX": 1792510176,
     "GTES": 1792436890,
-    "WSM": 1792590013,
+    "WSM": 1792594330,
     "RPM": 1792521186,
     "FUL": 1792430492,
     "RIG": 1792590370,
     "AYI": 1792593818,
     "FITB": 1792590245,
-    "CRBG": 1792590466
+    "CRBG": 1792594284
   },
-  "last_publish_ts": 1792594228,
-  "last_check_ts": 1792594231,
+  "last_publish_ts": 1792594329,
+  "last_check_ts": 1792594329,
   "exp_arm": {
     "CACI": {
       "params": {
@@ -2892,20 +2933,14 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "e07d6734": 253.4754,
     "46642f65": 53.1498,
-    "a3a35ca0": 35.5883,
     "b8dc5910": 5.975,
-    "917a9686": 609.6213,
     "bc6c5782": 616.5227,
+    "917a9686": 609.6213,
     "80b88285": 52.7299,
-    "5d0d5650": 35.2441,
-    "87085d61": 250.9403,
     "290ede72": 5.8876,
     "3ee65752": 596.1135,
     "1188e786": 5.7715,
-    "a714e6d1": 34.4253,
-    "a220d035": 51.4391,
-    "14d90573": 245.1675
+    "a220d035": 51.4391
   }
 }
