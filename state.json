@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 3761.4,
+  "spent": 3010.52,
   "deployed": 102750.0,
   "by_ticker": {
     "RPM": 48.71,
@@ -12,8 +12,7 @@
     "CACI": 1.65,
     "FITB": 754.63,
     "CRBG": 753.66,
-    "EL": 750.0,
-    "WSM": 750.0
+    "EL": 750.0
   },
   "deployed_by_ticker": {
     "WSM": 14250.0,
@@ -3228,13 +3227,34 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 2.962071,
+      "status": "filled",
+      "price": 253.5,
+      "proceeds": 750.88,
+      "realized_pnl": 0.88,
+      "realized_pct": 0.12,
+      "date": "2026-10-21",
+      "time_et": "13:25",
+      "ts": 1792603200,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $253.2",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 3756.54,
+  "spent_today": 3005.66,
   "deployed_today": 38250.0,
   "orders_today": 27,
-  "sells_today": 22,
+  "sells_today": 23,
   "sold_today": [
     "NXPI",
     "MSFT",
@@ -3252,7 +3272,7 @@
     "MSFT": 1792597155,
     "IBRX": 1792510176,
     "GTES": 1792436890,
-    "WSM": 1792599416,
+    "WSM": 1792603509,
     "RPM": 1792521186,
     "FUL": 1792430492,
     "RIG": 1792600815,
@@ -3261,8 +3281,8 @@
     "CRBG": 1792598179,
     "CACI": 1792596874
   },
-  "last_publish_ts": 1792603384,
-  "last_check_ts": 1792603473,
+  "last_publish_ts": 1792603507,
+  "last_check_ts": 1792603556,
   "exp_arm": {
     "EL": {
       "params": {
@@ -3310,16 +3330,12 @@
       }
     }
   },
-  "last_bar_ts": 1792603200,
-  "last_decision_ts": 1792603384,
-  "next_check_minutes": 6,
+  "last_bar_ts": 1792603500,
+  "last_decision_ts": 1792603556,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "17afb240": 253.626,
-    "18c0bcaa": 253.9242,
-    "3db1b478": 241.55,
     "7182ed37": 53.0301,
-    "c9148f3c": 242.2078,
     "b1a20d2e": 35.6184,
     "9aaa3385": 104.7086,
     "44459bd6": 52.61,
@@ -3328,7 +3344,8 @@
     "02249534": 101.2292,
     "5f57236e": 34.4544,
     "55b026e4": 51.3227,
-    "451bc570": 245.604,
-    "7c25da3b": 234.0125
+    "c9148f3c": 242.2078,
+    "7c25da3b": 234.0125,
+    "3db1b478": 241.55
   }
 }

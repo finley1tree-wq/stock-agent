@@ -1,6 +1,3 @@
-## 2026-10-21 12:16 ET (Wednesday) — week 2026-W43 — budget left $24246.22 (today $34500.00 put to work, 22 buys, 21 sells) — SIM (pretend money) via sim
-  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
-  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
   (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
   (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
   (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 CRBG @ $34.45 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25232.85 (+0.93% on $25000.00 in) · cash $21479.96 · realised +229.96
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21238.60 this week
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $253.50] -> $750.88 (+0.12%) — close it all at -0.7% under the average cost
+## 2026-10-21 13:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
