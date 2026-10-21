@@ -71370,7 +71370,7 @@
     "code_version": "6378de0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.57
+    "ret_now": -0.23
   },
   {
     "symbol": "NXPI",
@@ -71575,7 +71575,9 @@
     "code_version": "3c7019b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.08
+    "ret_now": 0.22,
+    "ret_final": 0.22,
+    "ret_src": "realised"
   },
   {
     "symbol": "RIG",
@@ -71606,7 +71608,7 @@
     "code_version": "3c7019b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17
+    "ret_now": -0.51
   },
   {
     "symbol": "WSM",
@@ -71633,6 +71635,33 @@
     "trigger": "take_profit",
     "hour_et": 9,
     "code_version": "625512d",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 56.838523,
+    "status": "filled",
+    "price": 52.9,
+    "proceeds": 3006.75,
+    "realized_pnl": 6.75,
+    "realized_pct": 0.22,
+    "date": "2026-10-21",
+    "time_et": "09:44",
+    "ts": 1792590000,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $52.78",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "c1b11ba",
     "hold_minutes": 2
   }
 ]
