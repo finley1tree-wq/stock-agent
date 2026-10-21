@@ -40359,3 +40359,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25217.87 (+0.87% on $25000.00 in) · cash $24472.60 · realised +222.60
 Decision: nothing at this check. 2 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [stop_loss @ $35.26] -> $744.34 (-0.75%) — close it all at -0.7% under the average cost
+## 2026-10-21 15:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
