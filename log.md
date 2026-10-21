@@ -38830,3 +38830,28 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25233.79 (+0.94% on $25000.00 in) · cash $24486.50 · realised +236.50
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-21 10:22 ET (Wednesday) — week 2026-W43 — budget left $24245.14 (today $24750.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
+  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFXqFqwbn5Yb69TY3Xn5'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,245 idle, so opened 3: MSFT, ADI, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 MSFT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +6.1% over the month; 52% of today's range
+- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +2.7% over the month; 67% of today's range
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +0.5% over the month; 46% of today's range
+~ WORKING take_profit 100% MSFT @ $529.73 until 2026-10-26 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% MSFT @ $525.45 until 2026-10-26 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 MSFT @ $512.65 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ADI @ $402.56 until 2026-10-26 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% ADI @ $397.58 until 2026-10-26 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $389.11 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NXPI @ $239.68 until 2026-10-26 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $236.35 until 2026-10-26 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $231.57 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25235.18 (+0.94% on $25000.00 in) · cash $22236.50 · realised +236.50
+Done: 0 sell(s), 3 buy(s); 12 order(s) working; budget left $21995.14 this week

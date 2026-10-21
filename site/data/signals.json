@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-21T10:04-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,995 idle, so opened 1: CACI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-10-21T10:22-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,245 idle, so opened 3: MSFT, ADI, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the l",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "0a5c6dc1",
+   "ticker": "MSFT",
+   "kind": "take_profit",
+   "price": 529.7309,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 528.4,
+   "pct_away": 0.25,
+   "good_until": "2026-10-26",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "face8255",
+   "ticker": "ADI",
+   "kind": "take_profit",
+   "price": 402.564,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 401.06,
+   "pct_away": 0.38,
+   "good_until": "2026-10-26",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "bc6c5782",
    "ticker": "CACI",
    "kind": "take_profit",
@@ -185,10 +219,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 614.3,
-   "pct_away": 0.36,
+   "last": 613.95,
+   "pct_away": 0.42,
    "good_until": "2026-10-26",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "742fc676",
+   "ticker": "NXPI",
+   "kind": "take_profit",
+   "price": 239.6801,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 238.63,
+   "pct_away": 0.44,
+   "good_until": "2026-10-26",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "98a6fc8c",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 525.4499,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 528.4,
+   "pct_away": -0.56,
+   "good_until": "2026-10-26",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,10 +270,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 614.3,
-   "pct_away": -0.76,
+   "last": 613.95,
+   "pct_away": -0.71,
    "good_until": "2026-10-26",
    "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b26c1b22",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 397.5819,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 401.06,
+   "pct_away": -0.87,
+   "good_until": "2026-10-26",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e4cfacb7",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 236.3522,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 238.63,
+   "pct_away": -0.95,
+   "good_until": "2026-10-26",
+   "why": "close it all at -1.0% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +321,59 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 614.3,
+   "last": 613.95,
+   "pct_away": -2.91,
+   "good_until": "2026-10-26",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f7b4cf94",
+   "ticker": "NXPI",
+   "kind": "buy_limit",
+   "price": 231.5681,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 238.63,
    "pct_away": -2.96,
+   "good_until": "2026-10-26",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ab6ba9b6",
+   "ticker": "MSFT",
+   "kind": "buy_limit",
+   "price": 512.6547,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 528.4,
+   "pct_away": -2.98,
+   "good_until": "2026-10-26",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c7bac42b",
+   "ticker": "ADI",
+   "kind": "buy_limit",
+   "price": 389.1058,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 401.06,
+   "pct_away": -2.98,
    "good_until": "2026-10-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -229,7 +382,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,995 idle, so opened 1: CACI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,245 idle, so opened 3: MSFT, ADI, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the l",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -298,32 +451,32 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 388,
-  "decisions_with_buys_graded": 50,
+  "decisions_graded": 382,
+  "decisions_with_buys_graded": 48,
   "independent_days_graded": 3,
-  "avg_regret_pct": 0.17,
-  "chosen_avg_pct": -0.15,
-  "skipped_avg_pct": 0.02,
+  "avg_regret_pct": 0.2,
+  "chosen_avg_pct": -0.17,
+  "skipped_avg_pct": 0.03,
   "idle_universe_avg_pct": 0.09,
   "picking_beats_random": false,
-  "avg_fraction_of_universe_bought": 0.01,
+  "avg_fraction_of_universe_bought": 0.0,
   "checks_that_bought_everything": 0,
   "by_signal_chosen": {
    "autopilot": {
-    "n": 75,
-    "avg_pct": -0.35
+    "n": 73,
+    "avg_pct": -0.37
    },
    "congress": {
-    "n": 71,
-    "avg_pct": -0.35
+    "n": 70,
+    "avg_pct": -0.37
    },
    "insider": {
-    "n": 4,
-    "avg_pct": -0.29
+    "n": 3,
+    "avg_pct": -0.2
    },
    "momentum": {
-    "n": 75,
-    "avg_pct": -0.35
+    "n": 73,
+    "avg_pct": -0.37
    }
   },
   "biggest_misses": [
@@ -352,20 +505,20 @@
     "insider": 0
    },
    {
-    "ticker": "ALKS",
-    "fwd_pct": 5.21,
-    "sector": "off-watchlist",
-    "m1m_then": -15.0,
-    "congress": 1.0,
-    "insider": 0
-   },
-   {
     "ticker": "AMD",
     "fwd_pct": 4.87,
     "sector": "widely_held",
     "m1m_then": -14.5,
     "congress": 0,
     "insider": -1.0
+   },
+   {
+    "ticker": "ALKS",
+    "fwd_pct": 4.45,
+    "sector": "off-watchlist",
+    "m1m_then": -14.4,
+    "congress": 1.0,
+    "insider": 0
    }
   ],
   "biggest_avoided": [
@@ -395,11 +548,11 @@
    "nuclear": {
     "n": 2
    },
-   "gold": {
+   "real_estate": {
     "n": 1
    }
   },
-  "idle_checks": 343,
+  "idle_checks": 344,
   "blocked_checks": 0,
   "idle_share": 0.86,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1935,5 +2088,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-21T10:04-04:00"
+ "signalsAsOf": "2026-10-21T10:22-04:00"
 }
