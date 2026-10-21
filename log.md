@@ -39602,3 +39602,20 @@ Decision: nothing at this check. 3 standing order(s) working.
   (cancelled 2 standing order(s) on RIG: position closed)
 - SELL 100% RIG [stop_loss @ $5.88] -> $742.38 (-1.02%) — close it all at -1.1% under the average cost
 ## 2026-10-21 12:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-21 12:42 ET (Wednesday) — week 2026-W43 — budget left $24988.60 (today $34500.00 put to work, 22 buys, 22 sells) — SIM (pretend money) via sim
+  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFiWZDxvx5RaWP6c825z'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,989 idle, so opened 3: EL, FITB, CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped EL: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CRBG: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25229.96 (+0.92% on $25000.00 in) · cash $25229.96 · realised +229.96
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
