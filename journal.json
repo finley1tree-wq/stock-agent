@@ -71751,7 +71751,9 @@
     "code_version": "61a49eb",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": -0.22,
+    "ret_final": -0.22,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -72268,7 +72270,7 @@
     "code_version": "a0363b9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": 0.13
   },
   {
     "symbol": "ADI",
@@ -72323,5 +72325,31 @@
     "hour_et": 11,
     "code_version": "bac4a39",
     "hold_minutes": 48
+  },
+  {
+    "symbol": "CACI",
+    "side": "sell",
+    "qty": 1.220414,
+    "status": "filled",
+    "price": 613.19,
+    "proceeds": 748.35,
+    "realized_pnl": -1.65,
+    "realized_pct": -0.22,
+    "date": "2026-10-21",
+    "time_et": "11:34",
+    "ts": 1792596873,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.18% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 11,
+    "code_version": "52c39f5",
+    "hold_minutes": 89
   }
 ]

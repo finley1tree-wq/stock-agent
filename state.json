@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 1506.17,
+  "spent": 757.82,
   "deployed": 96750.0,
   "by_ticker": {
     "RPM": 48.71,
@@ -10,7 +10,7 @@
     "FUL": 3.96,
     "RIG": 17.98,
     "MSFT": 750.82,
-    "CACI": 750.0,
+    "CACI": 1.65,
     "FITB": 4.63,
     "CRBG": 5.66
   },
@@ -2946,13 +2946,33 @@
       ],
       "evidence": "average cost $53.03",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CACI",
+      "side": "sell",
+      "qty": 1.220414,
+      "status": "filled",
+      "price": 613.19,
+      "proceeds": 748.35,
+      "realized_pnl": -1.65,
+      "realized_pct": -0.22,
+      "date": "2026-10-21",
+      "time_et": "11:34",
+      "ts": 1792596873,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.18% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 1501.31,
+  "spent_today": 752.96,
   "deployed_today": 32250.0,
   "orders_today": 19,
-  "sells_today": 17,
+  "sells_today": 18,
   "sold_today": [
     "NXPI",
     "MSFT",
@@ -2961,7 +2981,8 @@
     "WSM",
     "FITB",
     "RIG",
-    "CRBG"
+    "CRBG",
+    "CACI"
   ],
   "sold_ts": {
     "NXPI": 1792594228,
@@ -2975,10 +2996,11 @@
     "RIG": 1792594822,
     "AYI": 1792593818,
     "FITB": 1792596330,
-    "CRBG": 1792594284
+    "CRBG": 1792594284,
+    "CACI": 1792596874
   },
-  "last_publish_ts": 1792596475,
-  "last_check_ts": 1792596841,
+  "last_publish_ts": 1792596873,
+  "last_check_ts": 1792596921,
   "exp_arm": {
     "CACI": {
       "params": {
@@ -3017,16 +3039,13 @@
       }
     }
   },
-  "last_bar_ts": 1792596600,
-  "last_decision_ts": 1792596748,
+  "last_bar_ts": 1792596900,
+  "last_decision_ts": 1792596921,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "89dbfce8": 530.926,
     "f26babea": 531.7555,
-    "bc6c5782": 616.5227,
-    "917a9686": 609.6213,
-    "3ee65752": 596.1135,
     "959414c2": 514.6141
   }
 }
