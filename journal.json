@@ -72383,7 +72383,9 @@
     "code_version": "995aa70",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.04,
+    "ret_final": 0.04,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRBG",
@@ -72502,5 +72504,32 @@
     "hour_et": 11,
     "code_version": "449a8d4",
     "hold_minutes": 16
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 2.963124,
+    "status": "filled",
+    "price": 253.21,
+    "proceeds": 750.3,
+    "realized_pnl": 0.3,
+    "realized_pct": 0.04,
+    "date": "2026-10-21",
+    "time_et": "12:16",
+    "ts": 1792599300,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $253.11",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "ec92f51",
+    "hold_minutes": 36
   }
 ]

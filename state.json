@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 1504.08,
+  "spent": 753.78,
   "deployed": 99000.0,
   "by_ticker": {
     "RPM": 48.71,
@@ -11,8 +11,7 @@
     "RIG": 767.98,
     "CACI": 1.65,
     "FITB": 4.63,
-    "CRBG": 3.66,
-    "WSM": 750.0
+    "CRBG": 3.66
   },
   "deployed_by_ticker": {
     "WSM": 13500.0,
@@ -3074,13 +3073,34 @@
       ],
       "evidence": "average cost $35.34",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 2.963124,
+      "status": "filled",
+      "price": 253.21,
+      "proceeds": 750.3,
+      "realized_pnl": 0.3,
+      "realized_pct": 0.04,
+      "date": "2026-10-21",
+      "time_et": "12:16",
+      "ts": 1792599300,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $253.11",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 1499.22,
+  "spent_today": 748.92,
   "deployed_today": 34500.0,
   "orders_today": 22,
-  "sells_today": 20,
+  "sells_today": 21,
   "sold_today": [
     "NXPI",
     "MSFT",
@@ -3098,7 +3118,7 @@
     "MSFT": 1792597155,
     "IBRX": 1792510176,
     "GTES": 1792436890,
-    "WSM": 1792594330,
+    "WSM": 1792599416,
     "RPM": 1792521186,
     "FUL": 1792430492,
     "RIG": 1792594822,
@@ -3107,8 +3127,8 @@
     "CRBG": 1792598179,
     "CACI": 1792596874
   },
-  "last_publish_ts": 1792599292,
-  "last_check_ts": 1792599338,
+  "last_publish_ts": 1792599416,
+  "last_check_ts": 1792599418,
   "exp_arm": {
     "WSM": {
       "params": {
@@ -3139,15 +3159,12 @@
     }
   },
   "last_bar_ts": 1792599300,
-  "last_decision_ts": 1792599245,
+  "last_decision_ts": 1792599418,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "d6c8c78a": 253.338,
-    "512ae315": 253.8339,
-    "461c187e": 5.8875,
     "2b865480": 5.975,
-    "de689488": 5.7715,
-    "c1bc662e": 245.5167
+    "461c187e": 5.8875,
+    "de689488": 5.7715
   }
 }
