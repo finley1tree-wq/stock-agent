@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 753.78,
+  "spent": 11.4,
   "deployed": 99000.0,
   "by_ticker": {
     "RPM": 48.71,
@@ -8,7 +8,7 @@
     "NXPI": 8.76,
     "IBRX": 8.97,
     "FUL": 3.96,
-    "RIG": 767.98,
+    "RIG": 25.6,
     "CACI": 1.65,
     "FITB": 4.63,
     "CRBG": 3.66
@@ -3094,13 +3094,34 @@
       ],
       "evidence": "average cost $253.11",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "RIG",
+      "side": "sell",
+      "qty": 126.156413,
+      "status": "filled",
+      "price": 5.88,
+      "proceeds": 742.38,
+      "realized_pnl": -7.62,
+      "realized_pct": -1.02,
+      "date": "2026-10-21",
+      "time_et": "12:40",
+      "ts": 1792600500,
+      "why": "close it all at -1.1% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $5.95",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 748.92,
+  "spent_today": 6.54,
   "deployed_today": 34500.0,
   "orders_today": 22,
-  "sells_today": 21,
+  "sells_today": 22,
   "sold_today": [
     "NXPI",
     "MSFT",
@@ -3121,14 +3142,14 @@
     "WSM": 1792599416,
     "RPM": 1792521186,
     "FUL": 1792430492,
-    "RIG": 1792594822,
+    "RIG": 1792600815,
     "AYI": 1792593818,
     "FITB": 1792596330,
     "CRBG": 1792598179,
     "CACI": 1792596874
   },
-  "last_publish_ts": 1792599416,
-  "last_check_ts": 1792600770,
+  "last_publish_ts": 1792600813,
+  "last_check_ts": 1792600813,
   "exp_arm": {
     "WSM": {
       "params": {
@@ -3158,13 +3179,9 @@
       }
     }
   },
-  "last_bar_ts": 1792600500,
+  "last_bar_ts": 1792600800,
   "last_decision_ts": 1792600770,
   "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {
-    "2b865480": 5.975,
-    "461c187e": 5.8875,
-    "de689488": 5.7715
-  }
+  "book_px": {}
 }

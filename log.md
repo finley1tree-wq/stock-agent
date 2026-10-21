@@ -39599,3 +39599,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 portfolio: equity $25234.43 (+0.94% on $25000.00 in) · cash $24487.58 · realised +237.58
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on RIG: position closed)
+- SELL 100% RIG [stop_loss @ $5.88] -> $742.38 (-1.02%) — close it all at -1.1% under the average cost
+## 2026-10-21 12:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
