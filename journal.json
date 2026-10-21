@@ -71304,7 +71304,9 @@
     "code_version": "6378de0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": 0.28,
+    "ret_final": 0.28,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -71572,7 +71574,8 @@
     "hour_et": 9,
     "code_version": "3c7019b",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.08
   },
   {
     "symbol": "RIG",
@@ -71602,6 +71605,34 @@
     "hour_et": 9,
     "code_version": "3c7019b",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.17
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 11.875497,
+    "status": "filled",
+    "price": 253.33,
+    "proceeds": 3008.42,
+    "realized_pnl": 8.42,
+    "realized_pct": 0.28,
+    "date": "2026-10-21",
+    "time_et": "09:40",
+    "ts": 1792589700,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $252.62",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "625512d",
+    "hold_minutes": 2
   }
 ]

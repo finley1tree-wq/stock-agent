@@ -1,6 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-20 15:00 ET (Tuesday) — week 2026-W43 — budget left $24178.60 (today $27000.00 put to work, 21 buys, 20 sells) — SIM (pretend money) via sim
   (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
   (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
   (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 RIG @ $5.68 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25179.01 (+0.72% on $25000.00 in) · cash $13198.34 · realised +198.34
 Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $12956.97 this week
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $253.33] -> $3008.42 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-10-21 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
