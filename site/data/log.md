@@ -1,22 +1,3 @@
-## 2026-10-20 14:51 ET (Tuesday) — week 2026-W43 — budget left $24178.60 (today $27000.00 put to work, 21 buys, 20 sells) — SIM (pretend money) via sim
-  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgDzZdEkZkEBDEMwhaN4K'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25166.76 (+0.67% on $25000.00 in) · cash $24419.97 · realised +169.97
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-20 14:54 ET (Tuesday) — week 2026-W43 — budget left $24178.60 (today $27000.00 put to work, 21 buys, 20 sells) — SIM (pretend money) via sim
-  (CTY excluded: too thinly traded ($17.8M a day) — City Therapeutics, Inc.)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
   (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
   (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
   (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
@@ -398,3 +379,22 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 AYI @ $303.23 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25160.12 (+0.64% on $25000.00 in) · cash $7166.12 · realised +166.12
 Done: 0 sell(s), 6 buy(s); 18 order(s) working; budget left $6924.75 this week
+
+## 2026-10-21 09:34 ET (Wednesday) — week 2026-W43 — budget left $6924.75 (today $18000.00 put to work, 6 buys, 0 sells) — SIM (pretend money) via sim
+  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $237.68] -> $2997.08 (-0.10%) — close it all at -1.0% under the average cost
+  (cancelled 2 standing order(s) on MSFT: position closed)
+- SELL 100% MSFT [take_profit @ $528.72] -> $3014.28 (+0.48%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [take_profit @ $399.40] -> $3011.50 (+0.38%) — close 100% at +0.3% over the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFUDZ6v3qwkmHwkKPfxV'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25178.10 (+0.71% on $25000.00 in) · cash $16188.98 · realised +188.98
+Done: 3 sell(s), 0 buy(s) (incl. 3 from standing orders); 9 order(s) working; budget left $15947.61 this week

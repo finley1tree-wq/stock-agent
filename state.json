@@ -1,17 +1,16 @@
 {
   "week": "2026-W43",
-  "spent": 18075.25,
+  "spent": 9052.39,
   "deployed": 82500.0,
   "by_ticker": {
     "RPM": 48.71,
     "GTES": 52.54,
-    "NXPI": 3008.84,
+    "NXPI": 11.76,
     "IBRX": 8.97,
     "FUL": 3.96,
     "RIG": 33.24,
-    "MSFT": 3016.84,
+    "MSFT": 2.56,
     "WSM": 3003.71,
-    "ADI": 3000.0,
     "CRBG": 3000.0,
     "AYI": 3000.0
   },
@@ -2302,18 +2301,85 @@
         "ratchet": "off"
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 12.609539,
+      "status": "filled",
+      "price": 237.68,
+      "proceeds": 2997.08,
+      "realized_pnl": -2.92,
+      "realized_pct": -0.1,
+      "date": "2026-10-21",
+      "time_et": "09:34",
+      "ts": 1792589700,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $237.92",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "MSFT",
+      "side": "sell",
+      "qty": 5.701089,
+      "status": "filled",
+      "price": 528.72,
+      "proceeds": 3014.28,
+      "realized_pnl": 14.28,
+      "realized_pct": 0.48,
+      "date": "2026-10-21",
+      "time_et": "09:34",
+      "ts": 1792589700,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $526.22",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 7.53997,
+      "status": "filled",
+      "price": 399.4,
+      "proceeds": 3011.5,
+      "realized_pnl": 11.5,
+      "realized_pct": 0.38,
+      "date": "2026-10-21",
+      "time_et": "09:34",
+      "ts": 1792589700,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $397.88",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 18000.0,
+  "spent_today": 8977.14,
   "deployed_today": 18000.0,
   "orders_today": 6,
-  "sells_today": 0,
-  "sold_today": [],
+  "sells_today": 3,
+  "sold_today": [
+    "NXPI",
+    "MSFT",
+    "ADI"
+  ],
   "sold_ts": {
-    "NXPI": 1792517758,
-    "ADI": 1792518689,
-    "MSFT": 1792516845,
+    "NXPI": 1792589703,
+    "ADI": 1792589703,
+    "MSFT": 1792589703,
     "IBRX": 1792510176,
     "GTES": 1792436890,
     "WSM": 1792520063,
@@ -2321,8 +2387,8 @@
     "FUL": 1792430492,
     "RIG": 1792523016
   },
-  "last_publish_ts": 1792589548,
-  "last_check_ts": 1792589548,
+  "last_publish_ts": 1792589695,
+  "last_check_ts": 1792589695,
   "exp_arm": {
     "MSFT": {
       "params": {
@@ -2380,27 +2446,18 @@
     }
   },
   "last_bar_ts": 1792589400,
-  "last_decision_ts": 1792589548,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1792589695,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "8f12c5b2": 527.4408,
-    "d76395d6": 35.4583,
-    "d2d424cb": 313.4697,
     "09fd22f2": 253.3299,
-    "4390a10f": 399.2686,
-    "95ad766c": 238.8455,
-    "8ff91436": 523.1627,
-    "2cbac53b": 310.4592,
-    "6beb1607": 250.8441,
     "4997341e": 35.1139,
-    "d667238f": 394.4065,
-    "3161fbeb": 235.6074,
-    "900d4aec": 245.0414,
-    "d8b2d2c9": 230.7824,
-    "cef2ae40": 303.2317,
+    "d2d424cb": 313.4697,
+    "2cbac53b": 310.4592,
+    "d76395d6": 35.4583,
+    "6beb1607": 250.8441,
     "59de2d9c": 34.2992,
-    "68cfe716": 510.4334,
-    "2e5d6b02": 385.9436
+    "cef2ae40": 303.2317,
+    "900d4aec": 245.0414
   }
 }

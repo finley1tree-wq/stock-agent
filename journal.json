@@ -71270,7 +71270,10 @@
     "hour_et": 9,
     "code_version": "6378de0",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.48,
+    "ret_now": 0.48,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -71300,7 +71303,8 @@
     "hour_et": 9,
     "code_version": "6378de0",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.21
   },
   {
     "symbol": "ADI",
@@ -71330,7 +71334,10 @@
     "hour_et": 9,
     "code_version": "6378de0",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.38,
+    "ret_now": 0.38,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRBG",
@@ -71360,7 +71367,8 @@
     "hour_et": 9,
     "code_version": "6378de0",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.45
   },
   {
     "symbol": "NXPI",
@@ -71390,7 +71398,10 @@
     "hour_et": 9,
     "code_version": "6378de0",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.1,
+    "ret_now": -0.1,
+    "ret_src": "realised"
   },
   {
     "symbol": "AYI",
@@ -71420,6 +71431,88 @@
     "hour_et": 9,
     "code_version": "6378de0",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.0
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 12.609539,
+    "status": "filled",
+    "price": 237.68,
+    "proceeds": 2997.08,
+    "realized_pnl": -2.92,
+    "realized_pct": -0.1,
+    "date": "2026-10-21",
+    "time_et": "09:34",
+    "ts": 1792589700,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $237.92",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "1c4e5a6",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "MSFT",
+    "side": "sell",
+    "qty": 5.701089,
+    "status": "filled",
+    "price": 528.72,
+    "proceeds": 3014.28,
+    "realized_pnl": 14.28,
+    "realized_pct": 0.48,
+    "date": "2026-10-21",
+    "time_et": "09:34",
+    "ts": 1792589700,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $526.22",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "1c4e5a6",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 7.53997,
+    "status": "filled",
+    "price": 399.4,
+    "proceeds": 3011.5,
+    "realized_pnl": 11.5,
+    "realized_pct": 0.38,
+    "date": "2026-10-21",
+    "time_et": "09:34",
+    "ts": 1792589700,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $397.88",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "1c4e5a6",
+    "hold_minutes": 2
   }
 ]
