@@ -71751,7 +71751,7 @@
     "code_version": "61a49eb",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.2
+    "ret_now": -0.11
   },
   {
     "symbol": "MSFT",
@@ -71941,7 +71941,9 @@
     "code_version": "471f240",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.4
+    "ret_now": -0.62,
+    "ret_final": -0.62,
+    "ret_src": "realised"
   },
   {
     "symbol": "AYI",
@@ -72266,7 +72268,7 @@
     "code_version": "a0363b9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.05
   },
   {
     "symbol": "ADI",
@@ -72294,5 +72296,32 @@
     "hour_et": 11,
     "code_version": "0d84676",
     "hold_minutes": 8
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 14.142617,
+    "status": "filled",
+    "price": 52.7,
+    "proceeds": 745.37,
+    "realized_pnl": -4.63,
+    "realized_pct": -0.62,
+    "date": "2026-10-21",
+    "time_et": "11:25",
+    "ts": 1792596000,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $53.03",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "bac4a39",
+    "hold_minutes": 48
   }
 ]

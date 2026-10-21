@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 2251.54,
+  "spent": 1506.17,
   "deployed": 96750.0,
   "by_ticker": {
     "RPM": 48.71,
@@ -11,7 +11,7 @@
     "RIG": 17.98,
     "MSFT": 750.82,
     "CACI": 750.0,
-    "FITB": 750.0,
+    "FITB": 4.63,
     "CRBG": 5.66
   },
   "deployed_by_ticker": {
@@ -2925,13 +2925,34 @@
       ],
       "evidence": "average cost $401.94",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "FITB",
+      "side": "sell",
+      "qty": 14.142617,
+      "status": "filled",
+      "price": 52.7,
+      "proceeds": 745.37,
+      "realized_pnl": -4.63,
+      "realized_pct": -0.62,
+      "date": "2026-10-21",
+      "time_et": "11:25",
+      "ts": 1792596000,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $53.03",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 2246.68,
+  "spent_today": 1501.31,
   "deployed_today": 32250.0,
   "orders_today": 19,
-  "sells_today": 16,
+  "sells_today": 17,
   "sold_today": [
     "NXPI",
     "MSFT",
@@ -2953,11 +2974,11 @@
     "FUL": 1792430492,
     "RIG": 1792594822,
     "AYI": 1792593818,
-    "FITB": 1792590245,
+    "FITB": 1792596330,
     "CRBG": 1792594284
   },
-  "last_publish_ts": 1792596017,
-  "last_check_ts": 1792596288,
+  "last_publish_ts": 1792596330,
+  "last_check_ts": 1792596377,
   "exp_arm": {
     "CACI": {
       "params": {
@@ -2996,18 +3017,15 @@
       }
     }
   },
-  "last_bar_ts": 1792596000,
-  "last_decision_ts": 1792596195,
+  "last_bar_ts": 1792596300,
+  "last_decision_ts": 1792596377,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "f26babea": 531.7555,
-    "80b88285": 52.7299,
-    "917a9686": 609.6213,
-    "46642f65": 53.1498,
-    "e37c9eaf": 527.4741,
     "bc6c5782": 616.5227,
-    "a220d035": 51.4391,
+    "e37c9eaf": 527.4741,
+    "917a9686": 609.6213,
     "3ee65752": 596.1135,
     "959414c2": 514.6141
   }

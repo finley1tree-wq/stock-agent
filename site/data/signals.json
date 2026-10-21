@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-21T11:20-04:00",
+ "asOf": "2026-10-21T11:25-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -185,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 530.63,
-   "pct_away": 0.21,
+   "last": 530.48,
+   "pct_away": 0.24,
    "good_until": "2026-10-26",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -195,15 +195,32 @@
    ]
   },
   {
-   "id": "80b88285",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 52.7299,
+   "id": "bc6c5782",
+   "ticker": "CACI",
+   "kind": "take_profit",
+   "price": 616.5227,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 52.85,
-   "pct_away": -0.23,
+   "last": 613.6,
+   "pct_away": 0.48,
+   "good_until": "2026-10-26",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e37c9eaf",
+   "ticker": "MSFT",
+   "kind": "stop_loss",
+   "price": 527.4741,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 530.48,
+   "pct_away": -0.57,
    "good_until": "2026-10-26",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -219,78 +236,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 612.71,
-   "pct_away": -0.5,
+   "last": 613.6,
+   "pct_away": -0.65,
    "good_until": "2026-10-26",
    "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "46642f65",
-   "ticker": "FITB",
-   "kind": "take_profit",
-   "price": 53.1498,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 52.85,
-   "pct_away": 0.57,
-   "good_until": "2026-10-26",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e37c9eaf",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 527.4741,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 530.63,
-   "pct_away": -0.59,
-   "good_until": "2026-10-26",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "bc6c5782",
-   "ticker": "CACI",
-   "kind": "take_profit",
-   "price": 616.5227,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 612.71,
-   "pct_away": 0.62,
-   "good_until": "2026-10-26",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a220d035",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 51.4391,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 52.85,
-   "pct_away": -2.67,
-   "good_until": "2026-10-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -304,8 +253,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 612.71,
-   "pct_away": -2.71,
+   "last": 613.6,
+   "pct_away": -2.85,
    "good_until": "2026-10-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -321,8 +270,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 530.63,
-   "pct_away": -3.02,
+   "last": 530.48,
+   "pct_away": -2.99,
    "good_until": "2026-10-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
