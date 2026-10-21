@@ -1,14 +1,14 @@
 {
   "week": "2026-W43",
-  "spent": 1506.08,
-  "deployed": 98250.0,
+  "spent": 2256.08,
+  "deployed": 99000.0,
   "by_ticker": {
     "RPM": 48.71,
     "GTES": 52.54,
     "NXPI": 8.76,
     "IBRX": 8.97,
     "FUL": 3.96,
-    "RIG": 17.98,
+    "RIG": 767.98,
     "CACI": 1.65,
     "FITB": 4.63,
     "CRBG": 755.66,
@@ -23,7 +23,7 @@
     "IBRX": 6750.0,
     "MSFT": 14250.0,
     "FUL": 1500.0,
-    "RIG": 9000.0,
+    "RIG": 9750.0,
     "CRBG": 4500.0,
     "AYI": 3750.0,
     "FITB": 3750.0,
@@ -3031,12 +3031,34 @@
       ],
       "evidence": "average cost $530.53",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RIG",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 126.156413,
+      "price": 5.95,
+      "date": "2026-10-21",
+      "time_et": "11:47",
+      "ts": 1792597641,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +8.2% over the month; 71% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 1501.22,
-  "deployed_today": 33750.0,
-  "orders_today": 21,
+  "spent_today": 2251.22,
+  "deployed_today": 34500.0,
+  "orders_today": 22,
   "sells_today": 19,
   "sold_today": [
     "NXPI",
@@ -3064,18 +3086,9 @@
     "CRBG": 1792594284,
     "CACI": 1792596874
   },
-  "last_publish_ts": 1792597154,
-  "last_check_ts": 1792597553,
+  "last_publish_ts": 1792597641,
+  "last_check_ts": 1792597641,
   "exp_arm": {
-    "MSFT": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
     "WSM": {
       "params": {
         "hold_minutes": 90,
@@ -3093,18 +3106,30 @@
       "tags": {
         "hold_long": 90
       }
+    },
+    "RIG": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
     }
   },
   "last_bar_ts": 1792597500,
-  "last_decision_ts": 1792597462,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792597641,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "ec96265a": 35.4386,
     "512ae315": 253.8339,
-    "87b59d87": 251.3003,
+    "ec96265a": 35.4386,
+    "2b865480": 5.975,
     "944f37b1": 35.094,
-    "c1bc662e": 245.5167,
-    "9d8585cb": 34.2798
+    "87b59d87": 251.3003,
+    "461c187e": 5.8875,
+    "de689488": 5.7715,
+    "9d8585cb": 34.2798,
+    "c1bc662e": 245.5167
   }
 }

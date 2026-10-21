@@ -1,48 +1,3 @@
-- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +8.6% over the month; 54% of today's range
-~ WORKING take_profit 100% WSM @ $253.48 until 2026-10-26 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% WSM @ $250.94 until 2026-10-26 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 WSM @ $245.17 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25239.21 (+0.96% on $25000.00 in) · cash $21486.50 · realised +236.50
-Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21245.14 this week
-  (cancelled 2 standing order(s) on ADI: position closed)
-- SELL 100% ADI [stop_loss @ $401.77] -> $751.18 (+0.16%) — close it all at -0.9% under the average cost
-## 2026-10-21 10:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-21 10:28 ET (Wednesday) — week 2026-W43 — budget left $21996.32 (today $27750.00 put to work, 13 buys, 9 sells) — SIM (pretend money) via sim
-  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
-  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
-  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFYJFdJaf4di8qEToACZ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25235.89 (+0.94% on $25000.00 in) · cash $22237.69 · realised +237.69
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-21 10:31 ET (Wednesday) — week 2026-W43 — budget left $21996.32 (today $27750.00 put to work, 13 buys, 9 sells) — SIM (pretend money) via sim
-  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
-  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
-  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFYXmKr5ZKBE55SUmxcY'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,996 idle, so opened 2: FITB, AYI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +0.5% over the month; 54% of today's range
-- BUY $750.00 AYI [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: insider net buying (Form 4); +1.4% over the month; 83% of today's range
-~ WORKING take_profit 100% FITB @ $53.15 until 2026-10-26 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% FITB @ $52.73 until 2026-10-26 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 FITB @ $51.44 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AYI @ $316.19 until 2026-10-26 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% AYI @ $313.10 until 2026-10-26 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 AYI @ $305.85 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25234.54 (+0.94% on $25000.00 in) · cash $20737.69 · realised +237.69
-Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $20496.32 this week
-  (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [take_profit @ $529.73] -> $751.74 (+0.23%) — close 100% at +0.2% over the average cost
 ## 2026-10-21 10:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
@@ -398,3 +353,48 @@ Done: 0 sell(s), 2 buy(s); 9 order(s) working; budget left $22742.18 this week
   (cancelled 2 standing order(s) on MSFT: position closed)
 - SELL 100% MSFT [take_profit @ $531.76] -> $751.74 (+0.23%) — close 100% at +0.2% over the average cost
 ## 2026-10-21 11:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-21 11:41 ET (Wednesday) — week 2026-W43 — budget left $23493.92 (today $33750.00 put to work, 21 buys, 19 sells) — SIM (pretend money) via sim
+  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFdrfsJPtycy65AVdsKu'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25235.14 (+0.94% on $25000.00 in) · cash $23735.28 · realised +235.28
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-21 11:44 ET (Wednesday) — week 2026-W43 — budget left $23493.92 (today $33750.00 put to work, 21 buys, 19 sells) — SIM (pretend money) via sim
+  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFe64ZfMmtyx4shPXzqX'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25235.97 (+0.94% on $25000.00 in) · cash $23735.28 · realised +235.28
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-21 11:47 ET (Wednesday) — week 2026-W43 — budget left $23493.92 (today $33750.00 put to work, 21 buys, 19 sells) — SIM (pretend money) via sim
+  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFeKBr4q64CZC6HskmT3'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,494 idle, so opened 1: RIG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 RIG [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +8.2% over the month; 71% of today's range
+~ WORKING take_profit 100% RIG @ $5.97 until 2026-10-26 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% RIG @ $5.89 until 2026-10-26 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 RIG @ $5.77 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25235.13 (+0.94% on $25000.00 in) · cash $22985.28 · realised +235.28
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22743.92 this week

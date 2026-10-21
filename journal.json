@@ -72414,7 +72414,7 @@
     "code_version": "995aa70",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.06
   },
   {
     "symbol": "MSFT",
@@ -72442,5 +72442,35 @@
     "hour_et": 11,
     "code_version": "2fd633b",
     "hold_minutes": 17
+  },
+  {
+    "symbol": "RIG",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 126.156413,
+    "price": 5.95,
+    "date": "2026-10-21",
+    "time_et": "11:47",
+    "ts": 1792597641,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +8.2% over the month; 71% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 5.94,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 8.2,
+    "hour_et": 11,
+    "code_version": "3f66326",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
