@@ -38872,3 +38872,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $245.17 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25239.21 (+0.96% on $25000.00 in) · cash $21486.50 · realised +236.50
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21245.14 this week
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [stop_loss @ $401.77] -> $751.18 (+0.16%) — close it all at -0.9% under the average cost
+## 2026-10-21 10:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
