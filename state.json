@@ -1,7 +1,7 @@
 {
   "week": "2026-W43",
-  "spent": 2251.65,
-  "deployed": 96000.0,
+  "spent": 3001.65,
+  "deployed": 96750.0,
   "by_ticker": {
     "RPM": 48.71,
     "GTES": 52.54,
@@ -9,7 +9,7 @@
     "IBRX": 8.97,
     "FUL": 3.96,
     "RIG": 17.98,
-    "MSFT": 0.82,
+    "MSFT": 750.82,
     "CACI": 750.0,
     "FITB": 750.0,
     "CRBG": 5.66,
@@ -22,7 +22,7 @@
     "RPM": 9000.0,
     "GTES": 5250.0,
     "IBRX": 6750.0,
-    "MSFT": 13500.0,
+    "MSFT": 14250.0,
     "FUL": 1500.0,
     "RIG": 9000.0,
     "CRBG": 3750.0,
@@ -2883,12 +2883,34 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.413691,
+      "price": 530.53,
+      "date": "2026-10-21",
+      "time_et": "11:17",
+      "ts": 1792595841,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +6.5% over the month; 84% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 2246.79,
-  "deployed_today": 31500.0,
-  "orders_today": 18,
+  "spent_today": 2996.79,
+  "deployed_today": 32250.0,
+  "orders_today": 19,
   "sells_today": 15,
   "sold_today": [
     "NXPI",
@@ -2914,8 +2936,8 @@
     "FITB": 1792590245,
     "CRBG": 1792594284
   },
-  "last_publish_ts": 1792595751,
-  "last_check_ts": 1792595751,
+  "last_publish_ts": 1792595841,
+  "last_check_ts": 1792595841,
   "exp_arm": {
     "CACI": {
       "params": {
@@ -2943,21 +2965,33 @@
       "tags": {
         "hold_long": 90
       }
+    },
+    "MSFT": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
     }
   },
   "last_bar_ts": 1792595700,
-  "last_decision_ts": 1792595660,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792595841,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "e4d7c4f0": 402.402,
     "17ef44b4": 403.3629,
+    "f26babea": 531.7555,
     "80b88285": 52.7299,
     "917a9686": 609.6213,
     "46642f65": 53.1498,
+    "e37c9eaf": 527.4741,
     "bc6c5782": 616.5227,
     "3ee65752": 596.1135,
     "a220d035": 51.4391,
+    "959414c2": 514.6141,
     "9304be13": 389.8818
   }
 }
