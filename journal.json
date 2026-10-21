@@ -72590,7 +72590,7 @@
     "code_version": "19a2dd5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.17
+    "ret_now": -0.2
   },
   {
     "symbol": "FITB",
@@ -72621,7 +72621,7 @@
     "code_version": "19a2dd5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06
+    "ret_now": 0.04
   },
   {
     "symbol": "WSM",
@@ -72685,7 +72685,9 @@
     "code_version": "19a2dd5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.31
+    "ret_now": 0.08,
+    "ret_final": 0.08,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRBG",
@@ -72716,7 +72718,7 @@
     "code_version": "4ca527a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06
+    "ret_now": 0.0
   },
   {
     "symbol": "WSM",
@@ -72744,5 +72746,32 @@
     "hour_et": 13,
     "code_version": "0c66b40",
     "hold_minutes": 17
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 3.108854,
+    "status": "filled",
+    "price": 241.43,
+    "proceeds": 750.57,
+    "realized_pnl": 0.57,
+    "realized_pct": 0.08,
+    "date": "2026-10-21",
+    "time_et": "13:31",
+    "ts": 1792603800,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $241.25",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "6007f32",
+    "hold_minutes": 27
   }
 ]

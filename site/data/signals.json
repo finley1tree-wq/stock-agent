@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-21T13:25-04:00",
+ "asOf": "2026-10-21T13:31-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -185,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 52.92,
-   "pct_away": 0.21,
+   "last": 52.91,
+   "pct_away": 0.23,
    "good_until": "2026-10-26",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -219,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 104.2,
-   "pct_away": 0.49,
+   "last": 104.11,
+   "pct_away": 0.57,
    "good_until": "2026-10-26",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -236,10 +236,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 52.92,
-   "pct_away": -0.59,
+   "last": 52.91,
+   "pct_away": -0.57,
    "good_until": "2026-10-26",
    "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "45be5756",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 103.4876,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 104.11,
+   "pct_away": -0.6,
+   "good_until": "2026-10-26",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -263,23 +280,6 @@
    ]
   },
   {
-   "id": "45be5756",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 103.4876,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 104.2,
-   "pct_away": -0.68,
-   "good_until": "2026-10-26",
-   "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "02249534",
    "ticker": "EL",
    "kind": "buy_limit",
@@ -287,8 +287,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 104.2,
-   "pct_away": -2.85,
+   "last": 104.11,
+   "pct_away": -2.77,
    "good_until": "2026-10-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -321,61 +321,10 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 52.92,
-   "pct_away": -3.02,
+   "last": 52.91,
+   "pct_away": -3.0,
    "good_until": "2026-10-26",
    "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c9148f3c",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 242.2078,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-10-26",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "7c25da3b",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 234.0125,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-10-26",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3db1b478",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 241.55,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-10-26",
-   "why": "close it all at -1.0% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
