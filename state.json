@@ -1,7 +1,7 @@
 {
   "week": "2026-W43",
-  "spent": 3011.4,
-  "deployed": 102000.0,
+  "spent": 3761.4,
+  "deployed": 102750.0,
   "by_ticker": {
     "RPM": 48.71,
     "GTES": 52.54,
@@ -11,7 +11,7 @@
     "RIG": 25.6,
     "CACI": 1.65,
     "FITB": 754.63,
-    "CRBG": 3.66,
+    "CRBG": 753.66,
     "EL": 750.0,
     "WSM": 750.0
   },
@@ -25,7 +25,7 @@
     "MSFT": 14250.0,
     "FUL": 1500.0,
     "RIG": 9750.0,
-    "CRBG": 4500.0,
+    "CRBG": 5250.0,
     "AYI": 3750.0,
     "FITB": 4500.0,
     "CACI": 750.0,
@@ -3206,12 +3206,34 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "CRBG",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 21.112366,
+      "price": 35.52,
+      "date": "2026-10-21",
+      "time_et": "13:23",
+      "ts": 1792603384,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +5.0% over the month; 84% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 3006.54,
-  "deployed_today": 37500.0,
-  "orders_today": 26,
+  "spent_today": 3756.54,
+  "deployed_today": 38250.0,
+  "orders_today": 27,
   "sells_today": 22,
   "sold_today": [
     "NXPI",
@@ -3239,8 +3261,8 @@
     "CRBG": 1792598179,
     "CACI": 1792596874
   },
-  "last_publish_ts": 1792603070,
-  "last_check_ts": 1792603292,
+  "last_publish_ts": 1792603384,
+  "last_check_ts": 1792603384,
   "exp_arm": {
     "EL": {
       "params": {
@@ -3277,24 +3299,36 @@
       "tags": {
         "hold_long": 120
       }
+    },
+    "CRBG": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
     }
   },
   "last_bar_ts": 1792603200,
-  "last_decision_ts": 1792603203,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792603384,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "18c0bcaa": 253.9242,
     "17afb240": 253.626,
+    "18c0bcaa": 253.9242,
     "3db1b478": 241.55,
     "7182ed37": 53.0301,
     "c9148f3c": 242.2078,
+    "b1a20d2e": 35.6184,
     "9aaa3385": 104.7086,
     "44459bd6": 52.61,
+    "1a990ef1": 35.2738,
     "45be5756": 103.4876,
     "02249534": 101.2292,
+    "5f57236e": 34.4544,
     "55b026e4": 51.3227,
-    "7c25da3b": 234.0125,
-    "451bc570": 245.604
+    "451bc570": 245.604,
+    "7c25da3b": 234.0125
   }
 }
