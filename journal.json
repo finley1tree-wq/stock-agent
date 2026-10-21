@@ -72383,7 +72383,7 @@
     "code_version": "995aa70",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": 0.05
   },
   {
     "symbol": "CRBG",
@@ -72414,7 +72414,9 @@
     "code_version": "995aa70",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.31
+    "ret_now": 0.27,
+    "ret_final": 0.27,
+    "ret_src": "realised"
   },
   {
     "symbol": "MSFT",
@@ -72473,5 +72475,32 @@
     "ret_1w": null,
     "ret_1m": null,
     "ret_now": 0.17
+  },
+  {
+    "symbol": "CRBG",
+    "side": "sell",
+    "qty": 21.21993,
+    "status": "filled",
+    "price": 35.44,
+    "proceeds": 752.0,
+    "realized_pnl": 2.0,
+    "realized_pct": 0.27,
+    "date": "2026-10-21",
+    "time_et": "11:56",
+    "ts": 1792598100,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $35.34",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "449a8d4",
+    "hold_minutes": 16
   }
 ]

@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 2256.08,
+  "spent": 1504.08,
   "deployed": 99000.0,
   "by_ticker": {
     "RPM": 48.71,
@@ -11,7 +11,7 @@
     "RIG": 767.98,
     "CACI": 1.65,
     "FITB": 4.63,
-    "CRBG": 755.66,
+    "CRBG": 3.66,
     "WSM": 750.0
   },
   "deployed_by_ticker": {
@@ -3053,13 +3053,34 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "CRBG",
+      "side": "sell",
+      "qty": 21.21993,
+      "status": "filled",
+      "price": 35.44,
+      "proceeds": 752.0,
+      "realized_pnl": 2.0,
+      "realized_pct": 0.27,
+      "date": "2026-10-21",
+      "time_et": "11:56",
+      "ts": 1792598100,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $35.34",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 2251.22,
+  "spent_today": 1499.22,
   "deployed_today": 34500.0,
   "orders_today": 22,
-  "sells_today": 19,
+  "sells_today": 20,
   "sold_today": [
     "NXPI",
     "MSFT",
@@ -3083,11 +3104,11 @@
     "RIG": 1792594822,
     "AYI": 1792593818,
     "FITB": 1792596330,
-    "CRBG": 1792594284,
+    "CRBG": 1792598179,
     "CACI": 1792596874
   },
-  "last_publish_ts": 1792597768,
-  "last_check_ts": 1792598084,
+  "last_publish_ts": 1792598173,
+  "last_check_ts": 1792598173,
   "exp_arm": {
     "WSM": {
       "params": {
@@ -3117,19 +3138,16 @@
       }
     }
   },
-  "last_bar_ts": 1792597800,
-  "last_decision_ts": 1792597995,
+  "last_bar_ts": 1792598100,
+  "last_decision_ts": 1792598173,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "4d8e9342": 35.376,
-    "ec96265a": 35.4386,
+    "512ae315": 253.8339,
     "2b865480": 5.975,
+    "87b59d87": 251.3003,
     "461c187e": 5.8875,
     "de689488": 5.7715,
-    "9d8585cb": 34.2798,
-    "512ae315": 253.8339,
-    "87b59d87": 251.3003,
     "c1bc662e": 245.5167
   }
 }
