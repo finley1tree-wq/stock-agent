@@ -1,27 +1,32 @@
 {
   "week": "2026-W43",
-  "spent": 75.25,
-  "deployed": 64500.0,
+  "spent": 18075.25,
+  "deployed": 82500.0,
   "by_ticker": {
     "RPM": 48.71,
     "GTES": 52.54,
-    "NXPI": 8.84,
+    "NXPI": 3008.84,
     "IBRX": 8.97,
     "FUL": 3.96,
     "RIG": 33.24,
-    "MSFT": 16.84,
-    "WSM": 3.71
+    "MSFT": 3016.84,
+    "WSM": 3003.71,
+    "ADI": 3000.0,
+    "CRBG": 3000.0,
+    "AYI": 3000.0
   },
   "deployed_by_ticker": {
-    "WSM": 9000.0,
-    "NXPI": 6750.0,
-    "ADI": 11250.0,
+    "WSM": 12000.0,
+    "NXPI": 9750.0,
+    "ADI": 14250.0,
     "RPM": 9000.0,
     "GTES": 5250.0,
     "IBRX": 6750.0,
-    "MSFT": 9750.0,
+    "MSFT": 12750.0,
     "FUL": 1500.0,
-    "RIG": 5250.0
+    "RIG": 5250.0,
+    "CRBG": 3000.0,
+    "AYI": 3000.0
   },
   "orders": [
     {
@@ -2165,12 +2170,144 @@
       ],
       "evidence": "bought 90 min ago, -0.43% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "MSFT",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.701089,
+      "price": 526.22,
+      "date": "2026-10-21",
+      "time_et": "09:32",
+      "ts": 1792589548,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Lisa C. McClain), $1,001 - $15,000; +5.6% over the month; 23% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "WSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.875497,
+      "price": 252.62,
+      "date": "2026-10-21",
+      "time_et": "09:32",
+      "ts": 1792589548,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +8.5% over the month; 52% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "ADI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.53997,
+      "price": 397.88,
+      "date": "2026-10-21",
+      "time_et": "09:32",
+      "ts": 1792589548,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +1.9% over the month; 58% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "CRBG",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 84.831697,
+      "price": 35.36,
+      "date": "2026-10-21",
+      "time_et": "09:32",
+      "ts": 1792589548,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +4.5% over the month; 11% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.609539,
+      "price": 237.92,
+      "date": "2026-10-21",
+      "time_et": "09:32",
+      "ts": 1792589548,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +0.1% over the month; 50% of today's range",
+      "experiments": {
+        "ratchet": "on"
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "AYI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.596469,
+      "price": 312.61,
+      "date": "2026-10-21",
+      "time_et": "09:32",
+      "ts": 1792589548,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "insider net buying (Form 4); +0.6% over the month; 79% of today's range",
+      "experiments": {
+        "ratchet": "off"
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 0.0,
-  "deployed_today": 0.0,
-  "orders_today": 0,
+  "spent_today": 18000.0,
+  "deployed_today": 18000.0,
+  "orders_today": 6,
   "sells_today": 0,
   "sold_today": [],
   "sold_ts": {
@@ -2184,9 +2321,18 @@
     "FUL": 1792430492,
     "RIG": 1792523016
   },
-  "last_publish_ts": 1792589427,
-  "last_check_ts": 1792589427,
+  "last_publish_ts": 1792589548,
+  "last_check_ts": 1792589548,
   "exp_arm": {
+    "MSFT": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
     "WSM": {
       "params": {
         "hold_minutes": 90,
@@ -2197,6 +2343,15 @@
       }
     },
     "ADI": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "ratchet": "on"
+      }
+    },
+    "CRBG": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "off"
@@ -2214,28 +2369,38 @@
         "ratchet": "on"
       }
     },
-    "RPM": {
+    "AYI": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "off"
       },
       "tags": {
         "ratchet": "off"
-      }
-    },
-    "RIG": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "ratchet": "on"
       }
     }
   },
-  "last_bar_ts": 1792526100,
-  "last_decision_ts": 1792526329,
-  "next_check_minutes": null,
+  "last_bar_ts": 1792589400,
+  "last_decision_ts": 1792589548,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "8f12c5b2": 527.4408,
+    "d76395d6": 35.4583,
+    "d2d424cb": 313.4697,
+    "09fd22f2": 253.3299,
+    "4390a10f": 399.2686,
+    "95ad766c": 238.8455,
+    "8ff91436": 523.1627,
+    "2cbac53b": 310.4592,
+    "6beb1607": 250.8441,
+    "4997341e": 35.1139,
+    "d667238f": 394.4065,
+    "3161fbeb": 235.6074,
+    "900d4aec": 245.0414,
+    "d8b2d2c9": 230.7824,
+    "cef2ae40": 303.2317,
+    "59de2d9c": 34.2992,
+    "68cfe716": 510.4334,
+    "2e5d6b02": 385.9436
+  }
 }
