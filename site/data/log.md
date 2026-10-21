@@ -1,17 +1,3 @@
-~ WORKING take_profit 100% RIG @ $5.88 until 2026-10-26 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% RIG @ $5.80 until 2026-10-26 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 RIG @ $5.68 until 2026-10-26 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25179.01 (+0.72% on $25000.00 in) · cash $13198.34 · realised +198.34
-Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $12956.97 this week
-  (cancelled 2 standing order(s) on WSM: position closed)
-- SELL 100% WSM [take_profit @ $253.33] -> $3008.42 (+0.28%) — close 100% at +0.3% over the average cost
-## 2026-10-21 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-21 09:41 ET (Wednesday) — week 2026-W43 — budget left $15965.39 (today $24000.00 put to work, 8 buys, 5 sells) — SIM (pretend money) via sim
-  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
-  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
   (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
   (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFUgGPqwjwHvBexgQJkb'}
@@ -398,3 +384,17 @@ Decision: nothing at this check. 15 standing order(s) working.
   (cancelled 2 standing order(s) on WSM: position closed)
 - SELL 100% WSM [take_profit @ $253.48] -> $752.15 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-10-21 10:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-21 10:53 ET (Wednesday) — week 2026-W43 — budget left $22748.10 (today $30750.00 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
+  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFaDxcEasVErcYkZs9ZE'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25235.84 (+0.94% on $25000.00 in) · cash $22989.46 · realised +239.46
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
