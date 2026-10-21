@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 1512.11,
+  "spent": 768.76,
   "deployed": 102750.0,
   "by_ticker": {
     "RPM": 48.71,
@@ -12,7 +12,7 @@
     "CACI": 1.65,
     "FITB": 6.79,
     "CRBG": 753.66,
-    "EL": 750.0
+    "EL": 6.65
   },
   "deployed_by_ticker": {
     "WSM": 14250.0,
@@ -3289,13 +3289,34 @@
       ],
       "evidence": "bought 90 min ago, -0.25% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 7.186543,
+      "status": "filled",
+      "price": 103.44,
+      "proceeds": 743.35,
+      "realized_pnl": -6.65,
+      "realized_pct": -0.89,
+      "date": "2026-10-21",
+      "time_et": "14:56",
+      "ts": 1792608900,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $104.36",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-21",
-  "spent_today": 1507.25,
+  "spent_today": 763.9,
   "deployed_today": 38250.0,
   "orders_today": 27,
-  "sells_today": 25,
+  "sells_today": 26,
   "sold_today": [
     "NXPI",
     "MSFT",
@@ -3305,7 +3326,8 @@
     "FITB",
     "RIG",
     "CRBG",
-    "CACI"
+    "CACI",
+    "EL"
   ],
   "sold_ts": {
     "NXPI": 1792603918,
@@ -3320,10 +3342,11 @@
     "AYI": 1792593818,
     "FITB": 1792607531,
     "CRBG": 1792598179,
-    "CACI": 1792596874
+    "CACI": 1792596874,
+    "EL": 1792609012
   },
-  "last_publish_ts": 1792607529,
-  "last_check_ts": 1792608931,
+  "last_publish_ts": 1792609011,
+  "last_check_ts": 1792609014,
   "exp_arm": {
     "EL": {
       "params": {
@@ -3372,13 +3395,11 @@
     }
   },
   "last_bar_ts": 1792608900,
-  "last_decision_ts": 1792608836,
+  "last_decision_ts": 1792609014,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "45be5756": 103.4876,
     "1a990ef1": 35.2738,
-    "b1a20d2e": 35.6184,
-    "9aaa3385": 104.7086
+    "b1a20d2e": 35.6184
   }
 }

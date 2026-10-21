@@ -72590,7 +72590,9 @@
     "code_version": "19a2dd5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.47
+    "ret_now": -0.89,
+    "ret_final": -0.89,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -72720,7 +72722,7 @@
     "code_version": "4ca527a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": -0.23
   },
   {
     "symbol": "WSM",
@@ -72801,5 +72803,32 @@
     "hour_et": 14,
     "code_version": "789b552",
     "hold_minutes": 90
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 7.186543,
+    "status": "filled",
+    "price": 103.44,
+    "proceeds": 743.35,
+    "realized_pnl": -6.65,
+    "realized_pct": -0.89,
+    "date": "2026-10-21",
+    "time_et": "14:56",
+    "ts": 1792608900,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $104.36",
+    "trigger": "stop_loss",
+    "hour_et": 14,
+    "code_version": "f575287",
+    "hold_minutes": 112
   }
 ]
