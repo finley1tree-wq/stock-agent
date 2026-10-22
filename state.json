@@ -1,7 +1,7 @@
 {
   "week": "2026-W43",
-  "spent": 3820.79,
-  "deployed": 134250.0,
+  "spent": 4570.79,
+  "deployed": 135000.0,
   "by_ticker": {
     "RPM": 48.71,
     "GTES": 52.54,
@@ -14,7 +14,8 @@
     "CRBG": 783.28,
     "ADI": 777.88,
     "EL": 750.0,
-    "WSM": 5.55
+    "WSM": 5.55,
+    "FBK": 750.0
   },
   "deployed_by_ticker": {
     "WSM": 18000.0,
@@ -31,7 +32,7 @@
     "FITB": 7500.0,
     "CACI": 4500.0,
     "EL": 4500.0,
-    "FBK": 3000.0
+    "FBK": 3750.0
   },
   "orders": [
     {
@@ -3874,12 +3875,34 @@
       ],
       "evidence": "average cost $256.23",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "FBK",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 14.051965,
+      "price": 53.37,
+      "date": "2026-10-22",
+      "time_et": "10:33",
+      "ts": 1792679602,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +1.3% over the month; 79% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-10-22",
-  "spent_today": 3796.37,
-  "deployed_today": 31500.0,
-  "orders_today": 15,
+  "spent_today": 4546.37,
+  "deployed_today": 32250.0,
+  "orders_today": 16,
   "sells_today": 10,
   "sold_today": [
     "CRBG",
@@ -3909,8 +3932,8 @@
     "EL": 1792676147,
     "FBK": 1792676849
   },
-  "last_publish_ts": 1792679469,
-  "last_check_ts": 1792679517,
+  "last_publish_ts": 1792679602,
+  "last_check_ts": 1792679602,
   "exp_arm": {
     "ADI": {
       "params": {
@@ -3922,15 +3945,6 @@
       }
     },
     "EL": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
-    "WSM": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -3965,27 +3979,39 @@
       "tags": {
         "hold_long": 120
       }
+    },
+    "FBK": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
     }
   },
   "last_bar_ts": 1792679400,
-  "last_decision_ts": 1792679421,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792679602,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "6043e2b5": 34.9319,
-    "d3d1acea": 386.2502,
-    "abf33af1": 615.1377,
+    "51ebf8d5": 622.6207,
+    "ad4024b3": 621.44,
     "74c6e8b6": 104.9858,
+    "d3d1acea": 386.2502,
+    "6043e2b5": 34.9319,
+    "c3b92376": 53.5018,
+    "8f37b00f": 53.0402,
     "169b6d14": 241.1315,
     "733a3929": 35.2653,
-    "81b5f97d": 106.2939,
-    "51ebf8d5": 622.6207,
     "c27d0b72": 237.8337,
     "04050020": 391.3343,
+    "81b5f97d": 106.2939,
+    "d0a4d38b": 102.7424,
     "8d74b810": 378.1836,
     "7c222266": 34.1149,
-    "fb638c1c": 601.8656,
-    "d0a4d38b": 102.7424,
-    "03313613": 232.9843
+    "03313613": 232.9843,
+    "ffca1409": 51.7689,
+    "fb638c1c": 601.8656
   }
 }

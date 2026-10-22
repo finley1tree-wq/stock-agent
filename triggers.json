@@ -1,81 +1,6 @@
 {
  "orders": [
   {
-   "id": "59ab0ff3",
-   "ticker": "RARE",
-   "kind": "buy_limit",
-   "price": 14.5112,
-   "status": "cancelled",
-   "created": "2026-10-16 09:32",
-   "created_ts": 1792157554,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $14.96",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "usd": 500.0,
-   "closed": "2026-10-16 09:46",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "696e9b73",
-   "ticker": "YETI",
-   "kind": "take_profit",
-   "price": 42.6351,
-   "status": "filled",
-   "created": "2026-10-16 09:34",
-   "created_ts": 1792157693,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $42.5",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-16 09:36"
-  },
-  {
-   "id": "3b021399",
-   "ticker": "YETI",
-   "kind": "stop_loss",
-   "price": 42.1626,
-   "status": "cancelled",
-   "created": "2026-10-16 09:34",
-   "created_ts": 1792157693,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $42.5",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-16 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "de666ec3",
-   "ticker": "YETI",
-   "kind": "buy_limit",
-   "price": 41.225,
-   "status": "cancelled",
-   "created": "2026-10-16 09:34",
-   "created_ts": 1792157693,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $42.5",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "usd": 500.0,
-   "closed": "2026-10-16 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "5241d55f",
    "ticker": "GTES",
    "kind": "take_profit",
@@ -7387,7 +7312,7 @@
    "ticker": "CACI",
    "kind": "stop_loss",
    "price": 615.1377,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-22 10:27",
    "created_ts": 1792679251,
    "why": "close it all at -0.9% under the average cost",
@@ -7397,7 +7322,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-22 10:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "fb638c1c",
@@ -7466,7 +7393,75 @@
    ],
    "good_until": "2026-10-27",
    "usd": 500.0
+  },
+  {
+   "id": "ad4024b3",
+   "ticker": "CACI",
+   "kind": "stop_loss",
+   "price": 621.44,
+   "status": "working",
+   "created": "2026-10-22 10:33",
+   "created_ts": 1792679602,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $620.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c3b92376",
+   "ticker": "FBK",
+   "kind": "take_profit",
+   "price": 53.5018,
+   "status": "working",
+   "created": "2026-10-22 10:33",
+   "created_ts": 1792679602,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $53.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8f37b00f",
+   "ticker": "FBK",
+   "kind": "stop_loss",
+   "price": 53.0402,
+   "status": "working",
+   "created": "2026-10-22 10:33",
+   "created_ts": 1792679602,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $53.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ffca1409",
+   "ticker": "FBK",
+   "kind": "buy_limit",
+   "price": 51.7689,
+   "status": "working",
+   "created": "2026-10-22 10:33",
+   "created_ts": 1792679602,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $53.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-22 10:31"
+ "updated": "2026-10-22 10:33"
 }
