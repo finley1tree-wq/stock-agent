@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-22T13:09-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $21,166 idle, so opened 1: CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-10-22T13:15-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $20,416 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -185,8 +185,25 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 35.06,
-   "pct_away": 0.31,
+   "last": 35.08,
+   "pct_away": 0.25,
+   "good_until": "2026-10-27",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "45b7504a",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 101.7231,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 101.39,
+   "pct_away": 0.33,
    "good_until": "2026-10-27",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -202,44 +219,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 53.0,
-   "pct_away": -0.33,
+   "last": 53.01,
+   "pct_away": -0.35,
    "good_until": "2026-10-27",
    "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "70deb62c",
-   "ticker": "FITB",
-   "kind": "take_profit",
-   "price": 53.2522,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 53.0,
-   "pct_away": 0.48,
-   "good_until": "2026-10-27",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f5927be6",
-   "ticker": "ADI",
-   "kind": "take_profit",
-   "price": 391.3314,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 389.42,
-   "pct_away": 0.49,
-   "good_until": "2026-10-27",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 256.39,
-   "pct_away": 0.49,
+   "last": 256.61,
+   "pct_away": 0.4,
    "good_until": "2026-10-27",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -263,17 +246,17 @@
    ]
   },
   {
-   "id": "cf4f5bd6",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 255.1293,
+   "id": "f5927be6",
+   "ticker": "ADI",
+   "kind": "take_profit",
+   "price": 391.3314,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 256.39,
-   "pct_away": -0.49,
+   "last": 389.71,
+   "pct_away": 0.42,
    "good_until": "2026-10-27",
-   "why": "close it all at -0.7% under the average cost",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -287,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 238.64,
-   "pct_away": 0.54,
+   "last": 238.93,
+   "pct_away": 0.42,
    "good_until": "2026-10-27",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -304,10 +287,61 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 106.42,
-   "pct_away": 0.63,
+   "last": 106.6,
+   "pct_away": 0.46,
    "good_until": "2026-10-27",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "70deb62c",
+   "ticker": "FITB",
+   "kind": "take_profit",
+   "price": 53.2522,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 53.01,
+   "pct_away": 0.46,
+   "good_until": "2026-10-27",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "cf4f5bd6",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 255.1293,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 256.61,
+   "pct_away": -0.58,
+   "good_until": "2026-10-27",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "31253f1b",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 100.6967,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 101.39,
+   "pct_away": -0.68,
+   "good_until": "2026-10-27",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -321,8 +355,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 35.06,
-   "pct_away": -0.67,
+   "last": 35.08,
+   "pct_away": -0.73,
    "good_until": "2026-10-27",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -338,8 +372,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 106.42,
-   "pct_away": -0.68,
+   "last": 106.6,
+   "pct_away": -0.84,
    "good_until": "2026-10-27",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -355,8 +389,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 389.42,
-   "pct_away": -0.84,
+   "last": 389.71,
+   "pct_away": -0.91,
    "good_until": "2026-10-27",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -372,27 +406,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 238.64,
-   "pct_away": -0.84,
+   "last": 238.93,
+   "pct_away": -0.97,
    "good_until": "2026-10-27",
    "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1445d54a",
-   "ticker": "EL",
-   "kind": "buy_limit",
-   "price": 103.4893,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 106.42,
-   "pct_away": -2.75,
-   "good_until": "2026-10-27",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -406,8 +423,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 53.0,
-   "pct_away": -2.76,
+   "last": 53.01,
+   "pct_away": -2.78,
    "good_until": "2026-10-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -423,8 +440,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 256.39,
-   "pct_away": -2.8,
+   "last": 256.61,
+   "pct_away": -2.88,
    "good_until": "2026-10-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -433,15 +450,32 @@
    ]
   },
   {
-   "id": "ae326fef",
-   "ticker": "NXPI",
+   "id": "1445d54a",
+   "ticker": "EL",
    "kind": "buy_limit",
-   "price": 231.8106,
+   "price": 103.4893,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 238.64,
-   "pct_away": -2.86,
+   "last": 106.6,
+   "pct_away": -2.92,
+   "good_until": "2026-10-27",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1a4120d0",
+   "ticker": "RPM",
+   "kind": "buy_limit",
+   "price": 98.3871,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 101.39,
+   "pct_away": -2.96,
    "good_until": "2026-10-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -457,8 +491,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 389.42,
-   "pct_away": -2.89,
+   "last": 389.71,
+   "pct_away": -2.97,
+   "good_until": "2026-10-27",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ae326fef",
+   "ticker": "NXPI",
+   "kind": "buy_limit",
+   "price": 231.8106,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 238.93,
+   "pct_away": -2.98,
    "good_until": "2026-10-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -474,8 +525,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 35.06,
-   "pct_away": -2.97,
+   "last": 35.08,
+   "pct_away": -3.03,
    "good_until": "2026-10-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -484,7 +535,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $21,166 idle, so opened 1: CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $20,416 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -553,7 +604,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 325,
+  "decisions_graded": 323,
   "decisions_with_buys_graded": 31,
   "independent_days_graded": 3,
   "avg_regret_pct": -0.46,
@@ -654,7 +705,7 @@
     "n": 1
    }
   },
-  "idle_checks": 351,
+  "idle_checks": 350,
   "blocked_checks": 0,
   "idle_share": 0.88,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -2190,5 +2241,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-22T13:09-04:00"
+ "signalsAsOf": "2026-10-22T13:15-04:00"
 }
