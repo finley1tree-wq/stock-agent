@@ -1,6 +1,3 @@
-~ WORKING take_profit 100% CACI @ $622.62 until 2026-10-27 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% CACI @ $615.14 until 2026-10-27 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 CACI @ $601.87 until 2026-10-27 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% NXPI @ $241.13 until 2026-10-27 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% NXPI @ $237.83 until 2026-10-27 — close it all at -1.0% under the average cost
 ~ WORKING buy_limit $500.00 NXPI @ $232.98 until 2026-10-27 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25153.94 (+0.62% on $25000.00 in) · cash $22155.12 · realised +155.12
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $238.00] -> $748.85 (-0.15%) — close it all at -1.0% under the average cost
+## 2026-10-22 11:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

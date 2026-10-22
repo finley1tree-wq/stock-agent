@@ -41416,3 +41416,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25153.94 (+0.62% on $25000.00 in) · cash $22155.12 · realised +155.12
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $238.00] -> $748.85 (-0.15%) — close it all at -1.0% under the average cost
+## 2026-10-22 11:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-22 11:40 ET (Thursday) — week 2026-W43 — budget left $22662.60 (today $37500.00 put to work, 23 buys, 20 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
+  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHXdQmtVdDHH17gv1UpE'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25152.02 (+0.61% on $25000.00 in) · cash $22903.97 · realised +153.97
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
