@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "fdb213f0",
-   "ticker": "GTES",
-   "kind": "buy_limit",
-   "price": 25.4722,
-   "status": "cancelled",
-   "created": "2026-10-16 11:54",
-   "created_ts": 1792166075,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $26.26",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "usd": 500.0,
-   "closed": "2026-10-16 13:04",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "c8278c01",
-   "ticker": "ADI",
-   "kind": "take_profit",
-   "price": 407.496,
-   "status": "filled",
-   "created": "2026-10-16 11:54",
-   "created_ts": 1792166075,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $406.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-16 12:04"
-  },
-  {
    "id": "30ad4500",
    "ticker": "ADI",
    "kind": "stop_loss",
@@ -7137,7 +7100,7 @@
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 386.1503,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-22 13:00",
    "created_ts": 1792688411,
    "why": "close it all at -0.9% under the average cost",
@@ -7147,7 +7110,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-22 13:32",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "3e3e9c1c",
@@ -7188,7 +7153,7 @@
    "ticker": "WSM",
    "kind": "stop_loss",
    "price": 255.1293,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-22 13:00",
    "created_ts": 1792688411,
    "why": "close it all at -0.7% under the average cost",
@@ -7198,7 +7163,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-22 13:32",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5c722cbc",
@@ -7468,7 +7435,41 @@
    "good_until": "2026-10-27",
    "pct_of_position": 100.0,
    "closed": "2026-10-22 13:25"
+  },
+  {
+   "id": "fc385631",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 390.432,
+   "status": "working",
+   "created": "2026-10-22 13:32",
+   "created_ts": 1792690351,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $389.85",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "91d24442",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 257.244,
+   "status": "working",
+   "created": "2026-10-22 13:32",
+   "created_ts": 1792690351,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $256.92",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-22 13:31"
+ "updated": "2026-10-22 13:32"
 }
