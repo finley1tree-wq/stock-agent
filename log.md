@@ -41976,3 +41976,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25153.06 (+0.61% on $25000.00 in) · cash $19907.33 · realised +157.33
 Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [stop_loss @ $35.06] -> $749.75 (-0.03%) — close it all at -0.7% under the average cost
+## 2026-10-22 13:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
