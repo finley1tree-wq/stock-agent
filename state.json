@@ -1,11 +1,11 @@
 {
   "week": "2026-W43",
-  "spent": 1586.25,
-  "deployed": 138750.0,
+  "spent": 2336.25,
+  "deployed": 139500.0,
   "by_ticker": {
     "RPM": 45.85,
     "GTES": 52.54,
-    "NXPI": 9.94,
+    "NXPI": 759.94,
     "IBRX": 12.19,
     "FUL": 3.96,
     "RIG": 25.6,
@@ -17,7 +17,7 @@
   },
   "deployed_by_ticker": {
     "WSM": 18000.0,
-    "NXPI": 15000.0,
+    "NXPI": 15750.0,
     "ADI": 20250.0,
     "RPM": 9750.0,
     "GTES": 5250.0,
@@ -4194,12 +4194,34 @@
       ],
       "evidence": "average cost $634.12",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.146431,
+      "price": 238.37,
+      "date": "2026-10-22",
+      "time_et": "11:31",
+      "ts": 1792683101,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +1.2% over the month; 43% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-22",
-  "spent_today": 1561.83,
-  "deployed_today": 36000.0,
-  "orders_today": 21,
+  "spent_today": 2311.83,
+  "deployed_today": 36750.0,
+  "orders_today": 22,
   "sells_today": 19,
   "sold_today": [
     "CRBG",
@@ -4230,8 +4252,8 @@
     "EL": 1792679679,
     "FBK": 1792681434
   },
-  "last_publish_ts": 1792682874,
-  "last_check_ts": 1792683013,
+  "last_publish_ts": 1792683101,
+  "last_check_ts": 1792683101,
   "exp_arm": {
     "ADI": {
       "params": {
@@ -4251,26 +4273,29 @@
         "hold_long": 120
       }
     },
-    "CACI": {
+    "NXPI": {
       "params": {
-        "hold_minutes": 120,
+        "hold_minutes": 90,
         "ratchet": "on"
       },
       "tags": {
-        "hold_long": 120
+        "hold_long": 90
       }
     }
   },
   "last_bar_ts": 1792683000,
-  "last_decision_ts": 1792682922,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792683101,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "9a3d13b0": 34.8149,
+    "ab353338": 239.3116,
     "070b6ee9": 391.8595,
-    "6fe63c8b": 35.1582,
     "7c749e03": 386.6792,
+    "6fe63c8b": 35.1582,
+    "3aa9207a": 236.0149,
     "3127bb55": 34.0082,
-    "240cd403": 378.6686
+    "240cd403": 378.6686,
+    "64326e23": 231.2189
   }
 }
