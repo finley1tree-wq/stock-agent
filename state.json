@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 1587.2,
+  "spent": 834.35,
   "deployed": 140250.0,
   "by_ticker": {
     "RPM": 45.85,
@@ -11,7 +11,7 @@
     "RIG": 25.6,
     "CACI": 56.87,
     "CRBG": 788.82,
-    "ADI": 785.67,
+    "ADI": 32.82,
     "EL": 7.0,
     "WSM": 5.55
   },
@@ -4280,13 +4280,34 @@
       ],
       "evidence": "average cost $52.89",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.921215,
+      "status": "filled",
+      "price": 391.86,
+      "proceeds": 752.85,
+      "realized_pnl": 2.85,
+      "realized_pct": 0.38,
+      "date": "2026-10-22",
+      "time_et": "12:14",
+      "ts": 1792685400,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $390.38",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-22",
-  "spent_today": 1562.78,
+  "spent_today": 809.93,
   "deployed_today": 37500.0,
   "orders_today": 23,
-  "sells_today": 21,
+  "sells_today": 22,
   "sold_today": [
     "CRBG",
     "WSM",
@@ -4301,7 +4322,7 @@
   ],
   "sold_ts": {
     "NXPI": 1792683650,
-    "ADI": 1792679759,
+    "ADI": 1792685683,
     "MSFT": 1792597155,
     "IBRX": 1792677950,
     "GTES": 1792436890,
@@ -4316,8 +4337,8 @@
     "EL": 1792679679,
     "FBK": 1792681434
   },
-  "last_publish_ts": 1792685407,
-  "last_check_ts": 1792685585,
+  "last_publish_ts": 1792685682,
+  "last_check_ts": 1792685682,
   "exp_arm": {
     "ADI": {
       "params": {
@@ -4361,11 +4382,8 @@
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "595cfe7a": 390.95,
-    "070b6ee9": 391.8595,
     "6fe63c8b": 35.1582,
     "9a3d13b0": 34.8149,
-    "3127bb55": 34.0082,
-    "240cd403": 378.6686
+    "3127bb55": 34.0082
   }
 }
