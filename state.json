@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 2337.4,
+  "spent": 1587.2,
   "deployed": 140250.0,
   "by_ticker": {
     "RPM": 45.85,
@@ -13,8 +13,7 @@
     "CRBG": 788.82,
     "ADI": 785.67,
     "EL": 7.0,
-    "WSM": 5.55,
-    "FITB": 750.0
+    "WSM": 5.55
   },
   "deployed_by_ticker": {
     "WSM": 18000.0,
@@ -4260,13 +4259,34 @@
       ],
       "evidence": "average cost $238.37",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "FITB",
+      "side": "sell",
+      "qty": 14.180067,
+      "status": "filled",
+      "price": 52.91,
+      "proceeds": 750.2,
+      "realized_pnl": 0.2,
+      "realized_pct": 0.03,
+      "date": "2026-10-22",
+      "time_et": "11:41",
+      "ts": 1792683600,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $52.89",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-22",
-  "spent_today": 2312.98,
+  "spent_today": 1562.78,
   "deployed_today": 37500.0,
   "orders_today": 23,
-  "sells_today": 20,
+  "sells_today": 21,
   "sold_today": [
     "CRBG",
     "WSM",
@@ -4290,14 +4310,14 @@
     "FUL": 1792430492,
     "RIG": 1792600815,
     "AYI": 1792593818,
-    "FITB": 1792680550,
+    "FITB": 1792683706,
     "CRBG": 1792679724,
     "CACI": 1792682875,
     "EL": 1792679679,
     "FBK": 1792681434
   },
-  "last_publish_ts": 1792683649,
-  "last_check_ts": 1792683652,
+  "last_publish_ts": 1792683706,
+  "last_check_ts": 1792683752,
   "exp_arm": {
     "ADI": {
       "params": {
@@ -4341,14 +4361,11 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "51a92ddf": 53.0122,
-    "392b2558": 52.932,
-    "9a3d13b0": 34.8149,
-    "6fe63c8b": 35.1582,
-    "070b6ee9": 391.8595,
     "7c749e03": 386.6792,
+    "070b6ee9": 391.8595,
     "240cd403": 378.6686,
-    "3127bb55": 34.0082,
-    "08d75ca8": 51.3033
+    "6fe63c8b": 35.1582,
+    "9a3d13b0": 34.8149,
+    "3127bb55": 34.0082
   }
 }
