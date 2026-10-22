@@ -1,4 +1,3 @@
-Decision: nothing at this check. 4 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-10-21 14:47 ET (Wednesday) — week 2026-W43 — budget left $23487.89 (today $38250.00 put to work, 27 buys, 25 sells) — SIM (pretend money) via sim
@@ -398,3 +397,4 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25216.94 (+0.87% on $25000.00 in) · cash $25216.94 · realised +216.94
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-10-21 16:00 ET — published the session's closing state
