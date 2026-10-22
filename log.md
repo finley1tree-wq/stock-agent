@@ -42110,3 +42110,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 FBK @ $52.16 until 2026-10-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25161.77 (+0.65% on $25000.00 in) · cash $22913.92 · realised +163.92
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22672.54 this week
+  (cancelled 2 standing order(s) on CACI: position closed)
+- SELL 100% CACI [take_profit @ $619.79] -> $752.60 (+0.35%) — close 100% at +0.3% over the average cost
+## 2026-10-22 13:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
