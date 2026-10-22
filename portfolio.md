@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-10-22 09:52 ET
+# Pretend portfolio — 2026-10-22 09:55 ET
 
-**Equity $25166.23** on $25000.00 put in → **+0.66%**  
-Cash $19172.56 · Unrealised -6.33 · Realised +172.56
+**Equity $25159.38** on $25000.00 put in → **+0.64%**  
+Cash $19172.56 · Unrealised -13.18 · Realised +172.56
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
 | FITB | 11.9% | $2998.80 | $53.21 | $53.19 | -0.04% | 0d |
-| IBRX | 11.9% | $2994.87 | $8.77 | $8.75 | -0.17% | 0d |
+| IBRX | 11.9% | $2988.02 | $8.77 | $8.73 | -0.40% | 0d |
 
 ## Last fills
 
