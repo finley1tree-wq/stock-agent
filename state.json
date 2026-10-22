@@ -1,24 +1,25 @@
 {
   "week": "2026-W43",
-  "spent": 84.04,
-  "deployed": 140250.0,
+  "spent": 3834.04,
+  "deployed": 144000.0,
   "by_ticker": {
     "RPM": 45.85,
     "GTES": 52.54,
-    "NXPI": 11.09,
+    "NXPI": 761.09,
     "IBRX": 12.19,
     "FUL": 3.96,
     "RIG": 25.6,
     "CACI": 56.87,
     "CRBG": 38.51,
-    "ADI": 32.82,
-    "EL": 7.0,
-    "WSM": 5.55
+    "ADI": 782.82,
+    "EL": 757.0,
+    "WSM": 755.55,
+    "FITB": 750.0
   },
   "deployed_by_ticker": {
-    "WSM": 18000.0,
-    "NXPI": 15750.0,
-    "ADI": 20250.0,
+    "WSM": 18750.0,
+    "NXPI": 16500.0,
+    "ADI": 21000.0,
     "RPM": 9750.0,
     "GTES": 5250.0,
     "IBRX": 9750.0,
@@ -27,9 +28,9 @@
     "RIG": 9750.0,
     "CRBG": 9750.0,
     "AYI": 3750.0,
-    "FITB": 9000.0,
+    "FITB": 9750.0,
     "CACI": 5250.0,
-    "EL": 4500.0,
+    "EL": 5250.0,
     "FBK": 3750.0
   },
   "orders": [
@@ -4322,12 +4323,122 @@
       ],
       "evidence": "average cost $35.06",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "EL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.029537,
+      "price": 106.69,
+      "date": "2026-10-22",
+      "time_et": "13:00",
+      "ts": 1792688411,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +7.9% over the month; 61% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "ADI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.923827,
+      "price": 389.85,
+      "date": "2026-10-22",
+      "time_et": "13:00",
+      "ts": 1792688411,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +1.2% over the month; 28% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "WSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.919166,
+      "price": 256.92,
+      "date": "2026-10-22",
+      "time_et": "13:00",
+      "ts": 1792688411,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +12.7% over the month; 72% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "FITB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 14.115988,
+      "price": 53.13,
+      "date": "2026-10-22",
+      "time_et": "13:00",
+      "ts": 1792688411,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +2.8% over the month; 66% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.138396,
+      "price": 238.98,
+      "date": "2026-10-22",
+      "time_et": "13:00",
+      "ts": 1792688411,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +1.5% over the month; 52% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-22",
-  "spent_today": 59.62,
-  "deployed_today": 37500.0,
-  "orders_today": 23,
+  "spent_today": 3809.62,
+  "deployed_today": 41250.0,
+  "orders_today": 28,
   "sells_today": 23,
   "sold_today": [
     "CRBG",
@@ -4358,10 +4469,10 @@
     "EL": 1792679679,
     "FBK": 1792681434
   },
-  "last_publish_ts": 1792687890,
-  "last_check_ts": 1792688238,
+  "last_publish_ts": 1792688411,
+  "last_check_ts": 1792688411,
   "exp_arm": {
-    "ADI": {
+    "EL": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -4370,7 +4481,25 @@
         "hold_long": 120
       }
     },
-    "CRBG": {
+    "ADI": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
+    },
+    "WSM": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
+    },
+    "FITB": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -4387,20 +4516,27 @@
       "tags": {
         "hold_long": 90
       }
-    },
-    "FITB": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
     }
   },
-  "last_bar_ts": 1792688100,
-  "last_decision_ts": 1792688238,
+  "last_bar_ts": 1792688400,
+  "last_decision_ts": 1792688411,
   "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "70deb62c": 53.2522,
+    "154e8207": 257.6368,
+    "f5927be6": 391.3314,
+    "05a79d64": 107.0858,
+    "7e203341": 239.9216,
+    "c71f503e": 52.825,
+    "cf4f5bd6": 255.1293,
+    "aa4a014c": 105.701,
+    "71b0ae55": 386.1503,
+    "41347984": 236.6237,
+    "1445d54a": 103.4893,
+    "5c722cbc": 249.2124,
+    "27cfe2a5": 51.5361,
+    "ae326fef": 231.8106,
+    "3e3e9c1c": 378.1545
+  }
 }
