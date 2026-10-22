@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "cd3d4569",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 246.1472,
-   "status": "cancelled",
-   "created": "2026-10-16 10:26",
-   "created_ts": 1792160809,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $253.76",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "usd": 500.0,
-   "closed": "2026-10-16 11:50",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "c023fb44",
    "ticker": "GTES",
    "kind": "take_profit",
@@ -7428,7 +7409,7 @@
    "ticker": "FITB",
    "kind": "stop_loss",
    "price": 52.5848,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-22 11:34",
    "created_ts": 1792683278,
    "why": "close it all at -0.6% under the average cost",
@@ -7438,7 +7419,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-22 11:39",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "08d75ca8",
@@ -7473,7 +7456,24 @@
    ],
    "good_until": "2026-10-27",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "392b2558",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 52.932,
+   "status": "working",
+   "created": "2026-10-22 11:39",
+   "created_ts": 1792683566,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $52.89",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-22 11:37"
+ "updated": "2026-10-22 11:39"
 }
