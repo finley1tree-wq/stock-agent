@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "f6a00847",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 533.5055,
-   "status": "cancelled",
-   "created": "2026-10-16 11:18",
-   "created_ts": 1792163924,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $532.26",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-16 11:56",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "2f3bceeb",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 529.141,
-   "status": "filled",
-   "created": "2026-10-16 11:18",
-   "created_ts": 1792163924,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $532.26",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-16 11:56"
-  },
-  {
-   "id": "ccba0f94",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 516.2922,
-   "status": "cancelled",
-   "created": "2026-10-16 11:18",
-   "created_ts": 1792163924,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $532.26",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "usd": 500.0,
-   "closed": "2026-10-16 11:56",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "3d235d09",
    "ticker": "YETI",
    "kind": "take_profit",
@@ -7468,7 +7412,58 @@
    ],
    "good_until": "2026-10-27",
    "usd": 500.0
+  },
+  {
+   "id": "59e1f221",
+   "ticker": "CRBG",
+   "kind": "take_profit",
+   "price": 35.1682,
+   "status": "working",
+   "created": "2026-10-22 13:09",
+   "created_ts": 1792688962,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $35.07",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f7ebbab3",
+   "ticker": "CRBG",
+   "kind": "stop_loss",
+   "price": 34.8249,
+   "status": "working",
+   "created": "2026-10-22 13:09",
+   "created_ts": 1792688962,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $35.07",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1ff78c4c",
+   "ticker": "CRBG",
+   "kind": "buy_limit",
+   "price": 34.0179,
+   "status": "working",
+   "created": "2026-10-22 13:09",
+   "created_ts": 1792688962,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $35.07",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-22 13:06"
+ "updated": "2026-10-22 13:09"
 }
