@@ -1,7 +1,7 @@
 {
   "week": "2026-W43",
-  "spent": 65.24,
-  "deployed": 129750.0,
+  "spent": 3065.24,
+  "deployed": 132750.0,
   "by_ticker": {
     "RPM": 48.71,
     "GTES": 52.54,
@@ -11,24 +11,26 @@
     "RIG": 25.6,
     "CACI": 57.48,
     "FITB": 0.02,
-    "CRBG": 33.28,
-    "ADI": 27.88
+    "CRBG": 783.28,
+    "ADI": 777.88,
+    "EL": 750.0,
+    "WSM": 750.0
   },
   "deployed_by_ticker": {
-    "WSM": 17250.0,
+    "WSM": 18000.0,
     "NXPI": 14250.0,
-    "ADI": 18750.0,
+    "ADI": 19500.0,
     "RPM": 9000.0,
     "GTES": 5250.0,
     "IBRX": 9750.0,
     "MSFT": 14250.0,
     "FUL": 1500.0,
     "RIG": 9750.0,
-    "CRBG": 8250.0,
+    "CRBG": 9000.0,
     "AYI": 3750.0,
     "FITB": 7500.0,
     "CACI": 3750.0,
-    "EL": 3750.0,
+    "EL": 4500.0,
     "FBK": 3000.0
   },
   "orders": [
@@ -3719,12 +3721,100 @@
       ],
       "evidence": "average cost $8.77",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ADI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.923679,
+      "price": 389.88,
+      "date": "2026-10-22",
+      "time_et": "10:21",
+      "ts": 1792678905,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +1.2% over the month; 2% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "EL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.080658,
+      "price": 105.92,
+      "date": "2026-10-22",
+      "time_et": "10:21",
+      "ts": 1792678905,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +7.1% over the month; 84% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "WSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.92703,
+      "price": 256.23,
+      "date": "2026-10-22",
+      "time_et": "10:21",
+      "ts": 1792678905,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +12.4% over the month; 76% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "CRBG",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 21.322529,
+      "price": 35.17,
+      "date": "2026-10-22",
+      "time_et": "10:21",
+      "ts": 1792678905,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +3.8% over the month; 36% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-10-22",
-  "spent_today": 40.82,
-  "deployed_today": 27000.0,
-  "orders_today": 9,
+  "spent_today": 3040.82,
+  "deployed_today": 30000.0,
+  "orders_today": 13,
   "sells_today": 9,
   "sold_today": [
     "CRBG",
@@ -3754,31 +3844,62 @@
     "EL": 1792676147,
     "FBK": 1792676849
   },
-  "last_publish_ts": 1792677949,
-  "last_check_ts": 1792678745,
+  "last_publish_ts": 1792678905,
+  "last_check_ts": 1792678905,
   "exp_arm": {
-    "IBRX": {
+    "ADI": {
       "params": {
-        "hold_minutes": 90,
+        "hold_minutes": 120,
         "ratchet": "on"
       },
       "tags": {
-        "hold_long": 90
+        "hold_long": 120
       }
     },
-    "FITB": {
+    "EL": {
       "params": {
-        "hold_minutes": 90,
+        "hold_minutes": 120,
         "ratchet": "on"
       },
       "tags": {
-        "hold_long": 90
+        "hold_long": 120
+      }
+    },
+    "WSM": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
+    },
+    "CRBG": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
       }
     }
   },
-  "last_bar_ts": 1792678500,
-  "last_decision_ts": 1792678745,
-  "next_check_minutes": null,
+  "last_bar_ts": 1792678800,
+  "last_decision_ts": 1792678905,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "733a3929": 35.2653,
+    "214c6d60": 256.9372,
+    "04050020": 391.3343,
+    "81b5f97d": 106.2939,
+    "24e458a6": 254.4646,
+    "6043e2b5": 34.9319,
+    "74c6e8b6": 104.9858,
+    "d3d1acea": 386.2502,
+    "d0a4d38b": 102.7424,
+    "b90acbfd": 248.5431,
+    "7c222266": 34.1149,
+    "8d74b810": 378.1836
+  }
 }
