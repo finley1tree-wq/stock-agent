@@ -74368,7 +74368,7 @@
     "code_version": "2930028",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.15
+    "ret_now": -0.09
   },
   {
     "symbol": "NXPI",
@@ -74465,7 +74465,9 @@
     "code_version": "3f785a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17
+    "ret_now": 0.04,
+    "ret_final": 0.04,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRBG",
@@ -74629,6 +74631,64 @@
     "momentum_1m_at_entry": 0.12,
     "hour_et": 13,
     "code_version": "e394158",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.01
+  },
+  {
+    "symbol": "RPM",
+    "side": "sell",
+    "qty": 7.394222,
+    "status": "filled",
+    "price": 101.48,
+    "proceeds": 750.33,
+    "realized_pnl": 0.33,
+    "realized_pct": 0.04,
+    "date": "2026-10-22",
+    "time_et": "13:42",
+    "ts": 1792690800,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $101.43",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "15826dc",
+    "hold_minutes": 24
+  },
+  {
+    "symbol": "FBK",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 13.947333,
+    "price": 53.77,
+    "date": "2026-10-22",
+    "time_et": "13:43",
+    "ts": 1792690982,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4); +2.0% over the month; 85% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 53.72,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 2.04,
+    "hour_et": 13,
+    "code_version": "15826dc",
     "ret_1w": null,
     "ret_1m": null
   }

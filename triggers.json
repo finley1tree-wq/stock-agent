@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "df13f2ea",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 226.3107,
-   "status": "cancelled",
-   "created": "2026-10-16 12:00",
-   "created_ts": 1792166425,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $233.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "usd": 500.0,
-   "closed": "2026-10-16 12:15",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "16745a56",
-   "ticker": "IBRX",
-   "kind": "take_profit",
-   "price": 9.4731,
-   "status": "filled",
-   "created": "2026-10-16 12:09",
-   "created_ts": 1792166950,
-   "why": "close 100% at +0.9% over the average cost",
-   "evidence": "average cost $9.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-16 13:26"
-  },
-  {
-   "id": "e3220666",
-   "ticker": "IBRX",
-   "kind": "stop_loss",
-   "price": 9.1822,
-   "status": "cancelled",
-   "created": "2026-10-16 12:09",
-   "created_ts": 1792166950,
-   "why": "close it all at -2.2% under the average cost",
-   "evidence": "average cost $9.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-16 13:26",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "e173b25c",
    "ticker": "IBRX",
    "kind": "buy_limit",
@@ -7291,7 +7235,7 @@
    "ticker": "RPM",
    "kind": "take_profit",
    "price": 101.7231,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-22 13:15",
    "created_ts": 1792689345,
    "why": "close 100% at +0.3% over the average cost",
@@ -7301,7 +7245,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-22 13:42",
+   "cancel_reason": "position closed"
   },
   {
    "id": "31253f1b",
@@ -7327,7 +7273,7 @@
    "ticker": "RPM",
    "kind": "buy_limit",
    "price": 98.3871,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-22 13:15",
    "created_ts": 1792689345,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7337,7 +7283,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-22 13:42",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3d0338df",
@@ -7417,7 +7365,7 @@
    "ticker": "RPM",
    "kind": "stop_loss",
    "price": 101.526,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-22 13:34",
    "created_ts": 1792690441,
    "why": "close it all at -0.7% under the average cost",
@@ -7427,7 +7375,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-22 13:42"
   },
   {
    "id": "f1f8df84",
@@ -7479,7 +7428,58 @@
    ],
    "good_until": "2026-10-27",
    "usd": 500.0
+  },
+  {
+   "id": "de4da69c",
+   "ticker": "FBK",
+   "kind": "take_profit",
+   "price": 53.905,
+   "status": "working",
+   "created": "2026-10-22 13:43",
+   "created_ts": 1792690982,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $53.77",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "aa47f86b",
+   "ticker": "FBK",
+   "kind": "stop_loss",
+   "price": 53.4323,
+   "status": "working",
+   "created": "2026-10-22 13:43",
+   "created_ts": 1792690982,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $53.77",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "24838dfc",
+   "ticker": "FBK",
+   "kind": "buy_limit",
+   "price": 52.1569,
+   "status": "working",
+   "created": "2026-10-22 13:43",
+   "created_ts": 1792690982,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $53.77",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-22 13:39"
+ "updated": "2026-10-22 13:43"
 }
