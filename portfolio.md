@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-10-22 09:47 ET
+# Pretend portfolio — 2026-10-22 09:49 ET
 
-**Equity $25153.74** on $25000.00 put in → **+0.61%**  
-Cash $22172.56 · Unrealised -18.82 · Realised +172.56
+**Equity $25181.12** on $25000.00 put in → **+0.72%**  
+Cash $22172.56 · Unrealised +8.56 · Realised +172.56
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| IBRX | 11.9% | $2981.17 | $8.77 | $8.71 | -0.63% | 0d |
+| IBRX | 11.9% | $3008.56 | $8.77 | $8.79 | +0.29% | 0d |
 
 ## Last fills
 

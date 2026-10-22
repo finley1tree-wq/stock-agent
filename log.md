@@ -40797,3 +40797,17 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on FBK: position closed)
 - SELL 100% FBK [take_profit @ $53.12] -> $3019.17 (+0.64%) — close 100% at +0.2% over the average cost
 ## 2026-10-22 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-22 09:49 ET (Thursday) — week 2026-W43 — budget left $21931.21 (today $24000.00 put to work, 8 buys, 7 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
+  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHP9RwNqHQ9PWNmXcNbo'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25181.12 (+0.72% on $25000.00 in) · cash $22172.56 · realised +172.56
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
