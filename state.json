@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 12024.42,
+  "spent": 30.87,
   "deployed": 114750.0,
   "by_ticker": {
     "RPM": 48.71,
@@ -11,10 +11,8 @@
     "RIG": 25.6,
     "CACI": 1.65,
     "FITB": 6.79,
-    "CRBG": 3009.32,
-    "EL": 3006.65,
-    "WSM": 3000.0,
-    "ADI": 3000.0
+    "CRBG": 33.28,
+    "ADI": 27.88
   },
   "deployed_by_ticker": {
     "WSM": 17250.0,
@@ -3421,32 +3419,121 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "CRBG",
+      "side": "sell",
+      "qty": 85.096495,
+      "status": "filled",
+      "price": 34.97,
+      "proceeds": 2976.04,
+      "realized_pnl": -23.96,
+      "realized_pct": -0.8,
+      "date": "2026-10-22",
+      "time_et": "09:35",
+      "ts": 1792676100,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $35.25",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 11.822126,
+      "status": "filled",
+      "price": 255.25,
+      "proceeds": 3017.66,
+      "realized_pnl": 17.66,
+      "realized_pct": 0.59,
+      "date": "2026-10-22",
+      "time_et": "09:35",
+      "ts": 1792676100,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $253.76",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 28.931987,
+      "status": "filled",
+      "price": 104.65,
+      "proceeds": 3027.73,
+      "realized_pnl": 27.73,
+      "realized_pct": 0.92,
+      "date": "2026-10-22",
+      "time_et": "09:35",
+      "ts": 1792676100,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $103.69",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 7.536939,
+      "status": "filled",
+      "price": 394.34,
+      "proceeds": 2972.12,
+      "realized_pnl": -27.88,
+      "realized_pct": -0.93,
+      "date": "2026-10-22",
+      "time_et": "09:36",
+      "ts": 1792676100,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $398.04",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-22",
-  "spent_today": 12000.0,
+  "spent_today": 6.45,
   "deployed_today": 12000.0,
   "orders_today": 4,
-  "sells_today": 0,
-  "sold_today": [],
+  "sells_today": 4,
+  "sold_today": [
+    "CRBG",
+    "WSM",
+    "EL",
+    "ADI"
+  ],
   "sold_ts": {
     "NXPI": 1792603918,
-    "ADI": 1792596017,
+    "ADI": 1792676193,
     "MSFT": 1792597155,
     "IBRX": 1792510176,
     "GTES": 1792436890,
-    "WSM": 1792603509,
+    "WSM": 1792676147,
     "RPM": 1792521186,
     "FUL": 1792430492,
     "RIG": 1792600815,
     "AYI": 1792593818,
     "FITB": 1792607531,
-    "CRBG": 1792609398,
+    "CRBG": 1792676147,
     "CACI": 1792596874,
-    "EL": 1792609012
+    "EL": 1792676147
   },
-  "last_publish_ts": 1792676096,
-  "last_check_ts": 1792676098,
+  "last_publish_ts": 1792676193,
+  "last_check_ts": 1792676193,
   "exp_arm": {
     "WSM": {
       "params": {
@@ -3485,22 +3572,9 @@
       }
     }
   },
-  "last_bar_ts": 1792675800,
+  "last_bar_ts": 1792676100,
   "last_decision_ts": 1792676098,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "64afd6cd": 104.0457,
-    "a6ae5b6a": 103.858,
-    "b89e2f07": 35.017,
-    "efa49902": 394.5372,
-    "4c9d0c58": 252.0598,
-    "d92fe7a0": 254.4401,
-    "8bb11359": 35.3431,
-    "3bc7ddaf": 399.4411,
-    "8ee2f2fa": 386.0988,
-    "d9c71a1b": 34.1925,
-    "0d070d22": 246.1472,
-    "63c32bfc": 100.5793
-  }
+  "book_px": {}
 }
