@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 1574.86,
+  "spent": 829.56,
   "deployed": 147000.0,
   "by_ticker": {
     "RPM": 45.52,
@@ -14,7 +14,7 @@
     "ADI": 29.97,
     "EL": 4.24,
     "WSM": 4.99,
-    "FITB": 750.0,
+    "FITB": 4.7,
     "FBK": 750.0
   },
   "deployed_by_ticker": {
@@ -4669,13 +4669,34 @@
       ],
       "evidence": "average cost $617.65",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "FITB",
+      "side": "sell",
+      "qty": 14.115988,
+      "status": "filled",
+      "price": 52.8,
+      "proceeds": 745.3,
+      "realized_pnl": -4.7,
+      "realized_pct": -0.63,
+      "date": "2026-10-22",
+      "time_et": "14:29",
+      "ts": 1792693500,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $53.13",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-22",
-  "spent_today": 1550.44,
+  "spent_today": 805.14,
   "deployed_today": 44250.0,
   "orders_today": 32,
-  "sells_today": 30,
+  "sells_today": 31,
   "sold_today": [
     "CRBG",
     "WSM",
@@ -4699,14 +4720,14 @@
     "FUL": 1792430492,
     "RIG": 1792600815,
     "AYI": 1792593818,
-    "FITB": 1792683706,
+    "FITB": 1792693754,
     "CRBG": 1792689637,
     "CACI": 1792691091,
     "EL": 1792690488,
     "FBK": 1792681434
   },
-  "last_publish_ts": 1792692029,
-  "last_check_ts": 1792693663,
+  "last_publish_ts": 1792693747,
+  "last_check_ts": 1792693747,
   "exp_arm": {
     "FITB": {
       "params": {
@@ -4737,13 +4758,11 @@
     }
   },
   "last_bar_ts": 1792693500,
-  "last_decision_ts": 1792693573,
+  "last_decision_ts": 1792693747,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "c71f503e": 52.825,
-    "de4da69c": 53.905,
-    "70deb62c": 53.2522,
-    "aa47f86b": 53.4323
+    "aa47f86b": 53.4323,
+    "de4da69c": 53.905
   }
 }

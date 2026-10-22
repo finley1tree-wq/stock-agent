@@ -74368,7 +74368,9 @@
     "code_version": "2930028",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.47
+    "ret_now": -0.63,
+    "ret_final": -0.63,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -74693,7 +74695,7 @@
     "code_version": "15826dc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": -0.17
   },
   {
     "symbol": "CACI",
@@ -74721,5 +74723,32 @@
     "hour_et": 13,
     "code_version": "d6ae0ce",
     "hold_minutes": 0
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 14.115988,
+    "status": "filled",
+    "price": 52.8,
+    "proceeds": 745.3,
+    "realized_pnl": -4.7,
+    "realized_pct": -0.63,
+    "date": "2026-10-22",
+    "time_et": "14:29",
+    "ts": 1792693500,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $53.13",
+    "trigger": "stop_loss",
+    "hour_et": 14,
+    "code_version": "e0e47ed",
+    "hold_minutes": 84
   }
 ]
