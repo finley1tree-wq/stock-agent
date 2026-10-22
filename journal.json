@@ -74269,7 +74269,9 @@
     "code_version": "2930028",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": 0.37,
+    "ret_final": 0.37,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -74300,7 +74302,9 @@
     "code_version": "2930028",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.36
+    "ret_now": 0.38,
+    "ret_final": 0.38,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -74331,7 +74335,9 @@
     "code_version": "2930028",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.28
+    "ret_now": 0.07,
+    "ret_final": 0.07,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -74362,7 +74368,7 @@
     "code_version": "2930028",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02
+    "ret_now": -0.09
   },
   {
     "symbol": "NXPI",
@@ -74459,7 +74465,7 @@
     "code_version": "3f785a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": 0.18
   },
   {
     "symbol": "CRBG",
@@ -74539,7 +74545,8 @@
     "evidence": "average cost $106.69",
     "trigger": "take_profit",
     "hour_et": 13,
-    "code_version": "8ba580e"
+    "code_version": "8ba580e",
+    "hold_minutes": 29
   },
   {
     "symbol": "ADI",
@@ -74565,6 +74572,34 @@
     "evidence": "average cost $389.85",
     "trigger": "take_profit",
     "hour_et": 13,
-    "code_version": "8ba580e"
+    "code_version": "8ba580e",
+    "hold_minutes": 29
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 2.919166,
+    "status": "filled",
+    "price": 257.12,
+    "proceeds": 750.56,
+    "realized_pnl": 0.56,
+    "realized_pct": 0.07,
+    "date": "2026-10-22",
+    "time_et": "13:36",
+    "ts": 1792690500,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $256.92",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "0576206",
+    "hold_minutes": 34
   }
 ]

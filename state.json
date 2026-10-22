@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 2328.35,
+  "spent": 1577.79,
   "deployed": 145500.0,
   "by_ticker": {
     "RPM": 795.85,
@@ -13,7 +13,7 @@
     "CRBG": 38.76,
     "ADI": 29.97,
     "EL": 4.24,
-    "WSM": 755.55,
+    "WSM": 4.99,
     "FITB": 750.0
   },
   "deployed_by_ticker": {
@@ -4561,13 +4561,34 @@
       ],
       "evidence": "average cost $389.85",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 2.919166,
+      "status": "filled",
+      "price": 257.12,
+      "proceeds": 750.56,
+      "realized_pnl": 0.56,
+      "realized_pct": 0.07,
+      "date": "2026-10-22",
+      "time_et": "13:36",
+      "ts": 1792690500,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $256.92",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-22",
-  "spent_today": 2303.93,
+  "spent_today": 1553.37,
   "deployed_today": 42750.0,
   "orders_today": 30,
-  "sells_today": 27,
+  "sells_today": 28,
   "sold_today": [
     "CRBG",
     "WSM",
@@ -4586,7 +4607,7 @@
     "MSFT": 1792597155,
     "IBRX": 1792677950,
     "GTES": 1792436890,
-    "WSM": 1792679472,
+    "WSM": 1792690625,
     "RPM": 1792680370,
     "FUL": 1792430492,
     "RIG": 1792600815,
@@ -4597,8 +4618,8 @@
     "EL": 1792690488,
     "FBK": 1792681434
   },
-  "last_publish_ts": 1792690485,
-  "last_check_ts": 1792690533,
+  "last_publish_ts": 1792690617,
+  "last_check_ts": 1792690617,
   "exp_arm": {
     "EL": {
       "params": {
@@ -4665,18 +4686,15 @@
     }
   },
   "last_bar_ts": 1792690500,
-  "last_decision_ts": 1792690441,
+  "last_decision_ts": 1792690617,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "154e8207": 257.6368,
     "07ecaa22": 101.526,
     "45b7504a": 101.7231,
-    "91d24442": 257.244,
     "70deb62c": 53.2522,
     "c71f503e": 52.825,
     "27cfe2a5": 51.5361,
-    "1a4120d0": 98.3871,
-    "5c722cbc": 249.2124
+    "1a4120d0": 98.3871
   }
 }
