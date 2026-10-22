@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-22T13:44-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-22T14:00-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "c71f503e",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 52.825,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 53.01,
+   "pct_away": -0.35,
+   "good_until": "2026-10-27",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "de4da69c",
    "ticker": "FBK",
    "kind": "take_profit",
@@ -185,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 53.72,
-   "pct_away": 0.34,
+   "last": 53.7,
+   "pct_away": 0.38,
    "good_until": "2026-10-27",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -202,27 +219,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 53.05,
-   "pct_away": 0.38,
+   "last": 53.01,
+   "pct_away": 0.46,
    "good_until": "2026-10-27",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c71f503e",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 52.825,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 53.05,
-   "pct_away": -0.42,
-   "good_until": "2026-10-27",
-   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,44 +236,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 53.72,
-   "pct_away": -0.54,
+   "last": 53.7,
+   "pct_away": -0.5,
    "good_until": "2026-10-27",
    "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "27cfe2a5",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 51.5361,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 53.05,
-   "pct_away": -2.85,
-   "good_until": "2026-10-27",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "24838dfc",
-   "ticker": "FBK",
-   "kind": "buy_limit",
-   "price": 52.1569,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 53.72,
-   "pct_away": -2.91,
-   "good_until": "2026-10-27",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"

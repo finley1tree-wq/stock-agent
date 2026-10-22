@@ -7104,7 +7104,7 @@
    "ticker": "FITB",
    "kind": "buy_limit",
    "price": 51.5361,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-22 13:00",
    "created_ts": 1792688411,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7114,7 +7114,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-22 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "7e203341",
@@ -7473,7 +7475,7 @@
    "ticker": "FBK",
    "kind": "buy_limit",
    "price": 52.1569,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-22 13:43",
    "created_ts": 1792690982,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7483,7 +7485,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-22 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   }
  ],
  "updated": "2026-10-22 13:58"
