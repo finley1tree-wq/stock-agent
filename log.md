@@ -40887,3 +40887,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25184.46 (+0.74% on $25000.00 in) · cash $22179.33 · realised +179.33
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on IBRX: position closed)
+- SELL 100% IBRX [stop_loss @ $8.76] -> $2996.78 (-0.11%) — close it all at -2.4% under the average cost
+## 2026-10-22 10:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders

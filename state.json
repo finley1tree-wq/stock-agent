@@ -1,12 +1,12 @@
 {
   "week": "2026-W43",
-  "spent": 3062.02,
+  "spent": 65.24,
   "deployed": 129750.0,
   "by_ticker": {
     "RPM": 48.71,
     "GTES": 52.54,
     "NXPI": 9.45,
-    "IBRX": 3008.97,
+    "IBRX": 12.19,
     "FUL": 3.96,
     "RIG": 25.6,
     "CACI": 57.48,
@@ -3698,13 +3698,34 @@
       ],
       "evidence": "average cost $53.21",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "IBRX",
+      "side": "sell",
+      "qty": 342.270316,
+      "status": "filled",
+      "price": 8.76,
+      "proceeds": 2996.78,
+      "realized_pnl": -3.22,
+      "realized_pct": -0.11,
+      "date": "2026-10-22",
+      "time_et": "10:05",
+      "ts": 1792677900,
+      "why": "close it all at -2.4% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $8.77",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-22",
-  "spent_today": 3037.6,
+  "spent_today": 40.82,
   "deployed_today": 27000.0,
   "orders_today": 9,
-  "sells_today": 8,
+  "sells_today": 9,
   "sold_today": [
     "CRBG",
     "WSM",
@@ -3713,13 +3734,14 @@
     "CACI",
     "NXPI",
     "FBK",
-    "FITB"
+    "FITB",
+    "IBRX"
   ],
   "sold_ts": {
     "NXPI": 1792676449,
     "ADI": 1792676193,
     "MSFT": 1792597155,
-    "IBRX": 1792510176,
+    "IBRX": 1792677950,
     "GTES": 1792436890,
     "WSM": 1792676147,
     "RPM": 1792521186,
@@ -3732,8 +3754,8 @@
     "EL": 1792676147,
     "FBK": 1792676849
   },
-  "last_publish_ts": 1792677677,
-  "last_check_ts": 1792677862,
+  "last_publish_ts": 1792677949,
+  "last_check_ts": 1792677949,
   "exp_arm": {
     "IBRX": {
       "params": {
@@ -3754,13 +3776,9 @@
       }
     }
   },
-  "last_bar_ts": 1792677600,
+  "last_bar_ts": 1792677900,
   "last_decision_ts": 1792677862,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "2466c650": 8.8,
-    "46a283dc": 8.8553,
-    "5a7d6393": 8.5069
-  }
+  "book_px": {}
 }
