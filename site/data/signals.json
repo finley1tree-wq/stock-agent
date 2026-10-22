@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-22T12:16-04:00",
- "note": "tick: watching",
+ "asOf": "2026-10-22T12:21-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -176,59 +176,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "3a15714d",
-   "ticker": "CRBG",
-   "kind": "stop_loss",
-   "price": 35.096,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 35.12,
-   "pct_away": -0.07,
-   "good_until": "2026-10-27",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6fe63c8b",
-   "ticker": "CRBG",
-   "kind": "take_profit",
-   "price": 35.1582,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 35.12,
-   "pct_away": 0.11,
-   "good_until": "2026-10-27",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3127bb55",
-   "ticker": "CRBG",
-   "kind": "buy_limit",
-   "price": 34.0082,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 35.12,
-   "pct_away": -3.17,
-   "good_until": "2026-10-27",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,664 idle, so opened 1: FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "congress_trades": [
