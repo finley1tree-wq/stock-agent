@@ -42304,3 +42304,18 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25161.95 (+0.65% on $25000.00 in) · cash $23666.52 · realised +166.52
 Decision: nothing at this check. 4 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-22 14:26 ET (Thursday) — week 2026-W43 — budget left $23425.14 (today $44250.00 put to work, 32 buys, 30 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
+  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHkEjkGiuQ42Nry4LsB2'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25161.11 (+0.64% on $25000.00 in) · cash $23666.52 · realised +166.52
+Decision: nothing at this check. 4 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
