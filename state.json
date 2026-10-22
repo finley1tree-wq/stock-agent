@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 3833.96,
+  "spent": 2328.35,
   "deployed": 145500.0,
   "by_ticker": {
     "RPM": 795.85,
@@ -11,8 +11,8 @@
     "RIG": 25.6,
     "CACI": 56.87,
     "CRBG": 38.76,
-    "ADI": 782.82,
-    "EL": 757.0,
+    "ADI": 29.97,
+    "EL": 4.24,
     "WSM": 755.55,
     "FITB": 750.0
   },
@@ -4519,13 +4519,55 @@
       ],
       "evidence": "average cost $238.98",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 7.029537,
+      "status": "filled",
+      "price": 107.09,
+      "proceeds": 752.76,
+      "realized_pnl": 2.76,
+      "realized_pct": 0.37,
+      "date": "2026-10-22",
+      "time_et": "13:34",
+      "ts": 1792690200,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $106.69",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.923827,
+      "status": "filled",
+      "price": 391.33,
+      "proceeds": 752.85,
+      "realized_pnl": 2.85,
+      "realized_pct": 0.38,
+      "date": "2026-10-22",
+      "time_et": "13:34",
+      "ts": 1792690200,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $389.85",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-22",
-  "spent_today": 3809.54,
+  "spent_today": 2303.93,
   "deployed_today": 42750.0,
   "orders_today": 30,
-  "sells_today": 25,
+  "sells_today": 27,
   "sold_today": [
     "CRBG",
     "WSM",
@@ -4540,7 +4582,7 @@
   ],
   "sold_ts": {
     "NXPI": 1792689906,
-    "ADI": 1792685683,
+    "ADI": 1792690488,
     "MSFT": 1792597155,
     "IBRX": 1792677950,
     "GTES": 1792436890,
@@ -4552,11 +4594,11 @@
     "FITB": 1792683706,
     "CRBG": 1792689637,
     "CACI": 1792682875,
-    "EL": 1792679679,
+    "EL": 1792690488,
     "FBK": 1792681434
   },
-  "last_publish_ts": 1792690441,
-  "last_check_ts": 1792690441,
+  "last_publish_ts": 1792690485,
+  "last_check_ts": 1792690533,
   "exp_arm": {
     "EL": {
       "params": {
@@ -4622,25 +4664,19 @@
       }
     }
   },
-  "last_bar_ts": 1792690200,
+  "last_bar_ts": 1792690500,
   "last_decision_ts": 1792690441,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "f5927be6": 391.3314,
     "154e8207": 257.6368,
     "07ecaa22": 101.526,
-    "91d24442": 257.244,
     "45b7504a": 101.7231,
-    "fc385631": 390.432,
+    "91d24442": 257.244,
     "70deb62c": 53.2522,
-    "05a79d64": 107.0858,
     "c71f503e": 52.825,
-    "aa4a014c": 105.701,
-    "1445d54a": 103.4893,
     "27cfe2a5": 51.5361,
     "1a4120d0": 98.3871,
-    "5c722cbc": 249.2124,
-    "3e3e9c1c": 378.1545
+    "5c722cbc": 249.2124
   }
 }

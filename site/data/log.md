@@ -1,8 +1,3 @@
-  (dropped EL: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped CACI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25157.33 (+0.63% on $25000.00 in) · cash $25157.33 · realised +157.33
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-10-22 12:28 ET (Thursday) — week 2026-W43 — budget left $24915.96 (today $37500.00 put to work, 23 buys, 23 sells) — SIM (pretend money) via sim
   (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
@@ -398,3 +393,8 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% RPM @ $101.53 until 2026-10-27 — close it all at -0.7% under the average cost
 portfolio: equity $25161.94 (+0.65% on $25000.00 in) · cash $21407.41 · realised +157.41
 Decision: nothing at this check. 15 standing order(s) working.
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $107.09] -> $752.76 (+0.37%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [take_profit @ $391.33] -> $752.85 (+0.38%) — close 100% at +0.4% over the average cost
+## 2026-10-22 13:34 ET — tick — 2 sell(s), 0 buy(s) from standing orders
