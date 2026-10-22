@@ -1,6 +1,3 @@
-## 2026-10-22 12:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-22 12:16 ET (Thursday) — week 2026-W43 — budget left $24165.65 (today $37500.00 put to work, 23 buys, 22 sells) — SIM (pretend money) via sim
   (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25153.28 (+0.61% on $25000.00 in) · cash $20657.08 · realised +157.08
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $239.08] -> $750.33 (+0.04%) — close it all at -1.0% under the average cost
+## 2026-10-22 13:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
