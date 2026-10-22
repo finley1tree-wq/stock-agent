@@ -1,19 +1,19 @@
 {
   "week": "2026-W43",
-  "spent": 4570.79,
-  "deployed": 135000.0,
+  "spent": 2343.03,
+  "deployed": 135750.0,
   "by_ticker": {
-    "RPM": 48.71,
+    "RPM": 798.71,
     "GTES": 52.54,
     "NXPI": 759.45,
     "IBRX": 12.19,
     "FUL": 3.96,
     "RIG": 25.6,
-    "CACI": 807.48,
+    "CACI": 59.39,
     "FITB": 0.02,
-    "CRBG": 783.28,
-    "ADI": 777.88,
-    "EL": 750.0,
+    "CRBG": 38.82,
+    "ADI": 35.67,
+    "EL": 7.0,
     "WSM": 5.55,
     "FBK": 750.0
   },
@@ -21,7 +21,7 @@
     "WSM": 18000.0,
     "NXPI": 15000.0,
     "ADI": 19500.0,
-    "RPM": 9000.0,
+    "RPM": 9750.0,
     "GTES": 5250.0,
     "IBRX": 9750.0,
     "MSFT": 14250.0,
@@ -3897,13 +3897,119 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 7.080658,
+      "status": "filled",
+      "price": 104.93,
+      "proceeds": 743.0,
+      "realized_pnl": -7.0,
+      "realized_pct": -0.93,
+      "date": "2026-10-22",
+      "time_et": "10:34",
+      "ts": 1792679400,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $105.92",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CRBG",
+      "side": "sell",
+      "qty": 21.322529,
+      "status": "filled",
+      "price": 34.91,
+      "proceeds": 744.46,
+      "realized_pnl": -5.54,
+      "realized_pct": -0.74,
+      "date": "2026-10-22",
+      "time_et": "10:35",
+      "ts": 1792679400,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $35.17",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.923679,
+      "status": "filled",
+      "price": 385.83,
+      "proceeds": 742.21,
+      "realized_pnl": -7.79,
+      "realized_pct": -1.04,
+      "date": "2026-10-22",
+      "time_et": "10:35",
+      "ts": 1792679700,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $389.88",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CACI",
+      "side": "sell",
+      "qty": 1.208745,
+      "status": "filled",
+      "price": 618.9,
+      "proceeds": 748.09,
+      "realized_pnl": -1.91,
+      "realized_pct": -0.25,
+      "date": "2026-10-22",
+      "time_et": "10:35",
+      "ts": 1792679700,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $620.48",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "RPM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.438977,
+      "price": 100.82,
+      "date": "2026-10-22",
+      "time_et": "10:35",
+      "ts": 1792679726,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +0.7% over the month; 82% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-22",
-  "spent_today": 4546.37,
-  "deployed_today": 32250.0,
-  "orders_today": 16,
-  "sells_today": 10,
+  "spent_today": 2318.61,
+  "deployed_today": 33000.0,
+  "orders_today": 17,
+  "sells_today": 14,
   "sold_today": [
     "CRBG",
     "WSM",
@@ -3917,7 +4023,7 @@
   ],
   "sold_ts": {
     "NXPI": 1792676449,
-    "ADI": 1792676193,
+    "ADI": 1792679759,
     "MSFT": 1792597155,
     "IBRX": 1792677950,
     "GTES": 1792436890,
@@ -3927,50 +4033,14 @@
     "RIG": 1792600815,
     "AYI": 1792593818,
     "FITB": 1792677420,
-    "CRBG": 1792676147,
-    "CACI": 1792676404,
-    "EL": 1792676147,
+    "CRBG": 1792679724,
+    "CACI": 1792679759,
+    "EL": 1792679679,
     "FBK": 1792676849
   },
-  "last_publish_ts": 1792679602,
-  "last_check_ts": 1792679602,
+  "last_publish_ts": 1792679726,
+  "last_check_ts": 1792679726,
   "exp_arm": {
-    "ADI": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
-    "EL": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
-    "CRBG": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
-    "CACI": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
     "NXPI": {
       "params": {
         "hold_minutes": 120,
@@ -3988,30 +4058,30 @@
       "tags": {
         "hold_long": 120
       }
+    },
+    "RPM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
     }
   },
-  "last_bar_ts": 1792679400,
-  "last_decision_ts": 1792679602,
+  "last_bar_ts": 1792679700,
+  "last_decision_ts": 1792679726,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "51ebf8d5": 622.6207,
-    "ad4024b3": 621.44,
-    "74c6e8b6": 104.9858,
-    "d3d1acea": 386.2502,
-    "6043e2b5": 34.9319,
     "c3b92376": 53.5018,
-    "8f37b00f": 53.0402,
-    "169b6d14": 241.1315,
-    "733a3929": 35.2653,
+    "3cf5cf5a": 101.1083,
     "c27d0b72": 237.8337,
-    "04050020": 391.3343,
-    "81b5f97d": 106.2939,
-    "d0a4d38b": 102.7424,
-    "8d74b810": 378.1836,
-    "7c222266": 34.1149,
+    "8f37b00f": 53.0402,
+    "754716e4": 100.0991,
+    "169b6d14": 241.1315,
     "03313613": 232.9843,
     "ffca1409": 51.7689,
-    "fb638c1c": 601.8656
+    "06205651": 97.7954
   }
 }

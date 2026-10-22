@@ -73429,7 +73429,9 @@
     "code_version": "1afa5d8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.73
+    "ret_now": -1.04,
+    "ret_final": -1.04,
+    "ret_src": "realised"
   },
   {
     "symbol": "EL",
@@ -73460,7 +73462,9 @@
     "code_version": "1afa5d8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.73
+    "ret_now": -0.93,
+    "ret_final": -0.93,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -73524,7 +73528,9 @@
     "code_version": "1afa5d8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.37
+    "ret_now": -0.74,
+    "ret_final": -0.74,
+    "ret_src": "realised"
   },
   {
     "symbol": "CACI",
@@ -73555,7 +73561,9 @@
     "code_version": "623882c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.3
+    "ret_now": -0.25,
+    "ret_final": -0.25,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -73586,7 +73594,7 @@
     "code_version": "623882c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.19
+    "ret_now": -0.48
   },
   {
     "symbol": "WSM",
@@ -73642,6 +73650,145 @@
     "momentum_1m_at_entry": 1.29,
     "hour_et": 10,
     "code_version": "614cab6",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.02
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 7.080658,
+    "status": "filled",
+    "price": 104.93,
+    "proceeds": 743.0,
+    "realized_pnl": -7.0,
+    "realized_pct": -0.93,
+    "date": "2026-10-22",
+    "time_et": "10:34",
+    "ts": 1792679400,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $105.92",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "fd07671",
+    "hold_minutes": 8
+  },
+  {
+    "symbol": "CRBG",
+    "side": "sell",
+    "qty": 21.322529,
+    "status": "filled",
+    "price": 34.91,
+    "proceeds": 744.46,
+    "realized_pnl": -5.54,
+    "realized_pct": -0.74,
+    "date": "2026-10-22",
+    "time_et": "10:35",
+    "ts": 1792679400,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $35.17",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "fd07671",
+    "hold_minutes": 8
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 1.923679,
+    "status": "filled",
+    "price": 385.83,
+    "proceeds": 742.21,
+    "realized_pnl": -7.79,
+    "realized_pct": -1.04,
+    "date": "2026-10-22",
+    "time_et": "10:35",
+    "ts": 1792679700,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $389.88",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "fd07671",
+    "hold_minutes": 13
+  },
+  {
+    "symbol": "CACI",
+    "side": "sell",
+    "qty": 1.208745,
+    "status": "filled",
+    "price": 618.9,
+    "proceeds": 748.09,
+    "realized_pnl": -1.91,
+    "realized_pct": -0.25,
+    "date": "2026-10-22",
+    "time_et": "10:35",
+    "ts": 1792679700,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $620.48",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "fd07671",
+    "hold_minutes": 7
+  },
+  {
+    "symbol": "RPM",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 7.438977,
+    "price": 100.82,
+    "date": "2026-10-22",
+    "time_et": "10:35",
+    "ts": 1792679726,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +0.7% over the month; 82% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 100.78,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 0.72,
+    "hour_et": 10,
+    "code_version": "fd07671",
     "ret_1w": null,
     "ret_1m": null
   }
