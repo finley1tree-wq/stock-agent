@@ -1,23 +1,6 @@
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
-## 2026-10-22 12:31 ET (Thursday) — week 2026-W43 — budget left $24915.96 (today $37500.00 put to work, 23 buys, 23 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
-  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHbTe9VpHpHi22d5xiuT'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,916 idle, so opened 3: EL, FITB, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped EL: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25157.33 (+0.63% on $25000.00 in) · cash $25157.33 · realised +157.33
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-22 12:34 ET (Thursday) — week 2026-W43 — budget left $24915.96 (today $37500.00 put to work, 23 buys, 23 sells) — SIM (pretend money) via sim
   (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
@@ -398,3 +381,20 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25163.62 (+0.65% on $25000.00 in) · cash $23663.59 · realised +163.59
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 6 order(s) working; budget left $23422.21 this week
+
+## 2026-10-22 13:39 ET (Thursday) — week 2026-W43 — budget left $23422.21 (today $42750.00 put to work, 30 buys, 28 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
+  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHgi7uKvJi5YodRGLpyS'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,422 idle, so opened 1: CACI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 CACI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +0.1% over the month; 26% of today's range
+~ WORKING take_profit 100% CACI @ $619.79 until 2026-10-27 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CACI @ $612.31 until 2026-10-27 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 CACI @ $599.12 until 2026-10-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25162.82 (+0.65% on $25000.00 in) · cash $22913.59 · realised +163.59
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22672.21 this week
