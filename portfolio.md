@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-10-22 15:32 ET
+# Pretend portfolio — 2026-10-22 15:36 ET
 
-**Equity $25159.40** on $25000.00 put in → **+0.64%**  
-Cash $24411.83 · Unrealised -2.43 · Realised +161.83
+**Equity $25160.10** on $25000.00 put in → **+0.64%**  
+Cash $24411.83 · Unrealised -1.73 · Realised +161.83
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| FBK | 3.0% | $747.58 | $53.77 | $53.60 | -0.32% | 0d |
+| FBK | 3.0% | $748.27 | $53.77 | $53.65 | -0.23% | 0d |
 
 ## Last fills
 
