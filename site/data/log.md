@@ -1,32 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-21 14:47 ET (Wednesday) — week 2026-W43 — budget left $23487.89 (today $38250.00 put to work, 27 buys, 25 sells) — SIM (pretend money) via sim
-  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFt68JX8Nhi3gJqkqhW5'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25224.36 (+0.90% on $25000.00 in) · cash $23729.25 · realised +229.25
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-21 14:50 ET (Wednesday) — week 2026-W43 — budget left $23487.89 (today $38250.00 put to work, 27 buys, 25 sells) — SIM (pretend money) via sim
-  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFtK5xVBw512dhzTVD1j'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25222.81 (+0.89% on $25000.00 in) · cash $23729.25 · realised +229.25
 Decision: nothing at this check. 4 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +369,32 @@ portfolio: equity $25216.94 (+0.87% on $25000.00 in) · cash $25216.94 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-21 16:00 ET — published the session's closing state
+
+## 2026-10-22 09:32 ET (Thursday) — week 2026-W43 — budget left $24975.58 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
+  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHMuMhdgcWbCZ89qRSf5'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,976 idle, so opened 4: WSM, EL, ADI, CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +11.3% over the month; 0% of today's range
+- BUY $3000.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +4.9% over the month; 64% of today's range
+- BUY $3000.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +3.3% over the month; 56% of today's range
+- BUY $3000.00 CRBG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +4.0% over the month; 83% of today's range
+~ WORKING take_profit 100% WSM @ $254.44 until 2026-10-27 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $252.06 until 2026-10-27 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $246.15 until 2026-10-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% EL @ $104.05 until 2026-10-27 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% EL @ $102.80 until 2026-10-27 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 EL @ $100.58 until 2026-10-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ADI @ $399.44 until 2026-10-27 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% ADI @ $394.54 until 2026-10-27 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $386.10 until 2026-10-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRBG @ $35.34 until 2026-10-27 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CRBG @ $35.02 until 2026-10-27 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CRBG @ $34.19 until 2026-10-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25212.74 (+0.85% on $25000.00 in) · cash $13216.94 · realised +216.94
+Done: 0 sell(s), 4 buy(s); 12 order(s) working; budget left $12975.58 this week
