@@ -40743,3 +40743,26 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 CACI @ $617.48 until 2026-10-27 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25205.09 (+0.82% on $25000.00 in) · cash $16210.48 · realised +210.48
 Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $15969.13 this week
+  (cancelled 2 standing order(s) on CACI: position closed)
+- SELL 100% CACI [stop_loss @ $624.74] -> $2944.17 (-1.86%) — close it all at -0.8% under the average cost
+## 2026-10-22 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $239.42] -> $2998.74 (-0.04%) — close it all at -1.0% under the average cost
+## 2026-10-22 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-22 09:40 ET (Thursday) — week 2026-W43 — budget left $21912.04 (today $21000.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
+  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHNUaN4Khtf16cN2Q9fA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,912 idle, so opened 1: IBRX. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 IBRX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Lisa C. McClain; +1.5% over the month; 80% of today's range
+~ WORKING take_profit 100% IBRX @ $8.86 until 2026-10-27 — close 100% at +1.0% over the average cost
+~ WORKING stop_loss 100% IBRX @ $8.56 until 2026-10-27 — close it all at -2.4% under the average cost
+~ WORKING buy_limit $500.00 IBRX @ $8.51 until 2026-10-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25148.69 (+0.59% on $25000.00 in) · cash $19153.39 · realised +153.39
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $18912.04 this week

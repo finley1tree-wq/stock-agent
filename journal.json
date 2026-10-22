@@ -73128,7 +73128,8 @@
     "hour_et": 9,
     "code_version": "c180c8b",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.0
   },
   {
     "symbol": "NXPI",
@@ -73158,7 +73159,10 @@
     "hour_et": 9,
     "code_version": "c180c8b",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.04,
+    "ret_now": -0.04,
+    "ret_src": "realised"
   },
   {
     "symbol": "CACI",
@@ -73187,6 +73191,93 @@
     "momentum_1m_at_entry": 3.19,
     "hour_et": 9,
     "code_version": "c180c8b",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_final": -1.86,
+    "ret_now": -1.86,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "CACI",
+    "side": "sell",
+    "qty": 4.71265,
+    "status": "filled",
+    "price": 624.74,
+    "proceeds": 2944.17,
+    "realized_pnl": -55.83,
+    "realized_pct": -1.86,
+    "date": "2026-10-22",
+    "time_et": "09:40",
+    "ts": 1792676400,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $636.58",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "8c59f83",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 12.525271,
+    "status": "filled",
+    "price": 239.42,
+    "proceeds": 2998.74,
+    "realized_pnl": -1.26,
+    "realized_pct": -0.04,
+    "date": "2026-10-22",
+    "time_et": "09:40",
+    "ts": 1792676400,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $239.52",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "8c59f83",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "IBRX",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 342.270316,
+    "price": 8.77,
+    "date": "2026-10-22",
+    "time_et": "09:40",
+    "ts": 1792676452,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers): Lisa C. McClain; +1.5% over the month; 80% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 8.76,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 1.51,
+    "hour_et": 9,
+    "code_version": "8c59f83",
     "ret_1w": null,
     "ret_1m": null
   }

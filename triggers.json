@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "7ec91b92",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 246.6165,
-   "status": "cancelled",
-   "created": "2026-10-15 12:37",
-   "created_ts": 1792082256,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $248.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-15 13:01",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "bffe6b01",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 240.9771,
-   "status": "cancelled",
-   "created": "2026-10-15 12:37",
-   "created_ts": 1792082256,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $248.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-20",
-   "usd": 500.0,
-   "closed": "2026-10-15 13:14",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "99830952",
-   "ticker": "RARE",
-   "kind": "take_profit",
-   "price": 15.2691,
-   "status": "cancelled",
-   "created": "2026-10-15 12:49",
-   "created_ts": 1792082966,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $15.19",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-20",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-15 14:19",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "19a933ab",
    "ticker": "RARE",
    "kind": "stop_loss",
@@ -7363,7 +7306,7 @@
    "ticker": "NXPI",
    "kind": "take_profit",
    "price": 240.4637,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-22 09:37",
    "created_ts": 1792676273,
    "why": "close 100% at +0.4% over the average cost",
@@ -7373,7 +7316,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-22 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "fd221277",
@@ -7399,7 +7344,7 @@
    "ticker": "NXPI",
    "kind": "buy_limit",
    "price": 232.3344,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-22 09:37",
    "created_ts": 1792676273,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7409,14 +7354,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-22 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "67b84b34",
    "ticker": "CACI",
    "kind": "take_profit",
    "price": 638.6043,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-22 09:37",
    "created_ts": 1792676273,
    "why": "close 100% at +0.3% over the average cost",
@@ -7426,14 +7373,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-22 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "305a68ea",
    "ticker": "CACI",
    "kind": "stop_loss",
    "price": 631.5128,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-22 09:37",
    "created_ts": 1792676273,
    "why": "close it all at -0.8% under the average cost",
@@ -7443,14 +7392,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-22 09:40"
   },
   {
    "id": "8e8adaaa",
    "ticker": "CACI",
    "kind": "buy_limit",
    "price": 617.4826,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-22 09:37",
    "created_ts": 1792676273,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7460,14 +7410,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-22 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "116a5cd0",
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 239.838,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-22 09:38",
    "created_ts": 1792676319,
    "why": "close it all at -1.0% under the average cost",
@@ -7477,8 +7429,60 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-22 09:40"
+  },
+  {
+   "id": "46a283dc",
+   "ticker": "IBRX",
+   "kind": "take_profit",
+   "price": 8.8553,
+   "status": "working",
+   "created": "2026-10-22 09:40",
+   "created_ts": 1792676452,
+   "why": "close 100% at +1.0% over the average cost",
+   "evidence": "average cost $8.77",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "dd6eee37",
+   "ticker": "IBRX",
+   "kind": "stop_loss",
+   "price": 8.5565,
+   "status": "working",
+   "created": "2026-10-22 09:40",
+   "created_ts": 1792676452,
+   "why": "close it all at -2.4% under the average cost",
+   "evidence": "average cost $8.77",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5a7d6393",
+   "ticker": "IBRX",
+   "kind": "buy_limit",
+   "price": 8.5069,
+   "status": "working",
+   "created": "2026-10-22 09:40",
+   "created_ts": 1792676452,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $8.77",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-27",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-22 09:38"
+ "updated": "2026-10-22 09:40"
 }

@@ -1,15 +1,15 @@
 {
   "week": "2026-W43",
-  "spent": 9030.87,
-  "deployed": 123750.0,
+  "spent": 6087.96,
+  "deployed": 126750.0,
   "by_ticker": {
     "RPM": 48.71,
     "GTES": 52.54,
-    "NXPI": 3008.19,
-    "IBRX": 8.97,
+    "NXPI": 9.45,
+    "IBRX": 3008.97,
     "FUL": 3.96,
     "RIG": 25.6,
-    "CACI": 3001.65,
+    "CACI": 57.48,
     "FITB": 6.79,
     "CRBG": 33.28,
     "ADI": 27.88,
@@ -21,7 +21,7 @@
     "ADI": 18750.0,
     "RPM": 9000.0,
     "GTES": 5250.0,
-    "IBRX": 6750.0,
+    "IBRX": 9750.0,
     "MSFT": 14250.0,
     "FUL": 1500.0,
     "RIG": 9750.0,
@@ -3571,21 +3571,87 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "CACI",
+      "side": "sell",
+      "qty": 4.71265,
+      "status": "filled",
+      "price": 624.74,
+      "proceeds": 2944.17,
+      "realized_pnl": -55.83,
+      "realized_pct": -1.86,
+      "date": "2026-10-22",
+      "time_et": "09:40",
+      "ts": 1792676400,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $636.58",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 12.525271,
+      "status": "filled",
+      "price": 239.42,
+      "proceeds": 2998.74,
+      "realized_pnl": -1.26,
+      "realized_pct": -0.04,
+      "date": "2026-10-22",
+      "time_et": "09:40",
+      "ts": 1792676400,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $239.52",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "IBRX",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 342.270316,
+      "price": 8.77,
+      "date": "2026-10-22",
+      "time_et": "09:40",
+      "ts": 1792676452,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Lisa C. McClain; +1.5% over the month; 80% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-22",
-  "spent_today": 9006.45,
-  "deployed_today": 21000.0,
-  "orders_today": 7,
-  "sells_today": 4,
+  "spent_today": 6063.54,
+  "deployed_today": 24000.0,
+  "orders_today": 8,
+  "sells_today": 6,
   "sold_today": [
     "CRBG",
     "WSM",
     "EL",
-    "ADI"
+    "ADI",
+    "CACI",
+    "NXPI"
   ],
   "sold_ts": {
-    "NXPI": 1792603918,
+    "NXPI": 1792676449,
     "ADI": 1792676193,
     "MSFT": 1792597155,
     "IBRX": 1792510176,
@@ -3597,11 +3663,11 @@
     "AYI": 1792593818,
     "FITB": 1792607531,
     "CRBG": 1792676147,
-    "CACI": 1792596874,
+    "CACI": 1792676404,
     "EL": 1792676147
   },
-  "last_publish_ts": 1792676319,
-  "last_check_ts": 1792676365,
+  "last_publish_ts": 1792676452,
+  "last_check_ts": 1792676452,
   "exp_arm": {
     "FBK": {
       "params": {
@@ -3612,16 +3678,7 @@
         "hold_long": 120
       }
     },
-    "NXPI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "CACI": {
+    "IBRX": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -3631,19 +3688,16 @@
       }
     }
   },
-  "last_bar_ts": 1792676100,
-  "last_decision_ts": 1792676273,
+  "last_bar_ts": 1792676400,
+  "last_decision_ts": 1792676452,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "116a5cd0": 239.838,
-    "3bfea177": 240.4637,
-    "67b84b34": 638.6043,
     "90cfb236": 52.9061,
     "f5623325": 52.4644,
-    "305a68ea": 631.5128,
-    "9ecf13b9": 51.1966,
-    "8e8adaaa": 617.4826,
-    "5a6755b5": 232.3344
+    "46a283dc": 8.8553,
+    "dd6eee37": 8.5565,
+    "5a7d6393": 8.5069,
+    "9ecf13b9": 51.1966
   }
 }
