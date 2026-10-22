@@ -1,28 +1,3 @@
-  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFtmMz7hm1sbTUnbkW3o'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25220.61 (+0.88% on $25000.00 in) · cash $24472.60 · realised +222.60
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-21 14:59 ET (Wednesday) — week 2026-W43 — budget left $24231.24 (today $38250.00 put to work, 27 buys, 26 sells) — SIM (pretend money) via sim
-  (AASP excluded: too thinly traded ($0.0M a day) — Agassi Sports Entertainment Corp.)
-  (BCDA excluded: too thinly traded ($0.6M a day) — BioCardia, Inc.)
-  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgFtyxrT1c6kfYG9WipAD'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25219.35 (+0.88% on $25000.00 in) · cash $24472.60 · realised +222.60
-Decision: nothing at this check. 2 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-10-21 15:02 ET (Wednesday) — week 2026-W43 — budget left $24231.24 (today $38250.00 put to work, 27 buys, 26 sells) — SIM (pretend money) via sim
@@ -398,3 +373,28 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on ADI: position closed)
 - SELL 100% ADI [stop_loss @ $394.34] -> $2972.12 (-0.93%) — close it all at -0.9% under the average cost
 ## 2026-10-22 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-22 09:37 ET (Thursday) — week 2026-W43 — budget left $24969.13 (today $12000.00 put to work, 4 buys, 4 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
+  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHNFSLzHj44RLFoPNcgm'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,969 idle, so opened 3: FBK, NXPI, CACI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 FBK [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +0.2% over the month; 74% of today's range
+- BUY $3000.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +1.7% over the month; 67% of today's range
+- BUY $3000.00 CACI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +3.2% over the month; 73% of today's range
+~ WORKING take_profit 100% FBK @ $52.91 until 2026-10-27 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% FBK @ $52.46 until 2026-10-27 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 FBK @ $51.20 until 2026-10-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NXPI @ $240.46 until 2026-10-27 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $237.16 until 2026-10-27 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $232.33 until 2026-10-27 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CACI @ $638.60 until 2026-10-27 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CACI @ $631.51 until 2026-10-27 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CACI @ $617.48 until 2026-10-27 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25205.09 (+0.82% on $25000.00 in) · cash $16210.48 · realised +210.48
+Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $15969.13 this week
