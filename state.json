@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 4565.24,
+  "spent": 3820.79,
   "deployed": 134250.0,
   "by_ticker": {
     "RPM": 48.71,
@@ -14,7 +14,7 @@
     "CRBG": 783.28,
     "ADI": 777.88,
     "EL": 750.0,
-    "WSM": 750.0
+    "WSM": 5.55
   },
   "deployed_by_ticker": {
     "WSM": 18000.0,
@@ -3853,13 +3853,34 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 2.92703,
+      "status": "filled",
+      "price": 254.34,
+      "proceeds": 744.45,
+      "realized_pnl": -5.55,
+      "realized_pct": -0.74,
+      "date": "2026-10-22",
+      "time_et": "10:31",
+      "ts": 1792679400,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $256.23",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-22",
-  "spent_today": 4540.82,
+  "spent_today": 3796.37,
   "deployed_today": 31500.0,
   "orders_today": 15,
-  "sells_today": 9,
+  "sells_today": 10,
   "sold_today": [
     "CRBG",
     "WSM",
@@ -3877,7 +3898,7 @@
     "MSFT": 1792597155,
     "IBRX": 1792677950,
     "GTES": 1792436890,
-    "WSM": 1792676147,
+    "WSM": 1792679472,
     "RPM": 1792521186,
     "FUL": 1792430492,
     "RIG": 1792600815,
@@ -3888,8 +3909,8 @@
     "EL": 1792676147,
     "FBK": 1792676849
   },
-  "last_publish_ts": 1792679251,
-  "last_check_ts": 1792679421,
+  "last_publish_ts": 1792679469,
+  "last_check_ts": 1792679517,
   "exp_arm": {
     "ADI": {
       "params": {
@@ -3951,23 +3972,20 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "24e458a6": 254.4646,
-    "d3d1acea": 386.2502,
     "6043e2b5": 34.9319,
-    "51ebf8d5": 622.6207,
+    "d3d1acea": 386.2502,
+    "abf33af1": 615.1377,
+    "74c6e8b6": 104.9858,
     "169b6d14": 241.1315,
     "733a3929": 35.2653,
     "81b5f97d": 106.2939,
-    "74c6e8b6": 104.9858,
-    "214c6d60": 256.9372,
-    "abf33af1": 615.1377,
-    "04050020": 391.3343,
+    "51ebf8d5": 622.6207,
     "c27d0b72": 237.8337,
+    "04050020": 391.3343,
     "8d74b810": 378.1836,
-    "b90acbfd": 248.5431,
     "7c222266": 34.1149,
-    "d0a4d38b": 102.7424,
     "fb638c1c": 601.8656,
+    "d0a4d38b": 102.7424,
     "03313613": 232.9843
   }
 }
