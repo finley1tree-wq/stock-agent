@@ -1,20 +1,3 @@
-~ WORKING take_profit 100% CACI @ $638.60 until 2026-10-27 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% CACI @ $631.51 until 2026-10-27 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 CACI @ $617.48 until 2026-10-27 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25205.09 (+0.82% on $25000.00 in) · cash $16210.48 · realised +210.48
-Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $15969.13 this week
-  (cancelled 2 standing order(s) on CACI: position closed)
-- SELL 100% CACI [stop_loss @ $624.74] -> $2944.17 (-1.86%) — close it all at -0.8% under the average cost
-## 2026-10-22 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on NXPI: position closed)
-- SELL 100% NXPI [stop_loss @ $239.42] -> $2998.74 (-0.04%) — close it all at -1.0% under the average cost
-## 2026-10-22 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-22 09:40 ET (Thursday) — week 2026-W43 — budget left $21912.04 (today $21000.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
-  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
   (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
   (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHNUaN4Khtf16cN2Q9fA'}
@@ -398,3 +381,20 @@ Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21906.97 this week
   (cancelled 2 standing order(s) on RPM: position closed)
 - SELL 100% RPM [take_profit @ $101.20] -> $752.86 (+0.38%) — close 100% at +0.3% over the average cost
 ## 2026-10-22 10:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-22 10:47 ET (Thursday) — week 2026-W43 — budget left $23409.34 (today $33750.00 put to work, 18 buys, 16 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
+  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHTaR8BbCsDqRT2eT4AA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25151.22 (+0.60% on $25000.00 in) · cash $23650.70 · realised +150.70
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [take_profit @ $52.83] -> $751.72 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-10-22 10:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
