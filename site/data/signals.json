@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-22T11:41-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-22T12:10-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,15 +178,15 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "7c749e03",
+   "id": "595cfe7a",
    "ticker": "ADI",
    "kind": "stop_loss",
-   "price": 386.6792,
+   "price": 390.95,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 389.2,
-   "pct_away": -0.65,
+   "last": 391.33,
+   "pct_away": -0.1,
    "good_until": "2026-10-27",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -202,27 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 389.2,
-   "pct_away": 0.68,
+   "last": 391.33,
+   "pct_away": 0.14,
    "good_until": "2026-10-27",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "240cd403",
-   "ticker": "ADI",
-   "kind": "buy_limit",
-   "price": 378.6686,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 389.2,
-   "pct_away": -2.71,
-   "good_until": "2026-10-27",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": null,
-   "pct_away": null,
+   "last": 35.09,
+   "pct_away": 0.19,
    "good_until": "2026-10-27",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -253,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": null,
-   "pct_away": null,
+   "last": 35.09,
+   "pct_away": -0.78,
    "good_until": "2026-10-27",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -270,8 +253,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": null,
-   "pct_away": null,
+   "last": 35.09,
+   "pct_away": -3.08,
+   "good_until": "2026-10-27",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "240cd403",
+   "ticker": "ADI",
+   "kind": "buy_limit",
+   "price": 378.6686,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 391.33,
+   "pct_away": -3.24,
    "good_until": "2026-10-27",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
