@@ -7255,7 +7255,7 @@
    "ticker": "FBK",
    "kind": "take_profit",
    "price": 52.9061,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-22 09:37",
    "created_ts": 1792676273,
    "why": "close 100% at +0.2% over the average cost",
@@ -7265,14 +7265,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-22 09:47"
   },
   {
    "id": "f5623325",
    "ticker": "FBK",
    "kind": "stop_loss",
    "price": 52.4644,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-22 09:37",
    "created_ts": 1792676273,
    "why": "close it all at -0.6% under the average cost",
@@ -7282,14 +7283,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-22 09:47",
+   "cancel_reason": "position closed"
   },
   {
    "id": "9ecf13b9",
    "ticker": "FBK",
    "kind": "buy_limit",
    "price": 51.1966,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-22 09:37",
    "created_ts": 1792676273,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7299,7 +7302,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-27",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-22 09:47",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3bfea177",
@@ -7484,5 +7489,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-22 09:46"
+ "updated": "2026-10-22 09:47"
 }
