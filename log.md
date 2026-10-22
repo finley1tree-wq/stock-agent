@@ -42695,3 +42695,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25160.24 (+0.64% on $25000.00 in) · cash $24411.83 · realised +161.83
 Decision: nothing at this check. 2 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% FBK [time stop] -> $747.80 (-0.29%) — held 120 min, the 120-minute limit: out regardless
+## 2026-10-22 15:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders

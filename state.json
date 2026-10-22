@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 829.56,
+  "spent": 81.76,
   "deployed": 147000.0,
   "by_ticker": {
     "RPM": 45.52,
@@ -15,7 +15,7 @@
     "EL": 4.24,
     "WSM": 4.99,
     "FITB": 4.7,
-    "FBK": 750.0
+    "FBK": 2.2
   },
   "deployed_by_ticker": {
     "WSM": 18750.0,
@@ -4690,13 +4690,33 @@
       ],
       "evidence": "average cost $53.13",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "FBK",
+      "side": "sell",
+      "qty": 13.947333,
+      "status": "filled",
+      "price": 53.62,
+      "proceeds": 747.8,
+      "realized_pnl": -2.2,
+      "realized_pct": -0.29,
+      "date": "2026-10-22",
+      "time_et": "15:42",
+      "ts": 1792698170,
+      "why": "held 120 min, the 120-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 120 min ago, -0.19% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-22",
-  "spent_today": 805.14,
+  "spent_today": 57.34,
   "deployed_today": 44250.0,
   "orders_today": 32,
-  "sells_today": 31,
+  "sells_today": 32,
   "sold_today": [
     "CRBG",
     "WSM",
@@ -4724,10 +4744,10 @@
     "CRBG": 1792689637,
     "CACI": 1792691091,
     "EL": 1792690488,
-    "FBK": 1792681434
+    "FBK": 1792698171
   },
-  "last_publish_ts": 1792697433,
-  "last_check_ts": 1792698126,
+  "last_publish_ts": 1792698170,
+  "last_check_ts": 1792698170,
   "exp_arm": {
     "FITB": {
       "params": {
@@ -4761,8 +4781,5 @@
   "last_decision_ts": 1792698126,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "aa47f86b": 53.4323,
-    "de4da69c": 53.905
-  }
+  "book_px": {}
 }
