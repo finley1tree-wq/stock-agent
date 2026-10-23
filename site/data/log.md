@@ -1,44 +1,3 @@
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHmQbWKymqnu5p8JuaYh'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25159.68 (+0.64% on $25000.00 in) · cash $24411.83 · realised +161.83
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-22 14:44 ET (Thursday) — week 2026-W43 — budget left $24170.44 (today $44250.00 put to work, 32 buys, 31 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
-  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHme2X6G7vwqD1QW3qgH'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25159.12 (+0.64% on $25000.00 in) · cash $24411.83 · realised +161.83
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-22 14:47 ET (Thursday) — week 2026-W43 — budget left $24170.44 (today $44250.00 put to work, 32 buys, 31 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
-  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHmsmMR5VbWkSLVU88mj'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25158.70 (+0.63% on $25000.00 in) · cash $24411.83 · realised +161.83
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-22 14:51 ET (Thursday) — week 2026-W43 — budget left $24170.44 (today $44250.00 put to work, 32 buys, 31 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
   (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
   (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
@@ -398,3 +357,44 @@ portfolio: equity $25159.63 (+0.64% on $25000.00 in) · cash $25159.63 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-22 16:00 ET — published the session's closing state
+
+## 2026-10-23 09:32 ET (Friday) — week 2026-W43 — budget left $24918.24 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKFgwekU5nD4FA4MbHmM'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,918 idle, so opened 7: EL, FITB, RPM, AMT, WSM, ADI, CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +12.5% over the month; 85% of today's range
+- BUY $3000.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +2.3% over the month; 21% of today's range
+- BUY $3000.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +1.5% over the month; 52% of today's range
+- BUY $3000.00 AMT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +16.3% over the month; 19% of today's range
+- BUY $3000.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +13.2% over the month; 84% of today's range
+- BUY $3000.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +1.8% over the month; 79% of today's range
+- BUY $3000.00 CRBG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +2.7% over the month; 20% of today's range
+~ WORKING take_profit 100% EL @ $107.74 until 2026-10-28 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% EL @ $106.38 until 2026-10-28 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 EL @ $104.13 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FITB @ $52.78 until 2026-10-28 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% FITB @ $52.35 until 2026-10-28 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $51.08 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RPM @ $100.52 until 2026-10-28 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% RPM @ $99.57 until 2026-10-28 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 RPM @ $97.24 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% AMT @ $195.30 until 2026-10-28 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% AMT @ $192.82 until 2026-10-28 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 AMT @ $188.75 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% WSM @ $259.53 until 2026-10-28 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $257.09 until 2026-10-28 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $251.07 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ADI @ $391.03 until 2026-10-28 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% ADI @ $385.84 until 2026-10-28 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $377.86 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRBG @ $35.12 until 2026-10-28 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CRBG @ $34.78 until 2026-10-28 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CRBG @ $33.97 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25151.83 (+0.61% on $25000.00 in) · cash $4159.63 · realised +159.63
+Done: 0 sell(s), 7 buy(s); 21 order(s) working; budget left $3918.24 this week
