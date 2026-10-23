@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "6813191c",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 241.1323,
-   "status": "cancelled",
-   "created": "2026-10-19 12:38",
-   "created_ts": 1792427891,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $248.59",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-24",
-   "usd": 500.0,
-   "closed": "2026-10-19 13:20",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "59a66e78",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 231.8507,
-   "status": "cancelled",
-   "created": "2026-10-19 12:38",
-   "created_ts": 1792427891,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $230.95",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-19 14:08",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "7faf02f6",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 228.6959,
-   "status": "cancelled",
-   "created": "2026-10-19 12:38",
-   "created_ts": 1792427891,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $230.95",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-19 14:08",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "6a280cd5",
    "ticker": "NXPI",
    "kind": "buy_limit",
@@ -7472,7 +7415,58 @@
    "good_until": "2026-10-28",
    "pct_of_position": 100.0,
    "closed": "2026-10-23 11:36"
+  },
+  {
+   "id": "cea87f43",
+   "ticker": "FITB",
+   "kind": "take_profit",
+   "price": 53.2733,
+   "status": "working",
+   "created": "2026-10-23 11:44",
+   "created_ts": 1792770264,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $53.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0bb5e850",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 52.8423,
+   "status": "working",
+   "created": "2026-10-23 11:44",
+   "created_ts": 1792770264,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $53.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9d97e73b",
+   "ticker": "FITB",
+   "kind": "buy_limit",
+   "price": 51.5555,
+   "status": "working",
+   "created": "2026-10-23 11:44",
+   "created_ts": 1792770264,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $53.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-23 11:41"
+ "updated": "2026-10-23 11:44"
 }

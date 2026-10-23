@@ -76254,7 +76254,7 @@
     "code_version": "e717913",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.23
+    "ret_now": -0.35
   },
   {
     "symbol": "WSM",
@@ -76285,7 +76285,7 @@
     "code_version": "535f852",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": -0.03
   },
   {
     "symbol": "RPM",
@@ -76316,7 +76316,7 @@
     "code_version": "535f852",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": -0.12
   },
   {
     "symbol": "CRBG",
@@ -76347,7 +76347,7 @@
     "code_version": "535f852",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": -0.32
   },
   {
     "symbol": "EL",
@@ -76402,5 +76402,35 @@
     "hour_et": 11,
     "code_version": "6518bfc",
     "hold_minutes": 11
+  },
+  {
+    "symbol": "FITB",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 14.110674,
+    "price": 53.15,
+    "date": "2026-10-23",
+    "time_et": "11:44",
+    "ts": 1792770264,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +3.2% over the month; 84% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 53.13,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 3.25,
+    "hour_et": 11,
+    "code_version": "985cc08",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
