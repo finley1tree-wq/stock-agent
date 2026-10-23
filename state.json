@@ -1,7 +1,7 @@
 {
   "week": "2026-W43",
-  "spent": 4504.92,
-  "deployed": 195750.0,
+  "spent": 5254.92,
+  "deployed": 196500.0,
   "by_ticker": {
     "RPM": 67.77,
     "GTES": 52.54,
@@ -13,7 +13,7 @@
     "ADI": 773.28,
     "FBK": 2.2,
     "WSM": 750.0,
-    "FITB": 0.04,
+    "FITB": 750.04,
     "EL": 750.0,
     "AMT": 750.0,
     "NXPI": 750.0
@@ -30,7 +30,7 @@
     "RIG": 14250.0,
     "CRBG": 15000.0,
     "AYI": 3750.0,
-    "FITB": 14250.0,
+    "FITB": 15000.0,
     "CACI": 7500.0,
     "EL": 10500.0,
     "FBK": 4500.0,
@@ -6091,12 +6091,34 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "FITB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 14.137283,
+      "price": 53.05,
+      "date": "2026-10-23",
+      "time_et": "13:08",
+      "ts": 1792775287,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +3.0% over the month; 71% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-10-23",
-  "spent_today": 4504.92,
-  "deployed_today": 48750.0,
-  "orders_today": 35,
+  "spent_today": 5254.92,
+  "deployed_today": 49500.0,
+  "orders_today": 36,
   "sells_today": 29,
   "sold_today": [
     "EL",
@@ -6130,8 +6152,8 @@
     "AMT": 1792768986,
     "CLF": 1792765874
   },
-  "last_publish_ts": 1792774934,
-  "last_check_ts": 1792775202,
+  "last_publish_ts": 1792775287,
+  "last_check_ts": 1792775287,
   "exp_arm": {
     "WSM": {
       "params": {
@@ -6186,30 +6208,42 @@
       "tags": {
         "hold_long": 90
       }
+    },
+    "FITB": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
     }
   },
   "last_bar_ts": 1792775100,
-  "last_decision_ts": 1792775111,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792775287,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "2b5913d3": 251.1846,
-    "a30c4999": 391.9856,
-    "4793643d": 108.548,
-    "749cd6e5": 189.269,
-    "9158d80d": 6.4772,
+    "fd6bbdc1": 53.1731,
     "a7c0ead3": 238.0331,
-    "bc67f8c5": 107.1539,
+    "4793643d": 108.548,
+    "a30c4999": 391.9856,
+    "9158d80d": 6.4772,
+    "bc8c9a55": 52.7423,
+    "749cd6e5": 189.269,
     "a043cc84": 186.7857,
     "02ccb3db": 253.8241,
+    "bc67f8c5": 107.1539,
     "68e65805": 386.7491,
-    "6af63a0b": 234.6973,
     "ae910c88": 6.3819,
+    "6af63a0b": 234.6973,
     "e8dd343d": 245.4779,
-    "e884c1e9": 104.9055,
     "285d2019": 182.9032,
-    "ca65b865": 229.9676,
+    "141d4213": 51.4585,
     "152d8f1c": 378.7753,
-    "7ebafe90": 6.2565
+    "e884c1e9": 104.9055,
+    "7ebafe90": 6.2565,
+    "ca65b865": 229.9676
   }
 }

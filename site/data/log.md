@@ -1,34 +1,3 @@
-portfolio: equity $25272.24 (+1.09% on $25000.00 in) · cash $21526.89 · realised +276.89
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-23 11:56 ET (Friday) — week 2026-W43 — budget left $21250.95 (today $45000.00 put to work, 30 buys, 25 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKScYvBmd62wREPa8muM'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25273.43 (+1.09% on $25000.00 in) · cash $21526.89 · realised +276.89
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-23 11:59 ET (Friday) — week 2026-W43 — budget left $21250.95 (today $45000.00 put to work, 30 buys, 25 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKSqrYSnYiNBBMDnxrh3'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25272.87 (+1.09% on $25000.00 in) · cash $21526.89 · realised +276.89
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-10-23 12:02 ET (Friday) — week 2026-W43 — budget left $21250.95 (today $45000.00 put to work, 30 buys, 25 sells) — SIM (pretend money) via sim
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
@@ -398,3 +367,34 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 RIG @ $6.26 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25264.70 (+1.06% on $25000.00 in) · cash $20771.02 · realised +271.02
 Done: 1 sell(s), 5 buy(s) (incl. 1 from standing orders); 18 order(s) working; budget left $20495.08 this week
+
+## 2026-10-23 13:05 ET (Friday) — week 2026-W43 — budget left $20495.08 (today $48750.00 put to work, 35 buys, 29 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKXs7nbB21Po67UbDaim'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25264.65 (+1.06% on $25000.00 in) · cash $20771.02 · realised +271.02
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 13:08 ET (Friday) — week 2026-W43 — budget left $20495.08 (today $48750.00 put to work, 35 buys, 29 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKY67XZdz6TjT8tv3oMR'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $20,495 idle, so opened 1: FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +3.0% over the month; 71% of today's range
+~ WORKING take_profit 100% FITB @ $53.17 until 2026-10-28 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% FITB @ $52.74 until 2026-10-28 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $51.46 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25264.58 (+1.06% on $25000.00 in) · cash $20021.02 · realised +271.02
+Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19745.08 this week
