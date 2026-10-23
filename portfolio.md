@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-10-23 11:14 ET
+# Pretend portfolio — 2026-10-23 11:18 ET
 
-**Equity $25272.83** on $25000.00 put in → **+1.09%**  
-Cash $24523.13 · Unrealised -0.30 · Realised +273.13
+**Equity $25273.69** on $25000.00 put in → **+1.09%**  
+Cash $24523.13 · Unrealised +0.56 · Realised +273.13
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| AMT | 3.0% | $749.70 | $190.56 | $190.48 | -0.04% | 0d |
+| AMT | 3.0% | $750.57 | $190.56 | $190.70 | +0.08% | 0d |
 
 ## Last fills
 
