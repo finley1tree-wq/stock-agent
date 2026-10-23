@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-23T15:02-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-23T15:22-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "61019695",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 98.87,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 98.93,
+   "pct_away": -0.06,
+   "good_until": "2026-10-28",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "1767eee6",
    "ticker": "RPM",
    "kind": "take_profit",
@@ -185,27 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 98.72,
-   "pct_away": 0.35,
+   "last": 98.93,
+   "pct_away": 0.14,
    "good_until": "2026-10-28",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ccf91c8b",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 98.0648,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 98.72,
-   "pct_away": -0.66,
-   "good_until": "2026-10-28",
-   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
