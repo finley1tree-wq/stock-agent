@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "c95d75a6",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 535.1907,
-   "status": "filled",
-   "created": "2026-10-19 11:21",
-   "created_ts": 1792423285,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $533.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-19 11:44"
-  },
-  {
-   "id": "a31d90c3",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 530.7485,
-   "status": "cancelled",
-   "created": "2026-10-19 11:21",
-   "created_ts": 1792423285,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $533.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-19 11:27",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "3814f2d8",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 517.9024,
-   "status": "cancelled",
-   "created": "2026-10-19 11:21",
-   "created_ts": 1792423285,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $533.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-24",
-   "usd": 500.0,
-   "closed": "2026-10-19 11:44",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "9d3506b4",
    "ticker": "GTES",
    "kind": "take_profit",
@@ -7496,7 +7440,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-23 10:55",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "7c07325f",
+   "ticker": "CACI",
+   "kind": "take_profit",
+   "price": 625.0099,
+   "status": "working",
+   "created": "2026-10-23 11:03",
+   "created_ts": 1792767801,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $622.83",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "548411b4",
+   "ticker": "CACI",
+   "kind": "stop_loss",
+   "price": 617.3865,
+   "status": "working",
+   "created": "2026-10-23 11:03",
+   "created_ts": 1792767801,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $622.83",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b8c645b4",
+   "ticker": "CACI",
+   "kind": "buy_limit",
+   "price": 604.1451,
+   "status": "working",
+   "created": "2026-10-23 11:03",
+   "created_ts": 1792767801,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $622.83",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-23 11:00"
+ "updated": "2026-10-23 11:03"
 }

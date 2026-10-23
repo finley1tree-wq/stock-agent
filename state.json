@@ -1,14 +1,14 @@
 {
   "week": "2026-W43",
-  "spent": 0.0,
-  "deployed": 185250.0,
+  "spent": 750.0,
+  "deployed": 186000.0,
   "by_ticker": {
     "RPM": 65.05,
     "GTES": 52.54,
     "IBRX": 12.19,
     "FUL": 3.96,
     "RIG": 4.34,
-    "CACI": 61.17,
+    "CACI": 811.17,
     "CRBG": 58.92,
     "ADI": 26.16,
     "FBK": 2.2
@@ -26,7 +26,7 @@
     "CRBG": 14250.0,
     "AYI": 3750.0,
     "FITB": 13500.0,
-    "CACI": 6750.0,
+    "CACI": 7500.0,
     "EL": 9000.0,
     "FBK": 4500.0,
     "AMT": 3750.0,
@@ -5611,12 +5611,34 @@
       ],
       "evidence": "average cost $6.39",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CACI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.204183,
+      "price": 622.83,
+      "date": "2026-10-23",
+      "time_et": "11:03",
+      "ts": 1792767801,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +0.9% over the month; 76% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-23",
-  "spent_today": 0.0,
-  "deployed_today": 38250.0,
-  "orders_today": 21,
+  "spent_today": 750.0,
+  "deployed_today": 39000.0,
+  "orders_today": 22,
   "sells_today": 21,
   "sold_today": [
     "EL",
@@ -5650,46 +5672,10 @@
     "AMT": 1792765642,
     "CLF": 1792765874
   },
-  "last_publish_ts": 1792767325,
-  "last_check_ts": 1792767635,
+  "last_publish_ts": 1792767801,
+  "last_check_ts": 1792767801,
   "exp_arm": {
-    "WSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "FITB": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "CRBG": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "RIG": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "RPM": {
+    "CACI": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -5700,8 +5686,12 @@
     }
   },
   "last_bar_ts": 1792767600,
-  "last_decision_ts": 1792767635,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792767801,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "7c07325f": 625.0099,
+    "548411b4": 617.3865,
+    "b8c645b4": 604.1451
+  }
 }
