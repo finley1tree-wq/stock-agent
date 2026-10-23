@@ -44226,3 +44226,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25256.29 (+1.03% on $25000.00 in) · cash $19265.06 · realised +265.06
 Decision: nothing at this check. 24 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CACI: position closed)
+- SELL 100% CACI [stop_loss @ $634.78] -> $750.65 (+0.09%) — close it all at -0.9% under the average cost
+## 2026-10-23 13:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
