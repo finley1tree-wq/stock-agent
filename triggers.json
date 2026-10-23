@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "41e0903d",
-   "ticker": "WSM",
-   "kind": "take_profit",
-   "price": 255.9579,
-   "status": "cancelled",
-   "created": "2026-10-20 10:26",
-   "created_ts": 1792506377,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $255.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-25",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-20 11:14",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "c9c19d32",
    "ticker": "WSM",
    "kind": "stop_loss",
@@ -7101,7 +7082,7 @@
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 234.6973,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 13:02",
    "created_ts": 1792774934,
    "why": "close it all at -1.0% under the average cost",
@@ -7111,7 +7092,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 14:42",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ca65b865",
@@ -7484,7 +7467,24 @@
    "good_until": "2026-10-28",
    "pct_of_position": 100.0,
    "closed": "2026-10-23 14:21"
+  },
+  {
+   "id": "f9222558",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 237.458,
+   "status": "working",
+   "created": "2026-10-23 14:42",
+   "created_ts": 1792780973,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $237.08",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-23 14:41"
+ "updated": "2026-10-23 14:42"
 }
