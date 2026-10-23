@@ -43531,3 +43531,28 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25275.61 (+1.10% on $25000.00 in) · cash $23025.93 · realised +275.93
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 11:32 ET (Friday) — week 2026-W43 — budget left $22750.00 (today $42000.00 put to work, 26 buys, 23 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKQoq6bhj6CEzXi3tMUV'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,750 idle, so opened 3: WSM, RPM, CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +10.6% over the month; 26% of today's range
+- BUY $750.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +0.5% over the month; 40% of today's range
+- BUY $750.00 CRBG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: insider net buying (Form 4); +1.2% over the month; 24% of today's range
+~ WORKING take_profit 100% WSM @ $253.82 until 2026-10-28 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $251.18 until 2026-10-28 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $245.48 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RPM @ $99.53 until 2026-10-28 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% RPM @ $98.53 until 2026-10-28 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 RPM @ $96.26 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRBG @ $34.60 until 2026-10-28 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CRBG @ $34.25 until 2026-10-28 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 CRBG @ $33.47 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25276.85 (+1.11% on $25000.00 in) · cash $20775.93 · realised +275.93
+Done: 0 sell(s), 3 buy(s); 18 order(s) working; budget left $20500.00 this week
