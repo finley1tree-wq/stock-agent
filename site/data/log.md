@@ -1,21 +1,3 @@
-- BUY $750.00 RIG [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +18.8% over the month; 84% of today's range
-~ WORKING take_profit 100% EL @ $108.55 until 2026-10-28 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% EL @ $107.15 until 2026-10-28 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 EL @ $104.91 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% AMT @ $189.27 until 2026-10-28 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% AMT @ $186.79 until 2026-10-28 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 AMT @ $182.90 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% ADI @ $391.99 until 2026-10-28 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% ADI @ $386.75 until 2026-10-28 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 ADI @ $378.78 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NXPI @ $238.03 until 2026-10-28 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% NXPI @ $234.70 until 2026-10-28 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 NXPI @ $229.97 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% RIG @ $6.48 until 2026-10-28 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% RIG @ $6.38 until 2026-10-28 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 RIG @ $6.26 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25264.70 (+1.06% on $25000.00 in) · cash $20771.02 · realised +271.02
-Done: 1 sell(s), 5 buy(s) (incl. 1 from standing orders); 18 order(s) working; budget left $20495.08 this week
 
 ## 2026-10-23 13:05 ET (Friday) — week 2026-W43 — budget left $20495.08 (today $48750.00 put to work, 35 buys, 29 sells) — SIM (pretend money) via sim
   (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
@@ -398,3 +380,21 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25257.49 (+1.03% on $25000.00 in) · cash $21508.12 · realised +258.12
 Decision: nothing at this check. 10 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 14:20 ET (Friday) — week 2026-W43 — budget left $21232.19 (today $51750.00 put to work, 39 buys, 34 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKdaLVHdsf5aSSyRRhy8'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25258.32 (+1.03% on $25000.00 in) · cash $21508.12 · realised +258.12
+Decision: nothing at this check. 10 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on CLF: position closed)
+- SELL 100% CLF [stop_loss @ $13.91] -> $751.48 (+0.20%) — close it all at -1.8% under the average cost
+## 2026-10-23 14:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders

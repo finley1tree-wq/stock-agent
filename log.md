@@ -44457,3 +44457,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25258.32 (+1.03% on $25000.00 in) · cash $21508.12 · realised +258.12
 Decision: nothing at this check. 10 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on CLF: position closed)
+- SELL 100% CLF [stop_loss @ $13.91] -> $751.48 (+0.20%) — close it all at -1.8% under the average cost
+## 2026-10-23 14:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -7247,7 +7247,7 @@
    "ticker": "CLF",
    "kind": "take_profit",
    "price": 13.9888,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 13:14",
    "created_ts": 1792775655,
    "why": "close 100% at +0.7% over the average cost",
@@ -7257,7 +7257,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 14:21",
+   "cancel_reason": "position closed"
   },
   {
    "id": "1222fd79",
@@ -7466,7 +7468,7 @@
    "ticker": "CLF",
    "kind": "stop_loss",
    "price": 13.92,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-23 14:18",
    "created_ts": 1792779511,
    "why": "close it all at -1.8% under the average cost",
@@ -7476,8 +7478,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 14:21"
   }
  ],
- "updated": "2026-10-23 14:20"
+ "updated": "2026-10-23 14:21"
 }

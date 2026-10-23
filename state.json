@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 3767.81,
+  "spent": 3016.33,
   "deployed": 198750.0,
   "by_ticker": {
     "RPM": 817.77,
@@ -15,8 +15,7 @@
     "WSM": 5.96,
     "EL": 750.0,
     "AMT": 7.41,
-    "NXPI": 750.0,
-    "CLF": 750.0
+    "NXPI": 750.0
   },
   "deployed_by_ticker": {
     "WSM": 23250.0,
@@ -6284,13 +6283,34 @@
       ],
       "evidence": "average cost $188.56",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CLF",
+      "side": "sell",
+      "qty": 54.012977,
+      "status": "filled",
+      "price": 13.91,
+      "proceeds": 751.48,
+      "realized_pnl": 1.48,
+      "realized_pct": 0.2,
+      "date": "2026-10-23",
+      "time_et": "14:21",
+      "ts": 1792779600,
+      "why": "close it all at -1.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $13.89",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-23",
-  "spent_today": 3767.81,
+  "spent_today": 3016.33,
   "deployed_today": 51750.0,
   "orders_today": 39,
-  "sells_today": 34,
+  "sells_today": 35,
   "sold_today": [
     "EL",
     "FITB",
@@ -6321,10 +6341,10 @@
     "EL": 1792769791,
     "FBK": 1792698171,
     "AMT": 1792778526,
-    "CLF": 1792765874
+    "CLF": 1792779702
   },
-  "last_publish_ts": 1792779511,
-  "last_check_ts": 1792779601,
+  "last_publish_ts": 1792779701,
+  "last_check_ts": 1792779701,
   "exp_arm": {
     "EL": {
       "params": {
@@ -6386,15 +6406,13 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "2c56bfbe": 13.92,
     "1767eee6": 99.0655,
     "a30c4999": 391.9856,
-    "875359bf": 13.9888,
     "a7c0ead3": 238.0331,
     "4793643d": 108.548,
     "bc67f8c5": 107.1539,
     "ccf91c8b": 98.0648,
-    "68e65805": 386.7491,
-    "6af63a0b": 234.6973
+    "6af63a0b": 234.6973,
+    "68e65805": 386.7491
   }
 }
