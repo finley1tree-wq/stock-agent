@@ -1,18 +1,3 @@
-~ WORKING take_profit 100% CRBG @ $35.12 until 2026-10-28 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% CRBG @ $34.78 until 2026-10-28 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 CRBG @ $33.97 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25151.83 (+0.61% on $25000.00 in) · cash $4159.63 · realised +159.63
-Done: 0 sell(s), 7 buy(s); 21 order(s) working; budget left $3918.24 this week
-  (cancelled 2 standing order(s) on EL: position closed)
-- SELL 100% EL [take_profit @ $108.23] -> $3024.51 (+0.82%) — close 100% at +0.4% over the average cost
-  (cancelled 2 standing order(s) on FITB: position closed)
-- SELL 100% FITB [take_profit @ $52.87] -> $3011.90 (+0.40%) — close 100% at +0.2% over the average cost
-  (cancelled 2 standing order(s) on AMT: position closed)
-- SELL 100% AMT [take_profit @ $196.43] -> $3028.40 (+0.95%) — close 100% at +0.4% over the average cost
-## 2026-10-23 09:35 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-23 09:36 ET (Friday) — week 2026-W43 — budget left $12983.05 (today $21000.00 put to work, 7 buys, 3 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
@@ -398,3 +383,18 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 ADI @ $377.03 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25247.28 (+0.99% on $25000.00 in) · cash $21503.80 · realised +253.80
 Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 15 order(s) working; budget left $21257.21 this week
+
+## 2026-10-23 10:38 ET (Friday) — week 2026-W43 — budget left $21257.21 (today $37500.00 put to work, 20 buys, 15 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKLigfjUkj3uHNQm2owW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING stop_loss 100% ADI @ $389.29 until 2026-10-28 — close it all at -1.0% under the average cost
+portfolio: equity $25248.96 (+1.00% on $25000.00 in) · cash $21503.80 · realised +253.80
+Decision: nothing at this check. 15 standing order(s) working.

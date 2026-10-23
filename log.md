@@ -43224,3 +43224,18 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 ADI @ $377.03 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25247.28 (+0.99% on $25000.00 in) · cash $21503.80 · realised +253.80
 Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 15 order(s) working; budget left $21257.21 this week
+
+## 2026-10-23 10:38 ET (Friday) — week 2026-W43 — budget left $21257.21 (today $37500.00 put to work, 20 buys, 15 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKLigfjUkj3uHNQm2owW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING stop_loss 100% ADI @ $389.29 until 2026-10-28 — close it all at -1.0% under the average cost
+portfolio: equity $25248.96 (+1.00% on $25000.00 in) · cash $21503.80 · realised +253.80
+Decision: nothing at this check. 15 standing order(s) working.
