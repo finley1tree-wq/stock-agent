@@ -44150,3 +44150,23 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25261.51 (+1.05% on $25000.00 in) · cash $19271.02 · realised +271.02
 Decision: nothing at this check. 24 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $251.06] -> $744.04 (-0.80%) — close it all at -0.7% under the average cost
+## 2026-10-23 13:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-23 13:23 ET (Friday) — week 2026-W43 — budget left $19739.12 (today $50250.00 put to work, 37 buys, 30 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKZEsxNR7LStVxcT76jZ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $19,739 idle, so opened 1: CACI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 CACI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +2.8% over the month; 84% of today's range
+~ WORKING take_profit 100% CACI @ $636.49 until 2026-10-28 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% CACI @ $628.56 until 2026-10-28 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 CACI @ $615.20 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25258.72 (+1.03% on $25000.00 in) · cash $19265.06 · realised +265.06
+Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $18989.12 this week

@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "2cc2ec00",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 245.3324,
-   "status": "cancelled",
-   "created": "2026-10-20 09:36",
-   "created_ts": 1792503364,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $252.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-25",
-   "usd": 500.0,
-   "closed": "2026-10-20 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "9b2d7dc1",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 100.4214,
-   "status": "cancelled",
-   "created": "2026-10-20 09:45",
-   "created_ts": 1792503902,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $100.13",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-25",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-20 10:04",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "8b3932bd",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 99.4021,
-   "status": "filled",
-   "created": "2026-10-20 09:45",
-   "created_ts": 1792503902,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $100.13",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-25",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-20 10:04"
-  },
-  {
    "id": "509783dd",
    "ticker": "RPM",
    "kind": "buy_limit",
@@ -6825,7 +6769,7 @@
    "ticker": "WSM",
    "kind": "take_profit",
    "price": 253.8241,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 11:32",
    "created_ts": 1792769559,
    "why": "close 100% at +0.3% over the average cost",
@@ -6835,14 +6779,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 13:23",
+   "cancel_reason": "position closed"
   },
   {
    "id": "2b5913d3",
    "ticker": "WSM",
    "kind": "stop_loss",
    "price": 251.1846,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-23 11:32",
    "created_ts": 1792769559,
    "why": "close it all at -0.7% under the average cost",
@@ -6852,14 +6798,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 13:23"
   },
   {
    "id": "e8dd343d",
    "ticker": "WSM",
    "kind": "buy_limit",
    "price": 245.4779,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 11:32",
    "created_ts": 1792769559,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6869,7 +6816,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-23 13:23",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b04b5510",
@@ -7452,7 +7401,58 @@
    ],
    "good_until": "2026-10-28",
    "usd": 500.0
+  },
+  {
+   "id": "e70a4f2f",
+   "ticker": "CACI",
+   "kind": "take_profit",
+   "price": 636.4942,
+   "status": "working",
+   "created": "2026-10-23 13:23",
+   "created_ts": 1792776189,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $634.23",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "53dbd7b9",
+   "ticker": "CACI",
+   "kind": "stop_loss",
+   "price": 628.56,
+   "status": "working",
+   "created": "2026-10-23 13:23",
+   "created_ts": 1792776189,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $634.23",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9fa82650",
+   "ticker": "CACI",
+   "kind": "buy_limit",
+   "price": 615.2031,
+   "status": "working",
+   "created": "2026-10-23 13:23",
+   "created_ts": 1792776189,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $634.23",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-23 13:20"
+ "updated": "2026-10-23 13:23"
 }
