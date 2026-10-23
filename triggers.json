@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "b6bee736",
-   "ticker": "ADI",
-   "kind": "take_profit",
-   "price": 394.5762,
-   "status": "cancelled",
-   "created": "2026-10-19 12:50",
-   "created_ts": 1792428626,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $393.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-19 13:07",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "8d54730e",
    "ticker": "ADI",
    "kind": "stop_loss",
@@ -7429,7 +7410,7 @@
    "ticker": "FITB",
    "kind": "stop_loss",
    "price": 52.8423,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 11:44",
    "created_ts": 1792770264,
    "why": "close it all at -0.6% under the average cost",
@@ -7439,7 +7420,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 12:18",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "9d97e73b",
@@ -7476,7 +7459,24 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-23 12:06",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "fee3ca03",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 53.192,
+   "status": "working",
+   "created": "2026-10-23 12:18",
+   "created_ts": 1792772293,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $53.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-23 12:17"
+ "updated": "2026-10-23 12:18"
 }
