@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-23T13:30-04:00",
+ "asOf": "2026-10-23T13:35-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "e70a4f2f",
-   "ticker": "CACI",
-   "kind": "take_profit",
-   "price": 636.4942,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 635.84,
-   "pct_away": 0.1,
-   "good_until": "2026-10-28",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "93944103",
    "ticker": "CACI",
    "kind": "stop_loss",
@@ -202,27 +185,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 635.84,
-   "pct_away": -0.1,
+   "last": 635.32,
+   "pct_away": -0.02,
    "good_until": "2026-10-28",
    "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "fd6bbdc1",
-   "ticker": "FITB",
-   "kind": "take_profit",
-   "price": 53.1731,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 53.04,
-   "pct_away": 0.25,
-   "good_until": "2026-10-28",
-   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,10 +202,61 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 6.45,
-   "pct_away": 0.42,
+   "last": 6.47,
+   "pct_away": 0.11,
    "good_until": "2026-10-28",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c55cdae8",
+   "ticker": "RIG",
+   "kind": "stop_loss",
+   "price": 6.462,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 6.47,
+   "pct_away": -0.12,
+   "good_until": "2026-10-28",
+   "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e70a4f2f",
+   "ticker": "CACI",
+   "kind": "take_profit",
+   "price": 636.4942,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 635.32,
+   "pct_away": 0.18,
+   "good_until": "2026-10-28",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "fd6bbdc1",
+   "ticker": "FITB",
+   "kind": "take_profit",
+   "price": 53.1731,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 53.05,
+   "pct_away": 0.23,
+   "good_until": "2026-10-28",
+   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -280,40 +297,6 @@
    ]
   },
   {
-   "id": "bc8c9a55",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 52.7423,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 53.04,
-   "pct_away": -0.56,
-   "good_until": "2026-10-28",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "749cd6e5",
-   "ticker": "AMT",
-   "kind": "take_profit",
-   "price": 189.269,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 188.13,
-   "pct_away": 0.61,
-   "good_until": "2026-10-28",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "a7c0ead3",
    "ticker": "NXPI",
    "kind": "take_profit",
@@ -321,10 +304,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 236.57,
-   "pct_away": 0.62,
+   "last": 236.73,
+   "pct_away": 0.55,
    "good_until": "2026-10-28",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "bc8c9a55",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 52.7423,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 53.05,
+   "pct_away": -0.58,
+   "good_until": "2026-10-28",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -338,8 +338,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 188.13,
-   "pct_away": -0.71,
+   "last": 187.99,
+   "pct_away": -0.64,
    "good_until": "2026-10-28",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -348,17 +348,17 @@
    ]
   },
   {
-   "id": "6af63a0b",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 234.6973,
+   "id": "749cd6e5",
+   "ticker": "AMT",
+   "kind": "take_profit",
+   "price": 189.269,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 236.57,
-   "pct_away": -0.79,
+   "last": 187.99,
+   "pct_away": 0.68,
    "good_until": "2026-10-28",
-   "why": "close it all at -1.0% under the average cost",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -399,34 +399,17 @@
    ]
   },
   {
-   "id": "ae910c88",
-   "ticker": "RIG",
+   "id": "6af63a0b",
+   "ticker": "NXPI",
    "kind": "stop_loss",
-   "price": 6.3819,
+   "price": 234.6973,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 6.45,
-   "pct_away": -1.06,
+   "last": 236.73,
+   "pct_away": -0.86,
    "good_until": "2026-10-28",
-   "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "875359bf",
-   "ticker": "CLF",
-   "kind": "take_profit",
-   "price": 13.9888,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 13.82,
-   "pct_away": 1.22,
-   "good_until": "2026-10-28",
-   "why": "close 100% at +0.7% over the average cost",
+   "why": "close it all at -1.0% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -440,10 +423,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 13.82,
-   "pct_away": -1.28,
+   "last": 13.81,
+   "pct_away": -1.21,
    "good_until": "2026-10-28",
    "why": "close it all at -1.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "875359bf",
+   "ticker": "CLF",
+   "kind": "take_profit",
+   "price": 13.9888,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 13.81,
+   "pct_away": 1.29,
+   "good_until": "2026-10-28",
+   "why": "close 100% at +0.7% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -457,8 +457,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 13.82,
-   "pct_away": -2.51,
+   "last": 13.81,
+   "pct_away": -2.44,
    "good_until": "2026-10-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -491,8 +491,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 188.13,
-   "pct_away": -2.78,
+   "last": 187.99,
+   "pct_away": -2.71,
    "good_until": "2026-10-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -508,8 +508,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 236.57,
-   "pct_away": -2.79,
+   "last": 236.73,
+   "pct_away": -2.86,
    "good_until": "2026-10-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -542,24 +542,7 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 53.04,
-   "pct_away": -2.98,
-   "good_until": "2026-10-28",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "7ebafe90",
-   "ticker": "RIG",
-   "kind": "buy_limit",
-   "price": 6.2565,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 6.45,
+   "last": 53.05,
    "pct_away": -3.0,
    "good_until": "2026-10-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -576,8 +559,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 635.84,
-   "pct_away": -3.25,
+   "last": 635.32,
+   "pct_away": -3.17,
+   "good_until": "2026-10-28",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7ebafe90",
+   "ticker": "RIG",
+   "kind": "buy_limit",
+   "price": 6.2565,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 6.47,
+   "pct_away": -3.3,
    "good_until": "2026-10-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

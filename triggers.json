@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "ada93800",
-   "ticker": "IBRX",
-   "kind": "take_profit",
-   "price": 8.7086,
-   "status": "filled",
-   "created": "2026-10-20 10:23",
-   "created_ts": 1792506230,
-   "why": "close 100% at +1.0% over the average cost",
-   "evidence": "average cost $8.62",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-25",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-20 10:29"
-  },
-  {
    "id": "eee6d991",
    "ticker": "IBRX",
    "kind": "stop_loss",
@@ -7252,7 +7234,7 @@
    "ticker": "RIG",
    "kind": "stop_loss",
    "price": 6.3819,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 13:02",
    "created_ts": 1792774934,
    "why": "close it all at -1.1% under the average cost",
@@ -7262,7 +7244,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 13:35",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "7ebafe90",
@@ -7452,7 +7436,24 @@
    ],
    "good_until": "2026-10-28",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "c55cdae8",
+   "ticker": "RIG",
+   "kind": "stop_loss",
+   "price": 6.462,
+   "status": "working",
+   "created": "2026-10-23 13:35",
+   "created_ts": 1792776913,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $6.45",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-23 13:32"
+ "updated": "2026-10-23 13:35"
 }
