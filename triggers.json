@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "0328bd18",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 98.9425,
-   "status": "filled",
-   "created": "2026-10-19 09:32",
-   "created_ts": 1792416761,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $99.65",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-19 09:53"
-  },
-  {
-   "id": "32b9b750",
-   "ticker": "RPM",
-   "kind": "buy_limit",
-   "price": 96.6605,
-   "status": "cancelled",
-   "created": "2026-10-19 09:32",
-   "created_ts": 1792416761,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $99.65",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-24",
-   "usd": 500.0,
-   "closed": "2026-10-19 09:53",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "9bd28528",
-   "ticker": "GTES",
-   "kind": "take_profit",
-   "price": 26.2234,
-   "status": "cancelled",
-   "created": "2026-10-19 09:32",
-   "created_ts": 1792416761,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $26.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-19 09:38",
-   "cancel_reason": "another standing order on the same ticker filled first"
-  },
-  {
    "id": "8bed7a1c",
    "ticker": "GTES",
    "kind": "stop_loss",
@@ -7367,7 +7311,7 @@
    "ticker": "CLF",
    "kind": "stop_loss",
    "price": 12.9867,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 09:36",
    "created_ts": 1792762565,
    "why": "close it all at -1.8% under the average cost",
@@ -7377,7 +7321,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 09:38",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "fe51530b",
@@ -7418,7 +7364,7 @@
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 236.1614,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 09:36",
    "created_ts": 1792762565,
    "why": "close it all at -1.0% under the average cost",
@@ -7428,7 +7374,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 09:38",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "a5eead93",
@@ -7452,9 +7400,62 @@
    "ticker": "RIG",
    "kind": "stop_loss",
    "price": 6.132,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 09:36",
    "created_ts": 1792762608,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $6.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 09:38",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "6a65aba0",
+   "ticker": "CLF",
+   "kind": "stop_loss",
+   "price": 13.256,
+   "status": "working",
+   "created": "2026-10-23 09:38",
+   "created_ts": 1792762687,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $13.22",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c19dcb06",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 238.962,
+   "status": "working",
+   "created": "2026-10-23 09:38",
+   "created_ts": 1792762687,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $238.53",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ddf76b7a",
+   "ticker": "RIG",
+   "kind": "stop_loss",
+   "price": 6.144,
+   "status": "working",
+   "created": "2026-10-23 09:38",
+   "created_ts": 1792762736,
    "why": "close it all at -1.0% under the average cost",
    "evidence": "average cost $6.12",
    "signals": [
@@ -7465,5 +7466,5 @@
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-23 09:36"
+ "updated": "2026-10-23 09:38"
 }
