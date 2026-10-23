@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "eee6d991",
-   "ticker": "IBRX",
-   "kind": "stop_loss",
-   "price": 8.3986,
-   "status": "cancelled",
-   "created": "2026-10-20 10:23",
-   "created_ts": 1792506230,
-   "why": "close it all at -2.6% under the average cost",
-   "evidence": "average cost $8.62",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-25",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-20 10:29",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "8b4cb2be",
    "ticker": "IBRX",
    "kind": "buy_limit",
@@ -7287,7 +7268,7 @@
    "ticker": "FITB",
    "kind": "stop_loss",
    "price": 52.7423,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 13:08",
    "created_ts": 1792775287,
    "why": "close it all at -0.6% under the average cost",
@@ -7297,7 +7278,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 13:39",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "141d4213",
@@ -7458,7 +7441,24 @@
    ],
    "good_until": "2026-10-28",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "c5cb926c",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 53.092,
+   "status": "working",
+   "created": "2026-10-23 13:39",
+   "created_ts": 1792777182,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $53.05",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-23 13:38"
+ "updated": "2026-10-23 13:39"
 }
