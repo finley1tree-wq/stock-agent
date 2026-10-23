@@ -1,6 +1,3 @@
-~ WORKING buy_limit $500.00 CACI @ $615.20 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25258.72 (+1.03% on $25000.00 in) · cash $19265.06 · realised +265.06
-Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $18989.12 this week
 
 ## 2026-10-23 13:26 ET (Friday) — week 2026-W43 — budget left $18989.12 (today $51000.00 put to work, 38 buys, 30 sells) — SIM (pretend money) via sim
   (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
@@ -398,3 +395,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25259.30 (+1.04% on $25000.00 in) · cash $23009.29 · realised +259.29
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [take_profit @ $238.03] -> $753.00 (+0.40%) — close 100% at +0.4% over the average cost
+## 2026-10-23 14:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders

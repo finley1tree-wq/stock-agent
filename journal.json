@@ -76580,7 +76580,7 @@
     "code_version": "73e2d0c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": 0.03
   },
   {
     "symbol": "AMT",
@@ -76677,7 +76677,9 @@
     "code_version": "73e2d0c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": 0.4,
+    "ret_final": 0.4,
+    "ret_src": "realised"
   },
   {
     "symbol": "RIG",
@@ -76948,7 +76950,7 @@
     "code_version": "d957fad",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.1
+    "ret_now": -0.07
   },
   {
     "symbol": "AMT",
@@ -77029,5 +77031,32 @@
     "hour_et": 14,
     "code_version": "77f8512",
     "hold_minutes": 89
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 3.163425,
+    "status": "filled",
+    "price": 238.03,
+    "proceeds": 753.0,
+    "realized_pnl": 3.0,
+    "realized_pct": 0.4,
+    "date": "2026-10-23",
+    "time_et": "14:44",
+    "ts": 1792780800,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $237.08",
+    "trigger": "take_profit",
+    "hour_et": 14,
+    "code_version": "a523a94",
+    "hold_minutes": 97
   }
 ]
