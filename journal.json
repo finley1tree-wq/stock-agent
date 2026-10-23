@@ -75501,7 +75501,7 @@
     "code_version": "5ecc47b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.15
+    "ret_now": 0.09
   },
   {
     "symbol": "FITB",
@@ -75532,7 +75532,9 @@
     "code_version": "5ecc47b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.26,
+    "ret_final": 0.26,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMT",
@@ -75623,7 +75625,9 @@
     "code_version": "f589edd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": 0.31,
+    "ret_final": 0.31,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -75891,6 +75895,90 @@
     "hour_et": 10,
     "code_version": "d326b76",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.32,
+    "ret_now": 0.32,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 14.280002,
+    "status": "filled",
+    "price": 52.66,
+    "proceeds": 751.91,
+    "realized_pnl": 1.91,
+    "realized_pct": 0.26,
+    "date": "2026-10-23",
+    "time_et": "10:45",
+    "ts": 1792766700,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $52.52",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "2379c3e",
+    "hold_minutes": 22
+  },
+  {
+    "symbol": "RPM",
+    "side": "sell",
+    "qty": 7.594976,
+    "status": "filled",
+    "price": 99.07,
+    "proceeds": 752.42,
+    "realized_pnl": 2.42,
+    "realized_pct": 0.32,
+    "date": "2026-10-23",
+    "time_et": "10:45",
+    "ts": 1792766700,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $98.75",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "2379c3e",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "CRBG",
+    "side": "sell",
+    "qty": 21.787275,
+    "status": "filled",
+    "price": 34.53,
+    "proceeds": 752.31,
+    "realized_pnl": 2.31,
+    "realized_pct": 0.31,
+    "date": "2026-10-23",
+    "time_et": "10:45",
+    "ts": 1792766700,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $34.42",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "2379c3e",
+    "hold_minutes": 16
   }
 ]

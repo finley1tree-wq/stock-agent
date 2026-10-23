@@ -43273,3 +43273,23 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 RPM @ $95.79 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25255.18 (+1.02% on $25000.00 in) · cash $21506.90 · realised +256.90
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21260.31 this week
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [take_profit @ $52.66] -> $751.91 (+0.26%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [take_profit @ $99.07] -> $752.42 (+0.32%) — close 100% at +0.3% over the average cost
+## 2026-10-23 10:45 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-23 10:45 ET (Friday) — week 2026-W43 — budget left $22764.64 (today $38250.00 put to work, 21 buys, 18 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [take_profit @ $34.53] -> $752.31 (+0.31%) — close 100% at +0.3% over the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKMDjRUkbsqtNSfFKxyx'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25263.34 (+1.05% on $25000.00 in) · cash $23763.55 · realised +263.55
+Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 6 order(s) working; budget left $23516.95 this week
