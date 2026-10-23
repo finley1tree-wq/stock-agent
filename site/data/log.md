@@ -1,20 +1,3 @@
-- BUY $750.00 CLF [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +7.2% over the month; 72% of today's range
-~ WORKING take_profit 100% CRBG @ $34.52 until 2026-10-28 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% CRBG @ $34.17 until 2026-10-28 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 CRBG @ $33.39 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NXPI @ $236.41 until 2026-10-28 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% NXPI @ $233.08 until 2026-10-28 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 NXPI @ $228.40 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CLF @ $13.50 until 2026-10-28 — close 100% at +0.7% over the average cost
-~ WORKING stop_loss 100% CLF @ $13.17 until 2026-10-28 — close it all at -1.8% under the average cost
-~ WORKING buy_limit $500.00 CLF @ $13.01 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25238.01 (+0.95% on $25000.00 in) · cash $20742.45 · realised +242.45
-Done: 0 sell(s), 3 buy(s); 18 order(s) working; budget left $20495.87 this week
-  (cancelled 2 standing order(s) on EL: position closed)
-- SELL 100% EL [take_profit @ $107.47] -> $752.78 (+0.37%) — close 100% at +0.4% over the average cost
-## 2026-10-23 10:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on CLF: position closed)
-- SELL 100% CLF [take_profit @ $13.50] -> $755.54 (+0.74%) — close 100% at +0.7% over the average cost
 ## 2026-10-23 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-10-23 10:31 ET (Friday) — week 2026-W43 — budget left $22004.19 (today $36000.00 put to work, 18 buys, 14 sells) — SIM (pretend money) via sim
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 CRBG @ $33.47 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25276.85 (+1.11% on $25000.00 in) · cash $20775.93 · realised +275.93
 Done: 0 sell(s), 3 buy(s); 18 order(s) working; budget left $20500.00 this week
+
+## 2026-10-23 11:35 ET (Friday) — week 2026-W43 — budget left $20500.00 (today $44250.00 put to work, 29 buys, 23 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKR3J7f4Uv6mcEsQznPG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25279.42 (+1.12% on $25000.00 in) · cash $20775.93 · realised +275.93
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [stop_loss @ $108.37] -> $750.43 (+0.06%) — close it all at -0.9% under the average cost
+## 2026-10-23 11:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
