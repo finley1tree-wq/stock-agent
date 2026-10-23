@@ -42829,3 +42829,35 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 CRBG @ $33.97 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25151.83 (+0.61% on $25000.00 in) · cash $4159.63 · realised +159.63
 Done: 0 sell(s), 7 buy(s); 21 order(s) working; budget left $3918.24 this week
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $108.23] -> $3024.51 (+0.82%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [take_profit @ $52.87] -> $3011.90 (+0.40%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on AMT: position closed)
+- SELL 100% AMT [take_profit @ $196.43] -> $3028.40 (+0.95%) — close 100% at +0.4% over the average cost
+## 2026-10-23 09:35 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-23 09:36 ET (Friday) — week 2026-W43 — budget left $12983.05 (today $21000.00 put to work, 7 buys, 3 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKFvQeKGG4YrR8XjQqcL'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $12,983 idle, so opened 3: RIG, CLF, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 RIG [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +12.7% over the month; 17% of today's range
+- BUY $3000.00 CLF [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +5.7% over the month; 43% of today's range
+- BUY $3000.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +3.6% over the month; 58% of today's range
+~ WORKING take_profit 100% RIG @ $6.14 until 2026-10-28 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% RIG @ $6.06 until 2026-10-28 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 RIG @ $5.94 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CLF @ $13.31 until 2026-10-28 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% CLF @ $12.99 until 2026-10-28 — close it all at -1.8% under the average cost
+~ WORKING buy_limit $500.00 CLF @ $12.82 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NXPI @ $239.48 until 2026-10-28 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $236.16 until 2026-10-28 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $231.37 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25206.03 (+0.82% on $25000.00 in) · cash $4224.44 · realised +224.44
+Done: 0 sell(s), 3 buy(s); 21 order(s) working; budget left $3983.05 this week
