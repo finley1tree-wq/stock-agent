@@ -43431,3 +43431,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25273.13 (+1.09% on $25000.00 in) · cash $25273.13 · realised +273.13
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 11:14 ET (Friday) — week 2026-W43 — budget left $25000.00 (today $39000.00 put to work, 22 buys, 22 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKPT1H4iWNKb7hUNxdKB'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 1: AMT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 AMT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +13.9% over the month; 19% of today's range
+~ WORKING take_profit 100% AMT @ $191.27 until 2026-10-28 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% AMT @ $188.79 until 2026-10-28 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 AMT @ $184.84 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25272.83 (+1.09% on $25000.00 in) · cash $24523.13 · realised +273.13
+Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $24250.00 this week

@@ -1,7 +1,7 @@
 {
   "week": "2026-W43",
-  "spent": 0.0,
-  "deployed": 186000.0,
+  "spent": 750.0,
+  "deployed": 186750.0,
   "by_ticker": {
     "RPM": 65.05,
     "GTES": 52.54,
@@ -11,7 +11,8 @@
     "CACI": 57.93,
     "CRBG": 58.92,
     "ADI": 26.16,
-    "FBK": 2.2
+    "FBK": 2.2,
+    "AMT": 750.0
   },
   "deployed_by_ticker": {
     "WSM": 22500.0,
@@ -29,7 +30,7 @@
     "CACI": 7500.0,
     "EL": 9000.0,
     "FBK": 4500.0,
-    "AMT": 3750.0,
+    "AMT": 4500.0,
     "CLF": 3750.0
   },
   "orders": [
@@ -5654,12 +5655,34 @@
       ],
       "evidence": "average cost $622.83",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "AMT",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.935847,
+      "price": 190.56,
+      "date": "2026-10-23",
+      "time_et": "11:14",
+      "ts": 1792768488,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +13.9% over the month; 19% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-10-23",
-  "spent_today": 0.0,
-  "deployed_today": 39000.0,
-  "orders_today": 22,
+  "spent_today": 750.0,
+  "deployed_today": 39750.0,
+  "orders_today": 23,
   "sells_today": 22,
   "sold_today": [
     "EL",
@@ -5693,22 +5716,26 @@
     "AMT": 1792765642,
     "CLF": 1792765874
   },
-  "last_publish_ts": 1792767936,
-  "last_check_ts": 1792768325,
+  "last_publish_ts": 1792768488,
+  "last_check_ts": 1792768488,
   "exp_arm": {
-    "CACI": {
+    "AMT": {
       "params": {
-        "hold_minutes": 90,
+        "hold_minutes": 120,
         "ratchet": "on"
       },
       "tags": {
-        "hold_long": 90
+        "hold_long": 120
       }
     }
   },
   "last_bar_ts": 1792768200,
-  "last_decision_ts": 1792768325,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792768488,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "802830c2": 191.2689,
+    "95b5a432": 188.7859,
+    "13cb6719": 184.8432
+  }
 }
