@@ -1,10 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHnonW7sUbVa1jzQb8nv'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25159.82 (+0.64% on $25000.00 in) · cash $24411.83 · realised +161.83
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-22 15:02 ET (Thursday) — week 2026-W43 — budget left $24170.44 (today $44250.00 put to work, 32 buys, 31 sells) — SIM (pretend money) via sim
   (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
@@ -398,3 +391,10 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% RIG @ $6.14 until 2026-10-28 — close it all at -1.0% under the average cost
 portfolio: equity $25261.09 (+1.04% on $25000.00 in) · cash $7232.47 · realised +232.47
 Decision: nothing at this check. 18 standing order(s) working.
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [stop_loss @ $34.76] -> $2977.53 (-0.75%) — close it all at -0.7% under the average cost
+  (cancelled 2 standing order(s) on RIG: position closed)
+- SELL 100% RIG [take_profit @ $6.16] -> $3017.14 (+0.57%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on CLF: position closed)
+- SELL 100% CLF [take_profit @ $13.31] -> $3022.64 (+0.75%) — close 100% at +0.7% over the average cost
+## 2026-10-23 09:40 ET — tick — 3 sell(s), 0 buy(s) from standing orders
