@@ -7427,7 +7427,7 @@
    "ticker": "CACI",
    "kind": "take_profit",
    "price": 625.0099,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-23 11:03",
    "created_ts": 1792767801,
    "why": "close 100% at +0.3% over the average cost",
@@ -7437,7 +7437,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 11:05"
   },
   {
    "id": "548411b4",
@@ -7463,7 +7464,7 @@
    "ticker": "CACI",
    "kind": "buy_limit",
    "price": 604.1451,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 11:03",
    "created_ts": 1792767801,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7473,14 +7474,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-23 11:05",
+   "cancel_reason": "position closed"
   },
   {
    "id": "90522c02",
    "ticker": "CACI",
    "kind": "stop_loss",
    "price": 624.498,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 11:04",
    "created_ts": 1792767894,
    "why": "close it all at -0.9% under the average cost",
@@ -7490,8 +7493,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 11:05",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-23 11:04"
+ "updated": "2026-10-23 11:06"
 }

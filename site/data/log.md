@@ -1,6 +1,3 @@
-  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKHgFt4ys5gF39nFZCbY'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25246.59 (+0.99% on $25000.00 in) · cash $25246.59 · realised +246.59
 Decision: nothing at this check.
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 CACI @ $604.15 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25269.59 (+1.08% on $25000.00 in) · cash $24519.89 · realised +269.89
 Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $24250.00 this week
+  (cancelled 2 standing order(s) on CACI: position closed)
+- SELL 100% CACI [take_profit @ $625.52] -> $753.24 (+0.43%) — close 100% at +0.3% over the average cost
+## 2026-10-23 11:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
