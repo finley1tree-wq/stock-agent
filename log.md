@@ -44350,3 +44350,4 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 RPM @ $95.82 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25261.01 (+1.04% on $25000.00 in) · cash $20765.54 · realised +265.54
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20489.60 this week
+  (cancelled 6 resting buy order(s): past the entry cutoff)

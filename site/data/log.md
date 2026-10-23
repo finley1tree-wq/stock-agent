@@ -1,4 +1,3 @@
-  (dropped AMT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
   (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
 portfolio: equity $25270.75 (+1.08% on $25000.00 in) · cash $23773.73 · realised +273.73
 Decision: nothing at this check. 6 standing order(s) working.
@@ -398,3 +397,4 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 RPM @ $95.82 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25261.01 (+1.04% on $25000.00 in) · cash $20765.54 · realised +265.54
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20489.60 this week
+  (cancelled 6 resting buy order(s): past the entry cutoff)
