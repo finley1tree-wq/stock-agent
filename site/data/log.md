@@ -1,6 +1,3 @@
-Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $24250.00 this week
-  (cancelled 2 standing order(s) on CACI: position closed)
-- SELL 100% CACI [take_profit @ $625.52] -> $753.24 (+0.43%) — close 100% at +0.3% over the average cost
 ## 2026-10-23 11:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-10-23 11:06 ET (Friday) — week 2026-W43 — budget left $25000.00 (today $39000.00 put to work, 22 buys, 22 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 portfolio: equity $25274.53 (+1.10% on $25000.00 in) · cash $23023.77 · realised +273.77
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [stop_loss @ $53.15] -> $749.96 (-0.01%) — close it all at -0.6% under the average cost
+## 2026-10-23 12:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders

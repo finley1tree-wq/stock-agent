@@ -76287,7 +76287,7 @@
     "code_version": "535f852",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": 0.09
   },
   {
     "symbol": "RPM",
@@ -76436,7 +76436,9 @@
     "code_version": "985cc08",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15
+    "ret_now": -0.01,
+    "ret_final": -0.01,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRBG",
@@ -76491,5 +76493,32 @@
     "hour_et": 12,
     "code_version": "56cc72f",
     "hold_minutes": 38
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 14.110674,
+    "status": "filled",
+    "price": 53.15,
+    "proceeds": 749.96,
+    "realized_pnl": -0.04,
+    "realized_pct": -0.01,
+    "date": "2026-10-23",
+    "time_et": "12:20",
+    "ts": 1792772400,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $53.15",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "32c8dc8",
+    "hold_minutes": 35
   }
 ]
