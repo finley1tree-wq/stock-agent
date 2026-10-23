@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "8b4cb2be",
-   "ticker": "IBRX",
-   "kind": "buy_limit",
-   "price": 8.3614,
-   "status": "cancelled",
-   "created": "2026-10-20 10:23",
-   "created_ts": 1792506230,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $8.62",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-25",
-   "usd": 500.0,
-   "closed": "2026-10-20 10:29",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "980526d8",
-   "ticker": "RIG",
-   "kind": "take_profit",
-   "price": 5.8146,
-   "status": "cancelled",
-   "created": "2026-10-20 10:23",
-   "created_ts": 1792506230,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $5.79",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-25",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-20 11:00",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "86559bb1",
-   "ticker": "RIG",
-   "kind": "stop_loss",
-   "price": 5.7285,
-   "status": "cancelled",
-   "created": "2026-10-20 10:23",
-   "created_ts": 1792506230,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $5.79",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-25",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-20 10:59",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "40c4e755",
    "ticker": "RIG",
    "kind": "buy_limit",
@@ -7468,7 +7411,58 @@
    "good_until": "2026-10-28",
    "pct_of_position": 100.0,
    "closed": "2026-10-23 13:41"
+  },
+  {
+   "id": "1767eee6",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 99.0655,
+   "status": "working",
+   "created": "2026-10-23 13:58",
+   "created_ts": 1792778335,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $98.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ccf91c8b",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 98.0648,
+   "status": "working",
+   "created": "2026-10-23 13:58",
+   "created_ts": 1792778335,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $98.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "13d3d734",
+   "ticker": "RPM",
+   "kind": "buy_limit",
+   "price": 95.8166,
+   "status": "working",
+   "created": "2026-10-23 13:58",
+   "created_ts": 1792778335,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $98.78",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-23 13:55"
+ "updated": "2026-10-23 13:58"
 }
