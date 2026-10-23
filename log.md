@@ -43168,3 +43168,26 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 CLF @ $13.01 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25238.01 (+0.95% on $25000.00 in) · cash $20742.45 · realised +242.45
 Done: 0 sell(s), 3 buy(s); 18 order(s) working; budget left $20495.87 this week
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $107.47] -> $752.78 (+0.37%) — close 100% at +0.4% over the average cost
+## 2026-10-23 10:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CLF: position closed)
+- SELL 100% CLF [take_profit @ $13.50] -> $755.54 (+0.74%) — close 100% at +0.7% over the average cost
+## 2026-10-23 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-23 10:31 ET (Friday) — week 2026-W43 — budget left $22004.19 (today $36000.00 put to work, 18 buys, 14 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKL8aK3VmvPrHGNR1uHT'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $22,004 idle, so opened 1: RIG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 RIG [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +17.4% over the month; 83% of today's range
+~ WORKING take_profit 100% RIG @ $6.42 until 2026-10-28 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% RIG @ $6.32 until 2026-10-28 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 RIG @ $6.20 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25250.17 (+1.00% on $25000.00 in) · cash $21500.78 · realised +250.78
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21254.19 this week
