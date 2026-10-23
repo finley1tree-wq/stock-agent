@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "c06b7340",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 98.4321,
-   "status": "cancelled",
-   "created": "2026-10-19 10:39",
-   "created_ts": 1792420749,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $99.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-19 11:03",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "db6071e4",
-   "ticker": "RPM",
-   "kind": "buy_limit",
-   "price": 96.1658,
-   "status": "cancelled",
-   "created": "2026-10-19 10:39",
-   "created_ts": 1792420749,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $99.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-24",
-   "usd": 500.0,
-   "closed": "2026-10-19 11:03",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "a9cb59cd",
-   "ticker": "FUL",
-   "kind": "take_profit",
-   "price": 51.0415,
-   "status": "filled",
-   "created": "2026-10-19 10:39",
-   "created_ts": 1792420749,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $50.9",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-19 10:47"
-  },
-  {
    "id": "4a024a28",
    "ticker": "FUL",
    "kind": "stop_loss",
@@ -7261,7 +7205,7 @@
    "ticker": "NXPI",
    "kind": "take_profit",
    "price": 236.4136,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-23 10:28",
    "created_ts": 1792765689,
    "why": "close 100% at +0.4% over the average cost",
@@ -7271,7 +7215,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 10:36"
   },
   {
    "id": "d8aaa419",
@@ -7297,7 +7242,7 @@
    "ticker": "NXPI",
    "kind": "buy_limit",
    "price": 228.3962,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 10:28",
    "created_ts": 1792765689,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7307,7 +7252,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-23 10:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d8171ace",
@@ -7408,7 +7355,7 @@
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 235.802,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 10:31",
    "created_ts": 1792765873,
    "why": "close it all at -1.0% under the average cost",
@@ -7418,7 +7365,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 10:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "fb11ba0b",
@@ -7470,7 +7419,58 @@
    ],
    "good_until": "2026-10-28",
    "usd": 500.0
+  },
+  {
+   "id": "613b9039",
+   "ticker": "ADI",
+   "kind": "take_profit",
+   "price": 390.1748,
+   "status": "working",
+   "created": "2026-10-23 10:36",
+   "created_ts": 1792766182,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $388.69",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "677e8f1c",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 384.978,
+   "status": "working",
+   "created": "2026-10-23 10:36",
+   "created_ts": 1792766182,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $388.69",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f89a1a43",
+   "ticker": "ADI",
+   "kind": "buy_limit",
+   "price": 377.0293,
+   "status": "working",
+   "created": "2026-10-23 10:36",
+   "created_ts": 1792766182,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $388.69",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-23 10:34"
+ "updated": "2026-10-23 10:36"
 }

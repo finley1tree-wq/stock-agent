@@ -75501,7 +75501,7 @@
     "code_version": "5ecc47b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.16
+    "ret_now": -0.19
   },
   {
     "symbol": "FITB",
@@ -75532,7 +75532,7 @@
     "code_version": "5ecc47b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06
+    "ret_now": -0.08
   },
   {
     "symbol": "AMT",
@@ -75623,7 +75623,7 @@
     "code_version": "f589edd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.29
+    "ret_now": -0.23
   },
   {
     "symbol": "NXPI",
@@ -75654,7 +75654,9 @@
     "code_version": "f589edd",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.27
+    "ret_now": 0.4,
+    "ret_final": 0.4,
+    "ret_src": "realised"
   },
   {
     "symbol": "CLF",
@@ -75772,6 +75774,63 @@
     "code_version": "e956c87",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.31
+    "ret_now": -0.16
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 3.185198,
+    "status": "filled",
+    "price": 236.41,
+    "proceeds": 753.02,
+    "realized_pnl": 3.02,
+    "realized_pct": 0.4,
+    "date": "2026-10-23",
+    "time_et": "10:36",
+    "ts": 1792766100,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $235.46",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "5e84582",
+    "hold_minutes": 6
+  },
+  {
+    "symbol": "ADI",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.92957,
+    "price": 388.69,
+    "date": "2026-10-23",
+    "time_et": "10:36",
+    "ts": 1792766182,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +1.6% over the month; 70% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 388.61,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 1.57,
+    "hour_et": 10,
+    "code_version": "5e84582",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
