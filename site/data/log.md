@@ -1,31 +1,3 @@
-
-## 2026-10-23 12:17 ET (Friday) — week 2026-W43 — budget left $22747.84 (today $45000.00 put to work, 30 buys, 27 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKUEEzJFqGgfPWQ1pc4z'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,748 idle, so opened 1: AMT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped AMT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25274.53 (+1.10% on $25000.00 in) · cash $23023.77 · realised +273.77
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on FITB: position closed)
-- SELL 100% FITB [stop_loss @ $53.15] -> $749.96 (-0.01%) — close it all at -0.6% under the average cost
-## 2026-10-23 12:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-23 12:20 ET (Friday) — week 2026-W43 — budget left $23497.80 (today $45000.00 put to work, 30 buys, 28 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKUT5Jk8u2sDSLASzqzB'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,498 idle, so opened 1: AMT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
   (dropped AMT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
 portfolio: equity $25273.54 (+1.09% on $25000.00 in) · cash $23773.73 · realised +273.73
@@ -398,3 +370,31 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $500.00 CACI @ $615.20 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25258.72 (+1.03% on $25000.00 in) · cash $19265.06 · realised +265.06
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $18989.12 this week
+
+## 2026-10-23 13:26 ET (Friday) — week 2026-W43 — budget left $18989.12 (today $51000.00 put to work, 38 buys, 30 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKZUEM4ms8gijmA9pydL'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25254.81 (+1.02% on $25000.00 in) · cash $19265.06 · realised +265.06
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 13:29 ET (Friday) — week 2026-W43 — budget left $18989.12 (today $51000.00 put to work, 38 buys, 30 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKZhFFztK6sz1prr2rEC'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25255.58 (+1.02% on $25000.00 in) · cash $19265.06 · realised +265.06
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
