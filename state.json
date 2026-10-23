@@ -1,7 +1,7 @@
 {
   "week": "2026-W43",
-  "spent": 1500.0,
-  "deployed": 188250.0,
+  "spent": 2250.0,
+  "deployed": 189000.0,
   "by_ticker": {
     "RPM": 65.05,
     "GTES": 52.54,
@@ -10,7 +10,7 @@
     "RIG": 4.34,
     "CACI": 57.93,
     "CRBG": 58.92,
-    "ADI": 26.16,
+    "ADI": 776.16,
     "FBK": 2.2,
     "EL": 750.0,
     "NXPI": 750.0
@@ -18,7 +18,7 @@
   "deployed_by_ticker": {
     "WSM": 22500.0,
     "NXPI": 21000.0,
-    "ADI": 24750.0,
+    "ADI": 25500.0,
     "RPM": 14250.0,
     "GTES": 5250.0,
     "IBRX": 9750.0,
@@ -5743,12 +5743,34 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ADI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.918609,
+      "price": 390.91,
+      "date": "2026-10-23",
+      "time_et": "11:26",
+      "ts": 1792769211,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +2.1% over the month; 80% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-10-23",
-  "spent_today": 1500.0,
-  "deployed_today": 41250.0,
-  "orders_today": 25,
+  "spent_today": 2250.0,
+  "deployed_today": 42000.0,
+  "orders_today": 26,
   "sells_today": 23,
   "sold_today": [
     "EL",
@@ -5782,8 +5804,8 @@
     "AMT": 1792768986,
     "CLF": 1792765874
   },
-  "last_publish_ts": 1792769033,
-  "last_check_ts": 1792769123,
+  "last_publish_ts": 1792769211,
+  "last_check_ts": 1792769211,
   "exp_arm": {
     "EL": {
       "params": {
@@ -5802,18 +5824,30 @@
       "tags": {
         "hold_long": 120
       }
+    },
+    "ADI": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
     }
   },
   "last_bar_ts": 1792769100,
-  "last_decision_ts": 1792769033,
+  "last_decision_ts": 1792769211,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "40a26521": 108.6964,
     "49113cb7": 237.9929,
+    "40a26521": 108.6964,
+    "dc069fa2": 392.4072,
     "379687aa": 107.3101,
+    "cddd82c1": 387.169,
     "1a017f85": 234.6577,
     "144e12e2": 105.051,
+    "8aa8bce1": 379.1827,
     "ace04680": 229.9288
   }
 }
