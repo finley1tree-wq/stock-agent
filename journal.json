@@ -76952,7 +76952,9 @@
     "code_version": "d957fad",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16
+    "ret_now": 0.2,
+    "ret_final": 0.2,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMT",
@@ -77086,5 +77088,31 @@
     "hour_et": 15,
     "code_version": "39f7bf2",
     "hold_minutes": 120
+  },
+  {
+    "symbol": "RPM",
+    "side": "sell",
+    "qty": 7.592669,
+    "status": "filled",
+    "price": 98.98,
+    "proceeds": 751.53,
+    "realized_pnl": 1.53,
+    "realized_pct": 0.2,
+    "date": "2026-10-23",
+    "time_et": "15:28",
+    "ts": 1792783735,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, +0.24% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 15,
+    "code_version": "67c8ab2",
+    "hold_minutes": 90
   }
 ]

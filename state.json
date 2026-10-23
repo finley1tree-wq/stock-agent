@@ -1,9 +1,9 @@
 {
   "week": "2026-W43",
-  "spent": 764.46,
+  "spent": 12.93,
   "deployed": 198750.0,
   "by_ticker": {
-    "RPM": 817.77,
+    "RPM": 66.24,
     "GTES": 52.54,
     "IBRX": 12.19,
     "FUL": 3.96,
@@ -6364,13 +6364,33 @@
       ],
       "evidence": "bought 120 min ago, -0.07% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "RPM",
+      "side": "sell",
+      "qty": 7.592669,
+      "status": "filled",
+      "price": 98.98,
+      "proceeds": 751.53,
+      "realized_pnl": 1.53,
+      "realized_pct": 0.2,
+      "date": "2026-10-23",
+      "time_et": "15:28",
+      "ts": 1792783735,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, +0.24% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-23",
-  "spent_today": 764.46,
+  "spent_today": 12.93,
   "deployed_today": 51750.0,
   "orders_today": 39,
-  "sells_today": 38,
+  "sells_today": 39,
   "sold_today": [
     "EL",
     "FITB",
@@ -6391,7 +6411,7 @@
     "IBRX": 1792677950,
     "GTES": 1792436890,
     "WSM": 1792776188,
-    "RPM": 1792774940,
+    "RPM": 1792783735,
     "FUL": 1792430492,
     "RIG": 1792777221,
     "AYI": 1792593818,
@@ -6403,8 +6423,8 @@
     "AMT": 1792778526,
     "CLF": 1792779702
   },
-  "last_publish_ts": 1792783326,
-  "last_check_ts": 1792783648,
+  "last_publish_ts": 1792783735,
+  "last_check_ts": 1792783738,
   "exp_arm": {
     "EL": {
       "params": {
@@ -6462,11 +6482,8 @@
     }
   },
   "last_bar_ts": 1792783500,
-  "last_decision_ts": 1792783554,
+  "last_decision_ts": 1792783738,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "61019695": 98.87,
-    "1767eee6": 99.0655
-  }
+  "book_px": {}
 }
