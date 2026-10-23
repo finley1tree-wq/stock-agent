@@ -1,6 +1,3 @@
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
   (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKGMyM2nCtw7EuYgdwza'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +395,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25263.34 (+1.05% on $25000.00 in) · cash $23763.55 · realised +263.55
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 6 order(s) working; budget left $23516.95 this week
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $252.66] -> $752.22 (+0.30%) — close 100% at +0.3% over the average cost
+## 2026-10-23 10:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
