@@ -74874,7 +74874,9 @@
     "code_version": "8e447ea",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.58
+    "ret_now": -0.73,
+    "ret_final": -0.73,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMT",
@@ -74971,7 +74973,9 @@
     "code_version": "8e447ea",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.02,
+    "ret_final": 0.02,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRBG",
@@ -75320,5 +75324,59 @@
     "hour_et": 9,
     "code_version": "0c5ccab",
     "hold_minutes": 3
+  },
+  {
+    "symbol": "RPM",
+    "side": "sell",
+    "qty": 29.925162,
+    "status": "filled",
+    "price": 99.52,
+    "proceeds": 2978.05,
+    "realized_pnl": -21.95,
+    "realized_pct": -0.73,
+    "date": "2026-10-23",
+    "time_et": "09:49",
+    "ts": 1792763100,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $100.25",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "65b32fb",
+    "hold_minutes": 12
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 7.701235,
+    "status": "filled",
+    "price": 389.64,
+    "proceeds": 3000.71,
+    "realized_pnl": 0.71,
+    "realized_pct": 0.02,
+    "date": "2026-10-23",
+    "time_et": "09:50",
+    "ts": 1792763400,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $389.55",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "65b32fb",
+    "hold_minutes": 17
   }
 ]
