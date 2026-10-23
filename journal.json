@@ -76580,7 +76580,9 @@
     "code_version": "73e2d0c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": -0.11,
+    "ret_final": -0.11,
+    "ret_src": "realised"
   },
   {
     "symbol": "AMT",
@@ -76950,7 +76952,7 @@
     "code_version": "d957fad",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": -0.02
   },
   {
     "symbol": "AMT",
@@ -77058,5 +77060,31 @@
     "hour_et": 14,
     "code_version": "a523a94",
     "hold_minutes": 97
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 6.934605,
+    "status": "filled",
+    "price": 108.04,
+    "proceeds": 749.19,
+    "realized_pnl": -0.81,
+    "realized_pct": -0.11,
+    "date": "2026-10-23",
+    "time_et": "15:02",
+    "ts": 1792782134,
+    "why": "held 120 min, the 120-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 120 min ago, -0.07% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 15,
+    "code_version": "39f7bf2",
+    "hold_minutes": 120
   }
 ]
