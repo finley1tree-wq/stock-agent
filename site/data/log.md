@@ -1,6 +1,3 @@
-  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKV9gEZrLdJrufDRf6Yw'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,498 idle, so opened 3: EL, AMT, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
   (dropped EL: culled strategy (hour 12: -119 over 197 trips, t -1.13))
   (dropped AMT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25252.62 (+1.01% on $25000.00 in) · cash $20015.70 · realised +265.70
 Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on RIG: position closed)
+- SELL 100% RIG [stop_loss @ $6.45] -> $749.63 (-0.05%) — close it all at -1.1% under the average cost
+## 2026-10-23 13:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

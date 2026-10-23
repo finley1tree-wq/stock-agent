@@ -7198,7 +7198,7 @@
    "ticker": "RIG",
    "kind": "take_profit",
    "price": 6.4772,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 13:02",
    "created_ts": 1792774934,
    "why": "close 100% at +0.4% over the average cost",
@@ -7208,7 +7208,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 13:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ae910c88",
@@ -7234,7 +7236,7 @@
    "ticker": "RIG",
    "kind": "buy_limit",
    "price": 6.2565,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 13:02",
    "created_ts": 1792774934,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7244,7 +7246,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-23 13:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "fd6bbdc1",
@@ -7430,7 +7434,7 @@
    "ticker": "RIG",
    "kind": "stop_loss",
    "price": 6.462,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-23 13:35",
    "created_ts": 1792776913,
    "why": "close it all at -1.1% under the average cost",
@@ -7440,7 +7444,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 13:40"
   },
   {
    "id": "c5cb926c",
@@ -7460,5 +7465,5 @@
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-23 13:39"
+ "updated": "2026-10-23 13:41"
 }
