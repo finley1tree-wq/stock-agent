@@ -1,78 +1,3 @@
-  (dropped AMT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25269.61 (+1.08% on $25000.00 in) · cash $23773.73 · realised +273.73
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-23 12:53 ET (Friday) — week 2026-W43 — budget left $23497.80 (today $45000.00 put to work, 30 buys, 28 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKWxUyKZxHXFYk1YrMj4'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,498 idle, so opened 4: EL, AMT, ADI, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped EL: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped AMT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped ADI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25268.16 (+1.07% on $25000.00 in) · cash $23773.73 · realised +273.73
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-23 12:56 ET (Friday) — week 2026-W43 — budget left $23497.80 (today $45000.00 put to work, 30 buys, 28 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKXBWLXpgFtqbW19rM93'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,498 idle, so opened 4: EL, AMT, ADI, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped EL: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped AMT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped ADI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25268.13 (+1.07% on $25000.00 in) · cash $23773.73 · realised +273.73
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-23 12:59 ET (Friday) — week 2026-W43 — budget left $23497.80 (today $45000.00 put to work, 30 buys, 28 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKXQpY2aDfCmNiGF1msZ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,498 idle, so opened 4: EL, AMT, ADI, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped EL: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped AMT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped ADI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25266.91 (+1.07% on $25000.00 in) · cash $23773.73 · realised +273.73
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-23 13:02 ET (Friday) — week 2026-W43 — budget left $23497.80 (today $45000.00 put to work, 30 buys, 28 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-- SELL 100% RPM [time stop] -> $747.28 (-0.36%) — held 90 min, the 90-minute limit: out regardless
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKXe6VLuWEasAWBnCqbm'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,245 idle, so opened 5: EL, AMT, ADI, NXPI, RIG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +13.4% over the month; 71% of today's range
-- BUY $750.00 AMT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +12.7% over the month; 18% of today's range
-- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +2.0% over the month; 76% of today's range
-- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +3.0% over the month; 35% of today's range
 - BUY $750.00 RIG [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +18.8% over the month; 84% of today's range
 ~ WORKING take_profit 100% EL @ $108.55 until 2026-10-28 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% EL @ $107.15 until 2026-10-28 — close it all at -0.9% under the average cost
@@ -398,3 +323,78 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25256.06 (+1.02% on $25000.00 in) · cash $21508.12 · realised +258.12
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 10 order(s) working; budget left $21232.19 this week
+
+## 2026-10-23 14:04 ET (Friday) — week 2026-W43 — budget left $21232.19 (today $51750.00 put to work, 39 buys, 34 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKcRFPqbhkDxfX3zcADd'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25252.89 (+1.01% on $25000.00 in) · cash $21508.12 · realised +258.12
+Decision: nothing at this check. 10 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 14:08 ET (Friday) — week 2026-W43 — budget left $21232.19 (today $51750.00 put to work, 39 buys, 34 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKcfFs1kTzEL6uBU2bag'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25254.35 (+1.02% on $25000.00 in) · cash $21508.12 · realised +258.12
+Decision: nothing at this check. 10 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 14:11 ET (Friday) — week 2026-W43 — budget left $21232.19 (today $51750.00 put to work, 39 buys, 34 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKctzCZrWhU7WoM5bU1C'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25251.43 (+1.01% on $25000.00 in) · cash $21508.12 · realised +258.12
+Decision: nothing at this check. 10 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 14:14 ET (Friday) — week 2026-W43 — budget left $21232.19 (today $51750.00 put to work, 39 buys, 34 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKd7wbQq5Jwuwt83xLyi'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25249.39 (+1.00% on $25000.00 in) · cash $21508.12 · realised +258.12
+Decision: nothing at this check. 10 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 14:17 ET (Friday) — week 2026-W43 — budget left $21232.19 (today $51750.00 put to work, 39 buys, 34 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKdMBJ2zhLPQHzdJZ9gt'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25257.49 (+1.03% on $25000.00 in) · cash $21508.12 · realised +258.12
+Decision: nothing at this check. 10 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
