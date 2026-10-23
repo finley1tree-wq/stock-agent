@@ -1,6 +1,3 @@
-## 2026-10-23 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-23 10:31 ET (Friday) — week 2026-W43 — budget left $22004.19 (today $36000.00 put to work, 18 buys, 14 sells) — SIM (pretend money) via sim
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 18 standing order(s) working.
   (cancelled 2 standing order(s) on EL: position closed)
 - SELL 100% EL [stop_loss @ $108.37] -> $750.43 (+0.06%) — close it all at -0.9% under the average cost
 ## 2026-10-23 11:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $237.21] -> $750.52 (+0.07%) — close it all at -1.0% under the average cost
+## 2026-10-23 11:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders

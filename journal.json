@@ -76188,7 +76188,9 @@
     "code_version": "f13c5f5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.26
+    "ret_now": 0.06,
+    "ret_final": 0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -76219,7 +76221,9 @@
     "code_version": "f13c5f5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.34
+    "ret_now": 0.07,
+    "ret_final": 0.07,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -76250,7 +76254,7 @@
     "code_version": "e717913",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": -0.16
   },
   {
     "symbol": "WSM",
@@ -76281,7 +76285,7 @@
     "code_version": "535f852",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": 0.03
   },
   {
     "symbol": "RPM",
@@ -76312,7 +76316,7 @@
     "code_version": "535f852",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06
+    "ret_now": -0.03
   },
   {
     "symbol": "CRBG",
@@ -76343,7 +76347,7 @@
     "code_version": "535f852",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.06
   },
   {
     "symbol": "EL",
@@ -76369,6 +76373,34 @@
     "evidence": "average cost $108.3",
     "trigger": "stop_loss",
     "hour_et": 11,
-    "code_version": "3b4b8bf"
+    "code_version": "3b4b8bf",
+    "hold_minutes": 11
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 3.163959,
+    "status": "filled",
+    "price": 237.21,
+    "proceeds": 750.52,
+    "realized_pnl": 0.52,
+    "realized_pct": 0.07,
+    "date": "2026-10-23",
+    "time_et": "11:37",
+    "ts": 1792769700,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $237.04",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "6518bfc",
+    "hold_minutes": 11
   }
 ]
