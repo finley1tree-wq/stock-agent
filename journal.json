@@ -76580,7 +76580,7 @@
     "code_version": "73e2d0c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.18
+    "ret_now": -0.05
   },
   {
     "symbol": "AMT",
@@ -76644,7 +76644,9 @@
     "code_version": "73e2d0c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": -0.04,
+    "ret_final": -0.04,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -76675,7 +76677,7 @@
     "code_version": "73e2d0c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01
+    "ret_now": -0.04
   },
   {
     "symbol": "RIG",
@@ -76946,7 +76948,7 @@
     "code_version": "d957fad",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05
+    "ret_now": -0.04
   },
   {
     "symbol": "AMT",
@@ -77001,5 +77003,31 @@
     "hour_et": 14,
     "code_version": "1bc0329",
     "hold_minutes": 65
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 1.920673,
+    "status": "filled",
+    "price": 390.32,
+    "proceeds": 749.68,
+    "realized_pnl": -0.32,
+    "realized_pct": -0.04,
+    "date": "2026-10-23",
+    "time_et": "14:32",
+    "ts": 1792780328,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.02% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14,
+    "code_version": "77f8512",
+    "hold_minutes": 89
   }
 ]
