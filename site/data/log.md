@@ -1,6 +1,3 @@
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
   (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
   (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKFvQeKGG4YrR8XjQqcL'}
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% ADI @ $389.29 until 2026-10-28 — close it all at -1.0% under the average cost
 portfolio: equity $25248.96 (+1.00% on $25000.00 in) · cash $21503.80 · realised +253.80
 Decision: nothing at this check. 15 standing order(s) working.
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [take_profit @ $390.30] -> $753.10 (+0.41%) — close 100% at +0.4% over the average cost
+## 2026-10-23 10:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
