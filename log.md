@@ -42861,3 +42861,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 NXPI @ $231.37 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25206.03 (+0.82% on $25000.00 in) · cash $4224.44 · realised +224.44
 Done: 0 sell(s), 3 buy(s); 21 order(s) working; budget left $3983.05 this week
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $259.53] -> $3008.03 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-10-23 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders

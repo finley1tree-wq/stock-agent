@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "c3e3c484",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 99.933,
-   "status": "cancelled",
-   "created": "2026-10-19 09:32",
-   "created_ts": 1792416761,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $99.65",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-24",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-19 09:53",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "0328bd18",
    "ticker": "RPM",
    "kind": "stop_loss",
@@ -7082,7 +7063,7 @@
    "ticker": "WSM",
    "kind": "take_profit",
    "price": 259.5263,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-23 09:32",
    "created_ts": 1792762360,
    "why": "close 100% at +0.3% over the average cost",
@@ -7092,14 +7073,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 09:36"
   },
   {
    "id": "4420d4ca",
    "ticker": "WSM",
    "kind": "stop_loss",
    "price": 257.0907,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 09:32",
    "created_ts": 1792762360,
    "why": "close it all at -0.7% under the average cost",
@@ -7109,14 +7091,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 09:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "244bfeb2",
    "ticker": "WSM",
    "kind": "buy_limit",
    "price": 251.0651,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 09:32",
    "created_ts": 1792762360,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7126,7 +7110,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-23 09:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "027900c2",
@@ -7328,7 +7314,7 @@
    "ticker": "RIG",
    "kind": "stop_loss",
    "price": 6.0579,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 09:36",
    "created_ts": 1792762565,
    "why": "close it all at -1.0% under the average cost",
@@ -7338,7 +7324,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 09:36",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "94850d9d",
@@ -7458,6 +7446,23 @@
    ],
    "good_until": "2026-10-28",
    "usd": 500.0
+  },
+  {
+   "id": "821a7104",
+   "ticker": "RIG",
+   "kind": "stop_loss",
+   "price": 6.132,
+   "status": "working",
+   "created": "2026-10-23 09:36",
+   "created_ts": 1792762608,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $6.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
   }
  ],
  "updated": "2026-10-23 09:36"
