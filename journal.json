@@ -74874,7 +74874,7 @@
     "code_version": "8e447ea",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05
+    "ret_now": 0.0
   },
   {
     "symbol": "AMT",
@@ -74971,7 +74971,7 @@
     "code_version": "8e447ea",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.15
+    "ret_now": -0.06
   },
   {
     "symbol": "CRBG",
@@ -75002,7 +75002,9 @@
     "code_version": "8e447ea",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.49
+    "ret_now": -0.75,
+    "ret_final": -0.75,
+    "ret_src": "realised"
   },
   {
     "symbol": "EL",
@@ -75114,7 +75116,9 @@
     "code_version": "4baa638",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.65
+    "ret_now": 0.57,
+    "ret_final": 0.57,
+    "ret_src": "realised"
   },
   {
     "symbol": "CLF",
@@ -75145,7 +75149,9 @@
     "code_version": "4baa638",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.76
+    "ret_now": 0.75,
+    "ret_final": 0.75,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -75176,7 +75182,9 @@
     "code_version": "4baa638",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.39
+    "ret_now": 0.6,
+    "ret_final": 0.6,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -75229,7 +75237,8 @@
     "evidence": "average cost $35.02",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "fb75bf3"
+    "code_version": "fb75bf3",
+    "hold_minutes": 2
   },
   {
     "symbol": "RIG",
@@ -75255,7 +75264,8 @@
     "evidence": "average cost $6.12",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "fb75bf3"
+    "code_version": "fb75bf3",
+    "hold_minutes": 3
   },
   {
     "symbol": "CLF",
@@ -75281,6 +75291,34 @@
     "evidence": "average cost $13.22",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "fb75bf3"
+    "code_version": "fb75bf3",
+    "hold_minutes": 3
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 12.577278,
+    "status": "filled",
+    "price": 239.96,
+    "proceeds": 3018.04,
+    "realized_pnl": 18.04,
+    "realized_pct": 0.6,
+    "date": "2026-10-23",
+    "time_et": "09:41",
+    "ts": 1792762800,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $238.53",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "0c5ccab",
+    "hold_minutes": 3
   }
 ]

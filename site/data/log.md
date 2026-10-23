@@ -1,6 +1,3 @@
-## 2026-10-22 15:02 ET (Thursday) — week 2026-W43 — budget left $24170.44 (today $44250.00 put to work, 32 buys, 31 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
   (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
   (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 18 standing order(s) working.
   (cancelled 2 standing order(s) on CLF: position closed)
 - SELL 100% CLF [take_profit @ $13.31] -> $3022.64 (+0.75%) — close 100% at +0.7% over the average cost
 ## 2026-10-23 09:40 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [take_profit @ $239.96] -> $3018.04 (+0.60%) — close 100% at +0.4% over the average cost
+## 2026-10-23 09:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,11 +1,10 @@
 {
   "week": "2026-W43",
-  "spent": 8991.61,
+  "spent": 5973.57,
   "deployed": 177000.0,
   "by_ticker": {
     "RPM": 3045.52,
     "GTES": 52.54,
-    "NXPI": 3010.76,
     "IBRX": 12.19,
     "FUL": 3.96,
     "RIG": 8.46,
@@ -5076,13 +5075,34 @@
       ],
       "evidence": "average cost $13.22",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 12.577278,
+      "status": "filled",
+      "price": 239.96,
+      "proceeds": 3018.04,
+      "realized_pnl": 18.04,
+      "realized_pct": 0.6,
+      "date": "2026-10-23",
+      "time_et": "09:41",
+      "ts": 1792762800,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $238.53",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-23",
-  "spent_today": 8909.85,
+  "spent_today": 5891.81,
   "deployed_today": 30000.0,
   "orders_today": 10,
-  "sells_today": 7,
+  "sells_today": 8,
   "sold_today": [
     "EL",
     "FITB",
@@ -5090,10 +5110,11 @@
     "WSM",
     "CRBG",
     "RIG",
-    "CLF"
+    "CLF",
+    "NXPI"
   ],
   "sold_ts": {
-    "NXPI": 1792689906,
+    "NXPI": 1792762861,
     "ADI": 1792690488,
     "MSFT": 1792597155,
     "IBRX": 1792677950,
@@ -5111,8 +5132,8 @@
     "AMT": 1792762518,
     "CLF": 1792762827
   },
-  "last_publish_ts": 1792762826,
-  "last_check_ts": 1792762826,
+  "last_publish_ts": 1792762860,
+  "last_check_ts": 1792762910,
   "exp_arm": {
     "RPM": {
       "params": {
@@ -5179,18 +5200,15 @@
     }
   },
   "last_bar_ts": 1792762800,
-  "last_decision_ts": 1792762736,
+  "last_decision_ts": 1792762910,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "d2ee5a46": 239.477,
-    "c19dcb06": 238.962,
-    "89208891": 100.5237,
     "027900c2": 391.0342,
+    "89208891": 100.5237,
     "be806160": 99.5663,
     "235b9e7d": 385.8376,
     "61dfcd32": 97.2425,
-    "14e0240e": 377.8635,
-    "a5eead93": 231.3741
+    "14e0240e": 377.8635
   }
 }
