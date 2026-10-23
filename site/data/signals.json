@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-23T10:46-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-23T10:53-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "5cb30626",
-   "ticker": "RIG",
-   "kind": "stop_loss",
-   "price": 6.3235,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 6.36,
-   "pct_away": -0.57,
-   "good_until": "2026-10-28",
-   "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "fb11ba0b",
    "ticker": "RIG",
    "kind": "take_profit",
@@ -202,10 +185,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 6.36,
-   "pct_away": 0.89,
+   "last": 6.41,
+   "pct_away": 0.1,
    "good_until": "2026-10-28",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e216d3c6",
+   "ticker": "RIG",
+   "kind": "stop_loss",
+   "price": 6.402,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 6.41,
+   "pct_away": -0.12,
+   "good_until": "2026-10-28",
+   "why": "close it all at -1.0% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +219,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 6.36,
-   "pct_away": -2.54,
+   "last": 6.41,
+   "pct_away": -3.3,
    "good_until": "2026-10-28",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
