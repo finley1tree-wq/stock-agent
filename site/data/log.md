@@ -1,132 +1,3 @@
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHoiaXmNkbw4ParWj67N'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25161.35 (+0.65% on $25000.00 in) · cash $24411.83 · realised +161.83
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-22 15:14 ET (Thursday) — week 2026-W43 — budget left $24170.44 (today $44250.00 put to work, 32 buys, 31 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
-  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHoxFgbUEnzX7Q2vUCWi'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25160.10 (+0.64% on $25000.00 in) · cash $24411.83 · realised +161.83
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-22 15:17 ET (Thursday) — week 2026-W43 — budget left $24170.44 (today $44250.00 put to work, 32 buys, 31 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
-  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHpAocZ6Jc7ho5vWXp4R'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25160.94 (+0.64% on $25000.00 in) · cash $24411.83 · realised +161.83
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-22 15:20 ET (Thursday) — week 2026-W43 — budget left $24170.44 (today $44250.00 put to work, 32 buys, 31 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
-  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHpQ5LiEuwj6zDgRjHx1'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25161.22 (+0.64% on $25000.00 in) · cash $24411.83 · realised +161.83
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-22 15:23 ET (Thursday) — week 2026-W43 — budget left $24170.44 (today $44250.00 put to work, 32 buys, 31 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
-  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHpdYE6Wgdatyrxrb9Y3'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25159.96 (+0.64% on $25000.00 in) · cash $24411.83 · realised +161.83
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-22 15:26 ET (Thursday) — week 2026-W43 — budget left $24170.44 (today $44250.00 put to work, 32 buys, 31 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
-  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHpr7EYZ1B126AXdx56f'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25159.26 (+0.64% on $25000.00 in) · cash $24411.83 · realised +161.83
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-22 15:29 ET (Thursday) — week 2026-W43 — budget left $24170.44 (today $44250.00 put to work, 32 buys, 31 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
-  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHq5ZYgjaAkziv71nKEk'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25159.40 (+0.64% on $25000.00 in) · cash $24411.83 · realised +161.83
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-22 15:32 ET (Thursday) — week 2026-W43 — budget left $24170.44 (today $44250.00 put to work, 32 buys, 31 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
-  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHqK4yrqAFd9Kjudm3pg'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25159.40 (+0.64% on $25000.00 in) · cash $24411.83 · realised +161.83
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-22 15:36 ET (Thursday) — week 2026-W43 — budget left $24170.44 (today $44250.00 put to work, 32 buys, 31 sells) — SIM (pretend money) via sim
-  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CLM excluded: too thinly traded ($13.6M a day) — Cornerstone Strategic Investment Fund, Inc.)
-  (CRF excluded: too thinly traded ($8.8M a day) — Cornerstone Total Return Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgHqZmzaDvw9vetaGB1Ve'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25160.10 (+0.64% on $25000.00 in) · cash $24411.83 · realised +161.83
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-22 15:39 ET (Thursday) — week 2026-W43 — budget left $24170.44 (today $44250.00 put to work, 32 buys, 31 sells) — SIM (pretend money) via sim
   (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
@@ -398,3 +269,132 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on ADI: position closed)
 - SELL 100% ADI [stop_loss @ $389.64] -> $3000.71 (+0.02%) — close it all at -0.9% under the average cost
 ## 2026-10-23 09:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-23 09:50 ET (Friday) — week 2026-W43 — budget left $25000.00 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKH1qq95qUoHeGkFh5w8'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25246.59 (+0.99% on $25000.00 in) · cash $25246.59 · realised +246.59
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 09:53 ET (Friday) — week 2026-W43 — budget left $25000.00 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKHF17rrUzKATLRZv29x'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25246.59 (+0.99% on $25000.00 in) · cash $25246.59 · realised +246.59
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 09:56 ET (Friday) — week 2026-W43 — budget left $25000.00 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKHTKXEDKNf4R3iCcr6g'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25246.59 (+0.99% on $25000.00 in) · cash $25246.59 · realised +246.59
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 09:59 ET (Friday) — week 2026-W43 — budget left $25000.00 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKHgFt4ys5gF39nFZCbY'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25246.59 (+0.99% on $25000.00 in) · cash $25246.59 · realised +246.59
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 10:01 ET (Friday) — week 2026-W43 — budget left $25000.00 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKHtTBoGPmabjyw1tYjg'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25246.59 (+0.99% on $25000.00 in) · cash $25246.59 · realised +246.59
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 10:04 ET (Friday) — week 2026-W43 — budget left $25000.00 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKJ7B53KeK9k3Pfe2gSK'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25246.59 (+0.99% on $25000.00 in) · cash $25246.59 · realised +246.59
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 10:07 ET (Friday) — week 2026-W43 — budget left $25000.00 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKJKbgDQgzfTHgcSff3n'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25246.59 (+0.99% on $25000.00 in) · cash $25246.59 · realised +246.59
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 10:10 ET (Friday) — week 2026-W43 — budget left $25000.00 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKJYQB2s2xv67BxndBDk'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25246.59 (+0.99% on $25000.00 in) · cash $25246.59 · realised +246.59
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-23 10:13 ET (Friday) — week 2026-W43 — budget left $25000.00 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
+  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKJmkfSc7YPEr9pN42XM'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 1: CACI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 CACI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +1.3% over the month; 84% of today's range
+~ WORKING take_profit 100% CACI @ $626.99 until 2026-10-28 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CACI @ $619.38 until 2026-10-28 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 CACI @ $606.08 until 2026-10-28 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25246.29 (+0.99% on $25000.00 in) · cash $24496.59 · realised +246.59
+Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $24250.00 this week
