@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-23T10:53-04:00",
- "note": "tick: watching",
+ "asOf": "2026-10-23T10:55-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -176,59 +176,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "fb11ba0b",
-   "ticker": "RIG",
-   "kind": "take_profit",
-   "price": 6.4166,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 6.41,
-   "pct_away": 0.1,
-   "good_until": "2026-10-28",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e216d3c6",
-   "ticker": "RIG",
-   "kind": "stop_loss",
-   "price": 6.402,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 6.41,
-   "pct_away": -0.12,
-   "good_until": "2026-10-28",
-   "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "2a70122a",
-   "ticker": "RIG",
-   "kind": "buy_limit",
-   "price": 6.1983,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 6.41,
-   "pct_away": -3.3,
-   "good_until": "2026-10-28",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)",
  "congress_trades": [
