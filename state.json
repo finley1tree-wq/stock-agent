@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 4510.4,
+  "spent": 3767.81,
   "deployed": 198750.0,
   "by_ticker": {
     "RPM": 817.77,
@@ -14,7 +14,7 @@
     "FBK": 2.2,
     "WSM": 5.96,
     "EL": 750.0,
-    "AMT": 750.0,
+    "AMT": 7.41,
     "NXPI": 750.0,
     "CLF": 750.0
   },
@@ -6263,13 +6263,34 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "AMT",
+      "side": "sell",
+      "qty": 3.977611,
+      "status": "filled",
+      "price": 186.69,
+      "proceeds": 742.59,
+      "realized_pnl": -7.41,
+      "realized_pct": -0.99,
+      "date": "2026-10-23",
+      "time_et": "14:01",
+      "ts": 1792778400,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $188.56",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-23",
-  "spent_today": 4510.4,
+  "spent_today": 3767.81,
   "deployed_today": 51750.0,
   "orders_today": 39,
-  "sells_today": 33,
+  "sells_today": 34,
   "sold_today": [
     "EL",
     "FITB",
@@ -6299,11 +6320,11 @@
     "CACI": 1792776959,
     "EL": 1792769791,
     "FBK": 1792698171,
-    "AMT": 1792768986,
+    "AMT": 1792778526,
     "CLF": 1792765874
   },
-  "last_publish_ts": 1792778429,
-  "last_check_ts": 1792778429,
+  "last_publish_ts": 1792778517,
+  "last_check_ts": 1792778517,
   "exp_arm": {
     "EL": {
       "params": {
@@ -6361,21 +6382,19 @@
     }
   },
   "last_bar_ts": 1792778400,
-  "last_decision_ts": 1792778335,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1792778517,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "a043cc84": 186.7857,
     "1767eee6": 99.0655,
-    "a30c4999": 391.9856,
     "a7c0ead3": 238.0331,
+    "a30c4999": 391.9856,
     "4793643d": 108.548,
-    "875359bf": 13.9888,
     "ccf91c8b": 98.0648,
     "bc67f8c5": 107.1539,
+    "875359bf": 13.9888,
     "68e65805": 386.7491,
     "6af63a0b": 234.6973,
-    "749cd6e5": 189.269,
     "1222fd79": 13.6432
   }
 }
