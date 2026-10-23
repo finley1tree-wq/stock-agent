@@ -1,82 +1,6 @@
 {
  "orders": [
   {
-   "id": "c0874655",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 512.0145,
-   "status": "cancelled",
-   "created": "2026-10-16 13:52",
-   "created_ts": 1792173127,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $527.85",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "usd": 500.0,
-   "closed": "2026-10-16 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "9a14f2a7",
-   "ticker": "GTES",
-   "kind": "take_profit",
-   "price": 26.0052,
-   "status": "cancelled",
-   "created": "2026-10-16 13:52",
-   "created_ts": 1792173127,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $25.9",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-16 15:22",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "55631093",
-   "ticker": "GTES",
-   "kind": "stop_loss",
-   "price": 25.6371,
-   "status": "cancelled",
-   "created": "2026-10-16 13:52",
-   "created_ts": 1792173127,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $25.9",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-16 15:22",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "b28a55ee",
-   "ticker": "GTES",
-   "kind": "buy_limit",
-   "price": 25.123,
-   "status": "cancelled",
-   "created": "2026-10-16 13:52",
-   "created_ts": 1792173127,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $25.9",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-21",
-   "usd": 500.0,
-   "closed": "2026-10-16 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "896b3c32",
    "ticker": "WSM",
    "kind": "take_profit",
@@ -7125,7 +7049,7 @@
    "ticker": "EL",
    "kind": "stop_loss",
    "price": 106.3785,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 09:32",
    "created_ts": 1792762360,
    "why": "close it all at -0.9% under the average cost",
@@ -7135,7 +7059,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 09:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "13e25e67",
@@ -7176,7 +7102,7 @@
    "ticker": "FITB",
    "kind": "stop_loss",
    "price": 52.3546,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 09:32",
    "created_ts": 1792762360,
    "why": "close it all at -0.6% under the average cost",
@@ -7186,7 +7112,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 09:34",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "920e37d1",
@@ -7278,7 +7206,7 @@
    "ticker": "AMT",
    "kind": "stop_loss",
    "price": 192.8153,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-23 09:32",
    "created_ts": 1792762360,
    "why": "close it all at -0.9% under the average cost",
@@ -7288,7 +7216,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-28",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 09:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "31c6f140",
@@ -7459,7 +7389,77 @@
    ],
    "good_until": "2026-10-28",
    "usd": 500.0
+  },
+  {
+   "id": "d7bc90d2",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 107.548,
+   "status": "cancelled",
+   "created": "2026-10-23 09:33",
+   "created_ts": 1792762428,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $107.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-23 09:34",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "ad41fa2b",
+   "ticker": "AMT",
+   "kind": "stop_loss",
+   "price": 195.34,
+   "status": "working",
+   "created": "2026-10-23 09:33",
+   "created_ts": 1792762428,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $194.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4025f820",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 107.818,
+   "status": "working",
+   "created": "2026-10-23 09:34",
+   "created_ts": 1792762474,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $107.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6308052a",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 52.726,
+   "status": "working",
+   "created": "2026-10-23 09:34",
+   "created_ts": 1792762474,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $52.66",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-28",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-23 09:32"
+ "updated": "2026-10-23 09:34"
 }
