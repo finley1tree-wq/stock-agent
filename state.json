@@ -1,7 +1,7 @@
 {
   "week": "2026-W43",
-  "spent": 5254.92,
-  "deployed": 196500.0,
+  "spent": 6004.92,
+  "deployed": 197250.0,
   "by_ticker": {
     "RPM": 67.77,
     "GTES": 52.54,
@@ -16,7 +16,8 @@
     "FITB": 750.04,
     "EL": 750.0,
     "AMT": 750.0,
-    "NXPI": 750.0
+    "NXPI": 750.0,
+    "CLF": 750.0
   },
   "deployed_by_ticker": {
     "WSM": 23250.0,
@@ -35,7 +36,7 @@
     "EL": 10500.0,
     "FBK": 4500.0,
     "AMT": 5250.0,
-    "CLF": 3750.0
+    "CLF": 4500.0
   },
   "orders": [
     {
@@ -6113,12 +6114,34 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "CLF",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 54.012977,
+      "price": 13.89,
+      "date": "2026-10-23",
+      "time_et": "13:14",
+      "ts": 1792775655,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +11.0% over the month; 82% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-23",
-  "spent_today": 5254.92,
-  "deployed_today": 49500.0,
-  "orders_today": 36,
+  "spent_today": 6004.92,
+  "deployed_today": 50250.0,
+  "orders_today": 37,
   "sells_today": 29,
   "sold_today": [
     "EL",
@@ -6152,8 +6175,8 @@
     "AMT": 1792768986,
     "CLF": 1792765874
   },
-  "last_publish_ts": 1792775287,
-  "last_check_ts": 1792775563,
+  "last_publish_ts": 1792775655,
+  "last_check_ts": 1792775655,
   "exp_arm": {
     "WSM": {
       "params": {
@@ -6217,33 +6240,45 @@
       "tags": {
         "hold_long": 120
       }
+    },
+    "CLF": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
     }
   },
   "last_bar_ts": 1792775400,
-  "last_decision_ts": 1792775473,
-  "next_check_minutes": null,
+  "last_decision_ts": 1792775655,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "2b5913d3": 251.1846,
     "fd6bbdc1": 53.1731,
-    "a7c0ead3": 238.0331,
-    "4793643d": 108.548,
-    "a30c4999": 391.9856,
     "9158d80d": 6.4772,
     "bc8c9a55": 52.7423,
+    "4793643d": 108.548,
     "749cd6e5": 189.269,
-    "a043cc84": 186.7857,
-    "02ccb3db": 253.8241,
-    "bc67f8c5": 107.1539,
     "68e65805": 386.7491,
-    "ae910c88": 6.3819,
+    "a043cc84": 186.7857,
+    "a7c0ead3": 238.0331,
+    "a30c4999": 391.9856,
     "6af63a0b": 234.6973,
+    "bc67f8c5": 107.1539,
+    "875359bf": 13.9888,
+    "02ccb3db": 253.8241,
+    "ae910c88": 6.3819,
+    "1222fd79": 13.6432,
     "e8dd343d": 245.4779,
-    "285d2019": 182.9032,
-    "141d4213": 51.4585,
     "152d8f1c": 378.7753,
+    "ca65b865": 229.9676,
+    "285d2019": 182.9032,
     "e884c1e9": 104.9055,
-    "7ebafe90": 6.2565,
-    "ca65b865": 229.9676
+    "141d4213": 51.4585,
+    "6d80599b": 13.4733,
+    "7ebafe90": 6.2565
   }
 }
