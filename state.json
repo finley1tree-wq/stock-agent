@@ -1,6 +1,6 @@
 {
   "week": "2026-W43",
-  "spent": 3005.04,
+  "spent": 2252.16,
   "deployed": 192000.0,
   "by_ticker": {
     "RPM": 815.05,
@@ -10,7 +10,7 @@
     "RIG": 4.34,
     "CACI": 57.93,
     "CRBG": 64.91,
-    "ADI": 776.16,
+    "ADI": 23.28,
     "FBK": 2.2,
     "WSM": 750.0,
     "FITB": 750.0
@@ -5916,13 +5916,34 @@
       ],
       "evidence": "average cost $34.5",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.918609,
+      "status": "filled",
+      "price": 392.41,
+      "proceeds": 752.88,
+      "realized_pnl": 2.88,
+      "realized_pct": 0.38,
+      "date": "2026-10-23",
+      "time_et": "12:06",
+      "ts": 1792771500,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $390.91",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-23",
-  "spent_today": 3005.04,
+  "spent_today": 2252.16,
   "deployed_today": 45000.0,
   "orders_today": 30,
-  "sells_today": 26,
+  "sells_today": 27,
   "sold_today": [
     "EL",
     "FITB",
@@ -5938,7 +5959,7 @@
   ],
   "sold_ts": {
     "NXPI": 1792769878,
-    "ADI": 1792766432,
+    "ADI": 1792771570,
     "MSFT": 1792597155,
     "IBRX": 1792677950,
     "GTES": 1792436890,
@@ -5955,8 +5976,8 @@
     "AMT": 1792768986,
     "CLF": 1792765874
   },
-  "last_publish_ts": 1792771468,
-  "last_check_ts": 1792771516,
+  "last_publish_ts": 1792771570,
+  "last_check_ts": 1792771615,
   "exp_arm": {
     "ADI": {
       "params": {
@@ -6009,8 +6030,6 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "dc069fa2": 392.4072,
-    "8471df46": 391.474,
     "cea87f43": 53.2733,
     "02ccb3db": 253.8241,
     "b04b5510": 99.5258,
@@ -6019,7 +6038,6 @@
     "2b5913d3": 251.1846,
     "eadf919a": 96.2628,
     "e8dd343d": 245.4779,
-    "9d97e73b": 51.5555,
-    "8aa8bce1": 379.1827
+    "9d97e73b": 51.5555
   }
 }
