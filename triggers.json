@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "76975eb7",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 238.8535,
-   "status": "cancelled",
-   "created": "2026-10-20 13:01",
-   "created_ts": 1792515703,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $237.89",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-25",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-20 13:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "98d80ef5",
    "ticker": "NXPI",
    "kind": "stop_loss",
@@ -7351,7 +7332,7 @@
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 393.1374,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-26 10:22",
    "created_ts": 1793024537,
    "why": "close it all at -1.0% under the average cost",
@@ -7361,7 +7342,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-31",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-26 10:26",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "a1a90567",
@@ -7481,7 +7464,24 @@
    ],
    "good_until": "2026-10-31",
    "usd": 500.0
+  },
+  {
+   "id": "f0a45183",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 397.658,
+   "status": "working",
+   "created": "2026-10-26 10:26",
+   "created_ts": 1793024774,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $396.92",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-31",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-26 10:24"
+ "updated": "2026-10-26 10:27"
 }
