@@ -46113,3 +46113,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 FITB @ $51.51 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25271.07 (+1.08% on $25000.00 in) · cash $23770.60 · realised +270.60
 Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $23494.05 this week
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $247.42] -> $750.14 (+0.02%) — close it all at -1.0% under the average cost
+## 2026-10-26 13:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,3 @@
-  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25267.60 (+1.07% on $25000.00 in) · cash $23773.09 · realised +273.09
-Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-10-26 12:37 ET (Monday) — week 2026-W44 — budget left $23496.54 (today $30000.00 put to work, 19 buys, 17 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 FITB @ $51.51 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25271.07 (+1.08% on $25000.00 in) · cash $23770.60 · realised +270.60
 Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $23494.05 this week
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $247.42] -> $750.14 (+0.02%) — close it all at -1.0% under the average cost
+## 2026-10-26 13:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
