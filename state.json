@@ -1,11 +1,11 @@
 {
   "week": "2026-W44",
-  "spent": 2253.05,
-  "deployed": 27750.0,
+  "spent": 4503.05,
+  "deployed": 30000.0,
   "by_ticker": {
-    "NXPI": 0.23,
-    "WSM": 24.75,
-    "ADI": 0.07,
+    "NXPI": 750.23,
+    "WSM": 774.75,
+    "ADI": 750.07,
     "FITB": 754.72,
     "CRBG": 750.0,
     "CACI": 750.0
@@ -13,10 +13,10 @@
   "deployed_by_ticker": {
     "EL": 3750.0,
     "FITB": 4500.0,
-    "ADI": 3750.0,
+    "ADI": 4500.0,
     "CACI": 4500.0,
-    "NXPI": 3750.0,
-    "WSM": 3750.0,
+    "NXPI": 4500.0,
+    "WSM": 4500.0,
     "CRBG": 3750.0
   },
   "orders": [
@@ -644,12 +644,78 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ADI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.855743,
+      "price": 404.15,
+      "date": "2026-10-26",
+      "time_et": "11:34",
+      "ts": 1793028897,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +2.7% over the month; 78% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "WSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.009394,
+      "price": 249.22,
+      "date": "2026-10-26",
+      "time_et": "11:34",
+      "ts": 1793028897,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +7.4% over the month; 18% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.042861,
+      "price": 246.48,
+      "date": "2026-10-26",
+      "time_et": "11:34",
+      "ts": 1793028897,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +3.5% over the month; 85% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-10-26",
-  "spent_today": 2253.05,
-  "deployed_today": 27750.0,
-  "orders_today": 16,
+  "spent_today": 4503.05,
+  "deployed_today": 30000.0,
+  "orders_today": 19,
   "sells_today": 13,
   "sold_today": [
     "ADI",
@@ -669,8 +735,8 @@
     "CRBG": 1793022379,
     "EL": 1793028672
   },
-  "last_publish_ts": 1793028720,
-  "last_check_ts": 1793028813,
+  "last_publish_ts": 1793028897,
+  "last_check_ts": 1793028897,
   "exp_arm": {
     "CRBG": {
       "params": {
@@ -698,21 +764,57 @@
       "tags": {
         "hold_long": 120
       }
+    },
+    "ADI": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
+    },
+    "WSM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
+    },
+    "NXPI": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
     }
   },
   "last_bar_ts": 1793028600,
-  "last_decision_ts": 1793028720,
+  "last_decision_ts": 1793028897,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "b6dcb42f": 53.3334,
+    "46f1e4cf": 249.9552,
     "c912ad0f": 671.2244,
+    "187719f2": 405.7302,
+    "519ba1e0": 247.5054,
     "26142e00": 52.9008,
     "133104ae": 35.184,
     "8b61c79c": 34.7849,
+    "05ef9fdc": 247.3832,
     "b454aa4b": 662.844,
+    "8f29718f": 400.2015,
+    "d70704fa": 243.9166,
     "dbc40943": 34.0179,
     "ff20ab19": 51.6137,
+    "389caf8d": 241.7434,
+    "34ae76e2": 239.0856,
+    "8b6e9f07": 392.0255,
     "305058fc": 648.7651
   }
 }
