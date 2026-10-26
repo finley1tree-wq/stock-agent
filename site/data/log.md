@@ -1,5 +1,3 @@
-~ WORKING buy_limit $500.00 CACI @ $648.77 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25271.11 (+1.08% on $25000.00 in) · cash $23023.51 · realised +273.51
 Done: 0 sell(s), 2 buy(s); 9 order(s) working; budget left $22746.95 this week
 
 ## 2026-10-26 11:34 ET (Monday) — week 2026-W44 — budget left $22746.95 (today $27750.00 put to work, 16 buys, 13 sells) — SIM (pretend money) via sim
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 CRBG @ $33.85 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25270.69 (+1.08% on $25000.00 in) · cash $23023.09 · realised +273.09
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22746.54 this week
+- SELL 100% FITB [time stop] -> $747.15 (-0.38%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-26 13:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
