@@ -1,15 +1,16 @@
 {
   "week": "2026-W44",
-  "spent": 1500.0,
-  "deployed": 22500.0,
+  "spent": 2250.0,
+  "deployed": 23250.0,
   "by_ticker": {
     "NXPI": 750.2,
     "WSM": 18.95,
-    "ADI": 750.0
+    "ADI": 750.0,
+    "FITB": 750.0
   },
   "deployed_by_ticker": {
     "EL": 3000.0,
-    "FITB": 3000.0,
+    "FITB": 3750.0,
     "ADI": 3750.0,
     "CACI": 3000.0,
     "NXPI": 3750.0,
@@ -361,12 +362,34 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "FITB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.997388,
+      "price": 53.58,
+      "date": "2026-10-26",
+      "time_et": "10:24",
+      "ts": 1793024662,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +2.8% over the month; 62% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-26",
-  "spent_today": 1500.0,
-  "deployed_today": 22500.0,
-  "orders_today": 9,
+  "spent_today": 2250.0,
+  "deployed_today": 23250.0,
+  "orders_today": 10,
   "sells_today": 7,
   "sold_today": [
     "ADI",
@@ -386,8 +409,8 @@
     "CRBG": 1793022379,
     "EL": 1793023924
   },
-  "last_publish_ts": 1793024537,
-  "last_check_ts": 1793024537,
+  "last_publish_ts": 1793024662,
+  "last_check_ts": 1793024662,
   "exp_arm": {
     "ADI": {
       "params": {
@@ -406,17 +429,29 @@
       "tags": {
         "hold_long": 90
       }
+    },
+    "FITB": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
     }
   },
   "last_bar_ts": 1793024400,
-  "last_decision_ts": 1793024537,
+  "last_decision_ts": 1793024662,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "c3f85643": 53.7038,
     "d52f729b": 398.4323,
     "0e0836a5": 243.4669,
+    "d32f6934": 53.2708,
     "755dc99c": 393.1374,
     "e1e72c22": 240.0091,
+    "077a19c6": 51.9726,
     "e6b5c7f1": 235.2056,
     "a1a90567": 385.0124
   }

@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-26T10:22-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 2: ADI, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "asOf": "2026-10-26T10:24-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,500 idle, so opened 1: FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "c3f85643",
+   "ticker": "FITB",
+   "kind": "take_profit",
+   "price": 53.7038,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 53.56,
+   "pct_away": 0.27,
+   "good_until": "2026-10-31",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "d52f729b",
    "ticker": "ADI",
    "kind": "take_profit",
@@ -185,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 396.84,
-   "pct_away": 0.4,
+   "last": 397.32,
+   "pct_away": 0.28,
    "good_until": "2026-10-31",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -202,10 +219,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 242.38,
-   "pct_away": 0.45,
+   "last": 242.62,
+   "pct_away": 0.35,
    "good_until": "2026-10-31",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d32f6934",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 53.2708,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 53.56,
+   "pct_away": -0.54,
+   "good_until": "2026-10-31",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 396.84,
-   "pct_away": -0.93,
+   "last": 397.32,
+   "pct_away": -1.05,
    "good_until": "2026-10-31",
    "why": "close it all at -1.0% under the average cost",
    "signals": [
@@ -236,10 +270,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 242.38,
-   "pct_away": -0.98,
+   "last": 242.62,
+   "pct_away": -1.08,
    "good_until": "2026-10-31",
    "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "077a19c6",
+   "ticker": "FITB",
+   "kind": "buy_limit",
+   "price": 51.9726,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 53.56,
+   "pct_away": -2.96,
+   "good_until": "2026-10-31",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +304,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 242.38,
-   "pct_away": -2.96,
+   "last": 242.62,
+   "pct_away": -3.06,
    "good_until": "2026-10-31",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -270,8 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 396.84,
-   "pct_away": -2.98,
+   "last": 397.32,
+   "pct_away": -3.1,
    "good_until": "2026-10-31",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -280,7 +331,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 2: ADI, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,500 idle, so opened 1: FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -349,7 +400,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 386,
+  "decisions_graded": 385,
   "decisions_with_buys_graded": 48,
   "independent_days_graded": 3,
   "avg_regret_pct": -0.43,
@@ -450,7 +501,7 @@
     "n": 1
    }
   },
-  "idle_checks": 344,
+  "idle_checks": 343,
   "blocked_checks": 0,
   "idle_share": 0.86,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1986,5 +2037,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-26T10:22-04:00"
+ "signalsAsOf": "2026-10-26T10:24-04:00"
 }

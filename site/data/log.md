@@ -1,20 +1,3 @@
-
-## 2026-10-23 15:31 ET (Friday) — week 2026-W43 — budget left $24987.07 (today $51750.00 put to work, 39 buys, 39 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
-  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKj3toKo44Z56xy5fm1x'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25263.01 (+1.05% on $25000.00 in) · cash $25263.01 · realised +263.01
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-23 15:34 ET (Friday) — week 2026-W43 — budget left $24987.07 (today $51750.00 put to work, 39 buys, 39 sells) — SIM (pretend money) via sim
   (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 NXPI @ $235.21 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25276.10 (+1.10% on $25000.00 in) · cash $23776.55 · realised +276.55
 Done: 0 sell(s), 2 buy(s); 6 order(s) working; budget left $23500.00 this week
+
+## 2026-10-26 10:24 ET (Monday) — week 2026-W44 — budget left $23500.00 (today $22500.00 put to work, 9 buys, 7 sells) — SIM (pretend money) via sim
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CHCO excluded: too thinly traded ($16.2M a day) — City Holding Company)
+  (LCU excluded: not ordinary shares (ecnquote))
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgR12ef8fL3NyW8sxPoLd'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,500 idle, so opened 1: FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +2.8% over the month; 62% of today's range
+~ WORKING take_profit 100% FITB @ $53.70 until 2026-10-31 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% FITB @ $53.27 until 2026-10-31 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $51.97 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25277.45 (+1.11% on $25000.00 in) · cash $23026.55 · realised +276.55
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22750.00 this week
