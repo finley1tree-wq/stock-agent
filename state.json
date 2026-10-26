@@ -1,11 +1,11 @@
 {
   "week": "2026-W44",
-  "spent": 2996.83,
+  "spent": 2253.38,
   "deployed": 30000.0,
   "by_ticker": {
     "WSM": 774.75,
     "FITB": 754.72,
-    "CRBG": 750.0,
+    "CRBG": 6.55,
     "CACI": 750.0
   },
   "deployed_by_ticker": {
@@ -750,13 +750,34 @@
       ],
       "evidence": "average cost $404.15",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CRBG",
+      "side": "sell",
+      "qty": 21.383346,
+      "status": "filled",
+      "price": 34.77,
+      "proceeds": 743.45,
+      "realized_pnl": -6.55,
+      "realized_pct": -0.87,
+      "date": "2026-10-26",
+      "time_et": "11:54",
+      "ts": 1793029800,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $35.07",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-26",
-  "spent_today": 2996.83,
+  "spent_today": 2253.38,
   "deployed_today": 30000.0,
   "orders_today": 19,
-  "sells_today": 15,
+  "sells_today": 16,
   "sold_today": [
     "ADI",
     "NXPI",
@@ -772,11 +793,11 @@
     "FITB": 1793025941,
     "CACI": 1793025439,
     "WSM": 1793026069,
-    "CRBG": 1793022379,
+    "CRBG": 1793030089,
     "EL": 1793028672
   },
-  "last_publish_ts": 1793029297,
-  "last_check_ts": 1793029993,
+  "last_publish_ts": 1793030080,
+  "last_check_ts": 1793030080,
   "exp_arm": {
     "CRBG": {
       "params": {
@@ -834,21 +855,18 @@
     }
   },
   "last_bar_ts": 1793029800,
-  "last_decision_ts": 1793029900,
+  "last_decision_ts": 1793030080,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "b6dcb42f": 53.3334,
-    "46f1e4cf": 249.9552,
-    "8b61c79c": 34.7849,
-    "c912ad0f": 671.2244,
     "26142e00": 52.9008,
     "05ef9fdc": 247.3832,
-    "133104ae": 35.184,
+    "b6dcb42f": 53.3334,
     "b454aa4b": 662.844,
-    "dbc40943": 34.0179,
+    "46f1e4cf": 249.9552,
+    "c912ad0f": 671.2244,
     "305058fc": 648.7651,
-    "ff20ab19": 51.6137,
-    "389caf8d": 241.7434
+    "389caf8d": 241.7434,
+    "ff20ab19": 51.6137
   }
 }
