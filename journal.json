@@ -77783,7 +77783,7 @@
     "code_version": "249a0d3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.29
+    "ret_now": -0.4
   },
   {
     "symbol": "CACI",
@@ -77955,7 +77955,7 @@
     "code_version": "9c15f9b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": -0.06
   },
   {
     "symbol": "CACI",
@@ -77986,7 +77986,7 @@
     "code_version": "9c15f9b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": 0.16
   },
   {
     "symbol": "ADI",
@@ -78017,7 +78017,9 @@
     "code_version": "5820af0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.32
+    "ret_now": 0.39,
+    "ret_final": 0.39,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -78048,7 +78050,7 @@
     "code_version": "5820af0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": 0.06
   },
   {
     "symbol": "NXPI",
@@ -78079,7 +78081,9 @@
     "code_version": "5820af0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.35
+    "ret_now": 0.44,
+    "ret_final": 0.44,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -78105,6 +78109,34 @@
     "evidence": "average cost $246.48",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "52189ce"
+    "code_version": "52189ce",
+    "hold_minutes": 5
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 1.855743,
+    "status": "filled",
+    "price": 405.73,
+    "proceeds": 752.93,
+    "realized_pnl": 2.93,
+    "realized_pct": 0.39,
+    "date": "2026-10-26",
+    "time_et": "11:41",
+    "ts": 1793029200,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $404.15",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "8ceef57",
+    "hold_minutes": 5
   }
 ]

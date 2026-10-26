@@ -1,6 +1,3 @@
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CHCO excluded: too thinly traded ($16.2M a day) — City Holding Company)
   (LCU excluded: not ordinary shares (ecnquote))
   (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgQxmcWkN9jqNvDq2N15A'}
@@ -398,3 +395,6 @@ Decision: nothing at this check. 18 standing order(s) working.
   (cancelled 2 standing order(s) on NXPI: position closed)
 - SELL 100% NXPI [take_profit @ $247.56] -> $753.29 (+0.44%) — close 100% at +0.4% over the average cost
 ## 2026-10-26 11:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [take_profit @ $405.73] -> $752.93 (+0.39%) — close 100% at +0.4% over the average cost
+## 2026-10-26 11:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
