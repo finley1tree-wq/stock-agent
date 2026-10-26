@@ -1,28 +1,3 @@
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
-  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKjkg7UPrtRzodFZHyks'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25263.01 (+1.05% on $25000.00 in) · cash $25263.01 · realised +263.01
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-23 15:44 ET (Friday) — week 2026-W43 — budget left $24987.07 (today $51750.00 put to work, 39 buys, 39 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
-  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKjyvABmKCNdy9ZF5Pd2'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25263.01 (+1.05% on $25000.00 in) · cash $25263.01 · realised +263.01
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-23 15:46 ET (Friday) — week 2026-W43 — budget left $24987.07 (today $51750.00 put to work, 39 buys, 39 sells) — SIM (pretend money) via sim
   (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
@@ -398,3 +373,28 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on NXPI: position closed)
 - SELL 100% NXPI [stop_loss @ $242.47] -> $749.97 (-0.00%) — close it all at -1.0% under the average cost
 ## 2026-10-26 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-26 10:33 ET (Monday) — week 2026-W44 — budget left $24249.90 (today $23250.00 put to work, 10 buys, 9 sells) — SIM (pretend money) via sim
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CHCO excluded: too thinly traded ($16.2M a day) — City Holding Company)
+  (LCU excluded: not ordinary shares (ecnquote))
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgR1mA38DRKJ6mN3ySwm4'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,250 idle, so opened 3: WSM, CACI, CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +8.0% over the month; 25% of today's range
+- BUY $750.00 CACI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +7.7% over the month; 76% of today's range
+- BUY $750.00 CRBG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: insider net buying (Form 4); +0.5% over the month; 72% of today's range
+~ WORKING take_profit 100% WSM @ $251.35 until 2026-10-31 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $248.82 until 2026-10-31 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $243.11 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CACI @ $668.68 until 2026-10-31 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% CACI @ $660.42 until 2026-10-31 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 CACI @ $646.33 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRBG @ $35.18 until 2026-10-31 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CRBG @ $34.78 until 2026-10-31 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CRBG @ $34.02 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25273.86 (+1.10% on $25000.00 in) · cash $22276.45 · realised +276.45
+Done: 0 sell(s), 3 buy(s); 12 order(s) working; budget left $21999.90 this week
