@@ -1,6 +1,3 @@
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
   (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 2 standing order(s) on FITB: position closed)
 - SELL 100% FITB [stop_loss @ $53.24] -> $745.28 (-0.63%) — close it all at -0.6% under the average cost
 ## 2026-10-26 10:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $248.69] -> $744.20 (-0.77%) — close it all at -0.7% under the average cost
+## 2026-10-26 10:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
