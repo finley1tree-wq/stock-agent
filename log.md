@@ -45078,3 +45078,17 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on CRBG: position closed)
 - SELL 100% CRBG [take_profit @ $35.02] -> $3009.29 (+0.31%) — close 100% at +0.3% over the average cost
 ## 2026-10-26 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-26 09:48 ET (Monday) — week 2026-W44 — budget left $22010.98 (today $21000.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CHCO excluded: too thinly traded ($16.2M a day) — City Holding Company)
+  (LCU excluded: not ordinary shares (ecnquote))
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgQxJALszTdZ3NspbPGxD'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25252.82 (+1.01% on $25000.00 in) · cash $22273.99 · realised +273.99
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
