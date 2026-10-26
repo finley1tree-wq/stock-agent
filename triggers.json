@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "8f12c5b2",
-   "ticker": "MSFT",
-   "kind": "take_profit",
-   "price": 527.4408,
-   "status": "filled",
-   "created": "2026-10-21 09:32",
-   "created_ts": 1792589548,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $526.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-21 09:34"
-  },
-  {
    "id": "8ff91436",
    "ticker": "MSFT",
    "kind": "stop_loss",
@@ -7396,7 +7378,7 @@
    "ticker": "CACI",
    "kind": "stop_loss",
    "price": 660.4231,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-26 10:33",
    "created_ts": 1793025210,
    "why": "close it all at -0.9% under the average cost",
@@ -7406,7 +7388,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-10-31",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-26 10:34",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "623f42fe",
@@ -7475,7 +7459,24 @@
    ],
    "good_until": "2026-10-31",
    "usd": 500.0
+  },
+  {
+   "id": "9faed447",
+   "ticker": "CACI",
+   "kind": "stop_loss",
+   "price": 667.04,
+   "status": "working",
+   "created": "2026-10-26 10:34",
+   "created_ts": 1793025283,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $666.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-31",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-26 10:33"
+ "updated": "2026-10-26 10:35"
 }
