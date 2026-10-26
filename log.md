@@ -46180,3 +46180,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25273.60 (+1.09% on $25000.00 in) · cash $24522.64 · realised +272.64
 Decision: nothing at this check. 2 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $249.08] -> $750.42 (+0.06%) — close it all at -0.7% under the average cost
+## 2026-10-26 14:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
