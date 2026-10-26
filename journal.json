@@ -78348,7 +78348,9 @@
     "code_version": "64b694a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.26
+    "ret_now": -0.05,
+    "ret_final": -0.05,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRBG",
@@ -78403,5 +78405,32 @@
     "hour_et": 13,
     "code_version": "312ac47",
     "hold_minutes": 15
+  },
+  {
+    "symbol": "CACI",
+    "side": "sell",
+    "qty": 1.120075,
+    "status": "filled",
+    "price": 669.28,
+    "proceeds": 749.64,
+    "realized_pnl": -0.36,
+    "realized_pct": -0.05,
+    "date": "2026-10-26",
+    "time_et": "13:30",
+    "ts": 1793035800,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $669.6",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "258d1e2",
+    "hold_minutes": 13
   }
 ]
