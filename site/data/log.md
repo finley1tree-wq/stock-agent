@@ -1,20 +1,3 @@
-## 2026-10-23 15:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-23 15:02 ET (Friday) — week 2026-W43 — budget left $24235.54 (today $51750.00 put to work, 39 buys, 38 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
-  (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
-  (LIQT excluded: too thinly traded ($0.1M a day) — LiqTech International, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgKgnzo5mmjL3jfENA5Mv'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25261.03 (+1.04% on $25000.00 in) · cash $24511.48 · realised +261.48
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-23 15:05 ET (Friday) — week 2026-W43 — budget left $24235.54 (today $51750.00 put to work, 39 buys, 38 sells) — SIM (pretend money) via sim
   (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
@@ -398,3 +381,20 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on WSM: position closed)
 - SELL 100% WSM [stop_loss @ $251.12] -> $2981.05 (-0.63%) — close it all at -0.7% under the average cost
 ## 2026-10-26 09:45 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-26 09:45 ET (Monday) — week 2026-W44 — budget left $19001.69 (today $21000.00 put to work, 7 buys, 5 sells) — SIM (pretend money) via sim
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CHCO excluded: too thinly traded ($16.2M a day) — City Holding Company)
+  (LCU excluded: not ordinary shares (ecnquote))
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgQx4aurJ9cKQ7PHoiqoy'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25260.90 (+1.04% on $25000.00 in) · cash $19264.69 · realised +264.69
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [take_profit @ $35.02] -> $3009.29 (+0.31%) — close 100% at +0.3% over the average cost
+## 2026-10-26 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
