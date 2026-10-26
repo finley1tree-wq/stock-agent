@@ -77783,7 +77783,7 @@
     "code_version": "249a0d3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": -0.2
   },
   {
     "symbol": "CACI",
@@ -77895,6 +77895,95 @@
     "code_version": "0a0ab3a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.36
+    "ret_now": 0.36,
+    "ret_final": 0.36,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 6.905224,
+    "status": "filled",
+    "price": 109.01,
+    "proceeds": 752.71,
+    "realized_pnl": 2.71,
+    "realized_pct": 0.36,
+    "date": "2026-10-26",
+    "time_et": "11:31",
+    "ts": 1793027700,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $108.61",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "9c15f9b",
+    "hold_minutes": 6
+  },
+  {
+    "symbol": "FITB",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 14.094757,
+    "price": 53.21,
+    "date": "2026-10-26",
+    "time_et": "11:32",
+    "ts": 1793028720,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +2.1% over the month; 2% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 53.19,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 2.09,
+    "hour_et": 11,
+    "code_version": "9c15f9b",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CACI",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.121366,
+    "price": 668.83,
+    "date": "2026-10-26",
+    "time_et": "11:32",
+    "ts": 1793028720,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +8.1% over the month; 72% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 668.56,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 8.13,
+    "hour_et": 11,
+    "code_version": "9c15f9b",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

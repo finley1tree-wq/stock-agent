@@ -1,20 +1,20 @@
 {
   "week": "2026-W44",
-  "spent": 1505.76,
-  "deployed": 26250.0,
+  "spent": 2253.05,
+  "deployed": 27750.0,
   "by_ticker": {
     "NXPI": 0.23,
     "WSM": 24.75,
     "ADI": 0.07,
-    "FITB": 4.72,
+    "FITB": 754.72,
     "CRBG": 750.0,
-    "EL": 750.0
+    "CACI": 750.0
   },
   "deployed_by_ticker": {
     "EL": 3750.0,
-    "FITB": 3750.0,
+    "FITB": 4500.0,
     "ADI": 3750.0,
-    "CACI": 3750.0,
+    "CACI": 4500.0,
     "NXPI": 3750.0,
     "WSM": 3750.0,
     "CRBG": 3750.0
@@ -579,13 +579,78 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 6.905224,
+      "status": "filled",
+      "price": 109.01,
+      "proceeds": 752.71,
+      "realized_pnl": 2.71,
+      "realized_pct": 0.36,
+      "date": "2026-10-26",
+      "time_et": "11:31",
+      "ts": 1793027700,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $108.61",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "FITB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 14.094757,
+      "price": 53.21,
+      "date": "2026-10-26",
+      "time_et": "11:32",
+      "ts": 1793028720,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +2.1% over the month; 2% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "CACI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.121366,
+      "price": 668.83,
+      "date": "2026-10-26",
+      "time_et": "11:32",
+      "ts": 1793028720,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +8.1% over the month; 72% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-10-26",
-  "spent_today": 1505.76,
-  "deployed_today": 26250.0,
-  "orders_today": 14,
-  "sells_today": 12,
+  "spent_today": 2253.05,
+  "deployed_today": 27750.0,
+  "orders_today": 16,
+  "sells_today": 13,
   "sold_today": [
     "ADI",
     "NXPI",
@@ -602,10 +667,10 @@
     "CACI": 1793025439,
     "WSM": 1793026069,
     "CRBG": 1793022379,
-    "EL": 1793023924
+    "EL": 1793028672
   },
-  "last_publish_ts": 1793027504,
-  "last_check_ts": 1793027735,
+  "last_publish_ts": 1793028720,
+  "last_check_ts": 1793028720,
   "exp_arm": {
     "CRBG": {
       "params": {
@@ -616,7 +681,16 @@
         "hold_long": 90
       }
     },
-    "EL": {
+    "FITB": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
+    },
+    "CACI": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -626,16 +700,19 @@
       }
     }
   },
-  "last_bar_ts": 1793027700,
-  "last_decision_ts": 1793027635,
-  "next_check_minutes": null,
+  "last_bar_ts": 1793028600,
+  "last_decision_ts": 1793028720,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "579b374a": 108.73,
-    "5f7112d5": 109.0064,
+    "b6dcb42f": 53.3334,
+    "c912ad0f": 671.2244,
+    "26142e00": 52.9008,
     "133104ae": 35.184,
     "8b61c79c": 34.7849,
+    "b454aa4b": 662.844,
     "dbc40943": 34.0179,
-    "447a834c": 105.3517
+    "ff20ab19": 51.6137,
+    "305058fc": 648.7651
   }
 }
