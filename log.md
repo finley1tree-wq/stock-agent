@@ -45304,3 +45304,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25276.84 (+1.11% on $25000.00 in) · cash $22276.45 · realised +276.45
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CACI: position closed)
+- SELL 100% CACI [take_profit @ $670.63] -> $754.86 (+0.65%) — close 100% at +0.4% over the average cost
+## 2026-10-26 10:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
