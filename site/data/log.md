@@ -1,20 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-26 12:37 ET (Monday) — week 2026-W44 — budget left $23496.54 (today $30000.00 put to work, 19 buys, 17 sells) — SIM (pretend money) via sim
-  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CHCO excluded: too thinly traded ($16.2M a day) — City Holding Company)
-  (LCU excluded: not ordinary shares (ecnquote))
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgRBAHaVrAMJdAJAVYYAC'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25268.12 (+1.07% on $25000.00 in) · cash $23773.09 · realised +273.09
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-26 12:40 ET (Monday) — week 2026-W44 — budget left $23496.54 (today $30000.00 put to work, 19 buys, 17 sells) — SIM (pretend money) via sim
   (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
   (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
@@ -398,3 +381,20 @@ Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $23494.05 this week
   (cancelled 2 standing order(s) on NXPI: position closed)
 - SELL 100% NXPI [stop_loss @ $247.42] -> $750.14 (+0.02%) — close it all at -1.0% under the average cost
 ## 2026-10-26 13:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-26 13:51 ET (Monday) — week 2026-W44 — budget left $24244.19 (today $33750.00 put to work, 24 buys, 23 sells) — SIM (pretend money) via sim
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CHCO excluded: too thinly traded ($16.2M a day) — City Holding Company)
+  (LCU excluded: not ordinary shares (ecnquote))
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgRGqo1yUFsNgkw6G3ieq'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,244 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +7.3% over the month; 12% of today's range
+~ WORKING take_profit 100% WSM @ $249.67 until 2026-10-31 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $247.10 until 2026-10-31 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $241.47 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25270.43 (+1.08% on $25000.00 in) · cash $23770.75 · realised +270.75
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $23494.19 this week
