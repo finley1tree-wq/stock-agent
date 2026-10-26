@@ -1,9 +1,9 @@
 {
   "week": "2026-W44",
-  "spent": 2256.31,
+  "spent": 1506.46,
   "deployed": 31500.0,
   "by_ticker": {
-    "WSM": 774.75,
+    "WSM": 24.9,
     "FITB": 7.57,
     "CRBG": 756.55,
     "CACI": 0.08,
@@ -857,13 +857,33 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 3.009394,
+      "status": "filled",
+      "price": 249.17,
+      "proceeds": 749.85,
+      "realized_pnl": -0.15,
+      "realized_pct": -0.02,
+      "date": "2026-10-26",
+      "time_et": "13:04",
+      "ts": 1793034287,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, +0.02% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-26",
-  "spent_today": 2256.31,
+  "spent_today": 1506.46,
   "deployed_today": 31500.0,
   "orders_today": 21,
-  "sells_today": 18,
+  "sells_today": 19,
   "sold_today": [
     "ADI",
     "NXPI",
@@ -878,12 +898,12 @@
     "NXPI": 1793029211,
     "FITB": 1793034111,
     "CACI": 1793032255,
-    "WSM": 1793026069,
+    "WSM": 1793034290,
     "CRBG": 1793030089,
     "EL": 1793028672
   },
-  "last_publish_ts": 1793034244,
-  "last_check_ts": 1793034244,
+  "last_publish_ts": 1793034287,
+  "last_check_ts": 1793034335,
   "exp_arm": {
     "WSM": {
       "params": {
@@ -913,19 +933,16 @@
       }
     }
   },
-  "last_bar_ts": 1793034000,
+  "last_bar_ts": 1793034300,
   "last_decision_ts": 1793034244,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "46f1e4cf": 249.9552,
     "50b8e7c3": 35.0141,
-    "c46312e0": 109.2584,
-    "05ef9fdc": 247.3832,
     "f299fd11": 34.6149,
-    "cc07f468": 107.8639,
-    "b3511439": 105.5942,
     "32629f13": 33.853,
-    "389caf8d": 241.7434
+    "c46312e0": 109.2584,
+    "cc07f468": 107.8639,
+    "b3511439": 105.5942
   }
 }
