@@ -77144,7 +77144,7 @@
     "code_version": "cf81f14",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.55
+    "ret_now": -0.33
   },
   {
     "symbol": "FITB",
@@ -77241,7 +77241,9 @@
     "code_version": "cf81f14",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.37
+    "ret_now": 0.35,
+    "ret_final": 0.35,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -77386,7 +77388,9 @@
     "code_version": "43f9e62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.3
+    "ret_now": -0.63,
+    "ret_final": -0.63,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRBG",
@@ -77417,6 +77421,60 @@
     "code_version": "43f9e62",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06
+    "ret_now": 0.29
+  },
+  {
+    "symbol": "CACI",
+    "side": "sell",
+    "qty": 4.569949,
+    "status": "filled",
+    "price": 658.76,
+    "proceeds": 3010.49,
+    "realized_pnl": 10.49,
+    "realized_pct": 0.35,
+    "date": "2026-10-26",
+    "time_et": "09:45",
+    "ts": 1793022000,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $656.46",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "68f1e6c",
+    "hold_minutes": 7
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 11.870796,
+    "status": "filled",
+    "price": 251.12,
+    "proceeds": 2981.05,
+    "realized_pnl": -18.95,
+    "realized_pct": -0.63,
+    "date": "2026-10-26",
+    "time_et": "09:45",
+    "ts": 1793022300,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $252.72",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "68f1e6c",
+    "hold_minutes": 5
   }
 ]
