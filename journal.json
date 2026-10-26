@@ -78230,7 +78230,9 @@
     "code_version": "e437504",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.23
+    "ret_now": 0.06,
+    "ret_final": 0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -78287,7 +78289,9 @@
     "code_version": "7e9a789",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": 0.06,
+    "ret_final": 0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -78344,6 +78348,60 @@
     "code_version": "64b694a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": -0.04
+  },
+  {
+    "symbol": "CRBG",
+    "side": "sell",
+    "qty": 21.487536,
+    "status": "filled",
+    "price": 34.92,
+    "proceeds": 750.44,
+    "realized_pnl": 0.44,
+    "realized_pct": 0.06,
+    "date": "2026-10-26",
+    "time_et": "13:24",
+    "ts": 1793035200,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $34.9",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "312ac47",
+    "hold_minutes": 18
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 6.88936,
+    "status": "filled",
+    "price": 108.93,
+    "proceeds": 750.43,
+    "realized_pnl": 0.43,
+    "realized_pct": 0.06,
+    "date": "2026-10-26",
+    "time_et": "13:25",
+    "ts": 1793035200,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $108.86",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "312ac47",
+    "hold_minutes": 15
   }
 ]

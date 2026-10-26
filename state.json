@@ -1,13 +1,12 @@
 {
   "week": "2026-W44",
-  "spent": 2256.46,
+  "spent": 755.59,
   "deployed": 32250.0,
   "by_ticker": {
     "WSM": 24.9,
     "FITB": 7.57,
-    "CRBG": 756.55,
-    "CACI": 750.08,
-    "EL": 750.0
+    "CRBG": 6.11,
+    "CACI": 750.08
   },
   "deployed_by_ticker": {
     "EL": 4500.0,
@@ -899,13 +898,55 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "CRBG",
+      "side": "sell",
+      "qty": 21.487536,
+      "status": "filled",
+      "price": 34.92,
+      "proceeds": 750.44,
+      "realized_pnl": 0.44,
+      "realized_pct": 0.06,
+      "date": "2026-10-26",
+      "time_et": "13:24",
+      "ts": 1793035200,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $34.9",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 6.88936,
+      "status": "filled",
+      "price": 108.93,
+      "proceeds": 750.43,
+      "realized_pnl": 0.43,
+      "realized_pct": 0.06,
+      "date": "2026-10-26",
+      "time_et": "13:25",
+      "ts": 1793035200,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $108.86",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-26",
-  "spent_today": 2256.46,
+  "spent_today": 755.59,
   "deployed_today": 32250.0,
   "orders_today": 22,
-  "sells_today": 19,
+  "sells_today": 21,
   "sold_today": [
     "ADI",
     "NXPI",
@@ -921,11 +962,11 @@
     "FITB": 1793034111,
     "CACI": 1793032255,
     "WSM": 1793034290,
-    "CRBG": 1793030089,
-    "EL": 1793028672
+    "CRBG": 1793035459,
+    "EL": 1793035504
   },
-  "last_publish_ts": 1793035059,
-  "last_check_ts": 1793035419,
+  "last_publish_ts": 1793035504,
+  "last_check_ts": 1793035506,
   "exp_arm": {
     "CRBG": {
       "params": {
@@ -955,19 +996,13 @@
       }
     }
   },
-  "last_bar_ts": 1793035200,
-  "last_decision_ts": 1793035328,
+  "last_bar_ts": 1793035500,
+  "last_decision_ts": 1793035506,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "a845852f": 108.98,
-    "1f500875": 34.942,
-    "50b8e7c3": 35.0141,
-    "c46312e0": 109.2584,
     "78e55a8e": 671.9905,
     "32c311e2": 663.6138,
-    "75ff9155": 649.512,
-    "b3511439": 105.5942,
-    "32629f13": 33.853
+    "75ff9155": 649.512
   }
 }
