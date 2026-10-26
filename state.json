@@ -1,19 +1,20 @@
 {
   "week": "2026-W44",
-  "spent": 5.95,
-  "deployed": 32250.0,
+  "spent": 755.95,
+  "deployed": 33000.0,
   "by_ticker": {
     "WSM": 24.9,
     "FITB": 7.57,
     "CRBG": 6.11,
-    "CACI": 0.44
+    "CACI": 0.44,
+    "NXPI": 750.0
   },
   "deployed_by_ticker": {
     "EL": 4500.0,
     "FITB": 4500.0,
     "ADI": 4500.0,
     "CACI": 5250.0,
-    "NXPI": 4500.0,
+    "NXPI": 5250.0,
     "WSM": 4500.0,
     "CRBG": 4500.0
   },
@@ -961,12 +962,34 @@
       ],
       "evidence": "average cost $669.6",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.031909,
+      "price": 247.37,
+      "date": "2026-10-26",
+      "time_et": "13:42",
+      "ts": 1793036556,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +3.9% over the month; 79% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-10-26",
-  "spent_today": 5.95,
-  "deployed_today": 32250.0,
-  "orders_today": 22,
+  "spent_today": 755.95,
+  "deployed_today": 33000.0,
+  "orders_today": 23,
   "sells_today": 22,
   "sold_today": [
     "ADI",
@@ -986,28 +1009,10 @@
     "CRBG": 1793035459,
     "EL": 1793035504
   },
-  "last_publish_ts": 1793035818,
-  "last_check_ts": 1793036383,
+  "last_publish_ts": 1793036556,
+  "last_check_ts": 1793036556,
   "exp_arm": {
-    "CRBG": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
-    "EL": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "CACI": {
+    "NXPI": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -1017,9 +1022,13 @@
       }
     }
   },
-  "last_bar_ts": 1793036100,
-  "last_decision_ts": 1793036383,
-  "next_check_minutes": null,
+  "last_bar_ts": 1793036400,
+  "last_decision_ts": 1793036556,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "4cc0883f": 248.409,
+    "f2f8f2e8": 244.7701,
+    "9376eeb1": 239.9489
+  }
 }
