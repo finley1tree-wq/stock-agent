@@ -1,20 +1,3 @@
-Done: 0 sell(s), 2 buy(s); 9 order(s) working; budget left $22746.95 this week
-
-## 2026-10-26 11:34 ET (Monday) — week 2026-W44 — budget left $22746.95 (today $27750.00 put to work, 16 buys, 13 sells) — SIM (pretend money) via sim
-  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CHCO excluded: too thinly traded ($16.2M a day) — City Holding Company)
-  (LCU excluded: not ordinary shares (ecnquote))
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgR6R5mvDbjZAV1tHmCfE'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,747 idle, so opened 3: ADI, WSM, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +2.7% over the month; 78% of today's range
-- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +7.4% over the month; 18% of today's range
-- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +3.5% over the month; 85% of today's range
-~ WORKING take_profit 100% ADI @ $405.73 until 2026-10-31 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% ADI @ $400.20 until 2026-10-31 — close it all at -1.0% under the average cost
 ~ WORKING buy_limit $500.00 ADI @ $392.03 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% WSM @ $249.96 until 2026-10-31 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% WSM @ $247.38 until 2026-10-31 — close it all at -0.7% under the average cost
@@ -398,3 +381,20 @@ portfolio: equity $25270.69 (+1.08% on $25000.00 in) · cash $23023.09 · realis
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22746.54 this week
 - SELL 100% FITB [time stop] -> $747.15 (-0.38%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-26 13:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-26 13:04 ET (Monday) — week 2026-W44 — budget left $23493.69 (today $30750.00 put to work, 20 buys, 18 sells) — SIM (pretend money) via sim
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CHCO excluded: too thinly traded ($16.2M a day) — City Holding Company)
+  (LCU excluded: not ordinary shares (ecnquote))
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgRDD6hxdxnu2QKrEBeTw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,494 idle, so opened 1: EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +15.2% over the month; 85% of today's range
+~ WORKING take_profit 100% EL @ $109.26 until 2026-10-31 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% EL @ $107.86 until 2026-10-31 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 EL @ $105.59 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25269.79 (+1.08% on $25000.00 in) · cash $23020.24 · realised +270.24
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22743.69 this week

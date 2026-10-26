@@ -77957,7 +77957,9 @@
     "code_version": "9c15f9b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.3
+    "ret_now": -0.38,
+    "ret_final": -0.38,
+    "ret_src": "realised"
   },
   {
     "symbol": "CACI",
@@ -78054,7 +78056,7 @@
     "code_version": "5820af0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": 0.06
   },
   {
     "symbol": "NXPI",
@@ -78225,7 +78227,8 @@
     "hour_et": 13,
     "code_version": "e437504",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.0
   },
   {
     "symbol": "FITB",
@@ -78250,6 +78253,37 @@
     "evidence": "bought 90 min ago, -0.34% unrealised",
     "trigger": "time_stop",
     "hour_et": 13,
-    "code_version": "a75cf6e"
+    "code_version": "a75cf6e",
+    "hold_minutes": 89
+  },
+  {
+    "symbol": "EL",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.88936,
+    "price": 108.86,
+    "date": "2026-10-26",
+    "time_et": "13:04",
+    "ts": 1793034244,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +15.2% over the month; 85% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 108.82,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 15.19,
+    "hour_et": 13,
+    "code_version": "7e9a789",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

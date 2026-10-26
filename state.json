@@ -1,15 +1,16 @@
 {
   "week": "2026-W44",
-  "spent": 1506.31,
-  "deployed": 30750.0,
+  "spent": 2256.31,
+  "deployed": 31500.0,
   "by_ticker": {
     "WSM": 774.75,
     "FITB": 7.57,
     "CRBG": 756.55,
-    "CACI": 0.08
+    "CACI": 0.08,
+    "EL": 750.0
   },
   "deployed_by_ticker": {
-    "EL": 3750.0,
+    "EL": 4500.0,
     "FITB": 4500.0,
     "ADI": 4500.0,
     "CACI": 4500.0,
@@ -834,12 +835,34 @@
       ],
       "evidence": "bought 90 min ago, -0.34% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "EL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.88936,
+      "price": 108.86,
+      "date": "2026-10-26",
+      "time_et": "13:04",
+      "ts": 1793034244,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +15.2% over the month; 85% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-26",
-  "spent_today": 1506.31,
-  "deployed_today": 30750.0,
-  "orders_today": 20,
+  "spent_today": 2256.31,
+  "deployed_today": 31500.0,
+  "orders_today": 21,
   "sells_today": 18,
   "sold_today": [
     "ADI",
@@ -859,18 +882,9 @@
     "CRBG": 1793030089,
     "EL": 1793028672
   },
-  "last_publish_ts": 1793034110,
-  "last_check_ts": 1793034156,
+  "last_publish_ts": 1793034244,
+  "last_check_ts": 1793034244,
   "exp_arm": {
-    "FITB": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
     "WSM": {
       "params": {
         "hold_minutes": 90,
@@ -888,17 +902,29 @@
       "tags": {
         "hold_long": 120
       }
+    },
+    "EL": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
     }
   },
   "last_bar_ts": 1793034000,
-  "last_decision_ts": 1793034064,
+  "last_decision_ts": 1793034244,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "46f1e4cf": 249.9552,
     "50b8e7c3": 35.0141,
+    "c46312e0": 109.2584,
     "05ef9fdc": 247.3832,
     "f299fd11": 34.6149,
+    "cc07f468": 107.8639,
+    "b3511439": 105.5942,
     "32629f13": 33.853,
     "389caf8d": 241.7434
   }
