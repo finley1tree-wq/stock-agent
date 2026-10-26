@@ -45042,3 +45042,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 CRBG @ $33.86 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25250.29 (+1.00% on $25000.00 in) · cash $13273.16 · realised +273.16
 Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $13010.15 this week
+
+## 2026-10-26 09:42 ET (Monday) — week 2026-W44 — budget left $13010.15 (today $21000.00 put to work, 7 buys, 3 sells) — SIM (pretend money) via sim
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CHCO excluded: too thinly traded ($16.2M a day) — City Holding Company)
+  (LCU excluded: not ordinary shares (ecnquote))
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgQwqFonnNXomRCgt9iR2'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25233.30 (+0.93% on $25000.00 in) · cash $13273.16 · realised +273.16
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
