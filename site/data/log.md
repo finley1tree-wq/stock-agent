@@ -1,6 +1,3 @@
-## 2026-10-23 15:38 ET (Friday) — week 2026-W43 — budget left $24987.07 (today $51750.00 put to work, 39 buys, 39 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25278.73 (+1.11% on $25000.00 in) · cash $23026.55 · realised +276.55
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [stop_loss @ $396.88] -> $749.93 (-0.01%) — close it all at -0.9% under the average cost
+## 2026-10-26 10:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders

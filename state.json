@@ -1,11 +1,11 @@
 {
   "week": "2026-W44",
-  "spent": 2250.0,
+  "spent": 1500.07,
   "deployed": 23250.0,
   "by_ticker": {
     "NXPI": 750.2,
     "WSM": 18.95,
-    "ADI": 750.0,
+    "ADI": 0.07,
     "FITB": 750.0
   },
   "deployed_by_ticker": {
@@ -384,13 +384,34 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.889553,
+      "status": "filled",
+      "price": 396.88,
+      "proceeds": 749.93,
+      "realized_pnl": -0.07,
+      "realized_pct": -0.01,
+      "date": "2026-10-26",
+      "time_et": "10:30",
+      "ts": 1793025000,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $396.92",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-26",
-  "spent_today": 2250.0,
+  "spent_today": 1500.07,
   "deployed_today": 23250.0,
   "orders_today": 10,
-  "sells_today": 7,
+  "sells_today": 8,
   "sold_today": [
     "ADI",
     "NXPI",
@@ -401,7 +422,7 @@
     "EL"
   ],
   "sold_ts": {
-    "ADI": 1793021733,
+    "ADI": 1793025019,
     "NXPI": 1793021733,
     "FITB": 1793021914,
     "CACI": 1793022324,
@@ -409,8 +430,8 @@
     "CRBG": 1793022379,
     "EL": 1793023924
   },
-  "last_publish_ts": 1793024909,
-  "last_check_ts": 1793024909,
+  "last_publish_ts": 1793025019,
+  "last_check_ts": 1793025022,
   "exp_arm": {
     "ADI": {
       "params": {
@@ -440,19 +461,16 @@
       }
     }
   },
-  "last_bar_ts": 1793024700,
-  "last_decision_ts": 1793024822,
+  "last_bar_ts": 1793025000,
+  "last_decision_ts": 1793025022,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "f0a45183": 397.658,
     "6bde3d28": 242.786,
     "0e0836a5": 243.4669,
-    "d52f729b": 398.4323,
-    "c3f85643": 53.7038,
     "d32f6934": 53.2708,
+    "c3f85643": 53.7038,
     "077a19c6": 51.9726,
-    "a1a90567": 385.0124,
     "e6b5c7f1": 235.2056
   }
 }
