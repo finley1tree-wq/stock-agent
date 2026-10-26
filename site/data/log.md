@@ -1,8 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-23 14:50 ET (Friday) — week 2026-W43 — budget left $23486.35 (today $51750.00 put to work, 39 buys, 37 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (BZUN excluded: too thinly traded ($0.6M a day) — Baozun Inc.)
   (DOLE excluded: too thinly traded ($13.9M a day) — Dole plc)
@@ -398,3 +393,8 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 NXPI @ $232.60 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25257.61 (+1.03% on $25000.00 in) · cash $10263.01 · realised +263.01
 Done: 0 sell(s), 5 buy(s); 15 order(s) working; budget left $10000.00 this week
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [stop_loss @ $396.49] -> $3003.62 (+0.12%) — close it all at -0.9% under the average cost
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $239.77] -> $2999.80 (-0.01%) — close it all at -1.0% under the average cost
+## 2026-10-26 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders

@@ -77143,7 +77143,8 @@
     "hour_et": 9,
     "code_version": "cf81f14",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.19
   },
   {
     "symbol": "FITB",
@@ -77173,7 +77174,8 @@
     "hour_et": 9,
     "code_version": "cf81f14",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.21
   },
   {
     "symbol": "ADI",
@@ -77203,7 +77205,10 @@
     "hour_et": 9,
     "code_version": "cf81f14",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.12,
+    "ret_now": 0.12,
+    "ret_src": "realised"
   },
   {
     "symbol": "CACI",
@@ -77233,7 +77238,8 @@
     "hour_et": 9,
     "code_version": "cf81f14",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.22
   },
   {
     "symbol": "NXPI",
@@ -77263,6 +77269,63 @@
     "hour_et": 9,
     "code_version": "cf81f14",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": -0.01,
+    "ret_now": -0.01,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 7.575582,
+    "status": "filled",
+    "price": 396.49,
+    "proceeds": 3003.62,
+    "realized_pnl": 3.62,
+    "realized_pct": 0.12,
+    "date": "2026-10-26",
+    "time_et": "09:35",
+    "ts": 1793021700,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $396.01",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "a9349a1",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 12.511162,
+    "status": "filled",
+    "price": 239.77,
+    "proceeds": 2999.8,
+    "realized_pnl": -0.2,
+    "realized_pct": -0.01,
+    "date": "2026-10-26",
+    "time_et": "09:35",
+    "ts": 1793021700,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $239.79",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "a9349a1",
+    "hold_minutes": 2
   }
 ]

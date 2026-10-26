@@ -1,13 +1,12 @@
 {
   "week": "2026-W44",
-  "spent": 15000.0,
+  "spent": 8996.58,
   "deployed": 15000.0,
   "by_ticker": {
     "EL": 3000.0,
     "FITB": 3000.0,
-    "ADI": 3000.0,
     "CACI": 3000.0,
-    "NXPI": 3000.0
+    "NXPI": 0.2
   },
   "deployed_by_ticker": {
     "EL": 3000.0,
@@ -126,17 +125,65 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 7.575582,
+      "status": "filled",
+      "price": 396.49,
+      "proceeds": 3003.62,
+      "realized_pnl": 3.62,
+      "realized_pct": 0.12,
+      "date": "2026-10-26",
+      "time_et": "09:35",
+      "ts": 1793021700,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $396.01",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 12.511162,
+      "status": "filled",
+      "price": 239.77,
+      "proceeds": 2999.8,
+      "realized_pnl": -0.2,
+      "realized_pct": -0.01,
+      "date": "2026-10-26",
+      "time_et": "09:35",
+      "ts": 1793021700,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $239.79",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-26",
-  "spent_today": 15000.0,
+  "spent_today": 8996.58,
   "deployed_today": 15000.0,
   "orders_today": 5,
-  "sells_today": 0,
-  "sold_today": [],
-  "sold_ts": {},
-  "last_publish_ts": 1793021646,
-  "last_check_ts": 1793021692,
+  "sells_today": 2,
+  "sold_today": [
+    "ADI",
+    "NXPI"
+  ],
+  "sold_ts": {
+    "ADI": 1793021733,
+    "NXPI": 1793021733
+  },
+  "last_publish_ts": 1793021778,
+  "last_check_ts": 1793021781,
   "exp_arm": {
     "EL": {
       "params": {
@@ -184,25 +231,19 @@
       }
     }
   },
-  "last_bar_ts": 1793021400,
-  "last_decision_ts": 1793021576,
-  "next_check_minutes": 6,
+  "last_bar_ts": 1793021700,
+  "last_decision_ts": 1793021781,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "b2cf4d33": 240.174,
-    "a633524e": 240.7564,
-    "1523c00f": 397.5109,
-    "41716404": 397.264,
     "2f9c0def": 53.5212,
-    "a7eb73de": 658.7576,
+    "838b38a7": 53.46,
     "201103cd": 108.5716,
-    "880cf615": 53.0967,
-    "529f03db": 107.2021,
+    "a7eb73de": 658.7576,
     "27b3d3e0": 650.7225,
-    "c8627436": 51.798,
-    "d6d58f18": 104.9346,
+    "529f03db": 107.2021,
     "934738a1": 636.7662,
-    "4dc5d027": 232.5963,
-    "b3e00f45": 384.1297
+    "d6d58f18": 104.9346,
+    "c8627436": 51.798
   }
 }
