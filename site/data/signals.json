@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-26T12:24-04:00",
+ "asOf": "2026-10-26T12:29-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -178,6 +178,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "1abfad4a",
+   "ticker": "CACI",
+   "kind": "stop_loss",
+   "price": 669.832,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 670.5,
+   "pct_away": -0.1,
+   "good_until": "2026-10-31",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c912ad0f",
+   "ticker": "CACI",
+   "kind": "take_profit",
+   "price": 671.2244,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 670.5,
+   "pct_away": 0.11,
+   "good_until": "2026-10-31",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "26142e00",
    "ticker": "FITB",
    "kind": "stop_loss",
@@ -185,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 53.02,
-   "pct_away": -0.22,
+   "last": 52.99,
+   "pct_away": -0.17,
    "good_until": "2026-10-31",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -202,27 +236,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 249.17,
-   "pct_away": 0.32,
+   "last": 249.08,
+   "pct_away": 0.35,
    "good_until": "2026-10-31",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b454aa4b",
-   "ticker": "CACI",
-   "kind": "stop_loss",
-   "price": 662.844,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 665.46,
-   "pct_away": -0.39,
-   "good_until": "2026-10-31",
-   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 53.02,
-   "pct_away": 0.59,
+   "last": 52.99,
+   "pct_away": 0.65,
    "good_until": "2026-10-31",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -253,44 +270,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 249.17,
-   "pct_away": -0.72,
+   "last": 249.08,
+   "pct_away": -0.68,
    "good_until": "2026-10-31",
    "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c912ad0f",
-   "ticker": "CACI",
-   "kind": "take_profit",
-   "price": 671.2244,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 665.46,
-   "pct_away": 0.87,
-   "good_until": "2026-10-31",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "305058fc",
-   "ticker": "CACI",
-   "kind": "buy_limit",
-   "price": 648.7651,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 665.46,
-   "pct_away": -2.51,
-   "good_until": "2026-10-31",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -304,8 +287,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 53.02,
-   "pct_away": -2.65,
+   "last": 52.99,
+   "pct_away": -2.6,
    "good_until": "2026-10-31",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -321,8 +304,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 249.17,
-   "pct_away": -2.98,
+   "last": 249.08,
+   "pct_away": -2.95,
+   "good_until": "2026-10-31",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "305058fc",
+   "ticker": "CACI",
+   "kind": "buy_limit",
+   "price": 648.7651,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 670.5,
+   "pct_away": -3.24,
    "good_until": "2026-10-31",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
