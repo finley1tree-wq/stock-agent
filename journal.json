@@ -77957,7 +77957,7 @@
     "code_version": "9c15f9b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.36
+    "ret_now": -0.34
   },
   {
     "symbol": "CACI",
@@ -77988,7 +77988,9 @@
     "code_version": "9c15f9b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06
+    "ret_now": -0.01,
+    "ret_final": -0.01,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -78052,7 +78054,7 @@
     "code_version": "5820af0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06
+    "ret_now": -0.12
   },
   {
     "symbol": "NXPI",
@@ -78167,5 +78169,32 @@
     "hour_et": 11,
     "code_version": "7443ea5",
     "hold_minutes": 76
+  },
+  {
+    "symbol": "CACI",
+    "side": "sell",
+    "qty": 1.121366,
+    "status": "filled",
+    "price": 668.76,
+    "proceeds": 749.92,
+    "realized_pnl": -0.08,
+    "realized_pct": -0.01,
+    "date": "2026-10-26",
+    "time_et": "12:30",
+    "ts": 1793032200,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $668.83",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "ad36013",
+    "hold_minutes": 58
   }
 ]

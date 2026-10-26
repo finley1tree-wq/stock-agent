@@ -1,12 +1,12 @@
 {
   "week": "2026-W44",
-  "spent": 2253.38,
+  "spent": 1503.46,
   "deployed": 30000.0,
   "by_ticker": {
     "WSM": 774.75,
     "FITB": 754.72,
     "CRBG": 6.55,
-    "CACI": 750.0
+    "CACI": 0.08
   },
   "deployed_by_ticker": {
     "EL": 3750.0,
@@ -771,13 +771,34 @@
       ],
       "evidence": "average cost $35.07",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CACI",
+      "side": "sell",
+      "qty": 1.121366,
+      "status": "filled",
+      "price": 668.76,
+      "proceeds": 749.92,
+      "realized_pnl": -0.08,
+      "realized_pct": -0.01,
+      "date": "2026-10-26",
+      "time_et": "12:30",
+      "ts": 1793032200,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $668.83",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-26",
-  "spent_today": 2253.38,
+  "spent_today": 1503.46,
   "deployed_today": 30000.0,
   "orders_today": 19,
-  "sells_today": 16,
+  "sells_today": 17,
   "sold_today": [
     "ADI",
     "NXPI",
@@ -791,13 +812,13 @@
     "ADI": 1793029298,
     "NXPI": 1793029211,
     "FITB": 1793025941,
-    "CACI": 1793025439,
+    "CACI": 1793032255,
     "WSM": 1793026069,
     "CRBG": 1793030089,
     "EL": 1793028672
   },
-  "last_publish_ts": 1793032173,
-  "last_check_ts": 1793032173,
+  "last_publish_ts": 1793032255,
+  "last_check_ts": 1793032258,
   "exp_arm": {
     "CRBG": {
       "params": {
@@ -854,19 +875,16 @@
       }
     }
   },
-  "last_bar_ts": 1793031900,
-  "last_decision_ts": 1793032079,
+  "last_bar_ts": 1793032200,
+  "last_decision_ts": 1793032258,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "1abfad4a": 669.832,
-    "c912ad0f": 671.2244,
     "26142e00": 52.9008,
     "46f1e4cf": 249.9552,
-    "b6dcb42f": 53.3334,
     "05ef9fdc": 247.3832,
+    "b6dcb42f": 53.3334,
     "ff20ab19": 51.6137,
-    "389caf8d": 241.7434,
-    "305058fc": 648.7651
+    "389caf8d": 241.7434
   }
 }

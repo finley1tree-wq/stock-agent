@@ -1,6 +1,3 @@
-~ WORKING stop_loss 100% CACI @ $660.42 until 2026-10-31 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 CACI @ $646.33 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CRBG @ $35.18 until 2026-10-31 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% CRBG @ $34.78 until 2026-10-31 — close it all at -0.8% under the average cost
 ~ WORKING buy_limit $500.00 CRBG @ $34.02 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25273.86 (+1.10% on $25000.00 in) · cash $22276.45 · realised +276.45
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 portfolio: equity $25269.60 (+1.08% on $25000.00 in) · cash $23023.17 · realised +273.17
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CACI: position closed)
+- SELL 100% CACI [stop_loss @ $668.76] -> $749.92 (-0.01%) — close it all at -0.9% under the average cost
+## 2026-10-26 12:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
