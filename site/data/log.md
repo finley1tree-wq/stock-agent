@@ -1,4 +1,3 @@
-Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 1 standing order(s) on NXPI: position closed)
 - SELL 100% NXPI [take_profit @ $238.03] -> $753.00 (+0.40%) — close 100% at +0.4% over the average cost
@@ -398,3 +397,4 @@ portfolio: equity $25263.01 (+1.05% on $25000.00 in) · cash $25263.01 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-23 16:00 ET — published the session's closing state
+## 2026-10-26 00:00 ET — published the session's closing state
