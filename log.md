@@ -45847,3 +45847,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 portfolio: equity $25269.60 (+1.08% on $25000.00 in) · cash $23773.09 · realised +273.09
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-26 13:01 ET (Monday) — week 2026-W44 — budget left $23496.54 (today $30000.00 put to work, 19 buys, 17 sells) — SIM (pretend money) via sim
+  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CHCO excluded: too thinly traded ($16.2M a day) — City Holding Company)
+  (LCU excluded: not ordinary shares (ecnquote))
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgRCyf6EmWvLqFrFYTQMu'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,497 idle, so opened 1: CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 CRBG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: insider net buying (Form 4); +0.1% over the month; 53% of today's range
+~ WORKING take_profit 100% CRBG @ $35.01 until 2026-10-31 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CRBG @ $34.61 until 2026-10-31 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CRBG @ $33.85 until 2026-10-31 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25270.69 (+1.08% on $25000.00 in) · cash $23023.09 · realised +273.09
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22746.54 this week

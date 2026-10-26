@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "6af34498",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 51.1966,
-   "status": "cancelled",
-   "created": "2026-10-21 09:37",
-   "created_ts": 1792589878,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $52.78",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-26",
-   "usd": 500.0,
-   "closed": "2026-10-21 09:44",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "e4e1489b",
-   "ticker": "RIG",
-   "kind": "take_profit",
-   "price": 5.8843,
-   "status": "filled",
-   "created": "2026-10-21 09:37",
-   "created_ts": 1792589878,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $5.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-21 09:46"
-  },
-  {
-   "id": "8182df28",
-   "ticker": "RIG",
-   "kind": "stop_loss",
-   "price": 5.7993,
-   "status": "cancelled",
-   "created": "2026-10-21 09:37",
-   "created_ts": 1792589878,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $5.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-21 09:46",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "f5a0c22e",
    "ticker": "RIG",
    "kind": "buy_limit",
@@ -7486,7 +7430,58 @@
    "good_until": "2026-10-31",
    "pct_of_position": 100.0,
    "closed": "2026-10-26 12:30"
+  },
+  {
+   "id": "50b8e7c3",
+   "ticker": "CRBG",
+   "kind": "take_profit",
+   "price": 35.0141,
+   "status": "working",
+   "created": "2026-10-26 13:01",
+   "created_ts": 1793034064,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $34.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-31",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f299fd11",
+   "ticker": "CRBG",
+   "kind": "stop_loss",
+   "price": 34.6149,
+   "status": "working",
+   "created": "2026-10-26 13:01",
+   "created_ts": 1793034064,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $34.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-31",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "32629f13",
+   "ticker": "CRBG",
+   "kind": "buy_limit",
+   "price": 33.853,
+   "status": "working",
+   "created": "2026-10-26 13:01",
+   "created_ts": 1793034064,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $34.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-31",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-26 12:57"
+ "updated": "2026-10-26 13:01"
 }
