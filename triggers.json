@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "8ff91436",
-   "ticker": "MSFT",
-   "kind": "stop_loss",
-   "price": 523.1627,
-   "status": "cancelled",
-   "created": "2026-10-21 09:32",
-   "created_ts": 1792589548,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $526.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-21 09:34",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "68cfe716",
-   "ticker": "MSFT",
-   "kind": "buy_limit",
-   "price": 510.4334,
-   "status": "cancelled",
-   "created": "2026-10-21 09:32",
-   "created_ts": 1792589548,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $526.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-26",
-   "usd": 500.0,
-   "closed": "2026-10-21 09:34",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "09fd22f2",
-   "ticker": "WSM",
-   "kind": "take_profit",
-   "price": 253.3299,
-   "status": "filled",
-   "created": "2026-10-21 09:32",
-   "created_ts": 1792589548,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $252.62",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-21 09:40"
-  },
-  {
    "id": "6beb1607",
    "ticker": "WSM",
    "kind": "stop_loss",
@@ -7491,7 +7435,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-26 10:37",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "5f7112d5",
+   "ticker": "EL",
+   "kind": "take_profit",
+   "price": 109.0064,
+   "status": "working",
+   "created": "2026-10-26 11:08",
+   "created_ts": 1793027286,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $108.61",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-31",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ada786a5",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 107.6184,
+   "status": "working",
+   "created": "2026-10-26 11:08",
+   "created_ts": 1793027286,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $108.61",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-31",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "447a834c",
+   "ticker": "EL",
+   "kind": "buy_limit",
+   "price": 105.3517,
+   "status": "working",
+   "created": "2026-10-26 11:08",
+   "created_ts": 1793027286,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $108.61",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-10-31",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-26 10:54"
+ "updated": "2026-10-26 11:08"
 }

@@ -1,16 +1,17 @@
 {
   "week": "2026-W44",
-  "spent": 755.76,
-  "deployed": 25500.0,
+  "spent": 1505.76,
+  "deployed": 26250.0,
   "by_ticker": {
     "NXPI": 0.23,
     "WSM": 24.75,
     "ADI": 0.07,
     "FITB": 4.72,
-    "CRBG": 750.0
+    "CRBG": 750.0,
+    "EL": 750.0
   },
   "deployed_by_ticker": {
-    "EL": 3000.0,
+    "EL": 3750.0,
     "FITB": 3750.0,
     "ADI": 3750.0,
     "CACI": 3750.0,
@@ -556,12 +557,34 @@
       ],
       "evidence": "average cost $250.63",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "EL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.905224,
+      "price": 108.61,
+      "date": "2026-10-26",
+      "time_et": "11:08",
+      "ts": 1793027286,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +14.9% over the month; 81% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-10-26",
-  "spent_today": 755.76,
-  "deployed_today": 25500.0,
-  "orders_today": 13,
+  "spent_today": 1505.76,
+  "deployed_today": 26250.0,
+  "orders_today": 14,
   "sells_today": 12,
   "sold_today": [
     "ADI",
@@ -581,36 +604,9 @@
     "CRBG": 1793022379,
     "EL": 1793023924
   },
-  "last_publish_ts": 1793026069,
-  "last_check_ts": 1793026444,
+  "last_publish_ts": 1793027286,
+  "last_check_ts": 1793027286,
   "exp_arm": {
-    "FITB": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "WSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "CACI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
     "CRBG": {
       "params": {
         "hold_minutes": 90,
@@ -619,15 +615,27 @@
       "tags": {
         "hold_long": 90
       }
+    },
+    "EL": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
     }
   },
-  "last_bar_ts": 1793026200,
-  "last_decision_ts": 1793026444,
-  "next_check_minutes": null,
+  "last_bar_ts": 1793027100,
+  "last_decision_ts": 1793027286,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "8b61c79c": 34.7849,
+    "5f7112d5": 109.0064,
     "133104ae": 35.184,
-    "dbc40943": 34.0179
+    "8b61c79c": 34.7849,
+    "ada786a5": 107.6184,
+    "dbc40943": 34.0179,
+    "447a834c": 105.3517
   }
 }
