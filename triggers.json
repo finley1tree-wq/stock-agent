@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "c3b92376",
-   "ticker": "FBK",
-   "kind": "take_profit",
-   "price": 53.5018,
-   "status": "cancelled",
-   "created": "2026-10-22 10:33",
-   "created_ts": 1792679602,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $53.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 11:03",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "8f37b00f",
    "ticker": "FBK",
    "kind": "stop_loss",
@@ -7416,7 +7397,7 @@
    "ticker": "OLN",
    "kind": "stop_loss",
    "price": 16.0226,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 13:00",
    "created_ts": 1793120455,
    "why": "close it all at -1.0% under the average cost",
@@ -7426,7 +7407,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 13:10",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "985df9bd",
@@ -7478,7 +7461,24 @@
    ],
    "good_until": "2026-11-01",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "df2d9c3e",
+   "ticker": "OLN",
+   "kind": "stop_loss",
+   "price": 16.214,
+   "status": "working",
+   "created": "2026-10-27 13:10",
+   "created_ts": 1793121002,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $16.19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-27 13:09"
+ "updated": "2026-10-27 13:10"
 }
