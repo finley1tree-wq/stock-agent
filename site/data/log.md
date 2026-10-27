@@ -1,4 +1,3 @@
-  (CHCO excluded: too thinly traded ($16.2M a day) — City Holding Company)
   (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
   (LCU excluded: not ordinary shares (ecnquote))
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
@@ -398,3 +397,4 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25273.06 (+1.09% on $25000.00 in) · cash $25273.06 · realised +273.06
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-10-26 16:00 ET — published the session's closing state
