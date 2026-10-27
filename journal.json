@@ -79767,7 +79767,9 @@
     "code_version": "068fd51",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": 0.0,
+    "ret_final": 0.0,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -79903,5 +79905,32 @@
     "hour_et": 12,
     "code_version": "6cc1a28",
     "hold_minutes": 17
+  },
+  {
+    "symbol": "CACI",
+    "side": "sell",
+    "qty": 1.137909,
+    "status": "filled",
+    "price": 659.08,
+    "proceeds": 749.97,
+    "realized_pnl": -0.03,
+    "realized_pct": -0.0,
+    "date": "2026-10-27",
+    "time_et": "12:36",
+    "ts": 1793118968,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $659.1",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "6c50535",
+    "hold_minutes": 36
   }
 ]
