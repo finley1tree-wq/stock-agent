@@ -47180,3 +47180,27 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25295.77 (+1.18% on $25000.00 in) · cash $21550.33 · realised +300.33
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 15 order(s) working; budget left $21250.49 this week
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [stop_loss @ $53.14] -> $750.20 (+0.03%) — close it all at -0.6% under the average cost
+## 2026-10-27 10:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-27 10:36 ET (Tuesday) — week 2026-W44 — budget left $22000.69 (today $28500.00 put to work, 14 buys, 10 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgSunpxXquGLocogokDwf'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $22,001 idle, so opened 2: EL, OLN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +12.4% over the month; 30% of today's range
+- BUY $750.00 OLN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +0.4% over the month; 65% of today's range
+~ WORKING take_profit 100% EL @ $107.82 until 2026-11-01 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% EL @ $106.43 until 2026-11-01 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 EL @ $104.20 until 2026-11-01 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% OLN @ $16.19 until 2026-11-01 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% OLN @ $15.95 until 2026-11-01 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 OLN @ $15.64 until 2026-11-01 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25297.68 (+1.19% on $25000.00 in) · cash $20800.53 · realised +300.53
+Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $20500.69 this week
