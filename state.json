@@ -1,6 +1,6 @@
 {
   "week": "2026-W44",
-  "spent": 2988.52,
+  "spent": 2234.25,
   "deployed": 66750.0,
   "by_ticker": {
     "WSM": 46.78,
@@ -8,8 +8,7 @@
     "CRBG": 6.11,
     "EL": 3.98,
     "OLN": 750.0,
-    "NXPI": 750.0,
-    "GPI": 750.0
+    "NXPI": 750.0
   },
   "deployed_by_ticker": {
     "EL": 8250.0,
@@ -1828,13 +1827,34 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "GPI",
+      "side": "sell",
+      "qty": 2.938272,
+      "status": "filled",
+      "price": 256.7,
+      "proceeds": 754.27,
+      "realized_pnl": 4.27,
+      "realized_pct": 0.57,
+      "date": "2026-10-27",
+      "time_et": "11:40",
+      "ts": 1793115600,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $255.25",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-27",
-  "spent_today": 2988.52,
+  "spent_today": 2234.25,
   "deployed_today": 32250.0,
   "orders_today": 19,
-  "sells_today": 15,
+  "sells_today": 16,
   "sold_today": [
     "FITB",
     "WSM",
@@ -1853,11 +1873,11 @@
     "WSM": 1793113032,
     "CRBG": 1793035459,
     "EL": 1793113269,
-    "GPI": 1793111995,
+    "GPI": 1793115625,
     "OLN": 1793109056
   },
-  "last_publish_ts": 1793115485,
-  "last_check_ts": 1793115580,
+  "last_publish_ts": 1793115624,
+  "last_check_ts": 1793115673,
   "exp_arm": {
     "OLN": {
       "params": {
@@ -1896,22 +1916,19 @@
       }
     }
   },
-  "last_bar_ts": 1793115300,
-  "last_decision_ts": 1793115488,
+  "last_bar_ts": 1793115600,
+  "last_decision_ts": 1793115673,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "4553379d": 256.4701,
-    "0e0801c5": 255.862,
     "bb243679": 53.4321,
     "49d641c4": 250.5433,
-    "a9fe2644": 16.1866,
     "b9b2a1e1": 53.0051,
-    "511882ee": 247.1367,
+    "a9fe2644": 16.1866,
     "5c7c605d": 15.9535,
-    "e90b3afe": 242.0829,
+    "511882ee": 247.1367,
     "3a0d7bf1": 15.6364,
-    "a8ce9d7a": 51.7107,
-    "75eef55e": 247.5925
+    "e90b3afe": 242.0829,
+    "a8ce9d7a": 51.7107
   }
 }

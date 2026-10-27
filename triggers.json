@@ -7412,7 +7412,7 @@
    "ticker": "GPI",
    "kind": "take_profit",
    "price": 256.4701,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-27 11:28",
    "created_ts": 1793114939,
    "why": "close 100% at +0.5% over the average cost",
@@ -7422,7 +7422,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 11:40"
   },
   {
    "id": "02d0188f",
@@ -7448,7 +7449,7 @@
    "ticker": "GPI",
    "kind": "buy_limit",
    "price": 247.5925,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 11:28",
    "created_ts": 1793114939,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7458,14 +7459,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-27 11:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0e0801c5",
    "ticker": "GPI",
    "kind": "stop_loss",
    "price": 255.862,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 11:38",
    "created_ts": 1793115485,
    "why": "close it all at -1.2% under the average cost",
@@ -7475,8 +7478,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 11:40",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-27 11:38"
+ "updated": "2026-10-27 11:41"
 }
