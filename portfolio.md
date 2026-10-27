@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-10-27 12:18 ET
+# Pretend portfolio — 2026-10-27 12:21 ET
 
-**Equity $25325.90** on $25000.00 put in → **+1.30%**  
-Cash $24575.89 · Unrealised +0.01 · Realised +325.89
+**Equity $25325.64** on $25000.00 put in → **+1.30%**  
+Cash $24575.89 · Unrealised -0.25 · Realised +325.89
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| CACI | 3.0% | $750.01 | $659.10 | $659.11 | +0.00% | 0d |
+| CACI | 3.0% | $749.75 | $659.10 | $658.88 | -0.03% | 0d |
 
 ## Last fills
 
