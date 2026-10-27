@@ -47450,3 +47450,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25309.63 (+1.24% on $25000.00 in) · cash $23061.32 · realised +311.32
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-27 11:28 ET (Tuesday) — week 2026-W44 — budget left $22761.48 (today $31500.00 put to work, 18 buys, 15 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgSymRiyjK62iYNkQrMvx'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,761 idle, so opened 1: GPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 GPI [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +5.3% over the month; 78% of today's range
+~ WORKING take_profit 100% GPI @ $256.47 until 2026-11-01 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% GPI @ $252.20 until 2026-11-01 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 GPI @ $247.59 until 2026-11-01 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25309.55 (+1.24% on $25000.00 in) · cash $22311.32 · realised +311.32
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $22011.48 this week
