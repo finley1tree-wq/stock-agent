@@ -1,64 +1,5 @@
   (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
   (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgT35uon8VR5D47qHSRmp'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,276 idle, so opened 1: ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped ADI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25325.59 (+1.30% on $25000.00 in) · cash $24575.89 · realised +325.89
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-27 12:15 ET (Tuesday) — week 2026-W44 — budget left $24276.05 (today $34500.00 put to work, 22 buys, 21 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgT3K3XVFdDgSjSEaySQE'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,276 idle, so opened 1: ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped ADI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25325.90 (+1.30% on $25000.00 in) · cash $24575.89 · realised +325.89
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-27 12:18 ET (Tuesday) — week 2026-W44 — budget left $24276.05 (today $34500.00 put to work, 22 buys, 21 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgT3YhTNfvYyVXNJhzZ78'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,276 idle, so opened 1: ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped ADI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25325.90 (+1.30% on $25000.00 in) · cash $24575.89 · realised +325.89
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-27 12:21 ET (Tuesday) — week 2026-W44 — budget left $24276.05 (today $34500.00 put to work, 22 buys, 21 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgT3n4kA72rY2qhGJ4gZq'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25325.64 (+1.30% on $25000.00 in) · cash $24575.89 · realised +325.89
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-27 12:24 ET (Tuesday) — week 2026-W44 — budget left $24276.05 (today $34500.00 put to work, 22 buys, 21 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgT41tJytVvAATdPAiezt'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
@@ -398,3 +339,62 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 CACI @ $641.64 until 2026-11-01 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25321.63 (+1.29% on $25000.00 in) · cash $24571.93 · realised +321.93
 Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $24246.06 this week
+
+## 2026-10-27 13:24 ET (Tuesday) — week 2026-W44 — budget left $24246.06 (today $38250.00 put to work, 27 buys, 26 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgT8bCMaEguQ9CAR7K3Bh'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25321.28 (+1.29% on $25000.00 in) · cash $24571.93 · realised +321.93
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-27 13:27 ET (Tuesday) — week 2026-W44 — budget left $24246.06 (today $38250.00 put to work, 27 buys, 26 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgT8pWCEVi6TNsF43qdkH'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25320.78 (+1.28% on $25000.00 in) · cash $24571.93 · realised +321.93
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-27 13:30 ET (Tuesday) — week 2026-W44 — budget left $24246.06 (today $38250.00 put to work, 27 buys, 26 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgT93PXFuXMWfu9VU7X5E'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25320.85 (+1.28% on $25000.00 in) · cash $24571.93 · realised +321.93
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-27 13:33 ET (Tuesday) — week 2026-W44 — budget left $24246.06 (today $38250.00 put to work, 27 buys, 26 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgT9GrAG77B3D4RTCPyP5'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,246 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +6.0% over the month; 84% of today's range
+~ WORKING take_profit 100% NXPI @ $251.51 until 2026-11-01 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $248.09 until 2026-11-01 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $243.01 until 2026-11-01 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25320.49 (+1.28% on $25000.00 in) · cash $23821.93 · realised +321.93
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $23496.06 this week
