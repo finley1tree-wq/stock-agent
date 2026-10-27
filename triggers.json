@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "efa49902",
-   "ticker": "ADI",
-   "kind": "stop_loss",
-   "price": 394.5372,
-   "status": "filled",
-   "created": "2026-10-22 09:32",
-   "created_ts": 1792675957,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $398.04",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 09:36"
-  },
-  {
    "id": "8ee2f2fa",
    "ticker": "ADI",
    "kind": "buy_limit",
@@ -7230,7 +7212,7 @@
    "ticker": "WSM",
    "kind": "stop_loss",
    "price": 247.2667,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 10:25",
    "created_ts": 1793111132,
    "why": "close it all at -0.7% under the average cost",
@@ -7240,7 +7222,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 10:54",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "6bef2c18",
@@ -7471,7 +7455,24 @@
    ],
    "good_until": "2026-11-01",
    "usd": 500.0
+  },
+  {
+   "id": "d136ac57",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 249.462,
+   "status": "working",
+   "created": "2026-10-27 10:54",
+   "created_ts": 1793112884,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $249.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-27 10:51"
+ "updated": "2026-10-27 10:54"
 }
