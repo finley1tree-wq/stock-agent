@@ -46867,3 +46867,11 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25226.26 (+0.91% on $25000.00 in) · cash $4273.06 · realised +273.06
 Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [stop_loss @ $52.85] -> $2981.55 (-0.61%) — close it all at -0.6% under the average cost
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $247.28] -> $2976.95 (-0.77%) — close it all at -0.7% under the average cost
+## 2026-10-27 09:39 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [take_profit @ $415.56] -> $3011.08 (+0.37%) — close 100% at +0.4% over the average cost
+## 2026-10-27 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
