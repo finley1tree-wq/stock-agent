@@ -1,80 +1,6 @@
 {
  "orders": [
   {
-   "id": "c7ff713a",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 51.6137,
-   "status": "cancelled",
-   "created": "2026-10-22 09:52",
-   "created_ts": 1792677154,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $53.21",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "usd": 500.0,
-   "closed": "2026-10-22 09:57",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "2466c650",
-   "ticker": "IBRX",
-   "kind": "stop_loss",
-   "price": 8.8,
-   "status": "filled",
-   "created": "2026-10-22 10:01",
-   "created_ts": 1792677677,
-   "why": "close it all at -2.4% under the average cost",
-   "evidence": "average cost $8.77",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 10:05"
-  },
-  {
-   "id": "04050020",
-   "ticker": "ADI",
-   "kind": "take_profit",
-   "price": 391.3343,
-   "status": "cancelled",
-   "created": "2026-10-22 10:21",
-   "created_ts": 1792678905,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $389.88",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 10:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "d3d1acea",
-   "ticker": "ADI",
-   "kind": "stop_loss",
-   "price": 386.2502,
-   "status": "filled",
-   "created": "2026-10-22 10:21",
-   "created_ts": 1792678905,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $389.88",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 10:35"
-  },
-  {
    "id": "8d74b810",
    "ticker": "ADI",
    "kind": "buy_limit",
@@ -7359,7 +7285,7 @@
    "ticker": "EL",
    "kind": "stop_loss",
    "price": 106.9513,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 11:47",
    "created_ts": 1793116056,
    "why": "close it all at -0.9% under the average cost",
@@ -7369,7 +7295,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 11:58",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "c075bd74",
@@ -7472,7 +7400,75 @@
    ],
    "good_until": "2026-11-01",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "dccb80d6",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 108.084,
+   "status": "working",
+   "created": "2026-10-27 11:58",
+   "created_ts": 1793116739,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $107.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d877f2f0",
+   "ticker": "CACI",
+   "kind": "take_profit",
+   "price": 661.3871,
+   "status": "working",
+   "created": "2026-10-27 11:59",
+   "created_ts": 1793116788,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $659.1",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "41e5e58a",
+   "ticker": "CACI",
+   "kind": "stop_loss",
+   "price": 653.3922,
+   "status": "working",
+   "created": "2026-10-27 11:59",
+   "created_ts": 1793116788,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $659.1",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "bfdedc6a",
+   "ticker": "CACI",
+   "kind": "buy_limit",
+   "price": 639.327,
+   "status": "working",
+   "created": "2026-10-27 11:59",
+   "created_ts": 1793116788,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $659.1",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-27 11:57"
+ "updated": "2026-10-27 11:59"
 }
