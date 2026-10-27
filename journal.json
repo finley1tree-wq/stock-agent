@@ -79701,7 +79701,9 @@
     "code_version": "70e61ae",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.36
+    "ret_now": 0.08,
+    "ret_final": 0.08,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -79874,5 +79876,32 @@
     "hour_et": 12,
     "code_version": "19cf575",
     "hold_minutes": 42
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 6.948101,
+    "status": "filled",
+    "price": 108.03,
+    "proceeds": 750.6,
+    "realized_pnl": 0.6,
+    "realized_pct": 0.08,
+    "date": "2026-10-27",
+    "time_et": "12:09",
+    "ts": 1793117100,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $107.94",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "6cc1a28",
+    "hold_minutes": 17
   }
 ]
