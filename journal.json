@@ -80202,7 +80202,9 @@
     "code_version": "19e9aea",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.1
+    "ret_now": -0.29,
+    "ret_final": -0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -80263,5 +80265,31 @@
     "hour_et": 13,
     "code_version": "b48a44b",
     "hold_minutes": 1
+  },
+  {
+    "symbol": "CACI",
+    "side": "sell",
+    "qty": 1.133813,
+    "status": "filled",
+    "price": 659.57,
+    "proceeds": 747.82,
+    "realized_pnl": -2.18,
+    "realized_pct": -0.29,
+    "date": "2026-10-27",
+    "time_et": "14:51",
+    "ts": 1793127087,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.25% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14,
+    "code_version": "5e29b40",
+    "hold_minutes": 89
   }
 ]
