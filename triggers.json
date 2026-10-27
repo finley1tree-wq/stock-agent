@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "8bb11359",
-   "ticker": "CRBG",
-   "kind": "take_profit",
-   "price": 35.3431,
-   "status": "cancelled",
-   "created": "2026-10-22 09:32",
-   "created_ts": 1792675957,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $35.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "b89e2f07",
    "ticker": "CRBG",
    "kind": "stop_loss",
@@ -7034,7 +7015,7 @@
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 413.6464,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 10:25",
    "created_ts": 1793111132,
    "why": "close it all at -0.9% under the average cost",
@@ -7044,7 +7025,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 11:14",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "4be8bbd1",
@@ -7487,7 +7470,24 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-27 11:01",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "57301bd5",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 418.072,
+   "status": "working",
+   "created": "2026-10-27 11:14",
+   "created_ts": 1793114089,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $417.58",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-27 11:13"
+ "updated": "2026-10-27 11:14"
 }
