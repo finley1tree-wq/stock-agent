@@ -1,9 +1,3 @@
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-27 10:43 ET (Tuesday) — week 2026-W44 — budget left $21254.29 (today $30000.00 put to work, 16 buys, 11 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
   (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
   (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
   (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
@@ -398,3 +392,9 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 CACI @ $639.33 until 2026-11-01 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25324.05 (+1.30% on $25000.00 in) · cash $20815.59 · realised +315.59
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20515.75 this week
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [take_profit @ $250.91] -> $754.03 (+0.54%) — close 100% at +0.4% over the average cost
+## 2026-10-27 12:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on OLN: position closed)
+- SELL 100% OLN [take_profit @ $16.19] -> $753.26 (+0.44%) — close 100% at +0.4% over the average cost
+## 2026-10-27 12:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders

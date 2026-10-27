@@ -6981,7 +6981,7 @@
    "ticker": "OLN",
    "kind": "take_profit",
    "price": 16.1866,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-27 10:36",
    "created_ts": 1793111811,
    "why": "close 100% at +0.4% over the average cost",
@@ -6991,7 +6991,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 12:01"
   },
   {
    "id": "5c7c605d",
@@ -7017,7 +7018,7 @@
    "ticker": "OLN",
    "kind": "buy_limit",
    "price": 15.6364,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 10:36",
    "created_ts": 1793111811,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7027,7 +7028,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-27 12:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d136ac57",
@@ -7140,7 +7143,7 @@
    "ticker": "NXPI",
    "kind": "take_profit",
    "price": 250.5433,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-27 11:22",
    "created_ts": 1793114545,
    "why": "close 100% at +0.4% over the average cost",
@@ -7150,7 +7153,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 12:00"
   },
   {
    "id": "511882ee",
@@ -7176,7 +7180,7 @@
    "ticker": "NXPI",
    "kind": "buy_limit",
    "price": 242.0829,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 11:22",
    "created_ts": 1793114545,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7186,7 +7190,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-27 12:00",
+   "cancel_reason": "position closed"
   },
   {
    "id": "4553379d",
@@ -7321,7 +7327,7 @@
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 249.876,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 11:52",
    "created_ts": 1793116333,
    "why": "close it all at -1.0% under the average cost",
@@ -7331,7 +7337,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 12:00",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f9e0b6e5",
@@ -7389,7 +7397,7 @@
    "ticker": "OLN",
    "kind": "stop_loss",
    "price": 16.144,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 11:57",
    "created_ts": 1793116655,
    "why": "close it all at -1.0% under the average cost",
@@ -7399,7 +7407,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 12:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "dccb80d6",
@@ -7470,5 +7480,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-27 11:59"
+ "updated": "2026-10-27 12:01"
 }
