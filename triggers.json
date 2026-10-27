@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "ad4024b3",
-   "ticker": "CACI",
-   "kind": "stop_loss",
-   "price": 621.44,
-   "status": "filled",
-   "created": "2026-10-22 10:33",
-   "created_ts": 1792679602,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $620.48",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 10:35"
-  },
-  {
    "id": "c3b92376",
    "ticker": "FBK",
    "kind": "take_profit",
@@ -7381,7 +7363,7 @@
    "ticker": "WSM",
    "kind": "stop_loss",
    "price": 248.9962,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 13:00",
    "created_ts": 1793120455,
    "why": "close it all at -0.7% under the average cost",
@@ -7391,7 +7373,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 13:08",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "0eb5f662",
@@ -7477,7 +7461,24 @@
    ],
    "good_until": "2026-11-01",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "1c85085b",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 251.108,
+   "status": "working",
+   "created": "2026-10-27 13:08",
+   "created_ts": 1793120895,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $250.85",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-27 13:07"
+ "updated": "2026-10-27 13:09"
 }
