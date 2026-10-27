@@ -47940,3 +47940,32 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 portfolio: equity $25325.87 (+1.30% on $25000.00 in) · cash $25325.87 · realised +325.87
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-27 13:00 ET (Tuesday) — week 2026-W44 — budget left $25000.00 (today $34500.00 put to work, 22 buys, 22 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgT6n67cdjcHoRSLwHtMJ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 4: EL, GPI, WSM, OLN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +12.8% over the month; 58% of today's range
+- BUY $750.00 GPI [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +4.8% over the month; 62% of today's range
+- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +8.5% over the month; 79% of today's range
+- BUY $750.00 OLN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +0.8% over the month; 84% of today's range
+~ WORKING take_profit 100% EL @ $108.26 until 2026-11-01 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% EL @ $106.87 until 2026-11-01 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 EL @ $104.62 until 2026-11-01 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GPI @ $255.25 until 2026-11-01 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% GPI @ $250.97 until 2026-11-01 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 GPI @ $246.41 until 2026-11-01 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% WSM @ $251.59 until 2026-11-01 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $249.00 until 2026-11-01 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $243.32 until 2026-11-01 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% OLN @ $16.26 until 2026-11-01 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% OLN @ $16.02 until 2026-11-01 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 OLN @ $15.70 until 2026-11-01 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25324.67 (+1.30% on $25000.00 in) · cash $22325.87 · realised +325.87
+Done: 0 sell(s), 4 buy(s); 12 order(s) working; budget left $22000.00 this week
