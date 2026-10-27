@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-10-27 11:11 ET
+# Pretend portfolio — 2026-10-27 11:13 ET
 
-**Equity $25309.20** on $25000.00 put in → **+1.24%**  
-Cash $23810.82 · Unrealised -1.62 · Realised +310.82
+**Equity $25310.74** on $25000.00 put in → **+1.24%**  
+Cash $23810.82 · Unrealised -0.08 · Realised +310.82
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| OLN | 3.0% | $749.23 | $16.12 | $16.10 | -0.10% | 0d |
-| ADI | 3.0% | $749.15 | $417.58 | $417.11 | -0.11% | 0d |
+| OLN | 3.0% | $750.17 | $16.12 | $16.12 | +0.02% | 0d |
+| ADI | 3.0% | $749.76 | $417.58 | $417.45 | -0.03% | 0d |
 
 ## Last fills
 
