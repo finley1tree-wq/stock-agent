@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "67b84b34",
-   "ticker": "CACI",
-   "kind": "take_profit",
-   "price": 638.6043,
-   "status": "cancelled",
-   "created": "2026-10-22 09:37",
-   "created_ts": 1792676273,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $636.58",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "305a68ea",
    "ticker": "CACI",
    "kind": "stop_loss",
@@ -7448,7 +7429,7 @@
    "ticker": "GPI",
    "kind": "stop_loss",
    "price": 252.2023,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 11:28",
    "created_ts": 1793114939,
    "why": "close it all at -1.2% under the average cost",
@@ -7458,7 +7439,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 11:38",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "75eef55e",
@@ -7476,7 +7459,24 @@
    ],
    "good_until": "2026-11-01",
    "usd": 500.0
+  },
+  {
+   "id": "0e0801c5",
+   "ticker": "GPI",
+   "kind": "stop_loss",
+   "price": 255.862,
+   "status": "working",
+   "created": "2026-10-27 11:38",
+   "created_ts": 1793115485,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $255.25",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-27 11:35"
+ "updated": "2026-10-27 11:38"
 }
