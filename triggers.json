@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "8f37b00f",
-   "ticker": "FBK",
-   "kind": "stop_loss",
-   "price": 53.0402,
-   "status": "cancelled",
-   "created": "2026-10-22 10:33",
-   "created_ts": 1792679602,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $53.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 10:59",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "ffca1409",
-   "ticker": "FBK",
-   "kind": "buy_limit",
-   "price": 51.7689,
-   "status": "cancelled",
-   "created": "2026-10-22 10:33",
-   "created_ts": 1792679602,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $53.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "usd": 500.0,
-   "closed": "2026-10-22 11:03",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "3cf5cf5a",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 101.1083,
-   "status": "filled",
-   "created": "2026-10-22 10:35",
-   "created_ts": 1792679726,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $100.82",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 10:46"
-  },
-  {
    "id": "754716e4",
    "ticker": "RPM",
    "kind": "stop_loss",
@@ -7279,7 +7223,7 @@
    "ticker": "GPI",
    "kind": "take_profit",
    "price": 255.2544,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 13:00",
    "created_ts": 1793120455,
    "why": "close 100% at +0.5% over the average cost",
@@ -7289,14 +7233,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 13:21",
+   "cancel_reason": "position closed"
   },
   {
    "id": "249ab39b",
    "ticker": "GPI",
    "kind": "stop_loss",
    "price": 250.9689,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-27 13:00",
    "created_ts": 1793120455,
    "why": "close it all at -1.2% under the average cost",
@@ -7306,14 +7252,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 13:21"
   },
   {
    "id": "5c0077e9",
    "ticker": "GPI",
    "kind": "buy_limit",
    "price": 246.4091,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 13:00",
    "created_ts": 1793120455,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7323,7 +7270,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-27 13:21",
+   "cancel_reason": "position closed"
   },
   {
    "id": "bd106107",
@@ -7493,7 +7442,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-27 13:13",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "c6f88565",
+   "ticker": "CACI",
+   "kind": "take_profit",
+   "price": 663.7621,
+   "status": "working",
+   "created": "2026-10-27 13:21",
+   "created_ts": 1793121698,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $661.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "745a17f9",
+   "ticker": "CACI",
+   "kind": "stop_loss",
+   "price": 655.7714,
+   "status": "working",
+   "created": "2026-10-27 13:21",
+   "created_ts": 1793121698,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $661.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f7c116b3",
+   "ticker": "CACI",
+   "kind": "buy_limit",
+   "price": 641.6356,
+   "status": "working",
+   "created": "2026-10-27 13:21",
+   "created_ts": 1793121698,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $661.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-27 13:18"
+ "updated": "2026-10-27 13:21"
 }
