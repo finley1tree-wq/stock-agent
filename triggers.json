@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "1a990ef1",
-   "ticker": "CRBG",
-   "kind": "stop_loss",
-   "price": 35.2738,
-   "status": "filled",
-   "created": "2026-10-21 13:23",
-   "created_ts": 1792603384,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $35.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-21 15:03"
-  },
-  {
-   "id": "5f57236e",
-   "ticker": "CRBG",
-   "kind": "buy_limit",
-   "price": 34.4544,
-   "status": "cancelled",
-   "created": "2026-10-21 13:23",
-   "created_ts": 1792603384,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $35.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-26",
-   "usd": 500.0,
-   "closed": "2026-10-21 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "d92fe7a0",
    "ticker": "WSM",
    "kind": "take_profit",
@@ -7182,7 +7145,7 @@
    "ticker": "FITB",
    "kind": "stop_loss",
    "price": 52.8151,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 10:25",
    "created_ts": 1793111132,
    "why": "close it all at -0.6% under the average cost",
@@ -7192,7 +7155,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 10:34",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5d23d692",
@@ -7318,7 +7283,7 @@
    "ticker": "NXPI",
    "kind": "take_profit",
    "price": 248.8742,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 10:25",
    "created_ts": 1793111132,
    "why": "close 100% at +0.4% over the average cost",
@@ -7328,14 +7293,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 10:34",
+   "cancel_reason": "position closed"
   },
   {
    "id": "e942d4cf",
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 245.4656,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 10:25",
    "created_ts": 1793111132,
    "why": "close it all at -1.0% under the average cost",
@@ -7345,14 +7312,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 10:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "e99d16f2",
    "ticker": "NXPI",
    "kind": "buy_limit",
    "price": 240.463,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 10:25",
    "created_ts": 1793111132,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7362,7 +7331,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-27 10:34",
+   "cancel_reason": "position closed"
   },
   {
    "id": "1eb7bb79",
@@ -7465,7 +7436,42 @@
    ],
    "good_until": "2026-11-01",
    "usd": 500.0
+  },
+  {
+   "id": "554ab188",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 248.218,
+   "status": "filled",
+   "created": "2026-10-27 10:33",
+   "created_ts": 1793111634,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $247.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 10:34"
+  },
+  {
+   "id": "299470fe",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 53.162,
+   "status": "working",
+   "created": "2026-10-27 10:34",
+   "created_ts": 1793111681,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $53.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-27 10:31"
+ "updated": "2026-10-27 10:34"
 }
