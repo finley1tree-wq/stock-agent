@@ -1,6 +1,3 @@
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25299.84 (+1.20% on $25000.00 in) · cash $25299.84 · realised +299.84
-Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-10-27 10:02 ET (Tuesday) — week 2026-W44 — budget left $25000.00 (today $24000.00 put to work, 8 buys, 8 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25310.74 (+1.24% on $25000.00 in) · cash $23810.82 · realised +310.82
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [stop_loss @ $417.86] -> $750.50 (+0.07%) — close it all at -0.9% under the average cost
+## 2026-10-27 11:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders

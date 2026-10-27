@@ -47384,3 +47384,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25310.74 (+1.24% on $25000.00 in) · cash $23810.82 · realised +310.82
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [stop_loss @ $417.86] -> $750.50 (+0.07%) — close it all at -0.9% under the average cost
+## 2026-10-27 11:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-27 11:16 ET (Tuesday) — week 2026-W44 — budget left $24261.48 (today $30000.00 put to work, 16 buys, 15 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgSxoX7cJLnEHqLWV6Jdt'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25310.09 (+1.24% on $25000.00 in) · cash $24561.32 · realised +311.32
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
