@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-27T13:13-04:00",
+ "asOf": "2026-10-27T13:15-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,17 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "e1db54e4",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 108.2558,
+   "id": "1c85085b",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 251.108,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 108.24,
-   "pct_away": 0.01,
+   "last": 251.3,
+   "pct_away": -0.08,
    "good_until": "2026-11-01",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,61 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 251.49,
-   "pct_away": 0.04,
+   "last": 251.3,
+   "pct_away": 0.12,
    "good_until": "2026-11-01",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1c85085b",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 251.108,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 251.49,
-   "pct_away": -0.15,
-   "good_until": "2026-11-01",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "cb906974",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 107.998,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 108.24,
-   "pct_away": -0.22,
-   "good_until": "2026-11-01",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b826e60c",
-   "ticker": "GPI",
-   "kind": "take_profit",
-   "price": 255.2544,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 253.11,
-   "pct_away": 0.85,
-   "good_until": "2026-11-01",
-   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,10 +219,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 253.11,
-   "pct_away": -0.85,
+   "last": 252.53,
+   "pct_away": -0.62,
    "good_until": "2026-11-01",
    "why": "close it all at -1.2% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b826e60c",
+   "ticker": "GPI",
+   "kind": "take_profit",
+   "price": 255.2544,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 252.53,
+   "pct_away": 1.08,
+   "good_until": "2026-11-01",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -287,8 +253,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 253.11,
-   "pct_away": -2.65,
+   "last": 252.53,
+   "pct_away": -2.42,
    "good_until": "2026-11-01",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -304,25 +270,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 251.49,
-   "pct_away": -3.25,
-   "good_until": "2026-11-01",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e9db8253",
-   "ticker": "EL",
-   "kind": "buy_limit",
-   "price": 104.6242,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 108.24,
-   "pct_away": -3.34,
+   "last": 251.3,
+   "pct_away": -3.17,
    "good_until": "2026-11-01",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

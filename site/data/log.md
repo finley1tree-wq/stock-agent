@@ -1,6 +1,3 @@
-  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
   (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
   (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgT2PGExJcf6w9su2SbJf'}
@@ -398,3 +395,6 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on OLN: position closed)
 - SELL 100% OLN [take_profit @ $16.26] -> $753.26 (+0.44%) — close 100% at +0.4% over the average cost
 ## 2026-10-27 13:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $108.26] -> $752.73 (+0.36%) — close 100% at +0.4% over the average cost
+## 2026-10-27 13:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
