@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "461c187e",
-   "ticker": "RIG",
-   "kind": "stop_loss",
-   "price": 5.8875,
-   "status": "filled",
-   "created": "2026-10-21 11:47",
-   "created_ts": 1792597641,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $5.95",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-21 12:40"
-  },
-  {
    "id": "de689488",
    "ticker": "RIG",
    "kind": "buy_limit",
@@ -6997,7 +6979,7 @@
    "ticker": "EL",
    "kind": "take_profit",
    "price": 108.5304,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 09:32",
    "created_ts": 1793107956,
    "why": "close 100% at +0.4% over the average cost",
@@ -7007,7 +6989,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "72340eb9",
@@ -7033,7 +7017,7 @@
    "ticker": "EL",
    "kind": "buy_limit",
    "price": 104.8958,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 09:32",
    "created_ts": 1793107956,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7043,7 +7027,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-27 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "5f863cb6",
@@ -7347,7 +7333,7 @@
    "ticker": "OLN",
    "kind": "stop_loss",
    "price": 15.9347,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 09:35",
    "created_ts": 1793108103,
    "why": "close it all at -1.0% under the average cost",
@@ -7357,7 +7343,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 09:50",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "63c6b0e8",
@@ -7475,7 +7463,7 @@
    "ticker": "EL",
    "kind": "stop_loss",
    "price": 108.266,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-27 09:46",
    "created_ts": 1793108778,
    "why": "close it all at -0.9% under the average cost",
@@ -7485,8 +7473,26 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 09:50"
+  },
+  {
+   "id": "04722145",
+   "ticker": "OLN",
+   "kind": "stop_loss",
+   "price": 16.136,
+   "status": "working",
+   "created": "2026-10-27 09:50",
+   "created_ts": 1793109004,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $16.1",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-27 09:47"
+ "updated": "2026-10-27 09:50"
 }

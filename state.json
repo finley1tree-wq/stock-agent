@@ -1,12 +1,12 @@
 {
   "week": "2026-W44",
-  "spent": 5983.71,
+  "spent": 2990.43,
   "deployed": 58500.0,
   "by_ticker": {
     "WSM": 47.53,
     "FITB": 24.13,
     "CRBG": 6.11,
-    "EL": 3000.0,
+    "EL": 6.72,
     "OLN": 3000.0
   },
   "deployed_by_ticker": {
@@ -1395,20 +1395,42 @@
       ],
       "evidence": "average cost $248.24",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 27.740985,
+      "status": "filled",
+      "price": 107.9,
+      "proceeds": 2993.28,
+      "realized_pnl": -6.72,
+      "realized_pct": -0.22,
+      "date": "2026-10-27",
+      "time_et": "09:50",
+      "ts": 1793109000,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $108.14",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-27",
-  "spent_today": 5980.21,
+  "spent_today": 2986.93,
   "deployed_today": 24000.0,
   "orders_today": 8,
-  "sells_today": 6,
+  "sells_today": 7,
   "sold_today": [
     "FITB",
     "WSM",
     "ADI",
     "NXPI",
     "CACI",
-    "GPI"
+    "GPI",
+    "EL"
   ],
   "sold_ts": {
     "ADI": 1793108388,
@@ -1417,11 +1439,11 @@
     "CACI": 1793108430,
     "WSM": 1793108342,
     "CRBG": 1793035459,
-    "EL": 1793035504,
+    "EL": 1793109014,
     "GPI": 1793108779
   },
-  "last_publish_ts": 1793108778,
-  "last_check_ts": 1793108920,
+  "last_publish_ts": 1793109006,
+  "last_check_ts": 1793109006,
   "exp_arm": {
     "EL": {
       "params": {
@@ -1451,16 +1473,13 @@
       }
     }
   },
-  "last_bar_ts": 1793108700,
-  "last_decision_ts": 1793108826,
+  "last_bar_ts": 1793109000,
+  "last_decision_ts": 1793109006,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "ea4b21b6": 108.266,
-    "566c03dc": 108.5304,
     "2cdd2787": 16.1662,
-    "ee1feab4": 15.9347,
-    "63c6b0e8": 15.617,
-    "2d843dd0": 104.8958
+    "04722145": 16.136,
+    "63c6b0e8": 15.617
   }
 }

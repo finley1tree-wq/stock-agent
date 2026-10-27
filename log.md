@@ -46928,3 +46928,18 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25278.60 (+1.11% on $25000.00 in) · cash $19292.85 · realised +292.85
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-27 09:50 ET (Tuesday) — week 2026-W44 — budget left $19016.29 (today $24000.00 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [stop_loss @ $107.90] -> $2993.28 (-0.22%) — close it all at -0.9% under the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgSrE9fuBWiUBzZpRCGjU'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25297.98 (+1.19% on $25000.00 in) · cash $22286.13 · realised +286.13
+Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 3 order(s) working; budget left $22009.57 this week
