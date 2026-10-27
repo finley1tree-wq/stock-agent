@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-27T13:10-04:00",
- "note": "tick: watching",
+ "asOf": "2026-10-27T13:13-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "1c85085b",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 251.108,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 251.3,
-   "pct_away": -0.08,
-   "good_until": "2026-11-01",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "e1db54e4",
    "ticker": "EL",
    "kind": "take_profit",
@@ -202,27 +185,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 108.16,
-   "pct_away": 0.09,
+   "last": 108.24,
+   "pct_away": 0.01,
    "good_until": "2026-11-01",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "df2d9c3e",
-   "ticker": "OLN",
-   "kind": "stop_loss",
-   "price": 16.214,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 16.23,
-   "pct_away": -0.1,
-   "good_until": "2026-11-01",
-   "why": "close it all at -1.0% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,10 +202,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 251.3,
-   "pct_away": 0.12,
+   "last": 251.49,
+   "pct_away": 0.04,
    "good_until": "2026-11-01",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1c85085b",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 251.108,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 251.49,
+   "pct_away": -0.15,
+   "good_until": "2026-11-01",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,44 +236,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 108.16,
-   "pct_away": -0.15,
+   "last": 108.24,
+   "pct_away": -0.22,
    "good_until": "2026-11-01",
    "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "55142036",
-   "ticker": "OLN",
-   "kind": "take_profit",
-   "price": 16.2569,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 16.23,
-   "pct_away": 0.17,
-   "good_until": "2026-11-01",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "249ab39b",
-   "ticker": "GPI",
-   "kind": "stop_loss",
-   "price": 250.9689,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 252.83,
-   "pct_away": -0.74,
-   "good_until": "2026-11-01",
-   "why": "close it all at -1.2% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -304,10 +253,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 252.83,
-   "pct_away": 0.96,
+   "last": 253.11,
+   "pct_away": 0.85,
    "good_until": "2026-11-01",
    "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "249ab39b",
+   "ticker": "GPI",
+   "kind": "stop_loss",
+   "price": 250.9689,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 253.11,
+   "pct_away": -0.85,
+   "good_until": "2026-11-01",
+   "why": "close it all at -1.2% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -321,8 +287,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 252.83,
-   "pct_away": -2.54,
+   "last": 253.11,
+   "pct_away": -2.65,
    "good_until": "2026-11-01",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -338,25 +304,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 251.3,
-   "pct_away": -3.17,
-   "good_until": "2026-11-01",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "985df9bd",
-   "ticker": "OLN",
-   "kind": "buy_limit",
-   "price": 15.7043,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 16.23,
-   "pct_away": -3.24,
+   "last": 251.49,
+   "pct_away": -3.25,
    "good_until": "2026-11-01",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -372,8 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 108.16,
-   "pct_away": -3.27,
+   "last": 108.24,
+   "pct_away": -3.34,
    "good_until": "2026-11-01",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
