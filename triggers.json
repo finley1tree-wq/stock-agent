@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "46a283dc",
-   "ticker": "IBRX",
-   "kind": "take_profit",
-   "price": 8.8553,
-   "status": "cancelled",
-   "created": "2026-10-22 09:40",
-   "created_ts": 1792676452,
-   "why": "close 100% at +1.0% over the average cost",
-   "evidence": "average cost $8.77",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 10:05",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "dd6eee37",
    "ticker": "IBRX",
    "kind": "stop_loss",
@@ -7323,7 +7304,7 @@
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 247.1367,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 11:22",
    "created_ts": 1793114545,
    "why": "close it all at -1.0% under the average cost",
@@ -7333,7 +7314,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 11:52",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "e90b3afe",
@@ -7477,7 +7460,24 @@
    ],
    "good_until": "2026-11-01",
    "usd": 500.0
+  },
+  {
+   "id": "9b2a634c",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 249.876,
+   "status": "working",
+   "created": "2026-10-27 11:52",
+   "created_ts": 1793116333,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $249.57",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-27 11:50"
+ "updated": "2026-10-27 11:52"
 }
