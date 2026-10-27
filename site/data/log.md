@@ -1,6 +1,3 @@
-  (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgSvUpoUhPqyriHGq88R7'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25294.16 (+1.18% on $25000.00 in) · cash $21554.13 · realised +304.13
 Decision: nothing at this check. 15 standing order(s) working.
@@ -398,3 +395,6 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on WSM: position closed)
 - SELL 100% WSM [take_profit @ $251.66] -> $752.21 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-10-27 12:04 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [stop_loss @ $53.33] -> $750.20 (+0.03%) — close it all at -0.6% under the average cost
+## 2026-10-27 12:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
