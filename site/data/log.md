@@ -1,6 +1,3 @@
-
-## 2026-10-26 15:12 ET (Monday) — week 2026-W44 — budget left $24996.50 (today $34500.00 put to work, 25 buys, 25 sells) — SIM (pretend money) via sim
-  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
   (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (CHCO excluded: too thinly traded ($16.2M a day) — City Holding Company)
@@ -398,3 +395,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25297.98 (+1.19% on $25000.00 in) · cash $22286.13 · realised +286.13
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 3 order(s) working; budget left $22009.57 this week
+  (cancelled 2 standing order(s) on OLN: position closed)
+- SELL 100% OLN [take_profit @ $16.17] -> $3013.71 (+0.46%) — close 100% at +0.4% over the average cost
+## 2026-10-27 09:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -7316,7 +7316,7 @@
    "ticker": "OLN",
    "kind": "take_profit",
    "price": 16.1662,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-27 09:35",
    "created_ts": 1793108103,
    "why": "close 100% at +0.4% over the average cost",
@@ -7326,7 +7326,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 09:50"
   },
   {
    "id": "ee1feab4",
@@ -7352,7 +7353,7 @@
    "ticker": "OLN",
    "kind": "buy_limit",
    "price": 15.617,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 09:35",
    "created_ts": 1793108103,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7362,7 +7363,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-27 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "1c28b4f6",
@@ -7481,7 +7484,7 @@
    "ticker": "OLN",
    "kind": "stop_loss",
    "price": 16.136,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 09:50",
    "created_ts": 1793109004,
    "why": "close it all at -1.0% under the average cost",
@@ -7491,7 +7494,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 09:50",
+   "cancel_reason": "position closed"
   }
  ],
  "updated": "2026-10-27 09:50"

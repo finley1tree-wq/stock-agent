@@ -46943,3 +46943,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25297.98 (+1.19% on $25000.00 in) · cash $22286.13 · realised +286.13
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 3 order(s) working; budget left $22009.57 this week
+  (cancelled 2 standing order(s) on OLN: position closed)
+- SELL 100% OLN [take_profit @ $16.17] -> $3013.71 (+0.46%) — close 100% at +0.4% over the average cost
+## 2026-10-27 09:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
