@@ -1,6 +1,3 @@
-portfolio: equity $25276.69 (+1.11% on $25000.00 in) · cash $16271.57 · realised +271.57
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 2 standing order(s) on GPI: position closed)
 - SELL 100% GPI [take_profit @ $250.00] -> $3021.28 (+0.71%) — close 100% at +0.5% over the average cost
 ## 2026-10-27 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25298.64 (+1.19% on $25000.00 in) · cash $22304.88 · realised +304.88
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $107.82] -> $752.74 (+0.37%) — close 100% at +0.4% over the average cost
+## 2026-10-27 11:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders

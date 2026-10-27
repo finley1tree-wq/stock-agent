@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-27T10:58-04:00",
- "note": "tick: watching",
+ "asOf": "2026-10-27T11:01-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,51 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "4a33ca0c",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 107.576,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 107.68,
-   "pct_away": -0.1,
-   "good_until": "2026-11-01",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "98a35f21",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 107.8153,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 107.68,
-   "pct_away": 0.13,
-   "good_until": "2026-11-01",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "904e4827",
+   "id": "6114e227",
    "ticker": "CACI",
-   "kind": "stop_loss",
-   "price": 654.1752,
+   "kind": "take_profit",
+   "price": 662.0333,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 657.18,
-   "pct_away": -0.46,
+   "last": 659.24,
+   "pct_away": 0.42,
    "good_until": "2026-11-01",
-   "why": "close it all at -0.9% under the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 415.97,
-   "pct_away": -0.56,
+   "last": 415.92,
+   "pct_away": -0.55,
    "good_until": "2026-11-01",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -263,17 +229,17 @@
    ]
   },
   {
-   "id": "6114e227",
+   "id": "904e4827",
    "ticker": "CACI",
-   "kind": "take_profit",
-   "price": 662.0333,
+   "kind": "stop_loss",
+   "price": 654.1752,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 657.18,
-   "pct_away": 0.74,
+   "last": 659.24,
+   "pct_away": -0.77,
    "good_until": "2026-11-01",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -287,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 415.97,
-   "pct_away": 0.77,
+   "last": 415.92,
+   "pct_away": 0.78,
    "good_until": "2026-11-01",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -314,23 +280,6 @@
    ]
   },
   {
-   "id": "fff4f693",
-   "ticker": "CACI",
-   "kind": "buy_limit",
-   "price": 639.9963,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 657.18,
-   "pct_away": -2.61,
-   "good_until": "2026-11-01",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "4be8bbd1",
    "ticker": "ADI",
    "kind": "buy_limit",
@@ -338,8 +287,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 415.97,
-   "pct_away": -2.62,
+   "last": 415.92,
+   "pct_away": -2.61,
    "good_until": "2026-11-01",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -365,15 +314,15 @@
    ]
   },
   {
-   "id": "e6433f55",
-   "ticker": "EL",
+   "id": "fff4f693",
+   "ticker": "CACI",
    "kind": "buy_limit",
-   "price": 104.1974,
+   "price": 639.9963,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 107.68,
-   "pct_away": -3.23,
+   "last": 659.24,
+   "pct_away": -2.92,
    "good_until": "2026-11-01",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
