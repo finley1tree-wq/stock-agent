@@ -1,17 +1,17 @@
 {
   "week": "2026-W44",
-  "spent": 2234.25,
-  "deployed": 66750.0,
+  "spent": 2984.25,
+  "deployed": 67500.0,
   "by_ticker": {
     "WSM": 46.78,
     "FITB": 773.93,
     "CRBG": 6.11,
-    "EL": 3.98,
+    "EL": 753.98,
     "OLN": 750.0,
     "NXPI": 750.0
   },
   "deployed_by_ticker": {
-    "EL": 8250.0,
+    "EL": 9000.0,
     "FITB": 9750.0,
     "ADI": 8250.0,
     "CACI": 9000.0,
@@ -1848,12 +1848,34 @@
       ],
       "evidence": "average cost $255.25",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "EL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.948101,
+      "price": 107.94,
+      "date": "2026-10-27",
+      "time_et": "11:47",
+      "ts": 1793116056,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +12.9% over the month; 64% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-27",
-  "spent_today": 2234.25,
-  "deployed_today": 32250.0,
-  "orders_today": 19,
+  "spent_today": 2984.25,
+  "deployed_today": 33000.0,
+  "orders_today": 20,
   "sells_today": 16,
   "sold_today": [
     "FITB",
@@ -1876,8 +1898,8 @@
     "GPI": 1793115625,
     "OLN": 1793109056
   },
-  "last_publish_ts": 1793115624,
-  "last_check_ts": 1793115949,
+  "last_publish_ts": 1793116056,
+  "last_check_ts": 1793116056,
   "exp_arm": {
     "OLN": {
       "params": {
@@ -1906,29 +1928,32 @@
         "hold_long": 120
       }
     },
-    "GPI": {
+    "EL": {
       "params": {
-        "hold_minutes": 120,
+        "hold_minutes": 90,
         "ratchet": "on"
       },
       "tags": {
-        "hold_long": 120
+        "hold_long": 90
       }
     }
   },
   "last_bar_ts": 1793115900,
-  "last_decision_ts": 1793115845,
-  "next_check_minutes": null,
+  "last_decision_ts": 1793116056,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "bb243679": 53.4321,
     "49d641c4": 250.5433,
+    "e76f9ecf": 108.3361,
     "b9b2a1e1": 53.0051,
-    "a9fe2644": 16.1866,
     "5c7c605d": 15.9535,
+    "a9fe2644": 16.1866,
+    "8af3a12a": 106.9513,
     "511882ee": 247.1367,
     "3a0d7bf1": 15.6364,
-    "e90b3afe": 242.0829,
-    "a8ce9d7a": 51.7107
+    "a8ce9d7a": 51.7107,
+    "c075bd74": 104.7018,
+    "e90b3afe": 242.0829
   }
 }

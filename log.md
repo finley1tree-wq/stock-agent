@@ -47540,3 +47540,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25313.36 (+1.25% on $25000.00 in) · cash $23065.59 · realised +315.59
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-27 11:47 ET (Tuesday) — week 2026-W44 — budget left $22765.75 (today $32250.00 put to work, 19 buys, 16 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (OWLS excluded: too thinly traded ($0.1M a day) — Obook Holdings Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgT1BqrahPc19si7wyYT4'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,766 idle, so opened 1: EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +12.9% over the month; 64% of today's range
+~ WORKING take_profit 100% EL @ $108.34 until 2026-11-01 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% EL @ $106.95 until 2026-11-01 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 EL @ $104.70 until 2026-11-01 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25313.11 (+1.25% on $25000.00 in) · cash $22315.59 · realised +315.59
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $22015.75 this week

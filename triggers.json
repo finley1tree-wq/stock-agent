@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "305a68ea",
-   "ticker": "CACI",
-   "kind": "stop_loss",
-   "price": 631.5128,
-   "status": "filled",
-   "created": "2026-10-22 09:37",
-   "created_ts": 1792676273,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $636.58",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 09:40"
-  },
-  {
-   "id": "8e8adaaa",
-   "ticker": "CACI",
-   "kind": "buy_limit",
-   "price": 617.4826,
-   "status": "cancelled",
-   "created": "2026-10-22 09:37",
-   "created_ts": 1792676273,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $636.58",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "usd": 500.0,
-   "closed": "2026-10-22 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "116a5cd0",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 239.838,
-   "status": "filled",
-   "created": "2026-10-22 09:38",
-   "created_ts": 1792676319,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $239.52",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 09:40"
-  },
-  {
    "id": "46a283dc",
    "ticker": "IBRX",
    "kind": "take_profit",
@@ -7481,7 +7426,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-27 11:40",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "e76f9ecf",
+   "ticker": "EL",
+   "kind": "take_profit",
+   "price": 108.3361,
+   "status": "working",
+   "created": "2026-10-27 11:47",
+   "created_ts": 1793116056,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $107.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8af3a12a",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 106.9513,
+   "status": "working",
+   "created": "2026-10-27 11:47",
+   "created_ts": 1793116056,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $107.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c075bd74",
+   "ticker": "EL",
+   "kind": "buy_limit",
+   "price": 104.7018,
+   "status": "working",
+   "created": "2026-10-27 11:47",
+   "created_ts": 1793116056,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $107.94",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-27 11:44"
+ "updated": "2026-10-27 11:47"
 }
