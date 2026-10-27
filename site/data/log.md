@@ -1,20 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-26 15:04 ET (Monday) — week 2026-W44 — budget left $24996.50 (today $34500.00 put to work, 25 buys, 25 sells) — SIM (pretend money) via sim
-  (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (CHCO excluded: too thinly traded ($16.2M a day) — City Holding Company)
-  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
-  (LCU excluded: not ordinary shares (ecnquote))
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgRNQ1cUs5LogagM3LYFL'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25273.06 (+1.09% on $25000.00 in) · cash $25273.06 · realised +273.06
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-26 15:06 ET (Monday) — week 2026-W44 — budget left $24996.50 (today $34500.00 put to work, 25 buys, 25 sells) — SIM (pretend money) via sim
   (AHNRF excluded: too thinly traded ($0.0M a day) — Athena Gold Corporation)
   (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 GPI @ $240.79 until 2026-11-01 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25254.74 (+1.02% on $25000.00 in) · cash $16271.57 · realised +271.57
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15995.01 this week
+
+## 2026-10-27 09:44 ET (Tuesday) — week 2026-W44 — budget left $15995.01 (today $24000.00 put to work, 8 buys, 5 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgSqnQPhsu8VL4y4BnoW2'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25276.69 (+1.11% on $25000.00 in) · cash $16271.57 · realised +271.57
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on GPI: position closed)
+- SELL 100% GPI [take_profit @ $250.00] -> $3021.28 (+0.71%) — close 100% at +0.5% over the average cost
+## 2026-10-27 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
