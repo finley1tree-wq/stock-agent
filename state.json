@@ -1,9 +1,9 @@
 {
   "week": "2026-W44",
-  "spent": 2984.25,
-  "deployed": 67500.0,
+  "spent": 3734.25,
+  "deployed": 68250.0,
   "by_ticker": {
-    "WSM": 46.78,
+    "WSM": 796.78,
     "FITB": 773.93,
     "CRBG": 6.11,
     "EL": 753.98,
@@ -16,7 +16,7 @@
     "ADI": 8250.0,
     "CACI": 9000.0,
     "NXPI": 9750.0,
-    "WSM": 9000.0,
+    "WSM": 9750.0,
     "CRBG": 4500.0,
     "OLN": 3750.0,
     "GPI": 4500.0
@@ -1870,12 +1870,34 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "WSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.988997,
+      "price": 250.92,
+      "date": "2026-10-27",
+      "time_et": "11:53",
+      "ts": 1793116422,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +8.6% over the month; 84% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-10-27",
-  "spent_today": 2984.25,
-  "deployed_today": 33000.0,
-  "orders_today": 20,
+  "spent_today": 3734.25,
+  "deployed_today": 33750.0,
+  "orders_today": 21,
   "sells_today": 16,
   "sold_today": [
     "FITB",
@@ -1898,8 +1920,8 @@
     "GPI": 1793115625,
     "OLN": 1793109056
   },
-  "last_publish_ts": 1793116333,
-  "last_check_ts": 1793116333,
+  "last_publish_ts": 1793116422,
+  "last_check_ts": 1793116422,
   "exp_arm": {
     "OLN": {
       "params": {
@@ -1936,24 +1958,36 @@
       "tags": {
         "hold_long": 90
       }
+    },
+    "WSM": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
     }
   },
   "last_bar_ts": 1793116200,
-  "last_decision_ts": 1793116239,
-  "next_check_minutes": null,
+  "last_decision_ts": 1793116422,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "9b2a634c": 249.876,
     "49d641c4": 250.5433,
     "bb243679": 53.4321,
+    "f9e0b6e5": 251.6602,
     "e76f9ecf": 108.3361,
     "b9b2a1e1": 53.0051,
     "a9fe2644": 16.1866,
+    "ade485ed": 249.0682,
     "5c7c605d": 15.9535,
     "8af3a12a": 106.9513,
     "3a0d7bf1": 15.6364,
-    "c075bd74": 104.7018,
+    "cbca908e": 243.3924,
     "a8ce9d7a": 51.7107,
+    "c075bd74": 104.7018,
     "e90b3afe": 242.0829
   }
 }
