@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "734d863d",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 52.9067,
-   "status": "cancelled",
-   "created": "2026-10-22 09:52",
-   "created_ts": 1792677154,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $53.21",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 09:57",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "c7ff713a",
    "ticker": "FITB",
    "kind": "buy_limit",
@@ -7091,7 +7072,7 @@
    "ticker": "OLN",
    "kind": "stop_loss",
    "price": 15.9535,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 10:36",
    "created_ts": 1793111811,
    "why": "close it all at -1.0% under the average cost",
@@ -7101,7 +7082,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 11:57",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "3a0d7bf1",
@@ -7472,7 +7455,24 @@
    ],
    "good_until": "2026-11-01",
    "usd": 500.0
+  },
+  {
+   "id": "31423707",
+   "ticker": "OLN",
+   "kind": "stop_loss",
+   "price": 16.144,
+   "status": "working",
+   "created": "2026-10-27 11:57",
+   "created_ts": 1793116655,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $16.12",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-27 11:56"
+ "updated": "2026-10-27 11:57"
 }
