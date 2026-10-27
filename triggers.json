@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "c1bc662e",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 245.5167,
-   "status": "cancelled",
-   "created": "2026-10-21 11:38",
-   "created_ts": 1792597106,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $253.11",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-26",
-   "usd": 500.0,
-   "closed": "2026-10-21 12:16",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ec96265a",
-   "ticker": "CRBG",
-   "kind": "take_profit",
-   "price": 35.4386,
-   "status": "filled",
-   "created": "2026-10-21 11:38",
-   "created_ts": 1792597106,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $35.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-21 11:56"
-  },
-  {
-   "id": "944f37b1",
-   "ticker": "CRBG",
-   "kind": "stop_loss",
-   "price": 35.094,
-   "status": "cancelled",
-   "created": "2026-10-21 11:38",
-   "created_ts": 1792597106,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $35.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-26",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-21 11:49",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "9d8585cb",
    "ticker": "CRBG",
    "kind": "buy_limit",
@@ -7310,7 +7254,7 @@
    "ticker": "NXPI",
    "kind": "take_profit",
    "price": 248.4328,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-27 09:32",
    "created_ts": 1793107956,
    "why": "close 100% at +0.4% over the average cost",
@@ -7320,14 +7264,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 09:40"
   },
   {
    "id": "dbd75854",
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 245.1017,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 09:32",
    "created_ts": 1793107956,
    "why": "close it all at -1.0% under the average cost",
@@ -7337,14 +7282,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "8f595786",
    "ticker": "NXPI",
    "kind": "buy_limit",
    "price": 240.0556,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 09:32",
    "created_ts": 1793107956,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7354,14 +7301,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-27 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a289cf55",
    "ticker": "CACI",
    "kind": "take_profit",
    "price": 663.4716,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-27 09:35",
    "created_ts": 1793108103,
    "why": "close 100% at +0.3% over the average cost",
@@ -7371,7 +7320,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 09:40"
   },
   {
    "id": "7b5488d3",
@@ -7397,7 +7347,7 @@
    "ticker": "CACI",
    "kind": "buy_limit",
    "price": 641.3931,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 09:35",
    "created_ts": 1793108103,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7407,7 +7357,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-27 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "2cdd2787",
@@ -7465,7 +7417,7 @@
    "ticker": "CACI",
    "kind": "stop_loss",
    "price": 663.09,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-27 09:39",
    "created_ts": 1793108387,
    "why": "close it all at -0.8% under the average cost",
@@ -7475,8 +7427,61 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-01",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-27 09:40",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "4be77f2a",
+   "ticker": "GPI",
+   "kind": "take_profit",
+   "price": 249.439,
+   "status": "working",
+   "created": "2026-10-27 09:41",
+   "created_ts": 1793108478,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $248.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "a4415950",
+   "ticker": "GPI",
+   "kind": "stop_loss",
+   "price": 245.2413,
+   "status": "working",
+   "created": "2026-10-27 09:41",
+   "created_ts": 1793108478,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $248.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8cb34bed",
+   "ticker": "GPI",
+   "kind": "buy_limit",
+   "price": 240.7928,
+   "status": "working",
+   "created": "2026-10-27 09:41",
+   "created_ts": 1793108478,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $248.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-01",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-27 09:39"
+ "updated": "2026-10-27 09:41"
 }

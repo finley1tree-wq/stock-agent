@@ -1,15 +1,14 @@
 {
   "week": "2026-W44",
-  "spent": 12033.92,
-  "deployed": 55500.0,
+  "spent": 9004.99,
+  "deployed": 58500.0,
   "by_ticker": {
     "WSM": 47.53,
     "FITB": 24.13,
     "CRBG": 6.11,
-    "CACI": 3000.44,
     "EL": 3000.0,
-    "NXPI": 3000.0,
-    "OLN": 3000.0
+    "OLN": 3000.0,
+    "GPI": 3000.0
   },
   "deployed_by_ticker": {
     "EL": 7500.0,
@@ -19,7 +18,8 @@
     "NXPI": 8250.0,
     "WSM": 8250.0,
     "CRBG": 4500.0,
-    "OLN": 3000.0
+    "OLN": 3000.0,
+    "GPI": 3000.0
   },
   "orders": [
     {
@@ -1311,76 +1311,97 @@
       ],
       "evidence": "average cost $414.03",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 12.122243,
+      "status": "filled",
+      "price": 248.72,
+      "proceeds": 3014.98,
+      "realized_pnl": 14.98,
+      "realized_pct": 0.5,
+      "date": "2026-10-27",
+      "time_et": "09:40",
+      "ts": 1793108400,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $247.48",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "CACI",
+      "side": "sell",
+      "qty": 4.536969,
+      "status": "filled",
+      "price": 664.31,
+      "proceeds": 3013.95,
+      "realized_pnl": 13.95,
+      "realized_pct": 0.47,
+      "date": "2026-10-27",
+      "time_et": "09:40",
+      "ts": 1793108400,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $661.23",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "GPI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.085115,
+      "price": 248.24,
+      "date": "2026-10-27",
+      "time_et": "09:41",
+      "ts": 1793108478,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +2.4% over the month; 0% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-27",
-  "spent_today": 12030.42,
-  "deployed_today": 21000.0,
-  "orders_today": 7,
-  "sells_today": 3,
+  "spent_today": 9001.49,
+  "deployed_today": 24000.0,
+  "orders_today": 8,
+  "sells_today": 5,
   "sold_today": [
     "FITB",
     "WSM",
-    "ADI"
+    "ADI",
+    "NXPI",
+    "CACI"
   ],
   "sold_ts": {
     "ADI": 1793108388,
-    "NXPI": 1793037021,
+    "NXPI": 1793108430,
     "FITB": 1793108342,
-    "CACI": 1793035818,
+    "CACI": 1793108430,
     "WSM": 1793108342,
     "CRBG": 1793035459,
     "EL": 1793035504
   },
-  "last_publish_ts": 1793108387,
-  "last_check_ts": 1793108387,
+  "last_publish_ts": 1793108478,
+  "last_check_ts": 1793108478,
   "exp_arm": {
     "EL": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "FITB": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
-    "ADI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "WSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "NXPI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "CACI": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -1397,24 +1418,30 @@
       "tags": {
         "hold_long": 120
       }
+    },
+    "GPI": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
     }
   },
-  "last_bar_ts": 1793108100,
-  "last_decision_ts": 1793108296,
-  "next_check_minutes": null,
+  "last_bar_ts": 1793108400,
+  "last_decision_ts": 1793108478,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "a289cf55": 663.4716,
-    "1c28b4f6": 663.09,
-    "2630e6c8": 248.4328,
     "72340eb9": 107.1657,
+    "4be77f2a": 249.439,
     "2cdd2787": 16.1662,
     "566c03dc": 108.5304,
     "ee1feab4": 15.9347,
-    "dbd75854": 245.1017,
+    "a4415950": 245.2413,
     "2d843dd0": 104.8958,
     "63c6b0e8": 15.617,
-    "8f595786": 240.0556,
-    "797a2c25": 641.3931
+    "8cb34bed": 240.7928
   }
 }
