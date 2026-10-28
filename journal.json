@@ -82079,7 +82079,9 @@
     "code_version": "b8fb738",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.82
+    "ret_now": -1.11,
+    "ret_final": -1.11,
+    "ret_src": "realised"
   },
   {
     "symbol": "BBT",
@@ -82344,7 +82346,7 @@
     "code_version": "d338a9b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": -0.05
   },
   {
     "symbol": "NXPI",
@@ -82513,5 +82515,32 @@
     "hour_et": 14,
     "code_version": "383a8f1",
     "hold_minutes": 58
+  },
+  {
+    "symbol": "LRN",
+    "side": "sell",
+    "qty": 9.415977,
+    "status": "filled",
+    "price": 78.77,
+    "proceeds": 741.71,
+    "realized_pnl": -8.29,
+    "realized_pct": -1.11,
+    "date": "2026-10-28",
+    "time_et": "14:22",
+    "ts": 1793211600,
+    "why": "close it all at -1.1% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $79.65",
+    "trigger": "stop_loss",
+    "hour_et": 14,
+    "code_version": "aa73266",
+    "hold_minutes": 69
   }
 ]

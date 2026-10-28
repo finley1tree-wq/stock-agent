@@ -50487,3 +50487,21 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25327.61 (+1.31% on $25000.00 in) · cash $23833.87 · realised +333.87
 Decision: nothing at this check. 4 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on LRN: position closed)
+- SELL 100% LRN [stop_loss @ $78.77] -> $741.71 (-1.11%) — close it all at -1.1% under the average cost
+## 2026-10-28 14:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-28 14:22 ET (Wednesday) — week 2026-W44 — budget left $24240.04 (today $53250.00 put to work, 38 buys, 37 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgV6nYB1vH3ktKTFZN3qY'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25325.06 (+1.30% on $25000.00 in) · cash $24575.58 · realised +325.58
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

@@ -7039,7 +7039,7 @@
    "ticker": "LRN",
    "kind": "take_profit",
    "price": 79.9853,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:10",
    "created_ts": 1793207407,
    "why": "close 100% at +0.4% over the average cost",
@@ -7049,14 +7049,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 14:22",
+   "cancel_reason": "position closed"
   },
   {
    "id": "92000bc0",
    "ticker": "LRN",
    "kind": "stop_loss",
    "price": 78.8105,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 13:10",
    "created_ts": 1793207407,
    "why": "close it all at -1.1% under the average cost",
@@ -7066,7 +7068,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 14:22"
   },
   {
    "id": "15678323",
@@ -7494,5 +7497,5 @@
    "closed": "2026-10-28 14:01"
   }
  ],
- "updated": "2026-10-28 14:19"
+ "updated": "2026-10-28 14:22"
 }
