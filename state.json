@@ -1,7 +1,7 @@
 {
   "week": "2026-W44",
-  "spent": 3744.75,
-  "deployed": 125250.0,
+  "spent": 4494.75,
+  "deployed": 126000.0,
   "by_ticker": {
     "WSM": 34.51,
     "FITB": 35.43,
@@ -13,7 +13,8 @@
     "OLN": 1.36,
     "NXPI": 758.45,
     "PDI": 750.0,
-    "ADI": 750.0
+    "ADI": 750.0,
+    "ACN": 750.0
   },
   "deployed_by_ticker": {
     "EL": 14250.0,
@@ -29,7 +30,7 @@
     "LRN": 5250.0,
     "PDI": 3750.0,
     "BBT": 5250.0,
-    "ACN": 750.0
+    "ACN": 1500.0
   },
   "orders": [
     {
@@ -3750,12 +3751,34 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ACN",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.069131,
+      "price": 244.37,
+      "date": "2026-10-28",
+      "time_et": "13:44",
+      "ts": 1793209464,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "2 insiders bought (Form 4, incl. Chair, CEO); +37.9% over the month; 83% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-10-28",
-  "spent_today": 3744.75,
-  "deployed_today": 51750.0,
-  "orders_today": 36,
+  "spent_today": 4494.75,
+  "deployed_today": 52500.0,
+  "orders_today": 37,
   "sells_today": 31,
   "sold_today": [
     "EL",
@@ -3787,8 +3810,8 @@
     "PDI": 1793201151,
     "ACN": 1793201197
   },
-  "last_publish_ts": 1793209372,
-  "last_check_ts": 1793209372,
+  "last_publish_ts": 1793209464,
+  "last_check_ts": 1793209464,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -3834,26 +3857,38 @@
       "tags": {
         "hold_long": 120
       }
+    },
+    "ACN": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
     }
   },
   "last_bar_ts": 1793209200,
-  "last_decision_ts": 1793209280,
+  "last_decision_ts": 1793209464,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "6a16a6e3": 247.034,
     "9227c430": 14.1008,
     "046d0618": 247.6276,
-    "6a16a6e3": 247.034,
-    "20b64615": 30.4721,
     "b48c26c6": 426.998,
+    "20b64615": 30.4721,
+    "bbab3dc4": 245.5014,
     "8be0f78a": 14.1836,
     "08604bab": 30.1852,
     "92000bc0": 78.8105,
     "c38f7dca": 79.9853,
     "9aaa1007": 421.3701,
+    "b7761069": 241.5426,
     "9ab63dcd": 13.7352,
     "15678323": 77.2605,
     "ad6e506c": 29.4783,
+    "90b87812": 237.0389,
     "1df538de": 412.6283,
     "d9f72310": 239.1632
   }
