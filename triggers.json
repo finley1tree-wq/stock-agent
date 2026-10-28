@@ -7017,7 +7017,7 @@
    "ticker": "PDI",
    "kind": "buy_limit",
    "price": 13.7352,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:06",
    "created_ts": 1793207215,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7027,7 +7027,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "c38f7dca",
@@ -7068,7 +7070,7 @@
    "ticker": "LRN",
    "kind": "buy_limit",
    "price": 77.2605,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:10",
    "created_ts": 1793207407,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7078,7 +7080,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "20b64615",
@@ -7119,7 +7123,7 @@
    "ticker": "BBT",
    "kind": "buy_limit",
    "price": 29.4783,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:13",
    "created_ts": 1793207586,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7129,7 +7133,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "402975df",
@@ -7301,7 +7307,7 @@
    "ticker": "ADI",
    "kind": "buy_limit",
    "price": 412.6283,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:41",
    "created_ts": 1793209280,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7311,7 +7317,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "6a16a6e3",
@@ -7370,7 +7378,7 @@
    "ticker": "ACN",
    "kind": "buy_limit",
    "price": 237.0389,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:44",
    "created_ts": 1793209464,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7380,14 +7388,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "fce406fb",
    "ticker": "GH",
    "kind": "take_profit",
    "price": 185.3614,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 13:47",
    "created_ts": 1793209651,
    "why": "close 100% at +0.5% over the average cost",
@@ -7397,7 +7407,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 13:59"
   },
   {
    "id": "b023d125",
@@ -7423,7 +7434,7 @@
    "ticker": "GH",
    "kind": "buy_limit",
    "price": 178.8971,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:47",
    "created_ts": 1793209651,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7433,14 +7444,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 13:59",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ab326f06",
    "ticker": "GH",
    "kind": "stop_loss",
    "price": 184.838,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:53",
    "created_ts": 1793210024,
    "why": "close it all at -1.3% under the average cost",
@@ -7450,7 +7463,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 13:59",
+   "cancel_reason": "position closed"
   },
   {
    "id": "bf6f81af",
@@ -7470,5 +7485,5 @@
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-28 13:56"
+ "updated": "2026-10-28 14:00"
 }
