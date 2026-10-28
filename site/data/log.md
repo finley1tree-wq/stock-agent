@@ -1,6 +1,3 @@
-- SELL 100% CACI [take_profit @ $663.18] -> $3017.04 (+0.57%) — close 100% at +0.3% over the average cost
-## 2026-10-28 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
 ## 2026-10-28 09:38 ET (Wednesday) — week 2026-W44 — budget left $4026.37 (today $27000.00 put to work, 9 buys, 2 sells) — SIM (pretend money) via sim
   (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
   (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 NXPI @ $240.11 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25337.65 (+1.35% on $25000.00 in) · cash $17849.76 · realised +349.76
 Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $17523.89 this week
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $249.01] -> $744.22 (-0.77%) — close it all at -0.7% under the average cost
+## 2026-10-28 10:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
