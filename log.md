@@ -49202,3 +49202,26 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $243.41 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25336.61 (+1.35% on $25000.00 in) · cash $20844.79 · realised +344.79
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $20518.91 this week
+
+## 2026-10-28 10:30 ET (Wednesday) — week 2026-W44 — budget left $20518.91 (today $34500.00 put to work, 13 buys, 10 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+  (bad quote AIOK: +39.3% in a day looks like a bad tick)
+  (no price for AIOK — excluded this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUo5q6dWijgZewDnMLmD'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $20,519 idle, so opened 2: EL, GH. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +15.3% over the month; 84% of today's range
+- BUY $750.00 GH [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Jonathan L. Jackson), $15,001 - $50,000; +3.2% over the month; 83% of today's range
+~ WORKING take_profit 100% EL @ $109.25 until 2026-11-02 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% EL @ $107.88 until 2026-11-02 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 EL @ $105.59 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GH @ $184.36 until 2026-11-02 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% GH @ $181.14 until 2026-11-02 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 GH @ $177.94 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25339.67 (+1.36% on $25000.00 in) · cash $19344.79 · realised +344.79
+Done: 0 sell(s), 2 buy(s); 15 order(s) working; budget left $19018.91 this week
