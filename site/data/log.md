@@ -1,6 +1,3 @@
-
-## 2026-10-28 12:26 ET (Wednesday) — week 2026-W44 — budget left $23503.69 (today $44250.00 put to work, 26 buys, 24 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
   (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
   (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
   (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 21 standing order(s) working.
   (cancelled 2 standing order(s) on EL: position closed)
 - SELL 100% EL [stop_loss @ $109.41] -> $750.50 (+0.07%) — close it all at -0.9% under the average cost
 ## 2026-10-28 13:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $251.18] -> $749.52 (-0.06%) — close it all at -0.7% under the average cost
+## 2026-10-28 13:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders

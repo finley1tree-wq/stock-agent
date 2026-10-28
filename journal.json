@@ -81881,7 +81881,7 @@
     "code_version": "2732a51",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15
+    "ret_now": 0.22
   },
   {
     "symbol": "CACI",
@@ -81945,7 +81945,9 @@
     "code_version": "2732a51",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": -0.06,
+    "ret_final": -0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -81976,7 +81978,7 @@
     "code_version": "2732a51",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.21
+    "ret_now": -0.09
   },
   {
     "symbol": "EL",
@@ -82007,7 +82009,9 @@
     "code_version": "88b129b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16
+    "ret_now": 0.07,
+    "ret_final": 0.07,
+    "ret_src": "realised"
   },
   {
     "symbol": "PDI",
@@ -82038,7 +82042,7 @@
     "code_version": "b952ad7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.28
+    "ret_now": -0.21
   },
   {
     "symbol": "LRN",
@@ -82069,7 +82073,7 @@
     "code_version": "b8fb738",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.38
+    "ret_now": -0.33
   },
   {
     "symbol": "BBT",
@@ -82100,7 +82104,7 @@
     "code_version": "ac2fd24",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.1
   },
   {
     "symbol": "CACI",
@@ -82213,6 +82217,34 @@
     "evidence": "average cost $109.33",
     "trigger": "stop_loss",
     "hour_et": 13,
-    "code_version": "a34268b"
+    "code_version": "a34268b",
+    "hold_minutes": 26
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 2.984,
+    "status": "filled",
+    "price": 251.18,
+    "proceeds": 749.52,
+    "realized_pnl": -0.48,
+    "realized_pct": -0.06,
+    "date": "2026-10-28",
+    "time_et": "13:35",
+    "ts": 1793208900,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $251.34",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "454949d",
+    "hold_minutes": 34
   }
 ]

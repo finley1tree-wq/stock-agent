@@ -7034,7 +7034,7 @@
    "ticker": "WSM",
    "kind": "take_profit",
    "price": 252.0488,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:00",
    "created_ts": 1793206845,
    "why": "close 100% at +0.3% over the average cost",
@@ -7044,7 +7044,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 13:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "4dd1a411",
@@ -7070,7 +7072,7 @@
    "ticker": "WSM",
    "kind": "buy_limit",
    "price": 243.7998,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:00",
    "created_ts": 1793206845,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7080,7 +7082,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 13:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "046d0618",
@@ -7457,7 +7461,7 @@
    "ticker": "WSM",
    "kind": "stop_loss",
    "price": 251.604,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 13:33",
    "created_ts": 1793208819,
    "why": "close it all at -0.7% under the average cost",
@@ -7467,8 +7471,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 13:35"
   }
  ],
- "updated": "2026-10-28 13:33"
+ "updated": "2026-10-28 13:35"
 }
