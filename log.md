@@ -49892,3 +49892,23 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 portfolio: equity $25327.99 (+1.31% on $25000.00 in) · cash $23829.55 · realised +329.55
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on OLN: position closed)
+- SELL 100% OLN [take_profit @ $16.61] -> $753.15 (+0.42%) — close 100% at +0.4% over the average cost
+## 2026-10-28 12:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-28 12:36 ET (Wednesday) — week 2026-W44 — budget left $24256.84 (today $44250.00 put to work, 26 buys, 25 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUxiVqL8oBZwAm1TqNrd'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,257 idle, so opened 3: FITB, CACI, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CACI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25331.16 (+1.32% on $25000.00 in) · cash $24582.70 · realised +332.70
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

@@ -81446,7 +81446,7 @@
     "code_version": "8ce88ea",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.21
+    "ret_now": -0.19
   },
   {
     "symbol": "CACI",
@@ -81711,7 +81711,9 @@
     "code_version": "325d6ad",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06
+    "ret_now": 0.42,
+    "ret_final": 0.42,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -81793,5 +81795,32 @@
     "hour_et": 12,
     "code_version": "7d51089",
     "hold_minutes": 53
+  },
+  {
+    "symbol": "OLN",
+    "side": "sell",
+    "qty": 45.353909,
+    "status": "filled",
+    "price": 16.61,
+    "proceeds": 753.15,
+    "realized_pnl": 3.15,
+    "realized_pct": 0.42,
+    "date": "2026-10-28",
+    "time_et": "12:35",
+    "ts": 1793205000,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $16.54",
+    "trigger": "take_profit",
+    "hour_et": 12,
+    "code_version": "5a92d74",
+    "hold_minutes": 49
   }
 ]

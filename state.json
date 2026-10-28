@@ -1,6 +1,6 @@
 {
   "week": "2026-W44",
-  "spent": 1496.31,
+  "spent": 743.16,
   "deployed": 117750.0,
   "by_ticker": {
     "WSM": 34.03,
@@ -11,7 +11,7 @@
     "BBT": 18.34,
     "EL": 0.33,
     "GH": 0.14,
-    "OLN": 757.68,
+    "OLN": 4.53,
     "NXPI": 8.45,
     "ADI": 750.0
   },
@@ -3383,13 +3383,34 @@
       ],
       "evidence": "average cost $30.39",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "OLN",
+      "side": "sell",
+      "qty": 45.353909,
+      "status": "filled",
+      "price": 16.61,
+      "proceeds": 753.15,
+      "realized_pnl": 3.15,
+      "realized_pct": 0.42,
+      "date": "2026-10-28",
+      "time_et": "12:35",
+      "ts": 1793205000,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $16.54",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-28",
-  "spent_today": 1493.11,
+  "spent_today": 739.96,
   "deployed_today": 44250.0,
   "orders_today": 26,
-  "sells_today": 24,
+  "sells_today": 25,
   "sold_today": [
     "EL",
     "CACI",
@@ -3413,15 +3434,15 @@
     "CRBG": 1793035459,
     "EL": 1793198126,
     "GPI": 1793121696,
-    "OLN": 1793199281,
+    "OLN": 1793205332,
     "GH": 1793198126,
     "LRN": 1793204636,
     "BBT": 1793204788,
     "PDI": 1793201151,
     "ACN": 1793201197
   },
-  "last_publish_ts": 1793205291,
-  "last_check_ts": 1793205291,
+  "last_publish_ts": 1793205331,
+  "last_check_ts": 1793205380,
   "exp_arm": {
     "ADI": {
       "params": {
@@ -3469,16 +3490,13 @@
       }
     }
   },
-  "last_bar_ts": 1793205000,
-  "last_decision_ts": 1793205205,
+  "last_bar_ts": 1793205300,
+  "last_decision_ts": 1793205380,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "aef97bfb": 16.564,
-    "7d392708": 16.606,
     "6cca727b": 426.6366,
     "b6075939": 421.0135,
-    "2935b252": 412.2791,
-    "c47f94cb": 16.0438
+    "2935b252": 412.2791
   }
 }

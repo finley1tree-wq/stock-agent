@@ -1,6 +1,3 @@
-## 2026-10-28 11:19 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-28 11:21 ET (Wednesday) — week 2026-W44 — budget left $19010.81 (today $41250.00 put to work, 22 buys, 17 sells) — SIM (pretend money) via sim
   (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
   (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
   (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 portfolio: equity $25327.99 (+1.31% on $25000.00 in) · cash $23829.55 · realised +329.55
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on OLN: position closed)
+- SELL 100% OLN [take_profit @ $16.61] -> $753.15 (+0.42%) — close 100% at +0.4% over the average cost
+## 2026-10-28 12:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
