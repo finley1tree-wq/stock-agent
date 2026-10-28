@@ -81881,7 +81881,9 @@
     "code_version": "2732a51",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.22
+    "ret_now": 0.22,
+    "ret_final": 0.22,
+    "ret_src": "realised"
   },
   {
     "symbol": "CACI",
@@ -81978,7 +81980,7 @@
     "code_version": "2732a51",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": 0.2
   },
   {
     "symbol": "EL",
@@ -82042,7 +82044,7 @@
     "code_version": "b952ad7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.28
+    "ret_now": -0.21
   },
   {
     "symbol": "LRN",
@@ -82073,7 +82075,7 @@
     "code_version": "b8fb738",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.39
+    "ret_now": -0.31
   },
   {
     "symbol": "BBT",
@@ -82104,7 +82106,7 @@
     "code_version": "ac2fd24",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": 0.16
   },
   {
     "symbol": "CACI",
@@ -82246,5 +82248,62 @@
     "hour_et": 13,
     "code_version": "454949d",
     "hold_minutes": 34
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 14.036699,
+    "status": "filled",
+    "price": 53.55,
+    "proceeds": 751.67,
+    "realized_pnl": 1.67,
+    "realized_pct": 0.22,
+    "date": "2026-10-28",
+    "time_et": "13:41",
+    "ts": 1793209200,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $53.43",
+    "trigger": "take_profit",
+    "hour_et": 13,
+    "code_version": "f1c1d16",
+    "hold_minutes": 39
+  },
+  {
+    "symbol": "ADI",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 1.763108,
+    "price": 425.39,
+    "date": "2026-10-28",
+    "time_et": "13:41",
+    "ts": 1793209280,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Rick Larsen), $1,001 - $15,000; +6.8% over the month; 63% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 425.3,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 6.8,
+    "hour_et": 13,
+    "code_version": "f1c1d16",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -50270,3 +50270,23 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25334.50 (+1.34% on $25000.00 in) · cash $21589.12 · realised +339.12
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [take_profit @ $53.55] -> $751.67 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-10-28 13:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-28 13:41 ET (Wednesday) — week 2026-W44 — budget left $22005.25 (today $51000.00 put to work, 35 buys, 31 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgV3fukkgKnzh7Eie4Y8p'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $22,005 idle, so opened 1: ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +6.8% over the month; 63% of today's range
+~ WORKING take_profit 100% ADI @ $427.00 until 2026-11-02 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% ADI @ $421.37 until 2026-11-02 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $412.63 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25337.80 (+1.35% on $25000.00 in) · cash $21590.78 · realised +340.78
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21255.25 this week

@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "2a70122a",
-   "ticker": "RIG",
-   "kind": "buy_limit",
-   "price": 6.1983,
-   "status": "cancelled",
-   "created": "2026-10-23 10:31",
-   "created_ts": 1792765876,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $6.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "usd": 500.0,
-   "closed": "2026-10-23 10:55",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "613b9039",
-   "ticker": "ADI",
-   "kind": "take_profit",
-   "price": 390.1748,
-   "status": "filled",
-   "created": "2026-10-23 10:36",
-   "created_ts": 1792766182,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $388.69",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 10:40"
-  },
-  {
-   "id": "677e8f1c",
-   "ticker": "ADI",
-   "kind": "stop_loss",
-   "price": 384.978,
-   "status": "cancelled",
-   "created": "2026-10-23 10:36",
-   "created_ts": 1792766182,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $388.69",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 10:38",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "f89a1a43",
    "ticker": "ADI",
    "kind": "buy_limit",
@@ -6924,7 +6868,7 @@
    "ticker": "FITB",
    "kind": "take_profit",
    "price": 53.5502,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 13:00",
    "created_ts": 1793206845,
    "why": "close 100% at +0.2% over the average cost",
@@ -6934,7 +6878,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 13:41"
   },
   {
    "id": "f69fb424",
@@ -6960,7 +6905,7 @@
    "ticker": "FITB",
    "kind": "buy_limit",
    "price": 51.8271,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:00",
    "created_ts": 1793206845,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6970,7 +6915,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 13:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "2113eddc",
@@ -7444,7 +7391,7 @@
    "ticker": "FITB",
    "kind": "stop_loss",
    "price": 53.472,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:31",
    "created_ts": 1793208667,
    "why": "close it all at -0.6% under the average cost",
@@ -7454,7 +7401,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 13:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "5e3fb04c",
@@ -7473,7 +7422,58 @@
    "good_until": "2026-11-02",
    "pct_of_position": 100.0,
    "closed": "2026-10-28 13:35"
+  },
+  {
+   "id": "b48c26c6",
+   "ticker": "ADI",
+   "kind": "take_profit",
+   "price": 426.998,
+   "status": "working",
+   "created": "2026-10-28 13:41",
+   "created_ts": 1793209280,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $425.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9aaa1007",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 421.3701,
+   "status": "working",
+   "created": "2026-10-28 13:41",
+   "created_ts": 1793209280,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $425.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1df538de",
+   "ticker": "ADI",
+   "kind": "buy_limit",
+   "price": 412.6283,
+   "status": "working",
+   "created": "2026-10-28 13:41",
+   "created_ts": 1793209280,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $425.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-28 13:38"
+ "updated": "2026-10-28 13:41"
 }
