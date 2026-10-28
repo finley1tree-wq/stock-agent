@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "d2ee5a46",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 239.477,
-   "status": "filled",
-   "created": "2026-10-23 09:36",
-   "created_ts": 1792762565,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $238.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 09:41"
-  },
-  {
-   "id": "91f599c5",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 236.1614,
-   "status": "cancelled",
-   "created": "2026-10-23 09:36",
-   "created_ts": 1792762565,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $238.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 09:38",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "a5eead93",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 231.3741,
-   "status": "cancelled",
-   "created": "2026-10-23 09:36",
-   "created_ts": 1792762565,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $238.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "usd": 500.0,
-   "closed": "2026-10-23 09:41",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "821a7104",
    "ticker": "RIG",
    "kind": "stop_loss",
@@ -7477,7 +7421,58 @@
    ],
    "good_until": "2026-11-02",
    "usd": 500.0
+  },
+  {
+   "id": "7d392708",
+   "ticker": "OLN",
+   "kind": "take_profit",
+   "price": 16.606,
+   "status": "working",
+   "created": "2026-10-28 11:40",
+   "created_ts": 1793202035,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $16.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3591f971",
+   "ticker": "OLN",
+   "kind": "stop_loss",
+   "price": 16.3749,
+   "status": "working",
+   "created": "2026-10-28 11:40",
+   "created_ts": 1793202035,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $16.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c47f94cb",
+   "ticker": "OLN",
+   "kind": "buy_limit",
+   "price": 16.0438,
+   "status": "working",
+   "created": "2026-10-28 11:40",
+   "created_ts": 1793202035,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $16.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-28 11:37"
+ "updated": "2026-10-28 11:40"
 }
