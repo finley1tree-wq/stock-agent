@@ -1,6 +1,3 @@
-## 2026-10-27 15:07 ET (Tuesday) — week 2026-W44 — budget left $24996.80 (today $39000.00 put to work, 28 buys, 28 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
   (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
   (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
   (KIO excluded: too thinly traded ($2.1M a day) — KKR Income Opportunities Fund)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 21 standing order(s) working.
   (cancelled 2 standing order(s) on LRN: position closed)
 - SELL 100% LRN [stop_loss @ $79.76] -> $2964.61 (-1.18%) — close it all at -1.0% under the average cost
 ## 2026-10-28 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on OLN: position closed)
+- SELL 100% OLN [take_profit @ $16.51] -> $3012.39 (+0.41%) — close 100% at +0.4% over the average cost
+## 2026-10-28 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
