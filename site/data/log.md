@@ -1,6 +1,3 @@
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
   (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUwgmsZVWy5Pxo32eZYk'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $500.00 OLN @ $15.96 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25326.59 (+1.31% on $25000.00 in) · cash $19335.92 · realised +335.92
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $19000.39 this week
+  (cancelled 2 standing order(s) on OLN: position closed)
+- SELL 100% OLN [take_profit @ $16.52] -> $753.17 (+0.42%) — close 100% at +0.4% over the average cost
+## 2026-10-28 13:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
