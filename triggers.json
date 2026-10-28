@@ -6325,7 +6325,7 @@
    "ticker": "PDI",
    "kind": "take_profit",
    "price": 14.1333,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 09:32",
    "created_ts": 1793194365,
    "why": "close 100% at +0.2% over the average cost",
@@ -6335,7 +6335,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 11:25",
+   "cancel_reason": "position closed"
   },
   {
    "id": "08514060",
@@ -6361,7 +6363,7 @@
    "ticker": "PDI",
    "kind": "buy_limit",
    "price": 13.6867,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 09:32",
    "created_ts": 1793194365,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6371,7 +6373,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 11:25",
+   "cancel_reason": "position closed"
   },
   {
    "id": "96ae7e4b",
@@ -7272,7 +7276,7 @@
    "ticker": "ACN",
    "kind": "take_profit",
    "price": 245.8205,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 10:45",
    "created_ts": 1793198728,
    "why": "close 100% at +0.5% over the average cost",
@@ -7282,7 +7286,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 11:26",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7bd50895",
@@ -7308,7 +7314,7 @@
    "ticker": "ACN",
    "kind": "buy_limit",
    "price": 237.3493,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 10:45",
    "created_ts": 1793198728,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7318,7 +7324,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 11:26",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6e0d60e1",
@@ -7445,7 +7453,7 @@
    "ticker": "PDI",
    "kind": "stop_loss",
    "price": 14.122,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 11:23",
    "created_ts": 1793201004,
    "why": "close it all at -0.4% under the average cost",
@@ -7455,14 +7463,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 11:25"
   },
   {
    "id": "5f5b91e3",
    "ticker": "ACN",
    "kind": "stop_loss",
    "price": 245.05,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 11:24",
    "created_ts": 1793201097,
    "why": "close it all at -1.2% under the average cost",
@@ -7472,8 +7481,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 11:26"
   }
  ],
- "updated": "2026-10-28 11:24"
+ "updated": "2026-10-28 11:26"
 }

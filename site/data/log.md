@@ -1,9 +1,3 @@
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-28 10:14 ET (Wednesday) — week 2026-W44 — budget left $22018.91 (today $33000.00 put to work, 11 buys, 10 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
   (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
   (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
   (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
@@ -398,3 +392,9 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% ACN @ $245.05 until 2026-11-02 — close it all at -1.2% under the average cost
 portfolio: equity $25331.85 (+1.33% on $25000.00 in) · cash $19336.68 · realised +336.68
 Decision: nothing at this check. 15 standing order(s) working.
+  (cancelled 2 standing order(s) on PDI: position closed)
+- SELL 100% PDI [stop_loss @ $14.11] -> $3001.54 (+0.05%) — close it all at -0.4% under the average cost
+## 2026-10-28 11:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ACN: position closed)
+- SELL 100% ACN [stop_loss @ $244.93] -> $750.73 (+0.10%) — close it all at -1.2% under the average cost
+## 2026-10-28 11:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
