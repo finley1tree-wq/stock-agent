@@ -49166,3 +49166,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25341.46 (+1.37% on $25000.00 in) · cash $22344.79 · realised +344.79
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-28 10:23 ET (Wednesday) — week 2026-W44 — budget left $22018.91 (today $33000.00 put to work, 11 buys, 10 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUnc8JTiyFFFdxy8BHrF'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $22,019 idle, so opened 1: CACI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 CACI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +8.6% over the month; 62% of today's range
+~ WORKING take_profit 100% CACI @ $662.81 until 2026-11-02 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CACI @ $655.00 until 2026-11-02 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CACI @ $640.76 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25341.16 (+1.36% on $25000.00 in) · cash $21594.79 · realised +344.79
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $21268.91 this week
