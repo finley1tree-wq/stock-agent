@@ -1,7 +1,7 @@
 {
   "week": "2026-W44",
-  "spent": 3745.17,
-  "deployed": 126000.0,
+  "spent": 4495.17,
+  "deployed": 126750.0,
   "by_ticker": {
     "WSM": 34.51,
     "FITB": 35.43,
@@ -9,7 +9,7 @@
     "GPI": 10.32,
     "LRN": 781.37,
     "BBT": 768.34,
-    "GH": 0.14,
+    "GH": 750.14,
     "OLN": 1.36,
     "NXPI": 8.87,
     "PDI": 750.0,
@@ -26,7 +26,7 @@
     "CRBG": 4500.0,
     "OLN": 9750.0,
     "GPI": 5250.0,
-    "GH": 3750.0,
+    "GH": 4500.0,
     "LRN": 5250.0,
     "PDI": 3750.0,
     "BBT": 5250.0,
@@ -3794,12 +3794,34 @@
       ],
       "evidence": "average cost $246.56",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "GH",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.066501,
+      "price": 184.43,
+      "date": "2026-10-28",
+      "time_et": "13:47",
+      "ts": 1793209651,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Jonathan L. Jackson), $15,001 - $50,000; +3.7% over the month; 82% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-10-28",
-  "spent_today": 3745.17,
-  "deployed_today": 52500.0,
-  "orders_today": 37,
+  "spent_today": 4495.17,
+  "deployed_today": 53250.0,
+  "orders_today": 38,
   "sells_today": 32,
   "sold_today": [
     "EL",
@@ -3831,18 +3853,9 @@
     "PDI": 1793201151,
     "ACN": 1793201197
   },
-  "last_publish_ts": 1793209559,
-  "last_check_ts": 1793209559,
+  "last_publish_ts": 1793209651,
+  "last_check_ts": 1793209651,
   "exp_arm": {
-    "NXPI": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
     "PDI": {
       "params": {
         "hold_minutes": 120,
@@ -3887,26 +3900,38 @@
       "tags": {
         "hold_long": 120
       }
+    },
+    "GH": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
     }
   },
   "last_bar_ts": 1793209500,
-  "last_decision_ts": 1793209464,
+  "last_decision_ts": 1793209651,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "9227c430": 14.1008,
     "b48c26c6": 426.998,
-    "20b64615": 30.4721,
     "8be0f78a": 14.1836,
     "bbab3dc4": 245.5014,
+    "20b64615": 30.4721,
     "08604bab": 30.1852,
-    "92000bc0": 78.8105,
+    "fce406fb": 185.3614,
     "c38f7dca": 79.9853,
+    "92000bc0": 78.8105,
     "9aaa1007": 421.3701,
     "b7761069": 241.5426,
+    "b023d125": 182.1043,
     "15678323": 77.2605,
     "9ab63dcd": 13.7352,
     "ad6e506c": 29.4783,
+    "ed6b7cbe": 178.8971,
     "1df538de": 412.6283,
     "90b87812": 237.0389
   }

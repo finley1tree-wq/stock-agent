@@ -81980,7 +81980,9 @@
     "code_version": "2732a51",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.29
+    "ret_now": -0.06,
+    "ret_final": -0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "EL",
@@ -82044,7 +82046,7 @@
     "code_version": "b952ad7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.28
+    "ret_now": -0.14
   },
   {
     "symbol": "LRN",
@@ -82075,7 +82077,7 @@
     "code_version": "b8fb738",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.31
+    "ret_now": -0.25
   },
   {
     "symbol": "BBT",
@@ -82106,7 +82108,7 @@
     "code_version": "ac2fd24",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": -0.07
   },
   {
     "symbol": "CACI",
@@ -82305,7 +82307,7 @@
     "code_version": "f1c1d16",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": 0.05
   },
   {
     "symbol": "ACN",
@@ -82335,7 +82337,8 @@
     "hour_et": 13,
     "code_version": "d338a9b",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.07
   },
   {
     "symbol": "NXPI",
@@ -82361,6 +82364,37 @@
     "evidence": "average cost $246.56",
     "trigger": "stop_loss",
     "hour_et": 13,
-    "code_version": "2a38315"
+    "code_version": "2a38315",
+    "hold_minutes": 44
+  },
+  {
+    "symbol": "GH",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.066501,
+    "price": 184.43,
+    "date": "2026-10-28",
+    "time_et": "13:47",
+    "ts": 1793209651,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Jonathan L. Jackson), $15,001 - $50,000; +3.7% over the month; 82% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 184.36,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 3.73,
+    "hour_et": 13,
+    "code_version": "8cf042a",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
