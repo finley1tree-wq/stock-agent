@@ -6983,7 +6983,7 @@
    "ticker": "PDI",
    "kind": "take_profit",
    "price": 14.1836,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:06",
    "created_ts": 1793207215,
    "why": "close 100% at +0.2% over the average cost",
@@ -6993,14 +6993,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 14:09",
+   "cancel_reason": "position closed"
   },
   {
    "id": "9227c430",
    "ticker": "PDI",
    "kind": "stop_loss",
    "price": 14.1008,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 13:06",
    "created_ts": 1793207215,
    "why": "close it all at -0.4% under the average cost",
@@ -7010,7 +7012,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 14:09"
   },
   {
    "id": "9ab63dcd",
@@ -7491,5 +7494,5 @@
    "closed": "2026-10-28 14:01"
   }
  ],
- "updated": "2026-10-28 14:06"
+ "updated": "2026-10-28 14:09"
 }

@@ -1,36 +1,3 @@
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUytp8Zb2pqsg5Vw7Saf'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,257 idle, so opened 6: FITB, GH, CACI, WSM, PDI, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped GH: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped CACI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped PDI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25333.84 (+1.34% on $25000.00 in) · cash $24582.70 · realised +332.70
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on ADI: position closed)
-- SELL 100% ADI [take_profit @ $426.64] -> $752.83 (+0.38%) — close 100% at +0.4% over the average cost
-## 2026-10-28 12:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-28 12:54 ET (Wednesday) — week 2026-W44 — budget left $25000.00 (today $44250.00 put to work, 26 buys, 26 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUz7kPCVR4P3YTCSB2tn'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 3: FITB, CACI, WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped CACI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25335.53 (+1.34% on $25000.00 in) · cash $25335.53 · realised +335.53
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +365,36 @@ Decision: nothing at this check. 10 standing order(s) working.
   (cancelled 1 standing order(s) on ADI: position closed)
 - SELL 100% ADI [stop_loss @ $424.86] -> $749.07 (-0.12%) — close it all at -0.9% under the average cost
 ## 2026-10-28 14:01 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-28 14:03 ET (Wednesday) — week 2026-W44 — budget left $22751.61 (today $53250.00 put to work, 38 buys, 35 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgV5NSGHfF8kv8E8c3Vfr'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25329.85 (+1.32% on $25000.00 in) · cash $23087.16 · realised +337.16
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-28 14:06 ET (Wednesday) — week 2026-W44 — budget left $22751.61 (today $53250.00 put to work, 38 buys, 35 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgV5cBGnSkfvdertCZMCW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25330.23 (+1.32% on $25000.00 in) · cash $23087.16 · realised +337.16
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on PDI: position closed)
+- SELL 100% PDI [stop_loss @ $14.09] -> $746.72 (-0.44%) — close it all at -0.4% under the average cost
+## 2026-10-28 14:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders
