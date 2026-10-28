@@ -6830,7 +6830,7 @@
    "ticker": "FITB",
    "kind": "take_profit",
    "price": 53.8366,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 09:32",
    "created_ts": 1793194365,
    "why": "close 100% at +0.2% over the average cost",
@@ -6840,7 +6840,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f38bcf16",
@@ -6866,7 +6868,7 @@
    "ticker": "FITB",
    "kind": "buy_limit",
    "price": 52.1084,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 09:32",
    "created_ts": 1793194365,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6876,7 +6878,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7ddb5654",
@@ -7322,7 +7326,7 @@
    "ticker": "BBT",
    "kind": "take_profit",
    "price": 30.9092,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 09:38",
    "created_ts": 1793194711,
    "why": "close 100% at +0.3% over the average cost",
@@ -7332,7 +7336,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c09a2b77",
@@ -7358,7 +7364,7 @@
    "ticker": "BBT",
    "kind": "buy_limit",
    "price": 29.9051,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 09:38",
    "created_ts": 1793194711,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7368,7 +7374,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 09:50",
+   "cancel_reason": "position closed"
   },
   {
    "id": "cb21490d",
@@ -7450,7 +7458,7 @@
    "ticker": "FITB",
    "kind": "stop_loss",
    "price": 53.78,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 09:46",
    "created_ts": 1793195166,
    "why": "close it all at -0.5% under the average cost",
@@ -7460,14 +7468,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 09:50"
   },
   {
    "id": "a7ce0002",
    "ticker": "BBT",
    "kind": "stop_loss",
    "price": 30.854,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 09:46",
    "created_ts": 1793195166,
    "why": "close it all at -0.6% under the average cost",
@@ -7477,8 +7486,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 09:50"
   }
  ],
- "updated": "2026-10-28 09:47"
+ "updated": "2026-10-28 09:50"
 }

@@ -49007,3 +49007,21 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25333.04 (+1.33% on $25000.00 in) · cash $13363.50 · realised +363.50
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [stop_loss @ $53.56] -> $2991.16 (-0.29%) — close it all at -0.5% under the average cost
+## 2026-10-28 09:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-28 09:50 ET (Wednesday) — week 2026-W44 — budget left $16028.78 (today $33000.00 put to work, 11 buys, 8 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+  (cancelled 2 standing order(s) on BBT: position closed)
+- SELL 100% BBT [stop_loss @ $30.61] -> $2978.97 (-0.70%) — close it all at -0.6% under the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUk5JKciPHPySz5cYocP'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25310.64 (+1.24% on $25000.00 in) · cash $19333.63 · realised +333.63
+Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 6 order(s) working; budget left $19007.75 this week
