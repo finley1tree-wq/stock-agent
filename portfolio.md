@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-10-28 10:17 ET
+# Pretend portfolio — 2026-10-28 10:20 ET
 
-**Equity $25345.71** on $25000.00 put in → **+1.38%**  
-Cash $22344.79 · Unrealised +0.92 · Realised +344.79
+**Equity $25341.46** on $25000.00 put in → **+1.37%**  
+Cash $22344.79 · Unrealised -3.33 · Realised +344.79
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| PDI | 11.8% | $3000.93 | $14.11 | $14.11 | +0.03% | 0d |
+| PDI | 11.8% | $2996.67 | $14.11 | $14.09 | -0.11% | 0d |
 
 ## Last fills
 
