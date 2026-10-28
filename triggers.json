@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "d8aaa419",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 233.0771,
-   "status": "cancelled",
-   "created": "2026-10-23 10:28",
-   "created_ts": 1792765689,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $235.46",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 10:31",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "eaf27a91",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 228.3962,
-   "status": "cancelled",
-   "created": "2026-10-23 10:28",
-   "created_ts": 1792765689,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $235.46",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "usd": 500.0,
-   "closed": "2026-10-23 10:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "d8171ace",
-   "ticker": "CLF",
-   "kind": "take_profit",
-   "price": 13.5044,
-   "status": "filled",
-   "created": "2026-10-23 10:28",
-   "created_ts": 1792765689,
-   "why": "close 100% at +0.7% over the average cost",
-   "evidence": "average cost $13.41",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 10:31"
-  },
-  {
    "id": "6ec73cba",
    "ticker": "CLF",
    "kind": "stop_loss",
@@ -7463,7 +7407,58 @@
    ],
    "good_until": "2026-11-02",
    "usd": 500.0
+  },
+  {
+   "id": "20b64615",
+   "ticker": "BBT",
+   "kind": "take_profit",
+   "price": 30.4721,
+   "status": "working",
+   "created": "2026-10-28 13:13",
+   "created_ts": 1793207586,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $30.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "08604bab",
+   "ticker": "BBT",
+   "kind": "stop_loss",
+   "price": 30.1852,
+   "status": "working",
+   "created": "2026-10-28 13:13",
+   "created_ts": 1793207586,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $30.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ad6e506c",
+   "ticker": "BBT",
+   "kind": "buy_limit",
+   "price": 29.4783,
+   "status": "working",
+   "created": "2026-10-28 13:13",
+   "created_ts": 1793207586,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $30.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-28 13:10"
+ "updated": "2026-10-28 13:13"
 }
