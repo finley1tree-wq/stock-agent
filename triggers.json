@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "d7bc90d2",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 107.548,
-   "status": "cancelled",
-   "created": "2026-10-23 09:33",
-   "created_ts": 1792762428,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $107.35",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 09:34",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "ad41fa2b",
    "ticker": "AMT",
    "kind": "stop_loss",
@@ -7308,7 +7289,7 @@
    "ticker": "ACN",
    "kind": "stop_loss",
    "price": 241.8614,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 10:45",
    "created_ts": 1793198728,
    "why": "close it all at -1.2% under the average cost",
@@ -7318,7 +7299,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 11:24",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "7b788585",
@@ -7473,7 +7456,24 @@
    ],
    "good_until": "2026-11-02",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "5f5b91e3",
+   "ticker": "ACN",
+   "kind": "stop_loss",
+   "price": 245.05,
+   "status": "working",
+   "created": "2026-10-28 11:24",
+   "created_ts": 1793201097,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $244.69",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-28 11:23"
+ "updated": "2026-10-28 11:24"
 }
