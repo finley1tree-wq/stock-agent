@@ -49302,3 +49302,29 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25335.36 (+1.34% on $25000.00 in) · cash $17844.31 · realised +344.31
 Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on LRN: position closed)
+- SELL 100% LRN [take_profit @ $80.43] -> $753.12 (+0.42%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on BBT: position closed)
+- SELL 100% BBT [take_profit @ $30.59] -> $752.33 (+0.31%) — close 100% at +0.3% over the average cost
+## 2026-10-28 10:45 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-28 10:45 ET (Wednesday) — week 2026-W44 — budget left $19023.89 (today $39000.00 put to work, 19 buys, 14 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUpG1uuoa7XoaVTS8eTX'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $19,024 idle, so opened 2: ACN, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ACN [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 2 insiders bought (Form 4, incl. Chair, CEO); +38.1% over the month; 85% of today's range
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +4.6% over the month; 85% of today's range
+~ WORKING take_profit 100% ACN @ $245.82 until 2026-11-02 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% ACN @ $241.86 until 2026-11-02 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 ACN @ $237.35 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NXPI @ $248.61 until 2026-11-02 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $244.87 until 2026-11-02 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $240.11 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25337.65 (+1.35% on $25000.00 in) · cash $17849.76 · realised +349.76
+Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $17523.89 this week
