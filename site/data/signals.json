@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-28T14:22-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-28T14:53-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "bbab3dc4",
-   "ticker": "ACN",
-   "kind": "take_profit",
-   "price": 245.5014,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 244.21,
-   "pct_away": 0.53,
-   "good_until": "2026-11-02",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "b7761069",
    "ticker": "ACN",
    "kind": "stop_loss",
@@ -202,10 +185,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 244.21,
-   "pct_away": -1.09,
+   "last": 243.34,
+   "pct_away": -0.74,
    "good_until": "2026-11-02",
    "why": "close it all at -1.2% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "bbab3dc4",
+   "ticker": "ACN",
+   "kind": "take_profit",
+   "price": 245.5014,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 243.34,
+   "pct_away": 0.89,
+   "good_until": "2026-11-02",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
