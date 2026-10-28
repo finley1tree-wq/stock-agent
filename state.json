@@ -1,13 +1,12 @@
 {
   "week": "2026-W44",
-  "spent": 5992.25,
+  "spent": 2981.09,
   "deployed": 106500.0,
   "by_ticker": {
     "WSM": 30.58,
     "FITB": 32.57,
     "CRBG": 6.11,
     "GPI": 10.32,
-    "ADI": 3000.0,
     "LRN": 35.39,
     "PDI": 3000.0,
     "BBT": 21.03
@@ -2734,13 +2733,34 @@
       ],
       "evidence": "average cost $30.83",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 7.087262,
+      "status": "filled",
+      "price": 424.87,
+      "proceeds": 3011.16,
+      "realized_pnl": 11.16,
+      "realized_pct": 0.37,
+      "date": "2026-10-28",
+      "time_et": "09:59",
+      "ts": 1793195700,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $423.29",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-28",
-  "spent_today": 5989.05,
+  "spent_today": 2977.89,
   "deployed_today": 33000.0,
   "orders_today": 11,
-  "sells_today": 9,
+  "sells_today": 10,
   "sold_today": [
     "EL",
     "CACI",
@@ -2750,10 +2770,11 @@
     "LRN",
     "OLN",
     "FITB",
-    "BBT"
+    "BBT",
+    "ADI"
   ],
   "sold_ts": {
-    "ADI": 1793114177,
+    "ADI": 1793195987,
     "NXPI": 1793195121,
     "FITB": 1793195437,
     "CACI": 1793194568,
@@ -2766,8 +2787,8 @@
     "LRN": 1793195167,
     "BBT": 1793195445
   },
-  "last_publish_ts": 1793195439,
-  "last_check_ts": 1793195889,
+  "last_publish_ts": 1793195979,
+  "last_check_ts": 1793195979,
   "exp_arm": {
     "FITB": {
       "params": {
@@ -2834,15 +2855,12 @@
     }
   },
   "last_bar_ts": 1793195700,
-  "last_decision_ts": 1793195794,
+  "last_decision_ts": 1793195979,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "08514060": 14.0517,
-    "a2cdd8a1": 419.3407,
     "492eea4c": 14.1333,
-    "f84ec03a": 424.8689,
-    "35bc3a83": 410.5913,
+    "08514060": 14.0517,
     "d0b574a5": 13.6867
   }
 }

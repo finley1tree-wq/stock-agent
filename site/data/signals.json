@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-28T09:50-04:00",
+ "asOf": "2026-10-28T09:59-04:00",
  "note": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)",
  "broker": "sim",
  "watchlist": {
@@ -178,40 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "08514060",
-   "ticker": "PDI",
-   "kind": "stop_loss",
-   "price": 14.0517,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 14.07,
-   "pct_away": -0.13,
-   "good_until": "2026-11-02",
-   "why": "close it all at -0.4% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a2cdd8a1",
-   "ticker": "ADI",
-   "kind": "stop_loss",
-   "price": 419.3407,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 421.12,
-   "pct_away": -0.42,
-   "good_until": "2026-11-02",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "492eea4c",
    "ticker": "PDI",
    "kind": "take_profit",
@@ -219,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.07,
-   "pct_away": 0.45,
+   "last": 14.1,
+   "pct_away": 0.24,
    "good_until": "2026-11-02",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -229,34 +195,17 @@
    ]
   },
   {
-   "id": "f84ec03a",
-   "ticker": "ADI",
-   "kind": "take_profit",
-   "price": 424.8689,
+   "id": "08514060",
+   "ticker": "PDI",
+   "kind": "stop_loss",
+   "price": 14.0517,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 421.12,
-   "pct_away": 0.89,
+   "last": 14.1,
+   "pct_away": -0.34,
    "good_until": "2026-11-02",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "35bc3a83",
-   "ticker": "ADI",
-   "kind": "buy_limit",
-   "price": 410.5913,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 421.12,
-   "pct_away": -2.5,
-   "good_until": "2026-11-02",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "why": "close it all at -0.4% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,8 +219,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 14.07,
-   "pct_away": -2.72,
+   "last": 14.1,
+   "pct_away": -2.93,
    "good_until": "2026-11-02",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -350,7 +299,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 393,
+  "decisions_graded": 390,
   "decisions_with_buys_graded": 47,
   "independent_days_graded": 4,
   "avg_regret_pct": -0.37,
@@ -436,7 +385,7 @@
   ],
   "sectors_most_often_missed": {
    "off-watchlist": {
-    "n": 19
+    "n": 18
    },
    "widely_held": {
     "n": 7
@@ -451,9 +400,9 @@
     "n": 2
    }
   },
-  "idle_checks": 343,
+  "idle_checks": 342,
   "blocked_checks": 0,
-  "idle_share": 0.86,
+  "idle_share": 0.85,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -1987,5 +1936,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-28T09:50-04:00"
+ "signalsAsOf": "2026-10-28T09:59-04:00"
 }

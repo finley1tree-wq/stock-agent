@@ -80420,7 +80420,9 @@
     "code_version": "cdcc17c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06
+    "ret_now": 0.37,
+    "ret_final": 0.37,
+    "ret_src": "realised"
   },
   {
     "symbol": "LRN",
@@ -80484,7 +80486,7 @@
     "code_version": "cdcc17c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.14
+    "ret_now": 0.0
   },
   {
     "symbol": "CACI",
@@ -80893,5 +80895,32 @@
     "hour_et": 9,
     "code_version": "130e015",
     "hold_minutes": 12
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 7.087262,
+    "status": "filled",
+    "price": 424.87,
+    "proceeds": 3011.16,
+    "realized_pnl": 11.16,
+    "realized_pct": 0.37,
+    "date": "2026-10-28",
+    "time_et": "09:59",
+    "ts": 1793195700,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $423.29",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "b53a1f6",
+    "hold_minutes": 22
   }
 ]
