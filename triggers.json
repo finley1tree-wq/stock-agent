@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "6a65aba0",
-   "ticker": "CLF",
-   "kind": "stop_loss",
-   "price": 13.256,
-   "status": "cancelled",
-   "created": "2026-10-23 09:38",
-   "created_ts": 1792762687,
-   "why": "close it all at -1.8% under the average cost",
-   "evidence": "average cost $13.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 09:39",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "c19dcb06",
    "ticker": "NXPI",
    "kind": "stop_loss",
@@ -7325,7 +7306,7 @@
    "ticker": "LRN",
    "kind": "stop_loss",
    "price": 79.0009,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 11:31",
    "created_ts": 1793201468,
    "why": "close it all at -1.1% under the average cost",
@@ -7335,7 +7316,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 12:18",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "0774baf3",
@@ -7477,7 +7460,24 @@
    ],
    "good_until": "2026-11-02",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "aca8c09b",
+   "ticker": "LRN",
+   "kind": "stop_loss",
+   "price": 79.978,
+   "status": "working",
+   "created": "2026-10-28 12:18",
+   "created_ts": 1793204308,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $79.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-28 12:16"
+ "updated": "2026-10-28 12:18"
 }
