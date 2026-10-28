@@ -49244,3 +49244,33 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 LRN @ $77.69 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25340.51 (+1.36% on $25000.00 in) · cash $18594.79 · realised +344.79
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $18268.91 this week
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [stop_loss @ $108.82] -> $749.67 (-0.04%) — close it all at -0.9% under the average cost
+  (cancelled 2 standing order(s) on GH: position closed)
+- SELL 100% GH [stop_loss @ $183.41] -> $749.86 (-0.02%) — close it all at -1.2% under the average cost
+## 2026-10-28 10:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-28 10:36 ET (Wednesday) — week 2026-W44 — budget left $19768.44 (today $36750.00 put to work, 16 buys, 12 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUoZphqzeCUBig5Synz1'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $19,768 idle, so opened 3: FITB, BBT, OLN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +4.8% over the month; 8% of today's range
+- BUY $750.00 BBT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +9.8% over the month; 7% of today's range
+- BUY $750.00 OLN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +7.5% over the month; 78% of today's range
+~ WORKING take_profit 100% FITB @ $53.58 until 2026-11-02 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% FITB @ $53.16 until 2026-11-02 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $51.86 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% BBT @ $30.57 until 2026-11-02 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% BBT @ $30.29 until 2026-11-02 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 BBT @ $29.58 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% OLN @ $16.67 until 2026-11-02 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% OLN @ $16.43 until 2026-11-02 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 OLN @ $16.10 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25335.04 (+1.34% on $25000.00 in) · cash $17844.31 · realised +344.31
+Done: 0 sell(s), 3 buy(s); 21 order(s) working; budget left $17518.44 this week

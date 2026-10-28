@@ -80952,7 +80952,7 @@
     "code_version": "e57cdd1",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.0
+    "ret_now": 0.04
   },
   {
     "symbol": "WSM",
@@ -80983,7 +80983,7 @@
     "code_version": "4a905d8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": -0.34
   },
   {
     "symbol": "EL",
@@ -81014,7 +81014,9 @@
     "code_version": "f2c22f2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.23
+    "ret_now": -0.04,
+    "ret_final": -0.04,
+    "ret_src": "realised"
   },
   {
     "symbol": "GH",
@@ -81045,7 +81047,9 @@
     "code_version": "f2c22f2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17
+    "ret_now": -0.02,
+    "ret_final": -0.02,
+    "ret_src": "realised"
   },
   {
     "symbol": "LRN",
@@ -81074,6 +81078,151 @@
     "momentum_1m_at_entry": 5.91,
     "hour_et": 10,
     "code_version": "c078ea2",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.09
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 6.88936,
+    "status": "filled",
+    "price": 108.82,
+    "proceeds": 749.67,
+    "realized_pnl": -0.33,
+    "realized_pct": -0.04,
+    "date": "2026-10-28",
+    "time_et": "10:35",
+    "ts": 1793198100,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $108.86",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "deba04a",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "GH",
+    "side": "sell",
+    "qty": 4.088456,
+    "status": "filled",
+    "price": 183.41,
+    "proceeds": 749.86,
+    "realized_pnl": -0.14,
+    "realized_pct": -0.02,
+    "date": "2026-10-28",
+    "time_et": "10:35",
+    "ts": 1793198100,
+    "why": "close it all at -1.2% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $183.44",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "deba04a",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "FITB",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 14.02882,
+    "price": 53.46,
+    "date": "2026-10-28",
+    "time_et": "10:36",
+    "ts": 1793198174,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +4.8% over the month; 8% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 53.44,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 4.85,
+    "hour_et": 10,
+    "code_version": "deba04a",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "BBT",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 24.597858,
+    "price": 30.49,
+    "date": "2026-10-28",
+    "time_et": "10:36",
+    "ts": 1793198174,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4); +9.8% over the month; 7% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 30.46,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 9.81,
+    "hour_et": 10,
+    "code_version": "deba04a",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "OLN",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 45.189881,
+    "price": 16.6,
+    "date": "2026-10-28",
+    "time_et": "10:36",
+    "ts": 1793198174,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +7.5% over the month; 78% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 16.59,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 7.52,
+    "hour_et": 10,
+    "code_version": "deba04a",
     "ret_1w": null,
     "ret_1m": null
   }
