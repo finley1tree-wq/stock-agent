@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "6ec73cba",
-   "ticker": "CLF",
-   "kind": "stop_loss",
-   "price": 13.1738,
-   "status": "cancelled",
-   "created": "2026-10-23 10:28",
-   "created_ts": 1792765689,
-   "why": "close it all at -1.8% under the average cost",
-   "evidence": "average cost $13.41",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 10:29",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "727f4fc5",
    "ticker": "CLF",
    "kind": "buy_limit",
@@ -7124,7 +7105,7 @@
    "ticker": "CACI",
    "kind": "stop_loss",
    "price": 652.7011,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:00",
    "created_ts": 1793206845,
    "why": "close it all at -0.8% under the average cost",
@@ -7134,7 +7115,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 13:16",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "f52349e5",
@@ -7458,7 +7441,24 @@
    ],
    "good_until": "2026-11-02",
    "usd": 500.0
+  },
+  {
+   "id": "402975df",
+   "ticker": "CACI",
+   "kind": "stop_loss",
+   "price": 658.968,
+   "status": "working",
+   "created": "2026-10-28 13:16",
+   "created_ts": 1793207773,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $658.29",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-28 13:13"
+ "updated": "2026-10-28 13:16"
 }
