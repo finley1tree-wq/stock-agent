@@ -49545,3 +49545,24 @@ Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 2 standing order(s) on NXPI: position closed)
 - SELL 100% NXPI [stop_loss @ $244.75] -> $741.55 (-1.13%) — close it all at -1.1% under the average cost
 ## 2026-10-28 11:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-28 11:31 ET (Wednesday) — week 2026-W44 — budget left $23504.63 (today $41250.00 put to work, 22 buys, 20 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUsjmYLycTJfPcgKkL5U'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,505 idle, so opened 2: BBT, LRN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 BBT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +9.5% over the month; 0% of today's range
+- BUY $750.00 LRN [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +5.6% over the month; 9% of today's range
+~ WORKING take_profit 100% BBT @ $30.47 until 2026-11-02 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% BBT @ $30.19 until 2026-11-02 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 BBT @ $29.48 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LRN @ $80.18 until 2026-11-02 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% LRN @ $79.00 until 2026-11-02 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 LRN @ $77.44 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25322.05 (+1.29% on $25000.00 in) · cash $22330.50 · realised +330.50
+Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $22004.63 this week

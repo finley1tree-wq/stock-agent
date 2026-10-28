@@ -1,14 +1,14 @@
 {
   "week": "2026-W44",
-  "spent": 1495.37,
-  "deployed": 114750.0,
+  "spent": 2995.37,
+  "deployed": 116250.0,
   "by_ticker": {
     "WSM": 36.36,
     "FITB": 782.57,
     "CRBG": 6.11,
     "GPI": 10.32,
-    "LRN": 32.27,
-    "BBT": 18.7,
+    "LRN": 782.27,
+    "BBT": 768.7,
     "EL": 0.33,
     "GH": 0.14,
     "OLN": 7.68,
@@ -26,9 +26,9 @@
     "OLN": 8250.0,
     "GPI": 5250.0,
     "GH": 3750.0,
-    "LRN": 3750.0,
+    "LRN": 4500.0,
     "PDI": 3000.0,
-    "BBT": 3750.0,
+    "BBT": 4500.0,
     "ACN": 750.0
   },
   "orders": [
@@ -3211,12 +3211,56 @@
       ],
       "evidence": "average cost $247.54",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "BBT",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 24.678878,
+      "price": 30.39,
+      "date": "2026-10-28",
+      "time_et": "11:31",
+      "ts": 1793201468,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +9.5% over the month; 0% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "LRN",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.393561,
+      "price": 79.84,
+      "date": "2026-10-28",
+      "time_et": "11:31",
+      "ts": 1793201468,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +5.6% over the month; 9% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-28",
-  "spent_today": 1492.17,
-  "deployed_today": 41250.0,
-  "orders_today": 22,
+  "spent_today": 2992.17,
+  "deployed_today": 42750.0,
+  "orders_today": 24,
   "sells_today": 20,
   "sold_today": [
     "EL",
@@ -3248,27 +3292,9 @@
     "PDI": 1793201151,
     "ACN": 1793201197
   },
-  "last_publish_ts": 1793201333,
-  "last_check_ts": 1793201379,
+  "last_publish_ts": 1793201468,
+  "last_check_ts": 1793201468,
   "exp_arm": {
-    "PDI": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
-    "CACI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
     "FITB": {
       "params": {
         "hold_minutes": 120,
@@ -3276,24 +3302,6 @@
       },
       "tags": {
         "hold_long": 120
-      }
-    },
-    "ACN": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
-    "NXPI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
       }
     },
     "ADI": {
@@ -3304,18 +3312,42 @@
       "tags": {
         "hold_long": 120
       }
+    },
+    "BBT": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
+    },
+    "LRN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
     }
   },
-  "last_bar_ts": 1793201100,
-  "last_decision_ts": 1793201285,
-  "next_check_minutes": null,
+  "last_bar_ts": 1793201400,
+  "last_decision_ts": 1793201468,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "648a70ee": 53.1649,
+    "761b49c0": 30.4717,
     "b6075939": 421.0135,
+    "a62d581a": 80.1753,
+    "174660d6": 30.1855,
     "a9a6270f": 53.5781,
     "6cca727b": 426.6366,
+    "131ae583": 79.0009,
     "2935b252": 412.2791,
-    "476d1043": 51.8562
+    "476d1043": 51.8562,
+    "28afd8a1": 29.4783,
+    "0774baf3": 77.4448
   }
 }

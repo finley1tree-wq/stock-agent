@@ -1,119 +1,6 @@
 {
  "orders": [
   {
-   "id": "ad41fa2b",
-   "ticker": "AMT",
-   "kind": "stop_loss",
-   "price": 195.34,
-   "status": "cancelled",
-   "created": "2026-10-23 09:33",
-   "created_ts": 1792762428,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $194.59",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "4025f820",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 107.818,
-   "status": "cancelled",
-   "created": "2026-10-23 09:34",
-   "created_ts": 1792762474,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $107.35",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "6308052a",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 52.726,
-   "status": "cancelled",
-   "created": "2026-10-23 09:34",
-   "created_ts": 1792762474,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $52.66",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "324fdecb",
-   "ticker": "RIG",
-   "kind": "take_profit",
-   "price": 6.1448,
-   "status": "filled",
-   "created": "2026-10-23 09:36",
-   "created_ts": 1792762565,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $6.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 09:40"
-  },
-  {
-   "id": "5e54d5de",
-   "ticker": "RIG",
-   "kind": "stop_loss",
-   "price": 6.0579,
-   "status": "cancelled",
-   "created": "2026-10-23 09:36",
-   "created_ts": 1792762565,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $6.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 09:36",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "94850d9d",
-   "ticker": "RIG",
-   "kind": "buy_limit",
-   "price": 5.9364,
-   "status": "cancelled",
-   "created": "2026-10-23 09:36",
-   "created_ts": 1792762565,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $6.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "usd": 500.0,
-   "closed": "2026-10-23 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "83cf0c0f",
    "ticker": "CLF",
    "kind": "take_profit",
@@ -7488,7 +7375,109 @@
    "good_until": "2026-11-02",
    "pct_of_position": 100.0,
    "closed": "2026-10-28 11:26"
+  },
+  {
+   "id": "761b49c0",
+   "ticker": "BBT",
+   "kind": "take_profit",
+   "price": 30.4717,
+   "status": "working",
+   "created": "2026-10-28 11:31",
+   "created_ts": 1793201468,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $30.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "174660d6",
+   "ticker": "BBT",
+   "kind": "stop_loss",
+   "price": 30.1855,
+   "status": "working",
+   "created": "2026-10-28 11:31",
+   "created_ts": 1793201468,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $30.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "28afd8a1",
+   "ticker": "BBT",
+   "kind": "buy_limit",
+   "price": 29.4783,
+   "status": "working",
+   "created": "2026-10-28 11:31",
+   "created_ts": 1793201468,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $30.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "usd": 500.0
+  },
+  {
+   "id": "a62d581a",
+   "ticker": "LRN",
+   "kind": "take_profit",
+   "price": 80.1753,
+   "status": "working",
+   "created": "2026-10-28 11:31",
+   "created_ts": 1793201468,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $79.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "131ae583",
+   "ticker": "LRN",
+   "kind": "stop_loss",
+   "price": 79.0009,
+   "status": "working",
+   "created": "2026-10-28 11:31",
+   "created_ts": 1793201468,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $79.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0774baf3",
+   "ticker": "LRN",
+   "kind": "buy_limit",
+   "price": 77.4448,
+   "status": "working",
+   "created": "2026-10-28 11:31",
+   "created_ts": 1793201468,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $79.84",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-28 11:28"
+ "updated": "2026-10-28 11:31"
 }

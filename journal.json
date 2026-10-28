@@ -81173,7 +81173,7 @@
     "code_version": "deba04a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.34
+    "ret_now": -0.45
   },
   {
     "symbol": "BBT",
@@ -81357,7 +81357,9 @@
     "code_version": "e89082c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.97
+    "ret_now": -1.13,
+    "ret_final": -1.13,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -81442,7 +81444,7 @@
     "code_version": "8ce88ea",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.44
+    "ret_now": -0.48
   },
   {
     "symbol": "CACI",
@@ -81549,6 +81551,67 @@
     "evidence": "average cost $247.54",
     "trigger": "stop_loss",
     "hour_et": 11,
-    "code_version": "4640347"
+    "code_version": "4640347",
+    "hold_minutes": 39
+  },
+  {
+    "symbol": "BBT",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 24.678878,
+    "price": 30.39,
+    "date": "2026-10-28",
+    "time_et": "11:31",
+    "ts": 1793201468,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4); +9.5% over the month; 0% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 30.36,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 9.46,
+    "hour_et": 11,
+    "code_version": "9b96dc5",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "LRN",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 9.393561,
+    "price": 79.84,
+    "date": "2026-10-28",
+    "time_et": "11:31",
+    "ts": 1793201468,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4); +5.6% over the month; 9% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 79.81,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 5.58,
+    "hour_et": 11,
+    "code_version": "9b96dc5",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
