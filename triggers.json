@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "b155ddaa",
-   "ticker": "CRBG",
-   "kind": "stop_loss",
-   "price": 34.1674,
-   "status": "cancelled",
-   "created": "2026-10-23 10:28",
-   "created_ts": 1792765689,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $34.42",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 10:44",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "37645220",
-   "ticker": "CRBG",
-   "kind": "buy_limit",
-   "price": 33.3874,
-   "status": "cancelled",
-   "created": "2026-10-23 10:28",
-   "created_ts": 1792765689,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $34.42",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "usd": 500.0,
-   "closed": "2026-10-23 10:45",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "06271212",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 236.4136,
-   "status": "filled",
-   "created": "2026-10-23 10:28",
-   "created_ts": 1792765689,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $235.46",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 10:36"
-  },
-  {
    "id": "d8aaa419",
    "ticker": "NXPI",
    "kind": "stop_loss",
@@ -7468,7 +7412,58 @@
    ],
    "good_until": "2026-11-02",
    "usd": 500.0
+  },
+  {
+   "id": "c38f7dca",
+   "ticker": "LRN",
+   "kind": "take_profit",
+   "price": 79.9853,
+   "status": "working",
+   "created": "2026-10-28 13:10",
+   "created_ts": 1793207407,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $79.65",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "92000bc0",
+   "ticker": "LRN",
+   "kind": "stop_loss",
+   "price": 78.8105,
+   "status": "working",
+   "created": "2026-10-28 13:10",
+   "created_ts": 1793207407,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $79.65",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "15678323",
+   "ticker": "LRN",
+   "kind": "buy_limit",
+   "price": 77.2605,
+   "status": "working",
+   "created": "2026-10-28 13:10",
+   "created_ts": 1793207407,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $79.65",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-28 13:06"
+ "updated": "2026-10-28 13:10"
 }

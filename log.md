@@ -50108,3 +50108,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 PDI @ $13.74 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25333.89 (+1.34% on $25000.00 in) · cash $20835.53 · realised +335.53
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20500.00 this week
+
+## 2026-10-28 13:10 ET (Wednesday) — week 2026-W44 — budget left $20500.00 (today $48750.00 put to work, 32 buys, 26 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgV1HTeHQ64LH1deVKxUq'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $20,500 idle, so opened 1: LRN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 LRN [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +5.3% over the month; 6% of today's range
+~ WORKING take_profit 100% LRN @ $79.99 until 2026-11-02 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% LRN @ $78.81 until 2026-11-02 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 LRN @ $77.26 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25332.26 (+1.33% on $25000.00 in) · cash $20085.53 · realised +335.53
+Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19750.00 this week
