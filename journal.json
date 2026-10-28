@@ -81173,7 +81173,9 @@
     "code_version": "deba04a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.45
+    "ret_now": -0.6,
+    "ret_final": -0.6,
+    "ret_src": "realised"
   },
   {
     "symbol": "BBT",
@@ -81444,7 +81446,7 @@
     "code_version": "8ce88ea",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.48
+    "ret_now": -0.43
   },
   {
     "symbol": "CACI",
@@ -81582,7 +81584,8 @@
     "hour_et": 11,
     "code_version": "9b96dc5",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.1
   },
   {
     "symbol": "LRN",
@@ -81611,6 +81614,64 @@
     "momentum_1m_at_entry": 5.58,
     "hour_et": 11,
     "code_version": "9b96dc5",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.04
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 14.02882,
+    "status": "filled",
+    "price": 53.14,
+    "proceeds": 745.47,
+    "realized_pnl": -4.53,
+    "realized_pct": -0.6,
+    "date": "2026-10-28",
+    "time_et": "11:34",
+    "ts": 1793201400,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $53.46",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "1a44de8",
+    "hold_minutes": 53
+  },
+  {
+    "symbol": "WSM",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 3.003245,
+    "price": 249.73,
+    "date": "2026-10-28",
+    "time_et": "11:34",
+    "ts": 1793201655,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +8.6% over the month; 25% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 249.63,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 8.55,
+    "hour_et": 11,
+    "code_version": "1a44de8",
     "ret_1w": null,
     "ret_1m": null
   }
