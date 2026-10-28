@@ -7355,7 +7355,7 @@
    "ticker": "ACN",
    "kind": "take_profit",
    "price": 245.5014,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:44",
    "created_ts": 1793209464,
    "why": "close 100% at +0.5% over the average cost",
@@ -7365,14 +7365,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 15:44",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "b7761069",
    "ticker": "ACN",
    "kind": "stop_loss",
    "price": 241.5426,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:44",
    "created_ts": 1793209464,
    "why": "close it all at -1.2% under the average cost",
@@ -7382,7 +7384,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 15:44",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "90b87812",

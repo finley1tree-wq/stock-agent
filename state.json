@@ -1,6 +1,6 @@
 {
   "week": "2026-W44",
-  "spent": 759.96,
+  "spent": 12.53,
   "deployed": 126750.0,
   "by_ticker": {
     "WSM": 34.51,
@@ -13,7 +13,7 @@
     "NXPI": 8.87,
     "PDI": 3.28,
     "ADI": 0.93,
-    "ACN": 750.0
+    "ACN": 2.57
   },
   "deployed_by_ticker": {
     "EL": 14250.0,
@@ -3920,13 +3920,33 @@
       ],
       "evidence": "average cost $79.65",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ACN",
+      "side": "sell",
+      "qty": 3.069131,
+      "status": "filled",
+      "price": 243.53,
+      "proceeds": 747.43,
+      "realized_pnl": -2.57,
+      "realized_pct": -0.34,
+      "date": "2026-10-28",
+      "time_et": "15:44",
+      "ts": 1793216683,
+      "why": "held 120 min, the 120-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 120 min ago, -0.32% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-28",
-  "spent_today": 759.96,
+  "spent_today": 12.53,
   "deployed_today": 53250.0,
   "orders_today": 38,
-  "sells_today": 37,
+  "sells_today": 38,
   "sold_today": [
     "EL",
     "CACI",
@@ -3955,10 +3975,10 @@
     "LRN": 1793211732,
     "BBT": 1793210462,
     "PDI": 1793210945,
-    "ACN": 1793201197
+    "ACN": 1793216684
   },
-  "last_publish_ts": 1793215414,
-  "last_check_ts": 1793216632,
+  "last_publish_ts": 1793216683,
+  "last_check_ts": 1793216683,
   "exp_arm": {
     "PDI": {
       "params": {
@@ -4019,8 +4039,5 @@
   "last_decision_ts": 1793216632,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "b7761069": 241.5426,
-    "bbab3dc4": 245.5014
-  }
+  "book_px": {}
 }
