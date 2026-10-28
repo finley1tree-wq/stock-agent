@@ -81912,7 +81912,9 @@
     "code_version": "2732a51",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.26
+    "ret_now": 0.05,
+    "ret_final": 0.05,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -81943,7 +81945,7 @@
     "code_version": "2732a51",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": 0.12
   },
   {
     "symbol": "NXPI",
@@ -81974,7 +81976,7 @@
     "code_version": "2732a51",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.21
+    "ret_now": -0.28
   },
   {
     "symbol": "EL",
@@ -82005,7 +82007,7 @@
     "code_version": "88b129b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01
+    "ret_now": 0.13
   },
   {
     "symbol": "PDI",
@@ -82036,7 +82038,7 @@
     "code_version": "b952ad7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.21
+    "ret_now": -0.35
   },
   {
     "symbol": "LRN",
@@ -82067,7 +82069,7 @@
     "code_version": "b8fb738",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.6
+    "ret_now": -0.5
   },
   {
     "symbol": "BBT",
@@ -82098,7 +82100,7 @@
     "code_version": "ac2fd24",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": -0.03
   },
   {
     "symbol": "CACI",
@@ -82124,6 +82126,37 @@
     "evidence": "average cost $658.29",
     "trigger": "stop_loss",
     "hour_et": 13,
-    "code_version": "afec49f"
+    "code_version": "afec49f",
+    "hold_minutes": 24
+  },
+  {
+    "symbol": "OLN",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 45.602197,
+    "price": 16.45,
+    "date": "2026-10-28",
+    "time_et": "13:28",
+    "ts": 1793208530,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +6.5% over the month; 34% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 16.44,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 6.55,
+    "hour_et": 13,
+    "code_version": "ba5ef55",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
