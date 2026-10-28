@@ -1,6 +1,6 @@
 {
   "week": "2026-W44",
-  "spent": 743.16,
+  "spent": 0.0,
   "deployed": 117750.0,
   "by_ticker": {
     "WSM": 34.03,
@@ -12,8 +12,7 @@
     "EL": 0.33,
     "GH": 0.14,
     "OLN": 4.53,
-    "NXPI": 8.45,
-    "ADI": 750.0
+    "NXPI": 8.45
   },
   "deployed_by_ticker": {
     "EL": 13500.0,
@@ -3404,13 +3403,34 @@
       ],
       "evidence": "average cost $16.54",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.764561,
+      "status": "filled",
+      "price": 426.64,
+      "proceeds": 752.83,
+      "realized_pnl": 2.83,
+      "realized_pct": 0.38,
+      "date": "2026-10-28",
+      "time_et": "12:54",
+      "ts": 1793206200,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $425.03",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-28",
-  "spent_today": 739.96,
+  "spent_today": 0.0,
   "deployed_today": 44250.0,
   "orders_today": 26,
-  "sells_today": 25,
+  "sells_today": 26,
   "sold_today": [
     "EL",
     "CACI",
@@ -3426,7 +3446,7 @@
     "ACN"
   ],
   "sold_ts": {
-    "ADI": 1793195987,
+    "ADI": 1793206486,
     "NXPI": 1793201333,
     "FITB": 1793201653,
     "CACI": 1793200776,
@@ -3441,8 +3461,8 @@
     "PDI": 1793201151,
     "ACN": 1793201197
   },
-  "last_publish_ts": 1793205331,
-  "last_check_ts": 1793206403,
+  "last_publish_ts": 1793206486,
+  "last_check_ts": 1793206488,
   "exp_arm": {
     "ADI": {
       "params": {
@@ -3491,12 +3511,8 @@
     }
   },
   "last_bar_ts": 1793206200,
-  "last_decision_ts": 1793206314,
+  "last_decision_ts": 1793206488,
   "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {
-    "6cca727b": 426.6366,
-    "b6075939": 421.0135,
-    "2935b252": 412.2791
-  }
+  "book_px": {}
 }

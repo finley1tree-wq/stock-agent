@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "ddf76b7a",
-   "ticker": "RIG",
-   "kind": "stop_loss",
-   "price": 6.144,
-   "status": "cancelled",
-   "created": "2026-10-23 09:38",
-   "created_ts": 1792762736,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $6.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "f4cb87eb",
    "ticker": "CLF",
    "kind": "stop_loss",
@@ -7112,7 +7093,7 @@
    "ticker": "ADI",
    "kind": "take_profit",
    "price": 426.6366,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 10:54",
    "created_ts": 1793199268,
    "why": "close 100% at +0.4% over the average cost",
@@ -7122,14 +7103,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 12:54"
   },
   {
    "id": "b6075939",
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 421.0135,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 10:54",
    "created_ts": 1793199268,
    "why": "close it all at -0.9% under the average cost",
@@ -7139,14 +7121,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 12:54",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "2935b252",
    "ticker": "ADI",
    "kind": "buy_limit",
    "price": 412.2791,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 10:54",
    "created_ts": 1793199268,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7156,7 +7140,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 12:54",
+   "cancel_reason": "position closed"
   },
   {
    "id": "00e3faff",
@@ -7492,7 +7478,26 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-28 12:35",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "e7c6070d",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 425.612,
+   "status": "cancelled",
+   "created": "2026-10-28 12:54",
+   "created_ts": 1793206440,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $425.03",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 12:54",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-28 12:51"
+ "updated": "2026-10-28 12:54"
 }

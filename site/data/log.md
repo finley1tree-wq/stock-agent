@@ -1,118 +1,3 @@
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUs3BsvAZrddj8dFMWMR'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25328.40 (+1.31% on $25000.00 in) · cash $19336.68 · realised +336.68
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-28 11:24 ET (Wednesday) — week 2026-W44 — budget left $19010.81 (today $41250.00 put to work, 22 buys, 17 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUsGjDwGQeXbgwJE6gTP'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-  (re-pinned 1 order(s) to the new average cost)
-~ WORKING stop_loss 100% ACN @ $245.05 until 2026-11-02 — close it all at -1.2% under the average cost
-portfolio: equity $25331.85 (+1.33% on $25000.00 in) · cash $19336.68 · realised +336.68
-Decision: nothing at this check. 15 standing order(s) working.
-  (cancelled 2 standing order(s) on PDI: position closed)
-- SELL 100% PDI [stop_loss @ $14.11] -> $3001.54 (+0.05%) — close it all at -0.4% under the average cost
-## 2026-10-28 11:25 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on ACN: position closed)
-- SELL 100% ACN [stop_loss @ $244.93] -> $750.73 (+0.10%) — close it all at -1.2% under the average cost
-## 2026-10-28 11:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-28 11:28 ET (Wednesday) — week 2026-W44 — budget left $22763.08 (today $41250.00 put to work, 22 buys, 19 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUsWDgZosnFUBFpPgryh'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25325.14 (+1.30% on $25000.00 in) · cash $23088.95 · realised +338.95
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on NXPI: position closed)
-- SELL 100% NXPI [stop_loss @ $244.75] -> $741.55 (-1.13%) — close it all at -1.1% under the average cost
-## 2026-10-28 11:28 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-28 11:31 ET (Wednesday) — week 2026-W44 — budget left $23504.63 (today $41250.00 put to work, 22 buys, 20 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUsjmYLycTJfPcgKkL5U'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,505 idle, so opened 2: BBT, LRN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 BBT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +9.5% over the month; 0% of today's range
-- BUY $750.00 LRN [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +5.6% over the month; 9% of today's range
-~ WORKING take_profit 100% BBT @ $30.47 until 2026-11-02 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% BBT @ $30.19 until 2026-11-02 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 BBT @ $29.48 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% LRN @ $80.18 until 2026-11-02 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% LRN @ $79.00 until 2026-11-02 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 LRN @ $77.44 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25322.05 (+1.29% on $25000.00 in) · cash $22330.50 · realised +330.50
-Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $22004.63 this week
-  (cancelled 2 standing order(s) on FITB: position closed)
-- SELL 100% FITB [stop_loss @ $53.14] -> $745.47 (-0.60%) — close it all at -0.6% under the average cost
-## 2026-10-28 11:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-28 11:34 ET (Wednesday) — week 2026-W44 — budget left $22750.10 (today $42750.00 put to work, 24 buys, 21 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUsyaPWr9oLyQd6QDFXM'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,750 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +8.6% over the month; 25% of today's range
-~ WORKING take_profit 100% WSM @ $250.44 until 2026-11-02 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% WSM @ $247.96 until 2026-11-02 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 WSM @ $242.24 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25321.68 (+1.29% on $25000.00 in) · cash $22325.97 · realised +325.97
-Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $22000.10 this week
-
-## 2026-10-28 11:37 ET (Wednesday) — week 2026-W44 — budget left $22000.10 (today $43500.00 put to work, 25 buys, 21 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUtE1Cf1KFFBrPnDSaB8'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25320.98 (+1.28% on $25000.00 in) · cash $22325.97 · realised +325.97
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-28 11:40 ET (Wednesday) — week 2026-W44 — budget left $22000.10 (today $43500.00 put to work, 25 buys, 21 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUtTY4eG8Mx4gQyLXArR'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $22,000 idle, so opened 1: OLN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $750.00 OLN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +7.1% over the month; 60% of today's range
 ~ WORKING take_profit 100% OLN @ $16.61 until 2026-11-02 — close 100% at +0.4% over the average cost
@@ -398,3 +283,118 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on OLN: position closed)
 - SELL 100% OLN [take_profit @ $16.61] -> $753.15 (+0.42%) — close 100% at +0.4% over the average cost
 ## 2026-10-28 12:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-28 12:36 ET (Wednesday) — week 2026-W44 — budget left $24256.84 (today $44250.00 put to work, 26 buys, 25 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUxiVqL8oBZwAm1TqNrd'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,257 idle, so opened 3: FITB, CACI, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CACI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25331.16 (+1.32% on $25000.00 in) · cash $24582.70 · realised +332.70
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-28 12:39 ET (Wednesday) — week 2026-W44 — budget left $24256.84 (today $44250.00 put to work, 26 buys, 25 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUxx4WEGg2R3TWVkTmSj'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,257 idle, so opened 4: FITB, CACI, WSM, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CACI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25331.70 (+1.33% on $25000.00 in) · cash $24582.70 · realised +332.70
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-28 12:42 ET (Wednesday) — week 2026-W44 — budget left $24256.84 (today $44250.00 put to work, 26 buys, 25 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUyCaHG1ueTemS39Rh9H'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,257 idle, so opened 5: FITB, CACI, WSM, NXPI, PDI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CACI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped PDI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25332.41 (+1.33% on $25000.00 in) · cash $24582.70 · realised +332.70
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-28 12:45 ET (Wednesday) — week 2026-W44 — budget left $24256.84 (today $44250.00 put to work, 26 buys, 25 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUySGsQNKsbsWiSvGVoH'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,257 idle, so opened 5: FITB, CACI, WSM, NXPI, PDI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CACI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped PDI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25332.69 (+1.33% on $25000.00 in) · cash $24582.70 · realised +332.70
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-28 12:48 ET (Wednesday) — week 2026-W44 — budget left $24256.84 (today $44250.00 put to work, 26 buys, 25 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUyg96U9AXH22kntmsXg'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,257 idle, so opened 5: FITB, CACI, WSM, PDI, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CACI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped PDI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25333.43 (+1.33% on $25000.00 in) · cash $24582.70 · realised +332.70
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-28 12:51 ET (Wednesday) — week 2026-W44 — budget left $24256.84 (today $44250.00 put to work, 26 buys, 25 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUytp8Zb2pqsg5Vw7Saf'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,257 idle, so opened 6: FITB, GH, CACI, WSM, PDI, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped GH: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CACI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped PDI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25333.84 (+1.34% on $25000.00 in) · cash $24582.70 · realised +332.70
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [take_profit @ $426.64] -> $752.83 (+0.38%) — close 100% at +0.4% over the average cost
+## 2026-10-28 12:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders

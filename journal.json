@@ -81446,7 +81446,9 @@
     "code_version": "8ce88ea",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17
+    "ret_now": 0.38,
+    "ret_final": 0.38,
+    "ret_src": "realised"
   },
   {
     "symbol": "CACI",
@@ -81822,5 +81824,32 @@
     "hour_et": 12,
     "code_version": "5a92d74",
     "hold_minutes": 49
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 1.764561,
+    "status": "filled",
+    "price": 426.64,
+    "proceeds": 752.83,
+    "realized_pnl": 2.83,
+    "realized_pct": 0.38,
+    "date": "2026-10-28",
+    "time_et": "12:54",
+    "ts": 1793206200,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $425.03",
+    "trigger": "take_profit",
+    "hour_et": 12,
+    "code_version": "b2fee9d",
+    "hold_minutes": 115
   }
 ]
