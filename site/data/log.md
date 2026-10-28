@@ -1,20 +1,3 @@
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-28 11:55 ET (Wednesday) — week 2026-W44 — budget left $22002.43 (today $44250.00 put to work, 26 buys, 22 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUucQx8MNiaacymhiBZq'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25323.15 (+1.29% on $25000.00 in) · cash $22328.30 · realised +328.30
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-28 11:58 ET (Wednesday) — week 2026-W44 — budget left $22002.43 (today $44250.00 put to work, 26 buys, 22 sells) — SIM (pretend money) via sim
   (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
   (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 NXPI @ $239.16 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25334.33 (+1.34% on $25000.00 in) · cash $22335.53 · realised +335.53
 Done: 0 sell(s), 4 buy(s); 12 order(s) working; budget left $22000.00 this week
+
+## 2026-10-28 13:03 ET (Wednesday) — week 2026-W44 — budget left $22000.00 (today $47250.00 put to work, 30 buys, 26 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUzp8bJddARViowvfAiY'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $22,000 idle, so opened 1: EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +15.8% over the month; 85% of today's range
+~ WORKING take_profit 100% EL @ $109.73 until 2026-11-02 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% EL @ $108.34 until 2026-11-02 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 EL @ $106.05 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25333.19 (+1.33% on $25000.00 in) · cash $21585.53 · realised +335.53
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21250.00 this week
