@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "be8d15d3",
-   "ticker": "AMT",
-   "kind": "stop_loss",
-   "price": 190.8559,
-   "status": "cancelled",
-   "created": "2026-10-23 10:22",
-   "created_ts": 1792765340,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $192.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 10:27",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "a9d71e3e",
-   "ticker": "AMT",
-   "kind": "buy_limit",
-   "price": 186.8511,
-   "status": "cancelled",
-   "created": "2026-10-23 10:22",
-   "created_ts": 1792765340,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $192.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "usd": 500.0,
-   "closed": "2026-10-23 10:27",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "57ae5625",
-   "ticker": "CRBG",
-   "kind": "take_profit",
-   "price": 34.5212,
-   "status": "filled",
-   "created": "2026-10-23 10:28",
-   "created_ts": 1792765689,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $34.42",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 10:45"
-  },
-  {
    "id": "b155ddaa",
    "ticker": "CRBG",
    "kind": "stop_loss",
@@ -7473,7 +7417,58 @@
    ],
    "good_until": "2026-11-02",
    "usd": 500.0
+  },
+  {
+   "id": "8be0f78a",
+   "ticker": "PDI",
+   "kind": "take_profit",
+   "price": 14.1836,
+   "status": "working",
+   "created": "2026-10-28 13:06",
+   "created_ts": 1793207215,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $14.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9227c430",
+   "ticker": "PDI",
+   "kind": "stop_loss",
+   "price": 14.1008,
+   "status": "working",
+   "created": "2026-10-28 13:06",
+   "created_ts": 1793207215,
+   "why": "close it all at -0.4% under the average cost",
+   "evidence": "average cost $14.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9ab63dcd",
+   "ticker": "PDI",
+   "kind": "buy_limit",
+   "price": 13.7352,
+   "status": "working",
+   "created": "2026-10-28 13:06",
+   "created_ts": 1793207215,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $14.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-28 13:03"
+ "updated": "2026-10-28 13:06"
 }
