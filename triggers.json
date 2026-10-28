@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "c19dcb06",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 238.962,
-   "status": "cancelled",
-   "created": "2026-10-23 09:38",
-   "created_ts": 1792762687,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $238.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 09:41",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "ddf76b7a",
    "ticker": "RIG",
    "kind": "stop_loss",
@@ -7423,7 +7404,7 @@
    "ticker": "OLN",
    "kind": "stop_loss",
    "price": 16.3749,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 11:40",
    "created_ts": 1793202035,
    "why": "close it all at -1.0% under the average cost",
@@ -7433,7 +7414,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 12:34",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "c47f94cb",
@@ -7487,7 +7470,24 @@
    "good_until": "2026-11-02",
    "pct_of_position": 100.0,
    "closed": "2026-10-28 12:23"
+  },
+  {
+   "id": "aef97bfb",
+   "ticker": "OLN",
+   "kind": "stop_loss",
+   "price": 16.564,
+   "status": "working",
+   "created": "2026-10-28 12:34",
+   "created_ts": 1793205291,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $16.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-28 12:33"
+ "updated": "2026-10-28 12:34"
 }
