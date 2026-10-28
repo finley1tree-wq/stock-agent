@@ -2,20 +2,6 @@ portfolio: equity $25345.71 (+1.38% on $25000.00 in) · cash $22344.79 · realis
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
-## 2026-10-28 10:08 ET (Wednesday) — week 2026-W44 — budget left $22018.91 (today $33000.00 put to work, 11 buys, 10 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUmTEnmGpJ7bZMTVY6qu'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25345.71 (+1.38% on $25000.00 in) · cash $22344.79 · realised +344.79
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-28 10:11 ET (Wednesday) — week 2026-W44 — budget left $22018.91 (today $33000.00 put to work, 11 buys, 10 sells) — SIM (pretend money) via sim
   (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
   (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
@@ -398,3 +384,17 @@ Decision: nothing at this check. 18 standing order(s) working.
   (cancelled 2 standing order(s) on CACI: position closed)
 - SELL 100% CACI [stop_loss @ $660.92] -> $750.38 (+0.05%) — close it all at -0.8% under the average cost
 ## 2026-10-28 11:19 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-28 11:21 ET (Wednesday) — week 2026-W44 — budget left $19010.81 (today $41250.00 put to work, 22 buys, 17 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUs3BsvAZrddj8dFMWMR'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25328.40 (+1.31% on $25000.00 in) · cash $19336.68 · realised +336.68
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
