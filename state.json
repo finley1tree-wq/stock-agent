@@ -1,9 +1,9 @@
 {
   "week": "2026-W44",
-  "spent": 3749.9,
+  "spent": 2997.57,
   "deployed": 117750.0,
   "by_ticker": {
-    "WSM": 786.36,
+    "WSM": 34.03,
     "FITB": 37.1,
     "CRBG": 6.11,
     "GPI": 10.32,
@@ -3320,13 +3320,34 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 3.003245,
+      "status": "filled",
+      "price": 250.5,
+      "proceeds": 752.33,
+      "realized_pnl": 2.33,
+      "realized_pct": 0.31,
+      "date": "2026-10-28",
+      "time_et": "11:52",
+      "ts": 1793202600,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $249.73",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-28",
-  "spent_today": 3746.7,
+  "spent_today": 2994.37,
   "deployed_today": 44250.0,
   "orders_today": 26,
-  "sells_today": 21,
+  "sells_today": 22,
   "sold_today": [
     "EL",
     "CACI",
@@ -3346,7 +3367,7 @@
     "NXPI": 1793201333,
     "FITB": 1793201653,
     "CACI": 1793200776,
-    "WSM": 1793198780,
+    "WSM": 1793202762,
     "CRBG": 1793035459,
     "EL": 1793198126,
     "GPI": 1793121696,
@@ -3357,8 +3378,8 @@
     "PDI": 1793201151,
     "ACN": 1793201197
   },
-  "last_publish_ts": 1793202035,
-  "last_check_ts": 1793202671,
+  "last_publish_ts": 1793202761,
+  "last_check_ts": 1793202764,
   "exp_arm": {
     "ADI": {
       "params": {
@@ -3407,24 +3428,21 @@
     }
   },
   "last_bar_ts": 1793202600,
-  "last_decision_ts": 1793202580,
+  "last_decision_ts": 1793202764,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "761b49c0": 30.4717,
-    "ab277b97": 250.4367,
+    "174660d6": 30.1855,
+    "a62d581a": 80.1753,
+    "6cca727b": 426.6366,
     "7d392708": 16.606,
     "b6075939": 421.0135,
-    "a62d581a": 80.1753,
-    "cb0de4b3": 247.9594,
-    "174660d6": 30.1855,
-    "6cca727b": 426.6366,
-    "131ae583": 79.0009,
     "3591f971": 16.3749,
+    "131ae583": 79.0009,
     "2935b252": 412.2791,
-    "0774baf3": 77.4448,
     "c47f94cb": 16.0438,
-    "c634b948": 242.2381,
-    "28afd8a1": 29.4783
+    "28afd8a1": 29.4783,
+    "0774baf3": 77.4448
   }
 }

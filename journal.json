@@ -81446,7 +81446,7 @@
     "code_version": "8ce88ea",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24
+    "ret_now": -0.23
   },
   {
     "symbol": "CACI",
@@ -81616,7 +81616,7 @@
     "code_version": "9b96dc5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.19
+    "ret_now": -0.1
   },
   {
     "symbol": "FITB",
@@ -81674,7 +81674,9 @@
     "code_version": "1a44de8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.14
+    "ret_now": 0.31,
+    "ret_final": 0.31,
+    "ret_src": "realised"
   },
   {
     "symbol": "OLN",
@@ -81705,6 +81707,33 @@
     "code_version": "325d6ad",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24
+    "ret_now": -0.18
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 3.003245,
+    "status": "filled",
+    "price": 250.5,
+    "proceeds": 752.33,
+    "realized_pnl": 2.33,
+    "realized_pct": 0.31,
+    "date": "2026-10-28",
+    "time_et": "11:52",
+    "ts": 1793202600,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $249.73",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "77e2f4d",
+    "hold_minutes": 15
   }
 ]
