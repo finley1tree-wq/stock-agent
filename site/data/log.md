@@ -1,6 +1,3 @@
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-27 14:55 ET (Tuesday) — week 2026-W44 — budget left $24996.80 (today $39000.00 put to work, 28 buys, 28 sells) — SIM (pretend money) via sim
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $242.80 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25308.87 (+1.24% on $25000.00 in) · cash $1335.21 · realised +335.21
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $1009.33 this week
+  (cancelled 2 standing order(s) on CACI: position closed)
+- SELL 100% CACI [take_profit @ $663.18] -> $3017.04 (+0.57%) — close 100% at +0.3% over the average cost
+## 2026-10-28 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
