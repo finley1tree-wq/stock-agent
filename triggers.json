@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "41347984",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 236.6237,
-   "status": "cancelled",
-   "created": "2026-10-22 13:00",
-   "created_ts": 1792688411,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $238.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 13:22",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "ae326fef",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 231.8106,
-   "status": "cancelled",
-   "created": "2026-10-22 13:00",
-   "created_ts": 1792688411,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $238.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "usd": 500.0,
-   "closed": "2026-10-22 13:25",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "59e1f221",
    "ticker": "CRBG",
    "kind": "take_profit",
@@ -6885,7 +6847,7 @@
    "ticker": "FITB",
    "kind": "stop_loss",
    "price": 53.4283,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 09:32",
    "created_ts": 1793194365,
    "why": "close it all at -0.5% under the average cost",
@@ -6895,7 +6857,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 09:46",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "2c3b5177",
@@ -7026,7 +6990,7 @@
    "ticker": "LRN",
    "kind": "take_profit",
    "price": 81.0458,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 09:32",
    "created_ts": 1793194365,
    "why": "close 100% at +0.4% over the average cost",
@@ -7036,14 +7000,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 09:46",
+   "cancel_reason": "position closed"
   },
   {
    "id": "6dcac6c4",
    "ticker": "LRN",
    "kind": "stop_loss",
    "price": 79.8706,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 09:32",
    "created_ts": 1793194365,
    "why": "close it all at -1.0% under the average cost",
@@ -7053,14 +7019,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 09:46"
   },
   {
    "id": "37730815",
    "ticker": "LRN",
    "kind": "buy_limit",
    "price": 78.2887,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 09:32",
    "created_ts": 1793194365,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7070,7 +7037,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 09:46",
+   "cancel_reason": "position closed"
   },
   {
    "id": "492eea4c",
@@ -7365,7 +7334,7 @@
    "ticker": "BBT",
    "kind": "stop_loss",
    "price": 30.6318,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 09:38",
    "created_ts": 1793194711,
    "why": "close it all at -0.6% under the average cost",
@@ -7375,7 +7344,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 09:46",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5d8b1bfa",
@@ -7399,7 +7370,7 @@
    "ticker": "NXPI",
    "kind": "take_profit",
    "price": 241.9672,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 09:41",
    "created_ts": 1793194894,
    "why": "close 100% at +0.4% over the average cost",
@@ -7409,7 +7380,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 09:45",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3ff517f2",
@@ -7435,7 +7408,7 @@
    "ticker": "NXPI",
    "kind": "buy_limit",
    "price": 233.673,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 09:41",
    "created_ts": 1793194894,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7445,14 +7418,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 09:45",
+   "cancel_reason": "position closed"
   },
   {
    "id": "08cc9088",
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 241.572,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 09:43",
    "created_ts": 1793194987,
    "why": "close it all at -1.1% under the average cost",
@@ -7462,8 +7437,43 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 09:45"
+  },
+  {
+   "id": "ef747c4f",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 53.78,
+   "status": "working",
+   "created": "2026-10-28 09:46",
+   "created_ts": 1793195166,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $53.72",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a7ce0002",
+   "ticker": "BBT",
+   "kind": "stop_loss",
+   "price": 30.854,
+   "status": "working",
+   "created": "2026-10-28 09:46",
+   "created_ts": 1793195166,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $30.83",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-28 09:44"
+ "updated": "2026-10-28 09:46"
 }
