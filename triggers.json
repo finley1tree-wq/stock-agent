@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "821a7104",
-   "ticker": "RIG",
-   "kind": "stop_loss",
-   "price": 6.132,
-   "status": "cancelled",
-   "created": "2026-10-23 09:36",
-   "created_ts": 1792762608,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $6.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 09:38",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "6a65aba0",
    "ticker": "CLF",
    "kind": "stop_loss",
@@ -7291,7 +7272,7 @@
    "ticker": "BBT",
    "kind": "stop_loss",
    "price": 30.1855,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 11:31",
    "created_ts": 1793201468,
    "why": "close it all at -0.7% under the average cost",
@@ -7301,7 +7282,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 12:13",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "28afd8a1",
@@ -7477,7 +7460,24 @@
    ],
    "good_until": "2026-11-02",
    "usd": 500.0
+  },
+  {
+   "id": "e4fab550",
+   "ticker": "BBT",
+   "kind": "stop_loss",
+   "price": 30.42,
+   "status": "working",
+   "created": "2026-10-28 12:13",
+   "created_ts": 1793203982,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $30.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-28 12:10"
+ "updated": "2026-10-28 12:13"
 }

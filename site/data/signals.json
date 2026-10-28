@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-28T11:52-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-28T12:13-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "e4fab550",
+   "ticker": "BBT",
+   "kind": "stop_loss",
+   "price": 30.42,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 30.44,
+   "pct_away": -0.07,
+   "good_until": "2026-11-02",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "761b49c0",
    "ticker": "BBT",
    "kind": "take_profit",
@@ -185,27 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 30.34,
-   "pct_away": 0.43,
+   "last": 30.44,
+   "pct_away": 0.1,
    "good_until": "2026-11-02",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "174660d6",
-   "ticker": "BBT",
-   "kind": "stop_loss",
-   "price": 30.1855,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 30.34,
-   "pct_away": -0.51,
-   "good_until": "2026-11-02",
-   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 79.73,
-   "pct_away": 0.56,
+   "last": 79.88,
+   "pct_away": 0.37,
    "good_until": "2026-11-02",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -236,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 423.94,
-   "pct_away": 0.64,
+   "last": 424.39,
+   "pct_away": 0.53,
    "good_until": "2026-11-02",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -263,23 +263,6 @@
    ]
   },
   {
-   "id": "b6075939",
-   "ticker": "ADI",
-   "kind": "stop_loss",
-   "price": 421.0135,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 423.94,
-   "pct_away": -0.69,
-   "good_until": "2026-11-02",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "3591f971",
    "ticker": "OLN",
    "kind": "stop_loss",
@@ -297,6 +280,23 @@
    ]
   },
   {
+   "id": "b6075939",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 421.0135,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 424.39,
+   "pct_away": -0.8,
+   "good_until": "2026-11-02",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "131ae583",
    "ticker": "LRN",
    "kind": "stop_loss",
@@ -304,27 +304,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 79.73,
-   "pct_away": -0.91,
+   "last": 79.88,
+   "pct_away": -1.1,
    "good_until": "2026-11-02",
    "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "2935b252",
-   "ticker": "ADI",
-   "kind": "buy_limit",
-   "price": 412.2791,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 423.94,
-   "pct_away": -2.75,
-   "good_until": "2026-11-02",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -348,15 +331,15 @@
    ]
   },
   {
-   "id": "28afd8a1",
-   "ticker": "BBT",
+   "id": "2935b252",
+   "ticker": "ADI",
    "kind": "buy_limit",
-   "price": 29.4783,
+   "price": 412.2791,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 30.34,
-   "pct_away": -2.84,
+   "last": 424.39,
+   "pct_away": -2.85,
    "good_until": "2026-11-02",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -372,8 +355,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 79.73,
-   "pct_away": -2.87,
+   "last": 79.88,
+   "pct_away": -3.05,
+   "good_until": "2026-11-02",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "28afd8a1",
+   "ticker": "BBT",
+   "kind": "buy_limit",
+   "price": 29.4783,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 30.44,
+   "pct_away": -3.16,
    "good_until": "2026-11-02",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
