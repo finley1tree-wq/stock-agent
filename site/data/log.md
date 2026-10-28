@@ -1,6 +1,3 @@
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
   (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
   (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
   (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on LRN: position closed)
 - SELL 100% LRN [stop_loss @ $79.94] -> $750.90 (+0.12%) — close it all at -1.0% under the average cost
 ## 2026-10-28 12:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on BBT: position closed)
+- SELL 100% BBT [stop_loss @ $30.40] -> $750.36 (+0.05%) — close it all at -0.7% under the average cost
+## 2026-10-28 12:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders

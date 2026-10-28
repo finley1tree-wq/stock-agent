@@ -1,6 +1,6 @@
 {
   "week": "2026-W44",
-  "spent": 2246.67,
+  "spent": 1496.31,
   "deployed": 117750.0,
   "by_ticker": {
     "WSM": 34.03,
@@ -8,7 +8,7 @@
     "CRBG": 6.11,
     "GPI": 10.32,
     "LRN": 31.37,
-    "BBT": 768.7,
+    "BBT": 18.34,
     "EL": 0.33,
     "GH": 0.14,
     "OLN": 757.68,
@@ -3362,13 +3362,34 @@
       ],
       "evidence": "average cost $79.84",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "BBT",
+      "side": "sell",
+      "qty": 24.678878,
+      "status": "filled",
+      "price": 30.4,
+      "proceeds": 750.36,
+      "realized_pnl": 0.36,
+      "realized_pct": 0.05,
+      "date": "2026-10-28",
+      "time_et": "12:26",
+      "ts": 1793204700,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $30.39",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-28",
-  "spent_today": 2243.47,
+  "spent_today": 1493.11,
   "deployed_today": 44250.0,
   "orders_today": 26,
-  "sells_today": 23,
+  "sells_today": 24,
   "sold_today": [
     "EL",
     "CACI",
@@ -3395,12 +3416,12 @@
     "OLN": 1793199281,
     "GH": 1793198126,
     "LRN": 1793204636,
-    "BBT": 1793198726,
+    "BBT": 1793204788,
     "PDI": 1793201151,
     "ACN": 1793201197
   },
-  "last_publish_ts": 1793204636,
-  "last_check_ts": 1793204681,
+  "last_publish_ts": 1793204788,
+  "last_check_ts": 1793204791,
   "exp_arm": {
     "ADI": {
       "params": {
@@ -3448,19 +3469,16 @@
       }
     }
   },
-  "last_bar_ts": 1793204400,
-  "last_decision_ts": 1793204576,
+  "last_bar_ts": 1793204700,
+  "last_decision_ts": 1793204791,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "e4fab550": 30.42,
-    "761b49c0": 30.4717,
     "7d392708": 16.606,
-    "b6075939": 421.0135,
     "6cca727b": 426.6366,
+    "b6075939": 421.0135,
     "3591f971": 16.3749,
     "2935b252": 412.2791,
-    "c47f94cb": 16.0438,
-    "28afd8a1": 29.4783
+    "c47f94cb": 16.0438
   }
 }

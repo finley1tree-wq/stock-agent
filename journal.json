@@ -81446,7 +81446,7 @@
     "code_version": "8ce88ea",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.27
+    "ret_now": -0.26
   },
   {
     "symbol": "CACI",
@@ -81585,7 +81585,9 @@
     "code_version": "9b96dc5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.23
+    "ret_now": 0.05,
+    "ret_final": 0.05,
+    "ret_src": "realised"
   },
   {
     "symbol": "LRN",
@@ -81616,7 +81618,9 @@
     "code_version": "9b96dc5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.35
+    "ret_now": 0.12,
+    "ret_final": 0.12,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -81707,7 +81711,7 @@
     "code_version": "325d6ad",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": -0.06
   },
   {
     "symbol": "WSM",
@@ -81760,6 +81764,34 @@
     "evidence": "average cost $79.84",
     "trigger": "stop_loss",
     "hour_et": 12,
-    "code_version": "d7b5440"
+    "code_version": "d7b5440",
+    "hold_minutes": 48
+  },
+  {
+    "symbol": "BBT",
+    "side": "sell",
+    "qty": 24.678878,
+    "status": "filled",
+    "price": 30.4,
+    "proceeds": 750.36,
+    "realized_pnl": 0.36,
+    "realized_pct": 0.05,
+    "date": "2026-10-28",
+    "time_et": "12:26",
+    "ts": 1793204700,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $30.39",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "7d51089",
+    "hold_minutes": 53
   }
 ]
