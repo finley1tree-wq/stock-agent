@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "5cb30626",
-   "ticker": "RIG",
-   "kind": "stop_loss",
-   "price": 6.3235,
-   "status": "cancelled",
-   "created": "2026-10-23 10:31",
-   "created_ts": 1792765876,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $6.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 10:53",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "2a70122a",
    "ticker": "RIG",
    "kind": "buy_limit",
@@ -7070,7 +7051,7 @@
    "ticker": "WSM",
    "kind": "stop_loss",
    "price": 249.5681,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:00",
    "created_ts": 1793206845,
    "why": "close it all at -0.7% under the average cost",
@@ -7080,7 +7061,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 13:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "4ce5b2bf",
@@ -7155,7 +7138,7 @@
    "ticker": "EL",
    "kind": "take_profit",
    "price": 109.7258,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:03",
    "created_ts": 1793207032,
    "why": "close 100% at +0.4% over the average cost",
@@ -7165,7 +7148,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 13:32",
+   "cancel_reason": "position closed"
   },
   {
    "id": "99a11db0",
@@ -7191,7 +7176,7 @@
    "ticker": "EL",
    "kind": "buy_limit",
    "price": 106.0501,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:03",
    "created_ts": 1793207032,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7201,7 +7186,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 13:32",
+   "cancel_reason": "position closed"
   },
   {
    "id": "8be0f78a",
@@ -7379,7 +7366,7 @@
    "ticker": "EL",
    "kind": "stop_loss",
    "price": 109.462,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 13:27",
    "created_ts": 1793208438,
    "why": "close it all at -0.9% under the average cost",
@@ -7389,7 +7376,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 13:32"
   },
   {
    "id": "be4f8692",
@@ -7463,7 +7451,24 @@
    ],
    "good_until": "2026-11-02",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "5e3fb04c",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 251.604,
+   "status": "working",
+   "created": "2026-10-28 13:33",
+   "created_ts": 1793208819,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $251.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-28 13:31"
+ "updated": "2026-10-28 13:33"
 }
