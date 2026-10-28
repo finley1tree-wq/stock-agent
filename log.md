@@ -48930,3 +48930,20 @@ Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $1009.33 this week
   (cancelled 2 standing order(s) on CACI: position closed)
 - SELL 100% CACI [take_profit @ $663.18] -> $3017.04 (+0.57%) — close 100% at +0.3% over the average cost
 ## 2026-10-28 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-28 09:38 ET (Wednesday) — week 2026-W44 — budget left $4026.37 (today $27000.00 put to work, 9 buys, 2 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUj9oR5eG8tNvoUXjHzn'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $4,026 idle, so opened 1: BBT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 BBT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +11.0% over the month; 55% of today's range
+~ WORKING take_profit 100% BBT @ $30.91 until 2026-11-02 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% BBT @ $30.63 until 2026-11-02 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 BBT @ $29.91 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25349.63 (+1.40% on $25000.00 in) · cash $1352.25 · realised +352.25
+Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $1026.37 this week
