@@ -1,22 +1,3 @@
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25322.68 (+1.29% on $25000.00 in) · cash $25322.68 · realised +322.68
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-27 15:55 ET (Tuesday) — week 2026-W44 — budget left $24996.80 (today $39000.00 put to work, 28 buys, 28 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
-  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
-  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
-  (KIO excluded: too thinly traded ($2.1M a day) — KKR Income Opportunities Fund)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgTL5jFzyBZRzaqpCLp2Q'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25322.68 (+1.29% on $25000.00 in) · cash $25322.68 · realised +322.68
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-10-27 15:58 ET (Tuesday) — week 2026-W44 — budget left $24996.80 (today $39000.00 put to work, 28 buys, 28 sells) — SIM (pretend money) via sim
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
@@ -398,3 +379,22 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 GH @ $177.94 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25339.67 (+1.36% on $25000.00 in) · cash $19344.79 · realised +344.79
 Done: 0 sell(s), 2 buy(s); 15 order(s) working; budget left $19018.91 this week
+
+## 2026-10-28 10:33 ET (Wednesday) — week 2026-W44 — budget left $19018.91 (today $36000.00 put to work, 15 buys, 10 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+  (bad quote AIOK: +39.0% in a day looks like a bad tick)
+  (no price for AIOK — excluded this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUoKNAY5JuPp8gAxqy1n'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $19,019 idle, so opened 1: LRN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 LRN [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +5.9% over the month; 12% of today's range
+~ WORKING take_profit 100% LRN @ $80.43 until 2026-11-02 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% LRN @ $79.25 until 2026-11-02 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 LRN @ $77.69 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25340.51 (+1.36% on $25000.00 in) · cash $18594.79 · realised +344.79
+Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $18268.91 this week

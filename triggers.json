@@ -1,82 +1,6 @@
 {
  "orders": [
   {
-   "id": "0f1fb2aa",
-   "ticker": "CACI",
-   "kind": "buy_limit",
-   "price": 599.1205,
-   "status": "cancelled",
-   "created": "2026-10-22 13:39",
-   "created_ts": 1792690799,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $617.65",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "usd": 500.0,
-   "closed": "2026-10-22 13:44",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "de4da69c",
-   "ticker": "FBK",
-   "kind": "take_profit",
-   "price": 53.905,
-   "status": "cancelled",
-   "created": "2026-10-22 13:43",
-   "created_ts": 1792690982,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $53.77",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 15:42",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "aa47f86b",
-   "ticker": "FBK",
-   "kind": "stop_loss",
-   "price": 53.4323,
-   "status": "cancelled",
-   "created": "2026-10-22 13:43",
-   "created_ts": 1792690982,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $53.77",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 15:42",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "24838dfc",
-   "ticker": "FBK",
-   "kind": "buy_limit",
-   "price": 52.1569,
-   "status": "cancelled",
-   "created": "2026-10-22 13:43",
-   "created_ts": 1792690982,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $53.77",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "usd": 500.0,
-   "closed": "2026-10-22 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "56640130",
    "ticker": "EL",
    "kind": "take_profit",
@@ -7395,7 +7319,7 @@
    "ticker": "EL",
    "kind": "stop_loss",
    "price": 107.8813,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 10:30",
    "created_ts": 1793197804,
    "why": "close it all at -0.9% under the average cost",
@@ -7405,7 +7329,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 10:32",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "222df15b",
@@ -7474,7 +7400,75 @@
    ],
    "good_until": "2026-11-02",
    "usd": 500.0
+  },
+  {
+   "id": "09f679a5",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 109.01,
+   "status": "working",
+   "created": "2026-10-28 10:32",
+   "created_ts": 1793197942,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $108.86",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "95ce245f",
+   "ticker": "LRN",
+   "kind": "take_profit",
+   "price": 80.4256,
+   "status": "working",
+   "created": "2026-10-28 10:33",
+   "created_ts": 1793197990,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $80.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3c8f1b1b",
+   "ticker": "LRN",
+   "kind": "stop_loss",
+   "price": 79.2507,
+   "status": "working",
+   "created": "2026-10-28 10:33",
+   "created_ts": 1793197990,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $80.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b6a8b80f",
+   "ticker": "LRN",
+   "kind": "buy_limit",
+   "price": 77.6873,
+   "status": "working",
+   "created": "2026-10-28 10:33",
+   "created_ts": 1793197990,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $80.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-28 10:30"
+ "updated": "2026-10-28 10:33"
 }
