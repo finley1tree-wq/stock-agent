@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-28T10:23-04:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $22,019 idle, so opened 1: CACI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-10-28T10:27-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $21,269 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -185,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.09,
-   "pct_away": -0.27,
+   "last": 14.07,
+   "pct_away": -0.13,
    "good_until": "2026-11-02",
    "why": "close it all at -0.4% under the average cost",
    "signals": [
@@ -195,17 +195,17 @@
    ]
   },
   {
-   "id": "492eea4c",
-   "ticker": "PDI",
+   "id": "d0fbcf8c",
+   "ticker": "WSM",
    "kind": "take_profit",
-   "price": 14.1333,
+   "price": 251.6376,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 14.09,
-   "pct_away": 0.31,
+   "last": 250.84,
+   "pct_away": 0.32,
    "good_until": "2026-11-02",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -223,6 +223,40 @@
    "pct_away": 0.38,
    "good_until": "2026-11-02",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "492eea4c",
+   "ticker": "PDI",
+   "kind": "take_profit",
+   "price": 14.1333,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 14.07,
+   "pct_away": 0.45,
+   "good_until": "2026-11-02",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "dd9bd171",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 249.1985,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 250.84,
+   "pct_away": -0.65,
+   "good_until": "2026-11-02",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +287,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 14.09,
-   "pct_away": -2.86,
+   "last": 14.07,
+   "pct_away": -2.72,
    "good_until": "2026-11-02",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -278,9 +312,26 @@
     "risk_management",
     "auto_bracket"
    ]
+  },
+  {
+   "id": "25272e80",
+   "ticker": "WSM",
+   "kind": "buy_limit",
+   "price": 243.4118,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 250.84,
+   "pct_away": -2.96,
+   "good_until": "2026-11-02",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $22,019 idle, so opened 1: CACI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $21,269 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -350,7 +401,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 382,
+  "decisions_graded": 381,
   "decisions_with_buys_graded": 47,
   "independent_days_graded": 4,
   "avg_regret_pct": -0.37,
@@ -439,7 +490,7 @@
     "n": 18
    },
    "widely_held": {
-    "n": 7
+    "n": 6
    },
    "defense": {
     "n": 3
@@ -451,7 +502,7 @@
     "n": 1
    }
   },
-  "idle_checks": 341,
+  "idle_checks": 340,
   "blocked_checks": 0,
   "idle_share": 0.85,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1987,5 +2038,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-28T10:23-04:00"
+ "signalsAsOf": "2026-10-28T10:27-04:00"
 }
