@@ -48947,3 +48947,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $500.00 BBT @ $29.91 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25349.63 (+1.40% on $25000.00 in) · cash $1352.25 · realised +352.25
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $1026.37 this week
+  (cancelled 2 standing order(s) on GH: position closed)
+- SELL 100% GH [take_profit @ $181.05] -> $3014.76 (+0.49%) — close 100% at +0.5% over the average cost
+## 2026-10-28 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
