@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-10-28 14:25 ET
+# Pretend portfolio — 2026-10-28 14:28 ET
 
-**Equity $25325.77** on $25000.00 put in → **+1.30%**  
-Cash $24575.58 · Unrealised +0.19 · Realised +325.58
+**Equity $25325.43** on $25000.00 put in → **+1.30%**  
+Cash $24575.58 · Unrealised -0.15 · Realised +325.58
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| ACN | 3.0% | $750.19 | $244.37 | $244.43 | +0.03% | 0d |
+| ACN | 3.0% | $749.85 | $244.37 | $244.32 | -0.02% | 0d |
 
 ## Last fills
 
