@@ -1,6 +1,6 @@
 {
   "week": "2026-W44",
-  "spent": 3741.4,
+  "spent": 2248.39,
   "deployed": 126750.0,
   "by_ticker": {
     "WSM": 34.51,
@@ -8,11 +8,11 @@
     "CRBG": 6.11,
     "GPI": 10.32,
     "LRN": 781.37,
-    "BBT": 768.34,
+    "BBT": 24.4,
     "OLN": 1.36,
     "NXPI": 8.87,
     "PDI": 750.0,
-    "ADI": 750.0,
+    "ADI": 0.93,
     "ACN": 750.0
   },
   "deployed_by_ticker": {
@@ -3836,13 +3836,55 @@
       ],
       "evidence": "average cost $184.43",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "BBT",
+      "side": "sell",
+      "qty": 24.678878,
+      "status": "filled",
+      "price": 30.14,
+      "proceeds": 743.94,
+      "realized_pnl": -6.06,
+      "realized_pct": -0.81,
+      "date": "2026-10-28",
+      "time_et": "14:01",
+      "ts": 1793210400,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $30.39",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.763108,
+      "status": "filled",
+      "price": 424.86,
+      "proceeds": 749.07,
+      "realized_pnl": -0.93,
+      "realized_pct": -0.12,
+      "date": "2026-10-28",
+      "time_et": "14:01",
+      "ts": 1793210400,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $425.39",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-28",
-  "spent_today": 3741.4,
+  "spent_today": 2248.39,
   "deployed_today": 53250.0,
   "orders_today": 38,
-  "sells_today": 33,
+  "sells_today": 35,
   "sold_today": [
     "EL",
     "CACI",
@@ -3858,7 +3900,7 @@
     "ACN"
   ],
   "sold_ts": {
-    "ADI": 1793206486,
+    "ADI": 1793210463,
     "NXPI": 1793209560,
     "FITB": 1793209278,
     "CACI": 1793208393,
@@ -3869,12 +3911,12 @@
     "OLN": 1793208715,
     "GH": 1793210352,
     "LRN": 1793204636,
-    "BBT": 1793204788,
+    "BBT": 1793210462,
     "PDI": 1793201151,
     "ACN": 1793201197
   },
-  "last_publish_ts": 1793210400,
-  "last_check_ts": 1793210400,
+  "last_publish_ts": 1793210462,
+  "last_check_ts": 1793210508,
   "exp_arm": {
     "PDI": {
       "params": {
@@ -3936,15 +3978,11 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "08604bab": 30.1852,
-    "bf6f81af": 425.876,
     "9227c430": 14.1008,
-    "b48c26c6": 426.998,
     "8be0f78a": 14.1836,
-    "bbab3dc4": 245.5014,
     "92000bc0": 78.8105,
+    "bbab3dc4": 245.5014,
     "c38f7dca": 79.9853,
-    "20b64615": 30.4721,
     "b7761069": 241.5426
   }
 }

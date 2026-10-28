@@ -7089,7 +7089,7 @@
    "ticker": "BBT",
    "kind": "take_profit",
    "price": 30.4721,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:13",
    "created_ts": 1793207586,
    "why": "close 100% at +0.3% over the average cost",
@@ -7099,14 +7099,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 14:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "08604bab",
    "ticker": "BBT",
    "kind": "stop_loss",
    "price": 30.1852,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 13:13",
    "created_ts": 1793207586,
    "why": "close it all at -0.7% under the average cost",
@@ -7116,7 +7118,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 14:01"
   },
   {
    "id": "ad6e506c",
@@ -7271,7 +7274,7 @@
    "ticker": "ADI",
    "kind": "take_profit",
    "price": 426.998,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 13:41",
    "created_ts": 1793209280,
    "why": "close 100% at +0.4% over the average cost",
@@ -7281,7 +7284,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 14:01",
+   "cancel_reason": "position closed"
   },
   {
    "id": "9aaa1007",
@@ -7472,7 +7477,7 @@
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 425.876,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 13:54",
    "created_ts": 1793210076,
    "why": "close it all at -0.9% under the average cost",
@@ -7482,8 +7487,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 14:01"
   }
  ],
- "updated": "2026-10-28 14:00"
+ "updated": "2026-10-28 14:01"
 }

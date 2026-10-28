@@ -50387,3 +50387,8 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25336.40 (+1.35% on $25000.00 in) · cash $21594.14 · realised +344.14
 Decision: nothing at this check. 10 standing order(s) working.
+  (cancelled 1 standing order(s) on BBT: position closed)
+- SELL 100% BBT [stop_loss @ $30.14] -> $743.94 (-0.81%) — close it all at -0.7% under the average cost
+  (cancelled 1 standing order(s) on ADI: position closed)
+- SELL 100% ADI [stop_loss @ $424.86] -> $749.07 (-0.12%) — close it all at -0.9% under the average cost
+## 2026-10-28 14:01 ET — tick — 2 sell(s), 0 buy(s) from standing orders
