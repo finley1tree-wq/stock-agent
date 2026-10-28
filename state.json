@@ -1,6 +1,6 @@
 {
   "week": "2026-W44",
-  "spent": 4494.75,
+  "spent": 3745.17,
   "deployed": 126000.0,
   "by_ticker": {
     "WSM": 34.51,
@@ -11,7 +11,7 @@
     "BBT": 768.34,
     "GH": 0.14,
     "OLN": 1.36,
-    "NXPI": 758.45,
+    "NXPI": 8.87,
     "PDI": 750.0,
     "ADI": 750.0,
     "ACN": 750.0
@@ -3773,13 +3773,34 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 3.041873,
+      "status": "filled",
+      "price": 246.42,
+      "proceeds": 749.58,
+      "realized_pnl": -0.42,
+      "realized_pct": -0.06,
+      "date": "2026-10-28",
+      "time_et": "13:45",
+      "ts": 1793209500,
+      "why": "close it all at -1.1% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $246.56",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-28",
-  "spent_today": 4494.75,
+  "spent_today": 3745.17,
   "deployed_today": 52500.0,
   "orders_today": 37,
-  "sells_today": 31,
+  "sells_today": 32,
   "sold_today": [
     "EL",
     "CACI",
@@ -3796,7 +3817,7 @@
   ],
   "sold_ts": {
     "ADI": 1793206486,
-    "NXPI": 1793201333,
+    "NXPI": 1793209560,
     "FITB": 1793209278,
     "CACI": 1793208393,
     "WSM": 1793208912,
@@ -3810,8 +3831,8 @@
     "PDI": 1793201151,
     "ACN": 1793201197
   },
-  "last_publish_ts": 1793209464,
-  "last_check_ts": 1793209464,
+  "last_publish_ts": 1793209559,
+  "last_check_ts": 1793209559,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -3868,28 +3889,25 @@
       }
     }
   },
-  "last_bar_ts": 1793209200,
+  "last_bar_ts": 1793209500,
   "last_decision_ts": 1793209464,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "6a16a6e3": 247.034,
     "9227c430": 14.1008,
-    "046d0618": 247.6276,
     "b48c26c6": 426.998,
     "20b64615": 30.4721,
-    "bbab3dc4": 245.5014,
     "8be0f78a": 14.1836,
+    "bbab3dc4": 245.5014,
     "08604bab": 30.1852,
     "92000bc0": 78.8105,
     "c38f7dca": 79.9853,
     "9aaa1007": 421.3701,
     "b7761069": 241.5426,
-    "9ab63dcd": 13.7352,
     "15678323": 77.2605,
+    "9ab63dcd": 13.7352,
     "ad6e506c": 29.4783,
-    "90b87812": 237.0389,
     "1df538de": 412.6283,
-    "d9f72310": 239.1632
+    "90b87812": 237.0389
   }
 }

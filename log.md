@@ -50307,3 +50307,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 ACN @ $237.04 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25337.23 (+1.35% on $25000.00 in) · cash $20840.78 · realised +340.78
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20505.25 this week
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $246.42] -> $749.58 (-0.06%) — close it all at -1.1% under the average cost
+## 2026-10-28 13:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
