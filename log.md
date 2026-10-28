@@ -49833,3 +49833,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 portfolio: equity $25330.03 (+1.32% on $25000.00 in) · cash $22328.30 · realised +328.30
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on LRN: position closed)
+- SELL 100% LRN [stop_loss @ $79.94] -> $750.90 (+0.12%) — close it all at -1.0% under the average cost
+## 2026-10-28 12:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -7289,7 +7289,7 @@
    "ticker": "LRN",
    "kind": "take_profit",
    "price": 80.1753,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 11:31",
    "created_ts": 1793201468,
    "why": "close 100% at +0.4% over the average cost",
@@ -7299,7 +7299,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 12:23",
+   "cancel_reason": "position closed"
   },
   {
    "id": "131ae583",
@@ -7325,7 +7327,7 @@
    "ticker": "LRN",
    "kind": "buy_limit",
    "price": 77.4448,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 11:31",
    "created_ts": 1793201468,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7335,7 +7337,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 12:23",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ab277b97",
@@ -7466,7 +7470,7 @@
    "ticker": "LRN",
    "kind": "stop_loss",
    "price": 79.978,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 12:18",
    "created_ts": 1793204308,
    "why": "close it all at -1.0% under the average cost",
@@ -7476,8 +7480,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 12:23"
   }
  ],
- "updated": "2026-10-28 12:22"
+ "updated": "2026-10-28 12:23"
 }
