@@ -48950,3 +48950,23 @@ Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $1026.37 this week
   (cancelled 2 standing order(s) on GH: position closed)
 - SELL 100% GH [take_profit @ $181.05] -> $3014.76 (+0.49%) — close 100% at +0.5% over the average cost
 ## 2026-10-28 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $251.44] -> $3013.60 (+0.45%) — close 100% at +0.3% over the average cost
+## 2026-10-28 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-28 09:41 ET (Wednesday) — week 2026-W44 — budget left $7054.73 (today $30000.00 put to work, 10 buys, 4 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUjP8yBdsXLhF7jYaytz'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $7,055 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +1.8% over the month; 50% of today's range
+~ WORKING take_profit 100% NXPI @ $241.97 until 2026-11-02 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $238.23 until 2026-11-02 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $233.67 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25306.49 (+1.23% on $25000.00 in) · cash $4380.61 · realised +380.61
+Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $4054.73 this week

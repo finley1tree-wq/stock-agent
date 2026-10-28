@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "70deb62c",
-   "ticker": "FITB",
-   "kind": "take_profit",
-   "price": 53.2522,
-   "status": "cancelled",
-   "created": "2026-10-22 13:00",
-   "created_ts": 1792688411,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $53.13",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 14:29",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "c71f503e",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 52.825,
-   "status": "filled",
-   "created": "2026-10-22 13:00",
-   "created_ts": 1792688411,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $53.13",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-22 14:29"
-  },
-  {
-   "id": "27cfe2a5",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 51.5361,
-   "status": "cancelled",
-   "created": "2026-10-22 13:00",
-   "created_ts": 1792688411,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $53.13",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-27",
-   "usd": 500.0,
-   "closed": "2026-10-22 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "7e203341",
    "ticker": "NXPI",
    "kind": "take_profit",
@@ -7329,7 +7273,7 @@
    "ticker": "WSM",
    "kind": "take_profit",
    "price": 250.9933,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-28 09:35",
    "created_ts": 1793194515,
    "why": "close 100% at +0.3% over the average cost",
@@ -7339,7 +7283,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 09:40"
   },
   {
    "id": "fcbbdf85",
@@ -7365,7 +7310,7 @@
    "ticker": "WSM",
    "kind": "buy_limit",
    "price": 242.8007,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 09:35",
    "created_ts": 1793194515,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7375,14 +7320,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-28 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "402f6903",
    "ticker": "WSM",
    "kind": "stop_loss",
    "price": 251.18,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-28 09:36",
    "created_ts": 1793194613,
    "why": "close it all at -0.7% under the average cost",
@@ -7392,7 +7339,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-02",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-28 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "838d10c4",
@@ -7463,7 +7412,58 @@
    ],
    "good_until": "2026-11-02",
    "usd": 500.0
+  },
+  {
+   "id": "cb21490d",
+   "ticker": "NXPI",
+   "kind": "take_profit",
+   "price": 241.9672,
+   "status": "working",
+   "created": "2026-10-28 09:41",
+   "created_ts": 1793194894,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $240.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3ff517f2",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 238.2308,
+   "status": "working",
+   "created": "2026-10-28 09:41",
+   "created_ts": 1793194894,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $240.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8ba7bad8",
+   "ticker": "NXPI",
+   "kind": "buy_limit",
+   "price": 233.673,
+   "status": "working",
+   "created": "2026-10-28 09:41",
+   "created_ts": 1793194894,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $240.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-02",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-28 09:39"
+ "updated": "2026-10-28 09:41"
 }

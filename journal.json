@@ -80354,7 +80354,7 @@
     "code_version": "cdcc17c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": -0.2
   },
   {
     "symbol": "GH",
@@ -80385,7 +80385,9 @@
     "code_version": "cdcc17c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.18
+    "ret_now": 0.49,
+    "ret_final": 0.49,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -80416,7 +80418,7 @@
     "code_version": "cdcc17c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": -0.65
   },
   {
     "symbol": "LRN",
@@ -80447,7 +80449,7 @@
     "code_version": "cdcc17c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.3
+    "ret_now": -0.5
   },
   {
     "symbol": "PDI",
@@ -80478,7 +80480,7 @@
     "code_version": "cdcc17c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": -0.28
   },
   {
     "symbol": "CACI",
@@ -80542,7 +80544,7 @@
     "code_version": "cdcc17c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.12
+    "ret_now": -0.06
   },
   {
     "symbol": "EL",
@@ -80600,7 +80602,9 @@
     "code_version": "613cef7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.73
+    "ret_now": 0.45,
+    "ret_final": 0.45,
+    "ret_src": "realised"
   },
   {
     "symbol": "CACI",
@@ -80657,7 +80661,8 @@
     "hour_et": 9,
     "code_version": "b6fd386",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.45
   },
   {
     "symbol": "GH",
@@ -80683,6 +80688,64 @@
     "evidence": "average cost $180.16",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "8d65a09"
+    "code_version": "8d65a09",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 11.985134,
+    "status": "filled",
+    "price": 251.44,
+    "proceeds": 3013.6,
+    "realized_pnl": 13.6,
+    "realized_pct": 0.45,
+    "date": "2026-10-28",
+    "time_et": "09:40",
+    "ts": 1793194800,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $250.31",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "17856f9",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "NXPI",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 12.45349,
+    "price": 240.9,
+    "date": "2026-10-28",
+    "time_et": "09:41",
+    "ts": 1793194894,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +1.8% over the month; 50% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 240.8,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 1.83,
+    "hour_et": 9,
+    "code_version": "17856f9",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
