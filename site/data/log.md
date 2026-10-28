@@ -1,23 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25323.78 (+1.30% on $25000.00 in) · cash $24574.85 · realised +324.85
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% CACI [time stop] -> $747.82 (-0.29%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-27 14:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-27 14:52 ET (Tuesday) — week 2026-W44 — budget left $24996.80 (today $39000.00 put to work, 28 buys, 28 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ASIC excluded: too thinly traded ($1.9M a day) — Ategrity Specialty Insurance Co)
-  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
-  (INM excluded: too thinly traded ($1.2M a day) — InMed Pharmaceuticals Inc.)
-  (KIO excluded: too thinly traded ($2.1M a day) — KKR Income Opportunities Fund)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgTFGRXsb8xik3Livg5Qa'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25322.68 (+1.29% on $25000.00 in) · cash $25322.68 · realised +322.68
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +378,23 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 OLN @ $15.96 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25313.68 (+1.25% on $25000.00 in) · cash $1322.68 · realised +322.68
 Done: 0 sell(s), 8 buy(s); 24 order(s) working; budget left $996.80 this week
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $107.55] -> $3012.53 (+0.42%) — close 100% at +0.4% over the average cost
+## 2026-10-28 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-28 09:35 ET (Wednesday) — week 2026-W44 — budget left $4009.33 (today $24000.00 put to work, 8 buys, 1 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (DAIO excluded: too thinly traded ($0.1M a day) — Data I/O Corporation)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUiuMQW6ry7mtTqThEZP'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $4,009 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +8.8% over the month; 0% of today's range
+~ WORKING take_profit 100% WSM @ $250.99 until 2026-11-02 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $248.60 until 2026-11-02 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $242.80 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25308.87 (+1.24% on $25000.00 in) · cash $1335.21 · realised +335.21
+Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $1009.33 this week

@@ -80320,7 +80320,10 @@
     "hour_et": 9,
     "code_version": "cdcc17c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.42,
+    "ret_now": 0.42,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -80350,7 +80353,8 @@
     "hour_et": 9,
     "code_version": "cdcc17c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.04
   },
   {
     "symbol": "GH",
@@ -80380,7 +80384,8 @@
     "hour_et": 9,
     "code_version": "cdcc17c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.01
   },
   {
     "symbol": "ADI",
@@ -80410,7 +80415,8 @@
     "hour_et": 9,
     "code_version": "cdcc17c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.01
   },
   {
     "symbol": "LRN",
@@ -80440,7 +80446,8 @@
     "hour_et": 9,
     "code_version": "cdcc17c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.66
   },
   {
     "symbol": "PDI",
@@ -80470,7 +80477,8 @@
     "hour_et": 9,
     "code_version": "cdcc17c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.07
   },
   {
     "symbol": "CACI",
@@ -80500,7 +80508,8 @@
     "hour_et": 9,
     "code_version": "cdcc17c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.15
   },
   {
     "symbol": "OLN",
@@ -80529,6 +80538,64 @@
     "momentum_1m_at_entry": 6.55,
     "hour_et": 9,
     "code_version": "cdcc17c",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.12
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 28.010466,
+    "status": "filled",
+    "price": 107.55,
+    "proceeds": 3012.53,
+    "realized_pnl": 12.53,
+    "realized_pct": 0.42,
+    "date": "2026-10-28",
+    "time_et": "09:35",
+    "ts": 1793194500,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $107.1",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "613cef7",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "WSM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 11.985134,
+    "price": 250.31,
+    "date": "2026-10-28",
+    "time_et": "09:35",
+    "ts": 1793194515,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +8.8% over the month; 0% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 250.21,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 8.81,
+    "hour_et": 9,
+    "code_version": "613cef7",
     "ret_1w": null,
     "ret_1m": null
   }
