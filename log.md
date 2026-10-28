@@ -50045,3 +50045,32 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 portfolio: equity $25335.53 (+1.34% on $25000.00 in) · cash $25335.53 · realised +335.53
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-28 13:00 ET (Wednesday) — week 2026-W44 — budget left $25000.00 (today $44250.00 put to work, 26 buys, 26 sells) — SIM (pretend money) via sim
+  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
+  (LEO excluded: too thinly traded ($1.4M a day) — BNY Mellon Strategic Municipals, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgUza6xvZaS9HVwB2zUhL'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 4: FITB, CACI, WSM, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +4.8% over the month; 32% of today's range
+- BUY $750.00 CACI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +8.2% over the month; 37% of today's range
+- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +9.2% over the month; 71% of today's range
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +4.2% over the month; 78% of today's range
+~ WORKING take_profit 100% FITB @ $53.55 until 2026-11-02 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% FITB @ $53.13 until 2026-11-02 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $51.83 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CACI @ $660.52 until 2026-11-02 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CACI @ $652.70 until 2026-11-02 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CACI @ $638.54 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% WSM @ $252.05 until 2026-11-02 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $249.57 until 2026-11-02 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $243.80 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NXPI @ $247.63 until 2026-11-02 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $243.89 until 2026-11-02 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $239.16 until 2026-11-02 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25334.33 (+1.34% on $25000.00 in) · cash $22335.53 · realised +335.53
+Done: 0 sell(s), 4 buy(s); 12 order(s) working; budget left $22000.00 this week
