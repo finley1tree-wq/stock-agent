@@ -1,10 +1,10 @@
 {
   "week": "2026-W44",
-  "spent": 5239.9,
+  "spent": 4493.39,
   "deployed": 179250.0,
   "by_ticker": {
     "WSM": 1.22,
-    "FITB": 782.67,
+    "FITB": 36.16,
     "CRBG": 5.2,
     "GPI": 10.32,
     "LRN": 39.66,
@@ -5389,13 +5389,33 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "FITB",
+      "side": "sell",
+      "qty": 13.768597,
+      "status": "filled",
+      "price": 54.22,
+      "proceeds": 746.51,
+      "realized_pnl": -3.49,
+      "realized_pct": -0.47,
+      "date": "2026-10-29",
+      "time_et": "13:45",
+      "ts": 1793295935,
+      "why": "held 120 min, the 120-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 120 min ago, -0.43% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-29",
-  "spent_today": 5239.9,
+  "spent_today": 4493.39,
   "deployed_today": 52500.0,
   "orders_today": 37,
-  "sells_today": 30,
+  "sells_today": 31,
   "sold_today": [
     "NXPI",
     "GH",
@@ -5413,7 +5433,7 @@
   "sold_ts": {
     "ADI": 1793287827,
     "NXPI": 1793289451,
-    "FITB": 1793284875,
+    "FITB": 1793295935,
     "CACI": 1793292651,
     "WSM": 1793294314,
     "CRBG": 1793287827,
@@ -5428,8 +5448,8 @@
     "RPM": 1793284535,
     "TFC": 1793293415
   },
-  "last_publish_ts": 1793295656,
-  "last_check_ts": 1793295840,
+  "last_publish_ts": 1793295935,
+  "last_check_ts": 1793295935,
   "exp_arm": {
     "FITB": {
       "params": {
@@ -5495,12 +5515,11 @@
       }
     }
   },
-  "last_bar_ts": 1793295600,
+  "last_bar_ts": 1793295900,
   "last_decision_ts": 1793295840,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "175f332b": 54.1552,
     "0d24a5bf": 30.5887,
     "11d0ba1d": 102.4426,
     "d045aa1b": 16.1188,
@@ -5508,14 +5527,12 @@
     "44f75a6f": 185.8422,
     "0bc7acbd": 430.4754,
     "44b92202": 101.524,
-    "a445fa1d": 54.5958,
     "a684ac65": 30.8844,
-    "3c31aa05": 670.3301,
     "701b69c7": 424.8957,
+    "3c31aa05": 670.3301,
     "13814409": 16.3445,
     "997c33e7": 182.5123,
     "d45fdeb3": 15.7916,
-    "41029c16": 52.8359,
     "ced47d87": 29.876,
     "3e88fbfa": 416.0136,
     "88a5ee44": 655.6424,
