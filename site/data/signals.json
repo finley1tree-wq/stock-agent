@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-29T12:05-04:00",
- "note": "tick: watching",
+ "asOf": "2026-10-29T12:10-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,57 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "9da335bf",
-   "ticker": "OLN",
-   "kind": "stop_loss",
-   "price": 16.394,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 16.41,
-   "pct_away": -0.1,
-   "good_until": "2026-11-03",
-   "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b3467788",
-   "ticker": "OLN",
-   "kind": "take_profit",
-   "price": 16.4337,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 16.41,
-   "pct_away": 0.14,
-   "good_until": "2026-11-03",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0377d896",
-   "ticker": "TFC",
-   "kind": "stop_loss",
-   "price": 49.1009,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 49.28,
-   "pct_away": -0.36,
-   "good_until": "2026-11-03",
-   "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "ff2f9c1b",
    "ticker": "TFC",
    "kind": "take_profit",
@@ -236,8 +185,42 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 49.28,
-   "pct_away": 0.37,
+   "last": 49.33,
+   "pct_away": 0.27,
+   "good_until": "2026-11-03",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a7baec3a",
+   "ticker": "CACI",
+   "kind": "take_profit",
+   "price": 677.2643,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 675.34,
+   "pct_away": 0.28,
+   "good_until": "2026-11-03",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a445fa1d",
+   "ticker": "FITB",
+   "kind": "take_profit",
+   "price": 54.5958,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 54.43,
+   "pct_away": 0.3,
    "good_until": "2026-11-03",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -263,51 +246,17 @@
    ]
   },
   {
-   "id": "a445fa1d",
-   "ticker": "FITB",
-   "kind": "take_profit",
-   "price": 54.5958,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 54.38,
-   "pct_away": 0.4,
-   "good_until": "2026-11-03",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "175f332b",
-   "ticker": "FITB",
+   "id": "0377d896",
+   "ticker": "TFC",
    "kind": "stop_loss",
-   "price": 54.1552,
+   "price": 49.1009,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 54.38,
-   "pct_away": -0.41,
+   "last": 49.33,
+   "pct_away": -0.46,
    "good_until": "2026-11-03",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a7baec3a",
-   "ticker": "CACI",
-   "kind": "take_profit",
-   "price": 677.2643,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 674.4,
-   "pct_away": 0.42,
-   "good_until": "2026-11-03",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close it all at -0.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -321,10 +270,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 109.39,
-   "pct_away": 0.48,
+   "last": 109.37,
+   "pct_away": 0.5,
    "good_until": "2026-11-03",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "175f332b",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 54.1552,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 54.43,
+   "pct_away": -0.5,
+   "good_until": "2026-11-03",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -348,23 +314,6 @@
    ]
   },
   {
-   "id": "4452db10",
-   "ticker": "CACI",
-   "kind": "stop_loss",
-   "price": 669.4408,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 674.4,
-   "pct_away": -0.74,
-   "good_until": "2026-11-03",
-   "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "90d86db5",
    "ticker": "EL",
    "kind": "stop_loss",
@@ -372,8 +321,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 109.39,
-   "pct_away": -0.76,
+   "last": 109.37,
+   "pct_away": -0.74,
    "good_until": "2026-11-03",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -382,34 +331,17 @@
    ]
   },
   {
-   "id": "a7161777",
-   "ticker": "TFC",
-   "kind": "buy_limit",
-   "price": 47.8792,
-   "usd": 500.0,
-   "pct_of_position": null,
+   "id": "4452db10",
+   "ticker": "CACI",
+   "kind": "stop_loss",
+   "price": 669.4408,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 49.28,
-   "pct_away": -2.84,
+   "last": 675.34,
+   "pct_away": -0.87,
    "good_until": "2026-11-03",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "41029c16",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 52.8359,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 54.38,
-   "pct_away": -2.84,
-   "good_until": "2026-11-03",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -423,25 +355,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 109.39,
-   "pct_away": -2.88,
-   "good_until": "2026-11-03",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "926fbd62",
-   "ticker": "CACI",
-   "kind": "buy_limit",
-   "price": 654.7791,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 674.4,
-   "pct_away": -2.91,
+   "last": 109.37,
+   "pct_away": -2.86,
    "good_until": "2026-11-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -467,15 +382,49 @@
    ]
   },
   {
-   "id": "1fdc0e7e",
-   "ticker": "OLN",
+   "id": "41029c16",
+   "ticker": "FITB",
    "kind": "buy_limit",
-   "price": 15.8789,
+   "price": 52.8359,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 16.41,
-   "pct_away": -3.24,
+   "last": 54.43,
+   "pct_away": -2.93,
+   "good_until": "2026-11-03",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a7161777",
+   "ticker": "TFC",
+   "kind": "buy_limit",
+   "price": 47.8792,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 49.33,
+   "pct_away": -2.94,
+   "good_until": "2026-11-03",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "926fbd62",
+   "ticker": "CACI",
+   "kind": "buy_limit",
+   "price": 654.7791,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 675.34,
+   "pct_away": -3.04,
    "good_until": "2026-11-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
