@@ -51801,3 +51801,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $251.37 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25404.75 (+1.62% on $25000.00 in) · cash $21656.41 · realised +406.41
 Done: 0 sell(s), 3 buy(s); 15 order(s) working; budget left $21259.70 this week
+
+## 2026-10-29 11:45 ET (Thursday) — week 2026-W44 — budget left $21259.70 (today $46500.00 put to work, 29 buys, 24 sells) — SIM (pretend money) via sim
+  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWnfetZbT36UBVPXgMhV'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $21,260 idle, so opened 1: FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +7.7% over the month; 68% of today's range
+~ WORKING take_profit 100% FITB @ $54.60 until 2026-11-03 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% FITB @ $54.16 until 2026-11-03 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $52.84 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25402.93 (+1.61% on $25000.00 in) · cash $20906.41 · realised +406.41
+Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20509.70 this week
