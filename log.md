@@ -52888,3 +52888,5 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25385.80 (+1.54% on $25000.00 in) · cash $23138.85 · realised +388.85
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% GH [time stop] -> $747.29 (-0.36%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-29 15:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
