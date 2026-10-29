@@ -1,6 +1,6 @@
 {
   "week": "2026-W44",
-  "spent": 5919.29,
+  "spent": 2911.24,
   "deployed": 159750.0,
   "by_ticker": {
     "WSM": 5.82,
@@ -8,7 +8,7 @@
     "CRBG": 5.47,
     "GPI": 10.32,
     "LRN": 39.66,
-    "BBT": 3024.4,
+    "BBT": 16.35,
     "NXPI": 15.55,
     "PDI": 3.28,
     "ACN": 2.57,
@@ -4371,13 +4371,34 @@
       ],
       "evidence": "average cost $676.18",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "BBT",
+      "side": "sell",
+      "qty": 97.210606,
+      "status": "filled",
+      "price": 30.94,
+      "proceeds": 3008.05,
+      "realized_pnl": 8.05,
+      "realized_pct": 0.27,
+      "date": "2026-10-29",
+      "time_et": "09:50",
+      "ts": 1793281500,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $30.86",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-29",
-  "spent_today": 5906.76,
+  "spent_today": 2898.71,
   "deployed_today": 33000.0,
   "orders_today": 11,
-  "sells_today": 9,
+  "sells_today": 10,
   "sold_today": [
     "NXPI",
     "GH",
@@ -4387,7 +4408,8 @@
     "ADI",
     "OLN",
     "CRBG",
-    "CACI"
+    "CACI",
+    "BBT"
   ],
   "sold_ts": {
     "ADI": 1793281056,
@@ -4401,13 +4423,13 @@
     "OLN": 1793281233,
     "GH": 1793280930,
     "LRN": 1793211732,
-    "BBT": 1793210462,
+    "BBT": 1793281816,
     "PDI": 1793210945,
     "ACN": 1793216684,
     "RPM": 1793280976
   },
-  "last_publish_ts": 1793281638,
-  "last_check_ts": 1793281773,
+  "last_publish_ts": 1793281815,
+  "last_check_ts": 1793281861,
   "exp_arm": {
     "EL": {
       "params": {
@@ -4437,16 +4459,13 @@
       }
     }
   },
-  "last_bar_ts": 1793281500,
+  "last_bar_ts": 1793281800,
   "last_decision_ts": 1793281773,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "0beeda94": 30.9436,
-    "e1cb8ec2": 30.896,
     "91ff687d": 109.5034,
     "cf4aef0e": 110.8422,
-    "bfcdf115": 107.1462,
-    "04cc58ce": 29.9342
+    "bfcdf115": 107.1462
   }
 }

@@ -1,20 +1,3 @@
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgVAVZmzrSvsnsLaKPncH'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25320.70 (+1.28% on $25000.00 in) · cash $24575.58 · realised +325.58
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-28 15:13 ET (Wednesday) — week 2026-W44 — budget left $24240.04 (today $53250.00 put to work, 38 buys, 37 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-  (NXTC excluded: too thinly traded ($1.0M a day) — NextCure, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgVAjAvTtYC9ApdsmprfY'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25320.27 (+1.28% on $25000.00 in) · cash $24575.58 · realised +325.58
@@ -398,3 +381,20 @@ Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 2 standing order(s) on CACI: position closed)
 - SELL 100% CACI [take_profit @ $678.42] -> $3009.93 (+0.33%) — close 100% at +0.3% over the average cost
 ## 2026-10-29 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-29 09:49 ET (Thursday) — week 2026-W44 — budget left $19080.71 (today $33000.00 put to work, 11 buys, 9 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWdoRNsyyjQRa2VjGjem'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25402.65 (+1.61% on $25000.00 in) · cash $19416.25 · realised +416.25
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on BBT: position closed)
+- SELL 100% BBT [take_profit @ $30.94] -> $3008.05 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-10-29 09:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
