@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "579b374a",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 108.73,
-   "status": "cancelled",
-   "created": "2026-10-26 11:11",
-   "created_ts": 1793027504,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $108.61",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-26 11:31",
-   "cancel_reason": "another standing order on the same ticker filled first"
-  },
-  {
    "id": "b6dcb42f",
    "ticker": "FITB",
    "kind": "take_profit",
@@ -7139,7 +7120,7 @@
    "ticker": "CACI",
    "kind": "stop_loss",
    "price": 669.4408,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-29 11:33",
    "created_ts": 1793288010,
    "why": "close it all at -0.8% under the average cost",
@@ -7149,7 +7130,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-29 12:46",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "926fbd62",
@@ -7470,7 +7453,24 @@
    "good_until": "2026-11-03",
    "pct_of_position": 100.0,
    "closed": "2026-10-29 12:10"
+  },
+  {
+   "id": "b8349938",
+   "ticker": "CACI",
+   "kind": "stop_loss",
+   "price": 675.804,
+   "status": "working",
+   "created": "2026-10-29 12:46",
+   "created_ts": 1793292380,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $675.03",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-29 12:44"
+ "updated": "2026-10-29 12:46"
 }
