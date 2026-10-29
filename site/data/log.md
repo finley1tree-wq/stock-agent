@@ -1,6 +1,3 @@
-## 2026-10-29 10:43 ET (Thursday) — week 2026-W44 — budget left $19754.98 (today $41250.00 put to work, 22 buys, 15 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
   (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25402.93 (+1.61% on $25000.00 in) · cash $20156.41 · realised +406.41
 Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [take_profit @ $259.19] -> $753.20 (+0.43%) — close 100% at +0.4% over the average cost
+## 2026-10-29 11:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders

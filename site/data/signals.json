@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-29T11:56-04:00",
- "note": "tick: watching",
+ "asOf": "2026-10-29T11:57-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,34 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "6e9f1d2a",
-   "ticker": "NXPI",
+   "id": "a7baec3a",
+   "ticker": "CACI",
    "kind": "take_profit",
-   "price": 259.1946,
+   "price": 677.2643,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.14,
-   "pct_away": 0.02,
+   "last": 675.91,
+   "pct_away": 0.2,
    "good_until": "2026-11-03",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f1198c8e",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 258.72,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 259.14,
-   "pct_away": -0.16,
-   "good_until": "2026-11-03",
-   "why": "close it all at -1.1% under the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -229,40 +212,6 @@
    ]
   },
   {
-   "id": "14783a63",
-   "ticker": "WSM",
-   "kind": "take_profit",
-   "price": 259.8967,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 259.12,
-   "pct_away": 0.3,
-   "good_until": "2026-11-03",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a7baec3a",
-   "ticker": "CACI",
-   "kind": "take_profit",
-   "price": 677.2643,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 675.11,
-   "pct_away": 0.32,
-   "good_until": "2026-11-03",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "175f332b",
    "ticker": "FITB",
    "kind": "stop_loss",
@@ -270,27 +219,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 54.34,
-   "pct_away": -0.34,
+   "last": 54.31,
+   "pct_away": -0.29,
    "good_until": "2026-11-03",
    "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ed75f73b",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 109.9177,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 109.5,
-   "pct_away": 0.38,
-   "good_until": "2026-11-03",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -304,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 16.37,
-   "pct_away": 0.39,
+   "last": 16.38,
+   "pct_away": 0.33,
    "good_until": "2026-11-03",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -314,17 +246,34 @@
    ]
   },
   {
-   "id": "a445fa1d",
-   "ticker": "FITB",
+   "id": "14783a63",
+   "ticker": "WSM",
    "kind": "take_profit",
-   "price": 54.5958,
+   "price": 259.8967,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 54.34,
-   "pct_away": 0.47,
+   "last": 258.9,
+   "pct_away": 0.38,
    "good_until": "2026-11-03",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ed75f73b",
+   "ticker": "EL",
+   "kind": "take_profit",
+   "price": 109.9177,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 109.46,
+   "pct_away": 0.42,
+   "good_until": "2026-11-03",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -348,6 +297,23 @@
    ]
   },
   {
+   "id": "a445fa1d",
+   "ticker": "FITB",
+   "kind": "take_profit",
+   "price": 54.5958,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 54.31,
+   "pct_away": 0.53,
+   "good_until": "2026-11-03",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "37671ad0",
    "ticker": "WSM",
    "kind": "stop_loss",
@@ -355,27 +321,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.12,
-   "pct_away": -0.72,
+   "last": 258.9,
+   "pct_away": -0.64,
    "good_until": "2026-11-03",
    "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4452db10",
-   "ticker": "CACI",
-   "kind": "stop_loss",
-   "price": 669.4408,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 675.11,
-   "pct_away": -0.84,
-   "good_until": "2026-11-03",
-   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -389,10 +338,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 109.5,
-   "pct_away": -0.86,
+   "last": 109.46,
+   "pct_away": -0.82,
    "good_until": "2026-11-03",
    "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "4452db10",
+   "ticker": "CACI",
+   "kind": "stop_loss",
+   "price": 669.4408,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 675.91,
+   "pct_away": -0.96,
+   "good_until": "2026-11-03",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -406,10 +372,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 16.37,
-   "pct_away": -0.97,
+   "last": 16.38,
+   "pct_away": -1.03,
    "good_until": "2026-11-03",
    "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "41029c16",
+   "ticker": "FITB",
+   "kind": "buy_limit",
+   "price": 52.8359,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 54.31,
+   "pct_away": -2.71,
+   "good_until": "2026-11-03",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -433,15 +416,15 @@
    ]
   },
   {
-   "id": "41029c16",
-   "ticker": "FITB",
+   "id": "54f08a92",
+   "ticker": "WSM",
    "kind": "buy_limit",
-   "price": 52.8359,
+   "price": 251.3658,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 54.34,
-   "pct_away": -2.77,
+   "last": 258.9,
+   "pct_away": -2.91,
    "good_until": "2026-11-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -457,25 +440,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 109.5,
-   "pct_away": -2.97,
-   "good_until": "2026-11-03",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "54f08a92",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 251.3658,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 259.12,
-   "pct_away": -2.99,
+   "last": 109.46,
+   "pct_away": -2.94,
    "good_until": "2026-11-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -491,8 +457,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 16.37,
-   "pct_away": -3.0,
+   "last": 16.38,
+   "pct_away": -3.06,
    "good_until": "2026-11-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -508,25 +474,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 675.11,
-   "pct_away": -3.01,
-   "good_until": "2026-11-03",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "2a128eaa",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 250.3473,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 259.14,
-   "pct_away": -3.39,
+   "last": 675.91,
+   "pct_away": -3.13,
    "good_until": "2026-11-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

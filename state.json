@@ -1,6 +1,6 @@
 {
   "week": "2026-W44",
-  "spent": 5240.3,
+  "spent": 4487.1,
   "deployed": 174750.0,
   "by_ticker": {
     "WSM": 753.4,
@@ -9,7 +9,7 @@
     "GPI": 10.32,
     "LRN": 39.66,
     "BBT": 21.85,
-    "NXPI": 765.04,
+    "NXPI": 11.84,
     "PDI": 3.28,
     "ACN": 2.57,
     "EL": 777.43,
@@ -5130,13 +5130,34 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 2.905927,
+      "status": "filled",
+      "price": 259.19,
+      "proceeds": 753.2,
+      "realized_pnl": 3.2,
+      "realized_pct": 0.43,
+      "date": "2026-10-29",
+      "time_et": "11:57",
+      "ts": 1793289300,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $258.09",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-29",
-  "spent_today": 5240.3,
+  "spent_today": 4487.1,
   "deployed_today": 48000.0,
   "orders_today": 31,
-  "sells_today": 24,
+  "sells_today": 25,
   "sold_today": [
     "NXPI",
     "GH",
@@ -5153,7 +5174,7 @@
   ],
   "sold_ts": {
     "ADI": 1793287827,
-    "NXPI": 1793285138,
+    "NXPI": 1793289451,
     "FITB": 1793284875,
     "CACI": 1793285184,
     "WSM": 1793285184,
@@ -5169,8 +5190,8 @@
     "RPM": 1793284535,
     "TFC": 1793285184
   },
-  "last_publish_ts": 1793289408,
-  "last_check_ts": 1793289408,
+  "last_publish_ts": 1793289449,
+  "last_check_ts": 1793289498,
   "exp_arm": {
     "TFC": {
       "params": {
@@ -5237,30 +5258,27 @@
     }
   },
   "last_bar_ts": 1793289300,
-  "last_decision_ts": 1793289309,
+  "last_decision_ts": 1793289498,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "6e9f1d2a": 259.1946,
-    "f1198c8e": 258.72,
-    "0377d896": 49.1009,
-    "14783a63": 259.8967,
     "a7baec3a": 677.2643,
+    "0377d896": 49.1009,
     "175f332b": 54.1552,
-    "ed75f73b": 109.9177,
     "b3467788": 16.4337,
-    "a445fa1d": 54.5958,
+    "14783a63": 259.8967,
+    "ed75f73b": 109.9177,
     "ff2f9c1b": 49.4637,
+    "a445fa1d": 54.5958,
     "37671ad0": 257.2483,
-    "4452db10": 669.4408,
     "90d86db5": 108.5618,
+    "4452db10": 669.4408,
     "dd9047eb": 16.2107,
-    "a7161777": 47.8792,
     "41029c16": 52.8359,
-    "7c543104": 106.2441,
+    "a7161777": 47.8792,
     "54f08a92": 251.3658,
+    "7c543104": 106.2441,
     "1fdc0e7e": 15.8789,
-    "926fbd62": 654.7791,
-    "2a128eaa": 250.3473
+    "926fbd62": 654.7791
   }
 }
