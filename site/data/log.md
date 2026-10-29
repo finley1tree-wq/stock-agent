@@ -1,13 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,057 idle, so opened 2: BBT, OLN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 BBT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +10.1% over the month; 0% of today's range
-- BUY $3000.00 OLN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +7.6% over the month; 83% of today's range
-~ WORKING take_profit 100% BBT @ $30.94 until 2026-11-03 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% BBT @ $30.65 until 2026-11-03 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 BBT @ $29.93 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% OLN @ $16.75 until 2026-11-03 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% OLN @ $16.54 until 2026-11-03 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 OLN @ $16.19 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25388.75 (+1.55% on $25000.00 in) · cash $13392.50 · realised +392.50
 Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $13056.96 this week
   (cancelled 2 standing order(s) on OLN: position closed)
@@ -398,3 +388,13 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25404.75 (+1.62% on $25000.00 in) · cash $20151.69 · realised +401.69
 Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $253.25] -> $750.51 (+0.07%) — close it all at -1.1% under the average cost
+## 2026-10-29 10:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on TFC: position closed)
+- SELL 100% TFC [stop_loss @ $49.36] -> $750.01 (+0.00%) — close it all at -0.5% under the average cost
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $257.33] -> $752.42 (+0.32%) — close 100% at +0.3% over the average cost
+  (cancelled 2 standing order(s) on CACI: position closed)
+- SELL 100% CACI [take_profit @ $672.84] -> $752.87 (+0.38%) — close 100% at +0.3% over the average cost
+## 2026-10-29 10:46 ET — tick — 3 sell(s), 0 buy(s) from standing orders
