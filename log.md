@@ -52304,3 +52304,17 @@ Decision: nothing at this check. 15 standing order(s) working.
   (cancelled 2 standing order(s) on WSM: position closed)
 - SELL 100% WSM [take_profit @ $259.90] -> $752.18 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-10-29 13:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-29 13:20 ET (Thursday) — week 2026-W44 — budget left $22010.10 (today $50250.00 put to work, 34 buys, 30 sells) — SIM (pretend money) via sim
+  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWurckwN5zmzbmRmaDh4'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25397.34 (+1.59% on $25000.00 in) · cash $22406.83 · realised +406.83
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
