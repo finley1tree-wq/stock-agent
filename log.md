@@ -51368,3 +51368,22 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 CRBG @ $34.49 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25393.66 (+1.57% on $25000.00 in) · cash $20146.72 · realised +396.72
 Done: 0 sell(s), 2 buy(s); 21 order(s) working; budget left $19750.00 this week
+
+## 2026-10-29 10:30 ET (Thursday) — week 2026-W44 — budget left $19750.00 (today $38250.00 put to work, 18 buys, 11 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (cancelled 2 standing order(s) on GH: position closed)
+- SELL 100% GH [stop_loss @ $183.42] -> $750.88 (+0.12%) — close it all at -1.3% under the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWguHe4FwtEVk922Myve'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $20,501 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +6.5% over the month; 71% of today's range
+~ WORKING take_profit 100% NXPI @ $254.15 until 2026-11-03 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $250.41 until 2026-11-03 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $245.49 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25393.07 (+1.57% on $25000.00 in) · cash $20147.60 · realised +397.60
+Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 21 order(s) working; budget left $19750.88 this week

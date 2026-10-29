@@ -1,7 +1,7 @@
 {
   "week": "2026-W44",
-  "spent": 5250.0,
-  "deployed": 165000.0,
+  "spent": 5249.12,
+  "deployed": 165750.0,
   "by_ticker": {
     "WSM": 755.82,
     "FITB": 784.39,
@@ -9,11 +9,10 @@
     "GPI": 10.32,
     "LRN": 39.66,
     "BBT": 16.35,
-    "NXPI": 15.55,
+    "NXPI": 765.55,
     "PDI": 3.28,
     "ACN": 2.57,
     "EL": 27.58,
-    "GH": 750.0,
     "ADI": 750.0,
     "RPM": 750.0,
     "OLN": 750.0
@@ -23,7 +22,7 @@
     "FITB": 18000.0,
     "ADI": 16500.0,
     "CACI": 18000.0,
-    "NXPI": 18000.0,
+    "NXPI": 18750.0,
     "WSM": 19500.0,
     "CRBG": 8250.0,
     "OLN": 13500.0,
@@ -4571,13 +4570,56 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "GH",
+      "side": "sell",
+      "qty": 4.093814,
+      "status": "filled",
+      "price": 183.42,
+      "proceeds": 750.88,
+      "realized_pnl": 0.88,
+      "realized_pct": 0.12,
+      "date": "2026-10-29",
+      "time_et": "10:30",
+      "ts": 1793284207,
+      "why": "close it all at -1.3% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $183.2",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.963476,
+      "price": 253.08,
+      "date": "2026-10-29",
+      "time_et": "10:30",
+      "ts": 1793284207,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +6.5% over the month; 71% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-29",
-  "spent_today": 5250.0,
-  "deployed_today": 38250.0,
-  "orders_today": 18,
-  "sells_today": 11,
+  "spent_today": 5249.12,
+  "deployed_today": 39000.0,
+  "orders_today": 19,
+  "sells_today": 12,
   "sold_today": [
     "NXPI",
     "GH",
@@ -4601,26 +4643,17 @@
     "EL": 1793282029,
     "GPI": 1793121696,
     "OLN": 1793281233,
-    "GH": 1793280930,
+    "GH": 1793284218,
     "LRN": 1793211732,
     "BBT": 1793281816,
     "PDI": 1793210945,
     "ACN": 1793216684,
     "RPM": 1793280976
   },
-  "last_publish_ts": 1793284029,
-  "last_check_ts": 1793284124,
+  "last_publish_ts": 1793284207,
+  "last_check_ts": 1793284207,
   "exp_arm": {
     "FITB": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "GH": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -4673,33 +4706,42 @@
       "tags": {
         "hold_long": 120
       }
+    },
+    "NXPI": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
     }
   },
-  "last_bar_ts": 1793283900,
-  "last_decision_ts": 1793284029,
+  "last_bar_ts": 1793284200,
+  "last_decision_ts": 1793284207,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "6fd7088c": 183.632,
     "5813e1fa": 54.416,
-    "7768fadc": 35.6713,
-    "f3c73cfa": 184.149,
     "84b83856": 101.444,
-    "b4ca2a02": 254.6635,
     "f0a7ae0a": 427.6936,
     "381b4b9c": 16.4832,
-    "0c63ae42": 100.5545,
     "77574032": 257.2336,
-    "96bd62fd": 53.9751,
     "aa4e6891": 35.2816,
+    "245835b8": 254.148,
+    "0c63ae42": 100.5545,
+    "b4ca2a02": 254.6635,
+    "96bd62fd": 53.9751,
+    "7768fadc": 35.6713,
     "bd74d853": 422.1117,
     "2ef54ef5": 16.262,
+    "bf27bfc8": 250.4125,
+    "54e295d7": 34.4932,
     "17d18aa4": 248.805,
     "ed5c9efa": 98.1543,
-    "7b1ae2da": 413.317,
-    "d05a19b3": 15.9274,
-    "54e295d7": 34.4932,
+    "c0b10a02": 245.4876,
     "766bfcf9": 52.6613,
-    "52bf692c": 177.704
+    "d05a19b3": 15.9274,
+    "7b1ae2da": 413.317
   }
 }
