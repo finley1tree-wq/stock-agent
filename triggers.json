@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "75ff9155",
-   "ticker": "CACI",
-   "kind": "buy_limit",
-   "price": 649.512,
-   "status": "cancelled",
-   "created": "2026-10-26 13:16",
-   "created_ts": 1793034971,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $669.6",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "usd": 500.0,
-   "closed": "2026-10-26 13:30",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "a845852f",
    "ticker": "EL",
    "kind": "stop_loss",
@@ -7382,7 +7363,7 @@
    "ticker": "TFC",
    "kind": "stop_loss",
    "price": 48.9109,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-29 13:50",
    "created_ts": 1793296200,
    "why": "close it all at -0.5% under the average cost",
@@ -7392,7 +7373,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-29 14:59",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "d86255e4",
@@ -7483,7 +7466,24 @@
    "good_until": "2026-11-03",
    "pct_of_position": 100.0,
    "closed": "2026-10-29 14:26"
+  },
+  {
+   "id": "cc609169",
+   "ticker": "TFC",
+   "kind": "stop_loss",
+   "price": 49.206,
+   "status": "working",
+   "created": "2026-10-29 14:59",
+   "created_ts": 1793300342,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $49.17",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-29 14:58"
+ "updated": "2026-10-29 14:59"
 }
