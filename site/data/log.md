@@ -1,5 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $20,510 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +8.6% over the month; 84% of today's range
 ~ WORKING take_profit 100% NXPI @ $259.19 until 2026-11-03 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% NXPI @ $255.33 until 2026-11-03 — close it all at -1.1% under the average cost
@@ -398,3 +396,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 OLN @ $15.79 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25403.01 (+1.61% on $25000.00 in) · cash $20158.37 · realised +408.37
 Done: 0 sell(s), 3 buy(s); 21 order(s) working; budget left $19761.65 this week
+- SELL 100% TFC [time stop] -> $748.79 (-0.16%) — held 90 min, the 90-minute limit: out regardless
+## 2026-10-29 13:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
