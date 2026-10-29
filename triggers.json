@@ -1,119 +1,6 @@
 {
  "orders": [
   {
-   "id": "ccf91c8b",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 98.0648,
-   "status": "cancelled",
-   "created": "2026-10-23 13:58",
-   "created_ts": 1792778335,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $98.78",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 15:22",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "13d3d734",
-   "ticker": "RPM",
-   "kind": "buy_limit",
-   "price": 95.8166,
-   "status": "cancelled",
-   "created": "2026-10-23 13:58",
-   "created_ts": 1792778335,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $98.78",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "usd": 500.0,
-   "closed": "2026-10-23 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "2c56bfbe",
-   "ticker": "CLF",
-   "kind": "stop_loss",
-   "price": 13.92,
-   "status": "filled",
-   "created": "2026-10-23 14:18",
-   "created_ts": 1792779511,
-   "why": "close it all at -1.8% under the average cost",
-   "evidence": "average cost $13.89",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 14:21"
-  },
-  {
-   "id": "f9222558",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 237.458,
-   "status": "cancelled",
-   "created": "2026-10-23 14:42",
-   "created_ts": 1792780973,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $237.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 14:44",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "61019695",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 98.87,
-   "status": "cancelled",
-   "created": "2026-10-23 15:22",
-   "created_ts": 1792783326,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $98.78",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 15:28",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "201103cd",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 108.5716,
-   "status": "cancelled",
-   "created": "2026-10-26 09:32",
-   "created_ts": 1793021576,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $108.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-26 10:12",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "529f03db",
    "ticker": "EL",
    "kind": "stop_loss",
@@ -7470,7 +7357,109 @@
    ],
    "good_until": "2026-11-03",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "381b4b9c",
+   "ticker": "OLN",
+   "kind": "take_profit",
+   "price": 16.4832,
+   "status": "working",
+   "created": "2026-10-29 10:27",
+   "created_ts": 1793284029,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $16.42",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2ef54ef5",
+   "ticker": "OLN",
+   "kind": "stop_loss",
+   "price": 16.262,
+   "status": "working",
+   "created": "2026-10-29 10:27",
+   "created_ts": 1793284029,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $16.42",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "d05a19b3",
+   "ticker": "OLN",
+   "kind": "buy_limit",
+   "price": 15.9274,
+   "status": "working",
+   "created": "2026-10-29 10:27",
+   "created_ts": 1793284029,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $16.42",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "usd": 500.0
+  },
+  {
+   "id": "7768fadc",
+   "ticker": "CRBG",
+   "kind": "take_profit",
+   "price": 35.6713,
+   "status": "working",
+   "created": "2026-10-29 10:27",
+   "created_ts": 1793284029,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $35.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "aa4e6891",
+   "ticker": "CRBG",
+   "kind": "stop_loss",
+   "price": 35.2816,
+   "status": "working",
+   "created": "2026-10-29 10:27",
+   "created_ts": 1793284029,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $35.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "54e295d7",
+   "ticker": "CRBG",
+   "kind": "buy_limit",
+   "price": 34.4932,
+   "status": "working",
+   "created": "2026-10-29 10:27",
+   "created_ts": 1793284029,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $35.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-29 10:25"
+ "updated": "2026-10-29 10:27"
 }
