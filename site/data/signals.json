@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-29T09:50-04:00",
+ "asOf": "2026-10-29T09:53-04:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -176,59 +176,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "91ff687d",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 109.5034,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 109.88,
-   "pct_away": -0.34,
-   "good_until": "2026-11-03",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "cf4aef0e",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 110.8422,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 109.88,
-   "pct_away": 0.88,
-   "good_until": "2026-11-03",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "bfcdf115",
-   "ticker": "EL",
-   "kind": "buy_limit",
-   "price": 107.1462,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 109.88,
-   "pct_away": -2.49,
-   "good_until": "2026-11-03",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,071 idle, so opened 1: CACI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "congress_trades": [
