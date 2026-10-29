@@ -1,6 +1,6 @@
 {
   "week": "2026-W44",
-  "spent": 4500.45,
+  "spent": 3009.46,
   "deployed": 180750.0,
   "by_ticker": {
     "WSM": 1.22,
@@ -8,7 +8,7 @@
     "CRBG": 5.2,
     "GPI": 10.32,
     "LRN": 39.66,
-    "BBT": 771.85,
+    "BBT": 27.48,
     "NXPI": 11.84,
     "PDI": 3.28,
     "ACN": 2.57,
@@ -16,7 +16,7 @@
     "TFC": 751.21,
     "CACI": 0.22,
     "OLN": 8.09,
-    "ADI": 750.0,
+    "ADI": 3.38,
     "RPM": 750.0,
     "GH": 750.0
   },
@@ -5495,13 +5495,53 @@
       ],
       "evidence": "average cost $675.92",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "BBT",
+      "side": "sell",
+      "qty": 24.350041,
+      "status": "filled",
+      "price": 30.57,
+      "proceeds": 744.37,
+      "realized_pnl": -5.63,
+      "realized_pct": -0.75,
+      "date": "2026-10-29",
+      "time_et": "14:32",
+      "ts": 1793298757,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.65% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.748758,
+      "status": "filled",
+      "price": 426.94,
+      "proceeds": 746.62,
+      "realized_pnl": -3.38,
+      "realized_pct": -0.45,
+      "date": "2026-10-29",
+      "time_et": "14:32",
+      "ts": 1793298757,
+      "why": "held 90 min, the 90-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 90 min ago, -0.43% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-10-29",
-  "spent_today": 4500.45,
+  "spent_today": 3009.46,
   "deployed_today": 54000.0,
   "orders_today": 39,
-  "sells_today": 33,
+  "sells_today": 35,
   "sold_today": [
     "NXPI",
     "GH",
@@ -5517,7 +5557,7 @@
     "TFC"
   ],
   "sold_ts": {
-    "ADI": 1793287827,
+    "ADI": 1793298758,
     "NXPI": 1793289451,
     "FITB": 1793295935,
     "CACI": 1793298396,
@@ -5528,14 +5568,14 @@
     "OLN": 1793296337,
     "GH": 1793284218,
     "LRN": 1793211732,
-    "BBT": 1793288290,
+    "BBT": 1793298758,
     "PDI": 1793210945,
     "ACN": 1793216684,
     "RPM": 1793284535,
     "TFC": 1793293415
   },
-  "last_publish_ts": 1793298395,
-  "last_check_ts": 1793298672,
+  "last_publish_ts": 1793298757,
+  "last_check_ts": 1793298760,
   "exp_arm": {
     "BBT": {
       "params": {
@@ -5602,20 +5642,16 @@
     }
   },
   "last_bar_ts": 1793298600,
-  "last_decision_ts": 1793298584,
+  "last_decision_ts": 1793298760,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "0d24a5bf": 30.5887,
     "44b92202": 101.524,
-    "72e398c9": 109.5776,
     "da4fcc34": 48.9109,
-    "44f75a6f": 185.8422,
+    "72e398c9": 109.5776,
     "2a7fa00a": 49.2737,
-    "701b69c7": 424.8957,
+    "44f75a6f": 185.8422,
     "11d0ba1d": 102.4426,
-    "a684ac65": 30.8844,
-    "0bc7acbd": 430.4754,
     "92354146": 108.2215,
     "997c33e7": 182.5123
   }

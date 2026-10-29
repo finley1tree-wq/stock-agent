@@ -84352,7 +84352,9 @@
     "code_version": "b0e0737",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.49
+    "ret_now": -0.75,
+    "ret_final": -0.75,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -84383,7 +84385,9 @@
     "code_version": "b0e0737",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.32
+    "ret_now": -0.45,
+    "ret_final": -0.45,
+    "ret_src": "realised"
   },
   {
     "symbol": "OLN",
@@ -84526,7 +84530,7 @@
     "code_version": "21874ae",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.28
+    "ret_now": -0.38
   },
   {
     "symbol": "CACI",
@@ -84590,7 +84594,7 @@
     "code_version": "d09f551",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": 0.01
   },
   {
     "symbol": "FITB",
@@ -84647,7 +84651,7 @@
     "code_version": "177462e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": -0.22
   },
   {
     "symbol": "OLN",
@@ -84705,7 +84709,7 @@
     "code_version": "9f3cd0a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16
+    "ret_now": 0.1
   },
   {
     "symbol": "CACI",
@@ -84733,5 +84737,57 @@
     "hour_et": 14,
     "code_version": "c049c0c",
     "hold_minutes": 47
+  },
+  {
+    "symbol": "BBT",
+    "side": "sell",
+    "qty": 24.350041,
+    "status": "filled",
+    "price": 30.57,
+    "proceeds": 744.37,
+    "realized_pnl": -5.63,
+    "realized_pct": -0.75,
+    "date": "2026-10-29",
+    "time_et": "14:32",
+    "ts": 1793298757,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "insider",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.65% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14,
+    "code_version": "ff41d87",
+    "hold_minutes": 89
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 1.748758,
+    "status": "filled",
+    "price": 426.94,
+    "proceeds": 746.62,
+    "realized_pnl": -3.38,
+    "realized_pct": -0.45,
+    "date": "2026-10-29",
+    "time_et": "14:32",
+    "ts": 1793298757,
+    "why": "held 90 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 90 min ago, -0.43% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14,
+    "code_version": "ff41d87",
+    "hold_minutes": 89
   }
 ]

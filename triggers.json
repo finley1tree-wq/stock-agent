@@ -7013,7 +7013,7 @@
    "ticker": "BBT",
    "kind": "take_profit",
    "price": 30.8844,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-29 13:02",
    "created_ts": 1793293361,
    "why": "close 100% at +0.3% over the average cost",
@@ -7023,14 +7023,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-29 14:32",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "0d24a5bf",
    "ticker": "BBT",
    "kind": "stop_loss",
    "price": 30.5887,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-29 13:02",
    "created_ts": 1793293361,
    "why": "close it all at -0.7% under the average cost",
@@ -7040,7 +7042,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-29 14:32",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "ced47d87",
@@ -7066,7 +7070,7 @@
    "ticker": "ADI",
    "kind": "take_profit",
    "price": 430.4754,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-29 13:02",
    "created_ts": 1793293361,
    "why": "close 100% at +0.4% over the average cost",
@@ -7076,14 +7080,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-29 14:32",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "701b69c7",
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 424.8957,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-29 13:02",
    "created_ts": 1793293361,
    "why": "close it all at -0.9% under the average cost",
@@ -7093,7 +7099,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-29 14:32",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "3e88fbfa",
@@ -7477,5 +7485,5 @@
    "closed": "2026-10-29 14:26"
   }
  ],
- "updated": "2026-10-29 14:29"
+ "updated": "2026-10-29 14:32"
 }
