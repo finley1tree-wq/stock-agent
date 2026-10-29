@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-29T09:40-04:00",
- "note": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)",
+ "asOf": "2026-10-29T09:43-04:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,071 idle, so opened 1: CACI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "bd0bff02",
+   "ticker": "BBT",
+   "kind": "stop_loss",
+   "price": 30.6505,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 30.74,
+   "pct_away": -0.29,
+   "good_until": "2026-11-03",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0d76393a",
+   "ticker": "CACI",
+   "kind": "take_profit",
+   "price": 678.4182,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 675.91,
+   "pct_away": 0.37,
+   "good_until": "2026-11-03",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "91ff687d",
    "ticker": "EL",
    "kind": "stop_loss",
@@ -185,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 109.84,
-   "pct_away": -0.31,
+   "last": 109.95,
+   "pct_away": -0.41,
    "good_until": "2026-11-03",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -202,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 30.84,
-   "pct_away": 0.34,
+   "last": 30.74,
+   "pct_away": 0.66,
    "good_until": "2026-11-03",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -212,17 +246,17 @@
    ]
   },
   {
-   "id": "bd0bff02",
-   "ticker": "BBT",
+   "id": "cc778261",
+   "ticker": "CACI",
    "kind": "stop_loss",
-   "price": 30.6505,
+   "price": 670.588,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 30.84,
-   "pct_away": -0.61,
+   "last": 675.91,
+   "pct_away": -0.79,
    "good_until": "2026-11-03",
-   "why": "close it all at -0.7% under the average cost",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 109.84,
-   "pct_away": 0.91,
+   "last": 109.95,
+   "pct_away": 0.81,
    "good_until": "2026-11-03",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -253,8 +287,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 109.84,
-   "pct_away": -2.45,
+   "last": 109.95,
+   "pct_away": -2.55,
    "good_until": "2026-11-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -270,8 +304,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 30.84,
-   "pct_away": -2.94,
+   "last": 30.74,
+   "pct_away": -2.62,
+   "good_until": "2026-11-03",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "65ebf9ca",
+   "ticker": "CACI",
+   "kind": "buy_limit",
+   "price": 655.8946,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 675.91,
+   "pct_away": -2.96,
    "good_until": "2026-11-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -280,8 +331,8 @@
    ]
   }
  ],
- "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)",
- "next_check_minutes": null,
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,071 idle, so opened 1: CACI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "next_check_minutes": 6,
  "allowed": [
   "AAPL",
   "ADI",
@@ -350,7 +401,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 396,
+  "decisions_graded": 395,
   "decisions_with_buys_graded": 51,
   "independent_days_graded": 4,
   "avg_regret_pct": -0.57,
@@ -451,7 +502,7 @@
     "n": 1
    }
   },
-  "idle_checks": 341,
+  "idle_checks": 340,
   "blocked_checks": 0,
   "idle_share": 0.85,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1987,5 +2038,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-10-29T09:40-04:00"
+ "signalsAsOf": "2026-10-29T09:43-04:00"
 }

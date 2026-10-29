@@ -51106,3 +51106,20 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25387.35 (+1.55% on $25000.00 in) · cash $19406.32 · realised +406.32
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 6 order(s) working; budget left $19070.78 this week
+
+## 2026-10-29 09:43 ET (Thursday) — week 2026-W44 — budget left $19070.78 (today $30000.00 put to work, 10 buys, 8 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWdLya8mswDfBxZvqvUD'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,071 idle, so opened 1: CACI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CACI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +11.0% over the month; 30% of today's range
+~ WORKING take_profit 100% CACI @ $678.42 until 2026-11-03 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CACI @ $670.59 until 2026-11-03 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CACI @ $655.89 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25379.41 (+1.52% on $25000.00 in) · cash $16406.32 · realised +406.32
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $16070.78 this week
