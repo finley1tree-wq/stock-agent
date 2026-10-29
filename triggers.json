@@ -1,172 +1,6 @@
 {
  "orders": [
   {
-   "id": "d32f6934",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 53.2708,
-   "status": "filled",
-   "created": "2026-10-26 10:24",
-   "created_ts": 1793024662,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $53.58",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-26 10:45"
-  },
-  {
-   "id": "077a19c6",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 51.9726,
-   "status": "cancelled",
-   "created": "2026-10-26 10:24",
-   "created_ts": 1793024662,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $53.58",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "usd": 500.0,
-   "closed": "2026-10-26 10:45",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "f0a45183",
-   "ticker": "ADI",
-   "kind": "stop_loss",
-   "price": 397.658,
-   "status": "filled",
-   "created": "2026-10-26 10:26",
-   "created_ts": 1793024774,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $396.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-26 10:30"
-  },
-  {
-   "id": "6bde3d28",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 242.786,
-   "status": "filled",
-   "created": "2026-10-26 10:28",
-   "created_ts": 1793024909,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $242.48",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-26 10:31"
-  },
-  {
-   "id": "237cc3e5",
-   "ticker": "WSM",
-   "kind": "take_profit",
-   "price": 251.3543,
-   "status": "cancelled",
-   "created": "2026-10-26 10:33",
-   "created_ts": 1793025210,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $250.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-26 10:47",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "e69b45d3",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 248.8179,
-   "status": "filled",
-   "created": "2026-10-26 10:33",
-   "created_ts": 1793025210,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $250.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-26 10:47"
-  },
-  {
-   "id": "333c6d21",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 243.1111,
-   "status": "cancelled",
-   "created": "2026-10-26 10:33",
-   "created_ts": 1793025210,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $250.63",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "usd": 500.0,
-   "closed": "2026-10-26 10:47",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "d14de8e5",
-   "ticker": "CACI",
-   "kind": "take_profit",
-   "price": 668.6788,
-   "status": "filled",
-   "created": "2026-10-26 10:33",
-   "created_ts": 1793025210,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $666.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-26 10:37"
-  },
-  {
-   "id": "4b794ca5",
-   "ticker": "CACI",
-   "kind": "stop_loss",
-   "price": 660.4231,
-   "status": "cancelled",
-   "created": "2026-10-26 10:33",
-   "created_ts": 1793025210,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $666.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-26 10:34",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "623f42fe",
    "ticker": "CACI",
    "kind": "buy_limit",
@@ -7483,7 +7317,160 @@
    ],
    "good_until": "2026-11-03",
    "usd": 500.0
+  },
+  {
+   "id": "ed75f73b",
+   "ticker": "EL",
+   "kind": "take_profit",
+   "price": 109.9177,
+   "status": "working",
+   "created": "2026-10-29 11:42",
+   "created_ts": 1793288564,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $109.53",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "90d86db5",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 108.5618,
+   "status": "working",
+   "created": "2026-10-29 11:42",
+   "created_ts": 1793288564,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $109.53",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7c543104",
+   "ticker": "EL",
+   "kind": "buy_limit",
+   "price": 106.2441,
+   "status": "working",
+   "created": "2026-10-29 11:42",
+   "created_ts": 1793288564,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $109.53",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "usd": 500.0
+  },
+  {
+   "id": "b3467788",
+   "ticker": "OLN",
+   "kind": "take_profit",
+   "price": 16.4337,
+   "status": "working",
+   "created": "2026-10-29 11:42",
+   "created_ts": 1793288564,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $16.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "dd9047eb",
+   "ticker": "OLN",
+   "kind": "stop_loss",
+   "price": 16.2107,
+   "status": "working",
+   "created": "2026-10-29 11:42",
+   "created_ts": 1793288564,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $16.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1fdc0e7e",
+   "ticker": "OLN",
+   "kind": "buy_limit",
+   "price": 15.8789,
+   "status": "working",
+   "created": "2026-10-29 11:42",
+   "created_ts": 1793288564,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $16.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "usd": 500.0
+  },
+  {
+   "id": "14783a63",
+   "ticker": "WSM",
+   "kind": "take_profit",
+   "price": 259.8967,
+   "status": "working",
+   "created": "2026-10-29 11:42",
+   "created_ts": 1793288564,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $259.14",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "37671ad0",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 257.2483,
+   "status": "working",
+   "created": "2026-10-29 11:42",
+   "created_ts": 1793288564,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $259.14",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "54f08a92",
+   "ticker": "WSM",
+   "kind": "buy_limit",
+   "price": 251.3658,
+   "status": "working",
+   "created": "2026-10-29 11:42",
+   "created_ts": 1793288564,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $259.14",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-29 11:39"
+ "updated": "2026-10-29 11:42"
 }
