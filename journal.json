@@ -84013,7 +84013,7 @@
     "code_version": "6d446a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.16
+    "ret_now": -0.14
   },
   {
     "symbol": "CACI",
@@ -84044,7 +84044,9 @@
     "code_version": "6d446a2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.23
+    "ret_now": -0.11,
+    "ret_final": -0.11,
+    "ret_src": "realised"
   },
   {
     "symbol": "BBT",
@@ -84102,7 +84104,7 @@
     "code_version": "24d47f5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.65
+    "ret_now": -0.58
   },
   {
     "symbol": "OLN",
@@ -84166,7 +84168,7 @@
     "code_version": "24d47f5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.08
+    "ret_now": -0.04
   },
   {
     "symbol": "FITB",
@@ -84197,7 +84199,7 @@
     "code_version": "a551e24",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02
+    "ret_now": 0.0
   },
   {
     "symbol": "NXPI",
@@ -84285,5 +84287,32 @@
     "hour_et": 12,
     "code_version": "26023f4",
     "hold_minutes": 27
+  },
+  {
+    "symbol": "CACI",
+    "side": "sell",
+    "qty": 1.111062,
+    "status": "filled",
+    "price": 674.31,
+    "proceeds": 749.2,
+    "realized_pnl": -0.8,
+    "realized_pct": -0.11,
+    "date": "2026-10-29",
+    "time_et": "12:50",
+    "ts": 1793292643,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $675.03",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "033358a",
+    "hold_minutes": 77
   }
 ]
