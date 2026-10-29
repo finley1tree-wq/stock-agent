@@ -1,49 +1,4 @@
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgV8C4TBg54AdpGd45PB2'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25324.26 (+1.30% on $25000.00 in) · cash $24575.58 · realised +325.58
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-28 14:42 ET (Wednesday) — week 2026-W44 — budget left $24240.04 (today $53250.00 put to work, 38 buys, 37 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-  (NXTC excluded: too thinly traded ($1.0M a day) — NextCure, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgV8N4qYKgy5xih9RzgJo'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25325.15 (+1.30% on $25000.00 in) · cash $24575.58 · realised +325.58
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-28 14:46 ET (Wednesday) — week 2026-W44 — budget left $24240.04 (today $53250.00 put to work, 38 buys, 37 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-  (NXTC excluded: too thinly traded ($1.0M a day) — NextCure, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgV8cH6cKqTGZzDwEd6Jb'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25323.34 (+1.29% on $25000.00 in) · cash $24575.58 · realised +325.58
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-28 14:49 ET (Wednesday) — week 2026-W44 — budget left $24240.04 (today $53250.00 put to work, 38 buys, 37 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-  (NXTC excluded: too thinly traded ($1.0M a day) — NextCure, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgV8r5qb25Z4R2U9X9hcq'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
@@ -398,3 +353,48 @@ portfolio: equity $25323.01 (+1.29% on $25000.00 in) · cash $25323.01 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-28 16:00 ET — published the session's closing state
+
+## 2026-10-29 09:32 ET (Thursday) — week 2026-W44 — budget left $24987.47 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWcZKvTXwnD1TGXsA3Vw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,987 idle, so opened 8: EL, ADI, GH, WSM, FITB, RPM, NXPI, CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +19.0% over the month; 4% of today's range
+- BUY $3000.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +7.3% over the month; 7% of today's range
+- BUY $3000.00 GH [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Jonathan L. Jackson), $15,001 - $50,000; +1.5% over the month; 40% of today's range
+- BUY $3000.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +11.4% over the month; 0% of today's range
+- BUY $3000.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +7.8% over the month; 73% of today's range
+- BUY $3000.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +2.0% over the month; 72% of today's range
+- BUY $3000.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +4.5% over the month; 13% of today's range
+- BUY $3000.00 CRBG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: insider net buying (Form 4); +8.4% over the month; 69% of today's range
+~ WORKING take_profit 100% EL @ $110.84 until 2026-11-03 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% EL @ $109.50 until 2026-11-03 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 EL @ $107.15 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ADI @ $427.18 until 2026-11-03 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% ADI @ $421.65 until 2026-11-03 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $412.83 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GH @ $182.01 until 2026-11-03 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% GH @ $178.70 until 2026-11-03 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 GH @ $175.63 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% WSM @ $254.67 until 2026-11-03 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $252.12 until 2026-11-03 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $246.32 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FITB @ $54.65 until 2026-11-03 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% FITB @ $54.21 until 2026-11-03 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $52.88 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RPM @ $100.90 until 2026-11-03 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% RPM @ $100.03 until 2026-11-03 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 RPM @ $97.63 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NXPI @ $249.42 until 2026-11-03 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $245.83 until 2026-11-03 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $240.94 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRBG @ $36.01 until 2026-11-03 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CRBG @ $35.62 until 2026-11-03 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CRBG @ $34.82 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25314.01 (+1.26% on $25000.00 in) · cash $1323.01 · realised +323.01
+Done: 0 sell(s), 8 buy(s); 24 order(s) working; budget left $987.47 this week
