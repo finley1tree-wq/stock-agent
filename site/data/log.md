@@ -1,20 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWda45N8sXK1k9RxjUxV'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25396.74 (+1.59% on $25000.00 in) · cash $16406.32 · realised +406.32
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on CACI: position closed)
-- SELL 100% CACI [take_profit @ $678.42] -> $3009.93 (+0.33%) — close 100% at +0.3% over the average cost
-## 2026-10-29 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-29 09:49 ET (Thursday) — week 2026-W44 — budget left $19080.71 (today $33000.00 put to work, 11 buys, 9 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWdoRNsyyjQRa2VjGjem'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 BBT @ $30.16 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25406.97 (+1.63% on $25000.00 in) · cash $22407.50 · realised +407.50
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $22010.79 this week
+
+## 2026-10-29 10:55 ET (Thursday) — week 2026-W44 — budget left $22010.79 (today $42000.00 put to work, 23 buys, 19 sells) — SIM (pretend money) via sim
+  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [stop_loss @ $109.29] -> $750.15 (+0.02%) — close it all at -0.9% under the average cost
+  (cancelled 2 standing order(s) on OLN: position closed)
+- SELL 100% OLN [stop_loss @ $16.43] -> $750.70 (+0.09%) — close it all at -1.0% under the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWioEZqn2V8Wad5Hy22Z'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25405.94 (+1.62% on $25000.00 in) · cash $23908.34 · realised +408.34
+Done: 2 sell(s), 0 buy(s) (incl. 2 from standing orders); 6 order(s) working; budget left $23511.64 this week
