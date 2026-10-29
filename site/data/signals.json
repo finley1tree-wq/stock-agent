@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-29T10:41-04:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-10-29T10:43-04:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "2e2f43ba",
+   "ticker": "TFC",
+   "kind": "stop_loss",
+   "price": 49.396,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 49.42,
+   "pct_away": -0.05,
+   "good_until": "2026-11-03",
+   "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "3747f4b0",
    "ticker": "CACI",
    "kind": "stop_loss",
@@ -185,27 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 671.45,
-   "pct_away": -0.07,
+   "last": 671.49,
+   "pct_away": -0.08,
    "good_until": "2026-11-03",
    "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d47b9bc8",
-   "ticker": "CACI",
-   "kind": "take_profit",
-   "price": 672.5087,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 671.45,
-   "pct_away": 0.16,
-   "good_until": "2026-11-03",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,10 +219,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 49.36,
-   "pct_away": 0.21,
+   "last": 49.42,
+   "pct_away": 0.09,
    "good_until": "2026-11-03",
    "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d47b9bc8",
+   "ticker": "CACI",
+   "kind": "take_profit",
+   "price": 672.5087,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 671.49,
+   "pct_away": 0.15,
+   "good_until": "2026-11-03",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,27 +253,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 256.53,
-   "pct_away": 0.27,
+   "last": 256.79,
+   "pct_away": 0.17,
    "good_until": "2026-11-03",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "7c2e086b",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 109.6468,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 109.22,
-   "pct_away": 0.39,
-   "good_until": "2026-11-03",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 253.01,
-   "pct_away": 0.45,
+   "last": 253.37,
+   "pct_away": 0.31,
    "good_until": "2026-11-03",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -287,8 +287,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 16.4,
-   "pct_away": 0.51,
+   "last": 16.43,
+   "pct_away": 0.32,
    "good_until": "2026-11-03",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -297,34 +297,17 @@
    ]
   },
   {
-   "id": "6efda2b5",
-   "ticker": "TFC",
-   "kind": "stop_loss",
-   "price": 49.1009,
+   "id": "7c2e086b",
+   "ticker": "EL",
+   "kind": "take_profit",
+   "price": 109.6468,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 49.36,
-   "pct_away": -0.52,
+   "last": 109.23,
+   "pct_away": 0.38,
    "good_until": "2026-11-03",
-   "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "aa4e6891",
-   "ticker": "CRBG",
-   "kind": "stop_loss",
-   "price": 35.2816,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 35.47,
-   "pct_away": -0.53,
-   "good_until": "2026-11-03",
-   "why": "close it all at -0.8% under the average cost",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -338,10 +321,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 35.47,
-   "pct_away": 0.57,
+   "last": 35.5,
+   "pct_away": 0.48,
    "good_until": "2026-11-03",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "aa4e6891",
+   "ticker": "CRBG",
+   "kind": "stop_loss",
+   "price": 35.2816,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 35.5,
+   "pct_away": -0.62,
+   "good_until": "2026-11-03",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -355,27 +355,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 256.53,
-   "pct_away": -0.73,
+   "last": 256.79,
+   "pct_away": -0.83,
    "good_until": "2026-11-03",
    "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "2ef54ef5",
-   "ticker": "OLN",
-   "kind": "stop_loss",
-   "price": 16.262,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 16.4,
-   "pct_away": -0.84,
-   "good_until": "2026-11-03",
-   "why": "close it all at -1.0% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -389,10 +372,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 109.22,
-   "pct_away": -0.85,
+   "last": 109.23,
+   "pct_away": -0.86,
    "good_until": "2026-11-03",
    "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "2ef54ef5",
+   "ticker": "OLN",
+   "kind": "stop_loss",
+   "price": 16.262,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 16.43,
+   "pct_away": -1.02,
+   "good_until": "2026-11-03",
+   "why": "close it all at -1.0% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -406,8 +406,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 253.01,
-   "pct_away": -1.03,
+   "last": 253.37,
+   "pct_away": -1.17,
    "good_until": "2026-11-03",
    "why": "close it all at -1.1% under the average cost",
    "signals": [
@@ -423,25 +423,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 35.47,
-   "pct_away": -2.75,
-   "good_until": "2026-11-03",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d05a19b3",
-   "ticker": "OLN",
-   "kind": "buy_limit",
-   "price": 15.9274,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 16.4,
-   "pct_away": -2.88,
+   "last": 35.5,
+   "pct_away": -2.84,
    "good_until": "2026-11-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -457,24 +440,7 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 109.22,
-   "pct_away": -2.96,
-   "good_until": "2026-11-03",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c0b10a02",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 245.4876,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 253.01,
+   "last": 109.23,
    "pct_away": -2.97,
    "good_until": "2026-11-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -484,15 +450,15 @@
    ]
   },
   {
-   "id": "e0918e0b",
-   "ticker": "TFC",
+   "id": "d05a19b3",
+   "ticker": "OLN",
    "kind": "buy_limit",
-   "price": 47.8792,
+   "price": 15.9274,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 49.36,
-   "pct_away": -3.0,
+   "last": 16.43,
+   "pct_away": -3.06,
    "good_until": "2026-11-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -508,8 +474,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 256.53,
-   "pct_away": -3.01,
+   "last": 256.79,
+   "pct_away": -3.11,
+   "good_until": "2026-11-03",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c0b10a02",
+   "ticker": "NXPI",
+   "kind": "buy_limit",
+   "price": 245.4876,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 253.37,
+   "pct_away": -3.11,
+   "good_until": "2026-11-03",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e0918e0b",
+   "ticker": "TFC",
+   "kind": "buy_limit",
+   "price": 47.8792,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 49.42,
+   "pct_away": -3.12,
    "good_until": "2026-11-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -525,8 +525,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 671.45,
-   "pct_away": -3.17,
+   "last": 671.49,
+   "pct_away": -3.18,
    "good_until": "2026-11-03",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
