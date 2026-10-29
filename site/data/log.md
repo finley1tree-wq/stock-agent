@@ -1,38 +1,3 @@
-~ WORKING take_profit 100% RPM @ $100.90 until 2026-11-03 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% RPM @ $100.03 until 2026-11-03 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 RPM @ $97.63 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NXPI @ $249.42 until 2026-11-03 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% NXPI @ $245.83 until 2026-11-03 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 NXPI @ $240.94 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CRBG @ $36.01 until 2026-11-03 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% CRBG @ $35.62 until 2026-11-03 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 CRBG @ $34.82 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25314.01 (+1.26% on $25000.00 in) · cash $1323.01 · realised +323.01
-Done: 0 sell(s), 8 buy(s); 24 order(s) working; budget left $987.47 this week
-
-## 2026-10-29 09:34 ET (Thursday) — week 2026-W44 — budget left $987.47 (today $24000.00 put to work, 8 buys, 0 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWcg3JmoJ4Fd4HLNQxYr'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-  (re-pinned 2 order(s) to the new average cost)
-~ WORKING stop_loss 100% GH @ $182.96 until 2026-11-03 — close it all at -1.3% under the average cost
-~ WORKING stop_loss 100% FITB @ $54.57 until 2026-11-03 — close it all at -0.6% under the average cost
-portfolio: equity $25424.85 (+1.70% on $25000.00 in) · cash $1323.01 · realised +323.01
-Decision: nothing at this check. 24 standing order(s) working.
-  (trigger GH take_profit superseded at this check)
-  (cancelled 2 standing order(s) on NXPI: position closed)
-- SELL 100% NXPI [stop_loss @ $247.84] -> $2993.32 (-0.22%) — close it all at -1.0% under the average cost
-  (cancelled 1 standing order(s) on GH: position closed)
-- SELL 100% GH [stop_loss @ $182.58] -> $3025.12 (+0.84%) — close it all at -1.3% under the average cost
-  (cancelled 2 standing order(s) on WSM: position closed)
-- SELL 100% WSM [take_profit @ $256.37] -> $3028.69 (+0.96%) — close 100% at +0.3% over the average cost
-## 2026-10-29 09:35 ET — tick — 3 sell(s), 0 buy(s) from standing orders
   (cancelled 2 standing order(s) on FITB: position closed)
 - SELL 100% FITB [stop_loss @ $54.54] -> $3001.04 (+0.03%) — close it all at -0.6% under the average cost
   (cancelled 2 standing order(s) on RPM: position closed)
@@ -398,3 +363,38 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% CACI @ $670.98 until 2026-11-03 — close it all at -0.8% under the average cost
 portfolio: equity $25397.62 (+1.59% on $25000.00 in) · cash $20899.97 · realised +399.97
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 18 order(s) working; budget left $20503.26 this week
+
+## 2026-10-29 10:37 ET (Thursday) — week 2026-W44 — budget left $20503.26 (today $39750.00 put to work, 20 buys, 14 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWhZ2ih2w99BNXxayoiz'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25398.51 (+1.59% on $25000.00 in) · cash $20899.97 · realised +399.97
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-29 10:40 ET (Thursday) — week 2026-W44 — budget left $20503.26 (today $39750.00 put to work, 20 buys, 14 sells) — SIM (pretend money) via sim
+  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWhgaiydw6k9BWgfWPbR'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $20,503 idle, so opened 2: EL, TFC. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +17.7% over the month; 19% of today's range
+- BUY $750.00 TFC [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4, incl. Pres, CEO); +6.6% over the month; 69% of today's range
+~ WORKING take_profit 100% EL @ $109.65 until 2026-11-03 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% EL @ $108.29 until 2026-11-03 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 EL @ $105.98 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TFC @ $49.46 until 2026-11-03 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% TFC @ $49.10 until 2026-11-03 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 TFC @ $47.88 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25399.31 (+1.60% on $25000.00 in) · cash $19399.97 · realised +399.97
+Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $19003.26 this week

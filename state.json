@@ -1,7 +1,7 @@
 {
   "week": "2026-W44",
-  "spent": 4496.74,
-  "deployed": 166500.0,
+  "spent": 5996.74,
+  "deployed": 168000.0,
   "by_ticker": {
     "WSM": 755.82,
     "FITB": 784.39,
@@ -12,12 +12,13 @@
     "NXPI": 765.55,
     "PDI": 3.28,
     "ACN": 2.57,
-    "EL": 27.58,
+    "EL": 777.58,
     "OLN": 750.0,
-    "CACI": 750.0
+    "CACI": 750.0,
+    "TFC": 750.0
   },
   "deployed_by_ticker": {
-    "EL": 17250.0,
+    "EL": 18000.0,
     "FITB": 18000.0,
     "ADI": 16500.0,
     "CACI": 18750.0,
@@ -31,7 +32,8 @@
     "PDI": 3750.0,
     "BBT": 8250.0,
     "ACN": 1500.0,
-    "RPM": 3750.0
+    "RPM": 3750.0,
+    "TFC": 750.0
   },
   "orders": [
     {
@@ -4676,12 +4678,56 @@
       ],
       "evidence": "average cost $426.1",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "EL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.864129,
+      "price": 109.26,
+      "date": "2026-10-29",
+      "time_et": "10:40",
+      "ts": 1793284822,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +17.7% over the month; 19% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "TFC",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 15.194571,
+      "price": 49.36,
+      "date": "2026-10-29",
+      "time_et": "10:40",
+      "ts": 1793284822,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4, incl. Pres, CEO); +6.6% over the month; 69% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-10-29",
-  "spent_today": 4496.74,
-  "deployed_today": 39750.0,
-  "orders_today": 20,
+  "spent_today": 5996.74,
+  "deployed_today": 41250.0,
+  "orders_today": 22,
   "sells_today": 14,
   "sold_today": [
     "NXPI",
@@ -4713,8 +4759,8 @@
     "ACN": 1793216684,
     "RPM": 1793284535
   },
-  "last_publish_ts": 1793284623,
-  "last_check_ts": 1793284673,
+  "last_publish_ts": 1793284822,
+  "last_check_ts": 1793284822,
   "exp_arm": {
     "FITB": {
       "params": {
@@ -4726,24 +4772,6 @@
       }
     },
     "WSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "ADI": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
-    "RPM": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -4787,30 +4815,54 @@
       "tags": {
         "hold_long": 90
       }
+    },
+    "EL": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
+    },
+    "TFC": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
     }
   },
-  "last_bar_ts": 1793284500,
-  "last_decision_ts": 1793284673,
-  "next_check_minutes": null,
+  "last_bar_ts": 1793284800,
+  "last_decision_ts": 1793284822,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "5813e1fa": 54.416,
     "3747f4b0": 670.978,
     "2a3c1d51": 54.344,
     "d47b9bc8": 672.5087,
-    "381b4b9c": 16.4832,
+    "57fa8ec3": 49.4637,
     "77574032": 257.2336,
-    "7768fadc": 35.6713,
+    "381b4b9c": 16.4832,
+    "7c2e086b": 109.6468,
+    "6efda2b5": 49.1009,
     "aa4e6891": 35.2816,
     "245835b8": 254.148,
+    "7768fadc": 35.6713,
     "b4ca2a02": 254.6635,
+    "1cd8cd02": 108.292,
     "bf27bfc8": 250.4125,
     "2ef54ef5": 16.262,
-    "c0b10a02": 245.4876,
     "54e295d7": 34.4932,
+    "c0b10a02": 245.4876,
+    "38f34a72": 105.9822,
+    "e0918e0b": 47.8792,
     "17d18aa4": 248.805,
-    "766bfcf9": 52.6613,
+    "d05a19b3": 15.9274,
     "00aea801": 650.1619,
-    "d05a19b3": 15.9274
+    "766bfcf9": 52.6613
   }
 }

@@ -83260,7 +83260,7 @@
     "code_version": "aa63cb8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": 0.24
   },
   {
     "symbol": "GH",
@@ -83324,7 +83324,7 @@
     "code_version": "aa63cb8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.04
   },
   {
     "symbol": "ADI",
@@ -83421,7 +83421,7 @@
     "code_version": "8f30fb3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.06
   },
   {
     "symbol": "CRBG",
@@ -83452,7 +83452,7 @@
     "code_version": "8f30fb3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.17
+    "ret_now": -0.23
   },
   {
     "symbol": "GH",
@@ -83510,7 +83510,7 @@
     "code_version": "868c5e5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.39
+    "ret_now": -0.09
   },
   {
     "symbol": "CACI",
@@ -83541,7 +83541,7 @@
     "code_version": "4202a35",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.21
+    "ret_now": 0.22
   },
   {
     "symbol": "RPM",
@@ -83596,5 +83596,65 @@
     "hour_et": 10,
     "code_version": "f89ca13",
     "hold_minutes": 11
+  },
+  {
+    "symbol": "EL",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.864129,
+    "price": 109.26,
+    "date": "2026-10-29",
+    "time_et": "10:40",
+    "ts": 1793284822,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +17.7% over the month; 19% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 109.22,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 17.74,
+    "hour_et": 10,
+    "code_version": "1295d02",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "TFC",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 15.194571,
+    "price": 49.36,
+    "date": "2026-10-29",
+    "time_et": "10:40",
+    "ts": 1793284822,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4, incl. Pres, CEO); +6.6% over the month; 69% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 49.34,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 6.57,
+    "hour_et": 10,
+    "code_version": "1295d02",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
