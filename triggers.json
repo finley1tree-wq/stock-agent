@@ -6807,7 +6807,7 @@
    "ticker": "FITB",
    "kind": "take_profit",
    "price": 54.416,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-29 10:21",
    "created_ts": 1793283681,
    "why": "close 100% at +0.2% over the average cost",
@@ -6817,7 +6817,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-29 10:41"
   },
   {
    "id": "96bd62fd",
@@ -6843,7 +6844,7 @@
    "ticker": "FITB",
    "kind": "buy_limit",
    "price": 52.6613,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-29 10:21",
    "created_ts": 1793283681,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6853,7 +6854,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-29 10:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f3c73cfa",
@@ -7340,7 +7343,7 @@
    "ticker": "FITB",
    "kind": "stop_loss",
    "price": 54.344,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-29 10:37",
    "created_ts": 1793284623,
    "why": "close it all at -0.6% under the average cost",
@@ -7350,7 +7353,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-29 10:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7c2e086b",
@@ -7455,5 +7460,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-10-29 10:40"
+ "updated": "2026-10-29 10:41"
 }

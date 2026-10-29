@@ -51459,3 +51459,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 TFC @ $47.88 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25399.31 (+1.60% on $25000.00 in) · cash $19399.97 · realised +399.97
 Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $19003.26 this week
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [take_profit @ $54.42] -> $751.72 (+0.23%) — close 100% at +0.2% over the average cost
+## 2026-10-29 10:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
