@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "5d1d6a4c",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 108.33,
-   "status": "filled",
-   "created": "2026-10-26 10:07",
-   "created_ts": 1793023648,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $108.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-26 10:12"
-  },
-  {
    "id": "d52f729b",
    "ticker": "ADI",
    "kind": "take_profit",
@@ -6994,7 +6976,7 @@
    "ticker": "CRBG",
    "kind": "stop_loss",
    "price": 35.2816,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-29 10:27",
    "created_ts": 1793284029,
    "why": "close it all at -0.8% under the average cost",
@@ -7004,7 +6986,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-29 11:27",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "54e295d7",
@@ -7479,7 +7463,24 @@
    ],
    "good_until": "2026-11-03",
    "usd": 500.0
+  },
+  {
+   "id": "38126c29",
+   "ticker": "CRBG",
+   "kind": "stop_loss",
+   "price": 35.596,
+   "status": "working",
+   "created": "2026-10-29 11:27",
+   "created_ts": 1793287645,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $35.56",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-29 11:24"
+ "updated": "2026-10-29 11:27"
 }
