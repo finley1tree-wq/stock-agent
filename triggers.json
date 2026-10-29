@@ -1,177 +1,6 @@
 {
  "orders": [
   {
-   "id": "9158d80d",
-   "ticker": "RIG",
-   "kind": "take_profit",
-   "price": 6.4772,
-   "status": "cancelled",
-   "created": "2026-10-23 13:02",
-   "created_ts": 1792774934,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $6.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 13:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ae910c88",
-   "ticker": "RIG",
-   "kind": "stop_loss",
-   "price": 6.3819,
-   "status": "cancelled",
-   "created": "2026-10-23 13:02",
-   "created_ts": 1792774934,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $6.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 13:35",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "7ebafe90",
-   "ticker": "RIG",
-   "kind": "buy_limit",
-   "price": 6.2565,
-   "status": "cancelled",
-   "created": "2026-10-23 13:02",
-   "created_ts": 1792774934,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $6.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "usd": 500.0,
-   "closed": "2026-10-23 13:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "fd6bbdc1",
-   "ticker": "FITB",
-   "kind": "take_profit",
-   "price": 53.1731,
-   "status": "cancelled",
-   "created": "2026-10-23 13:08",
-   "created_ts": 1792775287,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $53.05",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 13:41",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "bc8c9a55",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 52.7423,
-   "status": "cancelled",
-   "created": "2026-10-23 13:08",
-   "created_ts": 1792775287,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $53.05",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 13:39",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "141d4213",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 51.4585,
-   "status": "cancelled",
-   "created": "2026-10-23 13:08",
-   "created_ts": 1792775287,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $53.05",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "usd": 500.0,
-   "closed": "2026-10-23 13:41",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "875359bf",
-   "ticker": "CLF",
-   "kind": "take_profit",
-   "price": 13.9888,
-   "status": "cancelled",
-   "created": "2026-10-23 13:14",
-   "created_ts": 1792775655,
-   "why": "close 100% at +0.7% over the average cost",
-   "evidence": "average cost $13.89",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 14:21",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "1222fd79",
-   "ticker": "CLF",
-   "kind": "stop_loss",
-   "price": 13.6432,
-   "status": "cancelled",
-   "created": "2026-10-23 13:14",
-   "created_ts": 1792775655,
-   "why": "close it all at -1.8% under the average cost",
-   "evidence": "average cost $13.89",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 14:18",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "6d80599b",
-   "ticker": "CLF",
-   "kind": "buy_limit",
-   "price": 13.4733,
-   "status": "cancelled",
-   "created": "2026-10-23 13:14",
-   "created_ts": 1792775655,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $13.89",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "usd": 500.0,
-   "closed": "2026-10-23 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "e70a4f2f",
    "ticker": "CACI",
    "kind": "take_profit",
@@ -7497,7 +7326,160 @@
    "pct_of_position": 100.0,
    "closed": "2026-10-29 09:50",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "5813e1fa",
+   "ticker": "FITB",
+   "kind": "take_profit",
+   "price": 54.416,
+   "status": "working",
+   "created": "2026-10-29 10:21",
+   "created_ts": 1793283681,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $54.29",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "96bd62fd",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 53.9751,
+   "status": "working",
+   "created": "2026-10-29 10:21",
+   "created_ts": 1793283681,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $54.29",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "766bfcf9",
+   "ticker": "FITB",
+   "kind": "buy_limit",
+   "price": 52.6613,
+   "status": "working",
+   "created": "2026-10-29 10:21",
+   "created_ts": 1793283681,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $54.29",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "usd": 500.0
+  },
+  {
+   "id": "f3c73cfa",
+   "ticker": "GH",
+   "kind": "take_profit",
+   "price": 184.149,
+   "status": "working",
+   "created": "2026-10-29 10:21",
+   "created_ts": 1793283681,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $183.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a977e470",
+   "ticker": "GH",
+   "kind": "stop_loss",
+   "price": 180.8294,
+   "status": "working",
+   "created": "2026-10-29 10:21",
+   "created_ts": 1793283681,
+   "why": "close it all at -1.3% under the average cost",
+   "evidence": "average cost $183.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "52bf692c",
+   "ticker": "GH",
+   "kind": "buy_limit",
+   "price": 177.704,
+   "status": "working",
+   "created": "2026-10-29 10:21",
+   "created_ts": 1793283681,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $183.2",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "usd": 500.0
+  },
+  {
+   "id": "77574032",
+   "ticker": "WSM",
+   "kind": "take_profit",
+   "price": 257.2336,
+   "status": "working",
+   "created": "2026-10-29 10:21",
+   "created_ts": 1793283681,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $256.5",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b4ca2a02",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 254.6635,
+   "status": "working",
+   "created": "2026-10-29 10:21",
+   "created_ts": 1793283681,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $256.5",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "17d18aa4",
+   "ticker": "WSM",
+   "kind": "buy_limit",
+   "price": 248.805,
+   "status": "working",
+   "created": "2026-10-29 10:21",
+   "created_ts": 1793283681,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $256.5",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-29 10:18"
+ "updated": "2026-10-29 10:21"
 }
