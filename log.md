@@ -52115,3 +52115,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 portfolio: equity $25402.48 (+1.61% on $25000.00 in) · cash $21659.17 · realised +409.17
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-29 12:47 ET (Thursday) — week 2026-W44 — budget left $21262.45 (today $48000.00 put to work, 31 buys, 26 sells) — SIM (pretend money) via sim
+  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWsPozPGtaU3XHG6g43Z'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $21,262 idle, so opened 3: BBT, ADI, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped BBT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped ADI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25402.55 (+1.61% on $25000.00 in) · cash $21659.17 · realised +409.17
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
