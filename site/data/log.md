@@ -1,36 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $22,012 idle, so opened 3: BBT, ADI, OLN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 BBT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +9.9% over the month; 14% of today's range
-- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Rick Larsen), $1,001 - $15,000; +8.1% over the month; 63% of today's range
-- BUY $750.00 OLN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +5.0% over the month; 7% of today's range
-~ WORKING take_profit 100% BBT @ $30.88 until 2026-11-03 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% BBT @ $30.59 until 2026-11-03 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 BBT @ $29.88 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% ADI @ $430.48 until 2026-11-03 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% ADI @ $424.90 until 2026-11-03 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 ADI @ $416.01 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% OLN @ $16.34 until 2026-11-03 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% OLN @ $16.12 until 2026-11-03 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 OLN @ $15.79 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25403.01 (+1.61% on $25000.00 in) · cash $20158.37 · realised +408.37
-Done: 0 sell(s), 3 buy(s); 21 order(s) working; budget left $19761.65 this week
-- SELL 100% TFC [time stop] -> $748.79 (-0.16%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-29 13:03 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-29 13:05 ET (Thursday) — week 2026-W44 — budget left $20510.44 (today $50250.00 put to work, 34 buys, 28 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWtmtsYXWHLo21XaeY2d'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25402.61 (+1.61% on $25000.00 in) · cash $20907.16 · realised +407.16
-Decision: nothing at this check. 18 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-29 13:09 ET (Thursday) — week 2026-W44 — budget left $20510.44 (today $50250.00 put to work, 34 buys, 28 sells) — SIM (pretend money) via sim
   (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
@@ -398,3 +365,36 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25381.83 (+1.53% on $25000.00 in) · cash $20145.69 · realised +395.69
 Decision: nothing at this check. 14 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-29 14:20 ET (Thursday) — week 2026-W44 — budget left $19748.97 (today $54000.00 put to work, 39 buys, 32 sells) — SIM (pretend money) via sim
+  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWzU3i4nV3eyrG1Cp1ai'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25383.30 (+1.53% on $25000.00 in) · cash $20145.69 · realised +395.69
+Decision: nothing at this check. 14 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-29 14:23 ET (Thursday) — week 2026-W44 — budget left $19748.97 (today $54000.00 put to work, 39 buys, 32 sells) — SIM (pretend money) via sim
+  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWzhAXwjnRthSRmCGuDe'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25385.34 (+1.54% on $25000.00 in) · cash $20145.69 · realised +395.69
+Decision: nothing at this check. 14 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on CACI: position closed)
+- SELL 100% CACI [stop_loss @ $676.44] -> $750.58 (+0.08%) — close it all at -0.8% under the average cost
+## 2026-10-29 14:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders

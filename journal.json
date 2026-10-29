@@ -84352,7 +84352,7 @@
     "code_version": "b0e0737",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.49
+    "ret_now": -0.42
   },
   {
     "symbol": "ADI",
@@ -84383,7 +84383,7 @@
     "code_version": "b0e0737",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.33
+    "ret_now": -0.45
   },
   {
     "symbol": "OLN",
@@ -84526,7 +84526,7 @@
     "code_version": "21874ae",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.44
+    "ret_now": -0.37
   },
   {
     "symbol": "CACI",
@@ -84557,7 +84557,9 @@
     "code_version": "cae9707",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.23
+    "ret_now": 0.08,
+    "ret_final": 0.08,
+    "ret_src": "realised"
   },
   {
     "symbol": "GH",
@@ -84588,7 +84590,7 @@
     "code_version": "d09f551",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": 0.09
   },
   {
     "symbol": "FITB",
@@ -84645,7 +84647,7 @@
     "code_version": "177462e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.18
+    "ret_now": -0.14
   },
   {
     "symbol": "OLN",
@@ -84703,6 +84705,33 @@
     "code_version": "9f3cd0a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.1
+  },
+  {
+    "symbol": "CACI",
+    "side": "sell",
+    "qty": 1.109598,
+    "status": "filled",
+    "price": 676.44,
+    "proceeds": 750.58,
+    "realized_pnl": 0.58,
+    "realized_pct": 0.08,
+    "date": "2026-10-29",
+    "time_et": "14:26",
+    "ts": 1793298300,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $675.92",
+    "trigger": "stop_loss",
+    "hour_et": 14,
+    "code_version": "c049c0c",
+    "hold_minutes": 47
   }
 ]

@@ -52641,3 +52641,21 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25385.34 (+1.54% on $25000.00 in) · cash $20145.69 · realised +395.69
 Decision: nothing at this check. 14 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on CACI: position closed)
+- SELL 100% CACI [stop_loss @ $676.44] -> $750.58 (+0.08%) — close it all at -0.8% under the average cost
+## 2026-10-29 14:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-29 14:26 ET (Thursday) — week 2026-W44 — budget left $20499.55 (today $54000.00 put to work, 39 buys, 33 sells) — SIM (pretend money) via sim
+  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWzw8ZWd1KTNQWanUdAe'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25385.20 (+1.54% on $25000.00 in) · cash $20896.27 · realised +396.27
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
