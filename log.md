@@ -52150,3 +52150,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
   (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
 portfolio: equity $25401.43 (+1.61% on $25000.00 in) · cash $22408.37 · realised +408.37
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 12 order(s) working; budget left $22011.65 this week
+
+## 2026-10-29 12:53 ET (Thursday) — week 2026-W44 — budget left $22011.65 (today $48000.00 put to work, 31 buys, 27 sells) — SIM (pretend money) via sim
+  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWsrHz6dFrz3UM2eePNz'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $22,012 idle, so opened 3: BBT, ADI, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped BBT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped ADI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25401.50 (+1.61% on $25000.00 in) · cash $22408.37 · realised +408.37
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
