@@ -1,6 +1,6 @@
 {
   "week": "2026-W44",
-  "spent": 5999.12,
+  "spent": 4496.74,
   "deployed": 166500.0,
   "by_ticker": {
     "WSM": 755.82,
@@ -13,8 +13,6 @@
     "PDI": 3.28,
     "ACN": 2.57,
     "EL": 27.58,
-    "ADI": 750.0,
-    "RPM": 750.0,
     "OLN": 750.0,
     "CACI": 750.0
   },
@@ -4636,13 +4634,55 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "RPM",
+      "side": "sell",
+      "qty": 7.411766,
+      "status": "filled",
+      "price": 101.44,
+      "proceeds": 751.88,
+      "realized_pnl": 1.88,
+      "realized_pct": 0.25,
+      "date": "2026-10-29",
+      "time_et": "10:35",
+      "ts": 1793284200,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $101.19",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.76017,
+      "status": "filled",
+      "price": 426.38,
+      "proceeds": 750.5,
+      "realized_pnl": 0.5,
+      "realized_pct": 0.07,
+      "date": "2026-10-29",
+      "time_et": "10:35",
+      "ts": 1793284537,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $426.1",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-29",
-  "spent_today": 5999.12,
+  "spent_today": 4496.74,
   "deployed_today": 39750.0,
   "orders_today": 20,
-  "sells_today": 12,
+  "sells_today": 14,
   "sold_today": [
     "NXPI",
     "GH",
@@ -4657,7 +4697,7 @@
     "EL"
   ],
   "sold_ts": {
-    "ADI": 1793281056,
+    "ADI": 1793284577,
     "NXPI": 1793280930,
     "FITB": 1793280976,
     "CACI": 1793281638,
@@ -4671,10 +4711,10 @@
     "BBT": 1793281816,
     "PDI": 1793210945,
     "ACN": 1793216684,
-    "RPM": 1793280976
+    "RPM": 1793284535
   },
-  "last_publish_ts": 1793284393,
-  "last_check_ts": 1793284393,
+  "last_publish_ts": 1793284537,
+  "last_check_ts": 1793284537,
   "exp_arm": {
     "FITB": {
       "params": {
@@ -4749,34 +4789,28 @@
       }
     }
   },
-  "last_bar_ts": 1793284200,
-  "last_decision_ts": 1793284393,
-  "next_check_minutes": 6,
+  "last_bar_ts": 1793284500,
+  "last_decision_ts": 1793284537,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "84b83856": 101.444,
+    "3747f4b0": 670.978,
     "5813e1fa": 54.416,
     "d47b9bc8": 672.5087,
     "381b4b9c": 16.4832,
-    "f0a7ae0a": 427.6936,
-    "aa4e6891": 35.2816,
     "77574032": 257.2336,
-    "96bd62fd": 53.9751,
+    "aa4e6891": 35.2816,
     "b4ca2a02": 254.6635,
-    "245835b8": 254.148,
     "7768fadc": 35.6713,
-    "0c63ae42": 100.5545,
-    "53f312e0": 664.6799,
+    "96bd62fd": 53.9751,
+    "245835b8": 254.148,
     "bf27bfc8": 250.4125,
-    "bd74d853": 422.1117,
     "2ef54ef5": 16.262,
-    "54e295d7": 34.4932,
     "c0b10a02": 245.4876,
+    "54e295d7": 34.4932,
     "17d18aa4": 248.805,
-    "766bfcf9": 52.6613,
-    "00aea801": 650.1619,
-    "7b1ae2da": 413.317,
     "d05a19b3": 15.9274,
-    "ed5c9efa": 98.1543
+    "766bfcf9": 52.6613,
+    "00aea801": 650.1619
   }
 }

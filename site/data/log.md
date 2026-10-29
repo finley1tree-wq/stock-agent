@@ -1,23 +1,3 @@
-- BUY $3000.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +11.4% over the month; 0% of today's range
-- BUY $3000.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +7.8% over the month; 73% of today's range
-- BUY $3000.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +2.0% over the month; 72% of today's range
-- BUY $3000.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +4.5% over the month; 13% of today's range
-- BUY $3000.00 CRBG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: insider net buying (Form 4); +8.4% over the month; 69% of today's range
-~ WORKING take_profit 100% EL @ $110.84 until 2026-11-03 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% EL @ $109.50 until 2026-11-03 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 EL @ $107.15 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% ADI @ $427.18 until 2026-11-03 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% ADI @ $421.65 until 2026-11-03 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 ADI @ $412.83 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GH @ $182.01 until 2026-11-03 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% GH @ $178.70 until 2026-11-03 — close it all at -1.3% under the average cost
-~ WORKING buy_limit $500.00 GH @ $175.63 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% WSM @ $254.67 until 2026-11-03 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% WSM @ $252.12 until 2026-11-03 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 WSM @ $246.32 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% FITB @ $54.65 until 2026-11-03 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% FITB @ $54.21 until 2026-11-03 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 FITB @ $52.88 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% RPM @ $100.90 until 2026-11-03 — close 100% at +0.2% over the average cost
 ~ WORKING stop_loss 100% RPM @ $100.03 until 2026-11-03 — close it all at -0.6% under the average cost
 ~ WORKING buy_limit $500.00 RPM @ $97.63 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +378,23 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $500.00 CACI @ $650.16 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25391.78 (+1.57% on $25000.00 in) · cash $19397.60 · realised +397.60
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $19000.88 this week
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [take_profit @ $101.44] -> $751.88 (+0.25%) — close 100% at +0.3% over the average cost
+## 2026-10-29 10:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-29 10:35 ET (Thursday) — week 2026-W44 — budget left $19752.76 (today $39750.00 put to work, 20 buys, 13 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [stop_loss @ $426.38] -> $750.50 (+0.07%) — close it all at -0.9% under the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWhMicx9jtNB53GAgDZ5'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING stop_loss 100% CACI @ $670.98 until 2026-11-03 — close it all at -0.8% under the average cost
+portfolio: equity $25397.62 (+1.59% on $25000.00 in) · cash $20899.97 · realised +399.97
+Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 18 order(s) working; budget left $20503.26 this week
