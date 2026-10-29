@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "dbc40943",
-   "ticker": "CRBG",
-   "kind": "buy_limit",
-   "price": 34.0179,
-   "status": "cancelled",
-   "created": "2026-10-26 10:33",
-   "created_ts": 1793025210,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $35.07",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "usd": 500.0,
-   "closed": "2026-10-26 11:54",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "9faed447",
-   "ticker": "CACI",
-   "kind": "stop_loss",
-   "price": 667.04,
-   "status": "cancelled",
-   "created": "2026-10-26 10:34",
-   "created_ts": 1793025283,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $666.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-26 10:37",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "5f7112d5",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 109.0064,
-   "status": "filled",
-   "created": "2026-10-26 11:08",
-   "created_ts": 1793027286,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $108.61",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-26 11:31"
-  },
-  {
    "id": "ada786a5",
    "ticker": "EL",
    "kind": "stop_loss",
@@ -7465,7 +7409,58 @@
    ],
    "good_until": "2026-11-03",
    "usd": 500.0
+  },
+  {
+   "id": "6e9f1d2a",
+   "ticker": "NXPI",
+   "kind": "take_profit",
+   "price": 259.1946,
+   "status": "working",
+   "created": "2026-10-29 11:48",
+   "created_ts": 1793288933,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $258.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b51b2ff5",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 255.331,
+   "status": "working",
+   "created": "2026-10-29 11:48",
+   "created_ts": 1793288933,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $258.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2a128eaa",
+   "ticker": "NXPI",
+   "kind": "buy_limit",
+   "price": 250.3473,
+   "status": "working",
+   "created": "2026-10-29 11:48",
+   "created_ts": 1793288933,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $258.09",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-29 11:45"
+ "updated": "2026-10-29 11:48"
 }
