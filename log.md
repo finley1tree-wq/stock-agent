@@ -51051,3 +51051,16 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING stop_loss 100% FITB @ $54.57 until 2026-11-03 — close it all at -0.6% under the average cost
 portfolio: equity $25424.85 (+1.70% on $25000.00 in) · cash $1323.01 · realised +323.01
 Decision: nothing at this check. 24 standing order(s) working.
+  (trigger GH take_profit superseded at this check)
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $247.84] -> $2993.32 (-0.22%) — close it all at -1.0% under the average cost
+  (cancelled 1 standing order(s) on GH: position closed)
+- SELL 100% GH [stop_loss @ $182.58] -> $3025.12 (+0.84%) — close it all at -1.3% under the average cost
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $256.37] -> $3028.69 (+0.96%) — close 100% at +0.3% over the average cost
+## 2026-10-29 09:35 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [stop_loss @ $54.54] -> $3001.04 (+0.03%) — close it all at -0.6% under the average cost
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [take_profit @ $100.99] -> $3010.13 (+0.34%) — close 100% at +0.2% over the average cost
+## 2026-10-29 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders

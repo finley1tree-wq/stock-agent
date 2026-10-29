@@ -1,16 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgV957ZdNn7niSELS9ZCo'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25322.70 (+1.29% on $25000.00 in) · cash $24575.58 · realised +325.58
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-28 14:55 ET (Wednesday) — week 2026-W44 — budget left $24240.04 (today $53250.00 put to work, 38 buys, 37 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
   (NXTC excluded: too thinly traded ($1.0M a day) — NextCure, Inc.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgV9HzB11NRP3YCKHKfuB'}
@@ -398,3 +385,16 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING stop_loss 100% FITB @ $54.57 until 2026-11-03 — close it all at -0.6% under the average cost
 portfolio: equity $25424.85 (+1.70% on $25000.00 in) · cash $1323.01 · realised +323.01
 Decision: nothing at this check. 24 standing order(s) working.
+  (trigger GH take_profit superseded at this check)
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $247.84] -> $2993.32 (-0.22%) — close it all at -1.0% under the average cost
+  (cancelled 1 standing order(s) on GH: position closed)
+- SELL 100% GH [stop_loss @ $182.58] -> $3025.12 (+0.84%) — close it all at -1.3% under the average cost
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $256.37] -> $3028.69 (+0.96%) — close 100% at +0.3% over the average cost
+## 2026-10-29 09:35 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [stop_loss @ $54.54] -> $3001.04 (+0.03%) — close it all at -0.6% under the average cost
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [take_profit @ $100.99] -> $3010.13 (+0.34%) — close 100% at +0.2% over the average cost
+## 2026-10-29 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
