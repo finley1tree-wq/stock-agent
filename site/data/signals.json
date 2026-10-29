@@ -1,5 +1,5 @@
 {
- "asOf": "2026-10-29T14:00-04:00",
+ "asOf": "2026-10-29T14:20-04:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -178,6 +178,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "9b1bbacb",
+   "ticker": "CACI",
+   "kind": "take_profit",
+   "price": 678.1573,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 677.8,
+   "pct_away": 0.05,
+   "good_until": "2026-11-03",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7b1248c4",
+   "ticker": "CACI",
+   "kind": "stop_loss",
+   "price": 677.048,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 677.8,
+   "pct_away": -0.11,
+   "good_until": "2026-11-03",
+   "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "0d24a5bf",
    "ticker": "BBT",
    "kind": "stop_loss",
@@ -185,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 30.65,
-   "pct_away": -0.2,
+   "last": 30.63,
+   "pct_away": -0.13,
    "good_until": "2026-11-03",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -202,10 +236,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 101.73,
-   "pct_away": -0.2,
+   "last": 101.67,
+   "pct_away": -0.14,
    "good_until": "2026-11-03",
    "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "da4fcc34",
+   "ticker": "TFC",
+   "kind": "stop_loss",
+   "price": 48.9109,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 49.05,
+   "pct_away": -0.28,
+   "good_until": "2026-11-03",
+   "why": "close it all at -0.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 109.36,
-   "pct_away": 0.2,
+   "last": 109.25,
+   "pct_away": 0.3,
    "good_until": "2026-11-03",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -236,8 +287,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 426.36,
-   "pct_away": -0.34,
+   "last": 426.21,
+   "pct_away": -0.31,
    "good_until": "2026-11-03",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -253,8 +304,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 49.1,
-   "pct_away": 0.35,
+   "last": 49.05,
+   "pct_away": 0.46,
    "good_until": "2026-11-03",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -263,51 +314,17 @@
    ]
   },
   {
-   "id": "da4fcc34",
-   "ticker": "TFC",
-   "kind": "stop_loss",
-   "price": 48.9109,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 49.1,
-   "pct_away": -0.39,
-   "good_until": "2026-11-03",
-   "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3c31aa05",
-   "ticker": "CACI",
-   "kind": "stop_loss",
-   "price": 670.3301,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 673.3,
-   "pct_away": -0.44,
-   "good_until": "2026-11-03",
-   "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "997c33e7",
+   "id": "44f75a6f",
    "ticker": "GH",
-   "kind": "stop_loss",
-   "price": 182.5123,
+   "kind": "take_profit",
+   "price": 185.8422,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 183.59,
-   "pct_away": -0.59,
+   "last": 184.75,
+   "pct_away": 0.59,
    "good_until": "2026-11-03",
-   "why": "close it all at -1.3% under the average cost",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -321,25 +338,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 101.73,
-   "pct_away": 0.7,
-   "good_until": "2026-11-03",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9b1bbacb",
-   "ticker": "CACI",
-   "kind": "take_profit",
-   "price": 678.1573,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 673.3,
-   "pct_away": 0.72,
+   "last": 101.67,
+   "pct_away": 0.76,
    "good_until": "2026-11-03",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -355,27 +355,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 30.65,
-   "pct_away": 0.76,
+   "last": 30.63,
+   "pct_away": 0.83,
    "good_until": "2026-11-03",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0bc7acbd",
-   "ticker": "ADI",
-   "kind": "take_profit",
-   "price": 430.4754,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 426.36,
-   "pct_away": 0.97,
-   "good_until": "2026-11-03",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -389,8 +372,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 109.36,
-   "pct_away": -1.04,
+   "last": 109.25,
+   "pct_away": -0.94,
    "good_until": "2026-11-03",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -399,17 +382,34 @@
    ]
   },
   {
-   "id": "44f75a6f",
-   "ticker": "GH",
+   "id": "0bc7acbd",
+   "ticker": "ADI",
    "kind": "take_profit",
-   "price": 185.8422,
+   "price": 430.4754,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 183.59,
-   "pct_away": 1.23,
+   "last": 426.21,
+   "pct_away": 1.0,
    "good_until": "2026-11-03",
-   "why": "close 100% at +0.5% over the average cost",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "997c33e7",
+   "ticker": "GH",
+   "kind": "stop_loss",
+   "price": 182.5123,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 184.75,
+   "pct_away": -1.21,
+   "good_until": "2026-11-03",
+   "why": "close it all at -1.3% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"

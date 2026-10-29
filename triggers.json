@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "32c311e2",
-   "ticker": "CACI",
-   "kind": "stop_loss",
-   "price": 663.6138,
-   "status": "cancelled",
-   "created": "2026-10-26 13:16",
-   "created_ts": 1793034971,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $669.6",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-31",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-26 13:28",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "75ff9155",
    "ticker": "CACI",
    "kind": "buy_limit",
@@ -7283,7 +7264,7 @@
    "ticker": "CACI",
    "kind": "stop_loss",
    "price": 670.3301,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-29 13:37",
    "created_ts": 1793295478,
    "why": "close it all at -0.8% under the average cost",
@@ -7293,7 +7274,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-29 14:20",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "88a5ee44",
@@ -7472,7 +7455,24 @@
    "usd": 500.0,
    "closed": "2026-10-29 14:00",
    "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
+  },
+  {
+   "id": "7b1248c4",
+   "ticker": "CACI",
+   "kind": "stop_loss",
+   "price": 677.048,
+   "status": "working",
+   "created": "2026-10-29 14:20",
+   "created_ts": 1793298031,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $675.92",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-29 14:17"
+ "updated": "2026-10-29 14:20"
 }
