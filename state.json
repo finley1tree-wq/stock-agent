@@ -1,6 +1,6 @@
 {
   "week": "2026-W44",
-  "spent": 3009.46,
+  "spent": 2257.87,
   "deployed": 180750.0,
   "by_ticker": {
     "WSM": 1.22,
@@ -13,7 +13,6 @@
     "PDI": 3.28,
     "ACN": 2.57,
     "EL": 779.95,
-    "TFC": 751.21,
     "CACI": 0.22,
     "OLN": 8.09,
     "ADI": 3.38,
@@ -5535,13 +5534,34 @@
       ],
       "evidence": "bought 90 min ago, -0.43% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "TFC",
+      "side": "sell",
+      "qty": 15.253309,
+      "status": "filled",
+      "price": 49.27,
+      "proceeds": 751.59,
+      "realized_pnl": 1.59,
+      "realized_pct": 0.21,
+      "date": "2026-10-29",
+      "time_et": "15:01",
+      "ts": 1793300400,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $49.17",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-10-29",
-  "spent_today": 3009.46,
+  "spent_today": 2257.87,
   "deployed_today": 54000.0,
   "orders_today": 39,
-  "sells_today": 35,
+  "sells_today": 36,
   "sold_today": [
     "NXPI",
     "GH",
@@ -5572,10 +5592,10 @@
     "PDI": 1793210945,
     "ACN": 1793216684,
     "RPM": 1793284535,
-    "TFC": 1793293415
+    "TFC": 1793300487
   },
-  "last_publish_ts": 1793300342,
-  "last_check_ts": 1793300388,
+  "last_publish_ts": 1793300477,
+  "last_check_ts": 1793300477,
   "exp_arm": {
     "BBT": {
       "params": {
@@ -5641,13 +5661,11 @@
       }
     }
   },
-  "last_bar_ts": 1793300100,
-  "last_decision_ts": 1793300298,
+  "last_bar_ts": 1793300400,
+  "last_decision_ts": 1793300477,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "cc609169": 49.206,
-    "2a7fa00a": 49.2737,
     "72e398c9": 109.5776,
     "11d0ba1d": 102.4426,
     "44b92202": 101.524,
