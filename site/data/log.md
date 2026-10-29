@@ -1,6 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWrhEUtbKeYhuBAW7G5p'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $21,262 idle, so opened 3: BBT, ADI, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
   (dropped BBT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
   (dropped ADI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
   (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 TFC @ $47.69 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25386.76 (+1.55% on $25000.00 in) · cash $20153.34 · realised +403.34
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19756.61 this week
+  (cancelled 2 standing order(s) on OLN: position closed)
+- SELL 100% OLN [stop_loss @ $16.11] -> $742.36 (-1.02%) — close it all at -1.0% under the average cost
+## 2026-10-29 13:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
