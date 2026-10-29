@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "68e65805",
-   "ticker": "ADI",
-   "kind": "stop_loss",
-   "price": 386.7491,
-   "status": "cancelled",
-   "created": "2026-10-23 13:02",
-   "created_ts": 1792774934,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $390.49",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-10-28",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-23 14:32",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "152d8f1c",
    "ticker": "ADI",
    "kind": "buy_limit",
@@ -7162,7 +7143,7 @@
    "ticker": "CRBG",
    "kind": "take_profit",
    "price": 36.0109,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-29 09:32",
    "created_ts": 1793280755,
    "why": "close 100% at +0.3% over the average cost",
@@ -7172,7 +7153,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-29 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d7befb90",
@@ -7198,7 +7181,7 @@
    "ticker": "CRBG",
    "kind": "buy_limit",
    "price": 34.823,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-29 09:32",
    "created_ts": 1793280755,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7208,7 +7191,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-29 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "909f4962",
@@ -7364,7 +7349,7 @@
    "ticker": "CRBG",
    "kind": "stop_loss",
    "price": 35.954,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-29 09:35",
    "created_ts": 1793280929,
    "why": "close it all at -0.8% under the average cost",
@@ -7374,7 +7359,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-29 09:40"
   },
   {
    "id": "0beeda94",
@@ -7432,7 +7418,7 @@
    "ticker": "OLN",
    "kind": "take_profit",
    "price": 16.7519,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-29 09:37",
    "created_ts": 1793281058,
    "why": "close 100% at +0.4% over the average cost",
@@ -7442,14 +7428,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-29 09:40"
   },
   {
    "id": "18ecf3f4",
    "ticker": "OLN",
    "kind": "stop_loss",
    "price": 16.5351,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-29 09:37",
    "created_ts": 1793281058,
    "why": "close it all at -0.9% under the average cost",
@@ -7459,14 +7446,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-29 09:39",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "d76f6d2c",
    "ticker": "OLN",
    "kind": "buy_limit",
    "price": 16.1893,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-29 09:37",
    "created_ts": 1793281058,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7476,8 +7465,29 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-03",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-29 09:40",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "fa76458f",
+   "ticker": "OLN",
+   "kind": "stop_loss",
+   "price": 16.726,
+   "status": "cancelled",
+   "created": "2026-10-29 09:39",
+   "created_ts": 1793281186,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $16.69",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-03",
+   "pct_of_position": 100.0,
+   "closed": "2026-10-29 09:40",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-10-29 09:37"
+ "updated": "2026-10-29 09:40"
 }

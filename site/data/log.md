@@ -1,21 +1,3 @@
-## 2026-10-28 15:01 ET (Wednesday) — week 2026-W44 — budget left $24240.04 (today $53250.00 put to work, 38 buys, 37 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
-  (NXTC excluded: too thinly traded ($1.0M a day) — NextCure, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgV9mF2UAcdYfKH6qnEDB'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25320.80 (+1.28% on $25000.00 in) · cash $24575.58 · realised +325.58
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-28 15:04 ET (Wednesday) — week 2026-W44 — budget left $24240.04 (today $53250.00 put to work, 38 buys, 37 sells) — SIM (pretend money) via sim
-  (CTEV excluded: too thinly traded ($3.8M a day) — Claritev Corporation)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
   (LCNB excluded: too thinly traded ($0.6M a day) — LCNB Corp.)
   (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
   (NPB excluded: too thinly traded ($4.1M a day) — Northpointe Bancshares, Inc.)
@@ -398,3 +380,21 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 OLN @ $16.19 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25388.75 (+1.55% on $25000.00 in) · cash $13392.50 · realised +392.50
 Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $13056.96 this week
+  (cancelled 2 standing order(s) on OLN: position closed)
+- SELL 100% OLN [take_profit @ $16.76] -> $3013.18 (+0.44%) — close 100% at +0.4% over the average cost
+## 2026-10-29 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-29 09:40 ET (Thursday) — week 2026-W44 — budget left $16070.14 (today $30000.00 put to work, 10 buys, 7 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [stop_loss @ $35.91] -> $3000.64 (+0.02%) — close it all at -0.8% under the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWd8BgHKGhmiq8B7vYPi'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25387.35 (+1.55% on $25000.00 in) · cash $19406.32 · realised +406.32
+Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 6 order(s) working; budget left $19070.78 this week

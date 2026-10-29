@@ -82600,7 +82600,7 @@
     "code_version": "dab7db5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": -0.53
   },
   {
     "symbol": "ADI",
@@ -82829,7 +82829,9 @@
     "code_version": "dab7db5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17
+    "ret_now": 0.02,
+    "ret_final": 0.02,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -83021,7 +83023,8 @@
     "hour_et": 9,
     "code_version": "16853ef",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.03
   },
   {
     "symbol": "OLN",
@@ -83051,6 +83054,63 @@
     "hour_et": 9,
     "code_version": "16853ef",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.44,
+    "ret_now": 0.44,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "OLN",
+    "side": "sell",
+    "qty": 179.784201,
+    "status": "filled",
+    "price": 16.76,
+    "proceeds": 3013.18,
+    "realized_pnl": 13.18,
+    "realized_pct": 0.44,
+    "date": "2026-10-29",
+    "time_et": "09:40",
+    "ts": 1793281200,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $16.69",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "58fd5ce",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "CRBG",
+    "side": "sell",
+    "qty": 83.555321,
+    "status": "filled",
+    "price": 35.91,
+    "proceeds": 3000.64,
+    "realized_pnl": 0.64,
+    "realized_pct": 0.02,
+    "date": "2026-10-29",
+    "time_et": "09:40",
+    "ts": 1793281200,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $35.9",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "58fd5ce",
+    "hold_minutes": 7
   }
 ]
