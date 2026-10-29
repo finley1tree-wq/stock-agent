@@ -51064,3 +51064,27 @@ Decision: nothing at this check. 24 standing order(s) working.
   (cancelled 2 standing order(s) on RPM: position closed)
 - SELL 100% RPM [take_profit @ $100.99] -> $3010.13 (+0.34%) — close 100% at +0.2% over the average cost
 ## 2026-10-29 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [take_profit @ $427.18] -> $3011.19 (+0.37%) — close 100% at +0.4% over the average cost
+## 2026-10-29 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-29 09:37 ET (Thursday) — week 2026-W44 — budget left $19056.96 (today $24000.00 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWcu8VvfPNyAp72jwVbc'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,057 idle, so opened 2: BBT, OLN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 BBT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +10.1% over the month; 0% of today's range
+- BUY $3000.00 OLN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +7.6% over the month; 83% of today's range
+~ WORKING take_profit 100% BBT @ $30.94 until 2026-11-03 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% BBT @ $30.65 until 2026-11-03 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 BBT @ $29.93 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% OLN @ $16.75 until 2026-11-03 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% OLN @ $16.54 until 2026-11-03 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 OLN @ $16.19 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25388.75 (+1.55% on $25000.00 in) · cash $13392.50 · realised +392.50
+Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $13056.96 this week
