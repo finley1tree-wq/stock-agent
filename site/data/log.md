@@ -1,4 +1,3 @@
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
   (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgWsPozPGtaU3XHG6g43Z'}
@@ -398,3 +397,4 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 EL @ $105.91 until 2026-11-03 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25375.39 (+1.50% on $25000.00 in) · cash $20145.69 · realised +395.69
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19748.97 this week
+  (cancelled 7 resting buy order(s): past the entry cutoff)
