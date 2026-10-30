@@ -53281,3 +53281,8 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25394.36 (+1.58% on $25000.00 in) · cash $10410.67 · realised +410.67
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [stop_loss @ $35.10] -> $2999.01 (-0.03%) — close it all at -0.8% under the average cost
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $261.59] -> $3009.04 (+0.30%) — close 100% at +0.3% over the average cost
+## 2026-10-30 09:45 ET — tick — 2 sell(s), 0 buy(s) from standing orders

@@ -1,22 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX42Pon6BPorC7dLwxRA'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25386.09 (+1.54% on $25000.00 in) · cash $23138.85 · realised +388.85
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-29 15:10 ET (Thursday) — week 2026-W44 — budget left $22742.13 (today $54000.00 put to work, 39 buys, 36 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX4FQtt8PMYcmYep6hkj'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25385.80 (+1.54% on $25000.00 in) · cash $23138.85 · realised +388.85
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 - SELL 100% GH [time stop] -> $747.29 (-0.36%) — held 90 min, the 90-minute limit: out regardless
@@ -398,3 +379,22 @@ Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $7045.10 this week
   (cancelled 2 standing order(s) on BBT: position closed)
 - SELL 100% BBT [stop_loss @ $30.63] -> $2968.86 (-1.04%) — close it all at -0.7% under the average cost
 ## 2026-10-30 09:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-30 09:44 ET (Friday) — week 2026-W44 — budget left $10013.96 (today $42000.00 put to work, 14 buys, 9 sells) — SIM (pretend money) via sim
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HYFM excluded: too thinly traded ($2.0M a day) — Hydrofarm Holdings Group, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYXD2w8ZLE8Qe5fDLSAC'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25394.36 (+1.58% on $25000.00 in) · cash $10410.67 · realised +410.67
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [stop_loss @ $35.10] -> $2999.01 (-0.03%) — close it all at -0.8% under the average cost
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $261.59] -> $3009.04 (+0.30%) — close 100% at +0.3% over the average cost
+## 2026-10-30 09:45 ET — tick — 2 sell(s), 0 buy(s) from standing orders
