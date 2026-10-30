@@ -1,42 +1,42 @@
 {
   "week": "2026-W44",
-  "spent": 24011.27,
-  "deployed": 204750.0,
+  "spent": 23966.63,
+  "deployed": 213750.0,
   "by_ticker": {
     "WSM": 1.22,
-    "FITB": 3036.16,
+    "FITB": 34.44,
     "CRBG": 5.2,
     "GPI": 10.32,
-    "LRN": 39.66,
+    "LRN": 3039.66,
     "BBT": 3027.48,
     "NXPI": 3011.84,
     "PDI": 3.28,
     "ACN": 2.57,
     "EL": 3030.41,
-    "CACI": 0.22,
-    "OLN": 3008.09,
+    "CACI": 3000.22,
     "ADI": 3003.38,
     "RPM": 0.23,
     "GH": 3002.71,
-    "TFC": 3000.0
+    "DINO": 3000.0
   },
   "deployed_by_ticker": {
     "EL": 22500.0,
     "FITB": 21750.0,
     "ADI": 21000.0,
-    "CACI": 20250.0,
+    "CACI": 23250.0,
     "NXPI": 22500.0,
     "WSM": 20250.0,
     "CRBG": 8250.0,
     "OLN": 18000.0,
     "GPI": 5250.0,
     "GH": 12000.0,
-    "LRN": 5250.0,
+    "LRN": 8250.0,
     "PDI": 3750.0,
     "BBT": 12750.0,
     "ACN": 1500.0,
     "RPM": 4500.0,
-    "TFC": 5250.0
+    "TFC": 5250.0,
+    "DINO": 3000.0
   },
   "orders": [
     {
@@ -5792,34 +5792,167 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "TFC",
+      "side": "sell",
+      "qty": 60.704463,
+      "status": "filled",
+      "price": 49.52,
+      "proceeds": 3006.39,
+      "realized_pnl": 6.39,
+      "realized_pct": 0.21,
+      "date": "2026-10-30",
+      "time_et": "09:35",
+      "ts": 1793367300,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $49.42",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "OLN",
+      "side": "sell",
+      "qty": 179.676482,
+      "status": "filled",
+      "price": 16.9,
+      "proceeds": 3036.53,
+      "realized_pnl": 36.53,
+      "realized_pct": 1.22,
+      "date": "2026-10-30",
+      "time_et": "09:35",
+      "ts": 1793367300,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $16.7",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "FITB",
+      "side": "sell",
+      "qty": 55.257057,
+      "status": "filled",
+      "price": 54.32,
+      "proceeds": 3001.72,
+      "realized_pnl": 1.72,
+      "realized_pct": 0.06,
+      "date": "2026-10-30",
+      "time_et": "09:35",
+      "ts": 1793367300,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $54.29",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "DINO",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 26.236225,
+      "price": 114.35,
+      "date": "2026-10-30",
+      "time_et": "09:35",
+      "ts": 1793367307,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4, incl. CEO); +1.4% over the month; 66% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "LRN",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 37.768268,
+      "price": 79.43,
+      "date": "2026-10-30",
+      "time_et": "09:35",
+      "ts": 1793367307,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +2.4% over the month; 0% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "CACI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.397068,
+      "price": 682.27,
+      "date": "2026-10-30",
+      "time_et": "09:35",
+      "ts": 1793367307,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +8.8% over the month; 0% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-30",
-  "spent_today": 24000.0,
-  "deployed_today": 24000.0,
-  "orders_today": 8,
-  "sells_today": 0,
-  "sold_today": [],
+  "spent_today": 23955.36,
+  "deployed_today": 33000.0,
+  "orders_today": 11,
+  "sells_today": 3,
+  "sold_today": [
+    "TFC",
+    "OLN",
+    "FITB"
+  ],
   "sold_ts": {
     "ADI": 1793298758,
     "NXPI": 1793289451,
-    "FITB": 1793295935,
+    "FITB": 1793367317,
     "CACI": 1793298396,
     "WSM": 1793294314,
     "CRBG": 1793287827,
     "EL": 1793302170,
     "GPI": 1793121696,
-    "OLN": 1793296337,
+    "OLN": 1793367304,
     "GH": 1793301057,
     "LRN": 1793211732,
     "BBT": 1793298758,
     "PDI": 1793210945,
     "ACN": 1793216684,
     "RPM": 1793302488,
-    "TFC": 1793300487
+    "TFC": 1793367304
   },
-  "last_publish_ts": 1793367153,
-  "last_check_ts": 1793367153,
+  "last_publish_ts": 1793367307,
+  "last_check_ts": 1793367307,
   "exp_arm": {
     "EL": {
       "params": {
@@ -5828,15 +5961,6 @@
       },
       "tags": {
         "hold_long": 90
-      }
-    },
-    "TFC": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
       }
     },
     "GH": {
@@ -5857,15 +5981,6 @@
         "hold_long": 90
       }
     },
-    "FITB": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
     "ADI": {
       "params": {
         "hold_minutes": 120,
@@ -5873,15 +5988,6 @@
       },
       "tags": {
         "hold_long": 120
-      }
-    },
-    "OLN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
       }
     },
     "NXPI": {
@@ -5892,36 +5998,63 @@
       "tags": {
         "hold_long": 90
       }
+    },
+    "DINO": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
+    },
+    "LRN": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
+    },
+    "CACI": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
     }
   },
-  "last_bar_ts": 1793367000,
-  "last_decision_ts": 1793367153,
+  "last_bar_ts": 1793367300,
+  "last_decision_ts": 1793367307,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "d0189066": 49.5218,
-    "27a71350": 54.4181,
+    "17c5a4e8": 110.516,
     "731f5e46": 110.7018,
-    "0fdbd1b4": 31.0348,
-    "0bed7c60": 428.0218,
-    "520dc16b": 265.3302,
-    "aacdc779": 49.1655,
-    "349122b9": 16.7743,
-    "54d0c0a7": 182.7729,
-    "3fd7c3bb": 53.9691,
-    "b7252829": 30.738,
-    "5a796e31": 109.401,
     "d93fdaa3": 422.3804,
-    "8267b024": 16.5143,
-    "30c43527": 261.2357,
     "c749ab5f": 179.5777,
-    "63aad115": 30.0215,
-    "9765db07": 16.199,
-    "021c96d5": 107.0201,
-    "7a8a554e": 47.9374,
+    "de0acba4": 684.4874,
+    "0fdbd1b4": 31.0348,
+    "db39ed9c": 79.7414,
+    "69b1e30d": 114.9469,
+    "b7252829": 30.738,
+    "520dc16b": 265.3302,
+    "f67cd1c3": 676.7231,
+    "30c43527": 261.2357,
+    "691e9e54": 78.6524,
+    "0bed7c60": 428.0218,
+    "a5660681": 112.8589,
+    "54d0c0a7": 182.7729,
     "656b1413": 176.4042,
-    "236f8042": 52.6613,
     "f1f95602": 413.6177,
-    "389e0cd3": 256.2352
+    "389e0cd3": 256.2352,
+    "63aad115": 30.0215,
+    "b9c9ec66": 110.9195,
+    "adac584a": 77.0471,
+    "1378f0b8": 661.8019,
+    "021c96d5": 107.0201
   }
 }

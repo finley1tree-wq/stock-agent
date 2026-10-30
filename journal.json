@@ -84931,7 +84931,8 @@
     "hour_et": 9,
     "code_version": "1ff3480",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.19
   },
   {
     "symbol": "TFC",
@@ -84961,7 +84962,10 @@
     "hour_et": 9,
     "code_version": "1ff3480",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.21,
+    "ret_now": 0.21,
+    "ret_src": "realised"
   },
   {
     "symbol": "GH",
@@ -84991,7 +84995,8 @@
     "hour_et": 9,
     "code_version": "1ff3480",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.87
   },
   {
     "symbol": "BBT",
@@ -85021,7 +85026,8 @@
     "hour_et": 9,
     "code_version": "1ff3480",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.0
   },
   {
     "symbol": "FITB",
@@ -85051,7 +85057,10 @@
     "hour_et": 9,
     "code_version": "1ff3480",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.06,
+    "ret_now": 0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -85081,7 +85090,8 @@
     "hour_et": 9,
     "code_version": "1ff3480",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.66
   },
   {
     "symbol": "OLN",
@@ -85111,7 +85121,10 @@
     "hour_et": 9,
     "code_version": "1ff3480",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 1.22,
+    "ret_now": 1.22,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -85140,6 +85153,178 @@
     "momentum_1m_at_entry": 10.42,
     "hour_et": 9,
     "code_version": "1ff3480",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.25
+  },
+  {
+    "symbol": "TFC",
+    "side": "sell",
+    "qty": 60.704463,
+    "status": "filled",
+    "price": 49.52,
+    "proceeds": 3006.39,
+    "realized_pnl": 6.39,
+    "realized_pct": 0.21,
+    "date": "2026-10-30",
+    "time_et": "09:35",
+    "ts": 1793367300,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $49.42",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "b1310db",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "OLN",
+    "side": "sell",
+    "qty": 179.676482,
+    "status": "filled",
+    "price": 16.9,
+    "proceeds": 3036.53,
+    "realized_pnl": 36.53,
+    "realized_pct": 1.22,
+    "date": "2026-10-30",
+    "time_et": "09:35",
+    "ts": 1793367300,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $16.7",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "b1310db",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 55.257057,
+    "status": "filled",
+    "price": 54.32,
+    "proceeds": 3001.72,
+    "realized_pnl": 1.72,
+    "realized_pct": 0.06,
+    "date": "2026-10-30",
+    "time_et": "09:35",
+    "ts": 1793367300,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $54.29",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "b1310db",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "DINO",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 26.236225,
+    "price": 114.35,
+    "date": "2026-10-30",
+    "time_et": "09:35",
+    "ts": 1793367307,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4, incl. CEO); +1.4% over the month; 66% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 114.3,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 1.42,
+    "hour_et": 9,
+    "code_version": "b1310db",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "LRN",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 37.768268,
+    "price": 79.43,
+    "date": "2026-10-30",
+    "time_et": "09:35",
+    "ts": 1793367307,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4); +2.4% over the month; 0% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 79.4,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 2.43,
+    "hour_et": 9,
+    "code_version": "b1310db",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CACI",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.397068,
+    "price": 682.27,
+    "date": "2026-10-30",
+    "time_et": "09:35",
+    "ts": 1793367307,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +8.8% over the month; 0% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 682.0,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 8.76,
+    "hour_et": 9,
+    "code_version": "b1310db",
     "ret_1w": null,
     "ret_1m": null
   }
