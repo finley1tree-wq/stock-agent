@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "904e4827",
-   "ticker": "CACI",
-   "kind": "stop_loss",
-   "price": 654.1752,
-   "status": "cancelled",
-   "created": "2026-10-27 10:25",
-   "created_ts": 1793111132,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $659.79",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-27 11:11",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "fff4f693",
    "ticker": "CACI",
    "kind": "buy_limit",
@@ -7441,7 +7422,7 @@
    "ticker": "CRBG",
    "kind": "stop_loss",
    "price": 34.833,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-30 09:41",
    "created_ts": 1793367666,
    "why": "close it all at -0.8% under the average cost",
@@ -7451,7 +7432,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-30 09:41",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "c4b05994",
@@ -7469,6 +7452,23 @@
    ],
    "good_until": "2026-11-04",
    "usd": 500.0
+  },
+  {
+   "id": "bb99ca79",
+   "ticker": "CRBG",
+   "kind": "stop_loss",
+   "price": 35.158,
+   "status": "working",
+   "created": "2026-10-30 09:41",
+   "created_ts": 1793367714,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $35.11",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-04",
+   "pct_of_position": 100.0
   }
  ],
  "updated": "2026-10-30 09:41"
