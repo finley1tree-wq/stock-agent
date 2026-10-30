@@ -85163,7 +85163,9 @@
     "code_version": "1ff3480",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.89
+    "ret_now": -1.16,
+    "ret_final": -1.16,
+    "ret_src": "realised"
   },
   {
     "symbol": "TFC",
@@ -85684,5 +85686,32 @@
     "hour_et": 9,
     "code_version": "5044223",
     "hold_minutes": 6
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 11.356632,
+    "status": "filled",
+    "price": 261.11,
+    "proceeds": 2965.27,
+    "realized_pnl": -34.73,
+    "realized_pct": -1.16,
+    "date": "2026-10-30",
+    "time_et": "09:55",
+    "ts": 1793368500,
+    "why": "close it all at -1.1% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $264.16",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "d6433e0",
+    "hold_minutes": 22
   }
 ]

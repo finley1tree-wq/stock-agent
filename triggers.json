@@ -6944,7 +6944,7 @@
    "ticker": "NXPI",
    "kind": "take_profit",
    "price": 265.3302,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-30 09:32",
    "created_ts": 1793367153,
    "why": "close 100% at +0.4% over the average cost",
@@ -6954,14 +6954,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-30 09:55",
+   "cancel_reason": "position closed"
   },
   {
    "id": "30c43527",
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 261.2357,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-30 09:32",
    "created_ts": 1793367153,
    "why": "close it all at -1.1% under the average cost",
@@ -6971,14 +6973,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-30 09:55"
   },
   {
    "id": "389e0cd3",
    "ticker": "NXPI",
    "kind": "buy_limit",
    "price": 256.2352,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-30 09:32",
    "created_ts": 1793367153,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6988,7 +6991,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-30 09:55",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f61aa04f",
@@ -7491,5 +7496,5 @@
    "closed": "2026-10-30 09:47"
   }
  ],
- "updated": "2026-10-30 09:52"
+ "updated": "2026-10-30 09:55"
 }
