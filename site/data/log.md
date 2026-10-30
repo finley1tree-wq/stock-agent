@@ -1,24 +1,3 @@
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX3LtLecr8Pduwexs7uv'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25386.53 (+1.55% on $25000.00 in) · cash $22387.26 · realised +387.26
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-29 15:01 ET (Thursday) — week 2026-W44 — budget left $21990.54 (today $54000.00 put to work, 39 buys, 35 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-  (cancelled 1 standing order(s) on TFC: position closed)
-- SELL 100% TFC [take_profit @ $49.27] -> $751.59 (+0.21%) — close 100% at +0.2% over the average cost
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX3aSptNHEHinPNSKh4z'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25386.41 (+1.55% on $25000.00 in) · cash $23138.85 · realised +388.85
@@ -398,3 +377,24 @@ Done: 1 sell(s), 3 buy(s) (incl. 1 from standing orders); 24 order(s) working; b
   (cancelled 2 standing order(s) on ADI: position closed)
 - SELL 100% ADI [stop_loss @ $422.17] -> $2970.20 (-0.99%) — close it all at -0.9% under the average cost
 ## 2026-10-30 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-30 09:38 ET (Friday) — week 2026-W44 — budget left $7029.92 (today $33000.00 put to work, 11 buys, 5 sells) — SIM (pretend money) via sim
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HYFM excluded: too thinly traded ($2.0M a day) — Hydrofarm Holdings Group, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYWjtjzhDgSMdUYGfAJG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $7,030 idle, so opened 2: WSM, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +11.7% over the month; 0% of today's range
+- BUY $3000.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer): David J. Taylor; +3.6% over the month; 38% of today's range
+~ WORKING take_profit 100% WSM @ $261.52 until 2026-11-04 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $258.99 until 2026-11-04 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $252.98 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RPM @ $103.14 until 2026-11-04 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% RPM @ $102.23 until 2026-11-04 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 RPM @ $99.79 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25430.29 (+1.72% on $25000.00 in) · cash $1426.63 · realised +426.63
+Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $1029.92 this week

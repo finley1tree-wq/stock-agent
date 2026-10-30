@@ -1,9 +1,9 @@
 {
   "week": "2026-W44",
-  "spent": 17970.08,
-  "deployed": 213750.0,
+  "spent": 23970.08,
+  "deployed": 219750.0,
   "by_ticker": {
-    "WSM": 1.22,
+    "WSM": 3001.22,
     "FITB": 34.44,
     "CRBG": 5.2,
     "GPI": 10.32,
@@ -15,7 +15,7 @@
     "EL": 3030.41,
     "CACI": 3000.22,
     "ADI": 33.18,
-    "RPM": 0.23,
+    "RPM": 3000.23,
     "DINO": 3000.0
   },
   "deployed_by_ticker": {
@@ -24,7 +24,7 @@
     "ADI": 21000.0,
     "CACI": 23250.0,
     "NXPI": 22500.0,
-    "WSM": 20250.0,
+    "WSM": 23250.0,
     "CRBG": 8250.0,
     "OLN": 18000.0,
     "GPI": 5250.0,
@@ -33,7 +33,7 @@
     "PDI": 3750.0,
     "BBT": 12750.0,
     "ACN": 1500.0,
-    "RPM": 4500.0,
+    "RPM": 7500.0,
     "TFC": 5250.0,
     "DINO": 3000.0
   },
@@ -5962,12 +5962,56 @@
       ],
       "evidence": "average cost $426.41",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "WSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.502879,
+      "price": 260.8,
+      "date": "2026-10-30",
+      "time_et": "09:38",
+      "ts": 1793367484,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +11.7% over the month; 0% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "RPM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 29.159865,
+      "price": 102.88,
+      "date": "2026-10-30",
+      "time_et": "09:38",
+      "ts": 1793367484,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): David J. Taylor; +3.6% over the month; 38% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-10-30",
-  "spent_today": 17958.81,
-  "deployed_today": 33000.0,
-  "orders_today": 11,
+  "spent_today": 23958.81,
+  "deployed_today": 39000.0,
+  "orders_today": 13,
   "sells_today": 5,
   "sold_today": [
     "TFC",
@@ -5994,19 +6038,10 @@
     "RPM": 1793302488,
     "TFC": 1793367304
   },
-  "last_publish_ts": 1793367403,
-  "last_check_ts": 1793367403,
+  "last_publish_ts": 1793367484,
+  "last_check_ts": 1793367484,
   "exp_arm": {
     "EL": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "GH": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -6022,15 +6057,6 @@
       },
       "tags": {
         "hold_long": 90
-      }
-    },
-    "ADI": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
       }
     },
     "NXPI": {
@@ -6068,29 +6094,53 @@
       "tags": {
         "hold_long": 90
       }
+    },
+    "WSM": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
+    },
+    "RPM": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
     }
   },
   "last_bar_ts": 1793367300,
-  "last_decision_ts": 1793367307,
+  "last_decision_ts": 1793367484,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "17c5a4e8": 110.516,
-    "b7252829": 30.738,
-    "731f5e46": 110.7018,
-    "17d21970": 685.738,
     "69b1e30d": 114.9469,
-    "30c43527": 261.2357,
+    "b7252829": 30.738,
+    "17d21970": 685.738,
+    "c9bfb9cd": 114.866,
+    "3296c134": 103.1403,
+    "17c5a4e8": 110.516,
+    "90320989": 261.525,
     "de0acba4": 684.4874,
+    "731f5e46": 110.7018,
+    "e3798588": 102.2298,
     "db39ed9c": 79.7414,
+    "cb3a53f0": 258.99,
+    "30c43527": 261.2357,
     "0fdbd1b4": 31.0348,
     "691e9e54": 78.6524,
     "520dc16b": 265.3302,
-    "a5660681": 112.8589,
-    "389e0cd3": 256.2352,
     "63aad115": 30.0215,
+    "389e0cd3": 256.2352,
     "adac584a": 77.0471,
     "021c96d5": 107.0201,
+    "8db77f76": 252.976,
+    "54034bbe": 99.7936,
     "b9c9ec66": 110.9195,
     "1378f0b8": 661.8019
   }

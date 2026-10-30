@@ -84932,7 +84932,7 @@
     "code_version": "1ff3480",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": -0.09
   },
   {
     "symbol": "TFC",
@@ -84996,7 +84996,9 @@
     "code_version": "1ff3480",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.87
+    "ret_now": 0.88,
+    "ret_final": 0.88,
+    "ret_src": "realised"
   },
   {
     "symbol": "BBT",
@@ -85027,7 +85029,7 @@
     "code_version": "1ff3480",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": -0.36
   },
   {
     "symbol": "FITB",
@@ -85091,7 +85093,9 @@
     "code_version": "1ff3480",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.66
+    "ret_now": -0.99,
+    "ret_final": -0.99,
+    "ret_src": "realised"
   },
   {
     "symbol": "OLN",
@@ -85155,7 +85159,7 @@
     "code_version": "1ff3480",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.25
+    "ret_now": -0.41
   },
   {
     "symbol": "TFC",
@@ -85266,7 +85270,8 @@
     "hour_et": 9,
     "code_version": "b1310db",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.74
   },
   {
     "symbol": "LRN",
@@ -85296,7 +85301,8 @@
     "hour_et": 9,
     "code_version": "b1310db",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.19
   },
   {
     "symbol": "CACI",
@@ -85326,7 +85332,8 @@
     "hour_et": 9,
     "code_version": "b1310db",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.78
   },
   {
     "symbol": "GH",
@@ -85352,7 +85359,8 @@
     "evidence": "average cost $181.86",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "7ba55d5"
+    "code_version": "7ba55d5",
+    "hold_minutes": 2
   },
   {
     "symbol": "ADI",
@@ -85378,6 +85386,67 @@
     "evidence": "average cost $426.41",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "7ba55d5"
+    "code_version": "7ba55d5",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "WSM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 11.502879,
+    "price": 260.8,
+    "date": "2026-10-30",
+    "time_et": "09:38",
+    "ts": 1793367484,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +11.7% over the month; 0% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 260.7,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 11.7,
+    "hour_et": 9,
+    "code_version": "cbe3bf0",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "RPM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 29.159865,
+    "price": 102.88,
+    "date": "2026-10-30",
+    "time_et": "09:38",
+    "ts": 1793367484,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer): David J. Taylor; +3.6% over the month; 38% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 102.84,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 3.65,
+    "hour_et": 9,
+    "code_version": "cbe3bf0",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -1,138 +1,6 @@
 {
  "orders": [
   {
-   "id": "158da271",
-   "ticker": "GPI",
-   "kind": "stop_loss",
-   "price": 249.65,
-   "status": "cancelled",
-   "created": "2026-10-27 09:44",
-   "created_ts": 1793108654,
-   "why": "close it all at -1.2% under the average cost",
-   "evidence": "average cost $248.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-27 09:46",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ea4b21b6",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 108.266,
-   "status": "filled",
-   "created": "2026-10-27 09:46",
-   "created_ts": 1793108778,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $108.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-27 09:50"
-  },
-  {
-   "id": "04722145",
-   "ticker": "OLN",
-   "kind": "stop_loss",
-   "price": 16.136,
-   "status": "cancelled",
-   "created": "2026-10-27 09:50",
-   "created_ts": 1793109004,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $16.1",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-27 09:50",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "78aedb98",
-   "ticker": "FITB",
-   "kind": "take_profit",
-   "price": 53.2422,
-   "status": "cancelled",
-   "created": "2026-10-27 10:25",
-   "created_ts": 1793111132,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $53.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-27 10:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ebf35c4f",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 52.8151,
-   "status": "cancelled",
-   "created": "2026-10-27 10:25",
-   "created_ts": 1793111132,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $53.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-27 10:34",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "5d23d692",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 51.5264,
-   "status": "cancelled",
-   "created": "2026-10-27 10:25",
-   "created_ts": 1793111132,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $53.12",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-01",
-   "usd": 500.0,
-   "closed": "2026-10-27 10:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "f421a0d8",
-   "ticker": "ADI",
-   "kind": "take_profit",
-   "price": 419.1543,
-   "status": "cancelled",
-   "created": "2026-10-27 10:25",
-   "created_ts": 1793111132,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $417.58",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-27 11:16",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "6a5165ee",
    "ticker": "ADI",
    "kind": "stop_loss",
@@ -7302,7 +7170,7 @@
    "ticker": "DINO",
    "kind": "stop_loss",
    "price": 112.8589,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-30 09:35",
    "created_ts": 1793367307,
    "why": "close it all at -1.3% under the average cost",
@@ -7312,7 +7180,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-30 09:37",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "b9c9ec66",
@@ -7470,7 +7340,126 @@
    ],
    "good_until": "2026-11-04",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "c9bfb9cd",
+   "ticker": "DINO",
+   "kind": "stop_loss",
+   "price": 114.866,
+   "status": "working",
+   "created": "2026-10-30 09:37",
+   "created_ts": 1793367436,
+   "why": "close it all at -1.3% under the average cost",
+   "evidence": "average cost $114.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-04",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "90320989",
+   "ticker": "WSM",
+   "kind": "take_profit",
+   "price": 261.525,
+   "status": "working",
+   "created": "2026-10-30 09:38",
+   "created_ts": 1793367484,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $260.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-04",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "cb3a53f0",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 258.99,
+   "status": "working",
+   "created": "2026-10-30 09:38",
+   "created_ts": 1793367484,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $260.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-04",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8db77f76",
+   "ticker": "WSM",
+   "kind": "buy_limit",
+   "price": 252.976,
+   "status": "working",
+   "created": "2026-10-30 09:38",
+   "created_ts": 1793367484,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $260.8",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-04",
+   "usd": 500.0
+  },
+  {
+   "id": "3296c134",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 103.1403,
+   "status": "working",
+   "created": "2026-10-30 09:38",
+   "created_ts": 1793367484,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $102.88",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-04",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e3798588",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 102.2298,
+   "status": "working",
+   "created": "2026-10-30 09:38",
+   "created_ts": 1793367484,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $102.88",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-04",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "54034bbe",
+   "ticker": "RPM",
+   "kind": "buy_limit",
+   "price": 99.7936,
+   "status": "working",
+   "created": "2026-10-30 09:38",
+   "created_ts": 1793367484,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $102.88",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-04",
+   "usd": 500.0
   }
  ],
- "updated": "2026-10-30 09:36"
+ "updated": "2026-10-30 09:38"
 }
