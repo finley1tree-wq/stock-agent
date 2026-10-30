@@ -1,9 +1,9 @@
 {
   "week": "2026-W44",
-  "spent": 0.0,
-  "deployed": 222750.0,
+  "spent": 2250.0,
+  "deployed": 225000.0,
   "by_ticker": {
-    "FITB": 34.44,
+    "FITB": 784.44,
     "CRBG": 6.19,
     "GPI": 10.32,
     "LRN": 27.26,
@@ -12,20 +12,21 @@
     "PDI": 3.28,
     "ACN": 2.57,
     "EL": 27.4,
-    "ADI": 33.18,
-    "DINO": 1.13
+    "ADI": 783.18,
+    "DINO": 1.13,
+    "GH": 750.0
   },
   "deployed_by_ticker": {
     "EL": 22500.0,
-    "FITB": 21750.0,
-    "ADI": 21000.0,
+    "FITB": 22500.0,
+    "ADI": 21750.0,
     "CACI": 23250.0,
     "NXPI": 22500.0,
     "WSM": 23250.0,
     "CRBG": 11250.0,
     "OLN": 18000.0,
     "GPI": 5250.0,
-    "GH": 12000.0,
+    "GH": 12750.0,
     "LRN": 8250.0,
     "PDI": 3750.0,
     "BBT": 12750.0,
@@ -6214,12 +6215,78 @@
       ],
       "evidence": "average cost $79.43",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "GH",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.145884,
+      "price": 180.9,
+      "date": "2026-10-30",
+      "time_et": "10:23",
+      "ts": 1793370191,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Jonathan L. Jackson), $15,001 - $50,000; +3.5% over the month; 18% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "ADI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 1.799842,
+      "price": 416.7,
+      "date": "2026-10-30",
+      "time_et": "10:23",
+      "ts": 1793370191,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +3.0% over the month; 1% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "FITB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.896202,
+      "price": 53.97,
+      "date": "2026-10-30",
+      "time_et": "10:23",
+      "ts": 1793370191,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): David J. Taylor; +7.0% over the month; 17% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-10-30",
-  "spent_today": 0.0,
-  "deployed_today": 42000.0,
-  "orders_today": 14,
+  "spent_today": 2250.0,
+  "deployed_today": 44250.0,
+  "orders_today": 17,
   "sells_today": 14,
   "sold_today": [
     "TFC",
@@ -6256,10 +6323,10 @@
     "TFC": 1793367304,
     "DINO": 1793367618
   },
-  "last_publish_ts": 1793368787,
-  "last_check_ts": 1793369952,
+  "last_publish_ts": 1793370191,
+  "last_check_ts": 1793370191,
   "exp_arm": {
-    "BBT": {
+    "GH": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -6268,25 +6335,7 @@
         "hold_long": 90
       }
     },
-    "NXPI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "LRN": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "WSM": {
+    "ADI": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -6295,16 +6344,7 @@
         "hold_long": 120
       }
     },
-    "RPM": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
-    "CRBG": {
+    "FITB": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -6314,9 +6354,19 @@
       }
     }
   },
-  "last_bar_ts": 1793369700,
-  "last_decision_ts": 1793369952,
-  "next_check_minutes": null,
+  "last_bar_ts": 1793370000,
+  "last_decision_ts": 1793370191,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "fd751885": 54.1022,
+    "20338d6c": 418.3668,
+    "2c33be5e": 181.8135,
+    "ca6f5816": 53.6397,
+    "671b54e9": 412.5288,
+    "2aede174": 178.617,
+    "6796d3e3": 175.473,
+    "886d53f4": 52.3509,
+    "3ec83ca2": 404.199
+  }
 }

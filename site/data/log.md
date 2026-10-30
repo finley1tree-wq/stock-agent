@@ -1,126 +1,3 @@
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-29 15:27 ET (Thursday) — week 2026-W44 — budget left $23489.42 (today $54000.00 put to work, 39 buys, 37 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX5cJvexatpLDYrhaNzB'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25385.91 (+1.54% on $25000.00 in) · cash $23886.14 · realised +386.14
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% EL [time stop] -> $749.54 (-0.06%) — held 90 min, the 90-minute limit: out regardless
-## 2026-10-29 15:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-29 15:30 ET (Thursday) — week 2026-W44 — budget left $24238.96 (today $54000.00 put to work, 39 buys, 38 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX5qRk2zaDCMxcMDVGx2'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25385.89 (+1.54% on $25000.00 in) · cash $24635.68 · realised +385.68
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-29 15:33 ET (Thursday) — week 2026-W44 — budget left $24238.96 (today $54000.00 put to work, 39 buys, 38 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX64x1ZvPfsXDA3BbkG7'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25385.60 (+1.54% on $25000.00 in) · cash $24635.68 · realised +385.68
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% RPM [time stop] -> $749.77 (-0.03%) — held 120 min, the 120-minute limit: out regardless
-## 2026-10-29 15:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-10-29 15:37 ET (Thursday) — week 2026-W44 — budget left $24988.73 (today $54000.00 put to work, 39 buys, 39 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX6JLRJw99DE4aZt9GdS'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25385.45 (+1.54% on $25000.00 in) · cash $25385.45 · realised +385.45
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-29 15:39 ET (Thursday) — week 2026-W44 — budget left $24988.73 (today $54000.00 put to work, 39 buys, 39 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX6XHekHkp9NfUN8iF6v'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25385.45 (+1.54% on $25000.00 in) · cash $25385.45 · realised +385.45
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-29 15:42 ET (Thursday) — week 2026-W44 — budget left $24988.73 (today $54000.00 put to work, 39 buys, 39 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX6kKXxPifR14Jfs4oTp'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25385.45 (+1.54% on $25000.00 in) · cash $25385.45 · realised +385.45
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-29 15:45 ET (Thursday) — week 2026-W44 — budget left $24988.73 (today $54000.00 put to work, 39 buys, 39 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX6yjVDrypR1VEb9iP8Q'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25385.45 (+1.54% on $25000.00 in) · cash $25385.45 · realised +385.45
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-29 15:48 ET (Thursday) — week 2026-W44 — budget left $24988.73 (today $54000.00 put to work, 39 buys, 39 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX7CyRV1WKKZrq2xQgBW'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25385.45 (+1.54% on $25000.00 in) · cash $25385.45 · realised +385.45
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
@@ -398,3 +275,126 @@ Decision: nothing at this check. 3 standing order(s) working.
   (cancelled 2 standing order(s) on LRN: position closed)
 - SELL 100% LRN [take_profit @ $79.76] -> $3012.40 (+0.41%) — close 100% at +0.4% over the average cost
 ## 2026-10-30 09:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-30 10:01 ET (Friday) — week 2026-W44 — budget left $25000.00 (today $42000.00 put to work, 14 buys, 14 sells) — SIM (pretend money) via sim
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HYFM excluded: too thinly traded ($2.0M a day) — Hydrofarm Holdings Group, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYYZGriBvc4CHzj3vPqx'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25398.35 (+1.59% on $25000.00 in) · cash $25398.35 · realised +398.35
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-30 10:04 ET (Friday) — week 2026-W44 — budget left $25000.00 (today $42000.00 put to work, 14 buys, 14 sells) — SIM (pretend money) via sim
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HYFM excluded: too thinly traded ($2.0M a day) — Hydrofarm Holdings Group, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYYnHvZ32wVZWiadJ3z5'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25398.35 (+1.59% on $25000.00 in) · cash $25398.35 · realised +398.35
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-30 10:07 ET (Friday) — week 2026-W44 — budget left $25000.00 (today $42000.00 put to work, 14 buys, 14 sells) — SIM (pretend money) via sim
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HYFM excluded: too thinly traded ($2.0M a day) — Hydrofarm Holdings Group, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYYzkejtF41GGCBcLpTa'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25398.35 (+1.59% on $25000.00 in) · cash $25398.35 · realised +398.35
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-30 10:10 ET (Friday) — week 2026-W44 — budget left $25000.00 (today $42000.00 put to work, 14 buys, 14 sells) — SIM (pretend money) via sim
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HYFM excluded: too thinly traded ($2.0M a day) — Hydrofarm Holdings Group, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYZDyF8Yf1Rxu7u8P73z'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25398.35 (+1.59% on $25000.00 in) · cash $25398.35 · realised +398.35
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-30 10:13 ET (Friday) — week 2026-W44 — budget left $25000.00 (today $42000.00 put to work, 14 buys, 14 sells) — SIM (pretend money) via sim
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HYFM excluded: too thinly traded ($2.0M a day) — Hydrofarm Holdings Group, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYZSjrbSCPfmhjUpVmPL'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25398.35 (+1.59% on $25000.00 in) · cash $25398.35 · realised +398.35
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-30 10:16 ET (Friday) — week 2026-W44 — budget left $25000.00 (today $42000.00 put to work, 14 buys, 14 sells) — SIM (pretend money) via sim
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HYFM excluded: too thinly traded ($2.0M a day) — Hydrofarm Holdings Group, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYZf4DULgss9738mpL6k'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25398.35 (+1.59% on $25000.00 in) · cash $25398.35 · realised +398.35
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-30 10:19 ET (Friday) — week 2026-W44 — budget left $25000.00 (today $42000.00 put to work, 14 buys, 14 sells) — SIM (pretend money) via sim
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HYFM excluded: too thinly traded ($2.0M a day) — Hydrofarm Holdings Group, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYZsQwzE9L9MFNSjsBMK'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25398.35 (+1.59% on $25000.00 in) · cash $25398.35 · realised +398.35
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-30 10:23 ET (Friday) — week 2026-W44 — budget left $25000.00 (today $42000.00 put to work, 14 buys, 14 sells) — SIM (pretend money) via sim
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HYFM excluded: too thinly traded ($2.0M a day) — Hydrofarm Holdings Group, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYaB1GTNWSPiZ8dD4EhU'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 3: GH, ADI, FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 GH [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Jonathan L. Jackson), $15,001 - $50,000; +3.5% over the month; 18% of today's range
+- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +3.0% over the month; 1% of today's range
+- BUY $750.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer): David J. Taylor; +7.0% over the month; 17% of today's range
+~ WORKING take_profit 100% GH @ $181.81 until 2026-11-04 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% GH @ $178.62 until 2026-11-04 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 GH @ $175.47 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ADI @ $418.37 until 2026-11-04 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% ADI @ $412.53 until 2026-11-04 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $404.20 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FITB @ $54.10 until 2026-11-04 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% FITB @ $53.64 until 2026-11-04 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $52.35 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25397.60 (+1.59% on $25000.00 in) · cash $23148.35 · realised +398.35
+Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $22750.00 this week

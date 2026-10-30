@@ -53461,3 +53461,28 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25398.35 (+1.59% on $25000.00 in) · cash $25398.35 · realised +398.35
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-10-30 10:23 ET (Friday) — week 2026-W44 — budget left $25000.00 (today $42000.00 put to work, 14 buys, 14 sells) — SIM (pretend money) via sim
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HYFM excluded: too thinly traded ($2.0M a day) — Hydrofarm Holdings Group, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYaB1GTNWSPiZ8dD4EhU'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 3: GH, ADI, FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 GH [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Jonathan L. Jackson), $15,001 - $50,000; +3.5% over the month; 18% of today's range
+- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +3.0% over the month; 1% of today's range
+- BUY $750.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer): David J. Taylor; +7.0% over the month; 17% of today's range
+~ WORKING take_profit 100% GH @ $181.81 until 2026-11-04 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% GH @ $178.62 until 2026-11-04 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 GH @ $175.47 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ADI @ $418.37 until 2026-11-04 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% ADI @ $412.53 until 2026-11-04 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $404.20 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FITB @ $54.10 until 2026-11-04 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% FITB @ $53.64 until 2026-11-04 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $52.35 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25397.60 (+1.59% on $25000.00 in) · cash $23148.35 · realised +398.35
+Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $22750.00 this week
