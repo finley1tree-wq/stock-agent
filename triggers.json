@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "fff4f693",
-   "ticker": "CACI",
-   "kind": "buy_limit",
-   "price": 639.9963,
-   "status": "cancelled",
-   "created": "2026-10-27 10:25",
-   "created_ts": 1793111132,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $659.79",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-01",
-   "usd": 500.0,
-   "closed": "2026-10-27 11:11",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "42fc43bb",
    "ticker": "NXPI",
    "kind": "take_profit",
@@ -6738,7 +6719,7 @@
    "ticker": "BBT",
    "kind": "take_profit",
    "price": 31.0348,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-30 09:32",
    "created_ts": 1793367153,
    "why": "close 100% at +0.3% over the average cost",
@@ -6748,14 +6729,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-30 09:43",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b7252829",
    "ticker": "BBT",
    "kind": "stop_loss",
    "price": 30.738,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-30 09:32",
    "created_ts": 1793367153,
    "why": "close it all at -0.7% under the average cost",
@@ -6765,14 +6748,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-30 09:43"
   },
   {
    "id": "63aad115",
    "ticker": "BBT",
    "kind": "buy_limit",
    "price": 30.0215,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-30 09:32",
    "created_ts": 1793367153,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6782,7 +6766,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-30 09:43",
+   "cancel_reason": "position closed"
   },
   {
    "id": "27a71350",
@@ -7371,7 +7357,7 @@
    "ticker": "RPM",
    "kind": "stop_loss",
    "price": 102.2298,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-30 09:38",
    "created_ts": 1793367484,
    "why": "close it all at -0.6% under the average cost",
@@ -7381,7 +7367,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-30 09:43",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "54034bbe",
@@ -7469,7 +7457,24 @@
    ],
    "good_until": "2026-11-04",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "cdba7127",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 103.0,
+   "status": "working",
+   "created": "2026-10-30 09:43",
+   "created_ts": 1793367805,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $102.88",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-04",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-10-30 09:41"
+ "updated": "2026-10-30 09:44"
 }

@@ -85031,7 +85031,9 @@
     "code_version": "1ff3480",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.36
+    "ret_now": -1.04,
+    "ret_final": -1.04,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -85161,7 +85163,7 @@
     "code_version": "1ff3480",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.18
+    "ret_now": -0.27
   },
   {
     "symbol": "TFC",
@@ -85424,7 +85426,7 @@
     "code_version": "cbe3bf0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": 0.17
   },
   {
     "symbol": "RPM",
@@ -85455,7 +85457,7 @@
     "code_version": "cbe3bf0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.03
+    "ret_now": 0.23
   },
   {
     "symbol": "EL",
@@ -85566,6 +85568,34 @@
     "hour_et": 9,
     "code_version": "69ebdbb",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.09
+  },
+  {
+    "symbol": "BBT",
+    "side": "sell",
+    "qty": 96.927652,
+    "status": "filled",
+    "price": 30.63,
+    "proceeds": 2968.86,
+    "realized_pnl": -31.14,
+    "realized_pct": -1.04,
+    "date": "2026-10-30",
+    "time_et": "09:43",
+    "ts": 1793367600,
+    "why": "close it all at -0.7% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $30.95",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "6e4c865",
+    "hold_minutes": 7
   }
 ]

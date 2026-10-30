@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-30T09:41-04:00",
- "note": "tick: watching",
+ "asOf": "2026-10-30T09:43-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,17 +178,34 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "912fa519",
-   "ticker": "CRBG",
+   "id": "3296c134",
+   "ticker": "RPM",
    "kind": "take_profit",
-   "price": 35.2209,
+   "price": 103.1403,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 35.19,
-   "pct_away": 0.09,
+   "last": 103.08,
+   "pct_away": 0.06,
    "good_until": "2026-11-04",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "cdba7127",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 103.0,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 103.08,
+   "pct_away": -0.08,
+   "good_until": "2026-11-04",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,27 +219,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 35.19,
-   "pct_away": -0.09,
+   "last": 35.09,
+   "pct_away": 0.19,
    "good_until": "2026-11-04",
    "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3296c134",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 103.1403,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 102.95,
-   "pct_away": 0.18,
-   "good_until": "2026-11-04",
-   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 260.96,
-   "pct_away": 0.22,
+   "last": 260.7,
+   "pct_away": 0.32,
    "good_until": "2026-11-04",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -246,17 +246,34 @@
    ]
   },
   {
-   "id": "b7252829",
-   "ticker": "BBT",
-   "kind": "stop_loss",
-   "price": 30.738,
+   "id": "912fa519",
+   "ticker": "CRBG",
+   "kind": "take_profit",
+   "price": 35.2209,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 30.81,
-   "pct_away": -0.23,
+   "last": 35.09,
+   "pct_away": 0.37,
    "good_until": "2026-11-04",
-   "why": "close it all at -0.7% under the average cost",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "30c43527",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 261.2357,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 262.4,
+   "pct_away": -0.44,
+   "good_until": "2026-11-04",
+   "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -280,57 +297,6 @@
    ]
   },
   {
-   "id": "30c43527",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 261.2357,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 262.81,
-   "pct_away": -0.6,
-   "good_until": "2026-11-04",
-   "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e3798588",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 102.2298,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 102.95,
-   "pct_away": -0.7,
-   "good_until": "2026-11-04",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0fdbd1b4",
-   "ticker": "BBT",
-   "kind": "take_profit",
-   "price": 31.0348,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 30.81,
-   "pct_away": 0.73,
-   "good_until": "2026-11-04",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "cb3a53f0",
    "ticker": "WSM",
    "kind": "stop_loss",
@@ -338,8 +304,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 260.96,
-   "pct_away": -0.75,
+   "last": 260.7,
+   "pct_away": -0.66,
    "good_until": "2026-11-04",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -372,8 +338,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 262.81,
-   "pct_away": 0.96,
+   "last": 262.4,
+   "pct_away": 1.12,
    "good_until": "2026-11-04",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -389,25 +355,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 262.81,
-   "pct_away": -2.5,
-   "good_until": "2026-11-04",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "63aad115",
-   "ticker": "BBT",
-   "kind": "buy_limit",
-   "price": 30.0215,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 30.81,
-   "pct_away": -2.56,
+   "last": 262.4,
+   "pct_away": -2.35,
    "good_until": "2026-11-04",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -433,6 +382,23 @@
    ]
   },
   {
+   "id": "c4b05994",
+   "ticker": "CRBG",
+   "kind": "buy_limit",
+   "price": 34.0567,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 35.09,
+   "pct_away": -2.94,
+   "good_until": "2026-11-04",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "8db77f76",
    "ticker": "WSM",
    "kind": "buy_limit",
@@ -440,8 +406,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 260.96,
-   "pct_away": -3.06,
+   "last": 260.7,
+   "pct_away": -2.96,
    "good_until": "2026-11-04",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -457,25 +423,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 102.95,
-   "pct_away": -3.07,
-   "good_until": "2026-11-04",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c4b05994",
-   "ticker": "CRBG",
-   "kind": "buy_limit",
-   "price": 34.0567,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 35.19,
-   "pct_away": -3.22,
+   "last": 103.08,
+   "pct_away": -3.19,
    "good_until": "2026-11-04",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

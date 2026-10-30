@@ -1,6 +1,3 @@
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX42Pon6BPorC7dLwxRA'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 CRBG @ $34.06 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25399.71 (+1.60% on $25000.00 in) · cash $7441.81 · realised +441.81
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $7045.10 this week
+  (cancelled 2 standing order(s) on BBT: position closed)
+- SELL 100% BBT [stop_loss @ $30.63] -> $2968.86 (-1.04%) — close it all at -0.7% under the average cost
+## 2026-10-30 09:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
