@@ -1,51 +1,6 @@
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
-## 2026-10-29 14:44 ET (Thursday) — week 2026-W44 — budget left $21990.54 (today $54000.00 put to work, 39 buys, 35 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX2Ha3s8HiHHhPWhZas2'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25379.58 (+1.52% on $25000.00 in) · cash $22387.26 · realised +387.26
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-29 14:47 ET (Thursday) — week 2026-W44 — budget left $21990.54 (today $54000.00 put to work, 39 buys, 35 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX2WqQCnaL4bf8NdsfkA'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25382.93 (+1.53% on $25000.00 in) · cash $22387.26 · realised +387.26
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-29 14:50 ET (Thursday) — week 2026-W44 — budget left $21990.54 (today $54000.00 put to work, 39 buys, 35 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgX2jwCKdn9dRwYRoVkkz'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25382.99 (+1.53% on $25000.00 in) · cash $22387.26 · realised +387.26
-Decision: nothing at this check. 8 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-10-29 14:52 ET (Thursday) — week 2026-W44 — budget left $21990.54 (today $54000.00 put to work, 39 buys, 35 sells) — SIM (pretend money) via sim
   (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
@@ -398,3 +353,48 @@ portfolio: equity $25385.45 (+1.54% on $25000.00 in) · cash $25385.45 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-29 16:00 ET — published the session's closing state
+
+## 2026-10-30 09:32 ET (Friday) — week 2026-W44 — budget left $24988.73 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
+  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYWPCfveQce628XGPQQT'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,989 idle, so opened 8: EL, TFC, GH, BBT, FITB, ADI, OLN, NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Jonathan L. Jackson), $50,001 - $100,000; +22.3% over the month; 56% of today's range
+- BUY $3000.00 TFC [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4, incl. Pres, CEO); +6.7% over the month; 27% of today's range
+- BUY $3000.00 GH [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Jonathan L. Jackson), $15,001 - $50,000; +4.0% over the month; 42% of today's range
+- BUY $3000.00 BBT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +10.0% over the month; 0% of today's range
+- BUY $3000.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer): David J. Taylor; +7.7% over the month; 6% of today's range
+- BUY $3000.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +5.4% over the month; 57% of today's range
+- BUY $3000.00 OLN [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +4.6% over the month; 59% of today's range
+- BUY $3000.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +10.4% over the month; 78% of today's range
+~ WORKING take_profit 100% EL @ $110.70 until 2026-11-04 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% EL @ $109.40 until 2026-11-04 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 EL @ $107.02 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% TFC @ $49.52 until 2026-11-04 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% TFC @ $49.17 until 2026-11-04 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 TFC @ $47.94 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% GH @ $182.77 until 2026-11-04 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% GH @ $179.58 until 2026-11-04 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 GH @ $176.40 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% BBT @ $31.03 until 2026-11-04 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% BBT @ $30.74 until 2026-11-04 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 BBT @ $30.02 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FITB @ $54.42 until 2026-11-04 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% FITB @ $53.97 until 2026-11-04 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $52.66 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ADI @ $428.02 until 2026-11-04 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% ADI @ $422.38 until 2026-11-04 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $413.62 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% OLN @ $16.77 until 2026-11-04 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% OLN @ $16.51 until 2026-11-04 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 OLN @ $16.20 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NXPI @ $265.33 until 2026-11-04 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% NXPI @ $261.24 until 2026-11-04 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $256.24 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25375.25 (+1.50% on $25000.00 in) · cash $1385.45 · realised +385.45
+Done: 0 sell(s), 8 buy(s); 24 order(s) working; budget left $988.73 this week
