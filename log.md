@@ -53363,3 +53363,17 @@ Decision: nothing at this check. 3 standing order(s) working.
   (cancelled 2 standing order(s) on LRN: position closed)
 - SELL 100% LRN [take_profit @ $79.76] -> $3012.40 (+0.41%) — close 100% at +0.4% over the average cost
 ## 2026-10-30 09:59 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-30 10:01 ET (Friday) — week 2026-W44 — budget left $25000.00 (today $42000.00 put to work, 14 buys, 14 sells) — SIM (pretend money) via sim
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (HYFM excluded: too thinly traded ($2.0M a day) — Hydrofarm Holdings Group, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYYZGriBvc4CHzj3vPqx'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25398.35 (+1.59% on $25000.00 in) · cash $25398.35 · realised +398.35
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
