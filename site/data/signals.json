@@ -1,6 +1,6 @@
 {
- "asOf": "2026-10-30T09:45-04:00",
- "note": "tick: 2 standing order(s) filled",
+ "asOf": "2026-10-30T09:47-04:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,57 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "3296c134",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 103.1403,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 103.08,
-   "pct_away": 0.06,
-   "good_until": "2026-11-04",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "cdba7127",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 103.0,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 103.08,
-   "pct_away": -0.08,
-   "good_until": "2026-11-04",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "691e9e54",
-   "ticker": "LRN",
-   "kind": "stop_loss",
-   "price": 78.6524,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 79.07,
-   "pct_away": -0.53,
-   "good_until": "2026-11-04",
-   "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "30c43527",
    "ticker": "NXPI",
    "kind": "stop_loss",
@@ -236,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 263.04,
-   "pct_away": -0.69,
+   "last": 262.77,
+   "pct_away": -0.58,
    "good_until": "2026-11-04",
    "why": "close it all at -1.1% under the average cost",
    "signals": [
@@ -253,10 +202,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 79.07,
-   "pct_away": 0.85,
+   "last": 79.22,
+   "pct_away": 0.66,
    "good_until": "2026-11-04",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "691e9e54",
+   "ticker": "LRN",
+   "kind": "stop_loss",
+   "price": 78.6524,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 79.22,
+   "pct_away": -0.72,
+   "good_until": "2026-11-04",
+   "why": "close it all at -1.0% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,27 +236,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 263.04,
-   "pct_away": 0.87,
+   "last": 262.77,
+   "pct_away": 0.97,
    "good_until": "2026-11-04",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "adac584a",
-   "ticker": "LRN",
-   "kind": "buy_limit",
-   "price": 77.0471,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 79.07,
-   "pct_away": -2.56,
-   "good_until": "2026-11-04",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -304,8 +253,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 263.04,
-   "pct_away": -2.59,
+   "last": 262.77,
+   "pct_away": -2.49,
    "good_until": "2026-11-04",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -314,15 +263,15 @@
    ]
   },
   {
-   "id": "54034bbe",
-   "ticker": "RPM",
+   "id": "adac584a",
+   "ticker": "LRN",
    "kind": "buy_limit",
-   "price": 99.7936,
+   "price": 77.0471,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 103.08,
-   "pct_away": -3.19,
+   "last": 79.22,
+   "pct_away": -2.74,
    "good_until": "2026-11-04",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

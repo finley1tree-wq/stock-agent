@@ -1,6 +1,3 @@
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% GH [time stop] -> $747.29 (-0.36%) — held 90 min, the 90-minute limit: out regardless
 ## 2026-10-29 15:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-10-29 15:13 ET (Thursday) — week 2026-W44 — budget left $23489.42 (today $54000.00 put to work, 39 buys, 37 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ Decision: nothing at this check. 15 standing order(s) working.
   (cancelled 2 standing order(s) on WSM: position closed)
 - SELL 100% WSM [take_profit @ $261.59] -> $3009.04 (+0.30%) — close 100% at +0.3% over the average cost
 ## 2026-10-30 09:45 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [stop_loss @ $102.95] -> $3001.96 (+0.07%) — close it all at -0.6% under the average cost
+## 2026-10-30 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders

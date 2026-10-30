@@ -1,6 +1,6 @@
 {
   "week": "2026-W44",
-  "spent": 8977.99,
+  "spent": 5976.03,
   "deployed": 222750.0,
   "by_ticker": {
     "FITB": 34.44,
@@ -13,7 +13,6 @@
     "ACN": 2.57,
     "EL": 27.4,
     "ADI": 33.18,
-    "RPM": 3000.23,
     "DINO": 1.13
   },
   "deployed_by_ticker": {
@@ -6152,13 +6151,34 @@
       ],
       "evidence": "average cost $260.8",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RPM",
+      "side": "sell",
+      "qty": 29.159865,
+      "status": "filled",
+      "price": 102.95,
+      "proceeds": 3001.96,
+      "realized_pnl": 1.96,
+      "realized_pct": 0.07,
+      "date": "2026-10-30",
+      "time_et": "09:47",
+      "ts": 1793367900,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $102.88",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-10-30",
-  "spent_today": 8966.72,
+  "spent_today": 5964.76,
   "deployed_today": 42000.0,
   "orders_today": 14,
-  "sells_today": 11,
+  "sells_today": 12,
   "sold_today": [
     "TFC",
     "OLN",
@@ -6170,7 +6190,8 @@
     "DINO",
     "BBT",
     "CRBG",
-    "WSM"
+    "WSM",
+    "RPM"
   ],
   "sold_ts": {
     "ADI": 1793367404,
@@ -6187,12 +6208,12 @@
     "BBT": 1793367807,
     "PDI": 1793210945,
     "ACN": 1793216684,
-    "RPM": 1793302488,
+    "RPM": 1793368033,
     "TFC": 1793367304,
     "DINO": 1793367618
   },
-  "last_publish_ts": 1793367949,
-  "last_check_ts": 1793367949,
+  "last_publish_ts": 1793368033,
+  "last_check_ts": 1793368036,
   "exp_arm": {
     "BBT": {
       "params": {
@@ -6250,18 +6271,15 @@
     }
   },
   "last_bar_ts": 1793367900,
-  "last_decision_ts": 1793367855,
+  "last_decision_ts": 1793368036,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "3296c134": 103.1403,
-    "cdba7127": 103.0,
-    "691e9e54": 78.6524,
     "30c43527": 261.2357,
     "db39ed9c": 79.7414,
+    "691e9e54": 78.6524,
     "520dc16b": 265.3302,
-    "adac584a": 77.0471,
     "389e0cd3": 256.2352,
-    "54034bbe": 99.7936
+    "adac584a": 77.0471
   }
 }
