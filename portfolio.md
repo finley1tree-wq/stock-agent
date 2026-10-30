@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-10-30 09:50 ET
+# Pretend portfolio — 2026-10-30 09:53 ET
 
-**Equity $25390.51** on $25000.00 put in → **+1.56%**  
-Cash $19420.68 · Unrealised -30.17 · Realised +420.68
+**Equity $25385.40** on $25000.00 put in → **+1.54%**  
+Cash $19420.68 · Unrealised -35.28 · Realised +420.68
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
 | LRN | 11.8% | $2992.00 | $79.43 | $79.22 | -0.27% | 0d |
-| NXPI | 11.7% | $2977.82 | $264.16 | $262.21 | -0.74% | 0d |
+| NXPI | 11.7% | $2972.71 | $264.16 | $261.76 | -0.91% | 0d |
 
 ## Last fills
 
