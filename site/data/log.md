@@ -1,9 +1,3 @@
-
-## 2026-10-29 14:58 ET (Thursday) — week 2026-W44 — budget left $21990.54 (today $54000.00 put to work, 39 buys, 35 sells) — SIM (pretend money) via sim
-  (ACTU excluded: too thinly traded ($0.2M a day) — Actuate Therapeutics, Inc. Common stock)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BFC excluded: too thinly traded ($10.9M a day) — Bank First Corporation)
-  (BPRE excluded: too thinly traded ($11.3M a day) — Bluerock Private Real Estate Fund)
   (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
   (LONA excluded: too thinly traded ($1.0M a day) — LeonaBio, Inc.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
@@ -398,3 +392,9 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 CACI @ $661.80 until 2026-11-04 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25372.04 (+1.49% on $25000.00 in) · cash $1430.08 · realised +430.08
 Done: 1 sell(s), 3 buy(s) (incl. 1 from standing orders); 24 order(s) working; budget left $1033.37 this week
+  (cancelled 2 standing order(s) on GH: position closed)
+- SELL 100% GH [take_profit @ $183.46] -> $3026.35 (+0.88%) — close 100% at +0.5% over the average cost
+## 2026-10-30 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [stop_loss @ $422.17] -> $2970.20 (-0.99%) — close it all at -0.9% under the average cost
+## 2026-10-30 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
