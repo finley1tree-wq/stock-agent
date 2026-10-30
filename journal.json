@@ -84932,7 +84932,9 @@
     "code_version": "1ff3480",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": 0.1,
+    "ret_final": 0.1,
+    "ret_src": "realised"
   },
   {
     "symbol": "TFC",
@@ -85159,7 +85161,7 @@
     "code_version": "1ff3480",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.41
+    "ret_now": -0.18
   },
   {
     "symbol": "TFC",
@@ -85271,7 +85273,9 @@
     "code_version": "b1310db",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.74
+    "ret_now": -0.04,
+    "ret_final": -0.04,
+    "ret_src": "realised"
   },
   {
     "symbol": "LRN",
@@ -85302,7 +85306,7 @@
     "code_version": "b1310db",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.19
+    "ret_now": -0.42
   },
   {
     "symbol": "CACI",
@@ -85333,7 +85337,9 @@
     "code_version": "b1310db",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.78
+    "ret_now": 0.44,
+    "ret_final": 0.44,
+    "ret_src": "realised"
   },
   {
     "symbol": "GH",
@@ -85417,7 +85423,8 @@
     "hour_et": 9,
     "code_version": "cbe3bf0",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.14
   },
   {
     "symbol": "RPM",
@@ -85446,6 +85453,118 @@
     "momentum_1m_at_entry": 3.65,
     "hour_et": 9,
     "code_version": "cbe3bf0",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": -0.03
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 27.190139,
+    "status": "filled",
+    "price": 110.44,
+    "proceeds": 3003.01,
+    "realized_pnl": 3.01,
+    "realized_pct": 0.1,
+    "date": "2026-10-30",
+    "time_et": "09:40",
+    "ts": 1793367600,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $110.33",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "69ebdbb",
+    "hold_minutes": 7
+  },
+  {
+    "symbol": "CACI",
+    "side": "sell",
+    "qty": 4.397068,
+    "status": "filled",
+    "price": 685.3,
+    "proceeds": 3013.3,
+    "realized_pnl": 13.3,
+    "realized_pct": 0.44,
+    "date": "2026-10-30",
+    "time_et": "09:40",
+    "ts": 1793367600,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $682.27",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "69ebdbb",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "DINO",
+    "side": "sell",
+    "qty": 26.236225,
+    "status": "filled",
+    "price": 114.3,
+    "proceeds": 2998.87,
+    "realized_pnl": -1.13,
+    "realized_pct": -0.04,
+    "date": "2026-10-30",
+    "time_et": "09:40",
+    "ts": 1793367600,
+    "why": "close it all at -1.3% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $114.35",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "69ebdbb",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "CRBG",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 85.435911,
+    "price": 35.11,
+    "date": "2026-10-30",
+    "time_et": "09:41",
+    "ts": 1793367666,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "insider net buying (Form 4); +4.3% over the month; 5% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 35.1,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 4.28,
+    "hour_et": 9,
+    "code_version": "69ebdbb",
     "ret_1w": null,
     "ret_1m": null
   }
