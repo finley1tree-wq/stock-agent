@@ -53500,3 +53500,26 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25395.40 (+1.58% on $25000.00 in) · cash $23148.35 · realised +398.35
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 3 resting buy order(s): past the entry cutoff)
+  (trigger FITB take_profit superseded at this check)
+  (trigger GH stop_loss superseded at this check)
+  (trigger ADI stop_loss superseded at this check)
+- SELL 100% FITB [stop_loss @ $53.92] -> $749.32 (-0.09%) — close it all at -0.6% under the average cost
+- SELL 100% GH [take_profit @ $181.81] -> $753.78 (+0.50%) — close 100% at +0.5% over the average cost
+- SELL 100% ADI [take_profit @ $418.37] -> $752.99 (+0.40%) — close 100% at +0.4% over the average cost
+## 2026-10-30 14:26 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-10-30 14:27 ET (Friday) — week 2026-W44 — budget left $25000.00 (today $44250.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
+  (BHRB excluded: too thinly traded ($9.1M a day) — Burke & Herbert Financial Services Corp.)
+  (BMRC excluded: too thinly traded ($4.1M a day) — Bank of Marin Bancorp)
+  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYtrdsobHYkSRsGw5fjh'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25404.45 (+1.62% on $25000.00 in) · cash $25404.45 · realised +404.45
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)

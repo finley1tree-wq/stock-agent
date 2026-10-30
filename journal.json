@@ -85772,7 +85772,9 @@
     "code_version": "7c37a0c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": 0.5,
+    "ret_final": 0.5,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -85803,7 +85805,9 @@
     "code_version": "7c37a0c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.37
+    "ret_now": 0.4,
+    "ret_final": 0.4,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -85834,6 +85838,89 @@
     "code_version": "7c37a0c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": -0.09,
+    "ret_final": -0.09,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 13.896202,
+    "status": "filled",
+    "price": 53.92,
+    "proceeds": 749.32,
+    "realized_pnl": -0.68,
+    "realized_pct": -0.09,
+    "date": "2026-10-30",
+    "time_et": "14:26",
+    "ts": 1793370600,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $53.97",
+    "trigger": "stop_loss",
+    "hour_et": 14,
+    "code_version": "de8b37a",
+    "hold_minutes": 6
+  },
+  {
+    "symbol": "GH",
+    "side": "sell",
+    "qty": 4.145884,
+    "status": "filled",
+    "price": 181.81,
+    "proceeds": 753.78,
+    "realized_pnl": 3.78,
+    "realized_pct": 0.5,
+    "date": "2026-10-30",
+    "time_et": "14:26",
+    "ts": 1793371500,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $180.9",
+    "trigger": "take_profit",
+    "hour_et": 14,
+    "code_version": "de8b37a",
+    "hold_minutes": 21
+  },
+  {
+    "symbol": "ADI",
+    "side": "sell",
+    "qty": 1.799842,
+    "status": "filled",
+    "price": 418.37,
+    "proceeds": 752.99,
+    "realized_pnl": 2.99,
+    "realized_pct": 0.4,
+    "date": "2026-10-30",
+    "time_et": "14:26",
+    "ts": 1793371500,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $416.7",
+    "trigger": "take_profit",
+    "hour_et": 14,
+    "code_version": "de8b37a",
+    "hold_minutes": 21
   }
 ]

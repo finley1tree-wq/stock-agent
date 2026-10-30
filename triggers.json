@@ -7317,7 +7317,7 @@
    "ticker": "GH",
    "kind": "take_profit",
    "price": 181.8135,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-30 10:23",
    "created_ts": 1793370191,
    "why": "close 100% at +0.5% over the average cost",
@@ -7327,14 +7327,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-30 14:26"
   },
   {
    "id": "2aede174",
    "ticker": "GH",
    "kind": "stop_loss",
    "price": 178.617,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-30 10:23",
    "created_ts": 1793370191,
    "why": "close it all at -1.3% under the average cost",
@@ -7344,14 +7345,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-30 14:26",
+   "cancel_reason": "another standing order on the same ticker filled first"
   },
   {
    "id": "6796d3e3",
    "ticker": "GH",
    "kind": "buy_limit",
    "price": 175.473,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-30 10:23",
    "created_ts": 1793370191,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7361,14 +7364,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-30 14:26",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "20338d6c",
    "ticker": "ADI",
    "kind": "take_profit",
    "price": 418.3668,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-30 10:23",
    "created_ts": 1793370191,
    "why": "close 100% at +0.4% over the average cost",
@@ -7378,14 +7383,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-30 14:26"
   },
   {
    "id": "671b54e9",
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 412.5288,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-30 10:23",
    "created_ts": 1793370191,
    "why": "close it all at -1.0% under the average cost",
@@ -7395,14 +7401,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-30 14:26",
+   "cancel_reason": "another standing order on the same ticker filled first"
   },
   {
    "id": "3ec83ca2",
    "ticker": "ADI",
    "kind": "buy_limit",
    "price": 404.199,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-30 10:23",
    "created_ts": 1793370191,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7412,14 +7420,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-30 14:26",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "fd751885",
    "ticker": "FITB",
    "kind": "take_profit",
    "price": 54.1022,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-30 10:23",
    "created_ts": 1793370191,
    "why": "close 100% at +0.2% over the average cost",
@@ -7429,7 +7439,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-30 14:26",
+   "cancel_reason": "another standing order on the same ticker filled first"
   },
   {
    "id": "ca6f5816",
@@ -7455,7 +7467,7 @@
    "ticker": "FITB",
    "kind": "buy_limit",
    "price": 52.3509,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-10-30 10:23",
    "created_ts": 1793370191,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7465,14 +7477,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-10-30 14:26",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "fc8ebfdc",
    "ticker": "FITB",
    "kind": "stop_loss",
    "price": 54.012,
-   "status": "working",
+   "status": "filled",
    "created": "2026-10-30 10:25",
    "created_ts": 1793370315,
    "why": "close it all at -0.6% under the average cost",
@@ -7482,8 +7496,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-04",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-10-30 14:26"
   }
  ],
- "updated": "2026-10-30 10:25"
+ "updated": "2026-10-30 14:27"
 }
