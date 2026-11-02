@@ -85952,7 +85952,7 @@
     "code_version": "4f1641c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": 0.19
   },
   {
     "symbol": "EL",
@@ -85983,7 +85983,9 @@
     "code_version": "4f1641c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.26
+    "ret_now": 0.38,
+    "ret_final": 0.38,
+    "ret_src": "realised"
   },
   {
     "symbol": "GH",
@@ -86014,7 +86016,9 @@
     "code_version": "4f1641c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.85
+    "ret_now": -1.35,
+    "ret_final": -1.35,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -86111,7 +86115,7 @@
     "code_version": "4f1641c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": -0.09
   },
   {
     "symbol": "NXPI",
@@ -86195,6 +86199,61 @@
     "hour_et": 9,
     "code_version": "c23d046",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.08
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 27.587861,
+    "status": "filled",
+    "price": 109.16,
+    "proceeds": 3011.48,
+    "realized_pnl": 11.48,
+    "realized_pct": 0.38,
+    "date": "2026-11-02",
+    "time_et": "09:38",
+    "ts": 1793630100,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $108.74",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "84d0c48",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "GH",
+    "side": "sell",
+    "qty": 16.828286,
+    "status": "filled",
+    "price": 175.86,
+    "proceeds": 2959.38,
+    "realized_pnl": -40.62,
+    "realized_pct": -1.35,
+    "date": "2026-11-02",
+    "time_et": "09:38",
+    "ts": 1793630100,
+    "why": "close it all at -1.3% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $178.27",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "84d0c48",
+    "hold_minutes": 2
   }
 ]
