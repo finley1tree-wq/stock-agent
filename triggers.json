@@ -7294,7 +7294,7 @@
    "ticker": "EL",
    "kind": "take_profit",
    "price": 109.068,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-02 11:18",
    "created_ts": 1793636326,
    "why": "close 100% at +0.4% over the average cost",
@@ -7304,7 +7304,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-02 11:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "1cf8e96f",
@@ -7330,7 +7332,7 @@
    "ticker": "EL",
    "kind": "buy_limit",
    "price": 105.3808,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-02 11:18",
    "created_ts": 1793636326,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7340,14 +7342,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-07",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-02 11:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "fcd409c4",
    "ticker": "EL",
    "kind": "stop_loss",
    "price": 108.772,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-02 11:31",
    "created_ts": 1793637071,
    "why": "close it all at -1.0% under the average cost",
@@ -7357,7 +7361,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-02 11:35"
   },
   {
    "id": "c179afb5",
@@ -7479,5 +7484,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-11-02 11:34"
+ "updated": "2026-11-02 11:35"
 }

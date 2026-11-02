@@ -1,10 +1,10 @@
 {
   "week": "2026-W45",
-  "spent": 3015.75,
+  "spent": 2266.22,
   "deployed": 36000.0,
   "by_ticker": {
     "GH": 40.62,
-    "EL": 757.75,
+    "EL": 8.22,
     "NXPI": 9.22,
     "FITB": 0.13,
     "CRBG": 6.69,
@@ -843,13 +843,34 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 6.903316,
+      "status": "filled",
+      "price": 108.58,
+      "proceeds": 749.53,
+      "realized_pnl": -0.47,
+      "realized_pct": -0.06,
+      "date": "2026-11-02",
+      "time_et": "11:35",
+      "ts": 1793637300,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $108.64",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-02",
-  "spent_today": 3015.75,
+  "spent_today": 2266.22,
   "deployed_today": 36000.0,
   "orders_today": 21,
-  "sells_today": 17,
+  "sells_today": 18,
   "sold_today": [
     "NXPI",
     "ADI",
@@ -865,7 +886,7 @@
   "sold_ts": {
     "NXPI": 1793635871,
     "ADI": 1793634254,
-    "EL": 1793633618,
+    "EL": 1793637326,
     "GH": 1793630325,
     "RPM": 1793630430,
     "WSM": 1793634343,
@@ -874,8 +895,8 @@
     "CACI": 1793634553,
     "PLD": 1793632595
   },
-  "last_publish_ts": 1793637263,
-  "last_check_ts": 1793637263,
+  "last_publish_ts": 1793637325,
+  "last_check_ts": 1793637371,
   "exp_arm": {
     "PLD": {
       "params": {
@@ -914,22 +935,19 @@
       }
     }
   },
-  "last_bar_ts": 1793637000,
+  "last_bar_ts": 1793637300,
   "last_decision_ts": 1793637263,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "6b8ab74d": 129.8919,
     "b5d5d2a6": 129.686,
-    "fcd409c4": 108.772,
-    "c179afb5": 426.035,
+    "6b8ab74d": 129.8919,
     "04a14774": 680.8101,
-    "3515347f": 109.068,
+    "c179afb5": 426.035,
     "da1938b7": 672.763,
     "94546b1e": 419.8533,
-    "21b5c851": 658.1547,
-    "ecdbab26": 105.3808,
     "1d6edcdc": 411.5419,
+    "21b5c851": 658.1547,
     "84831781": 125.7023
   }
 }
