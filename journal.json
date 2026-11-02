@@ -87038,7 +87038,7 @@
     "code_version": "ee7e706",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.12
+    "ret_now": -0.08
   },
   {
     "symbol": "CACI",
@@ -87069,7 +87069,9 @@
     "code_version": "9c40c4c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05
+    "ret_now": -0.14,
+    "ret_final": -0.14,
+    "ret_src": "realised"
   },
   {
     "symbol": "EL",
@@ -87124,5 +87126,32 @@
     "hour_et": 11,
     "code_version": "cee87f9",
     "hold_minutes": 32
+  },
+  {
+    "symbol": "CACI",
+    "side": "sell",
+    "qty": 1.105361,
+    "status": "filled",
+    "price": 677.57,
+    "proceeds": 748.96,
+    "realized_pnl": -1.04,
+    "realized_pct": -0.14,
+    "date": "2026-11-02",
+    "time_et": "11:45",
+    "ts": 1793637909,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $678.51",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "b714e5a",
+    "hold_minutes": 10
   }
 ]

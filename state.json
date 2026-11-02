@@ -1,6 +1,6 @@
 {
   "week": "2026-W45",
-  "spent": 1516.05,
+  "spent": 767.09,
   "deployed": 36000.0,
   "by_ticker": {
     "GH": 40.62,
@@ -9,7 +9,7 @@
     "FITB": 0.13,
     "CRBG": 6.69,
     "ADI": 750.0,
-    "CACI": 750.0
+    "CACI": 1.04
   },
   "deployed_by_ticker": {
     "RPM": 3000.0,
@@ -884,13 +884,34 @@
       ],
       "evidence": "average cost $129.59",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CACI",
+      "side": "sell",
+      "qty": 1.105361,
+      "status": "filled",
+      "price": 677.57,
+      "proceeds": 748.96,
+      "realized_pnl": -1.04,
+      "realized_pct": -0.14,
+      "date": "2026-11-02",
+      "time_et": "11:45",
+      "ts": 1793637909,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $678.51",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-02",
-  "spent_today": 1516.05,
+  "spent_today": 767.09,
   "deployed_today": 36000.0,
   "orders_today": 21,
-  "sells_today": 19,
+  "sells_today": 20,
   "sold_today": [
     "NXPI",
     "ADI",
@@ -912,11 +933,11 @@
     "WSM": 1793634343,
     "FITB": 1793634919,
     "CRBG": 1793636018,
-    "CACI": 1793634553,
+    "CACI": 1793637916,
     "PLD": 1793637541
   },
-  "last_publish_ts": 1793637635,
-  "last_check_ts": 1793637786,
+  "last_publish_ts": 1793637909,
+  "last_check_ts": 1793637909,
   "exp_arm": {
     "PLD": {
       "params": {
@@ -955,16 +976,13 @@
       }
     }
   },
-  "last_bar_ts": 1793637600,
-  "last_decision_ts": 1793637786,
+  "last_bar_ts": 1793637900,
+  "last_decision_ts": 1793637909,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "68f8dc76": 679.2,
-    "04a14774": 680.8101,
     "c179afb5": 426.035,
     "94546b1e": 419.8533,
-    "1d6edcdc": 411.5419,
-    "21b5c851": 658.1547
+    "1d6edcdc": 411.5419
   }
 }
