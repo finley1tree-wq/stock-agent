@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "8e8b4ecd",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 107.4845,
-   "status": "filled",
-   "created": "2026-10-28 09:32",
-   "created_ts": 1793194365,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $107.1",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 09:35"
-  },
-  {
    "id": "5a1ea6c7",
    "ticker": "EL",
    "kind": "stop_loss",
@@ -7253,7 +7235,7 @@
    "ticker": "FITB",
    "kind": "stop_loss",
    "price": 54.5496,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-02 10:33",
    "created_ts": 1793633612,
    "why": "close it all at -0.6% under the average cost",
@@ -7263,7 +7245,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-02 10:50",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "4069b7ae",
@@ -7482,6 +7466,23 @@
    "pct_of_position": 100.0,
    "closed": "2026-11-02 10:44",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "9e4c6fb8",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 54.928,
+   "status": "working",
+   "created": "2026-11-02 10:50",
+   "created_ts": 1793634648,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $54.88",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-07",
+   "pct_of_position": 100.0
   }
  ],
  "updated": "2026-11-02 10:50"

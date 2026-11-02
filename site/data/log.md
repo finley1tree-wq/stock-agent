@@ -1,17 +1,3 @@
-- SELL 100% NXPI [take_profit @ $266.19] -> $3016.97 (+0.57%) — close 100% at +0.5% over the average cost
-  (cancelled 2 standing order(s) on ADI: position closed)
-- SELL 100% ADI [take_profit @ $426.10] -> $3017.24 (+0.57%) — close 100% at +0.4% over the average cost
-## 2026-11-02 09:35 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-02 09:35 ET (Monday) — week 2026-W45 — budget left $13034.21 (today $18000.00 put to work, 6 buys, 2 sells) — SIM (pretend money) via sim
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgeGcoc8qzLfYpaV71S13'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,034 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +11.2% over the month; 0% of today's range
-~ WORKING take_profit 100% WSM @ $259.11 until 2026-11-07 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% WSM @ $256.25 until 2026-11-07 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 WSM @ $250.54 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25397.37 (+1.59% on $25000.00 in) · cash $10438.66 · realised +438.66
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $10034.21 this week
   (cancelled 2 standing order(s) on EL: position closed)
@@ -398,3 +384,17 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on CACI: position closed)
 - SELL 100% CACI [take_profit @ $675.82] -> $752.56 (+0.34%) — close 100% at +0.3% over the average cost
 ## 2026-11-02 10:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-02 10:50 ET (Monday) — week 2026-W45 — budget left $22750.29 (today $33000.00 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BLX excluded: too thinly traded ($8.6M a day) — Bladex Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgeNDqghVn7xureurHSZJ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25450.61 (+1.80% on $25000.00 in) · cash $23206.25 · realised +456.25
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
