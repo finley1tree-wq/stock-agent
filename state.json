@@ -1,13 +1,14 @@
 {
   "week": "2026-W45",
-  "spent": 0.0,
-  "deployed": 27750.0,
+  "spent": 750.0,
+  "deployed": 28500.0,
   "by_ticker": {
-    "GH": 40.62
+    "GH": 40.62,
+    "EL": 750.0
   },
   "deployed_by_ticker": {
     "RPM": 3000.0,
-    "EL": 3000.0,
+    "EL": 3750.0,
     "GH": 3000.0,
     "NXPI": 3000.0,
     "ADI": 3000.0,
@@ -447,12 +448,34 @@
       ],
       "evidence": "average cost $129.46",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "EL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.8635,
+      "price": 109.27,
+      "date": "2026-11-02",
+      "time_et": "10:23",
+      "ts": 1793633026,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): Jonathan L. Jackson; +18.8% over the month; 37% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-11-02",
-  "spent_today": 0.0,
-  "deployed_today": 27750.0,
-  "orders_today": 10,
+  "spent_today": 750.0,
+  "deployed_today": 28500.0,
+  "orders_today": 11,
   "sells_today": 10,
   "sold_today": [
     "NXPI",
@@ -478,22 +501,26 @@
     "CACI": 1793631251,
     "PLD": 1793632595
   },
-  "last_publish_ts": 1793632595,
-  "last_check_ts": 1793632837,
+  "last_publish_ts": 1793633026,
+  "last_check_ts": 1793633026,
   "exp_arm": {
-    "PLD": {
+    "EL": {
       "params": {
-        "hold_minutes": 120,
+        "hold_minutes": 90,
         "ratchet": "on"
       },
       "tags": {
-        "hold_long": 120
+        "hold_long": 90
       }
     }
   },
   "last_bar_ts": 1793632800,
-  "last_decision_ts": 1793632837,
-  "next_check_minutes": null,
+  "last_decision_ts": 1793633026,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "93429ae4": 109.6983,
+    "9a736ac6": 108.1992,
+    "397aafe7": 105.9919
+  }
 }
