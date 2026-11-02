@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-02T09:34-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 6: RPM, EL, GH, NXPI, ADI, FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and i",
+ "asOf": "2026-11-02T09:36-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,034 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -195,15 +195,15 @@
    ]
   },
   {
-   "id": "31834687",
-   "ticker": "RPM",
+   "id": "383e3ea2",
+   "ticker": "WSM",
    "kind": "take_profit",
-   "price": 105.5638,
+   "price": 259.1062,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 105.25,
-   "pct_away": 0.3,
+   "last": 258.19,
+   "pct_away": 0.35,
    "good_until": "2026-11-07",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -212,51 +212,51 @@
    ]
   },
   {
-   "id": "74e87d59",
-   "ticker": "EL",
+   "id": "31834687",
+   "ticker": "RPM",
    "kind": "take_profit",
-   "price": 109.1597,
+   "price": 105.5638,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 108.7,
-   "pct_away": 0.42,
+   "last": 105.18,
+   "pct_away": 0.36,
    "good_until": "2026-11-07",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "ebd97de5",
-   "ticker": "ADI",
-   "kind": "take_profit",
-   "price": 425.3631,
+   "id": "c96c9951",
+   "ticker": "GH",
+   "kind": "stop_loss",
+   "price": 175.9454,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 423.58,
-   "pct_away": 0.42,
+   "last": 176.68,
+   "pct_away": -0.42,
    "good_until": "2026-11-07",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close it all at -1.3% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "6584f390",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 265.9208,
+   "id": "89ca15f1",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 104.6067,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 264.64,
-   "pct_away": 0.48,
+   "last": 105.18,
+   "pct_away": -0.55,
    "good_until": "2026-11-07",
-   "why": "close 100% at +0.5% over the average cost",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -280,6 +280,57 @@
    ]
   },
   {
+   "id": "96d53bca",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 107.6917,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 108.42,
+   "pct_away": -0.67,
+   "good_until": "2026-11-07",
+   "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "74e87d59",
+   "ticker": "EL",
+   "kind": "take_profit",
+   "price": 109.1597,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 108.42,
+   "pct_away": 0.68,
+   "good_until": "2026-11-07",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "85128d48",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 256.2521,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 258.19,
+   "pct_away": -0.75,
+   "good_until": "2026-11-07",
+   "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "c93aa151",
    "ticker": "GH",
    "kind": "take_profit",
@@ -287,8 +338,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 178.2,
-   "pct_away": 0.56,
+   "last": 176.68,
+   "pct_away": 1.43,
    "good_until": "2026-11-07",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -297,100 +348,15 @@
    ]
   },
   {
-   "id": "89ca15f1",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 104.6067,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 105.25,
-   "pct_away": -0.61,
-   "good_until": "2026-11-07",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "96d53bca",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 107.6917,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 108.7,
-   "pct_away": -0.93,
-   "good_until": "2026-11-07",
-   "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a1229a51",
-   "ticker": "ADI",
-   "kind": "stop_loss",
-   "price": 419.4022,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 423.58,
-   "pct_away": -0.99,
-   "good_until": "2026-11-07",
-   "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6c158840",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 261.6117,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 264.64,
-   "pct_away": -1.14,
-   "good_until": "2026-11-07",
-   "why": "close it all at -1.2% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c96c9951",
+   "id": "f6fbb191",
    "ticker": "GH",
-   "kind": "stop_loss",
-   "price": 175.9454,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 178.2,
-   "pct_away": -1.27,
-   "good_until": "2026-11-07",
-   "why": "close it all at -1.3% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3dfe88aa",
-   "ticker": "RPM",
    "kind": "buy_limit",
-   "price": 102.1313,
+   "price": 172.9219,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 105.25,
-   "pct_away": -2.96,
+   "last": 176.68,
+   "pct_away": -2.13,
    "good_until": "2026-11-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -406,8 +372,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 108.7,
-   "pct_away": -2.96,
+   "last": 108.42,
+   "pct_away": -2.71,
    "good_until": "2026-11-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -416,15 +382,15 @@
    ]
   },
   {
-   "id": "f6fbb191",
-   "ticker": "GH",
+   "id": "3dfe88aa",
+   "ticker": "RPM",
    "kind": "buy_limit",
-   "price": 172.9219,
+   "price": 102.1313,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 178.2,
-   "pct_away": -2.96,
+   "last": 105.18,
+   "pct_away": -2.9,
    "good_until": "2026-11-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -450,32 +416,15 @@
    ]
   },
   {
-   "id": "85992d02",
-   "ticker": "NXPI",
+   "id": "1f04a0cd",
+   "ticker": "WSM",
    "kind": "buy_limit",
-   "price": 256.7493,
+   "price": 250.5413,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 264.64,
-   "pct_away": -2.98,
-   "good_until": "2026-11-07",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ad75c50d",
-   "ticker": "ADI",
-   "kind": "buy_limit",
-   "price": 410.9502,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 423.58,
-   "pct_away": -2.98,
+   "last": 258.19,
+   "pct_away": -2.96,
    "good_until": "2026-11-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -484,7 +433,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 6: RPM, EL, GH, NXPI, ADI, FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and i",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,034 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -529,7 +478,7 @@
  "feed_status": {
   "congress": "ok",
   "congress_source": "congresswatch",
-  "congress_notes": "fmp: 401 Client Error: Unauthorized for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
+  "congress_notes": "",
   "insiders": "unavailable",
   "excluded_instruments": [
    "NOKBF excluded: too thinly traded ($8.1M a day) \u2014 Nokia Oyj"
@@ -538,32 +487,32 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 399,
-  "decisions_with_buys_graded": 56,
+  "decisions_graded": 398,
+  "decisions_with_buys_graded": 55,
   "independent_days_graded": 4,
   "avg_regret_pct": -1.64,
-  "chosen_avg_pct": 0.69,
-  "skipped_avg_pct": -0.95,
+  "chosen_avg_pct": 0.67,
+  "skipped_avg_pct": -0.97,
   "idle_universe_avg_pct": -0.57,
   "picking_beats_random": true,
   "avg_fraction_of_universe_bought": 0.01,
   "checks_that_bought_everything": 0,
   "by_signal_chosen": {
    "autopilot": {
-    "n": 104,
-    "avg_pct": 0.72
+    "n": 103,
+    "avg_pct": 0.71
    },
    "congress": {
     "n": 77,
     "avg_pct": 0.87
    },
    "insider": {
-    "n": 27,
-    "avg_pct": 0.3
+    "n": 26,
+    "avg_pct": 0.24
    },
    "momentum": {
-    "n": 104,
-    "avg_pct": 0.72
+    "n": 103,
+    "avg_pct": 0.71
    }
   },
   "biggest_misses": [
@@ -1553,5 +1502,5 @@
  "insider_pressure": {},
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-11-02T09:34-05:00"
+ "signalsAsOf": "2026-11-02T09:36-05:00"
 }

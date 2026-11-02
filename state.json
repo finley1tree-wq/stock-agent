@@ -1,14 +1,13 @@
 {
   "week": "2026-W45",
-  "spent": 18000.0,
-  "deployed": 18000.0,
+  "spent": 14965.79,
+  "deployed": 21000.0,
   "by_ticker": {
     "RPM": 3000.0,
     "EL": 3000.0,
     "GH": 3000.0,
-    "NXPI": 3000.0,
-    "ADI": 3000.0,
-    "FITB": 3000.0
+    "FITB": 3000.0,
+    "WSM": 3000.0
   },
   "deployed_by_ticker": {
     "RPM": 3000.0,
@@ -16,7 +15,8 @@
     "GH": 3000.0,
     "NXPI": 3000.0,
     "ADI": 3000.0,
-    "FITB": 3000.0
+    "FITB": 3000.0,
+    "WSM": 3000.0
   },
   "orders": [
     {
@@ -150,17 +150,87 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 11.333888,
+      "status": "filled",
+      "price": 266.19,
+      "proceeds": 3016.97,
+      "realized_pnl": 16.97,
+      "realized_pct": 0.57,
+      "date": "2026-11-02",
+      "time_et": "09:35",
+      "ts": 1793630100,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $264.69",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 7.081071,
+      "status": "filled",
+      "price": 426.1,
+      "proceeds": 3017.24,
+      "realized_pnl": 17.24,
+      "realized_pct": 0.57,
+      "date": "2026-11-02",
+      "time_et": "09:35",
+      "ts": 1793630100,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $423.66",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "WSM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.614704,
+      "price": 258.29,
+      "date": "2026-11-02",
+      "time_et": "09:35",
+      "ts": 1793630150,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +11.2% over the month; 0% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-11-02",
-  "spent_today": 18000.0,
-  "deployed_today": 18000.0,
-  "orders_today": 6,
-  "sells_today": 0,
-  "sold_today": [],
-  "sold_ts": {},
-  "last_publish_ts": 1793629973,
-  "last_check_ts": 1793629973,
+  "spent_today": 14965.79,
+  "deployed_today": 21000.0,
+  "orders_today": 7,
+  "sells_today": 2,
+  "sold_today": [
+    "NXPI",
+    "ADI"
+  ],
+  "sold_ts": {
+    "NXPI": 1793630148,
+    "ADI": 1793630148
+  },
+  "last_publish_ts": 1793630150,
+  "last_check_ts": 1793630150,
   "exp_arm": {
     "RPM": {
       "params": {
@@ -189,24 +259,6 @@
         "hold_long": 120
       }
     },
-    "NXPI": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
-    "ADI": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
     "FITB": {
       "params": {
         "hold_minutes": 120,
@@ -215,30 +267,36 @@
       "tags": {
         "hold_long": 120
       }
+    },
+    "WSM": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
     }
   },
-  "last_bar_ts": 1793629800,
-  "last_decision_ts": 1793629973,
+  "last_bar_ts": 1793630100,
+  "last_decision_ts": 1793630150,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "99b33f20": 54.6487,
+    "383e3ea2": 259.1062,
     "31834687": 105.5638,
-    "74e87d59": 109.1597,
-    "ebd97de5": 425.3631,
-    "6584f390": 265.9208,
-    "d5bd6bda": 54.1978,
-    "c93aa151": 179.2006,
-    "89ca15f1": 104.6067,
-    "96d53bca": 107.6917,
-    "a1229a51": 419.4022,
-    "6c158840": 261.6117,
     "c96c9951": 175.9454,
-    "3dfe88aa": 102.1313,
-    "6ad8b5d0": 105.4778,
+    "89ca15f1": 104.6067,
+    "d5bd6bda": 54.1978,
+    "96d53bca": 107.6917,
+    "74e87d59": 109.1597,
+    "85128d48": 256.2521,
+    "c93aa151": 179.2006,
     "f6fbb191": 172.9219,
+    "6ad8b5d0": 105.4778,
+    "3dfe88aa": 102.1313,
     "a4a0b912": 52.8844,
-    "85992d02": 256.7493,
-    "ad75c50d": 410.9502
+    "1f04a0cd": 250.5413
   }
 }
