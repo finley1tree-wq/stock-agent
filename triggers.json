@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "c778f48a",
-   "ticker": "LRN",
-   "kind": "take_profit",
-   "price": 81.0458,
-   "status": "cancelled",
-   "created": "2026-10-28 09:32",
-   "created_ts": 1793194365,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $80.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 09:46",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "6dcac6c4",
-   "ticker": "LRN",
-   "kind": "stop_loss",
-   "price": 79.8706,
-   "status": "filled",
-   "created": "2026-10-28 09:32",
-   "created_ts": 1793194365,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $80.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 09:46"
-  },
-  {
-   "id": "37730815",
-   "ticker": "LRN",
-   "kind": "buy_limit",
-   "price": 78.2887,
-   "status": "cancelled",
-   "created": "2026-10-28 09:32",
-   "created_ts": 1793194365,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $80.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "usd": 500.0,
-   "closed": "2026-10-28 09:46",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "492eea4c",
    "ticker": "PDI",
    "kind": "take_profit",
@@ -7482,7 +7426,58 @@
    ],
    "good_until": "2026-11-07",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "04a14774",
+   "ticker": "CACI",
+   "kind": "take_profit",
+   "price": 680.8101,
+   "status": "working",
+   "created": "2026-11-02 11:34",
+   "created_ts": 1793637263,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $678.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "da1938b7",
+   "ticker": "CACI",
+   "kind": "stop_loss",
+   "price": 672.763,
+   "status": "working",
+   "created": "2026-11-02 11:34",
+   "created_ts": 1793637263,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $678.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "21b5c851",
+   "ticker": "CACI",
+   "kind": "buy_limit",
+   "price": 658.1547,
+   "status": "working",
+   "created": "2026-11-02 11:34",
+   "created_ts": 1793637263,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $678.51",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-07",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-02 11:32"
+ "updated": "2026-11-02 11:34"
 }
