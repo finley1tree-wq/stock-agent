@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "35bc3a83",
-   "ticker": "ADI",
-   "kind": "buy_limit",
-   "price": 410.5913,
-   "status": "cancelled",
-   "created": "2026-10-28 09:32",
-   "created_ts": 1793194365,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $423.29",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "usd": 500.0,
-   "closed": "2026-10-28 09:59",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "c778f48a",
    "ticker": "LRN",
    "kind": "take_profit",
@@ -7333,7 +7314,7 @@
    "ticker": "PLD",
    "kind": "stop_loss",
    "price": 128.8345,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-02 11:02",
    "created_ts": 1793635355,
    "why": "close it all at -0.6% under the average cost",
@@ -7343,7 +7324,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-02 11:32",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "84831781",
@@ -7482,7 +7465,24 @@
    ],
    "good_until": "2026-11-07",
    "usd": 500.0
+  },
+  {
+   "id": "b5d5d2a6",
+   "ticker": "PLD",
+   "kind": "stop_loss",
+   "price": 129.686,
+   "status": "working",
+   "created": "2026-11-02 11:32",
+   "created_ts": 1793637173,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $129.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-07",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-02 11:31"
+ "updated": "2026-11-02 11:32"
 }
