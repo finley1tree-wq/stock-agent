@@ -1,49 +1,4 @@
 
-## 2026-11-02 09:40 ET (Monday) — week 2026-W45 — budget left $16005.07 (today $21000.00 put to work, 7 buys, 4 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (RAPP excluded: too thinly traded ($13.6M a day) — Rapport Therapeutics, Inc.)
-  (cancelled 2 standing order(s) on RPM: position closed)
-- SELL 100% RPM [stop_loss @ $105.33] -> $3001.00 (+0.03%) — close it all at -0.6% under the average cost
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgeGuvQtJMSQoXGFY8ADE'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,006 idle, so opened 2: CACI, CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 CACI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +9.6% over the month; 61% of today's range
-- BUY $3000.00 CRBG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: insider net buying (Form 4); +3.4% over the month; 44% of today's range
-~ WORKING take_profit 100% CACI @ $676.55 until 2026-11-07 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% CACI @ $668.60 until 2026-11-07 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 CACI @ $654.05 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CRBG @ $35.32 until 2026-11-07 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% CRBG @ $34.91 until 2026-11-07 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 CRBG @ $34.14 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25393.46 (+1.57% on $25000.00 in) · cash $13410.53 · realised +410.53
-Done: 1 sell(s), 2 buy(s) (incl. 1 from standing orders); 12 order(s) working; budget left $13006.07 this week
-
-## 2026-11-02 09:43 ET (Monday) — week 2026-W45 — budget left $13006.07 (today $27000.00 put to work, 9 buys, 5 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (RAPP excluded: too thinly traded ($13.6M a day) — Rapport Therapeutics, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgeH9v5BSZER7XPqtPi7Q'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25398.88 (+1.60% on $25000.00 in) · cash $13410.53 · realised +410.53
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on WSM: position closed)
-- SELL 100% WSM [take_profit @ $259.22] -> $3010.76 (+0.36%) — close 100% at +0.3% over the average cost
-## 2026-11-02 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on FITB: position closed)
-- SELL 100% FITB [take_profit @ $54.65] -> $3006.98 (+0.23%) — close 100% at +0.2% over the average cost
-  (cancelled 2 standing order(s) on CRBG: position closed)
-- SELL 100% CRBG [take_profit @ $35.39] -> $3015.84 (+0.53%) — close 100% at +0.3% over the average cost
-## 2026-11-02 09:46 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
 ## 2026-11-02 09:46 ET (Monday) — week 2026-W45 — budget left $22039.65 (today $27000.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
@@ -398,3 +353,48 @@ Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 2 standing order(s) on FITB: position closed)
 - SELL 100% FITB [stop_loss @ $54.87] -> $749.87 (-0.02%) — close it all at -0.6% under the average cost
 ## 2026-11-02 10:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-02 10:56 ET (Monday) — week 2026-W45 — budget left $23500.16 (today $33000.00 put to work, 17 buys, 15 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BLX excluded: too thinly traded ($8.6M a day) — Bladex Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgeNgmrWsAC8FoMrB9JaV'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25446.91 (+1.79% on $25000.00 in) · cash $23956.12 · realised +456.12
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-02 10:59 ET (Monday) — week 2026-W45 — budget left $23500.16 (today $33000.00 put to work, 17 buys, 15 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BLX excluded: too thinly traded ($8.6M a day) — Bladex Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgeNwEUYetshepj44Y3AA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25444.80 (+1.78% on $25000.00 in) · cash $23956.12 · realised +456.12
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-02 11:02 ET (Monday) — week 2026-W45 — budget left $23500.16 (today $33000.00 put to work, 17 buys, 15 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BLX excluded: too thinly traded ($8.6M a day) — Bladex Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgePBNoFF1Xt3EJUymAZW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,500 idle, so opened 1: PLD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 PLD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +0.5% over the month; 68% of today's range
+~ WORKING take_profit 100% PLD @ $129.89 until 2026-11-07 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% PLD @ $128.83 until 2026-11-07 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 PLD @ $125.70 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25444.27 (+1.78% on $25000.00 in) · cash $23206.12 · realised +456.12
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22750.16 this week
