@@ -87305,7 +87305,9 @@
     "code_version": "7805b45",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01
+    "ret_now": -0.08,
+    "ret_final": -0.08,
+    "ret_src": "realised"
   },
   {
     "symbol": "EL",
@@ -87789,7 +87791,7 @@
     "code_version": "9df9c7c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.66
+    "ret_now": -0.65
   },
   {
     "symbol": "FITB",
@@ -87844,5 +87846,31 @@
     "hour_et": 14,
     "code_version": "a9f878c",
     "hold_minutes": 74
+  },
+  {
+    "symbol": "PLD",
+    "side": "sell",
+    "qty": 5.772252,
+    "status": "filled",
+    "price": 129.83,
+    "proceeds": 749.4,
+    "realized_pnl": -0.6,
+    "realized_pct": -0.08,
+    "date": "2026-11-02",
+    "time_et": "14:32",
+    "ts": 1793647967,
+    "why": "held 92 min, the 90-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 92 min ago, -0.04% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 14,
+    "code_version": "584ee28",
+    "hold_minutes": 92
   }
 ]
