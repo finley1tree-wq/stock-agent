@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-02T12:02-05:00",
- "note": "tick: watching",
+ "asOf": "2026-11-02T12:05-05:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -176,59 +176,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "c634f532",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 264.288,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 264.64,
-   "pct_away": -0.13,
-   "good_until": "2026-11-07",
-   "why": "close it all at -1.2% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "93aeeb75",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 265.0313,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 264.64,
-   "pct_away": 0.15,
-   "good_until": "2026-11-07",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "dd7903f1",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 255.8472,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 264.64,
-   "pct_away": -3.32,
-   "good_until": "2026-11-07",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,986 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "congress_trades": [
