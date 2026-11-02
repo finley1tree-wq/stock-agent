@@ -1,11 +1,11 @@
 {
   "week": "2026-W45",
-  "spent": 13.98,
-  "deployed": 36000.0,
+  "spent": 763.98,
+  "deployed": 36750.0,
   "by_ticker": {
     "GH": 40.62,
     "EL": 8.22,
-    "NXPI": 9.22,
+    "NXPI": 759.22,
     "FITB": 0.13,
     "CRBG": 6.69,
     "CACI": 1.04
@@ -14,7 +14,7 @@
     "RPM": 3000.0,
     "EL": 4500.0,
     "GH": 3000.0,
-    "NXPI": 3750.0,
+    "NXPI": 4500.0,
     "ADI": 4500.0,
     "FITB": 3750.0,
     "WSM": 3750.0,
@@ -925,12 +925,34 @@
       ],
       "evidence": "average cost $424.27",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.843465,
+      "price": 263.76,
+      "date": "2026-11-02",
+      "time_et": "11:57",
+      "ts": 1793638622,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +8.2% over the month; 20% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-02",
-  "spent_today": 13.98,
-  "deployed_today": 36000.0,
-  "orders_today": 21,
+  "spent_today": 763.98,
+  "deployed_today": 36750.0,
+  "orders_today": 22,
   "sells_today": 21,
   "sold_today": [
     "NXPI",
@@ -956,49 +978,26 @@
     "CACI": 1793637916,
     "PLD": 1793637541
   },
-  "last_publish_ts": 1793638391,
-  "last_check_ts": 1793638439,
+  "last_publish_ts": 1793638622,
+  "last_check_ts": 1793638622,
   "exp_arm": {
-    "PLD": {
+    "NXPI": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
       },
       "tags": {
         "hold_long": 120
-      }
-    },
-    "EL": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
-    "ADI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "CACI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
       }
     }
   },
-  "last_bar_ts": 1793638200,
-  "last_decision_ts": 1793638439,
-  "next_check_minutes": null,
+  "last_bar_ts": 1793638500,
+  "last_decision_ts": 1793638622,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "93aeeb75": 265.0313,
+    "d7d959b1": 260.5817,
+    "dd7903f1": 255.8472
+  }
 }
