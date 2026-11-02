@@ -1,20 +1,6 @@
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
-## 2026-11-02 10:20 ET (Monday) — week 2026-W45 — budget left $25000.00 (today $27750.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (RAPP excluded: too thinly traded ($13.6M a day) — Rapport Therapeutics, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgeKz68kARCVpH5TUiRmr'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25455.95 (+1.82% on $25000.00 in) · cash $25455.95 · realised +455.95
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-11-02 10:23 ET (Monday) — week 2026-W45 — budget left $25000.00 (today $27750.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
@@ -398,3 +384,17 @@ Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21984.25 this week
   (cancelled 2 standing order(s) on PLD: position closed)
 - SELL 100% PLD [stop_loss @ $129.62] -> $750.17 (+0.02%) — close it all at -0.6% under the average cost
 ## 2026-11-02 11:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-02 11:39 ET (Monday) — week 2026-W45 — budget left $23483.95 (today $36000.00 put to work, 21 buys, 19 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BLX excluded: too thinly traded ($8.6M a day) — Bladex Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgeS2ArFf8RpGhR3sW5Lx'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25436.55 (+1.75% on $25000.00 in) · cash $23939.91 · realised +439.91
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
