@@ -1,24 +1,3 @@
-  (MED excluded: too thinly traded ($1.7M a day) — Medifast, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (OCFC excluded: too thinly traded ($19.7M a day) — OceanFirst Financial Corp.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgZ1A7wRedcTokKY4K4Dw'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25404.45 (+1.62% on $25000.00 in) · cash $25404.45 · realised +404.45
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-30 15:54 ET (Friday) — week 2026-W44 — budget left $25000.00 (today $44250.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
-  (BHRB excluded: too thinly traded ($9.1M a day) — Burke & Herbert Financial Services Corp.)
-  (BMRC excluded: too thinly traded ($4.1M a day) — Bank of Marin Bancorp)
-  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
-  (MED excluded: too thinly traded ($1.7M a day) — Medifast, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (OCFC excluded: too thinly traded ($19.7M a day) — OceanFirst Financial Corp.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgZ1R9qT8Raoz1G3wsDHY'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25404.45 (+1.62% on $25000.00 in) · cash $25404.45 · realised +404.45
 Decision: nothing at this check.
@@ -398,3 +377,24 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 FITB @ $53.23 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25447.46 (+1.79% on $25000.00 in) · cash $23198.21 · realised +448.21
 Done: 1 sell(s), 3 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $22742.25 this week
+
+## 2026-11-02 10:36 ET (Monday) — week 2026-W45 — budget left $22742.25 (today $30750.00 put to work, 14 buys, 11 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (RAPP excluded: too thinly traded ($13.6M a day) — Rapport Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgeMCkSJ6XxkjVAfLTfr6'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,742 idle, so opened 2: ADI, CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +3.4% over the month; 80% of today's range
+- BUY $750.00 CRBG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: insider net buying (Form 4); +4.2% over the month; 84% of today's range
+~ WORKING take_profit 100% ADI @ $432.99 until 2026-11-07 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% ADI @ $426.80 until 2026-11-07 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $418.28 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRBG @ $35.60 until 2026-11-07 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CRBG @ $35.19 until 2026-11-07 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CRBG @ $34.42 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25445.26 (+1.78% on $25000.00 in) · cash $21698.21 · realised +448.21
+Done: 0 sell(s), 2 buy(s); 15 order(s) working; budget left $21242.25 this week
