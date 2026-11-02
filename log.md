@@ -55475,3 +55475,4 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 EL @ $103.70 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25440.42 (+1.76% on $25000.00 in) · cash $22446.35 · realised +446.35
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21990.39 this week
+  (cancelled 4 resting buy order(s): past the entry cutoff)
