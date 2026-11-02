@@ -85952,7 +85952,9 @@
     "code_version": "4f1641c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": 0.03,
+    "ret_final": 0.03,
+    "ret_src": "realised"
   },
   {
     "symbol": "EL",
@@ -86115,7 +86117,7 @@
     "code_version": "4f1641c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": -0.17
   },
   {
     "symbol": "NXPI",
@@ -86200,7 +86202,7 @@
     "code_version": "c23d046",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.08
+    "ret_now": -0.24
   },
   {
     "symbol": "EL",
@@ -86255,5 +86257,92 @@
     "hour_et": 9,
     "code_version": "84d0c48",
     "hold_minutes": 2
+  },
+  {
+    "symbol": "RPM",
+    "side": "sell",
+    "qty": 28.492166,
+    "status": "filled",
+    "price": 105.33,
+    "proceeds": 3001.0,
+    "realized_pnl": 1.0,
+    "realized_pct": 0.03,
+    "date": "2026-11-02",
+    "time_et": "09:40",
+    "ts": 1793630400,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $105.29",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "16f7f55",
+    "hold_minutes": 7
+  },
+  {
+    "symbol": "CACI",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 4.449193,
+    "price": 674.28,
+    "date": "2026-11-02",
+    "time_et": "09:40",
+    "ts": 1793630423,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +9.6% over the month; 61% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 674.01,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 9.59,
+    "hour_et": 9,
+    "code_version": "16f7f55",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CRBG",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 85.217405,
+    "price": 35.2,
+    "date": "2026-11-02",
+    "time_et": "09:40",
+    "ts": 1793630423,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "insider net buying (Form 4); +3.4% over the month; 44% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 35.19,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 3.42,
+    "hour_et": 9,
+    "code_version": "16f7f55",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

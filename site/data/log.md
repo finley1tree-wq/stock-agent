@@ -1,26 +1,3 @@
-portfolio: equity $25404.45 (+1.62% on $25000.00 in) · cash $25404.45 · realised +404.45
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-30 14:56 ET (Friday) — week 2026-W44 — budget left $25000.00 (today $44250.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
-  (BHRB excluded: too thinly traded ($9.1M a day) — Burke & Herbert Financial Services Corp.)
-  (BMRC excluded: too thinly traded ($4.1M a day) — Bank of Marin Bancorp)
-  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
-  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
-  (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
-  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYw1pPoQx6M8ciWBCK3V'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25404.45 (+1.62% on $25000.00 in) · cash $25404.45 · realised +404.45
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-10-30 14:59 ET (Friday) — week 2026-W44 — budget left $25000.00 (today $44250.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
-  (BHRB excluded: too thinly traded ($9.1M a day) — Burke & Herbert Financial Services Corp.)
-  (BMRC excluded: too thinly traded ($4.1M a day) — Bank of Marin Bancorp)
-  (BOLD excluded: too thinly traded ($0.5M a day) — Boundless Bio, Inc.)
   (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
   (GF excluded: too thinly traded ($0.3M a day) — The New Germany Fund, Inc.)
   (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
@@ -398,3 +375,26 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% RPM @ $105.39 until 2026-11-07 — close it all at -0.6% under the average cost
 portfolio: equity $25406.55 (+1.63% on $25000.00 in) · cash $16409.52 · realised +409.52
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $16005.07 this week
+
+## 2026-11-02 09:40 ET (Monday) — week 2026-W45 — budget left $16005.07 (today $21000.00 put to work, 7 buys, 4 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (RAPP excluded: too thinly traded ($13.6M a day) — Rapport Therapeutics, Inc.)
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [stop_loss @ $105.33] -> $3001.00 (+0.03%) — close it all at -0.6% under the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgeGuvQtJMSQoXGFY8ADE'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,006 idle, so opened 2: CACI, CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CACI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +9.6% over the month; 61% of today's range
+- BUY $3000.00 CRBG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: insider net buying (Form 4); +3.4% over the month; 44% of today's range
+~ WORKING take_profit 100% CACI @ $676.55 until 2026-11-07 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CACI @ $668.60 until 2026-11-07 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CACI @ $654.05 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRBG @ $35.32 until 2026-11-07 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CRBG @ $34.91 until 2026-11-07 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CRBG @ $34.14 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25393.46 (+1.57% on $25000.00 in) · cash $13410.53 · realised +410.53
+Done: 1 sell(s), 2 buy(s) (incl. 1 from standing orders); 12 order(s) working; budget left $13006.07 this week
