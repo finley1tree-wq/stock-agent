@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "bfdedc6a",
-   "ticker": "CACI",
-   "kind": "buy_limit",
-   "price": 639.327,
-   "status": "cancelled",
-   "created": "2026-10-27 11:59",
-   "created_ts": 1793116788,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $659.1",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-01",
-   "usd": 500.0,
-   "closed": "2026-10-27 12:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "93c5fe59",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 53.352,
-   "status": "filled",
-   "created": "2026-10-27 12:03",
-   "created_ts": 1793116992,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $53.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-27 12:06"
-  },
-  {
-   "id": "b43c3c07",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 251.148,
-   "status": "cancelled",
-   "created": "2026-10-27 12:03",
-   "created_ts": 1793116992,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $250.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-01",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-27 12:04",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "c75cadc6",
    "ticker": "CACI",
    "kind": "stop_loss",
@@ -7498,7 +7442,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-11-02 09:46",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "d988e35b",
+   "ticker": "PLD",
+   "kind": "take_profit",
+   "price": 129.7591,
+   "status": "working",
+   "created": "2026-11-02 10:07",
+   "created_ts": 1793632063,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $129.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a6c27a65",
+   "ticker": "PLD",
+   "kind": "stop_loss",
+   "price": 128.7143,
+   "status": "working",
+   "created": "2026-11-02 10:07",
+   "created_ts": 1793632063,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $129.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "980d138e",
+   "ticker": "PLD",
+   "kind": "buy_limit",
+   "price": 125.5762,
+   "status": "working",
+   "created": "2026-11-02 10:07",
+   "created_ts": 1793632063,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $129.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-07",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-02 10:04"
+ "updated": "2026-11-02 10:07"
 }
