@@ -87791,7 +87791,9 @@
     "code_version": "9df9c7c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.51
+    "ret_now": -1.06,
+    "ret_final": -1.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -87872,5 +87874,32 @@
     "hour_et": 14,
     "code_version": "584ee28",
     "hold_minutes": 92
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 7.015066,
+    "status": "filled",
+    "price": 105.78,
+    "proceeds": 742.02,
+    "realized_pnl": -7.98,
+    "realized_pct": -1.06,
+    "date": "2026-11-02",
+    "time_et": "14:42",
+    "ts": 1793648400,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $106.91",
+    "trigger": "stop_loss",
+    "hour_et": 14,
+    "code_version": "0214b43",
+    "hold_minutes": 41
   }
 ]
