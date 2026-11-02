@@ -1,11 +1,10 @@
 {
   "week": "2026-W45",
-  "spent": 11993.93,
+  "spent": 8983.17,
   "deployed": 27000.0,
   "by_ticker": {
     "GH": 40.62,
     "FITB": 3000.0,
-    "WSM": 3000.0,
     "CACI": 3000.0,
     "CRBG": 3000.0
   },
@@ -323,29 +322,52 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 11.614704,
+      "status": "filled",
+      "price": 259.22,
+      "proceeds": 3010.76,
+      "realized_pnl": 10.76,
+      "realized_pct": 0.36,
+      "date": "2026-11-02",
+      "time_et": "09:45",
+      "ts": 1793630700,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $258.29",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-02",
-  "spent_today": 11993.93,
+  "spent_today": 8983.17,
   "deployed_today": 27000.0,
   "orders_today": 9,
-  "sells_today": 5,
+  "sells_today": 6,
   "sold_today": [
     "NXPI",
     "ADI",
     "EL",
     "GH",
-    "RPM"
+    "RPM",
+    "WSM"
   ],
   "sold_ts": {
     "NXPI": 1793630148,
     "ADI": 1793630148,
     "EL": 1793630284,
     "GH": 1793630325,
-    "RPM": 1793630430
+    "RPM": 1793630430,
+    "WSM": 1793630719
   },
-  "last_publish_ts": 1793630562,
-  "last_check_ts": 1793630611,
+  "last_publish_ts": 1793630718,
+  "last_check_ts": 1793630718,
   "exp_arm": {
     "FITB": {
       "params": {
@@ -384,20 +406,17 @@
       }
     }
   },
-  "last_bar_ts": 1793630400,
+  "last_bar_ts": 1793630700,
   "last_decision_ts": 1793630611,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "3bbdb82f": 35.3169,
-    "ccc14f22": 35.266,
     "99b33f20": 54.6487,
-    "d5bd6bda": 54.1978,
-    "85128d48": 256.2521,
+    "5f8f3c32": 54.58,
+    "3c38fe17": 35.326,
+    "3bbdb82f": 35.3169,
     "00c3ecf9": 668.5958,
     "da122d3e": 676.5523,
-    "383e3ea2": 259.1062,
-    "1f04a0cd": 250.5413,
     "4654a7c8": 654.0516,
     "a4a0b912": 52.8844,
     "7dea39c1": 34.144
