@@ -1,6 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25455.95 (+1.82% on $25000.00 in) · cash $25455.95 · realised +455.95
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +395,6 @@ Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21984.25 this week
   (cancelled 2 standing order(s) on EL: position closed)
 - SELL 100% EL [stop_loss @ $108.58] -> $749.53 (-0.06%) — close it all at -1.0% under the average cost
 ## 2026-11-02 11:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [stop_loss @ $129.62] -> $750.17 (+0.02%) — close it all at -0.6% under the average cost
+## 2026-11-02 11:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders

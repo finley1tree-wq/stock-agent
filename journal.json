@@ -86918,7 +86918,9 @@
     "code_version": "2b5f998",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": 0.02,
+    "ret_final": 0.02,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -87003,7 +87005,9 @@
     "code_version": "89351f5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": -0.06,
+    "ret_final": -0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -87034,7 +87038,7 @@
     "code_version": "ee7e706",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": -0.37
   },
   {
     "symbol": "CACI",
@@ -87064,7 +87068,8 @@
     "hour_et": 11,
     "code_version": "9c40c4c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.01
   },
   {
     "symbol": "EL",
@@ -87090,6 +87095,34 @@
     "evidence": "average cost $108.64",
     "trigger": "stop_loss",
     "hour_et": 11,
-    "code_version": "cad9949"
+    "code_version": "cad9949",
+    "hold_minutes": 16
+  },
+  {
+    "symbol": "PLD",
+    "side": "sell",
+    "qty": 5.787403,
+    "status": "filled",
+    "price": 129.62,
+    "proceeds": 750.17,
+    "realized_pnl": 0.17,
+    "realized_pct": 0.02,
+    "date": "2026-11-02",
+    "time_et": "11:39",
+    "ts": 1793637300,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $129.59",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "cee87f9",
+    "hold_minutes": 32
   }
 ]
