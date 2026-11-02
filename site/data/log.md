@@ -1,17 +1,3 @@
-  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped CRBG: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25442.85 (+1.77% on $25000.00 in) · cash $24691.98 · realised +441.98
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on NXPI: position closed)
-- SELL 100% NXPI [stop_loss @ $264.11] -> $750.98 (+0.13%) — close it all at -1.2% under the average cost
-## 2026-11-02 12:05 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-02 12:06 ET (Monday) — week 2026-W45 — budget left $24987.00 (today $36750.00 put to work, 22 buys, 22 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BLX excluded: too thinly traded ($8.6M a day) — Bladex Inc.)
   (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
   (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
   (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
@@ -398,3 +384,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 FITB @ $53.14 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25440.86 (+1.76% on $25000.00 in) · cash $19442.96 · realised +442.96
 Done: 0 sell(s), 8 buy(s); 24 order(s) working; budget left $18987.00 this week
+
+## 2026-11-02 13:03 ET (Monday) — week 2026-W45 — budget left $18987.00 (today $42750.00 put to work, 30 buys, 22 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BLX excluded: too thinly traded ($8.6M a day) — Bladex Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (OCFC excluded: too thinly traded ($19.7M a day) — OceanFirst Financial Corp.)
+  (RAPP excluded: too thinly traded ($13.6M a day) — Rapport Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgeYR4rgeFSREKjurdqXx'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25438.29 (+1.75% on $25000.00 in) · cash $19442.96 · realised +442.96
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
