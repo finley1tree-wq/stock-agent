@@ -1,6 +1,3 @@
-~ WORKING stop_loss 100% RPM @ $104.61 until 2026-11-07 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 RPM @ $102.13 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% EL @ $109.16 until 2026-11-07 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% EL @ $107.69 until 2026-11-07 — close it all at -1.0% under the average cost
 ~ WORKING buy_limit $500.00 EL @ $105.48 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% GH @ $179.20 until 2026-11-07 — close 100% at +0.5% over the average cost
@@ -398,3 +395,6 @@ Decision: nothing at this check. 18 standing order(s) working.
   (cancelled 2 standing order(s) on ADI: position closed)
 - SELL 100% ADI [take_profit @ $432.99] -> $753.08 (+0.41%) — close 100% at +0.4% over the average cost
 ## 2026-11-02 10:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $261.55] -> $752.40 (+0.32%) — close 100% at +0.3% over the average cost
+## 2026-11-02 10:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
