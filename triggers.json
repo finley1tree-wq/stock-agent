@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "f38bcf16",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 53.4283,
-   "status": "cancelled",
-   "created": "2026-10-28 09:32",
-   "created_ts": 1793194365,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $53.72",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 09:46",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "2c3b5177",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 52.1084,
-   "status": "cancelled",
-   "created": "2026-10-28 09:32",
-   "created_ts": 1793194365,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $53.72",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "usd": 500.0,
-   "closed": "2026-10-28 09:50",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "7ddb5654",
-   "ticker": "GH",
-   "kind": "take_profit",
-   "price": 181.0482,
-   "status": "filled",
-   "created": "2026-10-28 09:32",
-   "created_ts": 1793194365,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $180.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 09:39"
-  },
-  {
    "id": "f0bd473e",
    "ticker": "GH",
    "kind": "stop_loss",
@@ -7492,7 +7436,58 @@
    ],
    "good_until": "2026-11-07",
    "usd": 500.0
+  },
+  {
+   "id": "3515347f",
+   "ticker": "EL",
+   "kind": "take_profit",
+   "price": 109.068,
+   "status": "working",
+   "created": "2026-11-02 11:18",
+   "created_ts": 1793636326,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $108.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1cf8e96f",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 107.5699,
+   "status": "working",
+   "created": "2026-11-02 11:18",
+   "created_ts": 1793636326,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $108.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-07",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ecdbab26",
+   "ticker": "EL",
+   "kind": "buy_limit",
+   "price": 105.3808,
+   "status": "working",
+   "created": "2026-11-02 11:18",
+   "created_ts": 1793636326,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $108.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-07",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-02 11:15"
+ "updated": "2026-11-02 11:18"
 }

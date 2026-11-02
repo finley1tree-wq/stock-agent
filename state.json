@@ -1,10 +1,10 @@
 {
   "week": "2026-W45",
-  "spent": 765.75,
-  "deployed": 33750.0,
+  "spent": 1515.75,
+  "deployed": 34500.0,
   "by_ticker": {
     "GH": 40.62,
-    "EL": 7.75,
+    "EL": 757.75,
     "NXPI": 9.22,
     "FITB": 0.13,
     "CRBG": 6.69,
@@ -12,7 +12,7 @@
   },
   "deployed_by_ticker": {
     "RPM": 3000.0,
-    "EL": 3750.0,
+    "EL": 4500.0,
     "GH": 3000.0,
     "NXPI": 3750.0,
     "ADI": 3750.0,
@@ -775,12 +775,34 @@
       ],
       "evidence": "average cost $35.48",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "EL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.903316,
+      "price": 108.64,
+      "date": "2026-11-02",
+      "time_et": "11:18",
+      "ts": 1793636326,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): Jonathan L. Jackson; +18.1% over the month; 28% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-02",
-  "spent_today": 765.75,
-  "deployed_today": 33750.0,
-  "orders_today": 18,
+  "spent_today": 1515.75,
+  "deployed_today": 34500.0,
+  "orders_today": 19,
   "sells_today": 17,
   "sold_today": [
     "NXPI",
@@ -806,19 +828,10 @@
     "CACI": 1793634553,
     "PLD": 1793632595
   },
-  "last_publish_ts": 1793636018,
-  "last_check_ts": 1793636223,
+  "last_publish_ts": 1793636326,
+  "last_check_ts": 1793636326,
   "exp_arm": {
-    "NXPI": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "CRBG": {
+    "PLD": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -827,7 +840,7 @@
         "hold_long": 120
       }
     },
-    "PLD": {
+    "EL": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -838,12 +851,15 @@
     }
   },
   "last_bar_ts": 1793636100,
-  "last_decision_ts": 1793636117,
-  "next_check_minutes": null,
+  "last_decision_ts": 1793636326,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "6b8ab74d": 129.8919,
+    "3515347f": 109.068,
     "76519da3": 128.8345,
-    "84831781": 125.7023
+    "1cf8e96f": 107.5699,
+    "84831781": 125.7023,
+    "ecdbab26": 105.3808
   }
 }
