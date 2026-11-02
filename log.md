@@ -54766,3 +54766,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 NXPI @ $255.85 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25441.83 (+1.77% on $25000.00 in) · cash $24691.98 · realised +441.98
 Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $24236.02 this week
+
+## 2026-11-02 12:00 ET (Monday) — week 2026-W45 — budget left $24236.02 (today $36750.00 put to work, 22 buys, 21 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BLX excluded: too thinly traded ($8.6M a day) — Bladex Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgeTaD7SNT476oX4y7jv2'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,236 idle, so opened 3: WSM, FITB, CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CRBG: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25442.03 (+1.77% on $25000.00 in) · cash $24691.98 · realised +441.98
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
