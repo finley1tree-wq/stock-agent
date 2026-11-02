@@ -1,4 +1,3 @@
-  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYuvFztwNWHwyVpvM32P'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +397,4 @@ portfolio: equity $25404.45 (+1.62% on $25000.00 in) · cash $25404.45 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-10-30 16:10 ET — published the session's closing state
+## 2026-11-02 00:01 ET — published the session's closing state
