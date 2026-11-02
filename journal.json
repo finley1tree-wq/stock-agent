@@ -87305,7 +87305,7 @@
     "code_version": "7805b45",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.02
   },
   {
     "symbol": "EL",
@@ -87369,7 +87369,7 @@
     "code_version": "7805b45",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.32
+    "ret_now": 0.44
   },
   {
     "symbol": "ADI",
@@ -87400,7 +87400,7 @@
     "code_version": "7805b45",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.16
+    "ret_now": 0.02
   },
   {
     "symbol": "WSM",
@@ -87431,7 +87431,9 @@
     "code_version": "7805b45",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.32
+    "ret_now": 0.12,
+    "ret_final": 0.12,
+    "ret_src": "realised"
   },
   {
     "symbol": "CACI",
@@ -87462,7 +87464,7 @@
     "code_version": "7805b45",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.24
+    "ret_now": 0.31
   },
   {
     "symbol": "FITB",
@@ -87580,7 +87582,7 @@
     "code_version": "ea1b819",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.06
   },
   {
     "symbol": "EL",
@@ -87608,5 +87610,32 @@
     "hour_et": 13,
     "code_version": "6b82f69",
     "hold_minutes": 9
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 2.879475,
+    "status": "filled",
+    "price": 260.77,
+    "proceeds": 750.89,
+    "realized_pnl": 0.89,
+    "realized_pct": 0.12,
+    "date": "2026-11-02",
+    "time_et": "13:16",
+    "ts": 1793643300,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $260.46",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "78d9d92",
+    "hold_minutes": 14
   }
 ]

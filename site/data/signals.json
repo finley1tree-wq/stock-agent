@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-02T13:13-05:00",
+ "asOf": "2026-11-02T13:17-05:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,15 +178,32 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "2ba17095",
-   "ticker": "WSM",
+   "id": "a7b673c5",
+   "ticker": "NXPI",
    "kind": "take_profit",
-   "price": 261.3091,
+   "price": 262.6931,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 261.2,
-   "pct_away": 0.04,
+   "last": 262.52,
+   "pct_away": 0.07,
+   "good_until": "2026-11-07",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d6bc6790",
+   "ticker": "CACI",
+   "kind": "take_profit",
+   "price": 678.8904,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 678.39,
+   "pct_away": 0.07,
    "good_until": "2026-11-07",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -202,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 677.95,
-   "pct_away": -0.08,
+   "last": 678.39,
+   "pct_away": -0.14,
    "good_until": "2026-11-07",
    "why": "close it all at -0.8% under the average cost",
    "signals": [
@@ -219,61 +236,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 262.18,
-   "pct_away": -0.1,
+   "last": 262.52,
+   "pct_away": -0.23,
    "good_until": "2026-11-07",
    "why": "close it all at -1.2% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "00ebd1fd",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 260.904,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 261.2,
-   "pct_away": -0.11,
-   "good_until": "2026-11-07",
-   "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d6bc6790",
-   "ticker": "CACI",
-   "kind": "take_profit",
-   "price": 678.8904,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 677.95,
-   "pct_away": 0.14,
-   "good_until": "2026-11-07",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a7b673c5",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 262.6931,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 262.18,
-   "pct_away": 0.2,
-   "good_until": "2026-11-07",
-   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -287,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 129.94,
-   "pct_away": 0.23,
+   "last": 129.9,
+   "pct_away": 0.26,
    "good_until": "2026-11-07",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -304,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 35.33,
-   "pct_away": 0.28,
+   "last": 35.32,
+   "pct_away": 0.31,
    "good_until": "2026-11-07",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -321,8 +287,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 424.04,
-   "pct_away": 0.56,
+   "last": 424.41,
+   "pct_away": 0.47,
    "good_until": "2026-11-07",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -338,8 +304,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 129.94,
-   "pct_away": -0.59,
+   "last": 129.9,
+   "pct_away": -0.56,
    "good_until": "2026-11-07",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -355,8 +321,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 35.33,
-   "pct_away": -0.89,
+   "last": 35.32,
+   "pct_away": -0.86,
    "good_until": "2026-11-07",
    "why": "close it all at -0.8% under the average cost",
    "signals": [
@@ -372,8 +338,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 424.04,
-   "pct_away": -0.9,
+   "last": 424.41,
+   "pct_away": -0.99,
    "good_until": "2026-11-07",
    "why": "close it all at -1.0% under the average cost",
    "signals": [
@@ -389,8 +355,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 424.04,
-   "pct_away": -2.86,
+   "last": 424.41,
+   "pct_away": -2.95,
    "good_until": "2026-11-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -406,8 +372,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 129.94,
-   "pct_away": -3.01,
+   "last": 129.9,
+   "pct_away": -2.98,
    "good_until": "2026-11-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -423,8 +389,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 35.33,
-   "pct_away": -3.05,
+   "last": 35.32,
+   "pct_away": -3.03,
    "good_until": "2026-11-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -440,25 +406,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 677.95,
-   "pct_away": -3.19,
-   "good_until": "2026-11-07",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "2c9afeb9",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 252.6462,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 261.2,
-   "pct_away": -3.27,
+   "last": 678.39,
+   "pct_away": -3.26,
    "good_until": "2026-11-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -474,8 +423,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 262.18,
-   "pct_away": -3.28,
+   "last": 262.52,
+   "pct_away": -3.41,
    "good_until": "2026-11-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
