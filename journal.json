@@ -86552,6 +86552,125 @@
     "code_version": "87022e2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.45
+    "ret_now": -1.03,
+    "ret_final": -1.03,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 6.8635,
+    "status": "filled",
+    "price": 108.15,
+    "proceeds": 742.25,
+    "realized_pnl": -7.75,
+    "realized_pct": -1.03,
+    "date": "2026-11-02",
+    "time_et": "10:33",
+    "ts": 1793633400,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $109.27",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "ec2ad09",
+    "hold_minutes": 6
+  },
+  {
+    "symbol": "WSM",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.876713,
+    "price": 260.71,
+    "date": "2026-11-02",
+    "time_et": "10:33",
+    "ts": 1793633612,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +12.2% over the month; 72% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 260.61,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 12.19,
+    "hour_et": 10,
+    "code_version": "ec2ad09",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "NXPI",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.782788,
+    "price": 269.51,
+    "date": "2026-11-02",
+    "time_et": "10:33",
+    "ts": 1793633612,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +10.6% over the month; 84% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 269.46,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 10.59,
+    "hour_et": 10,
+    "code_version": "ec2ad09",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "FITB",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 13.665697,
+    "price": 54.88,
+    "date": "2026-11-02",
+    "time_et": "10:33",
+    "ts": 1793633612,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +7.8% over the month; 85% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 54.86,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 7.84,
+    "hour_et": 10,
+    "code_version": "ec2ad09",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -1,17 +1,35 @@
 {
-  "cash": 24705.95114751774,
+  "cash": 23198.20505617125,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W45",
   "positions": {
-    "EL": {
-      "qty": 6.863500136885647,
-      "avg_cost": 109.273692,
+    "WSM": {
+      "qty": 2.8767127890411692,
+      "avg_cost": 260.714244,
       "opened": "2026-11-02",
       "last_buy": "2026-11-02",
       "tranches": 1,
-      "last_buy_ts": 1793633033,
-      "opened_ts": 1793633033
+      "last_buy_ts": 1793633620,
+      "opened_ts": 1793633620
+    },
+    "NXPI": {
+      "qty": 2.7827879091293743,
+      "avg_cost": 269.513892,
+      "opened": "2026-11-02",
+      "last_buy": "2026-11-02",
+      "tranches": 1,
+      "last_buy_ts": 1793633620,
+      "opened_ts": 1793633620
+    },
+    "FITB": {
+      "qty": 13.665696681589852,
+      "avg_cost": 54.881944,
+      "opened": "2026-11-02",
+      "last_buy": "2026-11-02",
+      "tranches": 1,
+      "last_buy_ts": 1793633620,
+      "opened_ts": 1793633620
     }
   },
   "fills": [
@@ -33881,7 +33899,49 @@
       "price": 109.27,
       "type": "buy",
       "date": "2026-11-02 10:23"
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 6.8635,
+      "status": "filled",
+      "price": 108.15,
+      "proceeds": 742.25,
+      "realized_pnl": -7.75,
+      "realized_pct": -1.03,
+      "type": "sell",
+      "date": "2026-11-02 10:33"
+    },
+    {
+      "symbol": "WSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.876713,
+      "price": 260.71,
+      "type": "buy",
+      "date": "2026-11-02 10:33"
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.782788,
+      "price": 269.51,
+      "type": "buy",
+      "date": "2026-11-02 10:33"
+    },
+    {
+      "symbol": "FITB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.665697,
+      "price": 54.88,
+      "type": "buy",
+      "date": "2026-11-02 10:33"
     }
   ],
-  "realized_pnl": 455.95114751773895
+  "realized_pnl": 448.20505617125093
 }

@@ -1,19 +1,22 @@
 {
   "week": "2026-W45",
-  "spent": 750.0,
-  "deployed": 28500.0,
+  "spent": 2257.75,
+  "deployed": 30750.0,
   "by_ticker": {
     "GH": 40.62,
-    "EL": 750.0
+    "EL": 7.75,
+    "WSM": 750.0,
+    "NXPI": 750.0,
+    "FITB": 750.0
   },
   "deployed_by_ticker": {
     "RPM": 3000.0,
     "EL": 3750.0,
     "GH": 3000.0,
-    "NXPI": 3000.0,
+    "NXPI": 3750.0,
     "ADI": 3000.0,
-    "FITB": 3000.0,
-    "WSM": 3000.0,
+    "FITB": 3750.0,
+    "WSM": 3750.0,
     "CACI": 3000.0,
     "CRBG": 3000.0,
     "PLD": 750.0
@@ -470,13 +473,100 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 6.8635,
+      "status": "filled",
+      "price": 108.15,
+      "proceeds": 742.25,
+      "realized_pnl": -7.75,
+      "realized_pct": -1.03,
+      "date": "2026-11-02",
+      "time_et": "10:33",
+      "ts": 1793633400,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $109.27",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "WSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.876713,
+      "price": 260.71,
+      "date": "2026-11-02",
+      "time_et": "10:33",
+      "ts": 1793633612,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +12.2% over the month; 72% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.782788,
+      "price": 269.51,
+      "date": "2026-11-02",
+      "time_et": "10:33",
+      "ts": 1793633612,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +10.6% over the month; 84% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "FITB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.665697,
+      "price": 54.88,
+      "date": "2026-11-02",
+      "time_et": "10:33",
+      "ts": 1793633612,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +7.8% over the month; 85% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-11-02",
-  "spent_today": 750.0,
-  "deployed_today": 28500.0,
-  "orders_today": 11,
-  "sells_today": 10,
+  "spent_today": 2257.75,
+  "deployed_today": 30750.0,
+  "orders_today": 14,
+  "sells_today": 11,
   "sold_today": [
     "NXPI",
     "ADI",
@@ -492,7 +582,7 @@
   "sold_ts": {
     "NXPI": 1793630148,
     "ADI": 1793630148,
-    "EL": 1793630284,
+    "EL": 1793633618,
     "GH": 1793630325,
     "RPM": 1793630430,
     "WSM": 1793630719,
@@ -501,10 +591,28 @@
     "CACI": 1793631251,
     "PLD": 1793632595
   },
-  "last_publish_ts": 1793633026,
-  "last_check_ts": 1793633524,
+  "last_publish_ts": 1793633612,
+  "last_check_ts": 1793633612,
   "exp_arm": {
-    "EL": {
+    "WSM": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
+    },
+    "NXPI": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
+    },
+    "FITB": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -515,12 +623,18 @@
     }
   },
   "last_bar_ts": 1793633400,
-  "last_decision_ts": 1793633412,
-  "next_check_minutes": null,
+  "last_decision_ts": 1793633612,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "93429ae4": 109.6983,
-    "9a736ac6": 108.1992,
-    "397aafe7": 105.9919
+    "3183df9d": 55.0123,
+    "10114860": 261.5495,
+    "315b3539": 270.7821,
+    "4a3afdfd": 54.5496,
+    "b07500c6": 258.6087,
+    "1d5dec94": 266.3325,
+    "ac6b6601": 252.8887,
+    "4069b7ae": 53.2336,
+    "f7a8ead3": 261.4247
   }
 }
