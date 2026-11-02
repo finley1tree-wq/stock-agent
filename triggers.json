@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "ef83a5de",
-   "ticker": "CACI",
-   "kind": "stop_loss",
-   "price": 653.9106,
-   "status": "cancelled",
-   "created": "2026-10-28 09:32",
-   "created_ts": 1793194365,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $659.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 09:36",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "e8e29a3a",
    "ticker": "CACI",
    "kind": "buy_limit",
@@ -7464,7 +7445,7 @@
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 260.5817,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-02 11:57",
    "created_ts": 1793638622,
    "why": "close it all at -1.2% under the average cost",
@@ -7474,7 +7455,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-02 12:02",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "dd7903f1",
@@ -7492,7 +7475,24 @@
    ],
    "good_until": "2026-11-07",
    "usd": 500.0
+  },
+  {
+   "id": "c634f532",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 264.288,
+   "status": "working",
+   "created": "2026-11-02 12:02",
+   "created_ts": 1793638958,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $263.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-07",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-02 12:00"
+ "updated": "2026-11-02 12:03"
 }
