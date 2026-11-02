@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "9ae90ff4",
-   "ticker": "GH",
-   "kind": "buy_limit",
-   "price": 177.9368,
-   "status": "cancelled",
-   "created": "2026-10-28 10:30",
-   "created_ts": 1793197804,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $183.44",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "usd": 500.0,
-   "closed": "2026-10-28 10:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "09f679a5",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 109.01,
-   "status": "filled",
-   "created": "2026-10-28 10:32",
-   "created_ts": 1793197942,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $108.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 10:35"
-  },
-  {
    "id": "95ce245f",
    "ticker": "LRN",
    "kind": "take_profit",
@@ -7027,7 +6990,7 @@
    "ticker": "EL",
    "kind": "take_profit",
    "price": 107.5628,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-02 13:00",
    "created_ts": 1793642426,
    "why": "close 100% at +0.4% over the average cost",
@@ -7037,14 +7000,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-02 13:13"
   },
   {
    "id": "4a62815e",
    "ticker": "EL",
    "kind": "stop_loss",
    "price": 106.048,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-02 13:00",
    "created_ts": 1793642426,
    "why": "close it all at -1.0% under the average cost",
@@ -7054,14 +7018,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-02 13:13",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "d42ea23a",
    "ticker": "EL",
    "kind": "buy_limit",
    "price": 103.9161,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-02 13:00",
    "created_ts": 1793642426,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7071,7 +7037,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-07",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-02 13:13",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a7b673c5",
@@ -7199,7 +7167,7 @@
    "ticker": "WSM",
    "kind": "stop_loss",
    "price": 258.3346,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-02 13:00",
    "created_ts": 1793642426,
    "why": "close it all at -0.8% under the average cost",
@@ -7209,7 +7177,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-07",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-02 13:13",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "2c9afeb9",
@@ -7459,7 +7429,43 @@
    ],
    "good_until": "2026-11-07",
    "usd": 500.0
+  },
+  {
+   "id": "a4a8c77d",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 107.286,
+   "status": "cancelled",
+   "created": "2026-11-02 13:13",
+   "created_ts": 1793643185,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $107.13",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-07",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-02 13:13",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "00ebd1fd",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 260.904,
+   "status": "working",
+   "created": "2026-11-02 13:13",
+   "created_ts": 1793643231,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $260.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-07",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-02 13:10"
+ "updated": "2026-11-02 13:13"
 }

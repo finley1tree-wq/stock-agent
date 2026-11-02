@@ -1,10 +1,10 @@
 {
   "week": "2026-W45",
-  "spent": 5258.94,
+  "spent": 4505.93,
   "deployed": 43500.0,
   "by_ticker": {
     "GH": 40.62,
-    "EL": 758.22,
+    "EL": 5.21,
     "NXPI": 758.24,
     "CRBG": 756.69,
     "CACI": 751.04,
@@ -1210,13 +1210,34 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 7.000655,
+      "status": "filled",
+      "price": 107.56,
+      "proceeds": 753.01,
+      "realized_pnl": 3.01,
+      "realized_pct": 0.4,
+      "date": "2026-11-02",
+      "time_et": "13:13",
+      "ts": 1793643000,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $107.13",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-02",
-  "spent_today": 5258.94,
+  "spent_today": 4505.93,
   "deployed_today": 43500.0,
   "orders_today": 31,
-  "sells_today": 24,
+  "sells_today": 25,
   "sold_today": [
     "NXPI",
     "ADI",
@@ -1232,7 +1253,7 @@
   "sold_ts": {
     "NXPI": 1793639156,
     "ADI": 1793638392,
-    "EL": 1793637326,
+    "EL": 1793643231,
     "GH": 1793630325,
     "RPM": 1793643042,
     "WSM": 1793634343,
@@ -1241,8 +1262,8 @@
     "CACI": 1793637916,
     "PLD": 1793637541
   },
-  "last_publish_ts": 1793643044,
-  "last_check_ts": 1793643141,
+  "last_publish_ts": 1793643231,
+  "last_check_ts": 1793643233,
   "exp_arm": {
     "PLD": {
       "params": {
@@ -1309,30 +1330,27 @@
     }
   },
   "last_bar_ts": 1793643000,
-  "last_decision_ts": 1793643044,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1793643233,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
+    "2ba17095": 261.3091,
     "2d38d74b": 677.418,
     "5b63da78": 261.924,
+    "00ebd1fd": 260.904,
     "d6bc6790": 678.8904,
     "a7b673c5": 262.6931,
     "fccd5264": 130.2327,
-    "2ba17095": 261.3091,
     "5e06accd": 35.4279,
-    "59626a5f": 107.5628,
     "76ff23d1": 426.4065,
     "375b84db": 129.1738,
     "2f85a628": 35.0152,
-    "d29ba83d": 258.3346,
     "e0bf5a9c": 420.2237,
-    "4a62815e": 106.048,
     "eb25fdde": 411.9008,
-    "3cb1ede6": 34.2507,
     "6ccf8613": 126.0321,
-    "d42ea23a": 103.9161,
-    "2c9afeb9": 252.6462,
+    "3cb1ede6": 34.2507,
     "0210e180": 656.2923,
+    "2c9afeb9": 252.6462,
     "35da5f55": 253.5774
   }
 }

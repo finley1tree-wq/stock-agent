@@ -1,6 +1,3 @@
-  (no price for NXPI — excluded this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgeUZLdihXf6cx2BogYHZ'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,987 idle, so opened 2: WSM, CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
   (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
   (dropped CRBG: culled strategy (hour 12: -119 over 197 trips, t -1.13))
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 CRBG @ $34.25 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25450.28 (+1.80% on $25000.00 in) · cash $20197.01 · realised +447.01
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19741.06 this week
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $107.56] -> $753.01 (+0.40%) — close 100% at +0.4% over the average cost
+## 2026-11-02 13:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders
