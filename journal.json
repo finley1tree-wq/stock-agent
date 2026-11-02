@@ -87305,7 +87305,7 @@
     "code_version": "7805b45",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06
+    "ret_now": 0.01
   },
   {
     "symbol": "EL",
@@ -87588,7 +87588,9 @@
     "code_version": "ea1b819",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.74
+    "ret_now": -0.94,
+    "ret_final": -0.94,
+    "ret_src": "realised"
   },
   {
     "symbol": "EL",
@@ -87787,7 +87789,7 @@
     "code_version": "9df9c7c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.62
+    "ret_now": -0.66
   },
   {
     "symbol": "FITB",
@@ -87815,5 +87817,32 @@
     "hour_et": 14,
     "code_version": "edbff95",
     "hold_minutes": 9
+  },
+  {
+    "symbol": "CRBG",
+    "side": "sell",
+    "qty": 21.237964,
+    "status": "filled",
+    "price": 34.98,
+    "proceeds": 742.96,
+    "realized_pnl": -7.04,
+    "realized_pct": -0.94,
+    "date": "2026-11-02",
+    "time_et": "14:26",
+    "ts": 1793647500,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $35.31",
+    "trigger": "stop_loss",
+    "hour_et": 14,
+    "code_version": "a9f878c",
+    "hold_minutes": 74
   }
 ]
