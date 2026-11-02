@@ -86645,7 +86645,7 @@
     "code_version": "ec2ad09",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.75
+    "ret_now": -0.89
   },
   {
     "symbol": "FITB",
@@ -86676,7 +86676,9 @@
     "code_version": "ec2ad09",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.18
+    "ret_now": -0.02,
+    "ret_final": -0.02,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -86740,7 +86742,7 @@
     "code_version": "380c370",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.34
+    "ret_now": -0.28
   },
   {
     "symbol": "CACI",
@@ -86855,5 +86857,32 @@
     "hour_et": 10,
     "code_version": "3f931c2",
     "hold_minutes": 5
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 13.665697,
+    "status": "filled",
+    "price": 54.87,
+    "proceeds": 749.87,
+    "realized_pnl": -0.13,
+    "realized_pct": -0.02,
+    "date": "2026-11-02",
+    "time_et": "10:55",
+    "ts": 1793634900,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $54.88",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "b91cd2e",
+    "hold_minutes": 21
   }
 ]

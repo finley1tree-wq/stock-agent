@@ -1,12 +1,12 @@
 {
   "week": "2026-W45",
-  "spent": 2249.71,
+  "spent": 1499.84,
   "deployed": 33000.0,
   "by_ticker": {
     "GH": 40.62,
     "EL": 7.75,
     "NXPI": 750.0,
-    "FITB": 750.0,
+    "FITB": 0.13,
     "CRBG": 750.0
   },
   "deployed_by_ticker": {
@@ -689,13 +689,34 @@
       ],
       "evidence": "average cost $673.52",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "FITB",
+      "side": "sell",
+      "qty": 13.665697,
+      "status": "filled",
+      "price": 54.87,
+      "proceeds": 749.87,
+      "realized_pnl": -0.13,
+      "realized_pct": -0.02,
+      "date": "2026-11-02",
+      "time_et": "10:55",
+      "ts": 1793634900,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $54.88",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-02",
-  "spent_today": 2249.71,
+  "spent_today": 1499.84,
   "deployed_today": 33000.0,
   "orders_today": 17,
-  "sells_today": 14,
+  "sells_today": 15,
   "sold_today": [
     "NXPI",
     "ADI",
@@ -715,13 +736,13 @@
     "GH": 1793630325,
     "RPM": 1793630430,
     "WSM": 1793634343,
-    "FITB": 1793630765,
+    "FITB": 1793634919,
     "CRBG": 1793630765,
     "CACI": 1793634553,
     "PLD": 1793632595
   },
-  "last_publish_ts": 1793634648,
-  "last_check_ts": 1793634877,
+  "last_publish_ts": 1793634918,
+  "last_check_ts": 1793634966,
   "exp_arm": {
     "WSM": {
       "params": {
@@ -778,19 +799,16 @@
       }
     }
   },
-  "last_bar_ts": 1793634600,
-  "last_decision_ts": 1793634787,
+  "last_bar_ts": 1793634900,
+  "last_decision_ts": 1793634966,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "9e4c6fb8": 54.928,
-    "3183df9d": 55.0123,
     "1d5dec94": 266.3325,
-    "557fb13a": 35.5981,
     "9d956664": 35.1852,
+    "557fb13a": 35.5981,
     "315b3539": 270.7821,
     "f7a8ead3": 261.4247,
-    "20e9295b": 34.4156,
-    "4069b7ae": 53.2336
+    "20e9295b": 34.4156
   }
 }
