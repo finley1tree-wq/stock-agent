@@ -55438,3 +55438,23 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25443.35 (+1.77% on $25000.00 in) · cash $23204.53 · realised +454.53
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [stop_loss @ $420.01] -> $741.82 (-1.09%) — close it all at -1.0% under the average cost
+## 2026-11-02 13:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-02 13:55 ET (Monday) — week 2026-W45 — budget left $23490.39 (today $43500.00 put to work, 31 buys, 29 sells) — SIM (pretend money) via sim
+  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (BLX excluded: too thinly traded ($8.6M a day) — Bladex Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (OCFC excluded: too thinly traded ($19.7M a day) — OceanFirst Financial Corp.)
+  (RAPP excluded: too thinly traded ($13.6M a day) — Rapport Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgecPoEH8tWdvKtyYQZ7p'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,490 idle, so opened 1: FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +7.7% over the month; 75% of today's range
+~ WORKING take_profit 100% FITB @ $54.94 until 2026-11-07 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% FITB @ $54.48 until 2026-11-07 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $53.17 until 2026-11-07 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25440.86 (+1.76% on $25000.00 in) · cash $23196.35 · realised +446.35
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22740.39 this week
