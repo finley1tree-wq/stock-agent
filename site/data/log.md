@@ -1,8 +1,3 @@
-  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgYwStU4jeGH16wNPXDV9'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25404.45 (+1.62% on $25000.00 in) · cash $25404.45 · realised +404.45
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
@@ -398,3 +393,8 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on WSM: position closed)
 - SELL 100% WSM [take_profit @ $259.22] -> $3010.76 (+0.36%) — close 100% at +0.3% over the average cost
 ## 2026-11-02 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [take_profit @ $54.65] -> $3006.98 (+0.23%) — close 100% at +0.2% over the average cost
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [take_profit @ $35.39] -> $3015.84 (+0.53%) — close 100% at +0.3% over the average cost
+## 2026-11-02 09:46 ET — tick — 2 sell(s), 0 buy(s) from standing orders
