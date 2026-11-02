@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-02T11:18-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,234 idle, so opened 1: EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
+ "asOf": "2026-11-02T11:31-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,484 idle, so opened 1: ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,17 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "6b8ab74d",
-   "ticker": "PLD",
-   "kind": "take_profit",
-   "price": 129.8919,
+   "id": "fcd409c4",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 108.772,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 129.43,
-   "pct_away": 0.36,
+   "last": 108.83,
+   "pct_away": -0.05,
    "good_until": "2026-11-07",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close it all at -1.0% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,7 +202,41 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 108.6,
+   "last": 108.83,
+   "pct_away": 0.22,
+   "good_until": "2026-11-07",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6b8ab74d",
+   "ticker": "PLD",
+   "kind": "take_profit",
+   "price": 129.8919,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 129.6,
+   "pct_away": 0.23,
+   "good_until": "2026-11-07",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c179afb5",
+   "ticker": "ADI",
+   "kind": "take_profit",
+   "price": 426.035,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 424.19,
    "pct_away": 0.43,
    "good_until": "2026-11-07",
    "why": "close 100% at +0.4% over the average cost",
@@ -219,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 129.43,
-   "pct_away": -0.46,
+   "last": 129.6,
+   "pct_away": -0.59,
    "good_until": "2026-11-07",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -229,17 +263,34 @@
    ]
   },
   {
-   "id": "1cf8e96f",
-   "ticker": "EL",
+   "id": "94546b1e",
+   "ticker": "ADI",
    "kind": "stop_loss",
-   "price": 107.5699,
+   "price": 419.8533,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 108.6,
-   "pct_away": -0.95,
+   "last": 424.19,
+   "pct_away": -1.02,
    "good_until": "2026-11-07",
    "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1d6edcdc",
+   "ticker": "ADI",
+   "kind": "buy_limit",
+   "price": 411.5419,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 424.19,
+   "pct_away": -2.98,
+   "good_until": "2026-11-07",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +304,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 129.43,
-   "pct_away": -2.88,
+   "last": 129.6,
+   "pct_away": -3.01,
    "good_until": "2026-11-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -270,8 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 108.6,
-   "pct_away": -2.96,
+   "last": 108.83,
+   "pct_away": -3.17,
    "good_until": "2026-11-07",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -280,7 +331,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,234 idle, so opened 1: EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,484 idle, so opened 1: ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -349,32 +400,32 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 365,
-  "decisions_with_buys_graded": 51,
+  "decisions_graded": 361,
+  "decisions_with_buys_graded": 50,
   "independent_days_graded": 4,
-  "avg_regret_pct": -1.77,
-  "chosen_avg_pct": 0.72,
-  "skipped_avg_pct": -1.05,
+  "avg_regret_pct": -1.81,
+  "chosen_avg_pct": 0.74,
+  "skipped_avg_pct": -1.07,
   "idle_universe_avg_pct": -0.63,
   "picking_beats_random": true,
   "avg_fraction_of_universe_bought": 0.01,
   "checks_that_bought_everything": 0,
   "by_signal_chosen": {
    "autopilot": {
-    "n": 96,
-    "avg_pct": 0.74
+    "n": 95,
+    "avg_pct": 0.75
    },
    "congress": {
-    "n": 71,
-    "avg_pct": 0.95
+    "n": 70,
+    "avg_pct": 0.96
    },
    "insider": {
     "n": 25,
     "avg_pct": 0.16
    },
    "momentum": {
-    "n": 96,
-    "avg_pct": 0.74
+    "n": 95,
+    "avg_pct": 0.75
    }
   },
   "biggest_misses": [
@@ -1986,5 +2037,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-11-02T11:18-05:00"
+ "signalsAsOf": "2026-11-02T11:31-05:00"
 }
