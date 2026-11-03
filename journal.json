@@ -89344,7 +89344,9 @@
     "code_version": "9815974",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.09
+    "ret_now": -1.29,
+    "ret_final": -1.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "PLD",
@@ -89674,7 +89676,7 @@
     "code_version": "b7d3f61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.53
+    "ret_now": -0.94
   },
   {
     "symbol": "WSM",
@@ -89822,5 +89824,32 @@
     "hour_et": 14,
     "code_version": "4958eae",
     "hold_minutes": 25
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 2.836044,
+    "status": "filled",
+    "price": 261.04,
+    "proceeds": 740.31,
+    "realized_pnl": -9.69,
+    "realized_pct": -1.29,
+    "date": "2026-11-03",
+    "time_et": "14:48",
+    "ts": 1793735100,
+    "why": "close it all at -1.2% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $264.45",
+    "trigger": "stop_loss",
+    "hour_et": 14,
+    "code_version": "4f0bce7",
+    "hold_minutes": 102
   }
 ]
