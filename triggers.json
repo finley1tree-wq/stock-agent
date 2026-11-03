@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "15678323",
-   "ticker": "LRN",
-   "kind": "buy_limit",
-   "price": 77.2605,
-   "status": "cancelled",
-   "created": "2026-10-28 13:10",
-   "created_ts": 1793207407,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $79.65",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "usd": 500.0,
-   "closed": "2026-10-28 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
-   "id": "20b64615",
-   "ticker": "BBT",
-   "kind": "take_profit",
-   "price": 30.4721,
-   "status": "cancelled",
-   "created": "2026-10-28 13:13",
-   "created_ts": 1793207586,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $30.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 14:01",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "08604bab",
    "ticker": "BBT",
    "kind": "stop_loss",
@@ -7233,7 +7195,7 @@
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 422.3135,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 10:21",
    "created_ts": 1793719308,
    "why": "close it all at -1.1% under the average cost",
@@ -7243,7 +7205,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 10:34",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5a99a24d",
@@ -7437,7 +7401,7 @@
    "ticker": "EL",
    "kind": "stop_loss",
    "price": 104.9605,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 10:30",
    "created_ts": 1793719855,
    "why": "close it all at -1.1% under the average cost",
@@ -7447,7 +7411,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 10:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "111bedcf",
@@ -7465,7 +7431,41 @@
    ],
    "good_until": "2026-11-08",
    "usd": 500.0
+  },
+  {
+   "id": "ff543a57",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 106.25,
+   "status": "working",
+   "created": "2026-11-03 10:33",
+   "created_ts": 1793720008,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $106.1",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "71451710",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 427.556,
+   "status": "working",
+   "created": "2026-11-03 10:34",
+   "created_ts": 1793720057,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $426.92",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-03 10:30"
+ "updated": "2026-11-03 10:34"
 }
