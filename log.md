@@ -56687,3 +56687,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25450.21 (+1.80% on $25000.00 in) · cash $23950.57 · realised +450.57
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on NTRS: position closed)
+- SELL 100% NTRS [take_profit @ $172.82] -> $751.88 (+0.25%) — close 100% at +0.2% over the average cost
+## 2026-11-03 11:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders
