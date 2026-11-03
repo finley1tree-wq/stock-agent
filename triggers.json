@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "d6e70cec",
-   "ticker": "OLN",
-   "kind": "take_profit",
-   "price": 16.7519,
-   "status": "filled",
-   "created": "2026-10-29 09:37",
-   "created_ts": 1793281058,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $16.69",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-29 09:40"
-  },
-  {
    "id": "18ecf3f4",
    "ticker": "OLN",
    "kind": "stop_loss",
@@ -7454,7 +7436,7 @@
    "ticker": "ESAB",
    "kind": "stop_loss",
    "price": 76.234,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 13:44",
    "created_ts": 1793731470,
    "why": "close it all at -1.1% under the average cost",
@@ -7464,7 +7446,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 13:45",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "b128b614",
@@ -7482,7 +7466,24 @@
    ],
    "good_until": "2026-11-08",
    "usd": 500.0
+  },
+  {
+   "id": "a31f51df",
+   "ticker": "ESAB",
+   "kind": "stop_loss",
+   "price": 77.236,
+   "status": "working",
+   "created": "2026-11-03 13:45",
+   "created_ts": 1793731554,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $77.11",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-03 13:44"
+ "updated": "2026-11-03 13:46"
 }
