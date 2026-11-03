@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-03T14:48-05:00",
+ "asOf": "2026-11-03T14:56-05:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -176,42 +176,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "5d5f716e",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 104.6506,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 104.91,
-   "pct_away": -0.25,
-   "good_until": "2026-11-08",
-   "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3d9a970f",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 106.246,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 104.91,
-   "pct_away": 1.27,
-   "good_until": "2026-11-08",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)",
  "congress_trades": [
