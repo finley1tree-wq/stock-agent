@@ -1,20 +1,3 @@
-- BUY $750.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +1.8% over the month; 53% of today's range
-~ WORKING take_profit 100% WSM @ $256.19 until 2026-11-08 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% WSM @ $253.17 until 2026-11-08 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 WSM @ $247.67 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% ADI @ $428.76 until 2026-11-08 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% ADI @ $422.31 until 2026-11-08 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 ADI @ $414.11 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25437.47 (+1.75% on $25000.00 in) · cash $23937.92 · realised +437.92
-Done: 0 sell(s), 2 buy(s); 6 order(s) working; budget left $23481.96 this week
-
-## 2026-11-03 10:24 ET (Tuesday) — week 2026-W45 — budget left $23481.96 (today $31500.00 put to work, 12 buys, 10 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggE7WXh8xeSGftysruJi'}
   -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,482 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
@@ -398,3 +381,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25437.10 (+1.75% on $25000.00 in) · cash $20952.45 · realised +452.45
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-03 11:39 ET (Tuesday) — week 2026-W45 — budget left $20496.48 (today $39750.00 put to work, 23 buys, 17 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggKrUYQVandQt52zVTG4'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $20,496 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +6.6% over the month; 19% of today's range
+~ WORKING take_profit 100% WSM @ $255.41 until 2026-11-08 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $252.39 until 2026-11-08 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $246.91 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25439.31 (+1.76% on $25000.00 in) · cash $20202.45 · realised +452.45
+Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19746.48 this week
