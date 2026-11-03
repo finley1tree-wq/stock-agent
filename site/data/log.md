@@ -1,74 +1,3 @@
-  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggQY7j6q7pcVecDVXaPT'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,471 idle, so opened 2: NXPI, NTRS. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped NTRS: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25418.73 (+1.67% on $25000.00 in) · cash $23926.72 · realised +426.72
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-03 12:45 ET (Tuesday) — week 2026-W45 — budget left $23470.76 (today $40500.00 put to work, 24 buys, 22 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
-  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggQoWK4kA9RmosYoaobk'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,471 idle, so opened 2: NXPI, NTRS. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped NTRS: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25417.05 (+1.67% on $25000.00 in) · cash $23926.72 · realised +426.72
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-03 12:48 ET (Tuesday) — week 2026-W45 — budget left $23470.76 (today $40500.00 put to work, 24 buys, 22 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
-  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggR4YKniPDqcwcuBJE9m'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,471 idle, so opened 2: NXPI, NTRS. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped NTRS: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25416.56 (+1.67% on $25000.00 in) · cash $23926.72 · realised +426.72
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on EL: position closed)
-- SELL 100% EL [stop_loss @ $105.32] -> $740.40 (-1.28%) — close it all at -1.1% under the average cost
-## 2026-11-03 12:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-03 12:51 ET (Tuesday) — week 2026-W45 — budget left $24211.16 (today $40500.00 put to work, 24 buys, 23 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
-  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggRJrXoRvnRRRqVrH5dz'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,211 idle, so opened 4: NXPI, PLD, FITB, NTRS. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped PLD: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped NTRS: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25414.29 (+1.66% on $25000.00 in) · cash $24667.12 · realised +417.12
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-03 12:54 ET (Tuesday) — week 2026-W45 — budget left $24211.16 (today $40500.00 put to work, 24 buys, 23 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
-  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggRZgXTZGKpZbTS4wFCT'}
   -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,211 idle, so opened 4: NXPI, PLD, FITB, NTRS. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
   (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
@@ -398,3 +327,74 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 RPM @ $103.40 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25418.40 (+1.67% on $25000.00 in) · cash $23174.06 · realised +424.06
 Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $22718.11 this week
+
+## 2026-11-03 13:51 ET (Tuesday) — week 2026-W45 — budget left $22718.11 (today $47250.00 put to work, 33 buys, 30 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggVr4yyiQ1HUBQXbabMt'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25418.50 (+1.67% on $25000.00 in) · cash $23174.06 · realised +424.06
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-03 13:53 ET (Tuesday) — week 2026-W45 — budget left $22718.11 (today $47250.00 put to work, 33 buys, 30 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggVzkEMop9avRmyquvAY'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25418.70 (+1.67% on $25000.00 in) · cash $23174.06 · realised +424.06
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-03 13:55 ET (Tuesday) — week 2026-W45 — budget left $22718.11 (today $47250.00 put to work, 33 buys, 30 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggWAzNCoFV657NCMNkfM'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25419.02 (+1.68% on $25000.00 in) · cash $23174.06 · realised +424.06
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-03 13:57 ET (Tuesday) — week 2026-W45 — budget left $22718.11 (today $47250.00 put to work, 33 buys, 30 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggWKszDMNPHYVTXw3dun'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25418.91 (+1.68% on $25000.00 in) · cash $23174.06 · realised +424.06
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-03 13:59 ET (Tuesday) — week 2026-W45 — budget left $22718.11 (today $47250.00 put to work, 33 buys, 30 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggWWWHp2VGePxKKQMmCB'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25419.35 (+1.68% on $25000.00 in) · cash $23174.06 · realised +424.06
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 3 resting buy order(s): past the entry cutoff)
