@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-03T11:21-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,246 idle, so opened 1: EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
+ "asOf": "2026-11-03T11:24-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,496 idle, so opened 2: FITB, ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -185,10 +185,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 128.35,
-   "pct_away": -0.22,
+   "last": 128.28,
+   "pct_away": -0.17,
    "good_until": "2026-11-08",
    "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1d090d2d",
+   "ticker": "FITB",
+   "kind": "take_profit",
+   "price": 54.6776,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 54.53,
+   "pct_away": 0.27,
+   "good_until": "2026-11-08",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1edfdc11",
+   "ticker": "ADI",
+   "kind": "take_profit",
+   "price": 432.4803,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 430.53,
+   "pct_away": 0.45,
+   "good_until": "2026-11-08",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,10 +236,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 106.64,
-   "pct_away": 0.46,
+   "last": 106.6,
+   "pct_away": 0.5,
    "good_until": "2026-11-08",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b1584c6a",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 54.2303,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 54.53,
+   "pct_away": -0.55,
+   "good_until": "2026-11-08",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 128.35,
-   "pct_away": 0.54,
+   "last": 128.28,
+   "pct_away": 0.59,
    "good_until": "2026-11-08",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -236,8 +287,25 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 106.64,
-   "pct_away": -1.03,
+   "last": 106.6,
+   "pct_away": -0.99,
+   "good_until": "2026-11-08",
+   "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "fc4a1457",
+   "ticker": "ADI",
+   "kind": "stop_loss",
+   "price": 425.965,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 430.53,
+   "pct_away": -1.06,
    "good_until": "2026-11-08",
    "why": "close it all at -1.1% under the average cost",
    "signals": [
@@ -253,8 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 128.35,
-   "pct_away": -2.69,
+   "last": 128.28,
+   "pct_away": -2.64,
    "good_until": "2026-11-08",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -270,8 +338,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 106.64,
+   "last": 106.6,
+   "pct_away": -2.93,
+   "good_until": "2026-11-08",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e6e999b3",
+   "ticker": "FITB",
+   "kind": "buy_limit",
+   "price": 52.9135,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 54.53,
    "pct_away": -2.96,
+   "good_until": "2026-11-08",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e4ab3e99",
+   "ticker": "ADI",
+   "kind": "buy_limit",
+   "price": 417.7014,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 430.53,
+   "pct_away": -2.98,
    "good_until": "2026-11-08",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -280,7 +382,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,246 idle, so opened 1: EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,496 idle, so opened 2: FITB, ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -348,7 +450,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 364,
+  "decisions_graded": 363,
   "decisions_with_buys_graded": 47,
   "independent_days_graded": 4,
   "avg_regret_pct": -1.46,
@@ -449,7 +551,7 @@
     "n": 1
    }
   },
-  "idle_checks": 333,
+  "idle_checks": 332,
   "blocked_checks": 0,
   "idle_share": 0.83,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1985,5 +2087,5 @@
  },
  "headlines": {},
  "people_news": {},
- "signalsAsOf": "2026-11-03T11:21-05:00"
+ "signalsAsOf": "2026-11-03T11:24-05:00"
 }
