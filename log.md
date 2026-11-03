@@ -56770,3 +56770,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25447.27 (+1.79% on $25000.00 in) · cash $22452.45 · realised +452.45
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-03 11:30 ET (Tuesday) — week 2026-W45 — budget left $21996.48 (today $38250.00 put to work, 21 buys, 17 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggK79i8BB1PDt4w2AHrk'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,996 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +9.3% over the month; 66% of today's range
+~ WORKING take_profit 100% NXPI @ $265.95 until 2026-11-08 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% NXPI @ $261.36 until 2026-11-08 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $256.70 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25441.28 (+1.77% on $25000.00 in) · cash $21702.45 · realised +452.45
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21246.48 this week
