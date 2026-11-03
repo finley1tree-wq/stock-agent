@@ -1,6 +1,3 @@
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25430.90 (+1.72% on $25000.00 in) · cash $25430.90 · realised +430.90
-Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-11-02 15:58 ET (Monday) — week 2026-W45 — budget left $24974.94 (today $45000.00 put to work, 33 buys, 33 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% ADI @ $427.56 until 2026-11-08 — close it all at -1.1% under the average cost
 portfolio: equity $25442.36 (+1.77% on $25000.00 in) · cash $20937.92 · realised +437.92
 Decision: nothing at this check. 18 standing order(s) working.
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [stop_loss @ $106.14] -> $750.24 (+0.03%) — close it all at -1.1% under the average cost
+## 2026-11-03 10:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
