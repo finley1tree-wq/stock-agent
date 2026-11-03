@@ -87997,7 +87997,9 @@
     "code_version": "fa20b4f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05
+    "ret_now": 0.21,
+    "ret_final": 0.21,
+    "ret_src": "realised"
   },
   {
     "symbol": "BBT",
@@ -88388,7 +88390,9 @@
     "code_version": "b980900",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.14
+    "ret_now": -0.03,
+    "ret_final": -0.03,
+    "ret_src": "realised"
   },
   {
     "symbol": "EL",
@@ -88443,5 +88447,59 @@
     "hour_et": 9,
     "code_version": "982a153",
     "hold_minutes": 12
+  },
+  {
+    "symbol": "NTRS",
+    "side": "sell",
+    "qty": 17.494898,
+    "status": "filled",
+    "price": 171.43,
+    "proceeds": 2999.22,
+    "realized_pnl": -0.78,
+    "realized_pct": -0.03,
+    "date": "2026-11-03",
+    "time_et": "09:56",
+    "ts": 1793717700,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $171.48",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "9d3c7b7",
+    "hold_minutes": 13
+  },
+  {
+    "symbol": "PLD",
+    "side": "sell",
+    "qty": 23.278998,
+    "status": "filled",
+    "price": 129.15,
+    "proceeds": 3006.38,
+    "realized_pnl": 6.38,
+    "realized_pct": 0.21,
+    "date": "2026-11-03",
+    "time_et": "09:57",
+    "ts": 1793717700,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $128.87",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "9d3c7b7",
+    "hold_minutes": 22
   }
 ]

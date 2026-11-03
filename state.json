@@ -1,17 +1,16 @@
 {
   "week": "2026-W45",
-  "spent": 6023.64,
+  "spent": 18.04,
   "deployed": 75000.0,
   "by_ticker": {
     "GH": 40.62,
     "EL": 0.32,
     "NXPI": 45.47,
     "CRBG": 13.73,
-    "PLD": 3000.6,
     "ADI": 3.58,
     "RPM": 21.37,
     "FITB": 12.01,
-    "NTRS": 3000.0
+    "NTRS": 0.78
   },
   "deployed_by_ticker": {
     "RPM": 6750.0,
@@ -1834,13 +1833,55 @@
       ],
       "evidence": "average cost $31.26",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NTRS",
+      "side": "sell",
+      "qty": 17.494898,
+      "status": "filled",
+      "price": 171.43,
+      "proceeds": 2999.22,
+      "realized_pnl": -0.78,
+      "realized_pct": -0.03,
+      "date": "2026-11-03",
+      "time_et": "09:56",
+      "ts": 1793717700,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $171.48",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "PLD",
+      "side": "sell",
+      "qty": 23.278998,
+      "status": "filled",
+      "price": 129.15,
+      "proceeds": 3006.38,
+      "realized_pnl": 6.38,
+      "realized_pct": 0.21,
+      "date": "2026-11-03",
+      "time_et": "09:57",
+      "ts": 1793717700,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $128.87",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-03",
-  "spent_today": 5998.58,
+  "spent_today": 0.0,
   "deployed_today": 30000.0,
   "orders_today": 10,
-  "sells_today": 8,
+  "sells_today": 10,
   "sold_today": [
     "ADI",
     "WSM",
@@ -1849,7 +1890,9 @@
     "ROL",
     "NXPI",
     "EL",
-    "BBT"
+    "BBT",
+    "NTRS",
+    "PLD"
   ],
   "sold_ts": {
     "NXPI": 1793716899,
@@ -1861,12 +1904,13 @@
     "FITB": 1793716815,
     "CRBG": 1793647568,
     "CACI": 1793643610,
-    "PLD": 1793647967,
+    "PLD": 1793717834,
     "ROL": 1793716853,
-    "BBT": 1793717182
+    "BBT": 1793717182,
+    "NTRS": 1793717788
   },
-  "last_publish_ts": 1793717694,
-  "last_check_ts": 1793717740,
+  "last_publish_ts": 1793717834,
+  "last_check_ts": 1793717835,
   "exp_arm": {
     "PLD": {
       "params": {
@@ -1906,15 +1950,8 @@
     }
   },
   "last_bar_ts": 1793717700,
-  "last_decision_ts": 1793717645,
+  "last_decision_ts": 1793717835,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "ac640ba3": 171.648,
-    "dcec1b76": 171.9018,
-    "2b97f10c": 129.1458,
-    "d4b05d4c": 128.1805,
-    "93ef65ed": 125.0039,
-    "0d3670b6": 166.3356
-  }
+  "book_px": {}
 }

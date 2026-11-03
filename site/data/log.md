@@ -1,9 +1,3 @@
-portfolio: equity $25430.90 (+1.72% on $25000.00 in) · cash $25430.90 · realised +430.90
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-02 15:24 ET (Monday) — week 2026-W45 — budget left $24974.94 (today $45000.00 put to work, 33 buys, 33 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (BLX excluded: too thinly traded ($8.6M a day) — Bladex Inc.)
   (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
@@ -398,3 +392,9 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25435.74 (+1.74% on $25000.00 in) · cash $19432.31 · realised +432.31
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on NTRS: position closed)
+- SELL 100% NTRS [stop_loss @ $171.43] -> $2999.22 (-0.03%) — close it all at -0.6% under the average cost
+## 2026-11-03 09:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [take_profit @ $129.15] -> $3006.38 (+0.21%) — close 100% at +0.2% over the average cost
+## 2026-11-03 09:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders

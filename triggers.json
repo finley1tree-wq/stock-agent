@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "f69fb424",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 53.1297,
-   "status": "cancelled",
-   "created": "2026-10-28 13:00",
-   "created_ts": 1793206845,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $53.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 13:31",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "c45064cb",
    "ticker": "FITB",
    "kind": "buy_limit",
@@ -6962,7 +6943,7 @@
    "ticker": "PLD",
    "kind": "take_profit",
    "price": 129.1458,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-03 09:32",
    "created_ts": 1793716361,
    "why": "close 100% at +0.2% over the average cost",
@@ -6972,14 +6953,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 09:57"
   },
   {
    "id": "d4b05d4c",
    "ticker": "PLD",
    "kind": "stop_loss",
    "price": 128.1805,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 09:32",
    "created_ts": 1793716361,
    "why": "close it all at -0.5% under the average cost",
@@ -6989,14 +6971,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 09:56",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "93ef65ed",
    "ticker": "PLD",
    "kind": "buy_limit",
    "price": 125.0039,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 09:32",
    "created_ts": 1793716361,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7006,7 +6990,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-03 09:57",
+   "cancel_reason": "position closed"
   },
   {
    "id": "23ab88f9",
@@ -7406,7 +7392,7 @@
    "ticker": "NTRS",
    "kind": "take_profit",
    "price": 171.9018,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 09:41",
    "created_ts": 1793716901,
    "why": "close 100% at +0.2% over the average cost",
@@ -7416,7 +7402,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 09:56",
+   "cancel_reason": "position closed"
   },
   {
    "id": "efde7d48",
@@ -7442,7 +7430,7 @@
    "ticker": "NTRS",
    "kind": "buy_limit",
    "price": 166.3356,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 09:41",
    "created_ts": 1793716901,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7452,7 +7440,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-03 09:56",
+   "cancel_reason": "position closed"
   },
   {
    "id": "1b64fda8",
@@ -7478,7 +7468,7 @@
    "ticker": "NTRS",
    "kind": "stop_loss",
    "price": 171.648,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-03 09:54",
    "created_ts": 1793717694,
    "why": "close it all at -0.6% under the average cost",
@@ -7488,8 +7478,28 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 09:56"
+  },
+  {
+   "id": "5ad32434",
+   "ticker": "PLD",
+   "kind": "stop_loss",
+   "price": 128.972,
+   "status": "cancelled",
+   "created": "2026-11-03 09:56",
+   "created_ts": 1793717788,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $128.87",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 09:57",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-11-03 09:54"
+ "updated": "2026-11-03 09:57"
 }

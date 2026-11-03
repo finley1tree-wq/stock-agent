@@ -56288,3 +56288,23 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25435.74 (+1.74% on $25000.00 in) · cash $19432.31 · realised +432.31
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on NTRS: position closed)
+- SELL 100% NTRS [stop_loss @ $171.43] -> $2999.22 (-0.03%) — close it all at -0.6% under the average cost
+## 2026-11-03 09:56 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [take_profit @ $129.15] -> $3006.38 (+0.21%) — close 100% at +0.2% over the average cost
+## 2026-11-03 09:57 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-03 09:57 ET (Tuesday) — week 2026-W45 — budget left $24981.96 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggC1GFJj2o9G3T96LULB'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25437.92 (+1.75% on $25000.00 in) · cash $25437.92 · realised +437.92
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
