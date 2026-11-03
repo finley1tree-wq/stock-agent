@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "e4fab550",
-   "ticker": "BBT",
-   "kind": "stop_loss",
-   "price": 30.42,
-   "status": "filled",
-   "created": "2026-10-28 12:13",
-   "created_ts": 1793203982,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $30.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 12:26"
-  },
-  {
-   "id": "aca8c09b",
-   "ticker": "LRN",
-   "kind": "stop_loss",
-   "price": 79.978,
-   "status": "filled",
-   "created": "2026-10-28 12:18",
-   "created_ts": 1793204308,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $79.84",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 12:23"
-  },
-  {
-   "id": "aef97bfb",
-   "ticker": "OLN",
-   "kind": "stop_loss",
-   "price": 16.564,
-   "status": "cancelled",
-   "created": "2026-10-28 12:34",
-   "created_ts": 1793205291,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $16.54",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 12:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "e7c6070d",
    "ticker": "ADI",
    "kind": "stop_loss",
@@ -6998,7 +6943,7 @@
    "ticker": "NXPI",
    "kind": "take_profit",
    "price": 265.3338,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 09:32",
    "created_ts": 1793716361,
    "why": "close 100% at +0.5% over the average cost",
@@ -7008,14 +6953,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 09:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f6d6cc1b",
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 260.8029,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-03 09:32",
    "created_ts": 1793716361,
    "why": "close it all at -1.2% under the average cost",
@@ -7025,14 +6972,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 09:41"
   },
   {
    "id": "bf3f2ce5",
    "ticker": "NXPI",
    "kind": "buy_limit",
    "price": 256.1188,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 09:32",
    "created_ts": 1793716361,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7042,7 +6990,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-03 09:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "2b97f10c",
@@ -7408,7 +7358,7 @@
    "ticker": "ROL",
    "kind": "take_profit",
    "price": 36.4515,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-03 09:35",
    "created_ts": 1793716547,
    "why": "close 100% at +0.4% over the average cost",
@@ -7418,7 +7368,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 09:40"
   },
   {
    "id": "5a255104",
@@ -7444,7 +7395,7 @@
    "ticker": "ROL",
    "kind": "buy_limit",
    "price": 35.2304,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 09:35",
    "created_ts": 1793716547,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7454,14 +7405,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-03 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a71d52ce",
    "ticker": "ROL",
    "kind": "stop_loss",
    "price": 36.518,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 09:39",
    "created_ts": 1793716769,
    "why": "close it all at -0.9% under the average cost",
@@ -7471,8 +7424,61 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 09:40",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "dcec1b76",
+   "ticker": "NTRS",
+   "kind": "take_profit",
+   "price": 171.9018,
+   "status": "working",
+   "created": "2026-11-03 09:41",
+   "created_ts": 1793716901,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $171.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "efde7d48",
+   "ticker": "NTRS",
+   "kind": "stop_loss",
+   "price": 170.4271,
+   "status": "working",
+   "created": "2026-11-03 09:41",
+   "created_ts": 1793716901,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $171.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0d3670b6",
+   "ticker": "NTRS",
+   "kind": "buy_limit",
+   "price": 166.3356,
+   "status": "working",
+   "created": "2026-11-03 09:41",
+   "created_ts": 1793716901,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $171.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-03 09:40"
+ "updated": "2026-11-03 09:41"
 }
