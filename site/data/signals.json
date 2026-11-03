@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-03T13:03-05:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-11-03T13:18-05:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,17 +178,34 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "246533f5",
-   "ticker": "PLD",
-   "kind": "take_profit",
-   "price": 128.6637,
+   "id": "3b837fdd",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 54.232,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 128.37,
-   "pct_away": 0.23,
+   "last": 54.26,
+   "pct_away": -0.05,
    "good_until": "2026-11-08",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1302b397",
+   "ticker": "NTRS",
+   "kind": "stop_loss",
+   "price": 172.644,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 172.76,
+   "pct_away": -0.07,
+   "good_until": "2026-11-08",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 172.4,
-   "pct_away": 0.29,
+   "last": 172.76,
+   "pct_away": 0.08,
    "good_until": "2026-11-08",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -219,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 54.15,
-   "pct_away": 0.32,
+   "last": 54.26,
+   "pct_away": 0.11,
    "good_until": "2026-11-08",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -229,15 +246,32 @@
    ]
   },
   {
-   "id": "1bf8a470",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 53.8638,
+   "id": "246533f5",
+   "ticker": "PLD",
+   "kind": "take_profit",
+   "price": 128.6637,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 54.15,
-   "pct_away": -0.53,
+   "last": 128.43,
+   "pct_away": 0.18,
+   "good_until": "2026-11-08",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c55a56ed",
+   "ticker": "PLD",
+   "kind": "stop_loss",
+   "price": 127.6726,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 128.43,
+   "pct_away": -0.59,
    "good_until": "2026-11-08",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -253,44 +287,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 264.33,
-   "pct_away": 0.54,
+   "last": 263.73,
+   "pct_away": 0.77,
    "good_until": "2026-11-08",
    "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "c55a56ed",
-   "ticker": "PLD",
-   "kind": "stop_loss",
-   "price": 127.6726,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 128.37,
-   "pct_away": -0.54,
-   "good_until": "2026-11-08",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d7e2f628",
-   "ticker": "NTRS",
-   "kind": "stop_loss",
-   "price": 171.3921,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 172.4,
-   "pct_away": -0.58,
-   "good_until": "2026-11-08",
-   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -304,27 +304,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 264.33,
-   "pct_away": -1.2,
+   "last": 263.73,
+   "pct_away": -0.97,
    "good_until": "2026-11-08",
    "why": "close it all at -1.2% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1ce65d53",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 52.5643,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 54.15,
-   "pct_away": -2.93,
-   "good_until": "2026-11-08",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -338,25 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 264.33,
-   "pct_away": -2.96,
-   "good_until": "2026-11-08",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9d31c703",
-   "ticker": "NTRS",
-   "kind": "buy_limit",
-   "price": 167.2959,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 172.4,
-   "pct_away": -2.96,
+   "last": 263.73,
+   "pct_away": -2.74,
    "good_until": "2026-11-08",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -372,8 +338,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 128.37,
-   "pct_away": -2.99,
+   "last": 128.43,
+   "pct_away": -3.04,
+   "good_until": "2026-11-08",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1ce65d53",
+   "ticker": "FITB",
+   "kind": "buy_limit",
+   "price": 52.5643,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 54.26,
+   "pct_away": -3.13,
+   "good_until": "2026-11-08",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9d31c703",
+   "ticker": "NTRS",
+   "kind": "buy_limit",
+   "price": 167.2959,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 172.76,
+   "pct_away": -3.16,
    "good_until": "2026-11-08",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
