@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-03T09:43-05:00",
+ "asOf": "2026-11-03T09:46-05:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,57 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "d4b05d4c",
-   "ticker": "PLD",
-   "kind": "stop_loss",
-   "price": 128.1805,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 128.37,
-   "pct_away": -0.15,
-   "good_until": "2026-11-08",
-   "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "23ab88f9",
-   "ticker": "BBT",
-   "kind": "take_profit",
-   "price": 31.3519,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 31.25,
-   "pct_away": 0.33,
-   "good_until": "2026-11-08",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "efde7d48",
-   "ticker": "NTRS",
-   "kind": "stop_loss",
-   "price": 170.4271,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 171.1,
-   "pct_away": -0.39,
-   "good_until": "2026-11-08",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "dcec1b76",
    "ticker": "NTRS",
    "kind": "take_profit",
@@ -236,10 +185,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 171.1,
-   "pct_away": 0.47,
+   "last": 171.55,
+   "pct_away": 0.21,
    "good_until": "2026-11-08",
    "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d4b05d4c",
+   "ticker": "PLD",
+   "kind": "stop_loss",
+   "price": 128.1805,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 128.53,
+   "pct_away": -0.27,
+   "good_until": "2026-11-08",
+   "why": "close it all at -0.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 128.37,
-   "pct_away": 0.6,
+   "last": 128.53,
+   "pct_away": 0.48,
    "good_until": "2026-11-08",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -263,17 +229,17 @@
    ]
   },
   {
-   "id": "b352255c",
-   "ticker": "BBT",
+   "id": "efde7d48",
+   "ticker": "NTRS",
    "kind": "stop_loss",
-   "price": 31.0302,
+   "price": 170.4271,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 31.25,
-   "pct_away": -0.7,
+   "last": 171.55,
+   "pct_away": -0.65,
    "good_until": "2026-11-08",
-   "why": "close it all at -0.7% under the average cost",
+   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -287,8 +253,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 128.37,
-   "pct_away": -2.62,
+   "last": 128.53,
+   "pct_away": -2.74,
    "good_until": "2026-11-08",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -304,25 +270,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 171.1,
-   "pct_away": -2.78,
-   "good_until": "2026-11-08",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "17526d31",
-   "ticker": "BBT",
-   "kind": "buy_limit",
-   "price": 30.3222,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 31.25,
-   "pct_away": -2.97,
+   "last": 171.55,
+   "pct_away": -3.04,
    "good_until": "2026-11-08",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

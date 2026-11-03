@@ -7031,7 +7031,7 @@
    "ticker": "BBT",
    "kind": "take_profit",
    "price": 31.3519,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-03 09:32",
    "created_ts": 1793716361,
    "why": "close 100% at +0.3% over the average cost",
@@ -7041,14 +7041,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 09:46"
   },
   {
    "id": "b352255c",
    "ticker": "BBT",
    "kind": "stop_loss",
    "price": 31.0302,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 09:32",
    "created_ts": 1793716361,
    "why": "close it all at -0.7% under the average cost",
@@ -7058,14 +7059,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 09:46",
+   "cancel_reason": "position closed"
   },
   {
    "id": "17526d31",
    "ticker": "BBT",
    "kind": "buy_limit",
    "price": 30.3222,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 09:32",
    "created_ts": 1793716361,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7075,7 +7078,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-03 09:46",
+   "cancel_reason": "position closed"
   },
   {
    "id": "03b50643",
@@ -7485,5 +7490,5 @@
    "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-11-03 09:44"
+ "updated": "2026-11-03 09:46"
 }
