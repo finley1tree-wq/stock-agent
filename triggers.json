@@ -7395,7 +7395,7 @@
    "ticker": "NTRS",
    "kind": "take_profit",
    "price": 172.9012,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-03 13:02",
    "created_ts": 1793728957,
    "why": "close 100% at +0.2% over the average cost",
@@ -7405,7 +7405,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 13:19"
   },
   {
    "id": "d7e2f628",
@@ -7431,7 +7432,7 @@
    "ticker": "NTRS",
    "kind": "buy_limit",
    "price": 167.2959,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 13:02",
    "created_ts": 1793728957,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7441,7 +7442,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-03 13:19",
+   "cancel_reason": "position closed"
   },
   {
    "id": "3b837fdd",
@@ -7465,7 +7468,7 @@
    "ticker": "NTRS",
    "kind": "stop_loss",
    "price": 172.644,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 13:18",
    "created_ts": 1793729912,
    "why": "close it all at -0.6% under the average cost",
@@ -7475,8 +7478,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 13:19",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-11-03 13:18"
+ "updated": "2026-11-03 13:19"
 }
