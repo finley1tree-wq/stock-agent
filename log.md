@@ -56979,3 +56979,19 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 portfolio: equity $25432.85 (+1.73% on $25000.00 in) · cash $22444.59 · realised +444.59
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-03 12:18 ET (Tuesday) — week 2026-W45 — budget left $21988.62 (today $40500.00 put to work, 24 buys, 20 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggNmfZQ9sjhKR8GZyrz5'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,989 idle, so opened 2: ROL, NTRS. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped ROL: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped NTRS: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25430.55 (+1.72% on $25000.00 in) · cash $22444.59 · realised +444.59
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
