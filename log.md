@@ -56552,3 +56552,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 PLD @ $124.90 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25444.88 (+1.78% on $25000.00 in) · cash $23194.33 · realised +444.33
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22738.37 this week
+
+## 2026-11-03 10:46 ET (Tuesday) — week 2026-W45 — budget left $22738.37 (today $35250.00 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggFnA6KjTCcnVNfSNihw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25444.94 (+1.78% on $25000.00 in) · cash $23194.33 · realised +444.33
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
