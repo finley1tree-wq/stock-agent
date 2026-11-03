@@ -1,10 +1,10 @@
 {
   "week": "2026-W45",
-  "spent": 12045.21,
+  "spent": 9032.34,
   "deployed": 75000.0,
   "by_ticker": {
     "GH": 40.62,
-    "EL": 3013.19,
+    "EL": 0.32,
     "NXPI": 45.47,
     "CRBG": 13.73,
     "PLD": 3000.6,
@@ -1793,25 +1793,47 @@
         "hold_long": 90
       },
       "hold_minutes": 90
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 28.549129,
+      "status": "filled",
+      "price": 105.53,
+      "proceeds": 3012.87,
+      "realized_pnl": 12.87,
+      "realized_pct": 0.43,
+      "date": "2026-11-03",
+      "time_et": "09:43",
+      "ts": 1793716800,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $105.08",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-03",
-  "spent_today": 12020.15,
+  "spent_today": 9007.28,
   "deployed_today": 30000.0,
   "orders_today": 10,
-  "sells_today": 6,
+  "sells_today": 7,
   "sold_today": [
     "ADI",
     "WSM",
     "RPM",
     "FITB",
     "ROL",
-    "NXPI"
+    "NXPI",
+    "EL"
   ],
   "sold_ts": {
     "NXPI": 1793716899,
     "ADI": 1793716572,
-    "EL": 1793648582,
+    "EL": 1793717001,
     "GH": 1793630325,
     "RPM": 1793716660,
     "WSM": 1793716572,
@@ -1821,8 +1843,8 @@
     "PLD": 1793647967,
     "ROL": 1793716853
   },
-  "last_publish_ts": 1793716901,
-  "last_check_ts": 1793716901,
+  "last_publish_ts": 1793717001,
+  "last_check_ts": 1793717001,
   "exp_arm": {
     "PLD": {
       "params": {
@@ -1867,15 +1889,12 @@
   "autopiloted": true,
   "book_px": {
     "d4b05d4c": 128.1805,
-    "dcec1b76": 171.9018,
     "23ab88f9": 31.3519,
-    "2b97f10c": 129.1458,
-    "10b82955": 105.5329,
     "efde7d48": 170.4271,
+    "dcec1b76": 171.9018,
+    "2b97f10c": 129.1458,
     "b352255c": 31.0302,
-    "0dcae964": 103.9493,
     "93ef65ed": 125.0039,
-    "536933a2": 101.9276,
     "0d3670b6": 166.3356,
     "17526d31": 30.3222
   }

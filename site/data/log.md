@@ -1,6 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25430.90 (+1.72% on $25000.00 in) · cash $25430.90 · realised +430.90
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 NTRS @ $166.34 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25395.53 (+1.58% on $25000.00 in) · cash $13410.74 · realised +410.74
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $12954.79 this week
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $105.53] -> $3012.87 (+0.43%) — close 100% at +0.4% over the average cost
+## 2026-11-03 09:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
