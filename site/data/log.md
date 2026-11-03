@@ -1,20 +1,3 @@
-~ WORKING stop_loss 100% EL @ $103.95 until 2026-11-08 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 EL @ $101.93 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% FITB @ $54.87 until 2026-11-08 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% FITB @ $54.43 until 2026-11-08 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 FITB @ $53.10 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% ADI @ $429.10 until 2026-11-08 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% ADI @ $422.65 until 2026-11-08 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 ADI @ $414.44 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25420.71 (+1.68% on $25000.00 in) · cash $1430.90 · realised +430.90
-Done: 0 sell(s), 8 buy(s); 24 order(s) working; budget left $974.94 this week
-
-## 2026-11-03 09:35 ET (Tuesday) — week 2026-W45 — budget left $974.94 (today $24000.00 put to work, 8 buys, 0 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
   (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
   (cancelled 2 standing order(s) on ADI: position closed)
 - SELL 100% ADI [stop_loss @ $427.91] -> $3004.60 (+0.15%) — close it all at -1.1% under the average cost
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 PLD @ $124.90 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25444.88 (+1.78% on $25000.00 in) · cash $23194.33 · realised +444.33
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22738.37 this week
+
+## 2026-11-03 10:46 ET (Tuesday) — week 2026-W45 — budget left $22738.37 (today $35250.00 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggFnA6KjTCcnVNfSNihw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25444.94 (+1.78% on $25000.00 in) · cash $23194.33 · realised +444.33
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [take_profit @ $106.92] -> $752.07 (+0.28%) — close 100% at +0.3% over the average cost
+## 2026-11-03 10:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
