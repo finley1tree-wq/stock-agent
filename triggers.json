@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "5e3fb04c",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 251.604,
-   "status": "filled",
-   "created": "2026-10-28 13:33",
-   "created_ts": 1793208819,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $251.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 13:35"
-  },
-  {
    "id": "b48c26c6",
    "ticker": "ADI",
    "kind": "take_profit",
@@ -7459,7 +7441,7 @@
    "ticker": "NTRS",
    "kind": "stop_loss",
    "price": 171.3126,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 10:53",
    "created_ts": 1793721187,
    "why": "close it all at -0.6% under the average cost",
@@ -7469,7 +7451,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 11:08",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "2a27d001",
@@ -7487,7 +7471,24 @@
    ],
    "good_until": "2026-11-08",
    "usd": 500.0
+  },
+  {
+   "id": "741498a3",
+   "ticker": "NTRS",
+   "kind": "stop_loss",
+   "price": 172.54,
+   "status": "working",
+   "created": "2026-11-03 11:08",
+   "created_ts": 1793722115,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $172.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-03 11:05"
+ "updated": "2026-11-03 11:08"
 }
