@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "4ce5b2bf",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 243.7998,
-   "status": "cancelled",
-   "created": "2026-10-28 13:00",
-   "created_ts": 1793206845,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $251.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "usd": 500.0,
-   "closed": "2026-10-28 13:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "046d0618",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 247.6276,
-   "status": "cancelled",
-   "created": "2026-10-28 13:00",
-   "created_ts": 1793206845,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $246.56",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 13:45",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "3536088f",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 243.8898,
-   "status": "cancelled",
-   "created": "2026-10-28 13:00",
-   "created_ts": 1793206845,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $246.56",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 13:42",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "d9f72310",
    "ticker": "NXPI",
    "kind": "buy_limit",
@@ -7487,7 +7430,58 @@
    ],
    "good_until": "2026-11-08",
    "usd": 500.0
+  },
+  {
+   "id": "b9f3869f",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 106.9175,
+   "status": "working",
+   "created": "2026-11-03 10:24",
+   "created_ts": 1793719492,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $106.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "27050512",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 105.8779,
+   "status": "working",
+   "created": "2026-11-03 10:24",
+   "created_ts": 1793719492,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $106.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "846dc543",
+   "ticker": "RPM",
+   "kind": "buy_limit",
+   "price": 103.4214,
+   "status": "working",
+   "created": "2026-11-03 10:24",
+   "created_ts": 1793719492,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $106.62",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-03 10:21"
+ "updated": "2026-11-03 10:24"
 }
