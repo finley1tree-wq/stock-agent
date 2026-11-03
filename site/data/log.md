@@ -1,39 +1,3 @@
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggNmfZQ9sjhKR8GZyrz5'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,989 idle, so opened 2: ROL, NTRS. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped ROL: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped NTRS: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25430.55 (+1.72% on $25000.00 in) · cash $22444.59 · realised +444.59
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-03 12:21 ET (Tuesday) — week 2026-W45 — budget left $21988.62 (today $40500.00 put to work, 24 buys, 20 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
-  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggP1qeWPgoZSvdByBQGe'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,989 idle, so opened 2: ROL, NTRS. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped ROL: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped NTRS: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25430.96 (+1.72% on $25000.00 in) · cash $22444.59 · realised +444.59
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-03 12:24 ET (Tuesday) — week 2026-W45 — budget left $21988.62 (today $40500.00 put to work, 24 buys, 20 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
-  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggPGZsQEXABUiEgc5rLq'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,989 idle, so opened 1: NTRS. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
   (dropped NTRS: culled strategy (hour 12: -119 over 197 trips, t -1.13))
 portfolio: equity $25428.68 (+1.71% on $25000.00 in) · cash $22444.59 · realised +444.59
 Decision: nothing at this check. 12 standing order(s) working.
@@ -398,3 +362,39 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% WSM @ $251.68 until 2026-11-08 — close it all at -0.9% under the average cost
 portfolio: equity $25418.48 (+1.67% on $25000.00 in) · cash $22417.86 · realised +417.86
 Decision: nothing at this check. 12 standing order(s) working.
+
+## 2026-11-03 13:33 ET (Tuesday) — week 2026-W45 — budget left $21961.90 (today $45000.00 put to work, 30 buys, 26 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggUXtBECcmmNLxD86crk'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25421.81 (+1.69% on $25000.00 in) · cash $22417.86 · realised +417.86
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [take_profit @ $128.66] -> $751.65 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-11-03 13:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-03 13:36 ET (Tuesday) — week 2026-W45 — budget left $22713.55 (today $45000.00 put to work, 30 buys, 27 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [stop_loss @ $423.75] -> $750.62 (+0.08%) — close it all at -1.1% under the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggUhwuVn86YQ8vhwxshx'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,464 idle, so opened 1: EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer): Jonathan L. Jackson; +13.3% over the month; 51% of today's range
+~ WORKING take_profit 100% EL @ $106.25 until 2026-11-08 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% EL @ $104.65 until 2026-11-08 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 EL @ $102.62 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25420.90 (+1.68% on $25000.00 in) · cash $23170.12 · realised +420.12
+Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $22714.17 this week
