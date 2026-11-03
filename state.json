@@ -1,11 +1,11 @@
 {
   "week": "2026-W45",
-  "spent": 5253.52,
+  "spent": 4502.17,
   "deployed": 85500.0,
   "by_ticker": {
     "GH": 40.62,
     "EL": 750.08,
-    "NXPI": 791.78,
+    "NXPI": 40.43,
     "CRBG": 13.73,
     "ADI": 752.83,
     "RPM": 769.3,
@@ -2331,13 +2331,34 @@
         "hold_long": 120
       },
       "hold_minutes": 120
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 2.834007,
+      "status": "filled",
+      "price": 265.12,
+      "proceeds": 751.35,
+      "realized_pnl": 1.35,
+      "realized_pct": 0.18,
+      "date": "2026-11-03",
+      "time_et": "11:41",
+      "ts": 1793724000,
+      "why": "close it all at -1.2% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $264.64",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-03",
-  "spent_today": 5235.48,
+  "spent_today": 4484.13,
   "deployed_today": 40500.0,
   "orders_today": 24,
-  "sells_today": 17,
+  "sells_today": 18,
   "sold_today": [
     "ADI",
     "WSM",
@@ -2351,7 +2372,7 @@
     "PLD"
   ],
   "sold_ts": {
-    "NXPI": 1793720576,
+    "NXPI": 1793724104,
     "ADI": 1793720196,
     "EL": 1793720108,
     "GH": 1793630325,
@@ -2365,8 +2386,8 @@
     "BBT": 1793717182,
     "NTRS": 1793722393
   },
-  "last_publish_ts": 1793723982,
-  "last_check_ts": 1793723982,
+  "last_publish_ts": 1793724103,
+  "last_check_ts": 1793724106,
   "exp_arm": {
     "PLD": {
       "params": {
@@ -2432,21 +2453,19 @@
       }
     }
   },
-  "last_bar_ts": 1793723700,
-  "last_decision_ts": 1793723982,
-  "next_check_minutes": 6,
+  "last_bar_ts": 1793724000,
+  "last_decision_ts": 1793724106,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "5f2adde8": 265.9526,
     "368810a2": 128.066,
-    "ef5bf31d": 265.252,
     "b1584c6a": 54.2303,
     "cc83f6e5": 255.4129,
-    "e843f834": 105.6772,
     "09ac0d3a": 105.5407,
+    "e843f834": 105.6772,
+    "fc4a1457": 425.965,
     "a99a6520": 106.7169,
     "1d090d2d": 54.6776,
-    "fc4a1457": 425.965,
     "6427930e": 129.0381,
     "f05f761d": 252.394,
     "1edfdc11": 432.4803,
@@ -2456,7 +2475,6 @@
     "f7e25318": 124.8972,
     "e6e999b3": 52.9135,
     "5e8d4e09": 103.2274,
-    "97a6ba81": 246.9135,
-    "49027282": 256.7008
+    "97a6ba81": 246.9135
   }
 }

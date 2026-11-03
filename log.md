@@ -56835,3 +56835,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $246.91 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25439.31 (+1.76% on $25000.00 in) · cash $20202.45 · realised +452.45
 Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19746.48 this week
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $265.12] -> $751.35 (+0.18%) — close it all at -1.2% under the average cost
+## 2026-11-03 11:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-03 11:41 ET (Tuesday) — week 2026-W45 — budget left $20497.83 (today $40500.00 put to work, 24 buys, 18 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggKzAMVZrq6vDmHEwR64'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25436.15 (+1.74% on $25000.00 in) · cash $20953.80 · realised +453.80
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
