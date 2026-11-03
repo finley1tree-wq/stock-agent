@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-11-03 10:47 ET
+# Pretend portfolio — 2026-11-03 10:50 ET
 
-**Equity $25447.14** on $25000.00 put in → **+1.79%**  
-Cash $23946.41 · Unrealised +0.73 · Realised +446.41
+**Equity $25447.83** on $25000.00 put in → **+1.79%**  
+Cash $23946.41 · Unrealised +1.42 · Realised +446.41
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
 | WSM | 3.0% | $751.73 | $255.33 | $255.92 | +0.23% | 0d |
-| PLD | 2.9% | $749.00 | $128.76 | $128.59 | -0.13% | 0d |
+| PLD | 2.9% | $749.70 | $128.76 | $128.71 | -0.04% | 0d |
 
 ## Last fills
 
