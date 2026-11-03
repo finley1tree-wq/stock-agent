@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "08604bab",
-   "ticker": "BBT",
-   "kind": "stop_loss",
-   "price": 30.1852,
-   "status": "filled",
-   "created": "2026-10-28 13:13",
-   "created_ts": 1793207586,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $30.39",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 14:01"
-  },
-  {
    "id": "ad6e506c",
    "ticker": "BBT",
    "kind": "buy_limit",
@@ -7178,7 +7160,7 @@
    "ticker": "ADI",
    "kind": "take_profit",
    "price": 428.7643,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 10:21",
    "created_ts": 1793719308,
    "why": "close 100% at +0.4% over the average cost",
@@ -7188,7 +7170,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 10:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "332a7121",
@@ -7214,7 +7198,7 @@
    "ticker": "ADI",
    "kind": "buy_limit",
    "price": 414.1124,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 10:21",
    "created_ts": 1793719308,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7224,7 +7208,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-03 10:36",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b9f3869f",
@@ -7333,7 +7319,7 @@
    "ticker": "FITB",
    "kind": "take_profit",
    "price": 54.848,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-03 10:27",
    "created_ts": 1793719671,
    "why": "close 100% at +0.2% over the average cost",
@@ -7343,14 +7329,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 10:37"
   },
   {
    "id": "74aaa2fb",
    "ticker": "FITB",
    "kind": "stop_loss",
    "price": 54.4004,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 10:27",
    "created_ts": 1793719671,
    "why": "close it all at -0.6% under the average cost",
@@ -7360,14 +7347,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 10:37",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "6f1b675e",
    "ticker": "FITB",
    "kind": "buy_limit",
    "price": 53.0784,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 10:27",
    "created_ts": 1793719671,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7377,7 +7366,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-03 10:37",
+   "cancel_reason": "position closed"
   },
   {
    "id": "484d7dd2",
@@ -7459,7 +7450,7 @@
    "ticker": "ADI",
    "kind": "stop_loss",
    "price": 427.556,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-03 10:34",
    "created_ts": 1793720057,
    "why": "close it all at -1.1% under the average cost",
@@ -7469,8 +7460,28 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 10:36"
+  },
+  {
+   "id": "5acef2bd",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 54.786,
+   "status": "cancelled",
+   "created": "2026-11-03 10:37",
+   "created_ts": 1793720241,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $54.72",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 10:37",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-11-03 10:35"
+ "updated": "2026-11-03 10:37"
 }
