@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "0d76393a",
-   "ticker": "CACI",
-   "kind": "take_profit",
-   "price": 678.4182,
-   "status": "filled",
-   "created": "2026-10-29 09:43",
-   "created_ts": 1793281415,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $676.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-29 09:47"
-  },
-  {
    "id": "cc778261",
    "ticker": "CACI",
    "kind": "stop_loss",
@@ -7458,7 +7440,7 @@
    "ticker": "RPM",
    "kind": "stop_loss",
    "price": 105.8538,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 13:49",
    "created_ts": 1793731743,
    "why": "close it all at -0.7% under the average cost",
@@ -7468,7 +7450,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 14:09",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "86098c84",
@@ -7488,7 +7472,24 @@
    "usd": 500.0,
    "closed": "2026-11-03 14:01",
    "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
+  },
+  {
+   "id": "f0e93212",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 106.714,
+   "status": "working",
+   "created": "2026-11-03 14:09",
+   "created_ts": 1793732984,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $106.6",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-03 14:07"
+ "updated": "2026-11-03 14:09"
 }
