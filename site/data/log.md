@@ -1,6 +1,3 @@
-portfolio: equity $25430.90 (+1.72% on $25000.00 in) · cash $25430.90 · realised +430.90
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-11-02 15:07 ET (Monday) — week 2026-W45 — budget left $24974.94 (today $45000.00 put to work, 33 buys, 33 sells) — SIM (pretend money) via sim
   (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 ROL @ $35.23 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25423.63 (+1.69% on $25000.00 in) · cash $4445.21 · realised +445.21
 Done: 2 sell(s), 1 buy(s) (incl. 2 from standing orders); 21 order(s) working; budget left $3989.26 this week
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [stop_loss @ $106.84] -> $2978.63 (-0.71%) — close it all at -0.7% under the average cost
+## 2026-11-03 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
