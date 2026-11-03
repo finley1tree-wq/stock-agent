@@ -88984,7 +88984,7 @@
     "code_version": "8db0705",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.48
+    "ret_now": -0.59
   },
   {
     "symbol": "FITB",
@@ -89015,7 +89015,9 @@
     "code_version": "c927d5e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.53
+    "ret_now": -0.64,
+    "ret_final": -0.64,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -89046,7 +89048,7 @@
     "code_version": "c927d5e",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.29
+    "ret_now": -0.35
   },
   {
     "symbol": "NXPI",
@@ -89141,7 +89143,7 @@
     "code_version": "5af2aad",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.17
+    "ret_now": -0.27
   },
   {
     "symbol": "NXPI",
@@ -89196,5 +89198,32 @@
     "hour_et": 11,
     "code_version": "fd57463",
     "hold_minutes": 61
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 13.748398,
+    "status": "filled",
+    "price": 54.2,
+    "proceeds": 745.21,
+    "realized_pnl": -4.79,
+    "realized_pct": -0.64,
+    "date": "2026-11-03",
+    "time_et": "12:04",
+    "ts": 1793725200,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $54.55",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "d58313a",
+    "hold_minutes": 35
   }
 ]
