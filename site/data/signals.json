@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-03T09:46-05:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-11-03T09:54-05:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "ac640ba3",
+   "ticker": "NTRS",
+   "kind": "stop_loss",
+   "price": 171.648,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 171.76,
+   "pct_away": -0.07,
+   "good_until": "2026-11-08",
+   "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "dcec1b76",
    "ticker": "NTRS",
    "kind": "take_profit",
@@ -185,8 +202,25 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 171.55,
-   "pct_away": 0.21,
+   "last": 171.76,
+   "pct_away": 0.08,
+   "good_until": "2026-11-08",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "2b97f10c",
+   "ticker": "PLD",
+   "kind": "take_profit",
+   "price": 129.1458,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 128.96,
+   "pct_away": 0.14,
    "good_until": "2026-11-08",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -202,44 +236,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 128.53,
-   "pct_away": -0.27,
+   "last": 128.96,
+   "pct_away": -0.6,
    "good_until": "2026-11-08",
    "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "2b97f10c",
-   "ticker": "PLD",
-   "kind": "take_profit",
-   "price": 129.1458,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 128.53,
-   "pct_away": 0.48,
-   "good_until": "2026-11-08",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "efde7d48",
-   "ticker": "NTRS",
-   "kind": "stop_loss",
-   "price": 170.4271,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 171.55,
-   "pct_away": -0.65,
-   "good_until": "2026-11-08",
-   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +253,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 128.53,
-   "pct_away": -2.74,
+   "last": 128.96,
+   "pct_away": -3.07,
    "good_until": "2026-11-08",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -270,8 +270,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 171.55,
-   "pct_away": -3.04,
+   "last": 171.76,
+   "pct_away": -3.16,
    "good_until": "2026-11-08",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

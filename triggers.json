@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "e3594703",
-   "ticker": "FITB",
-   "kind": "take_profit",
-   "price": 53.5502,
-   "status": "filled",
-   "created": "2026-10-28 13:00",
-   "created_ts": 1793206845,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $53.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 13:41"
-  },
-  {
    "id": "f69fb424",
    "ticker": "FITB",
    "kind": "stop_loss",
@@ -7441,7 +7423,7 @@
    "ticker": "NTRS",
    "kind": "stop_loss",
    "price": 170.4271,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 09:41",
    "created_ts": 1793716901,
    "why": "close it all at -0.6% under the average cost",
@@ -7451,7 +7433,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 09:54",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "0d3670b6",
@@ -7488,6 +7472,23 @@
    "pct_of_position": 100.0,
    "closed": "2026-11-03 09:43",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "ac640ba3",
+   "ticker": "NTRS",
+   "kind": "stop_loss",
+   "price": 171.648,
+   "status": "working",
+   "created": "2026-11-03 09:54",
+   "created_ts": 1793717694,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $171.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0
   }
  ],
  "updated": "2026-11-03 09:54"
