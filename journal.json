@@ -89344,7 +89344,7 @@
     "code_version": "9815974",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.45
+    "ret_now": -0.6
   },
   {
     "symbol": "PLD",
@@ -89674,7 +89674,7 @@
     "code_version": "b7d3f61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": -0.06
   },
   {
     "symbol": "WSM",
@@ -89732,6 +89732,65 @@
     "code_version": "040e5f2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.31
+    "ret_now": 0.45,
+    "ret_final": 0.45,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "ESAB",
+    "side": "sell",
+    "qty": 9.72626,
+    "status": "filled",
+    "price": 77.46,
+    "proceeds": 753.4,
+    "realized_pnl": 3.4,
+    "realized_pct": 0.45,
+    "date": "2026-11-03",
+    "time_et": "13:49",
+    "ts": 1793731500,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $77.11",
+    "trigger": "take_profit",
+    "hour_et": 13,
+    "code_version": "19abcce",
+    "hold_minutes": 0
+  },
+  {
+    "symbol": "RPM",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 7.035474,
+    "price": 106.6,
+    "date": "2026-11-03",
+    "time_et": "13:49",
+    "ts": 1793731743,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +11.8% over the month; 33% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 106.56,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 11.82,
+    "hour_et": 13,
+    "code_version": "19abcce",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
