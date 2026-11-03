@@ -57090,3 +57090,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 portfolio: equity $25422.37 (+1.69% on $25000.00 in) · cash $22444.59 · realised +444.59
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ADI: position closed)
+- SELL 100% ADI [stop_loss @ $425.75] -> $741.53 (-1.13%) — close it all at -1.1% under the average cost
+## 2026-11-03 12:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders

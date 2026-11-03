@@ -1,13 +1,13 @@
 {
   "week": "2026-W45",
-  "spent": 3011.38,
+  "spent": 2269.85,
   "deployed": 85500.0,
   "by_ticker": {
     "GH": 40.62,
     "EL": 750.08,
     "NXPI": 40.43,
     "CRBG": 13.73,
-    "ADI": 752.83,
+    "ADI": 11.3,
     "RPM": 769.3,
     "FITB": 15.07,
     "PLD": 4.42,
@@ -2394,13 +2394,34 @@
       ],
       "evidence": "average cost $54.55",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ADI",
+      "side": "sell",
+      "qty": 1.741691,
+      "status": "filled",
+      "price": 425.75,
+      "proceeds": 741.53,
+      "realized_pnl": -8.47,
+      "realized_pct": -1.13,
+      "date": "2026-11-03",
+      "time_et": "12:39",
+      "ts": 1793727300,
+      "why": "close it all at -1.1% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $430.62",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-03",
-  "spent_today": 2993.34,
+  "spent_today": 2251.81,
   "deployed_today": 40500.0,
   "orders_today": 24,
-  "sells_today": 20,
+  "sells_today": 21,
   "sold_today": [
     "ADI",
     "WSM",
@@ -2415,7 +2436,7 @@
   ],
   "sold_ts": {
     "NXPI": 1793724104,
-    "ADI": 1793720196,
+    "ADI": 1793727592,
     "EL": 1793720108,
     "GH": 1793630325,
     "RPM": 1793720862,
@@ -2428,8 +2449,8 @@
     "BBT": 1793717182,
     "NTRS": 1793722393
   },
-  "last_publish_ts": 1793727281,
-  "last_check_ts": 1793727489,
+  "last_publish_ts": 1793727592,
+  "last_check_ts": 1793727592,
   "exp_arm": {
     "PLD": {
       "params": {
@@ -2501,16 +2522,13 @@
   "autopiloted": true,
   "book_px": {
     "f05f761d": 252.394,
-    "fc4a1457": 425.965,
     "e843f834": 105.6772,
-    "35c7677c": 107.1355,
-    "a99a6520": 106.7169,
     "09ac0d3a": 105.5407,
+    "a99a6520": 106.7169,
+    "35c7677c": 107.1355,
     "cc83f6e5": 255.4129,
-    "1edfdc11": 432.4803,
-    "e4ab3e99": 417.7014,
     "97a6ba81": 246.9135,
-    "5e8d4e09": 103.2274,
-    "f644c547": 103.4796
+    "f644c547": 103.4796,
+    "5e8d4e09": 103.2274
   }
 }
