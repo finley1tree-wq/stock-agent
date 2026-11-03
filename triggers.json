@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "1aa42f69",
-   "ticker": "OLN",
-   "kind": "stop_loss",
-   "price": 16.2848,
-   "status": "cancelled",
-   "created": "2026-10-28 13:28",
-   "created_ts": 1793208530,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $16.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 13:31",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "87e4db1a",
-   "ticker": "OLN",
-   "kind": "buy_limit",
-   "price": 15.9565,
-   "status": "cancelled",
-   "created": "2026-10-28 13:28",
-   "created_ts": 1793208530,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $16.45",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "usd": 500.0,
-   "closed": "2026-10-28 13:31",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "62065d5d",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 53.472,
-   "status": "cancelled",
-   "created": "2026-10-28 13:31",
-   "created_ts": 1793208667,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $53.43",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 13:41",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "5e3fb04c",
    "ticker": "WSM",
    "kind": "stop_loss",
@@ -7036,7 +6979,7 @@
    "ticker": "WSM",
    "kind": "take_profit",
    "price": 256.193,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-03 10:21",
    "created_ts": 1793719308,
    "why": "close 100% at +0.3% over the average cost",
@@ -7046,7 +6989,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 10:52"
   },
   {
    "id": "6fd4189e",
@@ -7072,7 +7016,7 @@
    "ticker": "WSM",
    "kind": "buy_limit",
    "price": 247.6701,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 10:21",
    "created_ts": 1793719308,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7082,7 +7026,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-03 10:52",
+   "cancel_reason": "position closed"
   },
   {
    "id": "93fc06ab",
@@ -7477,7 +7423,7 @@
    "ticker": "WSM",
    "kind": "stop_loss",
    "price": 255.684,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 10:47",
    "created_ts": 1793720861,
    "why": "close it all at -0.8% under the average cost",
@@ -7487,8 +7433,61 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 10:52",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "9a6bea0a",
+   "ticker": "NTRS",
+   "kind": "take_profit",
+   "price": 172.821,
+   "status": "working",
+   "created": "2026-11-03 10:53",
+   "created_ts": 1793721187,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $172.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "1406308d",
+   "ticker": "NTRS",
+   "kind": "stop_loss",
+   "price": 171.3126,
+   "status": "working",
+   "created": "2026-11-03 10:53",
+   "created_ts": 1793721187,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $172.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2a27d001",
+   "ticker": "NTRS",
+   "kind": "buy_limit",
+   "price": 167.2183,
+   "status": "working",
+   "created": "2026-11-03 10:53",
+   "created_ts": 1793721187,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $172.39",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-03 10:50"
+ "updated": "2026-11-03 10:53"
 }

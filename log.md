@@ -56583,3 +56583,23 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25447.83 (+1.79% on $25000.00 in) · cash $23946.41 · realised +446.41
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $256.75] -> $754.16 (+0.56%) — close 100% at +0.3% over the average cost
+## 2026-11-03 10:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-03 10:53 ET (Tuesday) — week 2026-W45 — budget left $24244.60 (today $35250.00 put to work, 17 buys, 16 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggGGpK1FWJqyhJG7vkt7'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,245 idle, so opened 1: NTRS. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 NTRS [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +1.0% over the month; 78% of today's range
+~ WORKING take_profit 100% NTRS @ $172.82 until 2026-11-08 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% NTRS @ $171.31 until 2026-11-08 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 NTRS @ $167.22 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25450.15 (+1.80% on $25000.00 in) · cash $23950.57 · realised +450.57
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $23494.60 this week
