@@ -1,7 +1,7 @@
 {
   "week": "2026-W45",
-  "spent": 1535.29,
-  "deployed": 90750.0,
+  "spent": 2285.29,
+  "deployed": 91500.0,
   "by_ticker": {
     "GH": 40.62,
     "EL": 759.68,
@@ -11,7 +11,8 @@
     "RPM": 20.39,
     "FITB": 15.12,
     "PLD": 2.77,
-    "WSM": 8.85
+    "WSM": 8.85,
+    "ESAB": 750.0
   },
   "deployed_by_ticker": {
     "RPM": 8250.0,
@@ -26,7 +27,8 @@
     "PLD": 6750.0,
     "BBT": 3000.0,
     "ROL": 3000.0,
-    "NTRS": 4500.0
+    "NTRS": 4500.0,
+    "ESAB": 750.0
   },
   "orders": [
     {
@@ -2736,12 +2738,34 @@
       ],
       "evidence": "average cost $251.37",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ESAB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.72626,
+      "price": 77.11,
+      "date": "2026-11-03",
+      "time_et": "13:44",
+      "ts": 1793731470,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +7.9% over the month; 57% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-03",
-  "spent_today": 1517.25,
-  "deployed_today": 45750.0,
-  "orders_today": 31,
+  "spent_today": 2267.25,
+  "deployed_today": 46500.0,
+  "orders_today": 32,
   "sells_today": 29,
   "sold_today": [
     "ADI",
@@ -2770,8 +2794,8 @@
     "BBT": 1793717182,
     "NTRS": 1793729983
   },
-  "last_publish_ts": 1793731111,
-  "last_check_ts": 1793731377,
+  "last_publish_ts": 1793731470,
+  "last_check_ts": 1793731470,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -2782,15 +2806,6 @@
         "hold_long": 120
       }
     },
-    "WSM": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
     "EL": {
       "params": {
         "hold_minutes": 90,
@@ -2799,18 +2814,30 @@
       "tags": {
         "hold_long": 90
       }
+    },
+    "ESAB": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 120
+      }
     }
   },
   "last_bar_ts": 1793731200,
-  "last_decision_ts": 1793731264,
-  "next_check_minutes": null,
+  "last_decision_ts": 1793731470,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "3d9a970f": 106.246,
-    "878f45ef": 265.7643,
+    "5d2db51b": 77.4601,
     "e0c24fde": 261.1682,
+    "878f45ef": 265.7643,
     "5d5f716e": 104.6506,
+    "eccac074": 76.234,
     "e5821166": 256.5165,
-    "bf7db1eb": 102.6163
+    "bf7db1eb": 102.6163,
+    "b128b614": 74.7967
   }
 }
