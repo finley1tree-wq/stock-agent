@@ -1,10 +1,10 @@
 {
   "week": "2026-W45",
-  "spent": 753.52,
-  "deployed": 81000.0,
+  "spent": 1503.52,
+  "deployed": 81750.0,
   "by_ticker": {
     "GH": 40.62,
-    "EL": 0.08,
+    "EL": 750.08,
     "NXPI": 41.78,
     "CRBG": 13.73,
     "ADI": 2.83,
@@ -14,7 +14,7 @@
   },
   "deployed_by_ticker": {
     "RPM": 7500.0,
-    "EL": 9750.0,
+    "EL": 10500.0,
     "GH": 3000.0,
     "NXPI": 9000.0,
     "ADI": 9000.0,
@@ -2198,12 +2198,34 @@
       ],
       "evidence": "average cost $172.39",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "EL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.030196,
+      "price": 106.68,
+      "date": "2026-11-03",
+      "time_et": "11:21",
+      "ts": 1793722863,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer): Jonathan L. Jackson; +14.3% over the month; 84% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-03",
-  "spent_today": 735.48,
-  "deployed_today": 36000.0,
-  "orders_today": 18,
+  "spent_today": 1485.48,
+  "deployed_today": 36750.0,
+  "orders_today": 19,
   "sells_today": 17,
   "sold_today": [
     "ADI",
@@ -2232,8 +2254,8 @@
     "BBT": 1793717182,
     "NTRS": 1793722393
   },
-  "last_publish_ts": 1793722392,
-  "last_check_ts": 1793722768,
+  "last_publish_ts": 1793722863,
+  "last_check_ts": 1793722863,
   "exp_arm": {
     "PLD": {
       "params": {
@@ -2244,23 +2266,26 @@
         "hold_long": 90
       }
     },
-    "NTRS": {
+    "EL": {
       "params": {
-        "hold_minutes": 90,
+        "hold_minutes": 120,
         "ratchet": "on"
       },
       "tags": {
-        "hold_long": 90
+        "hold_long": 120
       }
     }
   },
-  "last_bar_ts": 1793722500,
-  "last_decision_ts": 1793722670,
-  "next_check_minutes": null,
+  "last_bar_ts": 1793722800,
+  "last_decision_ts": 1793722863,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "368810a2": 128.066,
+    "35c7677c": 107.1355,
     "6427930e": 129.0381,
-    "f7e25318": 124.8972
+    "09ac0d3a": 105.5407,
+    "f7e25318": 124.8972,
+    "f644c547": 103.4796
   }
 }

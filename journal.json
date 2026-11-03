@@ -88837,7 +88837,7 @@
     "code_version": "ae84b56",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.22
+    "ret_now": -0.28
   },
   {
     "symbol": "RPM",
@@ -88952,5 +88952,35 @@
     "hour_et": 11,
     "code_version": "ac9901d",
     "hold_minutes": 16
+  },
+  {
+    "symbol": "EL",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 7.030196,
+    "price": 106.68,
+    "date": "2026-11-03",
+    "time_et": "11:21",
+    "ts": 1793722863,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer): Jonathan L. Jackson; +14.3% over the month; 84% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 106.64,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 14.3,
+    "hour_et": 11,
+    "code_version": "8db0705",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
