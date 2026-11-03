@@ -56392,3 +56392,17 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25437.92 (+1.75% on $25000.00 in) · cash $25437.92 · realised +437.92
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-03 10:18 ET (Tuesday) — week 2026-W45 — budget left $24981.96 (today $30000.00 put to work, 10 buys, 10 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggDea3278dHDodxEbdCe'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25437.92 (+1.75% on $25000.00 in) · cash $25437.92 · realised +437.92
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
