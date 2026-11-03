@@ -1,37 +1,3 @@
-## 2026-11-03 09:32 ET (Tuesday) — week 2026-W45 — budget left $24974.94 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (ANIX excluded: too thinly traded ($0.8M a day) — Anixa Biosciences, Inc.)
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (BLX excluded: too thinly traded ($8.6M a day) — Bladex Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (OCFC excluded: too thinly traded ($19.7M a day) — OceanFirst Financial Corp.)
-  (RAPP excluded: too thinly traded ($13.6M a day) — Rapport Therapeutics, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggAEgzxVSoxgnQr4arKr'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,975 idle, so opened 8: RPM, NXPI, PLD, BBT, WSM, EL, FITB, ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +12.9% over the month; 2% of today's range
-- BUY $3000.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +9.1% over the month; 72% of today's range
-- BUY $3000.00 PLD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +0.6% over the month; 64% of today's range
-- BUY $3000.00 BBT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +11.0% over the month; 0% of today's range
-- BUY $3000.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +7.6% over the month; 0% of today's range
-- BUY $3000.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer): Jonathan L. Jackson; +12.6% over the month; 12% of today's range
-- BUY $3000.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +7.7% over the month; 6% of today's range
-- BUY $3000.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +1.9% over the month; 52% of today's range
-~ WORKING take_profit 100% RPM @ $107.88 until 2026-11-08 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% RPM @ $106.89 until 2026-11-08 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 RPM @ $104.37 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% NXPI @ $265.33 until 2026-11-08 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% NXPI @ $260.80 until 2026-11-08 — close it all at -1.2% under the average cost
-~ WORKING buy_limit $500.00 NXPI @ $256.12 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PLD @ $129.15 until 2026-11-08 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% PLD @ $128.18 until 2026-11-08 — close it all at -0.5% under the average cost
-~ WORKING buy_limit $500.00 PLD @ $125.00 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% BBT @ $31.35 until 2026-11-08 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% BBT @ $31.03 until 2026-11-08 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 BBT @ $30.32 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% WSM @ $257.67 until 2026-11-08 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% WSM @ $254.75 until 2026-11-08 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 WSM @ $249.13 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% EL @ $105.53 until 2026-11-08 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% EL @ $103.95 until 2026-11-08 — close it all at -1.1% under the average cost
 ~ WORKING buy_limit $500.00 EL @ $101.93 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% FITB @ $54.87 until 2026-11-08 — close 100% at +0.2% over the average cost
@@ -398,3 +364,37 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25440.85 (+1.76% on $25000.00 in) · cash $23190.64 · realised +440.64
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $22734.68 this week
+
+## 2026-11-03 10:40 ET (Tuesday) — week 2026-W45 — budget left $22734.68 (today $34500.00 put to work, 16 buys, 13 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggFKjBeHD2zoX1vFhbAp'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25442.39 (+1.77% on $25000.00 in) · cash $23190.64 · realised +440.64
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [take_profit @ $263.99] -> $753.69 (+0.49%) — close 100% at +0.5% over the average cost
+## 2026-11-03 10:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-03 10:43 ET (Tuesday) — week 2026-W45 — budget left $23488.37 (today $34500.00 put to work, 16 buys, 14 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggFYzJLy4AP1tEixjnYz'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,488 idle, so opened 1: PLD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 PLD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +0.5% over the month; 46% of today's range
+~ WORKING take_profit 100% PLD @ $129.04 until 2026-11-08 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% PLD @ $128.07 until 2026-11-08 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 PLD @ $124.90 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25444.88 (+1.78% on $25000.00 in) · cash $23194.33 · realised +444.33
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22738.37 this week
