@@ -1,6 +1,3 @@
-  (BHAI excluded: no security information)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
   (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
   (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggHuxPa1vra2wPE5k5sV'}
@@ -398,3 +395,6 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on ADI: position closed)
 - SELL 100% ADI [stop_loss @ $425.75] -> $741.53 (-1.13%) — close it all at -1.1% under the average cost
 ## 2026-11-03 12:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $251.36] -> $740.61 (-1.25%) — close it all at -0.8% under the average cost
+## 2026-11-03 12:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
