@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "c47f94cb",
-   "ticker": "OLN",
-   "kind": "buy_limit",
-   "price": 16.0438,
-   "status": "cancelled",
-   "created": "2026-10-28 11:40",
-   "created_ts": 1793202035,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $16.54",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "usd": 500.0,
-   "closed": "2026-10-28 12:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "e4fab550",
    "ticker": "BBT",
    "kind": "stop_loss",
@@ -7277,7 +7258,7 @@
    "ticker": "FITB",
    "kind": "take_profit",
    "price": 54.8654,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 09:32",
    "created_ts": 1793716361,
    "why": "close 100% at +0.2% over the average cost",
@@ -7287,7 +7268,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "f123bb76",
@@ -7313,7 +7296,7 @@
    "ticker": "FITB",
    "kind": "buy_limit",
    "price": 53.0978,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 09:32",
    "created_ts": 1793716361,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7323,7 +7306,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-03 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a06dfaa0",
@@ -7405,7 +7390,7 @@
    "ticker": "FITB",
    "kind": "stop_loss",
    "price": 54.812,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-03 09:35",
    "created_ts": 1793716544,
    "why": "close it all at -0.6% under the average cost",
@@ -7415,7 +7400,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 09:40"
   },
   {
    "id": "6ed8d1d5",
@@ -7439,7 +7425,7 @@
    "ticker": "ROL",
    "kind": "stop_loss",
    "price": 35.9917,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-03 09:35",
    "created_ts": 1793716547,
    "why": "close it all at -0.9% under the average cost",
@@ -7449,7 +7435,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-08",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-03 09:39",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "6b7e6d87",
@@ -7467,7 +7455,24 @@
    ],
    "good_until": "2026-11-08",
    "usd": 500.0
+  },
+  {
+   "id": "a71d52ce",
+   "ticker": "ROL",
+   "kind": "stop_loss",
+   "price": 36.518,
+   "status": "working",
+   "created": "2026-11-03 09:39",
+   "created_ts": 1793716769,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $36.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-03 09:38"
+ "updated": "2026-11-03 09:40"
 }

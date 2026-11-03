@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-03T09:37-05:00",
+ "asOf": "2026-11-03T09:40-05:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,6 +178,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "f6d6cc1b",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 260.8029,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 261.41,
+   "pct_away": -0.23,
+   "good_until": "2026-11-08",
+   "why": "close it all at -1.2% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a71d52ce",
+   "ticker": "ROL",
+   "kind": "stop_loss",
+   "price": 36.518,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 36.64,
+   "pct_away": -0.33,
+   "good_until": "2026-11-08",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "2b97f10c",
    "ticker": "PLD",
    "kind": "take_profit",
@@ -185,27 +219,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 128.8,
-   "pct_away": 0.27,
+   "last": 128.7,
+   "pct_away": 0.35,
    "good_until": "2026-11-08",
    "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6ed8d1d5",
-   "ticker": "ROL",
-   "kind": "take_profit",
-   "price": 36.4515,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 36.32,
-   "pct_away": 0.36,
-   "good_until": "2026-11-08",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -229,23 +246,6 @@
    ]
   },
   {
-   "id": "15f730bd",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 54.812,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 54.57,
-   "pct_away": 0.44,
-   "good_until": "2026-11-08",
-   "why": "close it all at -0.6% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "d4b05d4c",
    "ticker": "PLD",
    "kind": "stop_loss",
@@ -253,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 128.8,
-   "pct_away": -0.48,
+   "last": 128.7,
+   "pct_away": -0.4,
    "good_until": "2026-11-08",
    "why": "close it all at -0.5% under the average cost",
    "signals": [
@@ -263,17 +263,17 @@
    ]
   },
   {
-   "id": "2b769b03",
-   "ticker": "FITB",
+   "id": "6ed8d1d5",
+   "ticker": "ROL",
    "kind": "take_profit",
-   "price": 54.8654,
+   "price": 36.4515,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 54.57,
-   "pct_away": 0.54,
+   "last": 36.64,
+   "pct_away": -0.51,
    "good_until": "2026-11-08",
-   "why": "close 100% at +0.2% over the average cost",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -297,6 +297,23 @@
    ]
   },
   {
+   "id": "10b82955",
+   "ticker": "EL",
+   "kind": "take_profit",
+   "price": 105.5329,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 104.79,
+   "pct_away": 0.71,
+   "good_until": "2026-11-08",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "0dcae964",
    "ticker": "EL",
    "kind": "stop_loss",
@@ -304,8 +321,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 104.67,
-   "pct_away": -0.69,
+   "last": 104.79,
+   "pct_away": -0.8,
    "good_until": "2026-11-08",
    "why": "close it all at -1.1% under the average cost",
    "signals": [
@@ -321,95 +338,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 263.42,
-   "pct_away": 0.73,
+   "last": 261.41,
+   "pct_away": 1.5,
    "good_until": "2026-11-08",
    "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "10b82955",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 105.5329,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 104.67,
-   "pct_away": 0.82,
-   "good_until": "2026-11-08",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "5a255104",
-   "ticker": "ROL",
-   "kind": "stop_loss",
-   "price": 35.9917,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 36.32,
-   "pct_away": -0.9,
-   "good_until": "2026-11-08",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f6d6cc1b",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 260.8029,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 263.42,
-   "pct_away": -0.99,
-   "good_until": "2026-11-08",
-   "why": "close it all at -1.2% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "536933a2",
-   "ticker": "EL",
-   "kind": "buy_limit",
-   "price": 101.9276,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 104.67,
-   "pct_away": -2.62,
-   "good_until": "2026-11-08",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "913fc80d",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 53.0978,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 54.57,
-   "pct_away": -2.7,
-   "good_until": "2026-11-08",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -423,8 +355,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 263.42,
-   "pct_away": -2.77,
+   "last": 261.41,
+   "pct_away": -2.02,
+   "good_until": "2026-11-08",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "536933a2",
+   "ticker": "EL",
+   "kind": "buy_limit",
+   "price": 101.9276,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 104.79,
+   "pct_away": -2.73,
+   "good_until": "2026-11-08",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "93ef65ed",
+   "ticker": "PLD",
+   "kind": "buy_limit",
+   "price": 125.0039,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 128.7,
+   "pct_away": -2.87,
    "good_until": "2026-11-08",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -450,23 +416,6 @@
    ]
   },
   {
-   "id": "93ef65ed",
-   "ticker": "PLD",
-   "kind": "buy_limit",
-   "price": 125.0039,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 128.8,
-   "pct_away": -2.95,
-   "good_until": "2026-11-08",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "6b7e6d87",
    "ticker": "ROL",
    "kind": "buy_limit",
@@ -474,8 +423,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 36.32,
-   "pct_away": -3.0,
+   "last": 36.64,
+   "pct_away": -3.85,
    "good_until": "2026-11-08",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
