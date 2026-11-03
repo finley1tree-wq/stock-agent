@@ -89344,7 +89344,7 @@
     "code_version": "9815974",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": -0.32
   },
   {
     "symbol": "PLD",
@@ -89527,7 +89527,9 @@
     "code_version": "b8ec7a7",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.29
+    "ret_now": 0.07,
+    "ret_final": 0.07,
+    "ret_src": "realised"
   },
   {
     "symbol": "ADI",
@@ -89671,6 +89673,34 @@
     "hour_et": 13,
     "code_version": "b7d3f61",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.01
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 2.983644,
+    "status": "filled",
+    "price": 251.55,
+    "proceeds": 750.54,
+    "realized_pnl": 0.54,
+    "realized_pct": 0.07,
+    "date": "2026-11-03",
+    "time_et": "13:38",
+    "ts": 1793730900,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $251.37",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "79a96fc",
+    "hold_minutes": 8
   }
 ]

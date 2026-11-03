@@ -57422,3 +57422,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 EL @ $102.62 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25420.90 (+1.68% on $25000.00 in) · cash $23170.12 · realised +420.12
 Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $22714.17 this week
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $251.55] -> $750.54 (+0.07%) — close it all at -0.9% under the average cost
+## 2026-11-03 13:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-03 13:38 ET (Tuesday) — week 2026-W45 — budget left $23464.71 (today $45750.00 put to work, 31 buys, 29 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggUt36ZYJdM8yktEHj36'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25417.73 (+1.67% on $25000.00 in) · cash $23920.66 · realised +420.66
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

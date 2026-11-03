@@ -1,6 +1,3 @@
-  (dropped NTRS: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25428.68 (+1.71% on $25000.00 in) · cash $22444.59 · realised +444.59
-Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-11-03 12:28 ET (Tuesday) — week 2026-W45 — budget left $21988.62 (today $40500.00 put to work, 24 buys, 20 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 EL @ $102.62 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25420.90 (+1.68% on $25000.00 in) · cash $23170.12 · realised +420.12
 Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $22714.17 this week
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $251.55] -> $750.54 (+0.07%) — close it all at -0.9% under the average cost
+## 2026-11-03 13:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
