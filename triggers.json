@@ -1,119 +1,6 @@
 {
  "orders": [
   {
-   "id": "d9f72310",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 239.1632,
-   "status": "cancelled",
-   "created": "2026-10-28 13:00",
-   "created_ts": 1793206845,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $246.56",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "usd": 500.0,
-   "closed": "2026-10-28 13:45",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "1a45f777",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 109.7258,
-   "status": "cancelled",
-   "created": "2026-10-28 13:03",
-   "created_ts": 1793207032,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $109.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 13:32",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "99a11db0",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 108.3417,
-   "status": "cancelled",
-   "created": "2026-10-28 13:03",
-   "created_ts": 1793207032,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $109.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 13:27",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "596c7917",
-   "ticker": "EL",
-   "kind": "buy_limit",
-   "price": 106.0501,
-   "status": "cancelled",
-   "created": "2026-10-28 13:03",
-   "created_ts": 1793207032,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $109.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "usd": 500.0,
-   "closed": "2026-10-28 13:32",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "8be0f78a",
-   "ticker": "PDI",
-   "kind": "take_profit",
-   "price": 14.1836,
-   "status": "cancelled",
-   "created": "2026-10-28 13:06",
-   "created_ts": 1793207215,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $14.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 14:09",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "9227c430",
-   "ticker": "PDI",
-   "kind": "stop_loss",
-   "price": 14.1008,
-   "status": "filled",
-   "created": "2026-10-28 13:06",
-   "created_ts": 1793207215,
-   "why": "close it all at -0.4% under the average cost",
-   "evidence": "average cost $14.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-02",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-28 14:09"
-  },
-  {
    "id": "9ab63dcd",
    "ticker": "PDI",
    "kind": "buy_limit",
@@ -7481,7 +7368,109 @@
    ],
    "good_until": "2026-11-08",
    "usd": 500.0
+  },
+  {
+   "id": "ee1b72bd",
+   "ticker": "NXPI",
+   "kind": "take_profit",
+   "price": 263.9851,
+   "status": "working",
+   "created": "2026-11-03 10:27",
+   "created_ts": 1793719671,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $262.69",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b893ef9a",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 259.4537,
+   "status": "working",
+   "created": "2026-11-03 10:27",
+   "created_ts": 1793719671,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $262.69",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e2af89b0",
+   "ticker": "NXPI",
+   "kind": "buy_limit",
+   "price": 254.8093,
+   "status": "working",
+   "created": "2026-11-03 10:27",
+   "created_ts": 1793719671,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $262.69",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "usd": 500.0
+  },
+  {
+   "id": "f6962c46",
+   "ticker": "FITB",
+   "kind": "take_profit",
+   "price": 54.848,
+   "status": "working",
+   "created": "2026-11-03 10:27",
+   "created_ts": 1793719671,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $54.72",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "74aaa2fb",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 54.4004,
+   "status": "working",
+   "created": "2026-11-03 10:27",
+   "created_ts": 1793719671,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $54.72",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "6f1b675e",
+   "ticker": "FITB",
+   "kind": "buy_limit",
+   "price": 53.0784,
+   "status": "working",
+   "created": "2026-11-03 10:27",
+   "created_ts": 1793719671,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $54.72",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-08",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-03 10:24"
+ "updated": "2026-11-03 10:27"
 }
