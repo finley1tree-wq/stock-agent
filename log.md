@@ -56866,3 +56866,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25433.22 (+1.73% on $25000.00 in) · cash $20953.80 · realised +453.80
 Decision: nothing at this check. 18 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [stop_loss @ $128.00] -> $745.58 (-0.59%) — close it all at -0.5% under the average cost
+## 2026-11-03 11:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders

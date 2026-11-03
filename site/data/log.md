@@ -1,34 +1,3 @@
-- BUY $750.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +11.8% over the month; 29% of today's range
-~ WORKING take_profit 100% RPM @ $106.92 until 2026-11-08 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% RPM @ $105.88 until 2026-11-08 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 RPM @ $103.42 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25436.32 (+1.75% on $25000.00 in) · cash $23187.92 · realised +437.92
-Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22731.96 this week
-
-## 2026-11-03 10:27 ET (Tuesday) — week 2026-W45 — budget left $22731.96 (today $32250.00 put to work, 13 buys, 10 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
-  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggELgpRXyq6DBD1YfuxG'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,732 idle, so opened 2: NXPI, FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +8.5% over the month; 60% of today's range
-- BUY $750.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +7.7% over the month; 52% of today's range
-~ WORKING take_profit 100% NXPI @ $263.99 until 2026-11-08 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% NXPI @ $259.45 until 2026-11-08 — close it all at -1.2% under the average cost
-~ WORKING buy_limit $500.00 NXPI @ $254.81 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% FITB @ $54.85 until 2026-11-08 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% FITB @ $54.40 until 2026-11-08 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 FITB @ $53.08 until 2026-11-08 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25435.99 (+1.74% on $25000.00 in) · cash $21687.92 · realised +437.92
-Done: 0 sell(s), 2 buy(s); 15 order(s) working; budget left $21231.96 this week
-
-## 2026-11-03 10:30 ET (Tuesday) — week 2026-W45 — budget left $21231.96 (today $33750.00 put to work, 15 buys, 10 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
   (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
   (ECF excluded: too thinly traded ($0.3M a day) — Ellsworth Growth and Income Fund Ltd.)
   (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
@@ -398,3 +367,34 @@ Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19746.48 this week
   (cancelled 2 standing order(s) on NXPI: position closed)
 - SELL 100% NXPI [stop_loss @ $265.12] -> $751.35 (+0.18%) — close it all at -1.2% under the average cost
 ## 2026-11-03 11:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-03 11:41 ET (Tuesday) — week 2026-W45 — budget left $20497.83 (today $40500.00 put to work, 24 buys, 18 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggKzAMVZrq6vDmHEwR64'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25436.15 (+1.74% on $25000.00 in) · cash $20953.80 · realised +453.80
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-03 11:45 ET (Tuesday) — week 2026-W45 — budget left $20497.83 (today $40500.00 put to work, 24 buys, 18 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggLEQ5dTEodmUK6jmm2b'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25433.22 (+1.73% on $25000.00 in) · cash $20953.80 · realised +453.80
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [stop_loss @ $128.00] -> $745.58 (-0.59%) — close it all at -0.5% under the average cost
+## 2026-11-03 11:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
