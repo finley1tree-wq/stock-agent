@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "656b1413",
-   "ticker": "GH",
-   "kind": "buy_limit",
-   "price": 176.4042,
-   "status": "cancelled",
-   "created": "2026-10-30 09:32",
-   "created_ts": 1793367153,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $181.86",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-04",
-   "usd": 500.0,
-   "closed": "2026-10-30 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "0fdbd1b4",
    "ticker": "BBT",
    "kind": "take_profit",
@@ -7435,7 +7416,7 @@
    "ticker": "WSM",
    "kind": "stop_loss",
    "price": 265.7956,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-04 13:00",
    "created_ts": 1793815257,
    "why": "close it all at -0.9% under the average cost",
@@ -7445,7 +7426,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-04 13:02",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5b6ebab2",
@@ -7463,7 +7446,24 @@
    ],
    "good_until": "2026-11-09",
    "usd": 500.0
+  },
+  {
+   "id": "61552a4a",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 268.552,
+   "status": "working",
+   "created": "2026-11-04 13:02",
+   "created_ts": 1793815354,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $268.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-04 13:00"
+ "updated": "2026-11-04 13:02"
 }
