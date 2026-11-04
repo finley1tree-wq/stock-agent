@@ -1,9 +1,9 @@
 {
   "week": "2026-W45",
-  "spent": 2272.88,
+  "spent": 1522.1,
   "deployed": 135750.0,
   "by_ticker": {
-    "NXPI": 785.48,
+    "NXPI": 34.7,
     "CRBG": 37.5,
     "ADI": 44.8,
     "RPM": 772.63,
@@ -3849,13 +3849,34 @@
       ],
       "evidence": "average cost $128.81",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 2.84865,
+      "status": "filled",
+      "price": 263.56,
+      "proceeds": 750.78,
+      "realized_pnl": 0.78,
+      "realized_pct": 0.1,
+      "date": "2026-11-04",
+      "time_et": "11:20",
+      "ts": 1793809200,
+      "why": "close it all at -1.2% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $263.28",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-04",
-  "spent_today": 2250.72,
+  "spent_today": 1499.94,
   "deployed_today": 43500.0,
   "orders_today": 25,
-  "sells_today": 22,
+  "sells_today": 23,
   "sold_today": [
     "GH",
     "FITB",
@@ -3871,7 +3892,7 @@
     "SIRI"
   ],
   "sold_ts": {
-    "NXPI": 1793806275,
+    "NXPI": 1793809233,
     "ADI": 1793804177,
     "EL": 1793808922,
     "GH": 1793806365,
@@ -3888,8 +3909,8 @@
     "SITE": 1793807304,
     "SIRI": 1793805613
   },
-  "last_publish_ts": 1793809145,
-  "last_check_ts": 1793809145,
+  "last_publish_ts": 1793809226,
+  "last_check_ts": 1793809226,
   "exp_arm": {
     "PLD": {
       "params": {
@@ -3920,19 +3941,16 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1793808900,
-  "last_decision_ts": 1793809051,
-  "next_check_minutes": 6,
+  "last_bar_ts": 1793809200,
+  "last_decision_ts": 1793809226,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "eba8ad89": 263.778,
     "bb06bb15": 109.7005,
-    "90a03059": 264.5938,
     "8931c0f2": 54.639,
     "7c469cc9": 54.1523,
     "e2cea091": 108.5793,
     "91365eeb": 52.865,
-    "b0be4d78": 106.0986,
-    "3ad637ef": 255.3816
+    "b0be4d78": 106.0986
   }
 }
