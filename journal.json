@@ -91150,7 +91150,7 @@
     "code_version": "70f0166",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.48
+    "ret_now": -0.29
   },
   {
     "symbol": "EL",
@@ -91349,7 +91349,9 @@
     "code_version": "1581cc3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": 0.51,
+    "ret_final": 0.51,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -91378,6 +91380,33 @@
     "code_version": "1581cc3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": -0.04
+  },
+  {
+    "symbol": "ESAB",
+    "side": "sell",
+    "qty": 10.063089,
+    "status": "filled",
+    "price": 74.91,
+    "proceeds": 753.83,
+    "realized_pnl": 3.83,
+    "realized_pct": 0.51,
+    "date": "2026-11-04",
+    "time_et": "11:29",
+    "ts": 1793809500,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $74.53",
+    "trigger": "take_profit",
+    "hour_et": 11,
+    "code_version": "42a67ad",
+    "hold_minutes": 1
   }
 ]

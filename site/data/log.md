@@ -1,20 +1,3 @@
-  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgi7QHfhf7G7MPeUrmzwv'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-  (re-pinned 1 order(s) to the new average cost)
-~ WORKING stop_loss 100% SIRI @ $32.27 until 2026-11-09 — close it all at -0.7% under the average cost
-portfolio: equity $25429.01 (+1.72% on $25000.00 in) · cash $24677.91 · realised +427.91
-Decision: nothing at this check. 3 standing order(s) working.
-  (cancelled 2 standing order(s) on SIRI: position closed)
-- SELL 100% SIRI [stop_loss @ $32.24] -> $750.02 (+0.00%) — close it all at -0.7% under the average cost
-## 2026-11-04 10:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-04 10:21 ET (Wednesday) — week 2026-W45 — budget left $24971.98 (today $33750.00 put to work, 12 buys, 12 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
-  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
   (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
   (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgi7dP1XfHKpPN6HhjEXZ'}
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $256.64 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25433.07 (+1.73% on $25000.00 in) · cash $23186.03 · realised +436.03
 Done: 0 sell(s), 2 buy(s); 9 order(s) working; budget left $22730.07 this week
+
+## 2026-11-04 11:26 ET (Wednesday) — week 2026-W45 — budget left $22730.07 (today $45000.00 put to work, 27 buys, 24 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiCdPwv953KVZDMGovr4'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25431.65 (+1.73% on $25000.00 in) · cash $23186.03 · realised +436.03
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ESAB: position closed)
+- SELL 100% ESAB [take_profit @ $74.91] -> $753.83 (+0.51%) — close 100% at +0.5% over the average cost
+## 2026-11-04 11:29 ET — tick — 1 sell(s), 0 buy(s) from standing orders
