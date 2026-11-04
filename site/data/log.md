@@ -1,4 +1,3 @@
-  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
 portfolio: equity $25437.36 (+1.75% on $25000.00 in) · cash $25437.36 · realised +437.36
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
@@ -398,3 +397,4 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $259.50 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25424.49 (+1.70% on $25000.00 in) · cash $22427.50 · realised +427.50
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21971.54 this week
+  (cancelled 4 resting buy order(s): past the entry cutoff)
