@@ -1,14 +1,14 @@
 {
   "week": "2026-W45",
-  "spent": 5948.45,
-  "deployed": 122250.0,
+  "spent": 5964.22,
+  "deployed": 125250.0,
   "by_ticker": {
     "NXPI": 36.03,
     "CRBG": 39.92,
-    "ADI": 10.68,
+    "ADI": 3010.68,
     "RPM": 24.82,
     "FITB": 7.83,
-    "PLD": 3002.77,
+    "PLD": 18.54,
     "WSM": 36.56,
     "SITE": 3000.0
   },
@@ -17,7 +17,7 @@
     "EL": 14250.0,
     "GH": 6000.0,
     "NXPI": 13500.0,
-    "ADI": 10500.0,
+    "ADI": 13500.0,
     "FITB": 13500.0,
     "WSM": 12750.0,
     "CACI": 5250.0,
@@ -3253,13 +3253,54 @@
       ],
       "evidence": "average cost $110.43",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "PLD",
+      "side": "sell",
+      "qty": 22.949418,
+      "status": "filled",
+      "price": 130.04,
+      "proceeds": 2984.23,
+      "realized_pnl": -15.77,
+      "realized_pct": -0.53,
+      "date": "2026-11-04",
+      "time_et": "09:47",
+      "ts": 1793803500,
+      "why": "close it all at -0.5% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $130.72",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ADI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.121083,
+      "price": 421.28,
+      "date": "2026-11-04",
+      "time_et": "09:47",
+      "ts": 1793803660,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +0.1% over the month; 68% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-04",
-  "spent_today": 5900.49,
-  "deployed_today": 30000.0,
-  "orders_today": 10,
-  "sells_today": 8,
+  "spent_today": 5916.26,
+  "deployed_today": 33000.0,
+  "orders_today": 11,
+  "sells_today": 9,
   "sold_today": [
     "GH",
     "FITB",
@@ -3268,7 +3309,8 @@
     "ESAB",
     "CRBG",
     "WSM",
-    "EL"
+    "EL",
+    "PLD"
   ],
   "sold_ts": {
     "NXPI": 1793803045,
@@ -3280,24 +3322,15 @@
     "FITB": 1793802999,
     "CRBG": 1793803336,
     "CACI": 1793643610,
-    "PLD": 1793730970,
+    "PLD": 1793803657,
     "ROL": 1793716853,
     "BBT": 1793717182,
     "NTRS": 1793729983,
     "ESAB": 1793803246
   },
-  "last_publish_ts": 1793803521,
-  "last_check_ts": 1793803567,
+  "last_publish_ts": 1793803660,
+  "last_check_ts": 1793803660,
   "exp_arm": {
-    "PLD": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
     "SITE": {
       "params": {
         "hold_minutes": 90,
@@ -3307,44 +3340,24 @@
         "hold_long": 90
       }
     },
-    "WSM": {
+    "ADI": {
       "params": {
-        "hold_minutes": 90,
+        "hold_minutes": 120,
         "ratchet": "on"
       },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "CRBG": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
-    },
-    "EL": {
-      "params": {
-        "hold_minutes": 90,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 90
-      }
+      "tags": {}
     }
   },
   "last_bar_ts": 1793803500,
-  "last_decision_ts": 1793803464,
-  "next_check_minutes": null,
+  "last_decision_ts": 1793803660,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "30c95813": 130.1004,
-    "772b1ae8": 117.7121,
-    "6bafe0b3": 130.9684,
+    "e07522ba": 423.1126,
     "934305af": 116.1641,
-    "404cf41c": 126.7984,
-    "20581f50": 113.7519
+    "772b1ae8": 117.7121,
+    "1c370f22": 416.7007,
+    "20581f50": 113.7519,
+    "d144f918": 408.6416
   }
 }

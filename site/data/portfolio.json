@@ -1,18 +1,9 @@
 {
-  "cash": 19507.497869054812,
+  "cash": 19491.732353113795,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W45",
   "positions": {
-    "PLD": {
-      "qty": 22.949418227658043,
-      "avg_cost": 130.722268,
-      "opened": "2026-11-04",
-      "last_buy": "2026-11-04",
-      "tranches": 1,
-      "last_buy_ts": 1793803088,
-      "opened_ts": 1793803088
-    },
     "SITE": {
       "qty": 25.582669167446486,
       "avg_cost": 117.266888,
@@ -21,6 +12,15 @@
       "tranches": 1,
       "last_buy_ts": 1793803195,
       "opened_ts": 1793803195
+    },
+    "ADI": {
+      "qty": 7.121082905925937,
+      "avg_cost": 421.28424,
+      "opened": "2026-11-04",
+      "last_buy": "2026-11-04",
+      "tranches": 1,
+      "last_buy_ts": 1793803667,
+      "opened_ts": 1793803667
     }
   },
   "fills": [
@@ -35308,7 +35308,29 @@
       "realized_pct": 0.75,
       "type": "sell",
       "date": "2026-11-04 09:45"
+    },
+    {
+      "symbol": "PLD",
+      "side": "sell",
+      "qty": 22.949418,
+      "status": "filled",
+      "price": 130.04,
+      "proceeds": 2984.23,
+      "realized_pnl": -15.77,
+      "realized_pct": -0.53,
+      "type": "sell",
+      "date": "2026-11-04 09:47"
+    },
+    {
+      "symbol": "ADI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.121083,
+      "price": 421.28,
+      "type": "buy",
+      "date": "2026-11-04 09:47"
     }
   ],
-  "realized_pnl": 507.49786905482847
+  "realized_pnl": 491.7323531138105
 }

@@ -1,23 +1,3 @@
-
-## 2026-11-03 15:19 ET (Tuesday) — week 2026-W45 — budget left $24952.04 (today $47250.00 put to work, 33 buys, 33 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
-  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggccNRuA94h4i8Jx9VyZ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25407.99 (+1.63% on $25000.00 in) · cash $25407.99 · realised +407.99
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-03 15:22 ET (Tuesday) — week 2026-W45 — budget left $24952.04 (today $47250.00 put to work, 33 buys, 33 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
-  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
   (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
   (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
   (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
@@ -398,3 +378,23 @@ Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 2 standing order(s) on EL: position closed)
 - SELL 100% EL [take_profit @ $111.26] -> $3022.43 (+0.75%) — close 100% at +0.4% over the average cost
 ## 2026-11-04 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [stop_loss @ $130.04] -> $2984.23 (-0.53%) — close it all at -0.5% under the average cost
+## 2026-11-04 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-04 09:47 ET (Wednesday) — week 2026-W45 — budget left $22035.78 (today $30000.00 put to work, 10 buys, 9 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgi55rJUh1Fn4Dua4wnHi'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $22,036 idle, so opened 1: ADI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 ADI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +0.1% over the month; 68% of today's range
+~ WORKING take_profit 100% ADI @ $423.11 until 2026-11-09 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% ADI @ $416.70 until 2026-11-09 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 ADI @ $408.64 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25480.98 (+1.92% on $25000.00 in) · cash $19491.73 · realised +491.73
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $19035.78 this week
