@@ -59674,3 +59674,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25425.41 (+1.70% on $25000.00 in) · cash $22433.90 · realised +433.90
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-04 13:25 ET (Wednesday) — week 2026-W45 — budget left $21977.94 (today $49500.00 put to work, 33 buys, 29 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ATLO excluded: too thinly traded ($1.8M a day) — Ames National Corporation)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
+  (GLQ excluded: too thinly traded ($0.3M a day) — Clough Global Equity Fund)
+  (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiMjH2f51HWusqa92nXq'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,978 idle, so opened 1: GH. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 GH [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +0.1% over the month; 34% of today's range
+~ WORKING take_profit 100% GH @ $171.95 until 2026-11-09 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% GH @ $168.33 until 2026-11-09 — close it all at -1.5% under the average cost
+~ WORKING buy_limit $500.00 GH @ $165.79 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25424.67 (+1.70% on $25000.00 in) · cash $21683.90 · realised +433.90
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21227.94 this week
