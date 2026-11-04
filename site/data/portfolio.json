@@ -1,27 +1,9 @@
 {
-  "cash": 23182.594463099897,
+  "cash": 23923.47868492213,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W45",
   "positions": {
-    "GH": {
-      "qty": 4.379601121346064,
-      "avg_cost": 171.248472,
-      "opened": "2026-11-04",
-      "last_buy": "2026-11-04",
-      "tranches": 1,
-      "last_buy_ts": 1793805669,
-      "opened_ts": 1793805669
-    },
-    "CRBG": {
-      "qty": 21.000003360000537,
-      "avg_cost": 35.71428,
-      "opened": "2026-11-04",
-      "last_buy": "2026-11-04",
-      "tranches": 1,
-      "last_buy_ts": 1793806046,
-      "opened_ts": 1793806046
-    },
     "WSM": {
       "qty": 2.8393429781548973,
       "avg_cost": 264.145616,
@@ -30,6 +12,15 @@
       "tranches": 1,
       "last_buy_ts": 1793806230,
       "opened_ts": 1793806230
+    },
+    "ESAB": {
+      "qty": 10.354974032486453,
+      "avg_cost": 72.42896,
+      "opened": "2026-11-04",
+      "last_buy": "2026-11-04",
+      "tranches": 1,
+      "last_buy_ts": 1793806421,
+      "opened_ts": 1793806421
     }
   },
   "fills": [
@@ -35481,7 +35472,41 @@
       "realized_pct": 0.29,
       "type": "sell",
       "date": "2026-11-04 10:32"
+    },
+    {
+      "symbol": "GH",
+      "side": "sell",
+      "qty": 4.379601,
+      "status": "filled",
+      "price": 168.61,
+      "proceeds": 738.46,
+      "realized_pnl": -11.54,
+      "realized_pct": -1.54,
+      "type": "sell",
+      "date": "2026-11-04 10:32"
+    },
+    {
+      "symbol": "CRBG",
+      "side": "sell",
+      "qty": 21.000003,
+      "status": "filled",
+      "price": 35.83,
+      "proceeds": 752.42,
+      "realized_pnl": 2.42,
+      "realized_pct": 0.32,
+      "type": "sell",
+      "date": "2026-11-04 10:32"
+    },
+    {
+      "symbol": "ESAB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.354974,
+      "price": 72.43,
+      "type": "buy",
+      "date": "2026-11-04 10:33"
     }
   ],
-  "realized_pnl": 432.594463099908
+  "realized_pnl": 423.4786849221406
 }

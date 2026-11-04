@@ -1,25 +1,3 @@
-  (BHAI excluded: no security information)
-  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (OCFC excluded: too thinly traded ($19.7M a day) — OceanFirst Financial Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgi42fTezTbvjKyyew5S9'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,952 idle, so opened 3: NXPI, GH, FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +8.9% over the month; 55% of today's range
-- BUY $3000.00 GH [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +1.1% over the month; 0% of today's range
-- BUY $3000.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +8.9% over the month; 51% of today's range
-~ WORKING take_profit 100% NXPI @ $267.42 until 2026-11-09 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% NXPI @ $263.04 until 2026-11-09 — close it all at -1.2% under the average cost
-~ WORKING buy_limit $500.00 NXPI @ $258.18 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% GH @ $173.59 until 2026-11-09 — close 100% at +0.6% over the average cost
-~ WORKING stop_loss 100% GH @ $170.12 until 2026-11-09 — close it all at -1.4% under the average cost
-~ WORKING buy_limit $500.00 GH @ $167.42 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% FITB @ $55.70 until 2026-11-09 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% FITB @ $55.22 until 2026-11-09 — close it all at -0.6% under the average cost
-~ WORKING buy_limit $500.00 FITB @ $53.89 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25404.99 (+1.62% on $25000.00 in) · cash $16407.99 · realised +407.99
-Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $15952.04 this week
   (cancelled 2 standing order(s) on GH: position closed)
 - SELL 100% GH [take_profit @ $175.54] -> $3051.12 (+1.70%) — close 100% at +0.6% over the average cost
 ## 2026-11-04 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +376,25 @@ Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21223.90 this week
   (cancelled 2 standing order(s) on RPM: position closed)
 - SELL 100% RPM [take_profit @ $108.87] -> $752.19 (+0.29%) — close 100% at +0.3% over the average cost
 ## 2026-11-04 10:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on GH: position closed)
+- SELL 100% GH [stop_loss @ $168.61] -> $738.46 (-1.54%) — close it all at -1.5% under the average cost
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [take_profit @ $35.83] -> $752.42 (+0.32%) — close 100% at +0.3% over the average cost
+## 2026-11-04 10:32 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-04 10:33 ET (Wednesday) — week 2026-W45 — budget left $24217.52 (today $38250.00 put to work, 18 buys, 17 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgi8apwHbYvXuMWMvFNB5'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,218 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ESAB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +0.8% over the month; 26% of today's range
+~ WORKING take_profit 100% ESAB @ $72.81 until 2026-11-09 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% ESAB @ $71.48 until 2026-11-09 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 ESAB @ $70.26 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25423.08 (+1.69% on $25000.00 in) · cash $23923.48 · realised +423.48
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $23467.52 this week

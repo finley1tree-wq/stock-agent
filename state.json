@@ -1,17 +1,18 @@
 {
   "week": "2026-W45",
-  "spent": 2273.36,
-  "deployed": 130500.0,
+  "spent": 1532.48,
+  "deployed": 131250.0,
   "by_ticker": {
     "NXPI": 35.48,
-    "CRBG": 789.92,
+    "CRBG": 37.5,
     "ADI": 44.8,
     "RPM": 22.63,
     "FITB": 5.91,
     "PLD": 18.54,
     "WSM": 786.56,
     "SITE": 29.7,
-    "GH": 750.0
+    "GH": 11.54,
+    "ESAB": 750.0
   },
   "deployed_by_ticker": {
     "RPM": 12750.0,
@@ -27,7 +28,7 @@
     "BBT": 3000.0,
     "ROL": 3000.0,
     "NTRS": 4500.0,
-    "ESAB": 3750.0,
+    "ESAB": 4500.0,
     "SITE": 3000.0,
     "SIRI": 750.0
   },
@@ -3562,13 +3563,75 @@
       ],
       "evidence": "average cost $108.55",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "GH",
+      "side": "sell",
+      "qty": 4.379601,
+      "status": "filled",
+      "price": 168.61,
+      "proceeds": 738.46,
+      "realized_pnl": -11.54,
+      "realized_pct": -1.54,
+      "date": "2026-11-04",
+      "time_et": "10:32",
+      "ts": 1793806200,
+      "why": "close it all at -1.5% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $171.25",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CRBG",
+      "side": "sell",
+      "qty": 21.000003,
+      "status": "filled",
+      "price": 35.83,
+      "proceeds": 752.42,
+      "realized_pnl": 2.42,
+      "realized_pct": 0.32,
+      "date": "2026-11-04",
+      "time_et": "10:32",
+      "ts": 1793806200,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $35.71",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "ESAB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.354974,
+      "price": 72.43,
+      "date": "2026-11-04",
+      "time_et": "10:33",
+      "ts": 1793806413,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +0.8% over the month; 26% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-04",
-  "spent_today": 2245.34,
-  "deployed_today": 38250.0,
-  "orders_today": 18,
-  "sells_today": 15,
+  "spent_today": 1504.46,
+  "deployed_today": 39000.0,
+  "orders_today": 19,
+  "sells_today": 17,
   "sold_today": [
     "GH",
     "FITB",
@@ -3587,11 +3650,11 @@
     "NXPI": 1793806275,
     "ADI": 1793804177,
     "EL": 1793803522,
-    "GH": 1793802922,
+    "GH": 1793806365,
     "RPM": 1793806321,
     "WSM": 1793803416,
     "FITB": 1793806034,
-    "CRBG": 1793803336,
+    "CRBG": 1793806365,
     "CACI": 1793643610,
     "PLD": 1793803657,
     "ROL": 1793716853,
@@ -3601,38 +3664,17 @@
     "SITE": 1793803883,
     "SIRI": 1793805613
   },
-  "last_publish_ts": 1793806320,
-  "last_check_ts": 1793806320,
+  "last_publish_ts": 1793806413,
+  "last_check_ts": 1793806413,
   "exp_arm": {
-    "GH": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "NXPI": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "RPM": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "CRBG": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
     "WSM": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "ESAB": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -3641,18 +3683,15 @@
     }
   },
   "last_bar_ts": 1793806200,
-  "last_decision_ts": 1793806222,
+  "last_decision_ts": 1793806413,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "3ebc5f0e": 35.752,
-    "92580769": 35.8296,
-    "d31ec7d6": 168.6984,
     "e920fa2a": 265.0904,
+    "ccbdc8b6": 72.8103,
     "38c48f73": 261.7964,
-    "69fc4cef": 166.1125,
-    "85ce3bac": 172.2706,
-    "f0d1bfbf": 256.2255,
-    "4704d796": 34.6387
+    "75053936": 71.479,
+    "d87e520f": 70.2571,
+    "f0d1bfbf": 256.2255
   }
 }
