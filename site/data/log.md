@@ -1,19 +1,4 @@
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25419.53 (+1.68% on $25000.00 in) · cash $23179.39 · realised +429.39
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-04 14:44 ET (Wednesday) — week 2026-W45 — budget left $22723.43 (today $51000.00 put to work, 35 buys, 32 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ATLO excluded: too thinly traded ($1.8M a day) — Ames National Corporation)
-  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
-  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
-  (GLQ excluded: too thinly traded ($0.3M a day) — Clough Global Equity Fund)
-  (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiTgxYoiTViBSYvPnbeM'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25415.60 (+1.66% on $25000.00 in) · cash $23179.39 · realised +429.39
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
@@ -393,6 +378,21 @@ Decision: nothing at this check.
   (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiZ9w4bdBiTuGJvoWaMS'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25429.99 (+1.72% on $25000.00 in) · cash $25429.99 · realised +429.99
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-04 15:58 ET (Wednesday) — week 2026-W45 — budget left $24974.03 (today $51000.00 put to work, 35 buys, 35 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ATLO excluded: too thinly traded ($1.8M a day) — Ames National Corporation)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
+  (GLQ excluded: too thinly traded ($0.3M a day) — Clough Global Equity Fund)
+  (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiZPwSZEWFMv6jbSYB6M'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25429.99 (+1.72% on $25000.00 in) · cash $25429.99 · realised +429.99
