@@ -58970,3 +58970,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25434.36 (+1.74% on $25000.00 in) · cash $23933.86 · realised +433.86
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 6 order(s) working; budget left $23477.90 this week
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [take_profit @ $109.70] -> $752.17 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-11-04 11:21 ET — tick — 1 sell(s), 0 buy(s) from standing orders
