@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "ed75f73b",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 109.9177,
-   "status": "cancelled",
-   "created": "2026-10-29 11:42",
-   "created_ts": 1793288564,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $109.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-29 13:12",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "90d86db5",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 108.5618,
-   "status": "cancelled",
-   "created": "2026-10-29 11:42",
-   "created_ts": 1793288564,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $109.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-29 13:12",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "7c543104",
-   "ticker": "EL",
-   "kind": "buy_limit",
-   "price": 106.2441,
-   "status": "cancelled",
-   "created": "2026-10-29 11:42",
-   "created_ts": 1793288564,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $109.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "usd": 500.0,
-   "closed": "2026-10-29 13:12",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "b3467788",
    "ticker": "OLN",
    "kind": "take_profit",
@@ -7474,7 +7417,58 @@
    ],
    "good_until": "2026-11-09",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "e920fa2a",
+   "ticker": "WSM",
+   "kind": "take_profit",
+   "price": 265.0904,
+   "status": "working",
+   "created": "2026-11-04 10:30",
+   "created_ts": 1793806222,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $264.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "38c48f73",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 261.7964,
+   "status": "working",
+   "created": "2026-11-04 10:30",
+   "created_ts": 1793806222,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $264.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f0d1bfbf",
+   "ticker": "WSM",
+   "kind": "buy_limit",
+   "price": 256.2255,
+   "status": "working",
+   "created": "2026-11-04 10:30",
+   "created_ts": 1793806222,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $264.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-04 10:28"
+ "updated": "2026-11-04 10:30"
 }
