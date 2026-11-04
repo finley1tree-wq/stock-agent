@@ -1,6 +1,3 @@
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25421.33 (+1.69% on $25000.00 in) · cash $22427.50 · realised +427.50
-Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-11-04 14:11 ET (Wednesday) — week 2026-W45 — budget left $21971.54 (today $51000.00 put to work, 35 buys, 31 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25430.84 (+1.72% on $25000.00 in) · cash $24679.48 · realised +429.48
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 2 order(s) working; budget left $24223.52 this week
+  (cancelled 1 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $267.71] -> $750.51 (+0.07%) — close it all at -0.9% under the average cost
+## 2026-11-04 15:27 ET — tick — 1 sell(s), 0 buy(s) from standing orders

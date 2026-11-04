@@ -91819,7 +91819,9 @@
     "code_version": "bc77052",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.22
+    "ret_now": 0.07,
+    "ret_final": 0.07,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -91899,5 +91901,32 @@
     "hour_et": 15,
     "code_version": "e3fc702",
     "hold_minutes": 119
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 2.803456,
+    "status": "filled",
+    "price": 267.71,
+    "proceeds": 750.51,
+    "realized_pnl": 0.51,
+    "realized_pct": 0.07,
+    "date": "2026-11-04",
+    "time_et": "15:27",
+    "ts": 1793823900,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $267.53",
+    "trigger": "stop_loss",
+    "hour_et": 15,
+    "code_version": "78c9114",
+    "hold_minutes": 85
   }
 ]
