@@ -1,6 +1,3 @@
-
-## 2026-11-04 10:05 ET (Wednesday) — week 2026-W45 — budget left $24971.96 (today $33000.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
   (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
   (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 FITB @ $52.87 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25435.85 (+1.74% on $25000.00 in) · cash $23183.80 · realised +433.80
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22727.84 this week
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $113.08] -> $753.53 (+0.47%) — close 100% at +0.4% over the average cost
+## 2026-11-04 11:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
