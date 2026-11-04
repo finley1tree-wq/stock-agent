@@ -91150,7 +91150,7 @@
     "code_version": "70f0166",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02
+    "ret_now": -0.28
   },
   {
     "symbol": "EL",
@@ -91237,7 +91237,9 @@
     "code_version": "bf9ebae",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16
+    "ret_now": 0.29,
+    "ret_final": 0.29,
+    "ret_src": "realised"
   },
   {
     "symbol": "PLD",
@@ -91317,6 +91319,63 @@
     "evidence": "average cost $109.38",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "684263a"
+    "code_version": "684263a",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "ESAB",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 10.063089,
+    "price": 74.53,
+    "date": "2026-11-04",
+    "time_et": "11:23",
+    "ts": 1793809411,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +3.7% over the month; 57% of today's range",
+    "experiments": {},
+    "hold_minutes": 120,
+    "entry_price": 74.5,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 3.72,
+    "hour_et": 11,
+    "code_version": "1581cc3",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "WSM",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 2.834727,
+    "price": 264.58,
+    "date": "2026-11-04",
+    "time_et": "11:23",
+    "ts": 1793809411,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +9.2% over the month; 36% of today's range",
+    "experiments": {},
+    "hold_minutes": 120,
+    "entry_price": 264.47,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 9.17,
+    "hour_et": 11,
+    "code_version": "1581cc3",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
