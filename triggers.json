@@ -1,120 +1,6 @@
 {
  "orders": [
   {
-   "id": "83809873",
-   "ticker": "ADI",
-   "kind": "stop_loss",
-   "price": 428.86,
-   "status": "cancelled",
-   "created": "2026-10-29 11:28",
-   "created_ts": 1793287697,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $428.17",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-29 11:30",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ff2f9c1b",
-   "ticker": "TFC",
-   "kind": "take_profit",
-   "price": 49.4637,
-   "status": "cancelled",
-   "created": "2026-10-29 11:33",
-   "created_ts": 1793288010,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $49.36",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-29 13:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "0377d896",
-   "ticker": "TFC",
-   "kind": "stop_loss",
-   "price": 49.1009,
-   "status": "cancelled",
-   "created": "2026-10-29 11:33",
-   "created_ts": 1793288010,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $49.36",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-29 13:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "a7161777",
-   "ticker": "TFC",
-   "kind": "buy_limit",
-   "price": 47.8792,
-   "status": "cancelled",
-   "created": "2026-10-29 11:33",
-   "created_ts": 1793288010,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $49.36",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "usd": 500.0,
-   "closed": "2026-10-29 13:03",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
-   "id": "a7baec3a",
-   "ticker": "CACI",
-   "kind": "take_profit",
-   "price": 677.2643,
-   "status": "cancelled",
-   "created": "2026-10-29 11:33",
-   "created_ts": 1793288010,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $675.03",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-29 12:50",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "4452db10",
-   "ticker": "CACI",
-   "kind": "stop_loss",
-   "price": 669.4408,
-   "status": "cancelled",
-   "created": "2026-10-29 11:33",
-   "created_ts": 1793288010,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $675.03",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-29 12:46",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "926fbd62",
    "ticker": "CACI",
    "kind": "buy_limit",
@@ -7436,7 +7322,7 @@
    "ticker": "FITB",
    "kind": "take_profit",
    "price": 53.9193,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-04 10:24",
    "created_ts": 1793805844,
    "why": "close 100% at +0.3% over the average cost",
@@ -7446,14 +7332,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-04 10:27"
   },
   {
    "id": "8314673f",
    "ticker": "FITB",
    "kind": "stop_loss",
    "price": 53.432,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-04 10:24",
    "created_ts": 1793805844,
    "why": "close it all at -0.6% under the average cost",
@@ -7463,14 +7350,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-04 10:27",
+   "cancel_reason": "position closed"
   },
   {
    "id": "237c9d77",
    "ticker": "FITB",
    "kind": "buy_limit",
    "price": 52.1666,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-04 10:24",
    "created_ts": 1793805844,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7480,8 +7369,112 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-09",
+   "usd": 500.0,
+   "closed": "2026-11-04 10:27",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "ba617cb5",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 108.8702,
+   "status": "working",
+   "created": "2026-11-04 10:27",
+   "created_ts": 1793806036,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $108.55",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1bb07828",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 107.7489,
+   "status": "working",
+   "created": "2026-11-04 10:27",
+   "created_ts": 1793806036,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $108.55",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3b380b26",
+   "ticker": "RPM",
+   "kind": "buy_limit",
+   "price": 105.2935,
+   "status": "working",
+   "created": "2026-11-04 10:27",
+   "created_ts": 1793806036,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $108.55",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
+   "usd": 500.0
+  },
+  {
+   "id": "92580769",
+   "ticker": "CRBG",
+   "kind": "take_profit",
+   "price": 35.8296,
+   "status": "working",
+   "created": "2026-11-04 10:27",
+   "created_ts": 1793806036,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $35.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c80672af",
+   "ticker": "CRBG",
+   "kind": "stop_loss",
+   "price": 35.4108,
+   "status": "working",
+   "created": "2026-11-04 10:27",
+   "created_ts": 1793806036,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $35.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4704d796",
+   "ticker": "CRBG",
+   "kind": "buy_limit",
+   "price": 34.6387,
+   "status": "working",
+   "created": "2026-11-04 10:27",
+   "created_ts": 1793806036,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $35.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
    "usd": 500.0
   }
  ],
- "updated": "2026-11-04 10:24"
+ "updated": "2026-11-04 10:27"
 }
