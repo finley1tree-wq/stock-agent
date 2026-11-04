@@ -1,9 +1,9 @@
 {
   "week": "2026-W45",
-  "spent": 3018.86,
+  "spent": 2278.46,
   "deployed": 142500.0,
   "by_ticker": {
-    "NXPI": 784.7,
+    "NXPI": 44.3,
     "CRBG": 37.5,
     "ADI": 44.8,
     "RPM": 770.46,
@@ -4197,13 +4197,34 @@
       ],
       "evidence": "average cost $112.57",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 2.80538,
+      "status": "filled",
+      "price": 263.92,
+      "proceeds": 740.4,
+      "realized_pnl": -9.6,
+      "realized_pct": -1.28,
+      "date": "2026-11-04",
+      "time_et": "13:41",
+      "ts": 1793817600,
+      "why": "close it all at -1.2% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $267.34",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-04",
-  "spent_today": 3000.26,
+  "spent_today": 2259.86,
   "deployed_today": 50250.0,
   "orders_today": 34,
-  "sells_today": 30,
+  "sells_today": 31,
   "sold_today": [
     "GH",
     "FITB",
@@ -4219,7 +4240,7 @@
     "SIRI"
   ],
   "sold_ts": {
-    "NXPI": 1793809233,
+    "NXPI": 1793817718,
     "ADI": 1793804177,
     "EL": 1793817624,
     "GH": 1793806365,
@@ -4236,8 +4257,8 @@
     "SITE": 1793807304,
     "SIRI": 1793805613
   },
-  "last_publish_ts": 1793817623,
-  "last_check_ts": 1793817672,
+  "last_publish_ts": 1793817718,
+  "last_check_ts": 1793817764,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -4280,15 +4301,12 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "93652ef3": 264.0544,
+    "fe50dc79": 54.572,
     "5c90538e": 54.6691,
     "4eb5e4a0": 110.6221,
-    "d240e4ce": 54.1821,
     "8fc7453d": 109.4937,
     "74a5b469": 171.9541,
     "0b5a7ba9": 168.334,
-    "64e2e66e": 268.6526,
-    "3a7e1b9f": 259.3198,
     "dd0c85fd": 165.7924,
     "ba9fdf74": 106.991,
     "cd60fd4a": 52.8941
