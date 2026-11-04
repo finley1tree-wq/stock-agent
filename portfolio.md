@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-11-04 10:05 ET
+# Pretend portfolio — 2026-11-04 10:08 ET
 
-**Equity $25427.61** on $25000.00 put in → **+1.71%**  
-Cash $24677.91 · Unrealised -0.30 · Realised +427.91
+**Equity $25427.84** on $25000.00 put in → **+1.71%**  
+Cash $24677.91 · Unrealised -0.07 · Realised +427.91
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| SIRI | 2.9% | $749.70 | $32.24 | $32.23 | -0.04% | 0d |
+| SIRI | 2.9% | $749.93 | $32.24 | $32.24 | -0.01% | 0d |
 
 ## Last fills
 
