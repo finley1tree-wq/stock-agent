@@ -59767,3 +59767,17 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on NXPI: position closed)
 - SELL 100% NXPI [stop_loss @ $263.92] -> $740.40 (-1.28%) — close it all at -1.2% under the average cost
 ## 2026-11-04 13:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-04 13:44 ET (Wednesday) — week 2026-W45 — budget left $22721.54 (today $50250.00 put to work, 34 buys, 31 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ATLO excluded: too thinly traded ($1.8M a day) — Ames National Corporation)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
+  (GLQ excluded: too thinly traded ($0.3M a day) — Clough Global Equity Fund)
+  (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiP8A5DPvsXhoasTb8qC'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25425.75 (+1.70% on $25000.00 in) · cash $23177.50 · realised +427.50
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
