@@ -1,48 +1,3 @@
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-04 12:26 ET (Wednesday) — week 2026-W45 — budget left $24981.40 (today $45000.00 put to work, 27 buys, 27 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
-  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiHAHJeF2bFdZ3fG7tv5'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,981 idle, so opened 5: NXPI, RPM, PLD, FITB, WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped PLD: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25437.36 (+1.75% on $25000.00 in) · cash $25437.36 · realised +437.36
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-04 12:28 ET (Wednesday) — week 2026-W45 — budget left $24981.40 (today $45000.00 put to work, 27 buys, 27 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
-  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiHNrZETetkJ6Cf5yR8p'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,981 idle, so opened 5: NXPI, RPM, PLD, FITB, WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped PLD: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25437.36 (+1.75% on $25000.00 in) · cash $25437.36 · realised +437.36
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-04 12:31 ET (Wednesday) — week 2026-W45 — budget left $24981.40 (today $45000.00 put to work, 27 buys, 27 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
-  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
   (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
   (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
   (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
@@ -398,3 +353,48 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25426.25 (+1.71% on $25000.00 in) · cash $21683.90 · realised +433.90
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-04 13:32 ET (Wednesday) — week 2026-W45 — budget left $21227.94 (today $50250.00 put to work, 34 buys, 29 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ATLO excluded: too thinly traded ($1.8M a day) — Ames National Corporation)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
+  (GLQ excluded: too thinly traded ($0.3M a day) — Clough Global Equity Fund)
+  (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiNCcsWkubrPSdA6VD9r'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25422.20 (+1.69% on $25000.00 in) · cash $21683.90 · realised +433.90
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-04 13:35 ET (Wednesday) — week 2026-W45 — budget left $21227.94 (today $50250.00 put to work, 34 buys, 29 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ATLO excluded: too thinly traded ($1.8M a day) — Ames National Corporation)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
+  (GLQ excluded: too thinly traded ($0.3M a day) — Clough Global Equity Fund)
+  (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiNS9EVYTPyiTSTTLtHf'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25426.98 (+1.71% on $25000.00 in) · cash $21683.90 · realised +433.90
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-04 13:38 ET (Wednesday) — week 2026-W45 — budget left $21227.94 (today $50250.00 put to work, 34 buys, 29 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ATLO excluded: too thinly traded ($1.8M a day) — Ames National Corporation)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
+  (GLQ excluded: too thinly traded ($0.3M a day) — Clough Global Equity Fund)
+  (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiNfPphN2N5i2nKgiUoS'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25426.55 (+1.71% on $25000.00 in) · cash $21683.90 · realised +433.90
+Decision: nothing at this check. 15 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $113.05] -> $753.20 (+0.43%) — close 100% at +0.4% over the average cost
+## 2026-11-04 13:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

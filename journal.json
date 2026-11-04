@@ -91494,7 +91494,7 @@
     "code_version": "2c501a5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.11
+    "ret_now": -1.13
   },
   {
     "symbol": "RPM",
@@ -91523,7 +91523,7 @@
     "code_version": "2c501a5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.02
+    "ret_now": -0.11
   },
   {
     "symbol": "PLD",
@@ -91583,7 +91583,7 @@
     "code_version": "2c501a5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": 0.13
   },
   {
     "symbol": "WSM",
@@ -91643,7 +91643,9 @@
     "code_version": "5983d2c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.4
+    "ret_now": 0.43,
+    "ret_final": 0.43,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -91726,6 +91728,33 @@
     "code_version": "99e7f71",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.16
+    "ret_now": -0.4
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 6.662817,
+    "status": "filled",
+    "price": 113.05,
+    "proceeds": 753.2,
+    "realized_pnl": 3.2,
+    "realized_pct": 0.43,
+    "date": "2026-11-04",
+    "time_et": "13:40",
+    "ts": 1793817300,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $112.57",
+    "trigger": "take_profit",
+    "hour_et": 13,
+    "code_version": "42caf85",
+    "hold_minutes": 30
   }
 ]
