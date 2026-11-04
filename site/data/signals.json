@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-04T10:05-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,972 idle, so opened 1: SIRI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-11-04T10:18-05:00",
+ "note": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "29235326",
+   "ticker": "SIRI",
+   "kind": "stop_loss",
+   "price": 32.27,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 32.29,
+   "pct_away": -0.06,
+   "good_until": "2026-11-09",
+   "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "f1611260",
    "ticker": "SIRI",
    "kind": "take_profit",
@@ -185,27 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 32.23,
-   "pct_away": 0.31,
+   "last": 32.29,
+   "pct_away": 0.12,
    "good_until": "2026-11-09",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4d93ee81",
-   "ticker": "SIRI",
-   "kind": "stop_loss",
-   "price": 32.0169,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 32.23,
-   "pct_away": -0.66,
-   "good_until": "2026-11-09",
-   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +219,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 32.23,
-   "pct_away": -2.97,
+   "last": 32.29,
+   "pct_away": -3.15,
    "good_until": "2026-11-09",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -229,8 +229,8 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,972 idle, so opened 1: SIRI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
- "next_check_minutes": 6,
+ "last_reasoning": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)",
+ "next_check_minutes": null,
  "allowed": [
   "AAPL",
   "ADI",
@@ -298,13 +298,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 387,
+  "decisions_graded": 383,
   "decisions_with_buys_graded": 47,
   "independent_days_graded": 4,
   "avg_regret_pct": -1.08,
   "chosen_avg_pct": 0.7,
   "skipped_avg_pct": -0.38,
-  "idle_universe_avg_pct": -0.2,
+  "idle_universe_avg_pct": -0.18,
   "picking_beats_random": true,
   "avg_fraction_of_universe_bought": 0.01,
   "checks_that_bought_everything": 0,
@@ -371,11 +371,11 @@
   "biggest_avoided": [
    {
     "ticker": "CCJ",
-    "fwd_pct": -12.11
+    "fwd_pct": -11.93
    },
    {
     "ticker": "NBIS",
-    "fwd_pct": -11.33
+    "fwd_pct": -11.24
    },
    {
     "ticker": "AMD",
@@ -1936,6 +1936,11 @@
  "headlines": {
   "AAPL": [
    {
+    "title": "Why the Democrat blue wave could be a good thing for Apple stock",
+    "source": "Yahoo Finance",
+    "when": "2026-11-04T10:00"
+   },
+   {
     "title": "Post-election gridlock might be a bullish sign for Apple, memory prices",
     "source": "Yahoo Finance Video",
     "when": "2026-11-04T14:56"
@@ -1944,11 +1949,6 @@
     "title": "The AI sell-off saved Apple from a sell-off of its own",
     "source": "Yahoo Finance",
     "when": "2026-11-04T11:00"
-   },
-   {
-    "title": "Why the Democrat blue wave could be a good thing for Apple stock",
-    "source": "Yahoo Finance",
-    "when": "2026-11-04T10:00"
    }
   ],
   "ADI": [
@@ -1992,14 +1992,14 @@
     "when": "2026-11-04T13:00"
    },
    {
+    "title": "Amazon Rallies 7%, Apple and Microsoft Climb 5% as Big Tech Leads Post-Election Rebound",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-04T15:02"
+   },
+   {
     "title": "As Holidays Approach, No One Cares About Amazon\u2019s Biggest Business",
     "source": "24/7 Wall St.",
     "when": "2026-11-04T14:45"
-   },
-   {
-    "title": "Forget The Short-Term Noise: This is Where Amazon Will Be in 2028",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-04T14:03"
    }
   ],
   "AVGO": [
@@ -2174,19 +2174,19 @@
   ],
   "GOOGL": [
    {
+    "title": "What Wall Street is Missing About Micron\u2019s (MU) Ultra-Low Earnings Multiple",
+    "source": "Insider Monkey",
+    "when": "2026-11-04T15:11"
+   },
+   {
+    "title": "Amazon Rallies 7%, Apple and Microsoft Climb 5% as Big Tech Leads Post-Election Rebound",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-04T15:02"
+   },
+   {
     "title": "If You Invest $1,000 in Marvell Today, Here\u2019s What It Could Be Worth by 2030",
     "source": "24/7 Wall St.",
     "when": "2026-11-04T14:33"
-   },
-   {
-    "title": "Blue wave threatens to derail America\u2019s AI boom",
-    "source": "The Telegraph",
-    "when": "2026-11-04T14:33"
-   },
-   {
-    "title": "Wall St set for higher open as Democrats win Congress; data center stocks slide",
-    "source": "Reuters",
-    "when": "2026-11-04T13:57"
    }
   ],
   "HD": [
@@ -2225,6 +2225,11 @@
   ],
   "IBRX": [
    {
+    "title": "AMRX Q3 Earnings & Sales Beat Estimates, FY'26 Guidance Raised",
+    "source": "Zacks",
+    "when": "2026-11-04T14:02"
+   },
+   {
     "title": "NVO Q3 Earnings Beat Estimates on Wegovy Pill Growth, Outlook Raised",
     "source": "Zacks",
     "when": "2026-11-04T13:35"
@@ -2233,11 +2238,6 @@
     "title": "IBRX Stock Climbs Overnight: Founder Calls Sepsis Push \u2018Unstoppable\u2019 As Trials Near \u2014 Teases NantX After Crypto Heist",
     "source": "Stocktwits",
     "when": "2026-11-03T04:44"
-   },
-   {
-    "title": "SLS, IBRX, IOVA End October In Red: Merck And AstraZeneca Earnings Put Cancer Bets And Buyout Hopes In Focus",
-    "source": "Stocktwits",
-    "when": "2026-11-02T06:11"
    }
   ],
   "LMT": [
@@ -2298,31 +2298,31 @@
     "when": "2026-11-04T13:09"
    },
    {
+    "title": "Amazon Rallies 7%, Apple and Microsoft Climb 5% as Big Tech Leads Post-Election Rebound",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-04T15:02"
+   },
+   {
     "title": "How Tesla and SpaceX stocks are reacting to Democrats winning Congress",
     "source": "Yahoo Finance Video",
     "when": "2026-11-04T14:38"
-   },
-   {
-    "title": "Blue wave threatens to derail America\u2019s AI boom",
-    "source": "The Telegraph",
-    "when": "2026-11-04T14:33"
    }
   ],
   "MSFT": [
    {
+    "title": "If You Invest $1,000 in Microsoft Today, Here\u2019s What It Could Be Worth by 2029",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-04T15:06"
+   },
+   {
+    "title": "Amazon Rallies 7%, Apple and Microsoft Climb 5% as Big Tech Leads Post-Election Rebound",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-04T15:02"
+   },
+   {
     "title": "As Holidays Approach, No One Cares About Amazon\u2019s Biggest Business",
     "source": "24/7 Wall St.",
     "when": "2026-11-04T14:45"
-   },
-   {
-    "title": "Arista Soars 6% on $18.5 Billion 2027 Outlook After Quarter \u201cSurpassing Even My High Expectations\u201d",
-    "source": "TIKR",
-    "when": "2026-11-04T14:34"
-   },
-   {
-    "title": "Microsoft Corporation (MSFT) Outperforms with Record Quarter Driven by Azure Demand Surge",
-    "source": "Insider Monkey",
-    "when": "2026-11-04T14:31"
    }
   ],
   "MU": [
@@ -2332,14 +2332,14 @@
     "when": "2026-11-04T09:18"
    },
    {
+    "title": "What Wall Street is Missing About Micron\u2019s (MU) Ultra-Low Earnings Multiple",
+    "source": "Insider Monkey",
+    "when": "2026-11-04T15:11"
+   },
+   {
     "title": "Micron Technology  (MU) Pulls Back Amid Broader AI Memory Sell-Off; Underweight Position Aids Relative Returns",
     "source": "Insider Monkey",
     "when": "2026-11-04T14:29"
-   },
-   {
-    "title": "Micron Stock Faces a Memory Price Conundrum in Wake of Democrat Success",
-    "source": "Barrons.com",
-    "when": "2026-11-04T13:15"
    }
   ],
   "NEM": [
@@ -2400,14 +2400,14 @@
     "when": "2026-11-04T10:25"
    },
    {
-    "title": "AMD Just Doubled Its Own Long-Term Growth Target for 2027",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-04T14:54"
+    "title": "Stock market today: Dow jumps over 1,000 points, S&P 500 and Nasdaq gain after Democrats win control of Congress",
+    "source": "Yahoo Finance",
+    "when": "2026-11-04T09:18"
    },
    {
-    "title": "Navitas Soars 6% as AI Infrastructure Pivot Delivers Revenue Beat: \u201cBreaking the Power Wall\u201d",
-    "source": "TIKR",
-    "when": "2026-11-04T14:52"
+    "title": "Better AI Semiconductor Monopoly Stock: Taiwan Semiconductor vs. ASML",
+    "source": "Motley Fool",
+    "when": "2026-11-04T15:15"
    }
   ],
   "NXPI": [
@@ -2599,6 +2599,11 @@
   ],
   "TSM": [
    {
+    "title": "Better AI Semiconductor Monopoly Stock: Taiwan Semiconductor vs. ASML",
+    "source": "Motley Fool",
+    "when": "2026-11-04T15:15"
+   },
+   {
     "title": "4 Semiconductor Stocks to Buy as Q3 Sales Soar on Robust AI Demand",
     "source": "Zacks",
     "when": "2026-11-04T13:44"
@@ -2607,14 +2612,14 @@
     "title": "Broadcom vs. Taiwan Semiconductor: Two AI Powerhouses, but One Offers a Better Value for 2027",
     "source": "Motley Fool",
     "when": "2026-11-04T10:50"
-   },
-   {
-    "title": "What Pinnacle West Capital (PNW) Said on Its Q3 Earnings Call",
-    "source": "MarketBeat",
-    "when": "2026-11-04T07:14"
    }
   ],
   "UNH": [
+   {
+    "title": "UnitedHealth Group (UNH) Draws Breakup Pressure As AI Threat Enters The Story",
+    "source": "Simply Wall St.",
+    "when": "2026-11-04T15:11"
+   },
    {
     "title": "State Street Health Care SPDR (XLV) Adds Eli Lilly and J&J on Nov. 2",
     "source": "GuruFocus.com",
@@ -2624,11 +2629,6 @@
     "title": "What Needs To Be True To Buy Oscar Health Stock Now?",
     "source": "Trefis",
     "when": "2026-11-04T10:24"
-   },
-   {
-    "title": "UnitedHealth Group Incorporated (UNH) Rebounded After Better-Than-Expected Results: Mott Capital\u2019s Take",
-    "source": "Insider Monkey",
-    "when": "2026-11-03T18:44"
    }
   ],
   "VNQ": [
@@ -2667,5 +2667,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-04T10:05-05:00"
+ "signalsAsOf": "2026-11-04T10:18-05:00"
 }
