@@ -1,7 +1,7 @@
 {
   "week": "2026-W45",
-  "spent": 778.04,
-  "deployed": 126000.0,
+  "spent": 778.02,
+  "deployed": 126750.0,
   "by_ticker": {
     "NXPI": 36.03,
     "CRBG": 39.92,
@@ -11,12 +11,12 @@
     "PLD": 18.54,
     "WSM": 36.56,
     "SITE": 29.7,
-    "SIRI": 750.0
+    "GH": 750.0
   },
   "deployed_by_ticker": {
     "RPM": 12000.0,
     "EL": 14250.0,
-    "GH": 6000.0,
+    "GH": 6750.0,
     "NXPI": 13500.0,
     "ADI": 13500.0,
     "FITB": 13500.0,
@@ -3358,13 +3358,54 @@
       "evidence": "1 insider bought (Form 4); +22.3% over the month; 85% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "SIRI",
+      "side": "sell",
+      "qty": 23.260941,
+      "status": "filled",
+      "price": 32.24,
+      "proceeds": 750.02,
+      "realized_pnl": 0.02,
+      "realized_pct": 0.0,
+      "date": "2026-11-04",
+      "time_et": "10:20",
+      "ts": 1793805600,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $32.24",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "GH",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 4.379601,
+      "price": 171.25,
+      "date": "2026-11-04",
+      "time_et": "10:21",
+      "ts": 1793805660,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +0.3% over the month; 25% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-04",
   "spent_today": 750.0,
-  "deployed_today": 33750.0,
-  "orders_today": 12,
-  "sells_today": 11,
+  "deployed_today": 34500.0,
+  "orders_today": 13,
+  "sells_today": 12,
   "sold_today": [
     "GH",
     "FITB",
@@ -3376,7 +3417,8 @@
     "EL",
     "PLD",
     "SITE",
-    "ADI"
+    "ADI",
+    "SIRI"
   ],
   "sold_ts": {
     "NXPI": 1793803045,
@@ -3393,12 +3435,13 @@
     "BBT": 1793717182,
     "NTRS": 1793729983,
     "ESAB": 1793803246,
-    "SITE": 1793803883
+    "SITE": 1793803883,
+    "SIRI": 1793805613
   },
-  "last_publish_ts": 1793805483,
-  "last_check_ts": 1793805576,
+  "last_publish_ts": 1793805660,
+  "last_check_ts": 1793805660,
   "exp_arm": {
-    "SIRI": {
+    "GH": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -3406,13 +3449,13 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1793805300,
-  "last_decision_ts": 1793805483,
-  "next_check_minutes": null,
+  "last_bar_ts": 1793805600,
+  "last_decision_ts": 1793805660,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "29235326": 32.27,
-    "f1611260": 32.3293,
-    "7a632566": 31.2728
+    "85ce3bac": 172.2706,
+    "d31ec7d6": 168.6984,
+    "69fc4cef": 166.1125
   }
 }
