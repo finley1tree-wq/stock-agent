@@ -1,6 +1,3 @@
-~ WORKING buy_limit $500.00 FITB @ $52.17 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25421.71 (+1.69% on $25000.00 in) · cash $23177.93 · realised +427.93
-Done: 0 sell(s), 2 buy(s); 9 order(s) working; budget left $22721.98 this week
   (cancelled 2 standing order(s) on FITB: position closed)
 - SELL 100% FITB [take_profit @ $53.92] -> $751.92 (+0.26%) — close 100% at +0.3% over the average cost
 ## 2026-11-04 10:27 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +395,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25434.86 (+1.74% on $25000.00 in) · cash $24684.68 · realised +434.68
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 3 order(s) working; budget left $24228.72 this week
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $265.52] -> $752.68 (+0.36%) — close 100% at +0.4% over the average cost
+## 2026-11-04 11:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
