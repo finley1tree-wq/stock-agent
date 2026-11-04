@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-04T15:23-05:00",
+ "asOf": "2026-11-04T15:26-05:00",
  "note": "autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)",
  "broker": "sim",
  "watchlist": {
@@ -185,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 268.05,
-   "pct_away": -0.08,
+   "last": 268.01,
+   "pct_away": -0.06,
    "good_until": "2026-11-09",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -202,44 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 268.05,
-   "pct_away": 0.16,
+   "last": 268.01,
+   "pct_away": 0.17,
    "good_until": "2026-11-09",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "74a5b469",
-   "ticker": "GH",
-   "kind": "take_profit",
-   "price": 171.9541,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 171.35,
-   "pct_away": 0.35,
-   "good_until": "2026-11-09",
-   "why": "close 100% at +0.6% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0b5a7ba9",
-   "ticker": "GH",
-   "kind": "stop_loss",
-   "price": 168.334,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 171.35,
-   "pct_away": -1.76,
-   "good_until": "2026-11-09",
-   "why": "close it all at -1.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -315,13 +281,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 281,
+  "decisions_graded": 280,
   "decisions_with_buys_graded": 36,
   "independent_days_graded": 3,
   "avg_regret_pct": -0.91,
   "chosen_avg_pct": 0.77,
   "skipped_avg_pct": -0.14,
-  "idle_universe_avg_pct": 0.16,
+  "idle_universe_avg_pct": 0.15,
   "picking_beats_random": true,
   "avg_fraction_of_universe_bought": 0.01,
   "checks_that_bought_everything": 0,
@@ -401,7 +367,7 @@
   ],
   "sectors_most_often_missed": {
    "off-watchlist": {
-    "n": 15
+    "n": 14
    },
    "widely_held": {
     "n": 8
@@ -413,9 +379,9 @@
     "n": 2
    }
   },
-  "idle_checks": 335,
+  "idle_checks": 334,
   "blocked_checks": 0,
-  "idle_share": 0.84,
+  "idle_share": 0.83,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -2035,6 +2001,11 @@
   ],
   "BA": [
    {
+    "title": "Has GE Aerospace Stock Become A Different Bet?",
+    "source": "Trefis",
+    "when": "2026-11-04T20:09"
+   },
+   {
     "title": "How Tesla and SpaceX stocks are reacting to Democrats winning Congress",
     "source": "Yahoo Finance Video",
     "when": "2026-11-04T14:38"
@@ -2043,11 +2014,6 @@
     "title": "How Long Can Firefly Keep Burning Cash?",
     "source": "Trefis",
     "when": "2026-11-04T13:49"
-   },
-   {
-    "title": "Investors Heavily Search The Boeing Company (BA): Here is What You Need to Know",
-    "source": "Zacks",
-    "when": "2026-11-04T13:00"
    }
   ],
   "CCJ": [
@@ -2261,14 +2227,14 @@
     "when": "2026-11-04T20:10"
    },
    {
+    "title": "Has GE Aerospace Stock Become A Different Bet?",
+    "source": "Trefis",
+    "when": "2026-11-04T20:09"
+   },
+   {
     "title": "US large-cap dividend hike watch: 10 stocks with the longest growth streaks",
     "source": "Investing.com",
     "when": "2026-11-04T20:01"
-   },
-   {
-    "title": "Why Is Lockheed Martin (LMT) Expanding Capacity And Tracking A 75 Year Rare Earth Deal?",
-    "source": "Simply Wall St.",
-    "when": "2026-11-04T19:12"
    }
   ],
   "LRCX": [
@@ -2392,6 +2358,11 @@
   ],
   "NOC": [
    {
+    "title": "Has GE Aerospace Stock Become A Different Bet?",
+    "source": "Trefis",
+    "when": "2026-11-04T20:09"
+   },
+   {
     "title": "Seasonal Signal: Avoid This Defense Stock In November",
     "source": "Schaeffer's Investment Research",
     "when": "2026-11-04T19:07"
@@ -2400,14 +2371,14 @@
     "title": "Defense Stocks Tumble After Midterm Rebuke Of Iran War",
     "source": "Investor's Business Daily",
     "when": "2026-11-04T18:31"
-   },
-   {
-    "title": "Northrop Grumman (NOC) Holds A Leading Role In Airborne Early Warning",
-    "source": "Simply Wall St.",
-    "when": "2026-11-04T17:15"
    }
   ],
   "NVDA": [
+   {
+    "title": "Why SpaceX Stock Is Down Today",
+    "source": "Motley Fool",
+    "when": "2026-11-04T20:15"
+   },
    {
     "title": "Why Navitas Semiconductor Stock Rocketed Higher Today",
     "source": "Motley Fool",
@@ -2417,11 +2388,6 @@
     "title": "AMD\u2019s Data Center Sales Nearly Doubled, but Its Own Stock Rally Just Cost It $1.1 Billion",
     "source": "TIKR",
     "when": "2026-11-04T20:08"
-   },
-   {
-    "title": "Lululemon Stock Is Down 48% in 2026. Is It a Buy Before 2027?",
-    "source": "Motley Fool",
-    "when": "2026-11-04T20:05"
    }
   ],
   "NXPI": [
@@ -2528,6 +2494,11 @@
   ],
   "RTX": [
    {
+    "title": "Has GE Aerospace Stock Become A Different Bet?",
+    "source": "Trefis",
+    "when": "2026-11-04T20:09"
+   },
+   {
     "title": "Defense Stocks Tumble After Midterm Rebuke Of Iran War",
     "source": "Investor's Business Daily",
     "when": "2026-11-04T18:31"
@@ -2536,11 +2507,6 @@
     "title": "Defense firms fall as Democratic victory stokes fears of tighter Pentagon budget",
     "source": "Reuters",
     "when": "2026-11-04T17:02"
-   },
-   {
-    "title": "SpaceX, Tesla, Micron, AMD, Lockheed, CVS, DJT, and More Stocks That Explain Today\u2019s Market",
-    "source": "Barrons.com",
-    "when": "2026-11-04T16:57"
    }
   ],
   "SIRI": [
@@ -2664,5 +2630,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-04T15:23-05:00"
+ "signalsAsOf": "2026-11-04T15:26-05:00"
 }

@@ -91734,7 +91734,9 @@
     "code_version": "99e7f71",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.29
+    "ret_now": 0.55,
+    "ret_final": 0.55,
+    "ret_src": "realised"
   },
   {
     "symbol": "EL",
@@ -91817,7 +91819,7 @@
     "code_version": "bc77052",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.24
+    "ret_now": 0.22
   },
   {
     "symbol": "FITB",
@@ -91871,5 +91873,31 @@
     "hour_et": 15,
     "code_version": "7b4cf82",
     "hold_minutes": 120
+  },
+  {
+    "symbol": "GH",
+    "side": "sell",
+    "qty": 4.38806,
+    "status": "filled",
+    "price": 171.85,
+    "proceeds": 754.09,
+    "realized_pnl": 4.09,
+    "realized_pct": 0.55,
+    "date": "2026-11-04",
+    "time_et": "15:25",
+    "ts": 1793823922,
+    "why": "held 120 min, the 120-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 120 min ago, +0.59% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 15,
+    "code_version": "e3fc702",
+    "hold_minutes": 119
   }
 ]
