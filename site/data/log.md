@@ -1,20 +1,3 @@
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggcomSJCTz4J88X8Pn6Z'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25407.99 (+1.63% on $25000.00 in) · cash $25407.99 · realised +407.99
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-03 15:24 ET (Tuesday) — week 2026-W45 — budget left $24952.04 (today $47250.00 put to work, 33 buys, 33 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
-  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
   (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cggd2cxvtqTHrrjbKgxb4'}
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 ADI @ $408.64 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25480.98 (+1.92% on $25000.00 in) · cash $19491.73 · realised +491.73
 Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $19035.78 this week
+
+## 2026-11-04 09:50 ET (Wednesday) — week 2026-W45 — budget left $19035.78 (today $33000.00 put to work, 11 buys, 9 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgi5Jjpu5ZeA4NExXC4L5'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25449.92 (+1.80% on $25000.00 in) · cash $19491.73 · realised +491.73
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on SITE: position closed)
+- SELL 100% SITE [stop_loss @ $116.11] -> $2970.30 (-0.99%) — close it all at -0.9% under the average cost
+## 2026-11-04 09:51 ET — tick — 1 sell(s), 0 buy(s) from standing orders

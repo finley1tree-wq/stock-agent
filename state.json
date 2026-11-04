@@ -1,6 +1,6 @@
 {
   "week": "2026-W45",
-  "spent": 5964.22,
+  "spent": 2993.92,
   "deployed": 125250.0,
   "by_ticker": {
     "NXPI": 36.03,
@@ -10,7 +10,7 @@
     "FITB": 7.83,
     "PLD": 18.54,
     "WSM": 36.56,
-    "SITE": 3000.0
+    "SITE": 29.7
   },
   "deployed_by_ticker": {
     "RPM": 12000.0,
@@ -3294,13 +3294,34 @@
       "evidence": "congress net buying (1 net buyer); +0.1% over the month; 68% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "SITE",
+      "side": "sell",
+      "qty": 25.582669,
+      "status": "filled",
+      "price": 116.11,
+      "proceeds": 2970.3,
+      "realized_pnl": -29.7,
+      "realized_pct": -0.99,
+      "date": "2026-11-04",
+      "time_et": "09:51",
+      "ts": 1793803800,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $117.27",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-04",
-  "spent_today": 5916.26,
+  "spent_today": 2945.96,
   "deployed_today": 33000.0,
   "orders_today": 11,
-  "sells_today": 9,
+  "sells_today": 10,
   "sold_today": [
     "GH",
     "FITB",
@@ -3310,7 +3331,8 @@
     "CRBG",
     "WSM",
     "EL",
-    "PLD"
+    "PLD",
+    "SITE"
   ],
   "sold_ts": {
     "NXPI": 1793803045,
@@ -3326,10 +3348,11 @@
     "ROL": 1793716853,
     "BBT": 1793717182,
     "NTRS": 1793729983,
-    "ESAB": 1793803246
+    "ESAB": 1793803246,
+    "SITE": 1793803883
   },
-  "last_publish_ts": 1793803660,
-  "last_check_ts": 1793803836,
+  "last_publish_ts": 1793803882,
+  "last_check_ts": 1793803928,
   "exp_arm": {
     "SITE": {
       "params": {
@@ -3353,11 +3376,8 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "e07522ba": 423.1126,
-    "934305af": 116.1641,
-    "772b1ae8": 117.7121,
     "1c370f22": 416.7007,
-    "20581f50": 113.7519,
+    "e07522ba": 423.1126,
     "d144f918": 408.6416
   }
 }
