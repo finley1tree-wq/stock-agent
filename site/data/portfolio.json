@@ -1,27 +1,9 @@
 {
-  "cash": 16459.106361756614,
+  "cash": 16480.488558538877,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W45",
   "positions": {
-    "NXPI": {
-      "qty": 11.270855704103429,
-      "avg_cost": 266.173224,
-      "opened": "2026-11-04",
-      "last_buy": "2026-11-04",
-      "tranches": 1,
-      "last_buy_ts": 1793802837,
-      "opened_ts": 1793802837
-    },
-    "FITB": {
-      "qty": 53.99352682405612,
-      "avg_cost": 55.562216,
-      "opened": "2026-11-04",
-      "last_buy": "2026-11-04",
-      "tranches": 1,
-      "last_buy_ts": 1793802838,
-      "opened_ts": 1793802838
-    },
     "RPM": {
       "qty": 27.237061578638297,
       "avg_cost": 110.14404,
@@ -30,6 +12,24 @@
       "tranches": 1,
       "last_buy_ts": 1793802964,
       "opened_ts": 1793802964
+    },
+    "ESAB": {
+      "qty": 39.87236377886022,
+      "avg_cost": 75.240084,
+      "opened": "2026-11-04",
+      "last_buy": "2026-11-04",
+      "tranches": 1,
+      "last_buy_ts": 1793803088,
+      "opened_ts": 1793803088
+    },
+    "PLD": {
+      "qty": 22.949418227658043,
+      "avg_cost": 130.722268,
+      "opened": "2026-11-04",
+      "last_buy": "2026-11-04",
+      "tranches": 1,
+      "last_buy_ts": 1793803088,
+      "opened_ts": 1793803088
     }
   },
   "fills": [
@@ -35173,7 +35173,51 @@
       "price": 110.14,
       "type": "buy",
       "date": "2026-11-04 09:36"
+    },
+    {
+      "symbol": "FITB",
+      "side": "sell",
+      "qty": 53.993527,
+      "status": "filled",
+      "price": 55.7,
+      "proceeds": 3007.29,
+      "realized_pnl": 7.29,
+      "realized_pct": 0.24,
+      "type": "sell",
+      "date": "2026-11-04 09:36"
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 11.270856,
+      "status": "filled",
+      "price": 267.42,
+      "proceeds": 3014.09,
+      "realized_pnl": 14.09,
+      "realized_pct": 0.47,
+      "type": "sell",
+      "date": "2026-11-04 09:37"
+    },
+    {
+      "symbol": "ESAB",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 39.872364,
+      "price": 75.24,
+      "type": "buy",
+      "date": "2026-11-04 09:38"
+    },
+    {
+      "symbol": "PLD",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 22.949418,
+      "price": 130.72,
+      "type": "buy",
+      "date": "2026-11-04 09:38"
     }
   ],
-  "realized_pnl": 459.10636175663205
+  "realized_pnl": 480.48855853889495
 }

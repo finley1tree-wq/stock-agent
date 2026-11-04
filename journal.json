@@ -89910,7 +89910,9 @@
     "code_version": "443defb",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.18
+    "ret_now": 0.47,
+    "ret_final": 0.47,
+    "ret_src": "realised"
   },
   {
     "symbol": "GH",
@@ -89974,7 +89976,9 @@
     "code_version": "443defb",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.27
+    "ret_now": 0.24,
+    "ret_final": 0.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "GH",
@@ -90030,6 +90034,121 @@
     "momentum_1m_at_entry": 11.99,
     "hour_et": 9,
     "code_version": "6a88cf2",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.16
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 53.993527,
+    "status": "filled",
+    "price": 55.7,
+    "proceeds": 3007.29,
+    "realized_pnl": 7.29,
+    "realized_pct": 0.24,
+    "date": "2026-11-04",
+    "time_et": "09:36",
+    "ts": 1793802900,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $55.56",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "a787aec",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 11.270856,
+    "status": "filled",
+    "price": 267.42,
+    "proceeds": 3014.09,
+    "realized_pnl": 14.09,
+    "realized_pct": 0.47,
+    "date": "2026-11-04",
+    "time_et": "09:37",
+    "ts": 1793802900,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $266.17",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "a787aec",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "ESAB",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 39.872364,
+    "price": 75.24,
+    "date": "2026-11-04",
+    "time_et": "09:37",
+    "ts": 1793803047,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +4.7% over the month; 48% of today's range",
+    "experiments": {
+      "hold_long": 120
+    },
+    "hold_minutes": 120,
+    "entry_price": 75.21,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 4.71,
+    "hour_et": 9,
+    "code_version": "a787aec",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "PLD",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 22.949418,
+    "price": 130.72,
+    "date": "2026-11-04",
+    "time_et": "09:37",
+    "ts": 1793803047,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +1.6% over the month; 82% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 130.67,
+    "sector": "real_estate",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 1.55,
+    "hour_et": 9,
+    "code_version": "a787aec",
     "ret_1w": null,
     "ret_1m": null
   }
