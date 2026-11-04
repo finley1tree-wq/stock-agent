@@ -1,6 +1,6 @@
 {
   "week": "2026-W45",
-  "spent": 3767.84,
+  "spent": 3022.06,
   "deployed": 141750.0,
   "by_ticker": {
     "NXPI": 784.7,
@@ -8,7 +8,7 @@
     "ADI": 44.8,
     "RPM": 770.46,
     "FITB": 761.09,
-    "PLD": 772.79,
+    "PLD": 27.01,
     "WSM": 32.83,
     "SITE": 26.83,
     "GH": 11.54,
@@ -4136,13 +4136,34 @@
       ],
       "evidence": "average cost $268.15",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "PLD",
+      "side": "sell",
+      "qty": 5.770031,
+      "status": "filled",
+      "price": 129.25,
+      "proceeds": 745.78,
+      "realized_pnl": -4.22,
+      "realized_pct": -0.56,
+      "date": "2026-11-04",
+      "time_et": "13:21",
+      "ts": 1793816400,
+      "why": "close it all at -0.5% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $129.98",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-04",
-  "spent_today": 3749.24,
+  "spent_today": 3003.46,
   "deployed_today": 49500.0,
   "orders_today": 33,
-  "sells_today": 28,
+  "sells_today": 29,
   "sold_today": [
     "GH",
     "FITB",
@@ -4167,7 +4188,7 @@
     "FITB": 1793809949,
     "CRBG": 1793806365,
     "CACI": 1793643610,
-    "PLD": 1793809100,
+    "PLD": 1793816494,
     "ROL": 1793716853,
     "BBT": 1793717182,
     "NTRS": 1793729983,
@@ -4175,8 +4196,8 @@
     "SITE": 1793807304,
     "SIRI": 1793805613
   },
-  "last_publish_ts": 1793815920,
-  "last_check_ts": 1793816398,
+  "last_publish_ts": 1793816493,
+  "last_check_ts": 1793816493,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -4221,23 +4242,20 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1793816100,
+  "last_bar_ts": 1793816400,
   "last_decision_ts": 1793816398,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "5c90538e": 54.6691,
-    "5a94c0fa": 129.3158,
-    "f78e06e9": 130.2452,
     "4eb5e4a0": 110.6221,
     "e2fefc5b": 113.045,
     "93652ef3": 264.0544,
-    "8fc7453d": 109.4937,
     "d240e4ce": 54.1821,
+    "8fc7453d": 109.4937,
     "beaa183c": 111.3835,
     "64e2e66e": 268.6526,
     "3a7e1b9f": 259.3198,
-    "2cdfb4b0": 126.0806,
     "ba9fdf74": 106.991,
     "bebe1bcd": 109.1929,
     "cd60fd4a": 52.8941
