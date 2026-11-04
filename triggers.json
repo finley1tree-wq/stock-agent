@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "6efda2b5",
-   "ticker": "TFC",
-   "kind": "stop_loss",
-   "price": 49.1009,
-   "status": "cancelled",
-   "created": "2026-10-29 10:40",
-   "created_ts": 1793284822,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $49.36",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-29 10:43",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "e0918e0b",
-   "ticker": "TFC",
-   "kind": "buy_limit",
-   "price": 47.8792,
-   "status": "cancelled",
-   "created": "2026-10-29 10:40",
-   "created_ts": 1793284822,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $49.36",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "usd": 500.0,
-   "closed": "2026-10-29 10:46",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "2e2f43ba",
-   "ticker": "TFC",
-   "kind": "stop_loss",
-   "price": 49.396,
-   "status": "filled",
-   "created": "2026-10-29 10:43",
-   "created_ts": 1793285004,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $49.36",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-29 10:46"
-  },
-  {
    "id": "2b0df859",
    "ticker": "NXPI",
    "kind": "stop_loss",
@@ -7493,7 +7437,58 @@
    "usd": 500.0,
    "closed": "2026-11-04 09:56",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "f1611260",
+   "ticker": "SIRI",
+   "kind": "take_profit",
+   "price": 32.3293,
+   "status": "working",
+   "created": "2026-11-04 10:05",
+   "created_ts": 1793804748,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $32.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "4d93ee81",
+   "ticker": "SIRI",
+   "kind": "stop_loss",
+   "price": 32.0169,
+   "status": "working",
+   "created": "2026-11-04 10:05",
+   "created_ts": 1793804748,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $32.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7a632566",
+   "ticker": "SIRI",
+   "kind": "buy_limit",
+   "price": 31.2728,
+   "status": "working",
+   "created": "2026-11-04 10:05",
+   "created_ts": 1793804748,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $32.24",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-04 10:02"
+ "updated": "2026-11-04 10:05"
 }
