@@ -1,12 +1,12 @@
 {
   "week": "2026-W45",
-  "spent": 2276.57,
+  "spent": 1530.57,
   "deployed": 143250.0,
   "by_ticker": {
     "NXPI": 44.3,
     "CRBG": 37.5,
     "ADI": 44.8,
-    "RPM": 770.46,
+    "RPM": 24.46,
     "FITB": 9.2,
     "PLD": 27.01,
     "WSM": 782.83,
@@ -4259,13 +4259,33 @@
       ],
       "evidence": "average cost $54.53",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RPM",
+      "side": "sell",
+      "qty": 6.799384,
+      "status": "filled",
+      "price": 109.72,
+      "proceeds": 746.0,
+      "realized_pnl": -4.0,
+      "realized_pct": -0.53,
+      "date": "2026-11-04",
+      "time_et": "15:01",
+      "ts": 1793822474,
+      "why": "held 120 min, the 120-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 120 min ago, -0.49% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-11-04",
-  "spent_today": 2257.97,
+  "spent_today": 1511.97,
   "deployed_today": 51000.0,
   "orders_today": 35,
-  "sells_today": 32,
+  "sells_today": 33,
   "sold_today": [
     "GH",
     "FITB",
@@ -4285,7 +4305,7 @@
     "ADI": 1793804177,
     "EL": 1793817624,
     "GH": 1793806365,
-    "RPM": 1793809272,
+    "RPM": 1793822475,
     "WSM": 1793815921,
     "FITB": 1793820306,
     "CRBG": 1793806365,
@@ -4298,8 +4318,8 @@
     "SITE": 1793807304,
     "SIRI": 1793805613
   },
-  "last_publish_ts": 1793822112,
-  "last_check_ts": 1793822427,
+  "last_publish_ts": 1793822474,
+  "last_check_ts": 1793822523,
   "exp_arm": {
     "RPM": {
       "params": {
@@ -4331,15 +4351,13 @@
     }
   },
   "last_bar_ts": 1793822400,
-  "last_decision_ts": 1793822329,
+  "last_decision_ts": 1793822523,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "8fc7453d": 109.4937,
-    "77a75903": 265.1757,
-    "4eb5e4a0": 110.6221,
-    "0b5a7ba9": 168.334,
     "0f2f2e64": 268.4717,
+    "77a75903": 265.1757,
+    "0b5a7ba9": 168.334,
     "74a5b469": 171.9541
   }
 }

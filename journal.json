@@ -91525,7 +91525,9 @@
     "code_version": "2c501a5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.36
+    "ret_now": -0.53,
+    "ret_final": -0.53,
+    "ret_src": "realised"
   },
   {
     "symbol": "PLD",
@@ -91732,7 +91734,7 @@
     "code_version": "99e7f71",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.66
+    "ret_now": -0.56
   },
   {
     "symbol": "EL",
@@ -91815,7 +91817,7 @@
     "code_version": "bc77052",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.13
+    "ret_now": -0.1
   },
   {
     "symbol": "FITB",
@@ -91843,5 +91845,31 @@
     "hour_et": 14,
     "code_version": "6895d51",
     "hold_minutes": 79
+  },
+  {
+    "symbol": "RPM",
+    "side": "sell",
+    "qty": 6.799384,
+    "status": "filled",
+    "price": 109.72,
+    "proceeds": 746.0,
+    "realized_pnl": -4.0,
+    "realized_pct": -0.53,
+    "date": "2026-11-04",
+    "time_et": "15:01",
+    "ts": 1793822474,
+    "why": "held 120 min, the 120-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 120 min ago, -0.49% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 15,
+    "code_version": "7b4cf82",
+    "hold_minutes": 120
   }
 ]
