@@ -90156,7 +90156,7 @@
     "code_version": "a787aec",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.37
+    "ret_now": -0.22
   },
   {
     "symbol": "SITE",
@@ -90187,7 +90187,7 @@
     "code_version": "3b50666",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": 0.0
   },
   {
     "symbol": "WSM",
@@ -90218,7 +90218,9 @@
     "code_version": "3b50666",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.52
+    "ret_now": -0.92,
+    "ret_final": -0.92,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRBG",
@@ -90249,7 +90251,9 @@
     "code_version": "3b50666",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.52
+    "ret_now": -0.87,
+    "ret_final": -0.87,
+    "ret_src": "realised"
   },
   {
     "symbol": "RPM",
@@ -90333,7 +90337,8 @@
     "hour_et": 9,
     "code_version": "f15ad1b",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.35
   },
   {
     "symbol": "CRBG",
@@ -90359,6 +90364,34 @@
     "evidence": "average cost $36.58",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "b2255ec"
+    "code_version": "b2255ec",
+    "hold_minutes": 0
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 11.155007,
+    "status": "filled",
+    "price": 266.45,
+    "proceeds": 2972.29,
+    "realized_pnl": -27.71,
+    "realized_pct": -0.92,
+    "date": "2026-11-04",
+    "time_et": "09:43",
+    "ts": 1793803200,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $268.94",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "154bcd9",
+    "hold_minutes": 0
   }
 ]

@@ -58411,3 +58411,20 @@ Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $10083.02 this week
   (cancelled 2 standing order(s) on CRBG: position closed)
 - SELL 100% CRBG [stop_loss @ $36.27] -> $2973.81 (-0.87%) — close it all at -0.8% under the average cost
 ## 2026-11-04 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $266.45] -> $2972.29 (-0.92%) — close it all at -0.9% under the average cost
+## 2026-11-04 09:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-04 09:44 ET (Wednesday) — week 2026-W45 — budget left $16029.12 (today $30000.00 put to work, 10 buys, 7 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgi4qeJGgvQfsCxRgvUbH'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25485.40 (+1.94% on $25000.00 in) · cash $16485.06 · realised +485.06
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

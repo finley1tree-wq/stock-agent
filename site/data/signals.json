@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-04T09:42-05:00",
+ "asOf": "2026-11-04T09:43-05:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,17 +178,34 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "90a81483",
-   "ticker": "WSM",
+   "id": "30c95813",
+   "ticker": "PLD",
    "kind": "stop_loss",
-   "price": 266.5868,
+   "price": 130.1004,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 267.11,
-   "pct_away": -0.2,
+   "last": 130.35,
+   "pct_away": -0.19,
    "good_until": "2026-11-09",
-   "why": "close it all at -0.9% under the average cost",
+   "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "772b1ae8",
+   "ticker": "SITE",
+   "kind": "take_profit",
+   "price": 117.7121,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 117.36,
+   "pct_away": 0.3,
+   "good_until": "2026-11-09",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 111.15,
-   "pct_away": -0.24,
+   "last": 111.24,
+   "pct_away": -0.32,
    "good_until": "2026-11-09",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -219,27 +236,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 111.15,
-   "pct_away": -0.26,
+   "last": 111.24,
+   "pct_away": -0.34,
    "good_until": "2026-11-09",
    "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "30c95813",
-   "ticker": "PLD",
-   "kind": "stop_loss",
-   "price": 130.1004,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 130.47,
-   "pct_away": -0.28,
-   "good_until": "2026-11-09",
-   "why": "close it all at -0.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 130.47,
-   "pct_away": 0.38,
+   "last": 130.35,
+   "pct_away": 0.47,
    "good_until": "2026-11-09",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -270,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 116.92,
-   "pct_away": -0.65,
+   "last": 117.36,
+   "pct_away": -1.02,
    "good_until": "2026-11-09",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -280,49 +280,15 @@
    ]
   },
   {
-   "id": "772b1ae8",
-   "ticker": "SITE",
-   "kind": "take_profit",
-   "price": 117.7121,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 116.92,
-   "pct_away": 0.68,
-   "good_until": "2026-11-09",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "32faab2a",
-   "ticker": "WSM",
-   "kind": "take_profit",
-   "price": 269.8813,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 267.11,
-   "pct_away": 1.04,
-   "good_until": "2026-11-09",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "39a01b2b",
-   "ticker": "WSM",
+   "id": "404cf41c",
+   "ticker": "PLD",
    "kind": "buy_limit",
-   "price": 260.8718,
+   "price": 126.7984,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 267.11,
-   "pct_away": -2.34,
+   "last": 130.35,
+   "pct_away": -2.72,
    "good_until": "2026-11-09",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -338,25 +304,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 116.92,
-   "pct_away": -2.71,
-   "good_until": "2026-11-09",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "404cf41c",
-   "ticker": "PLD",
-   "kind": "buy_limit",
-   "price": 126.7984,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 130.47,
-   "pct_away": -2.81,
+   "last": 117.36,
+   "pct_away": -3.07,
    "good_until": "2026-11-09",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -372,8 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 111.15,
-   "pct_away": -3.63,
+   "last": 111.24,
+   "pct_away": -3.71,
    "good_until": "2026-11-09",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
