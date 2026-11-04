@@ -1,6 +1,3 @@
-  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggcCtRXPfHYRZ6UhWEJZ'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25407.99 (+1.63% on $25000.00 in) · cash $25407.99 · realised +407.99
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 EL @ $107.12 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25491.55 (+1.97% on $25000.00 in) · cash $10538.97 · realised +538.97
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $10083.02 this week
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [stop_loss @ $36.27] -> $2973.81 (-0.87%) — close it all at -0.8% under the average cost
+## 2026-11-04 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
