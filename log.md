@@ -59534,3 +59534,36 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 portfolio: equity $25437.36 (+1.75% on $25000.00 in) · cash $25437.36 · realised +437.36
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-04 13:00 ET (Wednesday) — week 2026-W45 — budget left $24981.40 (today $45000.00 put to work, 27 buys, 27 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (ATLO excluded: too thinly traded ($1.8M a day) — Ames National Corporation)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
+  (GLQ excluded: too thinly traded ($0.3M a day) — Clough Global Equity Fund)
+  (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiKpioc6nDDpnEkLc7Xc'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,981 idle, so opened 5: NXPI, RPM, PLD, FITB, WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +9.4% over the month; 64% of today's range
+- BUY $750.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +12.2% over the month; 78% of today's range
+- BUY $750.00 PLD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +1.0% over the month; 77% of today's range
+- BUY $750.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +6.9% over the month; 38% of today's range
+- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +10.7% over the month; 72% of today's range
+~ WORKING take_profit 100% NXPI @ $268.65 until 2026-11-09 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% NXPI @ $264.05 until 2026-11-09 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $259.32 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RPM @ $110.62 until 2026-11-09 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% RPM @ $109.49 until 2026-11-09 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 RPM @ $106.99 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% PLD @ $130.25 until 2026-11-09 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% PLD @ $129.32 until 2026-11-09 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 PLD @ $126.08 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FITB @ $54.67 until 2026-11-09 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% FITB @ $54.18 until 2026-11-09 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $52.89 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% WSM @ $269.09 until 2026-11-09 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% WSM @ $265.80 until 2026-11-09 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $260.11 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25436.01 (+1.74% on $25000.00 in) · cash $21687.36 · realised +437.36
+Done: 0 sell(s), 5 buy(s); 15 order(s) working; budget left $21231.40 this week
