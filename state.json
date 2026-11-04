@@ -1,7 +1,7 @@
 {
   "week": "2026-W45",
-  "spent": 1532.48,
-  "deployed": 131250.0,
+  "spent": 775.03,
+  "deployed": 132000.0,
   "by_ticker": {
     "NXPI": 35.48,
     "CRBG": 37.5,
@@ -9,10 +9,9 @@
     "RPM": 22.63,
     "FITB": 5.91,
     "PLD": 18.54,
-    "WSM": 786.56,
-    "SITE": 29.7,
-    "GH": 11.54,
-    "ESAB": 750.0
+    "WSM": 36.27,
+    "SITE": 779.7,
+    "GH": 11.54
   },
   "deployed_by_ticker": {
     "RPM": 12750.0,
@@ -29,7 +28,7 @@
     "ROL": 3000.0,
     "NTRS": 4500.0,
     "ESAB": 4500.0,
-    "SITE": 3000.0,
+    "SITE": 3750.0,
     "SIRI": 750.0
   },
   "orders": [
@@ -3625,13 +3624,75 @@
       "evidence": "1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +0.8% over the month; 26% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 2.839343,
+      "status": "filled",
+      "price": 264.25,
+      "proceeds": 750.29,
+      "realized_pnl": 0.29,
+      "realized_pct": 0.04,
+      "date": "2026-11-04",
+      "time_et": "10:35",
+      "ts": 1793806500,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $264.15",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ESAB",
+      "side": "sell",
+      "qty": 10.354974,
+      "status": "filled",
+      "price": 73.12,
+      "proceeds": 757.16,
+      "realized_pnl": 7.16,
+      "realized_pct": 0.95,
+      "date": "2026-11-04",
+      "time_et": "10:35",
+      "ts": 1793806500,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $72.43",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "SITE",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.441276,
+      "price": 116.44,
+      "date": "2026-11-04",
+      "time_et": "10:36",
+      "ts": 1793806589,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4, incl. CEO); +28.6% over the month; 55% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-04",
-  "spent_today": 1504.46,
-  "deployed_today": 39000.0,
-  "orders_today": 19,
-  "sells_today": 17,
+  "spent_today": 750.0,
+  "deployed_today": 39750.0,
+  "orders_today": 20,
+  "sells_today": 19,
   "sold_today": [
     "GH",
     "FITB",
@@ -3652,7 +3713,7 @@
     "EL": 1793803522,
     "GH": 1793806365,
     "RPM": 1793806321,
-    "WSM": 1793803416,
+    "WSM": 1793806541,
     "FITB": 1793806034,
     "CRBG": 1793806365,
     "CACI": 1793643610,
@@ -3660,21 +3721,14 @@
     "ROL": 1793716853,
     "BBT": 1793717182,
     "NTRS": 1793729983,
-    "ESAB": 1793803246,
+    "ESAB": 1793806542,
     "SITE": 1793803883,
     "SIRI": 1793805613
   },
-  "last_publish_ts": 1793806459,
-  "last_check_ts": 1793806504,
+  "last_publish_ts": 1793806589,
+  "last_check_ts": 1793806589,
   "exp_arm": {
-    "WSM": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "ESAB": {
+    "SITE": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -3683,15 +3737,12 @@
     }
   },
   "last_bar_ts": 1793806500,
-  "last_decision_ts": 1793806413,
+  "last_decision_ts": 1793806589,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "e920fa2a": 265.0904,
-    "aa725e5b": 72.55,
-    "185cbdb6": 264.654,
-    "ccbdc8b6": 72.8103,
-    "d87e520f": 70.2571,
-    "f0d1bfbf": 256.2255
+    "ac6a9110": 116.8825,
+    "e4eabb55": 115.335,
+    "8ddfd0fe": 112.9468
   }
 }
