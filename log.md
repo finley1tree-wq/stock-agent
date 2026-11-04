@@ -58499,3 +58499,18 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25427.91 (+1.71% on $25000.00 in) · cash $25427.91 · realised +427.91
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-04 09:59 ET (Wednesday) — week 2026-W45 — budget left $24971.96 (today $33000.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+  (no price for AAPL — excluded this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgi61hhKCcx3uwkFVEyVt'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25427.91 (+1.71% on $25000.00 in) · cash $25427.91 · realised +427.91
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
