@@ -1,25 +1,3 @@
-## 2026-11-03 14:58 ET (Tuesday) — week 2026-W45 — budget left $24952.04 (today $47250.00 put to work, 33 buys, 33 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
-  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggayAJk7TnotHRNWEhpG'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25407.99 (+1.63% on $25000.00 in) · cash $25407.99 · realised +407.99
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-03 15:00 ET (Tuesday) — week 2026-W45 — budget left $24952.04 (today $47250.00 put to work, 33 buys, 33 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
-  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (PMN excluded: too thinly traded ($0.4M a day) — ProMIS Neurosciences, Inc.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CggbAvCW3b7XdxHx3R3RZ'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +376,25 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 FITB @ $53.89 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25404.99 (+1.62% on $25000.00 in) · cash $16407.99 · realised +407.99
 Done: 0 sell(s), 3 buy(s); 9 order(s) working; budget left $15952.04 this week
+  (cancelled 2 standing order(s) on GH: position closed)
+- SELL 100% GH [take_profit @ $175.54] -> $3051.12 (+1.70%) — close 100% at +0.6% over the average cost
+## 2026-11-04 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-04 09:35 ET (Wednesday) — week 2026-W45 — budget left $19003.16 (today $9000.00 put to work, 3 buys, 1 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BHAI excluded: no security information)
+  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
+  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (OCFC excluded: too thinly traded ($19.7M a day) — OceanFirst Financial Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgi4ByyQ167mtPwuYT7Yc'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,003 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +12.0% over the month; 80% of today's range
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING stop_loss 100% FITB @ $55.64 until 2026-11-09 — close it all at -0.6% under the average cost
+~ WORKING take_profit 100% RPM @ $110.46 until 2026-11-09 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% RPM @ $109.34 until 2026-11-09 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 RPM @ $106.84 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25469.62 (+1.88% on $25000.00 in) · cash $16459.11 · realised +459.11
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $16003.16 this week

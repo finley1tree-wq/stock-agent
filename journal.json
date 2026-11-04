@@ -89909,7 +89909,8 @@
     "hour_et": 9,
     "code_version": "443defb",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.18
   },
   {
     "symbol": "GH",
@@ -89939,7 +89940,10 @@
     "hour_et": 9,
     "code_version": "443defb",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 1.7,
+    "ret_now": 1.7,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -89968,6 +89972,64 @@
     "momentum_1m_at_entry": 8.9,
     "hour_et": 9,
     "code_version": "443defb",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.27
+  },
+  {
+    "symbol": "GH",
+    "side": "sell",
+    "qty": 17.381328,
+    "status": "filled",
+    "price": 175.54,
+    "proceeds": 3051.12,
+    "realized_pnl": 51.12,
+    "realized_pct": 1.7,
+    "date": "2026-11-04",
+    "time_et": "09:35",
+    "ts": 1793802900,
+    "why": "close 100% at +0.6% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $172.6",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "6a88cf2",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "RPM",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 27.237062,
+    "price": 110.14,
+    "date": "2026-11-04",
+    "time_et": "09:35",
+    "ts": 1793802925,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +12.0% over the month; 80% of today's range",
+    "experiments": {
+      "hold_long": 90
+    },
+    "hold_minutes": 90,
+    "entry_price": 110.1,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 11.99,
+    "hour_et": 9,
+    "code_version": "6a88cf2",
     "ret_1w": null,
     "ret_1m": null
   }
