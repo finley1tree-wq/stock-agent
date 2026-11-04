@@ -1,12 +1,12 @@
 {
   "week": "2026-W45",
-  "spent": 3776.1,
+  "spent": 2273.36,
   "deployed": 130500.0,
   "by_ticker": {
-    "NXPI": 786.03,
+    "NXPI": 35.48,
     "CRBG": 789.92,
     "ADI": 44.8,
-    "RPM": 774.82,
+    "RPM": 22.63,
     "FITB": 5.91,
     "PLD": 18.54,
     "WSM": 786.56,
@@ -3520,13 +3520,55 @@
       "evidence": "congress net buying (1 net buyer); +9.0% over the month; 32% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 2.832188,
+      "status": "filled",
+      "price": 265.01,
+      "proceeds": 750.55,
+      "realized_pnl": 0.55,
+      "realized_pct": 0.07,
+      "date": "2026-11-04",
+      "time_et": "10:31",
+      "ts": 1793806200,
+      "why": "close it all at -1.2% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $264.81",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "RPM",
+      "side": "sell",
+      "qty": 6.909042,
+      "status": "filled",
+      "price": 108.87,
+      "proceeds": 752.19,
+      "realized_pnl": 2.19,
+      "realized_pct": 0.29,
+      "date": "2026-11-04",
+      "time_et": "10:32",
+      "ts": 1793806200,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $108.55",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-04",
-  "spent_today": 3748.08,
+  "spent_today": 2245.34,
   "deployed_today": 38250.0,
   "orders_today": 18,
-  "sells_today": 13,
+  "sells_today": 15,
   "sold_today": [
     "GH",
     "FITB",
@@ -3542,11 +3584,11 @@
     "SIRI"
   ],
   "sold_ts": {
-    "NXPI": 1793803045,
+    "NXPI": 1793806275,
     "ADI": 1793804177,
     "EL": 1793803522,
     "GH": 1793802922,
-    "RPM": 1793803246,
+    "RPM": 1793806321,
     "WSM": 1793803416,
     "FITB": 1793806034,
     "CRBG": 1793803336,
@@ -3559,8 +3601,8 @@
     "SITE": 1793803883,
     "SIRI": 1793805613
   },
-  "last_publish_ts": 1793806222,
-  "last_check_ts": 1793806222,
+  "last_publish_ts": 1793806320,
+  "last_check_ts": 1793806320,
   "exp_arm": {
     "GH": {
       "params": {
@@ -3603,20 +3645,14 @@
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "7171c695": 265.194,
-    "d31ec7d6": 168.6984,
+    "3ebc5f0e": 35.752,
     "92580769": 35.8296,
-    "03d36301": 266.0917,
-    "ba617cb5": 108.8702,
+    "d31ec7d6": 168.6984,
     "e920fa2a": 265.0904,
-    "1bb07828": 107.7489,
     "38c48f73": 261.7964,
-    "c80672af": 35.4108,
     "69fc4cef": 166.1125,
     "85ce3bac": 172.2706,
     "f0d1bfbf": 256.2255,
-    "3b380b26": 105.2935,
-    "4704d796": 34.6387,
-    "0337b581": 256.8657
+    "4704d796": 34.6387
   }
 }

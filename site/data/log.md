@@ -1,9 +1,3 @@
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-## 2026-11-03 16:00 ET — published the session's closing state
-
-## 2026-11-04 09:32 ET (Wednesday) — week 2026-W45 — budget left $24952.04 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
   (BHAI excluded: no security information)
   (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
   (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
@@ -398,3 +392,9 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $256.23 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25422.34 (+1.69% on $25000.00 in) · cash $21679.85 · realised +429.85
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21223.90 this week
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $265.01] -> $750.55 (+0.07%) — close it all at -1.2% under the average cost
+## 2026-11-04 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [take_profit @ $108.87] -> $752.19 (+0.29%) — close 100% at +0.3% over the average cost
+## 2026-11-04 10:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
