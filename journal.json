@@ -91150,7 +91150,9 @@
     "code_version": "70f0166",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.29
+    "ret_now": -0.69,
+    "ret_final": -0.69,
+    "ret_src": "realised"
   },
   {
     "symbol": "EL",
@@ -91380,7 +91382,7 @@
     "code_version": "1581cc3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": 0.06
   },
   {
     "symbol": "ESAB",
@@ -91408,5 +91410,32 @@
     "hour_et": 11,
     "code_version": "42a67ad",
     "hold_minutes": 1
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 13.761015,
+    "status": "filled",
+    "price": 54.13,
+    "proceeds": 744.82,
+    "realized_pnl": -5.18,
+    "realized_pct": -0.69,
+    "date": "2026-11-04",
+    "time_et": "11:32",
+    "ts": 1793809800,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $54.5",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "d033b92",
+    "hold_minutes": 15
   }
 ]
