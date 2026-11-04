@@ -1,25 +1,25 @@
 {
   "week": "2026-W45",
-  "spent": 47.96,
-  "deployed": 92250.0,
+  "spent": 9047.96,
+  "deployed": 101250.0,
   "by_ticker": {
-    "GH": 40.62,
+    "GH": 3040.62,
     "EL": 18.14,
-    "NXPI": 50.12,
+    "NXPI": 3050.12,
     "CRBG": 13.73,
     "ADI": 10.68,
     "RPM": 18.31,
-    "FITB": 15.12,
+    "FITB": 3015.12,
     "PLD": 2.77,
     "WSM": 8.85
   },
   "deployed_by_ticker": {
     "RPM": 9000.0,
     "EL": 11250.0,
-    "GH": 3000.0,
-    "NXPI": 10500.0,
+    "GH": 6000.0,
+    "NXPI": 13500.0,
     "ADI": 10500.0,
-    "FITB": 10500.0,
+    "FITB": 13500.0,
     "WSM": 9750.0,
     "CACI": 5250.0,
     "CRBG": 4500.0,
@@ -2865,12 +2865,78 @@
       ],
       "evidence": "average cost $105.79",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 11.270856,
+      "price": 266.17,
+      "date": "2026-11-04",
+      "time_et": "09:32",
+      "ts": 1793802755,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +8.9% over the month; 55% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
+    },
+    {
+      "symbol": "GH",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 17.381328,
+      "price": 172.6,
+      "date": "2026-11-04",
+      "time_et": "09:32",
+      "ts": 1793802755,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +1.1% over the month; 0% of today's range",
+      "experiments": {
+        "hold_long": 120
+      },
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "FITB",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 53.993527,
+      "price": 55.56,
+      "date": "2026-11-04",
+      "time_et": "09:32",
+      "ts": 1793802755,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +8.9% over the month; 51% of today's range",
+      "experiments": {
+        "hold_long": 90
+      },
+      "hold_minutes": 90
     }
   ],
   "day": "2026-11-04",
-  "spent_today": 0.0,
-  "deployed_today": 0.0,
-  "orders_today": 0,
+  "spent_today": 9000.0,
+  "deployed_today": 9000.0,
+  "orders_today": 3,
   "sells_today": 0,
   "sold_today": [],
   "sold_ts": {
@@ -2889,19 +2955,10 @@
     "NTRS": 1793729983,
     "ESAB": 1793731755
   },
-  "last_publish_ts": 1793802631,
-  "last_check_ts": 1793802631,
+  "last_publish_ts": 1793802755,
+  "last_check_ts": 1793802755,
   "exp_arm": {
     "NXPI": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {
-        "hold_long": 120
-      }
-    },
-    "EL": {
       "params": {
         "hold_minutes": 90,
         "ratchet": "on"
@@ -2910,7 +2967,7 @@
         "hold_long": 90
       }
     },
-    "RPM": {
+    "GH": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -2918,11 +2975,30 @@
       "tags": {
         "hold_long": 120
       }
+    },
+    "FITB": {
+      "params": {
+        "hold_minutes": 90,
+        "ratchet": "on"
+      },
+      "tags": {
+        "hold_long": 90
+      }
     }
   },
-  "last_bar_ts": 1793739300,
-  "last_decision_ts": 1793739514,
-  "next_check_minutes": null,
+  "last_bar_ts": 1793802600,
+  "last_decision_ts": 1793802755,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "9c9a98b0": 55.6972,
+    "253308ce": 267.4237,
+    "1211e9b3": 55.2172,
+    "c13d8ca3": 173.5924,
+    "d7ffd8bb": 263.0372,
+    "adf5f75d": 170.118,
+    "1a0bac43": 167.422,
+    "9702156f": 53.8932,
+    "033caa77": 258.1849
+  }
 }
