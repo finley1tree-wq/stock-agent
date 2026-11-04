@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "37671ad0",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 257.2483,
-   "status": "cancelled",
-   "created": "2026-10-29 11:42",
-   "created_ts": 1793288564,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $259.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-29 13:04",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "54f08a92",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 251.3658,
-   "status": "cancelled",
-   "created": "2026-10-29 11:42",
-   "created_ts": 1793288564,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $259.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "usd": 500.0,
-   "closed": "2026-10-29 13:18",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "a445fa1d",
    "ticker": "FITB",
    "kind": "take_profit",
@@ -7385,7 +7347,7 @@
    "ticker": "WSM",
    "kind": "stop_loss",
    "price": 261.7964,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-04 10:30",
    "created_ts": 1793806222,
    "why": "close it all at -0.9% under the average cost",
@@ -7395,7 +7357,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-04 10:34",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "f0d1bfbf",
@@ -7455,7 +7419,7 @@
    "ticker": "ESAB",
    "kind": "stop_loss",
    "price": 71.479,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-04 10:33",
    "created_ts": 1793806413,
    "why": "close it all at -1.3% under the average cost",
@@ -7465,7 +7429,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-04 10:34",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "d87e520f",
@@ -7483,7 +7449,41 @@
    ],
    "good_until": "2026-11-09",
    "usd": 500.0
+  },
+  {
+   "id": "185cbdb6",
+   "ticker": "WSM",
+   "kind": "stop_loss",
+   "price": 264.654,
+   "status": "working",
+   "created": "2026-11-04 10:34",
+   "created_ts": 1793806459,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $264.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "aa725e5b",
+   "ticker": "ESAB",
+   "kind": "stop_loss",
+   "price": 72.55,
+   "status": "working",
+   "created": "2026-11-04 10:34",
+   "created_ts": 1793806459,
+   "why": "close it all at -1.3% under the average cost",
+   "evidence": "average cost $72.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-04 10:33"
+ "updated": "2026-11-04 10:34"
 }
