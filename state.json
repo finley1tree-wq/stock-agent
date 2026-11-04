@@ -1,14 +1,14 @@
 {
   "week": "2026-W45",
-  "spent": 22.16,
-  "deployed": 132000.0,
+  "spent": 772.16,
+  "deployed": 132750.0,
   "by_ticker": {
     "NXPI": 35.48,
     "CRBG": 37.5,
     "ADI": 44.8,
     "RPM": 22.63,
     "FITB": 5.91,
-    "PLD": 18.54,
+    "PLD": 768.54,
     "WSM": 36.27,
     "SITE": 26.83,
     "GH": 11.54
@@ -23,7 +23,7 @@
     "WSM": 13500.0,
     "CACI": 5250.0,
     "CRBG": 8250.0,
-    "PLD": 9750.0,
+    "PLD": 10500.0,
     "BBT": 3000.0,
     "ROL": 3000.0,
     "NTRS": 4500.0,
@@ -3707,12 +3707,32 @@
       ],
       "evidence": "average cost $116.44",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "PLD",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.822461,
+      "price": 128.81,
+      "date": "2026-11-04",
+      "time_et": "11:08",
+      "ts": 1793808530,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +0.1% over the month; 48% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-04",
-  "spent_today": 0.0,
-  "deployed_today": 39750.0,
-  "orders_today": 20,
+  "spent_today": 750.0,
+  "deployed_today": 40500.0,
+  "orders_today": 21,
   "sells_today": 20,
   "sold_today": [
     "GH",
@@ -3746,10 +3766,10 @@
     "SITE": 1793807304,
     "SIRI": 1793805613
   },
-  "last_publish_ts": 1793807304,
-  "last_check_ts": 1793808356,
+  "last_publish_ts": 1793808530,
+  "last_check_ts": 1793808530,
   "exp_arm": {
-    "SITE": {
+    "PLD": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -3758,8 +3778,12 @@
     }
   },
   "last_bar_ts": 1793808300,
-  "last_decision_ts": 1793808356,
-  "next_check_minutes": null,
+  "last_decision_ts": 1793808530,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "70a9b11f": 129.0753,
+    "742e561f": 128.1453,
+    "d0a553e5": 124.9457
+  }
 }

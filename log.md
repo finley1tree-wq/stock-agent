@@ -58877,3 +58877,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25433.80 (+1.74% on $25000.00 in) · cash $25433.80 · realised +433.80
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-04 11:08 ET (Wednesday) — week 2026-W45 — budget left $24977.84 (today $39750.00 put to work, 20 buys, 20 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiBGobGbG2EGzPsEpgWJ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,978 idle, so opened 1: PLD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 PLD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +0.1% over the month; 48% of today's range
+~ WORKING take_profit 100% PLD @ $129.08 until 2026-11-09 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% PLD @ $128.15 until 2026-11-09 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 PLD @ $124.95 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25433.50 (+1.73% on $25000.00 in) · cash $24683.80 · realised +433.80
+Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $24227.84 this week
