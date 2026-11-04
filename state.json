@@ -1,6 +1,6 @@
 {
   "week": "2026-W45",
-  "spent": 775.03,
+  "spent": 22.16,
   "deployed": 132000.0,
   "by_ticker": {
     "NXPI": 35.48,
@@ -10,7 +10,7 @@
     "FITB": 5.91,
     "PLD": 18.54,
     "WSM": 36.27,
-    "SITE": 779.7,
+    "SITE": 26.83,
     "GH": 11.54
   },
   "deployed_by_ticker": {
@@ -3686,13 +3686,34 @@
       "evidence": "1 insider bought (Form 4, incl. CEO); +28.6% over the month; 55% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "SITE",
+      "side": "sell",
+      "qty": 6.441276,
+      "status": "filled",
+      "price": 116.88,
+      "proceeds": 752.87,
+      "realized_pnl": 2.87,
+      "realized_pct": 0.38,
+      "date": "2026-11-04",
+      "time_et": "10:48",
+      "ts": 1793807100,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $116.44",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-04",
-  "spent_today": 750.0,
+  "spent_today": 0.0,
   "deployed_today": 39750.0,
   "orders_today": 20,
-  "sells_today": 19,
+  "sells_today": 20,
   "sold_today": [
     "GH",
     "FITB",
@@ -3722,11 +3743,11 @@
     "BBT": 1793717182,
     "NTRS": 1793729983,
     "ESAB": 1793806542,
-    "SITE": 1793803883,
+    "SITE": 1793807304,
     "SIRI": 1793805613
   },
-  "last_publish_ts": 1793807121,
-  "last_check_ts": 1793807219,
+  "last_publish_ts": 1793807304,
+  "last_check_ts": 1793807306,
   "exp_arm": {
     "SITE": {
       "params": {
@@ -3737,12 +3758,8 @@
     }
   },
   "last_bar_ts": 1793807100,
-  "last_decision_ts": 1793807123,
+  "last_decision_ts": 1793807306,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "7353f50c": 116.59,
-    "ac6a9110": 116.8825,
-    "8ddfd0fe": 112.9468
-  }
+  "book_px": {}
 }

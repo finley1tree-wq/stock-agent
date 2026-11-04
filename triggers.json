@@ -7424,7 +7424,7 @@
    "ticker": "SITE",
    "kind": "take_profit",
    "price": 116.8825,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-04 10:36",
    "created_ts": 1793806589,
    "why": "close 100% at +0.4% over the average cost",
@@ -7434,7 +7434,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-04 10:48"
   },
   {
    "id": "e4eabb55",
@@ -7460,7 +7461,7 @@
    "ticker": "SITE",
    "kind": "buy_limit",
    "price": 112.9468,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-04 10:36",
    "created_ts": 1793806589,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7470,14 +7471,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-09",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-04 10:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7353f50c",
    "ticker": "SITE",
    "kind": "stop_loss",
    "price": 116.59,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-04 10:45",
    "created_ts": 1793807121,
    "why": "close it all at -0.9% under the average cost",
@@ -7487,8 +7490,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-04 10:48",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-11-04 10:45"
+ "updated": "2026-11-04 10:48"
 }
