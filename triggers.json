@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "44b92202",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 101.524,
-   "status": "cancelled",
-   "created": "2026-10-29 13:34",
-   "created_ts": 1793295296,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $102.18",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-03",
-   "pct_of_position": 100.0,
-   "closed": "2026-10-29 15:34",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "2a5a67a0",
    "ticker": "RPM",
    "kind": "buy_limit",
@@ -7198,7 +7179,7 @@
    "ticker": "PLD",
    "kind": "take_profit",
    "price": 129.0753,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-04 11:08",
    "created_ts": 1793808530,
    "why": "close 100% at +0.2% over the average cost",
@@ -7208,14 +7189,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-04 11:18",
+   "cancel_reason": "position closed"
   },
   {
    "id": "742e561f",
    "ticker": "PLD",
    "kind": "stop_loss",
    "price": 128.1453,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-04 11:08",
    "created_ts": 1793808530,
    "why": "close it all at -0.5% under the average cost",
@@ -7225,14 +7208,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-04 11:18"
   },
   {
    "id": "d0a553e5",
    "ticker": "PLD",
    "kind": "buy_limit",
    "price": 124.9457,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-04 11:08",
    "created_ts": 1793808530,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7242,7 +7226,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-09",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-04 11:18",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b2b7d8b1",
@@ -7392,7 +7378,7 @@
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 259.9943,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-04 11:17",
    "created_ts": 1793809051,
    "why": "close it all at -1.2% under the average cost",
@@ -7402,7 +7388,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-09",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-04 11:19",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "3ad637ef",
@@ -7471,7 +7459,24 @@
    ],
    "good_until": "2026-11-09",
    "usd": 500.0
+  },
+  {
+   "id": "eba8ad89",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 263.778,
+   "status": "working",
+   "created": "2026-11-04 11:19",
+   "created_ts": 1793809145,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $263.28",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-09",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-04 11:17"
+ "updated": "2026-11-04 11:19"
 }
