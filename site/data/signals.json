@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-04T14:25-05:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-11-04T14:55-05:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,17 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "4eb5e4a0",
+   "id": "8fc7453d",
    "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 110.6221,
+   "kind": "stop_loss",
+   "price": 109.4937,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 110.34,
-   "pct_away": 0.26,
+   "last": 109.78,
+   "pct_away": -0.26,
    "good_until": "2026-11-09",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 266.2,
-   "pct_away": -0.38,
+   "last": 266.22,
+   "pct_away": -0.39,
    "good_until": "2026-11-09",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -212,51 +212,17 @@
    ]
   },
   {
-   "id": "74a5b469",
-   "ticker": "GH",
-   "kind": "take_profit",
-   "price": 171.9541,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 170.67,
-   "pct_away": 0.75,
-   "good_until": "2026-11-09",
-   "why": "close 100% at +0.6% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8fc7453d",
+   "id": "4eb5e4a0",
    "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 109.4937,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 110.34,
-   "pct_away": -0.77,
-   "good_until": "2026-11-09",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0f2f2e64",
-   "ticker": "WSM",
    "kind": "take_profit",
-   "price": 268.4717,
+   "price": 110.6221,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 266.2,
-   "pct_away": 0.85,
+   "last": 109.78,
+   "pct_away": 0.77,
    "good_until": "2026-11-09",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,10 +236,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 170.67,
-   "pct_away": -1.37,
+   "last": 169.75,
+   "pct_away": -0.83,
    "good_until": "2026-11-09",
    "why": "close it all at -1.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "0f2f2e64",
+   "ticker": "WSM",
+   "kind": "take_profit",
+   "price": 268.4717,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 266.22,
+   "pct_away": 0.85,
+   "good_until": "2026-11-09",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "74a5b469",
+   "ticker": "GH",
+   "kind": "take_profit",
+   "price": 171.9541,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 169.75,
+   "pct_away": 1.3,
+   "good_until": "2026-11-09",
+   "why": "close 100% at +0.6% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
