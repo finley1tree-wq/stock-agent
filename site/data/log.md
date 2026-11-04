@@ -1,31 +1,3 @@
-  (cancelled 2 standing order(s) on FITB: position closed)
-- SELL 100% FITB [take_profit @ $55.70] -> $3007.29 (+0.24%) — close 100% at +0.2% over the average cost
-## 2026-11-04 09:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-  (cancelled 2 standing order(s) on NXPI: position closed)
-- SELL 100% NXPI [take_profit @ $267.42] -> $3014.09 (+0.47%) — close 100% at +0.5% over the average cost
-## 2026-11-04 09:37 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-04 09:37 ET (Wednesday) — week 2026-W45 — budget left $22024.54 (today $12000.00 put to work, 4 buys, 3 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BHAI excluded: no security information)
-  (CMTV excluded: too thinly traded ($1.5M a day) — Community Bancorp)
-  (DLPN excluded: too thinly traded ($0.0M a day) — Dolphin Entertainment, Inc.)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-  (OCFC excluded: too thinly traded ($19.7M a day) — OceanFirst Financial Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgi4M7nSd29yVEvjKUiwV'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $22,025 idle, so opened 2: ESAB, PLD. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 ESAB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +4.7% over the month; 48% of today's range
-- BUY $3000.00 PLD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +1.6% over the month; 82% of today's range
-~ WORKING take_profit 100% ESAB @ $75.59 until 2026-11-09 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% ESAB @ $74.36 until 2026-11-09 — close it all at -1.2% under the average cost
-~ WORKING buy_limit $500.00 ESAB @ $72.98 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% PLD @ $130.97 until 2026-11-09 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% PLD @ $130.10 until 2026-11-09 — close it all at -0.5% under the average cost
-~ WORKING buy_limit $500.00 PLD @ $126.80 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25481.79 (+1.93% on $25000.00 in) · cash $16480.49 · realised +480.49
-Done: 0 sell(s), 2 buy(s); 9 order(s) working; budget left $16024.54 this week
-
 ## 2026-11-04 09:39 ET (Wednesday) — week 2026-W45 — budget left $16024.54 (today $18000.00 put to work, 6 buys, 3 sells) — SIM (pretend money) via sim
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
@@ -398,3 +370,31 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 SITE @ $112.95 until 2026-11-09 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25430.62 (+1.72% on $25000.00 in) · cash $24680.92 · realised +430.92
 Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $24224.97 this week
+
+## 2026-11-04 10:39 ET (Wednesday) — week 2026-W45 — budget left $24224.97 (today $39750.00 put to work, 20 buys, 19 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgi93DVa2bK6xFipw3pmd'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25429.66 (+1.72% on $25000.00 in) · cash $24680.92 · realised +430.92
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-04 10:42 ET (Wednesday) — week 2026-W45 — budget left $24224.97 (today $39750.00 put to work, 20 buys, 19 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JOF excluded: too thinly traded ($0.8M a day) — Japan Smaller Capitalization Fund, Inc.)
+  (KWY excluded: too thinly traded ($0.6M a day) — Kingsway Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgi9G9N8sqHp2FhVGtxiY'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25431.08 (+1.72% on $25000.00 in) · cash $24680.92 · realised +430.92
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
