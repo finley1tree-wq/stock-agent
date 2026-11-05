@@ -1,18 +1,18 @@
 {
   "week": "2026-W45",
-  "spent": 23974.42,
+  "spent": 12036.52,
   "deployed": 173250.0,
   "by_ticker": {
     "NXPI": 29.36,
-    "CRBG": 3037.5,
+    "CRBG": 33.61,
     "ADI": 44.8,
     "RPM": 3024.46,
-    "FITB": 3009.2,
+    "FITB": 29.84,
     "PLD": 3027.01,
-    "WSM": 3032.32,
+    "WSM": 45.87,
     "SITE": 26.83,
     "GH": 7.45,
-    "EL": 3000.0,
+    "EL": 31.8,
     "CRH": 3000.0,
     "LRN": 3000.0
   },
@@ -4567,26 +4567,114 @@
       "evidence": "insider net buying (Form 4); +0.2% over the month; 68% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 26.094679,
+      "status": "filled",
+      "price": 113.75,
+      "proceeds": 2968.2,
+      "realized_pnl": -31.8,
+      "realized_pct": -1.06,
+      "date": "2026-11-05",
+      "time_et": "09:40",
+      "ts": 1793889300,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $114.97",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 10.976576,
+      "status": "filled",
+      "price": 272.07,
+      "proceeds": 2986.45,
+      "realized_pnl": -13.55,
+      "realized_pct": -0.45,
+      "date": "2026-11-05",
+      "time_et": "09:40",
+      "ts": 1793889600,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $273.31",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CRBG",
+      "side": "sell",
+      "qty": 82.384629,
+      "status": "filled",
+      "price": 36.46,
+      "proceeds": 3003.89,
+      "realized_pnl": 3.89,
+      "realized_pct": 0.13,
+      "date": "2026-11-05",
+      "time_et": "09:40",
+      "ts": 1793889600,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $36.41",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "FITB",
+      "side": "sell",
+      "qty": 53.406954,
+      "status": "filled",
+      "price": 55.79,
+      "proceeds": 2979.36,
+      "realized_pnl": -20.64,
+      "realized_pct": -0.69,
+      "date": "2026-11-05",
+      "time_et": "09:41",
+      "ts": 1793889600,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $56.17",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-05",
-  "spent_today": 23948.45,
+  "spent_today": 12010.55,
   "deployed_today": 30000.0,
   "orders_today": 10,
-  "sells_today": 2,
+  "sells_today": 6,
   "sold_today": [
     "ESAB",
-    "NXPI"
+    "NXPI",
+    "EL",
+    "WSM",
+    "CRBG",
+    "FITB"
   ],
   "sold_ts": {
     "NXPI": 1793889377,
     "ADI": 1793804177,
-    "EL": 1793817624,
+    "EL": 1793889621,
     "GH": 1793823961,
     "RPM": 1793822475,
-    "WSM": 1793824049,
-    "FITB": 1793820306,
-    "CRBG": 1793806365,
+    "WSM": 1793889621,
+    "FITB": 1793889667,
+    "CRBG": 1793889621,
     "CACI": 1793643610,
     "PLD": 1793816494,
     "ROL": 1793716853,
@@ -4596,8 +4684,8 @@
     "SITE": 1793807304,
     "SIRI": 1793805613
   },
-  "last_publish_ts": 1793889421,
-  "last_check_ts": 1793889579,
+  "last_publish_ts": 1793889667,
+  "last_check_ts": 1793889669,
   "exp_arm": {
     "RPM": {
       "params": {
@@ -4656,34 +4744,22 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1793889300,
-  "last_decision_ts": 1793889471,
+  "last_bar_ts": 1793889600,
+  "last_decision_ts": 1793889669,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "34d916ae": 274.2393,
-    "9c824701": 36.5261,
-    "812204ef": 273.85,
-    "5f3833a4": 36.482,
     "7e772ed2": 131.5833,
-    "3c947d0d": 56.3127,
     "d9408271": 109.3944,
+    "59d00d33": 78.9629,
     "0a90b3af": 132.4599,
-    "fbc9ddea": 80.2045,
-    "6bc27fe9": 55.8139,
     "792b1235": 98.7385,
     "0893b991": 99.9166,
-    "16da559c": 113.8042,
     "6adc4a09": 110.494,
-    "0c118a2a": 115.4356,
-    "59d00d33": 78.9629,
-    "0780d64b": 111.5209,
-    "97b9f386": 106.8746,
-    "ca5e1e4f": 96.5926,
-    "ffb7232e": 128.2437,
-    "767e1518": 54.4849,
+    "fbc9ddea": 80.2045,
     "c41bf24b": 77.4545,
-    "82410120": 265.1107,
-    "8ca8db57": 35.3177
+    "97b9f386": 106.8746,
+    "ffb7232e": 128.2437,
+    "ca5e1e4f": 96.5926
   }
 }

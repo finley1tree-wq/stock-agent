@@ -91987,7 +91987,7 @@
     "code_version": "92795f3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": -0.45
   },
   {
     "symbol": "NXPI",
@@ -92047,7 +92047,7 @@
     "code_version": "92795f3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": -0.23
   },
   {
     "symbol": "EL",
@@ -92076,7 +92076,9 @@
     "code_version": "92795f3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.27
+    "ret_now": -1.06,
+    "ret_final": -1.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -92105,7 +92107,9 @@
     "code_version": "92795f3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.27
+    "ret_now": -0.69,
+    "ret_final": -0.69,
+    "ret_src": "realised"
   },
   {
     "symbol": "ESAB",
@@ -92188,7 +92192,7 @@
     "code_version": "d4ab6c4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.22
+    "ret_now": -0.37
   },
   {
     "symbol": "WSM",
@@ -92217,7 +92221,9 @@
     "code_version": "d4ab6c4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.37
+    "ret_now": -0.45,
+    "ret_final": -0.45,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRBG",
@@ -92246,7 +92252,9 @@
     "code_version": "d4ab6c4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": 0.13,
+    "ret_final": 0.13,
+    "ret_src": "realised"
   },
   {
     "symbol": "LRN",
@@ -92275,6 +92283,114 @@
     "code_version": "d4ab6c4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": -0.69
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 26.094679,
+    "status": "filled",
+    "price": 113.75,
+    "proceeds": 2968.2,
+    "realized_pnl": -31.8,
+    "realized_pct": -1.06,
+    "date": "2026-11-05",
+    "time_et": "09:40",
+    "ts": 1793889300,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $114.97",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "4716f94",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 10.976576,
+    "status": "filled",
+    "price": 272.07,
+    "proceeds": 2986.45,
+    "realized_pnl": -13.55,
+    "realized_pct": -0.45,
+    "date": "2026-11-05",
+    "time_et": "09:40",
+    "ts": 1793889600,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $273.31",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "4716f94",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "CRBG",
+    "side": "sell",
+    "qty": 82.384629,
+    "status": "filled",
+    "price": 36.46,
+    "proceeds": 3003.89,
+    "realized_pnl": 3.89,
+    "realized_pct": 0.13,
+    "date": "2026-11-05",
+    "time_et": "09:40",
+    "ts": 1793889600,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $36.41",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "4716f94",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 53.406954,
+    "status": "filled",
+    "price": 55.79,
+    "proceeds": 2979.36,
+    "realized_pnl": -20.64,
+    "realized_pct": -0.69,
+    "date": "2026-11-05",
+    "time_et": "09:41",
+    "ts": 1793889600,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $56.17",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "4716f94",
+    "hold_minutes": 7
   }
 ]

@@ -60565,3 +60565,27 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25460.13 (+1.84% on $25000.00 in) · cash $1481.55 · realised +481.55
 Decision: nothing at this check. 24 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [stop_loss @ $113.75] -> $2968.20 (-1.06%) — close it all at -1.0% under the average cost
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $272.07] -> $2986.45 (-0.45%) — close it all at -0.8% under the average cost
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [stop_loss @ $36.46] -> $3003.89 (+0.13%) — close it all at -0.8% under the average cost
+## 2026-11-05 09:40 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [stop_loss @ $55.79] -> $2979.36 (-0.69%) — close it all at -0.6% under the average cost
+## 2026-11-05 09:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-05 09:41 ET (Thursday) — week 2026-W45 — budget left $12963.48 (today $30000.00 put to work, 10 buys, 6 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
+  (LBTY excluded: no security information)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgjxQXFj2Np6oTkpnmCKN'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25362.19 (+1.45% on $25000.00 in) · cash $13419.45 · realised +419.45
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
