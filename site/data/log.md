@@ -1,22 +1,3 @@
-  (LBTY excluded: no security information)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkEA464HnL9vFaUsq1kk'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25293.44 (+1.17% on $25000.00 in) · cash $21541.03 · realised +291.03
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on NXPI: position closed)
-- SELL 100% NXPI [take_profit @ $250.26] -> $755.89 (+0.79%) — close 100% at +0.6% over the average cost
-  (cancelled 2 standing order(s) on WSM: position closed)
-- SELL 100% WSM [take_profit @ $258.38] -> $753.10 (+0.41%) — close 100% at +0.4% over the average cost
-  (cancelled 2 standing order(s) on FITB: position closed)
-- SELL 100% FITB [take_profit @ $53.56] -> $752.23 (+0.30%) — close 100% at +0.3% over the average cost
-## 2026-11-05 13:10 ET — tick — 3 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-05 13:10 ET (Thursday) — week 2026-W45 — budget left $23346.29 (today $48000.00 put to work, 34 buys, 32 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
   (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
   (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
   (LBTY excluded: no security information)
@@ -398,3 +379,22 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25322.75 (+1.29% on $25000.00 in) · cash $23822.04 · realised +322.04
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 4 order(s) working; budget left $23366.10 this week
+
+## 2026-11-05 14:18 ET (Thursday) — week 2026-W45 — budget left $23366.10 (today $53250.00 put to work, 41 buys, 39 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (LBTY excluded: no security information)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (no price for XIVYX — excluded this check)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkKahZ5AogSpkqV3AbaQ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25323.50 (+1.29% on $25000.00 in) · cash $23822.04 · realised +322.04
+Decision: nothing at this check. 4 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on EL: position closed)
+- SELL 100% EL [stop_loss @ $108.86] -> $750.63 (+0.08%) — close it all at -1.1% under the average cost
+## 2026-11-05 14:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders

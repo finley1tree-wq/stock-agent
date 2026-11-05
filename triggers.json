@@ -7066,7 +7066,7 @@
    "ticker": "EL",
    "kind": "take_profit",
    "price": 109.2603,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 13:28",
    "created_ts": 1793903288,
    "why": "close 100% at +0.5% over the average cost",
@@ -7076,7 +7076,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 14:20",
+   "cancel_reason": "position closed"
   },
   {
    "id": "115cd2c9",
@@ -7474,7 +7476,7 @@
    "ticker": "EL",
    "kind": "stop_loss",
    "price": 108.976,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-05 14:17",
    "created_ts": 1793906255,
    "why": "close it all at -1.1% under the average cost",
@@ -7484,8 +7486,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 14:20"
   }
  ],
- "updated": "2026-11-05 14:18"
+ "updated": "2026-11-05 14:20"
 }
