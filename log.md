@@ -62188,3 +62188,19 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25322.75 (+1.29% on $25000.00 in) · cash $23822.04 · realised +322.04
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 4 order(s) working; budget left $23366.10 this week
+
+## 2026-11-05 14:18 ET (Thursday) — week 2026-W45 — budget left $23366.10 (today $53250.00 put to work, 41 buys, 39 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (LBTY excluded: no security information)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (no price for XIVYX — excluded this check)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkKahZ5AogSpkqV3AbaQ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25323.50 (+1.29% on $25000.00 in) · cash $23822.04 · realised +322.04
+Decision: nothing at this check. 4 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
