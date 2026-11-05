@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "5b60c5af",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 261.052,
-   "status": "cancelled",
-   "created": "2026-11-02 10:43",
-   "created_ts": 1793634193,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $260.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-02 10:45",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "68108889",
-   "ticker": "ADI",
-   "kind": "stop_loss",
-   "price": 432.108,
-   "status": "cancelled",
-   "created": "2026-11-02 10:43",
-   "created_ts": 1793634193,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $431.22",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-02 10:44",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "9e4c6fb8",
    "ticker": "FITB",
    "kind": "stop_loss",
@@ -7230,7 +7192,7 @@
    "ticker": "CRH",
    "kind": "take_profit",
    "price": 94.9526,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-05 11:25",
    "created_ts": 1793895956,
    "why": "close 100% at +0.4% over the average cost",
@@ -7240,7 +7202,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 11:30"
   },
   {
    "id": "2f60a891",
@@ -7266,7 +7229,7 @@
    "ticker": "CRH",
    "kind": "buy_limit",
    "price": 91.7426,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 11:25",
    "created_ts": 1793895956,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7276,14 +7239,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-05 11:30",
+   "cancel_reason": "position closed"
   },
   {
    "id": "5683541f",
    "ticker": "FITB",
    "kind": "take_profit",
    "price": 54.1295,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 11:25",
    "created_ts": 1793895956,
    "why": "close 100% at +0.3% over the average cost",
@@ -7293,14 +7258,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 11:30",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a27f97a6",
    "ticker": "FITB",
    "kind": "stop_loss",
    "price": 53.6059,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 11:25",
    "created_ts": 1793895956,
    "why": "close it all at -0.7% under the average cost",
@@ -7310,14 +7277,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 11:29",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "2e3e4cf6",
    "ticker": "FITB",
    "kind": "buy_limit",
    "price": 52.3606,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 11:25",
    "created_ts": 1793895956,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7327,7 +7296,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-05 11:30",
+   "cancel_reason": "position closed"
   },
   {
    "id": "743fd805",
@@ -7387,7 +7358,7 @@
    "ticker": "CRH",
    "kind": "stop_loss",
    "price": 94.736,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 11:28",
    "created_ts": 1793896088,
    "why": "close it all at -1.0% under the average cost",
@@ -7397,7 +7368,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 11:29",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ee9ac85d",
@@ -7466,7 +7439,44 @@
    ],
    "good_until": "2026-11-10",
    "usd": 500.0
+  },
+  {
+   "id": "109366c4",
+   "ticker": "CRH",
+   "kind": "stop_loss",
+   "price": 94.892,
+   "status": "cancelled",
+   "created": "2026-11-05 11:29",
+   "created_ts": 1793896183,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $94.58",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-10",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 11:30",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "ef31d09b",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 54.064,
+   "status": "filled",
+   "created": "2026-11-05 11:29",
+   "created_ts": 1793896183,
+   "why": "close it all at -0.7% under the average cost",
+   "evidence": "average cost $53.98",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-10",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 11:30"
   }
  ],
- "updated": "2026-11-05 11:28"
+ "updated": "2026-11-05 11:30"
 }

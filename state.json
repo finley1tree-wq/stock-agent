@@ -1,19 +1,19 @@
 {
   "week": "2026-W45",
-  "spent": 3904.98,
+  "spent": 2400.58,
   "deployed": 186000.0,
   "by_ticker": {
     "NXPI": 21.25,
     "CRBG": 790.74,
     "ADI": 44.8,
     "RPM": 798.61,
-    "FITB": 785.1,
+    "FITB": 34.52,
     "PLD": 791.35,
     "WSM": 42.71,
     "SITE": 26.83,
     "GH": 7.45,
     "EL": 40.37,
-    "CRH": 776.6,
+    "CRH": 22.78,
     "LRN": 49.64
   },
   "deployed_by_ticker": {
@@ -5327,13 +5327,55 @@
       "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +8.1% over the month; 2% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "FITB",
+      "side": "sell",
+      "qty": 13.893627,
+      "status": "filled",
+      "price": 54.02,
+      "proceeds": 750.58,
+      "realized_pnl": 0.58,
+      "realized_pct": 0.08,
+      "date": "2026-11-05",
+      "time_et": "11:30",
+      "ts": 1793896200,
+      "why": "close it all at -0.7% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $53.98",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CRH",
+      "side": "sell",
+      "qty": 7.929978,
+      "status": "filled",
+      "price": 95.06,
+      "proceeds": 753.82,
+      "realized_pnl": 3.82,
+      "realized_pct": 0.51,
+      "date": "2026-11-05",
+      "time_et": "11:30",
+      "ts": 1793896200,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $94.58",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-05",
-  "spent_today": 3879.01,
+  "spent_today": 2374.61,
   "deployed_today": 42750.0,
   "orders_today": 27,
-  "sells_today": 22,
+  "sells_today": 24,
   "sold_today": [
     "ESAB",
     "NXPI",
@@ -5353,7 +5395,7 @@
     "GH": 1793823961,
     "RPM": 1793893299,
     "WSM": 1793895602,
-    "FITB": 1793893218,
+    "FITB": 1793896231,
     "CRBG": 1793893120,
     "CACI": 1793643610,
     "PLD": 1793893120,
@@ -5364,10 +5406,10 @@
     "SITE": 1793807304,
     "SIRI": 1793805613,
     "LRN": 1793889722,
-    "CRH": 1793893218
+    "CRH": 1793896231
   },
-  "last_publish_ts": 1793896136,
-  "last_check_ts": 1793896136,
+  "last_publish_ts": 1793896230,
+  "last_check_ts": 1793896230,
   "exp_arm": {
     "PLD": {
       "params": {
@@ -5405,25 +5447,19 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1793895900,
+  "last_bar_ts": 1793896200,
   "last_decision_ts": 1793896136,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "66d272a5": 94.9526,
     "ee9ac85d": 34.768,
     "743fd805": 34.8526,
-    "5683541f": 54.1295,
     "dfd7ff11": 130.3728,
-    "06791a29": 94.736,
     "10a930d3": 106.6269,
     "4aadf6ae": 129.4542,
     "6495cd6e": 105.4471,
-    "a27f97a6": 53.6059,
-    "00df72d4": 103.1013,
     "ab0f4048": 126.2067,
-    "2e3e4cf6": 52.3606,
-    "470cb881": 33.6784,
-    "ee0ae4fd": 91.7426
+    "00df72d4": 103.1013,
+    "470cb881": 33.6784
   }
 }

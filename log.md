@@ -61184,3 +61184,8 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 RPM @ $103.10 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25306.20 (+1.22% on $25000.00 in) · cash $21550.99 · realised +300.99
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21095.02 this week
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [stop_loss @ $54.02] -> $750.58 (+0.08%) — close it all at -0.7% under the average cost
+  (cancelled 2 standing order(s) on CRH: position closed)
+- SELL 100% CRH [take_profit @ $95.06] -> $753.82 (+0.51%) — close 100% at +0.4% over the average cost
+## 2026-11-05 11:30 ET — tick — 2 sell(s), 0 buy(s) from standing orders
