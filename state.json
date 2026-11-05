@@ -1,39 +1,40 @@
 {
   "week": "2026-W45",
-  "spent": 163.2,
-  "deployed": 186750.0,
+  "spent": 4663.2,
+  "deployed": 191250.0,
   "by_ticker": {
-    "NXPI": 21.25,
+    "NXPI": 771.25,
     "CRBG": 40.16,
     "ADI": 44.8,
-    "RPM": 48.72,
-    "FITB": 34.52,
+    "RPM": 798.72,
+    "FITB": 784.52,
     "PLD": 45.54,
-    "WSM": 42.71,
+    "WSM": 792.71,
     "SITE": 26.83,
     "GH": 7.45,
     "EL": 49.27,
-    "CRH": 22.78,
-    "LRN": 49.64
+    "CRH": 772.78,
+    "LRN": 49.64,
+    "ESAB": 750.0
   },
   "deployed_by_ticker": {
-    "RPM": 18750.0,
+    "RPM": 19500.0,
     "EL": 20250.0,
     "GH": 7500.0,
-    "NXPI": 20250.0,
+    "NXPI": 21000.0,
     "ADI": 13500.0,
-    "FITB": 20250.0,
-    "WSM": 20250.0,
+    "FITB": 21000.0,
+    "WSM": 21000.0,
     "CACI": 5250.0,
     "CRBG": 12750.0,
     "PLD": 15750.0,
     "BBT": 3000.0,
     "ROL": 3000.0,
     "NTRS": 4500.0,
-    "ESAB": 9750.0,
+    "ESAB": 10500.0,
     "SITE": 3750.0,
     "SIRI": 750.0,
-    "CRH": 4500.0,
+    "CRH": 5250.0,
     "LRN": 3000.0
   },
   "orders": [
@@ -5473,12 +5474,132 @@
       ],
       "evidence": "average cost $109.51",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ESAB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.620173,
+      "price": 77.96,
+      "date": "2026-11-05",
+      "time_et": "13:01",
+      "ts": 1793901697,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +16.1% over the month; 0% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.020422,
+      "price": 248.31,
+      "date": "2026-11-05",
+      "time_et": "13:01",
+      "ts": 1793901697,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +5.5% over the month; 17% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "RPM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.13185,
+      "price": 105.16,
+      "date": "2026-11-05",
+      "time_et": "13:01",
+      "ts": 1793901697,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +6.9% over the month; 0% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "CRH",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.945105,
+      "price": 94.4,
+      "date": "2026-11-05",
+      "time_et": "13:01",
+      "ts": 1793901697,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +15.8% over the month; 2% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "WSM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.914739,
+      "price": 257.31,
+      "date": "2026-11-05",
+      "time_et": "13:01",
+      "ts": 1793901697,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +7.0% over the month; 0% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "FITB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 14.044588,
+      "price": 53.4,
+      "date": "2026-11-05",
+      "time_et": "13:01",
+      "ts": 1793901697,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +6.5% over the month; 0% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-05",
-  "spent_today": 137.23,
-  "deployed_today": 43500.0,
-  "orders_today": 28,
+  "spent_today": 4637.23,
+  "deployed_today": 48000.0,
+  "orders_today": 34,
   "sells_today": 28,
   "sold_today": [
     "ESAB",
@@ -5512,10 +5633,17 @@
     "LRN": 1793889722,
     "CRH": 1793896231
   },
-  "last_publish_ts": 1793900533,
-  "last_check_ts": 1793901527,
+  "last_publish_ts": 1793901697,
+  "last_check_ts": 1793901697,
   "exp_arm": {
-    "PLD": {
+    "ESAB": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "NXPI": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -5529,7 +5657,21 @@
       },
       "tags": {}
     },
-    "EL": {
+    "CRH": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "WSM": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "FITB": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -5537,9 +5679,28 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1793901300,
-  "last_decision_ts": 1793901527,
+  "last_bar_ts": 1793901600,
+  "last_decision_ts": 1793901697,
   "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "f9836079": 53.5533,
+    "af207408": 105.5049,
+    "49ab7953": 94.7729,
+    "b290841b": 258.3418,
+    "626d450d": 78.3794,
+    "87d091e3": 249.7154,
+    "99c6c51d": 53.0171,
+    "70f56670": 104.2966,
+    "b498cad7": 93.4683,
+    "508d879e": 254.7292,
+    "c9835088": 76.9114,
+    "f1a71908": 244.7989,
+    "d5b858b1": 75.6212,
+    "e86a428d": 102.0052,
+    "b1edc48d": 91.568,
+    "0a45b7c8": 249.5907,
+    "5f55ddb7": 51.798,
+    "2dc99469": 240.8607
+  }
 }

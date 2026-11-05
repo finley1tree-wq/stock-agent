@@ -61728,3 +61728,40 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 portfolio: equity $25292.76 (+1.17% on $25000.00 in) · cash $25292.76 · realised +292.76
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-05 13:01 ET (Thursday) — week 2026-W45 — budget left $24836.80 (today $43500.00 put to work, 28 buys, 28 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (LBTY excluded: no security information)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkDgdYBbVNAwnoAqnwKU'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,837 idle, so opened 6: ESAB, NXPI, RPM, CRH, WSM, FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ESAB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +16.1% over the month; 0% of today's range
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +5.5% over the month; 17% of today's range
+- BUY $750.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +6.9% over the month; 0% of today's range
+- BUY $750.00 CRH [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +15.8% over the month; 2% of today's range
+- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +7.0% over the month; 0% of today's range
+- BUY $750.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +6.5% over the month; 0% of today's range
+~ WORKING take_profit 100% ESAB @ $78.38 until 2026-11-10 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% ESAB @ $76.91 until 2026-11-10 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 ESAB @ $75.62 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NXPI @ $249.72 until 2026-11-10 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% NXPI @ $244.80 until 2026-11-10 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $240.86 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RPM @ $105.50 until 2026-11-10 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% RPM @ $104.30 until 2026-11-10 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 RPM @ $102.01 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRH @ $94.77 until 2026-11-10 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% CRH @ $93.47 until 2026-11-10 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 CRH @ $91.57 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% WSM @ $258.34 until 2026-11-10 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% WSM @ $254.73 until 2026-11-10 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $249.59 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FITB @ $53.55 until 2026-11-10 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% FITB @ $53.02 until 2026-11-10 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $51.80 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25291.11 (+1.16% on $25000.00 in) · cash $20792.76 · realised +292.76
+Done: 0 sell(s), 6 buy(s); 18 order(s) working; budget left $20336.80 this week
