@@ -1,6 +1,6 @@
 {
   "week": "2026-W45",
-  "spent": 4649.7,
+  "spent": 3899.49,
   "deployed": 178500.0,
   "by_ticker": {
     "NXPI": 779.36,
@@ -9,7 +9,7 @@
     "RPM": 47.45,
     "FITB": 779.84,
     "PLD": 792.79,
-    "WSM": 795.87,
+    "WSM": 45.66,
     "SITE": 26.83,
     "GH": 7.45,
     "EL": 781.8,
@@ -4896,13 +4896,34 @@
       "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +3.0% over the month; 13% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 2.857524,
+      "status": "filled",
+      "price": 262.54,
+      "proceeds": 750.21,
+      "realized_pnl": 0.21,
+      "realized_pct": 0.03,
+      "date": "2026-11-05",
+      "time_et": "10:31",
+      "ts": 1793892600,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $262.46",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-05",
-  "spent_today": 4623.73,
+  "spent_today": 3873.52,
   "deployed_today": 35250.0,
   "orders_today": 17,
-  "sells_today": 11,
+  "sells_today": 12,
   "sold_today": [
     "ESAB",
     "NXPI",
@@ -4921,7 +4942,7 @@
     "EL": 1793889621,
     "GH": 1793823961,
     "RPM": 1793890137,
-    "WSM": 1793889621,
+    "WSM": 1793892666,
     "FITB": 1793889667,
     "CRBG": 1793889621,
     "CACI": 1793643610,
@@ -4935,8 +4956,8 @@
     "LRN": 1793889722,
     "CRH": 1793890091
   },
-  "last_publish_ts": 1793892608,
-  "last_check_ts": 1793892608,
+  "last_publish_ts": 1793892665,
+  "last_check_ts": 1793892711,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -4986,23 +5007,20 @@
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "9c809848": 263.4521,
-    "e06a807e": 262.904,
-    "c92b8975": 131.3744,
     "bf523eb2": 55.1124,
-    "c140c34c": 110.7407,
+    "c92b8975": 131.3744,
+    "9385eb7a": 256.7758,
     "316ca0ab": 130.4841,
     "4b73eaca": 35.2852,
-    "9385eb7a": 256.7758,
     "6055c1a9": 54.6138,
-    "7b6ebfde": 34.8471,
-    "a801b0a6": 252.1343,
     "51c8b9be": 109.0582,
+    "7b6ebfde": 34.8471,
+    "c140c34c": 110.7407,
+    "a801b0a6": 252.1343,
+    "a1f82d10": 106.9522,
     "2f15be09": 34.1052,
-    "a3cb9c29": 247.7865,
     "5a1d8868": 127.1864,
     "a7c51a81": 53.3209,
-    "a1f82d10": 106.9522,
-    "6211c708": 254.5862
+    "a3cb9c29": 247.7865
   }
 }

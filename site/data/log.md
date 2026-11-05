@@ -1,6 +1,3 @@
-  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
-  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
-  (GLQ excluded: too thinly traded ($0.3M a day) — Clough Global Equity Fund)
   (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiZ9w4bdBiTuGJvoWaMS'}
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 PLD @ $127.19 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25307.13 (+1.23% on $25000.00 in) · cash $20806.27 · realised +306.27
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20350.30 this week
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $262.54] -> $750.21 (+0.03%) — close it all at -0.9% under the average cost
+## 2026-11-05 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders

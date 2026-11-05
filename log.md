@@ -60853,3 +60853,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 PLD @ $127.19 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25307.13 (+1.23% on $25000.00 in) · cash $20806.27 · realised +306.27
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20350.30 this week
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [stop_loss @ $262.54] -> $750.21 (+0.03%) — close it all at -0.9% under the average cost
+## 2026-11-05 10:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
