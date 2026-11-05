@@ -1,9 +1,9 @@
 {
   "week": "2026-W45",
-  "spent": 909.2,
+  "spent": 154.98,
   "deployed": 182250.0,
   "by_ticker": {
-    "NXPI": 775.47,
+    "NXPI": 21.25,
     "CRBG": 40.74,
     "ADI": 44.8,
     "RPM": 48.61,
@@ -5206,13 +5206,34 @@
       "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.1% over the month; 23% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 3.00517,
+      "status": "filled",
+      "price": 250.98,
+      "proceeds": 754.22,
+      "realized_pnl": 4.22,
+      "realized_pct": 0.56,
+      "date": "2026-11-05",
+      "time_et": "11:22",
+      "ts": 1793895600,
+      "why": "close 100% at +0.6% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $249.57",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-05",
-  "spent_today": 883.23,
+  "spent_today": 129.01,
   "deployed_today": 39000.0,
   "orders_today": 22,
-  "sells_today": 21,
+  "sells_today": 22,
   "sold_today": [
     "ESAB",
     "NXPI",
@@ -5226,7 +5247,7 @@
     "RPM"
   ],
   "sold_ts": {
-    "NXPI": 1793892805,
+    "NXPI": 1793895772,
     "ADI": 1793804177,
     "EL": 1793893891,
     "GH": 1793823961,
@@ -5245,8 +5266,8 @@
     "LRN": 1793889722,
     "CRH": 1793893218
   },
-  "last_publish_ts": 1793895641,
-  "last_check_ts": 1793895687,
+  "last_publish_ts": 1793895772,
+  "last_check_ts": 1793895773,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -5257,12 +5278,8 @@
     }
   },
   "last_bar_ts": 1793895600,
-  "last_decision_ts": 1793895596,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1793895773,
+  "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "0208d7b6": 250.134,
-    "eec8bc5b": 250.9751,
-    "1f3ccdb9": 242.0829
-  }
+  "book_px": {}
 }
