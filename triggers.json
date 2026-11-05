@@ -6917,7 +6917,7 @@
    "ticker": "RPM",
    "kind": "take_profit",
    "price": 110.494,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 09:32",
    "created_ts": 1793889166,
    "why": "close 100% at +0.3% over the average cost",
@@ -6927,14 +6927,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 09:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d9408271",
    "ticker": "RPM",
    "kind": "stop_loss",
    "price": 109.3944,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-05 09:32",
    "created_ts": 1793889166,
    "why": "close it all at -0.7% under the average cost",
@@ -6944,14 +6946,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 09:48"
   },
   {
    "id": "97b9f386",
    "ticker": "RPM",
    "kind": "buy_limit",
    "price": 106.8746,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 09:32",
    "created_ts": 1793889166,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6961,7 +6964,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-05 09:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "5488af70",
@@ -7230,7 +7235,7 @@
    "ticker": "CRH",
    "kind": "take_profit",
    "price": 99.9166,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 09:35",
    "created_ts": 1793889338,
    "why": "close 100% at +0.3% over the average cost",
@@ -7240,14 +7245,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 09:48",
+   "cancel_reason": "another standing order on the same ticker filled first"
   },
   {
    "id": "792b1235",
    "ticker": "CRH",
    "kind": "stop_loss",
    "price": 98.7385,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-05 09:35",
    "created_ts": 1793889338,
    "why": "close it all at -0.8% under the average cost",
@@ -7257,14 +7264,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 09:48"
   },
   {
    "id": "ca5e1e4f",
    "ticker": "CRH",
    "kind": "buy_limit",
    "price": 96.5926,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 09:35",
    "created_ts": 1793889338,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7274,7 +7282,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-05 09:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "34d916ae",
@@ -7483,5 +7493,5 @@
    "closed": "2026-11-05 09:40"
   }
  ],
- "updated": "2026-11-05 09:47"
+ "updated": "2026-11-05 09:48"
 }

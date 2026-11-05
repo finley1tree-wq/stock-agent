@@ -60623,3 +60623,10 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25339.03 (+1.36% on $25000.00 in) · cash $19354.03 · realised +354.03
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (trigger CRH take_profit superseded at this check)
+  (cancelled 1 standing order(s) on CRH: position closed)
+- SELL 100% CRH [stop_loss @ $98.69] -> $2973.17 (-0.89%) — close it all at -0.8% under the average cost
+## 2026-11-05 09:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [stop_loss @ $109.34] -> $2977.01 (-0.77%) — close it all at -0.7% under the average cost
+## 2026-11-05 09:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders

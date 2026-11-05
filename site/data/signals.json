@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-05T09:44-05:00",
+ "asOf": "2026-11-05T09:48-05:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -176,110 +176,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "792b1235",
-   "ticker": "CRH",
-   "kind": "stop_loss",
-   "price": 98.7385,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 98.85,
-   "pct_away": -0.11,
-   "good_until": "2026-11-10",
-   "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d9408271",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 109.3944,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 109.64,
-   "pct_away": -0.22,
-   "good_until": "2026-11-10",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "6adc4a09",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 110.494,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 109.64,
-   "pct_away": 0.78,
-   "good_until": "2026-11-10",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0893b991",
-   "ticker": "CRH",
-   "kind": "take_profit",
-   "price": 99.9166,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 98.85,
-   "pct_away": 1.08,
-   "good_until": "2026-11-10",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ca5e1e4f",
-   "ticker": "CRH",
-   "kind": "buy_limit",
-   "price": 96.5926,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 98.85,
-   "pct_away": -2.28,
-   "good_until": "2026-11-10",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "97b9f386",
-   "ticker": "RPM",
-   "kind": "buy_limit",
-   "price": 106.8746,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 109.64,
-   "pct_away": -2.52,
-   "good_until": "2026-11-10",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,026 idle, so opened 4: CRH, WSM, CRBG, LRN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps t",
  "congress_trades": [
