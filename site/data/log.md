@@ -1,7 +1,3 @@
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped CRH: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
 portfolio: equity $25292.76 (+1.17% on $25000.00 in) · cash $25292.76 · realised +292.76
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
@@ -398,3 +394,7 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $251.46 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25310.00 (+1.24% on $25000.00 in) · cash $20808.25 · realised +308.25
 Done: 0 sell(s), 4 buy(s); 18 order(s) working; budget left $20352.30 this week
+  (cancelled 6 resting buy order(s): past the entry cutoff)
+  (cancelled 1 standing order(s) on ESAB: position closed)
+- SELL 100% ESAB [take_profit @ $78.59] -> $755.37 (+0.72%) — close 100% at +0.5% over the average cost
+## 2026-11-05 14:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders

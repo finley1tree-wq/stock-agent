@@ -93986,7 +93986,7 @@
     "code_version": "8aa6a6c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": -0.05
   },
   {
     "symbol": "ESAB",
@@ -94015,7 +94015,9 @@
     "code_version": "f0f2d18",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.44
+    "ret_now": 0.72,
+    "ret_final": 0.72,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -94043,7 +94045,8 @@
     "hour_et": 13,
     "code_version": "e6f111b",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.25
   },
   {
     "symbol": "CRH",
@@ -94071,7 +94074,8 @@
     "hour_et": 13,
     "code_version": "e6f111b",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.01
   },
   {
     "symbol": "FITB",
@@ -94099,7 +94103,8 @@
     "hour_et": 13,
     "code_version": "e6f111b",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.07
   },
   {
     "symbol": "WSM",
@@ -94127,6 +94132,34 @@
     "hour_et": 13,
     "code_version": "e6f111b",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.03
+  },
+  {
+    "symbol": "ESAB",
+    "side": "sell",
+    "qty": 9.61154,
+    "status": "filled",
+    "price": 78.59,
+    "proceeds": 755.37,
+    "realized_pnl": 5.37,
+    "realized_pct": 0.72,
+    "date": "2026-11-05",
+    "time_et": "14:00",
+    "ts": 1793905200,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $78.03",
+    "trigger": "take_profit",
+    "hour_et": 14,
+    "code_version": "4c56d61",
+    "hold_minutes": 8
   }
 ]

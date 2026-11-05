@@ -7175,7 +7175,7 @@
    "ticker": "EL",
    "kind": "buy_limit",
    "price": 105.4972,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 13:28",
    "created_ts": 1793903288,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7185,14 +7185,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-05 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "10f9abb7",
    "ticker": "ESAB",
    "kind": "take_profit",
    "price": 78.4514,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-05 13:51",
    "created_ts": 1793904718,
    "why": "close 100% at +0.5% over the average cost",
@@ -7202,7 +7204,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 14:00"
   },
   {
    "id": "806b885c",
@@ -7228,7 +7231,7 @@
    "ticker": "ESAB",
    "kind": "buy_limit",
    "price": 75.6891,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 13:51",
    "created_ts": 1793904718,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7238,14 +7241,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-05 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "3a421eb2",
    "ticker": "ESAB",
    "kind": "stop_loss",
    "price": 78.216,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 13:56",
    "created_ts": 1793904993,
    "why": "close it all at -1.3% under the average cost",
@@ -7255,7 +7260,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 14:00",
+   "cancel_reason": "position closed"
   },
   {
    "id": "bb611da3",
@@ -7296,7 +7303,7 @@
    "ticker": "NXPI",
    "kind": "buy_limit",
    "price": 244.7504,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 13:58",
    "created_ts": 1793905080,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7306,7 +7313,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-05 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "6b9ee2cc",
@@ -7347,7 +7356,7 @@
    "ticker": "CRH",
    "kind": "buy_limit",
    "price": 91.9269,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 13:58",
    "created_ts": 1793905080,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7357,7 +7366,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-05 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "53ff2825",
@@ -7398,7 +7409,7 @@
    "ticker": "FITB",
    "kind": "buy_limit",
    "price": 51.7689,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 13:58",
    "created_ts": 1793905080,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7408,7 +7419,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-05 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "a05eb80e",
@@ -7449,7 +7462,7 @@
    "ticker": "WSM",
    "kind": "buy_limit",
    "price": 251.4628,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 13:58",
    "created_ts": 1793905080,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7459,8 +7472,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-05 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   }
  ],
- "updated": "2026-11-05 13:58"
+ "updated": "2026-11-05 14:00"
 }

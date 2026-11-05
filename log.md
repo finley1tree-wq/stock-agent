@@ -62081,3 +62081,23 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 WSM @ $251.46 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25310.00 (+1.24% on $25000.00 in) · cash $20808.25 · realised +308.25
 Done: 0 sell(s), 4 buy(s); 18 order(s) working; budget left $20352.30 this week
+  (cancelled 6 resting buy order(s): past the entry cutoff)
+  (cancelled 1 standing order(s) on ESAB: position closed)
+- SELL 100% ESAB [take_profit @ $78.59] -> $755.37 (+0.72%) — close 100% at +0.5% over the average cost
+## 2026-11-05 14:00 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-05 14:00 ET (Thursday) — week 2026-W45 — budget left $21107.67 (today $53250.00 put to work, 41 buys, 36 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (LBTY excluded: no security information)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (PAM excluded: too thinly traded ($14.0M a day) — Pampa Energía S.A.)
+  (no price for XIVYX — excluded this check)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkJDFn4uy7BJ5q3ckrsR'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25309.24 (+1.24% on $25000.00 in) · cash $21563.62 · realised +313.62
+Decision: nothing at this check. 10 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
