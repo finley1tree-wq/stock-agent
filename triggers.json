@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "567904e8",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 105.386,
-   "status": "filled",
-   "created": "2026-11-02 09:38",
-   "created_ts": 1793630287,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $105.29",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-02 09:40"
-  },
-  {
-   "id": "da122d3e",
-   "ticker": "CACI",
-   "kind": "take_profit",
-   "price": 676.5523,
-   "status": "filled",
-   "created": "2026-11-02 09:40",
-   "created_ts": 1793630423,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $674.28",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-02 09:54"
-  },
-  {
-   "id": "00c3ecf9",
-   "ticker": "CACI",
-   "kind": "stop_loss",
-   "price": 668.5958,
-   "status": "cancelled",
-   "created": "2026-11-02 09:40",
-   "created_ts": 1793630423,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $674.28",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-02 09:54",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "4654a7c8",
    "ticker": "CACI",
    "kind": "buy_limit",
@@ -7465,7 +7410,58 @@
    ],
    "good_until": "2026-11-10",
    "usd": 500.0
+  },
+  {
+   "id": "83dc1623",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 107.7878,
+   "status": "working",
+   "created": "2026-11-05 10:36",
+   "created_ts": 1793892979,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $107.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-10",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7bb8ecb6",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 106.6422,
+   "status": "working",
+   "created": "2026-11-05 10:36",
+   "created_ts": 1793892979,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $107.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-10",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "badba596",
+   "ticker": "RPM",
+   "kind": "buy_limit",
+   "price": 104.2362,
+   "status": "working",
+   "created": "2026-11-05 10:36",
+   "created_ts": 1793892979,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $107.46",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-10",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-05 10:33"
+ "updated": "2026-11-05 10:36"
 }
