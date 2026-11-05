@@ -1,7 +1,7 @@
 {
   "week": "2026-W45",
-  "spent": 147.7,
-  "deployed": 192000.0,
+  "spent": 897.7,
+  "deployed": 192750.0,
   "by_ticker": {
     "NXPI": 15.36,
     "CRBG": 40.16,
@@ -12,14 +12,14 @@
     "WSM": 39.61,
     "SITE": 26.83,
     "GH": 7.45,
-    "EL": 49.27,
+    "EL": 799.27,
     "CRH": 19.8,
     "LRN": 49.64,
     "ESAB": 1.73
   },
   "deployed_by_ticker": {
     "RPM": 19500.0,
-    "EL": 20250.0,
+    "EL": 21000.0,
     "GH": 7500.0,
     "NXPI": 21000.0,
     "ADI": 13500.0,
@@ -5761,12 +5761,32 @@
       ],
       "evidence": "average cost $128.9",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "EL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.895696,
+      "price": 108.76,
+      "date": "2026-11-05",
+      "time_et": "13:28",
+      "ts": 1793903288,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +15.1% over the month; 14% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-05",
-  "spent_today": 121.73,
-  "deployed_today": 48750.0,
-  "orders_today": 35,
+  "spent_today": 871.73,
+  "deployed_today": 49500.0,
+  "orders_today": 36,
   "sells_today": 35,
   "sold_today": [
     "ESAB",
@@ -5800,10 +5820,10 @@
     "LRN": 1793889722,
     "CRH": 1793902288
   },
-  "last_publish_ts": 1793902820,
-  "last_check_ts": 1793903112,
+  "last_publish_ts": 1793903288,
+  "last_check_ts": 1793903288,
   "exp_arm": {
-    "PLD": {
+    "EL": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -5812,8 +5832,12 @@
     }
   },
   "last_bar_ts": 1793903100,
-  "last_decision_ts": 1793903112,
-  "next_check_minutes": null,
+  "last_decision_ts": 1793903288,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "1c1cb7c7": 109.2603,
+    "115cd2c9": 107.5093,
+    "d09008c0": 105.4972
+  }
 }
