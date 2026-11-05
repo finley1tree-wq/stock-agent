@@ -1,6 +1,6 @@
 {
   "week": "2026-W45",
-  "spent": 898.28,
+  "spent": 147.7,
   "deployed": 192000.0,
   "by_ticker": {
     "NXPI": 15.36,
@@ -8,7 +8,7 @@
     "ADI": 44.8,
     "RPM": 46.27,
     "FITB": 32.29,
-    "PLD": 795.54,
+    "PLD": 44.96,
     "WSM": 39.61,
     "SITE": 26.83,
     "GH": 7.45,
@@ -5740,13 +5740,34 @@
       "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +1.2% over the month; 8% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "PLD",
+      "side": "sell",
+      "qty": 5.818394,
+      "status": "filled",
+      "price": 129.0,
+      "proceeds": 750.58,
+      "realized_pnl": 0.58,
+      "realized_pct": 0.08,
+      "date": "2026-11-05",
+      "time_et": "13:20",
+      "ts": 1793902800,
+      "why": "close it all at -0.5% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $128.9",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-05",
-  "spent_today": 872.31,
+  "spent_today": 121.73,
   "deployed_today": 48750.0,
   "orders_today": 35,
-  "sells_today": 34,
+  "sells_today": 35,
   "sold_today": [
     "ESAB",
     "NXPI",
@@ -5769,7 +5790,7 @@
     "FITB": 1793902243,
     "CRBG": 1793896273,
     "CACI": 1793643610,
-    "PLD": 1793899871,
+    "PLD": 1793902820,
     "ROL": 1793716853,
     "BBT": 1793717182,
     "NTRS": 1793729983,
@@ -5779,8 +5800,8 @@
     "LRN": 1793889722,
     "CRH": 1793902288
   },
-  "last_publish_ts": 1793902772,
-  "last_check_ts": 1793902774,
+  "last_publish_ts": 1793902820,
+  "last_check_ts": 1793902820,
   "exp_arm": {
     "PLD": {
       "params": {
@@ -5790,13 +5811,9 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1793902500,
+  "last_bar_ts": 1793902800,
   "last_decision_ts": 1793902774,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "e04dc6d0": 129.1733,
-    "3a6abb00": 129.08,
-    "d5cd1cbb": 125.033
-  }
+  "book_px": {}
 }
