@@ -1,7 +1,7 @@
 {
   "week": "2026-W45",
-  "spent": 151.76,
-  "deployed": 173250.0,
+  "spent": 901.76,
+  "deployed": 174000.0,
   "by_ticker": {
     "NXPI": 29.36,
     "CRBG": 33.61,
@@ -14,7 +14,8 @@
     "GH": 7.45,
     "EL": 31.8,
     "CRH": 26.83,
-    "LRN": 49.64
+    "LRN": 49.64,
+    "ESAB": 750.0
   },
   "deployed_by_ticker": {
     "RPM": 17250.0,
@@ -30,7 +31,7 @@
     "BBT": 3000.0,
     "ROL": 3000.0,
     "NTRS": 4500.0,
-    "ESAB": 8250.0,
+    "ESAB": 9000.0,
     "SITE": 3750.0,
     "SIRI": 750.0,
     "CRH": 3000.0,
@@ -4735,12 +4736,32 @@
       ],
       "evidence": "average cost $110.18",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ESAB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.426633,
+      "price": 79.56,
+      "date": "2026-11-05",
+      "time_et": "10:21",
+      "ts": 1793892062,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +18.5% over the month; 31% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-05",
-  "spent_today": 125.79,
-  "deployed_today": 30000.0,
-  "orders_today": 10,
+  "spent_today": 875.79,
+  "deployed_today": 30750.0,
+  "orders_today": 11,
   "sells_today": 10,
   "sold_today": [
     "ESAB",
@@ -4774,59 +4795,10 @@
     "LRN": 1793889722,
     "CRH": 1793890091
   },
-  "last_publish_ts": 1793891974,
-  "last_check_ts": 1793891974,
+  "last_publish_ts": 1793892062,
+  "last_check_ts": 1793892062,
   "exp_arm": {
-    "RPM": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "PLD": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "EL": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "FITB": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "CRH": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "WSM": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "CRBG": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "LRN": {
+    "ESAB": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -4834,9 +4806,13 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1793891700,
-  "last_decision_ts": 1793891885,
-  "next_check_minutes": null,
+  "last_bar_ts": 1793892000,
+  "last_decision_ts": 1793892062,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "0a1d16d0": 79.9761,
+    "5efa82dc": 78.5202,
+    "761bff04": 77.1732
+  }
 }
