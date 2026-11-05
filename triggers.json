@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "3cb1ede6",
-   "ticker": "CRBG",
-   "kind": "buy_limit",
-   "price": 34.2507,
-   "status": "cancelled",
-   "created": "2026-11-02 13:10",
-   "created_ts": 1793643044,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $35.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-07",
-   "usd": 500.0,
-   "closed": "2026-11-02 14:00",
-   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
-  },
-  {
    "id": "a4a8c77d",
    "ticker": "EL",
    "kind": "stop_loss",
@@ -7286,7 +7267,7 @@
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 248.8077,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 13:58",
    "created_ts": 1793905080,
    "why": "close it all at -1.4% under the average cost",
@@ -7296,7 +7277,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 14:12",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "8d0b7b29",
@@ -7475,7 +7458,24 @@
    "usd": 500.0,
    "closed": "2026-11-05 14:00",
    "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
+  },
+  {
+   "id": "9c9e4d19",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 252.764,
+   "status": "working",
+   "created": "2026-11-05 14:12",
+   "created_ts": 1793905978,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $252.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-10",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-05 14:09"
+ "updated": "2026-11-05 14:13"
 }
