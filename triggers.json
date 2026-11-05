@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "3bbdb82f",
-   "ticker": "CRBG",
-   "kind": "take_profit",
-   "price": 35.3169,
-   "status": "filled",
-   "created": "2026-11-02 09:40",
-   "created_ts": 1793630423,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $35.2",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-02 09:46"
-  },
-  {
    "id": "c123a079",
    "ticker": "CRBG",
    "kind": "stop_loss",
@@ -7207,7 +7189,7 @@
    "ticker": "CRBG",
    "kind": "take_profit",
    "price": 35.2852,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 10:26",
    "created_ts": 1793892419,
    "why": "close 100% at +0.4% over the average cost",
@@ -7217,14 +7199,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 10:38",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7b6ebfde",
    "ticker": "CRBG",
    "kind": "stop_loss",
    "price": 34.8471,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-05 10:26",
    "created_ts": 1793892419,
    "why": "close it all at -0.9% under the average cost",
@@ -7234,14 +7218,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 10:38"
   },
   {
    "id": "2f15be09",
    "ticker": "CRBG",
    "kind": "buy_limit",
    "price": 34.1052,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 10:26",
    "created_ts": 1793892419,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7251,7 +7236,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-05 10:38",
+   "cancel_reason": "position closed"
   },
   {
    "id": "e06a807e",
@@ -7276,7 +7263,7 @@
    "ticker": "PLD",
    "kind": "take_profit",
    "price": 131.3744,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-05 10:30",
    "created_ts": 1793892608,
    "why": "close 100% at +0.2% over the average cost",
@@ -7286,14 +7273,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 10:38"
   },
   {
    "id": "316ca0ab",
    "ticker": "PLD",
    "kind": "stop_loss",
    "price": 130.4841,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 10:30",
    "created_ts": 1793892608,
    "why": "close it all at -0.5% under the average cost",
@@ -7303,14 +7291,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 10:38",
+   "cancel_reason": "position closed"
   },
   {
    "id": "5a1d8868",
    "ticker": "PLD",
    "kind": "buy_limit",
    "price": 127.1864,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 10:30",
    "created_ts": 1793892608,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7320,7 +7310,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-05 10:38",
+   "cancel_reason": "position closed"
   },
   {
    "id": "5fd12637",
@@ -7363,7 +7355,7 @@
    "ticker": "CRH",
    "kind": "stop_loss",
    "price": 94.2318,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 10:33",
    "created_ts": 1793892807,
    "why": "close it all at -1.0% under the average cost",
@@ -7373,7 +7365,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 10:39",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "320d36a5",
@@ -7461,7 +7455,24 @@
    ],
    "good_until": "2026-11-10",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "ea3f9ffe",
+   "ticker": "CRH",
+   "kind": "stop_loss",
+   "price": 95.27,
+   "status": "working",
+   "created": "2026-11-05 10:39",
+   "created_ts": 1793893166,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $95.15",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-10",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-05 10:37"
+ "updated": "2026-11-05 10:39"
 }

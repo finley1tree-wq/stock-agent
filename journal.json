@@ -92685,7 +92685,7 @@
     "code_version": "163dae6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.49
+    "ret_now": -0.47
   },
   {
     "symbol": "CRBG",
@@ -92714,7 +92714,9 @@
     "code_version": "163dae6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.85
+    "ret_now": -0.95,
+    "ret_final": -0.95,
+    "ret_src": "realised"
   },
   {
     "symbol": "PLD",
@@ -92743,7 +92745,9 @@
     "code_version": "bfaf848",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": 0.19,
+    "ret_final": 0.19,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -92826,7 +92830,7 @@
     "code_version": "f68940a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01
+    "ret_now": 0.25
   },
   {
     "symbol": "RPM",
@@ -92854,6 +92858,61 @@
     "hour_et": 10,
     "code_version": "ab93180",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.2
+  },
+  {
+    "symbol": "CRBG",
+    "side": "sell",
+    "qty": 21.328595,
+    "status": "filled",
+    "price": 34.83,
+    "proceeds": 742.87,
+    "realized_pnl": -7.13,
+    "realized_pct": -0.95,
+    "date": "2026-11-05",
+    "time_et": "10:38",
+    "ts": 1793892900,
+    "why": "close it all at -0.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $35.16",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "d6ca6ca",
+    "hold_minutes": 8
+  },
+  {
+    "symbol": "PLD",
+    "side": "sell",
+    "qty": 5.719845,
+    "status": "filled",
+    "price": 131.37,
+    "proceeds": 751.44,
+    "realized_pnl": 1.44,
+    "realized_pct": 0.19,
+    "date": "2026-11-05",
+    "time_et": "10:38",
+    "ts": 1793892900,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $131.12",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "d6ca6ca",
+    "hold_minutes": 4
   }
 ]

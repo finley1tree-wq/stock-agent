@@ -1,8 +1,3 @@
-- BUY $3000.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +11.0% over the month; 64% of today's range
-- BUY $3000.00 PLD [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +3.8% over the month; 46% of today's range
-- BUY $3000.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +21.7% over the month; 85% of today's range
-- BUY $3000.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +12.0% over the month; 85% of today's range
-~ WORKING take_profit 100% ESAB @ $79.75 until 2026-11-10 — close 100% at +0.5% over the average cost
 ~ WORKING stop_loss 100% ESAB @ $78.32 until 2026-11-10 — close it all at -1.3% under the average cost
 ~ WORKING buy_limit $500.00 ESAB @ $76.96 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% RPM @ $110.49 until 2026-11-10 — close 100% at +0.3% over the average cost
@@ -398,3 +393,8 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 RPM @ $104.24 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25294.81 (+1.18% on $25000.00 in) · cash $20810.37 · realised +310.37
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20354.40 this week
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [stop_loss @ $34.83] -> $742.87 (-0.95%) — close it all at -0.9% under the average cost
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [take_profit @ $131.37] -> $751.44 (+0.19%) — close 100% at +0.2% over the average cost
+## 2026-11-05 10:38 ET — tick — 2 sell(s), 0 buy(s) from standing orders

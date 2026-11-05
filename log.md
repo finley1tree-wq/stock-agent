@@ -60893,3 +60893,22 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 RPM @ $104.24 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25294.81 (+1.18% on $25000.00 in) · cash $20810.37 · realised +310.37
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20354.40 this week
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [stop_loss @ $34.83] -> $742.87 (-0.95%) — close it all at -0.9% under the average cost
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [take_profit @ $131.37] -> $751.44 (+0.19%) — close 100% at +0.2% over the average cost
+## 2026-11-05 10:38 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-05 10:39 ET (Thursday) — week 2026-W45 — budget left $21848.71 (today $36750.00 put to work, 19 buys, 15 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
+  (LBTY excluded: no security information)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgk2r6tDCHpPaEMYQNR26'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25299.89 (+1.20% on $25000.00 in) · cash $22304.68 · realised +304.68
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
