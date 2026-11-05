@@ -1,4 +1,3 @@
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25415.60 (+1.66% on $25000.00 in) · cash $23179.39 · realised +429.39
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
@@ -398,3 +397,4 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25429.99 (+1.72% on $25000.00 in) · cash $25429.99 · realised +429.99
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-11-04 16:00 ET — published the session's closing state
