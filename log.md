@@ -61519,3 +61519,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 portfolio: equity $25298.58 (+1.19% on $25000.00 in) · cash $23805.85 · realised +305.85
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [stop_loss @ $129.39] -> $745.81 (-0.56%) — close it all at -0.5% under the average cost
+## 2026-11-05 12:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders

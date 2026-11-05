@@ -1,140 +1,3 @@
-  (LBTY excluded: no security information)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgk3zNQCHgxMmfozgHWfL'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25289.91 (+1.16% on $25000.00 in) · cash $25289.91 · realised +289.91
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-05 10:57 ET (Thursday) — week 2026-W45 — budget left $24833.95 (today $36750.00 put to work, 19 buys, 19 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
-  (LBTY excluded: no security information)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgk4DywxziNfrwSoyuLHi'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25289.91 (+1.16% on $25000.00 in) · cash $25289.91 · realised +289.91
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-05 11:00 ET (Thursday) — week 2026-W45 — budget left $24833.95 (today $36750.00 put to work, 19 buys, 19 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
-  (LBTY excluded: no security information)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgk4StKFbWKGy7kU7QnuR'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25289.91 (+1.16% on $25000.00 in) · cash $25289.91 · realised +289.91
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-05 11:05 ET (Thursday) — week 2026-W45 — budget left $24833.95 (today $36750.00 put to work, 19 buys, 19 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
-  (LBTY excluded: no security information)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgk4s5LCqn1y1AKu5HhsU'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25289.91 (+1.16% on $25000.00 in) · cash $25289.91 · realised +289.91
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-05 11:08 ET (Thursday) — week 2026-W45 — budget left $24833.95 (today $36750.00 put to work, 19 buys, 19 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
-  (LBTY excluded: no security information)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgk53X71qxASoDkY9AxJo'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25289.91 (+1.16% on $25000.00 in) · cash $25289.91 · realised +289.91
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-05 11:11 ET (Thursday) — week 2026-W45 — budget left $24833.95 (today $36750.00 put to work, 19 buys, 19 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
-  (LBTY excluded: no security information)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgk5HQBSY7PDEvH519FA5'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,834 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 ESAB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +18.7% over the month; 36% of today's range
-~ WORKING take_profit 100% ESAB @ $80.15 until 2026-11-10 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% ESAB @ $78.69 until 2026-11-10 — close it all at -1.3% under the average cost
-~ WORKING buy_limit $500.00 ESAB @ $77.34 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25289.61 (+1.16% on $25000.00 in) · cash $24539.91 · realised +289.91
-Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $24083.95 this week
-
-## 2026-11-05 11:13 ET (Thursday) — week 2026-W45 — budget left $24083.95 (today $37500.00 put to work, 20 buys, 19 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
-  (LBTY excluded: no security information)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgk5Sp96ZR2kWN3zzKJw1'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25288.67 (+1.15% on $25000.00 in) · cash $24539.91 · realised +289.91
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-05 11:16 ET (Thursday) — week 2026-W45 — budget left $24083.95 (today $37500.00 put to work, 20 buys, 19 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
-  (LBTY excluded: no security information)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgk5hgCXAF7nKteY78xCD'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,084 idle, so opened 1: WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +8.3% over the month; 1% of today's range
-~ WORKING take_profit 100% WSM @ $261.54 until 2026-11-10 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% WSM @ $258.01 until 2026-11-10 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 WSM @ $252.71 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25285.46 (+1.14% on $25000.00 in) · cash $23789.91 · realised +289.91
-Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $23333.95 this week
-  (cancelled 2 standing order(s) on ESAB: position closed)
-- SELL 100% ESAB [take_profit @ $80.15] -> $753.90 (+0.52%) — close 100% at +0.5% over the average cost
-## 2026-11-05 11:19 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-05 11:19 ET (Thursday) — week 2026-W45 — budget left $24087.85 (today $38250.00 put to work, 21 buys, 20 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
-  (LBTY excluded: no security information)
-  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
-  (cancelled 2 standing order(s) on WSM: position closed)
-- SELL 100% WSM [take_profit @ $261.56] -> $752.95 (+0.39%) — close 100% at +0.4% over the average cost
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgk5vsmevMbcthhqG9jWm'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,841 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.1% over the month; 23% of today's range
-~ WORKING take_profit 100% NXPI @ $250.98 until 2026-11-10 — close 100% at +0.6% over the average cost
-~ WORKING stop_loss 100% NXPI @ $246.06 until 2026-11-10 — close it all at -1.4% under the average cost
-~ WORKING buy_limit $500.00 NXPI @ $242.08 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25296.61 (+1.19% on $25000.00 in) · cash $24546.76 · realised +296.76
-Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 3 order(s) working; budget left $24090.80 this week
-  (cancelled 2 standing order(s) on NXPI: position closed)
-- SELL 100% NXPI [take_profit @ $250.98] -> $754.22 (+0.56%) — close 100% at +0.6% over the average cost
-## 2026-11-05 11:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-11-05 11:22 ET (Thursday) — week 2026-W45 — budget left $24845.02 (today $39000.00 put to work, 22 buys, 22 sells) — SIM (pretend money) via sim
   (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
@@ -398,3 +261,140 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 portfolio: equity $25300.51 (+1.20% on $25000.00 in) · cash $23805.85 · realised +305.85
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-05 12:12 ET (Thursday) — week 2026-W45 — budget left $23349.89 (today $43500.00 put to work, 28 buys, 26 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
+  (LBTY excluded: no security information)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgk9uJBzKFJYZbbR5Py89'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,350 idle, so opened 3: ESAB, NXPI, WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped ESAB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25298.40 (+1.19% on $25000.00 in) · cash $23805.85 · realised +305.85
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-05 12:15 ET (Thursday) — week 2026-W45 — budget left $23349.89 (today $43500.00 put to work, 28 buys, 26 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
+  (LBTY excluded: no security information)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkA8YrfEbokY5JD1ctY9'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,350 idle, so opened 3: ESAB, NXPI, WSM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped ESAB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25299.57 (+1.20% on $25000.00 in) · cash $23805.85 · realised +305.85
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-05 12:17 ET (Thursday) — week 2026-W45 — budget left $23349.89 (today $43500.00 put to work, 28 buys, 26 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
+  (LBTY excluded: no security information)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkAMNf71bQGsZ8vPFZQm'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,350 idle, so opened 6: ESAB, NXPI, CRH, WSM, FITB, CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped ESAB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CRH: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CRBG: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25300.25 (+1.20% on $25000.00 in) · cash $23805.85 · realised +305.85
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-05 12:20 ET (Thursday) — week 2026-W45 — budget left $23349.89 (today $43500.00 put to work, 28 buys, 26 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
+  (LBTY excluded: no security information)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkAaD9yTggGrJbkmgH1Q'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,350 idle, so opened 6: ESAB, NXPI, CRH, WSM, FITB, CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped ESAB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CRH: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CRBG: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25300.63 (+1.20% on $25000.00 in) · cash $23805.85 · realised +305.85
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-05 12:23 ET (Thursday) — week 2026-W45 — budget left $23349.89 (today $43500.00 put to work, 28 buys, 26 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
+  (LBTY excluded: no security information)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkAoEaf8XBnYekDNmNTu'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,350 idle, so opened 6: ESAB, NXPI, CRH, WSM, FITB, CRBG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped ESAB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CRH: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CRBG: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25298.18 (+1.19% on $25000.00 in) · cash $23805.85 · realised +305.85
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-05 12:26 ET (Thursday) — week 2026-W45 — budget left $23349.89 (today $43500.00 put to work, 28 buys, 26 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
+  (LBTY excluded: no security information)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkB2fj7cDrbwDTkRQ9nX'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,350 idle, so opened 6: ESAB, RPM, NXPI, CRH, WSM, FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped ESAB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CRH: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25299.16 (+1.20% on $25000.00 in) · cash $23805.85 · realised +305.85
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-05 12:29 ET (Thursday) — week 2026-W45 — budget left $23349.89 (today $43500.00 put to work, 28 buys, 26 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
+  (LBTY excluded: no security information)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkBFLKewDvJzW3bDPtTK'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,350 idle, so opened 6: ESAB, RPM, NXPI, CRH, WSM, FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped ESAB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CRH: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped WSM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped FITB: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25298.58 (+1.19% on $25000.00 in) · cash $23805.85 · realised +305.85
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [stop_loss @ $129.39] -> $745.81 (-0.56%) — close it all at -0.5% under the average cost
+## 2026-11-05 12:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,6 @@
 {
   "week": "2026-W45",
-  "spent": 1650.11,
+  "spent": 904.3,
   "deployed": 186750.0,
   "by_ticker": {
     "NXPI": 21.25,
@@ -8,7 +8,7 @@
     "ADI": 44.8,
     "RPM": 48.72,
     "FITB": 34.52,
-    "PLD": 791.35,
+    "PLD": 45.54,
     "WSM": 42.71,
     "SITE": 26.83,
     "GH": 7.45,
@@ -5431,13 +5431,34 @@
       ],
       "evidence": "average cost $106.29",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "PLD",
+      "side": "sell",
+      "qty": 5.764264,
+      "status": "filled",
+      "price": 129.39,
+      "proceeds": 745.81,
+      "realized_pnl": -4.19,
+      "realized_pct": -0.56,
+      "date": "2026-11-05",
+      "time_et": "12:31",
+      "ts": 1793899800,
+      "why": "close it all at -0.5% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $130.11",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-05",
-  "spent_today": 1624.14,
+  "spent_today": 878.33,
   "deployed_today": 43500.0,
   "orders_today": 28,
-  "sells_today": 26,
+  "sells_today": 27,
   "sold_today": [
     "ESAB",
     "NXPI",
@@ -5460,7 +5481,7 @@
     "FITB": 1793896231,
     "CRBG": 1793896273,
     "CACI": 1793643610,
-    "PLD": 1793893120,
+    "PLD": 1793899871,
     "ROL": 1793716853,
     "BBT": 1793717182,
     "NTRS": 1793729983,
@@ -5470,8 +5491,8 @@
     "LRN": 1793889722,
     "CRH": 1793896231
   },
-  "last_publish_ts": 1793898634,
-  "last_check_ts": 1793899780,
+  "last_publish_ts": 1793899870,
+  "last_check_ts": 1793899870,
   "exp_arm": {
     "PLD": {
       "params": {
@@ -5495,16 +5516,13 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1793899500,
+  "last_bar_ts": 1793899800,
   "last_decision_ts": 1793899780,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "4aadf6ae": 129.4542,
-    "dfd7ff11": 130.3728,
-    "064322b3": 110.0072,
     "b08f6c45": 108.2682,
-    "ab0f4048": 126.2067,
+    "064322b3": 110.0072,
     "64a83efe": 106.2247
   }
 }
