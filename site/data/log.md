@@ -1,23 +1,3 @@
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
-  (LBTY excluded: no security information)
-  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkDuYuVsDZbHNAgHZxrC'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25288.11 (+1.15% on $25000.00 in) · cash $20792.76 · realised +292.76
-Decision: nothing at this check. 18 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on ESAB: position closed)
-- SELL 100% ESAB [stop_loss @ $77.78] -> $748.27 (-0.23%) — close it all at -1.3% under the average cost
-## 2026-11-05 13:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-05 13:07 ET (Thursday) — week 2026-W45 — budget left $21085.07 (today $48000.00 put to work, 34 buys, 29 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
   (LBTY excluded: no security information)
   (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkEA464HnL9vFaUsq1kk'}
@@ -398,3 +378,23 @@ Decision: nothing at this check. 10 standing order(s) working.
   (cancelled 1 standing order(s) on NXPI: position closed)
 - SELL 100% NXPI [take_profit @ $253.73] -> $754.18 (+0.56%) — close 100% at +0.6% over the average cost
 ## 2026-11-05 14:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 1 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $260.30] -> $753.04 (+0.41%) — close 100% at +0.4% over the average cost
+## 2026-11-05 14:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-05 14:16 ET (Thursday) — week 2026-W45 — budget left $22614.89 (today $53250.00 put to work, 41 buys, 38 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (LBTY excluded: no security information)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (no price for XIVYX — excluded this check)
+  (cancelled 1 standing order(s) on CRH: position closed)
+- SELL 100% CRH [stop_loss @ $94.92] -> $751.21 (+0.16%) — close it all at -1.0% under the average cost
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkKN4aVuvCit82bZAiXJ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25322.75 (+1.29% on $25000.00 in) · cash $23822.04 · realised +322.04
+Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 4 order(s) working; budget left $23366.10 this week

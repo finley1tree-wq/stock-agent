@@ -93986,7 +93986,7 @@
     "code_version": "8aa6a6c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": 0.21
   },
   {
     "symbol": "ESAB",
@@ -94046,7 +94046,9 @@
     "code_version": "e6f111b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.38
+    "ret_now": 0.56,
+    "ret_final": 0.56,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRH",
@@ -94075,7 +94077,9 @@
     "code_version": "e6f111b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17
+    "ret_now": 0.16,
+    "ret_final": 0.16,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -94104,7 +94108,7 @@
     "code_version": "e6f111b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.21
+    "ret_now": -0.04
   },
   {
     "symbol": "WSM",
@@ -94133,7 +94137,9 @@
     "code_version": "e6f111b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.08
+    "ret_now": 0.41,
+    "ret_final": 0.41,
+    "ret_src": "realised"
   },
   {
     "symbol": "ESAB",
@@ -94186,6 +94192,61 @@
     "evidence": "average cost $252.32",
     "trigger": "take_profit",
     "hour_et": 14,
-    "code_version": "8644685"
+    "code_version": "8644685",
+    "hold_minutes": 12
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 2.893031,
+    "status": "filled",
+    "price": 260.3,
+    "proceeds": 753.04,
+    "realized_pnl": 3.04,
+    "realized_pct": 0.41,
+    "date": "2026-11-05",
+    "time_et": "14:15",
+    "ts": 1793906100,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $259.24",
+    "trigger": "take_profit",
+    "hour_et": 14,
+    "code_version": "8d96785",
+    "hold_minutes": 17
+  },
+  {
+    "symbol": "CRH",
+    "side": "sell",
+    "qty": 7.914073,
+    "status": "filled",
+    "price": 94.92,
+    "proceeds": 751.21,
+    "realized_pnl": 1.21,
+    "realized_pct": 0.16,
+    "date": "2026-11-05",
+    "time_et": "14:16",
+    "ts": 1793906100,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $94.77",
+    "trigger": "stop_loss",
+    "hour_et": 14,
+    "code_version": "8d96785",
+    "hold_minutes": 17
   }
 ]
