@@ -1,27 +1,26 @@
 {
   "week": "2026-W45",
-  "spent": 1666.05,
-  "deployed": 181500.0,
+  "spent": 909.2,
+  "deployed": 182250.0,
   "by_ticker": {
-    "NXPI": 25.47,
+    "NXPI": 775.47,
     "CRBG": 40.74,
     "ADI": 44.8,
     "RPM": 48.61,
     "FITB": 35.1,
     "PLD": 41.35,
-    "WSM": 795.66,
+    "WSM": 42.71,
     "SITE": 26.83,
     "GH": 7.45,
     "EL": 40.37,
     "CRH": 26.6,
-    "LRN": 49.64,
-    "ESAB": 750.0
+    "LRN": 49.64
   },
   "deployed_by_ticker": {
     "RPM": 18000.0,
     "EL": 19500.0,
     "GH": 7500.0,
-    "NXPI": 19500.0,
+    "NXPI": 20250.0,
     "ADI": 13500.0,
     "FITB": 19500.0,
     "WSM": 20250.0,
@@ -5145,13 +5144,75 @@
       "evidence": "congress net buying (1 net buyer); +8.3% over the month; 1% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ESAB",
+      "side": "sell",
+      "qty": 9.406526,
+      "status": "filled",
+      "price": 80.15,
+      "proceeds": 753.9,
+      "realized_pnl": 3.9,
+      "realized_pct": 0.52,
+      "date": "2026-11-05",
+      "time_et": "11:19",
+      "ts": 1793895300,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $79.73",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "WSM",
+      "side": "sell",
+      "qty": 2.878701,
+      "status": "filled",
+      "price": 261.56,
+      "proceeds": 752.95,
+      "realized_pnl": 2.95,
+      "realized_pct": 0.39,
+      "date": "2026-11-05",
+      "time_et": "11:19",
+      "ts": 1793895600,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $260.53",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.00517,
+      "price": 249.57,
+      "date": "2026-11-05",
+      "time_et": "11:19",
+      "ts": 1793895596,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.1% over the month; 23% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-05",
-  "spent_today": 1640.08,
-  "deployed_today": 38250.0,
-  "orders_today": 21,
-  "sells_today": 19,
+  "spent_today": 883.23,
+  "deployed_today": 39000.0,
+  "orders_today": 22,
+  "sells_today": 21,
   "sold_today": [
     "ESAB",
     "NXPI",
@@ -5170,7 +5231,7 @@
     "EL": 1793893891,
     "GH": 1793823961,
     "RPM": 1793893299,
-    "WSM": 1793892666,
+    "WSM": 1793895602,
     "FITB": 1793893218,
     "CRBG": 1793893120,
     "CACI": 1793643610,
@@ -5178,23 +5239,16 @@
     "ROL": 1793716853,
     "BBT": 1793717182,
     "NTRS": 1793729983,
-    "ESAB": 1793892371,
+    "ESAB": 1793895548,
     "SITE": 1793807304,
     "SIRI": 1793805613,
     "LRN": 1793889722,
     "CRH": 1793893218
   },
-  "last_publish_ts": 1793895510,
-  "last_check_ts": 1793895510,
+  "last_publish_ts": 1793895596,
+  "last_check_ts": 1793895596,
   "exp_arm": {
-    "ESAB": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "WSM": {
+    "NXPI": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -5203,15 +5257,12 @@
     }
   },
   "last_bar_ts": 1793895300,
-  "last_decision_ts": 1793895417,
+  "last_decision_ts": 1793895596,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "8ff284d3": 80.1462,
-    "f09363e0": 79.91,
-    "4fb4bea2": 261.5383,
-    "c93bcffd": 258.0107,
-    "2d0c413c": 252.7141,
-    "5384f344": 77.3381
+    "eec8bc5b": 250.9751,
+    "a192da97": 246.0586,
+    "1f3ccdb9": 242.0829
   }
 }
