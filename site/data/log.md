@@ -1,6 +1,3 @@
-  (cancelled 2 standing order(s) on ESAB: position closed)
-- SELL 100% ESAB [take_profit @ $80.31] -> $3036.61 (+1.22%) — close 100% at +0.5% over the average cost
-## 2026-11-05 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-11-05 09:35 ET (Thursday) — week 2026-W45 — budget left $10010.64 (today $18000.00 put to work, 6 buys, 1 sells) — SIM (pretend money) via sim
   (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on CRH: position closed)
 - SELL 100% CRH [stop_loss @ $95.18] -> $750.23 (+0.03%) — close it all at -1.0% under the average cost
 ## 2026-11-05 10:40 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [stop_loss @ $107.30] -> $748.84 (-0.16%) — close it all at -0.8% under the average cost
+## 2026-11-05 10:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders

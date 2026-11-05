@@ -7400,7 +7400,7 @@
    "ticker": "RPM",
    "kind": "take_profit",
    "price": 107.7878,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 10:36",
    "created_ts": 1793892979,
    "why": "close 100% at +0.3% over the average cost",
@@ -7410,7 +7410,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 10:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7bb8ecb6",
@@ -7436,7 +7438,7 @@
    "ticker": "RPM",
    "kind": "buy_limit",
    "price": 104.2362,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 10:36",
    "created_ts": 1793892979,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7446,14 +7448,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-05 10:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "37234d7f",
    "ticker": "RPM",
    "kind": "stop_loss",
    "price": 107.61,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-05 10:37",
    "created_ts": 1793893029,
    "why": "close it all at -0.8% under the average cost",
@@ -7463,7 +7467,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 10:41"
   },
   {
    "id": "ea3f9ffe",
@@ -7484,5 +7489,5 @@
    "closed": "2026-11-05 10:40"
   }
  ],
- "updated": "2026-11-05 10:40"
+ "updated": "2026-11-05 10:42"
 }

@@ -92625,7 +92625,7 @@
     "code_version": "163dae6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.46
+    "ret_now": -0.58
   },
   {
     "symbol": "WSM",
@@ -92685,7 +92685,9 @@
     "code_version": "163dae6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.47
+    "ret_now": -0.7,
+    "ret_final": -0.7,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRBG",
@@ -92830,7 +92832,9 @@
     "code_version": "f68940a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.25
+    "ret_now": 0.03,
+    "ret_final": 0.03,
+    "ret_src": "realised"
   },
   {
     "symbol": "RPM",
@@ -92859,7 +92863,9 @@
     "code_version": "ab93180",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": -0.16,
+    "ret_final": -0.16,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRBG",
@@ -92939,7 +92945,8 @@
     "evidence": "average cost $54.97",
     "trigger": "stop_loss",
     "hour_et": 10,
-    "code_version": "79f909a"
+    "code_version": "79f909a",
+    "hold_minutes": 8
   },
   {
     "symbol": "CRH",
@@ -92965,6 +92972,34 @@
     "evidence": "average cost $95.15",
     "trigger": "stop_loss",
     "hour_et": 10,
-    "code_version": "79f909a"
+    "code_version": "79f909a",
+    "hold_minutes": 6
+  },
+  {
+    "symbol": "RPM",
+    "side": "sell",
+    "qty": 6.979148,
+    "status": "filled",
+    "price": 107.3,
+    "proceeds": 748.84,
+    "realized_pnl": -1.16,
+    "realized_pct": -0.16,
+    "date": "2026-11-05",
+    "time_et": "10:41",
+    "ts": 1793893200,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $107.46",
+    "trigger": "stop_loss",
+    "hour_et": 10,
+    "code_version": "49bd123",
+    "hold_minutes": 3
   }
 ]
