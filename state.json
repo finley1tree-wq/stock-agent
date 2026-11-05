@@ -1,19 +1,19 @@
 {
   "week": "2026-W45",
-  "spent": 154.98,
-  "deployed": 182250.0,
+  "spent": 3154.98,
+  "deployed": 185250.0,
   "by_ticker": {
     "NXPI": 21.25,
-    "CRBG": 40.74,
+    "CRBG": 790.74,
     "ADI": 44.8,
     "RPM": 48.61,
-    "FITB": 35.1,
-    "PLD": 41.35,
+    "FITB": 785.1,
+    "PLD": 791.35,
     "WSM": 42.71,
     "SITE": 26.83,
     "GH": 7.45,
     "EL": 40.37,
-    "CRH": 26.6,
+    "CRH": 776.6,
     "LRN": 49.64
   },
   "deployed_by_ticker": {
@@ -22,18 +22,18 @@
     "GH": 7500.0,
     "NXPI": 20250.0,
     "ADI": 13500.0,
-    "FITB": 19500.0,
+    "FITB": 20250.0,
     "WSM": 20250.0,
     "CACI": 5250.0,
-    "CRBG": 12000.0,
-    "PLD": 15000.0,
+    "CRBG": 12750.0,
+    "PLD": 15750.0,
     "BBT": 3000.0,
     "ROL": 3000.0,
     "NTRS": 4500.0,
     "ESAB": 9750.0,
     "SITE": 3750.0,
     "SIRI": 750.0,
-    "CRH": 3750.0,
+    "CRH": 4500.0,
     "LRN": 3000.0
   },
   "orders": [
@@ -5227,12 +5227,92 @@
       ],
       "evidence": "average cost $249.57",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "PLD",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.764264,
+      "price": 130.11,
+      "date": "2026-11-05",
+      "time_et": "11:25",
+      "ts": 1793895956,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +2.2% over the month; 7% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "CRH",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.929978,
+      "price": 94.58,
+      "date": "2026-11-05",
+      "time_et": "11:25",
+      "ts": 1793895956,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +16.1% over the month; 5% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "FITB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 13.893627,
+      "price": 53.98,
+      "date": "2026-11-05",
+      "time_et": "11:25",
+      "ts": 1793895956,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +7.7% over the month; 5% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "CRBG",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 21.598966,
+      "price": 34.72,
+      "date": "2026-11-05",
+      "time_et": "11:25",
+      "ts": 1793895956,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "insider net buying (Form 4); +0.9% over the month; 22% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-05",
-  "spent_today": 129.01,
-  "deployed_today": 39000.0,
-  "orders_today": 22,
+  "spent_today": 3129.01,
+  "deployed_today": 42000.0,
+  "orders_today": 26,
   "sells_today": 22,
   "sold_today": [
     "ESAB",
@@ -5266,10 +5346,31 @@
     "LRN": 1793889722,
     "CRH": 1793893218
   },
-  "last_publish_ts": 1793895772,
-  "last_check_ts": 1793895773,
+  "last_publish_ts": 1793895956,
+  "last_check_ts": 1793895956,
   "exp_arm": {
-    "NXPI": {
+    "PLD": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "CRH": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "FITB": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "CRBG": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -5277,9 +5378,22 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1793895600,
-  "last_decision_ts": 1793895773,
-  "next_check_minutes": null,
+  "last_bar_ts": 1793895900,
+  "last_decision_ts": 1793895956,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "dfd7ff11": 130.3728,
+    "5683541f": 54.1295,
+    "743fd805": 34.8526,
+    "66d272a5": 94.9526,
+    "4aadf6ae": 129.4542,
+    "a27f97a6": 53.6059,
+    "0bb4516f": 34.3884,
+    "2f60a891": 93.6474,
+    "ab0f4048": 126.2067,
+    "ee0ae4fd": 91.7426,
+    "2e3e4cf6": 52.3606,
+    "470cb881": 33.6784
+  }
 }
