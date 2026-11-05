@@ -1,37 +1,3 @@
-  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
-  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
-  (GLQ excluded: too thinly traded ($0.3M a day) — Clough Global Equity Fund)
-  (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiUNSG1RzC5kRReyDpDs'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25414.75 (+1.66% on $25000.00 in) · cash $23179.39 · realised +429.39
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-04 14:56 ET (Wednesday) — week 2026-W45 — budget left $22723.43 (today $51000.00 put to work, 35 buys, 32 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ATLO excluded: too thinly traded ($1.8M a day) — Ames National Corporation)
-  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
-  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
-  (GLQ excluded: too thinly traded ($0.3M a day) — Clough Global Equity Fund)
-  (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiUbXxS9ioxPdvthLFnQ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25415.39 (+1.66% on $25000.00 in) · cash $23179.39 · realised +429.39
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-04 14:58 ET (Wednesday) — week 2026-W45 — budget left $22723.43 (today $51000.00 put to work, 35 buys, 32 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ATLO excluded: too thinly traded ($1.8M a day) — Ames National Corporation)
-  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
-  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
-  (GLQ excluded: too thinly traded ($0.3M a day) — Clough Global Equity Fund)
-  (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiUpAaAVdFdYDmQvy1BF'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +364,37 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 FITB @ $54.48 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25423.39 (+1.69% on $25000.00 in) · cash $7429.99 · realised +429.99
 Done: 0 sell(s), 6 buy(s); 18 order(s) working; budget left $6974.03 this week
+  (cancelled 2 standing order(s) on ESAB: position closed)
+- SELL 100% ESAB [take_profit @ $80.31] -> $3036.61 (+1.22%) — close 100% at +0.5% over the average cost
+## 2026-11-05 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-05 09:35 ET (Thursday) — week 2026-W45 — budget left $10010.64 (today $18000.00 put to work, 6 buys, 1 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
+  (LBTY excluded: no security information)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [take_profit @ $262.36] -> $3014.94 (+0.50%) — close 100% at +0.5% over the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgjx23pbovEBFkyStM1dE'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,026 idle, so opened 4: CRH, WSM, CRBG, LRN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CRH [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +22.2% over the month; 40% of today's range
+- BUY $3000.00 WSM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +13.6% over the month; 57% of today's range
+- BUY $3000.00 CRBG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: insider net buying (Form 4); +5.8% over the month; 45% of today's range
+- BUY $3000.00 LRN [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: insider net buying (Form 4); +0.2% over the month; 68% of today's range
+~ WORKING take_profit 100% CRH @ $99.92 until 2026-11-10 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CRH @ $98.74 until 2026-11-10 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CRH @ $96.59 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% WSM @ $274.24 until 2026-11-10 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% WSM @ $270.98 until 2026-11-10 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 WSM @ $265.11 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRBG @ $36.53 until 2026-11-10 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CRBG @ $36.12 until 2026-11-10 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CRBG @ $35.32 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LRN @ $80.20 until 2026-11-10 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% LRN @ $78.96 until 2026-11-10 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 LRN @ $77.45 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25462.97 (+1.85% on $25000.00 in) · cash $1481.55 · realised +481.55
+Done: 1 sell(s), 4 buy(s) (incl. 1 from standing orders); 24 order(s) working; budget left $1025.58 this week
