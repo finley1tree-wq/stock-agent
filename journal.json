@@ -93611,7 +93611,9 @@
     "code_version": "aee05b5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": 0.79,
+    "ret_final": 0.79,
+    "ret_src": "realised"
   },
   {
     "symbol": "RPM",
@@ -93640,7 +93642,7 @@
     "code_version": "aee05b5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": 0.26
   },
   {
     "symbol": "CRH",
@@ -93669,7 +93671,7 @@
     "code_version": "aee05b5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": 0.41
   },
   {
     "symbol": "WSM",
@@ -93698,7 +93700,9 @@
     "code_version": "aee05b5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15
+    "ret_now": 0.41,
+    "ret_final": 0.41,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -93727,7 +93731,9 @@
     "code_version": "aee05b5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": 0.3,
+    "ret_final": 0.3,
+    "ret_src": "realised"
   },
   {
     "symbol": "ESAB",
@@ -93755,5 +93761,86 @@
     "hour_et": 13,
     "code_version": "97f3bc0",
     "hold_minutes": 4
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 3.020422,
+    "status": "filled",
+    "price": 250.26,
+    "proceeds": 755.89,
+    "realized_pnl": 5.89,
+    "realized_pct": 0.79,
+    "date": "2026-11-05",
+    "time_et": "13:10",
+    "ts": 1793902200,
+    "why": "close 100% at +0.6% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $248.31",
+    "trigger": "take_profit",
+    "hour_et": 13,
+    "code_version": "ff444fd",
+    "hold_minutes": 8
+  },
+  {
+    "symbol": "WSM",
+    "side": "sell",
+    "qty": 2.914739,
+    "status": "filled",
+    "price": 258.38,
+    "proceeds": 753.1,
+    "realized_pnl": 3.1,
+    "realized_pct": 0.41,
+    "date": "2026-11-05",
+    "time_et": "13:10",
+    "ts": 1793902200,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $257.31",
+    "trigger": "take_profit",
+    "hour_et": 13,
+    "code_version": "ff444fd",
+    "hold_minutes": 8
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 14.044588,
+    "status": "filled",
+    "price": 53.56,
+    "proceeds": 752.23,
+    "realized_pnl": 2.23,
+    "realized_pct": 0.3,
+    "date": "2026-11-05",
+    "time_et": "13:10",
+    "ts": 1793902200,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $53.4",
+    "trigger": "take_profit",
+    "hour_et": 13,
+    "code_version": "ff444fd",
+    "hold_minutes": 8
   }
 ]

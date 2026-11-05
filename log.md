@@ -61796,3 +61796,24 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25293.44 (+1.17% on $25000.00 in) · cash $21541.03 · realised +291.03
 Decision: nothing at this check. 15 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [take_profit @ $250.26] -> $755.89 (+0.79%) — close 100% at +0.6% over the average cost
+  (cancelled 2 standing order(s) on WSM: position closed)
+- SELL 100% WSM [take_profit @ $258.38] -> $753.10 (+0.41%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [take_profit @ $53.56] -> $752.23 (+0.30%) — close 100% at +0.3% over the average cost
+## 2026-11-05 13:10 ET — tick — 3 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-05 13:10 ET (Thursday) — week 2026-W45 — budget left $23346.29 (today $48000.00 put to work, 34 buys, 32 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (LBTY excluded: no security information)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkENsJXukQzkgMoCqoRT'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25306.67 (+1.23% on $25000.00 in) · cash $23802.25 · realised +302.25
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
