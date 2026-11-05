@@ -1,6 +1,3 @@
-## 2026-11-05 12:17 ET (Thursday) — week 2026-W45 — budget left $23349.89 (today $43500.00 put to work, 28 buys, 26 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
   (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
   (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
   (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on CRH: position closed)
 - SELL 100% CRH [take_profit @ $94.77] -> $752.98 (+0.40%) — close 100% at +0.4% over the average cost
 ## 2026-11-05 13:11 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [take_profit @ $105.50] -> $752.45 (+0.33%) — close 100% at +0.3% over the average cost
+## 2026-11-05 13:13 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-05T13:11-05:00",
+ "asOf": "2026-11-05T13:13-05:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -176,59 +176,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "953fb23f",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 105.28,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 105.39,
-   "pct_away": -0.1,
-   "good_until": "2026-11-10",
-   "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "af207408",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 105.5049,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 105.39,
-   "pct_away": 0.11,
-   "good_until": "2026-11-10",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e86a428d",
-   "ticker": "RPM",
-   "kind": "buy_limit",
-   "price": 102.0052,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 105.39,
-   "pct_away": -3.21,
-   "good_until": "2026-11-10",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,837 idle, so opened 6: ESAB, NXPI, RPM, CRH, WSM, FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, an",
  "congress_trades": [

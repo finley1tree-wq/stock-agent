@@ -93642,7 +93642,9 @@
     "code_version": "aee05b5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.26
+    "ret_now": 0.33,
+    "ret_final": 0.33,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRH",
@@ -93671,7 +93673,9 @@
     "code_version": "aee05b5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.41
+    "ret_now": 0.4,
+    "ret_final": 0.4,
+    "ret_src": "realised"
   },
   {
     "symbol": "WSM",
@@ -93867,6 +93871,34 @@
     "evidence": "average cost $94.4",
     "trigger": "take_profit",
     "hour_et": 13,
-    "code_version": "11bb7f4"
+    "code_version": "11bb7f4",
+    "hold_minutes": 8
+  },
+  {
+    "symbol": "RPM",
+    "side": "sell",
+    "qty": 7.13185,
+    "status": "filled",
+    "price": 105.5,
+    "proceeds": 752.45,
+    "realized_pnl": 2.45,
+    "realized_pct": 0.33,
+    "date": "2026-11-05",
+    "time_et": "13:13",
+    "ts": 1793902200,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $105.16",
+    "trigger": "take_profit",
+    "hour_et": 13,
+    "code_version": "5995dd8",
+    "hold_minutes": 8
   }
 ]
