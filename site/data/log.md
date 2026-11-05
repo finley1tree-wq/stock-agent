@@ -1,6 +1,3 @@
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ATLO excluded: too thinly traded ($1.8M a day) — Ames National Corporation)
-  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
   (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
   (GLQ excluded: too thinly traded ($0.3M a day) — Clough Global Equity Fund)
   (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
@@ -398,3 +395,6 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on LRN: position closed)
 - SELL 100% LRN [stop_loss @ $78.53] -> $2950.36 (-1.65%) — close it all at -1.1% under the average cost
 ## 2026-11-05 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on PLD: position closed)
+- SELL 100% PLD [stop_loss @ $131.52] -> $2984.22 (-0.53%) — close it all at -0.5% under the average cost
+## 2026-11-05 09:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders

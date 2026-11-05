@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-05T09:42-05:00",
+ "asOf": "2026-11-05T09:44-05:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,17 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "7e772ed2",
-   "ticker": "PLD",
+   "id": "792b1235",
+   "ticker": "CRH",
    "kind": "stop_loss",
-   "price": 131.5833,
+   "price": 98.7385,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 131.66,
-   "pct_away": -0.06,
+   "last": 98.85,
+   "pct_away": -0.11,
    "good_until": "2026-11-10",
-   "why": "close it all at -0.5% under the average cost",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -212,57 +212,6 @@
    ]
   },
   {
-   "id": "792b1235",
-   "ticker": "CRH",
-   "kind": "stop_loss",
-   "price": 98.7385,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 99.21,
-   "pct_away": -0.48,
-   "good_until": "2026-11-10",
-   "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0a90b3af",
-   "ticker": "PLD",
-   "kind": "take_profit",
-   "price": 132.4599,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 131.66,
-   "pct_away": 0.61,
-   "good_until": "2026-11-10",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "0893b991",
-   "ticker": "CRH",
-   "kind": "take_profit",
-   "price": 99.9166,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 99.21,
-   "pct_away": 0.71,
-   "good_until": "2026-11-10",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "6adc4a09",
    "ticker": "RPM",
    "kind": "take_profit",
@@ -280,34 +229,17 @@
    ]
   },
   {
-   "id": "97b9f386",
-   "ticker": "RPM",
-   "kind": "buy_limit",
-   "price": 106.8746,
-   "usd": 500.0,
-   "pct_of_position": null,
+   "id": "0893b991",
+   "ticker": "CRH",
+   "kind": "take_profit",
+   "price": 99.9166,
+   "usd": null,
+   "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 109.64,
-   "pct_away": -2.52,
+   "last": 98.85,
+   "pct_away": 1.08,
    "good_until": "2026-11-10",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ffb7232e",
-   "ticker": "PLD",
-   "kind": "buy_limit",
-   "price": 128.2437,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 131.66,
-   "pct_away": -2.59,
-   "good_until": "2026-11-10",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -321,8 +253,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 99.21,
-   "pct_away": -2.64,
+   "last": 98.85,
+   "pct_away": -2.28,
+   "good_until": "2026-11-10",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "97b9f386",
+   "ticker": "RPM",
+   "kind": "buy_limit",
+   "price": 106.8746,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 109.64,
+   "pct_away": -2.52,
    "good_until": "2026-11-10",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

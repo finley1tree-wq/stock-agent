@@ -92047,7 +92047,9 @@
     "code_version": "92795f3",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.23
+    "ret_now": -0.53,
+    "ret_final": -0.53,
+    "ret_src": "realised"
   },
   {
     "symbol": "EL",
@@ -92192,7 +92194,7 @@
     "code_version": "d4ab6c4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.37
+    "ret_now": -0.72
   },
   {
     "symbol": "WSM",
@@ -92283,7 +92285,9 @@
     "code_version": "d4ab6c4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.69
+    "ret_now": -1.65,
+    "ret_final": -1.65,
+    "ret_src": "realised"
   },
   {
     "symbol": "EL",
@@ -92417,6 +92421,34 @@
     "evidence": "average cost $79.85",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "06bd813"
+    "code_version": "06bd813",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "PLD",
+    "side": "sell",
+    "qty": 22.690682,
+    "status": "filled",
+    "price": 131.52,
+    "proceeds": 2984.22,
+    "realized_pnl": -15.78,
+    "realized_pct": -0.53,
+    "date": "2026-11-05",
+    "time_et": "09:44",
+    "ts": 1793889600,
+    "why": "close it all at -0.5% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $132.21",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "c1455f1",
+    "hold_minutes": 7
   }
 ]
