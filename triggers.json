@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "fccd5264",
-   "ticker": "PLD",
-   "kind": "take_profit",
-   "price": 130.2327,
-   "status": "cancelled",
-   "created": "2026-11-02 13:00",
-   "created_ts": 1793642426,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $129.93",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-02 14:32",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "375b84db",
    "ticker": "PLD",
    "kind": "stop_loss",
@@ -7216,7 +7197,7 @@
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 244.7989,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 13:01",
    "created_ts": 1793901697,
    "why": "close it all at -1.4% under the average cost",
@@ -7226,7 +7207,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 13:09",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "2dc99469",
@@ -7466,7 +7449,24 @@
    "good_until": "2026-11-10",
    "pct_of_position": 100.0,
    "closed": "2026-11-05 13:06"
+  },
+  {
+   "id": "4436eec3",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 248.784,
+   "status": "working",
+   "created": "2026-11-05 13:09",
+   "created_ts": 1793902154,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $248.31",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-10",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-05 13:07"
+ "updated": "2026-11-05 13:09"
 }
