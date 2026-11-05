@@ -1,9 +1,9 @@
 {
   "week": "2026-W45",
-  "spent": 901.76,
-  "deployed": 174000.0,
+  "spent": 1651.76,
+  "deployed": 174750.0,
   "by_ticker": {
-    "NXPI": 29.36,
+    "NXPI": 779.36,
     "CRBG": 33.61,
     "ADI": 44.8,
     "RPM": 47.45,
@@ -21,7 +21,7 @@
     "RPM": 17250.0,
     "EL": 18750.0,
     "GH": 7500.0,
-    "NXPI": 18750.0,
+    "NXPI": 19500.0,
     "ADI": 13500.0,
     "FITB": 18750.0,
     "WSM": 18750.0,
@@ -4756,12 +4756,32 @@
       "evidence": "1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +18.5% over the month; 31% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.935983,
+      "price": 255.45,
+      "date": "2026-11-05",
+      "time_et": "10:23",
+      "ts": 1793892234,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +8.6% over the month; 7% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-05",
-  "spent_today": 875.79,
-  "deployed_today": 30750.0,
-  "orders_today": 11,
+  "spent_today": 1625.79,
+  "deployed_today": 31500.0,
+  "orders_today": 12,
   "sells_today": 10,
   "sold_today": [
     "ESAB",
@@ -4795,10 +4815,17 @@
     "LRN": 1793889722,
     "CRH": 1793890091
   },
-  "last_publish_ts": 1793892107,
-  "last_check_ts": 1793892153,
+  "last_publish_ts": 1793892234,
+  "last_check_ts": 1793892234,
   "exp_arm": {
     "ESAB": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "NXPI": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -4807,12 +4834,15 @@
     }
   },
   "last_bar_ts": 1793892000,
-  "last_decision_ts": 1793892062,
+  "last_decision_ts": 1793892234,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "0a1d16d0": 79.9761,
-    "e3db5f9a": 79.74,
+    "80de309a": 79.878,
+    "9385eb7a": 256.7758,
+    "a801b0a6": 252.1343,
+    "a3cb9c29": 247.7865,
     "761bff04": 77.1732
   }
 }

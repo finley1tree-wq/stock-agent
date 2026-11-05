@@ -1,20 +1,3 @@
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-04 15:44 ET (Wednesday) — week 2026-W45 — budget left $24974.03 (today $51000.00 put to work, 35 buys, 35 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ATLO excluded: too thinly traded ($1.8M a day) — Ames National Corporation)
-  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
-  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
-  (GLQ excluded: too thinly traded ($0.3M a day) — Clough Global Equity Fund)
-  (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiYM46CrAD4Kji7U15nf'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25429.99 (+1.72% on $25000.00 in) · cash $25429.99 · realised +429.99
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-11-04 15:47 ET (Wednesday) — week 2026-W45 — budget left $24974.03 (today $51000.00 put to work, 35 buys, 35 sells) — SIM (pretend money) via sim
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 ESAB @ $77.17 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25303.91 (+1.22% on $25000.00 in) · cash $24554.21 · realised +304.21
 Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $24098.24 this week
+
+## 2026-11-05 10:23 ET (Thursday) — week 2026-W45 — budget left $24098.24 (today $30750.00 put to work, 11 buys, 10 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
+  (LBTY excluded: no security information)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgk1f8xYr42bjYZYi1qhU'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,098 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +8.6% over the month; 7% of today's range
+~ WORKING take_profit 100% NXPI @ $256.78 until 2026-11-10 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% NXPI @ $252.13 until 2026-11-10 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $247.79 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25309.04 (+1.24% on $25000.00 in) · cash $23804.21 · realised +304.21
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $23348.24 this week
