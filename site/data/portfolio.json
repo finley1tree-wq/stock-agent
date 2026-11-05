@@ -1,18 +1,9 @@
 {
-  "cash": 21556.47872653678,
+  "cash": 21560.368081790242,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W45",
   "positions": {
-    "NXPI": {
-      "qty": 2.935982889561477,
-      "avg_cost": 255.45108,
-      "opened": "2026-11-05",
-      "last_buy": "2026-11-05",
-      "tranches": 1,
-      "last_buy_ts": 1793892243,
-      "opened_ts": 1793892243
-    },
     "EL": {
       "qty": 6.801851932063321,
       "avg_cost": 110.264088,
@@ -48,6 +39,15 @@
       "tranches": 1,
       "last_buy_ts": 1793892619,
       "opened_ts": 1793892619
+    },
+    "CRH": {
+      "qty": 7.88245315899505,
+      "avg_cost": 95.148044,
+      "opened": "2026-11-05",
+      "last_buy": "2026-11-05",
+      "tranches": 1,
+      "last_buy_ts": 1793892817,
+      "opened_ts": 1793892817
     }
   },
   "fills": [
@@ -36223,7 +36223,29 @@
       "realized_pct": 0.03,
       "type": "sell",
       "date": "2026-11-05 10:31"
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 2.935983,
+      "status": "filled",
+      "price": 256.78,
+      "proceeds": 753.89,
+      "realized_pnl": 3.89,
+      "realized_pct": 0.52,
+      "type": "sell",
+      "date": "2026-11-05 10:33"
+    },
+    {
+      "symbol": "CRH",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.882453,
+      "price": 95.15,
+      "type": "buy",
+      "date": "2026-11-05 10:33"
     }
   ],
-  "realized_pnl": 306.4787265367938
+  "realized_pnl": 310.3680817902537
 }

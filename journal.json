@@ -92567,7 +92567,9 @@
     "code_version": "b8761ea",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": 0.52,
+    "ret_final": 0.52,
+    "ret_src": "realised"
   },
   {
     "symbol": "ESAB",
@@ -92623,7 +92625,7 @@
     "code_version": "163dae6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": -0.49
   },
   {
     "symbol": "WSM",
@@ -92652,7 +92654,9 @@
     "code_version": "163dae6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.38
+    "ret_now": 0.03,
+    "ret_final": 0.03,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -92681,7 +92685,7 @@
     "code_version": "163dae6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05
+    "ret_now": -0.13
   },
   {
     "symbol": "CRBG",
@@ -92710,7 +92714,7 @@
     "code_version": "163dae6",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": -0.54
   },
   {
     "symbol": "PLD",
@@ -92738,7 +92742,8 @@
     "hour_et": 10,
     "code_version": "bfaf848",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.08
   },
   {
     "symbol": "WSM",
@@ -92764,6 +92769,62 @@
     "evidence": "average cost $262.46",
     "trigger": "stop_loss",
     "hour_et": 10,
-    "code_version": "62b2726"
+    "code_version": "62b2726",
+    "hold_minutes": 3
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 2.935983,
+    "status": "filled",
+    "price": 256.78,
+    "proceeds": 753.89,
+    "realized_pnl": 3.89,
+    "realized_pct": 0.52,
+    "date": "2026-11-05",
+    "time_et": "10:33",
+    "ts": 1793892600,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $255.45",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "f68940a",
+    "hold_minutes": 6
+  },
+  {
+    "symbol": "CRH",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 7.882453,
+    "price": 95.15,
+    "date": "2026-11-05",
+    "time_et": "10:33",
+    "ts": 1793892807,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4); +16.8% over the month; 3% of today's range",
+    "experiments": {},
+    "hold_minutes": 120,
+    "entry_price": 95.11,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 16.76,
+    "hour_et": 10,
+    "code_version": "f68940a",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
