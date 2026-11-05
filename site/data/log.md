@@ -1,6 +1,3 @@
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
   (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
   (LBTY excluded: no security information)
   (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21095.02 this week
   (cancelled 2 standing order(s) on CRH: position closed)
 - SELL 100% CRH [take_profit @ $95.06] -> $753.82 (+0.51%) — close 100% at +0.4% over the average cost
 ## 2026-11-05 11:30 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [stop_loss @ $34.75] -> $750.58 (+0.08%) — close it all at -1.0% under the average cost
+## 2026-11-05 11:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -93232,7 +93232,7 @@
     "code_version": "552f8c4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05
+    "ret_now": 0.03
   },
   {
     "symbol": "CRH",
@@ -93261,7 +93261,9 @@
     "code_version": "552f8c4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.43
+    "ret_now": 0.51,
+    "ret_final": 0.51,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -93290,7 +93292,9 @@
     "code_version": "552f8c4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15
+    "ret_now": 0.08,
+    "ret_final": 0.08,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRBG",
@@ -93319,7 +93323,9 @@
     "code_version": "552f8c4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.26
+    "ret_now": 0.08,
+    "ret_final": 0.08,
+    "ret_src": "realised"
   },
   {
     "symbol": "RPM",
@@ -93347,7 +93353,8 @@
     "hour_et": 11,
     "code_version": "60511d5",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.02
   },
   {
     "symbol": "FITB",
@@ -93373,7 +93380,8 @@
     "evidence": "average cost $53.98",
     "trigger": "stop_loss",
     "hour_et": 11,
-    "code_version": "fc8b995"
+    "code_version": "fc8b995",
+    "hold_minutes": 4
   },
   {
     "symbol": "CRH",
@@ -93399,6 +93407,34 @@
     "evidence": "average cost $94.58",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "fc8b995"
+    "code_version": "fc8b995",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "CRBG",
+    "side": "sell",
+    "qty": 21.598966,
+    "status": "filled",
+    "price": 34.75,
+    "proceeds": 750.58,
+    "realized_pnl": 0.58,
+    "realized_pct": 0.08,
+    "date": "2026-11-05",
+    "time_et": "11:31",
+    "ts": 1793896200,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $34.72",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "76cef20",
+    "hold_minutes": 4
   }
 ]

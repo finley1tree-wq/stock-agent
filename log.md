@@ -61189,3 +61189,20 @@ Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21095.02 this week
   (cancelled 2 standing order(s) on CRH: position closed)
 - SELL 100% CRH [take_profit @ $95.06] -> $753.82 (+0.51%) — close 100% at +0.4% over the average cost
 ## 2026-11-05 11:30 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CRBG: position closed)
+- SELL 100% CRBG [stop_loss @ $34.75] -> $750.58 (+0.08%) — close it all at -1.0% under the average cost
+## 2026-11-05 11:31 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-05 11:32 ET (Thursday) — week 2026-W45 — budget left $23350.00 (today $42750.00 put to work, 27 buys, 25 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
+  (LBTY excluded: no security information)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgk6rK3R9Cziam8FBSRt8'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25305.74 (+1.22% on $25000.00 in) · cash $23805.96 · realised +305.96
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
