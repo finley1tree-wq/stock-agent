@@ -61885,3 +61885,17 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25308.25 (+1.23% on $25000.00 in) · cash $25308.25 · realised +308.25
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-05 13:25 ET (Thursday) — week 2026-W45 — budget left $24852.30 (today $48750.00 put to work, 35 buys, 35 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (LBTY excluded: no security information)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkFUwhEs4tQWjrYEnoFs'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25308.25 (+1.23% on $25000.00 in) · cash $25308.25 · realised +308.25
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
