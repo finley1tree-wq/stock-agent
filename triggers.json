@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "a4a8c77d",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 107.286,
-   "status": "cancelled",
-   "created": "2026-11-02 13:13",
-   "created_ts": 1793643185,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $107.13",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-02 13:13",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "00ebd1fd",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 260.904,
-   "status": "filled",
-   "created": "2026-11-02 13:13",
-   "created_ts": 1793643231,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $260.46",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-02 13:16"
-  },
-  {
    "id": "9bb722b0",
    "ticker": "FITB",
    "kind": "take_profit",
@@ -7250,7 +7213,7 @@
    "ticker": "NXPI",
    "kind": "take_profit",
    "price": 253.7254,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-05 13:58",
    "created_ts": 1793905080,
    "why": "close 100% at +0.6% over the average cost",
@@ -7260,7 +7223,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 14:14"
   },
   {
    "id": "5bd95074",
@@ -7322,7 +7286,7 @@
    "ticker": "CRH",
    "kind": "stop_loss",
    "price": 93.8375,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 13:58",
    "created_ts": 1793905080,
    "why": "close it all at -1.0% under the average cost",
@@ -7332,7 +7296,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 14:14",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "bab27267",
@@ -7464,7 +7430,7 @@
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 252.764,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 14:12",
    "created_ts": 1793905978,
    "why": "close it all at -1.4% under the average cost",
@@ -7474,8 +7440,46 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 14:13",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "7c46ee0b",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 253.166,
+   "status": "cancelled",
+   "created": "2026-11-05 14:13",
+   "created_ts": 1793906032,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $252.32",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-10",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 14:14",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "ec0b0312",
+   "ticker": "CRH",
+   "kind": "stop_loss",
+   "price": 94.968,
+   "status": "working",
+   "created": "2026-11-05 14:14",
+   "created_ts": 1793906079,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $94.77",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-10",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-05 14:13"
+ "updated": "2026-11-05 14:14"
 }

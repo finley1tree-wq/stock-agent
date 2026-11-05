@@ -1,22 +1,3 @@
-~ WORKING stop_loss 100% NXPI @ $244.80 until 2026-11-10 — close it all at -1.4% under the average cost
-~ WORKING buy_limit $500.00 NXPI @ $240.86 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% RPM @ $105.50 until 2026-11-10 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% RPM @ $104.30 until 2026-11-10 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 RPM @ $102.01 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CRH @ $94.77 until 2026-11-10 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% CRH @ $93.47 until 2026-11-10 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 CRH @ $91.57 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% WSM @ $258.34 until 2026-11-10 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% WSM @ $254.73 until 2026-11-10 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 WSM @ $249.59 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% FITB @ $53.55 until 2026-11-10 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% FITB @ $53.02 until 2026-11-10 — close it all at -0.7% under the average cost
-~ WORKING buy_limit $500.00 FITB @ $51.80 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25291.11 (+1.16% on $25000.00 in) · cash $20792.76 · realised +292.76
-Done: 0 sell(s), 6 buy(s); 18 order(s) working; budget left $20336.80 this week
-
-## 2026-11-05 13:04 ET (Thursday) — week 2026-W45 — budget left $20336.80 (today $48000.00 put to work, 34 buys, 28 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
   (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
   (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
   (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
@@ -398,3 +379,22 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25311.46 (+1.25% on $25000.00 in) · cash $21563.62 · realised +313.62
 Decision: nothing at this check. 10 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-05 14:13 ET (Thursday) — week 2026-W45 — budget left $21107.67 (today $53250.00 put to work, 41 buys, 36 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (LBTY excluded: no security information)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (no price for XIVYX — excluded this check)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkK8EgaBtSRegFV5hERj'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25315.45 (+1.26% on $25000.00 in) · cash $21563.62 · realised +313.62
+Decision: nothing at this check. 10 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [take_profit @ $253.73] -> $754.18 (+0.56%) — close 100% at +0.6% over the average cost
+## 2026-11-05 14:14 ET — tick — 1 sell(s), 0 buy(s) from standing orders
