@@ -1,20 +1,3 @@
-
-## 2026-11-04 15:05 ET (Wednesday) — week 2026-W45 — budget left $23469.43 (today $51000.00 put to work, 35 buys, 33 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (ATLO excluded: too thinly traded ($1.8M a day) — Ames National Corporation)
-  (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
-  (GLO excluded: too thinly traded ($0.6M a day) — Clough Global Opportunities Fund)
-  (GLQ excluded: too thinly traded ($0.3M a day) — Clough Global Equity Fund)
-  (GLV excluded: too thinly traded ($0.2M a day) — Clough Global Dividend and Income Fund)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgiVM4HWJVLhpNRdfZeKN'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25420.41 (+1.68% on $25000.00 in) · cash $23925.39 · realised +425.39
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-04 15:07 ET (Wednesday) — week 2026-W45 — budget left $23469.43 (today $51000.00 put to work, 35 buys, 33 sells) — SIM (pretend money) via sim
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (ATLO excluded: too thinly traded ($1.8M a day) — Ames National Corporation)
   (FUNC excluded: too thinly traded ($1.3M a day) — First United Corporation)
@@ -398,3 +381,20 @@ Decision: nothing at this check. 24 standing order(s) working.
   (cancelled 2 standing order(s) on FITB: position closed)
 - SELL 100% FITB [stop_loss @ $55.79] -> $2979.36 (-0.69%) — close it all at -0.6% under the average cost
 ## 2026-11-05 09:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-05 09:41 ET (Thursday) — week 2026-W45 — budget left $12963.48 (today $30000.00 put to work, 10 buys, 6 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
+  (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
+  (LBTY excluded: no security information)
+  (MXF excluded: too thinly traded ($0.7M a day) — The Mexico Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgjxQXFj2Np6oTkpnmCKN'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25362.19 (+1.45% on $25000.00 in) · cash $13419.45 · realised +419.45
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on LRN: position closed)
+- SELL 100% LRN [stop_loss @ $78.53] -> $2950.36 (-1.65%) — close it all at -1.1% under the average cost
+## 2026-11-05 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders

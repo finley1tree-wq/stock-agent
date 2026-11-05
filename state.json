@@ -1,6 +1,6 @@
 {
   "week": "2026-W45",
-  "spent": 12036.52,
+  "spent": 9086.16,
   "deployed": 173250.0,
   "by_ticker": {
     "NXPI": 29.36,
@@ -14,7 +14,7 @@
     "GH": 7.45,
     "EL": 31.8,
     "CRH": 3000.0,
-    "LRN": 3000.0
+    "LRN": 49.64
   },
   "deployed_by_ticker": {
     "RPM": 17250.0,
@@ -4651,20 +4651,42 @@
       ],
       "evidence": "average cost $56.17",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "LRN",
+      "side": "sell",
+      "qty": 37.569537,
+      "status": "filled",
+      "price": 78.53,
+      "proceeds": 2950.36,
+      "realized_pnl": -49.64,
+      "realized_pct": -1.65,
+      "date": "2026-11-05",
+      "time_et": "09:42",
+      "ts": 1793889600,
+      "why": "close it all at -1.1% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $79.85",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-05",
-  "spent_today": 12010.55,
+  "spent_today": 9060.19,
   "deployed_today": 30000.0,
   "orders_today": 10,
-  "sells_today": 6,
+  "sells_today": 7,
   "sold_today": [
     "ESAB",
     "NXPI",
     "EL",
     "WSM",
     "CRBG",
-    "FITB"
+    "FITB",
+    "LRN"
   ],
   "sold_ts": {
     "NXPI": 1793889377,
@@ -4682,10 +4704,11 @@
     "NTRS": 1793729983,
     "ESAB": 1793889336,
     "SITE": 1793807304,
-    "SIRI": 1793805613
+    "SIRI": 1793805613,
+    "LRN": 1793889722
   },
-  "last_publish_ts": 1793889667,
-  "last_check_ts": 1793889669,
+  "last_publish_ts": 1793889721,
+  "last_check_ts": 1793889767,
   "exp_arm": {
     "RPM": {
       "params": {
@@ -4751,13 +4774,10 @@
   "book_px": {
     "7e772ed2": 131.5833,
     "d9408271": 109.3944,
-    "59d00d33": 78.9629,
-    "0a90b3af": 132.4599,
     "792b1235": 98.7385,
+    "0a90b3af": 132.4599,
     "0893b991": 99.9166,
     "6adc4a09": 110.494,
-    "fbc9ddea": 80.2045,
-    "c41bf24b": 77.4545,
     "97b9f386": 106.8746,
     "ffb7232e": 128.2437,
     "ca5e1e4f": 96.5926

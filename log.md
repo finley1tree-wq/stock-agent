@@ -60589,3 +60589,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25362.19 (+1.45% on $25000.00 in) · cash $13419.45 · realised +419.45
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on LRN: position closed)
+- SELL 100% LRN [stop_loss @ $78.53] -> $2950.36 (-1.65%) — close it all at -1.1% under the average cost
+## 2026-11-05 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
