@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "10114860",
-   "ticker": "WSM",
-   "kind": "take_profit",
-   "price": 261.5495,
-   "status": "filled",
-   "created": "2026-11-02 10:33",
-   "created_ts": 1793633612,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $260.71",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-07",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-02 10:45"
-  },
-  {
    "id": "b07500c6",
    "ticker": "WSM",
    "kind": "stop_loss",
@@ -7458,7 +7440,7 @@
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 246.0586,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-05 11:19",
    "created_ts": 1793895596,
    "why": "close it all at -1.4% under the average cost",
@@ -7468,7 +7450,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-10",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-05 11:20",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "1f3ccdb9",
@@ -7486,7 +7470,24 @@
    ],
    "good_until": "2026-11-10",
    "usd": 500.0
+  },
+  {
+   "id": "0208d7b6",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 250.134,
+   "status": "working",
+   "created": "2026-11-05 11:20",
+   "created_ts": 1793895641,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $249.57",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-10",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-05 11:19"
+ "updated": "2026-11-05 11:20"
 }
