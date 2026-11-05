@@ -1,6 +1,3 @@
-## 2026-11-05 10:30 ET (Thursday) — week 2026-W45 — budget left $21100.30 (today $34500.00 put to work, 16 buys, 11 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
   (GRX excluded: too thinly traded ($0.2M a day) — The Gabelli Healthcare & Wellness Trust)
   (JBSS excluded: too thinly traded ($8.3M a day) — John B. Sanfilippo & Son, Inc.)
   (LBTY excluded: no security information)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 EL @ $106.22 until 2026-11-10 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25303.28 (+1.21% on $25000.00 in) · cash $23055.96 · realised +305.96
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22600.00 this week
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [stop_loss @ $106.28] -> $749.89 (-0.01%) — close it all at -0.8% under the average cost
+## 2026-11-05 11:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -93232,7 +93232,7 @@
     "code_version": "552f8c4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.2
+    "ret_now": -0.4
   },
   {
     "symbol": "CRH",
@@ -93354,7 +93354,9 @@
     "code_version": "60511d5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": -0.01,
+    "ret_final": -0.01,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -93463,6 +93465,34 @@
     "hour_et": 11,
     "code_version": "ef054b6",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.05
+  },
+  {
+    "symbol": "RPM",
+    "side": "sell",
+    "qty": 7.056001,
+    "status": "filled",
+    "price": 106.28,
+    "proceeds": 749.89,
+    "realized_pnl": -0.11,
+    "realized_pct": -0.01,
+    "date": "2026-11-05",
+    "time_et": "11:40",
+    "ts": 1793896800,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $106.29",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "108171c",
+    "hold_minutes": 11
   }
 ]
