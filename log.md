@@ -64702,3 +64702,18 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25431.33 (+1.73% on $25000.00 in) · cash $25431.33 · realised +431.33
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-06 15:30 ET (Friday) — week 2026-W45 — budget left $24975.36 (today $30750.00 put to work, 20 buys, 20 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (CLST excluded: too thinly traded ($0.1M a day) — Catalyst Bancorp, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgnJsJx9B8JM4D5zHQEx3'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25431.33 (+1.73% on $25000.00 in) · cash $25431.33 · realised +431.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
