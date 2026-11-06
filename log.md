@@ -63202,3 +63202,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25420.12 (+1.68% on $25000.00 in) · cash $23179.44 · realised +429.44
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ESAB: position closed)
+- SELL 100% ESAB [stop_loss @ $80.26] -> $739.41 (-1.41%) — close it all at -1.4% under the average cost
+## 2026-11-06 10:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-06 10:43 ET (Friday) — week 2026-W45 — budget left $23462.89 (today $24750.00 put to work, 12 buys, 10 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (LYEL excluded: too thinly traded ($2.5M a day) — Lyell Immunopharma, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgmvz9fB1tZVxXmwGPz9i'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25414.85 (+1.66% on $25000.00 in) · cash $23918.85 · realised +418.85
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

@@ -1,6 +1,6 @@
 {
   "week": "2026-W45",
-  "spent": 2276.52,
+  "spent": 1537.11,
   "deployed": 221250.0,
   "by_ticker": {
     "CRBG": 40.16,
@@ -14,7 +14,7 @@
     "EL": 762.87,
     "LRN": 49.64,
     "NXPI": 11.12,
-    "ESAB": 750.0,
+    "ESAB": 10.59,
     "BXMT": 8.2
   },
   "deployed_by_ticker": {
@@ -6437,13 +6437,34 @@
       ],
       "evidence": "average cost $11.54",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ESAB",
+      "side": "sell",
+      "qty": 9.212339,
+      "status": "filled",
+      "price": 80.26,
+      "proceeds": 739.41,
+      "realized_pnl": -10.59,
+      "realized_pct": -1.41,
+      "date": "2026-11-06",
+      "time_et": "10:43",
+      "ts": 1793979600,
+      "why": "close it all at -1.4% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $81.41",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-06",
-  "spent_today": 2269.32,
+  "spent_today": 1529.91,
   "deployed_today": 24750.0,
   "orders_today": 12,
-  "sells_today": 9,
+  "sells_today": 10,
   "sold_today": [
     "CRH",
     "FITB",
@@ -6467,15 +6488,15 @@
     "ROL": 1793716853,
     "BBT": 1793717182,
     "NTRS": 1793729983,
-    "ESAB": 1793975907,
+    "ESAB": 1793979827,
     "SITE": 1793807304,
     "SIRI": 1793805613,
     "LRN": 1793889722,
     "CRH": 1793975710,
     "BXMT": 1793979529
   },
-  "last_publish_ts": 1793979529,
-  "last_check_ts": 1793979746,
+  "last_publish_ts": 1793979826,
+  "last_check_ts": 1793979829,
   "exp_arm": {
     "FITB": {
       "params": {
@@ -6507,17 +6528,14 @@
     }
   },
   "last_bar_ts": 1793979600,
-  "last_decision_ts": 1793979662,
+  "last_decision_ts": 1793979829,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "1ddfea9e": 80.3036,
     "8031d65e": 53.6113,
     "53f02ff5": 53.0815,
-    "4a1a2e2e": 109.0175,
     "0ba43020": 107.2067,
-    "9f61753d": 81.8529,
-    "366aafe2": 78.9677,
+    "4a1a2e2e": 109.0175,
     "f9611ccd": 105.245,
     "923a2a2b": 51.8562
   }
