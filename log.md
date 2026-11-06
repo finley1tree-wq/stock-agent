@@ -63416,3 +63416,20 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on NXPI: position closed)
 - SELL 100% NXPI [take_profit @ $247.89] -> $754.33 (+0.58%) — close 100% at +0.6% over the average cost
 ## 2026-11-06 11:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-06 11:25 ET (Friday) — week 2026-W45 — budget left $24220.59 (today $26250.00 put to work, 14 buys, 13 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (LYEL excluded: too thinly traded ($2.5M a day) — Lyell Immunopharma, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgmz93VwaptzVdxwPBDtQ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,221 idle, so opened 1: BXMT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 BXMT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: insider net buying (Form 4); +1.2% over the month; 11% of today's range
+~ WORKING take_profit 100% BXMT @ $11.40 until 2026-11-11 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% BXMT @ $11.23 until 2026-11-11 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 BXMT @ $11.01 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25423.67 (+1.69% on $25000.00 in) · cash $23926.54 · realised +426.54
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $23470.59 this week

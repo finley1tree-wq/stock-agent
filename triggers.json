@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "ee1b72bd",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 263.9851,
-   "status": "filled",
-   "created": "2026-11-03 10:27",
-   "created_ts": 1793719671,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $262.69",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 10:42"
-  },
-  {
-   "id": "b893ef9a",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 259.4537,
-   "status": "cancelled",
-   "created": "2026-11-03 10:27",
-   "created_ts": 1793719671,
-   "why": "close it all at -1.2% under the average cost",
-   "evidence": "average cost $262.69",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 10:42",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "e2af89b0",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 254.8093,
-   "status": "cancelled",
-   "created": "2026-11-03 10:27",
-   "created_ts": 1793719671,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $262.69",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "usd": 500.0,
-   "closed": "2026-11-03 10:42",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "f6962c46",
    "ticker": "FITB",
    "kind": "take_profit",
@@ -7486,7 +7430,58 @@
    "pct_of_position": 100.0,
    "closed": "2026-11-06 11:23",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "cc70126a",
+   "ticker": "BXMT",
+   "kind": "take_profit",
+   "price": 11.3976,
+   "status": "working",
+   "created": "2026-11-06 11:25",
+   "created_ts": 1793982312,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $11.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "795e8d9b",
+   "ticker": "BXMT",
+   "kind": "stop_loss",
+   "price": 11.2312,
+   "status": "working",
+   "created": "2026-11-06 11:25",
+   "created_ts": 1793982312,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $11.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "a5eca0c9",
+   "ticker": "BXMT",
+   "kind": "buy_limit",
+   "price": 11.0095,
+   "status": "working",
+   "created": "2026-11-06 11:25",
+   "created_ts": 1793982312,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $11.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-11",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-06 11:23"
+ "updated": "2026-11-06 11:25"
 }

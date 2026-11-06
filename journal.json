@@ -94771,7 +94771,7 @@
     "code_version": "7186e39",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.19
+    "ret_now": -0.24
   },
   {
     "symbol": "ESAB",
@@ -95059,7 +95059,9 @@
     "code_version": "cfd050f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.45
+    "ret_now": 0.58,
+    "ret_final": 0.58,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -95085,6 +95087,35 @@
     "evidence": "average cost $246.47",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "3c53412"
+    "code_version": "3c53412",
+    "hold_minutes": 0
+  },
+  {
+    "symbol": "BXMT",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 66.071495,
+    "price": 11.35,
+    "date": "2026-11-06",
+    "time_et": "11:25",
+    "ts": 1793982312,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "insider net buying (Form 4); +1.2% over the month; 11% of today's range",
+    "experiments": {},
+    "hold_minutes": 120,
+    "entry_price": 11.34,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 1.16,
+    "hour_et": 11,
+    "code_version": "06b00c6",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
