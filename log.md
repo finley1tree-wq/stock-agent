@@ -64206,3 +64206,17 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25432.06 (+1.73% on $25000.00 in) · cash $24680.99 · realised +430.99
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-06 13:52 ET (Friday) — week 2026-W45 — budget left $24225.03 (today $30750.00 put to work, 20 buys, 19 sells) — SIM (pretend money) via sim
+  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (CLST excluded: too thinly traded ($0.1M a day) — Catalyst Bancorp, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (KYN excluded: too thinly traded ($4.2M a day) — Kayne Anderson Energy Infrastructure Fund, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgnBP2u994bpeVWz5PocM'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25431.41 (+1.73% on $25000.00 in) · cash $24680.99 · realised +430.99
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
