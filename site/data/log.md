@@ -1,6 +1,3 @@
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgn3wjsT7DR1tCdX9r7T8'}
   -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,471 idle, so opened 2: NXPI, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 ESAB @ $79.98 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25418.69 (+1.67% on $25000.00 in) · cash $21667.36 · realised +417.36
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21211.40 this week
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [take_profit @ $248.96] -> $754.31 (+0.58%) — close 100% at +0.6% over the average cost
+## 2026-11-06 13:24 ET — tick — 1 sell(s), 0 buy(s) from standing orders
