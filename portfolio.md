@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-11-06 13:37 ET
+# Pretend portfolio — 2026-11-06 13:40 ET
 
-**Equity $25428.86** on $25000.00 put in → **+1.72%**  
-Cash $23927.86 · Unrealised +1.00 · Realised +427.86
+**Equity $25429.08** on $25000.00 put in → **+1.72%**  
+Cash $23927.86 · Unrealised +1.22 · Realised +427.86
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
+| RPM | 3.0% | $750.64 | $103.98 | $104.07 | +0.09% | 0d |
 | BXMT | 3.0% | $750.58 | $11.26 | $11.27 | +0.08% | 0d |
-| RPM | 3.0% | $750.42 | $103.98 | $104.04 | +0.06% | 0d |
 
 ## Last fills
 
