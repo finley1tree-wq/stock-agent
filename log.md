@@ -63116,3 +63116,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25448.86 (+1.80% on $25000.00 in) · cash $23948.76 · realised +448.76
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-06 10:29 ET (Friday) — week 2026-W45 — budget left $23492.80 (today $22500.00 put to work, 9 buys, 7 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgmusxSD8Bb6PDoaEkA5m'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,493 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ESAB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +25.4% over the month; 78% of today's range
+~ WORKING take_profit 100% ESAB @ $81.85 until 2026-11-11 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% ESAB @ $80.30 until 2026-11-11 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 ESAB @ $78.97 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25442.00 (+1.77% on $25000.00 in) · cash $23198.76 · realised +448.76
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22742.80 this week

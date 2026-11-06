@@ -1,7 +1,7 @@
 {
   "week": "2026-W45",
-  "spent": 1507.2,
-  "deployed": 219000.0,
+  "spent": 2257.2,
+  "deployed": 219750.0,
   "by_ticker": {
     "CRBG": 40.16,
     "ADI": 44.8,
@@ -13,7 +13,8 @@
     "GH": 7.45,
     "EL": 12.87,
     "LRN": 49.64,
-    "NXPI": 750.0
+    "NXPI": 750.0,
+    "ESAB": 750.0
   },
   "deployed_by_ticker": {
     "RPM": 22500.0,
@@ -29,7 +30,7 @@
     "BBT": 3000.0,
     "ROL": 3000.0,
     "NTRS": 4500.0,
-    "ESAB": 14250.0,
+    "ESAB": 15000.0,
     "SITE": 3750.0,
     "SIRI": 750.0,
     "CRH": 9000.0,
@@ -6333,12 +6334,32 @@
       "evidence": "congress net buying (1 net buyer); +5.4% over the month; 82% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ESAB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.212339,
+      "price": 81.41,
+      "date": "2026-11-06",
+      "time_et": "10:29",
+      "ts": 1793978959,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +25.4% over the month; 78% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-06",
-  "spent_today": 1500.0,
-  "deployed_today": 22500.0,
-  "orders_today": 9,
+  "spent_today": 2250.0,
+  "deployed_today": 23250.0,
+  "orders_today": 10,
   "sells_today": 7,
   "sold_today": [
     "CRH",
@@ -6370,8 +6391,8 @@
     "CRH": 1793975710,
     "BXMT": 1793976432
   },
-  "last_publish_ts": 1793978590,
-  "last_check_ts": 1793978860,
+  "last_publish_ts": 1793978959,
+  "last_check_ts": 1793978959,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -6386,18 +6407,28 @@
         "ratchet": "on"
       },
       "tags": {}
+    },
+    "ESAB": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
     }
   },
   "last_bar_ts": 1793978700,
-  "last_decision_ts": 1793978766,
-  "next_check_minutes": null,
+  "last_decision_ts": 1793978959,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "8031d65e": 53.6113,
-    "a7daf44c": 248.8201,
-    "53f02ff5": 53.0815,
+    "9f61753d": 81.8529,
     "818097df": 243.8523,
-    "923a2a2b": 51.8562,
-    "1b38ffe2": 239.978
+    "53f02ff5": 53.0815,
+    "1ddfea9e": 80.3036,
+    "a7daf44c": 248.8201,
+    "1b38ffe2": 239.978,
+    "366aafe2": 78.9677,
+    "923a2a2b": 51.8562
   }
 }

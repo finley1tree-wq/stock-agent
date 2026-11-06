@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "5a255104",
-   "ticker": "ROL",
-   "kind": "stop_loss",
-   "price": 35.9917,
-   "status": "cancelled",
-   "created": "2026-11-03 09:35",
-   "created_ts": 1793716547,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $36.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 09:39",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "6b7e6d87",
-   "ticker": "ROL",
-   "kind": "buy_limit",
-   "price": 35.2304,
-   "status": "cancelled",
-   "created": "2026-11-03 09:35",
-   "created_ts": 1793716547,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $36.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "usd": 500.0,
-   "closed": "2026-11-03 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "a71d52ce",
-   "ticker": "ROL",
-   "kind": "stop_loss",
-   "price": 36.518,
-   "status": "cancelled",
-   "created": "2026-11-03 09:39",
-   "created_ts": 1793716769,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $36.32",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "dcec1b76",
    "ticker": "NTRS",
    "kind": "take_profit",
@@ -7483,7 +7426,58 @@
    ],
    "good_until": "2026-11-11",
    "usd": 500.0
+  },
+  {
+   "id": "9f61753d",
+   "ticker": "ESAB",
+   "kind": "take_profit",
+   "price": 81.8529,
+   "status": "working",
+   "created": "2026-11-06 10:29",
+   "created_ts": 1793978959,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $81.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1ddfea9e",
+   "ticker": "ESAB",
+   "kind": "stop_loss",
+   "price": 80.3036,
+   "status": "working",
+   "created": "2026-11-06 10:29",
+   "created_ts": 1793978959,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $81.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "366aafe2",
+   "ticker": "ESAB",
+   "kind": "buy_limit",
+   "price": 78.9677,
+   "status": "working",
+   "created": "2026-11-06 10:29",
+   "created_ts": 1793978959,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $81.41",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-11",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-06 10:26"
+ "updated": "2026-11-06 10:29"
 }
