@@ -63413,3 +63413,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25423.71 (+1.69% on $25000.00 in) · cash $23922.21 · realised +422.21
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [take_profit @ $247.89] -> $754.33 (+0.58%) — close 100% at +0.6% over the average cost
+## 2026-11-06 11:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
