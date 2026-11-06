@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "35c7677c",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 107.1355,
-   "status": "cancelled",
-   "created": "2026-11-03 11:21",
-   "created_ts": 1793722863,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $106.68",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 12:50",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "09ac0d3a",
    "ticker": "EL",
    "kind": "stop_loss",
@@ -7360,7 +7341,7 @@
    "ticker": "BXMT",
    "kind": "stop_loss",
    "price": 11.1392,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-06 13:11",
    "created_ts": 1793988715,
    "why": "close it all at -1.1% under the average cost",
@@ -7370,7 +7351,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-06 13:46",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "22849c95",
@@ -7482,7 +7465,24 @@
    "pct_of_position": 100.0,
    "closed": "2026-11-06 13:36",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "47d57b6d",
+   "ticker": "BXMT",
+   "kind": "stop_loss",
+   "price": 11.278,
+   "status": "working",
+   "created": "2026-11-06 13:46",
+   "created_ts": 1793990760,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $11.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-11",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-06 13:43"
+ "updated": "2026-11-06 13:46"
 }
