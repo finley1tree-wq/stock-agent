@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-06T09:35-05:00",
+ "asOf": "2026-11-06T09:37-05:00",
  "note": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)",
  "broker": "sim",
  "watchlist": {
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "683a50b3",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 241.9943,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 242.57,
-   "pct_away": -0.24,
-   "good_until": "2026-11-11",
-   "why": "close it all at -1.4% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "b392a61a",
    "ticker": "RPM",
    "kind": "take_profit",
@@ -202,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 102.91,
-   "pct_away": 0.4,
+   "last": 102.83,
+   "pct_away": 0.48,
    "good_until": "2026-11-11",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -219,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 79.31,
-   "pct_away": 0.57,
+   "last": 79.3,
+   "pct_away": 0.58,
    "good_until": "2026-11-11",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -236,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 102.91,
-   "pct_away": -0.8,
+   "last": 102.83,
+   "pct_away": -0.72,
    "good_until": "2026-11-11",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -253,44 +236,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 79.31,
-   "pct_away": -1.29,
+   "last": 79.3,
+   "pct_away": -1.27,
    "good_until": "2026-11-11",
    "why": "close it all at -1.3% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9b16cb16",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 246.9168,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 242.57,
-   "pct_away": 1.79,
-   "good_until": "2026-11-11",
-   "why": "close 100% at +0.6% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "d8b12f20",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 238.1447,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 242.57,
-   "pct_away": -1.82,
-   "good_until": "2026-11-11",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -304,8 +253,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 102.91,
-   "pct_away": -2.94,
+   "last": 102.83,
+   "pct_away": -2.87,
    "good_until": "2026-11-11",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -321,8 +270,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 79.31,
-   "pct_away": -2.96,
+   "last": 79.3,
+   "pct_away": -2.95,
    "good_until": "2026-11-11",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -398,32 +347,32 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 398,
-  "decisions_with_buys_graded": 60,
+  "decisions_graded": 397,
+  "decisions_with_buys_graded": 59,
   "independent_days_graded": 3,
-  "avg_regret_pct": -0.72,
-  "chosen_avg_pct": 0.44,
-  "skipped_avg_pct": -0.27,
+  "avg_regret_pct": -0.71,
+  "chosen_avg_pct": 0.42,
+  "skipped_avg_pct": -0.29,
   "idle_universe_avg_pct": -0.0,
   "picking_beats_random": true,
   "avg_fraction_of_universe_bought": 0.01,
   "checks_that_bought_everything": 0,
   "by_signal_chosen": {
    "autopilot": {
-    "n": 109,
-    "avg_pct": -0.11
+    "n": 101,
+    "avg_pct": -0.26
    },
    "congress": {
-    "n": 90,
-    "avg_pct": -0.02
+    "n": 83,
+    "avg_pct": -0.17
    },
    "insider": {
-    "n": 19,
-    "avg_pct": -0.52
+    "n": 18,
+    "avg_pct": -0.68
    },
    "momentum": {
-    "n": 109,
-    "avg_pct": -0.11
+    "n": 101,
+    "avg_pct": -0.26
    }
   },
   "biggest_misses": [
@@ -2393,6 +2342,11 @@
   ],
   "MU": [
    {
+    "title": "Nvidia, AMD, and Micron stocks lead chip sector higher following worst sell-off since 2020",
+    "source": "Yahoo Finance",
+    "when": "2026-11-06T13:43"
+   },
+   {
     "title": "Stock market today: Nasdaq rebound after brutal sell-off, Dow and S&P 500 wobble as US adds 165K jobs",
     "source": "Yahoo Finance",
     "when": "2026-11-06T09:19"
@@ -2401,11 +2355,6 @@
     "title": "SanDisk Surges 10%, Micron and Western Digital Jump 8% as Memory and Storage Stocks Rebound From AI Sell-Off",
     "source": "24/7 Wall St.",
     "when": "2026-11-06T14:08"
-   },
-   {
-    "title": "Wall Street set to stabilise after multi-trillion dollar tech plunge",
-    "source": "Reuters",
-    "when": "2026-11-06T14:05"
    }
   ],
   "NEM": [
@@ -2556,9 +2505,9 @@
     "when": "2026-11-02T21:28"
    },
    {
-    "title": "Michael Burry Dumps 25% of His Semiconductor Bet Amid Brutal Tech Selloff",
-    "source": "GuruFocus.com",
-    "when": "2026-11-06T13:12"
+    "title": "Nvidia Partner CoreWeave Ready To Report Q3 As AI Stocks Crumble; Nebius, Qualys Also Due",
+    "source": "Investor's Business Daily",
+    "when": "2026-11-06T13:01"
    }
   ],
   "RPM": [
@@ -2641,9 +2590,9 @@
     "when": "2026-11-06T13:12"
    },
    {
-    "title": "Michael Burry Dumps 25% of His Semiconductor Bet Amid Brutal Tech Selloff",
-    "source": "GuruFocus.com",
-    "when": "2026-11-06T13:12"
+    "title": "Stocks lost $2 trillion. The market is wrong about AI",
+    "source": "Yahoo Finance Video",
+    "when": "2026-11-06T12:00"
    }
   ],
   "TTMI": [
@@ -2699,5 +2648,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-06T09:35-05:00"
+ "signalsAsOf": "2026-11-06T09:37-05:00"
 }
