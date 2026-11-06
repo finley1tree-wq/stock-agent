@@ -1,11 +1,11 @@
 {
   "week": "2026-W45",
-  "spent": 774.97,
+  "spent": 24.64,
   "deployed": 227250.0,
   "by_ticker": {
     "CRBG": 40.16,
     "ADI": 44.8,
-    "RPM": 786.32,
+    "RPM": 35.99,
     "FITB": 17.49,
     "PLD": 44.96,
     "WSM": 36.57,
@@ -6806,13 +6806,34 @@
       ],
       "evidence": "average cost $11.26",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RPM",
+      "side": "sell",
+      "qty": 7.212816,
+      "status": "filled",
+      "price": 104.03,
+      "proceeds": 750.33,
+      "realized_pnl": 0.33,
+      "realized_pct": 0.04,
+      "date": "2026-11-06",
+      "time_et": "14:01",
+      "ts": 1793991705,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $103.98",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-06",
-  "spent_today": 767.77,
+  "spent_today": 17.44,
   "deployed_today": 30750.0,
   "orders_today": 20,
-  "sells_today": 19,
+  "sells_today": 20,
   "sold_today": [
     "CRH",
     "FITB",
@@ -6827,7 +6848,7 @@
     "ADI": 1793804177,
     "EL": 1793980578,
     "GH": 1793823961,
-    "RPM": 1793981719,
+    "RPM": 1793991705,
     "WSM": 1793906119,
     "FITB": 1793990178,
     "CRBG": 1793896273,
@@ -6843,8 +6864,8 @@
     "CRH": 1793975710,
     "BXMT": 1793990845
   },
-  "last_publish_ts": 1793991347,
-  "last_check_ts": 1793991564,
+  "last_publish_ts": 1793991705,
+  "last_check_ts": 1793991707,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -6882,13 +6903,9 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1793991300,
-  "last_decision_ts": 1793991482,
+  "last_bar_ts": 1793991600,
+  "last_decision_ts": 1793991707,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "40896581": 104.1,
-    "27686714": 104.3367,
-    "97c95e26": 100.8606
-  }
+  "book_px": {}
 }
