@@ -1,27 +1,3 @@
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25325.26 (+1.30% on $25000.00 in) · cash $25325.26 · realised +325.26
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-05 15:54 ET (Thursday) — week 2026-W45 — budget left $24869.31 (today $53250.00 put to work, 41 buys, 41 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
-  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (LBTY excluded: no security information)
-  (no price for XIVYX — excluded this check)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkSvw14bRtF4XeU1HCLq'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25325.26 (+1.30% on $25000.00 in) · cash $25325.26 · realised +325.26
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-05 15:56 ET (Thursday) — week 2026-W45 — budget left $24869.31 (today $53250.00 put to work, 41 buys, 41 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
   (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
   (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
   (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
@@ -398,3 +374,27 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 ESAB @ $78.97 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25442.00 (+1.77% on $25000.00 in) · cash $23198.76 · realised +448.76
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22742.80 this week
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $243.73] -> $738.88 (-1.48%) — close it all at -1.4% under the average cost
+## 2026-11-06 10:32 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-06 10:32 ET (Friday) — week 2026-W45 — budget left $23481.68 (today $23250.00 put to work, 10 buys, 8 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgmv74nor62hZkS7zXfGH'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,482 idle, so opened 2: EL, BXMT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +15.0% over the month; 78% of today's range
+- BUY $750.00 BXMT [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: insider net buying (Form 4); +2.9% over the month; 69% of today's range
+~ WORKING take_profit 100% EL @ $109.02 until 2026-11-11 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% EL @ $107.21 until 2026-11-11 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 EL @ $105.25 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% BXMT @ $11.59 until 2026-11-11 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% BXMT @ $11.42 until 2026-11-11 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 BXMT @ $11.19 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25434.14 (+1.74% on $25000.00 in) · cash $22437.64 · realised +437.64
+Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $21981.68 this week
