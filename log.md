@@ -63188,3 +63188,17 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on BXMT: position closed)
 - SELL 100% BXMT [stop_loss @ $11.42] -> $741.80 (-1.09%) — close it all at -1.0% under the average cost
 ## 2026-11-06 10:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-06 10:41 ET (Friday) — week 2026-W45 — budget left $22723.48 (today $24750.00 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgmvmnfH5EmzvzcyvXLnf'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25420.12 (+1.68% on $25000.00 in) · cash $23179.44 · realised +429.44
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
