@@ -1,11 +1,11 @@
 {
   "week": "2026-W45",
-  "spent": 1533.5,
+  "spent": 783.74,
   "deployed": 222000.0,
   "by_ticker": {
     "CRBG": 40.16,
     "ADI": 44.8,
-    "RPM": 786.08,
+    "RPM": 36.32,
     "FITB": 768.72,
     "PLD": 44.96,
     "WSM": 36.57,
@@ -6499,13 +6499,34 @@
       ],
       "evidence": "average cost $108.5",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RPM",
+      "side": "sell",
+      "qty": 7.171419,
+      "status": "filled",
+      "price": 104.55,
+      "proceeds": 749.76,
+      "realized_pnl": -0.24,
+      "realized_pct": -0.03,
+      "date": "2026-11-06",
+      "time_et": "11:15",
+      "ts": 1793981700,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $104.58",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-06",
-  "spent_today": 1526.3,
+  "spent_today": 776.54,
   "deployed_today": 25500.0,
   "orders_today": 13,
-  "sells_today": 11,
+  "sells_today": 12,
   "sold_today": [
     "CRH",
     "FITB",
@@ -6520,7 +6541,7 @@
     "ADI": 1793804177,
     "EL": 1793980578,
     "GH": 1793823961,
-    "RPM": 1793976271,
+    "RPM": 1793981719,
     "WSM": 1793906119,
     "FITB": 1793975750,
     "CRBG": 1793896273,
@@ -6536,8 +6557,8 @@
     "CRH": 1793975710,
     "BXMT": 1793979529
   },
-  "last_publish_ts": 1793981509,
-  "last_check_ts": 1793981686,
+  "last_publish_ts": 1793981718,
+  "last_check_ts": 1793981766,
   "exp_arm": {
     "FITB": {
       "params": {
@@ -6561,16 +6582,13 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1793981400,
-  "last_decision_ts": 1793981592,
+  "last_bar_ts": 1793981700,
+  "last_decision_ts": 1793981766,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "b106c205": 104.9366,
-    "a47f66d2": 104.736,
     "8031d65e": 53.6113,
     "53f02ff5": 53.0815,
-    "923a2a2b": 51.8562,
-    "8859af0a": 101.4426
+    "923a2a2b": 51.8562
   }
 }

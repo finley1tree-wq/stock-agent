@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-06T11:11-05:00",
- "note": "tick: watching",
+ "asOf": "2026-11-06T11:15-05:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,40 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "b106c205",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 104.9366,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 104.84,
-   "pct_away": 0.09,
-   "good_until": "2026-11-11",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a47f66d2",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 104.736,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 104.84,
-   "pct_away": -0.1,
-   "good_until": "2026-11-11",
-   "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "8031d65e",
    "ticker": "FITB",
    "kind": "take_profit",
@@ -219,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 53.44,
-   "pct_away": 0.32,
+   "last": 53.41,
+   "pct_away": 0.38,
    "good_until": "2026-11-11",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -236,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 53.44,
-   "pct_away": -0.67,
+   "last": 53.41,
+   "pct_away": -0.62,
    "good_until": "2026-11-11",
    "why": "close it all at -0.7% under the average cost",
    "signals": [
@@ -253,25 +219,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 53.44,
-   "pct_away": -2.96,
-   "good_until": "2026-11-11",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8859af0a",
-   "ticker": "RPM",
-   "kind": "buy_limit",
-   "price": 101.4426,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 104.84,
-   "pct_away": -3.24,
+   "last": 53.41,
+   "pct_away": -2.91,
    "good_until": "2026-11-11",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
