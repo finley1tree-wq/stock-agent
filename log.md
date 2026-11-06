@@ -62909,3 +62909,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25444.16 (+1.78% on $25000.00 in) · cash $22436.60 · realised +436.60
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on BXMT: position closed)
+- SELL 100% BXMT [take_profit @ $11.41] -> $3012.16 (+0.41%) — close 100% at +0.4% over the average cost
+## 2026-11-06 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders

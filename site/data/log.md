@@ -1,20 +1,3 @@
-
-## 2026-11-05 15:15 ET (Thursday) — week 2026-W45 — budget left $24116.73 (today $53250.00 put to work, 41 buys, 40 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
-  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (LBTY excluded: no security information)
-  (no price for XIVYX — excluded this check)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkPuqP6knWXvYgFXVhMB'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25321.11 (+1.28% on $25000.00 in) · cash $24572.68 · realised +322.68
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-11-05 15:18 ET (Thursday) — week 2026-W45 — budget left $24116.73 (today $53250.00 put to work, 41 buys, 40 sells) — SIM (pretend money) via sim
   (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
   (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
@@ -398,3 +381,20 @@ Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15934.68 this week
   (cancelled 2 standing order(s) on EL: position closed)
 - SELL 100% EL [take_profit @ $107.56] -> $3035.77 (+1.19%) — close 100% at +0.5% over the average cost
 ## 2026-11-06 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-06 09:46 ET (Friday) — week 2026-W45 — budget left $21980.64 (today $21000.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GRCE excluded: too thinly traded ($0.5M a day) — Grace Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgmrcqMHvBLkaNCWpeUL2'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25444.16 (+1.78% on $25000.00 in) · cash $22436.60 · realised +436.60
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on BXMT: position closed)
+- SELL 100% BXMT [take_profit @ $11.41] -> $3012.16 (+0.41%) — close 100% at +0.4% over the average cost
+## 2026-11-06 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
