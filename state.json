@@ -1,7 +1,7 @@
 {
   "week": "2026-W45",
-  "spent": 783.74,
-  "deployed": 222000.0,
+  "spent": 1533.74,
+  "deployed": 222750.0,
   "by_ticker": {
     "CRBG": 40.16,
     "ADI": 44.8,
@@ -13,7 +13,7 @@
     "GH": 7.45,
     "EL": 9.26,
     "LRN": 49.64,
-    "NXPI": 11.12,
+    "NXPI": 761.12,
     "ESAB": 10.59,
     "BXMT": 8.2
   },
@@ -21,7 +21,7 @@
     "RPM": 23250.0,
     "EL": 24750.0,
     "GH": 7500.0,
-    "NXPI": 25500.0,
+    "NXPI": 26250.0,
     "ADI": 13500.0,
     "FITB": 25500.0,
     "WSM": 21750.0,
@@ -6520,12 +6520,32 @@
       ],
       "evidence": "average cost $104.58",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 3.042976,
+      "price": 246.47,
+      "date": "2026-11-06",
+      "time_et": "11:19",
+      "ts": 1793981941,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.6% over the month; 51% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-06",
-  "spent_today": 776.54,
-  "deployed_today": 25500.0,
-  "orders_today": 13,
+  "spent_today": 1526.54,
+  "deployed_today": 26250.0,
+  "orders_today": 14,
   "sells_today": 12,
   "sold_today": [
     "CRH",
@@ -6557,8 +6577,8 @@
     "CRH": 1793975710,
     "BXMT": 1793979529
   },
-  "last_publish_ts": 1793981718,
-  "last_check_ts": 1793981857,
+  "last_publish_ts": 1793981941,
+  "last_check_ts": 1793981941,
   "exp_arm": {
     "FITB": {
       "params": {
@@ -6567,14 +6587,7 @@
       },
       "tags": {}
     },
-    "EL": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "RPM": {
+    "NXPI": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -6583,12 +6596,15 @@
     }
   },
   "last_bar_ts": 1793981700,
-  "last_decision_ts": 1793981766,
-  "next_check_minutes": null,
+  "last_decision_ts": 1793981941,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "8031d65e": 53.6113,
     "53f02ff5": 53.0815,
-    "923a2a2b": 51.8562
+    "4db0e3ec": 247.8921,
+    "0ace2d7e": 242.9134,
+    "923a2a2b": 51.8562,
+    "56a7fa49": 239.0759
   }
 }
