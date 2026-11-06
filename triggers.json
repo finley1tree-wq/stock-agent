@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "f123bb76",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 54.4258,
-   "status": "cancelled",
-   "created": "2026-11-03 09:32",
-   "created_ts": 1793716361,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $54.74",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 09:35",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "913fc80d",
    "ticker": "FITB",
    "kind": "buy_limit",
@@ -7161,7 +7142,7 @@
    "ticker": "RPM",
    "kind": "take_profit",
    "price": 103.3211,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-06 09:32",
    "created_ts": 1793975557,
    "why": "close 100% at +0.3% over the average cost",
@@ -7171,14 +7152,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-06 09:44"
   },
   {
    "id": "4190979e",
    "ticker": "RPM",
    "kind": "stop_loss",
    "price": 102.0917,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-06 09:32",
    "created_ts": 1793975557,
    "why": "close it all at -0.9% under the average cost",
@@ -7188,14 +7170,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-06 09:44",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ff095997",
    "ticker": "RPM",
    "kind": "buy_limit",
    "price": 99.8809,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-06 09:32",
    "created_ts": 1793975557,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7205,7 +7189,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-11",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-06 09:44",
+   "cancel_reason": "position closed"
   },
   {
    "id": "4665cc24",
@@ -7362,7 +7348,7 @@
    "ticker": "EL",
    "kind": "take_profit",
    "price": 106.7928,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-06 09:40",
    "created_ts": 1793976037,
    "why": "close 100% at +0.5% over the average cost",
@@ -7372,7 +7358,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-06 09:45"
   },
   {
    "id": "6acf0c91",
@@ -7398,7 +7385,7 @@
    "ticker": "EL",
    "kind": "buy_limit",
    "price": 103.1013,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-06 09:40",
    "created_ts": 1793976037,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7408,14 +7395,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-11",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-06 09:45",
+   "cancel_reason": "position closed"
   },
   {
    "id": "1a863c6d",
    "ticker": "EL",
    "kind": "stop_loss",
    "price": 106.59,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-06 09:43",
    "created_ts": 1793976222,
    "why": "close it all at -1.2% under the average cost",
@@ -7425,7 +7414,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-06 09:44",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ad3cba9b",
@@ -7477,7 +7468,26 @@
    ],
    "good_until": "2026-11-11",
    "usd": 500.0
+  },
+  {
+   "id": "429ae6ce",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 106.872,
+   "status": "cancelled",
+   "created": "2026-11-06 09:44",
+   "created_ts": 1793976270,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $106.29",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-11",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-06 09:45",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-11-06 09:43"
+ "updated": "2026-11-06 09:45"
 }

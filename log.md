@@ -62889,3 +62889,9 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 BXMT @ $11.02 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25398.24 (+1.59% on $25000.00 in) · cash $16390.63 · realised +390.63
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15934.68 this week
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [take_profit @ $103.32] -> $3010.19 (+0.34%) — close 100% at +0.3% over the average cost
+## 2026-11-06 09:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $107.56] -> $3035.77 (+1.19%) — close 100% at +0.5% over the average cost
+## 2026-11-06 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders

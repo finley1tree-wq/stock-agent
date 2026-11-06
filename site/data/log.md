@@ -1,9 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkPfQi9tWZnMpjTHeiZi'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25319.57 (+1.28% on $25000.00 in) · cash $24572.68 · realised +322.68
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-11-05 15:15 ET (Thursday) — week 2026-W45 — budget left $24116.73 (today $53250.00 put to work, 41 buys, 40 sells) — SIM (pretend money) via sim
   (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
@@ -398,3 +392,9 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 BXMT @ $11.02 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25398.24 (+1.59% on $25000.00 in) · cash $16390.63 · realised +390.63
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $15934.68 this week
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [take_profit @ $103.32] -> $3010.19 (+0.34%) — close 100% at +0.3% over the average cost
+## 2026-11-06 09:44 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $107.56] -> $3035.77 (+1.19%) — close 100% at +0.5% over the average cost
+## 2026-11-06 09:45 ET — tick — 1 sell(s), 0 buy(s) from standing orders
