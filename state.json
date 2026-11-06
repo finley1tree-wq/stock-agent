@@ -1,7 +1,7 @@
 {
   "week": "2026-W45",
-  "spent": 3065.32,
-  "deployed": 211500.0,
+  "spent": 6065.32,
+  "deployed": 214500.0,
   "by_ticker": {
     "CRBG": 40.16,
     "ADI": 44.8,
@@ -11,12 +11,12 @@
     "WSM": 36.57,
     "SITE": 26.83,
     "GH": 7.45,
-    "EL": 48.64,
+    "EL": 3048.64,
     "LRN": 49.64
   },
   "deployed_by_ticker": {
     "RPM": 22500.0,
-    "EL": 21000.0,
+    "EL": 24000.0,
     "GH": 7500.0,
     "NXPI": 24750.0,
     "ADI": 13500.0,
@@ -6188,12 +6188,32 @@
       ],
       "evidence": "average cost $79.34",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "EL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 28.224005,
+      "price": 106.29,
+      "date": "2026-11-06",
+      "time_et": "09:40",
+      "ts": 1793976037,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +12.7% over the month; 67% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-06",
-  "spent_today": 2934.63,
-  "deployed_today": 15000.0,
-  "orders_today": 5,
+  "spent_today": 5934.63,
+  "deployed_today": 18000.0,
+  "orders_today": 6,
   "sells_today": 4,
   "sold_today": [
     "CRH",
@@ -6221,23 +6241,9 @@
     "LRN": 1793889722,
     "CRH": 1793975710
   },
-  "last_publish_ts": 1793975906,
-  "last_check_ts": 1793975953,
+  "last_publish_ts": 1793976037,
+  "last_check_ts": 1793976037,
   "exp_arm": {
-    "ESAB": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "NXPI": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
     "RPM": {
       "params": {
         "hold_minutes": 120,
@@ -6245,14 +6251,7 @@
       },
       "tags": {}
     },
-    "CRH": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "FITB": {
+    "EL": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -6260,13 +6259,16 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1793975700,
-  "last_decision_ts": 1793975835,
-  "next_check_minutes": null,
+  "last_bar_ts": 1793976000,
+  "last_decision_ts": 1793976037,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "b392a61a": 103.3211,
+    "ad14328d": 106.7928,
     "4190979e": 102.0917,
-    "ff095997": 99.8809
+    "b392a61a": 103.3211,
+    "6acf0c91": 105.0326,
+    "ff095997": 99.8809,
+    "2958a94f": 103.1013
   }
 }

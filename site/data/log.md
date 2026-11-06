@@ -1,16 +1,3 @@
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25322.10 (+1.29% on $25000.00 in) · cash $24572.68 · realised +322.68
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-05 15:10 ET (Thursday) — week 2026-W45 — budget left $24116.73 (today $53250.00 put to work, 41 buys, 40 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
-  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (LBTY excluded: no security information)
-  (no price for XIVYX — excluded this check)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkPWu3yWY5NDppMCWS6L'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +385,16 @@ Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 6 order(s) working; bu
   (cancelled 2 standing order(s) on ESAB: position closed)
 - SELL 100% ESAB [take_profit @ $79.76] -> $3015.83 (+0.53%) — close 100% at +0.5% over the average cost
 ## 2026-11-06 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-06 09:40 ET (Friday) — week 2026-W45 — budget left $21934.68 (today $15000.00 put to work, 5 buys, 4 sells) — SIM (pretend money) via sim
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgmrCQn1i9kLd3BwfCY9m'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,935 idle, so opened 1: EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +12.7% over the month; 67% of today's range
+~ WORKING take_profit 100% EL @ $106.79 until 2026-11-11 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% EL @ $105.03 until 2026-11-11 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 EL @ $103.10 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25380.07 (+1.52% on $25000.00 in) · cash $19390.63 · realised +390.63
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $18934.68 this week
