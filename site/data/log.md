@@ -1,62 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgn33GTEtssJm4VDmQ61D'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,471 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25422.35 (+1.69% on $25000.00 in) · cash $23926.54 · realised +426.54
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-06 12:06 ET (Friday) — week 2026-W45 — budget left $23470.59 (today $27000.00 put to work, 15 buys, 13 sells) — SIM (pretend money) via sim
-  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
-  (CLST excluded: too thinly traded ($0.1M a day) — Catalyst Bancorp, Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgn3GkeVMWVFWLNFRtoAi'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,471 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25422.53 (+1.69% on $25000.00 in) · cash $23926.54 · realised +426.54
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-06 12:09 ET (Friday) — week 2026-W45 — budget left $23470.59 (today $27000.00 put to work, 15 buys, 13 sells) — SIM (pretend money) via sim
-  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
-  (CLST excluded: too thinly traded ($0.1M a day) — Catalyst Bancorp, Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgn3VvxiwDkno4P9FspBP'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,471 idle, so opened 2: NXPI, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25423.37 (+1.69% on $25000.00 in) · cash $23926.54 · realised +426.54
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-06 12:12 ET (Friday) — week 2026-W45 — budget left $23470.59 (today $27000.00 put to work, 15 buys, 13 sells) — SIM (pretend money) via sim
-  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
-  (CLST excluded: too thinly traded ($0.1M a day) — Catalyst Bancorp, Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgn3ismb8GGrgdco5ruQn'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,471 idle, so opened 2: NXPI, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25423.23 (+1.69% on $25000.00 in) · cash $23926.54 · realised +426.54
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-06 12:15 ET (Friday) — week 2026-W45 — budget left $23470.59 (today $27000.00 put to work, 15 buys, 13 sells) — SIM (pretend money) via sim
-  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
-  (CLST excluded: too thinly traded ($0.1M a day) — Catalyst Bancorp, Inc.)
   (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
   (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
   (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
@@ -398,3 +339,62 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 BXMT @ $10.92 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25413.52 (+1.65% on $25000.00 in) · cash $22417.36 · realised +417.36
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21961.40 this week
+
+## 2026-11-06 13:14 ET (Friday) — week 2026-W45 — budget left $21961.40 (today $30000.00 put to work, 19 buys, 15 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (CLST excluded: too thinly traded ($0.1M a day) — Catalyst Bancorp, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgn8VhBLYXYGCGGJrUjpd'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25416.54 (+1.67% on $25000.00 in) · cash $22417.36 · realised +417.36
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-06 13:17 ET (Friday) — week 2026-W45 — budget left $21961.40 (today $30000.00 put to work, 19 buys, 15 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (CLST excluded: too thinly traded ($0.1M a day) — Catalyst Bancorp, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgn8hqWU94myjChyMTaZy'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25417.96 (+1.67% on $25000.00 in) · cash $22417.36 · realised +417.36
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-06 13:20 ET (Friday) — week 2026-W45 — budget left $21961.40 (today $30000.00 put to work, 19 buys, 15 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (CLST excluded: too thinly traded ($0.1M a day) — Catalyst Bancorp, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgn8vzvcgpCNHu7AphyFG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25417.67 (+1.67% on $25000.00 in) · cash $22417.36 · realised +417.36
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-06 13:23 ET (Friday) — week 2026-W45 — budget left $21961.40 (today $30000.00 put to work, 19 buys, 15 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (CLST excluded: too thinly traded ($0.1M a day) — Catalyst Bancorp, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgn99b5XNaNsXdvvaj5rr'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,961 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ESAB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +27.0% over the month; 82% of today's range
+~ WORKING take_profit 100% ESAB @ $82.90 until 2026-11-11 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% ESAB @ $81.32 until 2026-11-11 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 ESAB @ $79.98 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25418.69 (+1.67% on $25000.00 in) · cash $21667.36 · realised +417.36
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21211.40 this week
