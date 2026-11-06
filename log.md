@@ -62856,3 +62856,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25369.11 (+1.48% on $25000.00 in) · cash $19374.80 · realised +374.80
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 6 order(s) working; budget left $18918.85 this week
+  (cancelled 2 standing order(s) on ESAB: position closed)
+- SELL 100% ESAB [take_profit @ $79.76] -> $3015.83 (+0.53%) — close 100% at +0.5% over the average cost
+## 2026-11-06 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders

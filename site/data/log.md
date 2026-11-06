@@ -1,6 +1,3 @@
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkPG8Nzg2B9cKM1hzHuM'}
-  -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25322.10 (+1.29% on $25000.00 in) · cash $24572.68 · realised +322.68
 Decision: nothing at this check. 2 standing order(s) working.
@@ -398,3 +395,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25369.11 (+1.48% on $25000.00 in) · cash $19374.80 · realised +374.80
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 6 order(s) working; budget left $18918.85 this week
+  (cancelled 2 standing order(s) on ESAB: position closed)
+- SELL 100% ESAB [take_profit @ $79.76] -> $3015.83 (+0.53%) — close 100% at +0.5% over the average cost
+## 2026-11-06 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
