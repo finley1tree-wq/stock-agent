@@ -62821,3 +62821,22 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 FITB @ $51.33 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25319.86 (+1.28% on $25000.00 in) · cash $10325.26 · realised +325.26
 Done: 0 sell(s), 5 buy(s); 15 order(s) working; budget left $9869.31 this week
+  (cancelled 2 standing order(s) on CRH: position closed)
+- SELL 100% CRH [take_profit @ $93.80] -> $3021.35 (+0.71%) — close 100% at +0.4% over the average cost
+## 2026-11-06 09:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-06 09:35 ET (Friday) — week 2026-W45 — budget left $12890.66 (today $15000.00 put to work, 5 buys, 1 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (LBTY excluded: no security information)
+  (no price for XIVYX — excluded this check)
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [take_profit @ $53.12] -> $3010.99 (+0.37%) — close 100% at +0.3% over the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgmqnwhTLBh9B3DyTiSbJ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25318.70 (+1.27% on $25000.00 in) · cash $16357.59 · realised +357.59
+Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $15901.65 this week

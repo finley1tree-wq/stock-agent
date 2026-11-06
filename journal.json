@@ -94333,7 +94333,8 @@
     "hour_et": 9,
     "code_version": "1b7e16c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.0
   },
   {
     "symbol": "NXPI",
@@ -94361,7 +94362,8 @@
     "hour_et": 9,
     "code_version": "1b7e16c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -1.18
   },
   {
     "symbol": "RPM",
@@ -94389,7 +94391,8 @@
     "hour_et": 9,
     "code_version": "1b7e16c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": -0.02
   },
   {
     "symbol": "CRH",
@@ -94417,7 +94420,10 @@
     "hour_et": 9,
     "code_version": "1b7e16c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.71,
+    "ret_now": 0.71,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -94445,6 +94451,63 @@
     "hour_et": 9,
     "code_version": "1b7e16c",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 0.37,
+    "ret_now": 0.37,
+    "ret_src": "realised"
+  },
+  {
+    "symbol": "CRH",
+    "side": "sell",
+    "qty": 32.210531,
+    "status": "filled",
+    "price": 93.8,
+    "proceeds": 3021.35,
+    "realized_pnl": 21.35,
+    "realized_pct": 0.71,
+    "date": "2026-11-06",
+    "time_et": "09:35",
+    "ts": 1793975700,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $93.14",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "3f27124",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "FITB",
+    "side": "sell",
+    "qty": 56.6881,
+    "status": "filled",
+    "price": 53.12,
+    "proceeds": 3010.99,
+    "realized_pnl": 10.99,
+    "realized_pct": 0.37,
+    "date": "2026-11-06",
+    "time_et": "09:35",
+    "ts": 1793975700,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $52.92",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "3f27124",
+    "hold_minutes": 2
   }
 ]
