@@ -1,81 +1,6 @@
 {
  "orders": [
   {
-   "id": "10b82955",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 105.5329,
-   "status": "filled",
-   "created": "2026-11-03 09:32",
-   "created_ts": 1793716361,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $105.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 09:43"
-  },
-  {
-   "id": "0dcae964",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 103.9493,
-   "status": "cancelled",
-   "created": "2026-11-03 09:32",
-   "created_ts": 1793716361,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $105.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 09:42",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "536933a2",
-   "ticker": "EL",
-   "kind": "buy_limit",
-   "price": 101.9276,
-   "status": "cancelled",
-   "created": "2026-11-03 09:32",
-   "created_ts": 1793716361,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $105.08",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "usd": 500.0,
-   "closed": "2026-11-03 09:43",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "2b769b03",
-   "ticker": "FITB",
-   "kind": "take_profit",
-   "price": 54.8654,
-   "status": "cancelled",
-   "created": "2026-11-03 09:32",
-   "created_ts": 1793716361,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $54.74",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "f123bb76",
    "ticker": "FITB",
    "kind": "stop_loss",
@@ -7454,7 +7379,7 @@
    "ticker": "EL",
    "kind": "stop_loss",
    "price": 105.0326,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-06 09:40",
    "created_ts": 1793976037,
    "why": "close it all at -1.2% under the average cost",
@@ -7464,7 +7389,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-06 09:43",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "2958a94f",
@@ -7482,7 +7409,75 @@
    ],
    "good_until": "2026-11-11",
    "usd": 500.0
+  },
+  {
+   "id": "1a863c6d",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 106.59,
+   "status": "working",
+   "created": "2026-11-06 09:43",
+   "created_ts": 1793976222,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $106.29",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ad3cba9b",
+   "ticker": "BXMT",
+   "kind": "take_profit",
+   "price": 11.4074,
+   "status": "working",
+   "created": "2026-11-06 09:43",
+   "created_ts": 1793976225,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $11.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "b61fb912",
+   "ticker": "BXMT",
+   "kind": "stop_loss",
+   "price": 11.2414,
+   "status": "working",
+   "created": "2026-11-06 09:43",
+   "created_ts": 1793976225,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $11.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-11",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2e00ad35",
+   "ticker": "BXMT",
+   "kind": "buy_limit",
+   "price": 11.0192,
+   "status": "working",
+   "created": "2026-11-06 09:43",
+   "created_ts": 1793976225,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $11.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-11",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-06 09:40"
+ "updated": "2026-11-06 09:43"
 }
