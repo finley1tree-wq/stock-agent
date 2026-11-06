@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-06T10:56-05:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-11-06T11:11-05:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,40 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "b106c205",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 104.9366,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 104.84,
+   "pct_away": 0.09,
+   "good_until": "2026-11-11",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a47f66d2",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 104.736,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 104.84,
+   "pct_away": -0.1,
+   "good_until": "2026-11-11",
+   "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "8031d65e",
    "ticker": "FITB",
    "kind": "take_profit",
@@ -189,23 +223,6 @@
    "pct_away": 0.32,
    "good_until": "2026-11-11",
    "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "2918e0e8",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 103.6879,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 104.24,
-   "pct_away": -0.53,
-   "good_until": "2026-11-11",
-   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -229,17 +246,17 @@
    ]
   },
   {
-   "id": "b106c205",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 104.9366,
-   "usd": null,
-   "pct_of_position": 100.0,
+   "id": "923a2a2b",
+   "ticker": "FITB",
+   "kind": "buy_limit",
+   "price": 51.8562,
+   "usd": 500.0,
+   "pct_of_position": null,
    "trail_pct": null,
-   "last": 104.24,
-   "pct_away": 0.67,
+   "last": 53.44,
+   "pct_away": -2.96,
    "good_until": "2026-11-11",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,25 +270,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 104.24,
-   "pct_away": -2.68,
-   "good_until": "2026-11-11",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "923a2a2b",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 51.8562,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 53.44,
-   "pct_away": -2.96,
+   "last": 104.84,
+   "pct_away": -3.24,
    "good_until": "2026-11-11",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

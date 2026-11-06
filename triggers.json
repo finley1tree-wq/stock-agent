@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "332a7121",
-   "ticker": "ADI",
-   "kind": "stop_loss",
-   "price": 422.3135,
-   "status": "cancelled",
-   "created": "2026-11-03 10:21",
-   "created_ts": 1793719308,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $426.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 10:34",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "5a99a24d",
    "ticker": "ADI",
    "kind": "buy_limit",
@@ -7434,7 +7415,7 @@
    "ticker": "RPM",
    "kind": "stop_loss",
    "price": 103.6879,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-06 10:46",
    "created_ts": 1793980002,
    "why": "close it all at -0.9% under the average cost",
@@ -7444,7 +7425,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-06 11:11",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "8859af0a",
@@ -7481,7 +7464,24 @@
    "pct_of_position": 100.0,
    "closed": "2026-11-06 10:56",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "a47f66d2",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 104.736,
+   "status": "working",
+   "created": "2026-11-06 11:11",
+   "created_ts": 1793981509,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $104.58",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-11",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-06 11:10"
+ "updated": "2026-11-06 11:11"
 }
