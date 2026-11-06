@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "913fc80d",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 53.0978,
-   "status": "cancelled",
-   "created": "2026-11-03 09:32",
-   "created_ts": 1793716361,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $54.74",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "usd": 500.0,
-   "closed": "2026-11-03 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "a06dfaa0",
    "ticker": "ADI",
    "kind": "take_profit",
@@ -7440,7 +7421,7 @@
    "ticker": "BXMT",
    "kind": "stop_loss",
    "price": 11.2414,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-06 09:43",
    "created_ts": 1793976225,
    "why": "close it all at -1.0% under the average cost",
@@ -7450,7 +7431,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-06 09:46",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "2e00ad35",
@@ -7487,7 +7470,24 @@
    "pct_of_position": 100.0,
    "closed": "2026-11-06 09:45",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "a3e977c3",
+   "ticker": "BXMT",
+   "kind": "stop_loss",
+   "price": 11.378,
+   "status": "working",
+   "created": "2026-11-06 09:46",
+   "created_ts": 1793976393,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $11.36",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-11",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-06 09:45"
+ "updated": "2026-11-06 09:46"
 }

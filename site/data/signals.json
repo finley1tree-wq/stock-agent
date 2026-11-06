@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-06T09:45-05:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-11-06T09:46-05:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "a3e977c3",
+   "ticker": "BXMT",
+   "kind": "stop_loss",
+   "price": 11.378,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 11.39,
+   "pct_away": -0.11,
+   "good_until": "2026-11-11",
+   "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "ad3cba9b",
    "ticker": "BXMT",
    "kind": "take_profit",
@@ -185,27 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 11.36,
-   "pct_away": 0.42,
+   "last": 11.39,
+   "pct_away": 0.15,
    "good_until": "2026-11-11",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "b61fb912",
-   "ticker": "BXMT",
-   "kind": "stop_loss",
-   "price": 11.2414,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 11.36,
-   "pct_away": -1.04,
-   "good_until": "2026-11-11",
-   "why": "close it all at -1.0% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +219,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 11.36,
-   "pct_away": -3.0,
+   "last": 11.39,
+   "pct_away": -3.26,
    "good_until": "2026-11-11",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
