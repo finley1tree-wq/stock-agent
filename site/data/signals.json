@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-06T13:00-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,961 idle, so opened 2: NXPI, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "asOf": "2026-11-06T13:09-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,461 idle, so opened 1: FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,15 +178,15 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "27686714",
-   "ticker": "RPM",
+   "id": "5245e5f0",
+   "ticker": "FITB",
    "kind": "take_profit",
-   "price": 104.3367,
+   "price": 53.4213,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 103.94,
-   "pct_away": 0.38,
+   "last": 53.25,
+   "pct_away": 0.32,
    "good_until": "2026-11-11",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -202,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 247.49,
-   "pct_away": 0.6,
+   "last": 247.8,
+   "pct_away": 0.47,
    "good_until": "2026-11-11",
    "why": "close 100% at +0.6% over the average cost",
    "signals": [
@@ -219,10 +219,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 103.94,
-   "pct_away": -0.82,
+   "last": 103.68,
+   "pct_away": -0.57,
    "good_until": "2026-11-11",
    "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "27686714",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 104.3367,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 103.68,
+   "pct_away": 0.63,
+   "good_until": "2026-11-11",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1bcc1c3b",
+   "ticker": "FITB",
+   "kind": "stop_loss",
+   "price": 52.8913,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 53.25,
+   "pct_away": -0.67,
+   "good_until": "2026-11-11",
+   "why": "close it all at -0.7% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 247.49,
-   "pct_away": -1.42,
+   "last": 247.8,
+   "pct_away": -1.54,
    "good_until": "2026-11-11",
    "why": "close it all at -1.4% under the average cost",
    "signals": [
@@ -253,7 +287,24 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 103.94,
+   "last": 103.68,
+   "pct_away": -2.72,
+   "good_until": "2026-11-11",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1bae9225",
+   "ticker": "FITB",
+   "kind": "buy_limit",
+   "price": 51.6719,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 53.25,
    "pct_away": -2.96,
    "good_until": "2026-11-11",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -270,8 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 247.49,
-   "pct_away": -2.98,
+   "last": 247.8,
+   "pct_away": -3.1,
    "good_until": "2026-11-11",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -280,7 +331,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,961 idle, so opened 2: NXPI, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,461 idle, so opened 1: FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -347,32 +398,32 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 327,
-  "decisions_with_buys_graded": 45,
+  "decisions_graded": 324,
+  "decisions_with_buys_graded": 44,
   "independent_days_graded": 3,
-  "avg_regret_pct": -0.43,
-  "chosen_avg_pct": -0.22,
-  "skipped_avg_pct": -0.65,
+  "avg_regret_pct": -0.4,
+  "chosen_avg_pct": -0.27,
+  "skipped_avg_pct": -0.68,
   "idle_universe_avg_pct": -0.17,
   "picking_beats_random": true,
   "avg_fraction_of_universe_bought": 0.01,
   "checks_that_bought_everything": 0,
   "by_signal_chosen": {
    "autopilot": {
-    "n": 81,
-    "avg_pct": -0.83
+    "n": 79,
+    "avg_pct": -0.91
    },
    "congress": {
-    "n": 67,
-    "avg_pct": -0.65
+    "n": 65,
+    "avg_pct": -0.74
    },
    "insider": {
     "n": 14,
     "avg_pct": -1.72
    },
    "momentum": {
-    "n": 81,
-    "avg_pct": -0.83
+    "n": 79,
+    "avg_pct": -0.91
    }
   },
   "biggest_misses": [
@@ -432,10 +483,10 @@
    }
   ],
   "sectors_most_often_missed": {
-   "off-watchlist": {
+   "widely_held": {
     "n": 8
    },
-   "widely_held": {
+   "off-watchlist": {
     "n": 8
    },
    "gold": {
@@ -2376,6 +2427,11 @@
   ],
   "MU": [
    {
+    "title": "Why You Should Think About SanDisk Differently Now",
+    "source": "Trefis",
+    "when": "2026-11-06T17:48"
+   },
+   {
     "title": "Nvidia Stock, Other AI Names Rebound After Sell-Off",
     "source": "Investor's Business Daily",
     "when": "2026-11-06T17:46"
@@ -2384,11 +2440,6 @@
     "title": "Stock market today: Nasdaq, S&P 500 rebound after brutal sell-off as US adds 165K jobs",
     "source": "Yahoo Finance",
     "when": "2026-11-06T09:19"
-   },
-   {
-    "title": "Michael Burry Takes Profits on Major AI Bear Bet",
-    "source": "GuruFocus.com",
-    "when": "2026-11-06T17:16"
    }
   ],
   "NEM": [
@@ -2665,5 +2716,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-06T13:00-05:00"
+ "signalsAsOf": "2026-11-06T13:09-05:00"
 }
