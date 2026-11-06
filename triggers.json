@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "07e8aaa7",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 255.684,
-   "status": "cancelled",
-   "created": "2026-11-03 10:47",
-   "created_ts": 1793720861,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $255.33",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 10:52",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "9a6bea0a",
    "ticker": "NTRS",
    "kind": "take_profit",
@@ -7291,7 +7272,7 @@
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 243.9853,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-06 13:00",
    "created_ts": 1793988024,
    "why": "close it all at -1.4% under the average cost",
@@ -7301,7 +7282,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-06 13:13",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "80a746a9",
@@ -7472,7 +7455,24 @@
    ],
    "good_until": "2026-11-11",
    "usd": 500.0
+  },
+  {
+   "id": "9413b0b9",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 248.128,
+   "status": "working",
+   "created": "2026-11-06 13:13",
+   "created_ts": 1793988837,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $247.54",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-11",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-06 13:11"
+ "updated": "2026-11-06 13:14"
 }

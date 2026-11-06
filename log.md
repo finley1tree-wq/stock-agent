@@ -64009,3 +64009,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 BXMT @ $10.92 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25413.52 (+1.65% on $25000.00 in) · cash $22417.36 · realised +417.36
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $21961.40 this week
+
+## 2026-11-06 13:14 ET (Friday) — week 2026-W45 — budget left $21961.40 (today $30000.00 put to work, 19 buys, 15 sells) — SIM (pretend money) via sim
+  (AGMB excluded: too thinly traded ($1.3M a day) — AgomAb Therapeutics NV)
+  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (CLST excluded: too thinly traded ($0.1M a day) — Catalyst Bancorp, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgn8VhBLYXYGCGGJrUjpd'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25416.54 (+1.67% on $25000.00 in) · cash $22417.36 · realised +417.36
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
