@@ -63631,3 +63631,19 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 portfolio: equity $25422.53 (+1.69% on $25000.00 in) · cash $23926.54 · realised +426.54
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-06 12:09 ET (Friday) — week 2026-W45 — budget left $23470.59 (today $27000.00 put to work, 15 buys, 13 sells) — SIM (pretend money) via sim
+  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (CLST excluded: too thinly traded ($0.1M a day) — Catalyst Bancorp, Inc.)
+  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgn3VvxiwDkno4P9FspBP'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,471 idle, so opened 2: NXPI, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25423.37 (+1.69% on $25000.00 in) · cash $23926.54 · realised +426.54
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
