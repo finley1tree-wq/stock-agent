@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-11-06 12:09 ET
+# Pretend portfolio — 2026-11-06 12:12 ET
 
-**Equity $25423.37** on $25000.00 put in → **+1.69%**  
-Cash $23926.54 · Unrealised -3.17 · Realised +426.54
+**Equity $25423.23** on $25000.00 put in → **+1.69%**  
+Cash $23926.54 · Unrealised -3.31 · Realised +426.54
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| FITB | 2.9% | $749.56 | $53.46 | $53.43 | -0.06% | 0d |
+| FITB | 2.9% | $749.42 | $53.46 | $53.42 | -0.08% | 0d |
 | BXMT | 2.9% | $747.27 | $11.35 | $11.31 | -0.36% | 0d |
 
 ## Last fills
