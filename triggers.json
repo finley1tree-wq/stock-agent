@@ -7442,7 +7442,7 @@
    "ticker": "BXMT",
    "kind": "take_profit",
    "price": 11.3976,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-06 11:25",
    "created_ts": 1793982312,
    "why": "close 100% at +0.4% over the average cost",
@@ -7452,14 +7452,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-06 12:26",
+   "cancel_reason": "position closed"
   },
   {
    "id": "795e8d9b",
    "ticker": "BXMT",
    "kind": "stop_loss",
    "price": 11.2312,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-06 11:25",
    "created_ts": 1793982312,
    "why": "close it all at -1.0% under the average cost",
@@ -7469,14 +7471,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-11",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-06 12:26"
   },
   {
    "id": "a5eca0c9",
    "ticker": "BXMT",
    "kind": "buy_limit",
    "price": 11.0095,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-06 11:25",
    "created_ts": 1793982312,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7486,8 +7489,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-11",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-06 12:26",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-11-06 12:23"
+ "updated": "2026-11-06 12:26"
 }
