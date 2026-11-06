@@ -1,12 +1,12 @@
 {
   "week": "2026-W45",
-  "spent": 1529.41,
+  "spent": 780.29,
   "deployed": 223500.0,
   "by_ticker": {
     "CRBG": 40.16,
     "ADI": 44.8,
     "RPM": 36.32,
-    "FITB": 768.72,
+    "FITB": 19.6,
     "PLD": 44.96,
     "WSM": 36.57,
     "SITE": 26.83,
@@ -6581,13 +6581,33 @@
       "evidence": "insider net buying (Form 4); +1.2% over the month; 11% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "FITB",
+      "side": "sell",
+      "qty": 14.02882,
+      "status": "filled",
+      "price": 53.4,
+      "proceeds": 749.12,
+      "realized_pnl": -0.88,
+      "realized_pct": -0.12,
+      "date": "2026-11-06",
+      "time_et": "12:23",
+      "ts": 1793985790,
+      "why": "held 120 min, the 120-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 120 min ago, -0.08% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-11-06",
-  "spent_today": 1522.21,
+  "spent_today": 773.09,
   "deployed_today": 27000.0,
   "orders_today": 15,
-  "sells_today": 13,
+  "sells_today": 14,
   "sold_today": [
     "CRH",
     "FITB",
@@ -6604,7 +6624,7 @@
     "GH": 1793823961,
     "RPM": 1793981719,
     "WSM": 1793906119,
-    "FITB": 1793975750,
+    "FITB": 1793985790,
     "CRBG": 1793896273,
     "CACI": 1793643610,
     "PLD": 1793902820,
@@ -6618,8 +6638,8 @@
     "CRH": 1793975710,
     "BXMT": 1793979529
   },
-  "last_publish_ts": 1793984147,
-  "last_check_ts": 1793985751,
+  "last_publish_ts": 1793985790,
+  "last_check_ts": 1793985838,
   "exp_arm": {
     "FITB": {
       "params": {
@@ -6637,15 +6657,12 @@
     }
   },
   "last_bar_ts": 1793985600,
-  "last_decision_ts": 1793985664,
+  "last_decision_ts": 1793985838,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "8031d65e": 53.6113,
-    "cc70126a": 11.3976,
-    "53f02ff5": 53.0815,
     "795e8d9b": 11.2312,
-    "923a2a2b": 51.8562,
+    "cc70126a": 11.3976,
     "a5eca0c9": 11.0095
   }
 }
