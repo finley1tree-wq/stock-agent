@@ -95234,7 +95234,7 @@
     "code_version": "d8dc984",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": -0.06
   },
   {
     "symbol": "FITB",
@@ -95263,7 +95263,7 @@
     "code_version": "360635f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15
+    "ret_now": 0.28
   },
   {
     "symbol": "BXMT",
@@ -95321,7 +95321,9 @@
     "code_version": "b183ce4",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16
+    "ret_now": 0.54,
+    "ret_final": 0.54,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -95349,5 +95351,32 @@
     "hour_et": 13,
     "code_version": "795c34a",
     "hold_minutes": 19
+  },
+  {
+    "symbol": "ESAB",
+    "side": "sell",
+    "qty": 9.096095,
+    "status": "filled",
+    "price": 82.9,
+    "proceeds": 754.08,
+    "realized_pnl": 4.08,
+    "realized_pct": 0.54,
+    "date": "2026-11-06",
+    "time_et": "13:34",
+    "ts": 1793989800,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $82.45",
+    "trigger": "take_profit",
+    "hour_et": 13,
+    "code_version": "e56aa75",
+    "hold_minutes": 6
   }
 ]

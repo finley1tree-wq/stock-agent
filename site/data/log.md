@@ -1,6 +1,3 @@
-
-## 2026-11-06 12:23 ET (Friday) — week 2026-W45 — budget left $24219.71 (today $27000.00 put to work, 15 buys, 14 sells) — SIM (pretend money) via sim
-  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
   (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
   (CLST excluded: too thinly traded ($0.1M a day) — Catalyst Bancorp, Inc.)
   (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25421.91 (+1.69% on $25000.00 in) · cash $22421.67 · realised +421.67
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ESAB: position closed)
+- SELL 100% ESAB [take_profit @ $82.90] -> $754.08 (+0.54%) — close 100% at +0.5% over the average cost
+## 2026-11-06 13:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
