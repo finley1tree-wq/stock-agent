@@ -1,37 +1,3 @@
-  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (LBTY excluded: no security information)
-  (no price for XIVYX — excluded this check)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkNGE7uJmNc77U1K8Avj'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25322.80 (+1.29% on $25000.00 in) · cash $24572.68 · realised +322.68
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-05 14:57 ET (Thursday) — week 2026-W45 — budget left $24116.73 (today $53250.00 put to work, 41 buys, 40 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
-  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (LBTY excluded: no security information)
-  (no price for XIVYX — excluded this check)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgkNVrEAVj3ZerKsz6v8q'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25323.08 (+1.29% on $25000.00 in) · cash $24572.68 · realised +322.68
-Decision: nothing at this check. 2 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-05 14:59 ET (Thursday) — week 2026-W45 — budget left $24116.73 (today $53250.00 put to work, 41 buys, 40 sells) — SIM (pretend money) via sim
-  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
-  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
-  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
   (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
   (LBTY excluded: no security information)
   (no price for XIVYX — excluded this check)
@@ -398,3 +364,37 @@ portfolio: equity $25325.26 (+1.30% on $25000.00 in) · cash $25325.26 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-11-05 16:00 ET — published the session's closing state
+
+## 2026-11-06 09:32 ET (Friday) — week 2026-W45 — budget left $24869.31 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (ASPE excluded: too thinly traded ($12.5M a day) — Aspen Neuroscience, Inc.)
+  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
+  (CIVB excluded: too thinly traded ($4.1M a day) — Civista Bancshares, Inc.)
+  (DGICA excluded: too thinly traded ($2.6M a day) — Donegal Group Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (LBTY excluded: no security information)
+  (no price for XIVYX — excluded this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgmqdfcKDVfQ3VQ3bgrLP'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,869 idle, so opened 5: ESAB, NXPI, RPM, CRH, FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 ESAB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +22.2% over the month; 0% of today's range
+- BUY $3000.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +6.2% over the month; 30% of today's range
+- BUY $3000.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +3.5% over the month; 0% of today's range
+- BUY $3000.00 CRH [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +13.7% over the month; 63% of today's range
+- BUY $3000.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +4.3% over the month; 29% of today's range
+~ WORKING take_profit 100% ESAB @ $79.76 until 2026-11-11 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% ESAB @ $78.29 until 2026-11-11 — close it all at -1.3% under the average cost
+~ WORKING buy_limit $500.00 ESAB @ $76.96 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% NXPI @ $246.92 until 2026-11-11 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% NXPI @ $241.99 until 2026-11-11 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $238.14 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RPM @ $103.32 until 2026-11-11 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% RPM @ $102.09 until 2026-11-11 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 RPM @ $99.88 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CRH @ $93.52 until 2026-11-11 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% CRH @ $92.18 until 2026-11-11 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 CRH @ $90.35 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FITB @ $53.07 until 2026-11-11 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% FITB @ $52.54 until 2026-11-11 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $51.33 until 2026-11-11 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25319.86 (+1.28% on $25000.00 in) · cash $10325.26 · realised +325.26
+Done: 0 sell(s), 5 buy(s); 15 order(s) working; budget left $9869.31 this week
