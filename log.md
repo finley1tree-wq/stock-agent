@@ -65368,3 +65368,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25506.12 (+2.02% on $25000.00 in) · cash $23255.26 · realised +505.26
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ESAB: position closed)
+- SELL 100% ESAB [stop_loss @ $86.30] -> $748.11 (-0.25%) — close it all at -1.4% under the average cost
+## 2026-11-09 11:10 ET — tick — 1 sell(s), 0 buy(s) from standing orders

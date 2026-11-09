@@ -1,9 +1,9 @@
 {
   "week": "2026-W46",
-  "spent": 2249.57,
+  "spent": 1501.46,
   "deployed": 12750.0,
   "by_ticker": {
-    "ESAB": 750.0,
+    "ESAB": 1.89,
     "PLD": 750.0,
     "EL": 750.0
   },
@@ -278,13 +278,34 @@
       "evidence": "congress net buying (1 net buyer); +16.6% over the month; 84% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ESAB",
+      "side": "sell",
+      "qty": 8.669058,
+      "status": "filled",
+      "price": 86.3,
+      "proceeds": 748.11,
+      "realized_pnl": -1.89,
+      "realized_pct": -0.25,
+      "date": "2026-11-09",
+      "time_et": "11:10",
+      "ts": 1794240600,
+      "why": "close it all at -1.4% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $86.51",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-09",
-  "spent_today": 2249.57,
+  "spent_today": 1501.46,
   "deployed_today": 12750.0,
   "orders_today": 8,
-  "sells_today": 5,
+  "sells_today": 6,
   "sold_today": [
     "ESAB",
     "EL",
@@ -292,13 +313,13 @@
     "PLD"
   ],
   "sold_ts": {
-    "ESAB": 1794234988,
+    "ESAB": 1794240616,
     "EL": 1794235115,
     "RPM": 1794239435,
     "PLD": 1794237417
   },
-  "last_publish_ts": 1794240563,
-  "last_check_ts": 1794240566,
+  "last_publish_ts": 1794240615,
+  "last_check_ts": 1794240661,
   "exp_arm": {
     "ESAB": {
       "params": {
@@ -322,18 +343,15 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1794240300,
+  "last_bar_ts": 1794240600,
   "last_decision_ts": 1794240566,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "a5525f18": 130.6529,
     "d6f13d06": 130.496,
-    "ee87b8f2": 86.696,
+    "a5525f18": 130.6529,
     "4b159767": 114.8854,
-    "a746c5b5": 86.9797,
     "e5f1c51b": 112.9759,
-    "fa933284": 83.9147,
     "ad49d5f8": 110.9098,
     "79933ef0": 126.4589
   }
