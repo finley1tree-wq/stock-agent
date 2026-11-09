@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-09T10:27-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-11-09T10:30-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,250 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -185,10 +185,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 104.79,
-   "pct_away": 0.38,
+   "last": 104.72,
+   "pct_away": 0.45,
    "good_until": "2026-11-14",
    "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a746c5b5",
+   "ticker": "ESAB",
+   "kind": "take_profit",
+   "price": 86.9797,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 86.48,
+   "pct_away": 0.58,
+   "good_until": "2026-11-14",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,10 +219,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 104.79,
-   "pct_away": -0.82,
+   "last": 104.72,
+   "pct_away": -0.76,
    "good_until": "2026-11-14",
    "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3f08a7e5",
+   "ticker": "ESAB",
+   "kind": "stop_loss",
+   "price": 85.3352,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 86.48,
+   "pct_away": -1.32,
+   "good_until": "2026-11-14",
+   "why": "close it all at -1.4% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +253,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 104.79,
-   "pct_away": -2.96,
+   "last": 104.72,
+   "pct_away": -2.9,
+   "good_until": "2026-11-14",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "fa933284",
+   "ticker": "ESAB",
+   "kind": "buy_limit",
+   "price": 83.9147,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 86.48,
+   "pct_away": -2.97,
    "good_until": "2026-11-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -229,7 +280,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,250 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -297,11 +348,11 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 379,
-  "decisions_with_buys_graded": 46,
+  "decisions_graded": 378,
+  "decisions_with_buys_graded": 45,
   "independent_days_graded": 3,
-  "avg_regret_pct": -0.19,
-  "chosen_avg_pct": -0.02,
+  "avg_regret_pct": -0.16,
+  "chosen_avg_pct": -0.05,
   "skipped_avg_pct": -0.21,
   "idle_universe_avg_pct": 0.03,
   "picking_beats_random": true,
@@ -309,20 +360,20 @@
   "checks_that_bought_everything": 0,
   "by_signal_chosen": {
    "autopilot": {
-    "n": 83,
-    "avg_pct": -0.57
+    "n": 81,
+    "avg_pct": -0.62
    },
    "congress": {
-    "n": 67,
-    "avg_pct": -0.22
+    "n": 65,
+    "avg_pct": -0.27
    },
    "insider": {
     "n": 16,
     "avg_pct": -2.02
    },
    "momentum": {
-    "n": 83,
-    "avg_pct": -0.57
+    "n": 81,
+    "avg_pct": -0.62
    }
   },
   "biggest_misses": [
@@ -344,9 +395,9 @@
    },
    {
     "ticker": "ESAB",
-    "fwd_pct": 11.99,
+    "fwd_pct": 11.47,
     "sector": "off-watchlist",
-    "m1m_then": -1.4,
+    "m1m_then": -0.9,
     "congress": 1.0,
     "insider": 0
    },
@@ -2428,14 +2479,14 @@
   ],
   "NVDA": [
    {
-    "title": "Tech stocks rally as Nvidia stock and oil prices fall: AlphaCheck",
-    "source": "Yahoo Finance",
-    "when": "2026-11-09T15:22"
-   },
-   {
     "title": "Nvidia live updates: Nvidia stock falls as tech leaders, Trump weigh in on CEO Jensen Huang's affair with alleged Chinese spy",
     "source": "Yahoo Finance",
     "when": "2026-11-09T15:14"
+   },
+   {
+    "title": "Tech stocks rally as Nvidia stock and oil prices fall: AlphaCheck",
+    "source": "Yahoo Finance",
+    "when": "2026-11-09T15:22"
    },
    {
     "title": "Nvidia stock sinks 4% as chipmaker investigates CEO Jensen Huang's relationship with alleged Chinese spy",
@@ -2632,5 +2683,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-09T10:27-05:00"
+ "signalsAsOf": "2026-11-09T10:30-05:00"
 }

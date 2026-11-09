@@ -1,12 +1,13 @@
 {
   "week": "2026-W46",
-  "spent": 750.0,
-  "deployed": 10500.0,
+  "spent": 1500.0,
+  "deployed": 11250.0,
   "by_ticker": {
-    "RPM": 750.0
+    "RPM": 750.0,
+    "ESAB": 750.0
   },
   "deployed_by_ticker": {
-    "ESAB": 3000.0,
+    "ESAB": 3750.0,
     "RPM": 3750.0,
     "EL": 3000.0,
     "PLD": 750.0
@@ -195,12 +196,32 @@
       "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +7.2% over the month; 52% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ESAB",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 8.669058,
+      "price": 86.51,
+      "date": "2026-11-09",
+      "time_et": "10:30",
+      "ts": 1794238205,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +29.4% over the month; 85% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-09",
-  "spent_today": 750.0,
-  "deployed_today": 10500.0,
-  "orders_today": 5,
+  "spent_today": 1500.0,
+  "deployed_today": 11250.0,
+  "orders_today": 6,
   "sells_today": 4,
   "sold_today": [
     "ESAB",
@@ -214,8 +235,8 @@
     "RPM": 1794235157,
     "PLD": 1794237417
   },
-  "last_publish_ts": 1794238023,
-  "last_check_ts": 1794238109,
+  "last_publish_ts": 1794238205,
+  "last_check_ts": 1794238205,
   "exp_arm": {
     "RPM": {
       "params": {
@@ -223,15 +244,25 @@
         "ratchet": "on"
       },
       "tags": {}
+    },
+    "ESAB": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
     }
   },
-  "last_bar_ts": 1794237900,
-  "last_decision_ts": 1794238023,
+  "last_bar_ts": 1794238200,
+  "last_decision_ts": 1794238205,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "80df89a7": 105.1906,
+    "a746c5b5": 86.9797,
     "163fb85e": 103.9274,
-    "acb1586c": 101.6851
+    "3f08a7e5": 85.3352,
+    "acb1586c": 101.6851,
+    "fa933284": 83.9147
   }
 }

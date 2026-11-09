@@ -1,20 +1,3 @@
-portfolio: equity $25431.33 (+1.73% on $25000.00 in) · cash $25431.33 · realised +431.33
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-06 15:43 ET (Friday) — week 2026-W45 — budget left $24975.36 (today $30750.00 put to work, 20 buys, 20 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (APOG excluded: too thinly traded ($12.6M a day) — Apogee Enterprises, Inc.)
-  (BCBP excluded: too thinly traded ($1.9M a day) — BCB Bancorp, Inc.)
-  (CLST excluded: too thinly traded ($0.1M a day) — Catalyst Bancorp, Inc.)
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgnKrmSvwJX9eUrktEwJt'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25431.33 (+1.73% on $25000.00 in) · cash $25431.33 · realised +431.33
-Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-11-06 15:46 ET (Friday) — week 2026-W45 — budget left $24975.36 (today $30750.00 put to work, 20 buys, 20 sells) — SIM (pretend money) via sim
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 RPM @ $101.69 until 2026-11-14 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25504.53 (+2.02% on $25000.00 in) · cash $24754.83 · realised +504.83
 Done: 0 sell(s), 1 buy(s); 3 order(s) working; budget left $24250.00 this week
+
+## 2026-11-09 10:30 ET (Monday) — week 2026-W46 — budget left $24250.00 (today $10500.00 put to work, 5 buys, 4 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (LXRX excluded: too thinly traded ($4.9M a day) — Lexicon Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgsbP5jrxiB79YVjf8z3E'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,250 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ESAB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +29.4% over the month; 85% of today's range
+~ WORKING take_profit 100% ESAB @ $86.98 until 2026-11-14 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% ESAB @ $85.34 until 2026-11-14 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 ESAB @ $83.91 until 2026-11-14 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25503.72 (+2.01% on $25000.00 in) · cash $24004.83 · realised +504.83
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $23500.00 this week
