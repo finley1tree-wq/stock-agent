@@ -64911,3 +64911,17 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25503.24 (+2.01% on $25000.00 in) · cash $25503.24 · realised +503.24
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 0 order(s) working; budget left $25000.00 this week
+
+## 2026-11-09 09:40 ET (Monday) — week 2026-W46 — budget left $25000.00 (today $9000.00 put to work, 3 buys, 3 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
+  (DSM excluded: too thinly traded ($1.0M a day) — BNY Mellon Strategic Municipal Bond Fund, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (LXRX excluded: too thinly traded ($4.9M a day) — Lexicon Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgsXbyfsxRjyvb9CqE6Aw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25503.24 (+2.01% on $25000.00 in) · cash $25503.24 · realised +503.24
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
