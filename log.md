@@ -64897,3 +64897,17 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25475.09 (+1.90% on $25000.00 in) · cash $19478.94 · realised +478.94
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $113.06] -> $3013.97 (+0.47%) — close 100% at +0.5% over the average cost
+## 2026-11-09 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-09 09:38 ET (Monday) — week 2026-W46 — budget left $22061.58 (today $9000.00 put to work, 3 buys, 2 sells) — SIM (pretend money) via sim
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [take_profit @ $104.58] -> $3010.33 (+0.34%) — close 100% at +0.3% over the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgsXUydDVcUv8ienpP9Lg'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25503.24 (+2.01% on $25000.00 in) · cash $25503.24 · realised +503.24
+Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 0 order(s) working; budget left $25000.00 this week
