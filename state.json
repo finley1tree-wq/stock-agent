@@ -1,15 +1,17 @@
 {
   "week": "2026-W46",
-  "spent": 749.57,
-  "deployed": 11250.0,
+  "spent": 2249.57,
+  "deployed": 12750.0,
   "by_ticker": {
-    "ESAB": 750.0
+    "ESAB": 750.0,
+    "PLD": 750.0,
+    "EL": 750.0
   },
   "deployed_by_ticker": {
     "ESAB": 3750.0,
     "RPM": 3750.0,
-    "EL": 3000.0,
-    "PLD": 750.0
+    "EL": 3750.0,
+    "PLD": 1500.0
   },
   "orders": [
     {
@@ -236,12 +238,52 @@
       ],
       "evidence": "average cost $104.83",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "PLD",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.752763,
+      "price": 130.37,
+      "date": "2026-11-09",
+      "time_et": "11:03",
+      "ts": 1794240200,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +0.6% over the month; 82% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "EL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.55963,
+      "price": 114.34,
+      "date": "2026-11-09",
+      "time_et": "11:03",
+      "ts": 1794240200,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +16.6% over the month; 84% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-09",
-  "spent_today": 749.57,
-  "deployed_today": 11250.0,
-  "orders_today": 6,
+  "spent_today": 2249.57,
+  "deployed_today": 12750.0,
+  "orders_today": 8,
   "sells_today": 5,
   "sold_today": [
     "ESAB",
@@ -255,17 +297,24 @@
     "RPM": 1794239435,
     "PLD": 1794237417
   },
-  "last_publish_ts": 1794239434,
-  "last_check_ts": 1794240106,
+  "last_publish_ts": 1794240200,
+  "last_check_ts": 1794240200,
   "exp_arm": {
-    "RPM": {
+    "ESAB": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
       },
       "tags": {}
     },
-    "ESAB": {
+    "PLD": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "EL": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -274,12 +323,18 @@
     }
   },
   "last_bar_ts": 1794240000,
-  "last_decision_ts": 1794240015,
-  "next_check_minutes": null,
+  "last_decision_ts": 1794240200,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "a5525f18": 130.6529,
+    "1fd4bb93": 129.6647,
+    "4b159767": 114.8854,
     "a746c5b5": 86.9797,
+    "e5f1c51b": 112.9759,
     "3f08a7e5": 85.3352,
-    "fa933284": 83.9147
+    "fa933284": 83.9147,
+    "79933ef0": 126.4589,
+    "ad49d5f8": 110.9098
   }
 }

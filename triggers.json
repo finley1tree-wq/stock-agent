@@ -1,119 +1,6 @@
 {
  "orders": [
   {
-   "id": "246533f5",
-   "ticker": "PLD",
-   "kind": "take_profit",
-   "price": 128.6637,
-   "status": "filled",
-   "created": "2026-11-03 13:02",
-   "created_ts": 1793728957,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $128.38",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 13:36"
-  },
-  {
-   "id": "c55a56ed",
-   "ticker": "PLD",
-   "kind": "stop_loss",
-   "price": 127.6726,
-   "status": "cancelled",
-   "created": "2026-11-03 13:02",
-   "created_ts": 1793728957,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $128.38",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 13:35",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "c088be70",
-   "ticker": "PLD",
-   "kind": "buy_limit",
-   "price": 124.5286,
-   "status": "cancelled",
-   "created": "2026-11-03 13:02",
-   "created_ts": 1793728957,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $128.38",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "usd": 500.0,
-   "closed": "2026-11-03 13:36",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "365becc7",
-   "ticker": "FITB",
-   "kind": "take_profit",
-   "price": 54.3206,
-   "status": "cancelled",
-   "created": "2026-11-03 13:02",
-   "created_ts": 1793728957,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $54.19",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 13:30",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "1bf8a470",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 53.8638,
-   "status": "cancelled",
-   "created": "2026-11-03 13:02",
-   "created_ts": 1793728957,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $54.19",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 13:17",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "1ce65d53",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 52.5643,
-   "status": "cancelled",
-   "created": "2026-11-03 13:02",
-   "created_ts": 1793728957,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $54.19",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "usd": 500.0,
-   "closed": "2026-11-03 13:30",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "64da5286",
    "ticker": "NTRS",
    "kind": "take_profit",
@@ -7487,7 +7374,109 @@
    "good_until": "2026-11-14",
    "pct_of_position": 100.0,
    "closed": "2026-11-09 10:50"
+  },
+  {
+   "id": "a5525f18",
+   "ticker": "PLD",
+   "kind": "take_profit",
+   "price": 130.6529,
+   "status": "working",
+   "created": "2026-11-09 11:03",
+   "created_ts": 1794240200,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $130.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1fd4bb93",
+   "ticker": "PLD",
+   "kind": "stop_loss",
+   "price": 129.6647,
+   "status": "working",
+   "created": "2026-11-09 11:03",
+   "created_ts": 1794240200,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $130.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "79933ef0",
+   "ticker": "PLD",
+   "kind": "buy_limit",
+   "price": 126.4589,
+   "status": "working",
+   "created": "2026-11-09 11:03",
+   "created_ts": 1794240200,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $130.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-14",
+   "usd": 500.0
+  },
+  {
+   "id": "4b159767",
+   "ticker": "EL",
+   "kind": "take_profit",
+   "price": 114.8854,
+   "status": "working",
+   "created": "2026-11-09 11:03",
+   "created_ts": 1794240200,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $114.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e5f1c51b",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 112.9759,
+   "status": "working",
+   "created": "2026-11-09 11:03",
+   "created_ts": 1794240200,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $114.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-14",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ad49d5f8",
+   "ticker": "EL",
+   "kind": "buy_limit",
+   "price": 110.9098,
+   "status": "working",
+   "created": "2026-11-09 11:03",
+   "created_ts": 1794240200,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $114.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-14",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-09 11:00"
+ "updated": "2026-11-09 11:03"
 }
