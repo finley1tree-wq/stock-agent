@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-11-09 10:57 ET
+# Pretend portfolio — 2026-11-09 11:00 ET
 
-**Equity $25503.05** on $25000.00 put in → **+2.01%**  
-Cash $24755.26 · Unrealised -2.21 · Realised +505.26
+**Equity $25504.61** on $25000.00 put in → **+2.02%**  
+Cash $24755.26 · Unrealised -0.65 · Realised +505.26
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| ESAB | 2.9% | $747.79 | $86.51 | $86.26 | -0.29% | 0d |
+| ESAB | 2.9% | $749.35 | $86.51 | $86.44 | -0.09% | 0d |
 
 ## Last fills
 
