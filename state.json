@@ -1,10 +1,9 @@
 {
   "week": "2026-W46",
-  "spent": 1501.46,
+  "spent": 751.12,
   "deployed": 12750.0,
   "by_ticker": {
     "ESAB": 1.89,
-    "PLD": 750.0,
     "EL": 750.0
   },
   "deployed_by_ticker": {
@@ -299,13 +298,34 @@
       ],
       "evidence": "average cost $86.51",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "PLD",
+      "side": "sell",
+      "qty": 5.752763,
+      "status": "filled",
+      "price": 130.43,
+      "proceeds": 750.34,
+      "realized_pnl": 0.34,
+      "realized_pct": 0.05,
+      "date": "2026-11-09",
+      "time_et": "11:13",
+      "ts": 1794240600,
+      "why": "close it all at -0.5% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $130.37",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-09",
-  "spent_today": 1501.46,
+  "spent_today": 751.12,
   "deployed_today": 12750.0,
   "orders_today": 8,
-  "sells_today": 6,
+  "sells_today": 7,
   "sold_today": [
     "ESAB",
     "EL",
@@ -316,10 +336,10 @@
     "ESAB": 1794240616,
     "EL": 1794235115,
     "RPM": 1794239435,
-    "PLD": 1794237417
+    "PLD": 1794240790
   },
-  "last_publish_ts": 1794240615,
-  "last_check_ts": 1794240742,
+  "last_publish_ts": 1794240789,
+  "last_check_ts": 1794240835,
   "exp_arm": {
     "ESAB": {
       "params": {
@@ -348,11 +368,8 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "d6f13d06": 130.496,
-    "a5525f18": 130.6529,
     "4b159767": 114.8854,
     "e5f1c51b": 112.9759,
-    "ad49d5f8": 110.9098,
-    "79933ef0": 126.4589
+    "ad49d5f8": 110.9098
   }
 }
