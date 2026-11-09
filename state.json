@@ -1,10 +1,8 @@
 {
   "week": "2026-W46",
-  "spent": 750.0,
+  "spent": 0.0,
   "deployed": 9750.0,
-  "by_ticker": {
-    "PLD": 750.0
-  },
+  "by_ticker": {},
   "deployed_by_ticker": {
     "ESAB": 3000.0,
     "RPM": 3000.0,
@@ -154,25 +152,48 @@
       "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +0.2% over the month; 83% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "PLD",
+      "side": "sell",
+      "qty": 5.778481,
+      "status": "filled",
+      "price": 130.07,
+      "proceeds": 751.59,
+      "realized_pnl": 1.59,
+      "realized_pct": 0.21,
+      "date": "2026-11-09",
+      "time_et": "10:16",
+      "ts": 1794237300,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $129.79",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-09",
-  "spent_today": 750.0,
+  "spent_today": 0.0,
   "deployed_today": 9750.0,
   "orders_today": 4,
-  "sells_today": 3,
+  "sells_today": 4,
   "sold_today": [
     "ESAB",
     "EL",
-    "RPM"
+    "RPM",
+    "PLD"
   ],
   "sold_ts": {
     "ESAB": 1794234988,
     "EL": 1794235115,
-    "RPM": 1794235157
+    "RPM": 1794235157,
+    "PLD": 1794237417
   },
-  "last_publish_ts": 1794237162,
-  "last_check_ts": 1794237330,
+  "last_publish_ts": 1794237417,
+  "last_check_ts": 1794237417,
   "exp_arm": {
     "PLD": {
       "params": {
@@ -186,9 +207,5 @@
   "last_decision_ts": 1794237330,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "48f0e251": 130.0665,
-    "35fbe09a": 129.0982,
-    "97449c4d": 125.8963
-  }
+  "book_px": {}
 }
