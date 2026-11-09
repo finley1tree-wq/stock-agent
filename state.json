@@ -1,12 +1,15 @@
 {
   "week": "2026-W46",
-  "spent": 0.0,
-  "deployed": 9000.0,
-  "by_ticker": {},
+  "spent": 750.0,
+  "deployed": 9750.0,
+  "by_ticker": {
+    "PLD": 750.0
+  },
   "deployed_by_ticker": {
     "ESAB": 3000.0,
     "RPM": 3000.0,
-    "EL": 3000.0
+    "EL": 3000.0,
+    "PLD": 750.0
   },
   "orders": [
     {
@@ -131,12 +134,32 @@
       ],
       "evidence": "average cost $104.22",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "PLD",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 5.778481,
+      "price": 129.79,
+      "date": "2026-11-09",
+      "time_et": "10:12",
+      "ts": 1794237162,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +0.2% over the month; 83% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-09",
-  "spent_today": 0.0,
-  "deployed_today": 9000.0,
-  "orders_today": 3,
+  "spent_today": 750.0,
+  "deployed_today": 9750.0,
+  "orders_today": 4,
   "sells_today": 3,
   "sold_today": [
     "ESAB",
@@ -148,24 +171,10 @@
     "EL": 1794235115,
     "RPM": 1794235157
   },
-  "last_publish_ts": 1794236943,
-  "last_check_ts": 1794236990,
+  "last_publish_ts": 1794237162,
+  "last_check_ts": 1794237162,
   "exp_arm": {
-    "ESAB": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "RPM": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "EL": {
+    "PLD": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -173,9 +182,13 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1794236700,
-  "last_decision_ts": 1794236990,
-  "next_check_minutes": null,
+  "last_bar_ts": 1794237000,
+  "last_decision_ts": 1794237162,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "48f0e251": 130.0665,
+    "35fbe09a": 129.0982,
+    "97449c4d": 125.8963
+  }
 }
