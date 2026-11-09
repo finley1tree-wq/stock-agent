@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-09T09:33-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 2: ESAB, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "asOf": "2026-11-09T09:35-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,000 idle, so opened 1: EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "19ba42e8",
+   "ticker": "EL",
+   "kind": "take_profit",
+   "price": 113.0589,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 112.49,
+   "pct_away": 0.51,
+   "good_until": "2026-11-14",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "b1dcecde",
    "ticker": "RPM",
    "kind": "take_profit",
@@ -185,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 104.18,
-   "pct_away": 0.38,
+   "last": 104.04,
+   "pct_away": 0.52,
    "good_until": "2026-11-14",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -219,10 +236,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 104.18,
-   "pct_away": -0.83,
+   "last": 104.04,
+   "pct_away": -0.69,
    "good_until": "2026-11-14",
    "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "f6e54dbf",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 111.2078,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 112.49,
+   "pct_away": -1.14,
+   "good_until": "2026-11-14",
+   "why": "close it all at -1.2% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +287,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 104.18,
-   "pct_away": -2.96,
+   "last": 104.04,
+   "pct_away": -2.83,
    "good_until": "2026-11-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -278,9 +312,26 @@
     "risk_management",
     "auto_bracket"
    ]
+  },
+  {
+   "id": "279f27b1",
+   "ticker": "EL",
+   "kind": "buy_limit",
+   "price": 109.1541,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 112.49,
+   "pct_away": -2.97,
+   "good_until": "2026-11-14",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 2: ESAB, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $19,000 idle, so opened 1: EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -324,7 +375,7 @@
  "feed_status": {
   "congress": "ok",
   "congress_source": "congresswatch",
-  "congress_notes": "fmp: 401 Client Error: Unauthorized for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
+  "congress_notes": "",
   "insiders": "unavailable",
   "excluded_instruments": [
    "FMAO excluded: too thinly traded ($2.1M a day) \u2014 Farmers & Merchants Bancorp, Inc.",
@@ -334,7 +385,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 399,
+  "decisions_graded": 398,
   "decisions_with_buys_graded": 54,
   "independent_days_graded": 4,
   "avg_regret_pct": -0.25,
@@ -435,9 +486,9 @@
     "n": 1
    }
   },
-  "idle_checks": 339,
+  "idle_checks": 338,
   "blocked_checks": 0,
-  "idle_share": 0.85,
+  "idle_share": 0.84,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -1367,6 +1418,11 @@
   ],
   "AMAT": [
    {
+    "title": "Stock Market Today: Nvidia Pressures Indexes to Maintain Rebound",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-09T14:28"
+   },
+   {
     "title": "Update: US Equity Futures Higher Pre-Bell as Traders Assess Oil Price Drop, Await AI-Related Earnings This Week",
     "source": "MT Newswires",
     "when": "2026-11-09T13:55"
@@ -1375,11 +1431,6 @@
     "title": "A Fund With $4.4 Billion in US Equities Bought These 3 Stocks",
     "source": "TIKR",
     "when": "2026-11-09T13:51"
-   },
-   {
-    "title": "Cathie Wood and 73 Other Funds Bought Chip Stocks. Cerebras Is Down 59% Since. Time to Buy?",
-    "source": "TIKR",
-    "when": "2026-11-09T13:33"
    }
   ],
   "AMD": [
@@ -1690,6 +1741,11 @@
   ],
   "MSFT": [
    {
+    "title": "Is Oracle (ORCL) Losing Ground In AI Infrastructure Demand?",
+    "source": "Simply Wall St.",
+    "when": "2026-11-09T14:09"
+   },
+   {
     "title": "Bank of America Is Doubling Down on Apple While Tech Sells Off. Here\u2019s Its Price Target",
     "source": "24/7 Wall St.",
     "when": "2026-11-09T14:03"
@@ -1698,11 +1754,6 @@
     "title": "Unpopular Opinion: \u201cAI Trade Is Done.\u201d Jensen Huang May Have Just Destroyed It.",
     "source": "TIKR",
     "when": "2026-11-09T13:58"
-   },
-   {
-    "title": "Stock Market Today: Dow Rallies As Oil Prices Slide; Nvidia Stock Dives On CEO Huang Probe (Live Coverage)",
-    "source": "Investor's Business Daily",
-    "when": "2026-11-09T13:53"
    }
   ],
   "MU": [
@@ -1775,6 +1826,11 @@
   ],
   "NVDA": [
    {
+    "title": "Jensen Huang just handed Wall Street its first $4.5 trillion CEO scandal",
+    "source": "Yahoo Finance",
+    "when": "2026-11-09T09:48"
+   },
+   {
     "title": "Stock market today: Dow, S&P 500, Nasdaq rise with Nvidia stock, AI trade in focus",
     "source": "Yahoo Finance",
     "when": "2026-11-09T09:05"
@@ -1783,14 +1839,14 @@
     "title": "Nvidia stock sinks 8% as chipmaker investigates CEO Jensen Huang's relationship with alleged Chinese spy",
     "source": "Yahoo Finance",
     "when": "2026-11-09T13:03"
-   },
-   {
-    "title": "Nvidia's Jensen Huang admits to affair with suspected Chinese spy, raising security concerns",
-    "source": "Yahoo Finance Video",
-    "when": "2026-11-09T14:19"
    }
   ],
   "O": [
+   {
+    "title": "Want Reliable Dividend Income? These 4 High-Yield Stocks Have Balance Sheets Lenders Still Trust",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-09T14:22"
+   },
    {
     "title": "Benjamin Graham Had a 20-Year Rule for Retirement Income. It Just Won the AI Sell-Off",
     "source": "24/7 Wall St.",
@@ -1800,11 +1856,6 @@
     "title": "3 Dividend Aristocrats Yielding More Than the 2027 COLA",
     "source": "24/7 Wall St.",
     "when": "2026-11-09T12:37"
-   },
-   {
-    "title": "A 70-Year-Old Swapped O for ADC in a $1.03 Million Income Portfolio. Here\u2019s What Happened to Her $5,650 Monthly Paycheck",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-08T20:21"
    }
   ],
   "OKLO": [
@@ -1911,6 +1962,11 @@
   ],
   "T": [
    {
+    "title": "VZ Shares Rise 14.7% in a Year: What's the Next Move for Investors?",
+    "source": "Zacks",
+    "when": "2026-11-09T13:19"
+   },
+   {
     "title": "6 Dividend Stocks With Big Yields and Bigger Warning Signs",
     "source": "24/7 Wall St.",
     "when": "2026-11-09T11:37"
@@ -1919,11 +1975,6 @@
     "title": "A 70-Year-Old Swapped O for ADC in a $1.03 Million Income Portfolio. Here\u2019s What Happened to Her $5,650 Monthly Paycheck",
     "source": "24/7 Wall St.",
     "when": "2026-11-08T20:21"
-   },
-   {
-    "title": "If I Could Give My Younger Self 1 Piece of Investing Advice, This Is What It Would Be",
-    "source": "Motley Fool",
-    "when": "2026-11-08T17:05"
    }
   ],
   "TSM": [
@@ -1979,5 +2030,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-09T09:33-05:00"
+ "signalsAsOf": "2026-11-09T09:35-05:00"
 }
