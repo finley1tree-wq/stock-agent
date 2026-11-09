@@ -1,13 +1,14 @@
 {
   "week": "2026-W46",
-  "spent": 0.0,
-  "deployed": 13500.0,
+  "spent": 750.0,
+  "deployed": 14250.0,
   "by_ticker": {
-    "ESAB": 1.89
+    "ESAB": 1.89,
+    "RPM": 750.0
   },
   "deployed_by_ticker": {
     "ESAB": 3750.0,
-    "RPM": 4500.0,
+    "RPM": 5250.0,
     "EL": 3750.0,
     "PLD": 1500.0
   },
@@ -380,12 +381,32 @@
       ],
       "evidence": "average cost $114.34",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RPM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.025584,
+      "price": 106.75,
+      "date": "2026-11-09",
+      "time_et": "13:02",
+      "ts": 1794247345,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +9.2% over the month; 82% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-09",
-  "spent_today": 0.0,
-  "deployed_today": 13500.0,
-  "orders_today": 9,
+  "spent_today": 750.0,
+  "deployed_today": 14250.0,
+  "orders_today": 10,
   "sells_today": 9,
   "sold_today": [
     "ESAB",
@@ -399,16 +420,9 @@
     "RPM": 1794242477,
     "PLD": 1794240790
   },
-  "last_publish_ts": 1794247123,
-  "last_check_ts": 1794247171,
+  "last_publish_ts": 1794247345,
+  "last_check_ts": 1794247345,
   "exp_arm": {
-    "EL": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
     "RPM": {
       "params": {
         "hold_minutes": 120,
@@ -417,9 +431,13 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1794246900,
-  "last_decision_ts": 1794247171,
+  "last_bar_ts": 1794247200,
+  "last_decision_ts": 1794247345,
   "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "ab933dd8": 107.1247,
+    "d52e3c4d": 105.8138,
+    "4142a393": 103.5475
+  }
 }
