@@ -1,4 +1,3 @@
-  (CTTH excluded: too thinly traded ($0.0M a day) — CTT Pharmaceutical Holdings, Inc.)
   (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
   (KYN excluded: too thinly traded ($4.2M a day) — Kayne Anderson Energy Infrastructure Fund, Inc.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
@@ -398,3 +397,4 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25431.33 (+1.73% on $25000.00 in) · cash $25431.33 · realised +431.33
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-11-06 16:00 ET — published the session's closing state
