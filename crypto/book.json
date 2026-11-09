@@ -1,7 +1,7 @@
 {
  "pretend_money": true,
  "start_usd": 10000,
- "cash": 8219.825001,
+ "cash": 8292.896623,
  "holdings": {
   "HYPE": {
    "asset": "HYPE",
@@ -11,9 +11,9 @@
    "since": "2026-09-30",
    "strategy": "hold",
    "stage": "PROBATION",
-   "price": 74.91,
-   "value_usd": 81.76,
-   "pnl_usd": -14.4
+   "price": 74.19,
+   "value_usd": 80.97,
+   "pnl_usd": -15.18
   },
   "LINK": {
    "asset": "LINK",
@@ -23,9 +23,9 @@
    "since": "2026-09-30",
    "strategy": "hold",
    "stage": "SURVIVOR",
-   "price": 10.448,
-   "value_usd": 277.27,
-   "pnl_usd": -107.35
+   "price": 10.36,
+   "value_usd": 274.93,
+   "pnl_usd": -109.69
   },
   "LTC": {
    "asset": "LTC",
@@ -35,21 +35,9 @@
    "since": "2026-09-30",
    "strategy": "hold",
    "stage": "PROBATION",
-   "price": 50.322,
-   "value_usd": 70.1,
-   "pnl_usd": -26.05
-  },
-  "VVV": {
-   "asset": "VVV",
-   "qty": 3.616955032820909,
-   "entry_px": 26.4114,
-   "cost_usd": 96.15384615384616,
-   "since": "2026-09-30",
-   "strategy": "hold",
-   "stage": "PROBATION",
-   "price": 20.126,
-   "value_usd": 72.79,
-   "pnl_usd": -23.36
+   "price": 50.337,
+   "value_usd": 70.12,
+   "pnl_usd": -26.03
   },
   "XLM": {
    "asset": "XLM",
@@ -59,9 +47,9 @@
    "since": "2026-09-30",
    "strategy": "hold",
    "stage": "PROBATION",
-   "price": 0.146934,
-   "value_usd": 63.77,
-   "pnl_usd": -32.38
+   "price": 0.145072,
+   "value_usd": 62.96,
+   "pnl_usd": -33.19
   },
   "XRP": {
    "asset": "XRP",
@@ -71,9 +59,9 @@
    "since": "2026-09-30",
    "strategy": "hold",
    "stage": "PROBATION",
-   "price": 1.1171,
-   "value_usd": 71.14,
-   "pnl_usd": -25.01
+   "price": 1.0923,
+   "value_usd": 69.56,
+   "pnl_usd": -26.59
   },
   "NEAR": {
    "asset": "NEAR",
@@ -83,12 +71,12 @@
    "since": "2026-10-10",
    "strategy": "hold",
    "stage": "SURVIVOR",
-   "price": 3.6077,
-   "value_usd": 232.25,
-   "pnl_usd": -110.64
+   "price": 3.5473,
+   "value_usd": 228.36,
+   "pnl_usd": -114.53
   }
  },
- "realized": -571.91,
+ "realized": -594.99,
  "started": "2026-10-01",
  "history": [
   [
@@ -798,10 +786,14 @@
   [
    "2026-11-08T23:42:58+00:00",
    9088.9
+  ],
+  [
+   "2026-11-09T06:32:29+00:00",
+   9079.8
   ]
  ],
- "last_decision_day": "2026-11-07",
- "decided_for": "2026-11-08",
+ "last_decision_day": "2026-11-08",
+ "decided_for": "2026-11-09",
  "universe": [
   "ADA",
   "AERO",
@@ -820,32 +812,17 @@
   "SUI",
   "TAO",
   "UNI",
-  "VVV",
   "XLM",
   "XRP",
   "ZEC"
  ],
- "generated_at": "2026-11-08T23:42:58+00:00",
- "equity": 9088.9,
+ "generated_at": "2026-11-09T06:32:29+00:00",
+ "equity": 9079.8,
  "fees": {
   "fee_pct": 0.6,
   "slippage_pct": 0.05
  },
  "recent_fills": [
-  {
-   "ts": "2026-10-09T02:13:50+00:00",
-   "day": "2026-10-08",
-   "side": "sell",
-   "asset": "BTC",
-   "qty": 0.004512498913434773,
-   "price": 81966.16,
-   "usd": 367.47,
-   "pnl": -17.15,
-   "pct": -4.458,
-   "cost_pct": 0.65,
-   "strategy": "donchian",
-   "why": "donchian went flat"
-  },
   {
    "ts": "2026-10-09T02:13:50+00:00",
    "day": "2026-10-08",
@@ -1235,6 +1212,20 @@
    "cost_pct": 0.65,
    "strategy": "tsm",
    "why": "tsm went flat"
+  },
+  {
+   "ts": "2026-11-09T06:32:29+00:00",
+   "day": "2026-11-08",
+   "side": "sell",
+   "asset": "VVV",
+   "qty": 3.616955032820909,
+   "price": 20.3347,
+   "usd": 73.07,
+   "pnl": -23.08,
+   "pct": -24.006,
+   "cost_pct": 0.65,
+   "strategy": "hold",
+   "why": "left the liquid universe"
   }
  ]
 }
