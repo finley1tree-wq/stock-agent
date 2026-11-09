@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "d7e2f628",
-   "ticker": "NTRS",
-   "kind": "stop_loss",
-   "price": 171.3921,
-   "status": "cancelled",
-   "created": "2026-11-03 13:02",
-   "created_ts": 1793728957,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $172.47",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 13:18",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "9d31c703",
    "ticker": "NTRS",
    "kind": "buy_limit",
@@ -7381,7 +7362,7 @@
    "ticker": "PLD",
    "kind": "stop_loss",
    "price": 129.6647,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-09 11:03",
    "created_ts": 1794240200,
    "why": "close it all at -0.5% under the average cost",
@@ -7391,7 +7372,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-09 11:09",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "79933ef0",
@@ -7477,7 +7460,24 @@
    ],
    "good_until": "2026-11-14",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "d6f13d06",
+   "ticker": "PLD",
+   "kind": "stop_loss",
+   "price": 130.496,
+   "status": "working",
+   "created": "2026-11-09 11:09",
+   "created_ts": 1794240563,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $130.37",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-14",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-09 11:07"
+ "updated": "2026-11-09 11:09"
 }

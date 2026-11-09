@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-09T11:07-05:00",
+ "asOf": "2026-11-09T11:09-05:00",
  "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
@@ -185,10 +185,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 130.48,
-   "pct_away": 0.13,
+   "last": 130.58,
+   "pct_away": 0.06,
    "good_until": "2026-11-14",
    "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d6f13d06",
+   "ticker": "PLD",
+   "kind": "stop_loss",
+   "price": 130.496,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 130.58,
+   "pct_away": -0.06,
+   "good_until": "2026-11-14",
+   "why": "close it all at -0.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,27 +219,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 86.82,
-   "pct_away": -0.14,
+   "last": 86.48,
+   "pct_away": 0.25,
    "good_until": "2026-11-14",
    "why": "close it all at -1.4% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a746c5b5",
-   "ticker": "ESAB",
-   "kind": "take_profit",
-   "price": 86.9797,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 86.82,
-   "pct_away": 0.18,
-   "good_until": "2026-11-14",
-   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 114.43,
-   "pct_away": 0.4,
+   "last": 114.33,
+   "pct_away": 0.49,
    "good_until": "2026-11-14",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -246,17 +246,17 @@
    ]
   },
   {
-   "id": "1fd4bb93",
-   "ticker": "PLD",
-   "kind": "stop_loss",
-   "price": 129.6647,
+   "id": "a746c5b5",
+   "ticker": "ESAB",
+   "kind": "take_profit",
+   "price": 86.9797,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 130.48,
-   "pct_away": -0.62,
+   "last": 86.48,
+   "pct_away": 0.58,
    "good_until": "2026-11-14",
-   "why": "close it all at -0.5% under the average cost",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 114.43,
-   "pct_away": -1.27,
+   "last": 114.33,
+   "pct_away": -1.18,
    "good_until": "2026-11-14",
    "why": "close it all at -1.2% under the average cost",
    "signals": [
@@ -280,15 +280,15 @@
    ]
   },
   {
-   "id": "79933ef0",
-   "ticker": "PLD",
+   "id": "fa933284",
+   "ticker": "ESAB",
    "kind": "buy_limit",
-   "price": 126.4589,
+   "price": 83.9147,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 130.48,
-   "pct_away": -3.08,
+   "last": 86.48,
+   "pct_away": -2.97,
    "good_until": "2026-11-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -304,8 +304,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 114.43,
-   "pct_away": -3.08,
+   "last": 114.33,
+   "pct_away": -2.99,
    "good_until": "2026-11-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -314,15 +314,15 @@
    ]
   },
   {
-   "id": "fa933284",
-   "ticker": "ESAB",
+   "id": "79933ef0",
+   "ticker": "PLD",
    "kind": "buy_limit",
-   "price": 83.9147,
+   "price": 126.4589,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 86.82,
-   "pct_away": -3.35,
+   "last": 130.58,
+   "pct_away": -3.16,
    "good_until": "2026-11-14",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
