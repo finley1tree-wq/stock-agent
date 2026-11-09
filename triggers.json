@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "1cced5f9",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 249.1655,
-   "status": "cancelled",
-   "created": "2026-11-03 13:26",
-   "created_ts": 1793730411,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $251.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-03 13:31",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "b61fd2d0",
    "ticker": "WSM",
    "kind": "buy_limit",
@@ -7471,9 +7452,28 @@
    "ticker": "RPM",
    "kind": "stop_loss",
    "price": 105.514,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-09 11:37",
    "created_ts": 1794242259,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $105.4",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-14",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-09 11:39",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "8036284a",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 105.85,
+   "status": "working",
+   "created": "2026-11-09 11:39",
+   "created_ts": 1794242342,
    "why": "close it all at -0.9% under the average cost",
    "evidence": "average cost $105.4",
    "signals": [
@@ -7484,5 +7484,5 @@
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-09 11:37"
+ "updated": "2026-11-09 11:39"
 }
