@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "b61fd2d0",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 243.8289,
-   "status": "cancelled",
-   "created": "2026-11-03 13:26",
-   "created_ts": 1793730411,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $251.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-08",
-   "usd": 500.0,
-   "closed": "2026-11-03 13:38",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "4d4dbb82",
    "ticker": "ADI",
    "kind": "take_profit",
@@ -7329,7 +7310,7 @@
    "ticker": "EL",
    "kind": "stop_loss",
    "price": 112.9759,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-09 11:03",
    "created_ts": 1794240200,
    "why": "close it all at -1.2% under the average cost",
@@ -7339,7 +7320,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-14",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-09 12:50",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ad49d5f8",
@@ -7487,7 +7470,24 @@
    "pct_of_position": 100.0,
    "closed": "2026-11-09 11:41",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "bf612bb3",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 114.556,
+   "status": "working",
+   "created": "2026-11-09 12:50",
+   "created_ts": 1794246615,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $114.34",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-14",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-09 12:48"
+ "updated": "2026-11-09 12:50"
 }
