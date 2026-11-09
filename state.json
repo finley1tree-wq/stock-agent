@@ -1,17 +1,92 @@
 {
   "week": "2026-W46",
-  "spent": 0.0,
-  "deployed": 0.0,
-  "by_ticker": {},
-  "deployed_by_ticker": {},
-  "orders": [],
+  "spent": 6000.0,
+  "deployed": 6000.0,
+  "by_ticker": {
+    "ESAB": 3000.0,
+    "RPM": 3000.0
+  },
+  "deployed_by_ticker": {
+    "ESAB": 3000.0,
+    "RPM": 3000.0
+  },
+  "orders": [
+    {
+      "symbol": "ESAB",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 35.501367,
+      "price": 84.5,
+      "date": "2026-11-09",
+      "time_et": "09:32",
+      "ts": 1794234724,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +26.4% over the month; 33% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "RPM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 28.7848,
+      "price": 104.22,
+      "date": "2026-11-09",
+      "time_et": "09:32",
+      "ts": 1794234724,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +6.6% over the month; 16% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    }
+  ],
   "day": "2026-11-09",
-  "spent_today": 0.0,
-  "deployed_today": 0.0,
-  "orders_today": 0,
+  "spent_today": 6000.0,
+  "deployed_today": 6000.0,
+  "orders_today": 2,
   "sells_today": 0,
   "sold_today": [],
   "sold_ts": {},
-  "last_publish_ts": 1794234634,
-  "last_check_ts": 1794234634
+  "last_publish_ts": 1794234724,
+  "last_check_ts": 1794234724,
+  "exp_arm": {
+    "ESAB": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "RPM": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    }
+  },
+  "last_bar_ts": 1794234600,
+  "last_decision_ts": 1794234724,
+  "next_check_minutes": 6,
+  "autopiloted": true,
+  "book_px": {
+    "b1dcecde": 104.5806,
+    "b4850d76": 84.9555,
+    "09d2aa9d": 103.3175,
+    "b22d4aa7": 83.3609,
+    "d17db623": 101.0934,
+    "4c6aa0a9": 81.965
+  }
 }
