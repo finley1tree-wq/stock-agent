@@ -95845,7 +95845,9 @@
     "code_version": "6b7a25b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.46
+    "ret_now": 0.48,
+    "ret_final": 0.48,
+    "ret_src": "realised"
   },
   {
     "symbol": "ESAB",
@@ -95958,5 +95960,32 @@
     "hour_et": 11,
     "code_version": "70d2206",
     "hold_minutes": 3
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 6.55963,
+    "status": "filled",
+    "price": 114.89,
+    "proceeds": 753.61,
+    "realized_pnl": 3.61,
+    "realized_pct": 0.48,
+    "date": "2026-11-09",
+    "time_et": "12:58",
+    "ts": 1794246900,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $114.34",
+    "trigger": "take_profit",
+    "hour_et": 12,
+    "code_version": "e59a2b5",
+    "hold_minutes": 111
   }
 ]

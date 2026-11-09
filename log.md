@@ -65895,3 +65895,21 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 portfolio: equity $25513.34 (+2.05% on $25000.00 in) · cash $24760.17 · realised +510.17
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $114.89] -> $753.61 (+0.48%) — close 100% at +0.5% over the average cost
+## 2026-11-09 12:58 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-09 12:59 ET (Monday) — week 2026-W46 — budget left $25000.00 (today $13500.00 put to work, 9 buys, 9 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
+  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (LKFN excluded: too thinly traded ($12.4M a day) — Lakeland Financial Corporation)
+  (LXRX excluded: too thinly traded ($4.9M a day) — Lexicon Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgsnkyGpCDPUMWYYcXeHi'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25513.77 (+2.06% on $25000.00 in) · cash $25513.77 · realised +513.77
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)

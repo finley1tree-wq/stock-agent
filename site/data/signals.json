@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-09T12:50-05:00",
- "note": "tick: watching",
+ "asOf": "2026-11-09T12:58-05:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -176,59 +176,7 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [
-  {
-   "id": "bf612bb3",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 114.556,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 114.7,
-   "pct_away": -0.13,
-   "good_until": "2026-11-14",
-   "why": "close it all at -1.2% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4b159767",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 114.8854,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 114.7,
-   "pct_away": 0.16,
-   "good_until": "2026-11-14",
-   "why": "close 100% at +0.5% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ad49d5f8",
-   "ticker": "EL",
-   "kind": "buy_limit",
-   "price": 110.9098,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 114.7,
-   "pct_away": -3.3,
-   "good_until": "2026-11-14",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  }
- ],
+ "working_orders": [],
  "next_check_minutes": null,
  "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,249 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "congress_trades": [

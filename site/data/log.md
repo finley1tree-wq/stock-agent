@@ -1,50 +1,3 @@
-  (LXRX excluded: too thinly traded ($4.9M a day) — Lexicon Pharmaceuticals, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgsfjK92vJkfdWVATkQih'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25500.33 (+2.00% on $25000.00 in) · cash $24753.71 · realised +503.71
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-09 11:30 ET (Monday) — week 2026-W46 — budget left $24248.88 (today $12750.00 put to work, 8 buys, 7 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
-  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (LXRX excluded: too thinly traded ($4.9M a day) — Lexicon Pharmaceuticals, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgsfxFfnpn2c5Tzz5tC4i'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25501.24 (+2.00% on $25000.00 in) · cash $24753.71 · realised +503.71
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-09 11:33 ET (Monday) — week 2026-W46 — budget left $24248.88 (today $12750.00 put to work, 8 buys, 7 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
-  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (LXRX excluded: too thinly traded ($4.9M a day) — Lexicon Pharmaceuticals, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgsgBdMt5yPnSFDZtCZua'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25501.44 (+2.01% on $25000.00 in) · cash $24753.71 · realised +503.71
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-09 11:36 ET (Monday) — week 2026-W46 — budget left $24248.88 (today $12750.00 put to work, 8 buys, 7 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
-  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (LXRX excluded: too thinly traded ($4.9M a day) — Lexicon Pharmaceuticals, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgsgQniKYoDtHCgt94xKc'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,249 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +7.8% over the month; 71% of today's range
 ~ WORKING take_profit 100% RPM @ $105.76 until 2026-11-14 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% RPM @ $104.49 until 2026-11-14 — close it all at -0.9% under the average cost
 ~ WORKING buy_limit $500.00 RPM @ $102.24 until 2026-11-14 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +351,50 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 portfolio: equity $25511.57 (+2.05% on $25000.00 in) · cash $24760.17 · realised +510.17
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-09 12:51 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
+  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (LKFN excluded: too thinly traded ($12.4M a day) — Lakeland Financial Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgsnE1AZn9YEjPm7STyLP'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,255 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25512.16 (+2.05% on $25000.00 in) · cash $24760.17 · realised +510.17
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-09 12:54 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
+  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (LKFN excluded: too thinly traded ($12.4M a day) — Lakeland Financial Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgsnP4TzNVx3yKGgxuQoC'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25512.95 (+2.05% on $25000.00 in) · cash $24760.17 · realised +510.17
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-09 12:56 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
+  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
+  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
+  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (LKFN excluded: too thinly traded ($12.4M a day) — Lakeland Financial Corporation)
+  (LXRX excluded: too thinly traded ($4.9M a day) — Lexicon Pharmaceuticals, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgsnXVqhARSQvhG1pW4UM'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,255 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25513.34 (+2.05% on $25000.00 in) · cash $24760.17 · realised +510.17
+Decision: nothing at this check. 3 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $114.89] -> $753.61 (+0.48%) — close 100% at +0.5% over the average cost
+## 2026-11-09 12:58 ET — tick — 1 sell(s), 0 buy(s) from standing orders
