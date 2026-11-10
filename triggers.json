@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "39a01b2b",
-   "ticker": "WSM",
-   "kind": "buy_limit",
-   "price": 260.8718,
-   "status": "cancelled",
-   "created": "2026-11-04 09:39",
-   "created_ts": 1793803169,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $268.94",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "usd": 500.0,
-   "closed": "2026-11-04 09:43",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "772e266c",
    "ticker": "CRBG",
    "kind": "take_profit",
@@ -7393,7 +7374,7 @@
    "ticker": "RPM",
    "kind": "stop_loss",
    "price": 105.591,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-10 11:24",
    "created_ts": 1794327875,
    "why": "close it all at -0.9% under the average cost",
@@ -7403,7 +7384,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-15",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-10 12:09",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "28cd4281",
@@ -7472,7 +7455,24 @@
    ],
    "good_until": "2026-11-15",
    "usd": 500.0
+  },
+  {
+   "id": "2ddcc90d",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 106.7,
+   "status": "working",
+   "created": "2026-11-10 12:09",
+   "created_ts": 1794330546,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $106.55",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-10 12:07"
+ "updated": "2026-11-10 12:09"
 }
