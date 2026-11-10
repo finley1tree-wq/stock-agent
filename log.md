@@ -66246,3 +66246,24 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25491.33 (+1.97% on $25000.00 in) · cash $25491.33 · realised +491.33
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 10:23 ET (Tuesday) — week 2026-W46 — budget left $24974.93 (today $15000.00 put to work, 5 buys, 6 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (KRT excluded: too thinly traded ($6.6M a day) — Karat Packaging Inc.)
+  (LAW excluded: too thinly traded ($1.2M a day) — CS Disco, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguUdjXJLcqSXfvXQ4arb'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,975 idle, so opened 2: NXPI, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +15.5% over the month; 85% of today's range
+- BUY $750.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +9.2% over the month; 77% of today's range
+~ WORKING take_profit 100% NXPI @ $261.73 until 2026-11-15 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% NXPI @ $256.56 until 2026-11-15 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $252.44 until 2026-11-15 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RPM @ $107.02 until 2026-11-15 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% RPM @ $105.68 until 2026-11-15 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 RPM @ $103.44 until 2026-11-15 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25490.88 (+1.96% on $25000.00 in) · cash $23991.33 · realised +491.33
+Done: 0 sell(s), 2 buy(s); 6 order(s) working; budget left $23474.93 this week

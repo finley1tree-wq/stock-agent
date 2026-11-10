@@ -1,152 +1,3 @@
-## 2026-11-09 12:24 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
-  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (LKFN excluded: too thinly traded ($12.4M a day) — Lakeland Financial Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgsk7xEYWm3hCkqRLVMey'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25508.36 (+2.03% on $25000.00 in) · cash $24760.17 · realised +510.17
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-09 12:27 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
-  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (LKFN excluded: too thinly traded ($12.4M a day) — Lakeland Financial Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgskLWeXVNCaHcNpGEYoZ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,255 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25509.15 (+2.04% on $25000.00 in) · cash $24760.17 · realised +510.17
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-09 12:30 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
-  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (LKFN excluded: too thinly traded ($12.4M a day) — Lakeland Financial Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgskYwhF636UBcc6BFmPJ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,255 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25509.47 (+2.04% on $25000.00 in) · cash $24760.17 · realised +510.17
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-09 12:33 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
-  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (LKFN excluded: too thinly traded ($12.4M a day) — Lakeland Financial Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgskmZrDNNfxnDgNALhcA'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,255 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25509.41 (+2.04% on $25000.00 in) · cash $24760.17 · realised +510.17
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-09 12:36 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
-  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (LKFN excluded: too thinly traded ($12.4M a day) — Lakeland Financial Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgsm1139JPY3YNjZMU7am'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,255 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25510.13 (+2.04% on $25000.00 in) · cash $24760.17 · realised +510.17
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-09 12:39 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
-  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (LKFN excluded: too thinly traded ($12.4M a day) — Lakeland Financial Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgsmDuYc8Co47dFMjRf8d'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,255 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25509.67 (+2.04% on $25000.00 in) · cash $24760.17 · realised +510.17
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-09 12:42 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
-  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (LKFN excluded: too thinly traded ($12.4M a day) — Lakeland Financial Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgsmTN9romwc2Aq6LbXMs'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,255 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25510.00 (+2.04% on $25000.00 in) · cash $24760.17 · realised +510.17
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-09 12:45 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
-  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (LKFN excluded: too thinly traded ($12.4M a day) — Lakeland Financial Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgsmg9SFCDt5eVJSwb2RF'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,255 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25511.71 (+2.05% on $25000.00 in) · cash $24760.17 · realised +510.17
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-09 12:48 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
-  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (LKFN excluded: too thinly traded ($12.4M a day) — Lakeland Financial Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgsmwku7jwb8hbSGRAMo6'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,255 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25511.57 (+2.05% on $25000.00 in) · cash $24760.17 · realised +510.17
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-09 12:51 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
-  (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
-  (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
-  (CZNC excluded: too thinly traded ($1.9M a day) — Citizens & Northern Corporation)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (LKFN excluded: too thinly traded ($12.4M a day) — Lakeland Financial Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgsnE1AZn9YEjPm7STyLP'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,255 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25512.16 (+2.05% on $25000.00 in) · cash $24760.17 · realised +510.17
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-11-09 12:54 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
@@ -398,3 +249,152 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on ECHO: position closed)
 - SELL 100% ECHO [take_profit @ $101.84] -> $3017.32 (+0.58%) — close 100% at +0.6% over the average cost
 ## 2026-11-10 09:55 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-10 09:56 ET (Tuesday) — week 2026-W46 — budget left $24974.93 (today $15000.00 put to work, 5 buys, 6 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (KRT excluded: too thinly traded ($6.6M a day) — Karat Packaging Inc.)
+  (LAW excluded: too thinly traded ($1.2M a day) — CS Disco, Inc.)
+  (no price for IBRX — excluded this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguScmAFrAaNpa21mYbeG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25491.33 (+1.97% on $25000.00 in) · cash $25491.33 · realised +491.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 09:59 ET (Tuesday) — week 2026-W46 — budget left $24974.93 (today $15000.00 put to work, 5 buys, 6 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (KRT excluded: too thinly traded ($6.6M a day) — Karat Packaging Inc.)
+  (LAW excluded: too thinly traded ($1.2M a day) — CS Disco, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguSqMjTszLHQUpSJ4AgY'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25491.33 (+1.97% on $25000.00 in) · cash $25491.33 · realised +491.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 10:02 ET (Tuesday) — week 2026-W46 — budget left $24974.93 (today $15000.00 put to work, 5 buys, 6 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (KRT excluded: too thinly traded ($6.6M a day) — Karat Packaging Inc.)
+  (LAW excluded: too thinly traded ($1.2M a day) — CS Disco, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguT3r58nHchRCd7ACr7j'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25491.33 (+1.97% on $25000.00 in) · cash $25491.33 · realised +491.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 10:05 ET (Tuesday) — week 2026-W46 — budget left $24974.93 (today $15000.00 put to work, 5 buys, 6 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (KRT excluded: too thinly traded ($6.6M a day) — Karat Packaging Inc.)
+  (LAW excluded: too thinly traded ($1.2M a day) — CS Disco, Inc.)
+  (no price for AMAT — excluded this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguTHtFzHruKF1o1sKRQG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25491.33 (+1.97% on $25000.00 in) · cash $25491.33 · realised +491.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 10:08 ET (Tuesday) — week 2026-W46 — budget left $24974.93 (today $15000.00 put to work, 5 buys, 6 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (KRT excluded: too thinly traded ($6.6M a day) — Karat Packaging Inc.)
+  (LAW excluded: too thinly traded ($1.2M a day) — CS Disco, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguTWUAkqmkHJhNyGHgba'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25491.33 (+1.97% on $25000.00 in) · cash $25491.33 · realised +491.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 10:11 ET (Tuesday) — week 2026-W46 — budget left $24974.93 (today $15000.00 put to work, 5 buys, 6 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (KRT excluded: too thinly traded ($6.6M a day) — Karat Packaging Inc.)
+  (LAW excluded: too thinly traded ($1.2M a day) — CS Disco, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguTjxQFCnWXUBxN1yB1n'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25491.33 (+1.97% on $25000.00 in) · cash $25491.33 · realised +491.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 10:14 ET (Tuesday) — week 2026-W46 — budget left $24974.93 (today $15000.00 put to work, 5 buys, 6 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (KRT excluded: too thinly traded ($6.6M a day) — Karat Packaging Inc.)
+  (LAW excluded: too thinly traded ($1.2M a day) — CS Disco, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguTx82GiyoDaW1dCqifH'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25491.33 (+1.97% on $25000.00 in) · cash $25491.33 · realised +491.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 10:17 ET (Tuesday) — week 2026-W46 — budget left $24974.93 (today $15000.00 put to work, 5 buys, 6 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (KRT excluded: too thinly traded ($6.6M a day) — Karat Packaging Inc.)
+  (LAW excluded: too thinly traded ($1.2M a day) — CS Disco, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguUBcwwjXF7P3KcSRa4c'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25491.33 (+1.97% on $25000.00 in) · cash $25491.33 · realised +491.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 10:19 ET (Tuesday) — week 2026-W46 — budget left $24974.93 (today $15000.00 put to work, 5 buys, 6 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (KRT excluded: too thinly traded ($6.6M a day) — Karat Packaging Inc.)
+  (LAW excluded: too thinly traded ($1.2M a day) — CS Disco, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguUPZVAEZvHL9f2VCBgM'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25491.33 (+1.97% on $25000.00 in) · cash $25491.33 · realised +491.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 10:23 ET (Tuesday) — week 2026-W46 — budget left $24974.93 (today $15000.00 put to work, 5 buys, 6 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (KRT excluded: too thinly traded ($6.6M a day) — Karat Packaging Inc.)
+  (LAW excluded: too thinly traded ($1.2M a day) — CS Disco, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguUdjXJLcqSXfvXQ4arb'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,975 idle, so opened 2: NXPI, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +15.5% over the month; 85% of today's range
+- BUY $750.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +9.2% over the month; 77% of today's range
+~ WORKING take_profit 100% NXPI @ $261.73 until 2026-11-15 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% NXPI @ $256.56 until 2026-11-15 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $252.44 until 2026-11-15 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RPM @ $107.02 until 2026-11-15 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% RPM @ $105.68 until 2026-11-15 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 RPM @ $103.44 until 2026-11-15 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25490.88 (+1.96% on $25000.00 in) · cash $23991.33 · realised +491.33
+Done: 0 sell(s), 2 buy(s); 6 order(s) working; budget left $23474.93 this week
