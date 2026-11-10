@@ -66930,3 +66930,18 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 portfolio: equity $25482.55 (+1.93% on $25000.00 in) · cash $25482.55 · realised +482.55
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 12:44 ET (Tuesday) — week 2026-W46 — budget left $24966.15 (today $20250.00 put to work, 12 buys, 13 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
+  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgufRfVABhtsPdR6NLvE5'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,966 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped NXPI: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25482.55 (+1.93% on $25000.00 in) · cash $25482.55 · realised +482.55
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
