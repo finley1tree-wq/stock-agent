@@ -96073,7 +96073,7 @@
     "code_version": "ad1fc43",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.54
+    "ret_now": -1.03
   },
   {
     "symbol": "NXPI",
@@ -96133,7 +96133,9 @@
     "code_version": "ad1fc43",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.45
+    "ret_now": 0.47,
+    "ret_final": 0.47,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -96160,6 +96162,33 @@
     "trigger": "take_profit",
     "hour_et": 9,
     "code_version": "207f420",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 26.689218,
+    "status": "filled",
+    "price": 112.93,
+    "proceeds": 3014.09,
+    "realized_pnl": 14.09,
+    "realized_pct": 0.47,
+    "date": "2026-11-10",
+    "time_et": "09:38",
+    "ts": 1794321300,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $112.4",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "98cc84e",
     "hold_minutes": 2
   }
 ]

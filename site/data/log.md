@@ -1,6 +1,3 @@
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-11-09 12:03 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
@@ -398,3 +395,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25528.56 (+2.11% on $25000.00 in) · cash $19533.42 · realised +533.42
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 6 order(s) working; budget left $19017.03 this week
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [take_profit @ $112.93] -> $3014.09 (+0.47%) — close 100% at +0.5% over the average cost
+## 2026-11-10 09:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
