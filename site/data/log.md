@@ -1,8 +1,3 @@
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25507.51 (+2.03% on $25000.00 in) · cash $24760.17 · realised +510.17
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-11-09 11:51 ET (Monday) — week 2026-W46 — budget left $24255.34 (today $13500.00 put to work, 9 buys, 8 sells) — SIM (pretend money) via sim
   (API excluded: too thinly traded ($0.8M a day) — Agora, Inc.)
   (AUDC excluded: too thinly traded ($0.9M a day) — AudioCodes Ltd.)
@@ -398,3 +393,8 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25513.68 (+2.05% on $25000.00 in) · cash $24763.77 · realised +513.77
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-11-09 17:53 ET — published the session's closing state
+  (trigger RPM stop_loss superseded at this check)
+  (cancelled 1 standing order(s) on RPM: position closed)
+- SELL 100% RPM [take_profit @ $107.12] -> $752.61 (+0.35%) — close 100% at +0.4% over the average cost
+## 2026-11-10 09:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders

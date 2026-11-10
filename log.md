@@ -65959,3 +65959,7 @@ portfolio: equity $25513.68 (+2.05% on $25000.00 in) · cash $24763.77 · realis
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-11-09 17:53 ET — published the session's closing state
+  (trigger RPM stop_loss superseded at this check)
+  (cancelled 1 standing order(s) on RPM: position closed)
+- SELL 100% RPM [take_profit @ $107.12] -> $752.61 (+0.35%) — close 100% at +0.4% over the average cost
+## 2026-11-10 09:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
