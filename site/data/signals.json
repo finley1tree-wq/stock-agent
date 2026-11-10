@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-10T13:01-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,966 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-11-10T13:05-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,216 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "a77e9164",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 107.4967,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 107.07,
+   "pct_away": 0.4,
+   "good_until": "2026-11-15",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "62a002e7",
    "ticker": "NXPI",
    "kind": "take_profit",
@@ -185,10 +202,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.83,
-   "pct_away": 0.59,
+   "last": 259.51,
+   "pct_away": 0.71,
    "good_until": "2026-11-15",
    "why": "close 100% at +0.6% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "dcfc25a9",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 106.1428,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 107.07,
+   "pct_away": -0.87,
+   "good_until": "2026-11-15",
+   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.83,
-   "pct_away": -1.4,
+   "last": 259.51,
+   "pct_away": -1.28,
    "good_until": "2026-11-15",
    "why": "close it all at -1.4% under the average cost",
    "signals": [
@@ -219,8 +253,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.83,
-   "pct_away": -2.98,
+   "last": 259.51,
+   "pct_away": -2.86,
+   "good_until": "2026-11-15",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7525a04d",
+   "ticker": "RPM",
+   "kind": "buy_limit",
+   "price": 103.8967,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 107.07,
+   "pct_away": -2.96,
    "good_until": "2026-11-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -229,7 +280,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,966 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,216 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -296,13 +347,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 329,
+  "decisions_graded": 328,
   "decisions_with_buys_graded": 38,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.43,
   "chosen_avg_pct": -0.32,
   "skipped_avg_pct": 0.11,
-  "idle_universe_avg_pct": 0.24,
+  "idle_universe_avg_pct": 0.25,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.0,
   "checks_that_bought_everything": 0,
@@ -397,7 +448,7 @@
     "n": 1
    }
   },
-  "idle_checks": 345,
+  "idle_checks": 344,
   "blocked_checks": 0,
   "idle_share": 0.86,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -2614,5 +2665,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-10T13:01-05:00"
+ "signalsAsOf": "2026-11-10T13:05-05:00"
 }
