@@ -1,12 +1,11 @@
 {
   "week": "2026-W46",
-  "spent": 3032.56,
+  "spent": 2278.96,
   "deployed": 38250.0,
   "by_ticker": {
     "ESAB": 41.17,
     "CRH": 780.39,
     "NXPI": 761.0,
-    "EL": 753.47,
     "RPM": 750.0
   },
   "deployed_by_ticker": {
@@ -1040,13 +1039,34 @@
       ],
       "evidence": "average cost $87.63",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 6.661632,
+      "status": "filled",
+      "price": 113.12,
+      "proceeds": 753.6,
+      "realized_pnl": 3.6,
+      "realized_pct": 0.48,
+      "date": "2026-11-10",
+      "time_et": "13:34",
+      "ts": 1794335400,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $112.59",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-10",
-  "spent_today": 3032.56,
+  "spent_today": 2278.96,
   "deployed_today": 24000.0,
   "orders_today": 17,
-  "sells_today": 14,
+  "sells_today": 15,
   "sold_today": [
     "RPM",
     "NXPI",
@@ -1057,15 +1077,15 @@
   ],
   "sold_ts": {
     "ESAB": 1794334843,
-    "EL": 1794331545,
+    "EL": 1794335647,
     "RPM": 1794330649,
     "PLD": 1794240790,
     "NXPI": 1794329388,
     "CRH": 1794331478,
     "ECHO": 1794322507
   },
-  "last_publish_ts": 1794335231,
-  "last_check_ts": 1794335553,
+  "last_publish_ts": 1794335647,
+  "last_check_ts": 1794335647,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -1108,17 +1128,14 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "11535a71": 96.856,
     "500b00a5": 97.1305,
-    "1a55b788": 113.1248,
+    "11535a71": 96.856,
+    "62a002e7": 261.3561,
     "a77e9164": 107.4967,
     "dcfc25a9": 106.1428,
-    "62a002e7": 261.3561,
     "3a96029f": 256.1923,
-    "1771bef1": 111.2536,
-    "9f528c79": 252.0836,
     "7525a04d": 103.8967,
-    "8fb1b310": 109.2123,
+    "9f528c79": 252.0836,
     "f6ea625e": 93.8281
   }
 }
