@@ -1,118 +1,6 @@
 {
  "orders": [
   {
-   "id": "4d93ee81",
-   "ticker": "SIRI",
-   "kind": "stop_loss",
-   "price": 32.0169,
-   "status": "cancelled",
-   "created": "2026-11-04 10:05",
-   "created_ts": 1793804748,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $32.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 10:18",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "7a632566",
-   "ticker": "SIRI",
-   "kind": "buy_limit",
-   "price": 31.2728,
-   "status": "cancelled",
-   "created": "2026-11-04 10:05",
-   "created_ts": 1793804748,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $32.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "usd": 500.0,
-   "closed": "2026-11-04 10:20",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "29235326",
-   "ticker": "SIRI",
-   "kind": "stop_loss",
-   "price": 32.27,
-   "status": "filled",
-   "created": "2026-11-04 10:18",
-   "created_ts": 1793805483,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $32.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 10:20"
-  },
-  {
-   "id": "85ce3bac",
-   "ticker": "GH",
-   "kind": "take_profit",
-   "price": 172.2706,
-   "status": "cancelled",
-   "created": "2026-11-04 10:21",
-   "created_ts": 1793805660,
-   "why": "close 100% at +0.6% over the average cost",
-   "evidence": "average cost $171.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 10:32",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "d31ec7d6",
-   "ticker": "GH",
-   "kind": "stop_loss",
-   "price": 168.6984,
-   "status": "filled",
-   "created": "2026-11-04 10:21",
-   "created_ts": 1793805660,
-   "why": "close it all at -1.5% under the average cost",
-   "evidence": "average cost $171.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 10:32"
-  },
-  {
-   "id": "69fc4cef",
-   "ticker": "GH",
-   "kind": "buy_limit",
-   "price": 166.1125,
-   "status": "cancelled",
-   "created": "2026-11-04 10:21",
-   "created_ts": 1793805660,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $171.25",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "usd": 500.0,
-   "closed": "2026-11-04 10:32",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "03d36301",
    "ticker": "NXPI",
    "kind": "take_profit",
@@ -7478,7 +7366,109 @@
    ],
    "good_until": "2026-11-15",
    "usd": 500.0
+  },
+  {
+   "id": "500b00a5",
+   "ticker": "CRH",
+   "kind": "take_profit",
+   "price": 97.1305,
+   "status": "working",
+   "created": "2026-11-10 13:11",
+   "created_ts": 1794334286,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $96.73",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ebe27005",
+   "ticker": "CRH",
+   "kind": "stop_loss",
+   "price": 95.7288,
+   "status": "working",
+   "created": "2026-11-10 13:11",
+   "created_ts": 1794334286,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $96.73",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f6ea625e",
+   "ticker": "CRH",
+   "kind": "buy_limit",
+   "price": 93.8281,
+   "status": "working",
+   "created": "2026-11-10 13:11",
+   "created_ts": 1794334286,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $96.73",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "usd": 500.0
+  },
+  {
+   "id": "1a55b788",
+   "ticker": "EL",
+   "kind": "take_profit",
+   "price": 113.1248,
+   "status": "working",
+   "created": "2026-11-10 13:11",
+   "created_ts": 1794334286,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $112.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1771bef1",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 111.2536,
+   "status": "working",
+   "created": "2026-11-10 13:11",
+   "created_ts": 1794334286,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $112.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "8fb1b310",
+   "ticker": "EL",
+   "kind": "buy_limit",
+   "price": 109.2123,
+   "status": "working",
+   "created": "2026-11-10 13:11",
+   "created_ts": 1794334286,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $112.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-10 13:08"
+ "updated": "2026-11-10 13:11"
 }

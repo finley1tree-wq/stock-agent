@@ -1,24 +1,3 @@
-  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
-  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgubFyLxHF7Gi7biktMct'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25468.34 (+1.87% on $25000.00 in) · cash $22481.41 · realised +481.41
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-10 11:52 ET (Tuesday) — week 2026-W46 — budget left $21965.02 (today $20250.00 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
-  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
-  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgubUauCHMw4VYd4nt7Qb'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25468.80 (+1.88% on $25000.00 in) · cash $22481.41 · realised +481.41
@@ -398,3 +377,24 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 ESAB @ $85.00 until 2026-11-15 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25478.77 (+1.92% on $25000.00 in) · cash $23232.55 · realised +482.55
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22716.15 this week
+
+## 2026-11-10 13:11 ET (Tuesday) — week 2026-W46 — budget left $22716.15 (today $22500.00 put to work, 15 buys, 13 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
+  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguhUo2QJPvsFnAMN3wCV'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,716 idle, so opened 2: CRH, EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 CRH [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +19.3% over the month; 13% of today's range
+- BUY $750.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +12.5% over the month; 70% of today's range
+~ WORKING take_profit 100% CRH @ $97.13 until 2026-11-15 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% CRH @ $95.73 until 2026-11-15 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 CRH @ $93.83 until 2026-11-15 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% EL @ $113.12 until 2026-11-15 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% EL @ $111.25 until 2026-11-15 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 EL @ $109.21 until 2026-11-15 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25473.59 (+1.89% on $25000.00 in) · cash $21732.55 · realised +482.55
+Done: 0 sell(s), 2 buy(s); 15 order(s) working; budget left $21216.15 this week

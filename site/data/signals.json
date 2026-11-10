@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-10T13:08-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,466 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-11-10T13:11-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,716 idle, so opened 2: CRH, EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gath",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,15 +178,15 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "a77e9164",
-   "ticker": "RPM",
+   "id": "500b00a5",
+   "ticker": "CRH",
    "kind": "take_profit",
-   "price": 107.4967,
+   "price": 97.1305,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 107.02,
-   "pct_away": 0.45,
+   "last": 96.69,
+   "pct_away": 0.46,
    "good_until": "2026-11-15",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -195,17 +195,34 @@
    ]
   },
   {
-   "id": "7ded6d43",
-   "ticker": "ESAB",
+   "id": "1a55b788",
+   "ticker": "EL",
    "kind": "take_profit",
-   "price": 88.1435,
+   "price": 113.1248,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 87.59,
-   "pct_away": 0.63,
+   "last": 112.54,
+   "pct_away": 0.52,
    "good_until": "2026-11-15",
-   "why": "close 100% at +0.6% over the average cost",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a77e9164",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 107.4967,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 106.87,
+   "pct_away": 0.59,
+   "good_until": "2026-11-15",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 107.02,
-   "pct_away": -0.82,
+   "last": 106.87,
+   "pct_away": -0.68,
    "good_until": "2026-11-15",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -236,27 +253,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 258.9,
-   "pct_away": 0.95,
+   "last": 259.25,
+   "pct_away": 0.81,
    "good_until": "2026-11-15",
    "why": "close 100% at +0.6% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "3a96029f",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 256.1923,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 258.9,
-   "pct_away": -1.05,
-   "good_until": "2026-11-15",
-   "why": "close it all at -1.4% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,10 +270,95 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 87.59,
-   "pct_away": -1.42,
+   "last": 87.06,
+   "pct_away": -0.82,
    "good_until": "2026-11-15",
    "why": "close it all at -1.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ebe27005",
+   "ticker": "CRH",
+   "kind": "stop_loss",
+   "price": 95.7288,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 96.69,
+   "pct_away": -0.99,
+   "good_until": "2026-11-15",
+   "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1771bef1",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 111.2536,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 112.54,
+   "pct_away": -1.14,
+   "good_until": "2026-11-15",
+   "why": "close it all at -1.2% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3a96029f",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 256.1923,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 259.25,
+   "pct_away": -1.18,
+   "good_until": "2026-11-15",
+   "why": "close it all at -1.4% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7ded6d43",
+   "ticker": "ESAB",
+   "kind": "take_profit",
+   "price": 88.1435,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 87.06,
+   "pct_away": 1.24,
+   "good_until": "2026-11-15",
+   "why": "close 100% at +0.6% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d2f7cd6a",
+   "ticker": "ESAB",
+   "kind": "buy_limit",
+   "price": 85.0011,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 87.06,
+   "pct_away": -2.36,
+   "good_until": "2026-11-15",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -287,8 +372,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 258.9,
-   "pct_away": -2.63,
+   "last": 259.25,
+   "pct_away": -2.76,
    "good_until": "2026-11-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -304,8 +389,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 107.02,
-   "pct_away": -2.92,
+   "last": 106.87,
+   "pct_away": -2.78,
    "good_until": "2026-11-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -314,14 +399,31 @@
    ]
   },
   {
-   "id": "d2f7cd6a",
-   "ticker": "ESAB",
+   "id": "f6ea625e",
+   "ticker": "CRH",
    "kind": "buy_limit",
-   "price": 85.0011,
+   "price": 93.8281,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 87.59,
+   "last": 96.69,
+   "pct_away": -2.96,
+   "good_until": "2026-11-15",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8fb1b310",
+   "ticker": "EL",
+   "kind": "buy_limit",
+   "price": 109.2123,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 112.54,
    "pct_away": -2.96,
    "good_until": "2026-11-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -331,7 +433,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,466 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,716 idle, so opened 2: CRH, EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gath",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -398,7 +500,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 327,
+  "decisions_graded": 326,
   "decisions_with_buys_graded": 38,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.43,
@@ -499,9 +601,9 @@
     "n": 1
    }
   },
-  "idle_checks": 343,
+  "idle_checks": 342,
   "blocked_checks": 0,
-  "idle_share": 0.86,
+  "idle_share": 0.85,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -2393,19 +2495,19 @@
   ],
   "MSFT": [
    {
+    "title": "IREN Sinks 10% as Analyst Target Cuts Pile Up After Microsoft Delay; Cipher Digital Falls 6%, TeraWulf Slides 2%",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-10T18:02"
+   },
+   {
+    "title": "OpenAI Built a Kill Switch That Can Stop Its AI Models Within 35 Seconds",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-10T17:57"
+   },
+   {
     "title": "Broadcom Stocks Rise 2.69% as It Joins $26 Billion Anthropic Placement",
     "source": "GuruFocus.com",
     "when": "2026-11-10T17:39"
-   },
-   {
-    "title": "Microsoft Stocks Move Lower Despite $1 Billion Anthropic Placement Commitment",
-    "source": "GuruFocus.com",
-    "when": "2026-11-10T17:39"
-   },
-   {
-    "title": "Dan Ives Says Wall Street Is Underestimating 2 Major Tech Stocks",
-    "source": "GuruFocus.com",
-    "when": "2026-11-10T17:25"
    }
   ],
   "MTDR": [
@@ -2595,23 +2697,6 @@
     "when": "2026-11-10T12:20"
    }
   ],
-  "RPM": [
-   {
-    "title": "Can Masco Build on 23% EPS Growth as Housing Demand Stays Soft?",
-    "source": "Zacks",
-    "when": "2026-11-06T13:38"
-   },
-   {
-    "title": "What Does Lennox International Offer That Masco Does Not?",
-    "source": "Trefis",
-    "when": "2026-11-05T15:42"
-   },
-   {
-    "title": "RPM International (RPM) Up 10.9% Since Last Earnings Report: Can It Continue?",
-    "source": "Zacks",
-    "when": "2026-11-05T15:30"
-   }
-  ],
   "RTX": [
    {
     "title": "Is RTX (RTX) Still Near Fair Value After New Defense Wins?",
@@ -2716,5 +2801,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-10T13:08-05:00"
+ "signalsAsOf": "2026-11-10T13:11-05:00"
 }
