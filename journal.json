@@ -96277,5 +96277,57 @@
     "ret_1w": null,
     "ret_1m": null,
     "ret_now": 0.33
+  },
+  {
+    "symbol": "CRH",
+    "side": "sell",
+    "qty": 30.615625,
+    "status": "filled",
+    "price": 96.96,
+    "proceeds": 2968.36,
+    "realized_pnl": -31.64,
+    "realized_pct": -1.05,
+    "date": "2026-11-10",
+    "time_et": "09:55",
+    "ts": 1794322200,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $97.99",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "6fef762"
+  },
+  {
+    "symbol": "ECHO",
+    "side": "sell",
+    "qty": 29.629488,
+    "status": "filled",
+    "price": 101.84,
+    "proceeds": 3017.32,
+    "realized_pnl": 17.32,
+    "realized_pct": 0.58,
+    "date": "2026-11-10",
+    "time_et": "09:55",
+    "ts": 1794322200,
+    "why": "close 100% at +0.6% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $101.25",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "6fef762"
   }
 ]
