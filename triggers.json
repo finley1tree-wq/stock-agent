@@ -7234,7 +7234,7 @@
    "ticker": "RPM",
    "kind": "buy_limit",
    "price": 103.8967,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-10 13:05",
    "created_ts": 1794333911,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7244,7 +7244,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-15",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-10 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "7ded6d43",
@@ -7344,7 +7346,7 @@
    "ticker": "CRH",
    "kind": "buy_limit",
    "price": 93.8281,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-10 13:11",
    "created_ts": 1794334286,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7354,7 +7356,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-15",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-10 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "1a55b788",
