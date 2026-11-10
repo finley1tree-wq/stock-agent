@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "c819000d",
-   "ticker": "CRBG",
-   "kind": "stop_loss",
-   "price": 36.2833,
-   "status": "filled",
-   "created": "2026-11-04 09:39",
-   "created_ts": 1793803169,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $36.58",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 09:42"
-  },
-  {
    "id": "f52d7e9b",
    "ticker": "CRBG",
    "kind": "buy_limit",
@@ -7160,7 +7142,7 @@
    "ticker": "ESAB",
    "kind": "stop_loss",
    "price": 86.0677,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-10 10:25",
    "created_ts": 1794324354,
    "why": "close it all at -1.5% under the average cost",
@@ -7170,7 +7152,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-15",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-10 12:18",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "e048376f",
@@ -7477,7 +7461,24 @@
    ],
    "good_until": "2026-11-15",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "a01185a8",
+   "ticker": "ESAB",
+   "kind": "stop_loss",
+   "price": 87.584,
+   "status": "working",
+   "created": "2026-11-10 12:18",
+   "created_ts": 1794331089,
+   "why": "close it all at -1.5% under the average cost",
+   "evidence": "average cost $87.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-10 12:16"
+ "updated": "2026-11-10 12:18"
 }
