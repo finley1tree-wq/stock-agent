@@ -1,6 +1,3 @@
-portfolio: equity $25490.88 (+1.96% on $25000.00 in) · cash $23991.33 · realised +491.33
-Done: 0 sell(s), 2 buy(s); 6 order(s) working; budget left $23474.93 this week
-
 ## 2026-11-10 10:25 ET (Tuesday) — week 2026-W46 — budget left $23474.93 (today $16500.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
   (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
   (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 CRH @ $93.67 until 2026-11-15 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25474.33 (+1.90% on $25000.00 in) · cash $21742.42 · realised +492.42
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21226.02 this week
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $256.43] -> $739.00 (-1.47%) — close it all at -1.4% under the average cost
+## 2026-11-10 11:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
