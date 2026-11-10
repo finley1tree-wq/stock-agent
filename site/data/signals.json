@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-10T12:10-05:00",
+ "asOf": "2026-11-10T12:16-05:00",
  "note": "autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)",
  "broker": "sim",
  "watchlist": {
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "d5af2469",
+   "ticker": "CRH",
+   "kind": "stop_loss",
+   "price": 96.696,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 96.78,
+   "pct_away": -0.09,
+   "good_until": "2026-11-15",
+   "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "a996291d",
    "ticker": "CRH",
    "kind": "take_profit",
@@ -185,27 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 96.65,
-   "pct_away": 0.33,
+   "last": 96.78,
+   "pct_away": 0.2,
    "good_until": "2026-11-15",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "bf97879c",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 111.1482,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 111.7,
-   "pct_away": -0.49,
-   "good_until": "2026-11-15",
-   "why": "close it all at -1.2% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 87.39,
-   "pct_away": 0.54,
+   "last": 87.43,
+   "pct_away": 0.49,
    "good_until": "2026-11-15",
    "why": "close 100% at +0.6% over the average cost",
    "signals": [
@@ -229,17 +229,17 @@
    ]
   },
   {
-   "id": "38176620",
-   "ticker": "CRH",
+   "id": "bf97879c",
+   "ticker": "EL",
    "kind": "stop_loss",
-   "price": 95.5686,
+   "price": 111.1482,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 96.65,
-   "pct_away": -1.12,
+   "last": 111.73,
+   "pct_away": -0.52,
    "good_until": "2026-11-15",
-   "why": "close it all at -1.0% under the average cost",
+   "why": "close it all at -1.2% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 111.7,
-   "pct_away": 1.18,
+   "last": 111.73,
+   "pct_away": 1.15,
    "good_until": "2026-11-15",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -270,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 87.39,
-   "pct_away": -1.51,
+   "last": 87.43,
+   "pct_away": -1.56,
    "good_until": "2026-11-15",
    "why": "close it all at -1.5% under the average cost",
    "signals": [
@@ -287,8 +287,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 111.7,
-   "pct_away": -2.32,
+   "last": 111.73,
+   "pct_away": -2.35,
    "good_until": "2026-11-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -304,8 +304,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 87.39,
-   "pct_away": -3.04,
+   "last": 87.43,
+   "pct_away": -3.09,
    "good_until": "2026-11-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -321,8 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 96.65,
-   "pct_away": -3.08,
+   "last": 96.78,
+   "pct_away": -3.21,
    "good_until": "2026-11-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -398,13 +398,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 346,
+  "decisions_graded": 344,
   "decisions_with_buys_graded": 40,
   "independent_days_graded": 4,
   "avg_regret_pct": 0.52,
   "chosen_avg_pct": -0.59,
   "skipped_avg_pct": -0.07,
-  "idle_universe_avg_pct": 0.13,
+  "idle_universe_avg_pct": 0.14,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.01,
   "checks_that_bought_everything": 0,
@@ -2075,31 +2075,31 @@
     "when": "2026-11-10T16:53"
    },
    {
-    "title": "5 Best US Stocks to Invest In for Long Term",
-    "source": "Insider Monkey",
-    "when": "2026-11-10T16:48"
+    "title": "Nvidia Chinese Spy Story Is Getting Worse: Huang\u2019s Affair Helped Move $7.5 Billion in Chips to China",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-10T17:10"
    },
    {
-    "title": "Prediction: Nvidia\u2019s Success Could Create a Bigger Opportunity for This Chip Stock",
+    "title": "AMD Is Up 142% This Year After Another Beat. How Much Higher Can It Go?",
     "source": "24/7 Wall St.",
-    "when": "2026-11-10T16:03"
+    "when": "2026-11-10T17:03"
    }
   ],
   "AMZN": [
    {
-    "title": "Andrew Ross Sorkin: Anthropic\u2019s IPO Is \u201cthe Linchpin\u201d for Amazon, Google and Microsoft",
-    "source": "TIKR",
-    "when": "2026-11-10T16:37"
+    "title": "The Children's Place files for bankruptcy, says closures loom",
+    "source": "USA TODAY",
+    "when": "2026-11-10T17:11"
    },
    {
-    "title": "Amazon.com, Inc. (AMZN) Sold Off After AWS Growth Accelerated: What Changed?",
-    "source": "Insider Monkey",
-    "when": "2026-11-10T16:22"
+    "title": "Nvidia Chinese Spy Story Is Getting Worse: Huang\u2019s Affair Helped Move $7.5 Billion in Chips to China",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-10T17:10"
    },
    {
-    "title": "Amazon reveals major Black Friday change for 2026 shoppers",
-    "source": "GuruFocus.com",
-    "when": "2026-11-10T15:20"
+    "title": "Stock Market Today: Dow Dips On Hot Inflation Data; Nvidia Falls Again, Anthropic Sets IPO Range (Live Coverage)",
+    "source": "Investor's Business Daily",
+    "when": "2026-11-10T15:31"
    }
   ],
   "AVGO": [
@@ -2109,14 +2109,14 @@
     "when": "2026-11-10T16:53"
    },
    {
+    "title": "Anthropic's $1.4 trillion IPO could raise $90 billion as Wedbush backs AI hardware outlook",
+    "source": "Proactive",
+    "when": "2026-11-10T17:00"
+   },
+   {
     "title": "5 Best US Stocks to Invest In for Long Term",
     "source": "Insider Monkey",
     "when": "2026-11-10T16:48"
-   },
-   {
-    "title": "NVIDIA Falls 4% as Board Probe of Jensen Huang Weighs on Shares; AMD and Broadcom Gain 3%",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-10T14:56"
    }
   ],
   "BHE": [
@@ -2279,14 +2279,14 @@
     "when": "2026-11-10T17:05"
    },
    {
-    "title": "Apple Is Holding Strong While Big Tech Sells Off. Is It Next?",
-    "source": "Motley Fool",
-    "when": "2026-11-10T16:54"
+    "title": "Google just handed AMD a job its own chip already does",
+    "source": "TheStreet",
+    "when": "2026-11-10T17:03"
    },
    {
-    "title": "Google agrees to addition privacy protections in Spirit Airlines data sale",
-    "source": "Reuters",
-    "when": "2026-11-10T16:47"
+    "title": "Anthropic's $1.4 trillion IPO could raise $90 billion as Wedbush backs AI hardware outlook",
+    "source": "Proactive",
+    "when": "2026-11-10T17:00"
    }
   ],
   "HD": [
@@ -2398,14 +2398,14 @@
     "when": "2026-11-10T17:05"
    },
    {
+    "title": "Anthropic's $1.4 trillion IPO could raise $90 billion as Wedbush backs AI hardware outlook",
+    "source": "Proactive",
+    "when": "2026-11-10T17:00"
+   },
+   {
     "title": "Microsoft Is Back Above $4 Trillion and Only $266 Billion Behind Nvidia",
     "source": "24/7 Wall St.",
     "when": "2026-11-10T16:53"
-   },
-   {
-    "title": "Andrew Ross Sorkin: Anthropic\u2019s IPO Is \u201cthe Linchpin\u201d for Amazon, Google and Microsoft",
-    "source": "TIKR",
-    "when": "2026-11-10T16:37"
    }
   ],
   "MTDR": [
@@ -2427,6 +2427,11 @@
   ],
   "MU": [
    {
+    "title": "Anthropic's $1.4 trillion IPO could raise $90 billion as Wedbush backs AI hardware outlook",
+    "source": "Proactive",
+    "when": "2026-11-10T17:00"
+   },
+   {
     "title": "5 Best US Stocks to Invest In for Long Term",
     "source": "Insider Monkey",
     "when": "2026-11-10T16:48"
@@ -2435,11 +2440,6 @@
     "title": "Semiconductor Stocks Will Split Into \u2018Haves And Have-Nots,\u2019 Raymond James Strategist Says",
     "source": "Stocktwits",
     "when": "2026-11-10T15:59"
-   },
-   {
-    "title": "Micron Cratered Losing 30% in 1 Month: 240% Gains Lie Ahead According to This Wall Street Pro",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-10T15:45"
    }
   ],
   "NEM": [
@@ -2665,6 +2665,11 @@
   ],
   "TSM": [
    {
+    "title": "Anthropic's $1.4 trillion IPO could raise $90 billion as Wedbush backs AI hardware outlook",
+    "source": "Proactive",
+    "when": "2026-11-10T17:00"
+   },
+   {
     "title": "Taiwan Semiconductor Sales Jump 60% In October As AI Boom Continues",
     "source": "Investor's Business Daily",
     "when": "2026-11-10T16:25"
@@ -2673,11 +2678,6 @@
     "title": "Prediction: Nvidia\u2019s Success Could Create a Bigger Opportunity for This Chip Stock",
     "source": "24/7 Wall St.",
     "when": "2026-11-10T16:03"
-   },
-   {
-    "title": "Semiconductor Stocks Will Split Into \u2018Haves And Have-Nots,\u2019 Raymond James Strategist Says",
-    "source": "Stocktwits",
-    "when": "2026-11-10T15:59"
    }
   ],
   "UNH": [
@@ -2716,5 +2716,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-10T12:10-05:00"
+ "signalsAsOf": "2026-11-10T12:16-05:00"
 }
