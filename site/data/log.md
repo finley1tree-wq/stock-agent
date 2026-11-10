@@ -1,153 +1,3 @@
-## 2026-11-10 13:17 ET (Tuesday) — week 2026-W46 — budget left $21216.15 (today $24000.00 put to work, 17 buys, 13 sells) — SIM (pretend money) via sim
-  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
-  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguhwpuGYPk5fBgEP6Lmx'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25484.97 (+1.94% on $25000.00 in) · cash $21732.55 · realised +482.55
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-10 13:20 ET (Tuesday) — week 2026-W46 — budget left $21216.15 (today $24000.00 put to work, 17 buys, 13 sells) — SIM (pretend money) via sim
-  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
-  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
-  (cancelled 2 standing order(s) on ESAB: position closed)
-- SELL 100% ESAB [stop_loss @ $87.78] -> $751.29 (+0.17%) — close it all at -1.5% under the average cost
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguiBFA8vmLygqgEKwnxF'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25481.81 (+1.93% on $25000.00 in) · cash $22483.84 · realised +483.84
-Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 12 order(s) working; budget left $21967.44 this week
-
-## 2026-11-10 13:23 ET (Tuesday) — week 2026-W46 — budget left $21967.44 (today $24000.00 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
-  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
-  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguiPiynjKXGeWWZBTMuv'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25481.53 (+1.93% on $25000.00 in) · cash $22483.84 · realised +483.84
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-10 13:26 ET (Tuesday) — week 2026-W46 — budget left $21967.44 (today $24000.00 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
-  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
-  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguidGAtGqi8YKVdGa2dL'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25483.19 (+1.93% on $25000.00 in) · cash $22483.84 · realised +483.84
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-10 13:29 ET (Tuesday) — week 2026-W46 — budget left $21967.44 (today $24000.00 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
-  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
-  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cguiqc4ndnU7ttUtJhANT'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25484.43 (+1.94% on $25000.00 in) · cash $22483.84 · realised +483.84
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-10 13:32 ET (Tuesday) — week 2026-W46 — budget left $21967.44 (today $24000.00 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
-  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
-  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cguj68vKaKZ974QvJDSH9'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25486.97 (+1.95% on $25000.00 in) · cash $22483.84 · realised +483.84
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on EL: position closed)
-- SELL 100% EL [take_profit @ $113.12] -> $753.60 (+0.48%) — close 100% at +0.5% over the average cost
-## 2026-11-10 13:34 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-10 13:35 ET (Tuesday) — week 2026-W46 — budget left $22721.04 (today $24000.00 put to work, 17 buys, 15 sells) — SIM (pretend money) via sim
-  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
-  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgujKQsctkQZ9GQCUiQdN'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25490.19 (+1.96% on $25000.00 in) · cash $23237.44 · realised +487.44
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-10 13:38 ET (Tuesday) — week 2026-W46 — budget left $22721.04 (today $24000.00 put to work, 17 buys, 15 sells) — SIM (pretend money) via sim
-  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
-  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgujYY8Yrmt31NyKbGUeY'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25490.32 (+1.96% on $25000.00 in) · cash $23237.44 · realised +487.44
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-10 13:41 ET (Tuesday) — week 2026-W46 — budget left $22721.04 (today $24000.00 put to work, 17 buys, 15 sells) — SIM (pretend money) via sim
-  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
-  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgujkzsTpE19U9o9oZctv'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25491.16 (+1.96% on $25000.00 in) · cash $23237.44 · realised +487.44
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-10 13:44 ET (Tuesday) — week 2026-W46 — budget left $22721.04 (today $24000.00 put to work, 17 buys, 15 sells) — SIM (pretend money) via sim
-  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
-  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgujyupjGDM9mcSHnefqS'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25491.01 (+1.96% on $25000.00 in) · cash $23237.44 · realised +487.44
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-10 13:47 ET (Tuesday) — week 2026-W46 — budget left $22721.04 (today $24000.00 put to work, 17 buys, 15 sells) — SIM (pretend money) via sim
-  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
-  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
   (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgukDdky1d9jEJ8ugAD5B'}
   -> falling back to autopilot: rules only, no model call
@@ -398,3 +248,153 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25488.09 (+1.95% on $25000.00 in) · cash $24742.31 · realised +492.31
 Decision: nothing at this check. 2 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 14:38 ET (Tuesday) — week 2026-W46 — budget left $24225.90 (today $24000.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
+  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgup6GZHAXkkJ1pyweFNo'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25488.09 (+1.95% on $25000.00 in) · cash $24742.31 · realised +492.31
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 14:41 ET (Tuesday) — week 2026-W46 — budget left $24225.90 (today $24000.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
+  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgupKh2JhK3F8spSqteM2'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25488.23 (+1.95% on $25000.00 in) · cash $24742.31 · realised +492.31
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 14:44 ET (Tuesday) — week 2026-W46 — budget left $24225.90 (today $24000.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
+  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgupYssHQu2NGGvcPkkYw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25488.51 (+1.95% on $25000.00 in) · cash $24742.31 · realised +492.31
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 14:47 ET (Tuesday) — week 2026-W46 — budget left $24225.90 (today $24000.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
+  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgupmpoMbMbi8Fmy1LTsq'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25489.35 (+1.96% on $25000.00 in) · cash $24742.31 · realised +492.31
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 14:50 ET (Tuesday) — week 2026-W46 — budget left $24225.90 (today $24000.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
+  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cguq3ADaWX8ruPPJGJLZn'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25489.70 (+1.96% on $25000.00 in) · cash $24742.31 · realised +492.31
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 14:52 ET (Tuesday) — week 2026-W46 — budget left $24225.90 (today $24000.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
+  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguqAWywNsAorAztLAvfn'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25489.70 (+1.96% on $25000.00 in) · cash $24742.31 · realised +492.31
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 14:55 ET (Tuesday) — week 2026-W46 — budget left $24225.90 (today $24000.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
+  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguqP8CbDDd4A8vFE16Mi'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25489.35 (+1.96% on $25000.00 in) · cash $24742.31 · realised +492.31
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 14:58 ET (Tuesday) — week 2026-W46 — budget left $24225.90 (today $24000.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
+  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguqdC3uTscvPDW9Fwrs7'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25489.70 (+1.96% on $25000.00 in) · cash $24742.31 · realised +492.31
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 15:01 ET (Tuesday) — week 2026-W46 — budget left $24225.90 (today $24000.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
+  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguqsrEhjMRpDzSdU7mbe'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25488.30 (+1.95% on $25000.00 in) · cash $24742.31 · realised +492.31
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 15:04 ET (Tuesday) — week 2026-W46 — budget left $24225.90 (today $24000.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
+  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+- SELL 100% RPM [time stop] -> $745.76 (-0.57%) — held 120 min, the 120-minute limit: out regardless
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgur8jd1LSA257yDeC3BA'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25488.07 (+1.95% on $25000.00 in) · cash $25488.07 · realised +488.07
+Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 0 order(s) working; budget left $24971.66 this week

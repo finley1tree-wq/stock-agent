@@ -7200,7 +7200,7 @@
    "ticker": "RPM",
    "kind": "take_profit",
    "price": 107.4967,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-10 13:05",
    "created_ts": 1794333911,
    "why": "close 100% at +0.4% over the average cost",
@@ -7210,14 +7210,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-15",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-10 15:04",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "dcfc25a9",
    "ticker": "RPM",
    "kind": "stop_loss",
    "price": 106.1428,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-10 13:05",
    "created_ts": 1794333911,
    "why": "close it all at -0.9% under the average cost",
@@ -7227,7 +7229,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-15",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-10 15:04",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "7525a04d",
@@ -7493,5 +7497,5 @@
    "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-11-10 15:01"
+ "updated": "2026-11-10 15:04"
 }
