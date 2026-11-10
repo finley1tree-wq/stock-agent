@@ -1,10 +1,10 @@
 {
   "week": "2026-W46",
-  "spent": 1524.71,
+  "spent": 774.1,
   "deployed": 38250.0,
   "by_ticker": {
     "ESAB": 41.17,
-    "CRH": 780.39,
+    "CRH": 29.78,
     "NXPI": 6.75,
     "RPM": 750.0
   },
@@ -1081,13 +1081,34 @@
       ],
       "evidence": "average cost $259.88",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CRH",
+      "side": "sell",
+      "qty": 7.753647,
+      "status": "filled",
+      "price": 96.81,
+      "proceeds": 750.61,
+      "realized_pnl": 0.61,
+      "realized_pct": 0.08,
+      "date": "2026-11-10",
+      "time_et": "14:06",
+      "ts": 1794337500,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $96.73",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-10",
-  "spent_today": 1524.71,
+  "spent_today": 774.1,
   "deployed_today": 24000.0,
   "orders_today": 17,
-  "sells_today": 16,
+  "sells_today": 17,
   "sold_today": [
     "RPM",
     "NXPI",
@@ -1102,11 +1123,11 @@
     "RPM": 1794330649,
     "PLD": 1794240790,
     "NXPI": 1794336895,
-    "CRH": 1794331478,
+    "CRH": 1794337610,
     "ECHO": 1794322507
   },
-  "last_publish_ts": 1794337204,
-  "last_check_ts": 1794337518,
+  "last_publish_ts": 1794337610,
+  "last_check_ts": 1794337610,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -1149,8 +1170,6 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "11535a71": 96.856,
-    "500b00a5": 97.1305,
     "dcfc25a9": 106.1428,
     "a77e9164": 107.4967
   }

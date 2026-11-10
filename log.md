@@ -67353,3 +67353,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25490.67 (+1.96% on $25000.00 in) · cash $23991.69 · realised +491.69
 Decision: nothing at this check. 4 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on CRH: position closed)
+- SELL 100% CRH [stop_loss @ $96.81] -> $750.61 (+0.08%) — close it all at -1.0% under the average cost
+## 2026-11-10 14:06 ET — tick — 1 sell(s), 0 buy(s) from standing orders
