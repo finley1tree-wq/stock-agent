@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "6d7eeb29",
-   "ticker": "ESAB",
-   "kind": "buy_limit",
-   "price": 72.9828,
-   "status": "cancelled",
-   "created": "2026-11-04 09:37",
-   "created_ts": 1793803047,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $75.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "usd": 500.0,
-   "closed": "2026-11-04 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "6bafe0b3",
    "ticker": "PLD",
    "kind": "take_profit",
@@ -7341,7 +7322,7 @@
    "ticker": "RPM",
    "kind": "stop_loss",
    "price": 105.6824,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-10 10:23",
    "created_ts": 1794324181,
    "why": "close it all at -0.9% under the average cost",
@@ -7351,7 +7332,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-15",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-10 10:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "5ef07fd0",
@@ -7471,7 +7454,24 @@
    ],
    "good_until": "2026-11-15",
    "usd": 500.0
+  },
+  {
+   "id": "d4752388",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 106.76,
+   "status": "working",
+   "created": "2026-11-10 10:33",
+   "created_ts": 1794324818,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $106.64",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-10 10:32"
+ "updated": "2026-11-10 10:33"
 }
