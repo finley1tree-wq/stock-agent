@@ -1,11 +1,11 @@
 {
   "week": "2026-W46",
-  "spent": 33.85,
-  "deployed": 34500.0,
+  "spent": 783.85,
+  "deployed": 35250.0,
   "by_ticker": {
     "ESAB": 42.46,
     "CRH": 30.39,
-    "NXPI": 11.0,
+    "NXPI": 761.0,
     "EL": 3.47
   },
   "deployed_by_ticker": {
@@ -13,7 +13,7 @@
     "RPM": 6750.0,
     "EL": 7500.0,
     "PLD": 1500.0,
-    "NXPI": 3750.0,
+    "NXPI": 4500.0,
     "CRH": 4500.0,
     "ECHO": 3000.0
   },
@@ -918,12 +918,32 @@
       ],
       "evidence": "bought 120 min ago, -0.42% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.885926,
+      "price": 259.88,
+      "date": "2026-11-10",
+      "time_et": "13:01",
+      "ts": 1794333698,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +15.4% over the month; 82% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-10",
-  "spent_today": 33.85,
-  "deployed_today": 20250.0,
-  "orders_today": 12,
+  "spent_today": 783.85,
+  "deployed_today": 21000.0,
+  "orders_today": 13,
   "sells_today": 13,
   "sold_today": [
     "RPM",
@@ -942,8 +962,8 @@
     "CRH": 1794331478,
     "ECHO": 1794322507
   },
-  "last_publish_ts": 1794333353,
-  "last_check_ts": 1794333531,
+  "last_publish_ts": 1794333698,
+  "last_check_ts": 1794333698,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -951,39 +971,15 @@
         "ratchet": "on"
       },
       "tags": {}
-    },
-    "ESAB": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "EL": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "RPM": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "CRH": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
     }
   },
-  "last_bar_ts": 1794333300,
-  "last_decision_ts": 1794333531,
-  "next_check_minutes": null,
+  "last_bar_ts": 1794333600,
+  "last_decision_ts": 1794333698,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "62a002e7": 261.3561,
+    "3a96029f": 256.1923,
+    "9f528c79": 252.0836
+  }
 }
