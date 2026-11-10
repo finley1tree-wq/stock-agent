@@ -1,9 +1,9 @@
 {
   "week": "2026-W46",
-  "spent": 3783.85,
+  "spent": 3032.56,
   "deployed": 38250.0,
   "by_ticker": {
-    "ESAB": 792.46,
+    "ESAB": 41.17,
     "CRH": 780.39,
     "NXPI": 761.0,
     "EL": 753.47,
@@ -1019,13 +1019,34 @@
       "evidence": "congress net buying (1 net buyer); +12.5% over the month; 70% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ESAB",
+      "side": "sell",
+      "qty": 8.559198,
+      "status": "filled",
+      "price": 87.78,
+      "proceeds": 751.29,
+      "realized_pnl": 1.29,
+      "realized_pct": 0.17,
+      "date": "2026-11-10",
+      "time_et": "13:20",
+      "ts": 1794334838,
+      "why": "close it all at -1.5% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $87.63",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-10",
-  "spent_today": 3783.85,
+  "spent_today": 3032.56,
   "deployed_today": 24000.0,
   "orders_today": 17,
-  "sells_today": 13,
+  "sells_today": 14,
   "sold_today": [
     "RPM",
     "NXPI",
@@ -1035,7 +1056,7 @@
     "ECHO"
   ],
   "sold_ts": {
-    "ESAB": 1794331217,
+    "ESAB": 1794334843,
     "EL": 1794331545,
     "RPM": 1794330649,
     "PLD": 1794240790,
@@ -1043,8 +1064,8 @@
     "CRH": 1794331478,
     "ECHO": 1794322507
   },
-  "last_publish_ts": 1794334567,
-  "last_check_ts": 1794334747,
+  "last_publish_ts": 1794334838,
+  "last_check_ts": 1794334838,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -1082,13 +1103,11 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1794334500,
-  "last_decision_ts": 1794334652,
+  "last_bar_ts": 1794334800,
+  "last_decision_ts": 1794334838,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "7ded6d43": 88.1435,
-    "2110311f": 87.876,
     "1a55b788": 113.1248,
     "500b00a5": 97.1305,
     "a77e9164": 107.4967,
@@ -1097,10 +1116,9 @@
     "ebe27005": 95.7288,
     "3a96029f": 256.1923,
     "1771bef1": 111.2536,
-    "7525a04d": 103.8967,
     "9f528c79": 252.0836,
+    "7525a04d": 103.8967,
     "f6ea625e": 93.8281,
-    "8fb1b310": 109.2123,
-    "d2f7cd6a": 85.0011
+    "8fb1b310": 109.2123
   }
 }

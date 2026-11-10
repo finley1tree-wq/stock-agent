@@ -96768,7 +96768,7 @@
     "code_version": "e3a7ab5",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": -0.16
   },
   {
     "symbol": "RPM",
@@ -96797,7 +96797,7 @@
     "code_version": "6d39fd2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24
+    "ret_now": -0.13
   },
   {
     "symbol": "ESAB",
@@ -96826,7 +96826,9 @@
     "code_version": "efbffe8",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.51
+    "ret_now": 0.17,
+    "ret_final": 0.17,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRH",
@@ -96855,7 +96857,7 @@
     "code_version": "cdd1c57",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": 0.04
   },
   {
     "symbol": "EL",
@@ -96884,6 +96886,33 @@
     "code_version": "cdd1c57",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": 0.12
+  },
+  {
+    "symbol": "ESAB",
+    "side": "sell",
+    "qty": 8.559198,
+    "status": "filled",
+    "price": 87.78,
+    "proceeds": 751.29,
+    "realized_pnl": 1.29,
+    "realized_pct": 0.17,
+    "date": "2026-11-10",
+    "time_et": "13:20",
+    "ts": 1794334838,
+    "why": "close it all at -1.5% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $87.63",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "2538758",
+    "hold_minutes": 12
   }
 ]
