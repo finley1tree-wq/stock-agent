@@ -1,10 +1,11 @@
 {
   "week": "2026-W46",
-  "spent": 3010.75,
-  "deployed": 26250.0,
+  "spent": 6010.75,
+  "deployed": 29250.0,
   "by_ticker": {
     "ESAB": 43.76,
-    "CRH": 3000.0
+    "CRH": 3000.0,
+    "ECHO": 3000.0
   },
   "deployed_by_ticker": {
     "ESAB": 6750.0,
@@ -12,7 +13,8 @@
     "EL": 6750.0,
     "PLD": 1500.0,
     "NXPI": 3000.0,
-    "CRH": 3000.0
+    "CRH": 3000.0,
+    "ECHO": 3000.0
   },
   "orders": [
     {
@@ -567,12 +569,32 @@
       "evidence": "1 insider bought (Form 4); +20.9% over the month; 50% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ECHO",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 29.629488,
+      "price": 101.25,
+      "date": "2026-11-10",
+      "time_et": "09:47",
+      "ts": 1794322046,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "insider net buying (Form 4); +6.4% over the month; 73% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-10",
-  "spent_today": 3010.75,
-  "deployed_today": 12000.0,
-  "orders_today": 4,
+  "spent_today": 6010.75,
+  "deployed_today": 15000.0,
+  "orders_today": 5,
   "sells_today": 4,
   "sold_today": [
     "RPM",
@@ -587,10 +609,17 @@
     "PLD": 1794240790,
     "NXPI": 1794321480
   },
-  "last_publish_ts": 1794321695,
-  "last_check_ts": 1794321959,
+  "last_publish_ts": 1794322046,
+  "last_check_ts": 1794322046,
   "exp_arm": {
     "CRH": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "ECHO": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -599,12 +628,15 @@
     }
   },
   "last_bar_ts": 1794321900,
-  "last_decision_ts": 1794321874,
-  "next_check_minutes": null,
+  "last_decision_ts": 1794322046,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "2e1ca4d9": 98.3839,
+    "d0f2f43f": 101.8352,
     "61a3b004": 97.0042,
+    "9f0ca518": 99.7859,
+    "969f4afd": 98.2125,
     "053b6d9c": 95.0503
   }
 }

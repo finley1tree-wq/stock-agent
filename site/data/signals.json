@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-10T09:41-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,989 idle, so opened 1: CRH. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-11-10T09:47-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,989 idle, so opened 1: ECHO. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -185,10 +185,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 97.95,
-   "pct_away": 0.44,
+   "last": 97.97,
+   "pct_away": 0.42,
    "good_until": "2026-11-15",
    "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d0f2f43f",
+   "ticker": "ECHO",
+   "kind": "take_profit",
+   "price": 101.8352,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 101.21,
+   "pct_away": 0.62,
+   "good_until": "2026-11-15",
+   "why": "close 100% at +0.6% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,10 +219,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 97.95,
-   "pct_away": -0.97,
+   "last": 97.97,
+   "pct_away": -0.99,
    "good_until": "2026-11-15",
    "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9f0ca518",
+   "ticker": "ECHO",
+   "kind": "stop_loss",
+   "price": 99.7859,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 101.21,
+   "pct_away": -1.41,
+   "good_until": "2026-11-15",
+   "why": "close it all at -1.4% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "969f4afd",
+   "ticker": "ECHO",
+   "kind": "buy_limit",
+   "price": 98.2125,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 101.21,
+   "pct_away": -2.96,
+   "good_until": "2026-11-15",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +270,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 97.95,
-   "pct_away": -2.96,
+   "last": 97.97,
+   "pct_away": -2.98,
    "good_until": "2026-11-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -229,7 +280,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,989 idle, so opened 1: CRH. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,989 idle, so opened 1: ECHO. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -297,13 +348,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 395,
+  "decisions_graded": 393,
   "decisions_with_buys_graded": 42,
   "independent_days_graded": 4,
   "avg_regret_pct": 0.54,
   "chosen_avg_pct": -0.65,
   "skipped_avg_pct": -0.11,
-  "idle_universe_avg_pct": 0.01,
+  "idle_universe_avg_pct": 0.02,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.0,
   "checks_that_bought_everything": 0,
@@ -398,9 +449,9 @@
     "n": 2
    }
   },
-  "idle_checks": 350,
+  "idle_checks": 349,
   "blocked_checks": 0,
-  "idle_share": 0.88,
+  "idle_share": 0.87,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -1952,14 +2003,14 @@
   ],
   "AMAT": [
    {
-    "title": "What Is The True Hidden Price Of Applied Materials Stock?",
-    "source": "Trefis",
-    "when": "2026-11-10T14:18"
-   },
-   {
     "title": "Wall Street's $1.6 trillion rebound may look like a bottom \u2014 history says it often isn't: Chart of the Day",
     "source": "Yahoo Finance",
     "when": "2026-11-10T11:00"
+   },
+   {
+    "title": "What Is The True Hidden Price Of Applied Materials Stock?",
+    "source": "Trefis",
+    "when": "2026-11-10T14:18"
    },
    {
     "title": "ONTO Beats Q3 Estimates & Uplifts View: Buy, Hold or Sell the Stock?",
@@ -1969,6 +2020,11 @@
   ],
   "AMD": [
    {
+    "title": "Wall Street's $1.6 trillion rebound may look like a bottom \u2014 history says it often isn't: Chart of the Day",
+    "source": "Yahoo Finance",
+    "when": "2026-11-10T11:00"
+   },
+   {
     "title": "Nvidia is the Only Chip Stock in the Red",
     "source": "GuruFocus.com",
     "when": "2026-11-10T14:18"
@@ -1977,11 +2033,6 @@
     "title": "AMD vs. Intel: Which Is the Better Artificial Intelligence (AI) Chip Stock to Buy Right Now?",
     "source": "Motley Fool",
     "when": "2026-11-10T14:12"
-   },
-   {
-    "title": "Here's what we learned in Anthropic's amended filing",
-    "source": "Yahoo Finance Video",
-    "when": "2026-11-10T14:05"
    }
   ],
   "AMZN": [
@@ -1991,17 +2042,22 @@
     "when": "2026-11-10T14:35"
    },
    {
+    "title": "Thousands of households to receive Amazon deliveries by drone",
+    "source": "The Telegraph",
+    "when": "2026-11-10T14:31"
+   },
+   {
     "title": "Amazon, alternative carriers gained parcel volume in 2026\u2019s first half",
     "source": "Supply Chain Dive",
     "when": "2026-11-10T14:27"
-   },
-   {
-    "title": "Amazon Secures UK Aviation Approval to Expand Drone Deliveries to 8,000 Customers in Darlington",
-    "source": "InvestorsHub",
-    "when": "2026-11-10T13:51"
    }
   ],
   "AVGO": [
+   {
+    "title": "Wall Street's $1.6 trillion rebound may look like a bottom \u2014 history says it often isn't: Chart of the Day",
+    "source": "Yahoo Finance",
+    "when": "2026-11-10T11:00"
+   },
    {
     "title": "Nvidia and Broadcom Are Scaling AI Data Centers With This Growth Stock. Here's Why It Could Soar.",
     "source": "Motley Fool",
@@ -2011,11 +2067,6 @@
     "title": "Nvidia is the Only Chip Stock in the Red",
     "source": "GuruFocus.com",
     "when": "2026-11-10T14:18"
-   },
-   {
-    "title": "Here's what we learned in Anthropic's amended filing",
-    "source": "Yahoo Finance Video",
-    "when": "2026-11-10T14:05"
    }
   ],
   "BHE": [
@@ -2343,14 +2394,14 @@
   ],
   "MU": [
    {
-    "title": "Nvidia is the Only Chip Stock in the Red",
-    "source": "GuruFocus.com",
-    "when": "2026-11-10T14:18"
-   },
-   {
     "title": "Wall Street's $1.6 trillion rebound may look like a bottom \u2014 history says it often isn't: Chart of the Day",
     "source": "Yahoo Finance",
     "when": "2026-11-10T11:00"
+   },
+   {
+    "title": "Nvidia is the Only Chip Stock in the Red",
+    "source": "GuruFocus.com",
+    "when": "2026-11-10T14:18"
    },
    {
     "title": "Google, Nvidia and Microsoft Are Among 7 Tech Giants Putting $26 Billion Into Anthropic\u2019s IPO",
@@ -2416,14 +2467,14 @@
     "when": "2026-11-10T11:00"
    },
    {
+    "title": "AI chip exports to China and oversight bills gain momentum in Congress",
+    "source": "Yahoo Finance Video",
+    "when": "2026-11-10T14:39"
+   },
+   {
     "title": "Jensen Huang's spy scandal may cost Nvidia the China chip fight it was winning",
     "source": "Yahoo Finance",
     "when": "2026-11-10T12:13"
-   },
-   {
-    "title": "3 bipartisan plans could slap new controls on semiconductor exports. Elizabeth Warren wants to pass one this year.",
-    "source": "Yahoo Finance",
-    "when": "2026-11-10T12:10"
    }
   ],
   "NXPI": [
@@ -2632,5 +2683,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-10T09:41-05:00"
+ "signalsAsOf": "2026-11-10T09:47-05:00"
 }
