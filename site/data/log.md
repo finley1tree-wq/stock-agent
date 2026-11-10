@@ -1,18 +1,3 @@
-  (cancelled 2 standing order(s) on ESAB: position closed)
-- SELL 100% ESAB [stop_loss @ $88.32] -> $2958.13 (-1.40%) — close it all at -1.3% under the average cost
-## 2026-11-10 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-10 09:41 ET (Tuesday) — week 2026-W46 — budget left $24989.25 (today $9000.00 put to work, 3 buys, 4 sells) — SIM (pretend money) via sim
-  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
-  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
-  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (KRT excluded: too thinly traded ($6.6M a day) — Karat Packaging Inc.)
-  (LAW excluded: too thinly traded ($1.2M a day) — CS Disco, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguRUmAumwstw2Rka2mSy'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,989 idle, so opened 1: CRH. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 CRH [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +20.9% over the month; 50% of today's range
 ~ WORKING take_profit 100% CRH @ $98.38 until 2026-11-15 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% CRH @ $97.00 until 2026-11-15 — close it all at -1.0% under the average cost
 ~ WORKING buy_limit $500.00 CRH @ $95.05 until 2026-11-15 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +383,18 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25484.94 (+1.94% on $25000.00 in) · cash $22491.78 · realised +491.78
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 11:00 ET (Tuesday) — week 2026-W46 — budget left $21975.38 (today $18750.00 put to work, 10 buys, 7 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (KRT excluded: too thinly traded ($6.6M a day) — Karat Packaging Inc.)
+  (cancelled 2 standing order(s) on CRH: position closed)
+- SELL 100% CRH [stop_loss @ $96.98] -> $750.64 (+0.09%) — close it all at -1.0% under the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguXTjj2g323bGrgLeGhT'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25488.54 (+1.95% on $25000.00 in) · cash $23242.42 · realised +492.42
+Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $22726.02 this week
