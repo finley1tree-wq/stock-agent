@@ -1,12 +1,12 @@
 {
   "week": "2026-W46",
-  "spent": 1530.99,
+  "spent": 33.85,
   "deployed": 34500.0,
   "by_ticker": {
     "ESAB": 42.46,
-    "CRH": 781.0,
+    "CRH": 30.39,
     "NXPI": 11.0,
-    "EL": 750.0
+    "EL": 3.47
   },
   "deployed_by_ticker": {
     "ESAB": 7500.0,
@@ -877,13 +877,54 @@
       ],
       "evidence": "average cost $87.35",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CRH",
+      "side": "sell",
+      "qty": 7.766499,
+      "status": "filled",
+      "price": 96.65,
+      "proceeds": 750.61,
+      "realized_pnl": 0.61,
+      "realized_pct": 0.08,
+      "date": "2026-11-10",
+      "time_et": "12:24",
+      "ts": 1794331200,
+      "why": "close it all at -1.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $96.57",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 6.667557,
+      "status": "filled",
+      "price": 111.97,
+      "proceeds": 746.53,
+      "realized_pnl": -3.47,
+      "realized_pct": -0.46,
+      "date": "2026-11-10",
+      "time_et": "12:25",
+      "ts": 1794331526,
+      "why": "held 120 min, the 120-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 120 min ago, -0.42% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-11-10",
-  "spent_today": 1530.99,
+  "spent_today": 33.85,
   "deployed_today": 20250.0,
   "orders_today": 12,
-  "sells_today": 11,
+  "sells_today": 13,
   "sold_today": [
     "RPM",
     "NXPI",
@@ -894,15 +935,15 @@
   ],
   "sold_ts": {
     "ESAB": 1794331217,
-    "EL": 1794321520,
+    "EL": 1794331545,
     "RPM": 1794330649,
     "PLD": 1794240790,
     "NXPI": 1794329388,
-    "CRH": 1794326412,
+    "CRH": 1794331478,
     "ECHO": 1794322507
   },
-  "last_publish_ts": 1794331216,
-  "last_check_ts": 1794331439,
+  "last_publish_ts": 1794331526,
+  "last_check_ts": 1794331526,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -940,16 +981,9 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1794331200,
-  "last_decision_ts": 1794331350,
+  "last_bar_ts": 1794331500,
+  "last_decision_ts": 1794331526,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "d5af2469": 96.696,
-    "a996291d": 96.9708,
-    "bf97879c": 111.1482,
-    "d81991d1": 113.0132,
-    "83d9234c": 109.1056,
-    "14300fc5": 93.6729
-  }
+  "book_px": {}
 }

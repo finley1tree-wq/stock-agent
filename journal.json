@@ -96456,7 +96456,9 @@
     "code_version": "b92c083",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.25
+    "ret_now": -0.46,
+    "ret_final": -0.46,
+    "ret_src": "realised"
   },
   {
     "symbol": "RPM",
@@ -96601,7 +96603,9 @@
     "code_version": "504a76f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.3
+    "ret_now": 0.08,
+    "ret_final": 0.08,
+    "ret_src": "realised"
   },
   {
     "symbol": "NXPI",
@@ -96683,5 +96687,58 @@
     "hour_et": 12,
     "code_version": "97ccc6f",
     "hold_minutes": 114
+  },
+  {
+    "symbol": "CRH",
+    "side": "sell",
+    "qty": 7.766499,
+    "status": "filled",
+    "price": 96.65,
+    "proceeds": 750.61,
+    "realized_pnl": 0.61,
+    "realized_pct": 0.08,
+    "date": "2026-11-10",
+    "time_et": "12:24",
+    "ts": 1794331200,
+    "why": "close it all at -1.0% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $96.57",
+    "trigger": "stop_loss",
+    "hour_et": 12,
+    "code_version": "fe174ff",
+    "hold_minutes": 33
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 6.667557,
+    "status": "filled",
+    "price": 111.97,
+    "proceeds": 746.53,
+    "realized_pnl": -3.47,
+    "realized_pct": -0.46,
+    "date": "2026-11-10",
+    "time_et": "12:25",
+    "ts": 1794331526,
+    "why": "held 120 min, the 120-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 120 min ago, -0.42% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 12,
+    "code_version": "fe174ff",
+    "hold_minutes": 119
   }
 ]
