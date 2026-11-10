@@ -66118,3 +66118,18 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on ECHO: position closed)
 - SELL 100% ECHO [take_profit @ $101.84] -> $3017.32 (+0.58%) — close 100% at +0.6% over the average cost
 ## 2026-11-10 09:55 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-10 09:56 ET (Tuesday) — week 2026-W46 — budget left $24974.93 (today $15000.00 put to work, 5 buys, 6 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (KRT excluded: too thinly traded ($6.6M a day) — Karat Packaging Inc.)
+  (LAW excluded: too thinly traded ($1.2M a day) — CS Disco, Inc.)
+  (no price for IBRX — excluded this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguScmAFrAaNpa21mYbeG'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25491.33 (+1.97% on $25000.00 in) · cash $25491.33 · realised +491.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
