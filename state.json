@@ -1,16 +1,18 @@
 {
   "week": "2026-W46",
-  "spent": 2968.88,
-  "deployed": 23250.0,
+  "spent": 3010.75,
+  "deployed": 26250.0,
   "by_ticker": {
-    "ESAB": 3001.89
+    "ESAB": 43.76,
+    "CRH": 3000.0
   },
   "deployed_by_ticker": {
     "ESAB": 6750.0,
     "RPM": 5250.0,
     "EL": 6750.0,
     "PLD": 1500.0,
-    "NXPI": 3000.0
+    "NXPI": 3000.0,
+    "CRH": 3000.0
   },
   "orders": [
     {
@@ -524,43 +526,71 @@
       ],
       "evidence": "average cost $112.4",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "ESAB",
+      "side": "sell",
+      "qty": 33.494923,
+      "status": "filled",
+      "price": 88.32,
+      "proceeds": 2958.13,
+      "realized_pnl": -41.87,
+      "realized_pct": -1.4,
+      "date": "2026-11-10",
+      "time_et": "09:40",
+      "ts": 1794321600,
+      "why": "close it all at -1.3% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $89.57",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CRH",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 30.615625,
+      "price": 97.99,
+      "date": "2026-11-10",
+      "time_et": "09:41",
+      "ts": 1794321695,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +20.9% over the month; 50% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-10",
-  "spent_today": 2968.88,
-  "deployed_today": 9000.0,
-  "orders_today": 3,
-  "sells_today": 3,
+  "spent_today": 3010.75,
+  "deployed_today": 12000.0,
+  "orders_today": 4,
+  "sells_today": 4,
   "sold_today": [
     "RPM",
     "NXPI",
-    "EL"
+    "EL",
+    "ESAB"
   ],
   "sold_ts": {
-    "ESAB": 1794240616,
+    "ESAB": 1794321648,
     "EL": 1794321520,
     "RPM": 1794321033,
     "PLD": 1794240790,
     "NXPI": 1794321480
   },
-  "last_publish_ts": 1794321520,
-  "last_check_ts": 1794321568,
+  "last_publish_ts": 1794321695,
+  "last_check_ts": 1794321695,
   "exp_arm": {
-    "ESAB": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "NXPI": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "EL": {
+    "CRH": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -568,13 +598,13 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1794321300,
-  "last_decision_ts": 1794321568,
-  "next_check_minutes": null,
+  "last_bar_ts": 1794321600,
+  "last_decision_ts": 1794321695,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "b938f3c2": 88.3617,
-    "48aef51a": 90.0537,
-    "685debda": 86.8829
+    "2e1ca4d9": 98.3839,
+    "61a3b004": 97.0042,
+    "053b6d9c": 95.0503
   }
 }
