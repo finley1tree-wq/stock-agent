@@ -66218,3 +66218,17 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25491.33 (+1.97% on $25000.00 in) · cash $25491.33 · realised +491.33
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-10 10:17 ET (Tuesday) — week 2026-W46 — budget left $24974.93 (today $15000.00 put to work, 5 buys, 6 sells) — SIM (pretend money) via sim
+  (ADTN excluded: too thinly traded ($8.0M a day) — ADTRAN Holdings, Inc.)
+  (EP excluded: too thinly traded ($0.1M a day) — Empire Petroleum Corporation)
+  (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (KRT excluded: too thinly traded ($6.6M a day) — Karat Packaging Inc.)
+  (LAW excluded: too thinly traded ($1.2M a day) — CS Disco, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CguUBcwwjXF7P3KcSRa4c'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25491.33 (+1.97% on $25000.00 in) · cash $25491.33 · realised +491.33
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
