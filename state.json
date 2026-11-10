@@ -1,16 +1,17 @@
 {
   "week": "2026-W46",
-  "spent": 2273.98,
-  "deployed": 33000.0,
+  "spent": 3023.98,
+  "deployed": 33750.0,
   "by_ticker": {
     "ESAB": 793.76,
     "CRH": 31.0,
     "NXPI": 750.0,
-    "EL": 750.0
+    "EL": 750.0,
+    "RPM": 750.0
   },
   "deployed_by_ticker": {
     "ESAB": 7500.0,
-    "RPM": 6000.0,
+    "RPM": 6750.0,
     "EL": 7500.0,
     "PLD": 1500.0,
     "NXPI": 3750.0,
@@ -774,12 +775,32 @@
       ],
       "evidence": "average cost $96.9",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "RPM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.038777,
+      "price": 106.55,
+      "date": "2026-11-10",
+      "time_et": "11:24",
+      "ts": 1794327875,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +9.2% over the month; 71% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-10",
-  "spent_today": 2273.98,
-  "deployed_today": 18750.0,
-  "orders_today": 10,
+  "spent_today": 3023.98,
+  "deployed_today": 19500.0,
+  "orders_today": 11,
   "sells_today": 8,
   "sold_today": [
     "RPM",
@@ -798,8 +819,8 @@
     "CRH": 1794326412,
     "ECHO": 1794322507
   },
-  "last_publish_ts": 1794326407,
-  "last_check_ts": 1794327789,
+  "last_publish_ts": 1794327875,
+  "last_check_ts": 1794327875,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -822,7 +843,7 @@
       },
       "tags": {}
     },
-    "CRH": {
+    "RPM": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -831,18 +852,21 @@
     }
   },
   "last_bar_ts": 1794327600,
-  "last_decision_ts": 1794327693,
-  "next_check_minutes": null,
+  "last_decision_ts": 1794327875,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "d81991d1": 113.0132,
-    "6d658559": 87.8627,
-    "dbfc80a0": 256.5623,
-    "9e177f07": 261.7256,
-    "bf97879c": 111.1482,
+    "5d7a1aa9": 106.9336,
     "7d33a3f2": 86.0677,
+    "dbfc80a0": 256.5623,
+    "d81991d1": 113.0132,
+    "a3705700": 105.591,
+    "bf97879c": 111.1482,
+    "9e177f07": 261.7256,
+    "6d658559": 87.8627,
+    "e048376f": 84.7295,
     "3817ca8d": 252.4425,
     "83d9234c": 109.1056,
-    "e048376f": 84.7295
+    "28cd4281": 103.3535
   }
 }
