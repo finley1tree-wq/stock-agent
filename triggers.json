@@ -1,119 +1,6 @@
 {
  "orders": [
   {
-   "id": "a6160d68",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 110.4594,
-   "status": "cancelled",
-   "created": "2026-11-04 09:35",
-   "created_ts": 1793802925,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $110.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "85771a49",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 109.3426,
-   "status": "cancelled",
-   "created": "2026-11-04 09:35",
-   "created_ts": 1793802925,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $110.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 09:38",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "9c4d783e",
-   "ticker": "RPM",
-   "kind": "buy_limit",
-   "price": 106.8358,
-   "status": "cancelled",
-   "created": "2026-11-04 09:35",
-   "created_ts": 1793802925,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $110.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "usd": 500.0,
-   "closed": "2026-11-04 09:40",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "86d25835",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 266.68,
-   "status": "cancelled",
-   "created": "2026-11-04 09:36",
-   "created_ts": 1793802999,
-   "why": "close it all at -1.2% under the average cost",
-   "evidence": "average cost $266.17",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 09:37",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "1b890ac0",
-   "ticker": "ESAB",
-   "kind": "take_profit",
-   "price": 75.5906,
-   "status": "filled",
-   "created": "2026-11-04 09:37",
-   "created_ts": 1793803047,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $75.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 09:40"
-  },
-  {
-   "id": "61914dd9",
-   "ticker": "ESAB",
-   "kind": "stop_loss",
-   "price": 74.3627,
-   "status": "cancelled",
-   "created": "2026-11-04 09:37",
-   "created_ts": 1793803047,
-   "why": "close it all at -1.2% under the average cost",
-   "evidence": "average cost $75.24",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 09:39",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "6d7eeb29",
    "ticker": "ESAB",
    "kind": "buy_limit",
@@ -7482,7 +7369,109 @@
    ],
    "good_until": "2026-11-15",
    "usd": 500.0
+  },
+  {
+   "id": "6d658559",
+   "ticker": "ESAB",
+   "kind": "take_profit",
+   "price": 87.8627,
+   "status": "working",
+   "created": "2026-11-10 10:25",
+   "created_ts": 1794324354,
+   "why": "close 100% at +0.6% over the average cost",
+   "evidence": "average cost $87.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "7d33a3f2",
+   "ticker": "ESAB",
+   "kind": "stop_loss",
+   "price": 86.0677,
+   "status": "working",
+   "created": "2026-11-10 10:25",
+   "created_ts": 1794324354,
+   "why": "close it all at -1.5% under the average cost",
+   "evidence": "average cost $87.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e048376f",
+   "ticker": "ESAB",
+   "kind": "buy_limit",
+   "price": 84.7295,
+   "status": "working",
+   "created": "2026-11-10 10:25",
+   "created_ts": 1794324354,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $87.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "usd": 500.0
+  },
+  {
+   "id": "d81991d1",
+   "ticker": "EL",
+   "kind": "take_profit",
+   "price": 113.0132,
+   "status": "working",
+   "created": "2026-11-10 10:25",
+   "created_ts": 1794324354,
+   "why": "close 100% at +0.5% over the average cost",
+   "evidence": "average cost $112.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "bf97879c",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 111.1482,
+   "status": "working",
+   "created": "2026-11-10 10:25",
+   "created_ts": 1794324354,
+   "why": "close it all at -1.2% under the average cost",
+   "evidence": "average cost $112.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "83d9234c",
+   "ticker": "EL",
+   "kind": "buy_limit",
+   "price": 109.1056,
+   "status": "working",
+   "created": "2026-11-10 10:25",
+   "created_ts": 1794324354,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $112.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-10 10:23"
+ "updated": "2026-11-10 10:25"
 }
