@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-10T13:05-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,216 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-11-10T13:08-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,466 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -185,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 107.07,
-   "pct_away": 0.4,
+   "last": 107.02,
+   "pct_away": 0.45,
    "good_until": "2026-11-15",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -195,15 +195,15 @@
    ]
   },
   {
-   "id": "62a002e7",
-   "ticker": "NXPI",
+   "id": "7ded6d43",
+   "ticker": "ESAB",
    "kind": "take_profit",
-   "price": 261.3561,
+   "price": 88.1435,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.51,
-   "pct_away": 0.71,
+   "last": 87.59,
+   "pct_away": 0.63,
    "good_until": "2026-11-15",
    "why": "close 100% at +0.6% over the average cost",
    "signals": [
@@ -219,10 +219,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 107.07,
-   "pct_away": -0.87,
+   "last": 107.02,
+   "pct_away": -0.82,
    "good_until": "2026-11-15",
    "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "62a002e7",
+   "ticker": "NXPI",
+   "kind": "take_profit",
+   "price": 261.3561,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 258.9,
+   "pct_away": 0.95,
+   "good_until": "2026-11-15",
+   "why": "close 100% at +0.6% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,10 +253,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.51,
-   "pct_away": -1.28,
+   "last": 258.9,
+   "pct_away": -1.05,
    "good_until": "2026-11-15",
    "why": "close it all at -1.4% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "26764a85",
+   "ticker": "ESAB",
+   "kind": "stop_loss",
+   "price": 86.3471,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 87.59,
+   "pct_away": -1.42,
+   "good_until": "2026-11-15",
+   "why": "close it all at -1.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +287,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.51,
-   "pct_away": -2.86,
+   "last": 258.9,
+   "pct_away": -2.63,
    "good_until": "2026-11-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -270,7 +304,24 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 107.07,
+   "last": 107.02,
+   "pct_away": -2.92,
+   "good_until": "2026-11-15",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d2f7cd6a",
+   "ticker": "ESAB",
+   "kind": "buy_limit",
+   "price": 85.0011,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 87.59,
    "pct_away": -2.96,
    "good_until": "2026-11-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -280,7 +331,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,216 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,466 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -347,13 +398,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 328,
+  "decisions_graded": 327,
   "decisions_with_buys_graded": 38,
   "independent_days_graded": 3,
   "avg_regret_pct": 0.43,
   "chosen_avg_pct": -0.32,
   "skipped_avg_pct": 0.11,
-  "idle_universe_avg_pct": 0.25,
+  "idle_universe_avg_pct": 0.26,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.0,
   "checks_that_bought_everything": 0,
@@ -448,7 +499,7 @@
     "n": 1
    }
   },
-  "idle_checks": 344,
+  "idle_checks": 343,
   "blocked_checks": 0,
   "idle_share": 0.86,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -2024,14 +2075,14 @@
     "when": "2026-11-10T16:53"
    },
    {
-    "title": "Here\u2019s The AMD Data Center Number Investors Need to Know",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-10T17:45"
+    "title": "Anthropic, Nvidia, CoreWeave, Take-Two, D-Wave, Securitize, and More That Explain Today\u2019s Market",
+    "source": "Barrons.com",
+    "when": "2026-11-10T17:56"
    },
    {
-    "title": "Broadcom Stocks Rise 2.69% as It Joins $26 Billion Anthropic Placement",
-    "source": "GuruFocus.com",
-    "when": "2026-11-10T17:39"
+    "title": "The Demise of Data Center Stocks Has Been Greatly Exaggerated. These Earnings Show Why.",
+    "source": "Barrons.com",
+    "when": "2026-11-10T17:51"
    }
   ],
   "AMZN": [
@@ -2041,14 +2092,14 @@
     "when": "2026-11-10T17:56"
    },
    {
+    "title": "The Demise of Data Center Stocks Has Been Greatly Exaggerated. These Earnings Show Why.",
+    "source": "Barrons.com",
+    "when": "2026-11-10T17:51"
+   },
+   {
     "title": "Prediction: Amazon Stock Could Be Poised for Its Next Big Rally in 2027",
     "source": "24/7 Wall St.",
     "when": "2026-11-10T17:33"
-   },
-   {
-    "title": "Anthropic Reveals Stunning $1 Trillion IPO Valuation",
-    "source": "GuruFocus.com",
-    "when": "2026-11-10T17:28"
    }
   ],
   "AVGO": [
@@ -2058,14 +2109,14 @@
     "when": "2026-11-10T16:53"
    },
    {
+    "title": "Anthropic, Nvidia, CoreWeave, Take-Two, D-Wave, Securitize, and More That Explain Today\u2019s Market",
+    "source": "Barrons.com",
+    "when": "2026-11-10T17:56"
+   },
+   {
     "title": "Broadcom Stocks Rise 2.69% as It Joins $26 Billion Anthropic Placement",
     "source": "GuruFocus.com",
     "when": "2026-11-10T17:39"
-   },
-   {
-    "title": "Samsung Electronics Stocks Climb 4.74% as Chip Rebound Pushes Shares Near 200,000 Won",
-    "source": "GuruFocus.com",
-    "when": "2026-11-10T17:29"
    }
   ],
   "BHE": [
@@ -2155,6 +2206,11 @@
   ],
   "EL": [
    {
+    "title": "Estee Lauder\u2019s China Business Is Looking Good. That Helps Its Turnaround.",
+    "source": "Barrons.com",
+    "when": "2026-11-10T16:50"
+   },
+   {
     "title": "Est\u00e9e Lauder Stock: Is Wall Street Bullish or Bearish?",
     "source": "Barchart",
     "when": "2026-11-10T08:18"
@@ -2163,11 +2219,6 @@
     "title": "Investing in Estee Lauder (EL)? Don't Miss Assessing Its International Revenue Trends",
     "source": "Zacks",
     "when": "2026-11-09T13:15"
-   },
-   {
-    "title": "Est\u00e9e Lauder Companies (EL) Unveils Mastering Skin Longevity Platform For Next Generation Skincare",
-    "source": "Simply Wall St.",
-    "when": "2026-11-08T03:18"
    }
   ],
   "ESAB": [
@@ -2257,9 +2308,9 @@
   ],
   "IBM": [
    {
-    "title": "D-Wave Earnings Lay Bare Quantum\u2019s Commercial Growing Pains",
+    "title": "D-Wave Stock Sinks as Earnings Lay Bare Quantum\u2019s Commercial Growing Pains",
     "source": "Barrons.com",
-    "when": "2026-11-10T14:42"
+    "when": "2026-11-10T17:09"
    },
    {
     "title": "Microsoft and IBM Team Up for Governed AI Agents",
@@ -2291,14 +2342,14 @@
   ],
   "LMT": [
    {
+    "title": "D-Wave Stock Sinks as Earnings Lay Bare Quantum\u2019s Commercial Growing Pains",
+    "source": "Barrons.com",
+    "when": "2026-11-10T17:09"
+   },
+   {
     "title": "Pete Hegseth Might Get Impeached. What That Means for Defense Stocks.",
     "source": "Barrons.com",
     "when": "2026-11-10T14:47"
-   },
-   {
-    "title": "D-Wave Earnings Lay Bare Quantum\u2019s Commercial Growing Pains",
-    "source": "Barrons.com",
-    "when": "2026-11-10T14:42"
    },
    {
     "title": "Democrats Take Congress: 4 Dividend Stocks From Oil to Telecom Worth Buying",
@@ -2325,19 +2376,19 @@
   ],
   "META": [
    {
+    "title": "BitGo adds APT stake to its growing Aptos relationship",
+    "source": "TheStreet",
+    "when": "2026-11-10T17:57"
+   },
+   {
+    "title": "The Demise of Data Center Stocks Has Been Greatly Exaggerated. These Earnings Show Why.",
+    "source": "Barrons.com",
+    "when": "2026-11-10T17:51"
+   },
+   {
     "title": "Advanced Micro Devices Stocks Rise 2.66% on $2.5 Billion Anthropic Stake Commitment",
     "source": "GuruFocus.com",
     "when": "2026-11-10T17:31"
-   },
-   {
-    "title": "Dan Ives Says Wall Street Is Underestimating 2 Major Tech Stocks",
-    "source": "GuruFocus.com",
-    "when": "2026-11-10T17:25"
-   },
-   {
-    "title": "Bill Ackman\u2019s Best Buy Is Already Up 27%. Is It Too Late to Follow Him?",
-    "source": "TIKR",
-    "when": "2026-11-10T17:18"
    }
   ],
   "MSFT": [
@@ -2478,6 +2529,11 @@
   ],
   "O": [
    {
+    "title": "Realty Income or Pfizer: Only One Gets My Dividend Dollars for the Next 10 Years",
+    "source": "TIKR",
+    "when": "2026-11-10T17:54"
+   },
+   {
     "title": "Realty Income (O) Could Be 4% Below Fair Value As Dividend Growth Continues",
     "source": "Simply Wall St.",
     "when": "2026-11-10T16:09"
@@ -2486,11 +2542,6 @@
     "title": "Democrats Take Congress: 4 Dividend Stocks From Oil to Telecom Worth Buying",
     "source": "24/7 Wall St.",
     "when": "2026-11-10T14:32"
-   },
-   {
-    "title": "5 High Yield REITs That Pay You Tax Free Inside a Roth",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-10T13:47"
    }
   ],
   "OKLO": [
@@ -2529,6 +2580,11 @@
   ],
   "PLTR": [
    {
+    "title": "How California\u2019s Billionaires Tax Failed in More Ways Than One",
+    "source": "Barrons.com",
+    "when": "2026-11-10T16:30"
+   },
+   {
     "title": "What Is Driving Palantir Stock?",
     "source": "Trefis",
     "when": "2026-11-10T13:11"
@@ -2537,11 +2593,6 @@
     "title": "BigBear.ai Expands Gross Margin by 878 Bps: What Drives the Gains?",
     "source": "Zacks",
     "when": "2026-11-10T12:20"
-   },
-   {
-    "title": "ETFs Are Buying Palantir (PLTR) on Nov. 6",
-    "source": "GuruFocus.com",
-    "when": "2026-11-10T11:01"
    }
   ],
   "RPM": [
@@ -2665,5 +2716,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-10T13:05-05:00"
+ "signalsAsOf": "2026-11-10T13:08-05:00"
 }
