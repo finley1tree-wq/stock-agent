@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "fcad0daf",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 110.236,
-   "status": "filled",
-   "created": "2026-11-04 09:38",
-   "created_ts": 1793803122,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $110.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 09:40"
-  },
-  {
    "id": "57fd0e13",
    "ticker": "ESAB",
    "kind": "stop_loss",
@@ -7443,7 +7425,7 @@
    "ticker": "CRH",
    "kind": "stop_loss",
    "price": 95.9077,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-10 10:41",
    "created_ts": 1794325291,
    "why": "close it all at -1.0% under the average cost",
@@ -7453,7 +7435,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-15",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-10 10:57",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "4ed924f8",
@@ -7471,7 +7455,24 @@
    ],
    "good_until": "2026-11-15",
    "usd": 500.0
+  },
+  {
+   "id": "d4800703",
+   "ticker": "CRH",
+   "kind": "stop_loss",
+   "price": 97.044,
+   "status": "working",
+   "created": "2026-11-10 10:57",
+   "created_ts": 1794326269,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $96.9",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-15",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-10 10:56"
+ "updated": "2026-11-10 10:57"
 }
