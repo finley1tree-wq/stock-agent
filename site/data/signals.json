@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-10T10:33-05:00",
- "note": "tick: watching",
+ "asOf": "2026-11-10T10:36-05:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,40 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "d4752388",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 106.76,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 106.84,
-   "pct_away": -0.07,
-   "good_until": "2026-11-15",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "7bb22d91",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 107.0228,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 106.84,
-   "pct_away": 0.17,
-   "good_until": "2026-11-15",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "d81991d1",
    "ticker": "EL",
    "kind": "take_profit",
@@ -229,6 +195,23 @@
    ]
   },
   {
+   "id": "7d33a3f2",
+   "ticker": "ESAB",
+   "kind": "stop_loss",
+   "price": 86.0677,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 86.71,
+   "pct_away": -0.74,
+   "good_until": "2026-11-15",
+   "why": "close it all at -1.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "9e177f07",
    "ticker": "NXPI",
    "kind": "take_profit",
@@ -236,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 259.89,
-   "pct_away": 0.71,
+   "last": 259.39,
+   "pct_away": 0.9,
    "good_until": "2026-11-15",
    "why": "close 100% at +0.6% over the average cost",
    "signals": [
@@ -246,17 +229,17 @@
    ]
   },
   {
-   "id": "7d33a3f2",
-   "ticker": "ESAB",
+   "id": "dbfc80a0",
+   "ticker": "NXPI",
    "kind": "stop_loss",
-   "price": 86.0677,
+   "price": 256.5623,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 86.74,
-   "pct_away": -0.78,
+   "last": 259.39,
+   "pct_away": -1.09,
    "good_until": "2026-11-15",
-   "why": "close it all at -1.5% under the average cost",
+   "why": "close it all at -1.4% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -280,23 +263,6 @@
    ]
   },
   {
-   "id": "dbfc80a0",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 256.5623,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 259.89,
-   "pct_away": -1.28,
-   "good_until": "2026-11-15",
-   "why": "close it all at -1.4% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "6d658559",
    "ticker": "ESAB",
    "kind": "take_profit",
@@ -304,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 86.74,
-   "pct_away": 1.29,
+   "last": 86.71,
+   "pct_away": 1.33,
    "good_until": "2026-11-15",
    "why": "close 100% at +0.6% over the average cost",
    "signals": [
@@ -321,8 +287,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 86.74,
-   "pct_away": -2.32,
+   "last": 86.71,
+   "pct_away": -2.28,
    "good_until": "2026-11-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -338,8 +304,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 259.89,
-   "pct_away": -2.87,
+   "last": 259.39,
+   "pct_away": -2.68,
    "good_until": "2026-11-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -357,23 +323,6 @@
    "trail_pct": null,
    "last": 112.43,
    "pct_away": -2.96,
-   "good_until": "2026-11-15",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "5ef07fd0",
-   "ticker": "RPM",
-   "kind": "buy_limit",
-   "price": 103.4408,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 106.84,
-   "pct_away": -3.18,
    "good_until": "2026-11-15",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
