@@ -96425,7 +96425,7 @@
     "code_version": "b92c083",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.78
+    "ret_now": 0.08
   },
   {
     "symbol": "EL",
@@ -96454,7 +96454,7 @@
     "code_version": "b92c083",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.78
+    "ret_now": -0.66
   },
   {
     "symbol": "RPM",
@@ -96568,7 +96568,9 @@
     "code_version": "2402654",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05
+    "ret_now": 0.36,
+    "ret_final": 0.36,
+    "ret_src": "realised"
   },
   {
     "symbol": "CRH",
@@ -96597,7 +96599,7 @@
     "code_version": "504a76f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": 0.12
   },
   {
     "symbol": "NXPI",
@@ -96625,5 +96627,32 @@
     "hour_et": 11,
     "code_version": "1540eba",
     "hold_minutes": 81
+  },
+  {
+    "symbol": "RPM",
+    "side": "sell",
+    "qty": 7.038777,
+    "status": "filled",
+    "price": 106.94,
+    "proceeds": 752.69,
+    "realized_pnl": 2.69,
+    "realized_pct": 0.36,
+    "date": "2026-11-10",
+    "time_et": "12:10",
+    "ts": 1794330600,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $106.55",
+    "trigger": "take_profit",
+    "hour_et": 12,
+    "code_version": "775ec58",
+    "hold_minutes": 45
   }
 ]
