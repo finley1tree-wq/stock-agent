@@ -1,10 +1,9 @@
 {
   "week": "2026-W46",
-  "spent": 9000.0,
+  "spent": 5982.97,
   "deployed": 23250.0,
   "by_ticker": {
     "ESAB": 3001.89,
-    "NXPI": 3000.0,
     "EL": 3000.0
   },
   "deployed_by_ticker": {
@@ -484,24 +483,47 @@
       "evidence": "congress net buying (1 net buyer); +12.3% over the month; 78% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "NXPI",
+      "side": "sell",
+      "qty": 11.894357,
+      "status": "filled",
+      "price": 253.65,
+      "proceeds": 3017.03,
+      "realized_pnl": 17.03,
+      "realized_pct": 0.57,
+      "date": "2026-11-10",
+      "time_et": "09:37",
+      "ts": 1794321300,
+      "why": "close 100% at +0.6% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $252.22",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-10",
-  "spent_today": 9000.0,
+  "spent_today": 5982.97,
   "deployed_today": 9000.0,
   "orders_today": 3,
-  "sells_today": 1,
+  "sells_today": 2,
   "sold_today": [
-    "RPM"
+    "RPM",
+    "NXPI"
   ],
   "sold_ts": {
     "ESAB": 1794240616,
     "EL": 1794247124,
     "RPM": 1794321033,
-    "PLD": 1794240790
+    "PLD": 1794240790,
+    "NXPI": 1794321480
   },
-  "last_publish_ts": 1794321312,
-  "last_check_ts": 1794321314,
+  "last_publish_ts": 1794321443,
+  "last_check_ts": 1794321443,
   "exp_arm": {
     "ESAB": {
       "params": {
@@ -526,18 +548,15 @@
     }
   },
   "last_bar_ts": 1794321300,
-  "last_decision_ts": 1794321314,
+  "last_decision_ts": 1794321443,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "42ead233": 253.6526,
-    "810b577d": 253.018,
     "1554d327": 112.9328,
-    "48aef51a": 90.0537,
-    "b617eed4": 111.0681,
+    "6b345c09": 112.682,
     "b938f3c2": 88.3617,
+    "48aef51a": 90.0537,
     "685debda": 86.8829,
-    "6ddce8b3": 109.028,
-    "55147d29": 244.6534
+    "6ddce8b3": 109.028
   }
 }
