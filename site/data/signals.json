@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-11T11:41-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,579 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-11-11T11:52-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,829 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,17 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "9bbf4263",
-   "ticker": "ESAB",
+   "id": "dd0455e9",
+   "ticker": "RPM",
    "kind": "take_profit",
-   "price": 87.3244,
+   "price": 106.0457,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 86.79,
-   "pct_away": 0.62,
+   "last": 105.64,
+   "pct_away": 0.38,
    "good_until": "2026-11-16",
-   "why": "close 100% at +0.6% over the average cost",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 10.94,
-   "pct_away": -1.19,
+   "last": 10.89,
+   "pct_away": -0.74,
    "good_until": "2026-11-16",
    "why": "close it all at -2.0% under the average cost",
    "signals": [
@@ -212,17 +212,34 @@
    ]
   },
   {
-   "id": "20f2c529",
-   "ticker": "ENOV",
+   "id": "81ad57e9",
+   "ticker": "RPM",
    "kind": "stop_loss",
-   "price": 27.9134,
+   "price": 104.7659,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 28.26,
-   "pct_away": -1.23,
+   "last": 105.64,
+   "pct_away": -0.83,
    "good_until": "2026-11-16",
-   "why": "close it all at -1.8% under the average cost",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9bbf4263",
+   "ticker": "ESAB",
+   "kind": "take_profit",
+   "price": 87.3244,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 86.51,
+   "pct_away": 0.94,
+   "good_until": "2026-11-16",
+   "why": "close 100% at +0.6% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 28.26,
-   "pct_away": 1.33,
+   "last": 28.33,
+   "pct_away": 1.08,
    "good_until": "2026-11-16",
    "why": "close 100% at +0.7% over the average cost",
    "signals": [
@@ -253,8 +270,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 86.79,
-   "pct_away": -1.42,
+   "last": 86.51,
+   "pct_away": -1.1,
    "good_until": "2026-11-16",
    "why": "close it all at -1.5% under the average cost",
    "signals": [
@@ -263,17 +280,17 @@
    ]
   },
   {
-   "id": "480b81f7",
-   "ticker": "FUN",
-   "kind": "take_profit",
-   "price": 11.1181,
+   "id": "20f2c529",
+   "ticker": "ENOV",
+   "kind": "stop_loss",
+   "price": 27.9134,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 10.94,
-   "pct_away": 1.63,
+   "last": 28.33,
+   "pct_away": -1.47,
    "good_until": "2026-11-16",
-   "why": "close 100% at +0.8% over the average cost",
+   "why": "close it all at -1.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -287,8 +304,42 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 10.94,
-   "pct_away": -2.2,
+   "last": 10.89,
+   "pct_away": -1.75,
+   "good_until": "2026-11-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "480b81f7",
+   "ticker": "FUN",
+   "kind": "take_profit",
+   "price": 11.1181,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 10.89,
+   "pct_away": 2.09,
+   "good_until": "2026-11-16",
+   "why": "close 100% at +0.8% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e75cc2b5",
+   "ticker": "ESAB",
+   "kind": "buy_limit",
+   "price": 84.2154,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 86.51,
+   "pct_away": -2.65,
    "good_until": "2026-11-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -304,8 +355,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 28.26,
-   "pct_away": -2.42,
+   "last": 28.33,
+   "pct_away": -2.66,
    "good_until": "2026-11-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -314,15 +365,15 @@
    ]
   },
   {
-   "id": "e75cc2b5",
-   "ticker": "ESAB",
+   "id": "637957d6",
+   "ticker": "RPM",
    "kind": "buy_limit",
-   "price": 84.2154,
+   "price": 102.5096,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 86.79,
-   "pct_away": -2.97,
+   "last": 105.64,
+   "pct_away": -2.96,
    "good_until": "2026-11-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -331,7 +382,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,579 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,829 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -398,7 +449,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 354,
+  "decisions_graded": 350,
   "decisions_with_buys_graded": 33,
   "independent_days_graded": 4,
   "avg_regret_pct": 0.23,
@@ -499,7 +550,7 @@
     "n": 1
    }
   },
-  "idle_checks": 345,
+  "idle_checks": 344,
   "blocked_checks": 0,
   "idle_share": 0.86,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -2478,6 +2529,11 @@
   ],
   "NEM": [
    {
+    "title": "Will Higher Unit Costs Weigh on Newmont's Margins in Q4?",
+    "source": "Zacks",
+    "when": "2026-11-11T15:39"
+   },
+   {
     "title": "Gold mining stocks rise as bullion climbs after inflation-driven slide",
     "source": "Investing.com",
     "when": "2026-11-11T13:56"
@@ -2486,11 +2542,6 @@
     "title": "Can Alamos Gold Stock Jump 50%?",
     "source": "Trefis",
     "when": "2026-11-10T17:42"
-   },
-   {
-    "title": "Barrick's Earnings Beat Could Be Overshadowed by an Even Bigger Opportunity",
-    "source": "MarketBeat",
-    "when": "2026-11-10T15:45"
    }
   ],
   "NLR": [
@@ -2767,5 +2818,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-11T11:41-05:00"
+ "signalsAsOf": "2026-11-11T11:52-05:00"
 }
