@@ -68710,3 +68710,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 ESAB @ $84.22 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25584.12 (+2.34% on $25000.00 in) · cash $23345.40 · realised +595.40
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22828.97 this week
+
+## 2026-11-11 11:43 ET (Wednesday) — week 2026-W46 — budget left $22828.97 (today $28500.00 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
+  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwUciV1jGBtu6NWPHz6G'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25581.71 (+2.33% on $25000.00 in) · cash $23345.40 · realised +595.40
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
