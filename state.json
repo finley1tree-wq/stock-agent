@@ -1,25 +1,26 @@
 {
   "week": "2026-W46",
-  "spent": 682.75,
-  "deployed": 67500.0,
+  "spent": 2182.75,
+  "deployed": 69000.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 48.13,
     "RPM": 8.94,
     "NFRX": 14.96,
-    "FUN": 15.67,
-    "ESAB": 750.0
+    "FUN": 765.67,
+    "ESAB": 750.0,
+    "EL": 750.0
   },
   "deployed_by_ticker": {
     "ESAB": 12750.0,
     "RPM": 12000.0,
-    "EL": 12000.0,
+    "EL": 12750.0,
     "PLD": 1500.0,
     "NXPI": 9000.0,
     "CRH": 5250.0,
     "ECHO": 3000.0,
     "NFRX": 3000.0,
-    "FUN": 4500.0,
+    "FUN": 5250.0,
     "ENOV": 4500.0
   },
   "orders": [
@@ -1843,12 +1844,52 @@
       ],
       "evidence": "average cost $105.68",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "EL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.666371,
+      "price": 112.5,
+      "date": "2026-11-11",
+      "time_et": "13:00",
+      "ts": 1794420054,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +12.8% over the month; 7% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "FUN",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 68.027192,
+      "price": 11.03,
+      "date": "2026-11-11",
+      "time_et": "13:00",
+      "ts": 1794420054,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "insider net buying (Form 4); +8.0% over the month; 54% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-11",
-  "spent_today": 654.41,
-  "deployed_today": 29250.0,
-  "orders_today": 18,
+  "spent_today": 2154.41,
+  "deployed_today": 30750.0,
+  "orders_today": 20,
   "sells_today": 17,
   "sold_today": [
     "ESAB",
@@ -1871,23 +1912,9 @@
     "ENOV": 1794417371,
     "NFRX": 1794414794
   },
-  "last_publish_ts": 1794419824,
-  "last_check_ts": 1794419966,
+  "last_publish_ts": 1794420054,
+  "last_check_ts": 1794420054,
   "exp_arm": {
-    "FUN": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "ENOV": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
     "ESAB": {
       "params": {
         "hold_minutes": 120,
@@ -1895,7 +1922,14 @@
       },
       "tags": {}
     },
-    "RPM": {
+    "EL": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "FUN": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -1903,13 +1937,19 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1794419700,
-  "last_decision_ts": 1794419873,
+  "last_bar_ts": 1794420000,
+  "last_decision_ts": 1794420054,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "9bbf4263": 87.3244,
+    "28764730": 113.0062,
+    "1cb49501": 11.1182,
+    "902509c6": 111.2332,
     "eb5f4746": 85.5594,
+    "ff68461b": 10.8095,
+    "d7190410": 10.6991,
+    "a35f58fb": 109.125,
     "e75cc2b5": 84.2154
   }
 }

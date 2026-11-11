@@ -97930,7 +97930,7 @@
     "code_version": "f3504e2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.21
+    "ret_now": 0.2
   },
   {
     "symbol": "RPM",
@@ -98043,5 +98043,61 @@
     "hour_et": 12,
     "code_version": "1b588e6",
     "hold_minutes": 32
+  },
+  {
+    "symbol": "EL",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 6.666371,
+    "price": 112.5,
+    "date": "2026-11-11",
+    "time_et": "13:00",
+    "ts": 1794420054,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (1 net buyer); +12.8% over the month; 7% of today's range",
+    "experiments": {},
+    "hold_minutes": 120,
+    "entry_price": 112.46,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 12.76,
+    "hour_et": 13,
+    "code_version": "41cff99",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "FUN",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 68.027192,
+    "price": 11.03,
+    "date": "2026-11-11",
+    "time_et": "13:00",
+    "ts": 1794420054,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "insider net buying (Form 4); +8.0% over the month; 54% of today's range",
+    "experiments": {},
+    "hold_minutes": 120,
+    "entry_price": 11.02,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 7.99,
+    "hour_et": 13,
+    "code_version": "41cff99",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

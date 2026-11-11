@@ -69124,3 +69124,24 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 portfolio: equity $25584.93 (+2.34% on $25000.00 in) · cash $24833.68 · realised +583.68
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-11 13:00 ET (Wednesday) — week 2026-W46 — budget left $24317.25 (today $29250.00 put to work, 18 buys, 17 sells) — SIM (pretend money) via sim
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
+  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwaV36vjSV2PxdwmeGej'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,317 idle, so opened 2: EL, FUN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +12.8% over the month; 7% of today's range
+- BUY $750.00 FUN [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: insider net buying (Form 4); +8.0% over the month; 54% of today's range
+~ WORKING take_profit 100% EL @ $113.01 until 2026-11-16 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% EL @ $111.23 until 2026-11-16 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 EL @ $109.12 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FUN @ $11.12 until 2026-11-16 — close 100% at +0.8% over the average cost
+~ WORKING stop_loss 100% FUN @ $10.81 until 2026-11-16 — close it all at -2.0% under the average cost
+~ WORKING buy_limit $500.00 FUN @ $10.70 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25584.21 (+2.34% on $25000.00 in) · cash $23333.68 · realised +583.68
+Done: 0 sell(s), 2 buy(s); 9 order(s) working; budget left $22817.25 this week
