@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-11-11 14:55 ET
+# Pretend portfolio — 2026-11-11 14:57 ET
 
-**Equity $25593.11** on $25000.00 put in → **+2.37%**  
-Cash $24845.68 · Unrealised -2.57 · Realised +595.68
+**Equity $25592.72** on $25000.00 put in → **+2.37%**  
+Cash $24845.68 · Unrealised -2.96 · Realised +595.68
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| NXPI | 2.9% | $747.43 | $272.45 | $271.52 | -0.34% | 0d |
+| NXPI | 2.9% | $747.04 | $272.45 | $271.38 | -0.39% | 0d |
 
 ## Last fills
 
