@@ -97930,7 +97930,9 @@
     "code_version": "f3504e2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": -0.11,
+    "ret_final": -0.11,
+    "ret_src": "realised"
   },
   {
     "symbol": "RPM",
@@ -98071,7 +98073,7 @@
     "code_version": "41cff99",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": -0.12
   },
   {
     "symbol": "FUN",
@@ -98131,7 +98133,7 @@
     "code_version": "34b5fad",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.45
+    "ret_now": 0.38
   },
   {
     "symbol": "FUN",
@@ -98188,5 +98190,31 @@
     "ret_1w": null,
     "ret_1m": null,
     "ret_now": 0.13
+  },
+  {
+    "symbol": "ESAB",
+    "side": "sell",
+    "qty": 8.638093,
+    "status": "filled",
+    "price": 86.73,
+    "proceeds": 749.14,
+    "realized_pnl": -0.86,
+    "realized_pct": -0.11,
+    "date": "2026-11-11",
+    "time_et": "13:40",
+    "ts": 1794422448,
+    "why": "held 120 min, the 120-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 120 min ago, -0.07% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 13,
+    "code_version": "c7394b2",
+    "hold_minutes": 119
   }
 ]

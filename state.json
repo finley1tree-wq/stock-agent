@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 2926.41,
+  "spent": 2177.27,
   "deployed": 70500.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -8,7 +8,7 @@
     "RPM": 758.94,
     "NFRX": 14.96,
     "FUN": 9.33,
-    "ESAB": 750.0,
+    "ESAB": 0.86,
     "EL": 750.0,
     "ENOV": 750.0
   },
@@ -1946,13 +1946,33 @@
       "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +7.4% over the month; 59% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ESAB",
+      "side": "sell",
+      "qty": 8.638093,
+      "status": "filled",
+      "price": 86.73,
+      "proceeds": 749.14,
+      "realized_pnl": -0.86,
+      "realized_pct": -0.11,
+      "date": "2026-11-11",
+      "time_et": "13:40",
+      "ts": 1794422448,
+      "why": "held 120 min, the 120-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 120 min ago, -0.07% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-11-11",
-  "spent_today": 2898.07,
+  "spent_today": 2148.93,
   "deployed_today": 32250.0,
   "orders_today": 22,
-  "sells_today": 18,
+  "sells_today": 19,
   "sold_today": [
     "ESAB",
     "FUN",
@@ -1963,7 +1983,7 @@
     "NFRX"
   ],
   "sold_ts": {
-    "ESAB": 1794412419,
+    "ESAB": 1794422453,
     "EL": 1794414184,
     "RPM": 1794418005,
     "PLD": 1794240790,
@@ -1974,8 +1994,8 @@
     "ENOV": 1794417371,
     "NFRX": 1794414794
   },
-  "last_publish_ts": 1794421216,
-  "last_check_ts": 1794422365,
+  "last_publish_ts": 1794422448,
+  "last_check_ts": 1794422448,
   "exp_arm": {
     "ESAB": {
       "params": {
@@ -2006,22 +2026,19 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1794422100,
-  "last_decision_ts": 1794422276,
+  "last_bar_ts": 1794422400,
+  "last_decision_ts": 1794422448,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "2bdb4da4": 28.684,
-    "2522a85b": 28.8068,
     "4d489cca": 106.127,
+    "2522a85b": 28.8068,
     "28764730": 113.0062,
-    "9bbf4263": 87.3244,
     "0357946a": 104.842,
     "902509c6": 111.2332,
-    "eb5f4746": 85.5594,
-    "e75cc2b5": 84.2154,
-    "96160203": 102.5872,
     "a35f58fb": 109.125,
+    "96160203": 102.5872,
     "7f6c78e7": 27.742
   }
 }
