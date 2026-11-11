@@ -1,20 +1,3 @@
-
-## 2026-11-11 10:40 ET (Wednesday) — week 2026-W46 — budget left $19079.76 (today $24750.00 put to work, 12 buys, 7 sells) — SIM (pretend money) via sim
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
-  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
-  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
-  (cancelled 2 standing order(s) on NXPI: position closed)
-- SELL 100% NXPI [stop_loss @ $267.30] -> $750.74 (+0.10%) — close it all at -1.4% under the average cost
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwPk5499WapMNkQiBMZg'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25585.77 (+2.34% on $25000.00 in) · cash $20346.92 · realised +596.92
-Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 12 order(s) working; budget left $19830.50 this week
-  (cancelled 2 standing order(s) on ENOV: position closed)
-- SELL 100% ENOV [take_profit @ $28.47] -> $757.68 (+1.02%) — close 100% at +0.7% over the average cost
 ## 2026-11-11 10:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-11-11 10:42 ET (Wednesday) — week 2026-W46 — budget left $20588.18 (today $24750.00 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 RPM @ $102.51 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25579.85 (+2.32% on $25000.00 in) · cash $22595.40 · realised +595.40
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $22078.97 this week
+
+## 2026-11-11 11:55 ET (Wednesday) — week 2026-W46 — budget left $22078.97 (today $29250.00 put to work, 18 buys, 14 sells) — SIM (pretend money) via sim
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
+  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwVUdPaS4zDgYzWxc8Yk'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25578.71 (+2.31% on $25000.00 in) · cash $22595.40 · realised +595.40
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on FUN: position closed)
+- SELL 100% FUN [stop_loss @ $10.80] -> $734.33 (-2.09%) — close it all at -2.0% under the average cost
+## 2026-11-11 11:58 ET — tick — 1 sell(s), 0 buy(s) from standing orders

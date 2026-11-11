@@ -1,13 +1,13 @@
 {
   "week": "2026-W46",
-  "spent": 2921.03,
+  "spent": 2186.7,
   "deployed": 67500.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 48.13,
     "RPM": 762.51,
     "NFRX": 14.96,
-    "FUN": 750.0,
+    "FUN": 15.67,
     "ENOV": 750.0,
     "ESAB": 750.0
   },
@@ -1781,13 +1781,34 @@
       "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +7.3% over the month; 62% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "FUN",
+      "side": "sell",
+      "qty": 67.965583,
+      "status": "filled",
+      "price": 10.8,
+      "proceeds": 734.33,
+      "realized_pnl": -15.67,
+      "realized_pct": -2.09,
+      "date": "2026-11-11",
+      "time_et": "11:58",
+      "ts": 1794416100,
+      "why": "close it all at -2.0% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $11.03",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-11",
-  "spent_today": 2892.69,
+  "spent_today": 2158.36,
   "deployed_today": 29250.0,
   "orders_today": 18,
-  "sells_today": 14,
+  "sells_today": 15,
   "sold_today": [
     "ESAB",
     "FUN",
@@ -1805,12 +1826,12 @@
     "NXPI": 1794415268,
     "CRH": 1794337610,
     "ECHO": 1794322507,
-    "FUN": 1794411519,
+    "FUN": 1794416289,
     "ENOV": 1794411772,
     "NFRX": 1794414794
   },
-  "last_publish_ts": 1794415960,
-  "last_check_ts": 1794416211,
+  "last_publish_ts": 1794416288,
+  "last_check_ts": 1794416290,
   "exp_arm": {
     "FUN": {
       "params": {
@@ -1842,21 +1863,18 @@
     }
   },
   "last_bar_ts": 1794416100,
-  "last_decision_ts": 1794416116,
+  "last_decision_ts": 1794416290,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "dd0455e9": 106.0457,
-    "cd0fdddb": 10.8098,
-    "81ad57e9": 104.7659,
     "9bbf4263": 87.3244,
-    "ff3bb69d": 28.6367,
-    "eb5f4746": 85.5594,
+    "81ad57e9": 104.7659,
     "20f2c529": 27.9134,
-    "7a3d0f20": 10.6991,
-    "480b81f7": 11.1181,
-    "e75cc2b5": 84.2154,
+    "eb5f4746": 85.5594,
+    "ff3bb69d": 28.6367,
     "63513668": 27.5771,
+    "e75cc2b5": 84.2154,
     "637957d6": 102.5096
   }
 }
