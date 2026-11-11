@@ -68082,3 +68082,23 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 ENOV @ $27.20 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25460.69 (+1.84% on $25000.00 in) · cash $7527.78 · realised +527.78
 Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $7011.37 this week
+  (cancelled 2 standing order(s) on FUN: position closed)
+- SELL 100% FUN [take_profit @ $11.10] -> $3025.32 (+0.84%) — close 100% at +0.8% over the average cost
+## 2026-11-11 09:47 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $262.69] -> $2957.08 (-1.43%) — close it all at -1.4% under the average cost
+## 2026-11-11 09:48 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-11 09:48 ET (Wednesday) — week 2026-W46 — budget left $12993.77 (today $21000.00 put to work, 7 buys, 3 sells) — SIM (pretend money) via sim
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
+  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwKoyBp5HuJpt2hyAjry'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25544.98 (+2.18% on $25000.00 in) · cash $13510.18 · realised +510.18
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

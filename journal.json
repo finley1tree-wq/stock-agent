@@ -97088,7 +97088,9 @@
     "code_version": "0835e6c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.18
+    "ret_now": -1.43,
+    "ret_final": -1.43,
+    "ret_src": "realised"
   },
   {
     "symbol": "EL",
@@ -97117,7 +97119,7 @@
     "code_version": "0835e6c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06
+    "ret_now": 0.39
   },
   {
     "symbol": "NFRX",
@@ -97202,7 +97204,7 @@
     "code_version": "e090d3a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.2
+    "ret_now": -0.26
   },
   {
     "symbol": "FUN",
@@ -97231,7 +97233,9 @@
     "code_version": "76f1568",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.36
+    "ret_now": 0.84,
+    "ret_final": 0.84,
+    "ret_src": "realised"
   },
   {
     "symbol": "ENOV",
@@ -97259,6 +97263,61 @@
     "hour_et": 9,
     "code_version": "b8b3b1a",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 1.39
+  },
+  {
+    "symbol": "FUN",
+    "side": "sell",
+    "qty": 272.603238,
+    "status": "filled",
+    "price": 11.1,
+    "proceeds": 3025.32,
+    "realized_pnl": 25.32,
+    "realized_pct": 0.84,
+    "date": "2026-11-11",
+    "time_et": "09:47",
+    "ts": 1794408300,
+    "why": "close 100% at +0.8% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $11.01",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "96272d1",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "NXPI",
+    "side": "sell",
+    "qty": 11.256897,
+    "status": "filled",
+    "price": 262.69,
+    "proceeds": 2957.08,
+    "realized_pnl": -42.92,
+    "realized_pct": -1.43,
+    "date": "2026-11-11",
+    "time_et": "09:48",
+    "ts": 1794408300,
+    "why": "close it all at -1.4% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $266.5",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "96272d1",
+    "hold_minutes": 12
   }
 ]

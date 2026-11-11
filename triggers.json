@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "b2b7d8b1",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 113.035,
-   "status": "filled",
-   "created": "2026-11-04 11:11",
-   "created_ts": 1793808710,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $112.56",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 11:15"
-  },
-  {
    "id": "d923ef7f",
    "ticker": "EL",
    "kind": "stop_loss",
@@ -7089,7 +7071,7 @@
    "ticker": "NXPI",
    "kind": "take_profit",
    "price": 267.9711,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 09:32",
    "created_ts": 1794407558,
    "why": "close 100% at +0.6% over the average cost",
@@ -7099,14 +7081,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 09:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d8dd9c4b",
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 262.8223,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-11 09:32",
    "created_ts": 1794407558,
    "why": "close it all at -1.4% under the average cost",
@@ -7116,14 +7100,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 09:48"
   },
   {
    "id": "e89f7557",
    "ticker": "NXPI",
    "kind": "buy_limit",
    "price": 258.505,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 09:32",
    "created_ts": 1794407558,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7133,7 +7118,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-11 09:48",
+   "cancel_reason": "position closed"
   },
   {
    "id": "038d5137",
@@ -7314,7 +7301,7 @@
    "ticker": "FUN",
    "kind": "take_profit",
    "price": 11.0979,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-11 09:40",
    "created_ts": 1794408029,
    "why": "close 100% at +0.8% over the average cost",
@@ -7324,7 +7311,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 09:47"
   },
   {
    "id": "6ad1ab2c",
@@ -7350,7 +7338,7 @@
    "ticker": "FUN",
    "kind": "buy_limit",
    "price": 10.6797,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 09:40",
    "created_ts": 1794408029,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7360,7 +7348,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-11 09:47",
+   "cancel_reason": "position closed"
   },
   {
    "id": "e8745fdb",
@@ -7420,7 +7410,7 @@
    "ticker": "ENOV",
    "kind": "stop_loss",
    "price": 28.232,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 09:46",
    "created_ts": 1794408374,
    "why": "close it all at -1.8% under the average cost",
@@ -7430,7 +7420,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 09:47",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "9f31b690",
@@ -7454,7 +7446,7 @@
    "ticker": "FUN",
    "kind": "stop_loss",
    "price": 11.04,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 09:47",
    "created_ts": 1794408421,
    "why": "close it all at -2.0% under the average cost",
@@ -7464,8 +7456,27 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 09:47",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "9856cfe3",
+   "ticker": "ENOV",
+   "kind": "stop_loss",
+   "price": 28.298,
+   "status": "working",
+   "created": "2026-11-11 09:47",
+   "created_ts": 1794408462,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $28.04",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-16",
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-11 09:47"
+ "updated": "2026-11-11 09:48"
 }
