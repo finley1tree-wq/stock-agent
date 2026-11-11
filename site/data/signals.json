@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-11T11:29-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $21,343 idle, so opened 1: ENOV. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-11-11T11:32-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $20,593 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -212,6 +212,23 @@
    ]
   },
   {
+   "id": "f57e63a5",
+   "ticker": "NXPI",
+   "kind": "take_profit",
+   "price": 271.1419,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 269.59,
+   "pct_away": 0.58,
+   "good_until": "2026-11-16",
+   "why": "close 100% at +0.6% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "ff3bb69d",
    "ticker": "ENOV",
    "kind": "take_profit",
@@ -219,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 28.42,
-   "pct_away": 0.76,
+   "last": 28.35,
+   "pct_away": 1.01,
    "good_until": "2026-11-16",
    "why": "close 100% at +0.7% over the average cost",
    "signals": [
@@ -246,6 +263,40 @@
    ]
   },
   {
+   "id": "cbdb043e",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 265.8839,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 269.59,
+   "pct_away": -1.37,
+   "good_until": "2026-11-16",
+   "why": "close it all at -1.4% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "20f2c529",
+   "ticker": "ENOV",
+   "kind": "stop_loss",
+   "price": 27.9134,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 28.35,
+   "pct_away": -1.54,
+   "good_until": "2026-11-16",
+   "why": "close it all at -1.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "cd0fdddb",
    "ticker": "FUN",
    "kind": "stop_loss",
@@ -263,23 +314,6 @@
    ]
   },
   {
-   "id": "20f2c529",
-   "ticker": "ENOV",
-   "kind": "stop_loss",
-   "price": 27.9134,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 28.42,
-   "pct_away": -1.78,
-   "good_until": "2026-11-16",
-   "why": "close it all at -1.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "7a3d0f20",
    "ticker": "FUN",
    "kind": "buy_limit",
@@ -289,6 +323,23 @@
    "trail_pct": null,
    "last": 10.99,
    "pct_away": -2.65,
+   "good_until": "2026-11-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "63513668",
+   "ticker": "ENOV",
+   "kind": "buy_limit",
+   "price": 27.5771,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 28.35,
+   "pct_away": -2.73,
    "good_until": "2026-11-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -314,15 +365,15 @@
    ]
   },
   {
-   "id": "63513668",
-   "ticker": "ENOV",
+   "id": "55610469",
+   "ticker": "NXPI",
    "kind": "buy_limit",
-   "price": 27.5771,
+   "price": 261.5508,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 28.42,
-   "pct_away": -2.97,
+   "last": 269.59,
+   "pct_away": -2.98,
    "good_until": "2026-11-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -331,7 +382,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $21,343 idle, so opened 1: ENOV. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $20,593 idle, so opened 1: NXPI. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -398,7 +449,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 358,
+  "decisions_graded": 357,
   "decisions_with_buys_graded": 33,
   "independent_days_graded": 4,
   "avg_regret_pct": 0.23,
@@ -499,9 +550,9 @@
     "n": 1
    }
   },
-  "idle_checks": 347,
+  "idle_checks": 346,
   "blocked_checks": 0,
-  "idle_share": 0.87,
+  "idle_share": 0.86,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
   "evidence_strength": "anecdote",
   "how_many_days_before_this_means_anything": 30,
@@ -2325,6 +2376,11 @@
   ],
   "GOOGL": [
    {
+    "title": "Many AI companies will adopt advertising: Criteo CEO",
+    "source": "AFP",
+    "when": "2026-11-11T16:25"
+   },
+   {
     "title": "GoTo Foods hires TGI Fridays vet as Deli Brands president",
     "source": "Restaurant Dive",
     "when": "2026-11-11T16:08"
@@ -2333,11 +2389,6 @@
     "title": "Eric Schmidt, Former Google CEO, Should Run Nvidia",
     "source": "24/7 Wall St.",
     "when": "2026-11-11T15:55"
-   },
-   {
-    "title": "Amazon\u2019s Enterprise \u2018Hotel California\u2019 Lock In Is Excellent for Investors",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-11T15:45"
    }
   ],
   "HD": [
@@ -2427,6 +2478,11 @@
   ],
   "META": [
    {
+    "title": "Many AI companies will adopt advertising: Criteo CEO",
+    "source": "AFP",
+    "when": "2026-11-11T16:25"
+   },
+   {
     "title": "Anthropic's IPO has a line around the block. History says that's not the signal to watch.",
     "source": "Yahoo Finance",
     "when": "2026-11-11T16:09"
@@ -2435,11 +2491,6 @@
     "title": "Tax on tech giants \u2018will cost Britain \u00a3900m\u2019",
     "source": "The Telegraph",
     "when": "2026-11-11T16:02"
-   },
-   {
-    "title": "Applied Digital And Harwood: A Teaching Moment For AI Data Centers?",
-    "source": "Investor's Business Daily",
-    "when": "2026-11-11T15:55"
    }
   ],
   "MSFT": [
@@ -2767,5 +2818,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-11T11:29-05:00"
+ "signalsAsOf": "2026-11-11T11:32-05:00"
 }

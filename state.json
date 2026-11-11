@@ -1,10 +1,10 @@
 {
   "week": "2026-W46",
-  "spent": 4406.87,
-  "deployed": 65250.0,
+  "spent": 5156.87,
+  "deployed": 66000.0,
   "by_ticker": {
     "CRH": 29.78,
-    "NXPI": 48.93,
+    "NXPI": 798.93,
     "RPM": 12.51,
     "NFRX": 3000.0,
     "FUN": 750.0,
@@ -15,7 +15,7 @@
     "RPM": 11250.0,
     "EL": 12000.0,
     "PLD": 1500.0,
-    "NXPI": 8250.0,
+    "NXPI": 9000.0,
     "CRH": 5250.0,
     "ECHO": 3000.0,
     "NFRX": 3000.0,
@@ -1679,12 +1679,32 @@
       "evidence": "1 insider bought (Form 4); +49.7% over the month; 58% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.781446,
+      "price": 269.64,
+      "date": "2026-11-11",
+      "time_et": "11:32",
+      "ts": 1794414748,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +19.1% over the month; 84% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-11",
-  "spent_today": 4378.53,
-  "deployed_today": 27000.0,
-  "orders_today": 15,
+  "spent_today": 5128.53,
+  "deployed_today": 27750.0,
+  "orders_today": 16,
   "sells_today": 12,
   "sold_today": [
     "ESAB",
@@ -1705,8 +1725,8 @@
     "FUN": 1794411519,
     "ENOV": 1794411772
   },
-  "last_publish_ts": 1794414585,
-  "last_check_ts": 1794414668,
+  "last_publish_ts": 1794414748,
+  "last_check_ts": 1794414748,
   "exp_arm": {
     "NFRX": {
       "params": {
@@ -1728,21 +1748,31 @@
         "ratchet": "on"
       },
       "tags": {}
+    },
+    "NXPI": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
     }
   },
   "last_bar_ts": 1794414600,
-  "last_decision_ts": 1794414585,
+  "last_decision_ts": 1794414748,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "c256d9aa": 26.5847,
     "d36e8168": 26.71,
+    "f57e63a5": 271.1419,
     "ff3bb69d": 28.6367,
     "480b81f7": 11.1181,
-    "cd0fdddb": 10.8098,
+    "cbdb043e": 265.8839,
     "20f2c529": 27.9134,
+    "cd0fdddb": 10.8098,
     "7a3d0f20": 10.6991,
+    "63513668": 27.5771,
     "4570aa3e": 25.8699,
-    "63513668": 27.5771
+    "55610469": 261.5508
   }
 }
