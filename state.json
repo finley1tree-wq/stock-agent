@@ -1,10 +1,10 @@
 {
   "week": "2026-W46",
-  "spent": 1425.48,
-  "deployed": 70500.0,
+  "spent": 2175.48,
+  "deployed": 71250.0,
   "by_ticker": {
     "CRH": 29.78,
-    "NXPI": 48.13,
+    "NXPI": 798.13,
     "RPM": 758.94,
     "NFRX": 14.96,
     "FUN": 9.33,
@@ -16,7 +16,7 @@
     "RPM": 12750.0,
     "EL": 12750.0,
     "PLD": 1500.0,
-    "NXPI": 9000.0,
+    "NXPI": 9750.0,
     "CRH": 5250.0,
     "ECHO": 3000.0,
     "NFRX": 3000.0,
@@ -1986,12 +1986,32 @@
       ],
       "evidence": "average cost $28.6",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "NXPI",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 2.752753,
+      "price": 272.45,
+      "date": "2026-11-11",
+      "time_et": "13:56",
+      "ts": 1794423400,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +20.4% over the month; 85% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-11",
-  "spent_today": 1397.14,
-  "deployed_today": 32250.0,
-  "orders_today": 22,
+  "spent_today": 2147.14,
+  "deployed_today": 33000.0,
+  "orders_today": 23,
   "sells_today": 20,
   "sold_today": [
     "ESAB",
@@ -2014,24 +2034,10 @@
     "ENOV": 1794422539,
     "NFRX": 1794414794
   },
-  "last_publish_ts": 1794422539,
-  "last_check_ts": 1794423274,
+  "last_publish_ts": 1794423400,
+  "last_check_ts": 1794423400,
   "exp_arm": {
-    "ESAB": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
     "EL": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "ENOV": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -2044,18 +2050,28 @@
         "ratchet": "on"
       },
       "tags": {}
+    },
+    "NXPI": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
     }
   },
-  "last_bar_ts": 1794423000,
-  "last_decision_ts": 1794423274,
-  "next_check_minutes": null,
+  "last_bar_ts": 1794423300,
+  "last_decision_ts": 1794423400,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "4d489cca": 106.127,
     "28764730": 113.0062,
-    "902509c6": 111.2332,
+    "fbac647f": 273.9784,
     "0357946a": 104.842,
+    "902509c6": 111.2332,
+    "7d8e33da": 268.6303,
     "a35f58fb": 109.125,
+    "fdf22798": 264.2765,
     "96160203": 102.5872
   }
 }
