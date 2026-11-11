@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-11T11:33-05:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-11-11T11:36-05:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,49 +178,15 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "f57e63a5",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 271.1419,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 269.84,
-   "pct_away": 0.48,
-   "good_until": "2026-11-16",
-   "why": "close 100% at +0.6% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ff3bb69d",
-   "ticker": "ENOV",
-   "kind": "take_profit",
-   "price": 28.6367,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 28.35,
-   "pct_away": 1.01,
-   "good_until": "2026-11-16",
-   "why": "close 100% at +0.7% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "cbdb043e",
+   "id": "c3384664",
    "ticker": "NXPI",
    "kind": "stop_loss",
-   "price": 265.8839,
+   "price": 270.126,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 269.84,
-   "pct_away": -1.47,
+   "last": 270.45,
+   "pct_away": -0.12,
    "good_until": "2026-11-16",
    "why": "close it all at -1.4% under the average cost",
    "signals": [
@@ -229,32 +195,66 @@
    ]
   },
   {
-   "id": "20f2c529",
-   "ticker": "ENOV",
-   "kind": "stop_loss",
-   "price": 27.9134,
+   "id": "f57e63a5",
+   "ticker": "NXPI",
+   "kind": "take_profit",
+   "price": 271.1419,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 28.35,
-   "pct_away": -1.54,
+   "last": 270.45,
+   "pct_away": 0.26,
    "good_until": "2026-11-16",
-   "why": "close it all at -1.8% under the average cost",
+   "why": "close 100% at +0.6% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "63513668",
-   "ticker": "ENOV",
+   "id": "cd0fdddb",
+   "ticker": "FUN",
+   "kind": "stop_loss",
+   "price": 10.8098,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 10.91,
+   "pct_away": -0.92,
+   "good_until": "2026-11-16",
+   "why": "close it all at -2.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "480b81f7",
+   "ticker": "FUN",
+   "kind": "take_profit",
+   "price": 11.1181,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 10.91,
+   "pct_away": 1.91,
+   "good_until": "2026-11-16",
+   "why": "close 100% at +0.8% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7a3d0f20",
+   "ticker": "FUN",
    "kind": "buy_limit",
-   "price": 27.5771,
+   "price": 10.6991,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 28.35,
-   "pct_away": -2.73,
+   "last": 10.91,
+   "pct_away": -1.93,
    "good_until": "2026-11-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -270,8 +270,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 269.84,
-   "pct_away": -3.07,
+   "last": 270.45,
+   "pct_away": -3.29,
    "good_until": "2026-11-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -280,44 +280,44 @@
    ]
   },
   {
-   "id": "480b81f7",
-   "ticker": "FUN",
+   "id": "ff3bb69d",
+   "ticker": "ENOV",
    "kind": "take_profit",
-   "price": 11.1181,
+   "price": 28.6367,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
    "last": null,
    "pct_away": null,
    "good_until": "2026-11-16",
-   "why": "close 100% at +0.8% over the average cost",
+   "why": "close 100% at +0.7% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "cd0fdddb",
-   "ticker": "FUN",
+   "id": "20f2c529",
+   "ticker": "ENOV",
    "kind": "stop_loss",
-   "price": 10.8098,
+   "price": 27.9134,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
    "last": null,
    "pct_away": null,
    "good_until": "2026-11-16",
-   "why": "close it all at -2.0% under the average cost",
+   "why": "close it all at -1.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
    ]
   },
   {
-   "id": "7a3d0f20",
-   "ticker": "FUN",
+   "id": "63513668",
+   "ticker": "ENOV",
    "kind": "buy_limit",
-   "price": 10.6991,
+   "price": 27.5771,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
