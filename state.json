@@ -1,9 +1,8 @@
 {
   "week": "2026-W46",
-  "spent": 5161.82,
+  "spent": 4407.5,
   "deployed": 63750.0,
   "by_ticker": {
-    "ESAB": 751.46,
     "CRH": 29.78,
     "NXPI": 48.93,
     "RPM": 762.33,
@@ -1576,13 +1575,34 @@
       "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +7.1% over the month; 37% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ESAB",
+      "side": "sell",
+      "qty": 8.66505,
+      "status": "filled",
+      "price": 87.05,
+      "proceeds": 754.32,
+      "realized_pnl": 4.32,
+      "realized_pct": 0.58,
+      "date": "2026-11-11",
+      "time_et": "10:53",
+      "ts": 1794412200,
+      "why": "close 100% at +0.6% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $86.55",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-11",
-  "spent_today": 5133.48,
+  "spent_today": 4379.16,
   "deployed_today": 25500.0,
   "orders_today": 13,
-  "sells_today": 9,
+  "sells_today": 10,
   "sold_today": [
     "ESAB",
     "FUN",
@@ -1592,7 +1612,7 @@
     "RPM"
   ],
   "sold_ts": {
-    "ESAB": 1794407743,
+    "ESAB": 1794412419,
     "EL": 1794408598,
     "RPM": 1794409209,
     "PLD": 1794240790,
@@ -1602,8 +1622,8 @@
     "FUN": 1794411519,
     "ENOV": 1794411772
   },
-  "last_publish_ts": 1794412337,
-  "last_check_ts": 1794412383,
+  "last_publish_ts": 1794412418,
+  "last_check_ts": 1794412466,
   "exp_arm": {
     "NFRX": {
       "params": {
@@ -1635,21 +1655,18 @@
     }
   },
   "last_bar_ts": 1794412200,
-  "last_decision_ts": 1794412290,
+  "last_decision_ts": 1794412466,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "c256d9aa": 26.5847,
-    "e71077c6": 87.0537,
-    "666b3df1": 86.784,
     "f029fa5d": 105.8059,
     "2a7fa2e6": 113.235,
     "d36e8168": 26.71,
     "c2e4a970": 104.5269,
     "f96abd3f": 111.4674,
     "4570aa3e": 25.8699,
-    "514fa9fc": 102.2768,
     "e572dcb4": 109.3481,
-    "fc86b5a9": 83.9535
+    "514fa9fc": 102.2768
   }
 }

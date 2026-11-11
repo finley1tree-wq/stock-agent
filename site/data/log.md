@@ -1,6 +1,3 @@
-~ WORKING take_profit 100% FUN @ $11.10 until 2026-11-16 — close 100% at +0.8% over the average cost
-~ WORKING stop_loss 100% FUN @ $10.79 until 2026-11-16 — close it all at -2.0% under the average cost
-~ WORKING buy_limit $500.00 FUN @ $10.68 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25481.65 (+1.93% on $25000.00 in) · cash $10527.78 · realised +527.78
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $10011.37 this week
 
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25598.29 (+2.39% on $25000.00 in) · cash $20354.60 · realised +604.60
 Decision: nothing at this check. 12 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ESAB: position closed)
+- SELL 100% ESAB [take_profit @ $87.05] -> $754.32 (+0.58%) — close 100% at +0.6% over the average cost
+## 2026-11-11 10:53 ET — tick — 1 sell(s), 0 buy(s) from standing orders
