@@ -1,44 +1,6 @@
 {
  "orders": [
   {
-   "id": "d923ef7f",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 111.3736,
-   "status": "cancelled",
-   "created": "2026-11-04 11:11",
-   "created_ts": 1793808710,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $112.56",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 11:13",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "eeb2c09a",
-   "ticker": "EL",
-   "kind": "buy_limit",
-   "price": 109.1832,
-   "status": "cancelled",
-   "created": "2026-11-04 11:11",
-   "created_ts": 1793808710,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $112.56",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "usd": 500.0,
-   "closed": "2026-11-04 11:15",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "1e60fb98",
    "ticker": "EL",
    "kind": "stop_loss",
@@ -7127,7 +7089,7 @@
    "ticker": "EL",
    "kind": "take_profit",
    "price": 114.7926,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-11 09:32",
    "created_ts": 1794407558,
    "why": "close 100% at +0.4% over the average cost",
@@ -7137,7 +7099,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 09:49"
   },
   {
    "id": "8de04036",
@@ -7163,7 +7126,7 @@
    "ticker": "EL",
    "kind": "buy_limit",
    "price": 110.871,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 09:32",
    "created_ts": 1794407558,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7173,7 +7136,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-11 09:49",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d36e8168",
@@ -7429,7 +7394,7 @@
    "ticker": "EL",
    "kind": "stop_loss",
    "price": 114.51,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 09:47",
    "created_ts": 1794408421,
    "why": "close it all at -1.1% under the average cost",
@@ -7439,7 +7404,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 09:49",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0b5ca9c2",
@@ -7465,9 +7432,47 @@
    "ticker": "ENOV",
    "kind": "stop_loss",
    "price": 28.298,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 09:47",
    "created_ts": 1794408462,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $28.04",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-16",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 09:49",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "1b365ab3",
+   "ticker": "ENOV",
+   "kind": "stop_loss",
+   "price": 28.37,
+   "status": "cancelled",
+   "created": "2026-11-11 09:49",
+   "created_ts": 1794408552,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $28.04",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-16",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 09:49",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "6dd5a66f",
+   "ticker": "ENOV",
+   "kind": "stop_loss",
+   "price": 28.472,
+   "status": "working",
+   "created": "2026-11-11 09:49",
+   "created_ts": 1794408598,
    "why": "close it all at -1.8% under the average cost",
    "evidence": "average cost $28.04",
    "signals": [
@@ -7478,5 +7483,5 @@
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-11 09:48"
+ "updated": "2026-11-11 09:49"
 }
