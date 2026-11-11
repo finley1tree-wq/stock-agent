@@ -68345,3 +68345,24 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 FUN @ $10.77 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25582.15 (+2.33% on $25000.00 in) · cash $20339.90 · realised +589.90
 Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $19823.48 this week
+
+## 2026-11-11 10:37 ET (Wednesday) — week 2026-W46 — budget left $19823.48 (today $23250.00 put to work, 10 buys, 6 sells) — SIM (pretend money) via sim
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
+  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwPWrJpSVdN5ZwsvzeRY'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $19,823 idle, so opened 2: ENOV, EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ENOV [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +48.3% over the month; 36% of today's range
+- BUY $750.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +13.0% over the month; 8% of today's range
+~ WORKING take_profit 100% ENOV @ $28.39 until 2026-11-16 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% ENOV @ $27.66 until 2026-11-16 — close it all at -1.8% under the average cost
+~ WORKING buy_limit $500.00 ENOV @ $27.33 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% EL @ $113.23 until 2026-11-16 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% EL @ $111.47 until 2026-11-16 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 EL @ $109.35 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25587.89 (+2.35% on $25000.00 in) · cash $18839.90 · realised +589.90
+Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $18323.48 this week
