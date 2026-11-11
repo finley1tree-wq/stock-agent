@@ -1,7 +1,7 @@
 {
   "week": "2026-W46",
-  "spent": 14988.63,
-  "deployed": 56250.0,
+  "spent": 17988.63,
+  "deployed": 59250.0,
   "by_ticker": {
     "ESAB": 1.46,
     "CRH": 29.78,
@@ -9,7 +9,8 @@
     "RPM": 3004.24,
     "EL": 3000.0,
     "NFRX": 3000.0,
-    "FUN": 3000.0
+    "FUN": 3000.0,
+    "ENOV": 3000.0
   },
   "deployed_by_ticker": {
     "ESAB": 11250.0,
@@ -20,7 +21,8 @@
     "CRH": 5250.0,
     "ECHO": 3000.0,
     "NFRX": 3000.0,
-    "FUN": 3000.0
+    "FUN": 3000.0,
+    "ENOV": 3000.0
   },
   "orders": [
     {
@@ -1268,12 +1270,32 @@
       "evidence": "insider net buying (Form 4); +7.8% over the month; 46% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ENOV",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 106.98539,
+      "price": 28.04,
+      "date": "2026-11-11",
+      "time_et": "09:45",
+      "ts": 1794408335,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +47.6% over the month; 56% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-11",
-  "spent_today": 14960.29,
-  "deployed_today": 18000.0,
-  "orders_today": 6,
+  "spent_today": 17960.29,
+  "deployed_today": 21000.0,
+  "orders_today": 7,
   "sells_today": 1,
   "sold_today": [
     "ESAB"
@@ -1287,8 +1309,8 @@
     "CRH": 1794337610,
     "ECHO": 1794322507
   },
-  "last_publish_ts": 1794408029,
-  "last_check_ts": 1794408247,
+  "last_publish_ts": 1794408335,
+  "last_check_ts": 1794408335,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -1324,27 +1346,37 @@
         "ratchet": "on"
       },
       "tags": {}
+    },
+    "ENOV": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
     }
   },
-  "last_bar_ts": 1794408000,
-  "last_decision_ts": 1794408155,
-  "next_check_minutes": null,
+  "last_bar_ts": 1794408300,
+  "last_decision_ts": 1794408335,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "c256d9aa": 26.5847,
+    "d8dd9c4b": 262.8223,
     "d36e8168": 26.71,
+    "038d5137": 114.7926,
     "0e91183b": 106.1037,
     "e15fcfba": 104.8296,
-    "d8dd9c4b": 262.8223,
-    "038d5137": 114.7926,
+    "e8745fdb": 28.2413,
     "8de04036": 113.069,
     "ebeac3e2": 11.0979,
-    "8c93eaa6": 267.9711,
     "6ad1ab2c": 10.7902,
+    "98c3205a": 27.5364,
+    "8c93eaa6": 267.9711,
     "e89f7557": 258.505,
-    "032b517a": 110.871,
+    "db4e4017": 10.6797,
     "4570aa3e": 25.8699,
     "85a16295": 102.5678,
-    "db4e4017": 10.6797
+    "032b517a": 110.871,
+    "9de38b8e": 27.1988
   }
 }
