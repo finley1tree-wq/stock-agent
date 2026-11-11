@@ -1,11 +1,11 @@
 {
   "week": "2026-W46",
-  "spent": 4407.5,
+  "spent": 3657.68,
   "deployed": 63750.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 48.93,
-    "RPM": 762.33,
+    "RPM": 12.51,
     "NFRX": 3000.0,
     "EL": 750.0
   },
@@ -1596,13 +1596,34 @@
       ],
       "evidence": "average cost $86.55",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RPM",
+      "side": "sell",
+      "qty": 7.112904,
+      "status": "filled",
+      "price": 105.42,
+      "proceeds": 749.82,
+      "realized_pnl": -0.18,
+      "realized_pct": -0.02,
+      "date": "2026-11-11",
+      "time_et": "11:05",
+      "ts": 1794413100,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $105.44",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-11",
-  "spent_today": 4379.16,
+  "spent_today": 3629.34,
   "deployed_today": 25500.0,
   "orders_today": 13,
-  "sells_today": 10,
+  "sells_today": 11,
   "sold_today": [
     "ESAB",
     "FUN",
@@ -1614,7 +1635,7 @@
   "sold_ts": {
     "ESAB": 1794412419,
     "EL": 1794408598,
-    "RPM": 1794409209,
+    "RPM": 1794413139,
     "PLD": 1794240790,
     "NXPI": 1794411610,
     "CRH": 1794337610,
@@ -1622,8 +1643,8 @@
     "FUN": 1794411519,
     "ENOV": 1794411772
   },
-  "last_publish_ts": 1794412910,
-  "last_check_ts": 1794413101,
+  "last_publish_ts": 1794413138,
+  "last_check_ts": 1794413187,
   "exp_arm": {
     "NFRX": {
       "params": {
@@ -1655,18 +1676,15 @@
     }
   },
   "last_bar_ts": 1794413100,
-  "last_decision_ts": 1794412999,
+  "last_decision_ts": 1794413187,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "c256d9aa": 26.5847,
-    "16819292": 105.554,
-    "f029fa5d": 105.8059,
-    "d36e8168": 26.71,
     "2a7fa2e6": 113.235,
+    "d36e8168": 26.71,
     "f96abd3f": 111.4674,
     "4570aa3e": 25.8699,
-    "e572dcb4": 109.3481,
-    "514fa9fc": 102.2768
+    "e572dcb4": 109.3481
   }
 }
