@@ -1,37 +1,3 @@
-- BUY $750.00 ESAB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +29.4% over the month; 10% of today's range
-~ WORKING take_profit 100% ESAB @ $87.05 until 2026-11-16 — close 100% at +0.6% over the average cost
-~ WORKING stop_loss 100% ESAB @ $85.29 until 2026-11-16 — close it all at -1.5% under the average cost
-~ WORKING buy_limit $500.00 ESAB @ $83.95 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25582.12 (+2.33% on $25000.00 in) · cash $21839.90 · realised +589.90
-Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $21323.48 this week
-
-## 2026-11-11 10:25 ET (Wednesday) — week 2026-W46 — budget left $21323.48 (today $21750.00 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
-  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
-  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwNdzxnqnmcAuzNR3SEJ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25580.99 (+2.32% on $25000.00 in) · cash $21839.90 · realised +589.90
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-11 10:28 ET (Wednesday) — week 2026-W46 — budget left $21323.48 (today $21750.00 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
-  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
-  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwNrbgSTa2ZPkomLdjDy'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25581.42 (+2.33% on $25000.00 in) · cash $21839.90 · realised +589.90
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-11-11 10:31 ET (Wednesday) — week 2026-W46 — budget left $21323.48 (today $21750.00 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
   (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
@@ -398,3 +364,37 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25587.72 (+2.35% on $25000.00 in) · cash $23344.60 · realised +594.60
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-11 11:38 ET (Wednesday) — week 2026-W46 — budget left $22828.17 (today $27750.00 put to work, 16 buys, 13 sells) — SIM (pretend money) via sim
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
+  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwUBh22A25X5fngkamXr'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25587.88 (+2.35% on $25000.00 in) · cash $23344.60 · realised +594.60
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on NXPI: position closed)
+- SELL 100% NXPI [stop_loss @ $269.93] -> $750.80 (+0.11%) — close it all at -1.4% under the average cost
+## 2026-11-11 11:41 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-11 11:41 ET (Wednesday) — week 2026-W46 — budget left $23578.97 (today $27750.00 put to work, 16 buys, 14 sells) — SIM (pretend money) via sim
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
+  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwUQH3jLVJR4DUU72Ta4'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $23,579 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ESAB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +29.8% over the month; 26% of today's range
+~ WORKING take_profit 100% ESAB @ $87.32 until 2026-11-16 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% ESAB @ $85.56 until 2026-11-16 — close it all at -1.5% under the average cost
+~ WORKING buy_limit $500.00 ESAB @ $84.22 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25584.12 (+2.34% on $25000.00 in) · cash $23345.40 · realised +595.40
+Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $22828.97 this week

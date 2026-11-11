@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "61552a4a",
-   "ticker": "WSM",
-   "kind": "stop_loss",
-   "price": 268.552,
-   "status": "filled",
-   "created": "2026-11-04 13:02",
-   "created_ts": 1793815354,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $268.15",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 13:12"
-  },
-  {
-   "id": "e2fefc5b",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 113.045,
-   "status": "filled",
-   "created": "2026-11-04 13:04",
-   "created_ts": 1793815445,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $112.57",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 13:40"
-  },
-  {
-   "id": "beaa183c",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 111.3835,
-   "status": "cancelled",
-   "created": "2026-11-04 13:04",
-   "created_ts": 1793815445,
-   "why": "close it all at -1.1% under the average cost",
-   "evidence": "average cost $112.57",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 13:32",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "bebe1bcd",
    "ticker": "EL",
    "kind": "buy_limit",
@@ -7417,7 +7362,7 @@
    "ticker": "NXPI",
    "kind": "take_profit",
    "price": 271.1419,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 11:32",
    "created_ts": 1794414748,
    "why": "close 100% at +0.6% over the average cost",
@@ -7427,7 +7372,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 11:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "cbdb043e",
@@ -7453,7 +7400,7 @@
    "ticker": "NXPI",
    "kind": "buy_limit",
    "price": 261.5508,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 11:32",
    "created_ts": 1794414748,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7463,14 +7410,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-11 11:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c3384664",
    "ticker": "NXPI",
    "kind": "stop_loss",
    "price": 270.126,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-11 11:36",
    "created_ts": 1794414966,
    "why": "close it all at -1.4% under the average cost",
@@ -7480,8 +7429,60 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 11:41"
+  },
+  {
+   "id": "9bbf4263",
+   "ticker": "ESAB",
+   "kind": "take_profit",
+   "price": 87.3244,
+   "status": "working",
+   "created": "2026-11-11 11:41",
+   "created_ts": 1794415270,
+   "why": "close 100% at +0.6% over the average cost",
+   "evidence": "average cost $86.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-16",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "eb5f4746",
+   "ticker": "ESAB",
+   "kind": "stop_loss",
+   "price": 85.5594,
+   "status": "working",
+   "created": "2026-11-11 11:41",
+   "created_ts": 1794415270,
+   "why": "close it all at -1.5% under the average cost",
+   "evidence": "average cost $86.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "e75cc2b5",
+   "ticker": "ESAB",
+   "kind": "buy_limit",
+   "price": 84.2154,
+   "status": "working",
+   "created": "2026-11-11 11:41",
+   "created_ts": 1794415270,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $86.82",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-16",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-11 11:38"
+ "updated": "2026-11-11 11:41"
 }
