@@ -1,11 +1,11 @@
 {
   "week": "2026-W46",
-  "spent": 2175.48,
+  "spent": 1421.28,
   "deployed": 71250.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 798.13,
-    "RPM": 758.94,
+    "RPM": 4.74,
     "NFRX": 14.96,
     "FUN": 9.33,
     "ESAB": 0.86,
@@ -2006,13 +2006,34 @@
       "evidence": "congress net buying (2 net buyers): Gilbert Ray Cisneros; +20.4% over the month; 85% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "RPM",
+      "side": "sell",
+      "qty": 7.091375,
+      "status": "filled",
+      "price": 106.36,
+      "proceeds": 754.2,
+      "realized_pnl": 4.2,
+      "realized_pct": 0.56,
+      "date": "2026-11-11",
+      "time_et": "14:30",
+      "ts": 1794425400,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $105.76",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-11",
-  "spent_today": 2147.14,
+  "spent_today": 1392.94,
   "deployed_today": 33000.0,
   "orders_today": 23,
-  "sells_today": 20,
+  "sells_today": 21,
   "sold_today": [
     "ESAB",
     "FUN",
@@ -2025,7 +2046,7 @@
   "sold_ts": {
     "ESAB": 1794422453,
     "EL": 1794414184,
-    "RPM": 1794418005,
+    "RPM": 1794425450,
     "PLD": 1794240790,
     "NXPI": 1794415268,
     "CRH": 1794337610,
@@ -2034,8 +2055,8 @@
     "ENOV": 1794422539,
     "NFRX": 1794414794
   },
-  "last_publish_ts": 1794425410,
-  "last_check_ts": 1794425410,
+  "last_publish_ts": 1794425449,
+  "last_check_ts": 1794425497,
   "exp_arm": {
     "EL": {
       "params": {
@@ -2060,14 +2081,12 @@
     }
   },
   "last_bar_ts": 1794425400,
-  "last_decision_ts": 1794425322,
+  "last_decision_ts": 1794425497,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "4d489cca": 106.127,
     "28764730": 113.0062,
     "7d8e33da": 268.6303,
-    "0357946a": 104.842,
     "fbac647f": 273.9784,
     "902509c6": 111.2332
   }

@@ -1,6 +1,3 @@
-~ WORKING take_profit 100% RPM @ $106.13 until 2026-11-16 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% RPM @ $104.84 until 2026-11-16 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 RPM @ $102.59 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25590.55 (+2.36% on $25000.00 in) · cash $22590.02 · realised +590.02
 Done: 1 sell(s), 1 buy(s) (incl. 1 from standing orders); 12 order(s) working; budget left $22073.59 this week
 
@@ -398,3 +395,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25587.84 (+2.35% on $25000.00 in) · cash $23340.95 · realised +590.95
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on RPM: position closed)
+- SELL 100% RPM [take_profit @ $106.36] -> $754.20 (+0.56%) — close 100% at +0.3% over the average cost
+## 2026-11-11 14:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
