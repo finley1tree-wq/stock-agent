@@ -1,12 +1,12 @@
 {
   "week": "2026-W46",
-  "spent": 5918.43,
+  "spent": 2926.52,
   "deployed": 59250.0,
   "by_ticker": {
     "ESAB": 1.46,
     "CRH": 29.78,
     "NXPI": 49.67,
-    "RPM": 3004.24,
+    "RPM": 12.33,
     "NFRX": 3000.0
   },
   "deployed_by_ticker": {
@@ -1371,24 +1371,46 @@
       ],
       "evidence": "average cost $28.04",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RPM",
+      "side": "sell",
+      "qty": 28.370865,
+      "status": "filled",
+      "price": 105.46,
+      "proceeds": 2991.91,
+      "realized_pnl": -8.09,
+      "realized_pct": -0.27,
+      "date": "2026-11-11",
+      "time_et": "10:00",
+      "ts": 1794409200,
+      "why": "close it all at -0.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $105.74",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-11",
-  "spent_today": 5890.09,
+  "spent_today": 2898.18,
   "deployed_today": 21000.0,
   "orders_today": 7,
-  "sells_today": 5,
+  "sells_today": 6,
   "sold_today": [
     "ESAB",
     "FUN",
     "NXPI",
     "EL",
-    "ENOV"
+    "ENOV",
+    "RPM"
   ],
   "sold_ts": {
     "ESAB": 1794407743,
     "EL": 1794408598,
-    "RPM": 1794341104,
+    "RPM": 1794409209,
     "PLD": 1794240790,
     "NXPI": 1794408508,
     "CRH": 1794337610,
@@ -1396,8 +1418,8 @@
     "FUN": 1794408462,
     "ENOV": 1794408630
   },
-  "last_publish_ts": 1794409073,
-  "last_check_ts": 1794409120,
+  "last_publish_ts": 1794409209,
+  "last_check_ts": 1794409209,
   "exp_arm": {
     "NXPI": {
       "params": {
@@ -1442,16 +1464,13 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1794408900,
+  "last_bar_ts": 1794409200,
   "last_decision_ts": 1794409120,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "c256d9aa": 26.5847,
-    "25b57f84": 105.89,
-    "0e91183b": 106.1037,
     "d36e8168": 26.71,
-    "4570aa3e": 25.8699,
-    "85a16295": 102.5678
+    "4570aa3e": 25.8699
   }
 }
