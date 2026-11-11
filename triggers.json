@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "70a9b11f",
-   "ticker": "PLD",
-   "kind": "take_profit",
-   "price": 129.0753,
-   "status": "cancelled",
-   "created": "2026-11-04 11:08",
-   "created_ts": 1793808530,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $128.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 11:18",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "742e561f",
-   "ticker": "PLD",
-   "kind": "stop_loss",
-   "price": 128.1453,
-   "status": "filled",
-   "created": "2026-11-04 11:08",
-   "created_ts": 1793808530,
-   "why": "close it all at -0.5% under the average cost",
-   "evidence": "average cost $128.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 11:18"
-  },
-  {
-   "id": "d0a553e5",
-   "ticker": "PLD",
-   "kind": "buy_limit",
-   "price": 124.9457,
-   "status": "cancelled",
-   "created": "2026-11-04 11:08",
-   "created_ts": 1793808530,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $128.81",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "usd": 500.0,
-   "closed": "2026-11-04 11:18",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "b2b7d8b1",
    "ticker": "EL",
    "kind": "take_profit",
@@ -7213,7 +7157,7 @@
    "ticker": "EL",
    "kind": "stop_loss",
    "price": 113.069,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 09:32",
    "created_ts": 1794407558,
    "why": "close it all at -1.1% under the average cost",
@@ -7223,7 +7167,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 09:47",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "032b517a",
@@ -7385,7 +7331,7 @@
    "ticker": "FUN",
    "kind": "stop_loss",
    "price": 10.7902,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 09:40",
    "created_ts": 1794408029,
    "why": "close it all at -2.0% under the average cost",
@@ -7395,7 +7341,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 09:47",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "db4e4017",
@@ -7436,7 +7384,7 @@
    "ticker": "ENOV",
    "kind": "stop_loss",
    "price": 27.5364,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 09:45",
    "created_ts": 1794408335,
    "why": "close it all at -1.8% under the average cost",
@@ -7446,7 +7394,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 09:46",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "9de38b8e",
@@ -7464,7 +7414,58 @@
    ],
    "good_until": "2026-11-16",
    "usd": 500.0
+  },
+  {
+   "id": "45ca5792",
+   "ticker": "ENOV",
+   "kind": "stop_loss",
+   "price": 28.232,
+   "status": "working",
+   "created": "2026-11-11 09:46",
+   "created_ts": 1794408374,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $28.04",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9f31b690",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 114.51,
+   "status": "working",
+   "created": "2026-11-11 09:47",
+   "created_ts": 1794408421,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $114.3",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "0b5ca9c2",
+   "ticker": "FUN",
+   "kind": "stop_loss",
+   "price": 11.04,
+   "status": "working",
+   "created": "2026-11-11 09:47",
+   "created_ts": 1794408421,
+   "why": "close it all at -2.0% under the average cost",
+   "evidence": "average cost $11.01",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-16",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-11 09:45"
+ "updated": "2026-11-11 09:47"
 }
