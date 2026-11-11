@@ -97558,7 +97558,9 @@
     "code_version": "ce133ed",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.38
+    "ret_now": 0.11,
+    "ret_final": 0.11,
+    "ret_src": "realised"
   },
   {
     "symbol": "FUN",
@@ -97725,5 +97727,60 @@
     "hour_et": 11,
     "code_version": "e7eb9cf",
     "hold_minutes": 19
+  },
+  {
+    "symbol": "EL",
+    "side": "sell",
+    "qty": 6.653356,
+    "status": "filled",
+    "price": 112.85,
+    "proceeds": 750.81,
+    "realized_pnl": 0.81,
+    "realized_pct": 0.11,
+    "date": "2026-11-11",
+    "time_et": "11:23",
+    "ts": 1794414000,
+    "why": "close it all at -1.1% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $112.73",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "a2ca06b",
+    "hold_minutes": 42
+  },
+  {
+    "symbol": "FUN",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 67.965583,
+    "price": 11.03,
+    "date": "2026-11-11",
+    "time_et": "11:23",
+    "ts": 1794414232,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "insider net buying (Form 4); +8.1% over the month; 56% of today's range",
+    "experiments": {},
+    "hold_minutes": 120,
+    "entry_price": 11.03,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 8.14,
+    "hour_et": 11,
+    "code_version": "a2ca06b",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
