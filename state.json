@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 5169.5,
+  "spent": 4411.82,
   "deployed": 63000.0,
   "by_ticker": {
     "ESAB": 751.46,
@@ -8,7 +8,6 @@
     "NXPI": 48.93,
     "RPM": 12.33,
     "NFRX": 3000.0,
-    "ENOV": 750.0,
     "EL": 750.0
   },
   "deployed_by_ticker": {
@@ -1536,13 +1535,34 @@
       ],
       "evidence": "average cost $267.03",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ENOV",
+      "side": "sell",
+      "qty": 26.613423,
+      "status": "filled",
+      "price": 28.47,
+      "proceeds": 757.68,
+      "realized_pnl": 7.68,
+      "realized_pct": 1.02,
+      "date": "2026-11-11",
+      "time_et": "10:42",
+      "ts": 1794411600,
+      "why": "close 100% at +0.7% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $28.18",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-11",
-  "spent_today": 5141.16,
+  "spent_today": 4383.48,
   "deployed_today": 24750.0,
   "orders_today": 12,
-  "sells_today": 8,
+  "sells_today": 9,
   "sold_today": [
     "ESAB",
     "FUN",
@@ -1560,10 +1580,10 @@
     "CRH": 1794337610,
     "ECHO": 1794322507,
     "FUN": 1794411519,
-    "ENOV": 1794408630
+    "ENOV": 1794411772
   },
-  "last_publish_ts": 1794411604,
-  "last_check_ts": 1794411694,
+  "last_publish_ts": 1794411772,
+  "last_check_ts": 1794411774,
   "exp_arm": {
     "NFRX": {
       "params": {
@@ -1609,20 +1629,17 @@
     }
   },
   "last_bar_ts": 1794411600,
-  "last_decision_ts": 1794411604,
+  "last_decision_ts": 1794411774,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "c256d9aa": 26.5847,
-    "d36e8168": 26.71,
     "2a7fa2e6": 113.235,
+    "d36e8168": 26.71,
     "e71077c6": 87.0537,
-    "2422fb52": 28.3866,
     "f96abd3f": 111.4674,
     "ec37cece": 85.2907,
-    "10daad15": 27.6635,
     "4570aa3e": 25.8699,
-    "0e46bebc": 27.3346,
     "fc86b5a9": 83.9535,
     "e572dcb4": 109.3481
   }

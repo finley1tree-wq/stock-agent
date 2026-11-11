@@ -1,6 +1,3 @@
-- BUY $3000.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +17.7% over the month; 69% of today's range
-- BUY $3000.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +14.6% over the month; 80% of today's range
-- BUY $3000.00 NFRX [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +5.5% over the month; 84% of today's range
 ~ WORKING take_profit 100% ESAB @ $87.03 until 2026-11-16 — close 100% at +0.6% over the average cost
 ~ WORKING stop_loss 100% ESAB @ $85.28 until 2026-11-16 — close it all at -1.4% under the average cost
 ~ WORKING buy_limit $500.00 ESAB @ $83.93 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +395,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25585.77 (+2.34% on $25000.00 in) · cash $20346.92 · realised +596.92
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 12 order(s) working; budget left $19830.50 this week
+  (cancelled 2 standing order(s) on ENOV: position closed)
+- SELL 100% ENOV [take_profit @ $28.47] -> $757.68 (+1.02%) — close 100% at +0.7% over the average cost
+## 2026-11-11 10:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
