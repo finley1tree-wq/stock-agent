@@ -68366,3 +68366,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 EL @ $109.35 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25587.89 (+2.35% on $25000.00 in) · cash $18839.90 · realised +589.90
 Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $18323.48 this week
+  (cancelled 2 standing order(s) on FUN: position closed)
+- SELL 100% FUN [take_profit @ $11.19] -> $756.28 (+0.84%) — close 100% at +0.8% over the average cost
+## 2026-11-11 10:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
