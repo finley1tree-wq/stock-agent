@@ -1,5 +1,5 @@
 {
-  "cash": 22583.678338154274,
+  "cash": 22590.018268401913,
   "deposited": 25000.0,
   "created": "2026-09-06",
   "last_deposit_week": "2026-W46",
@@ -22,15 +22,6 @@
       "last_buy_ts": 1794420063,
       "opened_ts": 1794420063
     },
-    "FUN": {
-      "qty": 68.02719237355309,
-      "avg_cost": 11.025003,
-      "opened": "2026-11-11",
-      "last_buy": "2026-11-11",
-      "tranches": 1,
-      "last_buy_ts": 1794420063,
-      "opened_ts": 1794420063
-    },
     "ENOV": {
       "qty": 26.222459599580944,
       "avg_cost": 28.601436,
@@ -39,6 +30,15 @@
       "tranches": 1,
       "last_buy_ts": 1794420245,
       "opened_ts": 1794420245
+    },
+    "RPM": {
+      "qty": 7.091374573893485,
+      "avg_cost": 105.762288,
+      "opened": "2026-11-11",
+      "last_buy": "2026-11-11",
+      "tranches": 1,
+      "last_buy_ts": 1794420769,
+      "opened_ts": 1794420769
     }
   },
   "fills": [
@@ -38250,7 +38250,29 @@
       "price": 28.6,
       "type": "buy",
       "date": "2026-11-11 13:04"
+    },
+    {
+      "symbol": "FUN",
+      "side": "sell",
+      "qty": 68.027192,
+      "status": "filled",
+      "price": 11.12,
+      "proceeds": 756.34,
+      "realized_pnl": 6.34,
+      "realized_pct": 0.85,
+      "type": "sell",
+      "date": "2026-11-11 13:12"
+    },
+    {
+      "symbol": "RPM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.091375,
+      "price": 105.76,
+      "type": "buy",
+      "date": "2026-11-11 13:12"
     }
   ],
-  "realized_pnl": 583.6783381542947
+  "realized_pnl": 590.0182684019327
 }

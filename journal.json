@@ -97930,7 +97930,7 @@
     "code_version": "f3504e2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01
+    "ret_now": 0.23
   },
   {
     "symbol": "RPM",
@@ -98071,7 +98071,7 @@
     "code_version": "41cff99",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": 0.04
   },
   {
     "symbol": "FUN",
@@ -98100,7 +98100,9 @@
     "code_version": "41cff99",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.36
+    "ret_now": 0.85,
+    "ret_final": 0.85,
+    "ret_src": "realised"
   },
   {
     "symbol": "ENOV",
@@ -98129,6 +98131,61 @@
     "code_version": "34b5fad",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.07
+    "ret_now": -0.03
+  },
+  {
+    "symbol": "FUN",
+    "side": "sell",
+    "qty": 68.027192,
+    "status": "filled",
+    "price": 11.12,
+    "proceeds": 756.34,
+    "realized_pnl": 6.34,
+    "realized_pct": 0.85,
+    "date": "2026-11-11",
+    "time_et": "13:12",
+    "ts": 1794420600,
+    "why": "close 100% at +0.8% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $11.03",
+    "trigger": "take_profit",
+    "hour_et": 13,
+    "code_version": "69651fa",
+    "hold_minutes": 9
+  },
+  {
+    "symbol": "RPM",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 7.091375,
+    "price": 105.76,
+    "date": "2026-11-11",
+    "time_et": "13:12",
+    "ts": 1794420757,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +7.4% over the month; 59% of today's range",
+    "experiments": {},
+    "hold_minutes": 120,
+    "entry_price": 105.72,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 7.4,
+    "hour_et": 13,
+    "code_version": "69651fa",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
