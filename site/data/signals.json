@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-11T11:05-05:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-11-11T11:17-05:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -195,6 +195,23 @@
    ]
   },
   {
+   "id": "3caee2fb",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 112.904,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 113.02,
+   "pct_away": -0.1,
+   "good_until": "2026-11-16",
+   "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "2a7fa2e6",
    "ticker": "EL",
    "kind": "take_profit",
@@ -202,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 112.86,
-   "pct_away": 0.33,
+   "last": 113.02,
+   "pct_away": 0.19,
    "good_until": "2026-11-16",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -223,23 +240,6 @@
    "pct_away": 0.41,
    "good_until": "2026-11-16",
    "why": "close 100% at +0.1% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f96abd3f",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 111.4674,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 112.86,
-   "pct_away": -1.23,
-   "good_until": "2026-11-16",
-   "why": "close it all at -1.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,8 +270,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 112.86,
-   "pct_away": -3.11,
+   "last": 113.02,
+   "pct_away": -3.25,
    "good_until": "2026-11-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

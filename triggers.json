@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "8fc7453d",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 109.4937,
-   "status": "cancelled",
-   "created": "2026-11-04 13:00",
-   "created_ts": 1793815257,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $110.3",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 15:01",
-   "cancel_reason": "time stop closed the position"
-  },
-  {
    "id": "ba9fdf74",
    "ticker": "RPM",
    "kind": "buy_limit",
@@ -7364,7 +7345,7 @@
    "ticker": "EL",
    "kind": "stop_loss",
    "price": 111.4674,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 10:37",
    "created_ts": 1794411425,
    "why": "close it all at -1.1% under the average cost",
@@ -7374,7 +7355,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 11:17",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "e572dcb4",
@@ -7486,7 +7469,24 @@
    "good_until": "2026-11-16",
    "pct_of_position": 100.0,
    "closed": "2026-11-11 11:05"
+  },
+  {
+   "id": "3caee2fb",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 112.904,
+   "status": "working",
+   "created": "2026-11-11 11:17",
+   "created_ts": 1794413834,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $112.73",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-16",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-11 11:15"
+ "updated": "2026-11-11 11:18"
 }
