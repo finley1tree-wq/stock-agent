@@ -69352,3 +69352,17 @@ Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 9 order(s) working; bu
   (cancelled 2 standing order(s) on ENOV: position closed)
 - SELL 100% ENOV [stop_loss @ $28.67] -> $751.79 (+0.24%) — close it all at -1.8% under the average cost
 ## 2026-11-11 13:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-11 13:43 ET (Wednesday) — week 2026-W46 — budget left $23574.52 (today $32250.00 put to work, 22 buys, 20 sells) — SIM (pretend money) via sim
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
+  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwdkBtHVB2MmTGpc4dvq'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25589.94 (+2.36% on $25000.00 in) · cash $24090.95 · realised +590.95
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
