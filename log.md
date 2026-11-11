@@ -68660,3 +68660,5 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 NXPI @ $261.55 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25596.73 (+2.39% on $25000.00 in) · cash $20359.56 · realised +609.56
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $19843.13 this week
+- SELL 100% NFRX [time stop] -> $2985.04 (-0.50%) — held 120 min, the 120-minute limit: out regardless
+## 2026-11-11 11:33 ET — tick — 1 sell(s), 0 buy(s) from standing orders
