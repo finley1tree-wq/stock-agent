@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-11T10:22-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $22,073 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-11-11T10:34-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $21,323 idle, so opened 2: NXPI, FUN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -219,10 +219,61 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 86.52,
-   "pct_away": 0.62,
+   "last": 86.58,
+   "pct_away": 0.55,
    "good_until": "2026-11-16",
    "why": "close 100% at +0.6% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b8969fe9",
+   "ticker": "NXPI",
+   "kind": "take_profit",
+   "price": 268.5174,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 266.98,
+   "pct_away": 0.58,
+   "good_until": "2026-11-16",
+   "why": "close 100% at +0.6% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "5a5045b2",
+   "ticker": "FUN",
+   "kind": "take_profit",
+   "price": 11.1879,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 11.09,
+   "pct_away": 0.88,
+   "good_until": "2026-11-16",
+   "why": "close 100% at +0.8% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e52e9942",
+   "ticker": "NXPI",
+   "kind": "stop_loss",
+   "price": 263.3156,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 266.98,
+   "pct_away": -1.37,
+   "good_until": "2026-11-16",
+   "why": "close it all at -1.4% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,10 +287,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 86.52,
-   "pct_away": -1.42,
+   "last": 86.58,
+   "pct_away": -1.49,
    "good_until": "2026-11-16",
    "why": "close it all at -1.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "25401fb0",
+   "ticker": "FUN",
+   "kind": "stop_loss",
+   "price": 10.8803,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 11.09,
+   "pct_away": -1.89,
+   "good_until": "2026-11-16",
+   "why": "close it all at -2.0% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -263,6 +331,40 @@
    ]
   },
   {
+   "id": "b7f588e7",
+   "ticker": "FUN",
+   "kind": "buy_limit",
+   "price": 10.767,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 11.09,
+   "pct_away": -2.91,
+   "good_until": "2026-11-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "b9cda195",
+   "ticker": "NXPI",
+   "kind": "buy_limit",
+   "price": 259.0191,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 266.98,
+   "pct_away": -2.98,
+   "good_until": "2026-11-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "fc86b5a9",
    "ticker": "ESAB",
    "kind": "buy_limit",
@@ -270,8 +372,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 86.52,
-   "pct_away": -2.97,
+   "last": 86.58,
+   "pct_away": -3.03,
    "good_until": "2026-11-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -280,7 +382,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $22,073 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $21,323 idle, so opened 2: NXPI, FUN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -347,13 +449,13 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 381,
+  "decisions_graded": 377,
   "decisions_with_buys_graded": 33,
   "independent_days_graded": 4,
   "avg_regret_pct": 0.23,
   "chosen_avg_pct": 0.83,
   "skipped_avg_pct": 1.06,
-  "idle_universe_avg_pct": 0.82,
+  "idle_universe_avg_pct": 0.83,
   "picking_beats_random": false,
   "avg_fraction_of_universe_bought": 0.0,
   "checks_that_bought_everything": 0,
@@ -1985,14 +2087,14 @@
  "headlines": {
   "AAPL": [
    {
+    "title": "3 Artificial Intelligence (AI) Stocks to Buy on the Post-Election Dip and Hold for 5 Years",
+    "source": "Motley Fool",
+    "when": "2026-11-11T15:21"
+   },
+   {
     "title": "Apple Slides 4% as Ternus Calls Memory Pricing \u201cUnprecedented\u201d Despite a Record $114.5 Billion Quarter",
     "source": "TIKR",
     "when": "2026-11-11T14:50"
-   },
-   {
-    "title": "Stock Market Today: Nasdaq Jumps As CoreWeave Surges On Earnings; Nvidia Rallies (Live Coverage)",
-    "source": "Investor's Business Daily",
-    "when": "2026-11-11T14:44"
    },
    {
     "title": "How Much Capital Gains Tax Does a 61-Year-Old Owe on $750,000 of Inherited Apple Stock?",
@@ -2024,26 +2126,26 @@
     "when": "2026-11-10T16:53"
    },
    {
-    "title": "AMD Price Prediction: AI Boom and Record Revenue Set the Stage for Another Monster Rally",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-11T15:03"
+    "title": "Supermicro Begins Shipping New AMD-Powered AI Servers \u2014 Claims Up To 1.8x Higher AI Throughput",
+    "source": "Stocktwits",
+    "when": "2026-11-11T15:28"
    },
    {
-    "title": "AMD Rises 4% as CoreWeave\u2019s Raised Outlook Revives the AI Chip Trade",
-    "source": "TIKR",
-    "when": "2026-11-11T15:00"
+    "title": "Wall Street is pricing in two big risks for Nvidia",
+    "source": "Yahoo Finance Video",
+    "when": "2026-11-11T15:24"
    }
   ],
   "AMZN": [
    {
-    "title": "Amazon To Launch Accelerator Program For Companies With Innovative Low-Carbon Tech",
-    "source": "Sourcing Journal",
-    "when": "2026-11-11T15:00"
+    "title": "Is Wall Street too optimistic about Big Tech?",
+    "source": "Yahoo Finance Video",
+    "when": "2026-11-11T15:29"
    },
    {
-    "title": "Stock Market Today: Nasdaq Jumps As CoreWeave Surges On Earnings; Nvidia Rallies (Live Coverage)",
-    "source": "Investor's Business Daily",
-    "when": "2026-11-11T14:44"
+    "title": "Amazon to Launch Accelerator Program For Companies With Innovative Low-Carbon Tech",
+    "source": "Sourcing Journal",
+    "when": "2026-11-11T15:00"
    },
    {
     "title": "Why Alphabet and Amazon Will Always Need Nvidia",
@@ -2075,14 +2177,14 @@
     "when": "2026-11-10T16:53"
    },
    {
-    "title": "NVIDIA Rises 4% Despite Baird Downgrade and Huang Uncertainty; AMD Climbs 5%, Broadcom Gains 4%",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-11T14:05"
+    "title": "Tech rises as CoreWeave results reignite AI trade: AlphaCheck",
+    "source": "Yahoo Finance",
+    "when": "2026-11-11T15:33"
    },
    {
-    "title": "MU, AMD, AVGO, Other Chip Stocks Surge As CoreWeave Earnings Reignite AI Trade \u2014 Nasdaq-100 Futures Jump",
-    "source": "Stocktwits",
-    "when": "2026-11-11T13:41"
+    "title": "Stocks to Watch: CoreWeave, Nvidia, TSMC",
+    "source": "The Wall Street Journal",
+    "when": "2026-11-11T14:37"
    }
   ],
   "BHE": [
@@ -2274,6 +2376,11 @@
   ],
   "GOOGL": [
    {
+    "title": "3 Artificial Intelligence (AI) Stocks to Buy on the Post-Election Dip and Hold for 5 Years",
+    "source": "Motley Fool",
+    "when": "2026-11-11T15:21"
+   },
+   {
     "title": "UK-backed AI chip startup Fractile hits $7 billion valuation in funding round",
     "source": "Reuters",
     "when": "2026-11-11T14:51"
@@ -2282,11 +2389,6 @@
     "title": "Apple Slides 4% as Ternus Calls Memory Pricing \u201cUnprecedented\u201d Despite a Record $114.5 Billion Quarter",
     "source": "TIKR",
     "when": "2026-11-11T14:50"
-   },
-   {
-    "title": "How Much Is Tesla\u2019s Robotaxi Actually Worth?",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-11T14:20"
    }
   ],
   "HD": [
@@ -2376,19 +2478,19 @@
   ],
   "META": [
    {
+    "title": "Is Wall Street too optimistic about Big Tech?",
+    "source": "Yahoo Finance Video",
+    "when": "2026-11-11T15:29"
+   },
+   {
+    "title": "Meta's 10-cent AI model raises a big question for business",
+    "source": "TheStreet",
+    "when": "2026-11-11T15:17"
+   },
+   {
     "title": "\u2018The Pipes in Her Facebook Account Are Clogged With Sewage\u2019: Ramsey to Daughter Whose Parents, Almost 80, Have Replaced Card Numbers 16 Times",
     "source": "24/7 Wall St.",
     "when": "2026-11-11T15:08"
-   },
-   {
-    "title": "Rumble Rises 6% After Third-Quarter Revenue Beat; Trump Media Jumps 9%, Meta Stays Flat",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-11T14:55"
-   },
-   {
-    "title": "Update: Meta Fined by Brazil Electoral Court for Allegedly Failing to Provide Equal Content During Presidential Campaign",
-    "source": "MT Newswires",
-    "when": "2026-11-11T14:41"
    }
   ],
   "MSFT": [
@@ -2398,31 +2500,31 @@
     "when": "2026-11-11T15:13"
    },
    {
-    "title": "Applied Optoelectronics Surges 12%, Lumentum Jumps 11% as CoreWeave\u2019s Results Revive AI Trade; Coherent Climbs 7%",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-11T14:57"
+    "title": "3 Artificial Intelligence (AI) Stocks to Buy on the Post-Election Dip and Hold for 5 Years",
+    "source": "Motley Fool",
+    "when": "2026-11-11T15:21"
    },
    {
-    "title": "Stock Market Today: Nasdaq Jumps As CoreWeave Surges On Earnings; Nvidia Rallies (Live Coverage)",
-    "source": "Investor's Business Daily",
-    "when": "2026-11-11T14:44"
+    "title": "Nasdaq Jumps After CoreWeave Earnings",
+    "source": "The Wall Street Journal",
+    "when": "2026-11-11T15:06"
    }
   ],
   "MU": [
    {
+    "title": "CoreWeave Rallies, Lifting Cloud and Chip Stocks",
+    "source": "The Wall Street Journal",
+    "when": "2026-11-11T15:23"
+   },
+   {
+    "title": "Micron Soars 10%, SK hynix Up 9% as CoreWeave Raises Outlook on \u201cA Breakout Quarter\u201d",
+    "source": "TIKR",
+    "when": "2026-11-11T15:22"
+   },
+   {
     "title": "Apple Slides 4% as Ternus Calls Memory Pricing \u201cUnprecedented\u201d Despite a Record $114.5 Billion Quarter",
     "source": "TIKR",
     "when": "2026-11-11T14:50"
-   },
-   {
-    "title": "CoreWeave Boosts AI Trade. Bloom Energy, Other Power Stocks Are Big Winners.",
-    "source": "Barrons.com",
-    "when": "2026-11-11T14:37"
-   },
-   {
-    "title": "Seagate Spikes 9%, Sandisk Surges 8% as CoreWeave\u2019s Results Revive AI Trade; Micron Climbs 7%",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-11T14:08"
    }
   ],
   "NEM": [
@@ -2478,6 +2580,11 @@
   ],
   "NVDA": [
    {
+    "title": "Wall Street is pricing in two big risks for Nvidia",
+    "source": "Yahoo Finance Video",
+    "when": "2026-11-11T15:24"
+   },
+   {
     "title": "Stock market today: S&P 500, Nasdaq rise as Nvidia stock recovers, chip stocks rally after CoreWeave earnings",
     "source": "Yahoo Finance",
     "when": "2026-11-11T12:34"
@@ -2486,11 +2593,6 @@
     "title": "Nvidia stock rebounds, chip stocks surge as CoreWeave earnings boost AI trade",
     "source": "Yahoo Finance",
     "when": "2026-11-11T13:54"
-   },
-   {
-    "title": "Huang controversy reignites Washington's chip debate",
-    "source": "Yahoo Finance Video",
-    "when": "2026-11-11T14:46"
    }
   ],
   "NVT": [
@@ -2670,14 +2772,14 @@
     "when": "2026-11-11T14:48"
    },
    {
+    "title": "Stocks to Watch: CoreWeave, Nvidia, TSMC",
+    "source": "The Wall Street Journal",
+    "when": "2026-11-11T14:37"
+   },
+   {
     "title": "TSMC plans up to $1bn investment in Anthropic, OpenAI",
     "source": "Investment Monitor",
     "when": "2026-11-11T13:28"
-   },
-   {
-    "title": "David Tepper Bought CoreWeave Before It Fell 51%. Is He Wrong, or Early?",
-    "source": "TIKR",
-    "when": "2026-11-11T13:05"
    }
   ],
   "UNH": [
@@ -2716,5 +2818,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-11T10:22-05:00"
+ "signalsAsOf": "2026-11-11T10:34-05:00"
 }

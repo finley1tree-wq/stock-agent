@@ -68324,3 +68324,24 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25580.12 (+2.32% on $25000.00 in) · cash $21839.90 · realised +589.90
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-11 10:34 ET (Wednesday) — week 2026-W46 — budget left $21323.48 (today $21750.00 put to work, 8 buys, 6 sells) — SIM (pretend money) via sim
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
+  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwPJRbw3MGrMCxuuuA1w'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $21,323 idle, so opened 2: NXPI, FUN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 NXPI [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): Gilbert Ray Cisneros; +18.0% over the month; 70% of today's range
+- BUY $750.00 FUN [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: insider net buying (Form 4); +8.7% over the month; 77% of today's range
+~ WORKING take_profit 100% NXPI @ $268.52 until 2026-11-16 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% NXPI @ $263.32 until 2026-11-16 — close it all at -1.4% under the average cost
+~ WORKING buy_limit $500.00 NXPI @ $259.02 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FUN @ $11.19 until 2026-11-16 — close 100% at +0.8% over the average cost
+~ WORKING stop_loss 100% FUN @ $10.88 until 2026-11-16 — close it all at -2.0% under the average cost
+~ WORKING buy_limit $500.00 FUN @ $10.77 until 2026-11-16 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25582.15 (+2.33% on $25000.00 in) · cash $20339.90 · realised +589.90
+Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $19823.48 this week
