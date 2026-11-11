@@ -1,6 +1,3 @@
-  (ARLO excluded: too thinly traded ($20.0M a day) — Arlo Technologies, Inc.)
-  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
   (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgurwQtCCUrMpCoBPW556'}
@@ -398,3 +395,6 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on EL: position closed)
 - SELL 100% EL [take_profit @ $114.79] -> $3013.04 (+0.43%) — close 100% at +0.4% over the average cost
 ## 2026-11-11 09:49 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ENOV: position closed)
+- SELL 100% ENOV [take_profit @ $28.74] -> $3074.76 (+2.49%) — close 100% at +0.7% over the average cost
+## 2026-11-11 09:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders

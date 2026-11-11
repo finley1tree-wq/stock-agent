@@ -97119,7 +97119,9 @@
     "code_version": "0835e6c",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.39
+    "ret_now": 0.43,
+    "ret_final": 0.43,
+    "ret_src": "realised"
   },
   {
     "symbol": "NFRX",
@@ -97204,7 +97206,7 @@
     "code_version": "e090d3a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.26
+    "ret_now": 0.0
   },
   {
     "symbol": "FUN",
@@ -97264,7 +97266,9 @@
     "code_version": "b8b3b1a",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 1.39
+    "ret_now": 2.49,
+    "ret_final": 2.49,
+    "ret_src": "realised"
   },
   {
     "symbol": "FUN",
@@ -97344,6 +97348,34 @@
     "evidence": "average cost $114.3",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "7fb6e5e"
+    "code_version": "7fb6e5e",
+    "hold_minutes": 12
+  },
+  {
+    "symbol": "ENOV",
+    "side": "sell",
+    "qty": 106.98539,
+    "status": "filled",
+    "price": 28.74,
+    "proceeds": 3074.76,
+    "realized_pnl": 74.76,
+    "realized_pct": 2.49,
+    "date": "2026-11-11",
+    "time_et": "09:50",
+    "ts": 1794408600,
+    "why": "close 100% at +0.7% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $28.04",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "65e7eaf",
+    "hold_minutes": 4
   }
 ]
