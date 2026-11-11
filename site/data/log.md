@@ -1,4 +1,3 @@
-  (ASRV excluded: too thinly traded ($0.1M a day) — AmeriServ Financial, Inc.)
   (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
   (FLOC excluded: too thinly traded ($11.9M a day) — Flowco Holdings Inc.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
@@ -398,3 +397,4 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25488.07 (+1.95% on $25000.00 in) · cash $25488.07 · realised +488.07
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-11-10 16:10 ET — published the session's closing state
