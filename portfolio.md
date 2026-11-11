@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-11-11 11:09 ET
+# Pretend portfolio — 2026-11-11 11:12 ET
 
-**Equity $25600.50** on $25000.00 put in → **+2.40%**  
-Cash $21858.75 · Unrealised -8.25 · Realised +608.75
+**Equity $25601.70** on $25000.00 put in → **+2.41%**  
+Cash $21858.75 · Unrealised -7.05 · Realised +608.75
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
 | NFRX | 11.7% | $2992.52 | $26.67 | $26.60 | -0.25% | 0d |
-| EL | 2.9% | $749.23 | $112.73 | $112.61 | -0.10% | 0d |
+| EL | 2.9% | $750.43 | $112.73 | $112.79 | +0.06% | 0d |
 
 ## Last fills
 
