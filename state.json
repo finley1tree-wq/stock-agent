@@ -1,13 +1,14 @@
 {
   "week": "2026-W46",
-  "spent": 3656.87,
-  "deployed": 64500.0,
+  "spent": 4406.87,
+  "deployed": 65250.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 48.93,
     "RPM": 12.51,
     "NFRX": 3000.0,
-    "FUN": 750.0
+    "FUN": 750.0,
+    "ENOV": 750.0
   },
   "deployed_by_ticker": {
     "ESAB": 12000.0,
@@ -19,7 +20,7 @@
     "ECHO": 3000.0,
     "NFRX": 3000.0,
     "FUN": 4500.0,
-    "ENOV": 3750.0
+    "ENOV": 4500.0
   },
   "orders": [
     {
@@ -1658,12 +1659,32 @@
       "evidence": "insider net buying (Form 4); +8.1% over the month; 56% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ENOV",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 26.379315,
+      "price": 28.43,
+      "date": "2026-11-11",
+      "time_et": "11:29",
+      "ts": 1794414585,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +49.7% over the month; 58% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-11",
-  "spent_today": 3628.53,
-  "deployed_today": 26250.0,
-  "orders_today": 14,
+  "spent_today": 4378.53,
+  "deployed_today": 27000.0,
+  "orders_today": 15,
   "sells_today": 12,
   "sold_today": [
     "ESAB",
@@ -1684,8 +1705,8 @@
     "FUN": 1794411519,
     "ENOV": 1794411772
   },
-  "last_publish_ts": 1794414232,
-  "last_check_ts": 1794414499,
+  "last_publish_ts": 1794414585,
+  "last_check_ts": 1794414585,
   "exp_arm": {
     "NFRX": {
       "params": {
@@ -1700,18 +1721,28 @@
         "ratchet": "on"
       },
       "tags": {}
+    },
+    "ENOV": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
     }
   },
   "last_bar_ts": 1794414300,
-  "last_decision_ts": 1794414409,
-  "next_check_minutes": null,
+  "last_decision_ts": 1794414585,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "c256d9aa": 26.5847,
     "d36e8168": 26.71,
+    "ff3bb69d": 28.6367,
     "480b81f7": 11.1181,
     "cd0fdddb": 10.8098,
+    "20f2c529": 27.9134,
+    "7a3d0f20": 10.6991,
     "4570aa3e": 25.8699,
-    "7a3d0f20": 10.6991
+    "63513668": 27.5771
   }
 }

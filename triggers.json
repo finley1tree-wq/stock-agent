@@ -1,62 +1,6 @@
 {
  "orders": [
   {
-   "id": "2cdfb4b0",
-   "ticker": "PLD",
-   "kind": "buy_limit",
-   "price": 126.0806,
-   "status": "cancelled",
-   "created": "2026-11-04 13:00",
-   "created_ts": 1793815257,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $129.98",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "usd": 500.0,
-   "closed": "2026-11-04 13:21",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "5c90538e",
-   "ticker": "FITB",
-   "kind": "take_profit",
-   "price": 54.6691,
-   "status": "filled",
-   "created": "2026-11-04 13:00",
-   "created_ts": 1793815257,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $54.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 14:25"
-  },
-  {
-   "id": "d240e4ce",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 54.1821,
-   "status": "cancelled",
-   "created": "2026-11-04 13:00",
-   "created_ts": 1793815257,
-   "why": "close it all at -0.6% under the average cost",
-   "evidence": "average cost $54.53",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-04 13:41",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
    "id": "cd60fd4a",
    "ticker": "FITB",
    "kind": "buy_limit",
@@ -7486,7 +7430,58 @@
    ],
    "good_until": "2026-11-16",
    "usd": 500.0
+  },
+  {
+   "id": "ff3bb69d",
+   "ticker": "ENOV",
+   "kind": "take_profit",
+   "price": 28.6367,
+   "status": "working",
+   "created": "2026-11-11 11:29",
+   "created_ts": 1794414585,
+   "why": "close 100% at +0.7% over the average cost",
+   "evidence": "average cost $28.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "20f2c529",
+   "ticker": "ENOV",
+   "kind": "stop_loss",
+   "price": 27.9134,
+   "status": "working",
+   "created": "2026-11-11 11:29",
+   "created_ts": 1794414585,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $28.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-16",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "63513668",
+   "ticker": "ENOV",
+   "kind": "buy_limit",
+   "price": 27.5771,
+   "status": "working",
+   "created": "2026-11-11 11:29",
+   "created_ts": 1794414585,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $28.43",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-16",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-11 11:26"
+ "updated": "2026-11-11 11:29"
 }

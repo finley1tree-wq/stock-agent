@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-11T11:23-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $22,093 idle, so opened 1: FUN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "asOf": "2026-11-11T11:29-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $21,343 idle, so opened 1: ENOV. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -212,6 +212,23 @@
    ]
   },
   {
+   "id": "ff3bb69d",
+   "ticker": "ENOV",
+   "kind": "take_profit",
+   "price": 28.6367,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 28.42,
+   "pct_away": 0.76,
+   "good_until": "2026-11-16",
+   "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "480b81f7",
    "ticker": "FUN",
    "kind": "take_profit",
@@ -219,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 11.03,
-   "pct_away": 0.8,
+   "last": 10.99,
+   "pct_away": 1.17,
    "good_until": "2026-11-16",
    "why": "close 100% at +0.8% over the average cost",
    "signals": [
@@ -236,10 +253,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 11.03,
-   "pct_away": -2.0,
+   "last": 10.99,
+   "pct_away": -1.64,
    "good_until": "2026-11-16",
    "why": "close it all at -2.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "20f2c529",
+   "ticker": "ENOV",
+   "kind": "stop_loss",
+   "price": 27.9134,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 28.42,
+   "pct_away": -1.78,
+   "good_until": "2026-11-16",
+   "why": "close it all at -1.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "7a3d0f20",
+   "ticker": "FUN",
+   "kind": "buy_limit",
+   "price": 10.6991,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 10.99,
+   "pct_away": -2.65,
+   "good_until": "2026-11-16",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -263,15 +314,15 @@
    ]
   },
   {
-   "id": "7a3d0f20",
-   "ticker": "FUN",
+   "id": "63513668",
+   "ticker": "ENOV",
    "kind": "buy_limit",
-   "price": 10.6991,
+   "price": 27.5771,
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 11.03,
-   "pct_away": -3.0,
+   "last": 28.42,
+   "pct_away": -2.97,
    "good_until": "2026-11-16",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -280,7 +331,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $22,093 idle, so opened 1: FUN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $21,343 idle, so opened 1: ENOV. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -347,7 +398,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 360,
+  "decisions_graded": 358,
   "decisions_with_buys_graded": 33,
   "independent_days_graded": 4,
   "avg_regret_pct": 0.23,
@@ -448,7 +499,7 @@
     "n": 1
    }
   },
-  "idle_checks": 348,
+  "idle_checks": 347,
   "blocked_checks": 0,
   "idle_share": 0.87,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -1995,9 +2046,9 @@
     "when": "2026-11-11T15:34"
    },
    {
-    "title": "3 Artificial Intelligence (AI) Stocks to Buy on the Post-Election Dip and Hold for 5 Years",
-    "source": "Motley Fool",
-    "when": "2026-11-11T15:21"
+    "title": "Why the iPhone Duo Could Kick Off a \u2018New Decade\u2019 for Apple",
+    "source": "Barrons.com",
+    "when": "2026-11-11T15:27"
    }
   ],
   "AMAT": [
@@ -2403,9 +2454,9 @@
     "when": "2026-11-11T16:05"
    },
    {
-    "title": "Amazon\u2019s Enterprise \u2018Hotel California\u2019 Lock In Is Excellent for Investors",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-11T15:45"
+    "title": "The Dow Is Missing Out on the CoreWeave Earnings AI Rebound",
+    "source": "Barrons.com",
+    "when": "2026-11-11T15:53"
    }
   ],
   "MU": [
@@ -2415,14 +2466,14 @@
     "when": "2026-11-11T14:44"
    },
    {
+    "title": "Goldman Calls Micron \u201ca Screaming Buy.\u201d Bank of America Just Dropped It From Its Top Picks. Who\u2019s Right?",
+    "source": "TIKR",
+    "when": "2026-11-11T16:18"
+   },
+   {
     "title": "Prediction: This Could Be the Biggest AI Stock You\u2019re Not Talking About",
     "source": "24/7 Wall St.",
     "when": "2026-11-11T16:03"
-   },
-   {
-    "title": "Why Micron Stock Popped Today",
-    "source": "Motley Fool",
-    "when": "2026-11-11T16:02"
    }
   ],
   "NEM": [
@@ -2580,19 +2631,19 @@
   ],
   "PLTR": [
    {
+    "title": "Helsing debuts Clarity military AI to challenge Palantir in Europe",
+    "source": "Investing.com",
+    "when": "2026-11-11T16:16"
+   },
+   {
+    "title": "One Investor Says Anthropic Would Cost \u201cLess Than Palantir on Sales.\u201d That\u2019s a Problem for Palantir",
+    "source": "TIKR",
+    "when": "2026-11-11T16:08"
+   },
+   {
     "title": "Prediction: Palantir Shares Could Deliver Outsized Returns Over the Next 5 Years",
     "source": "24/7 Wall St.",
     "when": "2026-11-11T15:33"
-   },
-   {
-    "title": "Palantir stock falls 19% as Wall Street spots a warning",
-    "source": "GuruFocus.com",
-    "when": "2026-11-11T12:14"
-   },
-   {
-    "title": "Cathie Wood Trims Palantir Stake. The Bigger Concern Is Slowing Business Growth",
-    "source": "GuruFocus.com",
-    "when": "2026-11-11T11:13"
    }
   ],
   "RPM": [
@@ -2682,6 +2733,11 @@
   ],
   "UNH": [
    {
+    "title": "The Dow Is Missing Out on the CoreWeave Earnings AI Rebound",
+    "source": "Barrons.com",
+    "when": "2026-11-11T15:53"
+   },
+   {
     "title": "UnitedHealth Just Raised Guidance for the Third Time This Year. Where Will the Stock Be in 3 Years?",
     "source": "Motley Fool",
     "when": "2026-11-11T13:05"
@@ -2690,11 +2746,6 @@
     "title": "State Street Health Care SPDR (XLV) Sells Eli Lilly and J&J on Nov. 9",
     "source": "GuruFocus.com",
     "when": "2026-11-11T11:04"
-   },
-   {
-    "title": "UnitedHealth Group (UNH) Will Drop Medicare Plans In 140 Counties And Leave Wyoming",
-    "source": "Simply Wall St.",
-    "when": "2026-11-11T00:16"
    }
   ],
   "VNQ": [
@@ -2716,5 +2767,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-11T11:23-05:00"
+ "signalsAsOf": "2026-11-11T11:29-05:00"
 }
