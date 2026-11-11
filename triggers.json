@@ -7200,7 +7200,7 @@
    "ticker": "EL",
    "kind": "buy_limit",
    "price": 109.125,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 13:00",
    "created_ts": 1794420054,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7210,7 +7210,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-11 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "1cb49501",
@@ -7402,7 +7404,7 @@
    "ticker": "RPM",
    "kind": "buy_limit",
    "price": 102.5872,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 13:12",
    "created_ts": 1794420757,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7412,7 +7414,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-11 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "2bdb4da4",
@@ -7471,7 +7475,7 @@
    "ticker": "NXPI",
    "kind": "buy_limit",
    "price": 264.2765,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 13:56",
    "created_ts": 1794423400,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7481,7 +7485,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-11 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   }
  ],
  "updated": "2026-11-11 13:59"
