@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "0a90b3af",
-   "ticker": "PLD",
-   "kind": "take_profit",
-   "price": 132.4599,
-   "status": "cancelled",
-   "created": "2026-11-05 09:32",
-   "created_ts": 1793889166,
-   "why": "close 100% at +0.2% over the average cost",
-   "evidence": "average cost $132.21",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-10",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-05 09:44",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "7e772ed2",
    "ticker": "PLD",
    "kind": "stop_loss",
@@ -7359,7 +7340,7 @@
    "ticker": "ENOV",
    "kind": "stop_loss",
    "price": 28.0835,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 13:03",
    "created_ts": 1794420238,
    "why": "close it all at -1.8% under the average cost",
@@ -7369,7 +7350,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 13:20",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "7f6c78e7",
@@ -7476,7 +7459,24 @@
    ],
    "good_until": "2026-11-16",
    "usd": 500.0
+  },
+  {
+   "id": "2bdb4da4",
+   "ticker": "ENOV",
+   "kind": "stop_loss",
+   "price": 28.684,
+   "status": "working",
+   "created": "2026-11-11 13:20",
+   "created_ts": 1794421216,
+   "why": "close it all at -1.8% under the average cost",
+   "evidence": "average cost $28.6",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-16",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-11 13:18"
+ "updated": "2026-11-11 13:21"
 }
