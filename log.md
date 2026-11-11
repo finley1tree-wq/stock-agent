@@ -69349,3 +69349,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25591.20 (+2.36% on $25000.00 in) · cash $23339.16 · realised +589.16
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $22822.73 this week
+  (cancelled 2 standing order(s) on ENOV: position closed)
+- SELL 100% ENOV [stop_loss @ $28.67] -> $751.79 (+0.24%) — close it all at -1.8% under the average cost
+## 2026-11-11 13:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders

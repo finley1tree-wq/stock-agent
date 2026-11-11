@@ -7329,7 +7329,7 @@
    "ticker": "ENOV",
    "kind": "take_profit",
    "price": 28.8068,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 13:03",
    "created_ts": 1794420238,
    "why": "close 100% at +0.7% over the average cost",
@@ -7339,7 +7339,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 13:42",
+   "cancel_reason": "position closed"
   },
   {
    "id": "bf020615",
@@ -7365,7 +7367,7 @@
    "ticker": "ENOV",
    "kind": "buy_limit",
    "price": 27.742,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 13:03",
    "created_ts": 1794420238,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7375,7 +7377,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-11 13:42",
+   "cancel_reason": "position closed"
   },
   {
    "id": "c6264b19",
@@ -7471,7 +7475,7 @@
    "ticker": "ENOV",
    "kind": "stop_loss",
    "price": 28.684,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-11 13:20",
    "created_ts": 1794421216,
    "why": "close it all at -1.8% under the average cost",
@@ -7481,8 +7485,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 13:42"
   }
  ],
- "updated": "2026-11-11 13:40"
+ "updated": "2026-11-11 13:42"
 }

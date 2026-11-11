@@ -1,6 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on RPM: position closed)
-- SELL 100% RPM [take_profit @ $106.19] -> $753.57 (+0.48%) — close 100% at +0.3% over the average cost
 ## 2026-11-11 12:26 ET — tick — 1 sell(s), 0 buy(s) from standing orders
 
 ## 2026-11-11 12:28 ET (Wednesday) — week 2026-W46 — budget left $24317.25 (today $29250.00 put to work, 18 buys, 17 sells) — SIM (pretend money) via sim
@@ -398,3 +395,6 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25591.20 (+2.36% on $25000.00 in) · cash $23339.16 · realised +589.16
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 9 order(s) working; budget left $22822.73 this week
+  (cancelled 2 standing order(s) on ENOV: position closed)
+- SELL 100% ENOV [stop_loss @ $28.67] -> $751.79 (+0.24%) — close it all at -1.8% under the average cost
+## 2026-11-11 13:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 2177.27,
+  "spent": 1425.48,
   "deployed": 70500.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -9,8 +9,7 @@
     "NFRX": 14.96,
     "FUN": 9.33,
     "ESAB": 0.86,
-    "EL": 750.0,
-    "ENOV": 750.0
+    "EL": 750.0
   },
   "deployed_by_ticker": {
     "ESAB": 12750.0,
@@ -1966,13 +1965,34 @@
       ],
       "evidence": "bought 120 min ago, -0.07% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "ENOV",
+      "side": "sell",
+      "qty": 26.22246,
+      "status": "filled",
+      "price": 28.67,
+      "proceeds": 751.79,
+      "realized_pnl": 1.79,
+      "realized_pct": 0.24,
+      "date": "2026-11-11",
+      "time_et": "13:42",
+      "ts": 1794422400,
+      "why": "close it all at -1.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $28.6",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-11",
-  "spent_today": 2148.93,
+  "spent_today": 1397.14,
   "deployed_today": 32250.0,
   "orders_today": 22,
-  "sells_today": 19,
+  "sells_today": 20,
   "sold_today": [
     "ESAB",
     "FUN",
@@ -1991,11 +2011,11 @@
     "CRH": 1794337610,
     "ECHO": 1794322507,
     "FUN": 1794420767,
-    "ENOV": 1794417371,
+    "ENOV": 1794422539,
     "NFRX": 1794414794
   },
-  "last_publish_ts": 1794422448,
-  "last_check_ts": 1794422448,
+  "last_publish_ts": 1794422539,
+  "last_check_ts": 1794422539,
   "exp_arm": {
     "ESAB": {
       "params": {
@@ -2031,14 +2051,11 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "2bdb4da4": 28.684,
     "4d489cca": 106.127,
-    "2522a85b": 28.8068,
     "28764730": 113.0062,
-    "0357946a": 104.842,
     "902509c6": 111.2332,
+    "0357946a": 104.842,
     "a35f58fb": 109.125,
-    "96160203": 102.5872,
-    "7f6c78e7": 27.742
+    "96160203": 102.5872
   }
 }
