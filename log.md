@@ -68887,3 +68887,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 portfolio: equity $25583.86 (+2.34% on $25000.00 in) · cash $23329.72 · realised +579.72
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ENOV: position closed)
+- SELL 100% ENOV [stop_loss @ $28.45] -> $750.38 (+0.05%) — close it all at -1.8% under the average cost
+## 2026-11-11 12:16 ET — tick — 1 sell(s), 0 buy(s) from standing orders
