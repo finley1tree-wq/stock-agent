@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "3a7e1b9f",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 259.3198,
-   "status": "cancelled",
-   "created": "2026-11-04 13:00",
-   "created_ts": 1793815257,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $267.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-09",
-   "usd": 500.0,
-   "closed": "2026-11-04 13:41",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "4eb5e4a0",
    "ticker": "RPM",
    "kind": "take_profit",
@@ -7140,7 +7121,7 @@
    "ticker": "ESAB",
    "kind": "stop_loss",
    "price": 85.2907,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-11 10:22",
    "created_ts": 1794410560,
    "why": "close it all at -1.5% under the average cost",
@@ -7150,7 +7131,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-16",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-11 10:52",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "fc86b5a9",
@@ -7476,7 +7459,24 @@
    ],
    "good_until": "2026-11-16",
    "usd": 500.0
+  },
+  {
+   "id": "666b3df1",
+   "ticker": "ESAB",
+   "kind": "stop_loss",
+   "price": 86.784,
+   "status": "working",
+   "created": "2026-11-11 10:52",
+   "created_ts": 1794412337,
+   "why": "close it all at -1.4% under the average cost",
+   "evidence": "average cost $86.55",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-16",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-11 10:51"
+ "updated": "2026-11-11 10:52"
 }
