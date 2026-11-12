@@ -69854,3 +69854,36 @@ Decision: nothing at this check. 2 standing order(s) working.
 ## 2026-11-11 20:52 ET — published the session's closing state
 - SELL 100% NXPI [time stop] -> $741.75 (-1.10%) — held 1174 min, the 120-minute limit: out regardless
 ## 2026-11-12 09:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-12 09:32 ET (Thursday) — week 2026-W46 — budget left $25000.00 (today $0.00 put to work, 0 buys, 1 sells) — SIM (pretend money) via sim
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
+  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyCVU53mJ3DukxAmqLcW'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $25,000 idle, so opened 5: ENOV, RPM, FITB, EL, FUN. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 ENOV [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +53.7% over the month; 10% of today's range
+- BUY $3000.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (David J. Taylor), $1,001 - $15,000; +9.0% over the month; 65% of today's range
+- BUY $3000.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +9.2% over the month; 0% of today's range
+- BUY $3000.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (1 net buyer); +10.2% over the month; 45% of today's range
+- BUY $3000.00 FUN [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: insider net buying (Form 4); +22.1% over the month; 13% of today's range
+~ WORKING take_profit 100% ENOV @ $28.76 until 2026-11-17 — close 100% at +0.7% over the average cost
+~ WORKING stop_loss 100% ENOV @ $28.06 until 2026-11-17 — close it all at -1.8% under the average cost
+~ WORKING buy_limit $500.00 ENOV @ $27.70 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RPM @ $107.13 until 2026-11-17 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% RPM @ $105.90 until 2026-11-17 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 RPM @ $103.58 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FITB @ $54.37 until 2026-11-17 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% FITB @ $53.87 until 2026-11-17 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $52.60 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% EL @ $112.50 until 2026-11-17 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% EL @ $110.78 until 2026-11-17 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 EL @ $108.65 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% FUN @ $11.02 until 2026-11-17 — close 100% at +0.8% over the average cost
+~ WORKING stop_loss 100% FUN @ $10.71 until 2026-11-17 — close it all at -2.0% under the average cost
+~ WORKING buy_limit $500.00 FUN @ $10.60 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25581.25 (+2.32% on $25000.00 in) · cash $10587.42 · realised +587.42
+Done: 0 sell(s), 5 buy(s); 15 order(s) working; budget left $10000.00 this week

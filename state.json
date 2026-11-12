@@ -1,26 +1,30 @@
 {
   "week": "2026-W46",
-  "spent": 0.0,
-  "deployed": 71250.0,
+  "spent": 15000.0,
+  "deployed": 86250.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 56.38,
-    "RPM": 4.74,
+    "RPM": 3004.74,
     "NFRX": 14.96,
-    "FUN": 9.33,
-    "ESAB": 0.86
+    "FUN": 3009.33,
+    "ESAB": 0.86,
+    "ENOV": 3000.0,
+    "FITB": 3000.0,
+    "EL": 3000.0
   },
   "deployed_by_ticker": {
     "ESAB": 12750.0,
-    "RPM": 12750.0,
-    "EL": 12750.0,
+    "RPM": 15750.0,
+    "EL": 15750.0,
     "PLD": 1500.0,
     "NXPI": 9750.0,
     "CRH": 5250.0,
     "ECHO": 3000.0,
     "NFRX": 3000.0,
-    "FUN": 5250.0,
-    "ENOV": 5250.0
+    "FUN": 8250.0,
+    "ENOV": 8250.0,
+    "FITB": 3000.0
   },
   "orders": [
     {
@@ -2067,12 +2071,112 @@
       ],
       "evidence": "bought 1174 min ago, -1.08% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "ENOV",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 105.036794,
+      "price": 28.56,
+      "date": "2026-11-12",
+      "time_et": "09:32",
+      "ts": 1794493959,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4); +53.7% over the month; 10% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "RPM",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 28.09444,
+      "price": 106.78,
+      "date": "2026-11-12",
+      "time_et": "09:32",
+      "ts": 1794493959,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (David J. Taylor), $1,001 - $15,000; +9.0% over the month; 65% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "FITB",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 55.318216,
+      "price": 54.23,
+      "date": "2026-11-12",
+      "time_et": "09:32",
+      "ts": 1794493959,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +9.2% over the month; 0% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "EL",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 26.782178,
+      "price": 112.01,
+      "date": "2026-11-12",
+      "time_et": "09:32",
+      "ts": 1794493959,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +10.2% over the month; 45% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "FUN",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 274.599517,
+      "price": 10.93,
+      "date": "2026-11-12",
+      "time_et": "09:32",
+      "ts": 1794493959,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "insider net buying (Form 4); +22.1% over the month; 13% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-12",
-  "spent_today": 0.0,
-  "deployed_today": 0.0,
-  "orders_today": 0,
+  "spent_today": 15000.0,
+  "deployed_today": 15000.0,
+  "orders_today": 5,
   "sells_today": 1,
   "sold_today": [
     "NXPI"
@@ -2089,10 +2193,10 @@
     "ENOV": 1794422539,
     "NFRX": 1794414794
   },
-  "last_publish_ts": 1794493830,
-  "last_check_ts": 1794493830,
+  "last_publish_ts": 1794493959,
+  "last_check_ts": 1794493959,
   "exp_arm": {
-    "EL": {
+    "ENOV": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -2106,7 +2210,21 @@
       },
       "tags": {}
     },
-    "NXPI": {
+    "FITB": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "EL": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "FUN": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -2115,8 +2233,24 @@
     }
   },
   "last_bar_ts": 1794493800,
-  "last_decision_ts": 1794428143,
-  "next_check_minutes": null,
+  "last_decision_ts": 1794493959,
+  "next_check_minutes": 6,
   "autopiloted": true,
-  "book_px": {}
+  "book_px": {
+    "70208e3e": 54.3721,
+    "4e71ca20": 107.1334,
+    "22be790e": 112.5006,
+    "f086820f": 53.8743,
+    "f9ea811f": 28.7611,
+    "3d685da3": 105.8969,
+    "7a9349d6": 11.0174,
+    "8fbc9e98": 110.7824,
+    "5806be8c": 28.0571,
+    "de9e4c1e": 10.7113,
+    "8a215ce5": 10.6021,
+    "af87023e": 103.5766,
+    "088ef09a": 52.6031,
+    "027510e9": 27.7032,
+    "4c803d66": 108.6497
+  }
 }
