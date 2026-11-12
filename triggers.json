@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "4b73eaca",
-   "ticker": "CRBG",
-   "kind": "take_profit",
-   "price": 35.2852,
-   "status": "cancelled",
-   "created": "2026-11-05 10:26",
-   "created_ts": 1793892419,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $35.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-10",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-05 10:38",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "7b6ebfde",
-   "ticker": "CRBG",
-   "kind": "stop_loss",
-   "price": 34.8471,
-   "status": "filled",
-   "created": "2026-11-05 10:26",
-   "created_ts": 1793892419,
-   "why": "close it all at -0.9% under the average cost",
-   "evidence": "average cost $35.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-10",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-05 10:38"
-  },
-  {
    "id": "2f15be09",
    "ticker": "CRBG",
    "kind": "buy_limit",
@@ -7459,7 +7422,7 @@
    "ticker": "DKNG",
    "kind": "stop_loss",
    "price": 18.5906,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-12 10:40",
    "created_ts": 1794498033,
    "why": "close it all at -2.2% under the average cost",
@@ -7469,7 +7432,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-12 11:00",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "62c35564",
@@ -7487,7 +7452,43 @@
    ],
    "good_until": "2026-11-17",
    "usd": 500.0
+  },
+  {
+   "id": "4ebb4fee",
+   "ticker": "DKNG",
+   "kind": "stop_loss",
+   "price": 19.06,
+   "status": "cancelled",
+   "created": "2026-11-12 11:00",
+   "created_ts": 1794499256,
+   "why": "close it all at -2.1% under the average cost",
+   "evidence": "average cost $19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-17",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-12 11:01",
+   "cancel_reason": "level or size no longer matches"
+  },
+  {
+   "id": "00882fe0",
+   "ticker": "DKNG",
+   "kind": "stop_loss",
+   "price": 19.096,
+   "status": "working",
+   "created": "2026-11-12 11:01",
+   "created_ts": 1794499302,
+   "why": "close it all at -2.1% under the average cost",
+   "evidence": "average cost $19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-17",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-12 11:00"
+ "updated": "2026-11-12 11:01"
 }
