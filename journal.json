@@ -99061,7 +99061,9 @@
     "code_version": "a3caaaa",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -1.24
+    "ret_now": -1.58,
+    "ret_final": -1.58,
+    "ret_src": "realised"
   },
   {
     "symbol": "DKNG",
@@ -99173,7 +99175,7 @@
     "code_version": "c508954",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.35
+    "ret_now": -0.31
   },
   {
     "symbol": "EL",
@@ -99202,7 +99204,7 @@
     "code_version": "c508954",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.21
+    "ret_now": -0.16
   },
   {
     "symbol": "FITB",
@@ -99229,5 +99231,32 @@
     "hour_et": 13,
     "code_version": "bd80e78",
     "hold_minutes": 119
+  },
+  {
+    "symbol": "ESAB",
+    "side": "sell",
+    "qty": 8.954851,
+    "status": "filled",
+    "price": 82.43,
+    "proceeds": 738.12,
+    "realized_pnl": -11.88,
+    "realized_pct": -1.58,
+    "date": "2026-11-12",
+    "time_et": "13:23",
+    "ts": 1794507600,
+    "why": "close it all at -1.5% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $83.75",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "df8556f",
+    "hold_minutes": 109
   }
 ]

@@ -7263,7 +7263,7 @@
    "ticker": "ESAB",
    "kind": "take_profit",
    "price": 84.2625,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-12 11:30",
    "created_ts": 1794501057,
    "why": "close 100% at +0.6% over the average cost",
@@ -7273,14 +7273,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-12 13:23",
+   "cancel_reason": "position closed"
   },
   {
    "id": "ab248788",
    "ticker": "ESAB",
    "kind": "stop_loss",
    "price": 82.4678,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-12 11:30",
    "created_ts": 1794501057,
    "why": "close it all at -1.5% under the average cost",
@@ -7290,14 +7292,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-12 13:23"
   },
   {
    "id": "582a1a98",
    "ticker": "ESAB",
    "kind": "buy_limit",
    "price": 81.2375,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-12 11:30",
    "created_ts": 1794501057,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7307,7 +7310,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-17",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-12 13:23",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7ac058f9",
@@ -7481,5 +7486,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-11-12 13:20"
+ "updated": "2026-11-12 13:23"
 }
