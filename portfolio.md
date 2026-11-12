@@ -1,13 +1,13 @@
-# Pretend portfolio — 2026-11-12 12:17 ET
+# Pretend portfolio — 2026-11-12 12:20 ET
 
-**Equity $25444.03** on $25000.00 put in → **+1.78%**  
-Cash $23197.79 · Unrealised -3.76 · Realised +447.79
+**Equity $25441.79** on $25000.00 put in → **+1.77%**  
+Cash $23197.79 · Unrealised -6.00 · Realised +447.79
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| ESAB | 2.9% | $749.25 | $83.75 | $83.67 | -0.10% | 0d |
+| FITB | 2.9% | $748.73 | $54.35 | $54.26 | -0.17% | 0d |
 | DKNG | 2.9% | $748.53 | $19.19 | $19.15 | -0.20% | 0d |
-| FITB | 2.9% | $748.46 | $54.35 | $54.24 | -0.21% | 0d |
+| ESAB | 2.9% | $746.75 | $83.75 | $83.39 | -0.43% | 0d |
 
 ## Last fills
 
