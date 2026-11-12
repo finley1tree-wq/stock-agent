@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-12T10:29-05:00",
- "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,909 idle, so opened 1: FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "asOf": "2026-11-12T10:32-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $21,159 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,6 +178,23 @@
  "pause_reason": "",
  "working_orders": [
   {
+   "id": "e697a973",
+   "ticker": "FITB",
+   "kind": "take_profit",
+   "price": 54.0556,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 53.92,
+   "pct_away": 0.25,
+   "good_until": "2026-11-17",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "5806be8c",
    "ticker": "ENOV",
    "kind": "stop_loss",
@@ -185,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 28.09,
-   "pct_away": -0.12,
+   "last": 28.18,
+   "pct_away": -0.44,
    "good_until": "2026-11-17",
    "why": "close it all at -1.8% under the average cost",
    "signals": [
@@ -195,17 +212,17 @@
    ]
   },
   {
-   "id": "e697a973",
-   "ticker": "FITB",
+   "id": "c946721e",
+   "ticker": "ESAB",
    "kind": "take_profit",
-   "price": 54.0556,
+   "price": 84.4219,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 53.89,
-   "pct_away": 0.31,
+   "last": 83.88,
+   "pct_away": 0.65,
    "good_until": "2026-11-17",
-   "why": "close 100% at +0.3% over the average cost",
+   "why": "close 100% at +0.6% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,10 +236,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 53.89,
-   "pct_away": -0.64,
+   "last": 53.92,
+   "pct_away": -0.69,
    "good_until": "2026-11-17",
    "why": "close it all at -0.7% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d4fe6682",
+   "ticker": "ESAB",
+   "kind": "stop_loss",
+   "price": 82.6304,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 83.88,
+   "pct_away": -1.49,
+   "good_until": "2026-11-17",
+   "why": "close it all at -1.5% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,8 +270,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 28.09,
-   "pct_away": -1.38,
+   "last": 28.18,
+   "pct_away": -1.69,
    "good_until": "2026-11-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -253,10 +287,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 28.09,
-   "pct_away": 2.39,
+   "last": 28.18,
+   "pct_away": 2.06,
    "good_until": "2026-11-17",
    "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "848d3a14",
+   "ticker": "ESAB",
+   "kind": "buy_limit",
+   "price": 81.3927,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 83.88,
+   "pct_away": -2.97,
+   "good_until": "2026-11-17",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,8 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 53.89,
-   "pct_away": -2.96,
+   "last": 53.92,
+   "pct_away": -3.02,
    "good_until": "2026-11-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -280,7 +331,7 @@
    ]
   }
  ],
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,909 idle, so opened 1: FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 target names with $21,159 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatheri",
  "next_check_minutes": 6,
  "allowed": [
   "AAPL",
@@ -347,7 +398,7 @@
  "learning": {
   "horizon": "1d",
   "decisions_recorded": 420,
-  "decisions_graded": 379,
+  "decisions_graded": 378,
   "decisions_with_buys_graded": 37,
   "independent_days_graded": 4,
   "avg_regret_pct": -0.52,
@@ -445,7 +496,7 @@
     "n": 1
    }
   },
-  "idle_checks": 349,
+  "idle_checks": 348,
   "blocked_checks": 0,
   "idle_share": 0.87,
   "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
@@ -2101,6 +2152,11 @@
   ],
   "COHR": [
    {
+    "title": "Jensen Huang's exit puts Nvidia's $530 billion web of AI deals under the microscope",
+    "source": "Yahoo Finance",
+    "when": "2026-11-12T15:31"
+   },
+   {
     "title": "AI\u2019s Central Bank Is in Crisis. Intel and These Stocks Are Feeling the Pain.",
     "source": "Barrons.com",
     "when": "2026-11-12T15:01"
@@ -2109,11 +2165,6 @@
     "title": "Lumentum Trades Below Marvell\u2019s Buyout Offer. Is the Gap a Bargain?",
     "source": "24/7 Wall St.",
     "when": "2026-11-12T13:58"
-   },
-   {
-    "title": "Coherent Soars 20% in a Week as Its Growth Guide Outlasts the AI Selloff: \u201cBasically Booked Out\u201d",
-    "source": "TIKR",
-    "when": "2026-11-12T13:50"
    }
   ],
   "DDOG": [
@@ -2679,5 +2730,5 @@
   ]
  },
  "people_news": {},
- "signalsAsOf": "2026-11-12T10:29-05:00"
+ "signalsAsOf": "2026-11-12T10:32-05:00"
 }
