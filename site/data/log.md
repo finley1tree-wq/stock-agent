@@ -1,6 +1,3 @@
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
-  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
-  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
   (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
   (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
   (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 ~ WORKING buy_limit $500.00 DKNG @ $18.43 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25461.94 (+1.85% on $25000.00 in) · cash $20248.31 · realised +498.31
 Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $19660.87 this week
+  (cancelled 2 standing order(s) on ESAB: position closed)
+- SELL 100% ESAB [take_profit @ $84.42] -> $754.54 (+0.61%) — close 100% at +0.6% over the average cost
+## 2026-11-12 10:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders
