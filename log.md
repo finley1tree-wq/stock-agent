@@ -71234,3 +71234,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25423.17 (+1.69% on $25000.00 in) · cash $23934.51 · realised +434.51
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [stop_loss @ $103.92] -> $743.16 (-0.91%) — close it all at -0.9% under the average cost
+## 2026-11-12 13:54 ET — tick — 1 sell(s), 0 buy(s) from standing orders
