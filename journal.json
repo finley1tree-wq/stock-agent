@@ -98417,7 +98417,9 @@
     "code_version": "7b70dad",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.06
+    "ret_now": -0.18,
+    "ret_final": -0.18,
+    "ret_src": "realised"
   },
   {
     "symbol": "FITB",
@@ -98477,7 +98479,7 @@
     "code_version": "7b70dad",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.11
+    "ret_now": 0.05
   },
   {
     "symbol": "FUN",
@@ -98595,7 +98597,7 @@
     "code_version": "5f64aa9",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.37
+    "ret_now": 0.52
   },
   {
     "symbol": "FITB",
@@ -98650,5 +98652,32 @@
     "hour_et": 9,
     "code_version": "3eefb8d",
     "hold_minutes": 7
+  },
+  {
+    "symbol": "RPM",
+    "side": "sell",
+    "qty": 28.09444,
+    "status": "filled",
+    "price": 106.59,
+    "proceeds": 2994.49,
+    "realized_pnl": -5.51,
+    "realized_pct": -0.18,
+    "date": "2026-11-12",
+    "time_et": "09:50",
+    "ts": 1794495000,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $106.78",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "7b33500",
+    "hold_minutes": 17
   }
 ]
