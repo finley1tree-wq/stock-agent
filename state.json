@@ -1,7 +1,7 @@
 {
   "week": "2026-W46",
-  "spent": 883.74,
-  "deployed": 95250.0,
+  "spent": 1633.74,
+  "deployed": 96000.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 56.38,
@@ -11,12 +11,12 @@
     "ESAB": 51.55,
     "ENOV": 55.71,
     "FITB": 19.26,
-    "EL": 34.49
+    "EL": 784.49
   },
   "deployed_by_ticker": {
     "ESAB": 16500.0,
     "RPM": 16500.0,
-    "EL": 15750.0,
+    "EL": 16500.0,
     "PLD": 1500.0,
     "NXPI": 9750.0,
     "CRH": 5250.0,
@@ -2502,12 +2502,32 @@
       ],
       "evidence": "average cost $19",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "EL",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 6.750406,
+      "price": 111.1,
+      "date": "2026-11-12",
+      "time_et": "11:08",
+      "ts": 1794499730,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (1 net buyer); +9.3% over the month; 25% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-12",
-  "spent_today": 883.74,
-  "deployed_today": 24000.0,
-  "orders_today": 11,
+  "spent_today": 1633.74,
+  "deployed_today": 24750.0,
+  "orders_today": 12,
   "sells_today": 11,
   "sold_today": [
     "NXPI",
@@ -2533,23 +2553,9 @@
     "FITB": 1794497741,
     "DKNG": 1794499339
   },
-  "last_publish_ts": 1794499338,
-  "last_check_ts": 1794499647,
+  "last_publish_ts": 1794499730,
+  "last_check_ts": 1794499730,
   "exp_arm": {
-    "ENOV": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "ESAB": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
     "RPM": {
       "params": {
         "hold_minutes": 120,
@@ -2557,7 +2563,7 @@
       },
       "tags": {}
     },
-    "DKNG": {
+    "EL": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -2566,12 +2572,15 @@
     }
   },
   "last_bar_ts": 1794499500,
-  "last_decision_ts": 1794499562,
-  "next_check_minutes": null,
+  "last_decision_ts": 1794499730,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "6595342e": 106.1476,
     "21a952fc": 104.8961,
-    "9397e223": 102.6163
+    "13801c31": 111.5988,
+    "6595342e": 106.1476,
+    "8d0d3828": 109.8535,
+    "9397e223": 102.6163,
+    "b3a3cf7b": 107.767
   }
 }

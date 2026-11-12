@@ -70391,3 +70391,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25452.13 (+1.81% on $25000.00 in) · cash $24703.70 · realised +453.70
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 11:08 ET (Thursday) — week 2026-W46 — budget left $24116.26 (today $24000.00 put to work, 11 buys, 11 sells) — SIM (pretend money) via sim
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyKkATNGho2FVwoenjQh'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,116 idle, so opened 1: EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 EL [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +9.3% over the month; 25% of today's range
+~ WORKING take_profit 100% EL @ $111.60 until 2026-11-17 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% EL @ $109.85 until 2026-11-17 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 EL @ $107.77 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25450.34 (+1.80% on $25000.00 in) · cash $23953.70 · realised +453.70
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $23366.26 this week
