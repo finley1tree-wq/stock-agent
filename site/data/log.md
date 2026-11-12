@@ -1,6 +1,3 @@
-- BUY $750.00 ESAB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +29.9% over the month; 5% of today's range
-~ WORKING take_profit 100% ESAB @ $84.42 until 2026-11-17 — close 100% at +0.6% over the average cost
-~ WORKING stop_loss 100% ESAB @ $82.63 until 2026-11-17 — close it all at -1.5% under the average cost
 ~ WORKING buy_limit $500.00 ESAB @ $81.39 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25456.06 (+1.82% on $25000.00 in) · cash $20996.31 · realised +496.31
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $20408.87 this week
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 DKNG @ $18.61 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25448.28 (+1.79% on $25000.00 in) · cash $21703.70 · realised +453.70
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $21116.26 this week
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [stop_loss @ $111.22] -> $750.81 (+0.11%) — close it all at -1.1% under the average cost
+## 2026-11-12 11:50 ET — tick — 1 sell(s), 0 buy(s) from standing orders
