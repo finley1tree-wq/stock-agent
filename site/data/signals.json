@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-12T10:34-05:00",
- "note": "tick: watching",
+ "asOf": "2026-11-12T10:35-05:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,40 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "d4380ba2",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 53.97,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 54.01,
-   "pct_away": -0.07,
-   "good_until": "2026-11-17",
-   "why": "close it all at -0.7% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "e697a973",
-   "ticker": "FITB",
-   "kind": "take_profit",
-   "price": 54.0556,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 54.01,
-   "pct_away": 0.08,
-   "good_until": "2026-11-17",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "c946721e",
    "ticker": "ESAB",
    "kind": "take_profit",
@@ -236,27 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 28.28,
-   "pct_away": -0.79,
+   "last": 28.27,
+   "pct_away": -0.75,
    "good_until": "2026-11-17",
    "why": "close it all at -1.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f9ea811f",
-   "ticker": "ENOV",
-   "kind": "take_profit",
-   "price": 28.7611,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 28.28,
-   "pct_away": 1.7,
-   "good_until": "2026-11-17",
-   "why": "close 100% at +0.7% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -280,6 +229,23 @@
    ]
   },
   {
+   "id": "f9ea811f",
+   "ticker": "ENOV",
+   "kind": "take_profit",
+   "price": 28.7611,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 28.27,
+   "pct_away": 1.74,
+   "good_until": "2026-11-17",
+   "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "027510e9",
    "ticker": "ENOV",
    "kind": "buy_limit",
@@ -287,25 +253,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 28.28,
-   "pct_away": -2.04,
-   "good_until": "2026-11-17",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "826f0026",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 52.2927,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 54.01,
-   "pct_away": -3.18,
+   "last": 28.27,
+   "pct_away": -2.0,
    "good_until": "2026-11-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

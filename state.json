@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 4591.13,
+  "spent": 3839.13,
   "deployed": 93750.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -10,7 +10,7 @@
     "FUN": 9.47,
     "ESAB": 806.09,
     "ENOV": 3000.0,
-    "FITB": 771.26,
+    "FITB": 19.26,
     "EL": 34.49
   },
   "deployed_by_ticker": {
@@ -2378,13 +2378,34 @@
       "evidence": "1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +29.9% over the month; 5% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "FITB",
+      "side": "sell",
+      "qty": 13.911674,
+      "status": "filled",
+      "price": 54.06,
+      "proceeds": 752.0,
+      "realized_pnl": 2.0,
+      "realized_pct": 0.27,
+      "date": "2026-11-12",
+      "time_et": "10:35",
+      "ts": 1794497400,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $53.91",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-12",
-  "spent_today": 4591.13,
+  "spent_today": 3839.13,
   "deployed_today": 22500.0,
   "orders_today": 9,
-  "sells_today": 7,
+  "sells_today": 8,
   "sold_today": [
     "NXPI",
     "FUN",
@@ -2405,11 +2426,11 @@
     "FUN": 1794494149,
     "ENOV": 1794422539,
     "NFRX": 1794414794,
-    "FITB": 1794494632,
+    "FITB": 1794497741,
     "DKNG": 1794495150
   },
-  "last_publish_ts": 1794497645,
-  "last_check_ts": 1794497693,
+  "last_publish_ts": 1794497740,
+  "last_check_ts": 1794497786,
   "exp_arm": {
     "ENOV": {
       "params": {
@@ -2433,19 +2454,16 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1794497400,
+  "last_bar_ts": 1794497700,
   "last_decision_ts": 1794497693,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "d4380ba2": 53.97,
-    "e697a973": 54.0556,
     "c946721e": 84.4219,
     "5806be8c": 28.0571,
-    "f9ea811f": 28.7611,
     "d4fe6682": 82.6304,
+    "f9ea811f": 28.7611,
     "027510e9": 27.7032,
-    "826f0026": 52.2927,
     "848d3a14": 81.3927
   }
 }

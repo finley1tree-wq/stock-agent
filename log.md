@@ -70219,3 +70219,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25469.93 (+1.88% on $25000.00 in) · cash $20996.31 · realised +496.31
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on FITB: position closed)
+- SELL 100% FITB [take_profit @ $54.06] -> $752.00 (+0.27%) — close 100% at +0.3% over the average cost
+## 2026-11-12 10:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders
