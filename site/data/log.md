@@ -1,66 +1,3 @@
-
-## 2026-11-12 13:11 ET (Thursday) — week 2026-W46 — budget left $21110.35 (today $28500.00 put to work, 17 buys, 13 sells) — SIM (pretend money) via sim
-  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
-  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
-  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
-  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyV8espFjUbGNyhEdjhM'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25435.88 (+1.74% on $25000.00 in) · cash $21697.79 · realised +447.79
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-12 13:14 ET (Thursday) — week 2026-W46 — budget left $21110.35 (today $28500.00 put to work, 17 buys, 13 sells) — SIM (pretend money) via sim
-  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
-  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
-  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
-  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyVNTZpgfYEFYWcaFWsc'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25434.99 (+1.74% on $25000.00 in) · cash $21697.79 · realised +447.79
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-12 13:17 ET (Thursday) — week 2026-W46 — budget left $21110.35 (today $28500.00 put to work, 17 buys, 13 sells) — SIM (pretend money) via sim
-  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
-  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
-  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
-  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyVarcV72CxJpn295VxH'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25432.83 (+1.73% on $25000.00 in) · cash $21697.79 · realised +447.79
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-- SELL 100% FITB [time stop] -> $746.78 (-0.43%) — held 120 min, the 120-minute limit: out regardless
-## 2026-11-12 13:20 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-12 13:20 ET (Thursday) — week 2026-W46 — budget left $21857.13 (today $28500.00 put to work, 17 buys, 14 sells) — SIM (pretend money) via sim
-  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
-  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
-  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
-  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyVny1o6TnKTMkFVLVmY'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25428.68 (+1.71% on $25000.00 in) · cash $22444.57 · realised +444.57
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on ESAB: position closed)
-- SELL 100% ESAB [stop_loss @ $82.43] -> $738.12 (-1.58%) — close it all at -1.5% under the average cost
-## 2026-11-12 13:23 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-12 13:23 ET (Thursday) — week 2026-W46 — budget left $22595.25 (today $28500.00 put to work, 17 buys, 15 sells) — SIM (pretend money) via sim
   (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
   (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
   (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
@@ -398,3 +335,66 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25422.71 (+1.69% on $25000.00 in) · cash $24677.67 · realised +427.67
 Decision: nothing at this check. 2 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 14:30 ET (Thursday) — week 2026-W46 — budget left $24090.24 (today $28500.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
+  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+  (ITIC excluded: too thinly traded ($15.4M a day) — Investors Title Company)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgybAU3hzKWh1vqXuuWtc'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25422.30 (+1.69% on $25000.00 in) · cash $24677.67 · realised +427.67
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 14:33 ET (Thursday) — week 2026-W46 — budget left $24090.24 (today $28500.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
+  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+  (ITIC excluded: too thinly traded ($15.4M a day) — Investors Title Company)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgybNziWQTfboW5AyUyG7'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25421.83 (+1.69% on $25000.00 in) · cash $24677.67 · realised +427.67
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 14:36 ET (Thursday) — week 2026-W46 — budget left $24090.24 (today $28500.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
+  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+  (ITIC excluded: too thinly traded ($15.4M a day) — Investors Title Company)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgybbikSKbKhzg8VjbGZD'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25420.01 (+1.68% on $25000.00 in) · cash $24677.67 · realised +427.67
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 14:39 ET (Thursday) — week 2026-W46 — budget left $24090.24 (today $28500.00 put to work, 17 buys, 17 sells) — SIM (pretend money) via sim
+  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+  (ITIC excluded: too thinly traded ($15.4M a day) — Investors Title Company)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgybpmTmb9Dmwx84Eabae'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25419.53 (+1.68% on $25000.00 in) · cash $24677.67 · realised +427.67
+Decision: nothing at this check. 2 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on EL: position closed)
+- SELL 100% EL [stop_loss @ $109.72] -> $741.18 (-1.18%) — close it all at -1.1% under the average cost
+## 2026-11-12 14:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
