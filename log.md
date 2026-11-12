@@ -70905,3 +70905,19 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 portfolio: equity $25445.71 (+1.78% on $25000.00 in) · cash $23197.79 · realised +447.79
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 12:52 ET (Thursday) — week 2026-W46 — budget left $22610.35 (today $27000.00 put to work, 15 buys, 13 sells) — SIM (pretend money) via sim
+  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyTfXqHeNvQGGghhebxr'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,610 idle, so opened 2: RPM, EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped RPM: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped EL: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25447.55 (+1.79% on $25000.00 in) · cash $23197.79 · realised +447.79
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
