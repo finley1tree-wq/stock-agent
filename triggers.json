@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "fbc9ddea",
-   "ticker": "LRN",
-   "kind": "take_profit",
-   "price": 80.2045,
-   "status": "cancelled",
-   "created": "2026-11-05 09:35",
-   "created_ts": 1793889338,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $79.85",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-10",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-05 09:42",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "59d00d33",
    "ticker": "LRN",
    "kind": "stop_loss",
@@ -7426,7 +7407,7 @@
    "ticker": "FUN",
    "kind": "take_profit",
    "price": 11.0174,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-12 09:32",
    "created_ts": 1794493959,
    "why": "close 100% at +0.8% over the average cost",
@@ -7436,14 +7417,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-12 09:35",
+   "cancel_reason": "position closed"
   },
   {
    "id": "de9e4c1e",
    "ticker": "FUN",
    "kind": "stop_loss",
    "price": 10.7113,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-12 09:32",
    "created_ts": 1794493959,
    "why": "close it all at -2.0% under the average cost",
@@ -7453,14 +7436,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-12 09:34",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "8a215ce5",
    "ticker": "FUN",
    "kind": "buy_limit",
    "price": 10.6021,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-12 09:32",
    "created_ts": 1794493959,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7470,8 +7455,28 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-17",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-12 09:35",
+   "cancel_reason": "position closed"
+  },
+  {
+   "id": "6c8ffac4",
+   "ticker": "FUN",
+   "kind": "stop_loss",
+   "price": 10.966,
+   "status": "filled",
+   "created": "2026-11-12 09:34",
+   "created_ts": 1794494061,
+   "why": "close it all at -2.0% under the average cost",
+   "evidence": "average cost $10.93",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-17",
+   "pct_of_position": 100.0,
+   "closed": "2026-11-12 09:35"
   }
  ],
- "updated": "2026-11-12 09:32"
+ "updated": "2026-11-12 09:35"
 }

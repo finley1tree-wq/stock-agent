@@ -1,14 +1,3 @@
-  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
-  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwfdZ24gwdVL5nhYtyt1'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25587.20 (+2.35% on $25000.00 in) · cash $23340.95 · realised +590.95
-Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-11-11 14:11 ET (Wednesday) — week 2026-W46 — budget left $22824.52 (today $33000.00 put to work, 23 buys, 20 sells) — SIM (pretend money) via sim
@@ -398,3 +387,14 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 targe
 ~ WORKING buy_limit $500.00 FUN @ $10.60 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25581.25 (+2.32% on $25000.00 in) · cash $10587.42 · realised +587.42
 Done: 0 sell(s), 5 buy(s); 15 order(s) working; budget left $10000.00 this week
+
+## 2026-11-12 09:35 ET (Thursday) — week 2026-W46 — budget left $10000.00 (today $15000.00 put to work, 5 buys, 1 sells) — SIM (pretend money) via sim
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (NOKBF excluded: too thinly traded ($8.1M a day) — Nokia Oyj)
+  (cancelled 2 standing order(s) on FUN: position closed)
+- SELL 100% FUN [stop_loss @ $10.92] -> $2999.86 (-0.00%) — close it all at -2.0% under the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyCeMvhueuxZmuBHd6uk'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25558.50 (+2.23% on $25000.00 in) · cash $13587.29 · realised +587.29
+Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 12 order(s) working; budget left $12999.86 this week
