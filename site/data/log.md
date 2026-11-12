@@ -1,6 +1,3 @@
-Decision: nothing at this check. 9 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 3 resting buy order(s): past the entry cutoff)
 
 ## 2026-11-11 14:02 ET (Wednesday) — week 2026-W46 — budget left $22824.52 (today $33000.00 put to work, 23 buys, 20 sells) — SIM (pretend money) via sim
   (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
@@ -398,3 +395,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25591.67 (+2.37% on $25000.00 in) · cash $24845.68 · realised +595.68
 Decision: nothing at this check. 2 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-11-11 20:52 ET — published the session's closing state
+- SELL 100% NXPI [time stop] -> $741.75 (-1.10%) — held 1174 min, the 120-minute limit: out regardless
+## 2026-11-12 09:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
