@@ -1,7 +1,7 @@
 {
  "pretend_money": true,
  "start_usd": 10000,
- "cash": 8292.896623,
+ "cash": 8173.529195,
  "holdings": {
   "HYPE": {
    "asset": "HYPE",
@@ -11,9 +11,9 @@
    "since": "2026-09-30",
    "strategy": "hold",
    "stage": "PROBATION",
-   "price": 72.59,
-   "value_usd": 79.22,
-   "pnl_usd": -16.93
+   "price": 72.21,
+   "value_usd": 78.81,
+   "pnl_usd": -17.35
   },
   "LINK": {
    "asset": "LINK",
@@ -23,9 +23,9 @@
    "since": "2026-09-30",
    "strategy": "hold",
    "stage": "SURVIVOR",
-   "price": 10.347,
-   "value_usd": 274.58,
-   "pnl_usd": -110.03
+   "price": 10.164,
+   "value_usd": 269.73,
+   "pnl_usd": -114.89
   },
   "LTC": {
    "asset": "LTC",
@@ -35,9 +35,9 @@
    "since": "2026-09-30",
    "strategy": "hold",
    "stage": "PROBATION",
-   "price": 50.658,
-   "value_usd": 70.57,
-   "pnl_usd": -25.58
+   "price": 50.01,
+   "value_usd": 69.67,
+   "pnl_usd": -26.49
   },
   "XLM": {
    "asset": "XLM",
@@ -47,9 +47,9 @@
    "since": "2026-09-30",
    "strategy": "hold",
    "stage": "PROBATION",
-   "price": 0.148835,
-   "value_usd": 64.59,
-   "pnl_usd": -31.56
+   "price": 0.14734,
+   "value_usd": 63.95,
+   "pnl_usd": -32.21
   },
   "XRP": {
    "asset": "XRP",
@@ -59,9 +59,9 @@
    "since": "2026-09-30",
    "strategy": "hold",
    "stage": "PROBATION",
-   "price": 1.0603,
-   "value_usd": 67.53,
-   "pnl_usd": -28.63
+   "price": 1.0506,
+   "value_usd": 66.91,
+   "pnl_usd": -29.25
   },
   "NEAR": {
    "asset": "NEAR",
@@ -71,9 +71,21 @@
    "since": "2026-10-10",
    "strategy": "hold",
    "stage": "SURVIVOR",
-   "price": 3.6667,
-   "value_usd": 236.04,
-   "pnl_usd": -106.84
+   "price": 3.5723,
+   "value_usd": 229.97,
+   "pnl_usd": -112.92
+  },
+  "PUMP": {
+   "asset": "PUMP",
+   "qty": 34038.90335878176,
+   "entry_px": 0.003484,
+   "cost_usd": 119.36742758127393,
+   "since": "2026-11-11",
+   "strategy": "rsi_rev",
+   "stage": "PROBATION",
+   "price": 0.003484,
+   "value_usd": 118.59,
+   "pnl_usd": -0.78
   }
  },
  "realized": -594.99,
@@ -822,10 +834,14 @@
   [
    "2026-11-11T21:58:02+00:00",
    9085.44
+  ],
+  [
+   "2026-11-12T03:02:39+00:00",
+   9071.15
   ]
  ],
- "last_decision_day": "2026-11-10",
- "decided_for": "2026-11-11",
+ "last_decision_day": "2026-11-11",
+ "decided_for": "2026-11-12",
  "universe": [
   "ADA",
   "AERO",
@@ -833,7 +849,6 @@
   "DOGE",
   "ENA",
   "ETH",
-  "HBAR",
   "HYPE",
   "LINK",
   "LTC",
@@ -848,27 +863,13 @@
   "XRP",
   "ZEC"
  ],
- "generated_at": "2026-11-11T21:58:02+00:00",
- "equity": 9085.44,
+ "generated_at": "2026-11-12T03:02:39+00:00",
+ "equity": 9071.15,
  "fees": {
   "fee_pct": 0.6,
   "slippage_pct": 0.05
  },
  "recent_fills": [
-  {
-   "ts": "2026-10-09T02:13:50+00:00",
-   "day": "2026-10-08",
-   "side": "sell",
-   "asset": "ETH",
-   "qty": 0.14165432864830832,
-   "price": 2480.2,
-   "usd": 349.05,
-   "pnl": -35.57,
-   "pct": -9.248,
-   "cost_pct": 0.65,
-   "strategy": "trend_ma",
-   "why": "trend_ma went flat"
-  },
   {
    "ts": "2026-10-09T02:13:50+00:00",
    "day": "2026-10-08",
@@ -1258,6 +1259,18 @@
    "cost_pct": 0.65,
    "strategy": "hold",
    "why": "left the liquid universe"
+  },
+  {
+   "ts": "2026-11-12T03:02:39+00:00",
+   "day": "2026-11-11",
+   "side": "buy",
+   "asset": "PUMP",
+   "qty": 34038.90335878176,
+   "price": 0.003484,
+   "usd": 119.37,
+   "cost_pct": 0.65,
+   "strategy": "rsi_rev",
+   "stage": "PROBATION"
   }
  ]
 }
