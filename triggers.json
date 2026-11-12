@@ -7465,7 +7465,7 @@
    "ticker": "EL",
    "kind": "buy_limit",
    "price": 107.6894,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-12 13:01",
    "created_ts": 1794506480,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7475,7 +7475,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-17",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-12 14:00",
+   "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   },
   {
    "id": "d60e21ed",
