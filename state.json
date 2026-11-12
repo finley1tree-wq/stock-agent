@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 9082.14,
+  "spent": 6056.64,
   "deployed": 92250.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -11,8 +11,7 @@
     "ESAB": 56.09,
     "ENOV": 3000.0,
     "FITB": 21.26,
-    "EL": 3000.0,
-    "DKNG": 3000.0
+    "EL": 3000.0
   },
   "deployed_by_ticker": {
     "ESAB": 15750.0,
@@ -2297,19 +2296,41 @@
       ],
       "evidence": "average cost $106.78",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "DKNG",
+      "side": "sell",
+      "qty": 156.513595,
+      "status": "filled",
+      "price": 19.33,
+      "proceeds": 3025.5,
+      "realized_pnl": 25.5,
+      "realized_pct": 0.85,
+      "date": "2026-11-12",
+      "time_et": "09:52",
+      "ts": 1794495000,
+      "why": "close 100% at +0.8% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $19.17",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-12",
-  "spent_today": 9082.14,
+  "spent_today": 6056.64,
   "deployed_today": 21000.0,
   "orders_today": 7,
-  "sells_today": 5,
+  "sells_today": 6,
   "sold_today": [
     "NXPI",
     "FUN",
     "FITB",
     "ESAB",
-    "RPM"
+    "RPM",
+    "DKNG"
   ],
   "sold_ts": {
     "ESAB": 1794494807,
@@ -2322,10 +2343,11 @@
     "FUN": 1794494149,
     "ENOV": 1794422539,
     "NFRX": 1794414794,
-    "FITB": 1794494632
+    "FITB": 1794494632,
+    "DKNG": 1794495150
   },
-  "last_publish_ts": 1794495010,
-  "last_check_ts": 1794495058,
+  "last_publish_ts": 1794495149,
+  "last_check_ts": 1794495149,
   "exp_arm": {
     "ENOV": {
       "params": {
@@ -2375,14 +2397,11 @@
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "47425e3b": 19.248,
-    "4b942960": 19.3306,
     "f9ea811f": 28.7611,
-    "5806be8c": 28.0571,
-    "027510e9": 27.7032,
-    "80b6f366": 18.5949,
-    "22be790e": 112.5006,
     "8fbc9e98": 110.7824,
-    "4c803d66": 108.6497
+    "22be790e": 112.5006,
+    "5806be8c": 28.0571,
+    "4c803d66": 108.6497,
+    "027510e9": 27.7032
   }
 }

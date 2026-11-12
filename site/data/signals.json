@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-12T09:50-05:00",
+ "asOf": "2026-11-12T09:52-05:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,40 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "47425e3b",
-   "ticker": "DKNG",
-   "kind": "stop_loss",
-   "price": 19.248,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 19.26,
-   "pct_away": -0.06,
-   "good_until": "2026-11-17",
-   "why": "close it all at -2.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4b942960",
-   "ticker": "DKNG",
-   "kind": "take_profit",
-   "price": 19.3306,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 19.26,
-   "pct_away": 0.37,
-   "good_until": "2026-11-17",
-   "why": "close 100% at +0.8% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "f9ea811f",
    "ticker": "ENOV",
    "kind": "take_profit",
@@ -223,6 +189,40 @@
    "pct_away": 0.67,
    "good_until": "2026-11-17",
    "why": "close 100% at +0.7% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "8fbc9e98",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 110.7824,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 111.62,
+   "pct_away": -0.75,
+   "good_until": "2026-11-17",
+   "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "22be790e",
+   "ticker": "EL",
+   "kind": "take_profit",
+   "price": 112.5006,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 111.62,
+   "pct_away": 0.79,
+   "good_until": "2026-11-17",
+   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -246,6 +246,23 @@
    ]
   },
   {
+   "id": "4c803d66",
+   "ticker": "EL",
+   "kind": "buy_limit",
+   "price": 108.6497,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 111.62,
+   "pct_away": -2.66,
+   "good_until": "2026-11-17",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "027510e9",
    "ticker": "ENOV",
    "kind": "buy_limit",
@@ -255,74 +272,6 @@
    "trail_pct": null,
    "last": 28.57,
    "pct_away": -3.03,
-   "good_until": "2026-11-17",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "80b6f366",
-   "ticker": "DKNG",
-   "kind": "buy_limit",
-   "price": 18.5949,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 19.26,
-   "pct_away": -3.45,
-   "good_until": "2026-11-17",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "22be790e",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 112.5006,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-11-17",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "8fbc9e98",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 110.7824,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-11-17",
-   "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "4c803d66",
-   "ticker": "EL",
-   "kind": "buy_limit",
-   "price": 108.6497,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": null,
-   "pct_away": null,
    "good_until": "2026-11-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

@@ -7400,7 +7400,7 @@
    "ticker": "DKNG",
    "kind": "take_profit",
    "price": 19.3306,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-12 09:39",
    "created_ts": 1794494361,
    "why": "close 100% at +0.8% over the average cost",
@@ -7410,7 +7410,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-12 09:52"
   },
   {
    "id": "9e2c05ef",
@@ -7436,7 +7437,7 @@
    "ticker": "DKNG",
    "kind": "buy_limit",
    "price": 18.5949,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-12 09:39",
    "created_ts": 1794494361,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7446,7 +7447,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-17",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-12 09:52",
+   "cancel_reason": "position closed"
   },
   {
    "id": "5a5bd4b2",
@@ -7471,7 +7474,7 @@
    "ticker": "DKNG",
    "kind": "stop_loss",
    "price": 19.248,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-12 09:49",
    "created_ts": 1794494980,
    "why": "close it all at -2.1% under the average cost",
@@ -7481,8 +7484,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-17",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-12 09:52",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-11-12 09:50"
+ "updated": "2026-11-12 09:52"
 }

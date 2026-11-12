@@ -69997,3 +69997,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25521.06 (+2.08% on $25000.00 in) · cash $16505.30 · realised +505.30
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on DKNG: position closed)
+- SELL 100% DKNG [take_profit @ $19.33] -> $3025.50 (+0.85%) — close 100% at +0.8% over the average cost
+## 2026-11-12 09:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
