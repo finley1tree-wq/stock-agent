@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 1640.3,
+  "spent": 883.74,
   "deployed": 95250.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -11,8 +11,7 @@
     "ESAB": 51.55,
     "ENOV": 55.71,
     "FITB": 19.26,
-    "EL": 34.49,
-    "DKNG": 750.0
+    "EL": 34.49
   },
   "deployed_by_ticker": {
     "ESAB": 16500.0,
@@ -2482,13 +2481,34 @@
       ],
       "evidence": "average cost $28.56",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "DKNG",
+      "side": "sell",
+      "qty": 39.478679,
+      "status": "filled",
+      "price": 19.16,
+      "proceeds": 756.56,
+      "realized_pnl": 6.56,
+      "realized_pct": 0.87,
+      "date": "2026-11-12",
+      "time_et": "11:02",
+      "ts": 1794499200,
+      "why": "close 100% at +0.9% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $19",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-12",
-  "spent_today": 1640.3,
+  "spent_today": 883.74,
   "deployed_today": 24000.0,
   "orders_today": 11,
-  "sells_today": 10,
+  "sells_today": 11,
   "sold_today": [
     "NXPI",
     "FUN",
@@ -2511,10 +2531,10 @@
     "ENOV": 1794498945,
     "NFRX": 1794414794,
     "FITB": 1794497741,
-    "DKNG": 1794495150
+    "DKNG": 1794499339
   },
-  "last_publish_ts": 1794499302,
-  "last_check_ts": 1794499302,
+  "last_publish_ts": 1794499338,
+  "last_check_ts": 1794499387,
   "exp_arm": {
     "ENOV": {
       "params": {
@@ -2546,15 +2566,12 @@
     }
   },
   "last_bar_ts": 1794499200,
-  "last_decision_ts": 1794499217,
+  "last_decision_ts": 1794499387,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "057cca5f": 19.1638,
-    "00882fe0": 19.096,
-    "21a952fc": 104.8961,
     "6595342e": 106.1476,
-    "9397e223": 102.6163,
-    "62c35564": 18.43
+    "21a952fc": 104.8961,
+    "9397e223": 102.6163
   }
 }

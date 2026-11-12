@@ -1,6 +1,3 @@
-portfolio: equity $25520.07 (+2.08% on $25000.00 in) · cash $10566.03 · realised +566.03
-Decision: nothing at this check. 15 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 2 standing order(s) on ESAB: position closed)
 - SELL 100% ESAB [stop_loss @ $84.05] -> $2944.77 (-1.84%) — close it all at -1.5% under the average cost
 ## 2026-11-12 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25448.00 (+1.79% on $25000.00 in) · cash $23947.14 · realised +447.14
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on DKNG: position closed)
+- SELL 100% DKNG [take_profit @ $19.16] -> $756.56 (+0.87%) — close 100% at +0.9% over the average cost
+## 2026-11-12 11:02 ET — tick — 1 sell(s), 0 buy(s) from standing orders
