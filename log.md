@@ -70239,3 +70239,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 RPM @ $102.62 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25466.70 (+1.87% on $25000.00 in) · cash $20998.31 · realised +498.31
 Done: 0 sell(s), 1 buy(s); 9 order(s) working; budget left $20410.87 this week
+
+## 2026-11-12 10:40 ET (Thursday) — week 2026-W46 — budget left $20410.87 (today $23250.00 put to work, 10 buys, 8 sells) — SIM (pretend money) via sim
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyHbMGm2ghD5Aa61DQwz'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $20,411 idle, so opened 1: DKNG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 DKNG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 insider bought (Form 4); +0.5% over the month; 25% of today's range
+~ WORKING take_profit 100% DKNG @ $19.16 until 2026-11-17 — close 100% at +0.9% over the average cost
+~ WORKING stop_loss 100% DKNG @ $18.59 until 2026-11-17 — close it all at -2.2% under the average cost
+~ WORKING buy_limit $500.00 DKNG @ $18.43 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25461.94 (+1.85% on $25000.00 in) · cash $20248.31 · realised +498.31
+Done: 0 sell(s), 1 buy(s); 12 order(s) working; budget left $19660.87 this week
