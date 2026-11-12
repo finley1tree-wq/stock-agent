@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-12T13:23-05:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-11-12T13:34-05:00",
+ "note": "tick: watching",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,68 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "a0b81820",
-   "ticker": "RPM",
+   "id": "d60e21ed",
+   "ticker": "DKNG",
    "kind": "stop_loss",
-   "price": 103.9671,
+   "price": 19.244,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 104.5,
-   "pct_away": -0.51,
+   "last": 19.28,
+   "pct_away": -0.19,
    "good_until": "2026-11-17",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1d9be0dd",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 111.5185,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 110.8,
-   "pct_away": 0.65,
-   "good_until": "2026-11-17",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "2102da8b",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 105.2318,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 104.5,
-   "pct_away": 0.7,
-   "good_until": "2026-11-17",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "57ae0a05",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 109.7732,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 110.8,
-   "pct_away": -0.93,
-   "good_until": "2026-11-17",
-   "why": "close it all at -1.1% under the average cost",
+   "why": "close it all at -2.1% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,8 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 19.14,
-   "pct_away": 1.12,
+   "last": 19.28,
+   "pct_away": 0.38,
    "good_until": "2026-11-17",
    "why": "close 100% at +0.9% over the average cost",
    "signals": [
@@ -263,17 +212,85 @@
    ]
   },
   {
-   "id": "9fe64469",
-   "ticker": "DKNG",
+   "id": "a0b81820",
+   "ticker": "RPM",
    "kind": "stop_loss",
-   "price": 18.7805,
+   "price": 103.9671,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 19.14,
-   "pct_away": -1.88,
+   "last": 104.46,
+   "pct_away": -0.47,
    "good_until": "2026-11-17",
-   "why": "close it all at -2.1% under the average cost",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "57ae0a05",
+   "ticker": "EL",
+   "kind": "stop_loss",
+   "price": 109.7732,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 110.5,
+   "pct_away": -0.66,
+   "good_until": "2026-11-17",
+   "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "2102da8b",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 105.2318,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 104.46,
+   "pct_away": 0.74,
+   "good_until": "2026-11-17",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1d9be0dd",
+   "ticker": "EL",
+   "kind": "take_profit",
+   "price": 111.5185,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 110.5,
+   "pct_away": 0.92,
+   "good_until": "2026-11-17",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9e2f66fc",
+   "ticker": "EL",
+   "kind": "buy_limit",
+   "price": 107.6894,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 110.5,
+   "pct_away": -2.54,
+   "good_until": "2026-11-17",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -287,8 +304,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 104.5,
-   "pct_away": -2.66,
+   "last": 104.46,
+   "pct_away": -2.62,
    "good_until": "2026-11-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -304,25 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 19.14,
-   "pct_away": -2.75,
-   "good_until": "2026-11-17",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9e2f66fc",
-   "ticker": "EL",
-   "kind": "buy_limit",
-   "price": 107.6894,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 110.8,
-   "pct_away": -2.81,
+   "last": 19.28,
+   "pct_away": -3.45,
    "good_until": "2026-11-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
