@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-11-12 10:17 ET
+# Pretend portfolio — 2026-11-12 10:20 ET
 
-**Equity $25493.85** on $25000.00 put in → **+1.98%**  
-Cash $19530.80 · Unrealised -36.95 · Realised +530.80
+**Equity $25478.51** on $25000.00 put in → **+1.91%**  
+Cash $19530.80 · Unrealised -52.29 · Realised +530.80
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| ENOV | 11.7% | $2985.15 | $28.56 | $28.42 | -0.50% | 0d |
-| EL | 11.7% | $2977.91 | $112.01 | $111.19 | -0.74% | 0d |
+| ENOV | 11.7% | $2975.69 | $28.56 | $28.33 | -0.81% | 0d |
+| EL | 11.7% | $2972.02 | $112.01 | $110.97 | -0.93% | 0d |
 
 ## Last fills
 
