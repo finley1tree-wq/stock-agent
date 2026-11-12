@@ -1,20 +1,3 @@
-## 2026-11-11 14:14 ET (Wednesday) — week 2026-W46 — budget left $22824.52 (today $33000.00 put to work, 23 buys, 20 sells) — SIM (pretend money) via sim
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
-  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
-  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgwg4uv7XU7yh2K9oGNHr'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25587.40 (+2.35% on $25000.00 in) · cash $23340.95 · realised +590.95
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-11 14:16 ET (Wednesday) — week 2026-W46 — budget left $22824.52 (today $33000.00 put to work, 23 buys, 20 sells) — SIM (pretend money) via sim
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
   (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
   (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
   (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
@@ -398,3 +381,20 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 ESAB @ $83.05 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25563.49 (+2.25% on $25000.00 in) · cash $10587.29 · realised +587.29
 Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $9999.86 this week
+
+## 2026-11-12 09:39 ET (Thursday) — week 2026-W46 — budget left $9999.86 (today $18000.00 put to work, 6 buys, 2 sells) — SIM (pretend money) via sim
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyCvhm14JVVSZKn5mF77'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $10,000 idle, so opened 1: DKNG. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 DKNG [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4); +1.4% over the month; 8% of today's range
+~ WORKING take_profit 100% DKNG @ $19.33 until 2026-11-17 — close 100% at +0.8% over the average cost
+~ WORKING stop_loss 100% DKNG @ $18.77 until 2026-11-17 — close it all at -2.1% under the average cost
+~ WORKING buy_limit $500.00 DKNG @ $18.59 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25575.79 (+2.30% on $25000.00 in) · cash $7587.29 · realised +587.29
+Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $6999.86 this week
