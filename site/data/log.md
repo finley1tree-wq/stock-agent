@@ -1,146 +1,3 @@
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25587.84 (+2.35% on $25000.00 in) · cash $23340.95 · realised +590.95
-Decision: nothing at this check. 6 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 1 standing order(s) on RPM: position closed)
-- SELL 100% RPM [take_profit @ $106.36] -> $754.20 (+0.56%) — close 100% at +0.3% over the average cost
-## 2026-11-11 14:30 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-11 14:31 ET (Wednesday) — week 2026-W46 — budget left $23578.72 (today $33000.00 put to work, 23 buys, 21 sells) — SIM (pretend money) via sim
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
-  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
-  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwhQK6HF2WxMFkUf8bGL'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25592.28 (+2.37% on $25000.00 in) · cash $24095.15 · realised +595.15
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-11 14:34 ET (Wednesday) — week 2026-W46 — budget left $23578.72 (today $33000.00 put to work, 23 buys, 21 sells) — SIM (pretend money) via sim
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
-  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
-  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwhdAbuwn7qrsPRH69Hn'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25591.34 (+2.37% on $25000.00 in) · cash $24095.15 · realised +595.15
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-11 14:37 ET (Wednesday) — week 2026-W46 — budget left $23578.72 (today $33000.00 put to work, 23 buys, 21 sells) — SIM (pretend money) via sim
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
-  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
-  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgwhr7TG75JHtB5XQUHBV'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25592.79 (+2.37% on $25000.00 in) · cash $24095.15 · realised +595.15
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-11 14:40 ET (Wednesday) — week 2026-W46 — budget left $23578.72 (today $33000.00 put to work, 23 buys, 21 sells) — SIM (pretend money) via sim
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
-  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
-  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgwi4HdGuaB3qKmbaLzBh'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25593.12 (+2.37% on $25000.00 in) · cash $24095.15 · realised +595.15
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-11 14:43 ET (Wednesday) — week 2026-W46 — budget left $23578.72 (today $33000.00 put to work, 23 buys, 21 sells) — SIM (pretend money) via sim
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
-  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
-  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwiHDy7zQ6XHNR88kjP7'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25591.80 (+2.37% on $25000.00 in) · cash $24095.15 · realised +595.15
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-11 14:46 ET (Wednesday) — week 2026-W46 — budget left $23578.72 (today $33000.00 put to work, 23 buys, 21 sells) — SIM (pretend money) via sim
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
-  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
-  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwiW13cbFdZToRJJsoY9'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25591.95 (+2.37% on $25000.00 in) · cash $24095.15 · realised +595.15
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-11 14:48 ET (Wednesday) — week 2026-W46 — budget left $23578.72 (today $33000.00 put to work, 23 buys, 21 sells) — SIM (pretend money) via sim
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
-  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
-  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwiiwtxXVP8u9xYH18QG'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-  (re-pinned 1 order(s) to the new average cost)
-~ WORKING stop_loss 100% EL @ $112.67 until 2026-11-16 — close it all at -1.1% under the average cost
-portfolio: equity $25593.26 (+2.37% on $25000.00 in) · cash $24095.15 · realised +595.15
-Decision: nothing at this check. 4 standing order(s) working.
-
-## 2026-11-11 14:51 ET (Wednesday) — week 2026-W46 — budget left $23578.72 (today $33000.00 put to work, 23 buys, 21 sells) — SIM (pretend money) via sim
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
-  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
-  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgwix9DTkaqr2soWDRgJE'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25593.55 (+2.37% on $25000.00 in) · cash $24095.15 · realised +595.15
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-11 14:54 ET (Wednesday) — week 2026-W46 — budget left $23578.72 (today $33000.00 put to work, 23 buys, 21 sells) — SIM (pretend money) via sim
-  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
-  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
-  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
-  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
-  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
-  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgwjAttcMLGkrbK92jxhQ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25594.12 (+2.38% on $25000.00 in) · cash $24095.15 · realised +595.15
-Decision: nothing at this check. 4 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
   (cancelled 1 standing order(s) on EL: position closed)
 - SELL 100% EL [stop_loss @ $112.58] -> $750.52 (+0.07%) — close it all at -1.1% under the average cost
 ## 2026-11-11 14:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders
@@ -398,3 +255,146 @@ Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 2 standing order(s) on DKNG: position closed)
 - SELL 100% DKNG [take_profit @ $19.33] -> $3025.50 (+0.85%) — close 100% at +0.8% over the average cost
 ## 2026-11-12 09:52 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-12 09:53 ET (Thursday) — week 2026-W46 — budget left $18943.36 (today $21000.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyE3P3RwefYV43pUkhkD'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25516.04 (+2.06% on $25000.00 in) · cash $19530.80 · realised +530.80
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 09:56 ET (Thursday) — week 2026-W46 — budget left $18943.36 (today $21000.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyEFuGTdnMLtyHwQJSpv'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25515.65 (+2.06% on $25000.00 in) · cash $19530.80 · realised +530.80
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 09:59 ET (Thursday) — week 2026-W46 — budget left $18943.36 (today $21000.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyEUgjWKkGqXWowe4BWB'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25490.21 (+1.96% on $25000.00 in) · cash $19530.80 · realised +530.80
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 10:02 ET (Thursday) — week 2026-W46 — budget left $18943.36 (today $21000.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyEi2nMwXNA2jfEiXAFB'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25496.14 (+1.98% on $25000.00 in) · cash $19530.80 · realised +530.80
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 10:05 ET (Thursday) — week 2026-W46 — budget left $18943.36 (today $21000.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyEvxaj9eUtvT5RuJqn6'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25490.58 (+1.96% on $25000.00 in) · cash $19530.80 · realised +530.80
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 10:08 ET (Thursday) — week 2026-W46 — budget left $18943.36 (today $21000.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyFAJYdN82KNQDrSu5Y2'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25509.22 (+2.04% on $25000.00 in) · cash $19530.80 · realised +530.80
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 10:11 ET (Thursday) — week 2026-W46 — budget left $18943.36 (today $21000.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyFNfxpq47pUyPTa4iPw'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25508.48 (+2.03% on $25000.00 in) · cash $19530.80 · realised +530.80
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 10:14 ET (Thursday) — week 2026-W46 — budget left $18943.36 (today $21000.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyFbbLsESB83U25u8pht'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25516.82 (+2.07% on $25000.00 in) · cash $19530.80 · realised +530.80
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 10:17 ET (Thursday) — week 2026-W46 — budget left $18943.36 (today $21000.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyFpfBQp2bCsmJ9yhD9q'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25493.85 (+1.98% on $25000.00 in) · cash $19530.80 · realised +530.80
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 10:20 ET (Thursday) — week 2026-W46 — budget left $18943.36 (today $21000.00 put to work, 7 buys, 6 sells) — SIM (pretend money) via sim
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyG3Q2CfQ1zQ3Lkrotzp'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25478.51 (+1.91% on $25000.00 in) · cash $19530.80 · realised +530.80
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on EL: position closed)
+- SELL 100% EL [stop_loss @ $110.73] -> $2965.51 (-1.15%) — close it all at -1.1% under the average cost
+## 2026-11-12 10:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders

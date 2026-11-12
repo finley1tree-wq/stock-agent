@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 6056.64,
+  "spent": 3091.13,
   "deployed": 92250.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -11,7 +11,7 @@
     "ESAB": 56.09,
     "ENOV": 3000.0,
     "FITB": 21.26,
-    "EL": 3000.0
+    "EL": 34.49
   },
   "deployed_by_ticker": {
     "ESAB": 15750.0,
@@ -2317,24 +2317,46 @@
       ],
       "evidence": "average cost $19.17",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "EL",
+      "side": "sell",
+      "qty": 26.782178,
+      "status": "filled",
+      "price": 110.73,
+      "proceeds": 2965.51,
+      "realized_pnl": -34.49,
+      "realized_pct": -1.15,
+      "date": "2026-11-12",
+      "time_et": "10:22",
+      "ts": 1794496800,
+      "why": "close it all at -1.1% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $112.01",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-12",
-  "spent_today": 6056.64,
+  "spent_today": 3091.13,
   "deployed_today": 21000.0,
   "orders_today": 7,
-  "sells_today": 6,
+  "sells_today": 7,
   "sold_today": [
     "NXPI",
     "FUN",
     "FITB",
     "ESAB",
     "RPM",
-    "DKNG"
+    "DKNG",
+    "EL"
   ],
   "sold_ts": {
     "ESAB": 1794494807,
-    "EL": 1794426932,
+    "EL": 1794496943,
     "RPM": 1794495011,
     "PLD": 1794240790,
     "NXPI": 1794493830,
@@ -2346,8 +2368,8 @@
     "FITB": 1794494632,
     "DKNG": 1794495150
   },
-  "last_publish_ts": 1794495149,
-  "last_check_ts": 1794496904,
+  "last_publish_ts": 1794496942,
+  "last_check_ts": 1794496990,
   "exp_arm": {
     "ENOV": {
       "params": {
@@ -2393,15 +2415,12 @@
     }
   },
   "last_bar_ts": 1794496800,
-  "last_decision_ts": 1794496813,
+  "last_decision_ts": 1794496990,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "f9ea811f": 28.7611,
-    "8fbc9e98": 110.7824,
-    "22be790e": 112.5006,
     "5806be8c": 28.0571,
-    "4c803d66": 108.6497,
+    "f9ea811f": 28.7611,
     "027510e9": 27.7032
   }
 }
