@@ -1,20 +1,20 @@
 {
   "week": "2026-W46",
-  "spent": 12000.14,
-  "deployed": 86250.0,
+  "spent": 15000.14,
+  "deployed": 89250.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 56.38,
     "RPM": 3004.74,
     "NFRX": 14.96,
     "FUN": 9.47,
-    "ESAB": 0.86,
+    "ESAB": 3000.86,
     "ENOV": 3000.0,
     "FITB": 3000.0,
     "EL": 3000.0
   },
   "deployed_by_ticker": {
-    "ESAB": 12750.0,
+    "ESAB": 15750.0,
     "RPM": 15750.0,
     "EL": 15750.0,
     "PLD": 1500.0,
@@ -2192,12 +2192,32 @@
       ],
       "evidence": "average cost $10.93",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ESAB",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 35.036809,
+      "price": 85.62,
+      "date": "2026-11-12",
+      "time_et": "09:37",
+      "ts": 1794494237,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +32.6% over the month; 56% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-12",
-  "spent_today": 12000.14,
-  "deployed_today": 15000.0,
-  "orders_today": 5,
+  "spent_today": 15000.14,
+  "deployed_today": 18000.0,
+  "orders_today": 6,
   "sells_today": 2,
   "sold_today": [
     "NXPI",
@@ -2215,8 +2235,8 @@
     "ENOV": 1794422539,
     "NFRX": 1794414794
   },
-  "last_publish_ts": 1794494110,
-  "last_check_ts": 1794494110,
+  "last_publish_ts": 1794494237,
+  "last_check_ts": 1794494237,
   "exp_arm": {
     "ENOV": {
       "params": {
@@ -2246,7 +2266,7 @@
       },
       "tags": {}
     },
-    "FUN": {
+    "ESAB": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -2255,21 +2275,24 @@
     }
   },
   "last_bar_ts": 1794494100,
-  "last_decision_ts": 1794494110,
-  "next_check_minutes": null,
+  "last_decision_ts": 1794494237,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "70208e3e": 54.3721,
     "3d685da3": 105.8969,
+    "70208e3e": 54.3721,
+    "22be790e": 112.5006,
+    "f03c00ad": 86.1252,
     "f086820f": 53.8743,
     "f9ea811f": 28.7611,
-    "8fbc9e98": 110.7824,
-    "22be790e": 112.5006,
     "4e71ca20": 107.1334,
+    "8fbc9e98": 110.7824,
+    "5954426d": 84.3562,
     "5806be8c": 28.0571,
     "af87023e": 103.5766,
-    "4c803d66": 108.6497,
     "027510e9": 27.7032,
+    "4c803d66": 108.6497,
+    "f7409b7c": 83.0514,
     "088ef09a": 52.6031
   }
 }

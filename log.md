@@ -69898,3 +69898,20 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
 autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
 portfolio: equity $25558.50 (+2.23% on $25000.00 in) · cash $13587.29 · realised +587.29
 Done: 1 sell(s), 0 buy(s) (incl. 1 from standing orders); 12 order(s) working; budget left $12999.86 this week
+
+## 2026-11-12 09:37 ET (Thursday) — week 2026-W46 — budget left $12999.86 (today $15000.00 put to work, 5 buys, 2 sells) — SIM (pretend money) via sim
+  (AWRE excluded: too thinly traded ($0.0M a day) — Aware, Inc.)
+  (BSM excluded: too thinly traded ($6.1M a day) — Black Stone Minerals, L.P.)
+  (DTI excluded: too thinly traded ($0.3M a day) — Drilling Tools International Corporation)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (JYNT excluded: too thinly traded ($0.5M a day) — The Joint Corp.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyCoWyuywkjoFKJFoUNY'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $13,000 idle, so opened 1: ESAB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 ESAB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Thomas H. Kean), $1,001 - $15,000; +32.6% over the month; 56% of today's range
+~ WORKING take_profit 100% ESAB @ $86.13 until 2026-11-17 — close 100% at +0.6% over the average cost
+~ WORKING stop_loss 100% ESAB @ $84.36 until 2026-11-17 — close it all at -1.5% under the average cost
+~ WORKING buy_limit $500.00 ESAB @ $83.05 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25563.49 (+2.25% on $25000.00 in) · cash $10587.29 · realised +587.29
+Done: 0 sell(s), 1 buy(s); 15 order(s) working; budget left $9999.86 this week
