@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 4584.59,
+  "spent": 1640.3,
   "deployed": 95250.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -9,7 +9,7 @@
     "NFRX": 14.96,
     "FUN": 9.47,
     "ESAB": 51.55,
-    "ENOV": 3000.0,
+    "ENOV": 55.71,
     "FITB": 19.26,
     "EL": 34.49,
     "DKNG": 750.0
@@ -2461,13 +2461,34 @@
       ],
       "evidence": "average cost $83.91",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "ENOV",
+      "side": "sell",
+      "qty": 105.036794,
+      "status": "filled",
+      "price": 28.03,
+      "proceeds": 2944.29,
+      "realized_pnl": -55.71,
+      "realized_pct": -1.86,
+      "date": "2026-11-12",
+      "time_et": "10:55",
+      "ts": 1794498900,
+      "why": "close it all at -1.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $28.56",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-12",
-  "spent_today": 4584.59,
+  "spent_today": 1640.3,
   "deployed_today": 24000.0,
   "orders_today": 11,
-  "sells_today": 9,
+  "sells_today": 10,
   "sold_today": [
     "NXPI",
     "FUN",
@@ -2475,7 +2496,8 @@
     "ESAB",
     "RPM",
     "DKNG",
-    "EL"
+    "EL",
+    "ENOV"
   ],
   "sold_ts": {
     "ESAB": 1794498209,
@@ -2486,13 +2508,13 @@
     "CRH": 1794337610,
     "ECHO": 1794322507,
     "FUN": 1794494149,
-    "ENOV": 1794422539,
+    "ENOV": 1794498945,
     "NFRX": 1794414794,
     "FITB": 1794497741,
     "DKNG": 1794495150
   },
-  "last_publish_ts": 1794498209,
-  "last_check_ts": 1794498855,
+  "last_publish_ts": 1794498945,
+  "last_check_ts": 1794498945,
   "exp_arm": {
     "ENOV": {
       "params": {
@@ -2523,17 +2545,14 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1794498600,
+  "last_bar_ts": 1794498900,
   "last_decision_ts": 1794498855,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "6595342e": 106.1476,
-    "5806be8c": 28.0571,
     "21a952fc": 104.8961,
+    "6595342e": 106.1476,
     "057cca5f": 19.1638,
-    "027510e9": 27.7032,
-    "f9ea811f": 28.7611,
     "2ce1369d": 18.5906,
     "62c35564": 18.43,
     "9397e223": 102.6163

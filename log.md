@@ -70329,3 +70329,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25447.41 (+1.79% on $25000.00 in) · cash $21002.85 · realised +502.85
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ENOV: position closed)
+- SELL 100% ENOV [stop_loss @ $28.03] -> $2944.29 (-1.86%) — close it all at -1.8% under the average cost
+## 2026-11-12 10:55 ET — tick — 1 sell(s), 0 buy(s) from standing orders

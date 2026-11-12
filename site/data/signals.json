@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-12T10:43-05:00",
+ "asOf": "2026-11-12T10:55-05:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,40 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "6595342e",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 106.1476,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 105.92,
-   "pct_away": 0.21,
-   "good_until": "2026-11-17",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "5806be8c",
-   "ticker": "ENOV",
-   "kind": "stop_loss",
-   "price": 28.0571,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 28.23,
-   "pct_away": -0.61,
-   "good_until": "2026-11-17",
-   "why": "close it all at -1.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "21a952fc",
    "ticker": "RPM",
    "kind": "stop_loss",
@@ -219,10 +185,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 105.92,
-   "pct_away": -0.97,
+   "last": 105.46,
+   "pct_away": -0.53,
    "good_until": "2026-11-17",
    "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "6595342e",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 106.1476,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 105.46,
+   "pct_away": 0.65,
+   "good_until": "2026-11-17",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,44 +219,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 18.95,
-   "pct_away": 1.13,
+   "last": 18.89,
+   "pct_away": 1.45,
    "good_until": "2026-11-17",
    "why": "close 100% at +0.9% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "027510e9",
-   "ticker": "ENOV",
-   "kind": "buy_limit",
-   "price": 27.7032,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 28.23,
-   "pct_away": -1.87,
-   "good_until": "2026-11-17",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f9ea811f",
-   "ticker": "ENOV",
-   "kind": "take_profit",
-   "price": 28.7611,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 28.23,
-   "pct_away": 1.88,
-   "good_until": "2026-11-17",
-   "why": "close 100% at +0.7% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -287,8 +236,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 18.95,
-   "pct_away": -1.9,
+   "last": 18.89,
+   "pct_away": -1.58,
    "good_until": "2026-11-17",
    "why": "close it all at -2.2% under the average cost",
    "signals": [
@@ -304,8 +253,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 18.95,
-   "pct_away": -2.74,
+   "last": 18.89,
+   "pct_away": -2.44,
    "good_until": "2026-11-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -321,8 +270,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 105.92,
-   "pct_away": -3.12,
+   "last": 105.46,
+   "pct_away": -2.7,
    "good_until": "2026-11-17",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
