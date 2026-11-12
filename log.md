@@ -69966,3 +69966,17 @@ Decision: nothing at this check. 15 standing order(s) working.
   (cancelled 2 standing order(s) on ESAB: position closed)
 - SELL 100% ESAB [stop_loss @ $84.05] -> $2944.77 (-1.84%) — close it all at -1.5% under the average cost
 ## 2026-11-12 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-12 09:48 ET (Thursday) — week 2026-W46 — budget left $12923.37 (today $21000.00 put to work, 7 buys, 4 sells) — SIM (pretend money) via sim
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyDbQuaUdzFBbLVq1mRb'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25514.16 (+2.06% on $25000.00 in) · cash $13510.80 · realised +510.80
+Decision: nothing at this check. 12 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
