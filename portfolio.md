@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-11-12 10:55 ET
+# Pretend portfolio — 2026-11-12 10:57 ET
 
-**Equity $25440.54** on $25000.00 put in → **+1.76%**  
-Cash $23947.14 · Unrealised -6.60 · Realised +447.14
+**Equity $25442.12** on $25000.00 put in → **+1.77%**  
+Cash $23947.14 · Unrealised -5.02 · Realised +447.14
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
 | RPM | 2.9% | $747.64 | $105.79 | $105.46 | -0.31% | 0d |
-| DKNG | 2.9% | $745.75 | $19.00 | $18.89 | -0.57% | 0d |
+| DKNG | 2.9% | $747.33 | $19.00 | $18.93 | -0.36% | 0d |
 
 ## Last fills
 
