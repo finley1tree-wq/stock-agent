@@ -70171,3 +70171,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25446.79 (+1.79% on $25000.00 in) · cash $22496.31 · realised +496.31
 Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-12 10:29 ET (Thursday) — week 2026-W46 — budget left $21908.87 (today $21000.00 put to work, 7 buys, 7 sells) — SIM (pretend money) via sim
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ETRA excluded: too thinly traded ($4.6M a day) — Electra Therapeutics, Inc.)
+  (FMAO excluded: too thinly traded ($2.1M a day) — Farmers & Merchants Bancorp, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (GSM excluded: too thinly traded ($4.2M a day) — Ferroglobe PLC)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgyGi5Yo7EzXqpHLQU3iJ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,909 idle, so opened 1: FITB. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 FITB [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (1 net buyer); +8.6% over the month; 13% of today's range
+~ WORKING take_profit 100% FITB @ $54.06 until 2026-11-17 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% FITB @ $53.55 until 2026-11-17 — close it all at -0.7% under the average cost
+~ WORKING buy_limit $500.00 FITB @ $52.29 until 2026-11-17 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25446.49 (+1.79% on $25000.00 in) · cash $21746.31 · realised +496.31
+Done: 0 sell(s), 1 buy(s); 6 order(s) working; budget left $21158.87 this week
