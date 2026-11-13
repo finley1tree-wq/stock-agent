@@ -1,39 +1,3 @@
-~ WORKING take_profit 100% ENOV @ $28.38 until 2026-11-18 — close 100% at +0.8% over the average cost
-~ WORKING stop_loss 100% ENOV @ $27.62 until 2026-11-18 — close it all at -1.9% under the average cost
-~ WORKING buy_limit $500.00 ENOV @ $27.32 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CMCSA @ $25.41 until 2026-11-18 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% CMCSA @ $25.12 until 2026-11-18 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 CMCSA @ $24.57 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25408.46 (+1.63% on $25000.00 in) · cash $20910.44 · realised +410.44
-Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $20323.02 this week
-  (cancelled 2 standing order(s) on LNT: position closed)
-- SELL 100% LNT [take_profit @ $73.81] -> $751.63 (+0.22%) — close 100% at +0.2% over the average cost
-## 2026-11-13 11:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-13 11:25 ET (Friday) — week 2026-W46 — budget left $21074.65 (today $46500.00 put to work, 26 buys, 21 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
-  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1Enzik64UeB358QV4Xd'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $21,075 idle, so opened 1: LLY. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 LLY [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +14.9% over the month; 85% of today's range
-~ WORKING take_profit 100% LLY @ $1444.36 until 2026-11-18 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% LLY @ $1424.76 until 2026-11-18 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 LLY @ $1395.60 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25411.41 (+1.65% on $25000.00 in) · cash $20912.07 · realised +412.07
-Done: 0 sell(s), 1 buy(s); 18 order(s) working; budget left $20324.65 this week
-
-## 2026-11-13 11:28 ET (Friday) — week 2026-W46 — budget left $20324.65 (today $47250.00 put to work, 27 buys, 21 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
-  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1F35Tto5wdxFeLx5vrZ'}
   -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $20,325 idle, so opened 2: RPM, CF. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
@@ -398,3 +362,39 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on ARGX: position closed)
 - SELL 100% ARGX [take_profit @ $973.51] -> $752.34 (+0.31%) — close 100% at +0.3% over the average cost
 ## 2026-11-13 12:38 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-13 12:38 ET (Friday) — week 2026-W46 — budget left $22582.70 (today $48750.00 put to work, 29 buys, 26 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1LNRgR3EXnU7v2c9mGy'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,583 idle, so opened 4: ENOV, CMCSA, LNT, EIX. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped ENOV: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CMCSA: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped LNT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped EIX: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25422.93 (+1.69% on $25000.00 in) · cash $23170.13 · realised +420.13
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-13 12:41 ET (Friday) — week 2026-W46 — budget left $22582.70 (today $48750.00 put to work, 29 buys, 26 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1LbWJ6aWN6FXeun7Gzs'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,583 idle, so opened 4: ENOV, CMCSA, EIX, LNT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+  (dropped ENOV: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped CMCSA: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped EIX: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+  (dropped LNT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
+portfolio: equity $25423.06 (+1.69% on $25000.00 in) · cash $23170.13 · realised +420.13
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
