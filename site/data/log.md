@@ -1,6 +1,3 @@
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-13 10:16 ET (Friday) — week 2026-W46 — budget left $21789.88 (today $36000.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
   (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
   (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 targe
 ~ WORKING buy_limit $500.00 CMCSA @ $24.57 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25408.46 (+1.63% on $25000.00 in) · cash $20910.44 · realised +410.44
 Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $20323.02 this week
+  (cancelled 2 standing order(s) on LNT: position closed)
+- SELL 100% LNT [take_profit @ $73.81] -> $751.63 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-11-13 11:22 ET — tick — 1 sell(s), 0 buy(s) from standing orders

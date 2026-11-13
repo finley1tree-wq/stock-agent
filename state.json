@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 4676.98,
+  "spent": 3925.35,
   "deployed": 146250.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -12,7 +12,7 @@
     "ENOV": 762.86,
     "FITB": 22.48,
     "EL": 42.5,
-    "LNT": 754.95,
+    "LNT": 3.32,
     "BBIO": 780.46,
     "ARGX": 771.73,
     "EIX": 8.97,
@@ -3725,13 +3725,34 @@
       "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +16.3% over the month; 83% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "LNT",
+      "side": "sell",
+      "qty": 10.183376,
+      "status": "filled",
+      "price": 73.81,
+      "proceeds": 751.63,
+      "realized_pnl": 1.63,
+      "realized_pct": 0.22,
+      "date": "2026-11-13",
+      "time_et": "11:22",
+      "ts": 1794586800,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $73.65",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 4508.4,
+  "spent_today": 3756.77,
   "deployed_today": 46500.0,
   "orders_today": 26,
-  "sells_today": 20,
+  "sells_today": 21,
   "sold_today": [
     "ARE",
     "CMS",
@@ -3765,13 +3786,13 @@
     "BBIO": 1794583986,
     "CF": 1794584443,
     "CMCSA": 1794584158,
-    "LNT": 1794580865,
+    "LNT": 1794586970,
     "EIX": 1794586537,
     "CSQR": 1794582565,
     "LLY": 1794584068
   },
-  "last_publish_ts": 1794586928,
-  "last_check_ts": 1794586928,
+  "last_publish_ts": 1794586969,
+  "last_check_ts": 1794587015,
   "exp_arm": {
     "ARE": {
       "params": {
@@ -3821,23 +3842,20 @@
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "681b499b": 73.8098,
-    "19f9fc56": 73.698,
-    "b50df503": 973.5079,
     "88187eac": 25.4126,
+    "b50df503": 973.5079,
     "ad0bb4e4": 78.3818,
-    "0a2ad659": 25.1238,
     "4790a6ea": 28.3771,
-    "ab1c9ecd": 42.822,
     "3a07dbff": 962.92,
+    "ab1c9ecd": 42.822,
+    "0a2ad659": 25.1238,
     "56dc0cfb": 43.6174,
     "2c22940c": 77.1862,
     "ca148726": 27.6176,
     "12ed9f14": 42.0883,
-    "aafbecde": 24.5701,
-    "0226110a": 27.3152,
     "da9de6f3": 75.6988,
+    "0226110a": 27.3152,
     "9447a310": 941.3656,
-    "1d612500": 71.4405
+    "aafbecde": 24.5701
   }
 }
