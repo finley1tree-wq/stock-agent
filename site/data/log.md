@@ -1,20 +1,3 @@
-  (dropped LNT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25418.83 (+1.68% on $25000.00 in) · cash $22417.79 · realised +417.79
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-13 12:29 ET (Friday) — week 2026-W46 — budget left $21830.36 (today $48750.00 put to work, 29 buys, 25 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
-  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1KgX9U1TnxTpCAu1Mv7'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,830 idle, so opened 4: ENOV, CMCSA, EIX, LNT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped ENOV: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped CMCSA: culled strategy (hour 12: -119 over 197 trips, t -1.13))
   (dropped EIX: culled strategy (hour 12: -119 over 197 trips, t -1.13))
   (dropped LNT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
 portfolio: equity $25418.29 (+1.67% on $25000.00 in) · cash $22417.79 · realised +417.79
@@ -398,3 +381,20 @@ Decision: nothing at this check. 24 standing order(s) working.
   (cancelled 2 standing order(s) on BBIO: position closed)
 - SELL 100% BBIO [stop_loss @ $78.58] -> $751.04 (+0.14%) — close it all at -1.1% under the average cost
 ## 2026-11-13 13:33 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-13 13:34 ET (Friday) — week 2026-W46 — budget left $19587.28 (today $54750.00 put to work, 37 buys, 30 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1Qfezp1P8Wf75nSPbSH'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25419.62 (+1.68% on $25000.00 in) · cash $20174.71 · realised +424.71
+Decision: nothing at this check. 21 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on ARE: position closed)
+- SELL 100% ARE [stop_loss @ $43.68] -> $751.01 (+0.13%) — close it all at -1.3% under the average cost
+## 2026-11-13 13:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
