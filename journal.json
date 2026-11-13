@@ -100042,7 +100042,7 @@
     "code_version": "d5e244d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.09
+    "ret_now": 0.12
   },
   {
     "symbol": "BBIO",
@@ -100593,7 +100593,7 @@
     "code_version": "2d78efc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": -0.01
   },
   {
     "symbol": "ARGX",
@@ -100651,7 +100651,7 @@
     "code_version": "50a5361",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.53
+    "ret_now": 0.6
   },
   {
     "symbol": "CMCSA",
@@ -100680,7 +100680,9 @@
     "code_version": "50a5361",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.28
+    "ret_now": -0.01,
+    "ret_final": -0.01,
+    "ret_src": "realised"
   },
   {
     "symbol": "LNT",
@@ -100736,7 +100738,7 @@
     "code_version": "d0f302f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.01
+    "ret_now": 0.07
   },
   {
     "symbol": "RPM",
@@ -100765,7 +100767,7 @@
     "code_version": "4d00c11",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.14
+    "ret_now": 0.02
   },
   {
     "symbol": "CF",
@@ -100794,6 +100796,33 @@
     "code_version": "4d00c11",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.18
+    "ret_now": 0.0
+  },
+  {
+    "symbol": "CMCSA",
+    "side": "sell",
+    "qty": 29.609009,
+    "status": "filled",
+    "price": 25.33,
+    "proceeds": 749.92,
+    "realized_pnl": -0.08,
+    "realized_pct": -0.01,
+    "date": "2026-11-13",
+    "time_et": "11:40",
+    "ts": 1794588000,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $25.33",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "b9b3ee2",
+    "hold_minutes": 17
   }
 ]

@@ -7204,7 +7204,7 @@
    "ticker": "CMCSA",
    "kind": "take_profit",
    "price": 25.4126,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 11:22",
    "created_ts": 1794586928,
    "why": "close 100% at +0.3% over the average cost",
@@ -7214,7 +7214,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 11:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "0a2ad659",
@@ -7240,7 +7242,7 @@
    "ticker": "CMCSA",
    "kind": "buy_limit",
    "price": 24.5701,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 11:22",
    "created_ts": 1794586928,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7250,7 +7252,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-13 11:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "53232f29",
@@ -7429,7 +7433,7 @@
    "ticker": "CMCSA",
    "kind": "stop_loss",
    "price": 25.36,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-13 11:37",
    "created_ts": 1794587843,
    "why": "close it all at -0.8% under the average cost",
@@ -7439,7 +7443,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 11:40"
   },
   {
    "id": "90a3ac17",
@@ -7459,5 +7464,5 @@
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-13 11:38"
+ "updated": "2026-11-13 11:40"
 }

@@ -1,6 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1AVi1U3T7BfxnWp7FgJ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $18,040 idle, so opened 2: ENOV, CMCSA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $750.00 ENOV [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 2 insiders bought (Form 4); +44.8% over the month; 3% of today's range
 - BUY $750.00 CMCSA [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +15.0% over the month; 58% of today's range
 ~ WORKING take_profit 100% ENOV @ $28.25 until 2026-11-18 — close 100% at +0.8% over the average cost
@@ -398,3 +395,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25417.34 (+1.67% on $25000.00 in) · cash $19412.07 · realised +412.07
 Decision: nothing at this check. 24 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CMCSA: position closed)
+- SELL 100% CMCSA [stop_loss @ $25.33] -> $749.92 (-0.01%) — close it all at -0.8% under the average cost
+## 2026-11-13 11:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders

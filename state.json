@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 6175.35,
+  "spent": 5425.43,
   "deployed": 148500.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -18,7 +18,7 @@
     "EIX": 8.97,
     "CSQR": 63.11,
     "ARE": 750.0,
-    "CMCSA": 750.0,
+    "CMCSA": 0.08,
     "LLY": 750.0,
     "CF": 750.0
   },
@@ -3808,13 +3808,34 @@
       "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +4.9% over the month; 76% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "CMCSA",
+      "side": "sell",
+      "qty": 29.609009,
+      "status": "filled",
+      "price": 25.33,
+      "proceeds": 749.92,
+      "realized_pnl": -0.08,
+      "realized_pct": -0.01,
+      "date": "2026-11-13",
+      "time_et": "11:40",
+      "ts": 1794588000,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $25.33",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 6006.77,
+  "spent_today": 5256.85,
   "deployed_today": 48750.0,
   "orders_today": 29,
-  "sells_today": 21,
+  "sells_today": 22,
   "sold_today": [
     "ARE",
     "CMS",
@@ -3847,14 +3868,14 @@
     "ARGX": 1794583894,
     "BBIO": 1794583986,
     "CF": 1794584443,
-    "CMCSA": 1794584158,
+    "CMCSA": 1794588024,
     "LNT": 1794586970,
     "EIX": 1794586537,
     "CSQR": 1794582565,
     "LLY": 1794584068
   },
-  "last_publish_ts": 1794587939,
-  "last_check_ts": 1794587939,
+  "last_publish_ts": 1794588023,
+  "last_check_ts": 1794588025,
   "exp_arm": {
     "ARE": {
       "params": {
@@ -3913,34 +3934,31 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1794587700,
-  "last_decision_ts": 1794587846,
+  "last_bar_ts": 1794588000,
+  "last_decision_ts": 1794588025,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "4790a6ea": 28.3771,
-    "ca460422": 25.36,
-    "88187eac": 25.4126,
-    "1a0c2834": 103.6307,
-    "53232f29": 1444.3568,
     "90a3ac17": 28.286,
-    "969b3a24": 126.238,
-    "56dc0cfb": 43.6174,
+    "4790a6ea": 28.3771,
+    "53232f29": 1444.3568,
+    "1a0c2834": 103.6307,
     "b50df503": 973.5079,
+    "56dc0cfb": 43.6174,
+    "969b3a24": 126.238,
     "ad0bb4e4": 78.3818,
     "3a07dbff": 962.92,
-    "2c22940c": 77.1862,
     "61c6d3b3": 102.3317,
-    "c28a2b1e": 1424.7609,
     "256ecd53": 124.39,
+    "2c22940c": 77.1862,
+    "c28a2b1e": 1424.7609,
     "ab1c9ecd": 42.822,
     "9447a310": 941.3656,
     "da9de6f3": 75.6988,
-    "ac057e32": 1395.5972,
-    "f308a92d": 100.1622,
     "da74c451": 121.9387,
+    "f308a92d": 100.1622,
+    "ac057e32": 1395.5972,
     "12ed9f14": 42.0883,
-    "aafbecde": 24.5701,
     "0226110a": 27.3152
   }
 }
