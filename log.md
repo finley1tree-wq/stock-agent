@@ -72340,3 +72340,23 @@ Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $16542.23 this week
   (cancelled 2 standing order(s) on CMS: position closed)
 - SELL 100% CMS [take_profit @ $70.01] -> $751.66 (+0.22%) — close 100% at +0.2% over the average cost
 ## 2026-11-13 10:33 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on LLY: position closed)
+- SELL 100% LLY [take_profit @ $1437.16] -> $3011.50 (+0.38%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on ENOV: position closed)
+- SELL 100% ENOV [take_profit @ $28.25] -> $755.77 (+0.77%) — close 100% at +0.8% over the average cost
+## 2026-11-13 10:34 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-13 10:34 ET (Friday) — week 2026-W46 — budget left $21814.43 (today $42000.00 put to work, 20 buys, 16 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1AwZCrpk5ZzhhQWzPid'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING stop_loss 100% RPM @ $103.17 until 2026-11-18 — close it all at -0.9% under the average cost
+portfolio: equity $25407.41 (+1.63% on $25000.00 in) · cash $22401.86 · realised +401.86
+Decision: nothing at this check. 12 standing order(s) working.

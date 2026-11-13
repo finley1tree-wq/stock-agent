@@ -1,23 +1,3 @@
-~ WORKING take_profit 100% BBIO @ $78.84 until 2026-11-18 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% BBIO @ $77.66 until 2026-11-18 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 BBIO @ $76.14 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% ARE @ $44.25 until 2026-11-18 — close 100% at +0.5% over the average cost
-~ WORKING stop_loss 100% ARE @ $43.48 until 2026-11-18 — close it all at -1.2% under the average cost
-~ WORKING buy_limit $500.00 ARE @ $42.71 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CMS @ $69.56 until 2026-11-18 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% CMS @ $69.03 until 2026-11-18 — close it all at -0.5% under the average cost
-~ WORKING buy_limit $500.00 CMS @ $67.33 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% ARGX @ $977.20 until 2026-11-18 — close 100% at +0.3% over the average cost
-~ WORKING stop_loss 100% ARGX @ $966.93 until 2026-11-18 — close it all at -0.8% under the average cost
-~ WORKING buy_limit $500.00 ARGX @ $945.04 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% LLY @ $1437.16 until 2026-11-18 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% LLY @ $1417.95 until 2026-11-18 — close it all at -1.0% under the average cost
-~ WORKING buy_limit $500.00 LLY @ $1388.73 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% RPM @ $103.77 until 2026-11-18 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% RPM @ $102.48 until 2026-11-18 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 RPM @ $100.30 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25409.85 (+1.64% on $25000.00 in) · cash $1418.85 · realised +418.85
-Done: 0 sell(s), 8 buy(s); 24 order(s) working; budget left $831.42 this week
 
 ## 2026-11-13 09:35 ET (Friday) — week 2026-W46 — budget left $831.42 (today $24000.00 put to work, 8 buys, 0 sells) — SIM (pretend money) via sim
   (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
@@ -398,3 +378,23 @@ Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $16542.23 this week
   (cancelled 2 standing order(s) on CMS: position closed)
 - SELL 100% CMS [take_profit @ $70.01] -> $751.66 (+0.22%) — close 100% at +0.2% over the average cost
 ## 2026-11-13 10:33 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on LLY: position closed)
+- SELL 100% LLY [take_profit @ $1437.16] -> $3011.50 (+0.38%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on ENOV: position closed)
+- SELL 100% ENOV [take_profit @ $28.25] -> $755.77 (+0.77%) — close 100% at +0.8% over the average cost
+## 2026-11-13 10:34 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-13 10:34 ET (Friday) — week 2026-W46 — budget left $21814.43 (today $42000.00 put to work, 20 buys, 16 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1AwZCrpk5ZzhhQWzPid'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING stop_loss 100% RPM @ $103.17 until 2026-11-18 — close it all at -0.9% under the average cost
+portfolio: equity $25407.41 (+1.63% on $25000.00 in) · cash $22401.86 · realised +401.86
+Decision: nothing at this check. 12 standing order(s) working.

@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 6952.84,
+  "spent": 3185.57,
   "deployed": 141750.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -9,14 +9,13 @@
     "NFRX": 14.96,
     "FUN": 9.47,
     "ESAB": 63.43,
-    "ENOV": 768.63,
+    "ENOV": 12.86,
     "FITB": 22.48,
     "EL": 42.5,
     "CMCSA": 752.09,
     "LNT": 4.95,
     "BBIO": 30.46,
     "ARGX": 21.73,
-    "LLY": 3000.0,
     "EIX": 9.17,
     "CSQR": 63.11,
     "ARE": 750.0,
@@ -3481,13 +3480,55 @@
       ],
       "evidence": "average cost $69.86",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "LLY",
+      "side": "sell",
+      "qty": 2.095446,
+      "status": "filled",
+      "price": 1437.16,
+      "proceeds": 3011.5,
+      "realized_pnl": 11.5,
+      "realized_pct": 0.38,
+      "date": "2026-11-13",
+      "time_et": "10:34",
+      "ts": 1794583800,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $1431.68",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "ENOV",
+      "side": "sell",
+      "qty": 26.755893,
+      "status": "filled",
+      "price": 28.25,
+      "proceeds": 755.77,
+      "realized_pnl": 5.77,
+      "realized_pct": 0.77,
+      "date": "2026-11-13",
+      "time_et": "10:34",
+      "ts": 1794583800,
+      "why": "close 100% at +0.8% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $28.03",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 6784.26,
+  "spent_today": 3016.99,
   "deployed_today": 42000.0,
   "orders_today": 20,
-  "sells_today": 14,
+  "sells_today": 16,
   "sold_today": [
     "ARE",
     "CMS",
@@ -3499,7 +3540,8 @@
     "ENOV",
     "RPM",
     "EIX",
-    "CSQR"
+    "CSQR",
+    "LLY"
   ],
   "sold_ts": {
     "ESAB": 1794507809,
@@ -3510,7 +3552,7 @@
     "CRH": 1794337610,
     "ECHO": 1794322507,
     "FUN": 1794494149,
-    "ENOV": 1794580950,
+    "ENOV": 1794584068,
     "NFRX": 1794414794,
     "FITB": 1794507636,
     "DKNG": 1794508570,
@@ -3522,10 +3564,11 @@
     "CMCSA": 1794580865,
     "LNT": 1794580865,
     "EIX": 1794581730,
-    "CSQR": 1794582565
+    "CSQR": 1794582565,
+    "LLY": 1794584068
   },
-  "last_publish_ts": 1794583986,
-  "last_check_ts": 1794583986,
+  "last_publish_ts": 1794584070,
+  "last_check_ts": 1794584070,
   "exp_arm": {
     "LLY": {
       "params": {
@@ -3585,27 +3628,21 @@
     }
   },
   "last_bar_ts": 1794583800,
-  "last_decision_ts": 1794583896,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1794584070,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "d67c22ef": 1437.1633,
-    "c1c4274a": 1434.932,
-    "9037a081": 103.3808,
-    "c7edc8d1": 25.1206,
+    "a1ee12b0": 25.076,
     "1b3ec5b8": 125.5375,
-    "af41eadb": 28.247,
+    "9037a081": 103.3808,
+    "94d542ce": 103.172,
+    "c7edc8d1": 25.1206,
+    "bde5796b": 125.202,
     "56dc0cfb": 43.6174,
-    "52568328": 24.8387,
-    "14c77343": 102.0819,
     "ab1c9ecd": 42.822,
-    "73342773": 123.6899,
-    "5778e9e0": 27.4876,
     "12ed9f14": 42.0883,
-    "81d4c5e1": 121.2597,
     "0aa2b8bd": 24.2888,
     "d50cd294": 99.9197,
-    "1024aed6": 27.1891,
-    "c45e9fe1": 1388.7296
+    "81d4c5e1": 121.2597
   }
 }
