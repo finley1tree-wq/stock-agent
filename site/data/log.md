@@ -1,6 +1,3 @@
-
-## 2026-11-13 09:35 ET (Friday) — week 2026-W46 — budget left $831.42 (today $24000.00 put to work, 8 buys, 0 sells) — SIM (pretend money) via sim
-  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
   (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
   (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
   (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
@@ -398,3 +395,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 ~ WORKING stop_loss 100% RPM @ $103.17 until 2026-11-18 — close it all at -0.9% under the average cost
 portfolio: equity $25407.41 (+1.63% on $25000.00 in) · cash $22401.86 · realised +401.86
 Decision: nothing at this check. 12 standing order(s) working.
+  (cancelled 2 standing order(s) on CMCSA: position closed)
+- SELL 100% CMCSA [take_profit @ $25.13] -> $752.61 (+0.35%) — close 100% at +0.3% over the average cost
+## 2026-11-13 10:35 ET — tick — 1 sell(s), 0 buy(s) from standing orders

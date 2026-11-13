@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 3185.57,
+  "spent": 2432.96,
   "deployed": 141750.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -12,7 +12,6 @@
     "ENOV": 12.86,
     "FITB": 22.48,
     "EL": 42.5,
-    "CMCSA": 752.09,
     "LNT": 4.95,
     "BBIO": 30.46,
     "ARGX": 21.73,
@@ -3522,13 +3521,34 @@
       ],
       "evidence": "average cost $28.03",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "CMCSA",
+      "side": "sell",
+      "qty": 29.952062,
+      "status": "filled",
+      "price": 25.13,
+      "proceeds": 752.61,
+      "realized_pnl": 2.61,
+      "realized_pct": 0.35,
+      "date": "2026-11-13",
+      "time_et": "10:35",
+      "ts": 1794584100,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $25.04",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 3016.99,
+  "spent_today": 2264.38,
   "deployed_today": 42000.0,
   "orders_today": 20,
-  "sells_today": 16,
+  "sells_today": 17,
   "sold_today": [
     "ARE",
     "CMS",
@@ -3561,14 +3581,14 @@
     "ARGX": 1794583894,
     "BBIO": 1794583986,
     "CF": 1794580819,
-    "CMCSA": 1794580865,
+    "CMCSA": 1794584158,
     "LNT": 1794580865,
     "EIX": 1794581730,
     "CSQR": 1794582565,
     "LLY": 1794584068
   },
-  "last_publish_ts": 1794584070,
-  "last_check_ts": 1794584070,
+  "last_publish_ts": 1794584158,
+  "last_check_ts": 1794584158,
   "exp_arm": {
     "LLY": {
       "params": {
@@ -3627,22 +3647,19 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1794583800,
+  "last_bar_ts": 1794584100,
   "last_decision_ts": 1794584070,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "a1ee12b0": 25.076,
-    "1b3ec5b8": 125.5375,
+    "bde5796b": 125.202,
     "9037a081": 103.3808,
     "94d542ce": 103.172,
-    "c7edc8d1": 25.1206,
-    "bde5796b": 125.202,
+    "1b3ec5b8": 125.5375,
     "56dc0cfb": 43.6174,
     "ab1c9ecd": 42.822,
     "12ed9f14": 42.0883,
-    "0aa2b8bd": 24.2888,
-    "d50cd294": 99.9197,
-    "81d4c5e1": 121.2597
+    "81d4c5e1": 121.2597,
+    "d50cd294": 99.9197
   }
 }
