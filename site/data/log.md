@@ -2,20 +2,6 @@
   (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
   (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
   (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1HNnDMDZztJzJoYvKSM'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25409.35 (+1.64% on $25000.00 in) · cash $20914.94 · realised +414.94
-Decision: nothing at this check. 18 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-13 12:02 ET (Friday) — week 2026-W46 — budget left $20327.52 (today $48750.00 put to work, 29 buys, 23 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
-  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
   (cancelled 2 standing order(s) on BBIO: position closed)
 - SELL 100% BBIO [take_profit @ $78.38] -> $753.27 (+0.44%) — close 100% at +0.4% over the average cost
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1HcpZsGTu9hYTKDF4UL'}
@@ -398,3 +384,17 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 targe
 ~ WORKING buy_limit $500.00 ENOV @ $27.24 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25422.22 (+1.69% on $25000.00 in) · cash $20924.14 · realised +424.14
 Done: 0 sell(s), 5 buy(s); 18 order(s) working; budget left $20336.72 this week
+
+## 2026-11-13 13:04 ET (Friday) — week 2026-W46 — budget left $20336.72 (today $52500.00 put to work, 34 buys, 28 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1NPu5wqvVhRSTrHBd8Z'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25425.52 (+1.70% on $25000.00 in) · cash $20924.14 · realised +424.14
+Decision: nothing at this check. 18 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
