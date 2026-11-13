@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-11-13 14:33 ET
+# Pretend portfolio — 2026-11-13 14:36 ET
 
-**Equity $25407.93** on $25000.00 put in → **+1.63%**  
-Cash $23163.40 · Unrealised -5.47 · Realised +413.40
+**Equity $25408.22** on $25000.00 put in → **+1.63%**  
+Cash $23163.40 · Unrealised -5.18 · Realised +413.40
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
 | RPM | 2.9% | $749.34 | $103.43 | $103.34 | -0.09% | 0d |
-| CMCSA | 2.9% | $748.21 | $25.18 | $25.12 | -0.24% | 0d |
+| CMCSA | 2.9% | $748.51 | $25.18 | $25.13 | -0.20% | 0d |
 | ARGX | 2.9% | $746.98 | $972.59 | $968.67 | -0.40% | 0d |
 
 ## Last fills
