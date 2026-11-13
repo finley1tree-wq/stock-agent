@@ -72335,3 +72335,8 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 targe
 ~ WORKING buy_limit $500.00 RPM @ $99.92 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25384.57 (+1.54% on $25000.00 in) · cash $17129.66 · realised +379.66
 Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $16542.23 this week
+  (cancelled 2 standing order(s) on BBIO: position closed)
+- SELL 100% BBIO [take_profit @ $78.34] -> $753.27 (+0.44%) — close 100% at +0.4% over the average cost
+  (cancelled 2 standing order(s) on CMS: position closed)
+- SELL 100% CMS [take_profit @ $70.01] -> $751.66 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-11-13 10:33 ET — tick — 2 sell(s), 0 buy(s) from standing orders

@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 8457.77,
+  "spent": 6952.84,
   "deployed": 141750.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -14,14 +14,13 @@
     "EL": 42.5,
     "CMCSA": 752.09,
     "LNT": 4.95,
-    "BBIO": 783.73,
+    "BBIO": 30.46,
     "ARGX": 21.73,
     "LLY": 3000.0,
     "EIX": 9.17,
     "CSQR": 63.11,
     "ARE": 750.0,
-    "CF": 750.0,
-    "CMS": 750.0
+    "CF": 750.0
   },
   "deployed_by_ticker": {
     "ESAB": 17250.0,
@@ -3440,13 +3439,55 @@
       "evidence": "congress net buying (2 net buyers): David J. Taylor; +2.9% over the month; 33% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "BBIO",
+      "side": "sell",
+      "qty": 9.615238,
+      "status": "filled",
+      "price": 78.34,
+      "proceeds": 753.27,
+      "realized_pnl": 3.27,
+      "realized_pct": 0.44,
+      "date": "2026-11-13",
+      "time_et": "10:33",
+      "ts": 1794583800,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $78",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "CMS",
+      "side": "sell",
+      "qty": 10.736075,
+      "status": "filled",
+      "price": 70.01,
+      "proceeds": 751.66,
+      "realized_pnl": 1.66,
+      "realized_pct": 0.22,
+      "date": "2026-11-13",
+      "time_et": "10:33",
+      "ts": 1794583800,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $69.86",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 8289.19,
+  "spent_today": 6784.26,
   "deployed_today": 42000.0,
   "orders_today": 20,
-  "sells_today": 12,
+  "sells_today": 14,
   "sold_today": [
     "ARE",
     "CMS",
@@ -3474,17 +3515,17 @@
     "FITB": 1794507636,
     "DKNG": 1794508570,
     "ARE": 1794580587,
-    "CMS": 1794580587,
+    "CMS": 1794583987,
     "ARGX": 1794583894,
-    "BBIO": 1794580766,
+    "BBIO": 1794583986,
     "CF": 1794580819,
     "CMCSA": 1794580865,
     "LNT": 1794580865,
     "EIX": 1794581730,
     "CSQR": 1794582565
   },
-  "last_publish_ts": 1794583896,
-  "last_check_ts": 1794583896,
+  "last_publish_ts": 1794583986,
+  "last_check_ts": 1794583986,
   "exp_arm": {
     "LLY": {
       "params": {
@@ -3548,29 +3589,23 @@
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "7e8d63f7": 69.914,
-    "300a2128": 70.0123,
-    "d93a4e8a": 78.3416,
-    "d1cddd7d": 78.156,
     "d67c22ef": 1437.1633,
-    "1b3ec5b8": 125.5375,
-    "c7edc8d1": 25.1206,
+    "c1c4274a": 1434.932,
     "9037a081": 103.3808,
-    "52568328": 24.8387,
+    "c7edc8d1": 25.1206,
+    "1b3ec5b8": 125.5375,
     "af41eadb": 28.247,
     "56dc0cfb": 43.6174,
+    "52568328": 24.8387,
     "14c77343": 102.0819,
     "ab1c9ecd": 42.822,
-    "be4f1303": 1417.9502,
     "73342773": 123.6899,
     "5778e9e0": 27.4876,
     "12ed9f14": 42.0883,
+    "81d4c5e1": 121.2597,
     "0aa2b8bd": 24.2888,
     "d50cd294": 99.9197,
     "1024aed6": 27.1891,
-    "81d4c5e1": 121.2597,
-    "c45e9fe1": 1388.7296,
-    "15233d59": 67.7642,
-    "05ba23d0": 75.66
+    "c45e9fe1": 1388.7296
   }
 }

@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "53ff2825",
-   "ticker": "FITB",
-   "kind": "take_profit",
-   "price": 53.5242,
-   "status": "filled",
-   "created": "2026-11-05 13:58",
-   "created_ts": 1793905080,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $53.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-10",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-05 15:50"
-  },
-  {
    "id": "64acbc37",
    "ticker": "FITB",
    "kind": "stop_loss",
@@ -6565,7 +6547,7 @@
    "ticker": "LLY",
    "kind": "stop_loss",
    "price": 1417.9502,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 09:32",
    "created_ts": 1794580353,
    "why": "close it all at -1.0% under the average cost",
@@ -6575,7 +6557,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 10:33",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "c45e9fe1",
@@ -7042,7 +7026,7 @@
    "ticker": "BBIO",
    "kind": "take_profit",
    "price": 78.3416,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-13 10:25",
    "created_ts": 1794583544,
    "why": "close 100% at +0.4% over the average cost",
@@ -7052,7 +7036,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 10:33"
   },
   {
    "id": "b8ff345f",
@@ -7078,7 +7063,7 @@
    "ticker": "BBIO",
    "kind": "buy_limit",
    "price": 75.66,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 10:25",
    "created_ts": 1794583544,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7088,7 +7073,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-13 10:33",
+   "cancel_reason": "position closed"
   },
   {
    "id": "698ce07c",
@@ -7202,7 +7189,7 @@
    "ticker": "CMS",
    "kind": "take_profit",
    "price": 70.0123,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-13 10:25",
    "created_ts": 1794583544,
    "why": "close 100% at +0.2% over the average cost",
@@ -7212,7 +7199,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 10:33"
   },
   {
    "id": "a56136f4",
@@ -7238,7 +7226,7 @@
    "ticker": "CMS",
    "kind": "buy_limit",
    "price": 67.7642,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 10:25",
    "created_ts": 1794583544,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7248,7 +7236,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-13 10:33",
+   "cancel_reason": "position closed"
   },
   {
    "id": "089c4850",
@@ -7376,7 +7366,7 @@
    "ticker": "BBIO",
    "kind": "stop_loss",
    "price": 78.156,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 10:31",
    "created_ts": 1794583893,
    "why": "close it all at -1.1% under the average cost",
@@ -7386,14 +7376,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 10:33",
+   "cancel_reason": "position closed"
   },
   {
    "id": "7e8d63f7",
    "ticker": "CMS",
    "kind": "stop_loss",
    "price": 69.914,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 10:31",
    "created_ts": 1794583896,
    "why": "close it all at -0.5% under the average cost",
@@ -7403,7 +7395,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 10:33",
+   "cancel_reason": "position closed"
   },
   {
    "id": "9037a081",
@@ -7455,7 +7449,24 @@
    ],
    "good_until": "2026-11-18",
    "usd": 500.0
+  },
+  {
+   "id": "c1c4274a",
+   "ticker": "LLY",
+   "kind": "stop_loss",
+   "price": 1434.932,
+   "status": "working",
+   "created": "2026-11-13 10:33",
+   "created_ts": 1794583986,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $1431.68",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-13 10:31"
+ "updated": "2026-11-13 10:33"
 }
