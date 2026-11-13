@@ -1,11 +1,11 @@
-# Pretend portfolio — 2026-11-13 10:09 ET
+# Pretend portfolio — 2026-11-13 10:10 ET
 
-**Equity $25369.54** on $25000.00 put in → **+1.48%**  
-Cash $22377.31 · Unrealised -7.77 · Realised +377.31
+**Equity $25367.89** on $25000.00 put in → **+1.47%**  
+Cash $22377.31 · Unrealised -9.42 · Realised +377.31
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| LLY | 11.8% | $2992.23 | $1,431.68 | $1,427.97 | -0.26% | 0d |
+| LLY | 11.8% | $2990.58 | $1,431.68 | $1,427.18 | -0.31% | 0d |
 
 ## Last fills
 
