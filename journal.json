@@ -100042,7 +100042,9 @@
     "code_version": "d5e244d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.05
+    "ret_now": -0.06,
+    "ret_final": -0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "BBIO",
@@ -100742,7 +100744,7 @@
     "code_version": "d0f302f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.14
+    "ret_now": 0.12
   },
   {
     "symbol": "RPM",
@@ -100771,7 +100773,7 @@
     "code_version": "4d00c11",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.14
+    "ret_now": -0.2
   },
   {
     "symbol": "CF",
@@ -100800,7 +100802,7 @@
     "code_version": "4d00c11",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.28
+    "ret_now": -0.22
   },
   {
     "symbol": "CMCSA",
@@ -100882,5 +100884,31 @@
     "hour_et": 12,
     "code_version": "0599e46",
     "hold_minutes": 40
+  },
+  {
+    "symbol": "ARE",
+    "side": "sell",
+    "qty": 17.286145,
+    "status": "filled",
+    "price": 43.36,
+    "proceeds": 749.57,
+    "realized_pnl": -0.43,
+    "realized_pct": -0.06,
+    "date": "2026-11-13",
+    "time_et": "12:23",
+    "ts": 1794590584,
+    "why": "held 120 min, the 120-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 120 min ago, -0.02% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 12,
+    "code_version": "e308293",
+    "hold_minutes": 120
   }
 ]
