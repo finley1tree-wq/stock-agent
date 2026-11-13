@@ -100042,7 +100042,7 @@
     "code_version": "d5e244d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.16
+    "ret_now": -0.14
   },
   {
     "symbol": "BBIO",
@@ -100593,7 +100593,9 @@
     "code_version": "2d78efc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.36
+    "ret_now": 0.44,
+    "ret_final": 0.44,
+    "ret_src": "realised"
   },
   {
     "symbol": "ARGX",
@@ -100622,7 +100624,7 @@
     "code_version": "2d78efc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.08
+    "ret_now": -0.11
   },
   {
     "symbol": "ENOV",
@@ -100740,7 +100742,7 @@
     "code_version": "d0f302f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": 0.12
   },
   {
     "symbol": "RPM",
@@ -100769,7 +100771,7 @@
     "code_version": "4d00c11",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.3
+    "ret_now": -0.33
   },
   {
     "symbol": "CF",
@@ -100798,7 +100800,7 @@
     "code_version": "4d00c11",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.45
+    "ret_now": -0.35
   },
   {
     "symbol": "CMCSA",
@@ -100853,5 +100855,32 @@
     "hour_et": 11,
     "code_version": "95f422b",
     "hold_minutes": 17
+  },
+  {
+    "symbol": "BBIO",
+    "side": "sell",
+    "qty": 9.610308,
+    "status": "filled",
+    "price": 78.38,
+    "proceeds": 753.27,
+    "realized_pnl": 3.27,
+    "realized_pct": 0.44,
+    "date": "2026-11-13",
+    "time_et": "12:02",
+    "ts": 1794589200,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $78.04",
+    "trigger": "take_profit",
+    "hour_et": 12,
+    "code_version": "0599e46",
+    "hold_minutes": 40
   }
 ]

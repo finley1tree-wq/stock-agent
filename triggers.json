@@ -7030,7 +7030,7 @@
    "ticker": "BBIO",
    "kind": "take_profit",
    "price": 78.3818,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-13 11:19",
    "created_ts": 1794586760,
    "why": "close 100% at +0.4% over the average cost",
@@ -7040,7 +7040,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 12:02"
   },
   {
    "id": "2c22940c",
@@ -7066,7 +7067,7 @@
    "ticker": "BBIO",
    "kind": "buy_limit",
    "price": 75.6988,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 11:19",
    "created_ts": 1794586760,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7076,7 +7077,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-13 12:02",
+   "cancel_reason": "position closed"
   },
   {
    "id": "b50df503",
@@ -7456,7 +7459,7 @@
    "ticker": "BBIO",
    "kind": "stop_loss",
    "price": 78.196,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 11:56",
    "created_ts": 1794589003,
    "why": "close it all at -1.1% under the average cost",
@@ -7466,8 +7469,10 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 12:02",
+   "cancel_reason": "position closed"
   }
  ],
- "updated": "2026-11-13 11:58"
+ "updated": "2026-11-13 12:02"
 }
