@@ -1,17 +1,3 @@
-~ WORKING buy_limit $500.00 CF @ $121.26 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
-~ WORKING take_profit 100% CMS @ $70.01 until 2026-11-18 — close 100% at +0.2% over the average cost
-~ WORKING stop_loss 100% CMS @ $69.48 until 2026-11-18 — close it all at -0.5% under the average cost
-~ WORKING buy_limit $500.00 CMS @ $67.76 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25369.96 (+1.48% on $25000.00 in) · cash $18627.31 · realised +377.31
-Done: 0 sell(s), 4 buy(s); 18 order(s) working; budget left $18039.88 this week
-
-## 2026-11-13 10:28 ET (Friday) — week 2026-W46 — budget left $18039.88 (today $39750.00 put to work, 17 buys, 11 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
-  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1AVi1U3T7BfxnWp7FgJ'}
   -> falling back to autopilot: rules only, no model call
 autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $18,040 idle, so opened 2: ENOV, CMCSA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
@@ -396,5 +382,19 @@ brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invali
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25417.99 (+1.67% on $25000.00 in) · cash $19412.07 · realised +412.07
+Decision: nothing at this check. 24 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-13 11:37 ET (Friday) — week 2026-W46 — budget left $18824.65 (today $48750.00 put to work, 29 buys, 21 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1FjaSnFcC317nVnr4Vr'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25417.34 (+1.67% on $25000.00 in) · cash $19412.07 · realised +412.07
 Decision: nothing at this check. 24 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)

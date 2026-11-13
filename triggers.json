@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "429ae6ce",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 106.872,
-   "status": "cancelled",
-   "created": "2026-11-06 09:44",
-   "created_ts": 1793976270,
-   "why": "close it all at -1.2% under the average cost",
-   "evidence": "average cost $106.29",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 09:45",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "a3e977c3",
    "ticker": "BXMT",
    "kind": "stop_loss",
@@ -7429,7 +7410,7 @@
    "ticker": "ENOV",
    "kind": "stop_loss",
    "price": 28.232,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 11:31",
    "created_ts": 1794587508,
    "why": "close it all at -1.9% under the average cost",
@@ -7439,7 +7420,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 11:38",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ca460422",
@@ -7457,7 +7440,24 @@
    ],
    "good_until": "2026-11-18",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "90a3ac17",
+   "ticker": "ENOV",
+   "kind": "stop_loss",
+   "price": 28.286,
+   "status": "working",
+   "created": "2026-11-13 11:38",
+   "created_ts": 1794587939,
+   "why": "close it all at -1.9% under the average cost",
+   "evidence": "average cost $28.16",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-13 11:37"
+ "updated": "2026-11-13 11:38"
 }
