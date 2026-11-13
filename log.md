@@ -72397,3 +72397,24 @@ Decision: nothing at this check. 6 standing order(s) working.
   (cancelled 2 standing order(s) on RPM: position closed)
 - SELL 100% RPM [stop_loss @ $103.12] -> $750.80 (+0.11%) — close it all at -0.9% under the average cost
 ## 2026-11-13 10:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-13 10:44 ET (Friday) — week 2026-W46 — budget left $24072.82 (today $42000.00 put to work, 20 buys, 19 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1BgjcsacJqtxT3SEW5o'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,073 idle, so opened 2: EIX, LNT. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 EIX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +8.2% over the month; 80% of today's range
+- BUY $750.00 LNT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +9.7% over the month; 84% of today's range
+~ WORKING take_profit 100% EIX @ $60.41 until 2026-11-18 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% EIX @ $59.90 until 2026-11-18 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 EIX @ $58.45 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LNT @ $73.81 until 2026-11-18 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% LNT @ $73.25 until 2026-11-18 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 LNT @ $71.44 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25410.38 (+1.64% on $25000.00 in) · cash $23160.24 · realised +410.24
+Done: 0 sell(s), 2 buy(s); 9 order(s) working; budget left $22572.82 this week

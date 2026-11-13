@@ -1,7 +1,7 @@
 {
   "week": "2026-W46",
-  "spent": 927.18,
-  "deployed": 141750.0,
+  "spent": 2427.18,
+  "deployed": 143250.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 56.38,
@@ -12,10 +12,10 @@
     "ENOV": 12.86,
     "FITB": 22.48,
     "EL": 42.5,
-    "LNT": 4.95,
+    "LNT": 754.95,
     "BBIO": 30.46,
     "ARGX": 21.73,
-    "EIX": 9.17,
+    "EIX": 759.17,
     "CSQR": 63.11,
     "ARE": 750.0
   },
@@ -33,14 +33,14 @@
     "FITB": 4500.0,
     "DKNG": 4500.0,
     "CMCSA": 3750.0,
-    "LNT": 3000.0,
+    "LNT": 3750.0,
     "BBIO": 3750.0,
     "ARE": 3750.0,
     "CMS": 3750.0,
     "ARGX": 3750.0,
     "LLY": 3000.0,
     "CF": 3750.0,
-    "EIX": 3000.0,
+    "EIX": 3750.0,
     "CSQR": 3000.0
   },
   "orders": [
@@ -3583,12 +3583,52 @@
       ],
       "evidence": "average cost $103.01",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "EIX",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 12.445221,
+      "price": 60.26,
+      "date": "2026-11-13",
+      "time_et": "10:44",
+      "ts": 1794584660,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +8.2% over the month; 80% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "LNT",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 10.183376,
+      "price": 73.65,
+      "date": "2026-11-13",
+      "time_et": "10:44",
+      "ts": 1794584660,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +9.7% over the month; 84% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 758.6,
-  "deployed_today": 42000.0,
-  "orders_today": 20,
+  "spent_today": 2258.6,
+  "deployed_today": 43500.0,
+  "orders_today": 22,
   "sells_today": 19,
   "sold_today": [
     "ARE",
@@ -3628,16 +3668,9 @@
     "CSQR": 1794582565,
     "LLY": 1794584068
   },
-  "last_publish_ts": 1794584536,
-  "last_check_ts": 1794584536,
+  "last_publish_ts": 1794584660,
+  "last_check_ts": 1794584660,
   "exp_arm": {
-    "LLY": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
     "ARE": {
       "params": {
         "hold_minutes": 120,
@@ -3645,42 +3678,14 @@
       },
       "tags": {}
     },
-    "BBIO": {
+    "EIX": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
       },
       "tags": {}
     },
-    "CF": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "CMS": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "ENOV": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "CMCSA": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "RPM": {
+    "LNT": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -3689,12 +3694,18 @@
     }
   },
   "last_bar_ts": 1794584400,
-  "last_decision_ts": 1794584445,
-  "next_check_minutes": null,
+  "last_decision_ts": 1794584660,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
+    "681b499b": 73.8098,
+    "26217261": 60.4058,
     "56dc0cfb": 43.6174,
+    "9d69f8bb": 73.2516,
+    "38c53acd": 59.8954,
     "ab1c9ecd": 42.822,
+    "1d612500": 71.4405,
+    "cacc9a8c": 58.4522,
     "12ed9f14": 42.0883
   }
 }
