@@ -1,20 +1,3 @@
-## 2026-11-13 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-13 09:37 ET (Friday) — week 2026-W46 — budget left $6863.40 (today $24000.00 put to work, 8 buys, 2 sells) — SIM (pretend money) via sim
-  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
-  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
-  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
-  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
-  (ITIC excluded: too thinly traded ($15.4M a day) — Investors Title Company)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (cancelled 2 standing order(s) on ARGX: position closed)
-- SELL 100% ARGX [stop_loss @ $966.45] -> $2975.92 (-0.80%) — close it all at -0.8% under the average cost
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch16cfZcRhQNs2qo3aMyB'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,839 idle, so opened 2: CF, EIX. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $3000.00 CF [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +3.9% over the month; 0% of today's range
-- BUY $3000.00 EIX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +8.1% over the month; 31% of today's range
-  (re-pinned 1 order(s) to the new average cost)
 ~ WORKING stop_loss 100% LNT @ $73.36 until 2026-11-18 — close it all at -0.5% under the average cost
 ~ WORKING take_profit 100% CF @ $124.96 until 2026-11-18 — close 100% at +0.4% over the average cost
 ~ WORKING stop_loss 100% CF @ $123.13 until 2026-11-18 — close it all at -1.1% under the average cost
@@ -398,3 +381,20 @@ Decision: nothing at this check. 9 standing order(s) working.
   (cancelled 2 standing order(s) on CF: position closed)
 - SELL 100% CF [take_profit @ $125.84] -> $754.98 (+0.66%) — close 100% at +0.4% over the average cost
 ## 2026-11-13 10:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-13 10:40 ET (Friday) — week 2026-W46 — budget left $23322.02 (today $42000.00 put to work, 20 buys, 18 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1BQvkfMwC4VXqFWP42b'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25413.28 (+1.65% on $25000.00 in) · cash $23909.45 · realised +409.45
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on RPM: position closed)
+- SELL 100% RPM [stop_loss @ $103.12] -> $750.80 (+0.11%) — close it all at -0.9% under the average cost
+## 2026-11-13 10:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders
