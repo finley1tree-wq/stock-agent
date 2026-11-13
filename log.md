@@ -73595,3 +73595,6 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25410.07 (+1.64% on $25000.00 in) · cash $22417.92 · realised +417.92
 Decision: nothing at this check. 8 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on CMS: position closed)
+- SELL 100% CMS [stop_loss @ $69.92] -> $745.48 (-0.60%) — close it all at -0.6% under the average cost
+## 2026-11-13 14:19 ET — tick — 1 sell(s), 0 buy(s) from standing orders

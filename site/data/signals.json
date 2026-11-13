@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-13T14:18-05:00",
+ "asOf": "2026-11-13T14:19-05:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,17 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "95d1bc4e",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 103.8013,
+   "id": "ad9e06dc",
+   "ticker": "ARGX",
+   "kind": "stop_loss",
+   "price": 965.0232,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 103.43,
-   "pct_away": 0.36,
+   "last": 967.61,
+   "pct_away": -0.27,
    "good_until": "2026-11-18",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -204,40 +204,6 @@
    "trail_pct": null,
    "last": 25.17,
    "pct_away": 0.37,
-   "good_until": "2026-11-18",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "ad9e06dc",
-   "ticker": "ARGX",
-   "kind": "stop_loss",
-   "price": 965.0232,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 969.88,
-   "pct_away": -0.5,
-   "good_until": "2026-11-18",
-   "why": "close it all at -0.8% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "767b0a42",
-   "ticker": "ARGX",
-   "kind": "take_profit",
-   "price": 975.6148,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 969.88,
-   "pct_away": 0.59,
    "good_until": "2026-11-18",
    "why": "close 100% at +0.3% over the average cost",
    "signals": [
@@ -263,6 +229,40 @@
    ]
   },
   {
+   "id": "767b0a42",
+   "ticker": "ARGX",
+   "kind": "take_profit",
+   "price": 975.6148,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 967.61,
+   "pct_away": 0.83,
+   "good_until": "2026-11-18",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "95d1bc4e",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 103.8013,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": null,
+   "pct_away": null,
+   "good_until": "2026-11-18",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
    "id": "ef3f987b",
    "ticker": "RPM",
    "kind": "stop_loss",
@@ -270,44 +270,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 103.43,
-   "pct_away": -0.9,
+   "last": null,
+   "pct_away": null,
    "good_until": "2026-11-18",
    "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9de7547f",
-   "ticker": "CMS",
-   "kind": "take_profit",
-   "price": 70.5062,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-11-18",
-   "why": "close 100% at +0.2% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "5d5fa8c2",
-   "ticker": "CMS",
-   "kind": "stop_loss",
-   "price": 69.9589,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": null,
-   "pct_away": null,
-   "good_until": "2026-11-18",
-   "why": "close it all at -0.6% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
