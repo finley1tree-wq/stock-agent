@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 5411.71,
+  "spent": 4660.04,
   "deployed": 155250.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -9,7 +9,7 @@
     "NFRX": 14.96,
     "FUN": 9.47,
     "ESAB": 63.43,
-    "ENOV": 759.91,
+    "ENOV": 8.24,
     "FITB": 22.48,
     "EL": 42.5,
     "LNT": 753.32,
@@ -4195,13 +4195,34 @@
       "evidence": "congress net buying (2 net buyers): David J. Taylor; +3.3% over the month; 63% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ENOV",
+      "side": "sell",
+      "qty": 26.708234,
+      "status": "filled",
+      "price": 28.14,
+      "proceeds": 751.67,
+      "realized_pnl": 1.67,
+      "realized_pct": 0.22,
+      "date": "2026-11-13",
+      "time_et": "13:57",
+      "ts": 1794596100,
+      "why": "close it all at -1.9% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $28.08",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 5243.13,
+  "spent_today": 4491.46,
   "deployed_today": 55500.0,
   "orders_today": 38,
-  "sells_today": 31,
+  "sells_today": 32,
   "sold_today": [
     "ARE",
     "CMS",
@@ -4225,7 +4246,7 @@
     "CRH": 1794337610,
     "ECHO": 1794322507,
     "FUN": 1794494149,
-    "ENOV": 1794588179,
+    "ENOV": 1794596271,
     "NFRX": 1794414794,
     "FITB": 1794507636,
     "DKNG": 1794508570,
@@ -4240,8 +4261,8 @@
     "CSQR": 1794582565,
     "LLY": 1794591802
   },
-  "last_publish_ts": 1794595060,
-  "last_check_ts": 1794596184,
+  "last_publish_ts": 1794596270,
+  "last_check_ts": 1794596273,
   "exp_arm": {
     "CMCSA": {
       "params": {
@@ -4294,30 +4315,27 @@
     }
   },
   "last_bar_ts": 1794596100,
-  "last_decision_ts": 1794596095,
+  "last_decision_ts": 1794596273,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "ac345e8c": 73.2096,
-    "5d5fa8c2": 69.9589,
-    "236613fd": 28.158,
     "e4e6a263": 59.8048,
-    "e1bdb273": 28.2971,
-    "767b0a42": 975.6148,
-    "95d1bc4e": 103.8013,
-    "919c1a03": 24.9738,
     "a9d0dec9": 25.2626,
-    "44dd3e6c": 60.3162,
+    "5d5fa8c2": 69.9589,
+    "95d1bc4e": 103.8013,
+    "767b0a42": 975.6148,
     "9de7547f": 70.5062,
     "1fca59f9": 73.7705,
+    "44dd3e6c": 60.3162,
     "ad9e06dc": 965.0232,
     "ef3f987b": 102.5022,
+    "919c1a03": 24.9738,
+    "734d4c2f": 58.3649,
     "37621083": 71.4017,
     "17f82984": 68.2395,
-    "734d4c2f": 58.3649,
-    "9dce2135": 24.4246,
     "61923391": 943.4123,
     "775758e0": 100.3271,
-    "1180eade": 27.2376
+    "9dce2135": 24.4246
   }
 }
