@@ -1,61 +1,6 @@
 {
  "orders": [
   {
-   "id": "795e8d9b",
-   "ticker": "BXMT",
-   "kind": "stop_loss",
-   "price": 11.2312,
-   "status": "filled",
-   "created": "2026-11-06 11:25",
-   "created_ts": 1793982312,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $11.35",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 12:26"
-  },
-  {
-   "id": "a5eca0c9",
-   "ticker": "BXMT",
-   "kind": "buy_limit",
-   "price": 11.0095,
-   "status": "cancelled",
-   "created": "2026-11-06 11:25",
-   "created_ts": 1793982312,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $11.35",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "usd": 500.0,
-   "closed": "2026-11-06 12:26",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "7c2a27e9",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 248.9634,
-   "status": "filled",
-   "created": "2026-11-06 13:00",
-   "created_ts": 1793988024,
-   "why": "close 100% at +0.6% over the average cost",
-   "evidence": "average cost $247.54",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 13:24"
-  },
-  {
    "id": "784cbf4d",
    "ticker": "NXPI",
    "kind": "stop_loss",
@@ -6906,7 +6851,7 @@
    "ticker": "CF",
    "kind": "take_profit",
    "price": 126.238,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 11:28",
    "created_ts": 1794587296,
    "why": "close 100% at +0.4% over the average cost",
@@ -6916,14 +6861,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 13:28",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "256ecd53",
    "ticker": "CF",
    "kind": "stop_loss",
    "price": 124.39,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 11:28",
    "created_ts": 1794587296,
    "why": "close it all at -1.1% under the average cost",
@@ -6933,14 +6880,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 13:28",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "da74c451",
    "ticker": "CF",
    "kind": "buy_limit",
    "price": 121.9387,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 11:28",
    "created_ts": 1794587296,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6950,7 +6899,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-13 13:28",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "9ca495b9",
@@ -7457,7 +7408,58 @@
    ],
    "good_until": "2026-11-18",
    "usd": 500.0
+  },
+  {
+   "id": "767b0a42",
+   "ticker": "ARGX",
+   "kind": "take_profit",
+   "price": 975.6148,
+   "status": "working",
+   "created": "2026-11-13 13:28",
+   "created_ts": 1794594513,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $972.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ad9e06dc",
+   "ticker": "ARGX",
+   "kind": "stop_loss",
+   "price": 965.0232,
+   "status": "working",
+   "created": "2026-11-13 13:28",
+   "created_ts": 1794594513,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $972.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "61923391",
+   "ticker": "ARGX",
+   "kind": "buy_limit",
+   "price": 943.4123,
+   "status": "working",
+   "created": "2026-11-13 13:28",
+   "created_ts": 1794594513,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $972.59",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-13 13:25"
+ "updated": "2026-11-13 13:28"
 }

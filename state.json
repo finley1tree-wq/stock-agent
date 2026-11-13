@@ -1,7 +1,7 @@
 {
   "week": "2026-W46",
-  "spent": 6163.28,
-  "deployed": 153750.0,
+  "spent": 6163.76,
+  "deployed": 154500.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 56.38,
@@ -14,12 +14,12 @@
     "EL": 42.5,
     "LNT": 753.32,
     "BBIO": 777.19,
-    "ARGX": 19.39,
+    "ARGX": 769.39,
     "EIX": 758.97,
     "CSQR": 63.11,
     "ARE": 750.43,
     "CMCSA": 750.08,
-    "CF": 750.0,
+    "CF": 0.48,
     "CMS": 750.0
   },
   "deployed_by_ticker": {
@@ -40,7 +40,7 @@
     "BBIO": 5250.0,
     "ARE": 4500.0,
     "CMS": 4500.0,
-    "ARGX": 4500.0,
+    "ARGX": 5250.0,
     "LLY": 3750.0,
     "CF": 4500.0,
     "EIX": 4500.0,
@@ -4094,13 +4094,53 @@
       "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +5.0% over the month; 85% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "CF",
+      "side": "sell",
+      "qty": 5.9661,
+      "status": "filled",
+      "price": 125.63,
+      "proceeds": 749.52,
+      "realized_pnl": -0.48,
+      "realized_pct": -0.06,
+      "date": "2026-11-13",
+      "time_et": "13:28",
+      "ts": 1794594510,
+      "why": "held 120 min, the 120-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 120 min ago, -0.02% unrealised",
+      "trigger": "time_stop"
+    },
+    {
+      "symbol": "ARGX",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 0.771138,
+      "price": 972.59,
+      "date": "2026-11-13",
+      "time_et": "13:28",
+      "ts": 1794594513,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +14.9% over the month; 71% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 5994.7,
-  "deployed_today": 54000.0,
-  "orders_today": 36,
-  "sells_today": 28,
+  "spent_today": 5995.18,
+  "deployed_today": 54750.0,
+  "orders_today": 37,
+  "sells_today": 29,
   "sold_today": [
     "ARE",
     "CMS",
@@ -4132,23 +4172,16 @@
     "CMS": 1794583987,
     "ARGX": 1794591486,
     "BBIO": 1794589334,
-    "CF": 1794584443,
+    "CF": 1794594511,
     "CMCSA": 1794588024,
     "LNT": 1794586970,
     "EIX": 1794586537,
     "CSQR": 1794582565,
     "LLY": 1794591802
   },
-  "last_publish_ts": 1794593971,
-  "last_check_ts": 1794594425,
+  "last_publish_ts": 1794594513,
+  "last_check_ts": 1794594513,
   "exp_arm": {
-    "CF": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
     "BBIO": {
       "params": {
         "hold_minutes": 120,
@@ -4197,36 +4230,43 @@
         "ratchet": "on"
       },
       "tags": {}
+    },
+    "ARGX": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
     }
   },
   "last_bar_ts": 1794594300,
-  "last_decision_ts": 1794594333,
-  "next_check_minutes": null,
+  "last_decision_ts": 1794594513,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "cbef7705": 78.62,
     "35d468dd": 78.8113,
+    "ac345e8c": 73.2096,
+    "e4e6a263": 59.8048,
+    "5d5fa8c2": 69.9589,
+    "767b0a42": 975.6148,
+    "0ce78634": 43.8481,
     "9de7547f": 70.5062,
+    "919c1a03": 24.9738,
     "44dd3e6c": 60.3162,
     "1fca59f9": 73.7705,
-    "ac345e8c": 73.2096,
-    "919c1a03": 24.9738,
-    "0ce78634": 43.8481,
-    "5d5fa8c2": 69.9589,
-    "969b3a24": 126.238,
-    "e4e6a263": 59.8048,
     "a9d0dec9": 25.2626,
+    "ad9e06dc": 965.0232,
     "e1bdb273": 28.2971,
-    "256ecd53": 124.39,
     "7dc6661b": 43.0495,
     "9f30281b": 27.5375,
     "9dce2135": 24.4246,
     "37621083": 71.4017,
-    "da74c451": 121.9387,
     "734d4c2f": 58.3649,
     "17f82984": 68.2395,
-    "1fa4cb08": 42.3114,
     "1180eade": 27.2376,
+    "61923391": 943.4123,
+    "1fa4cb08": 42.3114,
     "b00bd964": 76.1159
   }
 }

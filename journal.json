@@ -100808,7 +100808,9 @@
     "code_version": "4d00c11",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": -0.06,
+    "ret_final": -0.06,
+    "ret_src": "realised"
   },
   {
     "symbol": "CMCSA",
@@ -101025,7 +101027,7 @@
     "code_version": "5e9ac61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.34
+    "ret_now": 0.28
   },
   {
     "symbol": "CMCSA",
@@ -101054,7 +101056,7 @@
     "code_version": "5e9ac61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.36
+    "ret_now": -0.32
   },
   {
     "symbol": "EIX",
@@ -101083,7 +101085,7 @@
     "code_version": "5e9ac61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.27
+    "ret_now": -0.25
   },
   {
     "symbol": "LNT",
@@ -101112,7 +101114,7 @@
     "code_version": "5e9ac61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.29
+    "ret_now": -0.27
   },
   {
     "symbol": "ENOV",
@@ -101141,7 +101143,7 @@
     "code_version": "5e9ac61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": -0.04
   },
   {
     "symbol": "ARE",
@@ -101170,7 +101172,7 @@
     "code_version": "8785de0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.16
+    "ret_now": 0.21
   },
   {
     "symbol": "CMS",
@@ -101200,5 +101202,59 @@
     "ret_1w": null,
     "ret_1m": null,
     "ret_now": -0.18
+  },
+  {
+    "symbol": "CF",
+    "side": "sell",
+    "qty": 5.9661,
+    "status": "filled",
+    "price": 125.63,
+    "proceeds": 749.52,
+    "realized_pnl": -0.48,
+    "realized_pct": -0.06,
+    "date": "2026-11-13",
+    "time_et": "13:28",
+    "ts": 1794594510,
+    "why": "held 120 min, the 120-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 120 min ago, -0.02% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 13,
+    "code_version": "f894a02",
+    "hold_minutes": 120
+  },
+  {
+    "symbol": "ARGX",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.771138,
+    "price": 972.59,
+    "date": "2026-11-13",
+    "time_et": "13:28",
+    "ts": 1794594513,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +14.9% over the month; 71% of today's range",
+    "experiments": {},
+    "hold_minutes": 120,
+    "entry_price": 972.2,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 14.88,
+    "hour_et": 13,
+    "code_version": "f894a02",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]
