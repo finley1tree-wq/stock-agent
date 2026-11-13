@@ -101058,7 +101058,7 @@
     "code_version": "5e9ac61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": 0.0
   },
   {
     "symbol": "EIX",
@@ -101087,7 +101087,7 @@
     "code_version": "5e9ac61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.5
+    "ret_now": -0.53
   },
   {
     "symbol": "LNT",
@@ -101116,7 +101116,9 @@
     "code_version": "5e9ac61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.45
+    "ret_now": -0.6,
+    "ret_final": -0.6,
+    "ret_src": "realised"
   },
   {
     "symbol": "ENOV",
@@ -101207,7 +101209,7 @@
     "code_version": "b715e02",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.37
+    "ret_now": -0.46
   },
   {
     "symbol": "CF",
@@ -101345,7 +101347,7 @@
     "code_version": "b383ded",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": 0.0
   },
   {
     "symbol": "ENOV",
@@ -101373,5 +101375,32 @@
     "hour_et": 13,
     "code_version": "e596822",
     "hold_minutes": 53
+  },
+  {
+    "symbol": "LNT",
+    "side": "sell",
+    "qty": 10.188912,
+    "status": "filled",
+    "price": 73.17,
+    "proceeds": 745.51,
+    "realized_pnl": -4.49,
+    "realized_pct": -0.6,
+    "date": "2026-11-13",
+    "time_et": "14:15",
+    "ts": 1794597300,
+    "why": "close it all at -0.5% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $73.61",
+    "trigger": "stop_loss",
+    "hour_et": 14,
+    "code_version": "650e6d4",
+    "hold_minutes": 73
   }
 ]

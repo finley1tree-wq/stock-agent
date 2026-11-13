@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-13T14:00-05:00",
- "note": "tick: watching",
+ "asOf": "2026-11-13T14:15-05:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,40 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "ac345e8c",
-   "ticker": "LNT",
-   "kind": "stop_loss",
-   "price": 73.2096,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 73.34,
-   "pct_away": -0.18,
-   "good_until": "2026-11-18",
-   "why": "close it all at -0.5% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "a9d0dec9",
-   "ticker": "CMCSA",
-   "kind": "take_profit",
-   "price": 25.2626,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 25.2,
-   "pct_away": 0.25,
-   "good_until": "2026-11-18",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "e4e6a263",
    "ticker": "EIX",
    "kind": "stop_loss",
@@ -219,8 +185,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 59.96,
-   "pct_away": -0.26,
+   "last": 59.83,
+   "pct_away": -0.04,
    "good_until": "2026-11-18",
    "why": "close it all at -0.6% under the average cost",
    "signals": [
@@ -236,10 +202,27 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 70.14,
-   "pct_away": -0.26,
+   "last": 70.0,
+   "pct_away": -0.06,
    "good_until": "2026-11-18",
    "why": "close it all at -0.6% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a9d0dec9",
+   "ticker": "CMCSA",
+   "kind": "take_profit",
+   "price": 25.2626,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 25.17,
+   "pct_away": 0.37,
+   "good_until": "2026-11-18",
+   "why": "close 100% at +0.3% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -253,27 +236,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 103.38,
-   "pct_away": 0.41,
+   "last": 103.36,
+   "pct_away": 0.43,
    "good_until": "2026-11-18",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9de7547f",
-   "ticker": "CMS",
-   "kind": "take_profit",
-   "price": 70.5062,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 70.14,
-   "pct_away": 0.52,
-   "good_until": "2026-11-18",
-   "why": "close 100% at +0.2% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -314,15 +280,15 @@
    ]
   },
   {
-   "id": "44dd3e6c",
-   "ticker": "EIX",
+   "id": "9de7547f",
+   "ticker": "CMS",
    "kind": "take_profit",
-   "price": 60.3162,
+   "price": 70.5062,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 59.96,
-   "pct_away": 0.59,
+   "last": 70.0,
+   "pct_away": 0.72,
    "good_until": "2026-11-18",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -331,15 +297,32 @@
    ]
   },
   {
-   "id": "1fca59f9",
-   "ticker": "LNT",
-   "kind": "take_profit",
-   "price": 73.7705,
+   "id": "919c1a03",
+   "ticker": "CMCSA",
+   "kind": "stop_loss",
+   "price": 24.9738,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 73.34,
-   "pct_away": 0.59,
+   "last": 25.17,
+   "pct_away": -0.78,
+   "good_until": "2026-11-18",
+   "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "44dd3e6c",
+   "ticker": "EIX",
+   "kind": "take_profit",
+   "price": 60.3162,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 59.83,
+   "pct_away": 0.81,
    "good_until": "2026-11-18",
    "why": "close 100% at +0.2% over the average cost",
    "signals": [
@@ -355,27 +338,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 103.38,
-   "pct_away": -0.85,
+   "last": 103.36,
+   "pct_away": -0.83,
    "good_until": "2026-11-18",
    "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "919c1a03",
-   "ticker": "CMCSA",
-   "kind": "stop_loss",
-   "price": 24.9738,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 25.2,
-   "pct_away": -0.9,
-   "good_until": "2026-11-18",
-   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
