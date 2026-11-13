@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-13T09:30-05:00",
- "note": "tick: flat, nothing working",
+ "asOf": "2026-11-13T09:33-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,831 idle, so opened 8: CMCSA, LNT, BBIO, ARE, CMS, ARGX, LLY, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read t",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -176,10 +176,1460 @@
  ],
  "paused": false,
  "pause_reason": "",
- "working_orders": [],
- "next_check_minutes": null,
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 target names with $22,610 idle, so opened 2: RPM, EL. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gath",
+ "working_orders": [
+  {
+   "id": "015cad9b",
+   "ticker": "LNT",
+   "kind": "take_profit",
+   "price": 73.4476,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 73.26,
+   "pct_away": 0.26,
+   "good_until": "2026-11-18",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a5735256",
+   "ticker": "CMS",
+   "kind": "take_profit",
+   "price": 69.5606,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 69.38,
+   "pct_away": 0.26,
+   "good_until": "2026-11-18",
+   "why": "close 100% at +0.2% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9ffb8edc",
+   "ticker": "ARGX",
+   "kind": "take_profit",
+   "price": 977.2026,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 973.88,
+   "pct_away": 0.34,
+   "good_until": "2026-11-18",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "3c1328da",
+   "ticker": "CMCSA",
+   "kind": "take_profit",
+   "price": 24.9591,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 24.87,
+   "pct_away": 0.36,
+   "good_until": "2026-11-18",
+   "why": "close 100% at +0.3% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "31d277d4",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 103.7671,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 103.36,
+   "pct_away": 0.39,
+   "good_until": "2026-11-18",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d67c22ef",
+   "ticker": "LLY",
+   "kind": "take_profit",
+   "price": 1437.1633,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 1431.39,
+   "pct_away": 0.4,
+   "good_until": "2026-11-18",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d537c323",
+   "ticker": "BBIO",
+   "kind": "take_profit",
+   "price": 78.8368,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 78.47,
+   "pct_away": 0.47,
+   "good_until": "2026-11-18",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "a7b90212",
+   "ticker": "LNT",
+   "kind": "stop_loss",
+   "price": 72.8964,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 73.26,
+   "pct_away": -0.5,
+   "good_until": "2026-11-18",
+   "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "74bb1879",
+   "ticker": "CMS",
+   "kind": "stop_loss",
+   "price": 69.0338,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 69.38,
+   "pct_away": -0.5,
+   "good_until": "2026-11-18",
+   "why": "close it all at -0.5% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "47a540fe",
+   "ticker": "ARE",
+   "kind": "take_profit",
+   "price": 44.2497,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 44.01,
+   "pct_away": 0.54,
+   "good_until": "2026-11-18",
+   "why": "close 100% at +0.5% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1d44756a",
+   "ticker": "ARGX",
+   "kind": "stop_loss",
+   "price": 966.9337,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 973.88,
+   "pct_away": -0.71,
+   "good_until": "2026-11-18",
+   "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "9ab9f9eb",
+   "ticker": "CMCSA",
+   "kind": "stop_loss",
+   "price": 24.6822,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 24.87,
+   "pct_away": -0.76,
+   "good_until": "2026-11-18",
+   "why": "close it all at -0.8% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "961a3d27",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 102.4818,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 103.36,
+   "pct_away": -0.85,
+   "good_until": "2026-11-18",
+   "why": "close it all at -0.9% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "be4f1303",
+   "ticker": "LLY",
+   "kind": "stop_loss",
+   "price": 1417.9502,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 1431.39,
+   "pct_away": -0.94,
+   "good_until": "2026-11-18",
+   "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "bda2480d",
+   "ticker": "BBIO",
+   "kind": "stop_loss",
+   "price": 77.6577,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 78.47,
+   "pct_away": -1.04,
+   "good_until": "2026-11-18",
+   "why": "close it all at -1.1% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "e1dd103b",
+   "ticker": "ARE",
+   "kind": "stop_loss",
+   "price": 43.4805,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 44.01,
+   "pct_away": -1.2,
+   "good_until": "2026-11-18",
+   "why": "close it all at -1.2% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "21dc3f69",
+   "ticker": "CMCSA",
+   "kind": "buy_limit",
+   "price": 24.1336,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 24.87,
+   "pct_away": -2.96,
+   "good_until": "2026-11-18",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "cfd86f94",
+   "ticker": "LNT",
+   "kind": "buy_limit",
+   "price": 71.0913,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 73.26,
+   "pct_away": -2.96,
+   "good_until": "2026-11-18",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c49d7004",
+   "ticker": "BBIO",
+   "kind": "buy_limit",
+   "price": 76.145,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 78.47,
+   "pct_away": -2.96,
+   "good_until": "2026-11-18",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "33a21a2f",
+   "ticker": "ARE",
+   "kind": "buy_limit",
+   "price": 42.7091,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 44.01,
+   "pct_away": -2.96,
+   "good_until": "2026-11-18",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "bd57ef5f",
+   "ticker": "CMS",
+   "kind": "buy_limit",
+   "price": 67.3277,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 69.38,
+   "pct_away": -2.96,
+   "good_until": "2026-11-18",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "80739a97",
+   "ticker": "ARGX",
+   "kind": "buy_limit",
+   "price": 945.0419,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 973.88,
+   "pct_away": -2.96,
+   "good_until": "2026-11-18",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "df354a78",
+   "ticker": "RPM",
+   "kind": "buy_limit",
+   "price": 100.298,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 103.36,
+   "pct_away": -2.96,
+   "good_until": "2026-11-18",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "c45e9fe1",
+   "ticker": "LLY",
+   "kind": "buy_limit",
+   "price": 1388.7296,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 1431.39,
+   "pct_away": -2.98,
+   "good_until": "2026-11-18",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  }
+ ],
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,831 idle, so opened 8: CMCSA, LNT, BBIO, ARE, CMS, ARGX, LLY, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read t",
+ "next_check_minutes": 6,
+ "allowed": [
+  "AAPL",
+  "ABCL",
+  "AMD",
+  "AMZN",
+  "ARE",
+  "ARGX",
+  "AVGO",
+  "BBIO",
+  "BFH",
+  "CCJ",
+  "CF",
+  "CMCSA",
+  "CMS",
+  "DIA",
+  "DKNG",
+  "DOX",
+  "EIX",
+  "FIS",
+  "GLD",
+  "GOOGL",
+  "HD",
+  "IBM",
+  "LLY",
+  "LMT",
+  "LNT",
+  "META",
+  "MP",
+  "MSFT",
+  "MTSI",
+  "MU",
+  "NEM",
+  "NLR",
+  "NOC",
+  "NOW",
+  "NVDA",
+  "O",
+  "OKLO",
+  "PLD",
+  "PLTR",
+  "RPM",
+  "RTX",
+  "SPY",
+  "T",
+  "TSM",
+  "UNH",
+  "VNQ"
+ ],
+ "feed_status": {
+  "congress": "ok",
+  "congress_source": "congresswatch",
+  "congress_notes": "fmp: 401 Client Error: Unauthorized for url: https://financialmodelingprep.com/stable/senate-latest?apikey=***&page=0&limit=100",
+  "insiders": "ok (openinsider)",
+  "excluded_instruments": [
+   "AQST excluded: too thinly traded ($9.4M a day) \u2014 Aquestive Therapeutics, Inc.",
+   "BDSX excluded: too thinly traded ($1.6M a day) \u2014 Biodesix, Inc.",
+   "CHCI excluded: too thinly traded ($0.6M a day) \u2014 Comstock Holding Companies, Inc.",
+   "GOOD excluded: too thinly traded ($5.0M a day) \u2014 Gladstone Commercial Corporation",
+   "ITIC excluded: too thinly traded ($15.4M a day) \u2014 Investors Title Company",
+   "JCTC excluded: too thinly traded ($0.1M a day) \u2014 Jewett-Cameron Trading Company Ltd.",
+   "KLXE excluded: too thinly traded ($0.7M a day) \u2014 KLX Energy Services Holdings, Inc.",
+   "NSLR excluded: too thinly traded ($2.8M a day) \u2014 Neostellar Capital Corp.",
+   "PAM excluded: too thinly traded ($14.0M a day) \u2014 Pampa Energ\u00eda S.A.",
+   "PHIO excluded: too thinly traded ($0.1M a day) \u2014 Phio Pharmaceuticals Corp."
+  ]
+ },
+ "learning": {
+  "horizon": "1d",
+  "decisions_recorded": 420,
+  "decisions_graded": 399,
+  "decisions_with_buys_graded": 42,
+  "independent_days_graded": 4,
+  "avg_regret_pct": -0.23,
+  "chosen_avg_pct": -0.06,
+  "skipped_avg_pct": -0.29,
+  "idle_universe_avg_pct": -0.08,
+  "picking_beats_random": true,
+  "avg_fraction_of_universe_bought": 0.0,
+  "checks_that_bought_everything": 0,
+  "by_signal_chosen": {
+   "autopilot": {
+    "n": 58,
+    "avg_pct": -0.03
+   },
+   "congress": {
+    "n": 39,
+    "avg_pct": -0.1
+   },
+   "insider": {
+    "n": 19,
+    "avg_pct": 0.11
+   },
+   "momentum": {
+    "n": 58,
+    "avg_pct": -0.03
+   }
+  },
+  "biggest_misses": [
+   {
+    "ticker": "AVGO",
+    "fwd_pct": 11.04,
+    "sector": "widely_held",
+    "m1m_then": -10.1,
+    "congress": -2.0,
+    "insider": 0
+   },
+   {
+    "ticker": "MU",
+    "fwd_pct": 10.46,
+    "sector": "off-watchlist",
+    "m1m_then": -29.1,
+    "congress": 3.0,
+    "insider": 0
+   },
+   {
+    "ticker": "NVDA",
+    "fwd_pct": 7.03,
+    "sector": "widely_held",
+    "m1m_then": -29.7,
+    "congress": -1.0,
+    "insider": 0
+   },
+   {
+    "ticker": "AMAT",
+    "fwd_pct": 7.01,
+    "sector": "off-watchlist",
+    "m1m_then": -26.6,
+    "congress": 1.0,
+    "insider": 0
+   },
+   {
+    "ticker": "AMD",
+    "fwd_pct": 6.97,
+    "sector": "widely_held",
+    "m1m_then": -15.6,
+    "congress": 0,
+    "insider": 0
+   }
+  ],
+  "biggest_avoided": [
+   {
+    "ticker": "NVDA",
+    "fwd_pct": -12.28
+   },
+   {
+    "ticker": "GLXY",
+    "fwd_pct": -9.61
+   },
+   {
+    "ticker": "IBRX",
+    "fwd_pct": -9.37
+   }
+  ],
+  "sectors_most_often_missed": {
+   "off-watchlist": {
+    "n": 17
+   },
+   "widely_held": {
+    "n": 12
+   },
+   "defense": {
+    "n": 7
+   },
+   "gold": {
+    "n": 1
+   }
+  },
+  "idle_checks": 348,
+  "blocked_checks": 0,
+  "idle_share": 0.87,
+  "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
+  "evidence_strength": "anecdote",
+  "how_many_days_before_this_means_anything": 30,
+  "warning": "only 4 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
+ },
+ "disclosure_leaderboard": [
+  {
+   "who": "Nancy Pelosi",
+   "disclosed_buys_scored": 16,
+   "avg_excess_pct": 5.39,
+   "beat_index_rate": 0.56,
+   "best": {
+    "ticker": "BE",
+    "excess_pct": 34.2,
+    "disclosed": "2026-08-21"
+   }
+  },
+  {
+   "who": "Tim Moore",
+   "disclosed_buys_scored": 22,
+   "avg_excess_pct": 4.76,
+   "beat_index_rate": 0.64,
+   "best": {
+    "ticker": "CBRL",
+    "excess_pct": 20.0,
+    "disclosed": "2026-01-07"
+   }
+  },
+  {
+   "who": "Robert E. Latta",
+   "disclosed_buys_scored": 4,
+   "avg_excess_pct": 4.63,
+   "beat_index_rate": 0.75,
+   "best": {
+    "ticker": "FMAO",
+    "excess_pct": 7.7,
+    "disclosed": "2026-06-05"
+   }
+  },
+  {
+   "who": "Jonathan L. Jackson",
+   "disclosed_buys_scored": 16,
+   "avg_excess_pct": 4.53,
+   "beat_index_rate": 0.69,
+   "best": {
+    "ticker": "C",
+    "excess_pct": 16.4,
+    "disclosed": "2026-03-12"
+   }
+  },
+  {
+   "who": "Rick Larsen",
+   "disclosed_buys_scored": 9,
+   "avg_excess_pct": 4.07,
+   "beat_index_rate": 0.78,
+   "best": {
+    "ticker": "CASY",
+    "excess_pct": 10.2,
+    "disclosed": "2026-04-15"
+   }
+  },
+  {
+   "who": "Tim Walberg",
+   "disclosed_buys_scored": 14,
+   "avg_excess_pct": 3.74,
+   "beat_index_rate": 0.57,
+   "best": {
+    "ticker": "UA",
+    "excess_pct": 25.4,
+    "disclosed": "2026-06-03"
+   }
+  },
+  {
+   "who": "Jared Moskowitz",
+   "disclosed_buys_scored": 34,
+   "avg_excess_pct": 2.31,
+   "beat_index_rate": 0.5,
+   "best": {
+    "ticker": "PANW",
+    "excess_pct": 62.0,
+    "disclosed": "2026-04-30"
+   }
+  },
+  {
+   "who": "Michael A. Rulli",
+   "disclosed_buys_scored": 16,
+   "avg_excess_pct": 1.89,
+   "beat_index_rate": 0.56,
+   "best": {
+    "ticker": "MU",
+    "excess_pct": 14.9,
+    "disclosed": "2026-08-07"
+   }
+  },
+  {
+   "who": "Lloyd Doggett",
+   "disclosed_buys_scored": 22,
+   "avg_excess_pct": 1.45,
+   "beat_index_rate": 0.55,
+   "best": {
+    "ticker": "HD",
+    "excess_pct": 27.5,
+    "disclosed": "2026-10-05"
+   }
+  },
+  {
+   "who": "Scott Franklin",
+   "disclosed_buys_scored": 5,
+   "avg_excess_pct": 1.22,
+   "beat_index_rate": 0.2,
+   "best": {
+    "ticker": "ACN",
+    "excess_pct": 24.8,
+    "disclosed": "2026-09-17"
+   }
+  },
+  {
+   "who": "David J. Taylor",
+   "disclosed_buys_scored": 77,
+   "avg_excess_pct": 1.02,
+   "beat_index_rate": 0.51,
+   "best": {
+    "ticker": "HD",
+    "excess_pct": 22.3,
+    "disclosed": "2026-10-01"
+   }
+  },
+  {
+   "who": "Maria Elvira Salazar",
+   "disclosed_buys_scored": 59,
+   "avg_excess_pct": 0.79,
+   "beat_index_rate": 0.41,
+   "best": {
+    "ticker": "MRVL",
+    "excess_pct": 69.6,
+    "disclosed": "2026-05-08"
+   }
+  }
+ ],
+ "disclosure_leaderboard_meta": {
+  "built": "2026-11-13",
+  "horizon_days": 30,
+  "buys_scored": 1276,
+  "measured_from": "disclosure date, not transaction date",
+  "benchmark": "SPY",
+  "caveat": "Excess return over SPY across the same dates, scored only from the day the filing became public. A small number of trades is not evidence of skill; treat anyone with fewer than about 20 scored buys as unproven."
+ },
+ "disclosure_significance": {
+  "members": 26,
+  "best": "Nancy Pelosi",
+  "best_avg_excess_pct": 5.39,
+  "best_t_stat": 2.11,
+  "members_weighted": 0,
+  "verdict": "no member is distinguishable from luck; every multiplier is 1.0x",
+  "how_to_read": "Ranking 25 people and taking the top one produces a good-looking number by construction. A score only counts here if it beats what the best of 25 coin-flippers would show, which needs roughly 30+ independent trades."
+ },
+ "wallet_moves": [],
+ "wallet_status": {
+  "followed_total": 0,
+  "checked_this_pass": 0,
+  "starting_at": 0,
+  "names": []
+ },
  "congress_trades": [
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "BBIO",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-11-02",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "TOELF",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-30",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "ARGX",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-27",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "BBIO",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-27",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "ILMN",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-27",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "MTSI",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-27",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "PTC",
+   "type": "sell",
+   "amount": "$15,001 - $50,000",
+   "transaction_date": "2026-10-27",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "RVTY",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-27",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "TOELF",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-23",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "CIEN",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-21",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "MICR",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-21",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "NOW",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-21",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "ARE",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "LNT",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "APP",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "CF",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "CMG",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "CINF",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "CSCO",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "CMS",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "CMCSA",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "EIX",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "LLY",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "FIS",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "FOXA",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "GIS",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "PODD",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "LITE",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "MRNA",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "NCLH",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "NVDA",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "O",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "CPB",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "TTD",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "UBER",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "WFC",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-20",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "TXRH",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-16",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "ARGX",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-15",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "LNTH",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-15",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "MBGL",
+   "type": "buy",
+   "amount": "$50,001 - $100,000",
+   "transaction_date": "2026-10-15",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "STRC",
+   "type": "sell",
+   "amount": "$50,001 - $100,000",
+   "transaction_date": "2026-10-15",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "APP",
+   "type": "sell",
+   "amount": "$15,001 - $50,000",
+   "transaction_date": "2026-10-14",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "ARGX",
+   "type": "buy",
+   "amount": "$15,001 - $50,000",
+   "transaction_date": "2026-10-14",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "CTVA",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-14",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "LNTH",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-14",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "ON",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-14",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "SNEJF",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-14",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "SARO",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-14",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "COO",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-14",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "BNPQF",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-13",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "ENGQF",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-13",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "BNS",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-09",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "META",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-09",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "MRAAF",
+   "type": "buy",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-08",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "WBD",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-07",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Julie Johnson",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "WBD",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-07",
+   "disclosure_date": "2026-11-10",
+   "owner": "Joint",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "HD",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-06",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "TKO",
+   "type": "sell",
+   "amount": "$1,001 - $15,000",
+   "transaction_date": "2026-10-06",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
+  {
+   "who": "Gilbert Ray Cisneros",
+   "party": "Democratic",
+   "chamber": "House",
+   "ticker": "STRC",
+   "type": "buy",
+   "amount": "$15,001 - $50,000",
+   "transaction_date": "2026-06-05",
+   "disclosure_date": "2026-11-10",
+   "owner": "Self",
+   "source": "congresswatch"
+  },
   {
    "who": "David Kustoff",
    "party": "Republican",
@@ -191,739 +1641,191 @@
    "disclosure_date": "2026-11-09",
    "owner": "Joint",
    "source": "congresswatch"
-  },
-  {
-   "who": "John J. McGuire",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "WDC",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-15",
-   "disclosure_date": "2026-11-06",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Nancy Pelosi",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "WBD",
-   "type": "sell",
-   "amount": "$50,001 - $100,000",
-   "transaction_date": "2026-10-07",
-   "disclosure_date": "2026-11-06",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Josh Gottheimer",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "AMAT",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-26",
-   "disclosure_date": "2026-11-05",
-   "owner": "Joint",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Maria Elvira Salazar",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "CSCO",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-23",
-   "disclosure_date": "2026-11-05",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Maria Elvira Salazar",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "NVDA",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-23",
-   "disclosure_date": "2026-11-05",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Maria Elvira Salazar",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "PG",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-23",
-   "disclosure_date": "2026-11-05",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Josh Gottheimer",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "TLK",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-15",
-   "disclosure_date": "2026-11-05",
-   "owner": "Joint",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Josh Gottheimer",
-   "party": "Democratic",
-   "chamber": "House",
-   "ticker": "BHE",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-12",
-   "disclosure_date": "2026-11-05",
-   "owner": "Joint",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Daniel Meuser",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "NVDA",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-09-25",
-   "disclosure_date": "2026-11-05",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Robert E. Latta",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "FMAO",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-20",
-   "disclosure_date": "2026-11-03",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "John J. McGuire",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "MU",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-01",
-   "disclosure_date": "2026-11-01",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "John J. McGuire",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "MU",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-09-25",
-   "disclosure_date": "2026-11-01",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "John J. McGuire",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "AVGO",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-09-24",
-   "disclosure_date": "2026-11-01",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "John J. McGuire",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "MU",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-09-24",
-   "disclosure_date": "2026-11-01",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Thomas H. Kean",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "JNJ",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-09-30",
-   "disclosure_date": "2026-10-30",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Thomas H. Kean",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "SYK",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-09-30",
-   "disclosure_date": "2026-10-30",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Thomas H. Kean",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "ESAB",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-09-29",
-   "disclosure_date": "2026-10-30",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Thomas H. Kean",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "MDLZ",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-09-23",
-   "disclosure_date": "2026-10-30",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Thomas H. Kean",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "ABT",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-09-17",
-   "disclosure_date": "2026-10-30",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Thomas H. Kean",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "TXN",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-09-17",
-   "disclosure_date": "2026-10-30",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "David J. Taylor",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "T",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-15",
-   "disclosure_date": "2026-10-29",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "David J. Taylor",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "LRCX",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-15",
-   "disclosure_date": "2026-10-29",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "David J. Taylor",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "MPC",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-15",
-   "disclosure_date": "2026-10-29",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "David J. Taylor",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "PLD",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-15",
-   "disclosure_date": "2026-10-29",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "David J. Taylor",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "RPM",
-   "type": "buy",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-15",
-   "disclosure_date": "2026-10-29",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "David J. Taylor",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "V",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-15",
-   "disclosure_date": "2026-10-29",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Kevin Hern",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "ASML",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-23",
-   "disclosure_date": "2026-10-28",
-   "owner": "Joint",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Kevin Hern",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "STX",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-23",
-   "disclosure_date": "2026-10-28",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Kevin Hern",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "TXN",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-14",
-   "disclosure_date": "2026-10-28",
-   "owner": "Joint",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "DIS",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-28",
-   "disclosure_date": "2026-10-27",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "AMZN",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-27",
-   "disclosure_date": "2026-10-27",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "MCD",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-27",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "HD",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-22",
-   "disclosure_date": "2026-10-27",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "LOW",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-22",
-   "disclosure_date": "2026-10-27",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "PEP",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-21",
-   "disclosure_date": "2026-10-27",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "SOLS",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-21",
-   "disclosure_date": "2026-10-27",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "IBM",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-20",
-   "disclosure_date": "2026-10-27",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "BRK.B",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-15",
-   "disclosure_date": "2026-10-27",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "CVX",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-14",
-   "disclosure_date": "2026-10-27",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "XOM",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-14",
-   "disclosure_date": "2026-10-27",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "COST",
-   "type": "sell",
-   "amount": "$100,001 - $250,000",
-   "transaction_date": "2026-10-13",
-   "disclosure_date": "2026-10-27",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "PG",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-08",
-   "disclosure_date": "2026-10-27",
-   "owner": "Self",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "ABT",
-   "type": "sell",
-   "amount": "$50,001 - $100,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "GOOG",
-   "type": "sell",
-   "amount": "$100,001 - $250,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "AMZN",
-   "type": "sell",
-   "amount": "$100,001 - $250,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "AAPL",
-   "type": "sell",
-   "amount": "$250,001 - $500,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "CMG",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "COST",
-   "type": "sell",
-   "amount": "$250,001 - $500,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "MA",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "MCD",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "MSFT",
-   "type": "sell",
-   "amount": "$250,001 - $500,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "NVDA",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "SBUX",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "TSLA",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "TJX",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "VZ",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "V",
-   "type": "sell",
-   "amount": "$15,001 - $50,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "WMT",
-   "type": "sell",
-   "amount": "$50,001 - $100,000",
-   "transaction_date": "2026-10-02",
-   "disclosure_date": "2026-10-27",
-   "owner": "Spouse",
-   "source": "congresswatch"
-  },
-  {
-   "who": "Pete Sessions",
-   "party": "Republican",
-   "chamber": "House",
-   "ticker": "HON",
-   "type": "sell",
-   "amount": "$1,001 - $15,000",
-   "transaction_date": "2026-10-01",
-   "disclosure_date": "2026-10-27",
-   "owner": "Self",
-   "source": "congresswatch"
   }
  ],
  "congress_pressure": {
+  "ARGX": 3.0,
   "MU": 3.0,
+  "BBIO": 2.0,
   "T": 2.0,
   "RPM": 2.0,
-  "AMAT": 1.0,
-  "BHE": 1.0,
-  "FMAO": 1.0,
-  "ESAB": 1.0,
-  "LRCX": 1.0,
-  "PLD": 1.0,
-  "TSM": 1.0,
-  "DDOG": 1.0,
-  "EL": 1.0,
-  "GH": 1.0,
-  "NOKBF": 1.0,
-  "FITB": 1.0,
-  "TXN": 0.0,
-  "BRK.B": 0.0,
-  "WDC": -1.0,
-  "CSCO": -1.0,
-  "NVDA": -1.0
+  "MTSI": 1.0,
+  "NOW": 1.0,
+  "ARE": 1.0,
+  "LNT": 1.0,
+  "CF": 1.0,
+  "CMS": 1.0,
+  "CMCSA": 1.0,
+  "EIX": 1.0,
+  "LLY": 1.0,
+  "FIS": 1.0,
+  "FOXA": 1.0,
+  "PODD": 1.0,
+  "LITE": 1.0,
+  "MRNA": 1.0,
+  "NCLH": 1.0
  },
  "insider_trades": [
+  {
+   "filing_date": "2026-11-12",
+   "price": 72.36,
+   "role": "Dir",
+   "shares": 11957.0,
+   "ticker": "PFIS",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "Nicholas James B"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 18.91,
+   "role": "CFO",
+   "shares": 9455.0,
+   "ticker": "GNE",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "Goldin Avi"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 1.18,
+   "role": "Dir",
+   "shares": 180000.0,
+   "ticker": "ZVIA",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Spence Padraic L."
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 279.0,
+   "role": "EVP - Chief Impact Officer",
+   "shares": 750.0,
+   "ticker": "MCD",
+   "transaction_date": "2026-11-11",
+   "type": "sell",
+   "who": "Banner Jonathan"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 440.58,
+   "role": "Dir",
+   "shares": 440.0,
+   "ticker": "HUM",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "Frederick Wayne A.I."
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 129.16,
+   "role": "EVP, CEO DEF, MW, ChiefCorpAff",
+   "shares": 785.0,
+   "ticker": "DUK",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "Renjel Louis E."
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 79.65,
+   "role": "See Remarks",
+   "shares": 19976.0,
+   "ticker": "TNL",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Brown Michael Dean"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 34.38,
+   "role": "Dir",
+   "shares": 8000.0,
+   "ticker": "EGBN",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Laplaca Theresa G."
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 34.05,
+   "role": "Pres, CEO",
+   "shares": 4393.0,
+   "ticker": "EGBN",
+   "transaction_date": "2026-11-10",
+   "type": "buy",
+   "who": "Curley Stephen Russell"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 13.25,
+   "role": "Chief Commercial Officer",
+   "shares": 22888.0,
+   "ticker": "CARS",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Gosselin Lisa"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 64.22,
+   "role": "VicePres",
+   "shares": 20243.0,
+   "ticker": "PAM",
+   "transaction_date": "2026-11-09",
+   "type": "buy",
+   "who": "Mindlin Damian Miguel"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 2.85,
+   "role": "10%",
+   "shares": 3806.0,
+   "ticker": "JCTC",
+   "transaction_date": "2026-11-09",
+   "type": "buy",
+   "who": "Ajb Investment Fund Ii, LP"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 46.11,
+   "role": "EVP, Group CEO-VZ Business",
+   "shares": 1100.0,
+   "ticker": "VZ",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "Malady Kyle"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 11.54,
+   "role": "10%",
+   "shares": 60565.0,
+   "ticker": "ABCL",
+   "transaction_date": "2026-11-12",
+   "type": "buy",
+   "who": "Thermopylae Holdings Ltd."
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 9.93,
+   "role": "Investment Manager",
+   "shares": 100705.0,
+   "ticker": "MMIOX",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "New York Life Investment Management LLC"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 36.2,
+   "role": "Co-Pres, CFO, COO",
+   "shares": 160000.0,
+   "ticker": "BEN",
+   "transaction_date": "2026-11-11",
+   "type": "sell",
+   "who": "Nicholls Matthew"
+  },
   {
    "filing_date": "2026-11-12",
    "price": 123.02,
@@ -1363,173 +2265,14 @@
    "transaction_date": "2026-11-09",
    "type": "sell",
    "who": "Ventura Joseph C"
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 10.02,
-   "role": "Emeritus Director, 10%",
-   "shares": 100000.0,
-   "ticker": "BDSX",
-   "transaction_date": "2026-11-10",
-   "type": "buy",
-   "who": "Schuler Jack W"
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 40.98,
-   "role": "CIO, CCO",
-   "shares": 3500.0,
-   "ticker": "REPX",
-   "transaction_date": "2026-11-09",
-   "type": "sell",
-   "who": "Riley Corey Neil"
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 266.0,
-   "role": "Dir",
-   "shares": 500.0,
-   "ticker": "ITIC",
-   "transaction_date": "2026-11-11",
-   "type": "buy",
-   "who": "Parker, Jr. Elton C."
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 0.67,
-   "role": "CEO, 10%",
-   "shares": 8000.0,
-   "ticker": "CLIK",
-   "transaction_date": "2026-11-10",
-   "type": "sell",
-   "who": "Chan Chun Sing"
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 0.71,
-   "role": "CEO, 10%",
-   "shares": 40000.0,
-   "ticker": "CLIK",
-   "transaction_date": "2026-11-11",
-   "type": "buy",
-   "who": "Chan Chun Sing"
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 28.18,
-   "role": "SEE REMARKS",
-   "shares": 20000.0,
-   "ticker": "BETA",
-   "transaction_date": "2026-11-10",
-   "type": "sell",
-   "who": "Clark Kyle"
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 1.02,
-   "role": "See Remarks",
-   "shares": 30000.0,
-   "ticker": "KLXE",
-   "transaction_date": "2026-11-09",
-   "type": "buy",
-   "who": "Bouthillette Max"
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 10.3,
-   "role": "Treasurer",
-   "shares": 250.0,
-   "ticker": "GOOD",
-   "transaction_date": "2026-11-09",
-   "type": "buy",
-   "who": "Beckhorn Jay"
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 3.9,
-   "role": "Dir",
-   "shares": 198640.0,
-   "ticker": "VTEX",
-   "transaction_date": "2026-11-09",
-   "type": "sell",
-   "who": "Alvarez-Demalde Francisco"
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 72.52,
-   "role": "SVP, Chief Commercial Officer",
-   "shares": 2000.0,
-   "ticker": "GEF",
-   "transaction_date": "2026-11-10",
-   "type": "sell",
-   "who": "Bergwall Timothy"
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 19.76,
-   "role": "Dir",
-   "shares": 5000.0,
-   "ticker": "DKNG",
-   "transaction_date": "2026-11-11",
-   "type": "buy",
-   "who": "Wendt Gregory Westin"
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 2.3,
-   "role": "CEO",
-   "shares": 2471.0,
-   "ticker": "OWLS",
-   "transaction_date": "2026-11-09",
-   "type": "buy",
-   "who": "Wang Chun Kai"
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 117.37,
-   "role": "EVP, GC",
-   "shares": 18380.0,
-   "ticker": "WEC",
-   "transaction_date": "2026-11-10",
-   "type": "sell",
-   "who": "Kelsey Margaret C"
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 18.87,
-   "role": "10%",
-   "shares": 22500.0,
-   "ticker": "DGICA",
-   "transaction_date": "2026-11-09",
-   "type": "buy",
-   "who": "Donegal Mutual Insurance Co"
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 19.01,
-   "role": "SVP",
-   "shares": 6000.0,
-   "ticker": "DGICA",
-   "transaction_date": "2026-11-10",
-   "type": "sell",
-   "who": "Altshuler Kristi Spencer"
-  },
-  {
-   "filing_date": "2026-11-12",
-   "price": 124.99,
-   "role": "Dir",
-   "shares": 600.0,
-   "ticker": "AFL",
-   "transaction_date": "2026-11-09",
-   "type": "sell",
-   "who": "Moskowitz Joseph L"
   }
  ],
  "insider_pressure": {
   "DOX": 5.0,
-  "GSM": 4.0,
-  "MP": 3.0,
-  "NTHI": 2.0,
+  "MP": 2.0,
+  "PAM": 1.0,
+  "JCTC": 1.0,
+  "ABCL": 1.0,
   "AQST": 1.0,
   "NSLR": 1.0,
   "BFH": 1.0,
@@ -1544,93 +2287,143 @@
   "CATX": 1.0,
   "XGN": 1.0,
   "HOS": 1.0,
-  "TNXP": 1.0,
-  "AIM": 1.0
+  "TNXP": 1.0
  },
  "headlines": {
   "AAPL": [
    {
-    "title": "Jensen Huang vs. Steve Jobs: Can Nvidia also thrive without its visionary?",
-    "source": "Yahoo Finance Video",
-    "when": "2026-11-12T14:46"
+    "title": "Not Apple. Not Microsoft. This \"Magnificent Seven\" Stock Is My Top Tech Buy for 2027.",
+    "source": "Motley Fool",
+    "when": "2026-11-13T14:25"
    },
    {
-    "title": "Tony Robbins: How to make yourself irreplaceable in the AI era",
-    "source": "Yahoo Finance Video",
-    "when": "2026-11-12T12:00"
+    "title": "Apple (AAPL) Puts Tim Cook At The Center Of A Surprise CEO Search",
+    "source": "Simply Wall St.",
+    "when": "2026-11-13T13:12"
    },
    {
-    "title": "Tony Robbins: 4 rules the world's greatest investors follow",
-    "source": "Yahoo Finance Video",
-    "when": "2026-11-12T11:00"
+    "title": "Nvidia Lost the World\u2019s Most Valuable Company Title. History Shows How Rarely the Crown Comes Back",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T12:52"
    }
   ],
-  "AMAT": [
+  "ABCL": [
    {
-    "title": "Applied Materials Sits 47% Below Its High. Here\u2019s What the November 12 Report Has to Prove",
-    "source": "TIKR",
-    "when": "2026-11-12T16:01"
+    "title": "Are Medical Stocks Lagging  ABCELLERA BIOLG (ABCL) This Year?",
+    "source": "Zacks",
+    "when": "2026-11-12T13:40"
    },
    {
-    "title": "NVIDIA\u2019s Leadership Crisis Is Dragging the S&P 500 Lower. Here\u2019s What Else Is Moving",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-12T15:38"
+    "title": "AbCellera Biologics Eyes Phase 3 for Hot-Flash Drug After Promising Midstage Results",
+    "source": "MarketBeat",
+    "when": "2026-11-12T13:14"
    },
    {
-    "title": "Applied Materials And 2 Top AI Chip Stocks",
-    "source": "Simply Wall St.",
-    "when": "2026-11-12T14:13"
+    "title": "AbCellera Biologics Inc (ABCL) (Q3 2026) Earnings Call Highlights: Breakthrough Hot Flash Data ...",
+    "source": "GuruFocus.com",
+    "when": "2026-11-10T15:04"
    }
   ],
   "AMD": [
    {
-    "title": "AMD CEO Lisa Su on data center backlash: Tech has to sell the vision",
-    "source": "Yahoo Finance",
-    "when": "2026-11-12T16:26"
+    "title": "NVIDIA Rises 2% Despite Michael Burry Adding to Chip Shorts; AMD Retreats 3%, Broadcom Slides 2%",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T14:15"
    },
    {
-    "title": "AMD CEO Dr. Lisa Su reflects on her biggest lessons of 2026",
-    "source": "Yahoo Finance Video",
-    "when": "2026-11-12T15:36"
+    "title": "Who Should Be Nvidia's Next CEO?",
+    "source": "GuruFocus.com",
+    "when": "2026-11-13T14:14"
    },
    {
-    "title": "AMD CEO Dr. Lisa Su continues making the 'right, big bets'",
-    "source": "Yahoo Finance Video",
-    "when": "2026-11-12T15:23"
+    "title": "Intel\u2019s CEO Says AI Is Now Buying Almost as Many CPUs as GPUs",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T14:09"
    }
   ],
   "AMZN": [
    {
-    "title": "Is There Hope for Oracle After Plummeting 35% This Year? \u2018Yes\u2019 Says One Analyst Predicting 210% Gains From Here",
+    "title": "This Magnificent Seven Stock Could Be Headed for a Major Breakout",
     "source": "24/7 Wall St.",
-    "when": "2026-11-12T17:45"
+    "when": "2026-11-13T14:03"
    },
    {
-    "title": "3 Unstoppable Dow Stocks to Buy in November and Hold for the Next Decade",
+    "title": "What You\u2019ll Actually Own If You Buy Into the Anthropic IPO",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T13:28"
+   },
+   {
+    "title": "Must-Watch Gig Economy Stocks to Charge Up Your Portfolio",
+    "source": "Zacks",
+    "when": "2026-11-13T13:17"
+   }
+  ],
+  "ARE": [
+   {
+    "title": "Alexandria Real Estate: 3 Key Takeaways for Long-Term Investors",
     "source": "Motley Fool",
-    "when": "2026-11-12T17:35"
+    "when": "2026-11-10T17:50"
    },
    {
-    "title": "Voters Just Rejected AI Data Centers in 40 of 41 Elections. Is the $1 Trillion Boom in Trouble?",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-12T17:20"
+    "title": "Why Alexandria Real Estate Equities (ARE) Is Back In The Spotlight",
+    "source": "Simply Wall St.",
+    "when": "2026-11-08T02:16"
+   },
+   {
+    "title": "Learn Why The Bull Case For Alexandria Real Estate Equities Stock Could Change Following Campus Point Joint Venture",
+    "source": "Simply Wall St.",
+    "when": "2026-10-29T20:11"
+   }
+  ],
+  "ARGX": [
+   {
+    "title": "AbCellera Biologics Eyes Phase 3 for Hot-Flash Drug After Promising Midstage Results",
+    "source": "MarketBeat",
+    "when": "2026-11-12T13:14"
+   },
+   {
+    "title": "Ginkgo Bioworks Holdings Inc (DNA) Q3 2026 Earnings Call Highlights: Cost Cuts, First Big ...",
+    "source": "GuruFocus.com",
+    "when": "2026-11-12T05:05"
+   },
+   {
+    "title": "Will HALO's Partner Royalties Drive Growth for the Rest of 2026?",
+    "source": "Zacks",
+    "when": "2026-11-11T16:11"
    }
   ],
   "AVGO": [
    {
-    "title": "AMD, Broadcom stocks jump as Nvidia CEO Jensen Huang resigns",
-    "source": "Yahoo Finance",
-    "when": "2026-11-12T13:39"
+    "title": "NVIDIA Rises 2% Despite Michael Burry Adding to Chip Shorts; AMD Retreats 3%, Broadcom Slides 2%",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T14:15"
    },
    {
-    "title": "Update: US Equity Indexes Shrug Off Turmoil at Nvidia as CEO Jensen Huang Resigns",
-    "source": "MT Newswires",
-    "when": "2026-11-12T17:34"
+    "title": "Nvidia\u2019s New CEO Colette Kress Seems Tougher on OpenAI Than Huang Was",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T13:56"
    },
    {
-    "title": "Is Intel Stock Paying You Enough For The Swings?",
+    "title": "Jensen Huang is Out as CEO, Nvidia Down 25% in a Month: Wall Street\u2019s Highest Target Price Reaffirmed as Major Desks Slash Prices, Predicting 210% Gains",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T13:45"
+   }
+  ],
+  "BBIO": [
+   {
+    "title": "What Sent Revolution Medicines Stock Lower?",
     "source": "Trefis",
-    "when": "2026-11-12T17:32"
+    "when": "2026-11-12T15:45"
+   },
+   {
+    "title": "Should You Invest $1,000 in BridgeBio Pharma Right Now?",
+    "source": "Motley Fool",
+    "when": "2026-11-02T12:05"
+   },
+   {
+    "title": "What Is BridgeBio Pharma (BBIO) Betting On With Three FDA Priority Launches?",
+    "source": "Simply Wall St.",
+    "when": "2026-11-01T21:10"
    }
   ],
   "BFH": [
@@ -1650,24 +2443,12 @@
     "when": "2026-11-10T11:41"
    }
   ],
-  "BHE": [
-   {
-    "title": "Benchmark Electronics (BHE) Lifts 2026 Guidance As Record Revenue Puts Valuation Back In Focus",
-    "source": "Simply Wall St.",
-    "when": "2026-11-06T14:10"
-   },
-   {
-    "title": "Did Jabil's Sales Earn Its Stock's Rise?",
-    "source": "Trefis",
-    "when": "2026-11-05T12:06"
-   },
-   {
-    "title": "BHE Q3 deep dive: segment momentum, manufacturing ramp, and multi-year sector tailwinds",
-    "source": "StockStory",
-    "when": "2026-11-03T03:33"
-   }
-  ],
   "CCJ": [
+   {
+    "title": "UUUU Bets on Pinyon Plain to Meet 2026 Output Goals: Will It Pay Off?",
+    "source": "Zacks",
+    "when": "2026-11-13T13:08"
+   },
    {
     "title": "CCJ's Share of Uranium Output Down 20% in Q3: Will 2026 Targets be Met?",
     "source": "Zacks",
@@ -1677,31 +2458,65 @@
     "title": "3 AI Power Stocks With Earnings Growth Over 21%",
     "source": "Simply Wall St.",
     "when": "2026-11-12T11:13"
-   },
-   {
-    "title": "The Best Uranium Stocks to Buy and Hold as Nuclear Power Expands",
-    "source": "Motley Fool",
-    "when": "2026-11-12T10:00"
    }
   ],
-  "DDOG": [
+  "CF": [
    {
-    "title": "Palantir\u2019s Growth Story Could Be Just Getting Started",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-12T16:33"
+    "title": "Is CF Industries (CF) Stock Undervalued Right Now?",
+    "source": "Zacks",
+    "when": "2026-11-11T20:08"
    },
    {
-    "title": "Palo Alto Networks Heads 3 Top Cybersecurity Stocks To Watch",
-    "source": "Simply Wall St.",
-    "when": "2026-11-12T15:11"
+    "title": "The One Reason To Invest In CF Industries Stock",
+    "source": "Trefis",
+    "when": "2026-11-11T00:19"
    },
    {
-    "title": "Palantir Grew Revenue 96%. Its Stock Fell 7% Because Bookings Rose Just 6%",
-    "source": "TIKR",
-    "when": "2026-11-12T04:33"
+    "title": "How Rare Is Mosaic's Ten-Year Record Low Profit Margin?",
+    "source": "Trefis",
+    "when": "2026-11-10T21:10"
+   }
+  ],
+  "CMCSA": [
+   {
+    "title": "What Could Surprise Netflix Stock Investors On The Upside?",
+    "source": "Trefis",
+    "when": "2026-11-13T12:12"
+   },
+   {
+    "title": "How Much Could You Lose In AT&T Stock After CPI?",
+    "source": "Trefis",
+    "when": "2026-11-13T12:12"
+   },
+   {
+    "title": "Major streaming services have raised prices by 207% since 2019. Is it still worth it, or is \u2018streamflation\u2019 too much?",
+    "source": "Moneywise",
+    "when": "2026-11-13T11:45"
+   }
+  ],
+  "CMS": [
+   {
+    "title": "NRG Energy Q3 Earnings Beat Estimates on LS Power Asset Gains",
+    "source": "Zacks",
+    "when": "2026-11-09T15:13"
+   },
+   {
+    "title": "Can DTE Energy Stock Jump 40%?",
+    "source": "Trefis",
+    "when": "2026-11-09T12:46"
+   },
+   {
+    "title": "Consolidated Edison Q3 Earnings Lag Estimates, Revenues Rise Y/Y",
+    "source": "Zacks",
+    "when": "2026-11-06T13:09"
    }
   ],
   "DIA": [
+   {
+    "title": "Spdr Dow Jones Industrial Avg ETF Trust (DIA) Buys $41.2 Million More GS on Nov. 11",
+    "source": "GuruFocus.com",
+    "when": "2026-11-13T11:03"
+   },
    {
     "title": "NVIDIA\u2019s Leadership Crisis Is Dragging the S&P 500 Lower. Here\u2019s What Else Is Moving",
     "source": "24/7 Wall St.",
@@ -1711,31 +2526,31 @@
     "title": "Jensen Huang Resigns from NVIDIA, Shares -10%",
     "source": "Zacks",
     "when": "2026-11-12T14:12"
-   },
-   {
-    "title": "Spdr Dow Jones Industrial Average ETF (DIA) Buys $40.3 Million More GS on Nov. 9",
-    "source": "GuruFocus.com",
-    "when": "2026-11-11T11:03"
    }
   ],
   "DKNG": [
    {
-    "title": "Polymarket Cuts Jobs As Competition Intensifies",
-    "source": "CryptoProwl",
-    "when": "2026-11-12T15:28"
-   },
-   {
-    "title": "Will DraftKings' $650M-$700M Predictions Bet Pay Off in 2027?",
-    "source": "Zacks",
-    "when": "2026-11-12T15:02"
-   },
-   {
-    "title": "Two More Firms Downgraded DraftKings in One Day. Is the Selloff Overdone?",
+    "title": "DraftKings Had 3% of Sports Prediction Volume to Kalshi\u2019s 76%. Now Kalshi May Face Charges",
     "source": "TIKR",
-    "when": "2026-11-12T08:06"
+    "when": "2026-11-13T09:14"
+   },
+   {
+    "title": "Robinhood Has the Most to Lose From Kalshi Charges: About 60% of Its Prediction Volume",
+    "source": "TIKR",
+    "when": "2026-11-13T09:13"
+   },
+   {
+    "title": "Wall Street Wrap: Nvidia Faces Downgrades As Jensen Huang\u2019s Exit Rattles Analysts \u2014 AMD, MP Materials, Riot Platforms Get Bullish Calls",
+    "source": "Stocktwits",
+    "when": "2026-11-13T09:06"
    }
   ],
   "DOX": [
+   {
+    "title": "Amdocs (DOX) Seeks Shareholder Backing For 3% Quarterly Dividend Lift",
+    "source": "Simply Wall St.",
+    "when": "2026-11-12T21:10"
+   },
    {
     "title": "New Strong Sell Stocks for November 10th",
     "source": "Zacks",
@@ -1745,266 +2560,261 @@
     "title": "Investing in Amdocs (DOX)? Don't Miss Assessing Its International Revenue Trends",
     "source": "Zacks",
     "when": "2026-11-09T13:15"
-   },
-   {
-    "title": "Street Calls of The Week",
-    "source": "Investing.com",
-    "when": "2026-11-08T10:35"
    }
   ],
-  "EL": [
+  "EIX": [
    {
-    "title": "Capri Holdings (CPRI) Names Justin Boxford CEO In 2027 Leadership Handover",
-    "source": "Simply Wall St.",
-    "when": "2026-11-12T12:16"
-   },
-   {
-    "title": "Capri names Est\u00e9e Lauder executive Justin Boxford as CEO",
-    "source": "Retail Insight Network",
-    "when": "2026-11-12T09:03"
-   },
-   {
-    "title": "Est\u00e9e Lauder (EL) Stock Looks Fully Priced After Outlook Upgrade",
-    "source": "Simply Wall St.",
-    "when": "2026-11-12T08:10"
-   }
-  ],
-  "ESAB": [
-   {
-    "title": "ESAB Stock After Earnings Misses As Sales Rise But Profit Falls",
-    "source": "Simply Wall St.",
-    "when": "2026-11-10T01:17"
-   },
-   {
-    "title": "What ESAB (ESAB) Said on Its Q3 Earnings Call",
-    "source": "MarketBeat",
-    "when": "2026-11-05T13:14"
-   },
-   {
-    "title": "ESAB Corp (ESAB) (Q3 2026) Earnings Call Highlights: 14% Sales Growth, Eddyfi Momentum and a ...",
-    "source": "GuruFocus.com",
-    "when": "2026-11-04T23:06"
-   }
-  ],
-  "FITB": [
-   {
-    "title": "NYSE\u2019s Chris Bergan Explains Why Large Caps are Transferring to the NYSE",
-    "source": "NYSE",
-    "when": "2026-11-12T16:27"
-   },
-   {
-    "title": "The Banks Behind Your Neighborhood Branch Pay Dividends Too: $120,000 Across These 3 Regional Banks Yields $4,478 a Year",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-11T19:38"
-   },
-   {
-    "title": "Why Fifth Third Bancorp Stock Could Benefit From Higher US Rates",
-    "source": "Simply Wall St.",
-    "when": "2026-11-10T18:12"
-   }
-  ],
-  "GH": [
-   {
-    "title": "Could You Have Seen The Run In Guardant Health Stock Coming?",
+    "title": "Could Sempra Be The Value Stock For Your Portfolio?",
     "source": "Trefis",
-    "when": "2026-11-11T21:34"
+    "when": "2026-11-12T21:00"
    },
    {
-    "title": "GH Q3 2026 deep dive: new product launches and coverage wins drive growth, but market cautious on profitability",
-    "source": "StockStory",
-    "when": "2026-11-09T10:05"
+    "title": "Do Edison's Dividends Make Up For A Lagging Stock?",
+    "source": "Trefis",
+    "when": "2026-11-12T17:37"
    },
    {
-    "title": "This cancer-testing stock is BTIG\u2019s top pick after another major earnings beat",
-    "source": "Investing.com",
-    "when": "2026-11-09T02:38"
+    "title": "How Much Passive Income $800,000 in Edison, International Paper, Altria and AT&T Pays Each Year",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-06T18:47"
+   }
+  ],
+  "FIS": [
+   {
+    "title": "Fidelity National Information Services CEO Seeks to Rebuild Trust as Cyber Costs Pressure Margins",
+    "source": "MarketBeat",
+    "when": "2026-11-13T01:14"
+   },
+   {
+    "title": "U.S. Bancorp or Fidelity National Information Services: Only One Gets My Dividend Dollars for the Next 10 Years",
+    "source": "TIKR",
+    "when": "2026-11-12T16:52"
+   },
+   {
+    "title": "How Can Companies Measure Ethics and Good Judgment?",
+    "source": "WSJ",
+    "when": "2026-11-10T23:10"
    }
   ],
   "GLD": [
    {
+    "title": "What If You Had Invested $10,000 in Bitcoin 5 Years Ago?",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-12T23:29"
+   },
+   {
+    "title": "Gold Prices Plunge as Fed Rate Hike Fears Intensify",
+    "source": "GuruFocus.com",
+    "when": "2026-11-12T19:44"
+   },
+   {
     "title": "What $10,000 in Silver on Jan. 1 Is Worth Today",
     "source": "Motley Fool",
     "when": "2026-11-12T16:35"
-   },
-   {
-    "title": "Tether Gold Passes KPMG Audit: Can It Beat America\u2019s Biggest Gold Fund?",
-    "source": "BeInCrypto",
-    "when": "2026-11-12T13:42"
-   },
-   {
-    "title": "Forget the ETF Outflows: Gold Miners Offer 3X Leverage As Cash Flow Surges",
-    "source": "Benzinga",
-    "when": "2026-11-10T13:30"
    }
   ],
   "GOOGL": [
    {
-    "title": "Wall Street Models Lag Structural Reality, Prompting Me To Add an \u2018Overvalued\u2019 Apple",
+    "title": "This Magnificent Seven Stock Could Be Headed for a Major Breakout",
     "source": "24/7 Wall St.",
-    "when": "2026-11-12T17:45"
+    "when": "2026-11-13T14:03"
    },
    {
-    "title": "3 Unstoppable Dow Stocks to Buy in November and Hold for the Next Decade",
+    "title": "Google's Latest Cloud Bet Comes Down to Speed",
+    "source": "GuruFocus.com",
+    "when": "2026-11-13T13:51"
+   },
+   {
+    "title": "Berkshire Hathaway\u2019s Greg Abel Bought Back a Record $9.6 Billion of Stock Last Quarter. Here\u2019s Why That Pace Might Not Continue.",
     "source": "Motley Fool",
-    "when": "2026-11-12T17:35"
-   },
-   {
-    "title": "Tech, Media & Telecom Roundup: Market Talk",
-    "source": "The Wall Street Journal",
-    "when": "2026-11-12T17:23"
+    "when": "2026-11-13T13:50"
    }
   ],
   "HD": [
    {
-    "title": "3 Unstoppable Dow Stocks to Buy in November and Hold for the Next Decade",
-    "source": "Motley Fool",
-    "when": "2026-11-12T17:35"
-   },
-   {
-    "title": "TD Cowen Names Top Hardlines Specialty Retail Stocks Amid Inflation",
+    "title": "Stifel downgrades Lowe\u2019s to Sell, stays cautious on Home Depot ahead of earnings",
     "source": "Investing.com",
-    "when": "2026-11-12T16:31"
+    "when": "2026-11-13T14:21"
    },
    {
-    "title": "What Will Decide Home Depot Stock Over The Next Six Months?",
-    "source": "Trefis",
-    "when": "2026-11-12T15:45"
+    "title": "The Home Depot, Inc. (HD) Is a Trending Stock: Facts to Know Before Betting on It",
+    "source": "Zacks",
+    "when": "2026-11-13T13:00"
+   },
+   {
+    "title": "Better Dividend Stock for Retirees: Home Depot vs. Walmart",
+    "source": "TIKR",
+    "when": "2026-11-13T11:58"
    }
   ],
   "IBM": [
    {
-    "title": "Why Is IBM (IBM) Warning Enterprises About AI Sovereignty Gaps?",
+    "title": "Microsoft (MSFT) Unveiled An Enterprise AI Agent Platform",
     "source": "Simply Wall St.",
-    "when": "2026-11-12T17:13"
+    "when": "2026-11-13T05:15"
    },
    {
-    "title": "How Risky Is Hewlett Packard Enterprise Stock?",
+    "title": "Should You Buy HubSpot Stock For Its Cash?",
     "source": "Trefis",
-    "when": "2026-11-12T17:10"
+    "when": "2026-11-12T20:27"
    },
    {
-    "title": "Better Dividend Stock for Retirees: IBM vs. Microchip",
-    "source": "TIKR",
-    "when": "2026-11-12T16:58"
+    "title": "What Happened With Rigetti Computing Stock Yesterday?",
+    "source": "Trefis",
+    "when": "2026-11-12T17:50"
+   }
+  ],
+  "LLY": [
+   {
+    "title": "4 Key Stocks to Watch Across Diabetes and Obesity This Awareness Day",
+    "source": "Zacks",
+    "when": "2026-11-13T13:13"
+   },
+   {
+    "title": "Novo Nordisk (CPSE:NOVO B) Taps DJ Khaled As Oral Weight Loss Race Heats Up",
+    "source": "Simply Wall St.",
+    "when": "2026-11-13T12:16"
+   },
+   {
+    "title": "While AI hogged the headlines, 1 overlooked sector beat the S&P 500 \u2014 and its top stock is up 700%+ this year",
+    "source": "Moneywise",
+    "when": "2026-11-13T12:00"
    }
   ],
   "LMT": [
    {
-    "title": "The Treasury Secretary Is Now Living on a Military Base After Iranian Threats",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-12T17:23"
+    "title": "Lockheed Martin vs. General Dynamics: Which Dividend Stock Pays You More in 10 Years?",
+    "source": "TIKR",
+    "when": "2026-11-13T11:58"
    },
    {
-    "title": "Should I Buy Rocket Lab Stock Now?",
-    "source": "Trefis",
-    "when": "2026-11-12T15:54"
-   },
-   {
-    "title": "LMT vs. HWM: Which Stock Is the Better Value Option?",
+    "title": "The Zacks Analyst Blog Highlights GE Aerospace, Howmet Aerospace, RTX and Lockheed Martin",
     "source": "Zacks",
-    "when": "2026-11-12T15:40"
+    "when": "2026-11-13T06:38"
+   },
+   {
+    "title": "3 Undervalued Stocks To Own In November 2026",
+    "source": "Simply Wall St.",
+    "when": "2026-11-13T04:34"
    }
   ],
-  "LRCX": [
+  "LNT": [
    {
-    "title": "Applied Materials Sits 47% Below Its High. Here\u2019s What the November 12 Report Has to Prove",
-    "source": "TIKR",
-    "when": "2026-11-12T16:01"
+    "title": "Can Alliant Energy's Expanded Capital Plan Drive Long-Term Growth?",
+    "source": "Zacks",
+    "when": "2026-11-12T15:03"
    },
    {
-    "title": "Applied Materials And 2 Top AI Chip Stocks",
-    "source": "Simply Wall St.",
-    "when": "2026-11-12T14:13"
+    "title": "Can PPL's Expanded Investment Plan Accelerate Long-Term Growth?",
+    "source": "Zacks",
+    "when": "2026-11-11T16:08"
    },
    {
-    "title": "KLA Stock Has One Thing Left To Prove",
+    "title": "Is American Electric Power Still The Business You Bought?",
     "source": "Trefis",
-    "when": "2026-11-12T12:02"
+    "when": "2026-10-31T13:53"
    }
   ],
   "META": [
    {
-    "title": "Voters Just Rejected AI Data Centers in 40 of 41 Elections. Is the $1 Trillion Boom in Trouble?",
+    "title": "AMD\u2019s Path to $700 Just Got Much Easier as Enterprise and Hyperscaler Diversification Tailwinds Rise",
     "source": "24/7 Wall St.",
-    "when": "2026-11-12T17:20"
+    "when": "2026-11-13T13:45"
    },
    {
-    "title": "Michael Burry Warned About This AI Risk a Year Ago. Microsoft May Have Just Proved His Point",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-12T17:14"
+    "title": "Anthropic IPO: Buy Day One Or Wait?",
+    "source": "Trefis",
+    "when": "2026-11-13T12:12"
    },
    {
-    "title": "Experts Weigh in on Whether Nvidia's Stock Worth Buying After Jensen Huang's Exit",
-    "source": "International Business Times",
-    "when": "2026-11-12T16:41"
+    "title": "State Street Comm Services SPDR (XLC) Adds Meta and Alphabet on Nov. 11",
+    "source": "GuruFocus.com",
+    "when": "2026-11-13T11:05"
    }
   ],
   "MP": [
    {
-    "title": "MP Materials sees flurry of insider purchases as shares underperform YTD",
-    "source": "Investing.com",
-    "when": "2026-11-12T14:15"
+    "title": "Critical Metals Rises 3% as Rare Earth Stocks Extend Rally; USA Rare Earth Climbs 3%, MP Materials Gains 2%",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T14:18"
    },
    {
-    "title": "MP Gains 2% After Q3 Earnings Beat: Reason Enough to Buy the Stock?",
-    "source": "Zacks",
-    "when": "2026-11-12T07:19"
+    "title": "Wall Street Wrap: Nvidia Faces Downgrades As Jensen Huang\u2019s Exit Rattles Analysts \u2014 AMD, MP Materials, Riot Platforms Get Bullish Calls",
+    "source": "Stocktwits",
+    "when": "2026-11-13T09:06"
    },
    {
-    "title": "MP Materials (MP) Q3 Beat Raises The Question Of Whether Its Story Is Already Priced In",
-    "source": "Simply Wall St.",
-    "when": "2026-11-11T19:13"
+    "title": "Rare Earth Wars: U.S. General Sounds Alarm Over China's Military Leverage",
+    "source": "Oilprice.com",
+    "when": "2026-11-13T01:00"
    }
   ],
   "MSFT": [
    {
-    "title": "Wall Street Models Lag Structural Reality, Prompting Me To Add an \u2018Overvalued\u2019 Apple",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-12T17:45"
+    "title": "Microsoft updates on outage disrupting email, Outlook, Teams, and Copilot for users",
+    "source": "Yahoo Finance",
+    "when": "2026-11-12T21:23"
    },
    {
-    "title": "Is There Hope for Oracle After Plummeting 35% This Year? \u2018Yes\u2019 Says One Analyst Predicting 210% Gains From Here",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-12T17:45"
+    "title": "Bill Ackman says Microsoft's position is 'really, really strong' as Anthropic pushes into enterprise software",
+    "source": "Yahoo Finance",
+    "when": "2026-11-12T22:38"
    },
    {
-    "title": "Voters Just Rejected AI Data Centers in 40 of 41 Elections. Is the $1 Trillion Boom in Trouble?",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-12T17:20"
+    "title": "Not Apple. Not Microsoft. This \"Magnificent Seven\" Stock Is My Top Tech Buy for 2027.",
+    "source": "Motley Fool",
+    "when": "2026-11-13T14:25"
+   }
+  ],
+  "MTSI": [
+   {
+    "title": "M/A-Com (MTSI) International Revenue Performance Explored",
+    "source": "Zacks",
+    "when": "2026-11-13T13:15"
+   },
+   {
+    "title": "MTSI Q3 CY2026 deep dive: robust growth met by market skepticism amid supply chain and end-market shifts",
+    "source": "StockStory",
+    "when": "2026-11-09T04:21"
+   },
+   {
+    "title": "3 US Chip Stocks for AI Exposure With Lower China Risk",
+    "source": "Simply Wall St.",
+    "when": "2026-11-09T02:12"
    }
   ],
   "MU": [
    {
-    "title": "Stock market today: Dow, S&P 500, Nasdaq turn higher as Nvidia stock slides after CEO Jensen Huang resigns",
-    "source": "Yahoo Finance",
-    "when": "2026-11-12T11:00"
+    "title": "3 AI Stocks To Watch With Up To 33% Revenue Growth",
+    "source": "Simply Wall St.",
+    "when": "2026-11-13T14:11"
    },
    {
-    "title": "The Smart Money AI Trade Could Look Very Different in 2027",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-12T17:33"
+    "title": "What Micron Stock Needs to Mount a Serious Rally",
+    "source": "Barrons.com",
+    "when": "2026-11-13T13:16"
    },
    {
-    "title": "Is Intel Stock Paying You Enough For The Swings?",
-    "source": "Trefis",
-    "when": "2026-11-12T17:32"
+    "title": "Broadcom And 2 High Growth Stocks To Watch",
+    "source": "Simply Wall St.",
+    "when": "2026-11-13T13:10"
    }
   ],
   "NEM": [
    {
-    "title": "4 Gold Mining Stocks Likely to Tide Industry Headwinds",
+    "title": "Zacks Industry Outlook Highlights Fury Gold, Gold Royalty, Newmont Mining and B2Gold",
     "source": "Zacks",
-    "when": "2026-11-12T12:29"
+    "when": "2026-11-13T06:07"
    },
    {
-    "title": "What Avantis U.S. Large Cap Value ETF (AVLV) Bought: AT&T Leads on Tuesday",
-    "source": "GuruFocus.com",
-    "when": "2026-11-12T11:04"
-   },
-   {
-    "title": "What Is Driving Kinross Gold Stock?",
+    "title": "What Could Lift Iamgold Stock?",
     "source": "Trefis",
-    "when": "2026-11-11T21:04"
+    "when": "2026-11-12T20:06"
+   },
+   {
+    "title": "What Does The Market Want From Newmont Stock?",
+    "source": "Trefis",
+    "when": "2026-11-12T19:39"
    }
   ],
   "NLR": [
@@ -2026,6 +2836,11 @@
   ],
   "NOC": [
    {
+    "title": "Defense Tech: Investors and Operators, 6th Palm Beach CorpGov Forum",
+    "source": "CorpGov.com",
+    "when": "2026-11-12T18:12"
+   },
+   {
     "title": "Should I Buy Rocket Lab Stock Now?",
     "source": "Trefis",
     "when": "2026-11-12T15:54"
@@ -2034,65 +2849,82 @@
     "title": "Can RKLB's ESCAPADE Mission Strengthen Its Deep-Space Capabilities?",
     "source": "Zacks",
     "when": "2026-11-12T12:12"
+   }
+  ],
+  "NOW": [
+   {
+    "title": "Bill Ackman Explicitly Avoids Micron\u2019s Volatile Cash Flows Focusing Here Instead",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T12:15"
    },
    {
-    "title": "Northrop Grumman Sees 2027 Growth and $10 Billion in Overseas Sales by 2031",
-    "source": "MarketBeat",
-    "when": "2026-11-11T20:14"
+    "title": "Has Buying The Dip In Salesforce Stock Paid Off?",
+    "source": "Trefis",
+    "when": "2026-11-13T12:12"
+   },
+   {
+    "title": "ServiceNow\u2019s Average Target Fell From $231 to $156 in a Year. Piper Sandler Still Sees $175",
+    "source": "TIKR",
+    "when": "2026-11-13T09:30"
    }
   ],
   "NVDA": [
    {
-    "title": "Nvidia's CEO search has a 3- to 4-month clock: 'It's pretty urgent'",
-    "source": "Yahoo Finance Video",
-    "when": "2026-11-12T17:55"
-   },
-   {
-    "title": "Why bitcoin suffers alongside everything else on bad trading days",
-    "source": "Yahoo Finance Video",
-    "when": "2026-11-12T17:36"
-   },
-   {
-    "title": "Jensen Huang's Nvidia ousting may signal shifting winds on China in Washington",
+    "title": "Stock market today: Dow, S&P 500, Nasdaq futures edge higher after wholesale inflation grows, Nvidia stock rebounds",
     "source": "Yahoo Finance",
-    "when": "2026-11-12T16:43"
+    "when": "2026-11-13T11:01"
+   },
+   {
+    "title": "Here's what happened to Nvidia in 2 days",
+    "source": "Yahoo Finance Video",
+    "when": "2026-11-13T14:03"
+   },
+   {
+    "title": "The Nvidia scandal has hidden upside potential for the AI trade",
+    "source": "Yahoo Finance",
+    "when": "2026-11-13T11:00"
    }
   ],
   "O": [
    {
-    "title": "The S&P 500 Lost 5.9% in a Month, Then Won Back More Than Half in 4 Trading Days. How Much Does a 72-Year-Old Widow Need in Dividend Stocks to Collect $5,000 a ",
+    "title": "Post-Midterm Playbook: 4 Passive Income Dividend Stocks to Buy After Democrats Took Congress",
     "source": "24/7 Wall St.",
-    "when": "2026-11-12T14:58"
+    "when": "2026-11-13T13:22"
    },
    {
-    "title": "Realty Income (O) Stock Sees Modest Fair Value Cut As Analysts Trim Growth Views",
-    "source": "Simply Wall St.",
-    "when": "2026-11-11T22:08"
+    "title": "How Much Does a 69-Year-Old Need Invested in Dividend Stocks to Collect $3,000 a Month?",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T12:32"
    },
    {
-    "title": "Tire Shops, Convenience Stores and Warehouses Pay Rent to These 3 REITs, and $120,000 Yields $6,889 a Year",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-11T21:11"
+    "title": "Realty Income (O) vs. VICI (VICI): Higher Yield, but Caesars (CZR) Is the Catch",
+    "source": "TIKR",
+    "when": "2026-11-13T12:11"
    }
   ],
   "OKLO": [
    {
-    "title": "AMD Soars 6%, Broadcom Up 6% as Nvidia CEO Jensen Huang Exits",
+    "title": "NuScale Rose 10% in a Week as Its First Reactor Module Moved Into Production",
     "source": "TIKR",
-    "when": "2026-11-12T17:05"
+    "when": "2026-11-13T11:48"
    },
    {
-    "title": "Can NuScale's TVA Deal Unlock Its First Major Module Order?",
-    "source": "Zacks",
-    "when": "2026-11-12T15:29"
+    "title": "Will NuScale Power Stock's Jump After Earnings Last?",
+    "source": "Trefis",
+    "when": "2026-11-12T20:21"
    },
    {
-    "title": "Oklo Advances Groves-1 Reactor Into Research and Testing Phase",
-    "source": "Zacks",
-    "when": "2026-11-12T15:18"
+    "title": "NuScale Power Just Dropped 25% in a Month: Nuke Your Shares Now, or Hunker Down and Hold?",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-12T20:02"
    }
   ],
   "PLD": [
+   {
+    "title": "What Could Tightening Supply Mean For Prologis (PLD) Through 2027?",
+    "source": "Simply Wall St.",
+    "when": "2026-11-13T01:13"
+   },
    {
     "title": "Prologis: Rents Must Climb 27% to Justify New Warehouses",
     "source": "CRE Daily",
@@ -2102,28 +2934,23 @@
     "title": "Is Prologis (PLD) Below Fair Value After Its $5b ATM Offering?",
     "source": "Simply Wall St.",
     "when": "2026-11-10T20:08"
-   },
-   {
-    "title": "Prologis (PLD) Stock Appears Fairly Valued After A 40% Run",
-    "source": "Simply Wall St.",
-    "when": "2026-11-10T19:09"
    }
   ],
   "PLTR": [
    {
-    "title": "Palantir\u2019s Growth Story Could Be Just Getting Started",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-12T16:33"
+    "title": "3 AI Stocks To Watch With Up To 33% Revenue Growth",
+    "source": "Simply Wall St.",
+    "when": "2026-11-13T14:11"
    },
    {
-    "title": "AI Governance for Boards, 6th Palm Beach CorpGov Forum",
-    "source": "CorpGov.com",
-    "when": "2026-11-12T16:25"
+    "title": "AI software is sinking, why is Accenture winning $84.5B deals?",
+    "source": "Investing.com",
+    "when": "2026-11-13T12:41"
    },
    {
-    "title": "XYZ vs. PLTR: Which Stock Should Value Investors Buy Now?",
-    "source": "Zacks",
-    "when": "2026-11-12T15:40"
+    "title": "Cathie Wood buys $16 million in AI stock, dumps $10 million",
+    "source": "GuruFocus.com",
+    "when": "2026-11-13T12:01"
    }
   ],
   "RPM": [
@@ -2145,87 +2972,87 @@
   ],
   "RTX": [
    {
-    "title": "RTX (RTX) DeepStrike Test And DARPA Win Put Fresh Focus On Defense Tech",
-    "source": "Simply Wall St.",
-    "when": "2026-11-12T15:17"
+    "title": "What State Street Industrial Select SPDR (XLI) Bought: GE Leads on Nov. 11",
+    "source": "GuruFocus.com",
+    "when": "2026-11-13T11:04"
    },
    {
-    "title": "RTX Corporation (RTX) Is a Trending Stock: Facts to Know Before Betting on It",
+    "title": "The Zacks Analyst Blog Highlights GE Aerospace, Howmet Aerospace, RTX and Lockheed Martin",
     "source": "Zacks",
-    "when": "2026-11-12T13:00"
+    "when": "2026-11-13T06:38"
    },
    {
-    "title": "Buy 4 Aerospace Defense Behemoths to Enhance Your Portfolio Returns",
-    "source": "Zacks",
-    "when": "2026-11-12T11:41"
+    "title": "Rare Earth Wars: U.S. General Sounds Alarm Over China's Military Leverage",
+    "source": "Oilprice.com",
+    "when": "2026-11-13T01:00"
    }
   ],
   "SPY": [
    {
-    "title": "NVIDIA\u2019s Leadership Crisis Is Dragging the S&P 500 Lower. Here\u2019s What Else Is Moving",
+    "title": "Stock Market Today: Nvidia Rebounds After Huang\u2019s Exit as Treasury Yields Top 5%",
     "source": "24/7 Wall St.",
-    "when": "2026-11-12T15:38"
+    "when": "2026-11-13T14:15"
    },
    {
-    "title": "Jensen Huang Resigns from NVIDIA, Shares -10%",
-    "source": "Zacks",
-    "when": "2026-11-12T14:12"
-   },
-   {
-    "title": "Exchange-Traded Funds, Equity Futures Lower Pre-Bell Thursday Amid Nvidia Leadership Uncertainty",
+    "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Producer Inflation Trails Forecasts",
     "source": "MT Newswires",
-    "when": "2026-11-12T14:08"
+    "when": "2026-11-13T14:13"
+   },
+   {
+    "title": "$1 Million In SCHD Five Years Ago: What Is It Worth Now?",
+    "source": "Trefis",
+    "when": "2026-11-13T12:12"
    }
   ],
   "T": [
    {
-    "title": "Comcast (CMCSA) vs. CHTR and VZ: Can the Post-Versant Reset and Broadband Stabilization Drive a Re-Rating?",
-    "source": "Insider Monkey",
-    "when": "2026-11-12T17:07"
+    "title": "SpaceX vs. AST SpaceMobile: Which Space Stock Has the Edge Now?",
+    "source": "Zacks",
+    "when": "2026-11-13T12:34"
    },
    {
-    "title": "What Is The Biggest Threat To Charter Communications Stock?",
+    "title": "How Much Could You Lose In AT&T Stock After CPI?",
     "source": "Trefis",
-    "when": "2026-11-12T15:59"
+    "when": "2026-11-13T12:12"
    },
    {
-    "title": "Could AT&T Be The Value Stock For Your Portfolio?",
-    "source": "Trefis",
-    "when": "2026-11-12T15:54"
+    "title": "LiveOne, Inc. Q2 2027 Earnings Call Summary",
+    "source": "Moby",
+    "when": "2026-11-13T01:52"
    }
   ],
   "TSM": [
    {
-    "title": "Trump to Nvidia: Hire Tim Cook so \u201ca Legend Replaces a Legend.\u201d Bad Idea.",
-    "source": "TIKR",
-    "when": "2026-11-12T16:28"
+    "title": "Taiwan Semiconductor Just Became Even More of an AI Anchor On Nvidia\u2019s -25% Plummet",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T13:45"
    },
    {
-    "title": "Applied Materials Sits 47% Below Its High. Here\u2019s What the November 12 Report Has to Prove",
-    "source": "TIKR",
-    "when": "2026-11-12T16:01"
+    "title": "Jensen Huang is Out as CEO, Nvidia Down 25% in a Month: Wall Street\u2019s Highest Target Price Reaffirmed as Major Desks Slash Prices, Predicting 210% Gains",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T13:45"
    },
    {
-    "title": "Stanley Druckenmiller\u2019s Next 13F Likely Lands Monday. 3 Positions to Watch",
-    "source": "TIKR",
-    "when": "2026-11-12T14:53"
+    "title": "NVIDIA Leadership Crisis Opens Door for Chip Rivals? ETFs in Focus",
+    "source": "Zacks",
+    "when": "2026-11-13T13:00"
    }
   ],
   "UNH": [
    {
-    "title": "UnitedHealth Group (UNH) Stock Still Looks Below Fair Value After Board Appointment",
-    "source": "Simply Wall St.",
-    "when": "2026-11-12T17:10"
+    "title": "State Street Health Care SPDR (XLV) Buys $66.8 Million More Eli Lilly on Nov. 11",
+    "source": "GuruFocus.com",
+    "when": "2026-11-13T11:03"
    },
    {
-    "title": "Why Is UnitedHealth (UNH) Up 1.9% Since Last Earnings Report?",
-    "source": "Zacks",
-    "when": "2026-11-12T15:30"
+    "title": "UnitedHealth (UNH) Sees $86.8 Million in Net ETF Buying on Nov. 11",
+    "source": "GuruFocus.com",
+    "when": "2026-11-13T11:01"
    },
    {
-    "title": "What Does Progyny's Falling Multiple Really Say?",
+    "title": "What Could Go Wrong At CVS Health From Here?",
     "source": "Trefis",
-    "when": "2026-11-12T15:13"
+    "when": "2026-11-12T19:07"
    }
   ],
   "VNQ": [
@@ -2247,335 +3074,5 @@
   ]
  },
  "people_news": {},
- "allowed": [
-  "AAPL",
-  "AMAT",
-  "AMD",
-  "AMZN",
-  "AVGO",
-  "BFH",
-  "BHE",
-  "CCJ",
-  "DDOG",
-  "DIA",
-  "DKNG",
-  "DOX",
-  "EL",
-  "ESAB",
-  "FITB",
-  "GH",
-  "GLD",
-  "GOOGL",
-  "HD",
-  "IBM",
-  "LMT",
-  "LRCX",
-  "META",
-  "MP",
-  "MSFT",
-  "MU",
-  "NEM",
-  "NLR",
-  "NOC",
-  "NVDA",
-  "O",
-  "OKLO",
-  "PLD",
-  "PLTR",
-  "RPM",
-  "RTX",
-  "SPY",
-  "T",
-  "TSM",
-  "UNH",
-  "VNQ"
- ],
- "feed_status": {
-  "congress": "ok",
-  "congress_source": "congresswatch",
-  "congress_notes": "",
-  "insiders": "ok (openinsider)",
-  "excluded_instruments": [
-   "AQST excluded: too thinly traded ($9.4M a day) \u2014 Aquestive Therapeutics, Inc.",
-   "BDSX excluded: too thinly traded ($1.6M a day) \u2014 Biodesix, Inc.",
-   "CHCI excluded: too thinly traded ($0.6M a day) \u2014 Comstock Holding Companies, Inc.",
-   "FMAO excluded: too thinly traded ($2.1M a day) \u2014 Farmers & Merchants Bancorp, Inc.",
-   "GOOD excluded: too thinly traded ($5.0M a day) \u2014 Gladstone Commercial Corporation",
-   "GSM excluded: too thinly traded ($4.2M a day) \u2014 Ferroglobe PLC",
-   "ITIC excluded: too thinly traded ($15.4M a day) \u2014 Investors Title Company",
-   "KLXE excluded: too thinly traded ($0.7M a day) \u2014 KLX Energy Services Holdings, Inc.",
-   "NOKBF excluded: too thinly traded ($8.1M a day) \u2014 Nokia Oyj",
-   "NSLR excluded: too thinly traded ($2.8M a day) \u2014 Neostellar Capital Corp.",
-   "NTHI excluded: too thinly traded ($0.8M a day) \u2014 NeOnc Technologies Holdings, Inc.",
-   "OWLS excluded: too thinly traded ($0.1M a day) \u2014 Obook Holdings Inc."
-  ]
- },
- "learning": {
-  "horizon": "1d",
-  "decisions_recorded": 420,
-  "decisions_graded": 327,
-  "decisions_with_buys_graded": 35,
-  "independent_days_graded": 3,
-  "avg_regret_pct": -0.53,
-  "chosen_avg_pct": 0.3,
-  "skipped_avg_pct": -0.24,
-  "idle_universe_avg_pct": 0.01,
-  "picking_beats_random": true,
-  "avg_fraction_of_universe_bought": 0.0,
-  "checks_that_bought_everything": 0,
-  "by_signal_chosen": {
-   "autopilot": {
-    "n": 47,
-    "avg_pct": 0.28
-   },
-   "congress": {
-    "n": 33,
-    "avg_pct": 0.35
-   },
-   "insider": {
-    "n": 14,
-    "avg_pct": 0.09
-   },
-   "momentum": {
-    "n": 47,
-    "avg_pct": 0.28
-   }
-  },
-  "biggest_misses": [
-   {
-    "ticker": "OKLO",
-    "fwd_pct": 11.27,
-    "sector": "nuclear",
-    "m1m_then": -33.5,
-    "congress": 0,
-    "insider": 0
-   },
-   {
-    "ticker": "AVGO",
-    "fwd_pct": 11.04,
-    "sector": "widely_held",
-    "m1m_then": -10.1,
-    "congress": -2.0,
-    "insider": 0
-   },
-   {
-    "ticker": "MU",
-    "fwd_pct": 10.46,
-    "sector": "off-watchlist",
-    "m1m_then": -29.1,
-    "congress": 3.0,
-    "insider": 0
-   },
-   {
-    "ticker": "IBRX",
-    "fwd_pct": 9.55,
-    "sector": "off-watchlist",
-    "m1m_then": -39.2,
-    "congress": 2.0,
-    "insider": 0
-   },
-   {
-    "ticker": "AMAT",
-    "fwd_pct": 7.01,
-    "sector": "off-watchlist",
-    "m1m_then": -26.6,
-    "congress": 1.0,
-    "insider": 0
-   }
-  ],
-  "biggest_avoided": [
-   {
-    "ticker": "NVDA",
-    "fwd_pct": -12.28
-   },
-   {
-    "ticker": "GLXY",
-    "fwd_pct": -9.61
-   },
-   {
-    "ticker": "IBRX",
-    "fwd_pct": -9.37
-   }
-  ],
-  "sectors_most_often_missed": {
-   "off-watchlist": {
-    "n": 11
-   },
-   "widely_held": {
-    "n": 7
-   },
-   "defense": {
-    "n": 6
-   },
-   "nuclear": {
-    "n": 1
-   }
-  },
-  "idle_checks": 343,
-  "blocked_checks": 0,
-  "idle_share": 0.86,
-  "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
-  "evidence_strength": "anecdote",
-  "how_many_days_before_this_means_anything": 30,
-  "warning": "only 3 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
- },
- "signalsAsOf": "2026-11-12T13:01-05:00",
- "disclosure_leaderboard": [
-  {
-   "who": "Nancy Pelosi",
-   "disclosed_buys_scored": 16,
-   "avg_excess_pct": 5.39,
-   "beat_index_rate": 0.56,
-   "best": {
-    "ticker": "BE",
-    "excess_pct": 34.2,
-    "disclosed": "2026-08-21"
-   }
-  },
-  {
-   "who": "Tim Moore",
-   "disclosed_buys_scored": 22,
-   "avg_excess_pct": 4.76,
-   "beat_index_rate": 0.64,
-   "best": {
-    "ticker": "CBRL",
-    "excess_pct": 20.0,
-    "disclosed": "2026-01-07"
-   }
-  },
-  {
-   "who": "Robert E. Latta",
-   "disclosed_buys_scored": 4,
-   "avg_excess_pct": 4.63,
-   "beat_index_rate": 0.75,
-   "best": {
-    "ticker": "FMAO",
-    "excess_pct": 7.7,
-    "disclosed": "2026-06-05"
-   }
-  },
-  {
-   "who": "Jonathan L. Jackson",
-   "disclosed_buys_scored": 16,
-   "avg_excess_pct": 4.53,
-   "beat_index_rate": 0.69,
-   "best": {
-    "ticker": "C",
-    "excess_pct": 16.4,
-    "disclosed": "2026-03-12"
-   }
-  },
-  {
-   "who": "Rick Larsen",
-   "disclosed_buys_scored": 9,
-   "avg_excess_pct": 4.07,
-   "beat_index_rate": 0.78,
-   "best": {
-    "ticker": "CASY",
-    "excess_pct": 10.2,
-    "disclosed": "2026-04-15"
-   }
-  },
-  {
-   "who": "Tim Walberg",
-   "disclosed_buys_scored": 14,
-   "avg_excess_pct": 3.74,
-   "beat_index_rate": 0.57,
-   "best": {
-    "ticker": "UA",
-    "excess_pct": 25.4,
-    "disclosed": "2026-06-03"
-   }
-  },
-  {
-   "who": "Jared Moskowitz",
-   "disclosed_buys_scored": 34,
-   "avg_excess_pct": 2.31,
-   "beat_index_rate": 0.5,
-   "best": {
-    "ticker": "PANW",
-    "excess_pct": 62.0,
-    "disclosed": "2026-04-30"
-   }
-  },
-  {
-   "who": "Michael A. Rulli",
-   "disclosed_buys_scored": 16,
-   "avg_excess_pct": 1.89,
-   "beat_index_rate": 0.56,
-   "best": {
-    "ticker": "MU",
-    "excess_pct": 14.9,
-    "disclosed": "2026-08-07"
-   }
-  },
-  {
-   "who": "Lloyd Doggett",
-   "disclosed_buys_scored": 22,
-   "avg_excess_pct": 1.45,
-   "beat_index_rate": 0.55,
-   "best": {
-    "ticker": "HD",
-    "excess_pct": 27.5,
-    "disclosed": "2026-10-05"
-   }
-  },
-  {
-   "who": "Scott Franklin",
-   "disclosed_buys_scored": 5,
-   "avg_excess_pct": 1.22,
-   "beat_index_rate": 0.2,
-   "best": {
-    "ticker": "ACN",
-    "excess_pct": 24.8,
-    "disclosed": "2026-09-17"
-   }
-  },
-  {
-   "who": "David J. Taylor",
-   "disclosed_buys_scored": 77,
-   "avg_excess_pct": 1.02,
-   "beat_index_rate": 0.51,
-   "best": {
-    "ticker": "HD",
-    "excess_pct": 22.3,
-    "disclosed": "2026-10-01"
-   }
-  },
-  {
-   "who": "Maria Elvira Salazar",
-   "disclosed_buys_scored": 59,
-   "avg_excess_pct": 0.79,
-   "beat_index_rate": 0.41,
-   "best": {
-    "ticker": "MRVL",
-    "excess_pct": 69.6,
-    "disclosed": "2026-05-08"
-   }
-  }
- ],
- "disclosure_leaderboard_meta": {
-  "built": "2026-11-12",
-  "horizon_days": 30,
-  "buys_scored": 1276,
-  "measured_from": "disclosure date, not transaction date",
-  "benchmark": "SPY",
-  "caveat": "Excess return over SPY across the same dates, scored only from the day the filing became public. A small number of trades is not evidence of skill; treat anyone with fewer than about 20 scored buys as unproven."
- },
- "disclosure_significance": {
-  "members": 26,
-  "best": "Nancy Pelosi",
-  "best_avg_excess_pct": 5.39,
-  "best_t_stat": 2.11,
-  "members_weighted": 0,
-  "verdict": "no member is distinguishable from luck; every multiplier is 1.0x",
-  "how_to_read": "Ranking 25 people and taking the top one produces a good-looking number by construction. A score only counts here if it beats what the best of 25 coin-flippers would show, which needs roughly 30+ independent trades."
- },
- "wallet_moves": [],
- "wallet_status": {
-  "followed_total": 0,
-  "checked_this_pass": 0,
-  "starting_at": 0,
-  "names": []
- }
+ "signalsAsOf": "2026-11-13T09:33-05:00"
 }

@@ -1,51 +1,6 @@
   (ITIC excluded: too thinly traded ($15.4M a day) — Investors Title Company)
   (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgycRDb6J1KiLqtSiitpJ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25418.85 (+1.68% on $25000.00 in) · cash $25418.85 · realised +418.85
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-12 14:50 ET (Thursday) — week 2026-W46 — budget left $24831.42 (today $28500.00 put to work, 17 buys, 18 sells) — SIM (pretend money) via sim
-  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
-  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
-  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
-  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
-  (ITIC excluded: too thinly traded ($15.4M a day) — Investors Title Company)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgyce88HWFBUdichNpacC'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25418.85 (+1.68% on $25000.00 in) · cash $25418.85 · realised +418.85
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-12 14:53 ET (Thursday) — week 2026-W46 — budget left $24831.42 (today $28500.00 put to work, 17 buys, 18 sells) — SIM (pretend money) via sim
-  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
-  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
-  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
-  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
-  (ITIC excluded: too thinly traded ($15.4M a day) — Investors Title Company)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgycrEDjfh9XZAqntbHAH'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25418.85 (+1.68% on $25000.00 in) · cash $25418.85 · realised +418.85
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-12 14:55 ET (Thursday) — week 2026-W46 — budget left $24831.42 (today $28500.00 put to work, 17 buys, 18 sells) — SIM (pretend money) via sim
-  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
-  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
-  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
-  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
-  (ITIC excluded: too thinly traded ($15.4M a day) — Investors Title Company)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgyd4D4cwWjcdHMjDeMxu'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
@@ -398,3 +353,48 @@ portfolio: equity $25418.85 (+1.68% on $25000.00 in) · cash $25418.85 · realis
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
 ## 2026-11-12 16:00 ET — published the session's closing state
+
+## 2026-11-13 09:32 ET (Friday) — week 2026-W46 — budget left $24831.42 (today $0.00 put to work, 0 buys, 0 sells) — SIM (pretend money) via sim
+  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (ITIC excluded: too thinly traded ($15.4M a day) — Investors Title Company)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch16HBZLWQcbixpPcXuEx'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 0 of 8 target names with $24,831 idle, so opened 8: CMCSA, LNT, BBIO, ARE, CMS, ARGX, LLY, RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CMCSA [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +14.2% over the month; 0% of today's range
+- BUY $3000.00 LNT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +9.2% over the month; 0% of today's range
+- BUY $3000.00 BBIO [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +16.9% over the month; 22% of today's range
+- BUY $3000.00 ARE [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +4.0% over the month; 0% of today's range
+- BUY $3000.00 CMS [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +3.6% over the month; 0% of today's range
+- BUY $3000.00 ARGX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +15.1% over the month; 35% of today's range
+- BUY $3000.00 LLY [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +14.4% over the month; 49% of today's range
+- BUY $3000.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: congress net buying (2 net buyers): David J. Taylor; +3.3% over the month; 41% of today's range
+~ WORKING take_profit 100% CMCSA @ $24.96 until 2026-11-18 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CMCSA @ $24.68 until 2026-11-18 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CMCSA @ $24.13 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LNT @ $73.45 until 2026-11-18 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% LNT @ $72.90 until 2026-11-18 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 LNT @ $71.09 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% BBIO @ $78.84 until 2026-11-18 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% BBIO @ $77.66 until 2026-11-18 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 BBIO @ $76.14 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ARE @ $44.25 until 2026-11-18 — close 100% at +0.5% over the average cost
+~ WORKING stop_loss 100% ARE @ $43.48 until 2026-11-18 — close it all at -1.2% under the average cost
+~ WORKING buy_limit $500.00 ARE @ $42.71 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CMS @ $69.56 until 2026-11-18 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% CMS @ $69.03 until 2026-11-18 — close it all at -0.5% under the average cost
+~ WORKING buy_limit $500.00 CMS @ $67.33 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% ARGX @ $977.20 until 2026-11-18 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% ARGX @ $966.93 until 2026-11-18 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 ARGX @ $945.04 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% LLY @ $1437.16 until 2026-11-18 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% LLY @ $1417.95 until 2026-11-18 — close it all at -1.0% under the average cost
+~ WORKING buy_limit $500.00 LLY @ $1388.73 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% RPM @ $103.77 until 2026-11-18 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% RPM @ $102.48 until 2026-11-18 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 RPM @ $100.30 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25409.85 (+1.64% on $25000.00 in) · cash $1418.85 · realised +418.85
+Done: 0 sell(s), 8 buy(s); 24 order(s) working; budget left $831.42 this week
