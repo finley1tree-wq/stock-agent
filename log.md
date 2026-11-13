@@ -72292,3 +72292,24 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 CMS @ $67.76 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25369.96 (+1.48% on $25000.00 in) · cash $18627.31 · realised +377.31
 Done: 0 sell(s), 4 buy(s); 18 order(s) working; budget left $18039.88 this week
+
+## 2026-11-13 10:28 ET (Friday) — week 2026-W46 — budget left $18039.88 (today $39750.00 put to work, 17 buys, 11 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1AVi1U3T7BfxnWp7FgJ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $18,040 idle, so opened 2: ENOV, CMCSA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ENOV [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 2 insiders bought (Form 4); +44.8% over the month; 3% of today's range
+- BUY $750.00 CMCSA [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +15.0% over the month; 58% of today's range
+~ WORKING take_profit 100% ENOV @ $28.25 until 2026-11-18 — close 100% at +0.8% over the average cost
+~ WORKING stop_loss 100% ENOV @ $27.49 until 2026-11-18 — close it all at -1.9% under the average cost
+~ WORKING buy_limit $500.00 ENOV @ $27.19 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CMCSA @ $25.12 until 2026-11-18 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CMCSA @ $24.84 until 2026-11-18 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CMCSA @ $24.29 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25373.08 (+1.49% on $25000.00 in) · cash $17127.31 · realised +377.31
+Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $16539.88 this week

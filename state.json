@@ -1,7 +1,7 @@
 {
   "week": "2026-W46",
-  "spent": 6960.12,
-  "deployed": 139500.0,
+  "spent": 8460.12,
+  "deployed": 141000.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 56.38,
@@ -9,10 +9,10 @@
     "NFRX": 14.96,
     "FUN": 9.47,
     "ESAB": 63.43,
-    "ENOV": 18.63,
+    "ENOV": 768.63,
     "FITB": 22.48,
     "EL": 42.5,
-    "CMCSA": 2.09,
+    "CMCSA": 752.09,
     "LNT": 4.95,
     "BBIO": 783.73,
     "ARGX": 774.08,
@@ -33,10 +33,10 @@
     "ECHO": 3000.0,
     "NFRX": 3000.0,
     "FUN": 8250.0,
-    "ENOV": 11250.0,
+    "ENOV": 12000.0,
     "FITB": 4500.0,
     "DKNG": 4500.0,
-    "CMCSA": 3000.0,
+    "CMCSA": 3750.0,
     "LNT": 3000.0,
     "BBIO": 3750.0,
     "ARE": 3750.0,
@@ -3359,12 +3359,52 @@
       "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +4.3% over the month; 75% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ENOV",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 26.755893,
+      "price": 28.03,
+      "date": "2026-11-13",
+      "time_et": "10:28",
+      "ts": 1794583724,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "2 insiders bought (Form 4); +44.8% over the month; 3% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "CMCSA",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 29.952062,
+      "price": 25.04,
+      "date": "2026-11-13",
+      "time_et": "10:28",
+      "ts": 1794583724,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +15.0% over the month; 58% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 6791.54,
-  "deployed_today": 39750.0,
-  "orders_today": 17,
+  "spent_today": 8291.54,
+  "deployed_today": 41250.0,
+  "orders_today": 19,
   "sells_today": 11,
   "sold_today": [
     "ARE",
@@ -3402,8 +3442,8 @@
     "EIX": 1794581730,
     "CSQR": 1794582565
   },
-  "last_publish_ts": 1794583544,
-  "last_check_ts": 1794583634,
+  "last_publish_ts": 1794583724,
+  "last_check_ts": 1794583724,
   "exp_arm": {
     "LLY": {
       "params": {
@@ -3446,30 +3486,50 @@
         "ratchet": "on"
       },
       "tags": {}
+    },
+    "ENOV": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "CMCSA": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
     }
   },
   "last_bar_ts": 1794583500,
-  "last_decision_ts": 1794583544,
+  "last_decision_ts": 1794583724,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "300a2128": 70.0123,
+    "089c4850": 968.962,
     "698ce07c": 971.08,
+    "300a2128": 70.0123,
     "1b3ec5b8": 125.5375,
+    "c7edc8d1": 25.1206,
     "d93a4e8a": 78.3416,
-    "a56136f4": 69.4786,
     "d67c22ef": 1437.1633,
-    "56dc0cfb": 43.6174,
-    "bcca9bc1": 960.4895,
+    "a56136f4": 69.4786,
+    "52568328": 24.8387,
+    "af41eadb": 28.247,
     "be4f1303": 1417.9502,
-    "73342773": 123.6899,
-    "b8ff345f": 77.1467,
+    "56dc0cfb": 43.6174,
     "ab1c9ecd": 42.822,
-    "c45e9fe1": 1388.7296,
+    "b8ff345f": 77.1467,
+    "73342773": 123.6899,
+    "5778e9e0": 27.4876,
     "12ed9f14": 42.0883,
+    "c45e9fe1": 1388.7296,
+    "0aa2b8bd": 24.2888,
+    "1024aed6": 27.1891,
+    "15233d59": 67.7642,
     "05ba23d0": 75.66,
-    "a4daec00": 939.0085,
     "81d4c5e1": 121.2597,
-    "15233d59": 67.7642
+    "a4daec00": 939.0085
   }
 }
