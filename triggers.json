@@ -1,24 +1,6 @@
 {
  "orders": [
   {
-   "id": "1897e455",
-   "ticker": "ESAB",
-   "kind": "take_profit",
-   "price": 79.7605,
-   "status": "filled",
-   "created": "2026-11-06 09:32",
-   "created_ts": 1793975557,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $79.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 09:38"
-  },
-  {
    "id": "7649b420",
    "ticker": "ESAB",
    "kind": "stop_loss",
@@ -7384,7 +7366,7 @@
    "ticker": "EIX",
    "kind": "stop_loss",
    "price": 59.8954,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 10:44",
    "created_ts": 1794584660,
    "why": "close it all at -0.6% under the average cost",
@@ -7394,7 +7376,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 11:11",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "cacc9a8c",
@@ -7482,7 +7466,24 @@
    ],
    "good_until": "2026-11-18",
    "pct_of_position": 100.0
+  },
+  {
+   "id": "cf72e6c1",
+   "ticker": "EIX",
+   "kind": "stop_loss",
+   "price": 60.314,
+   "status": "working",
+   "created": "2026-11-13 11:11",
+   "created_ts": 1794586295,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $60.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-13 11:10"
+ "updated": "2026-11-13 11:11"
 }
