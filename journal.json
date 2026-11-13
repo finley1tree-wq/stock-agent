@@ -100042,7 +100042,7 @@
     "code_version": "d5e244d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": -0.18
   },
   {
     "symbol": "BBIO",
@@ -100593,7 +100593,7 @@
     "code_version": "2d78efc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": 0.06
   },
   {
     "symbol": "ARGX",
@@ -100622,7 +100622,7 @@
     "code_version": "2d78efc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": -0.1
   },
   {
     "symbol": "ENOV",
@@ -100651,7 +100651,9 @@
     "code_version": "50a5361",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.6
+    "ret_now": 0.39,
+    "ret_final": 0.39,
+    "ret_src": "realised"
   },
   {
     "symbol": "CMCSA",
@@ -100738,7 +100740,7 @@
     "code_version": "d0f302f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.08
   },
   {
     "symbol": "RPM",
@@ -100767,7 +100769,7 @@
     "code_version": "4d00c11",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.02
+    "ret_now": -0.03
   },
   {
     "symbol": "CF",
@@ -100796,7 +100798,7 @@
     "code_version": "4d00c11",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.0
+    "ret_now": -0.1
   },
   {
     "symbol": "CMCSA",
@@ -100823,6 +100825,33 @@
     "trigger": "stop_loss",
     "hour_et": 11,
     "code_version": "b9b3ee2",
+    "hold_minutes": 17
+  },
+  {
+    "symbol": "ENOV",
+    "side": "sell",
+    "qty": 26.632331,
+    "status": "filled",
+    "price": 28.27,
+    "proceeds": 752.95,
+    "realized_pnl": 2.95,
+    "realized_pct": 0.39,
+    "date": "2026-11-13",
+    "time_et": "11:42",
+    "ts": 1794588000,
+    "why": "close it all at -1.9% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $28.16",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "95f422b",
     "hold_minutes": 17
   }
 ]
