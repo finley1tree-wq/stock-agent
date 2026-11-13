@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-13T10:09-05:00",
- "note": "tick: 1 standing order(s) filled",
+ "asOf": "2026-11-13T10:23-05:00",
+ "note": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,790 idle, so opened 1: ARE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,17 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "d67c22ef",
-   "ticker": "LLY",
+   "id": "56dc0cfb",
+   "ticker": "ARE",
    "kind": "take_profit",
-   "price": 1437.1633,
+   "price": 43.6174,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 1427.97,
-   "pct_away": 0.64,
+   "last": 43.37,
+   "pct_away": 0.57,
    "good_until": "2026-11-18",
-   "why": "close 100% at +0.4% over the average cost",
+   "why": "close 100% at +0.5% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,10 +202,44 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 1427.97,
-   "pct_away": -0.7,
+   "last": 1427.48,
+   "pct_away": -0.67,
    "good_until": "2026-11-18",
    "why": "close it all at -1.0% under the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "d67c22ef",
+   "ticker": "LLY",
+   "kind": "take_profit",
+   "price": 1437.1633,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 1427.48,
+   "pct_away": 0.68,
+   "good_until": "2026-11-18",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "ab1c9ecd",
+   "ticker": "ARE",
+   "kind": "stop_loss",
+   "price": 42.822,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 43.37,
+   "pct_away": -1.26,
+   "good_until": "2026-11-18",
+   "why": "close it all at -1.3% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -219,8 +253,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 1427.97,
-   "pct_away": -2.75,
+   "last": 1427.48,
+   "pct_away": -2.71,
+   "good_until": "2026-11-18",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "12ed9f14",
+   "ticker": "ARE",
+   "kind": "buy_limit",
+   "price": 42.0883,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 43.37,
+   "pct_away": -2.96,
    "good_until": "2026-11-18",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -229,8 +280,341 @@
    ]
   }
  ],
- "next_check_minutes": null,
- "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $6,806 idle, so opened 2: ENOV, CSQR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop ga",
+ "last_reasoning": "AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $21,790 idle, so opened 1: ARE. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gatherin",
+ "next_check_minutes": 6,
+ "allowed": [
+  "AAPL",
+  "AMD",
+  "AMZN",
+  "ARE",
+  "ARGX",
+  "AVGO",
+  "BBIO",
+  "BH",
+  "CCJ",
+  "CF",
+  "CMCSA",
+  "CMS",
+  "CSQR",
+  "DIA",
+  "EIX",
+  "ENOV",
+  "FIS",
+  "GLD",
+  "GOOGL",
+  "HD",
+  "IBM",
+  "LLY",
+  "LMT",
+  "LNT",
+  "META",
+  "MSFT",
+  "MTSI",
+  "MU",
+  "NEM",
+  "NLR",
+  "NOC",
+  "NOW",
+  "NVDA",
+  "O",
+  "OKLO",
+  "PLD",
+  "PLTR",
+  "RPM",
+  "RTX",
+  "SPY",
+  "T",
+  "TSM",
+  "UNH",
+  "VNQ"
+ ],
+ "feed_status": {
+  "congress": "ok",
+  "congress_source": "congresswatch",
+  "congress_notes": "",
+  "insiders": "ok (openinsider)",
+  "excluded_instruments": [
+   "AIM excluded: too thinly traded ($1.0M a day) \u2014 AIM ImmunoTech Inc.",
+   "ASR excluded: too thinly traded ($16.8M a day) \u2014 Grupo Aeroportuario del Sureste, S. A. B. de C. V.",
+   "BGDE excluded: too thinly traded ($0.5M a day) \u2014 Big Digital Energy, Inc.",
+   "CATX excluded: too thinly traded ($2.3M a day) \u2014 Perspective Therapeutics, Inc.",
+   "ECX excluded: too thinly traded ($0.8M a day) \u2014 ECARX Holdings Inc.",
+   "EOSE excluded: share price $3.94 is below $5: the spread eats the trade \u2014 Eos Energy Enterprises, Inc.",
+   "HPP excluded: too thinly traded ($6.8M a day) \u2014 Hudson Pacific Properties, Inc.",
+   "IOSP excluded: too thinly traded ($18.1M a day) \u2014 Innospec Inc.",
+   "LRMR excluded: too thinly traded ($3.8M a day) \u2014 Larimar Therapeutics, Inc.",
+   "OWLS excluded: too thinly traded ($0.1M a day) \u2014 Obook Holdings Inc.",
+   "PSEC excluded: too thinly traded ($8.5M a day) \u2014 Prospect Capital Corporation",
+   "VISN excluded: share price $4.11 is below $5: the spread eats the trade \u2014 Vistance Networks, Inc."
+  ]
+ },
+ "learning": {
+  "horizon": "1d",
+  "decisions_recorded": 420,
+  "decisions_graded": 381,
+  "decisions_with_buys_graded": 38,
+  "independent_days_graded": 3,
+  "avg_regret_pct": -0.29,
+  "chosen_avg_pct": -0.13,
+  "skipped_avg_pct": -0.42,
+  "idle_universe_avg_pct": -0.08,
+  "picking_beats_random": true,
+  "avg_fraction_of_universe_bought": 0.0,
+  "checks_that_bought_everything": 0,
+  "by_signal_chosen": {
+   "autopilot": {
+    "n": 52,
+    "avg_pct": -0.13
+   },
+   "congress": {
+    "n": 35,
+    "avg_pct": -0.2
+   },
+   "insider": {
+    "n": 17,
+    "avg_pct": 0.01
+   },
+   "momentum": {
+    "n": 52,
+    "avg_pct": -0.13
+   }
+  },
+  "biggest_misses": [
+   {
+    "ticker": "MU",
+    "fwd_pct": 10.46,
+    "sector": "off-watchlist",
+    "m1m_then": -29.1,
+    "congress": 3.0,
+    "insider": 0
+   },
+   {
+    "ticker": "AVGO",
+    "fwd_pct": 9.19,
+    "sector": "widely_held",
+    "m1m_then": -8.6,
+    "congress": -2.0,
+    "insider": 0
+   },
+   {
+    "ticker": "NVDA",
+    "fwd_pct": 7.03,
+    "sector": "widely_held",
+    "m1m_then": -29.7,
+    "congress": -1.0,
+    "insider": 0
+   },
+   {
+    "ticker": "AMAT",
+    "fwd_pct": 7.01,
+    "sector": "off-watchlist",
+    "m1m_then": -26.6,
+    "congress": 1.0,
+    "insider": 0
+   },
+   {
+    "ticker": "AMD",
+    "fwd_pct": 6.97,
+    "sector": "widely_held",
+    "m1m_then": -15.6,
+    "congress": 0,
+    "insider": 0
+   }
+  ],
+  "biggest_avoided": [
+   {
+    "ticker": "NVDA",
+    "fwd_pct": -12.28
+   },
+   {
+    "ticker": "GLXY",
+    "fwd_pct": -9.61
+   },
+   {
+    "ticker": "IBRX",
+    "fwd_pct": -9.37
+   }
+  ],
+  "sectors_most_often_missed": {
+   "off-watchlist": {
+    "n": 15
+   },
+   "widely_held": {
+    "n": 12
+   },
+   "defense": {
+    "n": 5
+   },
+   "gold": {
+    "n": 1
+   }
+  },
+  "idle_checks": 350,
+  "blocked_checks": 0,
+  "idle_share": 0.88,
+  "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
+  "evidence_strength": "anecdote",
+  "how_many_days_before_this_means_anything": 30,
+  "warning": "only 3 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
+ },
+ "disclosure_leaderboard": [
+  {
+   "who": "Nancy Pelosi",
+   "disclosed_buys_scored": 16,
+   "avg_excess_pct": 5.39,
+   "beat_index_rate": 0.56,
+   "best": {
+    "ticker": "BE",
+    "excess_pct": 34.2,
+    "disclosed": "2026-08-21"
+   }
+  },
+  {
+   "who": "Tim Moore",
+   "disclosed_buys_scored": 22,
+   "avg_excess_pct": 4.76,
+   "beat_index_rate": 0.64,
+   "best": {
+    "ticker": "CBRL",
+    "excess_pct": 20.0,
+    "disclosed": "2026-01-07"
+   }
+  },
+  {
+   "who": "Robert E. Latta",
+   "disclosed_buys_scored": 4,
+   "avg_excess_pct": 4.63,
+   "beat_index_rate": 0.75,
+   "best": {
+    "ticker": "FMAO",
+    "excess_pct": 7.7,
+    "disclosed": "2026-06-05"
+   }
+  },
+  {
+   "who": "Jonathan L. Jackson",
+   "disclosed_buys_scored": 16,
+   "avg_excess_pct": 4.53,
+   "beat_index_rate": 0.69,
+   "best": {
+    "ticker": "C",
+    "excess_pct": 16.4,
+    "disclosed": "2026-03-12"
+   }
+  },
+  {
+   "who": "Rick Larsen",
+   "disclosed_buys_scored": 9,
+   "avg_excess_pct": 4.07,
+   "beat_index_rate": 0.78,
+   "best": {
+    "ticker": "CASY",
+    "excess_pct": 10.2,
+    "disclosed": "2026-04-15"
+   }
+  },
+  {
+   "who": "Tim Walberg",
+   "disclosed_buys_scored": 14,
+   "avg_excess_pct": 3.74,
+   "beat_index_rate": 0.57,
+   "best": {
+    "ticker": "UA",
+    "excess_pct": 25.4,
+    "disclosed": "2026-06-03"
+   }
+  },
+  {
+   "who": "Jared Moskowitz",
+   "disclosed_buys_scored": 34,
+   "avg_excess_pct": 2.31,
+   "beat_index_rate": 0.5,
+   "best": {
+    "ticker": "PANW",
+    "excess_pct": 62.0,
+    "disclosed": "2026-04-30"
+   }
+  },
+  {
+   "who": "Michael A. Rulli",
+   "disclosed_buys_scored": 16,
+   "avg_excess_pct": 1.89,
+   "beat_index_rate": 0.56,
+   "best": {
+    "ticker": "MU",
+    "excess_pct": 14.9,
+    "disclosed": "2026-08-07"
+   }
+  },
+  {
+   "who": "Lloyd Doggett",
+   "disclosed_buys_scored": 22,
+   "avg_excess_pct": 1.45,
+   "beat_index_rate": 0.55,
+   "best": {
+    "ticker": "HD",
+    "excess_pct": 27.5,
+    "disclosed": "2026-10-05"
+   }
+  },
+  {
+   "who": "Scott Franklin",
+   "disclosed_buys_scored": 5,
+   "avg_excess_pct": 1.22,
+   "beat_index_rate": 0.2,
+   "best": {
+    "ticker": "ACN",
+    "excess_pct": 24.8,
+    "disclosed": "2026-09-17"
+   }
+  },
+  {
+   "who": "David J. Taylor",
+   "disclosed_buys_scored": 77,
+   "avg_excess_pct": 1.02,
+   "beat_index_rate": 0.51,
+   "best": {
+    "ticker": "HD",
+    "excess_pct": 22.3,
+    "disclosed": "2026-10-01"
+   }
+  },
+  {
+   "who": "Maria Elvira Salazar",
+   "disclosed_buys_scored": 59,
+   "avg_excess_pct": 0.79,
+   "beat_index_rate": 0.41,
+   "best": {
+    "ticker": "MRVL",
+    "excess_pct": 69.6,
+    "disclosed": "2026-05-08"
+   }
+  }
+ ],
+ "disclosure_leaderboard_meta": {
+  "built": "2026-11-13",
+  "horizon_days": 30,
+  "buys_scored": 1276,
+  "measured_from": "disclosure date, not transaction date",
+  "benchmark": "SPY",
+  "caveat": "Excess return over SPY across the same dates, scored only from the day the filing became public. A small number of trades is not evidence of skill; treat anyone with fewer than about 20 scored buys as unproven."
+ },
+ "disclosure_significance": {
+  "members": 26,
+  "best": "Nancy Pelosi",
+  "best_avg_excess_pct": 5.39,
+  "best_t_stat": 2.11,
+  "members_weighted": 0,
+  "verdict": "no member is distinguishable from luck; every multiplier is 1.0x",
+  "how_to_read": "Ranking 25 people and taking the top one produces a good-looking number by construction. A score only counts here if it beats what the best of 25 coin-flippers would show, which needs roughly 30+ independent trades."
+ },
+ "wallet_moves": [],
+ "wallet_status": {
+  "followed_total": 0,
+  "checked_this_pass": 0,
+  "starting_at": 0,
+  "names": []
+ },
  "congress_trades": [
   {
    "who": "Gilbert Ray Cisneros",
@@ -977,604 +1361,604 @@
  },
  "insider_trades": [
   {
-   "who": "Mariucci Anne L",
-   "role": "Dir",
-   "ticker": "CTRI",
-   "type": "buy",
-   "shares": 4545.0,
+   "filing_date": "2026-11-13",
    "price": 22.0,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-13"
-  },
-  {
-   "who": "Biglari, Sardar",
-   "role": "COB, CEO, 10%",
-   "ticker": "BH",
-   "type": "buy",
-   "shares": 3657.0,
-   "price": 1514.12,
-   "transaction_date": "2026-11-11",
-   "filing_date": "2026-11-13"
-  },
-  {
-   "who": "Dimitrief Alexander",
    "role": "Dir",
-   "ticker": "EOSE",
-   "type": "buy",
-   "shares": 25000.0,
-   "price": 1.86,
-   "transaction_date": "2026-11-12",
-   "filing_date": "2026-11-13"
-  },
-  {
-   "who": "Porter Jonathan",
-   "role": "EVP, Global Chief Risk Officer",
-   "ticker": "RGA",
-   "type": "sell",
-   "shares": 3852.0,
-   "price": 271.53,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-13"
-  },
-  {
-   "who": "Puhlmann Markus",
-   "role": "Chief Medical Officer",
-   "ticker": "CATX",
-   "type": "buy",
-   "shares": 41000.0,
-   "price": 0.84,
-   "transaction_date": "2026-11-11",
-   "filing_date": "2026-11-13"
-  },
-  {
-   "who": "Singh Jesse G",
-   "role": "Dir",
-   "ticker": "JHX",
-   "type": "sell",
-   "shares": 25000.0,
-   "price": 28.82,
-   "transaction_date": "2026-11-11",
-   "filing_date": "2026-11-13"
-  },
-  {
-   "who": "Hardy Andrew",
-   "role": "EVP, Chief Sales Officer",
-   "ticker": "NXPI",
-   "type": "sell",
-   "shares": 1643.0,
-   "price": 266.49,
-   "transaction_date": "2026-11-11",
-   "filing_date": "2026-11-13"
-  },
-  {
-   "who": "Barry John F",
-   "role": "CEO, 10%",
-   "ticker": "PSEC",
-   "type": "buy",
-   "shares": 4014895.0,
-   "price": 1.51,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-13"
-  },
-  {
-   "who": "Equels Thomas K",
-   "role": "CEO, Pres",
-   "ticker": "AIM",
-   "type": "buy",
-   "shares": 35000.0,
-   "price": 0.15,
-   "transaction_date": "2026-11-11",
-   "filing_date": "2026-11-13"
-  },
-  {
-   "who": "Cook Steven R. E.",
-   "role": "CFO",
-   "ticker": "CSQR",
-   "type": "buy",
-   "shares": 2028.0,
-   "price": 17.26,
-   "transaction_date": "2026-11-11",
-   "filing_date": "2026-11-13"
-  },
-  {
-   "who": "Roche John C",
-   "role": "Pres, CEO",
-   "ticker": "THG",
-   "type": "sell",
-   "shares": 14422.0,
-   "price": 249.39,
-   "transaction_date": "2026-11-12",
-   "filing_date": "2026-11-13"
-  },
-  {
-   "who": "Wang Chun Kai",
-   "role": "CEO",
-   "ticker": "OWLS",
-   "type": "buy",
-   "shares": 6171.0,
-   "price": 2.17,
-   "transaction_date": "2026-11-12",
-   "filing_date": "2026-11-13"
-  },
-  {
-   "who": "Shen Ziyu",
-   "role": "CEO",
-   "ticker": "ECX",
-   "type": "buy",
-   "shares": 300000.0,
-   "price": 0.78,
-   "transaction_date": "2026-11-11",
-   "filing_date": "2026-11-13"
-  },
-  {
-   "who": "Robinson Elliott",
-   "role": "Dir",
-   "ticker": "HNGE",
-   "type": "sell",
-   "shares": 0.0,
-   "price": 0.0,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-13"
-  },
-  {
-   "who": "Perez Anton Jose Antonio",
-   "role": "Dir",
-   "ticker": "ASR",
-   "type": "buy",
-   "shares": 1875.0,
-   "price": 265.41,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Hamilton Thomas Edward",
-   "role": "Dir",
-   "ticker": "LRMR",
-   "type": "buy",
-   "shares": 70000.0,
-   "price": 2.67,
-   "transaction_date": "2026-11-12",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Icahn Carl C",
-   "role": "10%",
+   "shares": 4545.0,
    "ticker": "CTRI",
+   "transaction_date": "2026-11-10",
+   "type": "buy",
+   "who": "Mariucci Anne L"
+  },
+  {
+   "filing_date": "2026-11-13",
+   "price": 1514.12,
+   "role": "COB, CEO, 10%",
+   "shares": 3657.0,
+   "ticker": "BH",
+   "transaction_date": "2026-11-11",
+   "type": "buy",
+   "who": "Biglari, Sardar"
+  },
+  {
+   "filing_date": "2026-11-13",
+   "price": 1.86,
+   "role": "Dir",
+   "shares": 25000.0,
+   "ticker": "EOSE",
+   "transaction_date": "2026-11-12",
+   "type": "buy",
+   "who": "Dimitrief Alexander"
+  },
+  {
+   "filing_date": "2026-11-13",
+   "price": 271.53,
+   "role": "EVP, Global Chief Risk Officer",
+   "shares": 3852.0,
+   "ticker": "RGA",
+   "transaction_date": "2026-11-10",
    "type": "sell",
-   "shares": 1500433.0,
+   "who": "Porter Jonathan"
+  },
+  {
+   "filing_date": "2026-11-13",
+   "price": 0.84,
+   "role": "Chief Medical Officer",
+   "shares": 41000.0,
+   "ticker": "CATX",
+   "transaction_date": "2026-11-11",
+   "type": "buy",
+   "who": "Puhlmann Markus"
+  },
+  {
+   "filing_date": "2026-11-13",
+   "price": 28.82,
+   "role": "Dir",
+   "shares": 25000.0,
+   "ticker": "JHX",
+   "transaction_date": "2026-11-11",
+   "type": "sell",
+   "who": "Singh Jesse G"
+  },
+  {
+   "filing_date": "2026-11-13",
+   "price": 266.49,
+   "role": "EVP, Chief Sales Officer",
+   "shares": 1643.0,
+   "ticker": "NXPI",
+   "transaction_date": "2026-11-11",
+   "type": "sell",
+   "who": "Hardy Andrew"
+  },
+  {
+   "filing_date": "2026-11-13",
+   "price": 1.51,
+   "role": "CEO, 10%",
+   "shares": 4014895.0,
+   "ticker": "PSEC",
+   "transaction_date": "2026-11-09",
+   "type": "buy",
+   "who": "Barry John F"
+  },
+  {
+   "filing_date": "2026-11-13",
+   "price": 0.15,
+   "role": "CEO, Pres",
+   "shares": 35000.0,
+   "ticker": "AIM",
+   "transaction_date": "2026-11-11",
+   "type": "buy",
+   "who": "Equels Thomas K"
+  },
+  {
+   "filing_date": "2026-11-13",
+   "price": 17.26,
+   "role": "CFO",
+   "shares": 2028.0,
+   "ticker": "CSQR",
+   "transaction_date": "2026-11-11",
+   "type": "buy",
+   "who": "Cook Steven R. E."
+  },
+  {
+   "filing_date": "2026-11-13",
+   "price": 249.39,
+   "role": "Pres, CEO",
+   "shares": 14422.0,
+   "ticker": "THG",
+   "transaction_date": "2026-11-12",
+   "type": "sell",
+   "who": "Roche John C"
+  },
+  {
+   "filing_date": "2026-11-13",
+   "price": 2.17,
+   "role": "CEO",
+   "shares": 6171.0,
+   "ticker": "OWLS",
+   "transaction_date": "2026-11-12",
+   "type": "buy",
+   "who": "Wang Chun Kai"
+  },
+  {
+   "filing_date": "2026-11-13",
+   "price": 0.78,
+   "role": "CEO",
+   "shares": 300000.0,
+   "ticker": "ECX",
+   "transaction_date": "2026-11-11",
+   "type": "buy",
+   "who": "Shen Ziyu"
+  },
+  {
+   "filing_date": "2026-11-13",
+   "price": 0.0,
+   "role": "Dir",
+   "shares": 0.0,
+   "ticker": "HNGE",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Robinson Elliott"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 265.41,
+   "role": "Dir",
+   "shares": 1875.0,
+   "ticker": "ASR",
+   "transaction_date": "2026-11-09",
+   "type": "buy",
+   "who": "Perez Anton Jose Antonio"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 2.67,
+   "role": "Dir",
+   "shares": 70000.0,
+   "ticker": "LRMR",
+   "transaction_date": "2026-11-12",
+   "type": "buy",
+   "who": "Hamilton Thomas Edward"
+  },
+  {
+   "filing_date": "2026-11-12",
    "price": 20.09,
+   "role": "10%",
+   "shares": 1500433.0,
+   "ticker": "CTRI",
    "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
+   "type": "sell",
+   "who": "Icahn Carl C"
   },
   {
-   "who": "Dobres Jonathan",
-   "role": "CFO",
-   "ticker": "PGY",
-   "type": "sell",
-   "shares": 10217.0,
+   "filing_date": "2026-11-12",
    "price": 17.07,
+   "role": "CFO",
+   "shares": 10217.0,
+   "ticker": "PGY",
    "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
+   "type": "sell",
+   "who": "Dobres Jonathan"
   },
   {
-   "who": "Campbell Richard D",
-   "role": "Dir",
-   "ticker": "SPFI",
-   "type": "sell",
-   "shares": 24754.0,
+   "filing_date": "2026-11-12",
    "price": 43.28,
+   "role": "Dir",
+   "shares": 24754.0,
+   "ticker": "SPFI",
    "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
+   "type": "sell",
+   "who": "Campbell Richard D"
   },
   {
-   "who": "Bortz Jon E",
-   "role": "Dir",
-   "ticker": "HPP",
-   "type": "buy",
-   "shares": 75000.0,
+   "filing_date": "2026-11-12",
    "price": 9.07,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Coleman Victor J",
-   "role": "CEO",
+   "role": "Dir",
+   "shares": 75000.0,
    "ticker": "HPP",
+   "transaction_date": "2026-11-09",
    "type": "buy",
-   "shares": 20000.0,
+   "who": "Bortz Jon E"
+  },
+  {
+   "filing_date": "2026-11-12",
    "price": 9.1,
+   "role": "CEO",
+   "shares": 20000.0,
+   "ticker": "HPP",
    "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
+   "type": "buy",
+   "who": "Coleman Victor J"
   },
   {
-   "who": "Wang Yanjun",
-   "role": "CCO, GC",
-   "ticker": "SE",
-   "type": "sell",
-   "shares": 1600.0,
+   "filing_date": "2026-11-12",
    "price": 76.83,
+   "role": "CCO, GC",
+   "shares": 1600.0,
+   "ticker": "SE",
    "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
+   "type": "sell",
+   "who": "Wang Yanjun"
   },
   {
-   "who": "Watts Claudius E. IV",
-   "role": "Dir",
-   "ticker": "VISN",
-   "type": "buy",
-   "shares": 50000.0,
+   "filing_date": "2026-11-12",
    "price": 3.96,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Watts Claudius E. IV",
    "role": "Dir",
+   "shares": 50000.0,
    "ticker": "VISN",
+   "transaction_date": "2026-11-10",
    "type": "buy",
-   "shares": 200000.0,
+   "who": "Watts Claudius E. IV"
+  },
+  {
+   "filing_date": "2026-11-12",
    "price": 4.16,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Servat Jean-Luc",
    "role": "Dir",
-   "ticker": "FNRN",
-   "type": "buy",
-   "shares": 300.0,
-   "price": 16.83,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Smith Robert E",
-   "role": "Dir, 10%",
-   "ticker": "SBGI",
-   "type": "sell",
-   "shares": 500000.0,
-   "price": 14.09,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Dupratt Greg",
-   "role": "Dir",
-   "ticker": "FNRN",
-   "type": "sell",
-   "shares": 1000.0,
-   "price": 17.0,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Fleming William Fred Jr",
-   "role": "SVP, Corporate Controller",
-   "ticker": "PCOR",
-   "type": "sell",
-   "shares": 16852.0,
-   "price": 76.57,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Mara Joseph Anthony Jr",
-   "role": "CFO",
-   "ticker": "VCEL",
-   "type": "sell",
-   "shares": 25008.0,
-   "price": 58.26,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Rodgers Thurman J",
-   "role": "Dir",
-   "ticker": "ENPH",
-   "type": "sell",
-   "shares": 300000.0,
-   "price": 29.11,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Wienbar Sharon L",
-   "role": "Dir",
-   "ticker": "ENOV",
-   "type": "buy",
-   "shares": 1774.0,
-   "price": 28.09,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Lalor Angela S",
-   "role": "Dir",
-   "ticker": "ENOV",
-   "type": "buy",
-   "shares": 1757.0,
-   "price": 28.57,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Low Murray B",
-   "role": "Dir",
-   "ticker": "TRUP",
-   "type": "sell",
-   "shares": 6537.0,
-   "price": 34.21,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Tooth Margaret",
-   "role": "CEO",
-   "ticker": "TRUP",
-   "type": "sell",
-   "shares": 2000.0,
-   "price": 36.46,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Rubin Howard E",
-   "role": "Dir",
-   "ticker": "TRUP",
-   "type": "sell",
-   "shares": 30000.0,
-   "price": 35.23,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "McLaughlin Kevin F",
-   "role": "Dir",
-   "ticker": "VCEL",
-   "type": "sell",
-   "shares": 7000.0,
-   "price": 58.96,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "O'Callahan Elizabeth M",
-   "role": "EVP, Chief Admin. Officer",
-   "ticker": "NTAP",
-   "type": "sell",
-   "shares": 1000.0,
-   "price": 175.95,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Patel Mital",
-   "role": "EVP, COO",
-   "ticker": "RDNT",
-   "type": "sell",
-   "shares": 44661.0,
-   "price": 78.51,
-   "transaction_date": "2026-11-11",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Zerbe Robert L Md",
-   "role": "Dir",
-   "ticker": "VCEL",
-   "type": "sell",
-   "shares": 2000.0,
-   "price": 57.88,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Sherbet Eric",
-   "role": "See Remarks",
-   "ticker": "IQV",
-   "type": "sell",
-   "shares": 4446.0,
-   "price": 278.83,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Nonko Eugene",
-   "role": "Dir",
-   "ticker": "MAX",
-   "type": "sell",
-   "shares": 43428.0,
-   "price": 14.13,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Encompass Capital Advisors LLC",
-   "role": "10%",
-   "ticker": "IBATF",
-   "type": "sell",
-   "shares": 36000.0,
-   "price": 0.06,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Parrette Leslie J",
-   "role": "Dir",
-   "ticker": "IOSP",
-   "type": "buy",
-   "shares": 345.0,
-   "price": 79.69,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Plewman Patrick",
-   "role": "SVP for Diagnostic Services",
-   "ticker": "DGX",
-   "type": "sell",
-   "shares": 11717.0,
-   "price": 257.34,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Blumenthal Neil Harris",
-   "role": "Co-CEO",
-   "ticker": "WRBY",
-   "type": "sell",
-   "shares": 73133.0,
-   "price": 30.13,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Gilboa David Abraham",
-   "role": "Co-CEO",
-   "ticker": "WRBY",
-   "type": "sell",
-   "shares": 75402.0,
-   "price": 29.82,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Roe Scott A.",
-   "role": "CFO, COO",
-   "ticker": "TPR",
-   "type": "sell",
-   "shares": 54644.0,
-   "price": 135.5,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Crevoiserat Joanne C.",
-   "role": "CEO",
-   "ticker": "TPR",
-   "type": "sell",
-   "shares": 27762.0,
-   "price": 132.46,
-   "transaction_date": "2026-11-11",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Raider Jeffrey Jacob",
-   "role": "Dir",
-   "ticker": "WRBY",
-   "type": "sell",
-   "shares": 7500.0,
-   "price": 30.0,
-   "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Pulik Richard",
-   "role": "CFO",
-   "ticker": "ROIV",
-   "type": "sell",
-   "shares": 300000.0,
-   "price": 41.58,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Venker Eric",
-   "role": "Pres, Immunovant CEO",
-   "ticker": "ROIV",
-   "type": "sell",
-   "shares": 187943.0,
-   "price": 40.53,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Harris Ronan",
-   "role": "Chief Commercial Officer",
-   "ticker": "SNAP",
-   "type": "sell",
    "shares": 200000.0,
-   "price": 5.07,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Newstead Jennifer",
-   "role": "SVP, GC, Government Affairs",
-   "ticker": "AAPL",
-   "type": "sell",
-   "shares": 2399.0,
-   "price": 351.36,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Endeavor Blockchain, LLC",
-   "role": "SEE REMARKS, 10%",
-   "ticker": "BGDE",
-   "type": "buy",
-   "shares": 21317.0,
-   "price": 3.23,
+   "ticker": "VISN",
    "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Martini Jeffrey S",
-   "role": "Chief Scientific Officer",
-   "ticker": "PVLA",
-   "type": "sell",
-   "shares": 12500.0,
-   "price": 166.65,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "McLaughlin Steven J.",
-   "role": "10%",
-   "ticker": "EXFY",
    "type": "buy",
-   "shares": 557548.0,
-   "price": 1.77,
+   "who": "Watts Claudius E. IV"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 16.83,
+   "role": "Dir",
+   "shares": 300.0,
+   "ticker": "FNRN",
    "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Klein Michael Stuart",
-   "role": "Dir",
-   "ticker": "CTEV",
-   "type": "sell",
-   "shares": 65567.0,
-   "price": 27.72,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
-  },
-  {
-   "who": "Segal Jonathan",
-   "role": "Dir",
-   "ticker": "STKS",
    "type": "buy",
-   "shares": 37001.0,
-   "price": 1.06,
-   "transaction_date": "2026-11-10",
-   "filing_date": "2026-11-12"
+   "who": "Servat Jean-Luc"
   },
   {
-   "who": "Chaudhuri Sarbani",
+   "filing_date": "2026-11-12",
+   "price": 14.09,
+   "role": "Dir, 10%",
+   "shares": 500000.0,
+   "ticker": "SBGI",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Smith Robert E"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 17.0,
+   "role": "Dir",
+   "shares": 1000.0,
+   "ticker": "FNRN",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Dupratt Greg"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 76.57,
+   "role": "SVP, Corporate Controller",
+   "shares": 16852.0,
+   "ticker": "PCOR",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Fleming William Fred Jr"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 58.26,
+   "role": "CFO",
+   "shares": 25008.0,
+   "ticker": "VCEL",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Mara Joseph Anthony Jr"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 29.11,
+   "role": "Dir",
+   "shares": 300000.0,
+   "ticker": "ENPH",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Rodgers Thurman J"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 28.09,
+   "role": "Dir",
+   "shares": 1774.0,
+   "ticker": "ENOV",
+   "transaction_date": "2026-11-10",
+   "type": "buy",
+   "who": "Wienbar Sharon L"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 28.57,
+   "role": "Dir",
+   "shares": 1757.0,
+   "ticker": "ENOV",
+   "transaction_date": "2026-11-10",
+   "type": "buy",
+   "who": "Lalor Angela S"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 34.21,
+   "role": "Dir",
+   "shares": 6537.0,
+   "ticker": "TRUP",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "Low Murray B"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 36.46,
+   "role": "CEO",
+   "shares": 2000.0,
+   "ticker": "TRUP",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Tooth Margaret"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 35.23,
+   "role": "Dir",
+   "shares": 30000.0,
+   "ticker": "TRUP",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Rubin Howard E"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 58.96,
+   "role": "Dir",
+   "shares": 7000.0,
+   "ticker": "VCEL",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "McLaughlin Kevin F"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 175.95,
+   "role": "EVP, Chief Admin. Officer",
+   "shares": 1000.0,
+   "ticker": "NTAP",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "O'Callahan Elizabeth M"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 78.51,
+   "role": "EVP, COO",
+   "shares": 44661.0,
+   "ticker": "RDNT",
+   "transaction_date": "2026-11-11",
+   "type": "sell",
+   "who": "Patel Mital"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 57.88,
+   "role": "Dir",
+   "shares": 2000.0,
+   "ticker": "VCEL",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Zerbe Robert L Md"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 278.83,
    "role": "See Remarks",
-   "ticker": "RCKT",
-   "type": "sell",
-   "shares": 4872.0,
-   "price": 2.33,
+   "shares": 4446.0,
+   "ticker": "IQV",
    "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
+   "type": "sell",
+   "who": "Sherbet Eric"
   },
   {
-   "who": "Olivan Javier",
-   "role": "COO",
-   "ticker": "META",
-   "type": "sell",
-   "shares": 1575.0,
-   "price": 631.03,
+   "filing_date": "2026-11-12",
+   "price": 14.13,
+   "role": "Dir",
+   "shares": 43428.0,
+   "ticker": "MAX",
    "transaction_date": "2026-11-09",
-   "filing_date": "2026-11-12"
+   "type": "sell",
+   "who": "Nonko Eugene"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 0.06,
+   "role": "10%",
+   "shares": 36000.0,
+   "ticker": "IBATF",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "Encompass Capital Advisors LLC"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 79.69,
+   "role": "Dir",
+   "shares": 345.0,
+   "ticker": "IOSP",
+   "transaction_date": "2026-11-10",
+   "type": "buy",
+   "who": "Parrette Leslie J"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 257.34,
+   "role": "SVP for Diagnostic Services",
+   "shares": 11717.0,
+   "ticker": "DGX",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Plewman Patrick"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 30.13,
+   "role": "Co-CEO",
+   "shares": 73133.0,
+   "ticker": "WRBY",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Blumenthal Neil Harris"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 29.82,
+   "role": "Co-CEO",
+   "shares": 75402.0,
+   "ticker": "WRBY",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Gilboa David Abraham"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 135.5,
+   "role": "CFO, COO",
+   "shares": 54644.0,
+   "ticker": "TPR",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "Roe Scott A."
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 132.46,
+   "role": "CEO",
+   "shares": 27762.0,
+   "ticker": "TPR",
+   "transaction_date": "2026-11-11",
+   "type": "sell",
+   "who": "Crevoiserat Joanne C."
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 30.0,
+   "role": "Dir",
+   "shares": 7500.0,
+   "ticker": "WRBY",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Raider Jeffrey Jacob"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 41.58,
+   "role": "CFO",
+   "shares": 300000.0,
+   "ticker": "ROIV",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "Pulik Richard"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 40.53,
+   "role": "Pres, Immunovant CEO",
+   "shares": 187943.0,
+   "ticker": "ROIV",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "Venker Eric"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 5.07,
+   "role": "Chief Commercial Officer",
+   "shares": 200000.0,
+   "ticker": "SNAP",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "Harris Ronan"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 351.36,
+   "role": "SVP, GC, Government Affairs",
+   "shares": 2399.0,
+   "ticker": "AAPL",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "Newstead Jennifer"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 3.23,
+   "role": "SEE REMARKS, 10%",
+   "shares": 21317.0,
+   "ticker": "BGDE",
+   "transaction_date": "2026-11-09",
+   "type": "buy",
+   "who": "Endeavor Blockchain, LLC"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 166.65,
+   "role": "Chief Scientific Officer",
+   "shares": 12500.0,
+   "ticker": "PVLA",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "Martini Jeffrey S"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 1.77,
+   "role": "10%",
+   "shares": 557548.0,
+   "ticker": "EXFY",
+   "transaction_date": "2026-11-09",
+   "type": "buy",
+   "who": "McLaughlin Steven J."
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 27.72,
+   "role": "Dir",
+   "shares": 65567.0,
+   "ticker": "CTEV",
+   "transaction_date": "2026-11-10",
+   "type": "sell",
+   "who": "Klein Michael Stuart"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 1.06,
+   "role": "Dir",
+   "shares": 37001.0,
+   "ticker": "STKS",
+   "transaction_date": "2026-11-10",
+   "type": "buy",
+   "who": "Segal Jonathan"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 2.33,
+   "role": "See Remarks",
+   "shares": 4872.0,
+   "ticker": "RCKT",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Chaudhuri Sarbani"
+  },
+  {
+   "filing_date": "2026-11-12",
+   "price": 631.03,
+   "role": "COO",
+   "shares": 1575.0,
+   "ticker": "META",
+   "transaction_date": "2026-11-09",
+   "type": "sell",
+   "who": "Olivan Javier"
   }
  ],
  "insider_pressure": {
@@ -1602,53 +1986,53 @@
  "headlines": {
   "AAPL": [
    {
-    "title": "Not Apple. Not Microsoft. This \"Magnificent Seven\" Stock Is My Top Tech Buy for 2027.",
-    "source": "Motley Fool",
-    "when": "2026-11-13T14:25"
+    "title": "What to make of Jensen Huang's resignation: AI Investing Panel",
+    "source": "Yahoo Finance Video",
+    "when": "2026-11-13T14:49"
    },
    {
-    "title": "Apple (AAPL) Puts Tim Cook At The Center Of A Surprise CEO Search",
-    "source": "Simply Wall St.",
-    "when": "2026-11-13T13:12"
+    "title": "Nvidia Is 6.1% Of Your S&P 500 Fund. What Is Your Number?",
+    "source": "Trefis",
+    "when": "2026-11-13T14:56"
    },
    {
-    "title": "Nvidia Lost the World\u2019s Most Valuable Company Title. History Shows How Rarely the Crown Comes Back",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-13T12:52"
+    "title": "What Could Surprise Netflix Stock Investors On The Upside?",
+    "source": "Trefis",
+    "when": "2026-11-13T14:56"
    }
   ],
   "AMD": [
    {
-    "title": "NVIDIA Rises 2% Despite Michael Burry Adding to Chip Shorts; AMD Retreats 3%, Broadcom Slides 2%",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-13T14:15"
+    "title": "SanDisk Stock At $937: Why So Cheap?",
+    "source": "Trefis",
+    "when": "2026-11-13T14:56"
    },
    {
-    "title": "Who Should Be Nvidia's Next CEO?",
-    "source": "GuruFocus.com",
-    "when": "2026-11-13T14:14"
+    "title": "How Much Of Dell Stock Is A Bet On Nvidia?",
+    "source": "Trefis",
+    "when": "2026-11-13T14:56"
    },
    {
-    "title": "Intel\u2019s CEO Says AI Is Now Buying Almost as Many CPUs as GPUs",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-13T14:09"
+    "title": "A $14 Billion Fund Just Bought These 3 Stocks",
+    "source": "TIKR",
+    "when": "2026-11-13T14:50"
    }
   ],
   "AMZN": [
    {
-    "title": "This Magnificent Seven Stock Could Be Headed for a Major Breakout",
+    "title": "Microsoft Just Overtook NVIDIA. Our Model Sees $650+",
     "source": "24/7 Wall St.",
-    "when": "2026-11-13T14:03"
+    "when": "2026-11-13T15:03"
    },
    {
-    "title": "What You\u2019ll Actually Own If You Buy Into the Anthropic IPO",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-13T13:28"
+    "title": "Anthropic IPO: Buy Day One Or Wait?",
+    "source": "Trefis",
+    "when": "2026-11-13T14:56"
    },
    {
-    "title": "Must-Watch Gig Economy Stocks to Charge Up Your Portfolio",
-    "source": "Zacks",
-    "when": "2026-11-13T13:17"
+    "title": "Nvidia Is 6.1% Of Your S&P 500 Fund. What Is Your Number?",
+    "source": "Trefis",
+    "when": "2026-11-13T14:56"
    }
   ],
   "ARE": [
@@ -1687,19 +2071,19 @@
   ],
   "AVGO": [
    {
-    "title": "NVIDIA Rises 2% Despite Michael Burry Adding to Chip Shorts; AMD Retreats 3%, Broadcom Slides 2%",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-13T14:15"
+    "title": "Roblox downgraded, Palo Alto upgraded: Wall Street's top analyst calls",
+    "source": "The Fly",
+    "when": "2026-11-13T14:59"
    },
    {
-    "title": "Nvidia\u2019s New CEO Colette Kress Seems Tougher on OpenAI Than Huang Was",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-13T13:56"
+    "title": "How Much Of Dell Stock Is A Bet On Nvidia?",
+    "source": "Trefis",
+    "when": "2026-11-13T14:56"
    },
    {
-    "title": "Jensen Huang is Out as CEO, Nvidia Down 25% in a Month: Wall Street\u2019s Highest Target Price Reaffirmed as Major Desks Slash Prices, Predicting 210% Gains",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-13T13:45"
+    "title": "Cathie Wood on Nvidia's strengths in a post-Jensen Huang era",
+    "source": "Yahoo Finance Video",
+    "when": "2026-11-13T14:49"
    }
   ],
   "BBIO": [
@@ -1772,19 +2156,19 @@
   ],
   "CMCSA": [
    {
-    "title": "How Much Could You Lose In AT&T Stock After CPI?",
-    "source": "Trefis",
-    "when": "2026-11-13T12:12"
-   },
-   {
     "title": "What Could Surprise Netflix Stock Investors On The Upside?",
     "source": "Trefis",
-    "when": "2026-11-13T12:12"
+    "when": "2026-11-13T14:56"
    },
    {
-    "title": "Major streaming services have raised prices by 207% since 2019. Is it still worth it, or is \u2018streamflation\u2019 too much?",
-    "source": "Moneywise",
-    "when": "2026-11-13T11:45"
+    "title": "How Much Could You Lose In AT&T Stock After CPI?",
+    "source": "Trefis",
+    "when": "2026-11-13T14:56"
+   },
+   {
+    "title": "UPS or Comcast: I Can Only Pick One Dividend Stock for the Next 10 Years. Here\u2019s Mine",
+    "source": "TIKR",
+    "when": "2026-11-13T14:48"
    }
   ],
   "CMS": [
@@ -1908,19 +2292,19 @@
   ],
   "GOOGL": [
    {
-    "title": "If You Invest $1,000 in Alphabet Today, Here\u2019s What It Could Be Worth by 2030",
+    "title": "Google\u2019s Co-Founder Is Cashing Out Another $148 Million",
     "source": "24/7 Wall St.",
-    "when": "2026-11-13T14:33"
+    "when": "2026-11-13T15:12"
    },
    {
-    "title": "This Magnificent Seven Stock Could Be Headed for a Major Breakout",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-13T14:03"
+    "title": "SpaceX Cuts Grok Video Team: So Where Does Its $7.6B AI Business Get Its Money?",
+    "source": "BeInCrypto",
+    "when": "2026-11-13T15:05"
    },
    {
-    "title": "Google's Latest Cloud Bet Comes Down to Speed",
-    "source": "GuruFocus.com",
-    "when": "2026-11-13T13:51"
+    "title": "Microsoft Just Overtook NVIDIA. Our Model Sees $650+",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T15:03"
    }
   ],
   "HD": [
@@ -1930,14 +2314,14 @@
     "when": "2026-11-13T14:21"
    },
    {
+    "title": "Home Depot Pre-Q3 Earnings: Should You Buy or Stay Cautious?",
+    "source": "Zacks",
+    "when": "2026-11-13T13:54"
+   },
+   {
     "title": "The Home Depot, Inc. (HD) Is a Trending Stock: Facts to Know Before Betting on It",
     "source": "Zacks",
     "when": "2026-11-13T13:00"
-   },
-   {
-    "title": "Better Dividend Stock for Retirees: Home Depot vs. Walmart",
-    "source": "TIKR",
-    "when": "2026-11-13T11:58"
    }
   ],
   "IBM": [
@@ -1959,6 +2343,11 @@
   ],
   "LLY": [
    {
+    "title": "Pfizer Stock Down 6% Post Q3 Earnings: Time to Buy, Hold or Exit?",
+    "source": "Zacks",
+    "when": "2026-11-13T13:30"
+   },
+   {
     "title": "4 Key Stocks to Watch Across Diabetes and Obesity This Awareness Day",
     "source": "Zacks",
     "when": "2026-11-13T13:13"
@@ -1967,11 +2356,6 @@
     "title": "Novo Nordisk (CPSE:NOVO B) Taps DJ Khaled As Oral Weight Loss Race Heats Up",
     "source": "Simply Wall St.",
     "when": "2026-11-13T12:16"
-   },
-   {
-    "title": "While AI hogged the headlines, 1 overlooked sector beat the S&P 500 \u2014 and its top stock is up 700%+ this year",
-    "source": "Moneywise",
-    "when": "2026-11-13T12:00"
    }
   ],
   "LMT": [
@@ -2010,36 +2394,36 @@
   ],
   "META": [
    {
-    "title": "AMD\u2019s Path to $700 Just Got Much Easier as Enterprise and Hyperscaler Diversification Tailwinds Rise",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-13T13:45"
-   },
-   {
     "title": "Anthropic IPO: Buy Day One Or Wait?",
     "source": "Trefis",
-    "when": "2026-11-13T12:12"
+    "when": "2026-11-13T14:56"
    },
    {
-    "title": "State Street Comm Services SPDR (XLC) Adds Meta and Alphabet on Nov. 11",
-    "source": "GuruFocus.com",
-    "when": "2026-11-13T11:05"
+    "title": "As Meta Platforms Continues To Weaken, A Bearish Trade May Be In Order",
+    "source": "Investor's Business Daily",
+    "when": "2026-11-13T14:34"
+   },
+   {
+    "title": "Anthropic IPO to Cap Year of Record-Breaking Equity Megadeals",
+    "source": "Bloomberg",
+    "when": "2026-11-13T14:19"
    }
   ],
   "MSFT": [
    {
-    "title": "Microsoft updates on outage disrupting email, Outlook, Teams, and Copilot for users",
+    "title": "Microsoft updates on outage disrupting Outlook email, Teams, and Copilot for users",
     "source": "Yahoo Finance",
     "when": "2026-11-12T21:23"
    },
    {
-    "title": "Not Apple. Not Microsoft. This \"Magnificent Seven\" Stock Is My Top Tech Buy for 2027.",
-    "source": "Motley Fool",
-    "when": "2026-11-13T14:25"
+    "title": "U.S. Stocks Fall as Nvidia Shares Drop Again",
+    "source": "The Wall Street Journal",
+    "when": "2026-11-13T15:17"
    },
    {
-    "title": "CFOs On the Move: Week ending Nov. 13",
-    "source": "CFO.com",
-    "when": "2026-11-13T14:24"
+    "title": "Microsoft Just Overtook NVIDIA. Our Model Sees $650+",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T15:03"
    }
   ],
   "MTSI": [
@@ -2061,6 +2445,11 @@
   ],
   "MU": [
    {
+    "title": "SanDisk Stock At $937: Why So Cheap?",
+    "source": "Trefis",
+    "when": "2026-11-13T14:56"
+   },
+   {
     "title": "3 AI Stocks To Watch With Up To 33% Revenue Growth",
     "source": "Simply Wall St.",
     "when": "2026-11-13T14:11"
@@ -2069,11 +2458,6 @@
     "title": "What Micron Stock Needs to Mount a Serious Rally",
     "source": "Barrons.com",
     "when": "2026-11-13T13:16"
-   },
-   {
-    "title": "Broadcom And 2 High Growth Stocks To Watch",
-    "source": "Simply Wall St.",
-    "when": "2026-11-13T13:10"
    }
   ],
   "NEM": [
@@ -2129,14 +2513,14 @@
   ],
   "NOW": [
    {
+    "title": "Has Buying The Dip In Salesforce Stock Paid Off?",
+    "source": "Trefis",
+    "when": "2026-11-13T14:56"
+   },
+   {
     "title": "Bill Ackman Explicitly Avoids Micron\u2019s Volatile Cash Flows Focusing Here Instead",
     "source": "24/7 Wall St.",
     "when": "2026-11-13T12:15"
-   },
-   {
-    "title": "Has Buying The Dip In Salesforce Stock Paid Off?",
-    "source": "Trefis",
-    "when": "2026-11-13T12:12"
    },
    {
     "title": "ServiceNow\u2019s Average Target Fell From $231 to $156 in a Year. Piper Sandler Still Sees $175",
@@ -2146,19 +2530,19 @@
   ],
   "NVDA": [
    {
-    "title": "Stock market today: Dow, S&P 500, Nasdaq edge higher after wholesale inflation grows, Nvidia stock rebounds",
+    "title": "Lutnick agrees to testify before Congress as Republicans pile on the embattled Commerce secretary",
+    "source": "Yahoo Finance",
+    "when": "2026-11-13T15:17"
+   },
+   {
+    "title": "10-Year Treasury yield spikes on hot inflation read, Nvidia leads chip stocks lower: AlphaCheck",
+    "source": "Yahoo Finance",
+    "when": "2026-11-13T15:06"
+   },
+   {
+    "title": "Stock market today: S&P 500, Nasdaq turn lower as  wholesale inflation rises, Nvidia stock falls",
     "source": "Yahoo Finance",
     "when": "2026-11-13T11:01"
-   },
-   {
-    "title": "Here's what happened to Nvidia in 2 days",
-    "source": "Yahoo Finance Video",
-    "when": "2026-11-13T14:03"
-   },
-   {
-    "title": "The Nvidia scandal has hidden upside potential for the AI trade",
-    "source": "Yahoo Finance",
-    "when": "2026-11-13T11:00"
    }
   ],
   "O": [
@@ -2214,6 +2598,11 @@
   ],
   "PLTR": [
    {
+    "title": "Cathie Wood Is Buying the CoreWeave Dip and Selling Palantir",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T14:37"
+   },
+   {
     "title": "He Wants Anthropic in His S&P 500 401(k) as Soon as It Goes Public. One Index Rule Could Keep It Out for at Least 12 Months. Even Then, His Fund May Never Own I",
     "source": "24/7 Wall St.",
     "when": "2026-11-13T14:34"
@@ -2222,11 +2611,6 @@
     "title": "3 AI Stocks To Watch With Up To 33% Revenue Growth",
     "source": "Simply Wall St.",
     "when": "2026-11-13T14:11"
-   },
-   {
-    "title": "AI software is sinking, why is Accenture winning $84.5B deals?",
-    "source": "Investing.com",
-    "when": "2026-11-13T12:41"
    }
   ],
   "RPM": [
@@ -2265,31 +2649,31 @@
   ],
   "SPY": [
    {
-    "title": "Stock Market Today: Nvidia Rebounds After Huang\u2019s Exit as Treasury Yields Top 5%",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-13T14:15"
-   },
-   {
-    "title": "Exchange-Traded Funds, Equity Futures Higher Pre-Bell Friday as Producer Inflation Trails Forecasts",
-    "source": "MT Newswires",
-    "when": "2026-11-13T14:13"
+    "title": "Nvidia Is 6.1% Of Your S&P 500 Fund. What Is Your Number?",
+    "source": "Trefis",
+    "when": "2026-11-13T14:56"
    },
    {
     "title": "$1 Million In SCHD Five Years Ago: What Is It Worth Now?",
     "source": "Trefis",
-    "when": "2026-11-13T12:12"
+    "when": "2026-11-13T14:56"
+   },
+   {
+    "title": "Stock Market Today: Nvidia Rebounds After Huang\u2019s Exit as Treasury Yields Top 5%",
+    "source": "24/7 Wall St.",
+    "when": "2026-11-13T14:15"
    }
   ],
   "T": [
    {
+    "title": "How Much Could You Lose In AT&T Stock After CPI?",
+    "source": "Trefis",
+    "when": "2026-11-13T14:56"
+   },
+   {
     "title": "SpaceX vs. AST SpaceMobile: Which Space Stock Has the Edge Now?",
     "source": "Zacks",
     "when": "2026-11-13T12:34"
-   },
-   {
-    "title": "How Much Could You Lose In AT&T Stock After CPI?",
-    "source": "Trefis",
-    "when": "2026-11-13T12:12"
    },
    {
     "title": "LiveOne, Inc. Q2 2027 Earnings Call Summary",
@@ -2299,19 +2683,19 @@
   ],
   "TSM": [
    {
-    "title": "Taiwan Semiconductor Just Became Even More of an AI Anchor On Nvidia\u2019s -25% Plummet",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-13T13:45"
+    "title": "TSMC\u2019s Terrific Growth Clearly Shows That the Chip Sell-Off Is Overdone. Here Are the Best Stocks to Buy Hand Over Fist",
+    "source": "Motley Fool",
+    "when": "2026-11-13T15:13"
    },
    {
-    "title": "Jensen Huang is Out as CEO, Nvidia Down 25% in a Month: Wall Street\u2019s Highest Target Price Reaffirmed as Major Desks Slash Prices, Predicting 210% Gains",
-    "source": "24/7 Wall St.",
-    "when": "2026-11-13T13:45"
+    "title": "The 5 Best Stocks in Ken Fisher\u2019s Portfolio",
+    "source": "TIKR",
+    "when": "2026-11-13T14:53"
    },
    {
-    "title": "NVIDIA Leadership Crisis Opens Door for Chip Rivals? ETFs in Focus",
-    "source": "Zacks",
-    "when": "2026-11-13T13:00"
+    "title": "Nvidia stock slips as investors digest CEO exit, broader chip sector falls",
+    "source": "Yahoo Finance",
+    "when": "2026-11-13T14:48"
    }
   ],
   "UNH": [
@@ -2350,338 +2734,5 @@
   ]
  },
  "people_news": {},
- "allowed": [
-  "AAPL",
-  "AMD",
-  "AMZN",
-  "ARE",
-  "ARGX",
-  "AVGO",
-  "BBIO",
-  "BH",
-  "CCJ",
-  "CF",
-  "CMCSA",
-  "CMS",
-  "CSQR",
-  "DIA",
-  "EIX",
-  "ENOV",
-  "FIS",
-  "GLD",
-  "GOOGL",
-  "HD",
-  "IBM",
-  "LLY",
-  "LMT",
-  "LNT",
-  "META",
-  "MSFT",
-  "MTSI",
-  "MU",
-  "NEM",
-  "NLR",
-  "NOC",
-  "NOW",
-  "NVDA",
-  "O",
-  "OKLO",
-  "PLD",
-  "PLTR",
-  "RPM",
-  "RTX",
-  "SPY",
-  "T",
-  "TSM",
-  "UNH",
-  "VNQ"
- ],
- "feed_status": {
-  "congress": "ok",
-  "congress_source": "congresswatch",
-  "congress_notes": "",
-  "insiders": "ok (openinsider)",
-  "excluded_instruments": [
-   "AIM excluded: too thinly traded ($1.0M a day) \u2014 AIM ImmunoTech Inc.",
-   "ASR excluded: too thinly traded ($16.8M a day) \u2014 Grupo Aeroportuario del Sureste, S. A. B. de C. V.",
-   "BGDE excluded: too thinly traded ($0.5M a day) \u2014 Big Digital Energy, Inc.",
-   "CATX excluded: too thinly traded ($2.3M a day) \u2014 Perspective Therapeutics, Inc.",
-   "ECX excluded: too thinly traded ($0.8M a day) \u2014 ECARX Holdings Inc.",
-   "EOSE excluded: share price $3.94 is below $5: the spread eats the trade \u2014 Eos Energy Enterprises, Inc.",
-   "HPP excluded: too thinly traded ($6.8M a day) \u2014 Hudson Pacific Properties, Inc.",
-   "IOSP excluded: too thinly traded ($18.1M a day) \u2014 Innospec Inc.",
-   "LRMR excluded: too thinly traded ($3.8M a day) \u2014 Larimar Therapeutics, Inc.",
-   "OWLS excluded: too thinly traded ($0.1M a day) \u2014 Obook Holdings Inc.",
-   "PSEC excluded: too thinly traded ($8.5M a day) \u2014 Prospect Capital Corporation",
-   "VISN excluded: share price $4.11 is below $5: the spread eats the trade \u2014 Vistance Networks, Inc."
-  ]
- },
- "learning": {
-  "horizon": "1d",
-  "decisions_recorded": 420,
-  "decisions_graded": 396,
-  "decisions_with_buys_graded": 42,
-  "independent_days_graded": 4,
-  "avg_regret_pct": -0.23,
-  "chosen_avg_pct": -0.06,
-  "skipped_avg_pct": -0.29,
-  "idle_universe_avg_pct": -0.07,
-  "picking_beats_random": true,
-  "avg_fraction_of_universe_bought": 0.0,
-  "checks_that_bought_everything": 0,
-  "by_signal_chosen": {
-   "autopilot": {
-    "n": 58,
-    "avg_pct": -0.03
-   },
-   "congress": {
-    "n": 39,
-    "avg_pct": -0.1
-   },
-   "insider": {
-    "n": 19,
-    "avg_pct": 0.11
-   },
-   "momentum": {
-    "n": 58,
-    "avg_pct": -0.03
-   }
-  },
-  "biggest_misses": [
-   {
-    "ticker": "AVGO",
-    "fwd_pct": 11.04,
-    "sector": "widely_held",
-    "m1m_then": -10.1,
-    "congress": -2.0,
-    "insider": 0
-   },
-   {
-    "ticker": "MU",
-    "fwd_pct": 10.46,
-    "sector": "off-watchlist",
-    "m1m_then": -29.1,
-    "congress": 3.0,
-    "insider": 0
-   },
-   {
-    "ticker": "NVDA",
-    "fwd_pct": 7.03,
-    "sector": "widely_held",
-    "m1m_then": -29.7,
-    "congress": -1.0,
-    "insider": 0
-   },
-   {
-    "ticker": "AMAT",
-    "fwd_pct": 7.01,
-    "sector": "off-watchlist",
-    "m1m_then": -26.6,
-    "congress": 1.0,
-    "insider": 0
-   },
-   {
-    "ticker": "AMD",
-    "fwd_pct": 6.97,
-    "sector": "widely_held",
-    "m1m_then": -15.6,
-    "congress": 0,
-    "insider": 0
-   }
-  ],
-  "biggest_avoided": [
-   {
-    "ticker": "NVDA",
-    "fwd_pct": -12.28
-   },
-   {
-    "ticker": "GLXY",
-    "fwd_pct": -9.61
-   },
-   {
-    "ticker": "IBRX",
-    "fwd_pct": -9.37
-   }
-  ],
-  "sectors_most_often_missed": {
-   "off-watchlist": {
-    "n": 17
-   },
-   "widely_held": {
-    "n": 12
-   },
-   "defense": {
-    "n": 7
-   },
-   "gold": {
-    "n": 1
-   }
-  },
-  "idle_checks": 346,
-  "blocked_checks": 0,
-  "idle_share": 0.86,
-  "how_to_read": "regret = how much better the tickers you SKIPPED did than the ones you BOUGHT, averaged over graded decisions where you bought something. Positive means your picking cost you; negative means it added value over buying at random from the same list. Names you already held count as neither. idle_universe_avg_pct = what the list did while you sat out (positive = sitting out had a cost). biggest_misses = what you passed over and its signal state then; biggest_avoided = what passing saved you.",
-  "evidence_strength": "anecdote",
-  "how_many_days_before_this_means_anything": 30,
-  "warning": "only 4 independent day(s) graded: treat every number here as a story, not a finding. Do not change strategy on it."
- },
- "signalsAsOf": "2026-11-13T09:39-05:00",
- "disclosure_leaderboard": [
-  {
-   "who": "Nancy Pelosi",
-   "disclosed_buys_scored": 16,
-   "avg_excess_pct": 5.39,
-   "beat_index_rate": 0.56,
-   "best": {
-    "ticker": "BE",
-    "excess_pct": 34.2,
-    "disclosed": "2026-08-21"
-   }
-  },
-  {
-   "who": "Tim Moore",
-   "disclosed_buys_scored": 22,
-   "avg_excess_pct": 4.76,
-   "beat_index_rate": 0.64,
-   "best": {
-    "ticker": "CBRL",
-    "excess_pct": 20.0,
-    "disclosed": "2026-01-07"
-   }
-  },
-  {
-   "who": "Robert E. Latta",
-   "disclosed_buys_scored": 4,
-   "avg_excess_pct": 4.63,
-   "beat_index_rate": 0.75,
-   "best": {
-    "ticker": "FMAO",
-    "excess_pct": 7.7,
-    "disclosed": "2026-06-05"
-   }
-  },
-  {
-   "who": "Jonathan L. Jackson",
-   "disclosed_buys_scored": 16,
-   "avg_excess_pct": 4.53,
-   "beat_index_rate": 0.69,
-   "best": {
-    "ticker": "C",
-    "excess_pct": 16.4,
-    "disclosed": "2026-03-12"
-   }
-  },
-  {
-   "who": "Rick Larsen",
-   "disclosed_buys_scored": 9,
-   "avg_excess_pct": 4.07,
-   "beat_index_rate": 0.78,
-   "best": {
-    "ticker": "CASY",
-    "excess_pct": 10.2,
-    "disclosed": "2026-04-15"
-   }
-  },
-  {
-   "who": "Tim Walberg",
-   "disclosed_buys_scored": 14,
-   "avg_excess_pct": 3.74,
-   "beat_index_rate": 0.57,
-   "best": {
-    "ticker": "UA",
-    "excess_pct": 25.4,
-    "disclosed": "2026-06-03"
-   }
-  },
-  {
-   "who": "Jared Moskowitz",
-   "disclosed_buys_scored": 34,
-   "avg_excess_pct": 2.31,
-   "beat_index_rate": 0.5,
-   "best": {
-    "ticker": "PANW",
-    "excess_pct": 62.0,
-    "disclosed": "2026-04-30"
-   }
-  },
-  {
-   "who": "Michael A. Rulli",
-   "disclosed_buys_scored": 16,
-   "avg_excess_pct": 1.89,
-   "beat_index_rate": 0.56,
-   "best": {
-    "ticker": "MU",
-    "excess_pct": 14.9,
-    "disclosed": "2026-08-07"
-   }
-  },
-  {
-   "who": "Lloyd Doggett",
-   "disclosed_buys_scored": 22,
-   "avg_excess_pct": 1.45,
-   "beat_index_rate": 0.55,
-   "best": {
-    "ticker": "HD",
-    "excess_pct": 27.5,
-    "disclosed": "2026-10-05"
-   }
-  },
-  {
-   "who": "Scott Franklin",
-   "disclosed_buys_scored": 5,
-   "avg_excess_pct": 1.22,
-   "beat_index_rate": 0.2,
-   "best": {
-    "ticker": "ACN",
-    "excess_pct": 24.8,
-    "disclosed": "2026-09-17"
-   }
-  },
-  {
-   "who": "David J. Taylor",
-   "disclosed_buys_scored": 77,
-   "avg_excess_pct": 1.02,
-   "beat_index_rate": 0.51,
-   "best": {
-    "ticker": "HD",
-    "excess_pct": 22.3,
-    "disclosed": "2026-10-01"
-   }
-  },
-  {
-   "who": "Maria Elvira Salazar",
-   "disclosed_buys_scored": 59,
-   "avg_excess_pct": 0.79,
-   "beat_index_rate": 0.41,
-   "best": {
-    "ticker": "MRVL",
-    "excess_pct": 69.6,
-    "disclosed": "2026-05-08"
-   }
-  }
- ],
- "disclosure_leaderboard_meta": {
-  "built": "2026-11-13",
-  "horizon_days": 30,
-  "buys_scored": 1276,
-  "measured_from": "disclosure date, not transaction date",
-  "benchmark": "SPY",
-  "caveat": "Excess return over SPY across the same dates, scored only from the day the filing became public. A small number of trades is not evidence of skill; treat anyone with fewer than about 20 scored buys as unproven."
- },
- "disclosure_significance": {
-  "members": 26,
-  "best": "Nancy Pelosi",
-  "best_avg_excess_pct": 5.39,
-  "best_t_stat": 2.11,
-  "members_weighted": 0,
-  "verdict": "no member is distinguishable from luck; every multiplier is 1.0x",
-  "how_to_read": "Ranking 25 people and taking the top one produces a good-looking number by construction. A score only counts here if it beats what the best of 25 coin-flippers would show, which needs roughly 30+ independent trades."
- },
- "wallet_moves": [],
- "wallet_status": {
-  "followed_total": 0,
-  "checked_this_pass": 0,
-  "starting_at": 0,
-  "names": []
- }
+ "signalsAsOf": "2026-11-13T10:23-05:00"
 }
