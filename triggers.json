@@ -6736,7 +6736,7 @@
    "ticker": "CMCSA",
    "kind": "take_profit",
    "price": 24.9591,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 09:32",
    "created_ts": 1794580353,
    "why": "close 100% at +0.3% over the average cost",
@@ -6746,7 +6746,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 09:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "9ab9f9eb",
@@ -6772,7 +6774,7 @@
    "ticker": "CMCSA",
    "kind": "buy_limit",
    "price": 24.1336,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 09:32",
    "created_ts": 1794580353,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6782,14 +6784,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-13 09:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "015cad9b",
    "ticker": "LNT",
    "kind": "take_profit",
    "price": 73.4476,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 09:32",
    "created_ts": 1794580353,
    "why": "close 100% at +0.2% over the average cost",
@@ -6799,7 +6803,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 09:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a7b90212",
@@ -6825,7 +6831,7 @@
    "ticker": "LNT",
    "kind": "buy_limit",
    "price": 71.0913,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 09:32",
    "created_ts": 1794580353,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -6835,7 +6841,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-13 09:41",
+   "cancel_reason": "position closed"
   },
   {
    "id": "d537c323",
@@ -7187,7 +7195,7 @@
    "ticker": "CMCSA",
    "kind": "stop_loss",
    "price": 24.904,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-13 09:35",
    "created_ts": 1794580502,
    "why": "close it all at -0.8% under the average cost",
@@ -7197,7 +7205,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 09:41"
   },
   {
    "id": "b0df3dd1",
@@ -7223,7 +7232,7 @@
    "ticker": "LNT",
    "kind": "stop_loss",
    "price": 73.356,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-13 09:37",
    "created_ts": 1794580634,
    "why": "close it all at -0.5% under the average cost",
@@ -7233,14 +7242,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 09:41"
   },
   {
    "id": "833e123d",
    "ticker": "CF",
    "kind": "take_profit",
    "price": 124.9626,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-13 09:37",
    "created_ts": 1794580634,
    "why": "close 100% at +0.4% over the average cost",
@@ -7250,7 +7260,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 09:40"
   },
   {
    "id": "f856e0ad",
@@ -7276,7 +7287,7 @@
    "ticker": "CF",
    "kind": "buy_limit",
    "price": 120.7068,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 09:37",
    "created_ts": 1794580634,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7286,7 +7297,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-13 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "29f73411",
@@ -7344,7 +7357,7 @@
    "ticker": "CF",
    "kind": "stop_loss",
    "price": 124.758,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 09:38",
    "created_ts": 1794580719,
    "why": "close it all at -1.0% under the average cost",
@@ -7354,7 +7367,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 09:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "608f9f49",
@@ -7459,5 +7474,5 @@
    "usd": 500.0
   }
  ],
- "updated": "2026-11-13 09:39"
+ "updated": "2026-11-13 09:41"
 }

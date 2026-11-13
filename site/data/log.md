@@ -1,11 +1,3 @@
-## 2026-11-12 15:08 ET (Thursday) — week 2026-W46 — budget left $24831.42 (today $28500.00 put to work, 17 buys, 18 sells) — SIM (pretend money) via sim
-  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
-  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
-  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
-  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
-  (ITIC excluded: too thinly traded ($15.4M a day) — Investors Title Company)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgye5gJ7qptU3R9PztFqe'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
@@ -398,3 +390,11 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 targe
 ~ WORKING buy_limit $500.00 CSQR @ $16.67 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25366.50 (+1.47% on $25000.00 in) · cash $1393.02 · realised +393.02
 Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $805.59 this week
+  (cancelled 2 standing order(s) on CF: position closed)
+- SELL 100% CF [take_profit @ $125.10] -> $3015.92 (+0.53%) — close 100% at +0.4% over the average cost
+## 2026-11-13 09:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on CMCSA: position closed)
+- SELL 100% CMCSA [stop_loss @ $24.86] -> $2997.91 (-0.07%) — close it all at -0.8% under the average cost
+  (cancelled 2 standing order(s) on LNT: position closed)
+- SELL 100% LNT [stop_loss @ $73.17] -> $2995.05 (-0.16%) — close it all at -0.5% under the average cost
+## 2026-11-13 09:41 ET — tick — 2 sell(s), 0 buy(s) from standing orders

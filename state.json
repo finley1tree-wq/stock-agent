@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 24194.41,
+  "spent": 15185.53,
   "deployed": 135750.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -12,12 +12,11 @@
     "ENOV": 3055.71,
     "FITB": 22.48,
     "EL": 42.5,
-    "CMCSA": 3000.0,
-    "LNT": 3000.0,
+    "CMCSA": 2.09,
+    "LNT": 4.95,
     "BBIO": 33.73,
     "ARGX": 24.08,
     "LLY": 3000.0,
-    "CF": 3000.0,
     "EIX": 3000.0,
     "CSQR": 3000.0
   },
@@ -3110,18 +3109,84 @@
       "evidence": "1 insider bought (Form 4, incl. CFO); +0.5% over the month; 0% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "CF",
+      "side": "sell",
+      "qty": 24.108051,
+      "status": "filled",
+      "price": 125.1,
+      "proceeds": 3015.92,
+      "realized_pnl": 15.92,
+      "realized_pct": 0.53,
+      "date": "2026-11-13",
+      "time_et": "09:40",
+      "ts": 1794580800,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $124.44",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "CMCSA",
+      "side": "sell",
+      "qty": 120.57903,
+      "status": "filled",
+      "price": 24.86,
+      "proceeds": 2997.91,
+      "realized_pnl": -2.09,
+      "realized_pct": -0.07,
+      "date": "2026-11-13",
+      "time_et": "09:41",
+      "ts": 1794580800,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $24.88",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "LNT",
+      "side": "sell",
+      "qty": 40.933667,
+      "status": "filled",
+      "price": 73.17,
+      "proceeds": 2995.05,
+      "realized_pnl": -4.95,
+      "realized_pct": -0.16,
+      "date": "2026-11-13",
+      "time_et": "09:41",
+      "ts": 1794580800,
+      "why": "close it all at -0.5% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $73.29",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 24025.83,
+  "spent_today": 15016.95,
   "deployed_today": 36000.0,
   "orders_today": 12,
-  "sells_today": 4,
+  "sells_today": 7,
   "sold_today": [
     "ARE",
     "CMS",
     "ARGX",
-    "BBIO"
+    "BBIO",
+    "CF",
+    "CMCSA",
+    "LNT"
   ],
   "sold_ts": {
     "ESAB": 1794507809,
@@ -3139,10 +3204,13 @@
     "ARE": 1794580587,
     "CMS": 1794580587,
     "ARGX": 1794580677,
-    "BBIO": 1794580766
+    "BBIO": 1794580766,
+    "CF": 1794580819,
+    "CMCSA": 1794580865,
+    "LNT": 1794580865
   },
-  "last_publish_ts": 1794580768,
-  "last_check_ts": 1794580768,
+  "last_publish_ts": 1794580865,
+  "last_check_ts": 1794580865,
   "exp_arm": {
     "CMCSA": {
       "params": {
@@ -3201,19 +3269,13 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1794580500,
+  "last_bar_ts": 1794580800,
   "last_decision_ts": 1794580768,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "833e123d": 124.9626,
-    "e14b03c1": 124.758,
-    "66235028": 73.356,
     "29f73411": 60.3339,
-    "e73bc910": 24.904,
-    "015cad9b": 73.4476,
     "be4f1303": 1417.9502,
-    "3c1328da": 24.9591,
     "961a3d27": 102.4818,
     "9013edb4": 59.8301,
     "31d277d4": 103.7671,
@@ -3224,11 +3286,8 @@
     "3d6045e1": 16.834,
     "c45e9fe1": 1388.7296,
     "df354a78": 100.298,
-    "1770ce05": 16.6743,
-    "21dc3f69": 24.1336,
-    "cfd86f94": 71.0913,
     "504f2a16": 27.3637,
-    "ec023659": 58.3843,
-    "df2ff993": 120.7068
+    "1770ce05": 16.6743,
+    "ec023659": 58.3843
   }
 }
