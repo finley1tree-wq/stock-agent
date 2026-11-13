@@ -1,43 +1,6 @@
 {
  "orders": [
   {
-   "id": "a7daf44c",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 248.8201,
-   "status": "cancelled",
-   "created": "2026-11-06 10:23",
-   "created_ts": 1793978590,
-   "why": "close 100% at +0.6% over the average cost",
-   "evidence": "average cost $247.4",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 10:32",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "818097df",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 243.8523,
-   "status": "filled",
-   "created": "2026-11-06 10:23",
-   "created_ts": 1793978590,
-   "why": "close it all at -1.4% under the average cost",
-   "evidence": "average cost $247.4",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 10:32"
-  },
-  {
    "id": "1b38ffe2",
    "ticker": "NXPI",
    "kind": "buy_limit",
@@ -7109,7 +7072,7 @@
    "ticker": "ARGX",
    "kind": "stop_loss",
    "price": 962.92,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 11:19",
    "created_ts": 1794586760,
    "why": "close it all at -0.8% under the average cost",
@@ -7119,7 +7082,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 12:26",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "9447a310",
@@ -7274,7 +7239,7 @@
    "ticker": "LLY",
    "kind": "stop_loss",
    "price": 1424.7609,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 11:25",
    "created_ts": 1794587103,
    "why": "close it all at -1.0% under the average cost",
@@ -7284,7 +7249,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 12:25",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "ac057e32",
@@ -7478,7 +7445,41 @@
    "pct_of_position": 100.0,
    "closed": "2026-11-13 12:02",
    "cancel_reason": "position closed"
+  },
+  {
+   "id": "8fc545d5",
+   "ticker": "LLY",
+   "kind": "stop_loss",
+   "price": 1440.5,
+   "status": "working",
+   "created": "2026-11-13 12:25",
+   "created_ts": 1794590715,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $1438.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f91146bf",
+   "ticker": "ARGX",
+   "kind": "stop_loss",
+   "price": 972.178,
+   "status": "working",
+   "created": "2026-11-13 12:26",
+   "created_ts": 1794590760,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $970.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-13 12:23"
+ "updated": "2026-11-13 12:26"
 }
