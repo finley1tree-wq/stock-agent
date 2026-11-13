@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 2427.18,
+  "spent": 1676.98,
   "deployed": 143250.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -15,7 +15,7 @@
     "LNT": 754.95,
     "BBIO": 30.46,
     "ARGX": 21.73,
-    "EIX": 759.17,
+    "EIX": 8.97,
     "CSQR": 63.11,
     "ARE": 750.0
   },
@@ -3623,13 +3623,34 @@
       "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +9.7% over the month; 84% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "EIX",
+      "side": "sell",
+      "qty": 12.445221,
+      "status": "filled",
+      "price": 60.28,
+      "proceeds": 750.2,
+      "realized_pnl": 0.2,
+      "realized_pct": 0.03,
+      "date": "2026-11-13",
+      "time_et": "11:15",
+      "ts": 1794586500,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $60.26",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 2258.6,
+  "spent_today": 1508.4,
   "deployed_today": 43500.0,
   "orders_today": 22,
-  "sells_today": 19,
+  "sells_today": 20,
   "sold_today": [
     "ARE",
     "CMS",
@@ -3664,12 +3685,12 @@
     "CF": 1794584443,
     "CMCSA": 1794584158,
     "LNT": 1794580865,
-    "EIX": 1794581730,
+    "EIX": 1794586537,
     "CSQR": 1794582565,
     "LLY": 1794584068
   },
-  "last_publish_ts": 1794586295,
-  "last_check_ts": 1794586500,
+  "last_publish_ts": 1794586536,
+  "last_check_ts": 1794586584,
   "exp_arm": {
     "ARE": {
       "params": {
@@ -3694,18 +3715,15 @@
     }
   },
   "last_bar_ts": 1794586500,
-  "last_decision_ts": 1794586421,
+  "last_decision_ts": 1794586584,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
     "681b499b": 73.8098,
-    "cf72e6c1": 60.314,
-    "26217261": 60.4058,
     "19f9fc56": 73.698,
     "56dc0cfb": 43.6174,
     "ab1c9ecd": 42.822,
     "12ed9f14": 42.0883,
-    "cacc9a8c": 58.4522,
     "1d612500": 71.4405
   }
 }

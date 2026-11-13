@@ -100042,7 +100042,7 @@
     "code_version": "d5e244d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": -0.07
   },
   {
     "symbol": "BBIO",
@@ -100504,7 +100504,9 @@
     "code_version": "1406520",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15
+    "ret_now": 0.03,
+    "ret_final": 0.03,
+    "ret_src": "realised"
   },
   {
     "symbol": "LNT",
@@ -100533,6 +100535,33 @@
     "code_version": "1406520",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": 0.2
+  },
+  {
+    "symbol": "EIX",
+    "side": "sell",
+    "qty": 12.445221,
+    "status": "filled",
+    "price": 60.28,
+    "proceeds": 750.2,
+    "realized_pnl": 0.2,
+    "realized_pct": 0.03,
+    "date": "2026-11-13",
+    "time_et": "11:15",
+    "ts": 1794586500,
+    "why": "close it all at -0.6% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $60.26",
+    "trigger": "stop_loss",
+    "hour_et": 11,
+    "code_version": "d5d92e4",
+    "hold_minutes": 30
   }
 ]
