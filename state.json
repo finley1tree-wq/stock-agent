@@ -1,11 +1,11 @@
 {
   "week": "2026-W46",
-  "spent": 12148.45,
+  "spent": 9137.84,
   "deployed": 135750.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 56.38,
-    "RPM": 3023.81,
+    "RPM": 13.2,
     "NFRX": 14.96,
     "FUN": 9.47,
     "ESAB": 63.43,
@@ -3193,13 +3193,34 @@
       ],
       "evidence": "average cost $28.21",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "RPM",
+      "side": "sell",
+      "qty": 29.013163,
+      "status": "filled",
+      "price": 103.77,
+      "proceeds": 3010.61,
+      "realized_pnl": 10.61,
+      "realized_pct": 0.35,
+      "date": "2026-11-13",
+      "time_et": "09:46",
+      "ts": 1794581100,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $103.4",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 11979.87,
+  "spent_today": 8969.26,
   "deployed_today": 36000.0,
   "orders_today": 12,
-  "sells_today": 8,
+  "sells_today": 9,
   "sold_today": [
     "ARE",
     "CMS",
@@ -3208,12 +3229,13 @@
     "CF",
     "CMCSA",
     "LNT",
-    "ENOV"
+    "ENOV",
+    "RPM"
   ],
   "sold_ts": {
     "ESAB": 1794507809,
     "EL": 1794512553,
-    "RPM": 1794509682,
+    "RPM": 1794581177,
     "PLD": 1794240790,
     "NXPI": 1794493830,
     "CRH": 1794337610,
@@ -3231,8 +3253,8 @@
     "CMCSA": 1794580865,
     "LNT": 1794580865
   },
-  "last_publish_ts": 1794580949,
-  "last_check_ts": 1794581138,
+  "last_publish_ts": 1794581176,
+  "last_check_ts": 1794581223,
   "exp_arm": {
     "CMCSA": {
       "params": {
@@ -3298,14 +3320,11 @@
   "book_px": {
     "be4f1303": 1417.9502,
     "29f73411": 60.3339,
-    "9013edb4": 59.8301,
-    "31d277d4": 103.7671,
-    "961a3d27": 102.4818,
     "65d31b0c": 17.3323,
+    "9013edb4": 59.8301,
     "d67c22ef": 1437.1633,
-    "3d6045e1": 16.834,
     "c45e9fe1": 1388.7296,
-    "df354a78": 100.298,
+    "3d6045e1": 16.834,
     "ec023659": 58.3843,
     "1770ce05": 16.6743
   }
