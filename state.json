@@ -1,11 +1,11 @@
 {
   "week": "2026-W46",
-  "spent": 8460.12,
-  "deployed": 141000.0,
+  "spent": 8457.77,
+  "deployed": 141750.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 56.38,
-    "RPM": 13.2,
+    "RPM": 763.2,
     "NFRX": 14.96,
     "FUN": 9.47,
     "ESAB": 63.43,
@@ -15,7 +15,7 @@
     "CMCSA": 752.09,
     "LNT": 4.95,
     "BBIO": 783.73,
-    "ARGX": 774.08,
+    "ARGX": 21.73,
     "LLY": 3000.0,
     "EIX": 9.17,
     "CSQR": 63.11,
@@ -25,7 +25,7 @@
   },
   "deployed_by_ticker": {
     "ESAB": 17250.0,
-    "RPM": 20250.0,
+    "RPM": 21000.0,
     "EL": 17250.0,
     "PLD": 1500.0,
     "NXPI": 9750.0,
@@ -3399,13 +3399,54 @@
       "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +15.0% over the month; 58% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ARGX",
+      "side": "sell",
+      "qty": 0.774756,
+      "status": "filled",
+      "price": 971.08,
+      "proceeds": 752.35,
+      "realized_pnl": 2.35,
+      "realized_pct": 0.31,
+      "date": "2026-11-13",
+      "time_et": "10:31",
+      "ts": 1794583800,
+      "why": "close 100% at +0.3% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $968.05",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "RPM",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 7.280763,
+      "price": 103.01,
+      "date": "2026-11-13",
+      "time_et": "10:31",
+      "ts": 1794583896,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "congress net buying (2 net buyers): David J. Taylor; +2.9% over the month; 33% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 8291.54,
-  "deployed_today": 41250.0,
-  "orders_today": 19,
-  "sells_today": 11,
+  "spent_today": 8289.19,
+  "deployed_today": 42000.0,
+  "orders_today": 20,
+  "sells_today": 12,
   "sold_today": [
     "ARE",
     "CMS",
@@ -3434,7 +3475,7 @@
     "DKNG": 1794508570,
     "ARE": 1794580587,
     "CMS": 1794580587,
-    "ARGX": 1794580677,
+    "ARGX": 1794583894,
     "BBIO": 1794580766,
     "CF": 1794580819,
     "CMCSA": 1794580865,
@@ -3442,8 +3483,8 @@
     "EIX": 1794581730,
     "CSQR": 1794582565
   },
-  "last_publish_ts": 1794583724,
-  "last_check_ts": 1794583810,
+  "last_publish_ts": 1794583896,
+  "last_check_ts": 1794583896,
   "exp_arm": {
     "LLY": {
       "params": {
@@ -3460,13 +3501,6 @@
       "tags": {}
     },
     "BBIO": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "ARGX": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -3500,36 +3534,43 @@
         "ratchet": "on"
       },
       "tags": {}
+    },
+    "RPM": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
     }
   },
   "last_bar_ts": 1794583800,
-  "last_decision_ts": 1794583724,
+  "last_decision_ts": 1794583896,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "089c4850": 968.962,
-    "698ce07c": 971.08,
+    "7e8d63f7": 69.914,
     "300a2128": 70.0123,
+    "d93a4e8a": 78.3416,
+    "d1cddd7d": 78.156,
+    "d67c22ef": 1437.1633,
     "1b3ec5b8": 125.5375,
     "c7edc8d1": 25.1206,
-    "d93a4e8a": 78.3416,
-    "d67c22ef": 1437.1633,
-    "a56136f4": 69.4786,
+    "9037a081": 103.3808,
     "52568328": 24.8387,
     "af41eadb": 28.247,
-    "be4f1303": 1417.9502,
     "56dc0cfb": 43.6174,
+    "14c77343": 102.0819,
     "ab1c9ecd": 42.822,
-    "b8ff345f": 77.1467,
+    "be4f1303": 1417.9502,
     "73342773": 123.6899,
     "5778e9e0": 27.4876,
     "12ed9f14": 42.0883,
-    "c45e9fe1": 1388.7296,
     "0aa2b8bd": 24.2888,
+    "d50cd294": 99.9197,
     "1024aed6": 27.1891,
-    "15233d59": 67.7642,
-    "05ba23d0": 75.66,
     "81d4c5e1": 121.2597,
-    "a4daec00": 939.0085
+    "c45e9fe1": 1388.7296,
+    "15233d59": 67.7642,
+    "05ba23d0": 75.66
   }
 }

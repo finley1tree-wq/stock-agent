@@ -99559,7 +99559,7 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.09
+    "ret_now": 0.14
   },
   {
     "symbol": "RPM",
@@ -100040,7 +100040,7 @@
     "code_version": "d5e244d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.28
+    "ret_now": -0.25
   },
   {
     "symbol": "BBIO",
@@ -100069,7 +100069,7 @@
     "code_version": "4b02dc2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.06
+    "ret_now": 0.37
   },
   {
     "symbol": "ARGX",
@@ -100098,7 +100098,9 @@
     "code_version": "4b02dc2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": 0.31,
+    "ret_final": 0.31,
+    "ret_src": "realised"
   },
   {
     "symbol": "CF",
@@ -100127,7 +100129,7 @@
     "code_version": "4b02dc2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.13
+    "ret_now": 0.14
   },
   {
     "symbol": "CMS",
@@ -100156,7 +100158,7 @@
     "code_version": "4b02dc2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.04
+    "ret_now": 0.17
   },
   {
     "symbol": "ENOV",
@@ -100184,7 +100186,8 @@
     "hour_et": 10,
     "code_version": "6725864",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.04
   },
   {
     "symbol": "CMCSA",
@@ -100211,6 +100214,62 @@
     "momentum_1m_at_entry": 15.0,
     "hour_et": 10,
     "code_version": "6725864",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.0
+  },
+  {
+    "symbol": "ARGX",
+    "side": "sell",
+    "qty": 0.774756,
+    "status": "filled",
+    "price": 971.08,
+    "proceeds": 752.35,
+    "realized_pnl": 2.35,
+    "realized_pct": 0.31,
+    "date": "2026-11-13",
+    "time_et": "10:31",
+    "ts": 1794583800,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $968.05",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "4811fac",
+    "hold_minutes": 4
+  },
+  {
+    "symbol": "RPM",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 7.280763,
+    "price": 103.01,
+    "date": "2026-11-13",
+    "time_et": "10:31",
+    "ts": 1794583896,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "congress net buying (2 net buyers): David J. Taylor; +2.9% over the month; 33% of today's range",
+    "experiments": {},
+    "hold_minutes": 120,
+    "entry_price": 102.97,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 2.88,
+    "hour_et": 10,
+    "code_version": "4811fac",
     "ret_1w": null,
     "ret_1m": null
   }
