@@ -99402,7 +99402,7 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": 0.19
   },
   {
     "symbol": "BBIO",
@@ -99431,7 +99431,7 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.6
+    "ret_now": -0.97
   },
   {
     "symbol": "ARE",
@@ -99460,7 +99460,9 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.41
+    "ret_now": 0.85,
+    "ret_final": 0.85,
+    "ret_src": "realised"
   },
   {
     "symbol": "CMS",
@@ -99489,7 +99491,9 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.17
+    "ret_now": 0.22,
+    "ret_final": 0.22,
+    "ret_src": "realised"
   },
   {
     "symbol": "ARGX",
@@ -99518,7 +99522,9 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.4
+    "ret_now": -0.8,
+    "ret_final": -0.8,
+    "ret_src": "realised"
   },
   {
     "symbol": "LLY",
@@ -99547,7 +99553,7 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.11
+    "ret_now": -0.29
   },
   {
     "symbol": "RPM",
@@ -99576,6 +99582,143 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.19
+    "ret_now": -0.56
+  },
+  {
+    "symbol": "ARE",
+    "side": "sell",
+    "qty": 68.13907,
+    "status": "filled",
+    "price": 44.4,
+    "proceeds": 3025.37,
+    "realized_pnl": 25.37,
+    "realized_pct": 0.85,
+    "date": "2026-11-13",
+    "time_et": "09:36",
+    "ts": 1794580500,
+    "why": "close 100% at +0.5% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $44.03",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "4a7e2fe",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "CMS",
+    "side": "sell",
+    "qty": 43.222838,
+    "status": "filled",
+    "price": 69.56,
+    "proceeds": 3006.61,
+    "realized_pnl": 6.61,
+    "realized_pct": 0.22,
+    "date": "2026-11-13",
+    "time_et": "09:36",
+    "ts": 1794580500,
+    "why": "close 100% at +0.2% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $69.41",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "4a7e2fe",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "ARGX",
+    "side": "sell",
+    "qty": 3.07923,
+    "status": "filled",
+    "price": 966.45,
+    "proceeds": 2975.92,
+    "realized_pnl": -24.08,
+    "realized_pct": -0.8,
+    "date": "2026-11-13",
+    "time_et": "09:37",
+    "ts": 1794580500,
+    "why": "close it all at -0.8% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $974.27",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "4a7e2fe",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "CF",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 24.108051,
+    "price": 124.44,
+    "date": "2026-11-13",
+    "time_et": "09:37",
+    "ts": 1794580634,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +3.9% over the month; 0% of today's range",
+    "experiments": {},
+    "hold_minutes": 120,
+    "entry_price": 124.39,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 3.85,
+    "hour_et": 9,
+    "code_version": "4a7e2fe",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "EIX",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 49.838798,
+    "price": 60.19,
+    "date": "2026-11-13",
+    "time_et": "09:37",
+    "ts": 1794580634,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +8.1% over the month; 31% of today's range",
+    "experiments": {},
+    "hold_minutes": 120,
+    "entry_price": 60.17,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 8.12,
+    "hour_et": 9,
+    "code_version": "4a7e2fe",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

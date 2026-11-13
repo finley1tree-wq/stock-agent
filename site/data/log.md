@@ -1,35 +1,5 @@
   (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgydGYt4ZDBsCxvAnzjNk'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25418.85 (+1.68% on $25000.00 in) · cash $25418.85 · realised +418.85
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-12 15:01 ET (Thursday) — week 2026-W46 — budget left $24831.42 (today $28500.00 put to work, 17 buys, 18 sells) — SIM (pretend money) via sim
-  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
-  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
-  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
-  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
-  (ITIC excluded: too thinly traded ($15.4M a day) — Investors Title Company)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011CgydXJ1H4bfniimEjk4kc'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
-portfolio: equity $25418.85 (+1.68% on $25000.00 in) · cash $25418.85 · realised +418.85
-Decision: nothing at this check.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-12 15:04 ET (Thursday) — week 2026-W46 — budget left $24831.42 (today $28500.00 put to work, 17 buys, 18 sells) — SIM (pretend money) via sim
-  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
-  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
-  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
-  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
-  (ITIC excluded: too thinly traded ($15.4M a day) — Investors Title Company)
-  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
-  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
 brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgydn2GfC1cvQwmMrqXPv'}
   -> falling back to autopilot: rules only, no model call
 autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
@@ -398,3 +368,33 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 ~ WORKING stop_loss 100% CMS @ $69.46 until 2026-11-18 — close it all at -0.5% under the average cost
 portfolio: equity $25400.36 (+1.60% on $25000.00 in) · cash $1418.85 · realised +418.85
 Decision: nothing at this check. 24 standing order(s) working.
+  (cancelled 2 standing order(s) on ARE: position closed)
+- SELL 100% ARE [take_profit @ $44.40] -> $3025.37 (+0.85%) — close 100% at +0.5% over the average cost
+  (cancelled 2 standing order(s) on CMS: position closed)
+- SELL 100% CMS [take_profit @ $69.56] -> $3006.61 (+0.22%) — close 100% at +0.2% over the average cost
+## 2026-11-13 09:36 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-13 09:37 ET (Friday) — week 2026-W46 — budget left $6863.40 (today $24000.00 put to work, 8 buys, 2 sells) — SIM (pretend money) via sim
+  (AQST excluded: too thinly traded ($9.4M a day) — Aquestive Therapeutics, Inc.)
+  (BDSX excluded: too thinly traded ($1.6M a day) — Biodesix, Inc.)
+  (CHCI excluded: too thinly traded ($0.6M a day) — Comstock Holding Companies, Inc.)
+  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
+  (ITIC excluded: too thinly traded ($15.4M a day) — Investors Title Company)
+  (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
+  (cancelled 2 standing order(s) on ARGX: position closed)
+- SELL 100% ARGX [stop_loss @ $966.45] -> $2975.92 (-0.80%) — close it all at -0.8% under the average cost
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch16cfZcRhQNs2qo3aMyB'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 target names with $9,839 idle, so opened 2: CF, EIX. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 CF [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +3.9% over the month; 0% of today's range
+- BUY $3000.00 EIX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +8.1% over the month; 31% of today's range
+  (re-pinned 1 order(s) to the new average cost)
+~ WORKING stop_loss 100% LNT @ $73.36 until 2026-11-18 — close it all at -0.5% under the average cost
+~ WORKING take_profit 100% CF @ $124.96 until 2026-11-18 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% CF @ $123.13 until 2026-11-18 — close it all at -1.1% under the average cost
+~ WORKING buy_limit $500.00 CF @ $120.71 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% EIX @ $60.33 until 2026-11-18 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% EIX @ $59.83 until 2026-11-18 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 EIX @ $58.38 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25376.29 (+1.51% on $25000.00 in) · cash $4426.75 · realised +426.75
+Done: 1 sell(s), 2 buy(s) (incl. 1 from standing orders); 21 order(s) working; budget left $3839.32 this week

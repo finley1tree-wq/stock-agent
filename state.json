@@ -1,7 +1,7 @@
 {
   "week": "2026-W46",
-  "spent": 24168.58,
-  "deployed": 123750.0,
+  "spent": 21160.68,
+  "deployed": 129750.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 56.38,
@@ -15,10 +15,10 @@
     "CMCSA": 3000.0,
     "LNT": 3000.0,
     "BBIO": 3000.0,
-    "ARE": 3000.0,
-    "CMS": 3000.0,
-    "ARGX": 3000.0,
-    "LLY": 3000.0
+    "ARGX": 24.08,
+    "LLY": 3000.0,
+    "CF": 3000.0,
+    "EIX": 3000.0
   },
   "deployed_by_ticker": {
     "ESAB": 17250.0,
@@ -39,7 +39,9 @@
     "ARE": 3000.0,
     "CMS": 3000.0,
     "ARGX": 3000.0,
-    "LLY": 3000.0
+    "LLY": 3000.0,
+    "CF": 3000.0,
+    "EIX": 3000.0
   },
   "orders": [
     {
@@ -2942,14 +2944,121 @@
       "evidence": "congress net buying (2 net buyers): David J. Taylor; +3.3% over the month; 41% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ARE",
+      "side": "sell",
+      "qty": 68.13907,
+      "status": "filled",
+      "price": 44.4,
+      "proceeds": 3025.37,
+      "realized_pnl": 25.37,
+      "realized_pct": 0.85,
+      "date": "2026-11-13",
+      "time_et": "09:36",
+      "ts": 1794580500,
+      "why": "close 100% at +0.5% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $44.03",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "CMS",
+      "side": "sell",
+      "qty": 43.222838,
+      "status": "filled",
+      "price": 69.56,
+      "proceeds": 3006.61,
+      "realized_pnl": 6.61,
+      "realized_pct": 0.22,
+      "date": "2026-11-13",
+      "time_et": "09:36",
+      "ts": 1794580500,
+      "why": "close 100% at +0.2% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $69.41",
+      "trigger": "take_profit"
+    },
+    {
+      "symbol": "ARGX",
+      "side": "sell",
+      "qty": 3.07923,
+      "status": "filled",
+      "price": 966.45,
+      "proceeds": 2975.92,
+      "realized_pnl": -24.08,
+      "realized_pct": -0.8,
+      "date": "2026-11-13",
+      "time_et": "09:37",
+      "ts": 1794580500,
+      "why": "close it all at -0.8% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $974.27",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CF",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 24.108051,
+      "price": 124.44,
+      "date": "2026-11-13",
+      "time_et": "09:37",
+      "ts": 1794580634,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +3.9% over the month; 0% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "EIX",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 49.838798,
+      "price": 60.19,
+      "date": "2026-11-13",
+      "time_et": "09:37",
+      "ts": 1794580634,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +8.1% over the month; 31% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 24000.0,
-  "deployed_today": 24000.0,
-  "orders_today": 8,
-  "sells_today": 0,
-  "sold_today": [],
+  "spent_today": 20992.1,
+  "deployed_today": 30000.0,
+  "orders_today": 10,
+  "sells_today": 3,
+  "sold_today": [
+    "ARE",
+    "CMS",
+    "ARGX"
+  ],
   "sold_ts": {
     "ESAB": 1794507809,
     "EL": 1794512553,
@@ -2962,10 +3071,13 @@
     "ENOV": 1794498945,
     "NFRX": 1794414794,
     "FITB": 1794507636,
-    "DKNG": 1794508570
+    "DKNG": 1794508570,
+    "ARE": 1794580587,
+    "CMS": 1794580587,
+    "ARGX": 1794580677
   },
-  "last_publish_ts": 1794580502,
-  "last_check_ts": 1794580502,
+  "last_publish_ts": 1794580634,
+  "last_check_ts": 1794580634,
   "exp_arm": {
     "CMCSA": {
       "params": {
@@ -2988,27 +3100,6 @@
       },
       "tags": {}
     },
-    "ARE": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "CMS": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "ARGX": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
     "LLY": {
       "params": {
         "hold_minutes": 120,
@@ -3022,36 +3113,47 @@
         "ratchet": "on"
       },
       "tags": {}
+    },
+    "CF": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "EIX": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
     }
   },
   "last_bar_ts": 1794580500,
-  "last_decision_ts": 1794580502,
-  "next_check_minutes": null,
+  "last_decision_ts": 1794580634,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "b0df3dd1": 69.464,
-    "e73bc910": 24.904,
-    "a5735256": 69.5606,
-    "47a540fe": 44.2497,
-    "858a67a4": 44.126,
-    "3c1328da": 24.9591,
     "015cad9b": 73.4476,
-    "d67c22ef": 1437.1633,
-    "1d44756a": 966.9337,
+    "e73bc910": 24.904,
+    "66235028": 73.356,
     "bda2480d": 77.6577,
-    "a7b90212": 72.8964,
-    "31d277d4": 103.7671,
+    "3c1328da": 24.9591,
+    "29f73411": 60.3339,
     "961a3d27": 102.4818,
-    "9ffb8edc": 977.2026,
+    "833e123d": 124.9626,
+    "9013edb4": 59.8301,
     "be4f1303": 1417.9502,
+    "d67c22ef": 1437.1633,
+    "31d277d4": 103.7671,
+    "f856e0ad": 123.1334,
     "d537c323": 78.8368,
     "c49d7004": 76.145,
-    "80739a97": 945.0419,
     "df354a78": 100.298,
-    "cfd86f94": 71.0913,
     "c45e9fe1": 1388.7296,
-    "bd57ef5f": 67.3277,
-    "21dc3f69": 24.1336,
-    "33a21a2f": 42.7091
+    "df2ff993": 120.7068,
+    "ec023659": 58.3843,
+    "cfd86f94": 71.0913,
+    "21dc3f69": 24.1336
   }
 }
