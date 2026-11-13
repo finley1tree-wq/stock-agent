@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 2417.3,
+  "spent": 1664.38,
   "deployed": 148500.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -19,7 +19,6 @@
     "CSQR": 63.11,
     "ARE": 0.43,
     "CMCSA": 0.08,
-    "LLY": 750.0,
     "CF": 750.0
   },
   "deployed_by_ticker": {
@@ -3912,13 +3911,34 @@
       ],
       "evidence": "average cost $970.48",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "LLY",
+      "side": "sell",
+      "qty": 0.521283,
+      "status": "filled",
+      "price": 1444.36,
+      "proceeds": 752.92,
+      "realized_pnl": 2.92,
+      "realized_pct": 0.39,
+      "date": "2026-11-13",
+      "time_et": "12:43",
+      "ts": 1794591600,
+      "why": "close 100% at +0.4% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $1438.76",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 2248.72,
+  "spent_today": 1495.8,
   "deployed_today": 48750.0,
   "orders_today": 29,
-  "sells_today": 26,
+  "sells_today": 27,
   "sold_today": [
     "ARE",
     "CMS",
@@ -3955,10 +3975,10 @@
     "LNT": 1794586970,
     "EIX": 1794586537,
     "CSQR": 1794582565,
-    "LLY": 1794584068
+    "LLY": 1794591802
   },
-  "last_publish_ts": 1794591714,
-  "last_check_ts": 1794591761,
+  "last_publish_ts": 1794591802,
+  "last_check_ts": 1794591849,
   "exp_arm": {
     "ARE": {
       "params": {
@@ -4018,18 +4038,15 @@
     }
   },
   "last_bar_ts": 1794591600,
-  "last_decision_ts": 1794591670,
+  "last_decision_ts": 1794591849,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "1a0c2834": 103.6307,
-    "53232f29": 1444.3568,
     "a9d69398": 103.464,
-    "8fc545d5": 1440.5,
     "969b3a24": 126.238,
     "256ecd53": 124.39,
     "da74c451": 121.9387,
-    "ac057e32": 1395.5972,
     "f308a92d": 100.1622
   }
 }

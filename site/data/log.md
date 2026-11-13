@@ -1,6 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1F35Tto5wdxFeLx5vrZ'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $20,325 idle, so opened 2: RPM, CF. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
 - BUY $750.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): David J. Taylor; +3.1% over the month; 51% of today's range
 - BUY $750.00 CF [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +4.9% over the month; 76% of today's range
 ~ WORKING take_profit 100% RPM @ $103.63 until 2026-11-18 — close 100% at +0.4% over the average cost
@@ -398,3 +395,6 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 3 of 8 targe
 portfolio: equity $25423.06 (+1.69% on $25000.00 in) · cash $23170.13 · realised +420.13
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on LLY: position closed)
+- SELL 100% LLY [take_profit @ $1444.36] -> $752.92 (+0.39%) — close 100% at +0.4% over the average cost
+## 2026-11-13 12:43 ET — tick — 1 sell(s), 0 buy(s) from standing orders

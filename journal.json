@@ -100746,7 +100746,9 @@
     "code_version": "d0f302f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.35
+    "ret_now": 0.39,
+    "ret_final": 0.39,
+    "ret_src": "realised"
   },
   {
     "symbol": "RPM",
@@ -100775,7 +100777,7 @@
     "code_version": "4d00c11",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.1
+    "ret_now": 0.33
   },
   {
     "symbol": "CF",
@@ -100804,7 +100806,7 @@
     "code_version": "4d00c11",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.05
+    "ret_now": 0.13
   },
   {
     "symbol": "CMCSA",
@@ -100939,5 +100941,32 @@
     "hour_et": 12,
     "code_version": "2637453",
     "hold_minutes": 75
+  },
+  {
+    "symbol": "LLY",
+    "side": "sell",
+    "qty": 0.521283,
+    "status": "filled",
+    "price": 1444.36,
+    "proceeds": 752.92,
+    "realized_pnl": 2.92,
+    "realized_pct": 0.39,
+    "date": "2026-11-13",
+    "time_et": "12:43",
+    "ts": 1794591600,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $1438.76",
+    "trigger": "take_profit",
+    "hour_et": 12,
+    "code_version": "f60e00c",
+    "hold_minutes": 74
   }
 ]
