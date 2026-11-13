@@ -1,7 +1,7 @@
 {
   "week": "2026-W46",
-  "spent": 3176.98,
-  "deployed": 144750.0,
+  "spent": 4676.98,
+  "deployed": 146250.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 56.38,
@@ -9,7 +9,7 @@
     "NFRX": 14.96,
     "FUN": 9.47,
     "ESAB": 63.43,
-    "ENOV": 12.86,
+    "ENOV": 762.86,
     "FITB": 22.48,
     "EL": 42.5,
     "LNT": 754.95,
@@ -17,7 +17,8 @@
     "ARGX": 771.73,
     "EIX": 8.97,
     "CSQR": 63.11,
-    "ARE": 750.0
+    "ARE": 750.0,
+    "CMCSA": 750.0
   },
   "deployed_by_ticker": {
     "ESAB": 17250.0,
@@ -29,10 +30,10 @@
     "ECHO": 3000.0,
     "NFRX": 3000.0,
     "FUN": 8250.0,
-    "ENOV": 12000.0,
+    "ENOV": 12750.0,
     "FITB": 4500.0,
     "DKNG": 4500.0,
-    "CMCSA": 3750.0,
+    "CMCSA": 4500.0,
     "LNT": 3750.0,
     "BBIO": 4500.0,
     "ARE": 3750.0,
@@ -3684,12 +3685,52 @@
       "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +14.6% over the month; 58% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "ENOV",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 26.632331,
+      "price": 28.16,
+      "date": "2026-11-13",
+      "time_et": "11:22",
+      "ts": 1794586928,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "2 insiders bought (Form 4); +45.5% over the month; 17% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "CMCSA",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 29.609009,
+      "price": 25.33,
+      "date": "2026-11-13",
+      "time_et": "11:22",
+      "ts": 1794586928,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +16.3% over the month; 83% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 3008.4,
-  "deployed_today": 45000.0,
-  "orders_today": 24,
+  "spent_today": 4508.4,
+  "deployed_today": 46500.0,
+  "orders_today": 26,
   "sells_today": 20,
   "sold_today": [
     "ARE",
@@ -3729,8 +3770,8 @@
     "CSQR": 1794582565,
     "LLY": 1794584068
   },
-  "last_publish_ts": 1794586760,
-  "last_check_ts": 1794586850,
+  "last_publish_ts": 1794586928,
+  "last_check_ts": 1794586928,
   "exp_arm": {
     "ARE": {
       "params": {
@@ -3759,22 +3800,42 @@
         "ratchet": "on"
       },
       "tags": {}
+    },
+    "ENOV": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "CMCSA": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
     }
   },
   "last_bar_ts": 1794586800,
-  "last_decision_ts": 1794586760,
+  "last_decision_ts": 1794586928,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "681b499b": 73.8098,
     "19f9fc56": 73.698,
     "b50df503": 973.5079,
+    "88187eac": 25.4126,
     "ad0bb4e4": 78.3818,
+    "0a2ad659": 25.1238,
+    "4790a6ea": 28.3771,
+    "ab1c9ecd": 42.822,
     "3a07dbff": 962.92,
     "56dc0cfb": 43.6174,
     "2c22940c": 77.1862,
-    "ab1c9ecd": 42.822,
+    "ca148726": 27.6176,
     "12ed9f14": 42.0883,
+    "aafbecde": 24.5701,
+    "0226110a": 27.3152,
     "da9de6f3": 75.6988,
     "9447a310": 941.3656,
     "1d612500": 71.4405

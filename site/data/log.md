@@ -1,24 +1,3 @@
-  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch198bwPJFB9HH5FrJfPo'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25367.89 (+1.47% on $25000.00 in) · cash $22377.31 · realised +377.31
-Decision: nothing at this check. 3 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-13 10:13 ET (Friday) — week 2026-W46 — budget left $21789.88 (today $36000.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
-  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
-  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
-  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch19MbQFesPMSgmBZJh7T'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25366.00 (+1.46% on $25000.00 in) · cash $22377.31 · realised +377.31
-Decision: nothing at this check. 3 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
 
 ## 2026-11-13 10:16 ET (Friday) — week 2026-W46 — budget left $21789.88 (today $36000.00 put to work, 12 buys, 11 sells) — SIM (pretend money) via sim
@@ -398,3 +377,24 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 2 of 8 targe
 ~ WORKING buy_limit $500.00 ARGX @ $941.37 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25409.28 (+1.64% on $25000.00 in) · cash $22410.44 · realised +410.44
 Done: 0 sell(s), 2 buy(s); 12 order(s) working; budget left $21823.02 this week
+
+## 2026-11-13 11:22 ET (Friday) — week 2026-W46 — budget left $21823.02 (today $45000.00 put to work, 24 buys, 20 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1Ea5hGUdFRvKQ4tDc7t'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,823 idle, so opened 2: ENOV, CMCSA. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 ENOV [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 2 insiders bought (Form 4); +45.5% over the month; 17% of today's range
+- BUY $750.00 CMCSA [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +16.3% over the month; 83% of today's range
+~ WORKING take_profit 100% ENOV @ $28.38 until 2026-11-18 — close 100% at +0.8% over the average cost
+~ WORKING stop_loss 100% ENOV @ $27.62 until 2026-11-18 — close it all at -1.9% under the average cost
+~ WORKING buy_limit $500.00 ENOV @ $27.32 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CMCSA @ $25.41 until 2026-11-18 — close 100% at +0.3% over the average cost
+~ WORKING stop_loss 100% CMCSA @ $25.12 until 2026-11-18 — close it all at -0.8% under the average cost
+~ WORKING buy_limit $500.00 CMCSA @ $24.57 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25408.46 (+1.63% on $25000.00 in) · cash $20910.44 · realised +410.44
+Done: 0 sell(s), 2 buy(s); 18 order(s) working; budget left $20323.02 this week
