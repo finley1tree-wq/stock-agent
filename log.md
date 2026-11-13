@@ -73267,3 +73267,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25425.06 (+1.70% on $25000.00 in) · cash $20174.14 · realised +424.14
 Decision: nothing at this check. 21 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-13 13:19 ET (Friday) — week 2026-W46 — budget left $19586.72 (today $53250.00 put to work, 35 buys, 28 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1PXGrCWuh35JgjHaobS'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 7 of 8 target names with $19,587 idle, so opened 1: CMS. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 CMS [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +5.0% over the month; 85% of today's range
+~ WORKING take_profit 100% CMS @ $70.51 until 2026-11-18 — close 100% at +0.2% over the average cost
+~ WORKING stop_loss 100% CMS @ $69.96 until 2026-11-18 — close it all at -0.6% under the average cost
+~ WORKING buy_limit $500.00 CMS @ $68.24 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25421.67 (+1.69% on $25000.00 in) · cash $19424.14 · realised +424.14
+Done: 0 sell(s), 1 buy(s); 24 order(s) working; budget left $18836.72 this week

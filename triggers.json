@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "56a7fa49",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 239.0759,
-   "status": "cancelled",
-   "created": "2026-11-06 11:19",
-   "created_ts": 1793981941,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $246.47",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "usd": 500.0,
-   "closed": "2026-11-06 11:23",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "4c32cde1",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 247.1,
-   "status": "cancelled",
-   "created": "2026-11-06 11:22",
-   "created_ts": 1793982127,
-   "why": "close it all at -1.4% under the average cost",
-   "evidence": "average cost $246.47",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 11:23",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "cc70126a",
-   "ticker": "BXMT",
-   "kind": "take_profit",
-   "price": 11.3976,
-   "status": "cancelled",
-   "created": "2026-11-06 11:25",
-   "created_ts": 1793982312,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $11.35",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 12:26",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "795e8d9b",
    "ticker": "BXMT",
    "kind": "stop_loss",
@@ -7463,7 +7406,58 @@
    ],
    "good_until": "2026-11-18",
    "usd": 500.0
+  },
+  {
+   "id": "9de7547f",
+   "ticker": "CMS",
+   "kind": "take_profit",
+   "price": 70.5062,
+   "status": "working",
+   "created": "2026-11-13 13:19",
+   "created_ts": 1794593971,
+   "why": "close 100% at +0.2% over the average cost",
+   "evidence": "average cost $70.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "5d5fa8c2",
+   "ticker": "CMS",
+   "kind": "stop_loss",
+   "price": 69.9589,
+   "status": "working",
+   "created": "2026-11-13 13:19",
+   "created_ts": 1794593971,
+   "why": "close it all at -0.6% under the average cost",
+   "evidence": "average cost $70.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "17f82984",
+   "ticker": "CMS",
+   "kind": "buy_limit",
+   "price": 68.2395,
+   "status": "working",
+   "created": "2026-11-13 13:19",
+   "created_ts": 1794593971,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $70.35",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-13 13:16"
+ "updated": "2026-11-13 13:19"
 }
