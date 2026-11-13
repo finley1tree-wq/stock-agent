@@ -1,118 +1,6 @@
 {
  "orders": [
   {
-   "id": "7649b420",
-   "ticker": "ESAB",
-   "kind": "stop_loss",
-   "price": 78.2895,
-   "status": "cancelled",
-   "created": "2026-11-06 09:32",
-   "created_ts": 1793975557,
-   "why": "close it all at -1.3% under the average cost",
-   "evidence": "average cost $79.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 09:38",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "e89fa15c",
-   "ticker": "ESAB",
-   "kind": "buy_limit",
-   "price": 76.9598,
-   "status": "cancelled",
-   "created": "2026-11-06 09:32",
-   "created_ts": 1793975557,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $79.34",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "usd": 500.0,
-   "closed": "2026-11-06 09:38",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "9b16cb16",
-   "ticker": "NXPI",
-   "kind": "take_profit",
-   "price": 246.9168,
-   "status": "filled",
-   "created": "2026-11-06 09:32",
-   "created_ts": 1793975557,
-   "why": "close 100% at +0.6% over the average cost",
-   "evidence": "average cost $245.51",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 09:37"
-  },
-  {
-   "id": "683a50b3",
-   "ticker": "NXPI",
-   "kind": "stop_loss",
-   "price": 241.9943,
-   "status": "cancelled",
-   "created": "2026-11-06 09:32",
-   "created_ts": 1793975557,
-   "why": "close it all at -1.4% under the average cost",
-   "evidence": "average cost $245.51",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 09:37",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "d8b12f20",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 238.1447,
-   "status": "cancelled",
-   "created": "2026-11-06 09:32",
-   "created_ts": 1793975557,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $245.51",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "usd": 500.0,
-   "closed": "2026-11-06 09:37",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "b392a61a",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 103.3211,
-   "status": "filled",
-   "created": "2026-11-06 09:32",
-   "created_ts": 1793975557,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $102.97",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 09:44"
-  },
-  {
    "id": "4190979e",
    "ticker": "RPM",
    "kind": "stop_loss",
@@ -7488,7 +7376,109 @@
    "good_until": "2026-11-18",
    "pct_of_position": 100.0,
    "closed": "2026-11-13 11:15"
+  },
+  {
+   "id": "ad0bb4e4",
+   "ticker": "BBIO",
+   "kind": "take_profit",
+   "price": 78.3818,
+   "status": "working",
+   "created": "2026-11-13 11:19",
+   "created_ts": 1794586760,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $78.04",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "2c22940c",
+   "ticker": "BBIO",
+   "kind": "stop_loss",
+   "price": 77.1862,
+   "status": "working",
+   "created": "2026-11-13 11:19",
+   "created_ts": 1794586760,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $78.04",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "da9de6f3",
+   "ticker": "BBIO",
+   "kind": "buy_limit",
+   "price": 75.6988,
+   "status": "working",
+   "created": "2026-11-13 11:19",
+   "created_ts": 1794586760,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $78.04",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "usd": 500.0
+  },
+  {
+   "id": "b50df503",
+   "ticker": "ARGX",
+   "kind": "take_profit",
+   "price": 973.5079,
+   "status": "working",
+   "created": "2026-11-13 11:19",
+   "created_ts": 1794586760,
+   "why": "close 100% at +0.3% over the average cost",
+   "evidence": "average cost $970.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3a07dbff",
+   "ticker": "ARGX",
+   "kind": "stop_loss",
+   "price": 962.92,
+   "status": "working",
+   "created": "2026-11-13 11:19",
+   "created_ts": 1794586760,
+   "why": "close it all at -0.8% under the average cost",
+   "evidence": "average cost $970.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "9447a310",
+   "ticker": "ARGX",
+   "kind": "buy_limit",
+   "price": 941.3656,
+   "status": "working",
+   "created": "2026-11-13 11:19",
+   "created_ts": 1794586760,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $970.48",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-13 11:16"
+ "updated": "2026-11-13 11:19"
 }

@@ -1,7 +1,7 @@
 {
   "week": "2026-W46",
-  "spent": 1676.98,
-  "deployed": 143250.0,
+  "spent": 3176.98,
+  "deployed": 144750.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 56.38,
@@ -13,8 +13,8 @@
     "FITB": 22.48,
     "EL": 42.5,
     "LNT": 754.95,
-    "BBIO": 30.46,
-    "ARGX": 21.73,
+    "BBIO": 780.46,
+    "ARGX": 771.73,
     "EIX": 8.97,
     "CSQR": 63.11,
     "ARE": 750.0
@@ -34,10 +34,10 @@
     "DKNG": 4500.0,
     "CMCSA": 3750.0,
     "LNT": 3750.0,
-    "BBIO": 3750.0,
+    "BBIO": 4500.0,
     "ARE": 3750.0,
     "CMS": 3750.0,
-    "ARGX": 3750.0,
+    "ARGX": 4500.0,
     "LLY": 3000.0,
     "CF": 3750.0,
     "EIX": 3750.0,
@@ -3644,12 +3644,52 @@
       ],
       "evidence": "average cost $60.26",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "BBIO",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 9.610308,
+      "price": 78.04,
+      "date": "2026-11-13",
+      "time_et": "11:19",
+      "ts": 1794586760,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +16.2% over the month; 28% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "ARGX",
+      "notional": 750.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 0.772815,
+      "price": 970.48,
+      "date": "2026-11-13",
+      "time_et": "11:19",
+      "ts": 1794586760,
+      "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "congress"
+      ],
+      "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +14.6% over the month; 58% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 1508.4,
-  "deployed_today": 43500.0,
-  "orders_today": 22,
+  "spent_today": 3008.4,
+  "deployed_today": 45000.0,
+  "orders_today": 24,
   "sells_today": 20,
   "sold_today": [
     "ARE",
@@ -3689,17 +3729,10 @@
     "CSQR": 1794582565,
     "LLY": 1794584068
   },
-  "last_publish_ts": 1794586536,
-  "last_check_ts": 1794586671,
+  "last_publish_ts": 1794586760,
+  "last_check_ts": 1794586760,
   "exp_arm": {
     "ARE": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "EIX": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -3712,18 +3745,38 @@
         "ratchet": "on"
       },
       "tags": {}
+    },
+    "BBIO": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "ARGX": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
     }
   },
   "last_bar_ts": 1794586500,
-  "last_decision_ts": 1794586584,
-  "next_check_minutes": null,
+  "last_decision_ts": 1794586760,
+  "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
     "681b499b": 73.8098,
     "19f9fc56": 73.698,
+    "b50df503": 973.5079,
+    "ad0bb4e4": 78.3818,
+    "3a07dbff": 962.92,
     "56dc0cfb": 43.6174,
+    "2c22940c": 77.1862,
     "ab1c9ecd": 42.822,
     "12ed9f14": 42.0883,
+    "da9de6f3": 75.6988,
+    "9447a310": 941.3656,
     "1d612500": 71.4405
   }
 }
