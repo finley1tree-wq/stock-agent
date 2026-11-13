@@ -1,4 +1,3 @@
-  (GOOD excluded: too thinly traded ($5.0M a day) — Gladstone Commercial Corporation)
   (ITIC excluded: too thinly traded ($15.4M a day) — Investors Title Company)
   (JCTC excluded: too thinly traded ($0.1M a day) — Jewett-Cameron Trading Company Ltd.)
   (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
@@ -398,3 +397,4 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25418.85 (+1.68% on $25000.00 in) · cash $25418.85 · realised +418.85
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+## 2026-11-12 16:00 ET — published the session's closing state
