@@ -7357,7 +7357,7 @@
    "ticker": "ARGX",
    "kind": "take_profit",
    "price": 975.6148,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 13:28",
    "created_ts": 1794594513,
    "why": "close 100% at +0.3% over the average cost",
@@ -7367,14 +7367,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 15:27",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "ad9e06dc",
    "ticker": "ARGX",
    "kind": "stop_loss",
    "price": 965.0232,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 13:28",
    "created_ts": 1794594513,
    "why": "close it all at -0.8% under the average cost",
@@ -7384,7 +7386,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 15:27",
+   "cancel_reason": "time stop closed the position"
   },
   {
    "id": "61923391",
@@ -7495,5 +7499,5 @@
    "cancel_reason": "past the entry cutoff (no_new_entries_after_et or the last max_hold_minutes)"
   }
  ],
- "updated": "2026-11-13 15:25"
+ "updated": "2026-11-13 15:27"
 }

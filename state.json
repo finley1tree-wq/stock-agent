@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 1676.12,
+  "spent": 932.01,
   "deployed": 155250.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -14,7 +14,7 @@
     "EL": 42.5,
     "LNT": 7.81,
     "BBIO": 26.15,
-    "ARGX": 769.39,
+    "ARGX": 25.28,
     "EIX": 13.95,
     "CSQR": 63.11,
     "CMCSA": 2.17,
@@ -4299,13 +4299,33 @@
       ],
       "evidence": "bought 120 min ago, -0.24% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "ARGX",
+      "side": "sell",
+      "qty": 0.771138,
+      "status": "filled",
+      "price": 964.95,
+      "proceeds": 744.11,
+      "realized_pnl": -5.89,
+      "realized_pct": -0.79,
+      "date": "2026-11-13",
+      "time_et": "15:27",
+      "ts": 1794601669,
+      "why": "held 120 min, the 120-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 120 min ago, -0.75% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 1507.54,
+  "spent_today": 763.43,
   "deployed_today": 55500.0,
   "orders_today": 38,
-  "sells_today": 36,
+  "sells_today": 37,
   "sold_today": [
     "ARE",
     "CMS",
@@ -4335,7 +4355,7 @@
     "DKNG": 1794508570,
     "ARE": 1794594973,
     "CMS": 1794597590,
-    "ARGX": 1794591486,
+    "ARGX": 1794601705,
     "BBIO": 1794594828,
     "CF": 1794594511,
     "CMCSA": 1794600095,
@@ -4344,8 +4364,8 @@
     "CSQR": 1794582565,
     "LLY": 1794591802
   },
-  "last_publish_ts": 1794600094,
-  "last_check_ts": 1794601546,
+  "last_publish_ts": 1794601669,
+  "last_check_ts": 1794601669,
   "exp_arm": {
     "CMCSA": {
       "params": {
@@ -4398,13 +4418,11 @@
     }
   },
   "last_bar_ts": 1794601500,
-  "last_decision_ts": 1794601546,
+  "last_decision_ts": 1794601669,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "ad9e06dc": 965.0232,
     "95d1bc4e": 103.8013,
-    "ef3f987b": 102.5022,
-    "767b0a42": 975.6148
+    "ef3f987b": 102.5022
   }
 }
