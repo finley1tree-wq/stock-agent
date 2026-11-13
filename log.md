@@ -72006,3 +72006,27 @@ autopilot: AUTOPILOT (no model call - the API is unavailable). Held 5 of 8 targe
 ~ WORKING buy_limit $500.00 EIX @ $58.38 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
 portfolio: equity $25376.29 (+1.51% on $25000.00 in) · cash $4426.75 · realised +426.75
 Done: 1 sell(s), 2 buy(s) (incl. 1 from standing orders); 21 order(s) working; budget left $3839.32 this week
+  (cancelled 2 standing order(s) on BBIO: position closed)
+- SELL 100% BBIO [stop_loss @ $77.62] -> $2966.27 (-1.12%) — close it all at -1.1% under the average cost
+## 2026-11-13 09:39 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-13 09:39 ET (Friday) — week 2026-W46 — budget left $6805.59 (today $30000.00 put to work, 10 buys, 4 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch16k7U3FuzyJT4W9uQiM'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $6,806 idle, so opened 2: ENOV, CSQR. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $3000.00 ENOV [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 2 insiders bought (Form 4); +45.7% over the month; 24% of today's range
+- BUY $3000.00 CSQR [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen | evidence: 1 insider bought (Form 4, incl. CFO); +0.5% over the month; 0% of today's range
+~ WORKING take_profit 100% ENOV @ $28.42 until 2026-11-18 — close 100% at +0.8% over the average cost
+~ WORKING stop_loss 100% ENOV @ $27.67 until 2026-11-18 — close it all at -1.9% under the average cost
+~ WORKING buy_limit $500.00 ENOV @ $27.36 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+~ WORKING take_profit 100% CSQR @ $17.33 until 2026-11-18 — close 100% at +0.8% over the average cost
+~ WORKING stop_loss 100% CSQR @ $16.83 until 2026-11-18 — close it all at -2.1% under the average cost
+~ WORKING buy_limit $500.00 CSQR @ $16.67 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25366.50 (+1.47% on $25000.00 in) · cash $1393.02 · realised +393.02
+Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $805.59 this week

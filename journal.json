@@ -99373,7 +99373,7 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.2
+    "ret_now": -0.04
   },
   {
     "symbol": "LNT",
@@ -99402,7 +99402,7 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.19
+    "ret_now": -0.01
   },
   {
     "symbol": "BBIO",
@@ -99431,7 +99431,9 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.97
+    "ret_now": -1.12,
+    "ret_final": -1.12,
+    "ret_src": "realised"
   },
   {
     "symbol": "ARE",
@@ -99553,7 +99555,7 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.29
+    "ret_now": -0.62
   },
   {
     "symbol": "RPM",
@@ -99582,7 +99584,7 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.56
+    "ret_now": -0.38
   },
   {
     "symbol": "ARE",
@@ -99691,7 +99693,8 @@
     "hour_et": 9,
     "code_version": "4a7e2fe",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.41
   },
   {
     "symbol": "EIX",
@@ -99718,6 +99721,90 @@
     "momentum_1m_at_entry": 8.12,
     "hour_et": 9,
     "code_version": "4a7e2fe",
+    "ret_1w": null,
+    "ret_1m": null,
+    "ret_now": 0.12
+  },
+  {
+    "symbol": "BBIO",
+    "side": "sell",
+    "qty": 38.215885,
+    "status": "filled",
+    "price": 77.62,
+    "proceeds": 2966.27,
+    "realized_pnl": -33.73,
+    "realized_pct": -1.12,
+    "date": "2026-11-13",
+    "time_et": "09:39",
+    "ts": 1794580500,
+    "why": "close it all at -1.1% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $78.5",
+    "trigger": "stop_loss",
+    "hour_et": 9,
+    "code_version": "9768304",
+    "hold_minutes": 2
+  },
+  {
+    "symbol": "ENOV",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 106.340443,
+    "price": 28.21,
+    "date": "2026-11-13",
+    "time_et": "09:39",
+    "ts": 1794580768,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "2 insiders bought (Form 4); +45.7% over the month; 24% of today's range",
+    "experiments": {},
+    "hold_minutes": 120,
+    "entry_price": 28.2,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 45.74,
+    "hour_et": 9,
+    "code_version": "9768304",
+    "ret_1w": null,
+    "ret_1m": null
+  },
+  {
+    "symbol": "CSQR",
+    "notional": 3000.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 174.548806,
+    "price": 17.19,
+    "date": "2026-11-13",
+    "time_et": "09:39",
+    "ts": 1794580768,
+    "why": "autopilot: best available on the measured screen",
+    "signals": [
+      "autopilot",
+      "insider",
+      "momentum"
+    ],
+    "evidence": "1 insider bought (Form 4, incl. CFO); +0.5% over the month; 0% of today's range",
+    "experiments": {},
+    "hold_minutes": 120,
+    "entry_price": 17.17,
+    "sector": "off-watchlist",
+    "congress_buying": false,
+    "momentum_1m_at_entry": 0.5,
+    "hour_et": 9,
+    "code_version": "9768304",
     "ret_1w": null,
     "ret_1m": null
   }

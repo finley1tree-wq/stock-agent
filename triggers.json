@@ -1,137 +1,6 @@
 {
  "orders": [
   {
-   "id": "2dc99469",
-   "ticker": "NXPI",
-   "kind": "buy_limit",
-   "price": 240.8607,
-   "status": "cancelled",
-   "created": "2026-11-05 13:01",
-   "created_ts": 1793901697,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $248.31",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-10",
-   "usd": 500.0,
-   "closed": "2026-11-05 13:10",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "af207408",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 105.5049,
-   "status": "filled",
-   "created": "2026-11-05 13:01",
-   "created_ts": 1793901697,
-   "why": "close 100% at +0.3% over the average cost",
-   "evidence": "average cost $105.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-10",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-05 13:13"
-  },
-  {
-   "id": "70f56670",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 104.2966,
-   "status": "cancelled",
-   "created": "2026-11-05 13:01",
-   "created_ts": 1793901697,
-   "why": "close it all at -0.8% under the average cost",
-   "evidence": "average cost $105.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-10",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-05 13:09",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "e86a428d",
-   "ticker": "RPM",
-   "kind": "buy_limit",
-   "price": 102.0052,
-   "status": "cancelled",
-   "created": "2026-11-05 13:01",
-   "created_ts": 1793901697,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $105.16",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-10",
-   "usd": 500.0,
-   "closed": "2026-11-05 13:13",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "49ab7953",
-   "ticker": "CRH",
-   "kind": "take_profit",
-   "price": 94.7729,
-   "status": "filled",
-   "created": "2026-11-05 13:01",
-   "created_ts": 1793901697,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $94.4",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-10",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-05 13:11"
-  },
-  {
-   "id": "b498cad7",
-   "ticker": "CRH",
-   "kind": "stop_loss",
-   "price": 93.4683,
-   "status": "cancelled",
-   "created": "2026-11-05 13:01",
-   "created_ts": 1793901697,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $94.4",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-10",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-05 13:09",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "b1edc48d",
-   "ticker": "CRH",
-   "kind": "buy_limit",
-   "price": 91.568,
-   "status": "cancelled",
-   "created": "2026-11-05 13:01",
-   "created_ts": 1793901697,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $94.4",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-10",
-   "usd": 500.0,
-   "closed": "2026-11-05 13:11",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "b290841b",
    "ticker": "WSM",
    "kind": "take_profit",
@@ -6973,7 +6842,7 @@
    "ticker": "BBIO",
    "kind": "take_profit",
    "price": 78.8368,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 09:32",
    "created_ts": 1794580353,
    "why": "close 100% at +0.4% over the average cost",
@@ -6983,14 +6852,16 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 09:39",
+   "cancel_reason": "position closed"
   },
   {
    "id": "bda2480d",
    "ticker": "BBIO",
    "kind": "stop_loss",
    "price": 77.6577,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-13 09:32",
    "created_ts": 1794580353,
    "why": "close it all at -1.1% under the average cost",
@@ -7000,14 +6871,15 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 09:39"
   },
   {
    "id": "c49d7004",
    "ticker": "BBIO",
    "kind": "buy_limit",
    "price": 76.145,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 09:32",
    "created_ts": 1794580353,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7017,7 +6889,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-13 09:39",
+   "cancel_reason": "position closed"
   },
   {
    "id": "47a540fe",
@@ -7383,7 +7257,7 @@
    "ticker": "CF",
    "kind": "stop_loss",
    "price": 123.1334,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 09:37",
    "created_ts": 1794580634,
    "why": "close it all at -1.1% under the average cost",
@@ -7393,7 +7267,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 09:38",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "df2ff993",
@@ -7462,7 +7338,126 @@
    ],
    "good_until": "2026-11-18",
    "usd": 500.0
+  },
+  {
+   "id": "e14b03c1",
+   "ticker": "CF",
+   "kind": "stop_loss",
+   "price": 124.758,
+   "status": "working",
+   "created": "2026-11-13 09:38",
+   "created_ts": 1794580719,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $124.44",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "608f9f49",
+   "ticker": "ENOV",
+   "kind": "take_profit",
+   "price": 28.4247,
+   "status": "working",
+   "created": "2026-11-13 09:39",
+   "created_ts": 1794580768,
+   "why": "close 100% at +0.8% over the average cost",
+   "evidence": "average cost $28.21",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "68b4d04e",
+   "ticker": "ENOV",
+   "kind": "stop_loss",
+   "price": 27.6734,
+   "status": "working",
+   "created": "2026-11-13 09:39",
+   "created_ts": 1794580768,
+   "why": "close it all at -1.9% under the average cost",
+   "evidence": "average cost $28.21",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "504f2a16",
+   "ticker": "ENOV",
+   "kind": "buy_limit",
+   "price": 27.3637,
+   "status": "working",
+   "created": "2026-11-13 09:39",
+   "created_ts": 1794580768,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $28.21",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "usd": 500.0
+  },
+  {
+   "id": "65d31b0c",
+   "ticker": "CSQR",
+   "kind": "take_profit",
+   "price": 17.3323,
+   "status": "working",
+   "created": "2026-11-13 09:39",
+   "created_ts": 1794580768,
+   "why": "close 100% at +0.8% over the average cost",
+   "evidence": "average cost $17.19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "3d6045e1",
+   "ticker": "CSQR",
+   "kind": "stop_loss",
+   "price": 16.834,
+   "status": "working",
+   "created": "2026-11-13 09:39",
+   "created_ts": 1794580768,
+   "why": "close it all at -2.1% under the average cost",
+   "evidence": "average cost $17.19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "1770ce05",
+   "ticker": "CSQR",
+   "kind": "buy_limit",
+   "price": 16.6743,
+   "status": "working",
+   "created": "2026-11-13 09:39",
+   "created_ts": 1794580768,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $17.19",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-13 09:37"
+ "updated": "2026-11-13 09:39"
 }

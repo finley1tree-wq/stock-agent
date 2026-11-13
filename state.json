@@ -1,7 +1,7 @@
 {
   "week": "2026-W46",
-  "spent": 21160.68,
-  "deployed": 129750.0,
+  "spent": 24194.41,
+  "deployed": 135750.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 56.38,
@@ -9,16 +9,17 @@
     "NFRX": 14.96,
     "FUN": 9.47,
     "ESAB": 63.43,
-    "ENOV": 55.71,
+    "ENOV": 3055.71,
     "FITB": 22.48,
     "EL": 42.5,
     "CMCSA": 3000.0,
     "LNT": 3000.0,
-    "BBIO": 3000.0,
+    "BBIO": 33.73,
     "ARGX": 24.08,
     "LLY": 3000.0,
     "CF": 3000.0,
-    "EIX": 3000.0
+    "EIX": 3000.0,
+    "CSQR": 3000.0
   },
   "deployed_by_ticker": {
     "ESAB": 17250.0,
@@ -30,7 +31,7 @@
     "ECHO": 3000.0,
     "NFRX": 3000.0,
     "FUN": 8250.0,
-    "ENOV": 8250.0,
+    "ENOV": 11250.0,
     "FITB": 4500.0,
     "DKNG": 4500.0,
     "CMCSA": 3000.0,
@@ -41,7 +42,8 @@
     "ARGX": 3000.0,
     "LLY": 3000.0,
     "CF": 3000.0,
-    "EIX": 3000.0
+    "EIX": 3000.0,
+    "CSQR": 3000.0
   },
   "orders": [
     {
@@ -3047,17 +3049,79 @@
       "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +8.1% over the month; 31% of today's range",
       "experiments": {},
       "hold_minutes": 120
+    },
+    {
+      "symbol": "BBIO",
+      "side": "sell",
+      "qty": 38.215885,
+      "status": "filled",
+      "price": 77.62,
+      "proceeds": 2966.27,
+      "realized_pnl": -33.73,
+      "realized_pct": -1.12,
+      "date": "2026-11-13",
+      "time_et": "09:39",
+      "ts": 1794580500,
+      "why": "close it all at -1.1% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $78.5",
+      "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ENOV",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 106.340443,
+      "price": 28.21,
+      "date": "2026-11-13",
+      "time_et": "09:39",
+      "ts": 1794580768,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "2 insiders bought (Form 4); +45.7% over the month; 24% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
+    },
+    {
+      "symbol": "CSQR",
+      "notional": 3000.0,
+      "side": "buy",
+      "status": "filled",
+      "qty": 174.548806,
+      "price": 17.19,
+      "date": "2026-11-13",
+      "time_et": "09:39",
+      "ts": 1794580768,
+      "why": "autopilot: best available on the measured screen",
+      "signals": [
+        "momentum",
+        "autopilot",
+        "insider"
+      ],
+      "evidence": "1 insider bought (Form 4, incl. CFO); +0.5% over the month; 0% of today's range",
+      "experiments": {},
+      "hold_minutes": 120
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 20992.1,
-  "deployed_today": 30000.0,
-  "orders_today": 10,
-  "sells_today": 3,
+  "spent_today": 24025.83,
+  "deployed_today": 36000.0,
+  "orders_today": 12,
+  "sells_today": 4,
   "sold_today": [
     "ARE",
     "CMS",
-    "ARGX"
+    "ARGX",
+    "BBIO"
   ],
   "sold_ts": {
     "ESAB": 1794507809,
@@ -3074,10 +3138,11 @@
     "DKNG": 1794508570,
     "ARE": 1794580587,
     "CMS": 1794580587,
-    "ARGX": 1794580677
+    "ARGX": 1794580677,
+    "BBIO": 1794580766
   },
-  "last_publish_ts": 1794580634,
-  "last_check_ts": 1794580634,
+  "last_publish_ts": 1794580768,
+  "last_check_ts": 1794580768,
   "exp_arm": {
     "CMCSA": {
       "params": {
@@ -3087,13 +3152,6 @@
       "tags": {}
     },
     "LNT": {
-      "params": {
-        "hold_minutes": 120,
-        "ratchet": "on"
-      },
-      "tags": {}
-    },
-    "BBIO": {
       "params": {
         "hold_minutes": 120,
         "ratchet": "on"
@@ -3127,33 +3185,50 @@
         "ratchet": "on"
       },
       "tags": {}
+    },
+    "ENOV": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
+    },
+    "CSQR": {
+      "params": {
+        "hold_minutes": 120,
+        "ratchet": "on"
+      },
+      "tags": {}
     }
   },
   "last_bar_ts": 1794580500,
-  "last_decision_ts": 1794580634,
+  "last_decision_ts": 1794580768,
   "next_check_minutes": 6,
   "autopiloted": true,
   "book_px": {
-    "015cad9b": 73.4476,
-    "e73bc910": 24.904,
-    "66235028": 73.356,
-    "bda2480d": 77.6577,
-    "3c1328da": 24.9591,
-    "29f73411": 60.3339,
-    "961a3d27": 102.4818,
     "833e123d": 124.9626,
-    "9013edb4": 59.8301,
+    "e14b03c1": 124.758,
+    "66235028": 73.356,
+    "29f73411": 60.3339,
+    "e73bc910": 24.904,
+    "015cad9b": 73.4476,
     "be4f1303": 1417.9502,
-    "d67c22ef": 1437.1633,
+    "3c1328da": 24.9591,
+    "961a3d27": 102.4818,
+    "9013edb4": 59.8301,
     "31d277d4": 103.7671,
-    "f856e0ad": 123.1334,
-    "d537c323": 78.8368,
-    "c49d7004": 76.145,
-    "df354a78": 100.298,
+    "608f9f49": 28.4247,
+    "65d31b0c": 17.3323,
+    "d67c22ef": 1437.1633,
+    "68b4d04e": 27.6734,
+    "3d6045e1": 16.834,
     "c45e9fe1": 1388.7296,
-    "df2ff993": 120.7068,
-    "ec023659": 58.3843,
+    "df354a78": 100.298,
+    "1770ce05": 16.6743,
+    "21dc3f69": 24.1336,
     "cfd86f94": 71.0913,
-    "21dc3f69": 24.1336
+    "504f2a16": 27.3637,
+    "ec023659": 58.3843,
+    "df2ff993": 120.7068
   }
 }
