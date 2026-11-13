@@ -101027,7 +101027,9 @@
     "code_version": "5e9ac61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.29
+    "ret_now": 0.14,
+    "ret_final": 0.14,
+    "ret_src": "realised"
   },
   {
     "symbol": "CMCSA",
@@ -101056,7 +101058,7 @@
     "code_version": "5e9ac61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.36
+    "ret_now": -0.24
   },
   {
     "symbol": "EIX",
@@ -101085,7 +101087,7 @@
     "code_version": "5e9ac61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.38
+    "ret_now": -0.35
   },
   {
     "symbol": "LNT",
@@ -101114,7 +101116,7 @@
     "code_version": "5e9ac61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.38
+    "ret_now": -0.33
   },
   {
     "symbol": "ENOV",
@@ -101143,7 +101145,7 @@
     "code_version": "5e9ac61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.21
+    "ret_now": 0.5
   },
   {
     "symbol": "ARE",
@@ -101172,7 +101174,7 @@
     "code_version": "8785de0",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.21
+    "ret_now": 0.34
   },
   {
     "symbol": "CMS",
@@ -101201,7 +101203,7 @@
     "code_version": "b715e02",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.3
+    "ret_now": -0.33
   },
   {
     "symbol": "CF",
@@ -101257,5 +101259,32 @@
     "ret_1w": null,
     "ret_1m": null,
     "ret_now": 0.0
+  },
+  {
+    "symbol": "BBIO",
+    "side": "sell",
+    "qty": 9.557625,
+    "status": "filled",
+    "price": 78.58,
+    "proceeds": 751.04,
+    "realized_pnl": 1.04,
+    "realized_pct": 0.14,
+    "date": "2026-11-13",
+    "time_et": "13:33",
+    "ts": 1794594600,
+    "why": "close it all at -1.1% under the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $78.47",
+    "trigger": "stop_loss",
+    "hour_et": 13,
+    "code_version": "0ae8ff7",
+    "hold_minutes": 28
   }
 ]
