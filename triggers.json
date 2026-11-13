@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "fa39f845",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 53.436,
-   "status": "cancelled",
-   "created": "2026-11-05 15:48",
-   "created_ts": 1793911710,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $53.37",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-10",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-05 15:50",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "1897e455",
    "ticker": "ESAB",
    "kind": "take_profit",
@@ -7454,7 +7435,7 @@
    "ticker": "LNT",
    "kind": "stop_loss",
    "price": 73.2516,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 10:44",
    "created_ts": 1794584660,
    "why": "close it all at -0.5% under the average cost",
@@ -7464,7 +7445,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 11:08",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "1d612500",
@@ -7482,7 +7465,24 @@
    ],
    "good_until": "2026-11-18",
    "usd": 500.0
+  },
+  {
+   "id": "19f9fc56",
+   "ticker": "LNT",
+   "kind": "stop_loss",
+   "price": 73.698,
+   "status": "working",
+   "created": "2026-11-13 11:08",
+   "created_ts": 1794586124,
+   "why": "close it all at -0.5% under the average cost",
+   "evidence": "average cost $73.65",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-13 11:07"
+ "updated": "2026-11-13 11:08"
 }
