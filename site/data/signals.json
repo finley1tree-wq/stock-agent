@@ -1,6 +1,6 @@
 {
- "asOf": "2026-11-13T12:26-05:00",
- "note": "tick: watching",
+ "asOf": "2026-11-13T12:38-05:00",
+ "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
   "defense": [
@@ -178,23 +178,6 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "b50df503",
-   "ticker": "ARGX",
-   "kind": "take_profit",
-   "price": 973.5079,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 973.31,
-   "pct_away": 0.02,
-   "good_until": "2026-11-18",
-   "why": "close 100% at +0.3% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
    "id": "53232f29",
    "ticker": "LLY",
    "kind": "take_profit",
@@ -202,27 +185,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 1442.66,
-   "pct_away": 0.12,
+   "last": 1443.68,
+   "pct_away": 0.05,
    "good_until": "2026-11-18",
    "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "f91146bf",
-   "ticker": "ARGX",
-   "kind": "stop_loss",
-   "price": 972.178,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 973.31,
-   "pct_away": -0.12,
-   "good_until": "2026-11-18",
-   "why": "close it all at -0.8% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -236,27 +202,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 1442.66,
-   "pct_away": -0.15,
+   "last": 1443.68,
+   "pct_away": -0.22,
    "good_until": "2026-11-18",
    "why": "close it all at -1.0% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1a0c2834",
-   "ticker": "RPM",
-   "kind": "take_profit",
-   "price": 103.6307,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 103.07,
-   "pct_away": 0.54,
-   "good_until": "2026-11-18",
-   "why": "close 100% at +0.4% over the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -270,8 +219,25 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 125.41,
-   "pct_away": 0.66,
+   "last": 125.79,
+   "pct_away": 0.36,
+   "good_until": "2026-11-18",
+   "why": "close 100% at +0.4% over the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "1a0c2834",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 103.6307,
+   "usd": null,
+   "pct_of_position": 100.0,
+   "trail_pct": null,
+   "last": 103.23,
+   "pct_away": 0.39,
    "good_until": "2026-11-18",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -287,8 +253,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 103.07,
-   "pct_away": -0.72,
+   "last": 103.23,
+   "pct_away": -0.87,
    "good_until": "2026-11-18",
    "why": "close it all at -0.9% under the average cost",
    "signals": [
@@ -304,27 +270,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 125.41,
-   "pct_away": -0.81,
+   "last": 125.79,
+   "pct_away": -1.11,
    "good_until": "2026-11-18",
    "why": "close it all at -1.1% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "da74c451",
-   "ticker": "CF",
-   "kind": "buy_limit",
-   "price": 121.9387,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 125.41,
-   "pct_away": -2.77,
-   "good_until": "2026-11-18",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -338,8 +287,25 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 103.07,
-   "pct_away": -2.82,
+   "last": 103.23,
+   "pct_away": -2.97,
+   "good_until": "2026-11-18",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "da74c451",
+   "ticker": "CF",
+   "kind": "buy_limit",
+   "price": 121.9387,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 125.79,
+   "pct_away": -3.06,
    "good_until": "2026-11-18",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
@@ -355,25 +321,8 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 1442.66,
-   "pct_away": -3.26,
-   "good_until": "2026-11-18",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "9447a310",
-   "ticker": "ARGX",
-   "kind": "buy_limit",
-   "price": 941.3656,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 973.31,
-   "pct_away": -3.28,
+   "last": 1443.68,
+   "pct_away": -3.33,
    "good_until": "2026-11-18",
    "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [

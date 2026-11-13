@@ -100626,7 +100626,9 @@
     "code_version": "2d78efc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.25
+    "ret_now": 0.31,
+    "ret_final": 0.31,
+    "ret_src": "realised"
   },
   {
     "symbol": "ENOV",
@@ -100744,7 +100746,7 @@
     "code_version": "d0f302f",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.38
+    "ret_now": 0.36
   },
   {
     "symbol": "RPM",
@@ -100773,7 +100775,7 @@
     "code_version": "4d00c11",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.13
+    "ret_now": 0.01
   },
   {
     "symbol": "CF",
@@ -100802,7 +100804,7 @@
     "code_version": "4d00c11",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": 0.1
   },
   {
     "symbol": "CMCSA",
@@ -100910,5 +100912,32 @@
     "hour_et": 12,
     "code_version": "e308293",
     "hold_minutes": 120
+  },
+  {
+    "symbol": "ARGX",
+    "side": "sell",
+    "qty": 0.772815,
+    "status": "filled",
+    "price": 973.51,
+    "proceeds": 752.34,
+    "realized_pnl": 2.34,
+    "realized_pct": 0.31,
+    "date": "2026-11-13",
+    "time_et": "12:38",
+    "ts": 1794591300,
+    "why": "close 100% at +0.3% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $970.48",
+    "trigger": "take_profit",
+    "hour_et": 12,
+    "code_version": "2637453",
+    "hold_minutes": 75
   }
 ]
