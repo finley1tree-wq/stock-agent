@@ -100042,7 +100042,7 @@
     "code_version": "d5e244d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.07
+    "ret_now": 0.3
   },
   {
     "symbol": "BBIO",
@@ -100133,7 +100133,9 @@
     "code_version": "4b02dc2",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.28
+    "ret_now": 0.66,
+    "ret_final": 0.66,
+    "ret_src": "realised"
   },
   {
     "symbol": "CMS",
@@ -100282,7 +100284,7 @@
     "code_version": "4811fac",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.3
+    "ret_now": 0.29
   },
   {
     "symbol": "BBIO",
@@ -100418,5 +100420,32 @@
     "hour_et": 10,
     "code_version": "8c2ecc9",
     "hold_minutes": 6
+  },
+  {
+    "symbol": "CF",
+    "side": "sell",
+    "qty": 5.999521,
+    "status": "filled",
+    "price": 125.84,
+    "proceeds": 754.98,
+    "realized_pnl": 4.98,
+    "realized_pct": 0.66,
+    "date": "2026-11-13",
+    "time_et": "10:40",
+    "ts": 1794584400,
+    "why": "close 100% at +0.4% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "congress",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $125.01",
+    "trigger": "take_profit",
+    "hour_et": 10,
+    "code_version": "b24e1bb",
+    "hold_minutes": 14
   }
 ]

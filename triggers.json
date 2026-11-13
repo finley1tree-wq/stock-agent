@@ -7085,7 +7085,7 @@
    "ticker": "CF",
    "kind": "take_profit",
    "price": 125.5375,
-   "status": "working",
+   "status": "filled",
    "created": "2026-11-13 10:25",
    "created_ts": 1794583544,
    "why": "close 100% at +0.4% over the average cost",
@@ -7095,7 +7095,8 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 10:40"
   },
   {
    "id": "73342773",
@@ -7121,7 +7122,7 @@
    "ticker": "CF",
    "kind": "buy_limit",
    "price": 121.2597,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 10:25",
    "created_ts": 1794583544,
    "why": "average in another $500 if it falls 3.0% below the average cost",
@@ -7131,7 +7132,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "usd": 500.0
+   "usd": 500.0,
+   "closed": "2026-11-13 10:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "300a2128",
@@ -7435,7 +7438,7 @@
    "ticker": "CF",
    "kind": "stop_loss",
    "price": 125.202,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 10:33",
    "created_ts": 1794584021,
    "why": "close it all at -1.1% under the average cost",
@@ -7445,7 +7448,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 10:40",
+   "cancel_reason": "position closed"
   },
   {
    "id": "a1ee12b0",
@@ -7484,5 +7489,5 @@
    "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-13 10:37"
+ "updated": "2026-11-13 10:40"
 }

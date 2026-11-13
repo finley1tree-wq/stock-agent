@@ -72377,3 +72377,20 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25408.44 (+1.63% on $25000.00 in) · cash $23154.47 · realised +404.47
 Decision: nothing at this check. 9 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CF: position closed)
+- SELL 100% CF [take_profit @ $125.84] -> $754.98 (+0.66%) — close 100% at +0.4% over the average cost
+## 2026-11-13 10:40 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-13 10:40 ET (Friday) — week 2026-W46 — budget left $23322.02 (today $42000.00 put to work, 20 buys, 18 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1BQvkfMwC4VXqFWP42b'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25413.28 (+1.65% on $25000.00 in) · cash $23909.45 · realised +409.45
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)

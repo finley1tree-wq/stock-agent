@@ -1,5 +1,5 @@
 {
- "asOf": "2026-11-13T10:35-05:00",
+ "asOf": "2026-11-13T10:40-05:00",
  "note": "tick: 1 standing order(s) filled",
  "broker": "sim",
  "watchlist": {
@@ -178,17 +178,17 @@
  "pause_reason": "",
  "working_orders": [
   {
-   "id": "bde5796b",
-   "ticker": "CF",
+   "id": "94d542ce",
+   "ticker": "RPM",
    "kind": "stop_loss",
-   "price": 125.202,
+   "price": 103.172,
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 125.32,
+   "last": 103.27,
    "pct_away": -0.09,
    "good_until": "2026-11-18",
-   "why": "close it all at -1.1% under the average cost",
+   "why": "close it all at -0.9% under the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -202,42 +202,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 103.28,
-   "pct_away": 0.1,
-   "good_until": "2026-11-18",
-   "why": "close 100% at +0.4% over the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "94d542ce",
-   "ticker": "RPM",
-   "kind": "stop_loss",
-   "price": 103.172,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 103.28,
-   "pct_away": -0.1,
-   "good_until": "2026-11-18",
-   "why": "close it all at -0.9% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "1b3ec5b8",
-   "ticker": "CF",
-   "kind": "take_profit",
-   "price": 125.5375,
-   "usd": null,
-   "pct_of_position": 100.0,
-   "trail_pct": null,
-   "last": 125.32,
-   "pct_away": 0.17,
+   "last": 103.27,
+   "pct_away": 0.11,
    "good_until": "2026-11-18",
    "why": "close 100% at +0.4% over the average cost",
    "signals": [
@@ -253,8 +219,8 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 43.3,
-   "pct_away": 0.73,
+   "last": 43.5,
+   "pct_away": 0.27,
    "good_until": "2026-11-18",
    "why": "close 100% at +0.5% over the average cost",
    "signals": [
@@ -270,44 +236,10 @@
    "usd": null,
    "pct_of_position": 100.0,
    "trail_pct": null,
-   "last": 43.3,
-   "pct_away": -1.1,
+   "last": 43.5,
+   "pct_away": -1.56,
    "good_until": "2026-11-18",
    "why": "close it all at -1.3% under the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "12ed9f14",
-   "ticker": "ARE",
-   "kind": "buy_limit",
-   "price": 42.0883,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 43.3,
-   "pct_away": -2.8,
-   "good_until": "2026-11-18",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ]
-  },
-  {
-   "id": "81d4c5e1",
-   "ticker": "CF",
-   "kind": "buy_limit",
-   "price": 121.2597,
-   "usd": 500.0,
-   "pct_of_position": null,
-   "trail_pct": null,
-   "last": 125.32,
-   "pct_away": -3.24,
-   "good_until": "2026-11-18",
-   "why": "average in another $500 if it falls 3.0% below the average cost",
    "signals": [
     "risk_management",
     "auto_bracket"
@@ -321,7 +253,24 @@
    "usd": 500.0,
    "pct_of_position": null,
    "trail_pct": null,
-   "last": 103.28,
+   "last": 103.27,
+   "pct_away": -3.24,
+   "good_until": "2026-11-18",
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ]
+  },
+  {
+   "id": "12ed9f14",
+   "ticker": "ARE",
+   "kind": "buy_limit",
+   "price": 42.0883,
+   "usd": 500.0,
+   "pct_of_position": null,
+   "trail_pct": null,
+   "last": 43.5,
    "pct_away": -3.25,
    "good_until": "2026-11-18",
    "why": "average in another $500 if it falls 3.0% below the average cost",
