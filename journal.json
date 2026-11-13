@@ -100042,7 +100042,7 @@
     "code_version": "d5e244d",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.42
+    "ret_now": -0.05
   },
   {
     "symbol": "BBIO",
@@ -100535,7 +100535,9 @@
     "code_version": "1406520",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.22
+    "ret_now": 0.22,
+    "ret_final": 0.22,
+    "ret_src": "realised"
   },
   {
     "symbol": "EIX",
@@ -100591,7 +100593,7 @@
     "code_version": "2d78efc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.03
+    "ret_now": 0.04
   },
   {
     "symbol": "ARGX",
@@ -100620,7 +100622,7 @@
     "code_version": "2d78efc",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.15
+    "ret_now": 0.14
   },
   {
     "symbol": "ENOV",
@@ -100648,7 +100650,8 @@
     "hour_et": 11,
     "code_version": "50a5361",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.0
   },
   {
     "symbol": "CMCSA",
@@ -100676,7 +100679,8 @@
     "hour_et": 11,
     "code_version": "50a5361",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.0
   },
   {
     "symbol": "LNT",
@@ -100702,6 +100706,35 @@
     "evidence": "average cost $73.65",
     "trigger": "take_profit",
     "hour_et": 11,
-    "code_version": "1ee8da3"
+    "code_version": "1ee8da3",
+    "hold_minutes": 35
+  },
+  {
+    "symbol": "LLY",
+    "notional": 750.0,
+    "side": "buy",
+    "status": "filled",
+    "qty": 0.521283,
+    "price": 1438.76,
+    "date": "2026-11-13",
+    "time_et": "11:25",
+    "ts": 1794587103,
+    "why": "autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)]",
+    "signals": [
+      "autopilot",
+      "congress",
+      "momentum"
+    ],
+    "evidence": "1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +14.9% over the month; 85% of today's range",
+    "experiments": {},
+    "hold_minutes": 120,
+    "entry_price": 1438.47,
+    "sector": "off-watchlist",
+    "congress_buying": true,
+    "momentum_1m_at_entry": 14.93,
+    "hour_et": 11,
+    "code_version": "d0f302f",
+    "ret_1w": null,
+    "ret_1m": null
   }
 ]

@@ -1,63 +1,6 @@
 {
  "orders": [
   {
-   "id": "0303b4f5",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 52.5443,
-   "status": "cancelled",
-   "created": "2026-11-06 09:32",
-   "created_ts": 1793975557,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $52.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 09:35",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "aba909de",
-   "ticker": "FITB",
-   "kind": "buy_limit",
-   "price": 51.3324,
-   "status": "cancelled",
-   "created": "2026-11-06 09:32",
-   "created_ts": 1793975557,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $52.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "usd": 500.0,
-   "closed": "2026-11-06 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "2065cafb",
-   "ticker": "CRH",
-   "kind": "stop_loss",
-   "price": 93.272,
-   "status": "cancelled",
-   "created": "2026-11-06 09:34",
-   "created_ts": 1793975663,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $93.14",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "4f817131",
    "ticker": "FITB",
    "kind": "stop_loss",
@@ -7473,7 +7416,58 @@
    ],
    "good_until": "2026-11-18",
    "usd": 500.0
+  },
+  {
+   "id": "53232f29",
+   "ticker": "LLY",
+   "kind": "take_profit",
+   "price": 1444.3568,
+   "status": "working",
+   "created": "2026-11-13 11:25",
+   "created_ts": 1794587103,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $1438.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "c28a2b1e",
+   "ticker": "LLY",
+   "kind": "stop_loss",
+   "price": 1424.7609,
+   "status": "working",
+   "created": "2026-11-13 11:25",
+   "created_ts": 1794587103,
+   "why": "close it all at -1.0% under the average cost",
+   "evidence": "average cost $1438.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "ac057e32",
+   "ticker": "LLY",
+   "kind": "buy_limit",
+   "price": 1395.5972,
+   "status": "working",
+   "created": "2026-11-13 11:25",
+   "created_ts": 1794587103,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $1438.76",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-13 11:22"
+ "updated": "2026-11-13 11:25"
 }
