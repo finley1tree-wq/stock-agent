@@ -1,12 +1,12 @@
-# Pretend portfolio — 2026-11-13 10:02 ET
+# Pretend portfolio — 2026-11-13 10:05 ET
 
-**Equity $25425.15** on $25000.00 put in → **+1.70%**  
-Cash $19440.42 · Unrealised -15.27 · Realised +440.42
+**Equity $25392.07** on $25000.00 put in → **+1.57%**  
+Cash $19440.42 · Unrealised -48.35 · Realised +440.42
 
 | Ticker | Weight | Value | Avg cost | Price | P/L | Held |
 |---|---:|---:|---:|---:|---:|---:|
-| LLY | 11.8% | $2994.71 | $1,431.68 | $1,429.15 | -0.18% | 0d |
-| CSQR | 11.8% | $2990.02 | $17.19 | $17.13 | -0.33% | 0d |
+| LLY | 11.8% | $2989.55 | $1,431.68 | $1,426.69 | -0.35% | 0d |
+| CSQR | 11.7% | $2962.09 | $17.19 | $16.97 | -1.26% | 0d |
 
 ## Last fills
 
