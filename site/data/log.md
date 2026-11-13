@@ -1,20 +1,3 @@
-  (dropped EIX: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-  (dropped LNT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
-portfolio: equity $25418.29 (+1.67% on $25000.00 in) · cash $22417.79 · realised +417.79
-Decision: nothing at this check. 12 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-13 12:32 ET (Friday) — week 2026-W46 — budget left $21830.36 (today $48750.00 put to work, 29 buys, 25 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
-  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1KvCfrZpVvxxPGZJPWF'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 4 of 8 target names with $21,830 idle, so opened 4: ENOV, CMCSA, LNT, EIX. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-  (dropped ENOV: culled strategy (hour 12: -119 over 197 trips, t -1.13))
   (dropped CMCSA: culled strategy (hour 12: -119 over 197 trips, t -1.13))
   (dropped LNT: culled strategy (hour 12: -119 over 197 trips, t -1.13))
   (dropped EIX: culled strategy (hour 12: -119 over 197 trips, t -1.13))
@@ -398,3 +381,20 @@ Decision: nothing at this check. 21 standing order(s) working.
   (cancelled 2 standing order(s) on ARE: position closed)
 - SELL 100% ARE [stop_loss @ $43.68] -> $751.01 (+0.13%) — close it all at -1.3% under the average cost
 ## 2026-11-13 13:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-13 13:37 ET (Friday) — week 2026-W46 — budget left $20338.29 (today $54750.00 put to work, 37 buys, 31 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1QuUQTVpcnbosYiWn91'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $20,338 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
+- BUY $750.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): David J. Taylor; +3.3% over the month; 63% of today's range
+~ WORKING take_profit 100% RPM @ $103.80 until 2026-11-18 — close 100% at +0.4% over the average cost
+~ WORKING stop_loss 100% RPM @ $102.50 until 2026-11-18 — close it all at -0.9% under the average cost
+~ WORKING buy_limit $500.00 RPM @ $100.33 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
+portfolio: equity $25417.13 (+1.67% on $25000.00 in) · cash $20175.72 · realised +425.72
+Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19588.29 this week
