@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 9137.84,
+  "spent": 6147.01,
   "deployed": 135750.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -17,7 +17,7 @@
     "BBIO": 33.73,
     "ARGX": 24.08,
     "LLY": 3000.0,
-    "EIX": 3000.0,
+    "EIX": 9.17,
     "CSQR": 3000.0
   },
   "deployed_by_ticker": {
@@ -3214,13 +3214,34 @@
       ],
       "evidence": "average cost $103.4",
       "trigger": "take_profit"
+    },
+    {
+      "symbol": "EIX",
+      "side": "sell",
+      "qty": 49.838798,
+      "status": "filled",
+      "price": 60.01,
+      "proceeds": 2990.83,
+      "realized_pnl": -9.17,
+      "realized_pct": -0.31,
+      "date": "2026-11-13",
+      "time_et": "09:55",
+      "ts": 1794581700,
+      "why": "close it all at -0.6% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $60.19",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 8969.26,
+  "spent_today": 5978.43,
   "deployed_today": 36000.0,
   "orders_today": 12,
-  "sells_today": 9,
+  "sells_today": 10,
   "sold_today": [
     "ARE",
     "CMS",
@@ -3230,7 +3251,8 @@
     "CMCSA",
     "LNT",
     "ENOV",
-    "RPM"
+    "RPM",
+    "EIX"
   ],
   "sold_ts": {
     "ESAB": 1794507809,
@@ -3251,10 +3273,11 @@
     "BBIO": 1794580766,
     "CF": 1794580819,
     "CMCSA": 1794580865,
-    "LNT": 1794580865
+    "LNT": 1794580865,
+    "EIX": 1794581730
   },
-  "last_publish_ts": 1794581516,
-  "last_check_ts": 1794581643,
+  "last_publish_ts": 1794581729,
+  "last_check_ts": 1794581729,
   "exp_arm": {
     "CMCSA": {
       "params": {
@@ -3313,19 +3336,16 @@
       "tags": {}
     }
   },
-  "last_bar_ts": 1794581400,
+  "last_bar_ts": 1794581700,
   "last_decision_ts": 1794581643,
   "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "29f73411": 60.3339,
-    "f8be4b1b": 60.25,
     "d67c22ef": 1437.1633,
     "be4f1303": 1417.9502,
-    "c45e9fe1": 1388.7296,
-    "ec023659": 58.3843,
-    "65d31b0c": 17.3323,
     "3d6045e1": 16.834,
-    "1770ce05": 16.6743
+    "65d31b0c": 17.3323,
+    "1770ce05": 16.6743,
+    "c45e9fe1": 1388.7296
   }
 }
