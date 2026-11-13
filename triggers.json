@@ -1,118 +1,6 @@
 {
  "orders": [
   {
-   "id": "4f817131",
-   "ticker": "FITB",
-   "kind": "stop_loss",
-   "price": 52.986,
-   "status": "cancelled",
-   "created": "2026-11-06 09:35",
-   "created_ts": 1793975709,
-   "why": "close it all at -0.7% under the average cost",
-   "evidence": "average cost $52.92",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 09:35",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "ad14328d",
-   "ticker": "EL",
-   "kind": "take_profit",
-   "price": 106.7928,
-   "status": "filled",
-   "created": "2026-11-06 09:40",
-   "created_ts": 1793976037,
-   "why": "close 100% at +0.5% over the average cost",
-   "evidence": "average cost $106.29",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 09:45"
-  },
-  {
-   "id": "6acf0c91",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 105.0326,
-   "status": "cancelled",
-   "created": "2026-11-06 09:40",
-   "created_ts": 1793976037,
-   "why": "close it all at -1.2% under the average cost",
-   "evidence": "average cost $106.29",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 09:43",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "2958a94f",
-   "ticker": "EL",
-   "kind": "buy_limit",
-   "price": 103.1013,
-   "status": "cancelled",
-   "created": "2026-11-06 09:40",
-   "created_ts": 1793976037,
-   "why": "average in another $500 if it falls 3.0% below the average cost",
-   "evidence": "average cost $106.29",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "usd": 500.0,
-   "closed": "2026-11-06 09:45",
-   "cancel_reason": "position closed"
-  },
-  {
-   "id": "1a863c6d",
-   "ticker": "EL",
-   "kind": "stop_loss",
-   "price": 106.59,
-   "status": "cancelled",
-   "created": "2026-11-06 09:43",
-   "created_ts": 1793976222,
-   "why": "close it all at -1.2% under the average cost",
-   "evidence": "average cost $106.29",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 09:44",
-   "cancel_reason": "level or size no longer matches"
-  },
-  {
-   "id": "ad3cba9b",
-   "ticker": "BXMT",
-   "kind": "take_profit",
-   "price": 11.4074,
-   "status": "filled",
-   "created": "2026-11-06 09:43",
-   "created_ts": 1793976225,
-   "why": "close 100% at +0.4% over the average cost",
-   "evidence": "average cost $11.36",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 09:47"
-  },
-  {
    "id": "b61fb912",
    "ticker": "BXMT",
    "kind": "stop_loss",
@@ -7467,7 +7355,109 @@
    ],
    "good_until": "2026-11-18",
    "usd": 500.0
+  },
+  {
+   "id": "1a0c2834",
+   "ticker": "RPM",
+   "kind": "take_profit",
+   "price": 103.6307,
+   "status": "working",
+   "created": "2026-11-13 11:28",
+   "created_ts": 1794587296,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $103.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "61c6d3b3",
+   "ticker": "RPM",
+   "kind": "stop_loss",
+   "price": 102.3317,
+   "status": "working",
+   "created": "2026-11-13 11:28",
+   "created_ts": 1794587296,
+   "why": "close it all at -0.9% under the average cost",
+   "evidence": "average cost $103.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "f308a92d",
+   "ticker": "RPM",
+   "kind": "buy_limit",
+   "price": 100.1622,
+   "status": "working",
+   "created": "2026-11-13 11:28",
+   "created_ts": 1794587296,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $103.26",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "usd": 500.0
+  },
+  {
+   "id": "969b3a24",
+   "ticker": "CF",
+   "kind": "take_profit",
+   "price": 126.238,
+   "status": "working",
+   "created": "2026-11-13 11:28",
+   "created_ts": 1794587296,
+   "why": "close 100% at +0.4% over the average cost",
+   "evidence": "average cost $125.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "256ecd53",
+   "ticker": "CF",
+   "kind": "stop_loss",
+   "price": 124.39,
+   "status": "working",
+   "created": "2026-11-13 11:28",
+   "created_ts": 1794587296,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $125.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
+  },
+  {
+   "id": "da74c451",
+   "ticker": "CF",
+   "kind": "buy_limit",
+   "price": 121.9387,
+   "status": "working",
+   "created": "2026-11-13 11:28",
+   "created_ts": 1794587296,
+   "why": "average in another $500 if it falls 3.0% below the average cost",
+   "evidence": "average cost $125.71",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "usd": 500.0
   }
  ],
- "updated": "2026-11-13 11:25"
+ "updated": "2026-11-13 11:28"
 }
