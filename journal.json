@@ -101355,7 +101355,9 @@
     "code_version": "b383ded",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.1
+    "ret_now": -0.14,
+    "ret_final": -0.14,
+    "ret_src": "realised"
   },
   {
     "symbol": "ENOV",
@@ -101515,6 +101517,32 @@
     "trigger": "time_stop",
     "hour_et": 15,
     "code_version": "b34a961",
+    "hold_minutes": 119
+  },
+  {
+    "symbol": "RPM",
+    "side": "sell",
+    "qty": 7.251186,
+    "status": "filled",
+    "price": 103.29,
+    "proceeds": 748.97,
+    "realized_pnl": -1.03,
+    "realized_pct": -0.14,
+    "date": "2026-11-13",
+    "time_et": "15:37",
+    "ts": 1794602249,
+    "why": "held 120 min, the 120-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 120 min ago, -0.10% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 15,
+    "code_version": "f4d0bd4",
     "hold_minutes": 119
   }
 ]

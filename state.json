@@ -1,11 +1,11 @@
 {
   "week": "2026-W46",
-  "spent": 932.01,
+  "spent": 183.04,
   "deployed": 155250.0,
   "by_ticker": {
     "CRH": 29.78,
     "NXPI": 56.38,
-    "RPM": 761.3,
+    "RPM": 12.33,
     "NFRX": 14.96,
     "FUN": 9.47,
     "ESAB": 63.43,
@@ -4319,13 +4319,33 @@
       ],
       "evidence": "bought 120 min ago, -0.75% unrealised",
       "trigger": "time_stop"
+    },
+    {
+      "symbol": "RPM",
+      "side": "sell",
+      "qty": 7.251186,
+      "status": "filled",
+      "price": 103.29,
+      "proceeds": 748.97,
+      "realized_pnl": -1.03,
+      "realized_pct": -0.14,
+      "date": "2026-11-13",
+      "time_et": "15:37",
+      "ts": 1794602249,
+      "why": "held 120 min, the 120-minute limit: out regardless",
+      "signals": [
+        "time_stop",
+        "intraday_limit"
+      ],
+      "evidence": "bought 120 min ago, -0.10% unrealised",
+      "trigger": "time_stop"
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 763.43,
+  "spent_today": 14.46,
   "deployed_today": 55500.0,
   "orders_today": 38,
-  "sells_today": 37,
+  "sells_today": 38,
   "sold_today": [
     "ARE",
     "CMS",
@@ -4343,7 +4363,7 @@
   "sold_ts": {
     "ESAB": 1794507809,
     "EL": 1794512553,
-    "RPM": 1794592206,
+    "RPM": 1794602250,
     "PLD": 1794240790,
     "NXPI": 1794493830,
     "CRH": 1794337610,
@@ -4364,8 +4384,8 @@
     "CSQR": 1794582565,
     "LLY": 1794591802
   },
-  "last_publish_ts": 1794601669,
-  "last_check_ts": 1794602221,
+  "last_publish_ts": 1794602249,
+  "last_check_ts": 1794602296,
   "exp_arm": {
     "CMCSA": {
       "params": {
@@ -4418,11 +4438,8 @@
     }
   },
   "last_bar_ts": 1794602100,
-  "last_decision_ts": 1794602114,
+  "last_decision_ts": 1794602296,
   "next_check_minutes": null,
   "autopiloted": true,
-  "book_px": {
-    "95d1bc4e": 103.8013,
-    "ef3f987b": 102.5022
-  }
+  "book_px": {}
 }
