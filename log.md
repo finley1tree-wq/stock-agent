@@ -74097,3 +74097,18 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25404.39 (+1.62% on $25000.00 in) · cash $25404.39 · realised +404.39
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-13 15:51 ET (Friday) — week 2026-W46 — budget left $24816.96 (today $55500.00 put to work, 38 buys, 38 sells) — SIM (pretend money) via sim
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (BW excluded: share price $4.40 is below $5: the spread eats the trade — Babcock & Wilcox Enterprises, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (GROW excluded: too thinly traded ($0.0M a day) — U.S. Global Investors, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1b7gMJHSU3zyERmS6G8'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25404.39 (+1.62% on $25000.00 in) · cash $25404.39 · realised +404.39
+Decision: nothing at this check.
+  (nothing changed; not publishing - the site refreshes on its own timer)
