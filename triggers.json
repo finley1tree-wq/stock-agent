@@ -1,25 +1,6 @@
 {
  "orders": [
   {
-   "id": "a3e977c3",
-   "ticker": "BXMT",
-   "kind": "stop_loss",
-   "price": 11.378,
-   "status": "cancelled",
-   "created": "2026-11-06 09:46",
-   "created_ts": 1793976393,
-   "why": "close it all at -1.0% under the average cost",
-   "evidence": "average cost $11.36",
-   "signals": [
-    "risk_management",
-    "auto_bracket"
-   ],
-   "good_until": "2026-11-11",
-   "pct_of_position": 100.0,
-   "closed": "2026-11-06 09:47",
-   "cancel_reason": "position closed"
-  },
-  {
    "id": "a7daf44c",
    "ticker": "NXPI",
    "kind": "take_profit",
@@ -7066,7 +7047,7 @@
    "ticker": "BBIO",
    "kind": "stop_loss",
    "price": 77.1862,
-   "status": "working",
+   "status": "cancelled",
    "created": "2026-11-13 11:19",
    "created_ts": 1794586760,
    "why": "close it all at -1.1% under the average cost",
@@ -7076,7 +7057,9 @@
     "auto_bracket"
    ],
    "good_until": "2026-11-18",
-   "pct_of_position": 100.0
+   "pct_of_position": 100.0,
+   "closed": "2026-11-13 11:56",
+   "cancel_reason": "level or size no longer matches"
   },
   {
    "id": "da9de6f3",
@@ -7467,7 +7450,24 @@
    "good_until": "2026-11-18",
    "pct_of_position": 100.0,
    "closed": "2026-11-13 11:42"
+  },
+  {
+   "id": "6ea52868",
+   "ticker": "BBIO",
+   "kind": "stop_loss",
+   "price": 78.196,
+   "status": "working",
+   "created": "2026-11-13 11:56",
+   "created_ts": 1794589003,
+   "why": "close it all at -1.1% under the average cost",
+   "evidence": "average cost $78.04",
+   "signals": [
+    "risk_management",
+    "auto_bracket"
+   ],
+   "good_until": "2026-11-18",
+   "pct_of_position": 100.0
   }
  ],
- "updated": "2026-11-13 11:55"
+ "updated": "2026-11-13 11:56"
 }
