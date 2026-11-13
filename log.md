@@ -72072,3 +72072,17 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 2 standing order(s) on RPM: position closed)
 - SELL 100% RPM [take_profit @ $103.77] -> $3010.61 (+0.35%) — close 100% at +0.4% over the average cost
 ## 2026-11-13 09:46 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-13 09:48 ET (Friday) — week 2026-W46 — budget left $15862.16 (today $36000.00 put to work, 12 buys, 9 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
+  (BGDE excluded: too thinly traded ($0.5M a day) — Big Digital Energy, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch17RKwU1bp6WH24nF5J2'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
+portfolio: equity $25445.06 (+1.78% on $25000.00 in) · cash $16449.60 · realised +449.60
+Decision: nothing at this check. 9 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
