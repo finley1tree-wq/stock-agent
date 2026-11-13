@@ -1,21 +1,3 @@
-## 2026-11-13 13:01 ET (Friday) — week 2026-W46 — budget left $24086.72 (today $48750.00 put to work, 29 buys, 28 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
-  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1NB658pqtDPeMhTh32s'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 1 of 8 target names with $24,087 idle, so opened 5: BBIO, CMCSA, EIX, LNT, ENOV. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 BBIO [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +16.9% over the month; 56% of today's range
-- BUY $750.00 CMCSA [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +15.6% over the month; 56% of today's range
-- BUY $750.00 EIX [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +8.1% over the month; 64% of today's range
-- BUY $750.00 LNT [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: 1 member of congress bought (Gilbert Ray Cisneros), $1,001 - $15,000; +9.7% over the month; 68% of today's range
-- BUY $750.00 ENOV [filled] ['momentum', 'autopilot', 'insider'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: insider net buying (Form 4); +45.1% over the month; 9% of today's range
-~ WORKING take_profit 100% BBIO @ $78.81 until 2026-11-18 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% BBIO @ $77.62 until 2026-11-18 — close it all at -1.1% under the average cost
-~ WORKING buy_limit $500.00 BBIO @ $76.12 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
 ~ WORKING take_profit 100% CMCSA @ $25.26 until 2026-11-18 — close 100% at +0.3% over the average cost
 ~ WORKING stop_loss 100% CMCSA @ $24.97 until 2026-11-18 — close it all at -0.8% under the average cost
 ~ WORKING buy_limit $500.00 CMCSA @ $24.42 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
@@ -398,3 +380,21 @@ Decision: nothing at this check. 12 standing order(s) working.
   (cancelled 1 standing order(s) on LNT: position closed)
 - SELL 100% LNT [stop_loss @ $73.17] -> $745.51 (-0.60%) — close it all at -0.5% under the average cost
 ## 2026-11-13 14:15 ET — tick — 1 sell(s), 0 buy(s) from standing orders
+
+## 2026-11-13 14:16 ET (Friday) — week 2026-W46 — budget left $21085.47 (today $55500.00 put to work, 38 buys, 33 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
+  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1TqGLAv7hADwPiQnSVJ'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25412.69 (+1.65% on $25000.00 in) · cash $21672.90 · realised +422.90
+Decision: nothing at this check. 10 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 1 standing order(s) on EIX: position closed)
+- SELL 100% EIX [stop_loss @ $59.77] -> $745.02 (-0.66%) — close it all at -0.6% under the average cost
+## 2026-11-13 14:18 ET — tick — 1 sell(s), 0 buy(s) from standing orders
