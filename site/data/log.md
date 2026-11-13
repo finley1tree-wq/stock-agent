@@ -1,6 +1,3 @@
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Cgye5gJ7qptU3R9PztFqe'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
 portfolio: equity $25418.85 (+1.68% on $25000.00 in) · cash $25418.85 · realised +418.85
 Decision: nothing at this check.
   (nothing changed; not publishing - the site refreshes on its own timer)
@@ -398,3 +395,6 @@ Done: 0 sell(s), 2 buy(s); 24 order(s) working; budget left $805.59 this week
   (cancelled 2 standing order(s) on LNT: position closed)
 - SELL 100% LNT [stop_loss @ $73.17] -> $2995.05 (-0.16%) — close it all at -0.5% under the average cost
 ## 2026-11-13 09:41 ET — tick — 2 sell(s), 0 buy(s) from standing orders
+  (cancelled 2 standing order(s) on ENOV: position closed)
+- SELL 100% ENOV [take_profit @ $28.56] -> $3037.08 (+1.24%) — close 100% at +0.8% over the average cost
+## 2026-11-13 09:42 ET — tick — 1 sell(s), 0 buy(s) from standing orders

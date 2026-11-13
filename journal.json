@@ -99373,7 +99373,9 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.04
+    "ret_now": -0.07,
+    "ret_final": -0.07,
+    "ret_src": "realised"
   },
   {
     "symbol": "LNT",
@@ -99402,7 +99404,9 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.01
+    "ret_now": -0.16,
+    "ret_final": -0.16,
+    "ret_src": "realised"
   },
   {
     "symbol": "BBIO",
@@ -99555,7 +99559,7 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.62
+    "ret_now": -0.71
   },
   {
     "symbol": "RPM",
@@ -99584,7 +99588,7 @@
     "code_version": "293a01b",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.38
+    "ret_now": -0.44
   },
   {
     "symbol": "ARE",
@@ -99694,7 +99698,9 @@
     "code_version": "4a7e2fe",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.41
+    "ret_now": 0.53,
+    "ret_final": 0.53,
+    "ret_src": "realised"
   },
   {
     "symbol": "EIX",
@@ -99723,7 +99729,7 @@
     "code_version": "4a7e2fe",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": 0.12
+    "ret_now": -0.07
   },
   {
     "symbol": "BBIO",
@@ -99778,7 +99784,10 @@
     "hour_et": 9,
     "code_version": "9768304",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_final": 1.24,
+    "ret_now": 1.24,
+    "ret_src": "realised"
   },
   {
     "symbol": "CSQR",
@@ -99806,7 +99815,8 @@
     "hour_et": 9,
     "code_version": "9768304",
     "ret_1w": null,
-    "ret_1m": null
+    "ret_1m": null,
+    "ret_now": 0.12
   },
   {
     "symbol": "CF",
@@ -99832,7 +99842,8 @@
     "evidence": "average cost $124.44",
     "trigger": "take_profit",
     "hour_et": 9,
-    "code_version": "d569201"
+    "code_version": "d569201",
+    "hold_minutes": 2
   },
   {
     "symbol": "CMCSA",
@@ -99858,7 +99869,8 @@
     "evidence": "average cost $24.88",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "d569201"
+    "code_version": "d569201",
+    "hold_minutes": 7
   },
   {
     "symbol": "LNT",
@@ -99884,6 +99896,34 @@
     "evidence": "average cost $73.29",
     "trigger": "stop_loss",
     "hour_et": 9,
-    "code_version": "d569201"
+    "code_version": "d569201",
+    "hold_minutes": 7
+  },
+  {
+    "symbol": "ENOV",
+    "side": "sell",
+    "qty": 106.340443,
+    "status": "filled",
+    "price": 28.56,
+    "proceeds": 3037.08,
+    "realized_pnl": 37.08,
+    "realized_pct": 1.24,
+    "date": "2026-11-13",
+    "time_et": "09:42",
+    "ts": 1794580800,
+    "why": "close 100% at +0.8% over the average cost",
+    "signals": [
+      "auto_bracket",
+      "autopilot",
+      "insider",
+      "momentum",
+      "risk_management",
+      "standing_order"
+    ],
+    "evidence": "average cost $28.21",
+    "trigger": "take_profit",
+    "hour_et": 9,
+    "code_version": "9fb0033",
+    "hold_minutes": 0
   }
 ]

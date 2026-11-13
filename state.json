@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 15185.53,
+  "spent": 12148.45,
   "deployed": 135750.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -9,7 +9,7 @@
     "NFRX": 14.96,
     "FUN": 9.47,
     "ESAB": 63.43,
-    "ENOV": 3055.71,
+    "ENOV": 18.63,
     "FITB": 22.48,
     "EL": 42.5,
     "CMCSA": 2.09,
@@ -3172,13 +3172,34 @@
       ],
       "evidence": "average cost $73.29",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "ENOV",
+      "side": "sell",
+      "qty": 106.340443,
+      "status": "filled",
+      "price": 28.56,
+      "proceeds": 3037.08,
+      "realized_pnl": 37.08,
+      "realized_pct": 1.24,
+      "date": "2026-11-13",
+      "time_et": "09:42",
+      "ts": 1794580800,
+      "why": "close 100% at +0.8% over the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $28.21",
+      "trigger": "take_profit"
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 15016.95,
+  "spent_today": 11979.87,
   "deployed_today": 36000.0,
   "orders_today": 12,
-  "sells_today": 7,
+  "sells_today": 8,
   "sold_today": [
     "ARE",
     "CMS",
@@ -3186,7 +3207,8 @@
     "BBIO",
     "CF",
     "CMCSA",
-    "LNT"
+    "LNT",
+    "ENOV"
   ],
   "sold_ts": {
     "ESAB": 1794507809,
@@ -3197,7 +3219,7 @@
     "CRH": 1794337610,
     "ECHO": 1794322507,
     "FUN": 1794494149,
-    "ENOV": 1794498945,
+    "ENOV": 1794580950,
     "NFRX": 1794414794,
     "FITB": 1794507636,
     "DKNG": 1794508570,
@@ -3209,8 +3231,8 @@
     "CMCSA": 1794580865,
     "LNT": 1794580865
   },
-  "last_publish_ts": 1794580865,
-  "last_check_ts": 1794580865,
+  "last_publish_ts": 1794580949,
+  "last_check_ts": 1794580952,
   "exp_arm": {
     "CMCSA": {
       "params": {
@@ -3270,24 +3292,21 @@
     }
   },
   "last_bar_ts": 1794580800,
-  "last_decision_ts": 1794580768,
-  "next_check_minutes": 6,
+  "last_decision_ts": 1794580952,
+  "next_check_minutes": null,
   "autopiloted": true,
   "book_px": {
-    "29f73411": 60.3339,
     "be4f1303": 1417.9502,
-    "961a3d27": 102.4818,
+    "29f73411": 60.3339,
     "9013edb4": 59.8301,
     "31d277d4": 103.7671,
-    "608f9f49": 28.4247,
+    "961a3d27": 102.4818,
     "65d31b0c": 17.3323,
     "d67c22ef": 1437.1633,
-    "68b4d04e": 27.6734,
     "3d6045e1": 16.834,
     "c45e9fe1": 1388.7296,
     "df354a78": 100.298,
-    "504f2a16": 27.3637,
-    "1770ce05": 16.6743,
-    "ec023659": 58.3843
+    "ec023659": 58.3843,
+    "1770ce05": 16.6743
   }
 }
