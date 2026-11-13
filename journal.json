@@ -101058,7 +101058,9 @@
     "code_version": "5e9ac61",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.24
+    "ret_now": -0.28,
+    "ret_final": -0.28,
+    "ret_src": "realised"
   },
   {
     "symbol": "EIX",
@@ -101268,7 +101270,7 @@
     "code_version": "f894a02",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.43
+    "ret_now": -0.45
   },
   {
     "symbol": "BBIO",
@@ -101351,7 +101353,7 @@
     "code_version": "b383ded",
     "ret_1w": null,
     "ret_1m": null,
-    "ret_now": -0.16
+    "ret_now": -0.17
   },
   {
     "symbol": "ENOV",
@@ -101460,5 +101462,31 @@
     "hour_et": 14,
     "code_version": "fc935e6",
     "hold_minutes": 55
+  },
+  {
+    "symbol": "CMCSA",
+    "side": "sell",
+    "qty": 29.785464,
+    "status": "filled",
+    "price": 25.11,
+    "proceeds": 747.91,
+    "realized_pnl": -2.09,
+    "realized_pct": -0.28,
+    "date": "2026-11-13",
+    "time_et": "15:01",
+    "ts": 1794600094,
+    "why": "held 120 min, the 120-minute limit: out regardless",
+    "signals": [
+      "autopilot",
+      "congress",
+      "intraday_limit",
+      "momentum",
+      "time_stop"
+    ],
+    "evidence": "bought 120 min ago, -0.24% unrealised",
+    "trigger": "time_stop",
+    "hour_et": 15,
+    "code_version": "099962e",
+    "hold_minutes": 119
   }
 ]

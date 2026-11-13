@@ -1,66 +1,4 @@
 
-## 2026-11-13 13:34 ET (Friday) — week 2026-W46 — budget left $19587.28 (today $54750.00 put to work, 37 buys, 30 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
-  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1Qfezp1P8Wf75nSPbSH'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25419.62 (+1.68% on $25000.00 in) · cash $20174.71 · realised +424.71
-Decision: nothing at this check. 21 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-  (cancelled 2 standing order(s) on ARE: position closed)
-- SELL 100% ARE [stop_loss @ $43.68] -> $751.01 (+0.13%) — close it all at -1.3% under the average cost
-## 2026-11-13 13:36 ET — tick — 1 sell(s), 0 buy(s) from standing orders
-
-## 2026-11-13 13:37 ET (Friday) — week 2026-W46 — budget left $20338.29 (today $54750.00 put to work, 37 buys, 31 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
-  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1QuUQTVpcnbosYiWn91'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: AUTOPILOT (no model call - the API is unavailable). Held 6 of 8 target names with $20,338 idle, so opened 1: RPM. Screen: positive one-month momentum, low in the day's range, disclosure preferred, no index funds. This is a rule, not judgement - it cannot read the news, and it keeps the loop gathering graded trades until the model returns.
-- BUY $750.00 RPM [filled] ['momentum', 'autopilot', 'congress'] — autopilot: best available on the measured screen [probation at 25% size (no hour or signal lens has proven itself yet)] | evidence: congress net buying (2 net buyers): David J. Taylor; +3.3% over the month; 63% of today's range
-~ WORKING take_profit 100% RPM @ $103.80 until 2026-11-18 — close 100% at +0.4% over the average cost
-~ WORKING stop_loss 100% RPM @ $102.50 until 2026-11-18 — close it all at -0.9% under the average cost
-~ WORKING buy_limit $500.00 RPM @ $100.33 until 2026-11-18 — average in another $500 if it falls 3.0% below the average cost
-portfolio: equity $25417.13 (+1.67% on $25000.00 in) · cash $20175.72 · realised +425.72
-Done: 0 sell(s), 1 buy(s); 21 order(s) working; budget left $19588.29 this week
-
-## 2026-11-13 13:40 ET (Friday) — week 2026-W46 — budget left $19588.29 (today $55500.00 put to work, 38 buys, 31 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
-  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1R7adrJGyUJDnkmuDwf'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25418.01 (+1.67% on $25000.00 in) · cash $20175.72 · realised +425.72
-Decision: nothing at this check. 21 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
-## 2026-11-13 13:43 ET (Friday) — week 2026-W46 — budget left $19588.29 (today $55500.00 put to work, 38 buys, 31 sells) — SIM (pretend money) via sim
-  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
-  (ASR excluded: too thinly traded ($16.8M a day) — Grupo Aeroportuario del Sureste, S. A. B. de C. V.)
-  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
-  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
-  (ECX excluded: too thinly traded ($0.8M a day) — ECARX Holdings Inc.)
-  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
-brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1RLfEnMEQLGpPV9qkhV'}
-  -> falling back to autopilot: rules only, no model call
-autopilot: autopilot: no name passed the screen (needs positive one-month momentum, room below the day's high, it must not be an index fund - and while allow_momentum_only_entries is false, congressional or insider buying behind it)
-portfolio: equity $25418.18 (+1.67% on $25000.00 in) · cash $20175.72 · realised +425.72
-Decision: nothing at this check. 21 standing order(s) working.
-  (nothing changed; not publishing - the site refreshes on its own timer)
-
 ## 2026-11-13 13:46 ET (Friday) — week 2026-W46 — budget left $19588.29 (today $55500.00 put to work, 38 buys, 31 sells) — SIM (pretend money) via sim
   (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
   (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
@@ -398,3 +336,65 @@ autopilot: autopilot: nothing to add (at the position target, out of room, or in
 portfolio: equity $25405.77 (+1.62% on $25000.00 in) · cash $23163.40 · realised +413.40
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-13 14:50 ET (Friday) — week 2026-W46 — budget left $22575.97 (today $55500.00 put to work, 38 buys, 35 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (BW excluded: share price $4.40 is below $5: the spread eats the trade — Babcock & Wilcox Enterprises, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1WV3yp516ShDd9YHwFM'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25406.10 (+1.62% on $25000.00 in) · cash $23163.40 · realised +413.40
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-13 14:53 ET (Friday) — week 2026-W46 — budget left $22575.97 (today $55500.00 put to work, 38 buys, 35 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (BW excluded: share price $4.40 is below $5: the spread eats the trade — Babcock & Wilcox Enterprises, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1WhJggDRS5yfcXH66eh'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25406.10 (+1.62% on $25000.00 in) · cash $23163.40 · realised +413.40
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-13 14:56 ET (Friday) — week 2026-W46 — budget left $22575.97 (today $55500.00 put to work, 38 buys, 35 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (BW excluded: share price $4.40 is below $5: the spread eats the trade — Babcock & Wilcox Enterprises, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1WucTqidyfhFZw8tCL4'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25406.67 (+1.63% on $25000.00 in) · cash $23163.40 · realised +413.40
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+
+## 2026-11-13 14:59 ET (Friday) — week 2026-W46 — budget left $22575.97 (today $55500.00 put to work, 38 buys, 35 sells) — SIM (pretend money) via sim
+  (AIM excluded: too thinly traded ($1.0M a day) — AIM ImmunoTech Inc.)
+  (BOTJ excluded: too thinly traded ($1.0M a day) — Bank of the James Financial Group, Inc.)
+  (BW excluded: share price $4.40 is below $5: the spread eats the trade — Babcock & Wilcox Enterprises, Inc.)
+  (CATX excluded: too thinly traded ($2.3M a day) — Perspective Therapeutics, Inc.)
+  (CRESY excluded: too thinly traded ($3.2M a day) — Cresud Sociedad Anónima, Comercial, Inmobiliaria, Financiera)
+  (EOSE excluded: share price $3.94 is below $5: the spread eats the trade — Eos Energy Enterprises, Inc.)
+  (past the entry cutoff - no_new_entries_after_et or the last max_hold_minutes: no new entries at this check)
+brain unavailable: Error code: 400 - {'type': 'error', 'error': {'type': 'invalid_request_error', 'message': 'Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits.'}, 'request_id': 'req_011Ch1X8dr47L7k72NrYHox5'}
+  -> falling back to autopilot: rules only, no model call
+autopilot: autopilot: nothing to add (at the position target, out of room, or inside the last max_hold_minutes of the session)
+portfolio: equity $25406.26 (+1.63% on $25000.00 in) · cash $23163.40 · realised +413.40
+Decision: nothing at this check. 6 standing order(s) working.
+  (nothing changed; not publishing - the site refreshes on its own timer)
+- SELL 100% CMCSA [time stop] -> $747.91 (-0.28%) — held 120 min, the 120-minute limit: out regardless
+## 2026-11-13 15:01 ET — tick — 1 sell(s), 0 buy(s) from standing orders
