@@ -72187,3 +72187,6 @@ autopilot: autopilot: no name passed the screen (needs positive one-month moment
 portfolio: equity $25377.17 (+1.51% on $25000.00 in) · cash $19440.42 · realised +440.42
 Decision: nothing at this check. 6 standing order(s) working.
   (nothing changed; not publishing - the site refreshes on its own timer)
+  (cancelled 2 standing order(s) on CSQR: position closed)
+- SELL 100% CSQR [stop_loss @ $16.83] -> $2936.89 (-2.10%) — close it all at -2.1% under the average cost
+## 2026-11-13 10:09 ET — tick — 1 sell(s), 0 buy(s) from standing orders

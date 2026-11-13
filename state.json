@@ -1,6 +1,6 @@
 {
   "week": "2026-W46",
-  "spent": 6147.01,
+  "spent": 3210.12,
   "deployed": 135750.0,
   "by_ticker": {
     "CRH": 29.78,
@@ -18,7 +18,7 @@
     "ARGX": 24.08,
     "LLY": 3000.0,
     "EIX": 9.17,
-    "CSQR": 3000.0
+    "CSQR": 63.11
   },
   "deployed_by_ticker": {
     "ESAB": 17250.0,
@@ -3235,13 +3235,34 @@
       ],
       "evidence": "average cost $60.19",
       "trigger": "stop_loss"
+    },
+    {
+      "symbol": "CSQR",
+      "side": "sell",
+      "qty": 174.548806,
+      "status": "filled",
+      "price": 16.83,
+      "proceeds": 2936.89,
+      "realized_pnl": -63.11,
+      "realized_pct": -2.1,
+      "date": "2026-11-13",
+      "time_et": "10:09",
+      "ts": 1794582300,
+      "why": "close it all at -2.1% under the average cost",
+      "signals": [
+        "risk_management",
+        "auto_bracket",
+        "standing_order"
+      ],
+      "evidence": "average cost $17.19",
+      "trigger": "stop_loss"
     }
   ],
   "day": "2026-11-13",
-  "spent_today": 5978.43,
+  "spent_today": 3041.54,
   "deployed_today": 36000.0,
   "orders_today": 12,
-  "sells_today": 10,
+  "sells_today": 11,
   "sold_today": [
     "ARE",
     "CMS",
@@ -3252,7 +3273,8 @@
     "LNT",
     "ENOV",
     "RPM",
-    "EIX"
+    "EIX",
+    "CSQR"
   ],
   "sold_ts": {
     "ESAB": 1794507809,
@@ -3274,10 +3296,11 @@
     "CF": 1794580819,
     "CMCSA": 1794580865,
     "LNT": 1794580865,
-    "EIX": 1794581730
+    "EIX": 1794581730,
+    "CSQR": 1794582565
   },
-  "last_publish_ts": 1794581729,
-  "last_check_ts": 1794582484,
+  "last_publish_ts": 1794582564,
+  "last_check_ts": 1794582564,
   "exp_arm": {
     "CMCSA": {
       "params": {
@@ -3343,9 +3366,6 @@
   "book_px": {
     "d67c22ef": 1437.1633,
     "be4f1303": 1417.9502,
-    "3d6045e1": 16.834,
-    "65d31b0c": 17.3323,
-    "1770ce05": 16.6743,
     "c45e9fe1": 1388.7296
   }
 }
